@@ -1,0 +1,78 @@
+#!/usr/bin/env python3
+"""掃 reports/*.html 產生 index.html（日報存檔首頁，最新在上）。"""
+import os, re, glob, html
+from datetime import datetime
+
+ROOT = os.path.dirname(os.path.abspath(__file__))
+REPORTS = os.path.join(ROOT, "reports")
+
+# 收集 YYYY-MM-DD.html
+files = []
+for f in glob.glob(os.path.join(REPORTS, "*.html")):
+    b = os.path.basename(f)
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})\.html$", b)
+    if m:
+        files.append((b[:10], b))
+files.sort(reverse=True)  # 最新在上
+
+def weekday_zh(datestr):
+    wd = ["一", "二", "三", "四", "五", "六", "日"]
+    try:
+        return "週" + wd[datetime.strptime(datestr, "%Y-%m-%d").weekday()]
+    except Exception:
+        return ""
+
+cards = []
+for date, fname in files:
+    cards.append(f'''    <a class="card" href="reports/{html.escape(fname)}">
+      <div class="d">{html.escape(date)}</div>
+      <div class="w">{weekday_zh(date)} · iGaming 市場日報</div>
+      <div class="go">查看日報 →</div>
+    </a>''')
+
+latest = files[0][0] if files else "—"
+body_cards = "\n".join(cards) if cards else '<p style="color:#5B6675">目前沒有報告。</p>'
+
+out = f'''<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iGaming 市場日報</title>
+<style>
+  :root{{--bg:#F5F7FA;--card:#fff;--ink:#1A2230;--sub:#5B6675;--line:#E7EBF0;--accent:#1D9E75}}
+  *{{box-sizing:border-box;margin:0;padding:0}}
+  body{{background:var(--bg);color:var(--ink);font-family:-apple-system,"PingFang TC","Noto Sans TC","Segoe UI",sans-serif;line-height:1.6;padding:40px 16px}}
+  .wrap{{max-width:720px;margin:0 auto}}
+  h1{{font-size:30px;font-weight:800;letter-spacing:-.5px}}
+  .sub{{color:var(--sub);font-size:14px;margin:6px 0 26px}}
+  .latest{{display:inline-block;background:#E1F5EE;color:#0F6E56;font-size:12px;font-weight:700;padding:4px 10px;border-radius:20px;margin-bottom:22px}}
+  .list{{display:flex;flex-direction:column;gap:12px}}
+  a.card{{display:flex;align-items:center;gap:14px;background:var(--card);border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:12px;padding:16px 18px;text-decoration:none;color:inherit;transition:box-shadow .15s}}
+  a.card:hover{{box-shadow:0 4px 14px rgba(0,0,0,.07)}}
+  .card .d{{font-size:19px;font-weight:800;white-space:nowrap}}
+  .card .w{{font-size:13px;color:var(--sub);flex:1}}
+  .card .go{{font-size:13px;font-weight:700;color:var(--accent);white-space:nowrap}}
+  .foot{{margin-top:30px;font-size:12px;color:var(--sub);text-align:center;line-height:1.7}}
+  @media(max-width:520px){{.card .w{{display:none}}}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🎰 iGaming 市場日報</h1>
+  <div class="sub">每日 iGaming / 博弈產業新聞彙整 · Game Provider 新遊戲、非 Slot、主流動態、菲律賓、市場數據</div>
+  <div class="latest">最新：{html.escape(latest)}</div>
+  <div class="list">
+{body_cards}
+  </div>
+  <div class="foot">
+    自動由 daily-news-report 產出並發布 · 每則附原文連結供查證<br>
+    © iGaming Daily
+  </div>
+</div>
+</body>
+</html>
+'''
+
+open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(out)
+print(f"✓ index.html 已生成，共 {len(files)} 份報告，最新 {latest}")
