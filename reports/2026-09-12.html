@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iGaming 市場日報 2026-09-12</title>
+<style>
+  :root{
+    --bg:#F5F7FA; --card:#ffffff; --line:#E7EBF0; --ink:#1A2230; --sub:#5B6675;
+    --c1:#1D9E75; --c1-bg:#E1F5EE; --c1-fg:#0F6E56;
+    --c2:#B31217; --c2-bg:#FBE3E4; --c2-fg:#8A1015;
+    --c3:#378ADD; --c3-bg:#E6F1FB; --c3-fg:#185FA5;
+    --c4:#D97706; --c4-bg:#FBF0DD; --c4-fg:#8A5206;
+    --c5:#8B5CF6; --c5-bg:#EEE9FC; --c5-fg:#5B3FA6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.6}
+  .wrap{max-width:900px;margin:0 auto;padding:28px 18px 60px}
+  header{text-align:center;padding:18px 0 22px}
+  header .date{color:var(--sub);font-size:14px;margin-bottom:6px}
+  header h1{font-size:30px;margin:4px 0 14px}
+  .badges{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:6px}
+  .badge{font-size:12.5px;font-weight:700;padding:5px 12px;border-radius:999px}
+  .b1{background:var(--c1-bg);color:var(--c1-fg)}
+  .b2{background:var(--c2-bg);color:var(--c2-fg)}
+  .b3{background:var(--c3-bg);color:var(--c3-fg)}
+  .b4{background:var(--c4-bg);color:var(--c4-fg)}
+  .b5{background:var(--c5-bg);color:var(--c5-fg)}
+  .src-note{color:var(--sub);font-size:12px;margin-top:8px}
+
+  .stats{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:18px 0 34px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 8px;text-align:center}
+  .stat .n{font-size:22px;font-weight:800}
+  .stat .l{font-size:11.5px;color:var(--sub);margin-top:2px}
+  .stat.s1 .n{color:var(--c1)} .stat.s2 .n{color:var(--c2)} .stat.s3 .n{color:var(--c3)} .stat.s4 .n{color:var(--c4)} .stat.s5 .n{color:var(--c5)}
+
+  section{margin-bottom:38px}
+  .sec-title{display:flex;align-items:center;gap:12px;margin-bottom:16px;padding-left:14px;border-left:6px solid transparent}
+  .sec-title h2{font-size:28px;margin:0;line-height:1.2}
+  .sec-title .cnt{font-size:13px;color:var(--sub);font-weight:600}
+  .sec1{border-color:var(--c1)} .sec2{border-color:var(--c2)} .sec3{border-color:var(--c3)} .sec4{border-color:var(--c4)} .sec5{border-color:var(--c5)}
+
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:14px;position:relative}
+  .card .no{position:absolute;top:16px;right:18px;font-size:12px;font-weight:800;color:#c7ccd3}
+  .card h3{margin:0 26px 10px 0;font-size:17px}
+  .card p{margin:0 0 10px;font-size:14px;color:#333c47}
+
+  .c1{border-left:5px solid var(--c1)}
+  .c2{border-left:5px solid var(--c2)}
+  .c3{border-left:5px solid var(--c3)}
+  .c4{border-left:5px solid var(--c4)}
+  .c5{border-left:5px solid var(--c5)}
+
+  .derive{font-size:13px;color:#7a4d0b;background:#FBF3E4;border:1px solid #F0E2C6;border-radius:8px;padding:9px 12px;margin-bottom:10px}
+  .derive b{color:#9a6209;margin-right:6px}
+  .spec{background:#F2F6F4;border:1px solid #E1EAE6;border-radius:8px;padding:10px 12px;margin-bottom:10px;font-size:12.5px}
+  .spec.red{background:#FCEEEE;border-color:#F3D6D7}
+  .spec .row{display:flex;gap:10px;padding:3px 0;border-bottom:1px dashed #E1EAE6}
+  .spec.red .row{border-bottom:1px dashed #F3D6D7}
+  .spec .row:last-child{border-bottom:none}
+  .spec .k{flex:0 0 82px;font-weight:700;color:#0F6E56}
+  .spec.red .k{color:#8A1015}
+  .spec .v{color:#33403c;flex:1}
+
+  .keyrow{display:flex;flex-wrap:wrap;gap:14px;background:#F4F8FC;border:1px solid #DCE8F4;border-radius:8px;padding:9px 12px;margin-bottom:10px;font-size:12.5px}
+  .keyrow b{color:#185FA5;margin-right:5px}
+  .keyrow.amber{background:#FDF6E9;border-color:#F0DDB0}
+  .keyrow.amber b{color:#8A5206}
+
+  .tags{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  a.src{font-size:11.5px;font-weight:700;color:var(--sub);text-decoration:none;margin-left:auto;white-space:nowrap}
+  a.src:hover{text-decoration:underline}
+  .date-tag{font-size:11px;color:#9aa3ad}
+
+  .hero{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;margin-top:10px;display:block;background:#eee}
+
+  footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);color:var(--sub);font-size:12px;text-align:center}
+
+  @media (max-width:640px){
+    .stats{grid-template-columns:repeat(3,1fr)}
+    .sec-title h2{font-size:22px}
+    a.src{margin-left:0}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="date">2026年9月12日（週六）</div>
+  <h1>🎰 iGaming 市場日報</h1>
+  <div class="badges">
+    <span class="badge b1">🎰 Slot 新遊戲</span>
+    <span class="badge b2">🕹️ 非 Slot 新內容</span>
+    <span class="badge b3">🤝 主流動態</span>
+    <span class="badge b4">🇵🇭 菲律賓</span>
+    <span class="badge b5">📊 市場數據</span>
+  </div>
+  <div class="src-note">每則新聞均附真實原文連結 · 資料整理自 iGaming Business、SlotBeats、GamblingNews、AGB、Track360 等產業媒體</div>
+</header>
+
+<div class="stats">
+  <div class="stat s1"><div class="n">5</div><div class="l">🎰 Slot 新遊戲</div></div>
+  <div class="stat s2"><div class="n">3</div><div class="l">🕹️ 非 Slot</div></div>
+  <div class="stat s3"><div class="n">5</div><div class="l">🤝 主流動態</div></div>
+  <div class="stat s4"><div class="n">5</div><div class="l">🇵🇭 菲律賓</div></div>
+  <div class="stat s5"><div class="n">3</div><div class="l">📊 市場數據</div></div>
+</div>
+
+<!-- ============ CAT1 SLOT ============ -->
+<section>
+  <div class="sec-title sec1"><h2>🎰 Slot 新遊戲</h2><span class="cnt">5 則</span></div>
+
+  <div class="card c1">
+    <div class="no">01</div>
+    <h3>3 Piggies of Bank — Yggdrasil</h3>
+    <p>Yggdrasil 以豬年主題的老虎機經典題材推出新作《3 Piggies of Bank》，把「Lock'em &amp; Load'em」鎖定型獎勵機制與四種豬幣符號結合，塑造出比一般 Hold &amp; Win 更豐富的收集式玩法。作為 Yggdrasil 主力新品，官方強調角色設計、視覺識別與幽默感都經過「Yggdrasil 化」的重新詮釋，屬於品牌年度重點鋪貨之一，預期會被列入其歐洲及拉美通路的主推名單。</p>
+    <div class="derive"><b>衍生調整</b>延續豬年題材，新增「Lock'em &amp; Load'em」鎖定型獎勵機制與四種豬幣符號（狼幣、收集、加倍、神秘），較傳統 Hold &amp; Win 更具策略深度。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span class="v">線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span class="v">5×3 直式，25 條支付線</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span class="v">固定支付線制，搭配擴展野生符號（1-3 倍疊加，最高 15 倍）</span></div>
+      <div class="row"><span class="k">最高倍率</span><span class="v">5,625 倍</span></div>
+      <div class="row"><span class="k">RTP</span><span class="v">96%</span></div>
+      <div class="row"><span class="k">波動</span><span class="v">低</span></div>
+      <div class="row"><span class="k">目標市場</span><span class="v">全球線上賭場</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span class="v">Lock'em &amp; Load'em 獎勵遊戲、四級累進獎池（最高 1,000 倍）、購買獎勵選項</span></div>
+    </div>
+    <div class="tags"><span class="date-tag">2026-09-09</span><a class="src" href="https://slotbeats.com/latest-slots/3-piggies-of-bank-yggdrasil/" target="_blank" rel="noopener">SlotBeats ↗</a></div>
+    <img class="hero" src="https://resources.slotbeats.com/slotbeats/2026/09/3-Piggies-of-Bank-Yggdrasil.jpg" alt="3 Piggies of Bank" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c1">
+    <div class="no">02</div>
+    <h3>Eternal Diamonds — Pragmatic Play</h3>
+    <p>Pragmatic Play 推出以拉斯維加斯復古賭場風格為主題的新作《Eternal Diamonds》，主打三色籌碼收集機制串聯出的重轉獎勵，並邀請一位「主持人角色」隨著玩家輸贏做出反應，強化沉浸式體驗。作為 Pragmatic Play 近期主力新品之一，此作延續其近年慣用的「收集型 Respin」設計語言，鎖定高波動玩家族群，是該廠 9 月排程中的重點發布。</p>
+    <div class="derive"><b>衍生調整</b>延續 Pragmatic Play 系列慣用的「收集符號觸發 Respin」框架，新增藍/紅/綠三色籌碼分別對應倍數、擴張、額外轉數三種修飾效果，屬同類玩法的加強版。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span class="v">線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span class="v">5×3，50 條支付線</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span class="v">固定支付線，籌碼收集觸發 Respin 獎勵</span></div>
+      <div class="row"><span class="k">最高倍率</span><span class="v">20,000 倍</span></div>
+      <div class="row"><span class="k">RTP</span><span class="v">96.5%</span></div>
+      <div class="row"><span class="k">波動</span><span class="v">高</span></div>
+      <div class="row"><span class="k">目標市場</span><span class="v">未特別指定（全球線上賭場）</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span class="v">三色籌碼觸發不同 Respin 模式、集滿 15 格額外贈 10,000 倍、可購買 Respin 功能</span></div>
+    </div>
+    <div class="tags"><span class="date-tag">2026-09-11</span><a class="src" href="https://www.gamblingnews.com/news/prepare-to-be-dazzled-in-pragmatic-plays-eternal-diamonds/" target="_blank" rel="noopener">GamblingNews ↗</a></div>
+    <img class="hero" src="https://www.gamblingnews.com/wp-content/uploads/2026/09/pragmatic-play-eternal-diamonds-slots-game.jpg" alt="Eternal Diamonds" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c1">
+    <div class="no">03</div>
+    <h3>Throne of Elements: Platinum — Wazdan</h3>
+    <p>Wazdan 推出太空／守護者題材新作《Throne of Elements: Platinum》，將品牌招牌的「擴張轉軸」與「守護者驅動進程」結合，並保留 Wazdan 一貫的高自由度設定（波動等級、Ultra Fast 模式、賭博功能），走的是硬派老玩家取向的產品線。此作屬於 Wazdan 系列化開發的延伸作品，用以鞏固其在歐洲及拉美市場高波動老虎機的產品覆蓋。</p>
+    <div class="derive"><b>衍生調整</b>延續品牌「Hold the Jackpot / Cash Infinity」系列機制，新增神秘現金符號倒數轉換玩法與最多三條命的額外生命符號，屬於既有守護者題材的加強延伸版。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span class="v">線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span class="v">擴張式轉軸（25 個轉軸位）</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span class="v">擴張轉軸＋守護者驅動進程，非傳統固定支付線</span></div>
+      <div class="row"><span class="k">最高倍率</span><span class="v">2,500 倍</span></div>
+      <div class="row"><span class="k">RTP</span><span class="v">96.15%</span></div>
+      <div class="row"><span class="k">波動</span><span class="v">高</span></div>
+      <div class="row"><span class="k">目標市場</span><span class="v">全球（未特別指定地區）</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span class="v">Hold the Jackpot、Cash Infinity、可調波動等級、Ultra Fast 模式、賭博功能</span></div>
+    </div>
+    <div class="tags"><span class="date-tag">2026-09-08</span><a class="src" href="https://slotbeats.com/latest-slots/throne-of-elements-platinum-wazdan/" target="_blank" rel="noopener">SlotBeats ↗</a></div>
+    <img class="hero" src="https://resources.slotbeats.com/slotbeats/2026/09/Throne-of-Elements_-Platinum-Wazdan.jpg" alt="Throne of Elements: Platinum" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c1">
+    <div class="no">04</div>
+    <h3>Bon Bon PRAG — PopOK Gaming</h3>
+    <p>PopOK Gaming 推出糖果題材新作《Bon Bon PRAG》，作為其「PRAG」系列的最新一款，主打 6×6 級聯消除搭配「糖果炸彈」擴散機制，最高可觸發 1,000 倍/次的連鎖倍數。此作延續 PopOK 近期在東歐及亞洲市場的鋪貨策略，以高頻級聯玩法搶佔休閒型玩家，屬於品牌系列化產品的持續擴充。</p>
+    <div class="derive"><b>衍生調整</b>沿用「PRAG」系列級聯消除框架，新增「糖果炸彈」隨機擴散轉換機制與四級累進獎池，屬既有系列的機制加強版，非全新 IP。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span class="v">線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span class="v">6×6 級聯式集群消除</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span class="v">Cluster Pays + Avalanche 級聯消除</span></div>
+      <div class="row"><span class="k">最高倍率</span><span class="v">15,000 倍</span></div>
+      <div class="row"><span class="k">RTP</span><span class="v">96.88%</span></div>
+      <div class="row"><span class="k">波動</span><span class="v">未公布</span></div>
+      <div class="row"><span class="k">目標市場</span><span class="v">未特別指定</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span class="v">糖果炸彈擴散符號、12 次免費旋轉（最高 1,000 倍/轉）、四級累進獎池、可購買免費旋轉</span></div>
+    </div>
+    <div class="tags"><span class="date-tag">2026-09-03</span><a class="src" href="https://slotbeats.com/latest-slots/bon-bon-prag-popok-gaming/" target="_blank" rel="noopener">SlotBeats ↗</a></div>
+    <img class="hero" src="https://resources.slotbeats.com/slotbeats/2026/09/Bon-Bon-PRAG-PopOK-Gaming.jpg" alt="Bon Bon PRAG" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c1">
+    <div class="no">05</div>
+    <h3>3 Super Fortune Trees — Kendoo</h3>
+    <p>Kendoo 推出其熱門機制「3 Pots」的續作《3 Super Fortune Trees》，在原有的收集式獎勵遊戲上加入「Super Wheel」轉輪，讓獎勵遊戲有機會被升級為雙倍甚至三倍，是該廠商業績最好系列之一的延伸強化版。Kendoo 商務總監表示此作是「在玩家熟悉的成功公式上，加深玩法組合與深度」，鎖定東南亞及亞洲題材偏好的市場。</p>
+    <div class="derive"><b>衍生調整</b>在原版「3 Pots」機制基礎上，新增 Super Wheel 轉輪可將獎勵遊戲升級為雙倍或三倍，並加入三種獎勵符號（神秘、加倍、收集），屬既有系列的機制加強版。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span class="v">線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span class="v">5×3，25 條支付線</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span class="v">固定支付線＋收集式獎勵遊戲</span></div>
+      <div class="row"><span class="k">最高倍率</span><span class="v">1,000 倍</span></div>
+      <div class="row"><span class="k">RTP</span><span class="v">未公布</span></div>
+      <div class="row"><span class="k">波動</span><span class="v">未公布</span></div>
+      <div class="row"><span class="k">目標市場</span><span class="v">亞洲吉祥題材偏好市場</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span class="v">Super Wheel 升級轉輪、三種獎勵符號、mini/minor/major 累進獎池</span></div>
+    </div>
+    <div class="tags"><span class="date-tag">2026-09-10</span><a class="src" href="https://slotbeats.com/latest-slots/3-super-fortune-trees-kendoo/" target="_blank" rel="noopener">SlotBeats ↗</a></div>
+    <img class="hero" src="https://resources.slotbeats.com/slotbeats/2026/09/Screenshot-2026-09-10-at-10.32.57.jpg" alt="3 Super Fortune Trees" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+</section>
+
+<!-- ============ CAT2 非 SLOT ============ -->
+<section>
+  <div class="sec-title sec2"><h2>🕹️ 非 Slot 新內容</h2><span class="cnt">3 則</span></div>
+
+  <div class="card c2">
+    <div class="no">01</div>
+    <h3>AviaX — Maxxi Labs（Gacha 工作室）</h3>
+    <p>新成立的六工作室聯盟 Maxxi Labs 旗下工作室 Gacha，在 SBC Summit Lisbon 展前預告即將推出的快節奏 Crash 遊戲《AviaX》，屬中波動設定，飛機式係數攀升最高可達 10,000 倍。此作是 Maxxi Labs 10 月產品排程的其中一款，展現該集合體「一個整合、六種創意風格」的定位策略，鎖定想要差異化 Crash 產品線的營運商。</p>
+    <div class="derive"><b>衍生調整</b>全新 IP，無衍生（Maxxi Labs 旗下 Gacha 工作室首發作品）。</div>
+    <div class="spec red">
+      <div class="row"><span class="k">遊戲類型</span><span class="v">其他類型遊戲（Crash 快節奏遊戲）</span></div>
+      <div class="row"><span class="k">最高倍率</span><span class="v">10,000 倍</span></div>
+      <div class="row"><span class="k">RTP</span><span class="v">97.00%</span></div>
+      <div class="row"><span class="k">目標市場</span><span class="v">未特別指定（全球營運商通路）</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span class="v">中波動設定、單/雙注同時下注、預計 2026 年 10 月 7 日正式上線</span></div>
+    </div>
+    <div class="tags"><span class="date-tag">2026-09-02</span><a class="src" href="https://www.onlinegambling24.com/maxxi-labs-studio-collection-opens-doors-this-september/" target="_blank" rel="noopener">Onlinegambling24 ↗</a></div>
+  </div>
+
+  <div class="card c2">
+    <div class="no">02</div>
+    <h3>Infinity Crash — Galaxsys</h3>
+    <p>Galaxsys 旗下 Crash 遊戲《Infinity》捨棄傳統「一局一局」的固定回合設計，改採係數永不歸零、持續即時波動的連續型玩法，玩家下注時鎖定當下係數，並在短時間窗口內判斷係數走勢。此作代表 Crash 品類設計持續往「去回合化」方向演進，也是 Galaxsys 在快節奏遊戲產品線上的差異化嘗試。</p>
+    <div class="derive"><b>衍生調整</b>與傳統回合制 Crash 遊戲不同，改為係數永不重置的連續型系統，屬於品類機制上的結構性創新。</div>
+    <div class="spec red">
+      <div class="row"><span class="k">遊戲類型</span><span class="v">其他類型遊戲（Crash 快節奏遊戲）</span></div>
+      <div class="row"><span class="k">最高倍率</span><span class="v">未公布</span></div>
+      <div class="row"><span class="k">RTP</span><span class="v">97.62%</span></div>
+      <div class="row"><span class="k">目標市場</span><span class="v">未特別指定</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span class="v">無手動兌現的自動現金化機制、可同時下多注、係數在 1x 至 1,000x 間持續即時波動</span></div>
+    </div>
+    <div class="tags"><span class="date-tag">2026-07-22</span><a class="src" href="https://igamingbusiness.com/casino-games/slots/infinity-crash-by-galaxsys/" target="_blank" rel="noopener">iGaming Business ↗</a></div>
+    <img class="hero" src="https://igamingbusiness.com/wp-content/uploads/2026/07/infinity-crash.jpg" alt="Infinity Crash" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c2">
+    <div class="no">03</div>
+    <h3>Bingo Twist — Kendoo</h3>
+    <p>Kendoo 推出《Bingo Twist》，把賓果連線玩法嫁接到業界最常被複製的 Hold and Win 獎勵框架上，玩家在 5×5 賓果盤面上透過連線觸發倍數與獎池，而非單純填滿現金格子。官方表示此作用意在於「用玩家熟悉的機制，帶來全新的目標感」，是 Kendoo 針對 Hold and Win 同質化競爭做出的差異化嘗試。</p>
+    <div class="derive"><b>衍生調整</b>在標準 Hold and Win 重轉框架基礎上，改以 5×5 賓果連線取代填格子的傳統目標，並加入龍捲風功能作為第二觸發途徑，屬機制混合創新。</div>
+    <div class="spec red">
+      <div class="row"><span class="k">遊戲類型</span><span class="v">其他類型遊戲（Bingo 賓果機制）</span></div>
+      <div class="row"><span class="k">最高倍率</span><span class="v">1,000 倍（Grand Jackpot，需完成 10 條連線）</span></div>
+      <div class="row"><span class="k">RTP</span><span class="v">未公布</span></div>
+      <div class="row"><span class="k">目標市場</span><span class="v">未特別指定</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span class="v">5×5 賓果連線觸發倍數與 mini/minor/major 獎池、龍捲風功能提供第二觸發路徑、兩種購買獎勵選項</span></div>
+    </div>
+    <div class="tags"><span class="date-tag">2026-08-20</span><a class="src" href="https://europeangaming.eu/portal/press-releases/2026/08/20/212974/kendoo-bingo-twist-slot/" target="_blank" rel="noopener">European Gaming ↗</a></div>
+    <img class="hero" src="https://media.europeangaming.eu/uploads/2026/08/Kendoo-launches-Bingo-Twist-with-a-bingo-style-Hold-and-Win-bonus.jpg" alt="Bingo Twist" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+</section>
+
+<!-- ============ CAT3 主流動態 ============ -->
+<section>
+  <div class="sec-title sec3"><h2>🤝 動態：主流 GP / 平台</h2><span class="cnt">5 則</span></div>
+
+  <div class="card c3">
+    <div class="no">01</div>
+    <h3>Stake 御用工作室分拆獨立成立 B2B 供應商「Juice」</h3>
+    <p>原本專為 Stake.com 開發獨家遊戲的工作室團隊，正式分拆成立全新 B2B iGaming 供應商 Juice，並將旗下超過 100 款遊戲整合進單一遠端遊戲伺服器，開放給市場上所有營運商使用，首個合作對象為 Roobet。這批遊戲過去單在 Stake 就創造超過 120 億美元投注額，如今轉為全市場開放，象徵加密貨幣賭場的專屬內容供應鏈開始走向公開市場，未來預計每週推出新遊戲並拓展至受監管市場。</p>
+    <div class="keyrow"><span><b>類型</b>產品線/組織重整</span><span><b>對象</b>Stake、Juice（Twist Gaming 等五間工作室）、Roobet</span><span><b>影響</b>加密貨幣賭場專屬內容首度開放全市場</span></div>
+    <div class="tags"><span class="date-tag">2026-09-09</span><a class="src" href="https://igamingbusiness.com/company-news/introducing-juice-global-igaming-provider-and-the-studio-behind-stake-exclusive-launches-worldwide/" target="_blank" rel="noopener">iGaming Business ↗</a></div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">02</div>
+    <h3>EveryMatrix 併購前端體驗專家 Goma Gaming</h3>
+    <p>EveryMatrix 宣布併購前端體驗（UX）專精公司 Goma Gaming，藉此強化其博彩前端開發實力。Goma 擁有 20 年體育博彩與賭場前端工程經驗，目前客戶包含 Betsson（協助其法國市場上線），過往合作案例顯示可為一線營運商帶來平均 30% 的營收提升。這是 EveryMatrix 繼併購 Fantasma Games 與 FSB 後，近期又一樁強化技術棧的併購案。</p>
+    <div class="keyrow"><span><b>類型</b>併購</span><span><b>對象</b>EveryMatrix、Goma Gaming、Betsson</span><span><b>影響</b>持續強化 EveryMatrix 一站式技術棧</span></div>
+    <div class="tags"><span class="date-tag">2026-09-10</span><a class="src" href="https://igamingbusiness.com/strategy/ma/everymatrix-acquires-goma-gaming/" target="_blank" rel="noopener">iGaming Business ↗</a></div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">03</div>
+    <h3>Backseat Gaming 正式轉為完全獨立工作室</h3>
+    <p>歷經兩年內部開發，Backseat Gaming 正式脫離原有母體架構，轉型為擁有自有 RGS（隨機數產生系統）技術棧的完全獨立老虎機開發商。該工作室主打「簡潔玩法＋大膽風格」的產品定位，近期已與 Hub88 建立合作，並規劃為特定營運商開發專屬獨家遊戲。獨立後可實現每週穩定推出新遊戲、完全掌控產品路線圖。</p>
+    <div class="keyrow"><span><b>類型</b>組織重整</span><span><b>對象</b>Backseat Gaming、Hub88</span><span><b>影響</b>中小型工作室透過自建技術棧擺脫母體依賴</span></div>
+    <div class="tags"><span class="date-tag">2026-09-09</span><a class="src" href="https://igamingbusiness.com/company-news/backseat-gaming-launches-as-fully-independent-studio/" target="_blank" rel="noopener">iGaming Business ↗</a></div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">04</div>
+    <h3>六工作室聯盟 Maxxi Labs 正式亮相</h3>
+    <p>新品牌 Maxxi Labs 於 9 月 1 日正式啟動，以「六間工作室、一套整合」為核心定位，旗下 Bad Company、Fortune One、Gacha、Red Papaya、Slotty、Ventura Studios 各自保有獨立的視覺風格、數學模型與專長領域，透過單一整合介面對外供貨。官方強調此舉並非要讓工作室「長得一樣」，而是刻意保留差異化，並搭配可即插即用的忠誠度工具 Rewards。</p>
+    <div class="keyrow"><span><b>類型</b>合作／新品牌成立</span><span><b>對象</b>Maxxi Labs 及旗下六間工作室</span><span><b>影響</b>「多工作室單一整合」模式可能成為對抗大型聚合商的新範本</span></div>
+    <div class="tags"><span class="date-tag">2026-09-11</span><a class="src" href="https://igamingbusiness.com/company-news/six-studios-six-identities-one-collective-maxxi-labs-puts-creative-line-up-centre-stage/" target="_blank" rel="noopener">iGaming Business ↗</a></div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">05</div>
+    <h3>Spectrum Gaming 報告揭露 Evolution 合規程序缺陷</h3>
+    <p>顧問公司 Spectrum Gaming Capital 完成的一份調查報告指出，Evolution 的直播遊戲曾在阿聯酋、新加坡、香港、沙烏地阿拉伯等禁止地區被違規營運商（包括 BitCasino.com、Stake.com）提供給玩家，凸顯其客戶合規審查程序存在缺口。報告同時發現，涉案交易中近 11.5% 使用虛擬貨幣結算，預期將促使博彩供應鏈加強盡職調查與客戶審查機制。</p>
+    <div class="keyrow"><span><b>類型</b>合規／裁罰疑慮</span><span><b>對象</b>Evolution、BitCasino.com、Stake.com</span><span><b>影響</b>供應商對下游營運商合規監督責任受檢視</span></div>
+    <div class="tags"><span class="date-tag">2026-09-11</span><a class="src" href="https://igamingbusiness.com/legal-compliance/what-we-learned-from-spectrum-gamings-evolution-report/" target="_blank" rel="noopener">iGaming Business ↗</a></div>
+  </div>
+
+</section>
+
+<!-- ============ CAT4 菲律賓 ============ -->
+<section>
+  <div class="sec-title sec4"><h2>🇵🇭 動態：菲律賓 GP / 平台</h2><span class="cnt">5 則</span></div>
+
+  <div class="card c4">
+    <div class="no">01</div>
+    <h3>PAGCOR 第三場「₱1K-for-₱2M」全國聯合賓果登場</h3>
+    <p>PAGCOR 將於 9 月 13 日舉辦第三場「₱1K-for-₱2M」全國聯合賓果活動，共 10 局，前九局各設 10 萬披索獎金，最終局保證派發 200 萬披索大獎，總獎池達 290 萬披索且全數免稅。主辦場地為 Casino Filipino Angeles，並同步連線 Bacolod、Cebu、Grand Regal、Ilocos Norte、Iloilo、Olongapo、Tagaytay 等分店，NUSTAR、Okada Manila、Winford 也將作為受益場地參與。</p>
+    <div class="keyrow amber"><span><b>類型</b>運營活動</span><span><b>對象</b>PAGCOR、Casino Filipino、NUSTAR、Okada Manila、Winford</span><span><b>影響</b>維繫實體博彩場館客流與品牌能見度</span></div>
+    <div class="tags"><span class="date-tag">2026-08-13</span><a class="src" href="https://agbrief.com/news/philippines/13/08/2026/pagcor-announces-php2-9m-prize-pool-for-next-linked-bingo-event/" target="_blank" rel="noopener">AGB ↗</a></div>
+  </div>
+
+  <div class="card c4">
+    <div class="no">02</div>
+    <h3>PAGCOR B2B 供應商認證期限延至 9 月 30 日</h3>
+    <p>PAGCOR 將線上博彩系統管理者（GSA）旗下 B2B 供應商的新版認證申請期限，從原訂日期延長至 9 月 30 日，讓相關供應商有更多時間完成合規程序。此舉延續 PAGCOR 近期收緊線上博彩牌照與供應鏈監理的整體方向，未如期完成認證者可能影響其在菲律賓市場的合法營運資格。</p>
+    <div class="keyrow amber"><span><b>類型</b>政府法規</span><span><b>對象</b>PAGCOR、菲律賓線上博彩 B2B 供應商</span><span><b>影響</b>未如期完成認證的供應商可能被迫退出市場</span></div>
+    <div class="tags"><span class="date-tag">2026-08-03</span><a class="src" href="https://sccgmanagement.com/sccg-articles/2026/08/03/pagcor-extends-b2b-accreditation-deadline-to-september-30-for-philippine-online-gaming-providers/" target="_blank" rel="noopener">SCCG Management ↗</a></div>
+  </div>
+
+  <div class="card c4">
+    <div class="no">03</div>
+    <h3>Okada Manila 二度獲 Forbes「負責任款待」認證</h3>
+    <p>Okada Manila 連續第二年獲得 Forbes Travel Guide 的 VERIFIED 負責任款待（Responsible Hospitality）認證，肯定其在永續經營與服務品質上的表現。此認證延續該賭場度假村近年持續投入 ESG 與服務品質建設的策略方向，有助於強化其國際旅客與高端客群的品牌信任度。</p>
+    <div class="keyrow amber"><span><b>類型</b>認證／運營活動</span><span><b>對象</b>Okada Manila</span><span><b>影響</b>強化國際旅遊市場的品牌形象與信任度</span></div>
+    <div class="tags"><span class="date-tag">2026-09-11</span><a class="src" href="https://okadamanila.com/okada-manila-earns-forbes-verified-responsible-hospitality-badge-for-second-consecutive-year" target="_blank" rel="noopener">Okada Manila ↗</a></div>
+  </div>
+
+  <div class="card c4">
+    <div class="no">04</div>
+    <h3>Udenna 擬承接 Cebu Emerald Bay 失敗項目債務</h3>
+    <p>母公司 Udenna Corp 正研議透過企業重組方案，承接旗下 Cebu「Emerald Bay」失敗開發項目的債務，此前 Solaire 母公司 Bloomberry Resorts 與 Okada Manila 母公司 Tiger Resort, Leisure and Entertainment（TRLEI）皆已選擇不參與該項目的投資。此案顯示菲律賓部分大型地產型賭場開發案仍面臨資金壓力，也反映主要博彩集團對高風險新開發案趨於保守。</p>
+    <div class="keyrow amber"><span><b>類型</b>財務重組</span><span><b>對象</b>Udenna Corp、Bloomberry Resorts、Tiger Resort/TRLEI</span><span><b>影響</b>主要集團對高風險新開發案轉趨保守</span></div>
+    <div class="tags"><span class="date-tag">2026-09-07</span><a class="src" href="https://asgam.com/2026/09/07/developer-of-cebus-failed-emerald-bay-project-to-be-relieved-of-debt-by-parent-udenna-corp-under-proposed-corporate-restructuring/" target="_blank" rel="noopener">IAG ↗</a></div>
+  </div>
+
+  <div class="card c4">
+    <div class="no">05</div>
+    <h3>IAG EXPO 2026 獲 PAGCOR 正式背書</h3>
+    <p>Inside Asian Gaming 主辦的 IAG EXPO 2026（9 月 7 日至 10 日於馬尼拉舉行）獲得 PAGCOR 正式背書支持，活動內容涵蓋首屆 iGaming Discovery and Exchange Asia-Pacific（iDEA）峰會、歡迎酒會 Manila After Dark、IAG 展覽、IAG Academy 峰會及監理機構論壇等。PAGCOR 的正式背書顯示菲律賓政府持續支持將馬尼拉打造為亞太區博彩會展重鎮的定位。</p>
+    <div class="keyrow amber"><span><b>類型</b>政府支持／展會</span><span><b>對象</b>PAGCOR、Inside Asian Gaming、IAG EXPO</span><span><b>影響</b>強化馬尼拉作為亞太博彩會展樞紐的定位</span></div>
+    <div class="tags"><span class="date-tag">2026-02-25</span><a class="src" href="https://asgam.com/2026/02/25/2026-iag-expo-receives-glowing-endorsement-from-pagcor/" target="_blank" rel="noopener">IAG ↗</a></div>
+  </div>
+
+</section>
+
+<!-- ============ CAT5 市場數據 ============ -->
+<section>
+  <div class="sec-title sec5"><h2>📊 市場數據 &amp; 趨勢</h2><span class="cnt">3 則</span></div>
+
+  <div class="card c5">
+    <div class="no">01</div>
+    <h3>英國稅制推升下，老虎機 RTP 配置全面調降</h3>
+    <p>Track360 最新報告指出，英國遠程遊戲稅（Remote Gaming Duty）於 2026 年 4 月 1 日從 21% 大幅調升至 40% 後，營運商已開始將標準老虎機 RTP 從約 96% 下調至 94%，部分供應商協商版本甚至探到 92% 下限。以 Hacksaw Gaming 公開列示的《Wanted Dead or a Wild》為例，同款遊戲同時存在 96.38%、94.55%、92.33%、88.42% 四種認證版本，顯示 RTP 早已是可配置的營運策略選項，而非遊戲的固定屬性；RTP 從 96% 降至 94%，可讓單位營收邊際利潤提升約 50%。</p>
+    <div class="tags"><span class="date-tag">2026-07-18（每季審核更新）</span><a class="src" href="https://track360.io/blog/slot-rtp-benchmarks-by-provider-reference-2026" target="_blank" rel="noopener">Track360 ↗</a></div>
+  </div>
+
+  <div class="card c5">
+    <div class="no">02</div>
+    <h3>Crash 遊戲攻佔 Gen Z 錢包，Aviator 月活年增近倍</h3>
+    <p>Virlan.co 最新報告顯示，Gen Z 玩家平均每月投注支出達 187 美元，反觀嬰兒潮世代降至 142 美元（年增率分別為 +34% 與 -3%），美國每四美元賭資中已有近一美元來自 Gen Z。相較傳統老虎機平均 10-30 秒一轉的被動節奏，Crash 遊戲以 3-5 秒一局的高頻節奏、即時聊天與排行榜等社交元素，更貼合年輕玩家偏好；Spribe 旗下 Aviator 的全球月活躍玩家已從 2024 年的 4,200 萬暴增至 2025 年超過 7,700 萬，處理投注量達 1,600 億歐元。</p>
+    <div class="tags"><span class="date-tag">2026-09-12</span><a class="src" href="https://www.virlan.co/casino/crash-games-vs-slots-2026-gen-z-igaming-trends/" target="_blank" rel="noopener">Virlan.co ↗</a></div>
+  </div>
+
+  <div class="card c5">
+    <div class="no">03</div>
+    <h3>全球線上博彩市場規模達 880-997 億美元，歐美市場持續雙位數成長</h3>
+    <p>Track360 彙整多方數據顯示，2025 年全球線上博彩市場規模估值介於 880 億至 997 億美元之間（差異來自是否納入運彩、撲克、彩票與灰色市場）。區域表現上，歐洲 2025 年線上博彩市場約達 511 億歐元，EGBA 會員營運商線上 GGR 達 180 億歐元，年增 34%；美國線上賭場 2025 年 GGR 達 107.3 億美元，年增 27.6%；英國線上賭場在 2024 年 4 月至 2025 年 3 月期間創造 50 億英鎊毛博彩收益。</p>
+    <div class="tags"><span class="date-tag">2026-07-18（每季審核更新）</span><a class="src" href="https://track360.io/blog/online-casino-statistics-2026" target="_blank" rel="noopener">Track360 ↗</a></div>
+  </div>
+
+</section>
+
+<footer>
+  daily-news-report v4.1 五大分類版 · 每則新聞均附真實可點擊原文連結 · EEZE 因近 3 天內（09-10）已收錄其 Malta 總部擴張議題，本日跳過<br>
+  由 Claude Code 自動彙整產出 · 產出時間 2026-09-12 18:44 (Asia/Taipei)
+</footer>
+
+</div>
+</body>
+</html>
