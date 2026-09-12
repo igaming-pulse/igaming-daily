@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OutputLogic — iGaming 市場日報 運作說明</title>
+<style>
+  :root{--bg:#F5F7FA;--card:#fff;--ink:#1A2230;--sub:#5B6675;--line:#E7EBF0;--accent:#1D9E75;--accent2:#0F6E56}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:-apple-system,"PingFang TC","Noto Sans TC","Segoe UI",sans-serif;line-height:1.75;padding:36px 16px}
+  .wrap{max-width:960px;margin:0 auto}
+  a{color:#185FA5}
+  .back{font-size:13px;color:var(--sub);text-decoration:none}
+  h1{font-size:30px;font-weight:800;letter-spacing:-.5px;margin:10px 0 4px}
+  .sub{color:var(--sub);font-size:14px;margin-bottom:6px}
+  .h2{font-size:22px;font-weight:800;margin:34px 0 14px;padding-left:12px;border-left:6px solid var(--accent)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px}
+  .card h3{font-size:15px;font-weight:800;color:var(--accent2);margin-bottom:10px}
+  .arch{font-size:15px;line-height:1.95;text-align:justify}
+  .arch strong{color:var(--accent2)}
+  pre.mermaid{background:#fff;text-align:center;overflow-x:auto;margin:0}
+  .nav{font-size:12.5px;color:var(--sub);background:#EEF6F2;border:1px solid #D6EAE0;border-radius:10px;padding:10px 14px;margin-bottom:16px;line-height:2}
+  .nav a{color:var(--accent2);text-decoration:none;white-space:nowrap}
+  h3.cat{display:flex;align-items:center;gap:10px;font-size:18px;font-weight:800;margin:26px 0 10px;padding-left:10px;border-left:5px solid var(--accent)}
+  h3.cat .badge{font-size:12px;font-weight:700;background:#E1F5EE;color:var(--accent2);padding:2px 9px;border-radius:20px}
+  h3.cat .top{margin-left:auto;font-size:12px;font-weight:600;color:var(--sub);text-decoration:none}
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:#fff}
+  table{border-collapse:collapse;width:100%;font-size:13px}
+  thead th{position:sticky;top:0;background:#F2F6F4;color:var(--accent2);text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
+  td{padding:9px 12px;border-bottom:1px solid #F0F2F5;vertical-align:top}
+  tr:last-child td{border-bottom:none}
+  td.no{color:var(--sub);width:48px}
+  td a{word-break:break-all}
+  td.note{color:#4a5563;min-width:200px}
+  .foot{margin-top:30px;padding-top:16px;border-top:1px solid var(--line);font-size:12px;color:var(--sub);text-align:center;line-height:1.8}
+  @media(max-width:640px){h1{font-size:24px}.h2{font-size:19px}}
+</style>
+</head>
+<body>
+<div class="wrap" id="top">
+  <a class="back" href="../">← 回 iGaming 市場日報</a>
+  <h1>🎰 OutputLogic — 運作說明</h1>
+  <div class="sub">iGaming 市場日報如何自動生成、涵蓋哪些來源、用什麼邏輯判斷與排序</div>
+
+  <div class="h2">一、生成的基本架構</div>
+  <div class="card"><p class="arch">本日報為<strong>全自動</strong>產物：每天<strong>台北時間 02:30</strong> 由排程觸發（半夜跑，讓運算用量在上班前就退出額度視窗；Email 於 02:30 即時寄出，Telegram 通知則延到 <strong>06:30</strong> 由系統排程零額外成本發送）。流程先<strong>同步來源庫</strong>——以 Excel 主檔 igaming-daily-report-sources-v2.xlsx（目前 <strong>218 個來源、10 大分類</strong>）為唯一真相，重建成程式讀取的 sources.md；主檔若遺失會自動反向重建。接著<strong>抓取新聞</strong>：跨分類主動取材，被擋的站改用 Firecrawl（不觸發逐站授權），並依五大分類（🎰 Slot 新遊戲、🕹️ 非 Slot、🤝 主流動態、🇵🇭 菲律賓、📊 市場數據）歸位。<strong>辨識與優先級</strong>依序判斷：先分類，再看是否為「優先展示品牌」（Yggdrasil、Jili、DigiPlus 等）與市場衝擊性，高者排前、寧缺毋濫。每則都要<strong>交叉查證</strong>：至少再找一個獨立來源佐證、用官網／SlotCatalog 補全參數、遇數據衝突以最權威來源為準並標註——且<strong>只增不減</strong>，基本參數（盤面／倍率／RTP／波動）必須填滿。最後渲染成精美 HTML、發布 GitHub Pages，並附上「本日查詢約 N 個網站、提取 N 個來源交叉比對」的統計。</p></div>
+
+  <div class="h2">二、運作邏輯（流程圖）</div>
+  <div class="card"><h3>2-1　每日總流程</h3><pre class="mermaid">
+flowchart TD
+  T["⏰ 每天 02:30 觸發"] --> S0["步驟0 同步來源庫<br/>xlsx → sources.md（218 源）"]
+  S0 --> S1["步驟1 抓新聞<br/>五大分類 · 交叉查證"]
+  S1 --> S2["步驟2 渲染精美 HTML"]
+  S2 --> S3["步驟3 發布 GitHub Pages"]
+  S3 --> S4["步驟4 Email 即時寄出 ✉️"]
+  S4 --> P["預存 Telegram 訊息（不即時發）"]
+  P --> S6["步驟6 回報"]
+  P -. "06:30 launchd · 零 token" .-> TG["📲 Telegram 推播"]
+</pre></div>
+  <div class="card"><h3>2-2　新聞分類辨識</h3><pre class="mermaid">
+flowchart TD
+  N["一則新聞"] --> Q1{"是新遊戲？"}
+  Q1 -- "是 · Slot" --> C1["🎰 cat1 Slot 新遊戲"]
+  Q1 -- "是 · 非 Slot（Crash/Live/Bingo）" --> C2["🕹️ cat2 非 Slot"]
+  Q1 -- "否" --> Q2{"是趨勢/數據/報告？"}
+  Q2 -- "是" --> C5["📊 cat5 市場數據"]
+  Q2 -- "否" --> Q3{"涉及菲律賓廠商/平台/PAGCOR？"}
+  Q3 -- "是" --> C4["🇵🇭 cat4 菲律賓"]
+  Q3 -- "否" --> C3["🤝 cat3 主流動態"]
+</pre></div>
+  <div class="card"><h3>2-3　優先級判斷</h3><pre class="mermaid">
+flowchart LR
+  A["候選新聞"] --> B{"優先展示品牌？"}
+  B -- "是（Yggdrasil/Jili/DigiPlus…）" --> P1["排該區前段"]
+  B -- 否 --> C{"市場衝擊性高？"}
+  C -- 高 --> P2["優先收錄"]
+  C -- 低 --> P3["寧缺毋濫 · 可略過"]
+</pre></div>
+  <div class="card"><h3>2-4　交叉查證（只增不減）</h3><pre class="mermaid">
+flowchart TD
+  X["取得一則（單一來源）"] --> Y["找 ≥1 個獨立來源佐證"]
+  Y --> Z["補全參數：SlotCatalog／Provider 官網"]
+  Z --> W{"多來源數據衝突？"}
+  W -- 是 --> W1["以最權威來源為準<br/>＋標註『各來源不一』"]
+  W -- 否 --> W2["保留並增豐（只增不減）"]
+  W1 --> O["列出所有查證來源 → 輸出"]
+  W2 --> O
+</pre></div>
+  <div class="card"><h3>2-5　來源庫維護（雙向同步 · 自癒）</h3><pre class="mermaid">
+flowchart LR
+  XLSX["📗 主檔 xlsx<br/>218 源 · 唯一真相"] -->|"每天 02:30 同步"| MD["📄 sources.md（skill 讀取）"]
+  MD -.->|"xlsx 遺失 → 自癒重建"| XLSX
+</pre></div>
+
+  <div class="h2">三、資料來源總表（共 218 個 · 依主檔 xlsx 五欄）</div>
+  <div class="nav"><a href="#cat0">Provider 官網（24）</a> · <a href="#cat1">產品分析／評測（11）</a> · <a href="#cat2">產業媒體（95）</a> · <a href="#cat3">產業協會／技術認證機構（23）</a> · <a href="#cat4">市場數據／分析公司（18）</a> · <a href="#cat5">監理機關／官方數據（16）</a> · <a href="#cat6">展會（19）</a> · <a href="#cat7">論壇／社群（6）</a> · <a href="#cat8">Podcast／影音（5）</a> · <a href="#cat9">已停用（1）</a></div>
+  <h3 id="cat0" class="cat">Provider 官網<span class="badge">24</span><a class="top" href="#top">↑ 回頂部</a></h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>備註</th></tr></thead>
+    <tbody>
+      <tr><td class="no">1</td><td>Pragmatic Play</td><td><a href="https://pragmaticplay.com/en/news/" target="_blank" rel="noopener">https://pragmaticplay.com/en/news/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">2</td><td>PG Soft</td><td><a href="https://pgsoft.com/en/news/" target="_blank" rel="noopener">https://pgsoft.com/en/news/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">3</td><td>Jili</td><td><a href="https://jiligames.com/" target="_blank" rel="noopener">https://jiligames.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">4</td><td>Play&#x27;n GO</td><td><a href="https://www.playngo.com/" target="_blank" rel="noopener">https://www.playngo.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">5</td><td>NetEnt</td><td><a href="https://www.netent.com/" target="_blank" rel="noopener">https://www.netent.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">6</td><td>Red Tiger Gaming</td><td><a href="https://redtiger.com/" target="_blank" rel="noopener">https://redtiger.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">7</td><td>Spribe</td><td><a href="https://spribe.co/" target="_blank" rel="noopener">https://spribe.co/</a></td><td class="note">Provider 官網（Crash 代表廠商）</td></tr>
+      <tr><td class="no">8</td><td>POP Ok (Popok Gaming)</td><td><a href="https://www.popokgaming.com/" target="_blank" rel="noopener">https://www.popokgaming.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">9</td><td>Big Pot Gaming</td><td><a href="https://www.bigpotgaming.com/" target="_blank" rel="noopener">https://www.bigpotgaming.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">10</td><td>Hacksaw Gaming</td><td><a href="https://hacksawgaming.com/" target="_blank" rel="noopener">https://hacksawgaming.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">11</td><td>Nolimit City</td><td><a href="https://nolimitcity.com/" target="_blank" rel="noopener">https://nolimitcity.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">12</td><td>Thunderkick</td><td><a href="https://www.thunderkick.com/" target="_blank" rel="noopener">https://www.thunderkick.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">13</td><td>Big Time Gaming (BTG)</td><td><a href="https://www.bigtimegaming.com/" target="_blank" rel="noopener">https://www.bigtimegaming.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">14</td><td>Yggdrasil Gaming</td><td><a href="https://www.yggdrasilgaming.com/" target="_blank" rel="noopener">https://www.yggdrasilgaming.com/</a></td><td class="note">Provider 官網；⭐優先展示品牌</td></tr>
+      <tr><td class="no">15</td><td>Betsoft Gaming</td><td><a href="https://www.betsoft.com/" target="_blank" rel="noopener">https://www.betsoft.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">16</td><td>Fantasma Games</td><td><a href="https://fantasmagames.com/" target="_blank" rel="noopener">https://fantasmagames.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">17</td><td>ELK Studios</td><td><a href="https://elkstudios.com/" target="_blank" rel="noopener">https://elkstudios.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">18</td><td>Print Studios</td><td><a href="https://www.printstudios.com/" target="_blank" rel="noopener">https://www.printstudios.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">19</td><td>Relax Gaming</td><td><a href="https://www.relaxgaming.com/" target="_blank" rel="noopener">https://www.relaxgaming.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">20</td><td>4ThePlayer</td><td><a href="https://4theplayer.com/" target="_blank" rel="noopener">https://4theplayer.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">21</td><td>AvatarUX</td><td><a href="https://avatarux.com/" target="_blank" rel="noopener">https://avatarux.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">22</td><td>Kalamba Games</td><td><a href="https://kalambagames.com/" target="_blank" rel="noopener">https://kalambagames.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">23</td><td>Peter &amp; Sons</td><td><a href="https://peterandsonsgames.com/" target="_blank" rel="noopener">https://peterandsonsgames.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">24</td><td>CP Game</td><td><a href="https://cpgames.com/" target="_blank" rel="noopener">https://cpgames.com/</a></td><td class="note">Provider 官網</td></tr>
+    </tbody></table></div>
+  <h3 id="cat1" class="cat">產品分析／評測<span class="badge">11</span><a class="top" href="#top">↑ 回頂部</a></h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>備註</th></tr></thead>
+    <tbody>
+      <tr><td class="no">25</td><td>Clash of Slots</td><td><a href="https://clashofslots.com" target="_blank" rel="noopener">https://clashofslots.com</a></td><td class="note">bonus hit rate、variance、max multiplier 統計</td></tr>
+      <tr><td class="no">26</td><td>SlotCatalog — New Games</td><td><a href="https://slotcatalog.com/en/slots/new" target="_blank" rel="noopener">https://slotcatalog.com/en/slots/new</a></td><td class="note">全站新遊戲上線清單</td></tr>
+      <tr><td class="no">27</td><td>SlotCatalog — Jili</td><td><a href="https://slotcatalog.com/en/soft/Jili" target="_blank" rel="noopener">https://slotcatalog.com/en/soft/Jili</a></td><td class="note">Jili 新遊戲、RTP、volatility 數據</td></tr>
+      <tr><td class="no">28</td><td>SlotCatalog — PG Soft</td><td><a href="https://slotcatalog.com/en/soft/PG-Soft" target="_blank" rel="noopener">https://slotcatalog.com/en/soft/PG-Soft</a></td><td class="note">PG Soft 新遊戲、機制數據</td></tr>
+      <tr><td class="no">29</td><td>SlotCatalog — Pragmatic Play</td><td><a href="https://slotcatalog.com/en/soft/Pragmatic-Play" target="_blank" rel="noopener">https://slotcatalog.com/en/soft/Pragmatic-Play</a></td><td class="note">PP 新遊戲、機制數據，含待發布排程</td></tr>
+      <tr><td class="no">30</td><td>Casino Guru</td><td><a href="https://casino.guru" target="_blank" rel="noopener">https://casino.guru</a></td><td class="note">遊戲機制解析、Provider 評測、玩家投訴資料庫</td></tr>
+      <tr><td class="no">31</td><td>AskGamblers</td><td><a href="https://www.askgamblers.com" target="_blank" rel="noopener">https://www.askgamblers.com</a></td><td class="note">Slot variance 分析、Provider 評論</td></tr>
+      <tr><td class="no">32</td><td>iGamingToday</td><td><a href="https://www.igamingtoday.com" target="_blank" rel="noopener">https://www.igamingtoday.com</a></td><td class="note">Provider 新聞角度的評測與分析</td></tr>
+      <tr><td class="no">33</td><td>Gamingsoft Blog</td><td><a href="https://www.gamingsoft.com/blog/" target="_blank" rel="noopener">https://www.gamingsoft.com/blog/</a></td><td class="note">B2B 視角 Provider 評測，關注營運整合</td></tr>
+      <tr><td class="no">34</td><td>EZ Slot Design</td><td><a href="https://ezslotdesign.com/" target="_blank" rel="noopener">https://ezslotdesign.com/</a></td><td class="note">Slot 遊戲設計分析，設計師視角拆解玩法機制</td></tr>
+      <tr><td class="no">35</td><td>P-WORLD</td><td><a href="https://www.p-world.co.jp/" target="_blank" rel="noopener">https://www.p-world.co.jp/</a></td><td class="note">日本遊技機資料庫；子頁 introduce_calendar.cgi 為★新台上市日期／規格／導入店數，日本機種情報最關鍵單一來源</td></tr>
+    </tbody></table></div>
+  <h3 id="cat2" class="cat">產業媒體<span class="badge">95</span><a class="top" href="#top">↑ 回頂部</a></h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>備註</th></tr></thead>
+    <tbody>
+      <tr><td class="no">36</td><td>AGB（Asia Gaming Brief）</td><td><a href="https://agbrief.com" target="_blank" rel="noopener">https://agbrief.com</a></td><td class="note">東南亞 iGaming 專業媒體，Jili 報導最完整</td></tr>
+      <tr><td class="no">37</td><td>iGaming Business</td><td><a href="https://igamingbusiness.com/news/" target="_blank" rel="noopener">https://igamingbusiness.com/news/</a></td><td class="note">Provider 合作、盤口動向、市場數據</td></tr>
+      <tr><td class="no">38</td><td>CasinoBeats</td><td><a href="https://casinobeats.com" target="_blank" rel="noopener">https://casinobeats.com</a></td><td class="note">Provider 新遊戲、合作消息</td></tr>
+      <tr><td class="no">39</td><td>SBC News</td><td><a href="https://sbcnews.co.uk" target="_blank" rel="noopener">https://sbcnews.co.uk</a></td><td class="note">盤口動態、Provider 合作</td></tr>
+      <tr><td class="no">40</td><td>Gambling Insider</td><td><a href="https://gamblinginsider.com/news/" target="_blank" rel="noopener">https://gamblinginsider.com/news/</a></td><td class="note">盤口市場數據、M&amp;A、財務動態</td></tr>
+      <tr><td class="no">41</td><td>Yogonet International</td><td><a href="https://www.yogonet.com/international/" target="_blank" rel="noopener">https://www.yogonet.com/international/</a></td><td class="note">全球市場動態、M&amp;A（每日主力來源之一）</td></tr>
+      <tr><td class="no">42</td><td>EGR Global</td><td><a href="https://egr.global/news/" target="_blank" rel="noopener">https://egr.global/news/</a></td><td class="note">盤口排名、Provider 表現</td></tr>
+      <tr><td class="no">43</td><td>Business of iGaming</td><td><a href="https://www.businessofigaming.com/provider-power-ranking/" target="_blank" rel="noopener">https://www.businessofigaming.com/provider-power-ranking/</a></td><td class="note">Provider 市場佔比 power ranking</td></tr>
+      <tr><td class="no">44</td><td>iGaming Expert</td><td><a href="https://igamingexpert.com" target="_blank" rel="noopener">https://igamingexpert.com</a></td><td class="note">Provider 動態新聞</td></tr>
+      <tr><td class="no">45</td><td>iGaming.news — Slots</td><td><a href="https://igaming.news/category/slots/" target="_blank" rel="noopener">https://igaming.news/category/slots/</a></td><td class="note">Slot 分類快訊</td></tr>
+      <tr><td class="no">46</td><td>Yogonet — Pragmatic Play 專頁</td><td><a href="https://www.yogonet.com/international/topics/pragmatic-play/" target="_blank" rel="noopener">https://www.yogonet.com/international/topics/pragmatic-play/</a></td><td class="note">按 Provider 分類的新聞彙整</td></tr>
+      <tr><td class="no">47</td><td>CDC Gaming</td><td><a href="https://cdcgaming.com/" target="_blank" rel="noopener">https://cdcgaming.com/</a></td><td class="note">美國博彩媒體，含 Provider 與市場報導</td></tr>
+      <tr><td class="no">48</td><td>NEXT.io</td><td><a href="https://next.io/news/" target="_blank" rel="noopener">https://next.io/news/</a></td><td class="note">業內分析，含 Provider 產品設計深度文章</td></tr>
+      <tr><td class="no">49</td><td>Stake Blog</td><td><a href="https://stake.com/blog" target="_blank" rel="noopener">https://stake.com/blog</a></td><td class="note">現金網官方公告，需瀏覽器模式抓取</td></tr>
+      <tr><td class="no">50</td><td>iGB – Casino Games</td><td><a href="https://igamingbusiness.com/casino-games/" target="_blank" rel="noopener">https://igamingbusiness.com/casino-games/</a></td><td class="note">Slot／Provider 產品線報導；iGaming Business 子版</td></tr>
+      <tr><td class="no">51</td><td>iGB – Publications</td><td><a href="https://igamingbusiness.com/publications/" target="_blank" rel="noopener">https://igamingbusiness.com/publications/</a></td><td class="note">iGaming Business 深度專刊庫</td></tr>
+      <tr><td class="no">52</td><td>SBC Americas</td><td><a href="https://sbcamericas.com/" target="_blank" rel="noopener">https://sbcamericas.com/</a></td><td class="note">SBC News 北美／LatAm 版</td></tr>
+      <tr><td class="no">53</td><td>EGR Intel</td><td><a href="https://www.egr.global/intel/" target="_blank" rel="noopener">https://www.egr.global/intel/</a></td><td class="note">EGR Global 深度分析／高階訪談</td></tr>
+      <tr><td class="no">54</td><td>Gaming Intelligence</td><td><a href="https://www.gamingintelligence.com/" target="_blank" rel="noopener">https://www.gamingintelligence.com/</a></td><td class="note">高階產業情報媒體</td></tr>
+      <tr><td class="no">55</td><td>Global Gaming Insider</td><td><a href="https://globalgaminginsider.com/" target="_blank" rel="noopener">https://globalgaminginsider.com/</a></td><td class="note">B2B／供應商動態</td></tr>
+      <tr><td class="no">56</td><td>InterGame Online</td><td><a href="https://www.intergameonline.com/" target="_blank" rel="noopener">https://www.intergameonline.com/</a></td><td class="note">Online＋Land-based 綜合報導</td></tr>
+      <tr><td class="no">57</td><td>InterGame – iGaming Products</td><td><a href="https://www.intergameonline.com/igaming/products" target="_blank" rel="noopener">https://www.intergameonline.com/igaming/products</a></td><td class="note">線上 Slot 新品發表（與 cat1 高度對應）</td></tr>
+      <tr><td class="no">58</td><td>InterGame – Land-based Products</td><td><a href="https://www.intergameonline.com/land-based-gaming/products" target="_blank" rel="noopener">https://www.intergameonline.com/land-based-gaming/products</a></td><td class="note">實體機台／Cabinet 新品發表</td></tr>
+      <tr><td class="no">59</td><td>G3 Newswire</td><td><a href="https://g3newswire.com/" target="_blank" rel="noopener">https://g3newswire.com/</a></td><td class="note">全球供應商／機台新聞，含 Aristocrat、L&amp;W、IGT 等新品；子頁 g3newswire.com/magazines/ 為深度雜誌</td></tr>
+      <tr><td class="no">60</td><td>GGB Magazine</td><td><a href="https://ggbmagazine.com/" target="_blank" rel="noopener">https://ggbmagazine.com/</a></td><td class="note">北美實體 Slot／Casino Floor；子頁 /publications/ 與 /publications/ggb-magazine/ 為專刊庫</td></tr>
+      <tr><td class="no">61</td><td>Focus Gaming News</td><td><a href="https://focusgn.com/" target="_blank" rel="noopener">https://focusgn.com/</a></td><td class="note">Provider 新遊戲更新速度快；另有地區版 Africa／Asia Pacific／Brasil／Latinoamérica（見下列各行）</td></tr>
+      <tr><td class="no">62</td><td>Gaming International Online</td><td><a href="https://gaminginternational.online/" target="_blank" rel="noopener">https://gaminginternational.online/</a></td><td class="note">Slot、game development 專題</td></tr>
+      <tr><td class="no">63</td><td>Casino International</td><td><a href="https://casinointernational-online.com/" target="_blank" rel="noopener">https://casinointernational-online.com/</a></td><td class="note">實體 Slot／Supplier 報導</td></tr>
+      <tr><td class="no">64</td><td>Casino Life Magazine</td><td><a href="https://www.casinolifemagazine.com/" target="_blank" rel="noopener">https://www.casinolifemagazine.com/</a></td><td class="note">Casino／Supplier 產業雜誌</td></tr>
+      <tr><td class="no">65</td><td>Gaming &amp; Leisure</td><td><a href="https://mygamingandleisure.com/" target="_blank" rel="noopener">https://mygamingandleisure.com/</a></td><td class="note">Casino Technology 報導</td></tr>
+      <tr><td class="no">66</td><td>Indian Gaming</td><td><a href="https://www.indiangaming.com/" target="_blank" rel="noopener">https://www.indiangaming.com/</a></td><td class="note">北美 Tribal Casino；子頁 /magazine/ 為雜誌版</td></tr>
+      <tr><td class="no">67</td><td>iGaming Future</td><td><a href="https://igamingfuture.com/" target="_blank" rel="noopener">https://igamingfuture.com/</a></td><td class="note">Technology／Product 報導；子頁 /category/casino/ 為 Casino／Slot 專區（優先級較高）</td></tr>
+      <tr><td class="no">68</td><td>iGaming Enquirer</td><td><a href="https://igamingenquirer.com/" target="_blank" rel="noopener">https://igamingenquirer.com/</a></td><td class="note">B2B／訪談；子頁 /news/ 為 Supplier／Product 新聞</td></tr>
+      <tr><td class="no">69</td><td>Times of Casino</td><td><a href="https://www.timesofcasino.com/" target="_blank" rel="noopener">https://www.timesofcasino.com/</a></td><td class="note">Slot Launch 報導</td></tr>
+      <tr><td class="no">70</td><td>Casino Guru News</td><td><a href="https://casino.guru/news" target="_blank" rel="noopener">https://casino.guru/news</a></td><td class="note">Casino Guru 新聞版（與已收錄的 Casino Guru 評測庫互補）</td></tr>
+      <tr><td class="no">71</td><td>Casino Guru Interviews</td><td><a href="https://casino.guru/news/in-depth/interviews" target="_blank" rel="noopener">https://casino.guru/news/in-depth/interviews</a></td><td class="note">Provider 高階主管長訪，格式獨特</td></tr>
+      <tr><td class="no">72</td><td>Casino Reports</td><td><a href="https://www.casinoreports.com/" target="_blank" rel="noopener">https://www.casinoreports.com/</a></td><td class="note">北美 iGaming 報導；子頁 /news/ 為新聞版</td></tr>
+      <tr><td class="no">73</td><td>Casino Reports Canada</td><td><a href="https://www.casinoreports.ca/category/casino-news/" target="_blank" rel="noopener">https://www.casinoreports.ca/category/casino-news/</a></td><td class="note">加拿大 Online Casino 專版</td></tr>
+      <tr><td class="no">74</td><td>European Gaming</td><td><a href="https://europeangaming.eu/portal/" target="_blank" rel="noopener">https://europeangaming.eu/portal/</a></td><td class="note">歐洲 B2B 產業媒體</td></tr>
+      <tr><td class="no">75</td><td>SiGMA News</td><td><a href="https://sigma.world/news/" target="_blank" rel="noopener">https://sigma.world/news/</a></td><td class="note">SiGMA 新聞版（既有清單僅收錄展會頁）；另有繁中／俄語版</td></tr>
+      <tr><td class="no">76</td><td>Yogonet Latinoamérica</td><td><a href="https://www.yogonet.com/latinoamerica/" target="_blank" rel="noopener">https://www.yogonet.com/latinoamerica/</a></td><td class="note">Yogonet 拉美版</td></tr>
+      <tr><td class="no">77</td><td>Yogonet Brasil</td><td><a href="https://www.yogonet.com/brasil/" target="_blank" rel="noopener">https://www.yogonet.com/brasil/</a></td><td class="note">Yogonet 巴西版（PT-BR）</td></tr>
+      <tr><td class="no">78</td><td>SoloAzar</td><td><a href="https://www.soloazar.com/" target="_blank" rel="noopener">https://www.soloazar.com/</a></td><td class="note">西語／英語拉美博彩媒體</td></tr>
+      <tr><td class="no">79</td><td>Zona de Azar</td><td><a href="https://zonadeazar.com/" target="_blank" rel="noopener">https://zonadeazar.com/</a></td><td class="note">LatAm Provider、Game launch 報導</td></tr>
+      <tr><td class="no">80</td><td>InfoPlay</td><td><a href="https://www.infoplay.info/" target="_blank" rel="noopener">https://www.infoplay.info/</a></td><td class="note">西語博彩媒體</td></tr>
+      <tr><td class="no">81</td><td>AZARplus</td><td><a href="https://www.azarplus.com/" target="_blank" rel="noopener">https://www.azarplus.com/</a></td><td class="note">西語博彩媒體</td></tr>
+      <tr><td class="no">82</td><td>Sector del Juego</td><td><a href="https://sectordeljuego.com/" target="_blank" rel="noopener">https://sectordeljuego.com/</a></td><td class="note">西語博彩產業媒體</td></tr>
+      <tr><td class="no">83</td><td>El Recreativo</td><td><a href="https://www.elrecreativo.com/" target="_blank" rel="noopener">https://www.elrecreativo.com/</a></td><td class="note">西語 Land-based 報導</td></tr>
+      <tr><td class="no">84</td><td>Revista Casino Perú</td><td><a href="https://www.revistacasinoperu.com/" target="_blank" rel="noopener">https://www.revistacasinoperu.com/</a></td><td class="note">秘魯／拉美博彩雜誌</td></tr>
+      <tr><td class="no">85</td><td>Revista Apuesta Colombia</td><td><a href="https://apuestacolombia.com.co/" target="_blank" rel="noopener">https://apuestacolombia.com.co/</a></td><td class="note">哥倫比亞博彩雜誌</td></tr>
+      <tr><td class="no">86</td><td>SBC Noticias</td><td><a href="https://sbcnoticias.com/" target="_blank" rel="noopener">https://sbcnoticias.com/</a></td><td class="note">SBC News 西語版；子頁 /br/ 為巴西葡語版</td></tr>
+      <tr><td class="no">87</td><td>SBC Notícias Brasil</td><td><a href="https://sbcnoticias.com/br/" target="_blank" rel="noopener">https://sbcnoticias.com/br/</a></td><td class="note">SBC News 巴西葡語版</td></tr>
+      <tr><td class="no">88</td><td>iGaming Brazil</td><td><a href="https://igamingbrazil.com/" target="_blank" rel="noopener">https://igamingbrazil.com/</a></td><td class="note">巴西 iGaming 專業媒體</td></tr>
+      <tr><td class="no">89</td><td>Games Magazine Brasil</td><td><a href="https://gamesbras.com/" target="_blank" rel="noopener">https://gamesbras.com/</a></td><td class="note">巴西遊戲產業雜誌</td></tr>
+      <tr><td class="no">90</td><td>GiocoNews</td><td><a href="https://www.gioconews.it/" target="_blank" rel="noopener">https://www.gioconews.it/</a></td><td class="note">義大利博彩媒體</td></tr>
+      <tr><td class="no">91</td><td>AGIMEG</td><td><a href="https://www.agimeg.it/" target="_blank" rel="noopener">https://www.agimeg.it/</a></td><td class="note">義大利博彩媒體</td></tr>
+      <tr><td class="no">92</td><td>AgiproNews</td><td><a href="https://www.agipronews.it/" target="_blank" rel="noopener">https://www.agipronews.it/</a></td><td class="note">義大利 Slot、Provider 排名；子頁 /slot-e-vlt/ 為 Slot／VLT 專區</td></tr>
+      <tr><td class="no">93</td><td>PressGiochi</td><td><a href="https://www.pressgiochi.it/" target="_blank" rel="noopener">https://www.pressgiochi.it/</a></td><td class="note">義大利博彩媒體</td></tr>
+      <tr><td class="no">94</td><td>Online Gambling Quarterly</td><td><a href="https://www.ogqnews.com/" target="_blank" rel="noopener">https://www.ogqnews.com/</a></td><td class="note">英語歐洲研究型季刊</td></tr>
+      <tr><td class="no">95</td><td>AutomatenMarkt</td><td><a href="https://www.automatenmarkt.de/" target="_blank" rel="noopener">https://www.automatenmarkt.de/</a></td><td class="note">德國實體 Gaming 媒體</td></tr>
+      <tr><td class="no">96</td><td>AutomatenMarkt – Produkte</td><td><a href="https://www.automatenmarkt.de/produkte" target="_blank" rel="noopener">https://www.automatenmarkt.de/produkte</a></td><td class="note">★德國新機／Field Test 專區，最具追蹤價值</td></tr>
+      <tr><td class="no">97</td><td>Games &amp; Business</td><td><a href="https://www.gamesundbusiness.de/" target="_blank" rel="noopener">https://www.gamesundbusiness.de/</a></td><td class="note">德國 B2B 媒體</td></tr>
+      <tr><td class="no">98</td><td>ISA-GUIDE</td><td><a href="https://www.isa-guide.de/" target="_blank" rel="noopener">https://www.isa-guide.de/</a></td><td class="note">德語 Casino 媒體</td></tr>
+      <tr><td class="no">99</td><td>Journal des Casinos</td><td><a href="https://www.journaldescasinos.com/" target="_blank" rel="noopener">https://www.journaldescasinos.com/</a></td><td class="note">法國 Casino B2B 媒體</td></tr>
+      <tr><td class="no">100</td><td>LesCasinos.org</td><td><a href="https://www.lescasinos.org/" target="_blank" rel="noopener">https://www.lescasinos.org/</a></td><td class="note">法國 Casino 媒體</td></tr>
+      <tr><td class="no">101</td><td>CasinoNieuws.nl</td><td><a href="https://www.casinonieuws.nl/" target="_blank" rel="noopener">https://www.casinonieuws.nl/</a></td><td class="note">荷蘭博彩媒體</td></tr>
+      <tr><td class="no">102</td><td>Gaming in Holland</td><td><a href="https://gaminginholland.com/" target="_blank" rel="noopener">https://gaminginholland.com/</a></td><td class="note">荷蘭／英語博彩媒體</td></tr>
+      <tr><td class="no">103</td><td>GBC Time</td><td><a href="https://gbc-time.com/" target="_blank" rel="noopener">https://gbc-time.com/</a></td><td class="note">英／俄／烏語博彩媒體</td></tr>
+      <tr><td class="no">104</td><td>Casino Inside Romania</td><td><a href="https://casinoinside.ro/" target="_blank" rel="noopener">https://casinoinside.ro/</a></td><td class="note">羅馬尼亞博彩媒體</td></tr>
+      <tr><td class="no">105</td><td>Casino Life &amp; Business Romania</td><td><a href="https://www.casino-life.ro/" target="_blank" rel="noopener">https://www.casino-life.ro/</a></td><td class="note">羅馬尼亞／中東歐博彩媒體</td></tr>
+      <tr><td class="no">106</td><td>Interplay Poland</td><td><a href="https://interplay.pl/" target="_blank" rel="noopener">https://interplay.pl/</a></td><td class="note">波蘭博彩媒體</td></tr>
+      <tr><td class="no">107</td><td>GreenBelt</td><td><a href="https://web-greenbelt.jp/" target="_blank" rel="noopener">https://web-greenbelt.jp/</a></td><td class="note">日本 Pachislot 媒體；子頁 /category/machine/ 為新台專區（優先級最高）</td></tr>
+      <tr><td class="no">108</td><td>Amusement Japan</td><td><a href="https://amusement-japan.co.jp/" target="_blank" rel="noopener">https://amusement-japan.co.jp/</a></td><td class="note">日本業界月刊</td></tr>
+      <tr><td class="no">109</td><td>遊技日本</td><td><a href="https://yugi-nippon.com/" target="_blank" rel="noopener">https://yugi-nippon.com/</a></td><td class="note">Pachinko／Slot 綜合媒體；子頁 /pachinko-pachislot-kentei/ 為新機審查／型號資訊</td></tr>
+      <tr><td class="no">110</td><td>PiDEA X</td><td><a href="https://www.pidea.jp/" target="_blank" rel="noopener">https://www.pidea.jp/</a></td><td class="note">日本產業媒體</td></tr>
+      <tr><td class="no">111</td><td>遊技通信</td><td><a href="https://www.yugitsushin.jp/" target="_blank" rel="noopener">https://www.yugitsushin.jp/</a></td><td class="note">日本 B2B 媒體</td></tr>
+      <tr><td class="no">112</td><td>パチンコビレッジ</td><td><a href="https://www.pachinkovillage.com/" target="_blank" rel="noopener">https://www.pachinkovillage.com/</a></td><td class="note">日本機種／玩法媒體</td></tr>
+      <tr><td class="no">113</td><td>情報島</td><td><a href="https://johojima.com/" target="_blank" rel="noopener">https://johojima.com/</a></td><td class="note">日本 Hall／新機資訊</td></tr>
+      <tr><td class="no">114</td><td>PlayGraph</td><td><a href="https://www.play-graph.com/" target="_blank" rel="noopener">https://www.play-graph.com/</a></td><td class="note">日本遊技專門誌</td></tr>
+      <tr><td class="no">115</td><td>Pachinko Media Portal</td><td><a href="https://www.pmp-paa.com/" target="_blank" rel="noopener">https://www.pmp-paa.com/</a></td><td class="note">日本業界情報入口網</td></tr>
+      <tr><td class="no">116</td><td>GGRAsia</td><td><a href="https://www.ggrasia.com/" target="_blank" rel="noopener">https://www.ggrasia.com/</a></td><td class="note">澳門／亞洲 Casino floor 報導</td></tr>
+      <tr><td class="no">117</td><td>Inside Asian Gaming</td><td><a href="https://www.asgam.com/" target="_blank" rel="noopener">https://www.asgam.com/</a></td><td class="note">亞洲供應商、機台、展會報導</td></tr>
+      <tr><td class="no">118</td><td>AGB Macau</td><td><a href="https://agbrief.com/category/news/macau/" target="_blank" rel="noopener">https://agbrief.com/category/news/macau/</a></td><td class="note">AGB 澳門專版</td></tr>
+      <tr><td class="no">119</td><td>AGB Philippines</td><td><a href="https://agbrief.com/category/news/philippines/" target="_blank" rel="noopener">https://agbrief.com/category/news/philippines/</a></td><td class="note">★AGB 菲律賓專版，直接對應本報告 🇵🇭 分類</td></tr>
+      <tr><td class="no">120</td><td>AGB Vietnam</td><td><a href="https://agbrief.com/category/news/vietnam/" target="_blank" rel="noopener">https://agbrief.com/category/news/vietnam/</a></td><td class="note">AGB 越南專版</td></tr>
+      <tr><td class="no">121</td><td>Macau Business</td><td><a href="https://www.macaubusiness.com/" target="_blank" rel="noopener">https://www.macaubusiness.com/</a></td><td class="note">澳門商業／博彩媒體（EN／PT）</td></tr>
+      <tr><td class="no">122</td><td>Macau Daily Times</td><td><a href="https://macaudailytimes.com.mo/" target="_blank" rel="noopener">https://macaudailytimes.com.mo/</a></td><td class="note">澳門日報英文版</td></tr>
+      <tr><td class="no">123</td><td>iGaming AFRIKA</td><td><a href="https://igamingafrika.com/" target="_blank" rel="noopener">https://igamingafrika.com/</a></td><td class="note">非洲 B2B 媒體</td></tr>
+      <tr><td class="no">124</td><td>AGE Insight</td><td><a href="https://insight.ageafrique.org/" target="_blank" rel="noopener">https://insight.ageafrique.org/</a></td><td class="note">非洲市場分析子站</td></tr>
+      <tr><td class="no">125</td><td>Gaming for Africa</td><td><a href="http://www.gfamagazine.com/" target="_blank" rel="noopener">http://www.gfamagazine.com/</a></td><td class="note">非洲 B2B 雜誌</td></tr>
+      <tr><td class="no">126</td><td>Find More Africa</td><td><a href="https://findmoreafrica.com/" target="_blank" rel="noopener">https://findmoreafrica.com/</a></td><td class="note">非洲博彩媒體；子頁含東非專版</td></tr>
+      <tr><td class="no">127</td><td>Focus Gaming News Africa</td><td><a href="https://focusgn.com/category/africa" target="_blank" rel="noopener">https://focusgn.com/category/africa</a></td><td class="note">Focus Gaming News 非洲版</td></tr>
+      <tr><td class="no">128</td><td>Focus Asia Pacific iGaming</td><td><a href="https://focusgn.com/asia-pacific/category/igaming-news" target="_blank" rel="noopener">https://focusgn.com/asia-pacific/category/igaming-news</a></td><td class="note">★Focus Gaming News 亞太版，對應本報告亞洲焦點</td></tr>
+      <tr><td class="no">129</td><td>Focus Gaming News Brasil</td><td><a href="https://focusgn.com/brasil/" target="_blank" rel="noopener">https://focusgn.com/brasil/</a></td><td class="note">Focus Gaming News 巴西版</td></tr>
+      <tr><td class="no">130</td><td>Focus Gaming News Latinoamérica</td><td><a href="https://focusgn.com/latinoamerica/" target="_blank" rel="noopener">https://focusgn.com/latinoamerica/</a></td><td class="note">Focus Gaming News 拉美西語版</td></tr>
+    </tbody></table></div>
+  <h3 id="cat3" class="cat">產業協會／技術認證機構<span class="badge">23</span><a class="top" href="#top">↑ 回頂部</a></h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>備註</th></tr></thead>
+    <tbody>
+      <tr><td class="no">195</td><td>AGEM Index</td><td><a href="https://www.agem.org/agem-index/" target="_blank" rel="noopener">https://www.agem.org/agem-index/</a></td><td class="note">美國博彩設備商協會（AGEM）產業指數</td></tr>
+      <tr><td class="no">196</td><td>AGEM News</td><td><a href="https://www.agem.org/news/" target="_blank" rel="noopener">https://www.agem.org/news/</a></td><td class="note">AGEM 新聞版</td></tr>
+      <tr><td class="no">197</td><td>GLI Standards</td><td><a href="https://gaminglabs.com/gli-standards/" target="_blank" rel="noopener">https://gaminglabs.com/gli-standards/</a></td><td class="note">Gaming Laboratories International 技術標準；子頁 /igaming/igaming-technical-standards/ 與中文版為 iGaming 專屬技術標準</td></tr>
+      <tr><td class="no">198</td><td>International Gaming Standards Association</td><td><a href="https://igsa.org/" target="_blank" rel="noopener">https://igsa.org/</a></td><td class="note">博彩通訊協定國際標準組織</td></tr>
+      <tr><td class="no">199</td><td>BMM Testlabs</td><td><a href="https://bmm.com/" target="_blank" rel="noopener">https://bmm.com/</a></td><td class="note">第三方遊戲測試／認證機構</td></tr>
+      <tr><td class="no">200</td><td>American Gaming Association Research</td><td><a href="https://www.americangaming.org/research/" target="_blank" rel="noopener">https://www.americangaming.org/research/</a></td><td class="note">美國博彩協會（AGA）研究部門</td></tr>
+      <tr><td class="no">201</td><td>AGA State of the States</td><td><a href="https://www.americangaming.org/resources/state-of-the-states/" target="_blank" rel="noopener">https://www.americangaming.org/resources/state-of-the-states/</a></td><td class="note">AGA 年度旗艦市場報告</td></tr>
+      <tr><td class="no">202</td><td>Jdigital</td><td><a href="https://www.jdigital.es/" target="_blank" rel="noopener">https://www.jdigital.es/</a></td><td class="note">西班牙數位博彩產業協會</td></tr>
+      <tr><td class="no">203</td><td>ANESAR</td><td><a href="https://www.anesar.com/" target="_blank" rel="noopener">https://www.anesar.com/</a></td><td class="note">西班牙遊藝廳／自動機協會</td></tr>
+      <tr><td class="no">204</td><td>CEJUEGO</td><td><a href="https://cejuego.com/" target="_blank" rel="noopener">https://cejuego.com/</a></td><td class="note">西班牙博彩業聯合會</td></tr>
+      <tr><td class="no">205</td><td>Club de Convergentes</td><td><a href="https://clubdeconvergentes.es/" target="_blank" rel="noopener">https://clubdeconvergentes.es/</a></td><td class="note">西班牙機台供應鏈俱樂部</td></tr>
+      <tr><td class="no">206</td><td>JAMMA</td><td><a href="https://www.jamma.it/" target="_blank" rel="noopener">https://www.jamma.it/</a></td><td class="note">義大利娛樂機台協會；子頁 /apparecchi-intrattenimento 為設備分類頁</td></tr>
+      <tr><td class="no">207</td><td>Sistema Gioco Italia</td><td><a href="https://sistemagiocoitalia.it/" target="_blank" rel="noopener">https://sistemagiocoitalia.it/</a></td><td class="note">義大利博彩產業協會</td></tr>
+      <tr><td class="no">208</td><td>Deutsche Automatenwirtschaft</td><td><a href="https://www.automatenwirtschaft.de/" target="_blank" rel="noopener">https://www.automatenwirtschaft.de/</a></td><td class="note">德國機台產業協會</td></tr>
+      <tr><td class="no">209</td><td>VDAI</td><td><a href="https://www.vdai.de/" target="_blank" rel="noopener">https://www.vdai.de/</a></td><td class="note">德國機台製造商協會</td></tr>
+      <tr><td class="no">210</td><td>Casinos de France</td><td><a href="https://casinos.fr/" target="_blank" rel="noopener">https://casinos.fr/</a></td><td class="note">法國賭場協會</td></tr>
+      <tr><td class="no">211</td><td>日本電動式遊技機工業協同組合</td><td><a href="https://www.nichidenkyo.or.jp/" target="_blank" rel="noopener">https://www.nichidenkyo.or.jp/</a></td><td class="note">日本 Pachislot 廠商協同組合</td></tr>
+      <tr><td class="no">212</td><td>日本遊技機工業組合</td><td><a href="https://nikkoso.jp/" target="_blank" rel="noopener">https://nikkoso.jp/</a></td><td class="note">日本遊技機製造商工業組合</td></tr>
+      <tr><td class="no">213</td><td>Korea Casino Association</td><td><a href="https://www.koreacasino.or.kr/" target="_blank" rel="noopener">https://www.koreacasino.or.kr/</a></td><td class="note">韓國賭場協會</td></tr>
+      <tr><td class="no">214</td><td>Gaming Technologies Association</td><td><a href="https://www.gamingta.com/" target="_blank" rel="noopener">https://www.gamingta.com/</a></td><td class="note">澳洲機台製造商協會</td></tr>
+      <tr><td class="no">215</td><td>Australasian Gaming Council</td><td><a href="https://austgamingcouncil.org.au/" target="_blank" rel="noopener">https://austgamingcouncil.org.au/</a></td><td class="note">澳洲博彩產業研究協會</td></tr>
+      <tr><td class="no">216</td><td>AIEJA</td><td><a href="https://aieja.org.mx/" target="_blank" rel="noopener">https://aieja.org.mx/</a></td><td class="note">墨西哥博彩產業協會</td></tr>
+      <tr><td class="no">217</td><td>CIBELAE</td><td><a href="https://cibelae.net/" target="_blank" rel="noopener">https://cibelae.net/</a></td><td class="note">拉丁美洲暨伊比利半島博彩監理機關聯盟（監理機關組成的跨國協會）</td></tr>
+    </tbody></table></div>
+  <h3 id="cat4" class="cat">市場數據／分析公司<span class="badge">18</span><a class="top" href="#top">↑ 回頂部</a></h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>備註</th></tr></thead>
+    <tbody>
+      <tr><td class="no">177</td><td>Eilers &amp; Krejcik Gaming（新網域）</td><td><a href="https://ekgamingllc.com/" target="_blank" rel="noopener">https://ekgamingllc.com/</a></td><td class="note">★EKG 官方新網域（原 ekg.com 已停站，見既有清單「已停用」項）；子頁 /reports 為報告庫、/services/game-performance-analytics 為單款 Slot／Cabinet 真實績效服務</td></tr>
+      <tr><td class="no">178</td><td>Eilers-Fantini Game Performance Reports（各區域月報）</td><td><a href="https://ekgamingllc.com/reports" target="_blank" rel="noopener">https://ekgamingllc.com/reports</a></td><td class="note">涵蓋 EMEA／LatAm／歐洲線上／美國線上／加拿大線上等區域月度 Slot／Cabinet 排名報告，逐月更新，請至 reports 頁查最新版而非收錄單一 PDF 連結</td></tr>
+      <tr><td class="no">179</td><td>UNLV Gaming Research &amp; Review Journal</td><td><a href="https://oasis.library.unlv.edu/grrj/" target="_blank" rel="noopener">https://oasis.library.unlv.edu/grrj/</a></td><td class="note">美國內華達大學拉斯維加斯分校博彩學術期刊，Slot 玩家與機率研究</td></tr>
+      <tr><td class="no">180</td><td>UNLV Gaming Research Infographics</td><td><a href="https://oasis.library.unlv.edu/gaming_infographics/" target="_blank" rel="noopener">https://oasis.library.unlv.edu/gaming_infographics/</a></td><td class="note">UNLV Gaming Statistics 圖表化摘要</td></tr>
+      <tr><td class="no">181</td><td>H2 Gambling Capital</td><td><a href="https://h2gc.com/" target="_blank" rel="noopener">https://h2gc.com/</a></td><td class="note">全球博彩市場數據庫，付費情報服務</td></tr>
+      <tr><td class="no">182</td><td>Vixio</td><td><a href="https://www.vixio.com/" target="_blank" rel="noopener">https://www.vixio.com/</a></td><td class="note">Market Intelligence／法規情報服務</td></tr>
+      <tr><td class="no">183</td><td>Regulus Partners</td><td><a href="https://reguluspartners.com/" target="_blank" rel="noopener">https://reguluspartners.com/</a></td><td class="note">博彩產業策略顧問／情報</td></tr>
+      <tr><td class="no">184</td><td>Spectrum Gaming Group</td><td><a href="https://spectrumgaming.com/" target="_blank" rel="noopener">https://spectrumgaming.com/</a></td><td class="note">Casino 產業顧問公司</td></tr>
+      <tr><td class="no">185</td><td>nQube Data Science</td><td><a href="https://www.nqubedatascience.com/" target="_blank" rel="noopener">https://www.nqubedatascience.com/</a></td><td class="note">Slot Floor Analytics，實體機台效能分析</td></tr>
+      <tr><td class="no">186</td><td>Tangam Systems</td><td><a href="https://www.tangamsystems.com/" target="_blank" rel="noopener">https://www.tangamsystems.com/</a></td><td class="note">Casino Floor Analytics</td></tr>
+      <tr><td class="no">187</td><td>Gaming Analytics</td><td><a href="https://gaminganalytics.ai/" target="_blank" rel="noopener">https://gaminganalytics.ai/</a></td><td class="note">AI／Slot Operations 分析服務</td></tr>
+      <tr><td class="no">188</td><td>Blask</td><td><a href="https://blask.com/" target="_blank" rel="noopener">https://blask.com/</a></td><td class="note">Online Market Data 分析平台</td></tr>
+      <tr><td class="no">189</td><td>SOFTSWISS iGaming Trends</td><td><a href="https://www.softswiss.com/igaming-trends/" target="_blank" rel="noopener">https://www.softswiss.com/igaming-trends/</a></td><td class="note">SOFTSWISS 年度趨勢報告微站</td></tr>
+      <tr><td class="no">190</td><td>Gambling Research Australia</td><td><a href="https://www.dss.gov.au/gambling/gambling-research/gambling-research-australia" target="_blank" rel="noopener">https://www.dss.gov.au/gambling/gambling-research/gambling-research-australia</a></td><td class="note">澳洲政府資助博彩學術研究計畫</td></tr>
+      <tr><td class="no">191</td><td>Australian Gambling Research Centre</td><td><a href="https://aifs.gov.au/research/areas/gambling" target="_blank" rel="noopener">https://aifs.gov.au/research/areas/gambling</a></td><td class="note">澳洲家庭研究院博彩研究中心</td></tr>
+      <tr><td class="no">192</td><td>BNLData</td><td><a href="https://bnldata.com.br/" target="_blank" rel="noopener">https://bnldata.com.br/</a></td><td class="note">巴西／拉美 Slot 市場數據；子頁 /category/slot/ 為 Slot 專區</td></tr>
+      <tr><td class="no">193</td><td>SLEC Africa Insights</td><td><a href="https://www.slecafrica.com/insights" target="_blank" rel="noopener">https://www.slecafrica.com/insights</a></td><td class="note">非洲市場情報與分析</td></tr>
+      <tr><td class="no">194</td><td>Gambling Research – Skill-based Gaming Machines（PDF）</td><td><a href="https://www.gamblingresearch.org.au/sites/default/files/2023-09/skill-based_gambling_in_australia_report_0.pdf" target="_blank" rel="noopener">https://www.gamblingresearch.org.au/sites/default/files/2023-09/skill-based_gambling_in_australia_report_0.pdf</a></td><td class="note">澳洲 Skill-based EGM 專題研究報告（單一 PDF，非持續更新頁面）</td></tr>
+    </tbody></table></div>
+  <h3 id="cat5" class="cat">監理機關／官方數據<span class="badge">16</span><a class="top" href="#top">↑ 回頂部</a></h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>備註</th></tr></thead>
+    <tbody>
+      <tr><td class="no">161</td><td>DGOJ Estudios e Informes</td><td><a href="https://www.ordenacionjuego.es/participantes-juego/informacion-estudios" target="_blank" rel="noopener">https://www.ordenacionjuego.es/participantes-juego/informacion-estudios</a></td><td class="note">西班牙官方博彩監理機關（DGOJ）研究與統計</td></tr>
+      <tr><td class="no">162</td><td>ADM Giochi</td><td><a href="https://www.adm.gov.it/portale/giochi" target="_blank" rel="noopener">https://www.adm.gov.it/portale/giochi</a></td><td class="note">義大利官方博彩監理機關（海關暨壟斷署）</td></tr>
+      <tr><td class="no">163</td><td>ANJ Études et données</td><td><a href="https://anj.fr/" target="_blank" rel="noopener">https://anj.fr/</a></td><td class="note">法國官方博彩監理機關（Autorité Nationale des Jeux）</td></tr>
+      <tr><td class="no">164</td><td>Kansspelautoriteit</td><td><a href="https://kansspelautoriteit.nl/" target="_blank" rel="noopener">https://kansspelautoriteit.nl/</a></td><td class="note">荷蘭官方博彩監理機關</td></tr>
+      <tr><td class="no">165</td><td>Belgian Gaming Commission</td><td><a href="https://www.gamingcommission.be/" target="_blank" rel="noopener">https://www.gamingcommission.be/</a></td><td class="note">比利時官方博彩監理機關</td></tr>
+      <tr><td class="no">166</td><td>Swiss Federal Gaming Board ESBK</td><td><a href="https://www.esbk.admin.ch/" target="_blank" rel="noopener">https://www.esbk.admin.ch/</a></td><td class="note">瑞士聯邦博彩監理機關</td></tr>
+      <tr><td class="no">167</td><td>Macau DICJ</td><td><a href="https://www.dicj.gov.mo/" target="_blank" rel="noopener">https://www.dicj.gov.mo/</a></td><td class="note">澳門官方博彩監察協調局</td></tr>
+      <tr><td class="no">168</td><td>PAGCOR Press Releases</td><td><a href="https://www.pagcor.ph/press-releases/index.php" target="_blank" rel="noopener">https://www.pagcor.ph/press-releases/index.php</a></td><td class="note">★菲律賓官方監理機關新聞稿，直接對應本報告 🇵🇭 分類</td></tr>
+      <tr><td class="no">169</td><td>PAGCOR Annual Reports</td><td><a href="https://www.pagcor.ph/transparency/annual-reports.php" target="_blank" rel="noopener">https://www.pagcor.ph/transparency/annual-reports.php</a></td><td class="note">PAGCOR 年度報告，官方統計數據</td></tr>
+      <tr><td class="no">170</td><td>Coljuegos Sala de Prensa</td><td><a href="https://www.coljuegos.gov.co/publicaciones/300016/sala-de-prensa/" target="_blank" rel="noopener">https://www.coljuegos.gov.co/publicaciones/300016/sala-de-prensa/</a></td><td class="note">哥倫比亞官方博彩監理機關新聞室</td></tr>
+      <tr><td class="no">171</td><td>MINCETUR Perú</td><td><a href="https://www.gob.pe/mincetur" target="_blank" rel="noopener">https://www.gob.pe/mincetur</a></td><td class="note">秘魯外貿旅遊部（主管賭場）官方頁</td></tr>
+      <tr><td class="no">172</td><td>NSW Gaming Research Reports</td><td><a href="https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/resources/research-and-evaluation-reports" target="_blank" rel="noopener">https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/resources/research-and-evaluation-reports</a></td><td class="note">紐南威爾斯州政府博彩研究報告</td></tr>
+      <tr><td class="no">173</td><td>Liquor &amp; Gaming NSW</td><td><a href="https://www.liquorandgaming.nsw.gov.au/" target="_blank" rel="noopener">https://www.liquorandgaming.nsw.gov.au/</a></td><td class="note">紐南威爾斯州官方博彩監理機關</td></tr>
+      <tr><td class="no">174</td><td>VGCCC</td><td><a href="https://www.vgccc.vic.gov.au/" target="_blank" rel="noopener">https://www.vgccc.vic.gov.au/</a></td><td class="note">維多利亞州官方博彩監理機關</td></tr>
+      <tr><td class="no">175</td><td>Queensland OLGR</td><td><a href="https://www.business.qld.gov.au/industries/hospitality-tourism-sport/liquor-gaming" target="_blank" rel="noopener">https://www.business.qld.gov.au/industries/hospitality-tourism-sport/liquor-gaming</a></td><td class="note">昆士蘭州官方博彩監理機關</td></tr>
+      <tr><td class="no">176</td><td>New Zealand DIA Gambling</td><td><a href="https://www.dia.govt.nz/Gambling" target="_blank" rel="noopener">https://www.dia.govt.nz/Gambling</a></td><td class="note">紐西蘭官方博彩監理機關</td></tr>
+    </tbody></table></div>
+  <h3 id="cat6" class="cat">展會<span class="badge">19</span><a class="top" href="#top">↑ 回頂部</a></h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>備註</th></tr></thead>
+    <tbody>
+      <tr><td class="no">137</td><td>ICE Barcelona</td><td><a href="https://www.icegaming.com" target="_blank" rel="noopener">https://www.icegaming.com</a></td><td class="note">每年 1 月，全球最大 iGaming 展，有 content hub</td></tr>
+      <tr><td class="no">138</td><td>SiGMA</td><td><a href="https://sigma.world" target="_blank" rel="noopener">https://sigma.world</a></td><td class="note">多地區（Malta、Manila、Rome 等）</td></tr>
+      <tr><td class="no">139</td><td>G2E Las Vegas</td><td><a href="https://www.reiexpo.com/g2e" target="_blank" rel="noopener">https://www.reiexpo.com/g2e</a></td><td class="note">每年秋季，北美最大；⚠️官方新網域為 globalgamingexpo.com，建議之後更新</td></tr>
+      <tr><td class="no">140</td><td>ASEAN Gaming Summit</td><td><a href="https://aseangaming.com" target="_blank" rel="noopener">https://aseangaming.com</a></td><td class="note">東南亞；2026 停辦，2027 回歸 Manila</td></tr>
+      <tr><td class="no">141</td><td>Asia Gaming Awards</td><td><a href="https://asiagamingawards.com" target="_blank" rel="noopener">https://asiagamingawards.com</a></td><td class="note">追蹤亞洲 Provider 得獎動態</td></tr>
+      <tr><td class="no">142</td><td>ezslotdesign — Gaming Expos</td><td><a href="https://ezslotdesign.com/gaming-expo/" target="_blank" rel="noopener">https://ezslotdesign.com/gaming-expo/</a></td><td class="note">展會資訊彙整，含 slot 設計視角</td></tr>
+      <tr><td class="no">143</td><td>Asia Gaming Expo (AGE)</td><td><a href="https://asiagaming-expo.com" target="_blank" rel="noopener">https://asiagaming-expo.com</a></td><td class="note">亞洲 Gaming 實體展會</td></tr>
+      <tr><td class="no">144</td><td>ICE Casino &amp; Games</td><td><a href="https://www.icegaming.com/about-ice/sectors/casino" target="_blank" rel="noopener">https://www.icegaming.com/about-ice/sectors/casino</a></td><td class="note">ICE 展會 Casino／Slot 產業別頁面</td></tr>
+      <tr><td class="no">145</td><td>ICE Exhibitor Products</td><td><a href="https://www.icegaming.com/exhibitor-product-listings/api-casino-games-integration" target="_blank" rel="noopener">https://www.icegaming.com/exhibitor-product-listings/api-casino-games-integration</a></td><td class="note">ICE 展商新品發表庫</td></tr>
+      <tr><td class="no">146</td><td>G2E Asia</td><td><a href="https://www.g2easia.com/" target="_blank" rel="noopener">https://www.g2easia.com/</a></td><td class="note">亞洲實體 Casino／Slot 展會；子頁 en-gb/media/press-release.html 為新聞稿</td></tr>
+      <tr><td class="no">147</td><td>SiGMA Asia</td><td><a href="https://sigma.world/summits/asia/" target="_blank" rel="noopener">https://sigma.world/summits/asia/</a></td><td class="note">SiGMA 亞洲分區峰會（含菲律賓 Manila）；另有繁中版</td></tr>
+      <tr><td class="no">148</td><td>GAT Expo</td><td><a href="https://gatexpo.net/" target="_blank" rel="noopener">https://gatexpo.net/</a></td><td class="note">西語／英語拉美展會</td></tr>
+      <tr><td class="no">149</td><td>Peru Gaming Show</td><td><a href="https://www.perugamingshow.com/" target="_blank" rel="noopener">https://www.perugamingshow.com/</a></td><td class="note">秘魯博彩展會</td></tr>
+      <tr><td class="no">150</td><td>SAGSE</td><td><a href="https://sagse.lat/" target="_blank" rel="noopener">https://sagse.lat/</a></td><td class="note">拉美大型博彩展會</td></tr>
+      <tr><td class="no">151</td><td>Australasian Gaming Expo</td><td><a href="https://austgamingexpo.com/" target="_blank" rel="noopener">https://austgamingexpo.com/</a></td><td class="note">澳洲實體機台展會</td></tr>
+      <tr><td class="no">152</td><td>iGaming AFRIKA Summit</td><td><a href="https://events.igasummit.com/" target="_blank" rel="noopener">https://events.igasummit.com/</a></td><td class="note">非洲博彩峰會</td></tr>
+      <tr><td class="no">153</td><td>Africa Gaming Expo</td><td><a href="https://www.ageafrique.org/" target="_blank" rel="noopener">https://www.ageafrique.org/</a></td><td class="note">非洲實體展會；子頁 /media/ 為報告／簡報下載庫</td></tr>
+      <tr><td class="no">154</td><td>SiGMA Africa</td><td><a href="https://sigma.world/summits/africa/" target="_blank" rel="noopener">https://sigma.world/summits/africa/</a></td><td class="note">SiGMA 非洲分區峰會</td></tr>
+      <tr><td class="no">155</td><td>SiGMA South America</td><td><a href="https://sigma.world/summits/south-america/" target="_blank" rel="noopener">https://sigma.world/summits/south-america/</a></td><td class="note">SiGMA 南美分區峰會</td></tr>
+    </tbody></table></div>
+  <h3 id="cat7" class="cat">論壇／社群<span class="badge">6</span><a class="top" href="#top">↑ 回頂部</a></h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>備註</th></tr></thead>
+    <tbody>
+      <tr><td class="no">131</td><td>r/slots</td><td><a href="https://www.reddit.com/r/slots" target="_blank" rel="noopener">https://www.reddit.com/r/slots</a></td><td class="note">玩家討論 slot 遊戲體驗、Provider 產品反應</td></tr>
+      <tr><td class="no">132</td><td>r/onlinegambling</td><td><a href="https://www.reddit.com/r/onlinegambling" target="_blank" rel="noopener">https://www.reddit.com/r/onlinegambling</a></td><td class="note">廣泛討論 Provider 與盤口體驗</td></tr>
+      <tr><td class="no">133</td><td>AskGamblers Forum</td><td><a href="https://forum.askgamblers.com" target="_blank" rel="noopener">https://forum.askgamblers.com</a></td><td class="note">玩家＋業內討論，含 Provider 投訴與產品反應</td></tr>
+      <tr><td class="no">134</td><td>Mr. Gamble 論壇 — Provider 板</td><td><a href="https://forum.mr-gamble.com/forum/4302-game-providers-exclusive-promos-news-discussions/" target="_blank" rel="noopener">https://forum.mr-gamble.com/forum/4302-game-providers-exclusive-promos-news-discussions/</a></td><td class="note">專屬 Game Provider 討論板，含促銷與新聞</td></tr>
+      <tr><td class="no">135</td><td>About Slots 論壇</td><td><a href="https://forum.aboutslots.com/" target="_blank" rel="noopener">https://forum.aboutslots.com/</a></td><td class="note">Slot 玩家論壇</td></tr>
+      <tr><td class="no">136</td><td>Casinomeister 論壇</td><td><a href="https://www.casinomeister.com/forums/" target="_blank" rel="noopener">https://www.casinomeister.com/forums/</a></td><td class="note">老牌業界論壇，玩家＋業內人士混合</td></tr>
+    </tbody></table></div>
+  <h3 id="cat8" class="cat">Podcast／影音<span class="badge">5</span><a class="top" href="#top">↑ 回頂部</a></h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>備註</th></tr></thead>
+    <tbody>
+      <tr><td class="no">156</td><td>Clash of Slots YouTube</td><td><a href="https://www.youtube.com/c/ClashofSlots" target="_blank" rel="noopener">https://www.youtube.com/c/ClashofSlots</a></td><td class="note">大量 slot 試玩，觀察 bonus 觸發與遊戲行為</td></tr>
+      <tr><td class="no">157</td><td>iGaming Business YouTube</td><td><a href="https://www.youtube.com/user/iGamingBusiness1" target="_blank" rel="noopener">https://www.youtube.com/user/iGamingBusiness1</a></td><td class="note">B2B 產業訪談、Provider 趨勢分析</td></tr>
+      <tr><td class="no">158</td><td>iGB Podcast</td><td><a href="https://igamingbusiness.com/podcasts/" target="_blank" rel="noopener">https://igamingbusiness.com/podcasts/</a></td><td class="note">市場分析，含 Provider 動態</td></tr>
+      <tr><td class="no">159</td><td>NEXT.io Podcast</td><td><a href="https://podcasts.apple.com/gb/podcast/next-io-podcast/id1515442333" target="_blank" rel="noopener">https://podcasts.apple.com/gb/podcast/next-io-podcast/id1515442333</a></td><td class="note">業內領袖訪談，聚焦 iGaming 產業策略</td></tr>
+      <tr><td class="no">160</td><td>iGaming Pulse</td><td><a href="https://podcasts.apple.com/us/podcast/igaming-pulse-trends-news-analysis/id1771798553" target="_blank" rel="noopener">https://podcasts.apple.com/us/podcast/igaming-pulse-trends-news-analysis/id1771798553</a></td><td class="note">產業趨勢與新聞分析</td></tr>
+    </tbody></table></div>
+  <h3 id="cat9" class="cat">已停用<span class="badge">1</span><a class="top" href="#top">↑ 回頂部</a></h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>備註</th></tr></thead>
+    <tbody>
+      <tr><td class="no">219</td><td>Eilers &amp; Krejcik Gaming (EKG)｜舊網域</td><td><a href="https://ekg.com/news/" target="_blank" rel="noopener">https://ekg.com/news/</a></td><td class="note">舊網域已出售停站（2026-06-15 確認）；★本次比對發現公司已搬遷新網域 ekgamingllc.com，新網域資料已收錄於「市場數據／分析公司」分類，建議日後改用新網域</td></tr>
+    </tbody></table></div>
+
+  <div class="foot">本頁由 build_outputlogic.py 讀取主檔 <code>igaming-daily-report-sources-v2.xlsx</code> 自動產生 · 來源異動後重跑即更新<br>© iGaming Daily</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<script>
+  if(window.mermaid){mermaid.initialize({startOnLoad:true,securityLevel:"loose",theme:"neutral",flowchart:{htmlLabels:true,useMaxWidth:true}});}
+</script>
+</body>
+</html>

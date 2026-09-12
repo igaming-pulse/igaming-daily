@@ -33,6 +33,14 @@ for date, fname in files:
 latest = files[0][0] if files else "—"
 body_cards = "\n".join(cards) if cards else '<p style="color:#5B6675">目前沒有報告。</p>'
 
+# 永遠置頂的「運作說明 OutputLogic」卡片
+pinned_card = '''    <a class="card pin" href="OutputLogic/">
+      <div class="picon">📘</div>
+      <div class="d">運作說明</div>
+      <div class="w">OutputLogic · 本日報如何生成、完整資料來源與流程圖<span class="pintag">📌 置頂</span></div>
+      <div class="go">查看說明 →</div>
+    </a>'''
+
 out = f'''<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
@@ -53,6 +61,10 @@ out = f'''<!DOCTYPE html>
   .card .d{{font-size:19px;font-weight:800;white-space:nowrap}}
   .card .w{{font-size:13px;color:var(--sub);flex:1}}
   .card .go{{font-size:13px;font-weight:700;color:var(--accent);white-space:nowrap}}
+  .card.pin{{border-left-color:#D97706;background:#FFFCF4}}
+  .card.pin .picon{{font-size:22px}}
+  .card.pin .go{{color:#B7791F}}
+  .pintag{{display:inline-block;font-size:11px;font-weight:800;color:#8A5206;background:#FBF0DD;padding:2px 8px;border-radius:20px;margin-left:8px}}
   .foot{{margin-top:30px;font-size:12px;color:var(--sub);text-align:center;line-height:1.7}}
   @media(max-width:520px){{.card .w{{display:none}}}}
 </style>
@@ -63,6 +75,7 @@ out = f'''<!DOCTYPE html>
   <div class="sub">每日 iGaming / 博弈產業新聞彙整 · Game Provider 新遊戲、非 Slot、主流動態、菲律賓、市場數據</div>
   <div class="latest">最新：{html.escape(latest)}</div>
   <div class="list">
+{pinned_card}
 {body_cards}
   </div>
   <div class="foot">
