@@ -22,11 +22,18 @@ def weekday_zh(datestr):
     except Exception:
         return ""
 
+# 合併單位標籤覆寫：某些日報是「跨兩天合併回顧」，檔名沿用起始日（可被本掃描器收錄、
+# 排序正確），但首頁卡片要顯示合併後的日期與星期。key=檔名日期，value=(顯示日期, 星期字串)。
+LABEL_OVERRIDE = {
+    "2026-09-08": ("2026-09-08＋09", "週二/三"),
+}
+
 cards = []
 for date, fname in files:
+    disp_date, disp_wd = LABEL_OVERRIDE.get(date, (date, weekday_zh(date)))
     cards.append(f'''    <a class="card" href="reports/{html.escape(fname)}">
-      <div class="d">{html.escape(date)}</div>
-      <div class="w">{weekday_zh(date)} · iGaming 市場日報</div>
+      <div class="d">{html.escape(disp_date)}</div>
+      <div class="w">{html.escape(disp_wd)} · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>''')
 
