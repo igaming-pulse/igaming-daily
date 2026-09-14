@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iGaming 市場日報 2026-09-15</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../icon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../icon-16.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<style>
+  :root{
+    --bg:#F5F7FA; --card:#fff; --line:#E7EBF0; --ink:#1A2230; --sub:#5B6675;
+    --c1:#1D9E75; --c1bg:#E1F5EE; --c1txt:#0F6E56;
+    --c2:#B31217; --c2bg:#FBE3E4; --c2txt:#8A1015;
+    --c3:#378ADD; --c3bg:#E6F1FB; --c3txt:#185FA5;
+    --c4:#D97706; --c4bg:#FBF0DD; --c4txt:#8A5206;
+    --c5:#8B5CF6; --c5bg:#EEE9FC; --c5txt:#5B3FA6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.7}
+  .wrap{max-width:860px;margin:0 auto;padding:28px 16px 60px}
+  header{text-align:center;margin-bottom:22px}
+  header h1{font-size:26px;margin:0 0 6px}
+  header .date{color:var(--sub);font-size:14px;margin-bottom:12px}
+  .badges{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin-bottom:6px}
+  .badge{font-size:12px;font-weight:700;padding:5px 12px;border-radius:999px}
+  .alert-banner{max-width:860px;margin:0 auto 18px;background:#FBE3E4;border:1px solid #F0B9BC;color:#8A1015;font-weight:700;font-size:13.5px;text-align:center;padding:10px 14px;border-radius:10px}
+  .stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-bottom:30px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 10px;text-align:center}
+  .stat .n{font-size:22px;font-weight:800}
+  .stat .l{font-size:12px;color:var(--sub);margin-top:2px}
+  section{margin-bottom:36px}
+  .sec-title{display:flex;align-items:center;gap:10px;margin-bottom:16px;padding-left:14px;border-left:6px solid var(--sec-color)}
+  .sec-title .emoji{font-size:1.45em}
+  .sec-title h2{font-size:28px;margin:0}
+  .sec-title .count{font-size:13px;color:var(--sub);font-weight:600;margin-left:4px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px;position:relative}
+  .card.c1{border-left:5px solid var(--c1)}
+  .card.c2{border-left:5px solid var(--c2)}
+  .card.c3{border-left:5px solid var(--c3)}
+  .card.c4{border-left:5px solid var(--c4)}
+  .card.c5{border-left:5px solid var(--c5)}
+  .no{display:inline-block;font-size:12px;font-weight:800;color:#fff;background:var(--sec-color);border-radius:6px;padding:2px 8px;margin-bottom:8px}
+  .card h3{margin:0 0 10px;font-size:17px}
+  .card p{margin:0 0 10px;font-size:14.5px;color:#2A3340}
+  .derive{font-size:13px;color:#7a4d0b;background:#FBF3E4;border:1px solid #F0E2C6;border-radius:8px;padding:9px 12px;margin-bottom:10px}
+  .derive b{color:#9a6209;margin-right:6px}
+  .spec{background:#F2F6F4;border:1px solid #E1EAE6;border-radius:8px;padding:10px 12px;margin-bottom:10px;font-size:12.5px}
+  .spec .row{display:flex;gap:10px;padding:3px 0;border-bottom:1px dashed #E1EAE6}
+  .spec .row:last-child{border-bottom:none}
+  .spec .k{flex:0 0 82px;font-weight:700;color:#0F6E56}
+  .keyrow{display:flex;flex-wrap:wrap;gap:14px;background:#F4F8FC;border:1px solid #DCE8F4;border-radius:8px;padding:9px 12px;margin-bottom:10px;font-size:12.5px}
+  .keyrow b{color:#185FA5;margin-right:5px}
+  .card.c4 .keyrow b{color:#8A5206}
+  .verify{font-size:12.5px;color:#334155;background:#F3F4F6;border:1px solid #E5E7EB;border-radius:8px;padding:8px 12px;margin-bottom:10px;line-height:1.6}
+  .verify::before{content:"🔎 ";}
+  .tags{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:11.5px}
+  a.src{font-size:11.5px;font-weight:600;color:var(--sub);text-decoration:none}
+  a.src:hover{text-decoration:underline}
+  .src-sep{color:#C3CBD3}
+  .hero{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;margin-top:10px;display:block;background:#eee}
+  .stats-line{max-width:860px;margin:26px auto 0;text-align:center;font-size:13.5px;color:#1A2230;line-height:1.8}
+  .stats-line b{color:#B31217;font-weight:800}
+  footer{text-align:center;color:var(--sub);font-size:12px;margin-top:24px;padding-top:16px;border-top:1px solid var(--line)}
+  @media(max-width:480px){.sec-title h2{font-size:22px}.spec .k{flex:0 0 70px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>🎰 iGaming 市場日報</h1>
+    <div class="date">2026-09-15（週二）</div>
+    <div class="badges">
+      <span class="badge" style="background:var(--c1bg);color:var(--c1txt)">🎰 Slot 2</span>
+      <span class="badge" style="background:var(--c3bg);color:var(--c3txt)">🤝 主流動態 1</span>
+      <span class="badge" style="background:var(--c4bg);color:var(--c4txt)">🇵🇭 菲律賓 1</span>
+    </div>
+  </header>
+
+  <div class="alert-banner">❗今日收錄偏少（共 4 則），可能來源異常，請留意</div>
+
+  <div class="stats-grid">
+    <div class="stat"><div class="n" style="color:var(--c1)">2</div><div class="l">🎰 Slot 新遊戲</div></div>
+    <div class="stat"><div class="n" style="color:var(--c3)">1</div><div class="l">🤝 主流動態</div></div>
+    <div class="stat"><div class="n" style="color:var(--c4)">1</div><div class="l">🇵🇭 菲律賓</div></div>
+  </div>
+
+  <section style="--sec-color:var(--c1)">
+    <div class="sec-title"><span class="emoji">🎰</span><h2>Game Provider 新遊戲（Slot）</h2><span class="count">共 2 則</span></div>
+
+    <div class="card c1" style="--sec-color:var(--c1)">
+      <div class="no">01</div>
+      <h3>Helios – Triple Sun（Pragmatic Play）</h3>
+      <p>Pragmatic Play 於 9 月 14 日推出希臘神話主題新作 Helios – Triple Sun，以太陽神 Helios 為核心包裝一套三層式獎勵系統。玩法採 6×5 pays-anywhere（不設固定支付線，符號連片即中獎），搭配 Tumble 連消機制延續中獎連鎖。最大賣點是三種顏色的 Scatter 各自觸發不同 modifier——隨機倍數、盤面格位擴展、遞增倍數——讓免費旋轉（8 次）的組合玩法更有策略深度。對 PM 的意義：Pragmatic 持續用「神話包裝＋多層 modifier」延續其高頻上新節奏，中波動＋96%+ RTP 的配置定位在大眾市場，兼顧刺激度與可持續遊玩時間，是品牌維持全球通路穩定出貨的典型配方。</p>
+      <div class="derive"><b>衍生調整</b>全新 IP，無衍生（非既有系列延伸，為 Pragmatic 全新主題釋出）。</div>
+      <div class="spec">
+        <div class="row"><span class="k">遊戲類型</span><span class="v">線上電子老虎機</span></div>
+        <div class="row"><span class="k">盤面</span><span class="v">6×5，pays-anywhere（無固定支付線）</span></div>
+        <div class="row"><span class="k">消除/賠付</span><span class="v">Tumble 連消＋pays-anywhere</span></div>
+        <div class="row"><span class="k">最高倍率</span><span class="v">5,000x</span></div>
+        <div class="row"><span class="k">RTP</span><span class="v">96.46%（另有 95.46% / 94.46% 版本）</span></div>
+        <div class="row"><span class="k">波動</span><span class="v">中</span></div>
+        <div class="row"><span class="k">目標市場</span><span class="v">全球（Pragmatic Play 通路，沒有特別標示重點市場）</span></div>
+        <div class="row"><span class="k">關鍵特色</span><span class="v">三色 Scatter 各自觸發不同 modifier（隨機倍數／格位擴展／遞增倍數）、8 次免費旋轉、Ante Bet 加碼</span></div>
+      </div>
+      <div class="verify">RTP／最高倍率／波動由 GamblingNews 與 Best in Slot 交叉確認一致，igamingbusiness.com 同步收錄本則證實發布日期。</div>
+      <div class="tags">
+        <a class="src" href="https://www.gamblingnews.com/news/shine-brightly-in-pragmatic-plays-helios-triple-sun/" target="_blank" rel="noopener">GamblingNews ↗</a><span class="src-sep">·</span>
+        <a class="src" href="https://www.bestinslot.co/news/pragmatic-play-helios-triple-sun-slot-release-39625" target="_blank" rel="noopener">Best in Slot ↗</a><span class="src-sep">·</span>
+        <a class="src" href="https://igamingbusiness.com/company-news/pragmatic-play-unveils-shining-scatters-in-helios-triple-sun/" target="_blank" rel="noopener">iGB ↗</a><span class="src-sep">·</span>
+        <span>2026-09-14</span>
+      </div>
+      <img class="hero" src="https://www.gamblingnews.com/wp-content/uploads/2026/09/pragmatic-play-helios-triple-sun-slots-game.jpg" alt="Helios – Triple Sun" loading="lazy" onerror="this.style.display='none'">
+    </div>
+
+    <div class="card c1" style="--sec-color:var(--c1)">
+      <div class="no">02</div>
+      <h3>Prospector Wilds: Get Lit（Prospect Gaming／1X2 Network）</h3>
+      <p>1X2 Network 旗下 Prospect Gaming 於 9 月 14 日推出 Prospector Wilds 系列最新作 Get Lit，延續品牌招牌的尋金／挖礦題材。核心是可擴展的 5×5 Hold & Win 盤面：盤面上湊滿 6 個以上金幣符號即觸發 3 次重旋轉並擴大盤面，新增的 TNT Multiplier 機制會在 TNT 符號落地時放大金幣數值，把原本已高波動的 Hold & Win 玩法再推高一階。玩家也可透過 Random Coin Showers 或加碼 Ante Bet 更容易觸發主要功能。對 PM 的意義：Prospect Gaming 用系列化＋機制疊加（TNT Multiplier）延續既有 IP 熱度，屬於工作室鞏固既有玩家群、拉高單局爆發力的常見操作，鎖定願意追高倍率的 Hold & Win 愛好者。</p>
+      <div class="derive"><b>衍生調整</b>延續 Prospector Wilds 系列 Hold & Win 骨架，新增 TNT Multiplier 機制強化金幣倍數爆發感，盤面可隨功能觸發擴展。</div>
+      <div class="spec">
+        <div class="row"><span class="k">遊戲類型</span><span class="v">線上電子老虎機</span></div>
+        <div class="row"><span class="k">盤面</span><span class="v">5×5（Hold & Win 觸發後可擴展）</span></div>
+        <div class="row"><span class="k">消除/賠付</span><span class="v">Hold & Win（6+ 金幣符號觸發，3 次重旋轉）</span></div>
+        <div class="row"><span class="k">最高倍率</span><span class="v">5,500x</span></div>
+        <div class="row"><span class="k">RTP</span><span class="v">95%（另有 93% / 91% 版本）</span></div>
+        <div class="row"><span class="k">波動</span><span class="v">高</span></div>
+        <div class="row"><span class="k">目標市場</span><span class="v">全球（1X2 Network 通路，沒有特別標示重點市場）</span></div>
+        <div class="row"><span class="k">關鍵特色</span><span class="v">TNT Multiplier 放大金幣數值、Random Coin Showers 觸發、Ante Bet 加碼觸發 Hold & Win</span></div>
+      </div>
+      <div class="verify">盤面／最高倍率／RTP／波動由 iGB 官方報導與 G3 Newswire 交叉確認一致。</div>
+      <div class="tags">
+        <a class="src" href="https://igamingbusiness.com/company-news/prospect-gaming-lights-the-fuse-with-prospector-wilds-get-lit/" target="_blank" rel="noopener">iGB ↗</a><span class="src-sep">·</span>
+        <a class="src" href="https://g3newswire.com/prospect-gaming-lights-the-fuse-with-prospector-wilds-get-lit/" target="_blank" rel="noopener">G3 Newswire ↗</a><span class="src-sep">·</span>
+        <span>2026-09-14</span>
+      </div>
+      <img class="hero" src="https://igamingbusiness.com/wp-content/uploads/2026/09/prospector-wilds-get-lit.png" alt="Prospector Wilds: Get Lit" loading="lazy" onerror="this.style.display='none'">
+    </div>
+  </section>
+
+  <section style="--sec-color:var(--c3)">
+    <div class="sec-title"><span class="emoji">🤝</span><h2>動態：主流 GP / 平台</h2><span class="count">共 1 則</span></div>
+
+    <div class="card c3" style="--sec-color:var(--c3)">
+      <div class="no">01</div>
+      <h3>Ace Games 正式進軍 iGaming，首發 25+ 款 Slot／Crash／桌遊組合</h3>
+      <p>新品牌 Ace Games 於 9 月 14 日宣布正式跨入 iGaming 領域，一次帶出超過 25 款橫跨 Slot、Crash 與桌遊的作品組合，團隊具備 15 年以上遊戲開發經驗。其做法的差異化在於「真人玩家測試」流程：新遊戲會先在自家 Telegram 娛樂場 Royal Stars 上以真實玩家數據驗證表現，確認留存與互動指標後才推向 B2B 外部營運商；另設有 Game Boutique 客製化開發服務，可依品牌或受眾量身打造遊戲。對 PM 的意義：用「先內部實測、再對外授權」降低新供應商常見的品質不確定性，是新進場工作室建立營運商信任的具體做法，值得觀察其後續上架速度與營運商採用情況。</p>
+      <div class="keyrow">
+        <span><b>類型</b>運營活動（新品牌／新產品組合上市）</span>
+        <span><b>對象</b>Ace Games</span>
+        <span><b>影響</b>為 B2B 內容市場新增一家強調「真人數據驗證」的供應商，中長期觀察其能否打入主流營運商採購名單</span>
+      </div>
+      <div class="tags">
+        <a class="src" href="https://eegaming.org/latest-news/2026/09/14/52602/ace-games-launches-into-igaming-with-25-titles-and-a-real-player-testing-model" target="_blank" rel="noopener">EEGaming ↗</a><span class="src-sep">·</span>
+        <a class="src" href="https://hipther.com/igaming-news/2026/09/14/131951/ace-games-launches-into-igaming-with-25-titles-and-a-real-player-testing-model" target="_blank" rel="noopener">HIPTHER ↗</a><span class="src-sep">·</span>
+        <span>2026-09-14</span>
+      </div>
+    </div>
+  </section>
+
+  <section style="--sec-color:var(--c4)">
+    <div class="sec-title"><span class="emoji">🇵🇭</span><h2>動態：菲律賓 GP / 平台</h2><span class="count">共 1 則</span></div>
+
+    <div class="card c4" style="--sec-color:var(--c4)">
+      <div class="no">01</div>
+      <h3>長灘島首家合法賭場酒店 Kaban Hotel and Casino 敲定 9 月 16 日試營運</h3>
+      <p>Kaban Hotel and Casino 確定於 9 月 16 日在長灘島（Boracay）Station 0 試營運，是該度假島第一家取得 PAGCOR 執照的賭場酒店，正式開幕典禮則排在 10 月。物業由本地開發商 Golden TW Realty and Development Corp 打造，屬於一個 23 公頃綜合開發案的一部分（同案還包含即將開幕的 Boracay Central 購物中心）。這座六層樓建築設有 88 間客房、2,000 平方公尺賭場樓層（含賭桌、老虎機與電子遊戲機台）、七間餐飲設施、SPA、泳池、VIP 貴賓廳與親子遊樂區，試營運期間並將推出高額獎金抽獎等促銷活動。對 PM 的意義：這是 PAGCOR 持續擴大地方合法博彩據點、推動觀光型賭場落地二三線城市／度假島的又一案例，也代表菲律賓實體賭場版圖持續往主要旅遊目的地延伸。</p>
+      <div class="keyrow">
+        <span><b>類型</b>政府法規（PAGCOR 發照／新設賭場開業）</span>
+        <span><b>對象</b>Kaban Hotel and Casino、Golden TW Realty and Development Corp、PAGCOR</span>
+        <span><b>影響</b>為菲律賓合法博彩版圖新增長灘島據點，觀察後續能否帶動當地觀光博彩客流</span>
+      </div>
+      <div class="tags">
+        <a class="src" href="https://www.ggrasia.com/boracays-kaban-casino-hotel-to-have-soft-opening-on-sept-16" target="_blank" rel="noopener">GGRAsia ↗</a><span class="src-sep">·</span>
+        <a class="src" href="https://mb.com.ph/2026/09/14/boracay-gets-first-integrated-hotel-casino-with-kaban-opening" target="_blank" rel="noopener">Manila Bulletin ↗</a><span class="src-sep">·</span>
+        <a class="src" href="https://focusgn.com/asia-pacific/kaban-hotel-and-casino-to-open-on-boracay-in-september" target="_blank" rel="noopener">FocusGN ↗</a><span class="src-sep">·</span>
+        <span>2026-09-14</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats-line">本日日報查詢約 <b>52</b> 個網站，其中提取 <b>10</b> 個資料來源並進行交叉比對</div>
+
+  <footer>
+    daily-news-report v4.1 · 五大分類版 · 每則皆附可點擊原文連結 · 本日🕹️非Slot／📊市場數據兩類今日窗口內查無合格新聞，已省略
+  </footer>
+</div>
+</body>
+</html>
