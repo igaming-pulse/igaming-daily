@@ -14,7 +14,11 @@ if [ ! -f "$SRC" ]; then
 fi
 
 cp "$SRC" "reports/${DATE}.html"
-python3 build_index.py
+
+# /usr/local/bin/python3 目前架構損壞（Bad CPU type），改用系統內建的 /usr/bin/python3
+PY3="/usr/bin/python3"
+command -v "$PY3" >/dev/null 2>&1 || PY3="python3"
+"$PY3" build_index.py
 
 git add -A
 if git diff --cached --quiet; then
