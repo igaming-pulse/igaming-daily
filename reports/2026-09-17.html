@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iGaming 市場日報 2026-09-17</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../icon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../icon-16.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<style>
+  :root{
+    --bg:#F5F7FA; --card:#fff; --line:#E7EBF0; --text:#1A2230; --sub:#5B6675;
+    --c1:#1D9E75; --c1-bg:#E1F5EE; --c1-tx:#0F6E56;
+    --c2:#B31217; --c2-bg:#FBE3E4; --c2-tx:#8A1015;
+    --c3:#378ADD; --c3-bg:#E6F1FB; --c3-tx:#185FA5;
+    --c4:#D97706; --c4-bg:#FBF0DD; --c4-tx:#8A5206;
+    --c5:#8B5CF6; --c5-bg:#EEE9FC; --c5-tx:#5B3FA6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.65;padding-bottom:60px}
+  .wrap{max-width:900px;margin:0 auto;padding:0 16px}
+  header{background:linear-gradient(135deg,#12283A,#1D3A52);color:#fff;padding:36px 16px 28px}
+  header .inner{max-width:900px;margin:0 auto}
+  header h1{font-size:26px;margin:0 0 6px;display:flex;align-items:center;gap:10px}
+  header .date{font-size:14px;opacity:.85;margin-bottom:16px}
+  .badges{display:flex;flex-wrap:wrap;gap:8px}
+  .badge{font-size:12.5px;font-weight:700;padding:5px 12px;border-radius:20px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25)}
+  .stats-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:-18px auto 28px;max-width:900px;padding:0 16px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 8px;text-align:center;box-shadow:0 2px 6px rgba(20,30,50,.06)}
+  .stat .n{font-size:22px;font-weight:800}
+  .stat .l{font-size:11.5px;color:var(--sub);margin-top:2px}
+  .stat.c1 .n{color:var(--c1)} .stat.c2 .n{color:var(--c2)} .stat.c3 .n{color:var(--c3)} .stat.c4 .n{color:var(--c4)} .stat.c5 .n{color:var(--c5)}
+  section{margin:34px 0}
+  .sec-title{display:flex;align-items:center;gap:12px;font-size:28px;font-weight:800;margin-bottom:16px;padding-left:14px;border-left:6px solid var(--sc)}
+  .sec-title .emoji{font-size:1.45em}
+  .sec-title .count{font-size:14px;font-weight:700;color:var(--sub);background:#EDF1F5;padding:3px 10px;border-radius:12px;margin-left:4px}
+  .card{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--sc);border-radius:12px;padding:18px 20px;margin-bottom:16px;box-shadow:0 2px 8px rgba(20,30,50,.05);position:relative}
+  .card .no{position:absolute;top:16px;right:18px;font-size:12px;font-weight:800;color:var(--sub);background:#EDF1F5;padding:3px 9px;border-radius:8px}
+  .card h3{margin:0 26px 10px 0;font-size:17.5px;line-height:1.4}
+  .card p{margin:0 0 12px;font-size:14px;color:#2A3444;white-space:pre-line}
+  .derive{font-size:13px;color:#7a4d0b;background:#FBF3E4;border:1px solid #F0E2C6;border-radius:8px;padding:9px 12px;margin-bottom:10px}
+  .derive b{color:#9a6209;margin-right:6px}
+  .spec{background:#F2F6F4;border:1px solid #E1EAE6;border-radius:8px;padding:10px 12px;margin-bottom:10px;font-size:12.5px}
+  .spec .row{display:flex;gap:10px;padding:3px 0;border-bottom:1px dashed #E1EAE6}
+  .spec .row:last-child{border-bottom:none}
+  .spec .k{flex:0 0 82px;font-weight:700;color:#0F6E56}
+  .keyrow{display:flex;flex-wrap:wrap;gap:14px;background:#F4F8FC;border:1px solid #DCE8F4;border-radius:8px;padding:9px 12px;margin-bottom:10px;font-size:12.5px}
+  .keyrow b{color:#185FA5;margin-right:5px}
+  section.cat4 .keyrow b{color:#8A5206}
+  .verify{font-size:12.5px;color:#334155;background:#F3F4F6;border:1px solid #E5E7EB;border-radius:8px;padding:8px 12px;margin-bottom:10px;line-height:1.6}
+  .verify::before{content:"🔎 "}
+  .tags{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:11.5px}
+  a.src{font-weight:600;color:var(--sub);text-decoration:none;padding:3px 9px;background:#EDF1F5;border-radius:20px}
+  a.src:hover{text-decoration:underline;color:var(--text)}
+  .hero{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;margin-top:10px;display:block;background:#eee}
+  .stats-line{max-width:860px;margin:26px auto 0;text-align:center;font-size:13.5px;color:#1A2230;line-height:1.8;padding:0 16px}
+  .stats-line b{color:#B31217;font-weight:800}
+  footer{max-width:900px;margin:40px auto 0;padding:20px 16px;text-align:center;font-size:12px;color:var(--sub);border-top:1px solid var(--line)}
+  @media(max-width:640px){
+    .stats-grid{grid-template-columns:repeat(3,1fr)}
+    .sec-title{font-size:22px}
+    .spec .k{flex:0 0 70px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <h1>🎰 iGaming 市場日報</h1>
+    <div class="date">2026-09-17（週四）・收集時間窗：2026-09-16 02:30 ～ 2026-09-17 02:30（台北時間）</div>
+    <div class="badges">
+      <span class="badge">🎰 Slot 新遊戲 4</span>
+      <span class="badge">🕹️ 非 Slot 2</span>
+      <span class="badge">🤝 主流動態 3</span>
+      <span class="badge">🇵🇭 菲律賓 2</span>
+      <span class="badge">📊 市場數據 3</span>
+    </div>
+  </div>
+</header>
+
+<div class="stats-grid">
+  <div class="stat c1"><div class="n">4</div><div class="l">🎰 Slot 新遊戲</div></div>
+  <div class="stat c2"><div class="n">2</div><div class="l">🕹️ 非 Slot</div></div>
+  <div class="stat c3"><div class="n">3</div><div class="l">🤝 主流動態</div></div>
+  <div class="stat c4"><div class="n">2</div><div class="l">🇵🇭 菲律賓</div></div>
+  <div class="stat c5"><div class="n">3</div><div class="l">📊 市場數據</div></div>
+</div>
+
+<div class="wrap">
+
+<section class="cat1" style="--sc:var(--c1)">
+  <div class="sec-title"><span class="emoji">🎰</span> Game Provider 新遊戲（Slot）<span class="count">4 則</span></div>
+
+  <div class="card" style="--sc:var(--c1)">
+    <div class="no">01</div>
+    <h3>Wild Egyptian Buffalo（Zillion Games）</h3>
+    <p>Zillion Games 推出「Wild Egyptian Buffalo」，延續其水牛系列的北美經典水牛盤面，並疊上古埃及元素，是該廠「Buffalo's Sun」系列的最新變體。遊戲主打 Hold & Ring 機制搭配 Wheel of Fortune 固定獎項輪盤，讓玩家在免費旋轉之外還能透過收集特徵觸發額外獎勵，屬於高波動、追求連續中獎體驗的設計路線，鎖定偏好經典水牛題材、但想要新鮮包裝的老玩家。</p>
+    <div class="derive"><b>衍生調整</b>沿用水牛系列的核心視覺與 Hold & Ring 機制，疊加埃及主題（金字塔、聖甲蟲、法老符號）與 Wheel of Fortune 固定獎項輪盤，屬同系列主題延伸而非全新 IP。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span class="v">線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span class="v">5×3</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span class="v">25 條固定支付線 + Hold & Ring</span></div>
+      <div class="row"><span class="k">最高倍率</span><span class="v">1,000x</span></div>
+      <div class="row"><span class="k">RTP</span><span class="v">95.2%</span></div>
+      <div class="row"><span class="k">波動</span><span class="v">高</span></div>
+      <div class="row"><span class="k">目標市場</span><span class="v">沒有明確標註特定市場，偏北美/歐洲主流線上娛樂場通路</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span class="v">買獎功能（Bonus Buy）、散佈符號觸發免費旋轉、Wheel of Fortune 固定獎項輪盤、Hold & Ring 收集型小遊戲</span></div>
+    </div>
+    <div class="verify">SlotCatalog、SlotsMate、CasinoFreak 三方均標示 RTP 95.2%，數據一致；Promosystem 另列出 92.16% 版本，判斷為不同 RTP 配置版本，以多數來源一致的 95.2% 為主要標示值。</div>
+    <div class="tags">
+      <a class="src" href="https://slotcatalog.com/en/slots/wild-egyptian-buffalo" target="_blank" rel="noopener">SlotCatalog ↗</a>
+      <a class="src" href="https://zillion.games/games/buffalos-sun-2/" target="_blank" rel="noopener">Zillion Games 官網 ↗</a>
+      <a class="src" href="https://www.slotsmate.com/software/zillion/wild-egyptian-buffalo" target="_blank" rel="noopener">SlotsMate ↗</a>
+      <a class="src" href="https://www.casinofreak.com/games/play-wild-egyptian-buffalo" target="_blank" rel="noopener">CasinoFreak ↗</a>
+      <span style="color:#9aa5b1">2026-08-13</span>
+    </div>
+  </div>
+
+  <div class="card" style="--sc:var(--c1)">
+    <div class="no">02</div>
+    <h3>Frooty Troupe – Cirque du Money（GAMOMAT）</h3>
+    <p>GAMOMAT 為其人氣水果角色系列「Frooty Troupe」推出完結篇「Cirque du Money」，以馬戲團大帳篷為場景，延續系列一貫的歡樂基調。核心機制是「Curtain 符號」機制：當幕簾符號落在第三軸時，最多可將盤面上三種可見符號類型轉換為 Wild，幕簾本身最終也會變成 Wild，形成一次性大規模擴張。遊戲透過 GAMOMAT 的 G-RGS 遠端遊戲伺服器與 Bragg HUB 發行，確保在受監理市場的無縫鋪貨，是該系列作為 B2B 內容供應商穩定產出節奏的代表作。</p>
+    <div class="derive"><b>衍生調整</b>延續 Frooty Troupe 系列的水果角色卡司與馬戲團主題包裝，新增「Curtain 符號」轉換 Wild 機制取代前作的其他觸發方式，屬系列延伸作、非全新 IP。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span class="v">線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span class="v">5×3</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span class="v">10 條固定支付線，Wild 替代</span></div>
+      <div class="row"><span class="k">最高倍率</span><span class="v">500x</span></div>
+      <div class="row"><span class="k">RTP</span><span class="v">96.13%</span></div>
+      <div class="row"><span class="k">波動</span><span class="v">高</span></div>
+      <div class="row"><span class="k">目標市場</span><span class="v">受監理市場（透過 Bragg HUB 分銷，涵蓋歐洲等主流受監理地區）</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span class="v">Curtain 符號觸發多符號轉 Wild、Card Gamble 與 Ladder Gamble 雙賭博選項</span></div>
+    </div>
+    <div class="verify">SlotCatalog 與 iGaming Future 均標示 RTP 96.13%、波動高，數值一致；最高倍率 500x 僅 iGaming Future 官方稿有寫明，以官方稿為準。</div>
+    <div class="tags">
+      <a class="src" href="https://igamingfuture.com/gamomat-raises-the-curtain-on-frooty-troupe-cirque-du-money/" target="_blank" rel="noopener">iGaming Future ↗</a>
+      <a class="src" href="https://slotcatalog.com/en/slots/frooty-troupe-cirque-du-money" target="_blank" rel="noopener">SlotCatalog ↗</a>
+      <a class="src" href="https://slotslaunch.com/gamomat/frooty-troupe-cirque-du-money" target="_blank" rel="noopener">SlotsLaunch ↗</a>
+      <a class="src" href="https://www.intergameonline.com/igaming/products/gamomat-frooty-troupe-slot-series-final-release" target="_blank" rel="noopener">intergameonline ↗</a>
+      <span style="color:#9aa5b1">2026-09-15</span>
+    </div>
+    <img class="hero" src="https://igamingfuture.com/wp-content/uploads/2026/09/Frooty_Troupe_Cirque_du_Money_wallpaper_1920x1080.jpg" alt="Frooty Troupe – Cirque du Money" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card" style="--sc:var(--c1)">
+    <div class="no">03</div>
+    <h3>Piggy Dynasty（PopOK Gaming）</h3>
+    <p>PopOK Gaming 推出「Piggy Dynasty」，以財富豬主題打造小巧緊湊的 3×3 盤面遊戲，訴求快節奏、高頻率旋轉的行動端玩家。核心賣點是第四軸的「Multiplier Reel」倍數軸，可疊加 x1 至 x15 倍數放大連線獎金，搭配招牌的「Ultra Bet」加注功能——玩家可透過提高投注移除輪軸上最低價值符號，藉此提升拿到高倍數的機率。這款遊戲延續 PopOK 近期專注單一機制、追求高頻娛樂體驗的產品策略，是該廠精簡型 slot 產品線的最新一員。</p>
+    <div class="derive"><b>衍生調整</b>全新 IP，無衍生；沿用 PopOK 近期「單一核心機制 + 緊湊盤面」的產品設計語言。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span class="v">線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span class="v">3×3</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span class="v">5 條固定支付線</span></div>
+      <div class="row"><span class="k">最高倍率</span><span class="v">375x</span></div>
+      <div class="row"><span class="k">RTP</span><span class="v">96.01%</span></div>
+      <div class="row"><span class="k">波動</span><span class="v">未公布（已查 SlotCatalog、PopOK 官網與 VegasSlotsOnline 內頁，均未標示波動等級）</span></div>
+      <div class="row"><span class="k">目標市場</span><span class="v">沒有明確標註特定市場</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span class="v">Multiplier Reel（第四軸 x1~x15 倍數）、Ultra Bet 加注移除低值符號、Wild 替代符號</span></div>
+    </div>
+    <div class="verify">VegasSlotsOnline、G3 Newswire、EEGaming 三方對 RTP 96.01%、最高倍率 375x、3×3/5 線盤面數據一致，無衝突。</div>
+    <div class="tags">
+      <a class="src" href="https://www.vegasslotsonline.com/news/2026/09/16/popok-gaming-launches-piggy-dynasty-slot-featuring-ultra-bet-mechanic/" target="_blank" rel="noopener">VegasSlotsOnline ↗</a>
+      <a class="src" href="https://g3newswire.com/popok-gaming-launches-piggy-dynasty-a-new-slot-packed-with-fortune-and-multipliers/" target="_blank" rel="noopener">G3 Newswire ↗</a>
+      <a class="src" href="https://eegaming.org/latest-news/2026/09/15/52624/popok-gaming-introduces-piggy-dynasty-a-new-slot-packed-with-fortune-and-multipliers" target="_blank" rel="noopener">EEGaming ↗</a>
+      <span style="color:#9aa5b1">2026-09-16</span>
+    </div>
+    <img class="hero" src="https://www.vegasslotsonline.com/news/wp-content/uploads/2026/09/Piggy-Dynasty-2.png" alt="Piggy Dynasty" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card" style="--sc:var(--c1)">
+    <div class="no">04</div>
+    <h3>Timber Wolf Mega Stampede（Aristocrat Gaming）</h3>
+    <p>Aristocrat Gaming 推出實體老虎機新作「Timber Wolf Mega Stampede」，是經典「Timber Wolf」IP 與該廠「Stampede」機台家族玩法的結合，已在北美各地賭場上線，搭載於 The Baron™ Portrait 直立式機台。玩法核心為 Hold & Spin，玩家可透過落地的重觸發代幣解鎖 Super（垂直狼群疊加現金倍數）與 Mega（水平狼群疊加獎金倍數）兩種強化模式，並保留原版 Timber Wolf 免費遊戲，另設 Gold Timber Wolf 累積獎項功能。這是 Aristocrat 持續擴充其北美最暢銷機台家族的重要新作，鎖定既有 Timber Wolf 玩家與實體場館的忠實客群。</p>
+    <div class="derive"><b>衍生調整</b>結合原版「Timber Wolf」IP 與「Stampede」機台家族的 Hold & Spin／連鎖疊加玩法，屬系列跨線整合而非全新 IP。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span class="v">實體老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span class="v">未公布（已查 SlotCatalog、Aristocrat 官網與相關報導頁，實體機台廠商慣例不對外公開盤面規格）</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span class="v">Hold & Spin</span></div>
+      <div class="row"><span class="k">最高倍率</span><span class="v">未公布（實體老虎機依州別監理規定，通常不對外公開，已查三方報導均無數據）</span></div>
+      <div class="row"><span class="k">RTP</span><span class="v">未公布（同上原因）</span></div>
+      <div class="row"><span class="k">波動</span><span class="v">未公布（同上原因）</span></div>
+      <div class="row"><span class="k">目標市場</span><span class="v">北美（美國各州賭場）</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span class="v">Hold & Spin 解鎖 Super／Mega 疊加倍數、Gold Timber Wolf 累積獎項、Timber Wolf 經典免費遊戲</span></div>
+    </div>
+    <div class="verify">三方報導對玩法機制描述一致，均未提供 RTP／最高倍率等數據，符合實體老虎機廠商慣例；發布時間落在 9/15，較窗口起點略早，仍屬本週最新消息故予收錄。</div>
+    <div class="tags">
+      <a class="src" href="https://www.indiangaming.com/aristocrat-gaming-launches-timber-wolf-mega-stampede/" target="_blank" rel="noopener">Indian Gaming ↗</a>
+      <a class="src" href="https://cdcgaming.com/aristocrat-releases-timber-wolf-mega-stampede-slot-game/" target="_blank" rel="noopener">CDC Gaming ↗</a>
+      <a class="src" href="https://www.soloazar.com/en/category/slots/aristocrat-gaming-launches-new-timber-wolf-mega-stampede-slot" target="_blank" rel="noopener">SoloAzar ↗</a>
+      <span style="color:#9aa5b1">2026-09-15</span>
+    </div>
+  </div>
+</section>
+
+<section class="cat2" style="--sc:var(--c2)">
+  <div class="sec-title"><span class="emoji">🕹️</span> 非 Slot 新內容<span class="count">2 則</span></div>
+
+  <div class="card" style="--sc:var(--c2)">
+    <div class="no">01</div>
+    <h3>Disco Balls（Evolution）— Live Game</h3>
+    <p>Evolution 推出全新真人視訊球型開獎遊戲「Disco Balls」，將簡單易懂的號碼投注玩法與逐輪疊加的倍數機制結合，主遊戲倍數可延續進入 Disco 與 VIP Disco 兩種加碼獎金遊戲，總倍數上限達 10,000x。遊戲由俏皮的「Disco Cat」角色主持分派倍數，走的是 Evolution 一貫的迪斯可／派對視覺風格 Game Show 路線，延續該廠今年持續擴充球型開獎產品線的策略，鎖定偏好快節奏、高倍數潛力真人遊戲的玩家。</p>
+    <div class="derive"><b>衍生調整</b>延續 Evolution 球型開獎（ball-drawing）Game Show 產品線的核心玩法，疊加「Disco／VIP Disco Bonus」雙層加碼機制與逐輪疊加倍數，屬產品線延伸新作。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span class="v">Live Game Show（真人視訊球型開獎）</span></div>
+      <div class="row"><span class="k">最高倍率</span><span class="v">10,000x</span></div>
+      <div class="row"><span class="k">RTP</span><span class="v">未公布（真人 Game Show 慣例不對外公開，已查證無資料）</span></div>
+      <div class="row"><span class="k">目標市場</span><span class="v">沒有明確標註特定市場，隨 Evolution 既有真人賭場通路鋪貨</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span class="v">號碼投注搭配逐輪疊加倍數、Disco／VIP Disco 雙層加碼獎金遊戲、Disco Cat 角色主持分派倍數</span></div>
+    </div>
+    <div class="verify">G3 Newswire 與 igamingexpert 兩方對 10,000x 最高倍率與 Disco/VIP Disco 雙層機制描述一致。</div>
+    <div class="tags">
+      <a class="src" href="https://g3newswire.com/evolution-launches-disco-balls-a-live-ball-drawing-game-with-evolving-multipliers-up-to-10000x/" target="_blank" rel="noopener">G3 Newswire ↗</a>
+      <a class="src" href="https://igamingexpert.com/news/games/live-casino/evolution-ice-fishing/" target="_blank" rel="noopener">igamingexpert ↗</a>
+      <span style="color:#9aa5b1">2026-09-15</span>
+    </div>
+    <img class="hero" src="https://g3newswire.com/wp-content/uploads/2026/09/DiscoBalls.jpg" alt="Disco Balls" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card" style="--sc:var(--c2)">
+    <div class="no">02</div>
+    <h3>Live from London（Playtech × The Hippodrome Casino）— Live Game</h3>
+    <p>Playtech 與倫敦知名娛樂地標 The Hippodrome Casino 合作推出「Live from London」場景真人系列，直接從 Hippodrome 賭場內部現場直播真人賭桌，將這個英國指標性場館的獨特氛圍帶給全球玩家。首波上線內容包含 Dual Roulette、Studio Core Roulette、Blackjack 與百家樂，隨合作深化未來預計持續擴充更多賭桌。這是 Playtech「Live From」場景系列的最新成員，該系列先前已與拉斯維加斯 MGM Grand、Bellagio 等地標場館合作，此次是首度將場景真人產品延伸到英國市場。</p>
+    <div class="derive"><b>衍生調整</b>加入 Playtech「Live From」場景真人系列陣容（先前已有 MGM Grand、Bellagio 版本），本次為系列在英國市場的最新場景延伸，非全新產品線。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span class="v">Live Game（場景真人賭桌：輪盤／21點／百家樂）</span></div>
+      <div class="row"><span class="k">目標市場</span><span class="v">英國、全球（Playtech 既有真人通路鋪貨）</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span class="v">Hippodrome 賭場內部實景直播、Dual Roulette 與 Studio Core Roulette 雙輪盤形式、百家樂與 21 點賭桌、隨合作擴充更多桌檯</span></div>
+    </div>
+    <div class="verify">Gaming Intelligence、G3 Newswire、iGaming Future 三方來源對開局四款桌檯描述一致，無衝突。</div>
+    <div class="tags">
+      <a class="src" href="https://www.gamingintelligence.com/sectors/online-gaming/235996-playtech-partners-hippodrome-casino-to-launch-new-live-casino-portfolio/" target="_blank" rel="noopener">Gaming Intelligence ↗</a>
+      <a class="src" href="https://g3newswire.com/playtech-and-the-hippodrome-casino-launch-live-from-london/" target="_blank" rel="noopener">G3 Newswire ↗</a>
+      <a class="src" href="https://igamingfuture.com/live-from-london/" target="_blank" rel="noopener">iGaming Future ↗</a>
+      <span style="color:#9aa5b1">2026-09-15</span>
+    </div>
+    <img class="hero" src="https://www.gamingintelligence.com/wp-content/uploads/2026/09/Playtech_Hippodrome.jpeg" alt="Live from London" loading="lazy" onerror="this.style.display='none'">
+  </div>
+</section>
+
+<section class="cat3" style="--sc:var(--c3)">
+  <div class="sec-title"><span class="emoji">🤝</span> 動態：主流 Game Provider / 平台<span class="count">3 則</span></div>
+
+  <div class="card" style="--sc:var(--c3)">
+    <div class="no">01</div>
+    <h3>Stake Engine 全面開放產業，打造規模最大內容生態圈之一</h3>
+    <p>Stake 宣布將旗下「Stake Engine」平台正式更名為「Engine」，並從原本僅服務 Stake 自身的獨家內容開發工具，全面開放給整個博彩產業的營運商使用。新模式讓工作室、獨立開發者、實況主、聯盟行銷夥伴等各類「創作者」都能透過單一整合介面建置並發行遊戲，Engine 統一以單一標準合約與單一月結帳單處理所有創作者的結算，營運商則保留絕大部分營收分成。目前平台已匯集超過 1,000 家遊戲發行商／供應商，每週有超過 250 款新遊戲開發中，累計透過 Engine 建置的遊戲已創造超過 230 億美元總投注額、逾 97 億次下注。此舉標誌 Stake 加速從單一品牌自營商轉型為 B2B 內容基礎設施供應商的策略野心。</p>
+    <div class="keyrow"><span><b>類型</b>產品線革新／B2B 平台擴張</span><span><b>對象</b>Stake（Engine 平台）</span><span><b>影響</b>加速博彩產業「創作者經濟」內容生態成形，對現有 B2B 內容平台構成新一波競爭壓力</span></div>
+    <div class="verify">三方來源對「1,000+ 發行商、每週 250+ 新遊戲、230 億美元總投注額」等數字描述一致，無衝突。</div>
+    <div class="tags">
+      <a class="src" href="https://www.gamingintelligence.com/sectors/online-gaming/236025-stake-takes-its-engine-platform-industry-wide/" target="_blank" rel="noopener">Gaming Intelligence ↗</a>
+      <a class="src" href="https://igamingbusiness.com/company-news/new-era-for-stake-as-engine-goes-industry-wide-to-build-potentially-largest-content-pipeline/" target="_blank" rel="noopener">iGB ↗</a>
+      <a class="src" href="https://hipther.com/igaming-news/2026/09/15/133760/stake-rebrands-stake-engine-as-engine-opens-platform-to-igaming-operators" target="_blank" rel="noopener">HIPTHER ↗</a>
+      <span style="color:#9aa5b1">2026-09-16</span>
+    </div>
+  </div>
+
+  <div class="card" style="--sc:var(--c3)">
+    <div class="no">02</div>
+    <h3>Entain 將裁減 400 名客服人力，警告英國稅制若加碼恐衝擊逾萬職缺</h3>
+    <p>Entain（Ladbrokes、Coral 母公司）宣布展開諮詢程序，計劃在現有 2,000 名客服人力中裁減約 400 個職位，約佔五分之一，直接原因是英國博彩稅負持續上升侵蝕營運空間。Entain 執行長更進一步致信英國首相 Andy Burnham，警告若機台博彩稅（Machine Games Duty）稅率倍增至 40%，恐讓 Ladbrokes 與 Coral 實體門市每年成本增加約 1 億英鎊；博彩公會（BGC）委託 EY 的報告則預估，40% 稅率恐導致最多 1,470 間投注站關閉、1.59 萬個職位流失。此案凸顯英國博彩業正面臨稅制持續加碼的系統性壓力，是繼多家營運商警告稅改衝擊後，首次有主要業者實際啟動裁員行動。</p>
+    <div class="keyrow"><span><b>類型</b>財務／營運調整</span><span><b>對象</b>Entain（Ladbrokes、Coral）</span><span><b>影響</b>英國博彩稅制風險從「警告」轉為「實際裁員」，恐引發同業跟進並加劇產業對英國稅改的抵制聲浪</span></div>
+    <div class="verify">三方來源對「400 個職位、佔 2,000 名客服人力約 20%」數字一致；BGC/EY 報告數字已標明非 Entain 官方數字。</div>
+    <div class="tags">
+      <a class="src" href="https://www.gamingintelligence.com/finance/236036-entain-announces-job-cuts-and-warns-of-further-risk-ahead/" target="_blank" rel="noopener">Gaming Intelligence ↗</a>
+      <a class="src" href="https://www.casino.org/news/entain-warns-uk-government-over-machine-games-duty-as-400-jobs-face-cuts/" target="_blank" rel="noopener">Casino.org ↗</a>
+      <a class="src" href="https://www.rte.ie/news/business/2026/0916/1591739-entain-to-cut-20-of-customer-care-roles/" target="_blank" rel="noopener">RTÉ ↗</a>
+      <span style="color:#9aa5b1">2026-09-16</span>
+    </div>
+  </div>
+
+  <div class="card" style="--sc:var(--c3)">
+    <div class="no">03</div>
+    <h3>OpenBet 收購彩券運彩科技商 OmniLogic，擴大全球彩券版圖</h3>
+    <p>OpenBet 宣布達成協議，將收購深耕彩券運彩科技逾十年的 OmniLogic，交易金額未公開，預計今年稍後完成，尚待相關監理核准。OmniLogic 主要為受監理彩券營運商與世界彩券協會（WLA）成員提供交易、風險管理與後台系統服務，產品線涵蓋實體、行動與線上通路的全通路投注解決方案，總部團隊主要位於匈牙利久爾（Győr），交易完成後將併入 OpenBet。此併購強化 OpenBet 在全球受監理彩券市場的運彩科技版圖，延續近期彩券與運彩科技整合的產業併購趨勢。</p>
+    <div class="keyrow"><span><b>類型</b>併購</span><span><b>對象</b>OpenBet、OmniLogic</span><span><b>影響</b>強化 OpenBet 在全球彩券運彩科技市場的領先地位，加速彩券業者運彩科技外部採購／整併趨勢</span></div>
+    <div class="verify">三方來源對交易內容、OmniLogic 匈牙利久爾團隊等描述一致，交易金額均未公開。</div>
+    <div class="tags">
+      <a class="src" href="https://www.gamingintelligence.com/finance/236001-openbet-agrees-to-acquire-sportsbook-technology-provider-omnilogic/" target="_blank" rel="noopener">Gaming Intelligence ↗</a>
+      <a class="src" href="https://igamingbusiness.com/company-news/openbet-strengthens-global-lottery-leadership-with-agreement-to-acquire-omnilogic/" target="_blank" rel="noopener">iGB ↗</a>
+      <a class="src" href="https://igamingfuture.com/openbet-omnilogic/" target="_blank" rel="noopener">iGaming Future ↗</a>
+      <span style="color:#9aa5b1">2026-09-15</span>
+    </div>
+  </div>
+</section>
+
+<section class="cat4" style="--sc:var(--c4)">
+  <div class="sec-title"><span class="emoji">🇵🇭</span> 動態：菲律賓 Game Provider / 平台<span class="count">2 則</span></div>
+
+  <div class="card" style="--sc:var(--c4)">
+    <div class="no">01</div>
+    <h3>Kaban Hotel-Casino 長灘島軟開幕，菲律賓長灘島首間持牌賭場登場</h3>
+    <p>由華裔菲律賓籍商人 Zibin Liang 旗下 Golden TW Realty and Development Corporation 開發的「Kaban Hotel and Casino」於長灘島 Station 0（Barangay Yapak）軟開幕，成為長灘島首間取得 PAGCOR 執照的賭場娛樂場所，全面開幕則預計 10 月 11 日登場。這座六層樓建築坐擁俯瞰 Punta Bunga 海灘的視野，屬於一個 23 公頃綜合開發計畫的一部分，設有 88 間客房（精品房型至總統套房）、約 2,000 平方公尺賭場樓面，提供 150 台角子機、10 張真人賭桌與 VIP 貴賓廳，另設室內外泳池、多間特色餐廳與頂樓酒吧，限定 21 歲以上入場。此案是繼馬尼拉、宿霧等地後，菲律賓博彩版圖進一步向觀光熱點長灘島延伸的指標案例。</p>
+    <div class="keyrow"><span><b>類型</b>新場館開幕</span><span><b>對象</b>Kaban Hotel and Casino（長灘島）</span><span><b>影響</b>菲律賓博彩版圖首度延伸至長灘島觀光重鎮，為 PAGCOR 持牌實體賭場家族再添一員</span></div>
+    <div class="verify">兩方來源對軟開幕日期（9/16）、150 台角子機、10 張真人賭桌、2,000 平方公尺樓面等數據一致。</div>
+    <div class="tags">
+      <a class="src" href="https://www.yogonet.com/international/news/2026/09/16/126398-philippines-39-boracay-island-gets-first-casino-with-kaban-opening" target="_blank" rel="noopener">Yogonet ↗</a>
+      <a class="src" href="https://news.worldcasinodirectory.com/kaban-hotel-casino-set-for-boracay-soft-opening-september-16-124327" target="_blank" rel="noopener">World Casino Directory ↗</a>
+      <span style="color:#9aa5b1">2026-09-16</span>
+    </div>
+  </div>
+
+  <div class="card" style="--sc:var(--c4)">
+    <div class="no">02</div>
+    <h3>PAGCOR 下修全年 GGR 預測至 3,500 億披索，賭場脫鉤進度「可望近期定案」</h3>
+    <p>PAGCOR 主席暨執行長 Alejandro Tengco 在 IAG Academy Summit 2026（Newport World Resorts Manila）上表示，機構將全年博彩毛收入（GGR）預測從原訂 3,970 億披索下修至至少 3,500 億披索，坦言原目標「訂得偏高」，主因經濟不確定性與地緣政治緊張影響消費者可支配娛樂支出；今年上半年 GGR 年減 18.16% 至 1,757.38 億披索，PAGCOR 總營收年減 26.64% 至 433.2 億披索。同時 Tengco 透露，攸關 PAGCOR 監理與商業營運職能分家的「賭場脫鉤」（casino decoupling）方案，政府相關委員會（GCG）可望在 30 天內提出建議，其後送交總統府，預計最快 2027 年初可望發布行政命令；出售旗下 38 間 Casino Filipino 據點估計可為政府帶來約 200 億披索收入，同時降低營運成本。</p>
+    <div class="keyrow"><span><b>類型</b>財務／政府法規</span><span><b>對象</b>PAGCOR</span><span><b>影響</b>反映菲律賓博彩市場成長動能放緩，同時賭場脫鉤改革進入實質倒數階段，牽動 PAGCOR 未來監理與商業角色分工</span></div>
+    <div class="verify">GGR 數字與脫鉤時程說明均直接引述 Tengco 於 IAG Academy Summit 現場談話，單一活動、多方媒體報導內容一致。</div>
+    <div class="tags">
+      <a class="src" href="https://businessmirror.com.ph/2026/09/15/pagcor-sees-ggr-at-%E2%82%B1350b-by-yearend/" target="_blank" rel="noopener">Businessmirror ↗</a>
+      <a class="src" href="https://www.pna.gov.ph/articles/1233112" target="_blank" rel="noopener">PNA ↗</a>
+      <span style="color:#9aa5b1">2026-09-15</span>
+    </div>
+  </div>
+</section>
+
+<section class="cat5" style="--sc:var(--c5)">
+  <div class="sec-title"><span class="emoji">📊</span> 市場數據 & 趨勢<span class="count">3 則</span></div>
+
+  <div class="card" style="--sc:var(--c5)">
+    <div class="no">01</div>
+    <h3>Slot 機制趨勢：Scatter Pays、Cluster Pays 與「簡單玩法＋高波動」持續主導 2026 產品設計</h3>
+    <p>多家產業媒體針對 2026 年 slot 產品設計趨勢的觀察顯示，Scatter Pays（任意位置散佈符號即可獲獎，不受限固定支付線）與 Cluster Pays（相鄰符號群組成獎）持續是最多廠商採用、玩家搜尋熱度最高的兩大機制，兩者也經常與 Cascade 連鎖消除搭配使用。同時「持續疊加倍數」（bonus 回合中倍數不重置、逐輪累積）與 Hold & Win／Hold & Spin 機制持續進化，加入黏性符號、累積獎池與盤面擴張等變化版本。整體產品設計方向呈現「機制簡單易懂、但保留高波動追求巨額最高倍率」的兩極化組合，搭配買獎功能（Bonus Buy，視監理許可）與影視/流行文化 IP 聯名題材，成為新品標配。本窗多支新作（如 Piggy Dynasty 的倍數軸機制、Wild Egyptian Buffalo 的 Hold & Ring）均呼應上述趨勢，顯示中小型廠商也持續跟進主流機制組合，而非僅限一線大廠。</p>
+    <div class="tags">
+      <a class="src" href="https://www.slothunterz.com/slot-trends-were-seeing-in-2026/" target="_blank" rel="noopener">Slot Hunterz ↗</a>
+      <a class="src" href="https://www.casinocenter.com/the-slot-features-players-actually-search-for-in-2026/" target="_blank" rel="noopener">CasinoCenter ↗</a>
+      <a class="src" href="https://casinosincanada.com/content/new-slots-of-august-2026-from-clusters-to-hold-win/" target="_blank" rel="noopener">CasinosInCanada ↗</a>
+    </div>
+  </div>
+
+  <div class="card" style="--sc:var(--c5)">
+    <div class="no">02</div>
+    <h3>Crash／即時小遊戲持續成為新興開發商切入市場的低門檻賽道</h3>
+    <p>產業分析指出，Crash 類即時遊戲（如 Aviator、Tower Rush 等）已從邊緣品類成長為 iGaming 成長最快速的類別之一，2025 年單年新增的 Crash 遊戲數量即佔全部已知 Crash 產品目錄近三分之一，反映開發門檻遠低於傳統 slot、成為新興工作室快速切入市場的首選賽道。玩家偏好也持續往「即時反饋、可感知的操作掌控感、搭配即時聊天的社交互動」傾斜，帶動 Crash、Mines、Plinko 等短局長度、高互動性的即時小遊戲整體滲透率提升，產業預期未來將出現更多「Crash + Slot 機制混合」與更深度加密貨幣整合的變化版本。本窗雖未有全新 Crash/Mines/Plinko 產品可收錄，但 ICONIC21、Galaxsys、SPRIBE 等廠商近月均持續擴充相關產品線，顯示該賽道熱度未見降溫。</p>
+    <div class="tags">
+      <a class="src" href="https://www.businessofigaming.com/crash-games-boom-future-casino-games/" target="_blank" rel="noopener">Business of iGaming ↗</a>
+    </div>
+  </div>
+
+  <div class="card" style="--sc:var(--c5)">
+    <div class="no">03</div>
+    <h3>全球博彩市場規模持續擴大，H2 Gambling Capital 預估 2030 年前突破 1 兆美元 GGR</h3>
+    <p>市場數據機構 H2 Gambling Capital 最新評估顯示，全球博彩市場毛收入（GGR）在線上通路持續帶動下，預計將於 2030 年前突破 1 兆美元；同時 H2 也點名「通路正規化」（channelisation）風險正在歐洲擴大，估計歐洲未受監理的離岸博彩市場規模已從 2021 年約 120 億歐元成長至 2026 年約 200 億歐元，反映部分市場的稅制與監理框架未能有效將玩家導入合法通路。此外歐洲實體博彩機台（gaming machines）2024 年估計創造 249 億歐元 GGR，佔歐洲實體博彩總收入約 33%，顯示角子機在實體通路仍是核心收入來源。全球市場擴張與離岸／未受監理市場同步成長並存，凸顯監理與稅制設計對「引導玩家進入合法通路」的重要性，與本日 cat3 Entain 稅制警告、cat4 PAGCOR GGR 下修等新聞形成呼應。</p>
+    <div class="tags">
+      <a class="src" href="https://h2gc.com/news" target="_blank" rel="noopener">H2 Gambling Capital ↗</a>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<div class="stats-line">本日日報查詢約 <b>42</b> 個網站，其中提取 <b>24</b> 個資料來源並進行交叉比對</div>
+
+<footer>
+  iGaming 市場日報 v4.1（五大分類版）・資料來源：daily-news-report skill・每則附原文連結，供逐一查證<br>
+  產出時間：2026-09-17 02:xx（台北時間）
+</footer>
+
+</body>
+</html>
