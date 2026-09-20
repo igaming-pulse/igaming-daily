@@ -7,6 +7,11 @@
 #    若排定時刻機器是關機／睡死的，下次醒來會自動補跑一次。
 #    這是 2026-09-20 定案的「不漏跑」保險之一。
 #
+#  ⚠️ 為什麼要驗收（2026-09-20 加）：
+#    headless 模式下 Claude 若停下來反問，會直接 exit 0 結束 ——
+#    log 看起來「✓ 完成」，實際上什麼都沒產出。所以本腳本不信任 exit code，
+#    一律用「有沒有當天的 report」＋「有沒有新 commit」來判定成敗。
+#
 #  用法：
 #    bash scripts/run_daily.sh              # 手動跑一次（第一次設定時先這樣測）
 #    由 launchd 呼叫時不帶參數
@@ -55,18 +60,63 @@ if [ ! -f "$PROMPT_FILE" ]; then
   exit 1
 fi
 
+DATE=$(TZ=Asia/Taipei date +%F)
+BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "?")
+log "日期: ${DATE}　分支: ${BRANCH}"
+[ "$BRANCH" = "main" ] && log "※ 目前在 main —— 併行期應該在 test-publish，切換後才會是 main"
+
 log "git pull…"
 git pull --ff-only >>"$LOG" 2>&1 || log "⚠️ git pull 失敗，用本地版本繼續"
+
+HEAD_BEFORE=$(git rev-parse HEAD 2>/dev/null || echo "none")
+START_EPOCH=$(date +%s)
 
 log "claude $CLAUDE_ARGS -p <docs/scheduled-prompt.txt>"
 # shellcheck disable=SC2086
 claude $CLAUDE_ARGS -p "$(cat "$PROMPT_FILE")" >>"$LOG" 2>&1
-rc=$?
+CLAUDE_RC=$?
 
-if [ $rc -eq 0 ]; then
-  log "✓ 完成（exit 0）"
+ELAPSED=$(( $(date +%s) - START_EPOCH ))
+log "claude 結束（exit ${CLAUDE_RC}），耗時 ${ELAPSED} 秒"
+
+# ══════════════════════════════════════════════════
+#  驗收 —— 不信任 exit code，實際看有沒有產出
+# ══════════════════════════════════════════════════
+HEAD_AFTER=$(git rev-parse HEAD 2>/dev/null || echo "none")
+REPORT="reports/${DATE}.html"
+fail=0
+
+if [ -f "$REPORT" ]; then
+  log "  ✓ ${REPORT} 存在"
 else
-  log "✗ 結束但有錯（exit ${rc}）—— 06:30 的守門員會發警報"
+  log "  ✗ 找不到 ${REPORT} —— 日報沒產出"
+  fail=1
 fi
+
+if [ "$HEAD_BEFORE" != "$HEAD_AFTER" ]; then
+  log "  ✓ 有新 commit：$(git log -1 --format='%h %s')"
+else
+  log "  ✗ 沒有新 commit —— 沒有發布"
+  fail=1
+fi
+
+if [ "$ELAPSED" -lt 300 ]; then
+  log "  ⚠️ 只跑了 ${ELAPSED} 秒，正常應該 30 分鐘以上 —— 很可能中途停下來反問或提早結束"
+fi
+
+if [ "$fail" -eq 0 ]; then
+  log "✅ 本次執行成功"
+  log "──────── 結束 ────────"
+  exit 0
+fi
+
+log ""
+log "❌❌❌ 本次執行失敗 —— 日報沒產出或沒發布 ❌❌❌"
+log "   常見原因："
+log "   1. Claude 在 headless 模式下停下來反問（往上翻 log 會看到它在問問題）"
+log "      → 把該情境的裁示補進 docs/scheduled-prompt.txt 的「已經預先裁示的狀況」"
+log "   2. 抓取或查證階段失敗"
+log "   3. git push 被拒（憑證過期？）"
+log "   06:30 的守門員會發出「日報未產出」警報。"
 log "──────── 結束 ────────"
-exit $rc
+exit 1
