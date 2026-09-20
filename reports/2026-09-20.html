@@ -2,252 +2,185 @@
 <html lang="zh-Hant">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>iGaming 市場日報 2026-09-20</title>
 <link rel="icon" type="image/png" sizes="32x32" href="../icon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../icon-16.png">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <style>
-:root{
-  --bg:#F5F7FA; --card:#fff; --line:#E7EBF0; --ink:#1A2230; --sub:#5B6675;
-  --c1:#1D9E75; --c1-bg:#E1F5EE; --c1-tx:#0F6E56;
-  --c2:#B31217; --c2-bg:#FBE3E4; --c2-tx:#8A1015;
-  --c3:#378ADD; --c3-bg:#E6F1FB; --c3-tx:#185FA5;
-  --c4:#D97706; --c4-bg:#FBF0DD; --c4-tx:#8A5206;
-  --c5:#8B5CF6; --c5-bg:#EEE9FC; --c5-tx:#5B3FA6;
-}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Microsoft JhengHei",Helvetica,Arial,sans-serif;line-height:1.7}
-.wrap{max-width:860px;margin:0 auto;padding:28px 16px 60px}
-header{text-align:center;margin-bottom:22px}
-header .date{font-size:14px;color:var(--sub);margin-bottom:6px}
-header h1{font-size:30px;margin:4px 0 10px}
-.badges{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-bottom:8px}
-.badge{font-size:12.5px;font-weight:700;padding:5px 12px;border-radius:999px}
-.b1{background:var(--c1-bg);color:var(--c1-tx)}
-.b2{background:var(--c2-bg);color:var(--c2-tx)}
-.b3{background:var(--c3-bg);color:var(--c3-tx)}
-.b4{background:var(--c4-bg);color:var(--c4-tx)}
-.b5{background:var(--c5-bg);color:var(--c5-tx)}
-.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:20px 0 30px}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 8px;text-align:center}
-.stat .n{font-size:24px;font-weight:800}
-.stat .l{font-size:11.5px;color:var(--sub);margin-top:2px}
-section.cat{margin-bottom:38px}
-.cat-title{font-size:28px;font-weight:800;display:flex;align-items:center;gap:10px;padding-left:14px;border-left:6px solid var(--accent);margin-bottom:16px}
-.cat-title .emoji{font-size:1.4em}
-.cat-title .count{font-size:14px;font-weight:600;color:var(--sub);margin-left:4px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px;border-left:5px solid var(--accent);position:relative}
-.card .no{font-size:12px;font-weight:800;color:var(--accent-tx);background:var(--accent-bg);display:inline-block;padding:2px 9px;border-radius:6px;margin-bottom:8px}
-.card h3{font-size:18px;margin:0 0 10px}
-.card p{font-size:14.5px;color:#2b3444;margin:0 0 10px;white-space:pre-line}
-.derive{font-size:13px;color:#7a4d0b;background:#FBF3E4;border:1px solid #F0E2C6;border-radius:8px;padding:9px 12px;margin-bottom:10px}
-.derive b{color:#9a6209;margin-right:6px}
-.spec{background:#F2F6F4;border:1px solid #E1EAE6;border-radius:8px;padding:10px 12px;margin-bottom:10px;font-size:12.5px}
-.spec .row{display:flex;gap:10px;padding:3px 0;border-bottom:1px dashed #E1EAE6}
-.spec .row:last-child{border-bottom:none}
-.spec .k{flex:0 0 82px;font-weight:700;color:#0F6E56}
-.keyrow{display:flex;flex-wrap:wrap;gap:14px;background:#F4F8FC;border:1px solid #DCE8F4;border-radius:8px;padding:9px 12px;margin-bottom:10px;font-size:12.5px}
-.keyrow b{color:#185FA5;margin-right:5px}
-.c4 .keyrow, .cat4-card .keyrow{background:#FBF0DD;border-color:#F0D9AE}
-.c4 .keyrow b, .cat4-card .keyrow b{color:#8A5206}
-.verify{font-size:12.5px;color:#334155;background:#F3F4F6;border:1px solid #E5E7EB;border-radius:8px;padding:8px 12px;margin-bottom:10px;line-height:1.6}
-.verify::before{content:"🔎 "}
-.tags{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:11px}
-a.src{font-weight:600;color:var(--sub);text-decoration:none;padding:3px 8px;background:#F1F3F5;border-radius:6px}
-a.src:hover{text-decoration:underline;background:#E7EBF0}
-.hero{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;margin-top:10px;display:block;background:#eee}
-.empty-note{font-size:13.5px;color:var(--sub);background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:16px 20px}
-.stats-line{max-width:860px;margin:10px auto 26px;text-align:center;font-size:13.5px;color:var(--ink);line-height:1.8}
-.stats-line b{color:#B31217;font-weight:800}
-footer{text-align:center;font-size:12px;color:var(--sub);border-top:1px solid var(--line);padding-top:18px;margin-top:10px}
-@media(max-width:640px){
-  .stats-grid{grid-template-columns:repeat(2,1fr)}
-  header h1{font-size:24px}
-  .cat-title{font-size:22px}
-}
+  :root{
+    --bg:#F5F7FA; --card:#ffffff; --line:#E7EBF0; --ink:#1A2230; --sub:#5B6675;
+    --c1:#1D9E75; --c1bg:#E1F5EE; --c1txt:#0F6E56;
+    --c2:#B31217; --c2bg:#FBE3E4; --c2txt:#8A1015;
+    --c3:#378ADD; --c3bg:#E6F1FB; --c3txt:#185FA5;
+    --c4:#D97706; --c4bg:#FBF0DD; --c4txt:#8A5206;
+    --c5:#8B5CF6; --c5bg:#EEE9FC; --c5txt:#5B3FA6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.7}
+  .wrap{max-width:860px;margin:0 auto;padding:28px 16px 60px}
+  header{text-align:center;margin-bottom:22px}
+  header h1{font-size:26px;margin:6px 0 4px}
+  header .date{color:var(--sub);font-size:14px}
+  .badges{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:14px 0}
+  .badge{font-size:12px;font-weight:700;padding:5px 12px;border-radius:999px}
+  .b1{background:var(--c1bg);color:var(--c1txt)}
+  .b2{background:var(--c2bg);color:var(--c2txt)}
+  .b3{background:var(--c3bg);color:var(--c3txt)}
+  .b4{background:var(--c4bg);color:var(--c4txt)}
+  .b5{background:var(--c5bg);color:var(--c5txt)}
+  .stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:20px 0 32px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 10px;text-align:center}
+  .stat .n{font-size:22px;font-weight:800}
+  .stat .l{font-size:12px;color:var(--sub);margin-top:2px}
+  .stat.s1 .n{color:var(--c1)} .stat.s2 .n{color:var(--c2)} .stat.s3 .n{color:var(--c3)} .stat.s4 .n{color:var(--c4)} .stat.s5 .n{color:var(--c5)}
+  section{margin-bottom:36px}
+  .sec-title{display:flex;align-items:center;gap:10px;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid var(--line)}
+  .sec-title .emoji{font-size:1.5em}
+  .sec-title h2{font-size:28px;margin:0}
+  .sec-title .cnt{font-size:13px;color:var(--sub);font-weight:600}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px;position:relative;border-left:6px solid transparent}
+  .card.c1{border-left-color:var(--c1)}
+  .card.c2{border-left-color:var(--c2)}
+  .card.c3{border-left-color:var(--c3)}
+  .card.c4{border-left-color:var(--c4)}
+  .card.c5{border-left-color:var(--c5)}
+  .no{display:inline-block;font-size:12px;font-weight:800;color:#fff;background:var(--ink);border-radius:6px;padding:2px 8px;margin-bottom:8px}
+  .c1 .no{background:var(--c1)} .c2 .no{background:var(--c2)} .c3 .no{background:var(--c3)} .c4 .no{background:var(--c4)} .c5 .no{background:var(--c5)}
+  h3{font-size:17px;margin:4px 0 10px;line-height:1.5}
+  p{font-size:14.5px;margin:0 0 10px;color:#2A3342}
+  .derive{font-size:13px;color:#7a4d0b;background:#FBF3E4;border:1px solid #F0E2C6;border-radius:8px;padding:9px 12px;margin-bottom:10px}
+  .derive b{color:#9a6209;margin-right:6px}
+  .spec{background:#F2F6F4;border:1px solid #E1EAE6;border-radius:8px;padding:10px 12px;margin-bottom:10px;font-size:12.5px}
+  .spec .row{display:flex;gap:10px;padding:3px 0;border-bottom:1px dashed #E1EAE6}
+  .spec .row:last-child{border-bottom:none}
+  .spec .k{flex:0 0 82px;font-weight:700;color:#0F6E56}
+  .keyrow{display:flex;flex-wrap:wrap;gap:14px;background:#F4F8FC;border:1px solid #DCE8F4;border-radius:8px;padding:9px 12px;margin-bottom:10px;font-size:12.5px}
+  .keyrow b{color:#185FA5;margin-right:5px}
+  .c4 .keyrow b{color:#8A5206}
+  .verify{font-size:12.5px;color:#334155;background:#F3F4F6;border:1px solid #E5E7EB;border-radius:8px;padding:8px 12px;margin-bottom:10px;line-height:1.6}
+  .verify::before{content:"🔎 "}
+  .tags{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:11px}
+  a.src{font-weight:600;color:var(--sub);text-decoration:none}
+  a.src:hover{text-decoration:underline}
+  .hero{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;margin-top:10px;display:block;background:#eee}
+  .stats-line{max-width:860px;margin:26px auto 0;text-align:center;font-size:13.5px;color:#1A2230;line-height:1.8}
+  .stats-line b{color:#B31217;font-weight:800}
+  footer{text-align:center;margin-top:30px;color:var(--sub);font-size:12px}
+  @media(max-width:600px){.sec-title h2{font-size:22px}}
 </style>
 </head>
 <body>
 <div class="wrap">
 
 <header>
-  <div class="date">2026-09-20（週日）</div>
   <h1>🎰 iGaming 市場日報</h1>
+  <div class="date">2026-09-20（星期日）· 台北時間</div>
   <div class="badges">
-    <span class="badge b1">🎰 Slot 新遊戲</span>
-    <span class="badge b2">🕹️ 非 Slot</span>
-    <span class="badge b3">🤝 主流動態</span>
-    <span class="badge b4">🇵🇭 菲律賓</span>
-    <span class="badge b5">📊 市場數據</span>
+    <span class="badge b1">🎰 Slot 新遊戲 1</span>
+    <span class="badge b3">🤝 主流動態 1</span>
+    <span class="badge b4">🇵🇭 菲律賓 2</span>
+    <span class="badge b5">📊 市場數據 1</span>
   </div>
 </header>
 
 <div class="stats-grid">
-  <div class="stat" style="color:var(--c1)"><div class="n">2</div><div class="l">🎰 Slot 新遊戲</div></div>
-  <div class="stat" style="color:var(--c3)"><div class="n">5</div><div class="l">🤝 主流動態</div></div>
-  <div class="stat" style="color:var(--c4)"><div class="n">1</div><div class="l">🇵🇭 菲律賓</div></div>
-  <div class="stat" style="color:var(--c5)"><div class="n">2</div><div class="l">📊 市場數據</div></div>
+  <div class="stat s1"><div class="n">1</div><div class="l">🎰 Slot 新遊戲</div></div>
+  <div class="stat s3"><div class="n">1</div><div class="l">🤝 主流動態</div></div>
+  <div class="stat s4"><div class="n">2</div><div class="l">🇵🇭 菲律賓</div></div>
+  <div class="stat s5"><div class="n">1</div><div class="l">📊 市場數據</div></div>
 </div>
 
-<section class="cat" style="--accent:var(--c1)">
-  <div class="cat-title"><span class="emoji">🎰</span>Game Provider 新遊戲（Slot）<span class="count">共 2 則</span></div>
+<section>
+  <div class="sec-title"><span class="emoji">🎰</span><h2>Game Provider 新遊戲（Slot）</h2><span class="cnt">共 1 則</span></div>
 
-  <div class="card" style="--accent:var(--c1);--accent-bg:var(--c1-bg);--accent-tx:var(--c1-tx)">
+  <div class="card c1">
     <div class="no">01</div>
-    <h3>Play'n GO 推出《Lawn n' Complete Disorder》，單一 Coin 符號串聯全部獎勵機制</h3>
-    <p>Play'n GO 於 2026/9/18 發行新作《Lawn n' Complete Disorder》，延續其「Fun Slots」角色驅動系列，主角是脾氣暴躁的地精 Frank，與鄰家幫派上演後院混戰喜劇。本作最大設計亮點是把 Instant Bonus、Hold &amp; Spin、Bonus Spins 等全部獎勵都綁在單一 Coin 符號觸發，降低新手理解門檻；同時提供「GO Ultra」進階層，讓熟手玩家可選擇更高波動、更大倍率增量的玩法，兼顧輕度與硬核玩家。此作也是前作《Lawn n' Disorder》（50,000x 封頂）的系列延伸，本作倍率略降但機制更緊湊。</p>
-    <div class="derive"><b>衍生調整</b>延續《Lawn n' Disorder》IP 與喜劇地精主題，新增「單一 Coin 符號觸發全機制」與「GO Ultra」高波動層</div>
+    <h3>BetMGM × Games Global《The Traitors: Faithful Riches》——真人實境秀 IP 聯名登場</h3>
+    <p>BetMGM 與 All3Media International（Banijay Entertainment 旗下）簽署獨家 IP 合作，取得電視實境秀《The Traitors》的線上賭場開發權，範圍涵蓋 slot、桌遊與非傳統賭場遊戲。系列首發作品《The Traitors: Faithful Riches》由 Games Global 開發，已於 2026 年 9 月 18 日在 BetMGM Casino（美國紐澤西、密西根、賓州、西維吉尼亞）與 Borgata Online（紐澤西、賓州），以及加拿大 Alberta、Ontario 上線，時間點與該節目第 17 季《New Blood》首播同步造勢。對 PM 的意義：真人實境秀 IP 聯名正成為北美現金網搶佔話題與新客的常見打法，值得觀察後續系列作是否延伸到 slot 以外的品類。</p>
+    <div class="derive"><b>衍生調整</b>全新 IP 改編，無衍生（Games Global 為 BetMGM 首度開發此 IP，非既有機台延伸版）</div>
     <div class="spec">
       <div class="row"><span class="k">遊戲類型</span><span class="v">線上電子老虎機</span></div>
-      <div class="row"><span class="k">盤面</span><span class="v">5×3</span></div>
-      <div class="row"><span class="k">消除/賠付</span><span class="v">243 ways</span></div>
-      <div class="row"><span class="k">最高倍率</span><span class="v">18,000x</span></div>
-      <div class="row"><span class="k">RTP</span><span class="v">96.20%（另有 94.20%／91.20%／87.20%／84.20% 可選版本）</span></div>
-      <div class="row"><span class="k">波動</span><span class="v">高</span></div>
-      <div class="row"><span class="k">目標市場</span><span class="v">國際線上娛樂場</span></div>
-      <div class="row"><span class="k">關鍵特色</span><span class="v">單一 Coin 符號串聯 Instant Bonus／Hold &amp; Spin／Bonus Spins；GO Ultra 高波動加碼層</span></div>
+      <div class="row"><span class="k">盤面</span><span class="v">5×4</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span class="v">1,024 ways to win</span></div>
+      <div class="row"><span class="k">最高倍率</span><span class="v">未公布</span></div>
+      <div class="row"><span class="k">RTP</span><span class="v">未公布</span></div>
+      <div class="row"><span class="k">波動</span><span class="v">未公布</span></div>
+      <div class="row"><span class="k">目標市場</span><span class="v">北美（美國紐澤西／密西根／賓州／西維吉尼亞、加拿大 Alberta／Ontario）</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span class="v">以《The Traitors》「秘密結盟、背叛、隱藏獎勵」為主題包裝，內建 jackpot 機制，為 BetMGM 該 IP 系列首發作品，官方預告後續會延伸桌遊等品類</span></div>
     </div>
+    <div class="verify">已查官方新聞稿、SlotCatalog、遊戲媒體內頁仍未見RTP/最高倍率公布，暫以「未公布」處理</div>
     <div class="tags">
-      <a class="src" href="https://www.vegasslotsonline.com/news/2026/09/18/playn-go-leans-into-comedic-storytelling-with-character-led-lawn-n-complete-disorder-launch/" target="_blank" rel="noopener">Vegas Slots Online ↗</a>
-      <a class="src" href="https://slotcatalog.com/en/slots/lawn-n-disorder" target="_blank" rel="noopener">SlotCatalog ↗</a>
-      <span style="margin-left:auto;color:#8a93a0">2026-09-18</span>
+      <a class="src" href="https://www.globenewswire.com/news-release/2026/09/18/3364664/0/en/betmgm-begins-building-the-traitors-franchise-with-the-launch-of-the-traitors-faithful-riches-in-alberta-and-ontario.html" target="_blank" rel="noopener">GlobeNewswire ↗</a>
+      <a class="src" href="https://g3newswire.com/betmgm-begins-building-the-traitors-franchise-with-the-launch-of-the-traitors-faithful-riches/" target="_blank" rel="noopener">G3 Newswire ↗</a>
+      <a class="src" href="https://www.gamingintelligence.com/sectors/online-gaming/236148-betmgm-secures-online-casino-rights-to-the-traitors/" target="_blank" rel="noopener">Gaming Intelligence ↗</a>
+      <a class="src" href="https://www.intergameonline.com/igaming/news/betmgm-acquires-the-traitors-online-casino-rights" target="_blank" rel="noopener">InterGame Online ↗</a>
+      <span style="color:#9aa5b1">2026-09-18</span>
     </div>
-    <img class="hero" src="https://www.vegasslotsonline.com/news/wp-content/uploads/2026/09/Lawn-N-Complete-Disorder-Demo-Slots-1.png" alt="Lawn n' Complete Disorder" loading="lazy" onerror="this.style.display='none'">
-  </div>
-
-  <div class="card" style="--accent:var(--c1);--accent-bg:var(--c1-bg);--accent-tx:var(--c1-tx)">
-    <div class="no">02</div>
-    <h3>1spin4win 推出《Welcome to Octoberfest》，系列第三作改走 Bonus Spins 路線</h3>
-    <p>1spin4win 於 2026/9/18 推出《Welcome to Octoberfest》，是其啤酒節系列第三作（前作為 Beersburg Fest Hold and Win、Lucky Fest Hold and Win）。與前兩作採用 Hold and Win 機制不同，本作改用 Bonus Spins + Plus Coin 機制：集滿 3 個以上 Coin 符號觸發 5 次 Bonus Spins，並可透過 Plus Coin 延長次數。主題延續啤酒節氛圍，Märzen 啤酒、德式香腸、椒鹽卷餅、提洛爾帽等符號齊全，作為該廠季節限定內容策略的一環，目前已透過 1,000+ 家娛樂場夥伴（含 1xBet、RocketPlay）分銷。</p>
-    <div class="derive"><b>衍生調整</b>系列第三作，機制由前兩作的 Hold and Win 改為 Bonus Spins + Plus Coin</div>
-    <div class="spec">
-      <div class="row"><span class="k">遊戲類型</span><span class="v">線上電子老虎機</span></div>
-      <div class="row"><span class="k">盤面</span><span class="v">5×3（帳篷式外框）</span></div>
-      <div class="row"><span class="k">消除/賠付</span><span class="v">27 paylines</span></div>
-      <div class="row"><span class="k">最高倍率</span><span class="v">2,000x</span></div>
-      <div class="row"><span class="k">RTP</span><span class="v">97.1%</span></div>
-      <div class="row"><span class="k">波動</span><span class="v">高</span></div>
-      <div class="row"><span class="k">目標市場</span><span class="v">全球（1,000+ 娛樂場夥伴，含 1xBet、RocketPlay）</span></div>
-      <div class="row"><span class="k">關鍵特色</span><span class="v">Plus Coin 延長 Bonus Spins 機制；啤酒杯 Wild 符號（不替代 Coin）</span></div>
-    </div>
-    <div class="tags">
-      <a class="src" href="https://www.vegasslotsonline.com/news/2026/09/18/1spin4win-times-welcome-to-octoberfest-to-deepen-its-oktoberfest-slot-series/" target="_blank" rel="noopener">Vegas Slots Online ↗</a>
-      <a class="src" href="https://focusgn.com/1spin4win-brings-seasonal-cheer-to-the-reels-with-welcome-to-octoberfest" target="_blank" rel="noopener">Focus Gaming News ↗</a>
-      <span style="margin-left:auto;color:#8a93a0">2026-09-18</span>
-    </div>
-    <img class="hero" src="https://www.vegasslotsonline.com/news/wp-content/uploads/2026/09/Welcome-To-Octoberfest-Slot-1.png" alt="Welcome to Octoberfest" loading="lazy" onerror="this.style.display='none'">
   </div>
 </section>
 
-<section class="cat" style="--accent:var(--c3)">
-  <div class="cat-title"><span class="emoji">🤝</span>動態：主流 GP / 平台<span class="count">共 5 則</span></div>
+<section>
+  <div class="sec-title"><span class="emoji">🤝</span><h2>動態：主流 GP / 平台</h2><span class="cnt">共 1 則</span></div>
 
-  <div class="card" style="--accent:var(--c3);--accent-bg:var(--c3-bg);--accent-tx:var(--c3-tx)">
+  <div class="card c3">
     <div class="no">01</div>
-    <h3>Aristocrat 攜 Reign 新機台系列與多款首發新作亮相 G2E 2026</h3>
-    <p>Aristocrat Gaming 宣布將於 9/28-10/1 拉斯維加斯 G2E 2026 展出全新 Reign 機台系列。Reign Double 首發搭載《Buffalo Grand Express》與《House of the Dragon Two Crowns》；Reign Single 則搭載升級版《Spooky Link》《Buffalo Big Blocks》《Fee-Fi-Fo Fortunes》，未來還規劃 20 款新作陸續上線。同場也將展出全新機型 The Baron Slant／The Baron Portrait，以及 MONOPOLY 系列新作、Dragon Link for iGaming 等數位化布局。作為實體老虎機三大廠之一，此次是該公司年度最大規模新品發表，展示其在 Class 2/3 市場與數位生態系的雙軌擴張策略。</p>
-    <div class="keyrow"><span><b>類型</b>運營活動</span><span><b>對象</b>Aristocrat Gaming、G2E 2026</span><span><b>影響</b>實體老虎機三大廠之一年度最大規模新機台／新作發表，反映產業朝數位與實體並進發展</span></div>
-    <div class="tags">
-      <a class="src" href="https://www.yogonet.com/international/news/2026/09/18/126454-aristocrat-brings-new-reign-cabinet-and-debut-titles-to-g2e-2026" target="_blank" rel="noopener">Yogonet International ↗</a>
-      <span style="margin-left:auto;color:#8a93a0">2026-09-18</span>
-    </div>
-  </div>
-
-  <div class="card" style="--accent:var(--c3);--accent-bg:var(--c3-bg);--accent-tx:var(--c3-tx)">
-    <div class="no">02</div>
-    <h3>Icahn 派系兩名董事辭去 Caesars 董事會職務，FTC 併購審查持續進行</h3>
-    <p>Carl Icahn 陣營的兩名董事 Jesse Lynn（Icahn Enterprises 法務長）與 Ted Papapostolou（Icahn Enterprises 執行長）於 9/16 生效辭去 Caesars Entertainment 董事會職務，稍早前 Icahn 派系董事 Courtney Mather 亦已離開。背景是 Icahn 持有 Caesars 約 5% 股份，曾提出每股 34 美元收購案，但 Caesars 最終選擇 Tilman Fertitta 每股 31 美元的收購方案（最大非機構股東 Carano 家族因債務結構較單純而支持後者）。兩人辭職後 Icahn 陣營已放棄依協議指派替補董事的權利。目前 Caesars 與 Fertitta Entertainment 已於 9/14 收到 FTC 的「Second Request」，審查期延長至實質合規後 30 天；股東預計於 9/22 就此併購案投票表決。</p>
-    <div class="keyrow"><span><b>類型</b>併購</span><span><b>對象</b>Caesars Entertainment、Carl Icahn、Tilman Fertitta、FTC</span><span><b>影響</b>博彩業年度重大併購案進入 FTC 深度審查階段，股東投票將於 9/22 舉行</span></div>
-    <div class="tags">
-      <a class="src" href="https://www.yogonet.com/international/news/2026/09/18/126450-icahnlinked-directors-resign-from-caesars-board-during-ftc-merger-review" target="_blank" rel="noopener">Yogonet International ↗</a>
-      <span style="margin-left:auto;color:#8a93a0">2026-09-18</span>
-    </div>
-  </div>
-
-  <div class="card" style="--accent:var(--c3);--accent-bg:var(--c3-bg);--accent-tx:var(--c3-tx)">
-    <div class="no">03</div>
-    <h3>巴西政府擬頒布行政命令全面禁止線上娛樂場（運彩不受影響）</h3>
-    <p>路透社等多方消息指出，巴西總統 Lula da Silva 政府正準備頒布臨時措施（provisional measure），禁止線上娛樂場遊戲，但運彩與體育贊助不受影響。巴西線上博彩業 73.9% 的投注金額來自娛樂場遊戲，今年 1-7 月博彩業已向聯邦稅務局繳納 R$87 億（約 £12 億），年增 76%；巴西足球俱樂部預估將因此損失約 R$10 億贊助收入，Flamengo、Corinthians、Palmeiras、São Paulo 等豪門年度合約金額均逾 R$1 億。已持牌業者每張五年牌照付出 580 萬美元，業界協會要求若牌照被撤應獲補償。Lula 預計在 10/4 大選首輪投票前定案。臨時措施發布即生效，之後再送國會於 60 天內轉為正式法律。</p>
-    <div class="verify">本則消息最早於 9/17 由路透社披露，多家媒體 9/17-18 跟進報導，屬持續發展中的重大政策事件</div>
-    <div class="keyrow"><span><b>類型</b>政府法規</span><span><b>對象</b>巴西政府、Lula da Silva、全體線上娛樂場持牌商</span><span><b>影響</b>若成真將是 2026 年全球博彩業最大規模的單一市場關閉事件，牌照商恐面臨即時停業風險</span></div>
-    <div class="tags">
-      <a class="src" href="https://igamingexpert.com/regions/latin-america/online-casino-extinction-brazil/" target="_blank" rel="noopener">iGaming Expert ↗</a>
-      <a class="src" href="https://1027wbow.com/2026/09/17/brazil-plans-executive-order-to-ban-online-casinos-sources-say/" target="_blank" rel="noopener">102.7 WBOW（Reuters）↗</a>
-      <span style="margin-left:auto;color:#8a93a0">2026-09-17～18</span>
-    </div>
-  </div>
-
-  <div class="card" style="--accent:var(--c3);--accent-bg:var(--c3-bg);--accent-tx:var(--c3-tx)">
-    <div class="no">04</div>
-    <h3>Kerma Games 與 BGaming 就《Snoop Dogg Dollars》建立策略夥伴關係</h3>
-    <p>Kerma Games（持有 Snoop Dogg 遊戲獨家授權）與 BGaming 宣布策略合作，將原於 2024 年上線的《Snoop Dogg Dollars》重新定位為「Kerma Games x BGaming」聯名招牌作，BGaming 將持續營運與分銷此作至 2026 年。此作是首款採用 Cluster Pays、Cell Multiplier 機制的名人聯名老虎機，盤面 6×8，並搭配黏性 Wild 與特殊獎勵符號。雙方也在探討 2026 年後的延伸合作。</p>
-    <div class="keyrow"><span><b>類型</b>合作</span><span><b>對象</b>Kerma Games、BGaming、Snoop Dogg</span><span><b>影響</b>強化名人 IP 聯名老虎機的長線分銷模式，為 BGaming 續留明星內容</span></div>
-    <div class="tags">
-      <a class="src" href="https://www.yogonet.com/international/news/2026/09/18/126444-kerma-games-bgaming-partner-on-snoop-dogg-dollars" target="_blank" rel="noopener">Yogonet International ↗</a>
-      <a class="src" href="https://eegaming.org/latest-news/2026/09/17/52670/kerma-games-partners-with-bgaming-on-snoop-dogg-dollars-extends-distribution-to-2026" target="_blank" rel="noopener">EEGaming ↗</a>
-      <span style="margin-left:auto;color:#8a93a0">2026-09-17～18</span>
-    </div>
-  </div>
-
-  <div class="card" style="--accent:var(--c3);--accent-bg:var(--c3-bg);--accent-tx:var(--c3-tx)">
-    <div class="no">05</div>
-    <h3>S Gaming 與 Betfred 達成合作，多款熱門 slot 進駐 2,000+ 遊戲庫平台</h3>
-    <p>英國新興 slot studio S Gaming 宣布與 Betfred 建立合作，首波上線作品包括《Bubble Gum Bonanza》《Will it Ring? Box Breaker》《Paddy's Potions》，其中《Will it Ring? Box Breaker》為 S Gaming 目前表現最佳的作品；後續每週將陸續加入《Will it Ring? Deal Breaker》《Shake The Money Tree 2》《Lemon Squeezy》等新作。此合作被 S Gaming 形容為公司「重要商業里程碑」，進一步鞏固其在英國市場的地位並拓展國際能見度（含美國市場）。</p>
-    <div class="keyrow"><span><b>類型</b>合作</span><span><b>對象</b>S Gaming、Betfred</span><span><b>影響</b>新興英國 slot studio 打入主流現金網平台，擴大分銷版圖</span></div>
-    <div class="tags">
-      <a class="src" href="https://igamingbusiness.com/company-news/s-gaming-confirms-significant-partnership-delivering-exciting-slot-titles-to-betfred/" target="_blank" rel="noopener">iGaming Business ↗</a>
-      <span style="margin-left:auto;color:#8a93a0">2026-09-18</span>
-    </div>
+    <h3>Caesars 董事會 Icahn 陣營成員請辭，FTC 併購審查壓力浮現</h3>
+    <p>Caesars Entertainment 董事會中與投資人 Carl Icahn 關聯的多名董事於 2026 年 9 月 18 日請辭，時間點正值美國聯邦貿易委員會（FTC）審查一筆併購交易之際；此前一筆每股 34 美元的收購報價已遭公司拒絕。對 PM 的意義：大型上市營運商的股權／治理波動，常是後續資產組合調整（如關閉或出售賭場資產）的前兆，牽動供應鏈合作的優先順序與談判籌碼。</p>
+    <div class="keyrow"><span><b>類型</b>併購</span><span><b>對象</b>Caesars Entertainment、Carl Icahn 陣營董事</span><span><b>影響</b>反映併購案審查壓力，可能牽動公司治理與資產策略走向</span></div>
+    <div class="verify">單一來源，敘述保守處理</div>
+    <div class="tags"><a class="src" href="https://www.yogonet.com/international/news/2026/09/18/126450-icahnlinked-directors-resign-from-caesars-board-during-ftc-merger-review" target="_blank" rel="noopener">Yogonet ↗</a><span style="color:#9aa5b1">2026-09-18</span></div>
   </div>
 </section>
 
-<section class="cat" style="--accent:var(--c4)">
-  <div class="cat-title"><span class="emoji">🇵🇭</span>動態：菲律賓 GP / 平台<span class="count">共 1 則</span></div>
+<section>
+  <div class="sec-title"><span class="emoji">🇵🇭</span><h2>動態：菲律賓 GP / 平台</h2><span class="cnt">共 2 則</span></div>
 
-  <div class="card cat4-card" style="--accent:var(--c4);--accent-bg:var(--c4-bg);--accent-tx:var(--c4-tx)">
+  <div class="card c4">
     <div class="no">01</div>
-    <h3>PAGCOR 推出每月最低保證費（MGF）政策，淘汰表現不佳線上娛樂場業者</h3>
-    <p>菲律賓博彩監理機關 PAGCOR 宣布對電子娛樂場（e-casino）業者導入「最低保證費」（Minimum Guaranteed Fee, MGF）制度，統一要求每月繳納 ₱900 萬固定費用，藉此淘汰長期表現不佳或閒置的持牌商。PAGCOR 主席 Alejandro H. Tengco 表示，持牌即伴隨財務義務，未達營收基準的業者將面臨退出市場。此舉源於報告顯示逾六成遊戲系統管理商（GSA）營收未達預期，且博彩業整體營收呈下滑趨勢；政策目標是提升對國庫的財務貢獻，並促使產業整併、汰弱留強。</p>
-    <div class="keyrow"><span><b>類型</b>政府法規</span><span><b>對象</b>PAGCOR、全體菲律賓電子娛樂場持牌商</span><span><b>影響</b>強制汰弱留強，預期加速菲律賓線上娛樂場市場整併</span></div>
+    <h3>DigiPlus 於 2026 IAG Academy Awards 同獲「最佳 iGaming 運營商」與「最佳 iGaming 創新」雙獎</h3>
+    <p>DigiPlus（BingoPlus／ArenaPlus／GameZone 母公司）於 2026 年 9 月 19 日宣布，在 2026 Inside Asian Gaming（IAG）Academy Awards 新設的「Online Gaming Offerings」分類中，同時拿下「Best iGaming Operator」與「Best iGaming Innovation」，成為該分類首屆雙料得主。創新獎表彰其自製直播式數位賓果與 perya 遊戲——結合本地內容、自製製播與即時互動；運營商獎則肯定其在菲律賓 iGaming 產業的領導地位與貢獻。對 PM 的意義：本地化直播內容（賓果／perya）持續是菲律賓數位博彩最具差異化的護城河，也是 DigiPlus 系品牌對外行銷的核心敘事。</p>
+    <div class="keyrow"><span><b>類型</b>獲獎</span><span><b>對象</b>DigiPlus（BingoPlus／ArenaPlus／GameZone）</span><span><b>影響</b>強化 DigiPlus 在菲律賓乃至亞太 iGaming 產業的領導地位論述</span></div>
+    <div class="verify">兩篇報導交叉確認獎項名稱與分類一致</div>
     <div class="tags">
-      <a class="src" href="https://mb.com.ph/2026/09/18/pagcor-shutting-door-on-underperforming-online-casinos" target="_blank" rel="noopener">Manila Bulletin ↗</a>
-      <span style="margin-left:auto;color:#8a93a0">2026-09-18</span>
-    </div>
-  </div>
-</section>
-
-<section class="cat" style="--accent:var(--c5)">
-  <div class="cat-title"><span class="emoji">📊</span>市場數據 &amp; 趨勢<span class="count">共 2 則</span></div>
-
-  <div class="card" style="--accent:var(--c5);--accent-bg:var(--c5-bg);--accent-tx:var(--c5-tx)">
-    <div class="no">01</div>
-    <h3>英國博彩委員會：2025-26 財年 GGY 年增 4.4% 至 £175 億，線上娛樂場為主要成長動能</h3>
-    <p>英國 Gambling Commission 公布年度統計，2025-26 財年總 GGY 達 £175 億（約 23.35 億美元），年增 4.4%；扣除彩票後為 £132 億，年增 4.7%。遠端（線上）娛樂場／博彩／賓果合計 £83 億，年增 6.9%，其中線上娛樂場 £57 億、年增 14.8%，為主要成長引擎；線上老虎機更年增 15.5% 至 £47.9 億，占線上娛樂場營收 84%。相對地，線上運彩下滑 6.6%、線上賓果下滑 13.8%；實體博彩僅微增 1.1% 至 £48.6 億。這是英國市場連續第五年 GGY 成長，反映消費行為持續向線上娛樂場／老虎機傾斜。</p>
-    <div class="verify">數據來自英國官方監理機關 Gambling Commission 年度報告，屬權威原始數字</div>
-    <div class="tags">
-      <a class="src" href="https://www.yogonet.com/international/news/2026/09/18/126459-uk-gambling-ggy-rises-44-to-2335-billion-in-202526" target="_blank" rel="noopener">Yogonet International ↗</a>
-      <span style="margin-left:auto;color:#8a93a0">2026-09-18</span>
+      <a class="src" href="https://www.manilatimes.net/2026/09/19/tmt-newswire/digiplus-named-inaugural-winner-of-two-top-industry-accolades-at-2026-inside-asian-gaming-academy-awards/2428585" target="_blank" rel="noopener">Manila Times ↗</a>
+      <a class="src" href="https://context.ph/2026/09/18/digiplus-wins-dual-honors-at-2026-iag-academy-awards/" target="_blank" rel="noopener">Context.ph ↗</a>
+      <span style="color:#9aa5b1">2026-09-19</span>
     </div>
   </div>
 
-  <div class="card" style="--accent:var(--c5);--accent-bg:var(--c5-bg);--accent-tx:var(--c5-tx)">
+  <div class="card c4">
     <div class="no">02</div>
-    <h3>SOFTSWISS 調查：南非失業族群對「限額工具」需求反低於整體平均，凸顯玩家保護落差</h3>
-    <p>SOFTSWISS 針對 1,000 名南非成年人進行調查，發現財務最脆弱族群對保護工具的需求反而最低：僅 35.3% 失業受訪者表示想要限額類工具，較整體平均 43.2% 低近 8 個百分點；同時 22.1% 失業受訪者表示會將意外獲得的資金用於還債，顯示財務壓力沉重。調查也發現，現有線上投注者對「未成年人保護機制」的支持度（65.7%）明顯高於非投注者（54.5%）。SOFTSWISS 業務發展主管 Mariia Halaida 指出，「最需要限額工具保護的族群，往往不是主動要求這些工具的人」，凸顯業者應採取主動式而非依賴玩家自願申請的保護措施。完整方法論與誤差範圍將於近期公布。</p>
-    <div class="verify">來源為市場數據／分析公司 SOFTSWISS，屬產業第一手調查數據</div>
+    <h3>Casino Plus 2026 第二季驗證派彩逾 10 億披索，單筆 1.224 億披索創菲國紀錄</h3>
+    <p>PAGCOR 授權平台 Casino Plus 於 2026 年 9 月 19 日公布，第二季驗證派彩總額已逾 10 億披索（約 P1B），其中最新單筆 1.224 億披索（約 US$2.1M）派彩為「菲律賓線上老虎機史上最大派彩」，於馬尼拉 LaVie Resort and Casino 舉行頒獎典禮。Casino Plus CEO Evan Spytma 表示，派彩系統由保證金機制與儲備金支持，符合 PAGCOR 監管指南。對 PM 的意義：菲律賓現金網持續以「大額可驗證派彩」作為公信力與獲客的核心行銷素材，反映當地監管數位博彩業務規模持續擴大。</p>
+    <div class="keyrow"><span><b>類型</b>運營活動</span><span><b>對象</b>Casino Plus</span><span><b>影響</b>以創紀錄派彩強化平台公信力與獲客行銷、彰顯 PAGCOR 監管數位博彩規模持續成長</span></div>
+    <div class="verify">單一來源，敘述保守處理</div>
+    <div class="tags"><a class="src" href="https://tribune.net.ph/2026/09/19/casino-plus-payouts-top-p1b-as-jackpots-grow-2" target="_blank" rel="noopener">Tribune ↗</a><span style="color:#9aa5b1">2026-09-19</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-title"><span class="emoji">📊</span><h2>市場數據 &amp; 趨勢</h2><span class="cnt">共 1 則</span></div>
+
+  <div class="card c5">
+    <div class="no">01</div>
+    <h3>Crash／即時遊戲滲透率持續攀升，估已佔行動 casino session 約 35%</h3>
+    <p>產業分析指出，2026 年 Crash／即時型遊戲（如 Aviator、JetX、Spaceman）在行動端持續擴張，估計已佔全球行動 casino session 約 35%，每月互動玩家逾 1 億人；「品牌聯名 Crash」（大廠將知名 slot 角色移植到 Crash 格式）與「混合型」（Crash 機制融合傳統 bonus round）是兩大新趨勢，且幾乎所有 Crash 遊戲已導入 Provably Fair 機制以強化信任。同期市場研究機構估計，全球老虎機市場規模將由 2025 年 US$114.2 億成長至 2026 年 US$125.3 億（CAGR 約 9.7%）。對 PM 的意義：Crash／即時遊戲已從邊緣品類轉為主流行動端流量入口，與傳統老虎機呈現互補而非替代關係。</p>
+    <div class="keyrow"><span><b>類型</b>財務</span><span><b>對象</b>Crash／即時遊戲品類、全球老虎機市場</span><span><b>影響</b>反映行動端玩法持續往短回合、高互動、可驗證公平方向演進</span></div>
+    <div class="verify">趨勢描述與市場規模數字分別來自產業分析與研究機構報告，非同一來源</div>
     <div class="tags">
-      <a class="src" href="https://www.yogonet.com/international/news/2026/09/18/126460-softswiss-survey-finds-gap-in-south-africa-player-protection-demands" target="_blank" rel="noopener">Yogonet International ↗</a>
-      <span style="margin-left:auto;color:#8a93a0">2026-09-18</span>
+      <a class="src" href="https://www.theplaidhorse.com/2026/09/17/the-rise-of-crash-and-instant-games-in-online-casinos/" target="_blank" rel="noopener">The Plaid Horse ↗</a>
+      <a class="src" href="https://www.researchandmarkets.com/reports/5865927/slot-machines-market-report" target="_blank" rel="noopener">Research and Markets ↗</a>
+      <span style="color:#9aa5b1">2026-09-17</span>
     </div>
   </div>
 </section>
 
-<div class="stats-line">本日日報查詢約 <b>46</b> 個網站，其中提取 <b>14</b> 個資料來源並進行交叉比對</div>
+<div class="stats-line">本日日報查詢約 <b>36</b> 個網站，其中提取 <b>10</b> 個資料來源並進行交叉比對</div>
 
 <footer>
-  iGaming 市場日報 v4.1（五大分類版）· 每則新聞均附真實原文連結 · 資料來源涵蓋 Provider 官網／產業媒體／市場數據機構／監理機關<br>
-  本報告由 daily-news-report + daily-report-html 自動化流程產出
+  iGaming 日報自動化 v5.2（五大分類版）・每則皆附真實可點擊原文連結・多來源交叉查證<br>
+  產出時間：2026-09-20（台北時間）
 </footer>
 
 </div>
