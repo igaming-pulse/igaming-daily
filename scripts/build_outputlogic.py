@@ -1,54 +1,81 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""產生 OutputLogic 說明頁：Markdown（本機預覽）＋ 精美 HTML（發布用，流程圖以 mermaid 渲染）。
-來源表格讀自主檔 xlsx；架構文字與流程圖為內建。來源異動後重跑即可更新。
-用法：python3 build_outputlogic.py
-輸出：OutputLogic.md、OutputLogic/index.html（本檔同目錄）
 """
-import os, re, html, collections
-import openpyxl
+產生 OutputLogic 運作說明頁：Markdown（repo 內閱讀）＋ HTML（發布用，mermaid 流程圖）。
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
-XLSX = os.path.join(os.path.expanduser("~"),
-                    "Desktop/All-in AI/04_Docs/NewsReport/igaming-daily-report-sources-v2.xlsx")
+與 Mac 舊版的差異：
+  - xlsx 改 repo 相對路徑
+  - 來源總數與分類數**全部動態帶入**，不再有寫死的 218／10
+  - 流程圖更新為現行架構（02:30 本機 CLI → push；06:30 GitHub Actions）
+  - 只在「來源異動」時需要重跑，不再每天執行
+
+用法：python3 scripts/build_outputlogic.py
+輸出：OutputLogic.md、OutputLogic/index.html
+"""
+import os
+import html
+import collections
+import sys
+
+try:
+    import openpyxl
+except ImportError:
+    sys.exit("✗ 需要 openpyxl：pip3 install openpyxl --break-system-packages")
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+XLSX = os.path.join(ROOT, "sources", "igaming-daily-report-sources-v2.xlsx")
 OUT_MD = os.path.join(ROOT, "OutputLogic.md")
 OUT_DIR = os.path.join(ROOT, "OutputLogic")
 OUT_HTML = os.path.join(OUT_DIR, "index.html")
-ORDER = ["Provider 官網", "產品分析／評測", "產業媒體", "產業協會／技術認證機構",
-         "市場數據／分析公司", "監理機關／官方數據", "展會", "論壇／社群",
-         "Podcast／影音", "已停用"]
+
+ORDER = [
+    "Provider 官網", "產品分析／評測", "產業媒體", "產業協會／技術認證機構",
+    "市場數據／分析公司", "監理機關／官方數據", "展會", "論壇／社群",
+    "Podcast／影音", "已停用",
+]
 
 wb = openpyxl.load_workbook(XLSX, read_only=True, data_only=True)
 ws = wb.active
 rows = [r for r in ws.iter_rows(values_only=True)][1:]
-rows = [r for r in rows if r and r[3] and str(r[3]).startswith("http")]
+rows = [r for r in rows if r and r[1]]
 total = len(rows)
+
 groups = collections.OrderedDict((c, []) for c in ORDER)
 for r in rows:
     groups.setdefault(str(r[1]).strip(), []).append(r)
 active_cats = [c for c in ORDER if groups.get(c)]
+for c in groups:
+    if c not in active_cats and groups[c]:
+        active_cats.append(c)
+ncats = len(active_cats)
 catsum = "、".join(f"{c} {len(groups[c])}" for c in active_cats)
 
-ARCH = ("本日報為**全自動**產物：每天**台北時間 02:30** 由排程觸發（半夜跑，讓運算用量在上班前就退出額度視窗；"
-        "Email 於 02:30 即時寄出，Telegram 通知則延到 **06:30** 由系統排程零額外成本發送）。流程先**同步來源庫**"
-        "——以 Excel 主檔 igaming-daily-report-sources-v2.xlsx（目前 **%d 個來源、10 大分類**）為唯一真相，重建成程式讀取的 sources.md；"
-        "主檔若遺失會自動反向重建。接著**抓取新聞**：跨分類主動取材，被擋的站改用 Firecrawl（不觸發逐站授權），"
-        "並依五大分類（🎰 Slot 新遊戲、🕹️ 非 Slot、🤝 主流動態、🇵🇭 菲律賓、📊 市場數據）歸位。"
-        "**辨識與優先級**依序判斷：先分類，再看是否為「優先展示品牌」（Yggdrasil、Jili、DigiPlus 等）與市場衝擊性，高者排前、寧缺毋濫。"
-        "每則都要**交叉查證**：至少再找一個獨立來源佐證、用官網／SlotCatalog 補全參數、遇數據衝突以最權威來源為準並標註"
-        "——且**只增不減**，基本參數（盤面／倍率／RTP／波動）必須填滿。最後渲染成精美 HTML、發布 GitHub Pages，"
-        "並附上「本日查詢約 N 個網站、提取 N 個來源交叉比對」的統計。") % total
+ARCH = (
+    "本日報為**全自動**產物：每天**台北時間 02:30** 由排程觸發（半夜跑，讓運算用量在上班前就退出額度視窗）。"
+    "流程先**同步來源庫**——以 Excel 主檔 igaming-daily-report-sources-v2.xlsx"
+    f"（目前 **{total} 個來源、{ncats} 大分類**，主檔存放於 repo 內）為唯一真相，重建成程式讀取的 sources.md。"
+    "接著**抓取新聞**：跨分類主動取材，被擋的站改用 Firecrawl，"
+    "並依五大分類（🎰 Slot 新遊戲、🕹️ 非 Slot、🤝 主流動態、🇵🇭 菲律賓、📊 市場數據）歸位。"
+    "**辨識與優先級**依序判斷：先分類，再看是否為「優先展示品牌」（Yggdrasil、Jili、DigiPlus 等）與市場衝擊性，"
+    "高者排前、寧缺毋濫。每則都要**交叉查證**：至少再找一個獨立來源佐證、用官網／SlotCatalog 補全參數、"
+    "遇數據衝突以最權威來源為準並標註——且**只增不減**，基本參數（盤面／倍率／RTP／波動）必須填滿。"
+    "最後渲染成 HTML、commit 並 push 到 GitHub Pages；"
+    "**Email 由 push 事件觸發的 GitHub Actions 寄出**，"
+    "**Telegram 推播則延到 06:30 由另一支 GitHub Actions 定時發送**（零額外運算成本）。"
+)
 
 DIAGRAMS = [
-    ("2-1　每日總流程", """flowchart TD
-  T["⏰ 每天 02:30 觸發"] --> S0["步驟0 同步來源庫<br/>xlsx → sources.md（%d 源）"]
-  S0 --> S1["步驟1 抓新聞<br/>五大分類 · 交叉查證"]
-  S1 --> S2["步驟2 渲染精美 HTML"]
-  S2 --> S3["步驟3 發布 GitHub Pages"]
-  S3 --> S4["步驟4 Email 即時寄出 ✉️"]
-  S4 --> P["預存 Telegram 訊息（不即時發）"]
-  P --> S6["步驟6 回報"]
-  P -. "06:30 launchd · 零 token" .-> TG["📲 Telegram 推播"]""" % total),
+    ("2-1　每日總流程", f"""flowchart TD
+  T["⏰ 每天 02:30 觸發（本機 CLI · 訂閱額度）"] --> S0["步驟0 同步來源庫<br/>xlsx → sources.md（{total} 源）"]
+  S0 --> S1["步驟1 抓新聞<br/>五大分類 · 交叉查證（每則上限 3 次）"]
+  S1 --> S2["步驟2 渲染 HTML"]
+  S2 --> S3["步驟3 commit + push<br/>GitHub Pages 更新"]
+  S3 --> P["步驟4 預存 Telegram 訊息<br/>寫進 state/ 並 push"]
+  S3 -. "push 觸發 · 零 token" .-> EM["📧 GitHub Actions 寄 Email"]
+  P -. "06:30 cron · 零 token" .-> TG["📲 GitHub Actions 發 Telegram"]
+  TG --> WD{{"repo 有今天的報告？"}}
+  WD -- 有 --> OK["正常推播 ✅"]
+  WD -- 無 --> AL["⚠️ 推播未產出警告"]"""),
     ("2-2　新聞分類辨識", """flowchart TD
   N["一則新聞"] --> Q1{"是新遊戲？"}
   Q1 -- "是 · Slot" --> C1["🎰 cat1 Slot 新遊戲"]
@@ -72,9 +99,9 @@ DIAGRAMS = [
   W -- 否 --> W2["保留並增豐（只增不減）"]
   W1 --> O["列出所有查證來源 → 輸出"]
   W2 --> O"""),
-    ("2-5　來源庫維護（雙向同步 · 自癒）", """flowchart LR
-  XLSX["📗 主檔 xlsx<br/>%d 源 · 唯一真相"] -->|"每天 02:30 同步"| MD["📄 sources.md（skill 讀取）"]
-  MD -.->|"xlsx 遺失 → 自癒重建"| XLSX""" % total),
+    ("2-5　來源庫維護", f"""flowchart LR
+  XLSX["📗 主檔 xlsx（repo 內）<br/>{total} 源 · 唯一真相"] -->|"每天 02:30 同步"| MD["📄 sources.md（skill 讀取）"]
+  MD -.->|"勿手改，改 xlsx 後重跑"| XLSX"""),
 ]
 
 
@@ -83,50 +110,57 @@ def esc_cell(s):
 
 
 # ---------- Markdown ----------
-def bold_md(t):
-    return t
-md = ["# 🎰 iGaming 市場日報 — OutputLogic（運作說明）", "",
-      "> 本頁記錄「iGaming 市場日報」如何自動生成、涵蓋哪些來源、用什麼邏輯判斷與排序，作為日後維護與查證的說明書。", "",
-      "## 一、生成的基本架構（約 300 字）", "", ARCH, "", "## 二、運作邏輯（流程圖）", ""]
+md = [
+    "# 🎰 iGaming 市場日報 — OutputLogic（運作說明）", "",
+    "> 本頁記錄「iGaming 市場日報」如何自動生成、涵蓋哪些來源、用什麼邏輯判斷與排序。", "",
+    "## 一、生成的基本架構", "", ARCH, "", "## 二、運作邏輯（流程圖）", "",
+]
 for title, code in DIAGRAMS:
     md += [f"### {title}", "", "```mermaid", code, "```", ""]
-md += [f"## 三、資料來源總表（共 {total} 個，依主檔 xlsx 五欄呈現）", "",
-       f"> 欄位：編號｜分類｜網站名稱｜網站網址｜備註。分類數量：{catsum}。"]
+md += [
+    f"## 三、資料來源總表（共 {total} 個，依主檔 xlsx 五欄呈現）", "",
+    f"> 欄位：編號｜分類｜網站名稱｜網站網址｜備註。分類數量：{catsum}。",
+]
 for cat in active_cats:
-    md += ["", f"### {cat}（{len(groups[cat])}）", "", "| 編號 | 網站名稱 | 網站網址 | 備註 |", "|---|---|---|---|"]
+    md += ["", f"### {cat}（{len(groups[cat])}）", "",
+           "| 編號 | 網站名稱 | 網站網址 | 備註 |", "|---|---|---|---|"]
     for r in groups[cat]:
-        md.append(f"| {r[0]} | {esc_cell(r[2])} | [{str(r[3]).strip()}]({str(r[3]).strip()}) | {esc_cell(r[4])} |")
-md += ["", "---", "*本頁由 build_outputlogic.py 讀取主檔 xlsx 自動產生；來源異動後重跑即可更新。*", ""]
-open(OUT_MD, "w", encoding="utf-8").write("\n".join(md))
+        url = str(r[3] or "").strip()
+        link = f"[{url}]({url})" if url.startswith("http") else esc_cell(url)
+        md.append(f"| {r[0]} | {esc_cell(r[2])} | {link} | {esc_cell(r[4])} |")
+md += ["", "---",
+       "*本頁由 scripts/build_outputlogic.py 讀取主檔 xlsx 自動產生；來源異動後重跑即可更新。*", ""]
+with open(OUT_MD, "w", encoding="utf-8") as f:
+    f.write("\n".join(md))
 
 
 # ---------- HTML ----------
 def h(s):
     return html.escape(str(s or ""), quote=True)
 
+
 def bold_html(t):
-    out, b = [], False
+    out = []
     for i, seg in enumerate(t.split("**")):
-        if i % 2 == 1:
-            out.append("<strong>" + h(seg) + "</strong>")
-        else:
-            out.append(h(seg))
+        out.append("<strong>" + h(seg) + "</strong>" if i % 2 else h(seg))
     return "".join(out)
+
 
 diagram_html = "\n".join(
     f'  <div class="card"><h3>{h(t)}</h3><pre class="mermaid">\n{c}\n</pre></div>'
     for t, c in DIAGRAMS)
 
-# 分類導覽
-nav = " · ".join(f'<a href="#cat{i}">{h(c)}（{len(groups[c])}）</a>' for i, c in enumerate(active_cats))
+nav = " · ".join(f'<a href="#cat{i}">{h(c)}（{len(groups[c])}）</a>'
+                 for i, c in enumerate(active_cats))
 
-# 分類表格
 tables = []
 for i, cat in enumerate(active_cats):
     body = "\n".join(
         f'      <tr><td class="no">{h(r[0])}</td><td>{h(esc_cell(r[2]))}</td>'
-        f'<td><a href="{h(str(r[3]).strip())}" target="_blank" rel="noopener">{h(str(r[3]).strip())}</a></td>'
-        f'<td class="note">{h(esc_cell(r[4]))}</td></tr>'
+        + (f'<td><a href="{h(str(r[3]).strip())}" target="_blank" rel="noopener">{h(str(r[3]).strip())}</a></td>'
+           if str(r[3] or "").strip().startswith("http")
+           else f'<td class="note">{h(esc_cell(r[3]))}</td>')
+        + f'<td class="note">{h(esc_cell(r[4]))}</td></tr>'
         for r in groups[cat])
     tables.append(
         f'  <h3 id="cat{i}" class="cat">{h(cat)}<span class="badge">{len(groups[cat])}</span>'
@@ -186,11 +220,11 @@ HTML = """<!DOCTYPE html>
   <div class="h2">二、運作邏輯（流程圖）</div>
 __DIAGRAMS__
 
-  <div class="h2">三、資料來源總表（共 __TOTAL__ 個 · 依主檔 xlsx 五欄）</div>
+  <div class="h2">三、資料來源總表（共 __TOTAL__ 個 · __NCATS__ 大分類）</div>
   <div class="nav">__NAV__</div>
 __TABLES__
 
-  <div class="foot">本頁由 build_outputlogic.py 讀取主檔 <code>igaming-daily-report-sources-v2.xlsx</code> 自動產生 · 來源異動後重跑即更新<br>© iGaming Daily</div>
+  <div class="foot">本頁由 scripts/build_outputlogic.py 讀取 repo 內主檔 <code>sources/igaming-daily-report-sources-v2.xlsx</code> 自動產生 · 來源異動後重跑即更新<br>© iGaming Daily</div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
 <script>
@@ -203,11 +237,13 @@ HTML = (HTML.replace("__ARCH__", bold_html(ARCH))
             .replace("__DIAGRAMS__", diagram_html)
             .replace("__NAV__", nav)
             .replace("__TABLES__", tables_html)
-            .replace("__TOTAL__", str(total)))
+            .replace("__TOTAL__", str(total))
+            .replace("__NCATS__", str(ncats)))
 os.makedirs(OUT_DIR, exist_ok=True)
-open(OUT_HTML, "w", encoding="utf-8").write(HTML)
+with open(OUT_HTML, "w", encoding="utf-8") as f:
+    f.write(HTML)
 
 print("✓ 已產生：")
 print("   MD  :", OUT_MD)
 print("   HTML:", OUT_HTML)
-print("   來源 %d 個、%d 分類" % (total, len(active_cats)))
+print(f"   來源 {total} 個、{ncats} 分類")

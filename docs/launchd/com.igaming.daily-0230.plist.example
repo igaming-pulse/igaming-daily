@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  台北 02:30 的日報排程（macOS launchd）
+
+  安裝：
+    1. 把 __HOME__ 換成你的家目錄（例如 /Users/nathan）
+    2. cp 這個檔到 ~/Library/LaunchAgents/com.igaming.daily-0230.plist
+    3. launchctl load -w ~/Library/LaunchAgents/com.igaming.daily-0230.plist
+    4. 驗證：launchctl list | grep igaming
+
+  為什麼用 launchd 而不是 Claude 內建排程：
+    StartCalendarInterval 有「漏跑會補」的特性 —— 排定時刻若機器關機／睡死，
+    下次醒來會自動補跑一次。這是「不漏跑」的第二層保險。
+    （第一層是 pmset repeat wake 讓機器 02:25 自己醒來。）
+
+  移除：
+    launchctl unload -w ~/Library/LaunchAgents/com.igaming.daily-0230.plist
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.igaming.daily-0230</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>__HOME__/igaming-daily/scripts/run_daily.sh</string>
+  </array>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key><integer>2</integer>
+    <key>Minute</key><integer>30</integer>
+  </dict>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>IGAMING_REPO</key><string>__HOME__/igaming-daily</string>
+    <!-- Firecrawl 金鑰：launchd 讀不到 ~/.zshrc，必須在這裡給 -->
+    <key>FIRECRAWL_API_KEY</key><string>__FIRECRAWL_KEY__</string>
+    <key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+  </dict>
+
+  <key>StandardOutPath</key><string>__HOME__/igaming-daily/state/launchd.out.log</string>
+  <key>StandardErrorPath</key><string>__HOME__/igaming-daily/state/launchd.err.log</string>
+
+  <key>RunAtLoad</key><false/>
+</dict>
+</plist>

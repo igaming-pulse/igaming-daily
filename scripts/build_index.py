@@ -1,29 +1,38 @@
 #!/usr/bin/env python3
-"""掃 reports/*.html 產生 index.html（日報存檔首頁，最新在上）。"""
-import os, re, glob, html
+"""
+掃 reports/*.html 產生 index.html（日報存檔首頁，最新在上）。
+
+與 Mac 舊版的差異：ROOT 改成「本檔所在目錄的上一層」，因為腳本移到 scripts/ 了。
+用法：python3 scripts/build_index.py
+"""
+import os
+import re
+import glob
+import html
 from datetime import datetime
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPORTS = os.path.join(ROOT, "reports")
 
-# 收集 YYYY-MM-DD.html
 files = []
 for f in glob.glob(os.path.join(REPORTS, "*.html")):
     b = os.path.basename(f)
-    m = re.match(r"(\d{4})-(\d{2})-(\d{2})\.html$", b)
-    if m:
+    if re.match(r"\d{4}-\d{2}-\d{2}\.html$", b):
         files.append((b[:10], b))
-files.sort(reverse=True)  # 最新在上
+files.sort(reverse=True)
+
 
 def weekday_zh(datestr):
     wd = ["一", "二", "三", "四", "五", "六", "日"]
     try:
         return "週" + wd[datetime.strptime(datestr, "%Y-%m-%d").weekday()]
-    except Exception:
+    except ValueError:
         return ""
 
-# 合併單位標籤覆寫：某些日報是「跨兩天合併回顧」，檔名沿用起始日（可被本掃描器收錄、
-# 排序正確），但首頁卡片要顯示合併後的日期與星期。key=檔名日期，value=(顯示日期, 星期字串)。
+
+# 合併回顧日報的標籤覆寫：某些日報是「跨兩天合併回顧」，檔名沿用起始日
+# （這樣才會被掃描器收錄、排序也正確），但首頁卡片要顯示合併後的日期與星期。
+# key = 檔名日期，value = (顯示日期, 星期字串)。之後若再有合併回顧，往這裡加一行。
 LABEL_OVERRIDE = {
     "2026-09-08": ("2026-09-08＋09", "週二/三"),
 }
@@ -40,7 +49,6 @@ for date, fname in files:
 latest = files[0][0] if files else "—"
 body_cards = "\n".join(cards) if cards else '<p style="color:#5B6675">目前沒有報告。</p>'
 
-# 永遠置頂的「運作說明 OutputLogic」卡片
 pinned_card = '''    <a class="card pin" href="OutputLogic/">
       <div class="picon">📘</div>
       <div class="d">運作說明</div>
@@ -89,7 +97,7 @@ out = f'''<!DOCTYPE html>
 {body_cards}
   </div>
   <div class="foot">
-    自動由 daily-news-report 產出並發布 · 每則附原文連結供查證<br>
+    自動產出並發布 · 每則附原文連結供查證<br>
     © iGaming Daily
   </div>
 </div>
@@ -97,5 +105,6 @@ out = f'''<!DOCTYPE html>
 </html>
 '''
 
-open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(out)
+with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8") as f:
+    f.write(out)
 print(f"✓ index.html 已生成，共 {len(files)} 份報告，最新 {latest}")

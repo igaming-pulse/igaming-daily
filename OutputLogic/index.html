@@ -43,19 +43,21 @@
   <div class="sub">iGaming 市場日報如何自動生成、涵蓋哪些來源、用什麼邏輯判斷與排序</div>
 
   <div class="h2">一、生成的基本架構</div>
-  <div class="card"><p class="arch">本日報為<strong>全自動</strong>產物：每天<strong>台北時間 02:30</strong> 由排程觸發（半夜跑，讓運算用量在上班前就退出額度視窗；Email 於 02:30 即時寄出，Telegram 通知則延到 <strong>06:30</strong> 由系統排程零額外成本發送）。流程先<strong>同步來源庫</strong>——以 Excel 主檔 igaming-daily-report-sources-v2.xlsx（目前 <strong>218 個來源、10 大分類</strong>）為唯一真相，重建成程式讀取的 sources.md；主檔若遺失會自動反向重建。接著<strong>抓取新聞</strong>：跨分類主動取材，被擋的站改用 Firecrawl（不觸發逐站授權），並依五大分類（🎰 Slot 新遊戲、🕹️ 非 Slot、🤝 主流動態、🇵🇭 菲律賓、📊 市場數據）歸位。<strong>辨識與優先級</strong>依序判斷：先分類，再看是否為「優先展示品牌」（Yggdrasil、Jili、DigiPlus 等）與市場衝擊性，高者排前、寧缺毋濫。每則都要<strong>交叉查證</strong>：至少再找一個獨立來源佐證、用官網／SlotCatalog 補全參數、遇數據衝突以最權威來源為準並標註——且<strong>只增不減</strong>，基本參數（盤面／倍率／RTP／波動）必須填滿。最後渲染成精美 HTML、發布 GitHub Pages，並附上「本日查詢約 N 個網站、提取 N 個來源交叉比對」的統計。</p></div>
+  <div class="card"><p class="arch">本日報為<strong>全自動</strong>產物：每天<strong>台北時間 02:30</strong> 由排程觸發（半夜跑，讓運算用量在上班前就退出額度視窗）。流程先<strong>同步來源庫</strong>——以 Excel 主檔 igaming-daily-report-sources-v2.xlsx（目前 <strong>223 個來源、10 大分類</strong>，主檔存放於 repo 內）為唯一真相，重建成程式讀取的 sources.md。接著<strong>抓取新聞</strong>：跨分類主動取材，被擋的站改用 Firecrawl，並依五大分類（🎰 Slot 新遊戲、🕹️ 非 Slot、🤝 主流動態、🇵🇭 菲律賓、📊 市場數據）歸位。<strong>辨識與優先級</strong>依序判斷：先分類，再看是否為「優先展示品牌」（Yggdrasil、Jili、DigiPlus 等）與市場衝擊性，高者排前、寧缺毋濫。每則都要<strong>交叉查證</strong>：至少再找一個獨立來源佐證、用官網／SlotCatalog 補全參數、遇數據衝突以最權威來源為準並標註——且<strong>只增不減</strong>，基本參數（盤面／倍率／RTP／波動）必須填滿。最後渲染成 HTML、commit 並 push 到 GitHub Pages；<strong>Email 由 push 事件觸發的 GitHub Actions 寄出</strong>，<strong>Telegram 推播則延到 06:30 由另一支 GitHub Actions 定時發送</strong>（零額外運算成本）。</p></div>
 
   <div class="h2">二、運作邏輯（流程圖）</div>
   <div class="card"><h3>2-1　每日總流程</h3><pre class="mermaid">
 flowchart TD
-  T["⏰ 每天 02:30 觸發"] --> S0["步驟0 同步來源庫<br/>xlsx → sources.md（218 源）"]
-  S0 --> S1["步驟1 抓新聞<br/>五大分類 · 交叉查證"]
-  S1 --> S2["步驟2 渲染精美 HTML"]
-  S2 --> S3["步驟3 發布 GitHub Pages"]
-  S3 --> S4["步驟4 Email 即時寄出 ✉️"]
-  S4 --> P["預存 Telegram 訊息（不即時發）"]
-  P --> S6["步驟6 回報"]
-  P -. "06:30 launchd · 零 token" .-> TG["📲 Telegram 推播"]
+  T["⏰ 每天 02:30 觸發（本機 CLI · 訂閱額度）"] --> S0["步驟0 同步來源庫<br/>xlsx → sources.md（223 源）"]
+  S0 --> S1["步驟1 抓新聞<br/>五大分類 · 交叉查證（每則上限 3 次）"]
+  S1 --> S2["步驟2 渲染 HTML"]
+  S2 --> S3["步驟3 commit + push<br/>GitHub Pages 更新"]
+  S3 --> P["步驟4 預存 Telegram 訊息<br/>寫進 state/ 並 push"]
+  S3 -. "push 觸發 · 零 token" .-> EM["📧 GitHub Actions 寄 Email"]
+  P -. "06:30 cron · 零 token" .-> TG["📲 GitHub Actions 發 Telegram"]
+  TG --> WD{"repo 有今天的報告？"}
+  WD -- 有 --> OK["正常推播 ✅"]
+  WD -- 無 --> AL["⚠️ 推播未產出警告"]
 </pre></div>
   <div class="card"><h3>2-2　新聞分類辨識</h3><pre class="mermaid">
 flowchart TD
@@ -86,15 +88,15 @@ flowchart TD
   W1 --> O["列出所有查證來源 → 輸出"]
   W2 --> O
 </pre></div>
-  <div class="card"><h3>2-5　來源庫維護（雙向同步 · 自癒）</h3><pre class="mermaid">
+  <div class="card"><h3>2-5　來源庫維護</h3><pre class="mermaid">
 flowchart LR
-  XLSX["📗 主檔 xlsx<br/>218 源 · 唯一真相"] -->|"每天 02:30 同步"| MD["📄 sources.md（skill 讀取）"]
-  MD -.->|"xlsx 遺失 → 自癒重建"| XLSX
+  XLSX["📗 主檔 xlsx（repo 內）<br/>223 源 · 唯一真相"] -->|"每天 02:30 同步"| MD["📄 sources.md（skill 讀取）"]
+  MD -.->|"勿手改，改 xlsx 後重跑"| XLSX
 </pre></div>
 
-  <div class="h2">三、資料來源總表（共 218 個 · 依主檔 xlsx 五欄）</div>
-  <div class="nav"><a href="#cat0">Provider 官網（24）</a> · <a href="#cat1">產品分析／評測（11）</a> · <a href="#cat2">產業媒體（95）</a> · <a href="#cat3">產業協會／技術認證機構（23）</a> · <a href="#cat4">市場數據／分析公司（18）</a> · <a href="#cat5">監理機關／官方數據（16）</a> · <a href="#cat6">展會（19）</a> · <a href="#cat7">論壇／社群（6）</a> · <a href="#cat8">Podcast／影音（5）</a> · <a href="#cat9">已停用（1）</a></div>
-  <h3 id="cat0" class="cat">Provider 官網<span class="badge">24</span><a class="top" href="#top">↑ 回頂部</a></h3>
+  <div class="h2">三、資料來源總表（共 223 個 · 10 大分類）</div>
+  <div class="nav"><a href="#cat0">Provider 官網（27）</a> · <a href="#cat1">產品分析／評測（11）</a> · <a href="#cat2">產業媒體（96）</a> · <a href="#cat3">產業協會／技術認證機構（23）</a> · <a href="#cat4">市場數據／分析公司（18）</a> · <a href="#cat5">監理機關／官方數據（16）</a> · <a href="#cat6">展會（19）</a> · <a href="#cat7">論壇／社群（6）</a> · <a href="#cat8">Podcast／影音（5）</a> · <a href="#cat9">已停用（2）</a></div>
+  <h3 id="cat0" class="cat">Provider 官網<span class="badge">27</span><a class="top" href="#top">↑ 回頂部</a></h3>
   <div class="tablewrap"><table>
     <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>備註</th></tr></thead>
     <tbody>
@@ -122,6 +124,9 @@ flowchart LR
       <tr><td class="no">22</td><td>Kalamba Games</td><td><a href="https://kalambagames.com/" target="_blank" rel="noopener">https://kalambagames.com/</a></td><td class="note">Provider 官網</td></tr>
       <tr><td class="no">23</td><td>Peter &amp; Sons</td><td><a href="https://peterandsonsgames.com/" target="_blank" rel="noopener">https://peterandsonsgames.com/</a></td><td class="note">Provider 官網</td></tr>
       <tr><td class="no">24</td><td>CP Game</td><td><a href="https://cpgames.com/" target="_blank" rel="noopener">https://cpgames.com/</a></td><td class="note">Provider 官網</td></tr>
+      <tr><td class="no">220</td><td>Acewin</td><td><a href="https://www.acewin168.com/" target="_blank" rel="noopener">https://www.acewin168.com/</a></td><td class="note">★優先追蹤｜IGS鈊象電子旗下 GP；可視為 Jili 低配版、多款與 Jili 互通，B 端價格有優勢。上新遊戲於 DigiPlus 系(BingoPlus/ArenaPlus/GameZone)或 CasinoPlus 等菲現金網、或特別線上/線下活動與平台功能更新→提高露出權重</td></tr>
+      <tr><td class="no">221</td><td>Omiplay</td><td><a href="https://omiplay.com/" target="_blank" rel="noopener">https://omiplay.com/</a></td><td class="note">★優先追蹤｜台灣尊博集團 GP；Super Gem 對標 Fortune Gem 成功、獲 BingoPlus/CasinoPlus 內部認可、菲律賓有成績。上新遊戲於 DigiPlus 系/CasinoPlus 或特別活動/平台更新→提高露出權重</td></tr>
+      <tr><td class="no">222</td><td>YellowBat</td><td><a href="https://www.yellowbat.com/games/" target="_blank" rel="noopener">https://www.yellowbat.com/games/</a></td><td class="note">★優先追蹤｜菲律賓平台 PlayTime 深度策略夥伴。上新遊戲於 DigiPlus 系/CasinoPlus/PlayTime 或特別活動/平台更新→提高露出權重</td></tr>
     </tbody></table></div>
   <h3 id="cat1" class="cat">產品分析／評測<span class="badge">11</span><a class="top" href="#top">↑ 回頂部</a></h3>
   <div class="tablewrap"><table>
@@ -139,7 +144,7 @@ flowchart LR
       <tr><td class="no">34</td><td>EZ Slot Design</td><td><a href="https://ezslotdesign.com/" target="_blank" rel="noopener">https://ezslotdesign.com/</a></td><td class="note">Slot 遊戲設計分析，設計師視角拆解玩法機制</td></tr>
       <tr><td class="no">35</td><td>P-WORLD</td><td><a href="https://www.p-world.co.jp/" target="_blank" rel="noopener">https://www.p-world.co.jp/</a></td><td class="note">日本遊技機資料庫；子頁 introduce_calendar.cgi 為★新台上市日期／規格／導入店數，日本機種情報最關鍵單一來源</td></tr>
     </tbody></table></div>
-  <h3 id="cat2" class="cat">產業媒體<span class="badge">95</span><a class="top" href="#top">↑ 回頂部</a></h3>
+  <h3 id="cat2" class="cat">產業媒體<span class="badge">96</span><a class="top" href="#top">↑ 回頂部</a></h3>
   <div class="tablewrap"><table>
     <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>備註</th></tr></thead>
     <tbody>
@@ -238,6 +243,7 @@ flowchart LR
       <tr><td class="no">128</td><td>Focus Asia Pacific iGaming</td><td><a href="https://focusgn.com/asia-pacific/category/igaming-news" target="_blank" rel="noopener">https://focusgn.com/asia-pacific/category/igaming-news</a></td><td class="note">★Focus Gaming News 亞太版，對應本報告亞洲焦點</td></tr>
       <tr><td class="no">129</td><td>Focus Gaming News Brasil</td><td><a href="https://focusgn.com/brasil/" target="_blank" rel="noopener">https://focusgn.com/brasil/</a></td><td class="note">Focus Gaming News 巴西版</td></tr>
       <tr><td class="no">130</td><td>Focus Gaming News Latinoamérica</td><td><a href="https://focusgn.com/latinoamerica/" target="_blank" rel="noopener">https://focusgn.com/latinoamerica/</a></td><td class="note">Focus Gaming News 拉美西語版</td></tr>
+      <tr><td class="no">223</td><td>SlotBeats</td><td><a href="https://slotbeats.com/" target="_blank" rel="noopener">https://slotbeats.com/</a></td><td class="note">iGaming/Slot 新聞媒體，新老虎機上線與供應商動態報導快、覆蓋廣；交叉查證 Slot 新遊戲的重點來源之一</td></tr>
     </tbody></table></div>
   <h3 id="cat3" class="cat">產業協會／技術認證機構<span class="badge">23</span><a class="top" href="#top">↑ 回頂部</a></h3>
   <div class="tablewrap"><table>
@@ -356,14 +362,15 @@ flowchart LR
       <tr><td class="no">159</td><td>NEXT.io Podcast</td><td><a href="https://podcasts.apple.com/gb/podcast/next-io-podcast/id1515442333" target="_blank" rel="noopener">https://podcasts.apple.com/gb/podcast/next-io-podcast/id1515442333</a></td><td class="note">業內領袖訪談，聚焦 iGaming 產業策略</td></tr>
       <tr><td class="no">160</td><td>iGaming Pulse</td><td><a href="https://podcasts.apple.com/us/podcast/igaming-pulse-trends-news-analysis/id1771798553" target="_blank" rel="noopener">https://podcasts.apple.com/us/podcast/igaming-pulse-trends-news-analysis/id1771798553</a></td><td class="note">產業趨勢與新聞分析</td></tr>
     </tbody></table></div>
-  <h3 id="cat9" class="cat">已停用<span class="badge">1</span><a class="top" href="#top">↑ 回頂部</a></h3>
+  <h3 id="cat9" class="cat">已停用<span class="badge">2</span><a class="top" href="#top">↑ 回頂部</a></h3>
   <div class="tablewrap"><table>
     <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>備註</th></tr></thead>
     <tbody>
+      <tr><td class="no">218</td><td>CalvinAyre</td><td class="note">（網站已停止營運）</td><td class="note">網站已停止營運（2026-06-15 確認），不再抓取</td></tr>
       <tr><td class="no">219</td><td>Eilers &amp; Krejcik Gaming (EKG)｜舊網域</td><td><a href="https://ekg.com/news/" target="_blank" rel="noopener">https://ekg.com/news/</a></td><td class="note">舊網域已出售停站（2026-06-15 確認）；★本次比對發現公司已搬遷新網域 ekgamingllc.com，新網域資料已收錄於「市場數據／分析公司」分類，建議日後改用新網域</td></tr>
     </tbody></table></div>
 
-  <div class="foot">本頁由 build_outputlogic.py 讀取主檔 <code>igaming-daily-report-sources-v2.xlsx</code> 自動產生 · 來源異動後重跑即更新<br>© iGaming Daily</div>
+  <div class="foot">本頁由 scripts/build_outputlogic.py 讀取 repo 內主檔 <code>sources/igaming-daily-report-sources-v2.xlsx</code> 自動產生 · 來源異動後重跑即更新<br>© iGaming Daily</div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
 <script>

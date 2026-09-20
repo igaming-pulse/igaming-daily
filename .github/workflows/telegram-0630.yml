@@ -1,0 +1,29 @@
+name: Telegram 06:30 推播（含守門員）
+
+# 台北 06:30 = UTC 22:30（前一天）。台灣無日光節約，固定偏移。
+on:
+  schedule:
+    - cron: '30 22 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: '只印出不實際發送'
+        required: false
+        default: 'false'
+
+concurrency:
+  group: telegram-0630
+  cancel-in-progress: false
+
+jobs:
+  push-telegram:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 發送 Telegram（或發出未產出警告）
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+          DRY_RUN:            ${{ github.event.inputs.dry_run }}
+        run: python3 scripts/send_telegram.py

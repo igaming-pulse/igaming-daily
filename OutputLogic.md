@@ -1,10 +1,10 @@
 # 🎰 iGaming 市場日報 — OutputLogic（運作說明）
 
-> 本頁記錄「iGaming 市場日報」如何自動生成、涵蓋哪些來源、用什麼邏輯判斷與排序，作為日後維護與查證的說明書。
+> 本頁記錄「iGaming 市場日報」如何自動生成、涵蓋哪些來源、用什麼邏輯判斷與排序。
 
-## 一、生成的基本架構（約 300 字）
+## 一、生成的基本架構
 
-本日報為**全自動**產物：每天**台北時間 02:30** 由排程觸發（半夜跑，讓運算用量在上班前就退出額度視窗；Email 於 02:30 即時寄出，Telegram 通知則延到 **06:30** 由系統排程零額外成本發送）。流程先**同步來源庫**——以 Excel 主檔 igaming-daily-report-sources-v2.xlsx（目前 **218 個來源、10 大分類**）為唯一真相，重建成程式讀取的 sources.md；主檔若遺失會自動反向重建。接著**抓取新聞**：跨分類主動取材，被擋的站改用 Firecrawl（不觸發逐站授權），並依五大分類（🎰 Slot 新遊戲、🕹️ 非 Slot、🤝 主流動態、🇵🇭 菲律賓、📊 市場數據）歸位。**辨識與優先級**依序判斷：先分類，再看是否為「優先展示品牌」（Yggdrasil、Jili、DigiPlus 等）與市場衝擊性，高者排前、寧缺毋濫。每則都要**交叉查證**：至少再找一個獨立來源佐證、用官網／SlotCatalog 補全參數、遇數據衝突以最權威來源為準並標註——且**只增不減**，基本參數（盤面／倍率／RTP／波動）必須填滿。最後渲染成精美 HTML、發布 GitHub Pages，並附上「本日查詢約 N 個網站、提取 N 個來源交叉比對」的統計。
+本日報為**全自動**產物：每天**台北時間 02:30** 由排程觸發（半夜跑，讓運算用量在上班前就退出額度視窗）。流程先**同步來源庫**——以 Excel 主檔 igaming-daily-report-sources-v2.xlsx（目前 **223 個來源、10 大分類**，主檔存放於 repo 內）為唯一真相，重建成程式讀取的 sources.md。接著**抓取新聞**：跨分類主動取材，被擋的站改用 Firecrawl，並依五大分類（🎰 Slot 新遊戲、🕹️ 非 Slot、🤝 主流動態、🇵🇭 菲律賓、📊 市場數據）歸位。**辨識與優先級**依序判斷：先分類，再看是否為「優先展示品牌」（Yggdrasil、Jili、DigiPlus 等）與市場衝擊性，高者排前、寧缺毋濫。每則都要**交叉查證**：至少再找一個獨立來源佐證、用官網／SlotCatalog 補全參數、遇數據衝突以最權威來源為準並標註——且**只增不減**，基本參數（盤面／倍率／RTP／波動）必須填滿。最後渲染成 HTML、commit 並 push 到 GitHub Pages；**Email 由 push 事件觸發的 GitHub Actions 寄出**，**Telegram 推播則延到 06:30 由另一支 GitHub Actions 定時發送**（零額外運算成本）。
 
 ## 二、運作邏輯（流程圖）
 
@@ -12,14 +12,16 @@
 
 ```mermaid
 flowchart TD
-  T["⏰ 每天 02:30 觸發"] --> S0["步驟0 同步來源庫<br/>xlsx → sources.md（218 源）"]
-  S0 --> S1["步驟1 抓新聞<br/>五大分類 · 交叉查證"]
-  S1 --> S2["步驟2 渲染精美 HTML"]
-  S2 --> S3["步驟3 發布 GitHub Pages"]
-  S3 --> S4["步驟4 Email 即時寄出 ✉️"]
-  S4 --> P["預存 Telegram 訊息（不即時發）"]
-  P --> S6["步驟6 回報"]
-  P -. "06:30 launchd · 零 token" .-> TG["📲 Telegram 推播"]
+  T["⏰ 每天 02:30 觸發（本機 CLI · 訂閱額度）"] --> S0["步驟0 同步來源庫<br/>xlsx → sources.md（223 源）"]
+  S0 --> S1["步驟1 抓新聞<br/>五大分類 · 交叉查證（每則上限 3 次）"]
+  S1 --> S2["步驟2 渲染 HTML"]
+  S2 --> S3["步驟3 commit + push<br/>GitHub Pages 更新"]
+  S3 --> P["步驟4 預存 Telegram 訊息<br/>寫進 state/ 並 push"]
+  S3 -. "push 觸發 · 零 token" .-> EM["📧 GitHub Actions 寄 Email"]
+  P -. "06:30 cron · 零 token" .-> TG["📲 GitHub Actions 發 Telegram"]
+  TG --> WD{"repo 有今天的報告？"}
+  WD -- 有 --> OK["正常推播 ✅"]
+  WD -- 無 --> AL["⚠️ 推播未產出警告"]
 ```
 
 ### 2-2　新聞分類辨識
@@ -60,19 +62,19 @@ flowchart TD
   W2 --> O
 ```
 
-### 2-5　來源庫維護（雙向同步 · 自癒）
+### 2-5　來源庫維護
 
 ```mermaid
 flowchart LR
-  XLSX["📗 主檔 xlsx<br/>218 源 · 唯一真相"] -->|"每天 02:30 同步"| MD["📄 sources.md（skill 讀取）"]
-  MD -.->|"xlsx 遺失 → 自癒重建"| XLSX
+  XLSX["📗 主檔 xlsx（repo 內）<br/>223 源 · 唯一真相"] -->|"每天 02:30 同步"| MD["📄 sources.md（skill 讀取）"]
+  MD -.->|"勿手改，改 xlsx 後重跑"| XLSX
 ```
 
-## 三、資料來源總表（共 218 個，依主檔 xlsx 五欄呈現）
+## 三、資料來源總表（共 223 個，依主檔 xlsx 五欄呈現）
 
-> 欄位：編號｜分類｜網站名稱｜網站網址｜備註。分類數量：Provider 官網 24、產品分析／評測 11、產業媒體 95、產業協會／技術認證機構 23、市場數據／分析公司 18、監理機關／官方數據 16、展會 19、論壇／社群 6、Podcast／影音 5、已停用 1。
+> 欄位：編號｜分類｜網站名稱｜網站網址｜備註。分類數量：Provider 官網 27、產品分析／評測 11、產業媒體 96、產業協會／技術認證機構 23、市場數據／分析公司 18、監理機關／官方數據 16、展會 19、論壇／社群 6、Podcast／影音 5、已停用 2。
 
-### Provider 官網（24）
+### Provider 官網（27）
 
 | 編號 | 網站名稱 | 網站網址 | 備註 |
 |---|---|---|---|
@@ -100,6 +102,9 @@ flowchart LR
 | 22 | Kalamba Games | [https://kalambagames.com/](https://kalambagames.com/) | Provider 官網 |
 | 23 | Peter & Sons | [https://peterandsonsgames.com/](https://peterandsonsgames.com/) | Provider 官網 |
 | 24 | CP Game | [https://cpgames.com/](https://cpgames.com/) | Provider 官網 |
+| 220 | Acewin | [https://www.acewin168.com/](https://www.acewin168.com/) | ★優先追蹤｜IGS鈊象電子旗下 GP；可視為 Jili 低配版、多款與 Jili 互通，B 端價格有優勢。上新遊戲於 DigiPlus 系(BingoPlus/ArenaPlus/GameZone)或 CasinoPlus 等菲現金網、或特別線上/線下活動與平台功能更新→提高露出權重 |
+| 221 | Omiplay | [https://omiplay.com/](https://omiplay.com/) | ★優先追蹤｜台灣尊博集團 GP；Super Gem 對標 Fortune Gem 成功、獲 BingoPlus/CasinoPlus 內部認可、菲律賓有成績。上新遊戲於 DigiPlus 系/CasinoPlus 或特別活動/平台更新→提高露出權重 |
+| 222 | YellowBat | [https://www.yellowbat.com/games/](https://www.yellowbat.com/games/) | ★優先追蹤｜菲律賓平台 PlayTime 深度策略夥伴。上新遊戲於 DigiPlus 系/CasinoPlus/PlayTime 或特別活動/平台更新→提高露出權重 |
 
 ### 產品分析／評測（11）
 
@@ -117,7 +122,7 @@ flowchart LR
 | 34 | EZ Slot Design | [https://ezslotdesign.com/](https://ezslotdesign.com/) | Slot 遊戲設計分析，設計師視角拆解玩法機制 |
 | 35 | P-WORLD | [https://www.p-world.co.jp/](https://www.p-world.co.jp/) | 日本遊技機資料庫；子頁 introduce_calendar.cgi 為★新台上市日期／規格／導入店數，日本機種情報最關鍵單一來源 |
 
-### 產業媒體（95）
+### 產業媒體（96）
 
 | 編號 | 網站名稱 | 網站網址 | 備註 |
 |---|---|---|---|
@@ -216,6 +221,7 @@ flowchart LR
 | 128 | Focus Asia Pacific iGaming | [https://focusgn.com/asia-pacific/category/igaming-news](https://focusgn.com/asia-pacific/category/igaming-news) | ★Focus Gaming News 亞太版，對應本報告亞洲焦點 |
 | 129 | Focus Gaming News Brasil | [https://focusgn.com/brasil/](https://focusgn.com/brasil/) | Focus Gaming News 巴西版 |
 | 130 | Focus Gaming News Latinoamérica | [https://focusgn.com/latinoamerica/](https://focusgn.com/latinoamerica/) | Focus Gaming News 拉美西語版 |
+| 223 | SlotBeats | [https://slotbeats.com/](https://slotbeats.com/) | iGaming/Slot 新聞媒體，新老虎機上線與供應商動態報導快、覆蓋廣；交叉查證 Slot 新遊戲的重點來源之一 |
 
 ### 產業協會／技術認證機構（23）
 
@@ -334,11 +340,12 @@ flowchart LR
 | 159 | NEXT.io Podcast | [https://podcasts.apple.com/gb/podcast/next-io-podcast/id1515442333](https://podcasts.apple.com/gb/podcast/next-io-podcast/id1515442333) | 業內領袖訪談，聚焦 iGaming 產業策略 |
 | 160 | iGaming Pulse | [https://podcasts.apple.com/us/podcast/igaming-pulse-trends-news-analysis/id1771798553](https://podcasts.apple.com/us/podcast/igaming-pulse-trends-news-analysis/id1771798553) | 產業趨勢與新聞分析 |
 
-### 已停用（1）
+### 已停用（2）
 
 | 編號 | 網站名稱 | 網站網址 | 備註 |
 |---|---|---|---|
+| 218 | CalvinAyre | （網站已停止營運） | 網站已停止營運（2026-06-15 確認），不再抓取 |
 | 219 | Eilers & Krejcik Gaming (EKG)｜舊網域 | [https://ekg.com/news/](https://ekg.com/news/) | 舊網域已出售停站（2026-06-15 確認）；★本次比對發現公司已搬遷新網域 ekgamingllc.com，新網域資料已收錄於「市場數據／分析公司」分類，建議日後改用新網域 |
 
 ---
-*本頁由 build_outputlogic.py 讀取主檔 xlsx 自動產生；來源異動後重跑即可更新。*
+*本頁由 scripts/build_outputlogic.py 讀取主檔 xlsx 自動產生；來源異動後重跑即可更新。*
