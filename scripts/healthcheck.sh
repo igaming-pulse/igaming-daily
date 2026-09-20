@@ -64,10 +64,13 @@ echo
 
 echo "[6] 排程設定（macOS）"
 if command -v pmset >/dev/null 2>&1; then
-  if pmset -g sched 2>/dev/null | grep -qi wake; then
-    ok "pmset 自動喚醒已設定：$(pmset -g sched | grep -i wake | head -1 | xargs)"
+  # 只認「Repeating power events」區塊裡的 wake —— 系統自己排的一次性喚醒
+  # （行事曆、備份等）不算數，那些不會每天準時把機器叫起來。
+  rep=$(pmset -g sched 2>/dev/null | awk '/Repeating power events/{f=1;next} /Scheduled power events/{f=0} f' | grep -i 'wake' | head -1 | xargs)
+  if [ -n "${rep:-}" ]; then
+    ok "pmset 每日喚醒已設定：${rep}"
   else
-    warn "pmset 自動喚醒未設定（見 RUNBOOK §3-1）"
+    warn "pmset 每日喚醒未設定（見 RUNBOOK §3-1）。注意：pmset -g sched 裡的一次性系統喚醒不算"
   fi
   if launchctl list 2>/dev/null | grep -q igaming; then
     ok "launchd 排程已載入：$(launchctl list | grep igaming | awk '{print $3}')"
