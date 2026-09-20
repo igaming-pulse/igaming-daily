@@ -1,12 +1,16 @@
 # 🎰 iGaming 市場日報 2026-09-20（週日）
 
-## 🎰 Game Provider 新遊戲（Slot）
+🎰 Slot 新遊戲 1 ・ 🕹️ 非 Slot 新內容 1 ・ 🤝 主流 1 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 0
 
-### 01 BetMGM × Games Global《The Traitors: Faithful Riches》——真人實境秀IP聯名登場
+---
 
-BetMGM 與 All3Media International（Banijay Entertainment 旗下）簽署獨家 IP 合作，取得電視實境秀《The Traitors》的線上賭場開發權，範圍涵蓋 slot、桌遊與非傳統賭場遊戲。系列首發作品《The Traitors: Faithful Riches》由 Games Global 開發，已於 2026 年 9 月 18 日在 BetMGM Casino（美國紐澤西、密西根、賓州、西維吉尼亞）與 Borgata Online（紐澤西、賓州），以及加拿大 Alberta、Ontario 上線，時間點與該節目第 17 季《New Blood》首播同步造勢。對 PM 的意義：真人實境秀 IP 聯名正成為北美現金網搶佔話題與新客的常見打法，值得觀察後續系列作是否延伸到 slot 以外的品類。
+## 🎰 Game Provider 新遊戲（Slot） 共 1 則
 
-衍生調整：全新 IP 改編，無衍生（Games Global 為 BetMGM 首度開發此 IP，非既有機台延伸版）
+### 01 BetMGM 攜手 Games Global 推出實境秀 IP 改編新作《The Traitors™: Faithful Riches》
+
+BetMGM 取得全球熱門實境競賽節目《The Traitors》線上娛樂場改編版權（授權方為 Banijay Entertainment 旗下 All3Media International），由 Games Global 開發首款作品《The Traitors™: Faithful Riches》，已於美國紐澤西、密西根、賓州、西維吉尼亞的 BetMGM Casino，以及 Borgata Online（紐澤西、賓州）上線，同步推向加拿大亞伯達省與安大略省。BetMGM 表示這是「The Traitors 系列」的第一款作品，未來將持續以此 IP 推出更多博彩遊戲，是博彩商透過大眾實境秀 IP 授權深化差異化內容的又一案例。對 PM 的意義：實境秀／影視 IP 聯名正成為北美現金網博彩商搶占差異化內容的常見策略，須留意後續系列作品節奏與各州上線進度。
+
+衍生調整：全新 IP 改編作品，無直接前作；沿用 Games Global 慣用的機制設計語言（多重收集型 Bonus）。
 
 參數：
 - 遊戲類型：線上電子老虎機
@@ -15,51 +19,64 @@ BetMGM 與 All3Media International（Banijay Entertainment 旗下）簽署獨家
 - 最高倍率：未公布
 - RTP：未公布
 - 波動：未公布
-- 目標市場：北美（美國紐澤西／密西根／賓州／西維吉尼亞、加拿大 Alberta／Ontario）
-- 關鍵特色：以《The Traitors》「秘密結盟、背叛、隱藏獎勵」為主題包裝，內建 jackpot 機制，為 BetMGM 該 IP 系列首發作品，官方預告後續會延伸桌遊等品類
+- 目標市場：北美（美國紐澤西／密西根／賓州／西維吉尼亞、加拿大亞伯達／安大略）
+- 關鍵特色：Traitor Feature（基礎遊戲或免費旋轉中觸發，隨機倍率現金獎）；集滿 5 個 Bonus 符號觸發 Traitors Bonus，含擴張型 Collect 符號與獎盃符號
 
-查證：已查官方新聞稿、SlotCatalog、遊戲媒體內頁仍未見RTP/最高倍率公布，暫以「未公布」處理
-來源：[GlobeNewswire](https://www.globenewswire.com/news-release/2026/09/18/3364664/0/en/betmgm-begins-building-the-traitors-franchise-with-the-launch-of-the-traitors-faithful-riches-in-alberta-and-ontario.html) · [G3 Newswire](https://g3newswire.com/betmgm-begins-building-the-traitors-franchise-with-the-launch-of-the-traitors-faithful-riches/) · [Gaming Intelligence](https://www.gamingintelligence.com/sectors/online-gaming/236148-betmgm-secures-online-casino-rights-to-the-traitors/) · [InterGame Online](https://www.intergameonline.com/igaming/news/betmgm-acquires-the-traitors-online-casino-rights) · 2026-09-18
+查證：已查產業媒體與 BetMGM 官方新聞稿，均未公布 RTP／最高倍率／波動數據，暫以「未公布」處理。
+來源：[Manila Times / GlobeNewswire](https://www.manilatimes.net/2026/09/18/tmt-newswire/globenewswire/betmgm-begins-building-the-traitors-franchise-with-the-launch-of-the-traitors-faithful-riches-in-alberta-and-ontario/2428239) · [G3 Newswire](https://g3newswire.com/betmgm-begins-building-the-traitors-franchise-with-the-launch-of-the-traitors-faithful-riches/) · [Gaming Intelligence](https://www.gamingintelligence.com/sectors/online-gaming/236148-betmgm-secures-online-casino-rights-to-the-traitors/) · [Gambling.com](https://www.gambling.com/us/news/betmgm-signs-exclusive-casino-deal-for-the-traitors) · 2026-09-18
 圖片：無
-
-## 🤝 動態：主流 GP／平台
-
-### 01 Caesars 董事會 Icahn 陣營成員請辭，FTC 併購審查壓力浮現
-
-Caesars Entertainment 董事會中與投資人 Carl Icahn 關聯的多名董事於 2026 年 9 月 18 日請辭，時間點正值美國聯邦貿易委員會（FTC）審查一筆併購交易之際；此前一筆每股 34 美元的收購報價已遭公司拒絕。對 PM 的意義：大型上市營運商的股權／治理波動，常是後續資產組合調整（如關閉或出售賭場資產）的前兆，牽動供應鏈合作的優先順序與談判籌碼。
-
-重點：類型 併購 ｜ 對象 Caesars Entertainment、Carl Icahn 陣營董事 ｜ 影響 反映併購案審查壓力，可能牽動公司治理與資產策略走向
-查證：單一來源，敘述保守處理
-來源：[Yogonet](https://www.yogonet.com/international/news/2026/09/18/126450-icahnlinked-directors-resign-from-caesars-board-during-ftc-merger-review) · 2026-09-18
-
-## 🇵🇭 動態：菲律賓 GP／平台
-
-### 01 DigiPlus 於 2026 IAG Academy Awards 同獲「最佳 iGaming 運營商」與「最佳 iGaming 創新」雙獎
-
-DigiPlus（BingoPlus／ArenaPlus／GameZone 母公司）於 2026 年 9 月 19 日宣布，在 2026 Inside Asian Gaming（IAG）Academy Awards 新設的「Online Gaming Offerings」分類中，同時拿下「Best iGaming Operator」與「Best iGaming Innovation」，成為該分類首屆雙料得主。創新獎表彰其自製直播式數位賓果與 perya 遊戲——結合本地內容、自製製播與即時互動；運營商獎則肯定其在菲律賓 iGaming 產業的領導地位與貢獻。對 PM 的意義：本地化直播內容（賓果／perya）持續是菲律賓數位博彩最具差異化的護城河，也是 DigiPlus 系品牌對外行銷的核心敘事。
-
-重點：類型 獲獎 ｜ 對象 DigiPlus（BingoPlus／ArenaPlus／GameZone） ｜ 影響 強化 DigiPlus 在菲律賓乃至亞太 iGaming 產業的領導地位論述
-查證：兩篇報導交叉確認獎項名稱與分類一致
-來源：[Manila Times](https://www.manilatimes.net/2026/09/19/tmt-newswire/digiplus-named-inaugural-winner-of-two-top-industry-accolades-at-2026-inside-asian-gaming-academy-awards/2428585) · [Context.ph](https://context.ph/2026/09/18/digiplus-wins-dual-honors-at-2026-iag-academy-awards/) · 2026-09-19
-
-### 02 Casino Plus 2026 第二季驗證派彩逾 10 億披索，單筆 1.224 億披索創菲國紀錄
-
-PAGCOR 授權平台 Casino Plus 於 2026 年 9 月 19 日公布，第二季驗證派彩總額已逾 10 億披索（約 P1B），其中最新單筆 1.224 億披索（約 US$2.1M）派彩為「菲律賓線上老虎機史上最大派彩」，於馬尼拉 LaVie Resort and Casino 舉行頒獎典禮。Casino Plus CEO Evan Spytma 表示，派彩系統由保證金機制與儲備金支持，符合 PAGCOR 監管指南。對 PM 的意義：菲律賓現金網持續以「大額可驗證派彩」作為公信力與獲客的核心行銷素材，反映當地監管數位博彩業務規模持續擴大。
-
-重點：類型 運營活動 ｜ 對象 Casino Plus ｜ 影響 以創紀錄派彩強化平台公信力與獲客行銷、彰顯 PAGCOR 監管數位博彩規模持續成長
-查證：單一來源，敘述保守處理
-來源：[Tribune](https://tribune.net.ph/2026/09/19/casino-plus-payouts-top-p1b-as-jackpots-grow-2) · 2026-09-19
-
-## 📊 市場數據 & 趨勢
-
-### 01 Crash／即時遊戲滲透率持續攀升，估已佔行動 casino session 約 35%
-
-產業分析指出，2026 年 Crash／即時型遊戲（如 Aviator、JetX、Spaceman）在行動端持續擴張，估計已佔全球行動 casino session 約 35%，每月互動玩家逾 1 億人；「品牌聯名 Crash」（大廠將知名 slot 角色移植到 Crash 格式）與「混合型」（Crash 機制融合傳統 bonus round）是兩大新趨勢，且幾乎所有 Crash 遊戲已導入 Provably Fair 機制以強化信任。同期市場研究機構估計，全球老虎機市場規模將由 2025 年 US$114.2 億成長至 2026 年 US$125.3 億（CAGR 約 9.7%）。對 PM 的意義：Crash／即時遊戲已從邊緣品類轉為主流行動端流量入口，與傳統老虎機呈現互補而非替代關係。
-
-重點：類型 財務 ｜ 對象 Crash／即時遊戲品類、全球老虎機市場 ｜ 影響 反映行動端玩法持續往短回合、高互動、可驗證公平方向演進
-查證：趨勢描述與市場規模數字分別來自產業分析與研究機構報告，非同一來源
-來源：[The Plaid Horse](https://www.theplaidhorse.com/2026/09/17/the-rise-of-crash-and-instant-games-in-online-casinos/) · [Research and Markets](https://www.researchandmarkets.com/reports/5865927/slot-machines-market-report) · 2026-09-17
 
 ---
 
-本日日報查詢約 <b>36</b> 個網站，其中提取 <b>10</b> 個資料來源並進行交叉比對
+## 🕹️ 非 Slot 新內容 共 1 則
+
+### 01 Playtech 攜手倫敦 Hippodrome Casino 推出真人荷官新據點「Live from London」
+
+Playtech 與倫敦萊斯特廣場地標賭場 Hippodrome Casino 合作，直接從賭場實體場內開播真人荷官直播內容，命名為「Live from London」，首波推出 Dual Roulette、Studio Core Roulette、Blackjack、Baccarat 四種桌台格式，並預告後續將持續擴充桌台與遊戲格式。此案延續 Playtech 先前於美國拉斯維加斯的「Live From」實體賭場直播模式，是該公司將此策略複製到歐洲指標性賭場的第二站。對 PM 的意義：從實體地標賭場直播的「場景真實感」正成為真人娛樂場內容差異化的新賣點，值得觀察是否有更多歐洲指標賭場加入此類合作。
+
+參數：
+- 遊戲類型：Live Game（真人荷官，實體賭場現場直播）
+- 目標市場：英國
+- 關鍵特色：直接從 Hippodrome Casino 場內開播，首波涵蓋輪盤（雙輪／Studio Core）、21點、百家樂四種桌台格式
+
+查證：多家產業媒體均引述同一份新聞稿，內容一致，未見數據衝突。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/09/18/52699/playtech-partners-with-the-hippodrome-casino-to-launch-live-from-london) · [HIPTHER](https://hipther.com/igaming-news/2026/09/18/137931/playtech-partners-with-the-hippodrome-casino-to-launch-live-from-london) · [iGB](https://igamingbusiness.com/company-news/playtech-and-the-hippodrome-casino-launch-live-from-london/) · [Gaming Intelligence](https://www.gamingintelligence.com/studio-showcase/news/playtech-and-the-hippodrome-casino-launch-live-from-london/) · 2026-09-18
+圖片：無
+
+---
+
+## 🤝 動態：主流 GP／平台 共 1 則
+
+### 01 Kerma Games 攜手 BGaming，將《Snoop Dogg Dollars》升級為聯名版圖
+
+擁有史努比狗狗（Snoop Dogg）專屬博彩遊戲肖像權的 Kerma Games，與原本獨立營運該遊戲的 BGaming 簽署策略合作，將 2024 年上線、原由 BGaming 單獨開發營運的《Snoop Dogg Dollars》（RTP 96%、最高倍率 10,000x、6×8 消除賠付機制）重新定位為「Kerma Games × BGaming」聯名產品，BGaming 將持續營運並分銷此作至 2026 年。雙方同步表示將以此 IP 為基礎，跨足更多品類（如 21 點、輪盤等）打造更完整的「史努比狗狗遊戲宇宙」。對 PM 的意義：案例顯示博彩產業透過名人 IP 聯名重新包裝既有熱門機台，可延續內容生命週期並降低單一新品的開發風險。
+
+重點：類型 合作 ｜ 對象 Kerma Games × BGaming ｜ 影響 既有熱門機台透過名人 IP 重新包裝聯名，反映博彩內容商藉授權深化差異化與延長 IP 商業壽命的趨勢
+
+查證：多家產業媒體報導內容一致，均引述 BGaming 與 Kerma Games 官方新聞稿。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/09/17/52670/kerma-games-partners-with-bgaming-on-snoop-dogg-dollars-extends-distribution-to-2026) · [Yogonet](https://www.yogonet.com/international/news/2026/09/18/126444-kerma-games-bgaming-partner-on-snoop-dogg-dollars) · [Focus Gaming News](https://focusgn.com/kerma-games-and-bgaming-enter-strategic-partnership-around-snoop-dogg-dollars) · [G3 Newswire](https://g3newswire.com/kerma-games-and-bgaming-enter-strategic-partnership-around-snoop-dogg-dollars/) · 2026-09-17／18
+
+---
+
+## 🇵🇭 動態：菲律賓 GP／平台 共 2 則
+
+### 01 DigiPlus 獲 2026 Inside Asian Gaming Academy Awards 雙料首屆大獎
+
+DigiPlus 於 9 月 15 日在馬尼拉舉行的 2026 Inside Asian Gaming（IAG）Academy Awards 頒獎典禮中，獲頒該獎項首度設立的「Best iGaming Operator」與「Best iGaming Innovation」雙料大獎，其中創新獎係因其自製的「Homegrown Livestream Digital Bingo and Perya Games」——結合在地內容、自製製播與即時互動的直播賓果／柏也遊戲——獲評審肯定。對 PM 的意義：獎項凸顯 DigiPlus 持續以在地化直播內容（而非單純代理國際廠商遊戲）作為差異化策略，強化其在菲律賓市場的龍頭地位。
+
+重點：類型 獲獎 ｜ 對象 DigiPlus（BingoPlus／ArenaPlus／GameZone）｜ 影響 強化 DigiPlus 作為菲律賓在地創新龍頭的產業聲量，呼應其近期在自製直播賓果／柏也內容上的差異化布局
+
+查證：同場頒獎典禮中 EGT Digital 另獲供應商類別獎項（已見於前一份日報），本則聚焦 DigiPlus 所獲之營運商／創新獎項，非重複議題。
+來源：[Manila Times](https://www.manilatimes.net/2026/09/19/tmt-newswire/digiplus-named-inaugural-winner-of-two-top-industry-accolades-at-2026-inside-asian-gaming-academy-awards/2428585) · [Context.ph](https://context.ph/2026/09/18/digiplus-wins-dual-honors-at-2026-iag-academy-awards/) · 2026-09-18／19
+
+### 02 PAGCOR 拆分規劃靜候政府核准，盼儘速轉型為「只監理不經營」
+
+菲律賓博彩管理局（PAGCOR）主席 Alejandro Tengco 表示，將該局監理與商業（賭場經營）職能拆分的方案，正等待菲律賓政府所有權暨治理委員會（GCG）的最終決定，盼能「很快」定案。拆分完成後 PAGCOR 將完全退出旗下賭場（Casino Filipino）經營、僅專注發照與監理收費，此規劃緊接在 PAGCOR 近期推出「最低保證費」機制、淘汰體質不佳持牌線上博彩商之後（詳見前一份日報），顯示監理機關正加速調整菲律賓博彩業結構。對 PM 的意義：若拆分定案，菲律賓博彩牌照發放與監理職能將與商業經營徹底分離，現有持牌商及 PAGCOR 自身賭場資產處置動向值得持續追蹤。
+
+重點：類型 政府法規 ｜ 對象 PAGCOR ｜ 影響 監理與商業職能分離若定案，將重塑菲律賓博彩業的發牌與監理架構，並牽動 PAGCOR 自營賭場資產的後續處置
+
+來源：[EEGaming](https://eegaming.org/latest-news/2026/09/18/52697/pagcor-expects-gcg-decision-on-decoupling-soon) · [HIPTHER](https://hipther.com/igaming-news/2026/09/18/137933/pagcor-expects-gcg-decision-on-decoupling-soon) · [iGaming Expert](https://igamingexpert.com/regions/asia/pagcor-regulatory-evolution-casino-decoupling) · [Gambling News](https://www.gamblingnews.com/news/pagcor-seeks-approval-for-decoupling-its-commercial-and-regulatory-functions/) · 2026-09-18
+
+---
+
+本日日報查詢約 50 個網站，其中提取 18 個資料來源並進行交叉比對
