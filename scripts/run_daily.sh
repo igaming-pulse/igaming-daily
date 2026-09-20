@@ -72,8 +72,9 @@ HEAD_BEFORE=$(git rev-parse HEAD 2>/dev/null || echo "none")
 START_EPOCH=$(date +%s)
 
 log "claude $CLAUDE_ARGS -p <docs/scheduled-prompt.txt>"
+# 同時印到畫面與 log —— 手動跑時才看得到失敗原因（pipefail 讓 $? 仍是 claude 的退出碼）
 # shellcheck disable=SC2086
-claude $CLAUDE_ARGS -p "$(cat "$PROMPT_FILE")" >>"$LOG" 2>&1
+claude $CLAUDE_ARGS -p "$(cat "$PROMPT_FILE")" 2>&1 | tee -a "$LOG"
 CLAUDE_RC=$?
 
 ELAPSED=$(( $(date +%s) - START_EPOCH ))
@@ -86,11 +87,20 @@ HEAD_AFTER=$(git rev-parse HEAD 2>/dev/null || echo "none")
 REPORT="reports/${DATE}.html"
 fail=0
 
-if [ -f "$REPORT" ]; then
-  log "  ✓ ${REPORT} 存在"
-else
+if [ ! -f "$REPORT" ]; then
   log "  ✗ 找不到 ${REPORT} —— 日報沒產出"
   fail=1
+else
+  # 只有「存在」不夠 —— 昨天或上一輪的舊檔也會存在。要比本次開跑時間新才算數。
+  # date -r <file> 在 macOS(BSD) 與 Linux(GNU) 都是讀檔案 mtime，比 stat 好移植
+  MTIME=$(date -r "$REPORT" +%s 2>/dev/null || echo 0)
+  case "$MTIME" in (*[!0-9]*|'') MTIME=0 ;; esac
+  if [ "$MTIME" -ge "$START_EPOCH" ]; then
+    log "  ✓ ${REPORT} 是本次產生的"
+  else
+    log "  ✗ ${REPORT} 是舊檔，本次並未重新產生"
+    fail=1
+  fi
 fi
 
 if [ "$HEAD_BEFORE" != "$HEAD_AFTER" ]; then
@@ -112,6 +122,11 @@ fi
 
 log ""
 log "❌❌❌ 本次執行失敗 —— 日報沒產出或沒發布 ❌❌❌"
+if tail -40 "$LOG" | grep -qiE 'session limit|usage limit|rate limit'; then
+  log "   ⚠️ 偵測到「用量上限」訊息 —— 這不是流程壞掉，是 Claude 訂閱額度用完。"
+  log "      等額度重置後重跑；若 reports/ 與 state/ 的產物已經寫好，只差發布，"
+  log "      可以直接手動 git add / commit / push 補完，不需要再花額度。"
+fi
 log "   常見原因："
 log "   1. Claude 在 headless 模式下停下來反問（往上翻 log 會看到它在問問題）"
 log "      → 把該情境的裁示補進 docs/scheduled-prompt.txt 的「已經預先裁示的狀況」"
