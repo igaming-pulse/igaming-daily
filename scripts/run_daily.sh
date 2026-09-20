@@ -43,7 +43,7 @@ fi
 cd "$REPO" || exit 1
 
 # PATH：launchd 啟動的環境很精簡，補上常見的安裝位置
-export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 
 if ! command -v claude >/dev/null 2>&1; then
   log "✗ 找不到 claude CLI。請確認已安裝，或在本腳本的 PATH 補上它的位置。"

@@ -37,7 +37,7 @@
     <key>IGAMING_REPO</key><string>__HOME__/igaming-daily</string>
     <!-- Firecrawl 金鑰：launchd 讀不到 ~/.zshrc，必須在這裡給 -->
     <key>FIRECRAWL_API_KEY</key><string>__FIRECRAWL_KEY__</string>
-    <key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    <key>PATH</key><string>__HOME__/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
   </dict>
 
   <key>StandardOutPath</key><string>__HOME__/igaming-daily/state/launchd.out.log</string>
