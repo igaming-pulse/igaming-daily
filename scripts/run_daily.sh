@@ -66,7 +66,7 @@ rc=$?
 if [ $rc -eq 0 ]; then
   log "✓ 完成（exit 0）"
 else
-  log "✗ 結束但有錯（exit $rc）—— 06:30 的守門員會發警報"
+  log "✗ 結束但有錯（exit ${rc}）—— 06:30 的守門員會發警報"
 fi
 log "──────── 結束 ────────"
 exit $rc

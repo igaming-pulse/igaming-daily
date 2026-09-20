@@ -51,7 +51,7 @@ echo
 
 echo "[5] 對外連線"
 code=$(curl -s -o /dev/null -w '%{http_code}' -m 20 https://api.firecrawl.dev/ 2>/dev/null)
-[ "$code" != "000" ] && ok "api.firecrawl.dev 可連（HTTP $code）" || bad "api.firecrawl.dev 連不到"
+[ "$code" != "000" ] && ok "api.firecrawl.dev 可連（HTTP ${code}）" || bad "api.firecrawl.dev 連不到"
 if [ -n "${FIRECRAWL_API_KEY:-}" ]; then
   fc=$(curl -s -o /dev/null -w '%{http_code}' -m 25 -X POST https://api.firecrawl.dev/v1/scrape \
        -H "Authorization: Bearer $FIRECRAWL_API_KEY" -H "Content-Type: application/json" \
