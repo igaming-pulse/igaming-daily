@@ -155,6 +155,7 @@ bash scripts/run_daily.sh
    ```bash
    git clone https://github.com/igaming-pulse/igaming-daily.git ~/igaming-daily
    cd ~/igaming-daily
+   git checkout test-publish   # ⚠️ 併行期必做。clone 預設停在 main，忘了切就會把測試結果推上正式版
    gh auth login          # 或設 SSH key
    git config user.name  "iGaming Pulse"
    git config user.email "igaming-pulse@users.noreply.github.com"
