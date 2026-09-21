@@ -116,6 +116,11 @@ fi
 
 if [ "$fail" -eq 0 ]; then
   log "✅ 本次執行成功"
+  # 併行期：另外把當天日報以（測試）條目發到 main，讓網站上看得到新環境的產出。
+  # 分支已是 main（＝切換完成）就自動跳過；設 IGAMING_PUBLISH_TEST_TO_MAIN=0 可關閉。
+  if [ "${IGAMING_PUBLISH_TEST_TO_MAIN:-1}" = "1" ] && [ "$BRANCH" != "main" ]; then
+    bash scripts/publish_test_to_main.sh "$DATE" 2>&1 | tee -a "$LOG"
+  fi
   log "──────── 結束 ────────"
   exit 0
 fi
