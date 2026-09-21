@@ -32,12 +32,21 @@ INDEX_URL = "https://igaming-pulse.github.io/igaming-daily/"
 TAIPEI = timezone(timedelta(hours=8))
 MAX_LEN = 4000          # Telegram 單則上限 4096，保守截斷
 
+# 併行期用：在訊息最前面加一行標記，讓你分得出這則是哪一台機器發的。
+# 由 workflow 的 MSG_PREFIX 環境變數帶入，沒設就是空字串（＝正式版行為不變）。
+MSG_PREFIX = os.environ.get("MSG_PREFIX", "").strip()
+
+# 併行期用：按鈕要指向網站上的哪一份。空＝正式版 <date>.html；"-test"＝併行版 <date>-test.html。
+REPORT_URL_SUFFIX = os.environ.get("REPORT_URL_SUFFIX", "").strip()
+
 
 def today_taipei():
     return datetime.now(TAIPEI).strftime("%Y-%m-%d")
 
 
 def send(token, chat_id, text, button_url=None, dry=False):
+    if MSG_PREFIX:
+        text = f"{MSG_PREFIX}\n{text}"
     if len(text) > MAX_LEN:
         text = text[:MAX_LEN - 20].rstrip() + "\n…（更多見完整日報）"
     payload = {
@@ -124,7 +133,9 @@ def main():
         text += f"\n\n📚 日報存檔首頁：{INDEX_URL}"
 
     url = report_url
-    if os.path.exists(PENDING_URL):
+    if REPORT_URL_SUFFIX:
+        url = INDEX_URL + f"reports/{date}{REPORT_URL_SUFFIX}.html"
+    elif os.path.exists(PENDING_URL):
         with open(PENDING_URL, encoding="utf-8") as f:
             u = f.read().strip()
             if u.startswith("http"):
