@@ -22,8 +22,11 @@ command -v "$PY3" >/dev/null 2>&1 || PY3="python3"
 
 git add -A
 if git diff --cached --quiet; then
-  echo "（沒有變更，略過）"; exit 0
+  echo "（無新變更待提交）"
+else
+  git commit -m "日報：${DATE}"
 fi
-git commit -m "日報：${DATE}"
+
+git pull --rebase origin main
 git push
 echo "✓ 已發布 ${DATE}。網址：https://igaming-pulse.github.io/igaming-daily/（約 30 秒後更新）"
