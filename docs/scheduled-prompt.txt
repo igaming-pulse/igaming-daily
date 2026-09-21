@@ -47,7 +47,8 @@
 
 - 嚴禁平行 sub-agent，全程主線循序
 - 交叉查證每則上限 3 次
-- 整場 firecrawl ≤ 30 次（輪掃 8 ＋ 其他 ≤ 22）、WebSearch ≤ 30 次
+- 整場 firecrawl ≤ 30 次（輪掃 8 ＋ 其他 ≤ 22）、WebSearch ≤ 60 次
+  （WebSearch 不吃 Firecrawl 額度，上限放寬是為了讓你查得夠徹底再下判斷）
 - ⛔ 收錄少於 8 則時，**先回頭把預算用滿**再下「今天新聞真的少」的結論 ——
   抓取不足造成的假性偏少，比漏收更嚴重
 - 嚴禁開 5-credit 的 JSON 抽取；og:image 跟 summary 同一次帶回
