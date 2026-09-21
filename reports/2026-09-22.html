@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iGaming 市場日報 2026-09-22</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../icon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../icon-16.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<style>
+  :root{
+    --bg:#F5F7FA; --card:#fff; --line:#E7EBF0; --text:#1A2230; --sub:#5B6675;
+    --c1:#1D9E75; --c1bg:#E1F5EE; --c1fg:#0F6E56;
+    --c2:#B31217; --c2bg:#FBE3E4; --c2fg:#8A1015;
+    --c3:#378ADD; --c3bg:#E6F1FB; --c3fg:#185FA5;
+    --c4:#D97706; --c4bg:#FBF0DD; --c4fg:#8A5206;
+    --c5:#8B5CF6; --c5bg:#EEE9FC; --c5fg:#5B3FA6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.7}
+  .wrap{max-width:860px;margin:0 auto;padding:28px 16px 60px}
+  header{text-align:center;margin-bottom:22px}
+  header h1{font-size:26px;margin:6px 0}
+  header .date{font-size:14px;color:var(--sub)}
+  .badges{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:14px 0}
+  .badge{font-size:12px;font-weight:700;padding:5px 12px;border-radius:999px}
+  .b1{background:var(--c1bg);color:var(--c1fg)} .b2{background:var(--c2bg);color:var(--c2fg)}
+  .b3{background:var(--c3bg);color:var(--c3fg)} .b4{background:var(--c4bg);color:var(--c4fg)}
+  .b5{background:var(--c5bg);color:var(--c5fg)}
+  .stats-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:20px 0 30px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 8px;text-align:center}
+  .stat .n{font-size:22px;font-weight:800}
+  .stat .l{font-size:11px;color:var(--sub);margin-top:2px}
+  section.cat{margin-bottom:34px}
+  .cat-title{font-size:28px;font-weight:800;margin:0 0 16px;padding-left:14px;border-left:6px solid;display:flex;align-items:center;gap:8px}
+  .cat-title .cnt{font-size:14px;color:var(--sub);font-weight:600;margin-left:4px}
+  .t1{border-color:var(--c1)} .t2{border-color:var(--c2)} .t3{border-color:var(--c3)} .t4{border-color:var(--c4)} .t5{border-color:var(--c5)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px;position:relative}
+  .c1{border-left:5px solid var(--c1)} .c2{border-left:5px solid var(--c2)} .c3{border-left:5px solid var(--c3)} .c4{border-left:5px solid var(--c4)} .c5{border-left:5px solid var(--c5)}
+  .no{display:inline-block;font-size:11px;font-weight:800;color:#fff;background:#9aa4af;border-radius:6px;padding:2px 8px;margin-bottom:8px}
+  .c1 .no{background:var(--c1)} .c2 .no{background:var(--c2)} .c3 .no{background:var(--c3)} .c4 .no{background:var(--c4)} .c5 .no{background:var(--c5)}
+  .card h3{margin:2px 0 10px;font-size:17px}
+  .card p{margin:0 0 10px;font-size:14.5px;color:#2a3140}
+  .derive{font-size:13px;color:#7a4d0b;background:#FBF3E4;border:1px solid #F0E2C6;border-radius:8px;padding:9px 12px;margin-bottom:10px}
+  .derive b{color:#9a6209;margin-right:6px}
+  .spec{background:#F2F6F4;border:1px solid #E1EAE6;border-radius:8px;padding:10px 12px;margin-bottom:10px;font-size:12.5px}
+  .spec .row{display:flex;gap:10px;padding:3px 0;border-bottom:1px dashed #E1EAE6}
+  .spec .row:last-child{border-bottom:none}
+  .spec .k{flex:0 0 82px;font-weight:700;color:#0F6E56}
+  .keyrow{display:flex;flex-wrap:wrap;gap:14px;background:#F4F8FC;border:1px solid #DCE8F4;border-radius:8px;padding:9px 12px;margin-bottom:10px;font-size:12.5px}
+  .keyrow b{color:#185FA5;margin-right:5px}
+  .c4 .keyrow b{color:#8A5206}
+  .verify{font-size:12.5px;color:#334155;background:#F3F4F6;border:1px solid #E5E7EB;border-radius:8px;padding:8px 12px;margin-bottom:10px;line-height:1.6}
+  .verify::before{content:"🔎 ";}
+  .tags{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:11px}
+  a.src{font-size:11px;font-weight:600;color:var(--sub);text-decoration:none;margin-left:auto}
+  a.src:hover{text-decoration:underline}
+  .hero{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;margin-top:10px;display:block;background:#eee}
+  .stats-line{max-width:860px;margin:26px auto 0;text-align:center;font-size:13.5px;color:#1A2230;line-height:1.8}
+  .stats-line b{color:#B31217;font-weight:800}
+  footer{margin-top:36px;text-align:center;font-size:12px;color:var(--sub)}
+  @media (max-width:600px){.stats-grid{grid-template-columns:repeat(3,1fr)}.cat-title{font-size:22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="badges">
+      <span class="badge b1">🎰 Slot 新遊戲</span>
+      <span class="badge b2">🕹️ 非 Slot</span>
+      <span class="badge b3">🤝 主流動態</span>
+      <span class="badge b4">🇵🇭 菲律賓</span>
+      <span class="badge b5">📊 市場數據</span>
+    </div>
+    <h1>🎰 iGaming 市場日報</h1>
+    <div class="date">2026-09-22（週二）・收集時間窗 2026-09-21 02:30 ～ 2026-09-22 02:30（台北時間）</div>
+  </header>
+
+  <div class="stats-grid">
+    <div class="stat"><div class="n" style="color:var(--c1)">2</div><div class="l">🎰 Slot 新遊戲</div></div>
+    <div class="stat"><div class="n" style="color:var(--c2)">2</div><div class="l">🕹️ 非 Slot</div></div>
+    <div class="stat"><div class="n" style="color:var(--c3)">3</div><div class="l">🤝 主流動態</div></div>
+    <div class="stat"><div class="n" style="color:var(--c4)">1</div><div class="l">🇵🇭 菲律賓</div></div>
+    <div class="stat"><div class="n" style="color:var(--c5)">1</div><div class="l">📊 市場數據</div></div>
+  </div>
+
+  <section class="cat">
+    <div class="cat-title t1">🎰 Game Provider 新遊戲（Slot）<span class="cnt">共 2 則</span></div>
+
+    <div class="card c1">
+      <div class="no">01</div>
+      <h3>Freya 1000 — Pragmatic Play</h3>
+      <p>Pragmatic Play 推出北歐神話主題新作 Freya 1000，是其「1000」系列（如 Sweet Bonanza 1000、Wild Wild Riches 1000）的最新一支，延續 Money 符號＋ Wheel 轉輪加碼的既定機制框架，套上狼群、長船與號角等北歐視覺美術。此作延續 Pragmatic Play 高頻率、系列化換皮上新的產品策略，透過既有玩家熟悉的核心機制降低學習成本，同時以新主題維持內容新鮮感。</p>
+      <div class="derive"><b>衍生調整</b>沿用「1000」系列 Money 符號＋ Wheel 加碼機制框架，套用北歐 Freya 神話新主題與美術，核心機制無重大創新</div>
+      <div class="spec">
+        <div class="row"><span class="k">遊戲類型</span><span class="v">線上電子老虎機</span></div>
+        <div class="row"><span class="k">盤面</span><span class="v">5×3</span></div>
+        <div class="row"><span class="k">消除/賠付</span><span class="v">10 條固定支付線，Shield 符號可觸發轉輪位移補齊</span></div>
+        <div class="row"><span class="k">最高倍率</span><span class="v">10,000x（Wheel 倍率符號單次最高 1000x，可於 Bonus 模式中累加）</span></div>
+        <div class="row"><span class="k">RTP</span><span class="v">96.50%</span></div>
+        <div class="row"><span class="k">波動</span><span class="v">高</span></div>
+        <div class="row"><span class="k">目標市場</span><span class="v">沒有明確標註（提供 20+ 語言版本，推測以全球市場為主）</span></div>
+        <div class="row"><span class="k">關鍵特色</span><span class="v">Shield 金錢符號可位移補齊並隨機派發即開獎金；Wheel 觸發 6 次或 6-12 次兩種免費旋轉模式，倍率可疊加</span></div>
+      </div>
+      <div class="verify">Pragmatic Play 官網僅揭露 Wheel 單次最高倍率 1000x，OLBG 另指出整體最高中獎為 10,000x bet；兩者為「單次倍率」與「總中獎上限」的不同指標，本則兩者並列說明</div>
+      <div class="tags">
+        <a class="src" href="https://www.pragmaticplay.com/en/games/freya-1000/" target="_blank" rel="noopener">Pragmatic Play ↗</a>
+        <a class="src" href="https://www.olbg.com/news/freya-1000-slot-launches-pragmatic-play" target="_blank" rel="noopener">OLBG ↗</a>
+      </div>
+      <img class="hero" src="https://olbgimages.co.uk/storage/gallery/slots/freya-1000-slot-news-image.png" alt="Freya 1000" loading="lazy" onerror="this.style.display='none'">
+    </div>
+
+    <div class="card c1">
+      <div class="no">02</div>
+      <h3>Bubble Wild — Pragmatic Play</h3>
+      <p>Pragmatic Play 再推泡泡主題新作 Bubble Wild，延續其今年稍早《Bubble Up!》開啟的泡泡題材子系列，但改採更簡化的玩法：捨棄複雜獎勵回合，改以直接收集泡泡符號觸發即開型獎金為核心，鎖定偏好簡單易懂、高頻率投注體驗的玩家群。此作反映 Pragmatic Play 近期同時經營「系列化主題」與「機制簡化版」兩條產品線，擴大不同玩家偏好的覆蓋面。</p>
+      <div class="derive"><b>衍生調整</b>延續《Bubble Up!》泡泡主題子系列，改為固定 10 條支付線、直接收集泡泡符號觸發即開獎金的簡化機制，捨棄複雜獎勵回合</div>
+      <div class="spec">
+        <div class="row"><span class="k">遊戲類型</span><span class="v">線上電子老虎機</span></div>
+        <div class="row"><span class="k">盤面</span><span class="v">5×3</span></div>
+        <div class="row"><span class="k">消除/賠付</span><span class="v">10 條固定支付線，收集泡泡符號觸發即開現金獎</span></div>
+        <div class="row"><span class="k">最高倍率</span><span class="v">25,000x（盤面填滿 15 個 Bubble Wild 符號觸發 Grand Jackpot）</span></div>
+        <div class="row"><span class="k">RTP</span><span class="v">96.50%</span></div>
+        <div class="row"><span class="k">波動</span><span class="v">中</span></div>
+        <div class="row"><span class="k">目標市場</span><span class="v">沒有明確標註</span></div>
+        <div class="row"><span class="k">關鍵特色</span><span class="v">泡泡符號收集機制取代傳統獎勵回合；填滿指定符號數觸發 Grand Jackpot 頭獎</span></div>
+      </div>
+      <div class="tags">
+        <a class="src" href="https://www.bigwinboard.com/bubble-wild-pragmatic-play-slot-review/" target="_blank" rel="noopener">BigWinBoard ↗</a>
+        <a class="src" href="https://www.whichbingo.co.uk/online-slots/bubble-wild/" target="_blank" rel="noopener">WhichBingo ↗</a>
+      </div>
+      <img class="hero" src="https://www.bigwinboard.com/wp-content/uploads/2026/08/Bubble-Wild-slot-feat.jpg" alt="Bubble Wild" loading="lazy" onerror="this.style.display='none'">
+    </div>
+  </section>
+
+  <section class="cat">
+    <div class="cat-title t2">🕹️ 非 Slot 新內容<span class="cnt">共 2 則</span></div>
+
+    <div class="card c2">
+      <div class="no">01</div>
+      <h3>EEZE 攜手 BetConstruct AI 擴大內容分銷版圖</h3>
+      <p>Malta 真人娛樂場內容商 EEZE 宣布與 BetConstruct AI 達成策略性內容整合協議，將旗下歐式輪盤、21點、百家樂、Eeze Slots、Crash Games，以及帶有倍率功能的 Fusion Roulette 真人輪盤等完整產品線，整合進 BetConstruct 平台供其全球營運商夥伴取用，特別聚焦拉丁美洲等新興市場的擴張機會。此案延續 EEZE 近期積極透過與大型平台商簽約擴大分銷觸角的策略方向。</p>
+      <div class="derive"><b>衍生調整</b>不適用（通路／分銷合作，非新遊戲發布）</div>
+      <div class="spec">
+        <div class="row"><span class="k">遊戲類型</span><span class="v">Live Game（EEZE 平台/聚合）</span></div>
+        <div class="row"><span class="k">目標市場</span><span class="v">全球，特別聚焦拉丁美洲與新興市場</span></div>
+        <div class="row"><span class="k">關鍵特色</span><span class="v">一次性整合真人輪盤、21點、百家樂、Slots 與 Crash Games 全品類內容；Fusion Roulette 帶有倍率加成功能</span></div>
+      </div>
+      <div class="tags">
+        <a class="src" href="https://www.yogonet.com/latinoamerica/noticias/2026/09/21/110641-eeze-cierra-un-acuerdo-de-integracion-de-contenidos-con-betconstruct-ai" target="_blank" rel="noopener">Yogonet Latinoamérica ↗</a>
+      </div>
+      <img class="hero" src="https://imagenesyogonet.b-cdn.net/data/imagenes/2026/09/18/91391/1789739728-alianza-eeze-betconstruct-ai.jpg" alt="EEZE x BetConstruct AI" loading="lazy" onerror="this.style.display='none'">
+    </div>
+
+    <div class="card c2">
+      <div class="no">02</div>
+      <h3>Slingo Hot Roll Express — Gaming Realms × King Show Games</h3>
+      <p>Gaming Realms 與美國供應商 King Show Games 合作推出 Slingo Hot Roll Express，是雙方繼《Slingo Hot Roll》後的第二款聯名作品，結合 Slingo 賓果消除玩法與遞增獎金階梯機制，並導入 Gaming Realms「Express」快節奏玩法框架縮短單局時間。此作延續 Gaming Realms 與 King Show Games 長期合作關係（另包括《Stinkin' Rich Slingo》《Fishing Bob Slingo》），持續擴充其北美市場的 Slingo 產品線深度。</p>
+      <div class="derive"><b>衍生調整</b>《Slingo Hot Roll》系列續作，導入 Gaming Realms「Express」快節奏玩法框架，縮短單局時間並簡化流程</div>
+      <div class="spec">
+        <div class="row"><span class="k">遊戲類型</span><span class="v">其他類型遊戲（Slingo，賓果＋老虎機混合機制）</span></div>
+        <div class="row"><span class="k">目標市場</span><span class="v">北美</span></div>
+        <div class="row"><span class="k">關鍵特色</span><span class="v">Hot Roll 獎勵回合（火焰骰子滾動、黃金骰子倍數）；遞增獎金階梯搭配 Express 快節奏玩法</span></div>
+      </div>
+      <div class="verify">僅 G3 Newswire 單一來源報導，未揭露最高倍率／RTP 等數學參數，故該二欄位不適用於本則（Slingo 類型無此欄位）</div>
+      <div class="tags">
+        <a class="src" href="https://g3newswire.com/gaming-realms-turns-up-the-heat-with-sequel-slingo-hot-roll-express/" target="_blank" rel="noopener">G3 Newswire ↗</a>
+      </div>
+      <img class="hero" src="https://g3newswire.com/wp-content/uploads/2026/09/GamingrelamsKingShow-e1789983024474.jpg" alt="Slingo Hot Roll Express" loading="lazy" onerror="this.style.display='none'">
+    </div>
+  </section>
+
+  <section class="cat">
+    <div class="cat-title t3">🤝 動態：主流 Game Provider / 平台<span class="cnt">共 3 則</span></div>
+
+    <div class="card c3">
+      <div class="no">01</div>
+      <h3>IGT 攜手 Everi 打造「聯通賭場樓層」，G2E 2026 展示整合陣容</h3>
+      <p>實體老虎機三大廠之一 IGT 宣布與支付/系統商 Everi 在 G2E 2026（9/28–10/1，拉斯維加斯，攤位 4455）聯合展示整合陣容，包括 RISE32／RISE55 機台新遊戲、30 週年版 Wheel of Fortune Slots、IGT ADVANTAGE X 賭場管理系統，以及 Everi 首款全程 Class II 行動博弈方案 Everi Vi、支援 Apple Pay／Venmo 的 FinTech 支付方案與無紙化賭檯追蹤系統 PitXpress。IGT 執行長 Hector Fernandez 表示雙方目標是「建立聯通的賭場樓層，為營運商減少摩擦、為玩家創造吸引力體驗」，反映實體老虎機大廠正加速與支付/系統商整合、打通遊戲內容與營運基礎設施的產業趨勢。</p>
+      <div class="keyrow"><span><b>類型</b> 合作／產品發表</span><span><b>對象</b> IGT、Everi、G2E 2026</span><span><b>影響</b> 顯示實體老虎機大廠將競爭重心從單一機台延伸至「內容＋系統＋支付」的整合賭場樓層方案</span></div>
+      <div class="tags"><a class="src" href="https://www.yogonet.com/international/news/2026/09/21/126477-igt-and-everi-to-present-joint-gaming-portfolio-at-g2e-2026" target="_blank" rel="noopener">Yogonet ↗</a></div>
+    </div>
+
+    <div class="card c3">
+      <div class="no">02</div>
+      <h3>Zitro Digital 攜手 DoradoBet 挺進秘魯受監管市場</h3>
+      <p>實體老虎機廠 Zitro 旗下線上內容部門 Zitro Digital 宣布將完整遊戲庫上線秘魯營運商 DoradoBet 平台，內容涵蓋《功夫青蛙》《傳奇劍》等實體機台改編熱門作，以及專為線上開發的獨家遊戲。此案是 Zitro Digital 深化拉丁美洲布局的重要一步，讓 DoradoBet 玩家取得更多元、經市場驗證的遊戲選擇，也反映內容供應商持續透過與在地受監管營運商結盟，加速滲透拉美各國市場的普遍模式。</p>
+      <div class="keyrow"><span><b>類型</b> 合作／市場准入</span><span><b>對象</b> Zitro Digital、DoradoBet</span><span><b>影響</b> 強化 Zitro 在秘魯及拉丁美洲市場地位，體現內容商與在地營運商整合的持續趨勢</span></div>
+      <div class="tags"><a class="src" href="https://www.yogonet.com/international/news/2026/09/21/126466-zitro-digital-extends-latin-american-presence-with-doradobet-deal-in-peru" target="_blank" rel="noopener">Yogonet ↗</a></div>
+    </div>
+
+    <div class="card c3">
+      <div class="no">03</div>
+      <h3>Gaming Corps 攜手 Starcasino 進軍荷蘭受監管市場</h3>
+      <p>內容供應商 Gaming Corps 宣布與持有荷蘭合法博弈牌照的營運商 Starcasino 建立合作關係，將旗下遊戲組合上線該平台，藉此正式打入荷蘭這個高度監管、准入門檻較高的市場。此案延續 Gaming Corps 近期積極透過與各地持牌營運商簽約擴大歐洲市場覆蓋的策略。</p>
+      <div class="keyrow"><span><b>類型</b> 合作／市場准入</span><span><b>對象</b> Gaming Corps、Starcasino</span><span><b>影響</b> 反映中型內容供應商持續以「配對在地持牌業者」路徑打入歐洲監管市場</span></div>
+      <div class="tags"><a class="src" href="https://g3newswire.com/gaming-corps-brings-star-power-to-starcasino-netherlands/" target="_blank" rel="noopener">G3 Newswire ↗</a></div>
+    </div>
+  </section>
+
+  <section class="cat">
+    <div class="cat-title t4">🇵🇭 動態：菲律賓 GP / 平台<span class="cnt">共 1 則</span></div>
+
+    <div class="card c4">
+      <div class="no">01</div>
+      <h3>EGT Philippines 區域總監獲 2026 IAG Academy「新星獎」，呼應 PAGCOR 聚合商牌照擴張</h3>
+      <p>EGT Philippines 區域總監 Mariana Manchina 於「2026 IAG Academy IR Awards」獲頒「Rising Star」（新星）獎並入選名人堂，肯定其協助 EGT 在亞洲多國成為主要遊戲方案供應商首選的領導貢獻；同場 EGT Digital 旗下模組化平台 X-Nave 與自研娛樂場遊戲組合則拿下最佳 iGaming 供應商獎。頒獎時機恰逢 EGT 今年取得 PAGCOR 核發的遊戲聚合商暨遊戲內容供應商牌照，大幅拓展其菲律賓市場覆蓋範圍，顯示 EGT 正加速在菲律賓建立 B2B 內容分銷據點。</p>
+      <div class="keyrow"><span><b>類型</b> 獲獎／市場擴張</span><span><b>對象</b> EGT Philippines、EGT Digital、PAGCOR</span><span><b>影響</b> 反映海外供應商持續透過取得 PAGCOR 聚合商牌照方式進入菲律賓市場，加劇 B2B 內容分銷賽道競爭</span></div>
+      <div class="tags"><a class="src" href="https://www.yogonet.com/international/news/2026/09/21/126467-egt-philippines-regional-director-mariana-manchina-named-rising-star-at-2026-iag-academy-ir-awards" target="_blank" rel="noopener">Yogonet ↗</a></div>
+    </div>
+  </section>
+
+  <section class="cat">
+    <div class="cat-title t5">📊 市場數據 & 趨勢<span class="cnt">共 1 則</span></div>
+
+    <div class="card c5">
+      <div class="no">01</div>
+      <h3>巴西盧拉總統暗示可能禁止線上賭場與博弈廣告，牽動全球第二大受監管市場</h3>
+      <p>巴西總統盧拉近期在 podcast 節目中表態具「個人傾向」消除賭博活動，將賭博成癮比作古柯鹼成癮，政府正評估透過行政命令（無需國會批准）禁止 Tiger Game、Aviator 等即時結果型線上娛樂場遊戲並全面禁止博弈廣告。市場衝擊評估顯示：線上娛樂場約占巴西博弈總收入 70%，2027 年度預算原編列 66.9 億巴西幣（約 13 億美元）博弈稅收；業界估算若強制禁令上路，潛在賠償金額恐達 1,200 億巴西幣（約 233 億美元），且廣告禁令可能反而助長非法博弈平台。此案凸顯巴西這個 2026 上半年 GGR 已達 200.7 億巴西幣的新興受監管市場，政策不確定性正明顯升溫。</p>
+      <div class="tags"><a class="src" href="https://www.yogonet.com/international/news/2026/09/21/126469-brazil-president-lula-signals-possible-ban-on-online-casinos-and-betting-ads" target="_blank" rel="noopener">Yogonet ↗</a></div>
+    </div>
+  </section>
+
+  <div class="stats-line">本日日報查詢約 <b>58</b> 個網站，其中提取 <b>12</b> 個資料來源並進行交叉比對</div>
+
+  <footer>
+    iGaming 市場日報 v4.1 · 五大分類版 · 每則皆附真實可點擊原文來源<br>
+    自動產出，如有疑義請以原文連結為準
+  </footer>
+</div>
+</body>
+</html>
