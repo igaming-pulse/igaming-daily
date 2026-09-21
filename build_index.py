@@ -10,7 +10,7 @@ REPORTS = os.path.join(ROOT, "reports")
 files = []
 for f in glob.glob(os.path.join(REPORTS, "*.html")):
     b = os.path.basename(f)
-    m = re.match(r"(\d{4})-(\d{2})-(\d{2})(-test)?\.html$", b)
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})(-test)?(-test)?\.html$", b)
     if m:
         files.append((b[:10], b))
 files.sort(reverse=True)  # 最新在上
@@ -31,6 +31,8 @@ LABEL_OVERRIDE = {
 cards = []
 for date, fname in files:
     disp_date, disp_wd = LABEL_OVERRIDE.get(date, (date, weekday_zh(date)))
+    if fname.endswith("-test.html"):
+        disp_wd = disp_wd + " （測試）"
     if fname.endswith("-test.html"):
         disp_wd = disp_wd + " （測試）"
     cards.append(f'''    <a class="card" href="reports/{html.escape(fname)}">
