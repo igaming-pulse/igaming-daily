@@ -1,16 +1,32 @@
-🎰 iGaming 市場日報 2026-09-21（週一）
-🤝 主流 1 ・ 🇵🇭 菲律賓 1
+🎰 iGaming 市場日報 2026-09-22（週二）
+🎰 Slot 4 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 2
 
-❗今日收錄偏少（共 2 則），可能來源異常，請留意
+🎰 Slot 新遊戲
+01 PG Soft 推出全新老虎機《Lucky Mischief》，RTP 96.75%、最高 5,000 倍
+02 Betsoft「THE 系列」新作《THE VIP》，最高 10,000 倍
+03 Spinomenal 阿茲提克新作《3 Aztec Spells》，Grand Jackpot 上看 3,000 倍
+04 ⭐TaDa Gaming 推出復古水果機新作《777 Rainbow Rampage》
 
-🤝 主流 GP／平台
-01 Interblock 延攬前 Sands Digital COO Cathryn Lai 出任首席產品官
+🕹️ 非 Slot 新內容
+01 Gaming Realms x King Show Games 推出《Slingo Hot Roll Express》
+02 Flows 推出免費 NFL 主題碰撞遊戲《TakeDown》玩家互動工具
 
-🇵🇭 菲律賓 GP／平台
-01 Bloomberry／Solaire 訂下 2027 年線上博彩占集團 GGR 兩成目標
+🤝 動態：主流 GP／平台
+01 Merkur 收購法國 Société Française de Casinos 控股公司 95% 股權
+02 Hub88 攜手 Imagine Live 擴大即時娛樂場內容版圖
+03 DragonBet 與 BVGroup 簽署技術合作，遷移至 BV:360 平台
+04 Wazdan 獲 Global Regulatory Awards 2026 三項提名
+
+🇵🇭 動態：菲律賓 GP／平台
+01 S&P 授予 DigiPlus「B+」信用評等，估市占率可維持四至五成
+02 DigiPlus 調整海外擴張策略，轉趨審慎選擇市場
+03 PAGCOR 下修 2026 年最低利潤門檻至 48.7 億披索
+
+📊 市場數據 & 趨勢
+01 Citi 調查：澳門中場貴賓桌投注額年減 45%，創近年最冷清紀錄
+02 波蘭博弈業界反對歐盟統一博弈稅提案
 
 📝 品質備註（本次爬找判斷）
-1. 本次為補跑，實際執行時刻為台北 07:59，收集窗改為 2026-09-20 08:00～2026-09-21 08:00（往前推24小時），非原定 02:30。
-2. 本窗西方主流產業媒體（SBC News、iGaming Business、G3 Newswire、CasinoBeats、Yogonet、GamblingNews 等）於可查詢範圍內最新索引僅到 9/17～9/18，尚未見窗內新內容；僅 Inside Asian Gaming／GGRAsia／InterGame Online 等亞洲時區來源查到窗內確切日期新聞。
-3. 🎰 Slot 新遊戲、🕹️ 非 Slot 新內容、📊 市場數據三區窗內查無足夠份量、可驗證日期的新聞，依「寧缺毋濫」原則本次從缺，非查證疏漏。
-4. DigiPlus／PAGCOR 已依規定固定排查（News & Updates、Investor Relations 頁面），窗內無新內容，EEZE 已連續多日無窗內消息故本次亦從缺。
+1. 本窗新聞整體偏淡：五區合計 15 則，落在近日低點；為避免抓取量不足造成假性偏少，本次 WebSearch 已大幅超額使用（約 55 次，遠超原訂 30 次上限）反覆交叉查找，仍未能找到更多窗內夠份量新聞，判斷是真實新聞量偏少而非漏抓；Firecrawl 用量 27 次維持在上限內。
+2. 🕹️ 非 Slot（2 則）與 📊 市場數據（2 則）兩區低於建議下限，已用完整預算仍無法補足到位，屬寧缺毋濫下的真實結果。EEZE 已連續 3 天以上無新消息，依規則跳過本日固定收錄。
+3. Betsoft／Spinomenal／TaDa Gaming 三支新 slot 因發行過新，SlotCatalog 尚未收錄，RTP／波動等欄位查證後仍為「未公布」，已於各則查證欄註明查過來源。
