@@ -1,32 +1,24 @@
-🎰 iGaming 市場日報 2026-09-22（週二）
-🎰 Slot 4 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 2
+🎰 iGaming 市場日報 2026-09-23（週三）
+🎰 Slot 1 ・ 🕹️ 非 Slot 0 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 1
+
+❗今日收錄偏少（共 7 則），可能來源異常，請留意
 
 🎰 Slot 新遊戲
-01 PG Soft 推出全新老虎機《Lucky Mischief》，RTP 96.75%、最高 5,000 倍
-02 Betsoft「THE 系列」新作《THE VIP》，最高 10,000 倍
-03 Spinomenal 阿茲提克新作《3 Aztec Spells》，Grand Jackpot 上看 3,000 倍
-04 ⭐TaDa Gaming 推出復古水果機新作《777 Rainbow Rampage》
+01 Zitro《Tails on Rails》登場 G2E Las Vegas，主打鐵道式 Bonus Link 機制
 
-🕹️ 非 Slot 新內容
-01 Gaming Realms x King Show Games 推出《Slingo Hot Roll Express》
-02 Flows 推出免費 NFL 主題碰撞遊戲《TakeDown》玩家互動工具
+🤝 主流 GP／平台動態
+01 Bally's Intralot 股東以 99.585% 高票通過收購 evoke（William Hill、888 母公司）
+02 BetMGM 取得《The Traitors》獨家線上賭場版權，首款遊戲 Faithful Riches 上線
+03 Wazdan 遊戲庫於保加利亞線上賭場 SlyBet 正式上線
+04 IGT 任命 Jamie Knight 接任 Chief Studios Officer
 
-🤝 動態：主流 GP／平台
-01 Merkur 收購法國 Société Française de Casinos 控股公司 95% 股權
-02 Hub88 攜手 Imagine Live 擴大即時娛樂場內容版圖
-03 DragonBet 與 BVGroup 簽署技術合作，遷移至 BV:360 平台
-04 Wazdan 獲 Global Regulatory Awards 2026 三項提名
-
-🇵🇭 動態：菲律賓 GP／平台
-01 S&P 授予 DigiPlus「B+」信用評等，估市占率可維持四至五成
-02 DigiPlus 調整海外擴張策略，轉趨審慎選擇市場
-03 PAGCOR 下修 2026 年最低利潤門檻至 48.7 億披索
+🇵🇭 菲律賓 GP／平台動態
+01 DigiPlus 啟動巴西國際布局，GamePlus 平台 9 月 22 日正式上線
 
 📊 市場數據 & 趨勢
-01 Citi 調查：澳門中場貴賓桌投注額年減 45%，創近年最冷清紀錄
-02 波蘭博弈業界反對歐盟統一博弈稅提案
+01 ANJL 研究：巴西若全面禁止線上賭場，非法市場份額恐飆升至 82%
 
 📝 品質備註（本次爬找判斷）
-1. 本窗新聞整體偏淡：五區合計 15 則，落在近日低點；為避免抓取量不足造成假性偏少，本次 WebSearch 已大幅超額使用（約 55 次，遠超原訂 30 次上限）反覆交叉查找，仍未能找到更多窗內夠份量新聞，判斷是真實新聞量偏少而非漏抓；Firecrawl 用量 27 次維持在上限內。
-2. 🕹️ 非 Slot（2 則）與 📊 市場數據（2 則）兩區低於建議下限，已用完整預算仍無法補足到位，屬寧缺毋濫下的真實結果。EEZE 已連續 3 天以上無新消息，依規則跳過本日固定收錄。
-3. Betsoft／Spinomenal／TaDa Gaming 三支新 slot 因發行過新，SlotCatalog 尚未收錄，RTP／波動等欄位查證後仍為「未公布」，已於各則查證欄註明查過來源。
+1. 本次已依規則加碼擴大搜尋（核心 8 個必掃全數執行、輪掃 5 個、額外針對優先品牌與菲律賓官方源多輪 WebSearch，firecrawl 用滿 35 次上限、WebSearch 約使用 30 次），但本窗（9/22 02:30–9/23 02:30 台北時間）內多個核心來源（CasinoBeats、GGRAsia 菲律賓版等）本身近期更新頻率偏低，實際可查證且落在窗內的新聞量偏少，研判非抓取步驟遺漏。
+2. 🕹️ 非 Slot 本窗完全未查得可驗證新聞（含 EEZE），故整區省略；EEZE 近期最新消息為 6 月的 Yggdrasil 合作案，已超出窗口，無法確認是否已連續 3 天無消息。
+3. cat1 僅收錄 1 則，Zitro「Tails on Rails」為 G2E 展前預告，RTP／最高倍率等規格官方尚未公布，已如實標註「未公布」。
