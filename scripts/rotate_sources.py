@@ -36,7 +36,7 @@ INCLUDE_CATEGORIES = [
     "市場數據／分析公司",
     "監理機關／官方數據",
 ]
-BATCH_SIZE = 8  # 每日輪掃批次大小（改這裡就改變覆蓋週期與 credit 用量）
+BATCH_SIZE = 5  # 每日輪掃批次大小（改這裡就改變覆蓋週期與 credit 用量）
 
 
 def parse(md):
