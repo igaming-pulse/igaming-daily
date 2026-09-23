@@ -1,33 +1,30 @@
-🎰 iGaming 市場日報 2026-09-23（週三）
-🎰 Slot 8 ・ 🕹️ 非 Slot 0 ・ 🤝 主流 7 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 1
+🎰 iGaming 市場日報 2026-09-24（週四）
+🎰 Slot 1 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
 
 🎰 Slot 新遊戲
-01 Yggdrasil《Vikings Go To Hollywood》維京好萊塢新篇
-02 Nolimit City《Ding Dong Death》最高14,280倍
-03 Pragmatic Play《Freya 1000》北歐女神新作
-04 Greentube《Highway to Bell Stack & Collect》
-05 4ThePlayer《9K Wild Yeti Dream Drop》
-06 Playradar《Ned & Ted》農場喜劇新作
-07 Evoplay《Fruit Fusion: Three Pots》
-08 BetMGM取得《The Traitors》改編權推出首作
+01 GAMOMAT推出神秘鬧鬼森林新作《Hexwood》，Nudging Reveal機制驅動連鎖爆分
 
-🤝 主流動態
-01 IGT任命Jamie Knight接任首席工作室官，2027年生效
-02 新加坡《賭場管制法》修法生效，撤回賭注入罪
-03 Walker Digital攜手BurraPay，智慧賭桌整合加密支付
-04 Bally's Intralot併購evoke案股東表決過關
-05 Wynn Resorts發行9億美元優先票券
-06 Veikkaus旗下Fennica Gaming加速海外擴張
-07 bet-at-home上半年轉虧，娛樂場GGR逆勢年增26.8%
+🕹️ 非 Slot 新內容
+01 PokerStars轉型為全球撲克網路，正式開放外部品牌B2B接入
 
-🇵🇭 菲律賓動態
-01 PAGCOR研議強制智慧賭桌，時程恐延至2027下半年
+🤝 主流 GP／平台動態
+01 Caesars股東以逾97%高票通過Fertitta 176億美元收購案
+02 Aristocrat Interactive將《Buffalo》《Mo' Mummy》品牌授權Gaming Realms開發Slingo版本
+03 BGaming透過win2day合作正式進軍奧地利市場
+04 Playnetic透過Microgame平台在義大利GBO旗下品牌正式上線
+05 Games Valley攜手Wazdan強化內容聚合陣容
 
-📊 市場數據
-01 巴西娛樂場禁令若成真，非法市場佔比恐從41%飆升至82%
+🇵🇭 菲律賓 GP／平台動態
+01 DigiPlus巴西GamePlus軟啟動三週後即宣布策略性暫停，聚焦2026年初本土化重新上線
+02 Blask數據揭露菲律賓iGaming市場真實規模，年增224.9%躍居全球第九大
+官方 PAGCOR董事長Tengco證實監理與營運角色脫鉤方案即將呈報總統
+
+📊 市場數據 & 趨勢
+01 巴西博彩業前八月營收達99.1億雷亞爾，年增69%
+02 巴西總統盧拉再度威脅全面禁止線上娛樂場，恐衝擊已合法化2500萬玩家
+03 CasinoCanada研究：加拿大成長最快的博弈型態游走在監理框架外
 
 📝 品質備註（本次爬找判斷）
-1. 🕹️非Slot本次掛零：核心必掃站CasinoBeats、Gambling Insider首頁內容已明顯轉向美式運彩／預測市場，非本報範疇；EEZE本日查無新消息，依例外規則跳過；WebSearch多次加碼查crash／bingo／poker/live game仍無window內候選，屬本窗真實供給稀薄。
-2. 🇵🇭菲律賓商業新聞今日僅PAGCOR官方2則可查，其中1則（PAGCOR下修2026利潤門檻）因與9/22日報重複已剔除，DigiPlus系平台今日查無新可查證商業動態，故商業則數掛零。
-3. 📊市場數據原查得Citi澳門中場貴賓調查，因與9/22日報同一份調查重複已剔除，故僅收錄1則巴西非法市場數據。
-4. 過程中發現並剔除5則查證後為過期或不實的候選（GameArt新作查無真實來源、1spin4win與DigiPlus兩則報導實際為舊聞、Yggdrasil另一款slot與RubyPlay併購案皆為6月/7月舊稿），已以其他候選遞補，最終收錄皆逐則直接查證發布時間。
+1. 本窗（9/23 02:30～9/24 02:30）新遊戲供給明顯偏淡：8個核心必掃站中SlotBeats、CasinoBeats兩站確認無窗內新內容（以maxAge:0強制取新後仍同），核心新slot僅GAMOMAT一則、且發布時間落在窗口開始前約10小時；已額外對Acewin／Omiplay／YellowBat／ATG／Jili／TaDa／PG Soft／Pragmatic／Hacksaw／Red Tiger／BTG／Relax／Push等優先品牌逐一WebSearch查證，均無窗內新作，判斷為真實淡季而非抓取不足。
+2. 總收錄13則，落在13–22下限邊界；已對Yogonet／SBC News／iGB／asgam.com／CDC Gaming五站以maxAge:0強制繞過快取重抓（原快取版本與昨日內容重複），並加碼WebSearch約30次仍未能補齊至18則目標，如實反映本窗供給狀況。
+3. Casino Plus「史上最大老虎機頭獎」事件經查證實為9/9～9/11舊聞的頒獎典禮後續報導，已判定為近期重複議題予以排除，未收錄。
