@@ -51,6 +51,11 @@ python3 <REPO>/scripts/sync_sources.py
 
 目標候選池 **40–60 則**。**候選池 < 25 則才觸發加碼**（見「🔦 加碼規則」）。
 
+⚠️ **候選池太小時，先懷疑自己的抓法，不要先下「今天新聞少」的結論。**
+判斷順序：① 列表頁是不是用了 `summary`（錯）而不是 `markdown`（對）→
+② 每個站各撈到幾則、有沒有整站掛零 → ③ 才輪到「當日供給真的少」。
+**步驟 6 回報必須寫出：候選池總數、各核心站各撈到幾則、撈到 0 則的站有哪些。**
+
 **為什麼要分段**：舊版邊找邊查證，查證吃掉的就是發現的額度，池子從一開始就很小，
 導致「今天新聞很少」這種結論其實只是「我這條路徑找不到更多」。
 第一段不查證，才看得到當天到底有多少料。
@@ -368,8 +373,16 @@ ATG（`https://atg-games.com/zh-tw`）同列特別追蹤，判準與下述三家
 | 7 | Inside Asian Gaming | https://www.asgam.com/ | 🇵🇭 ＋ 亞洲／澳門 |
 | 8 | Focus Gaming News | https://focusgn.com/ | 🎰 Slot（更新快） |
 
-- 抓法與輪掃相同：Firecrawl `formats:["summary"]` ＋ `onlyMainContent:true`，**1 credit／次**
-- **只抓列表頁、只取標題與連結**，不在此步抓內文
+- **⛔ 抓法（v6.1 修正，這條最重要）**：列表頁**一律用 `formats:["markdown"]` ＋ `onlyMainContent:false`**。
+  **嚴禁對列表頁用 `formats:["summary"]`** —— summary 回傳的是「這個網站在講什麼」的一段描述，
+  **不含當日條目清單**，掃了等於沒掃。2026-09-23 實測就是栽在這裡：8 個核心站全掃過、
+  firecrawl 燒滿 35 次，結果只撈到 7 則，而 SlotBeats 首頁上 9/22 的
+  Yggdrasil《Vikings Go To Hollywood》、Greentube《Highway to Bell》兩則新 slot 完全沒被看到。
+  費用不變，仍是 **1 credit／次**（Firecrawl 的 scrape 不分 format 都算 1 credit，只有 JSON 抽取才是 5）。
+- 拿回 markdown 後，自行從中解析出**每一則的標題、原文連結、發布日期**
+- **只取標題／連結／日期**，不在此步抓內文
+- **每個站都要記錄「取到幾則」**，取到 0 則的站必須在步驟 6 回報中逐站列出 ——
+  「掃過」不等於「撈到東西」，只報「已掃 8 個」是不合格的回報
 - 抓不到的站直接跳過，不停下來等授權
 - **預算：8 credits／天，固定支出**
 - 已知弱點：這 8 個沒有專門做 🕹️ 非 Slot（真人娛樂場／Crash／Bingo／撲克）的媒體，
@@ -391,7 +404,8 @@ ATG（`https://atg-games.com/zh-tw`）同列特別追蹤，判準與下述三家
    輪掃池只含五個有每日新聞價值的分類：Provider 官網、產品分析／評測、產業媒體、市場數據／分析公司、監理機關／官方數據。
    **展會／論壇／Podcast／協會認證／已停用不進池。**
 
-2. **逐一查**：對批次內每個 URL 用 Firecrawl（`formats:["summary"]` ＋ `onlyMainContent:true`，1 credit／次），
+2. **逐一查**：對批次內每個 URL 用 Firecrawl（**列表頁用 `formats:["markdown"]` ＋ `onlyMainContent:false`**，
+   理由見「每日核心必掃清單」的抓法說明；1 credit／次），
    看有無「**收集時間窗內、夠份量**」的新聞。
    - **有** → 納入候選、與搜尋結果**去重**、順手取 `metadata['og:image']`
    - **沒有** → 跳過（多數會沒有，這是正常的）
@@ -442,7 +456,9 @@ curl -s -X POST https://api.firecrawl.dev/v1/scrape \
 
 #### 🪶 抓取節約原則
 
-- **Firecrawl**：一律 `onlyMainContent: true` ＋ `formats: ["summary"]`。**不要用 `formats:["markdown"]` 抓整頁** —— 整頁約 80% 是導覽選單／Cookie 表／頁尾，會撐爆 context。
+- **Firecrawl**：**分兩種用法，不可混用（v6.1）**
+  - **文章內頁** → `onlyMainContent: true` ＋ `formats: ["summary"]`。不要對內頁用 `markdown` 抓整頁 —— 整頁約 80% 是導覽選單／Cookie 表／頁尾，會撐爆 context。
+  - **列表頁／首頁／分類頁**（核心必掃 8 個、每日輪掃、Provider 官網新聞列表）→ **必須** `formats: ["markdown"]` ＋ `onlyMainContent: false`。用 summary 抓列表頁等於沒抓，理由見「每日核心必掃清單」。
 - **WebFetch**：prompt 要**窄**，只問「標題＋關鍵參數（RTP／倍率／盤面／機制／日期）＋3 句內摘要＋原文 URL」。
 - **WebSearch**：先用結果 snippet 判斷夠不夠，真的需要細節才去抓那一頁。
 - **鐵則**：進到 context 的只能是「精煉後的標題／參數／摘要」，不能是整頁原文。此原則**不減少來源數量、不影響交叉查證深度**。
@@ -648,6 +664,11 @@ PAGCOR 官方公告與規範；實體賭場（Okada Manila、Solaire、NUSTAR、
 
 ## 版本沿革
 
+- **v6.1**（2026-09-23）修正 v6.0 的致命抓法錯誤：列表頁原本沿用 `formats:["summary"]`，
+  而 summary 不回傳條目清單，導致核心必掃 8 個「掃了等於沒掃」——
+  首跑只撈到 7 則、cat2 整區空白，且漏掉 SlotBeats 首頁上兩則窗內新 slot（其中一則是 B=6 的 Yggdrasil）。
+  改為列表頁一律 `formats:["markdown"]` ＋ `onlyMainContent:false`；
+  並要求回報必須逐站列出「各撈到幾則」，禁止只報「已掃 8 個」
 - **v6.0**（2026-09-22）收集流程與排序規則全面改版：① 新增「每日核心必掃 8 個」列表頁；② 收集改**三段式**（廣蒐候選不查證 → 打分排序 → 只查證入選者）；③ 新增可計算的排序公式 `B+E+R+T+D`（滿分 20）取代「看市場衝擊性」；④ 新增三個硬上限（同一 GP ≤2、菲律賓商業 ≤6＋官方另計、其他國家 ≤3、總量 ≤22）；⑤ 平手規則 `總分→B→R→時間`；⑥ 則數調整 cat1 5→≤8、cat3 5→≤7、cat5 3→2–5、總量目標 18／硬上限 22；⑦ 輪掃批次 8→5（約 34 天一輪），額度挪給核心必掃；⑧ firecrawl 上限 30→35；⑨ 加碼觸發點由「成稿 < 15 則」改為「候選池 < 25 則」；⑩ B=6 名單納入 ATG、OKBet、PT Gaming、EEZE
 - **v5.2**（2026-09-20）依原帳號裁示砍 Firecrawl 用量：輪掃批次 30→**8**（覆蓋週期 6 天→**約 21 天**，已知並接受）、整場 firecrawl 上限 45→**14**、薄弱日加碼收進總額內不另外開、明令嚴禁 5-credit JSON 抽取；補上補跑時的時間窗規則
 - **v5.1**（2026-09-20）納入原帳號 ROUND4 更新：每日輪掃制 ＋ `rotate_sources.py`（168 源／6 天一輪）、薄弱日再加碼（<15 則觸發）、整場預算上限改為 firecrawl ≤ 45／WebSearch ≤ 20、日報 HTML 必附 favicon 三行、無人值守 Bash 規則（禁 ls／find 探測）、`build_index.py` 加入合併回顧標籤 `LABEL_OVERRIDE` 與首頁 favicon
