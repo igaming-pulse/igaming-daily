@@ -1,24 +1,33 @@
 🎰 iGaming 市場日報 2026-09-23（週三）
-🎰 Slot 1 ・ 🕹️ 非 Slot 0 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 1
-
-❗今日收錄偏少（共 7 則），可能來源異常，請留意
+🎰 Slot 8 ・ 🕹️ 非 Slot 0 ・ 🤝 主流 7 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 1
 
 🎰 Slot 新遊戲
-01 Zitro《Tails on Rails》登場 G2E Las Vegas，主打鐵道式 Bonus Link 機制
+01 Yggdrasil《Vikings Go To Hollywood》維京好萊塢新篇
+02 Nolimit City《Ding Dong Death》最高14,280倍
+03 Pragmatic Play《Freya 1000》北歐女神新作
+04 Greentube《Highway to Bell Stack & Collect》
+05 4ThePlayer《9K Wild Yeti Dream Drop》
+06 Playradar《Ned & Ted》農場喜劇新作
+07 Evoplay《Fruit Fusion: Three Pots》
+08 BetMGM取得《The Traitors》改編權推出首作
 
-🤝 主流 GP／平台動態
-01 Bally's Intralot 股東以 99.585% 高票通過收購 evoke（William Hill、888 母公司）
-02 BetMGM 取得《The Traitors》獨家線上賭場版權，首款遊戲 Faithful Riches 上線
-03 Wazdan 遊戲庫於保加利亞線上賭場 SlyBet 正式上線
-04 IGT 任命 Jamie Knight 接任 Chief Studios Officer
+🤝 主流動態
+01 IGT任命Jamie Knight接任首席工作室官，2027年生效
+02 新加坡《賭場管制法》修法生效，撤回賭注入罪
+03 Walker Digital攜手BurraPay，智慧賭桌整合加密支付
+04 Bally's Intralot併購evoke案股東表決過關
+05 Wynn Resorts發行9億美元優先票券
+06 Veikkaus旗下Fennica Gaming加速海外擴張
+07 bet-at-home上半年轉虧，娛樂場GGR逆勢年增26.8%
 
-🇵🇭 菲律賓 GP／平台動態
-01 DigiPlus 啟動巴西國際布局，GamePlus 平台 9 月 22 日正式上線
+🇵🇭 菲律賓動態
+01 PAGCOR研議強制智慧賭桌，時程恐延至2027下半年
 
-📊 市場數據 & 趨勢
-01 ANJL 研究：巴西若全面禁止線上賭場，非法市場份額恐飆升至 82%
+📊 市場數據
+01 巴西娛樂場禁令若成真，非法市場佔比恐從41%飆升至82%
 
 📝 品質備註（本次爬找判斷）
-1. 本次已依規則加碼擴大搜尋（核心 8 個必掃全數執行、輪掃 5 個、額外針對優先品牌與菲律賓官方源多輪 WebSearch，firecrawl 用滿 35 次上限、WebSearch 約使用 30 次），但本窗（9/22 02:30–9/23 02:30 台北時間）內多個核心來源（CasinoBeats、GGRAsia 菲律賓版等）本身近期更新頻率偏低，實際可查證且落在窗內的新聞量偏少，研判非抓取步驟遺漏。
-2. 🕹️ 非 Slot 本窗完全未查得可驗證新聞（含 EEZE），故整區省略；EEZE 近期最新消息為 6 月的 Yggdrasil 合作案，已超出窗口，無法確認是否已連續 3 天無消息。
-3. cat1 僅收錄 1 則，Zitro「Tails on Rails」為 G2E 展前預告，RTP／最高倍率等規格官方尚未公布，已如實標註「未公布」。
+1. 🕹️非Slot本次掛零：核心必掃站CasinoBeats、Gambling Insider首頁內容已明顯轉向美式運彩／預測市場，非本報範疇；EEZE本日查無新消息，依例外規則跳過；WebSearch多次加碼查crash／bingo／poker/live game仍無window內候選，屬本窗真實供給稀薄。
+2. 🇵🇭菲律賓商業新聞今日僅PAGCOR官方2則可查，其中1則（PAGCOR下修2026利潤門檻）因與9/22日報重複已剔除，DigiPlus系平台今日查無新可查證商業動態，故商業則數掛零。
+3. 📊市場數據原查得Citi澳門中場貴賓調查，因與9/22日報同一份調查重複已剔除，故僅收錄1則巴西非法市場數據。
+4. 過程中發現並剔除5則查證後為過期或不實的候選（GameArt新作查無真實來源、1spin4win與DigiPlus兩則報導實際為舊聞、Yggdrasil另一款slot與RubyPlay併購案皆為6月/7月舊稿），已以其他候選遞補，最終收錄皆逐則直接查證發布時間。
