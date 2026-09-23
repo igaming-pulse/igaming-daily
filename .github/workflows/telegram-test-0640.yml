@@ -15,6 +15,14 @@ on:
         description: '只印出不實際發送（true / false）'
         required: false
         default: 'true'
+      url_suffix:
+        description: '按鈕指向的檔名後綴（-test ＝ 併行版；-v2 ＝ 第二版重跑）'
+        required: false
+        default: '-test'
+      msg_prefix:
+        description: '訊息第一行標記（留空＝預設的【測試】標記）'
+        required: false
+        default: ''
 
 concurrency:
   group: telegram-test
@@ -32,6 +40,6 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
           DRY_RUN:            ${{ github.event.inputs.dry_run }}
-          MSG_PREFIX:         '🧪【測試】公司帳號併行版 · nathan.kao@bituslabs.com'
-          REPORT_URL_SUFFIX:  '-test'
+          MSG_PREFIX:         ${{ github.event.inputs.msg_prefix || '🧪【測試】公司帳號併行版 · nathan.kao@bituslabs.com' }}
+          REPORT_URL_SUFFIX:  ${{ github.event.inputs.url_suffix || '-test' }}
         run: python3 scripts/send_telegram.py
