@@ -80,15 +80,7 @@ Caesars Entertainment股東於雷諾Eldorado Resort & Casino的特別會議上�
 
 ## 🇵🇭 動態：菲律賓 GP／平台
 
-### 01 DigiPlus巴西GamePlus軟啟動三週後即宣布策略性暫停，聚焦2026年初本土化重新上線
-
-菲律賓核心集團DigiPlus旗下首個海外品牌GamePlus已於9月22日在巴西軟啟動，上線超過150款熱門遊戲（含免費與真錢版本），為DigiPlus首度跨出東南亞的國際化里程碑，瞄準巴西這個上半年GGR達32億美元的全球成長最快受監管市場之一，原規劃稍後加入在地民俗題材與休閒遊戲內容，並鎖定BingoPlus作為巴西第二個上線品牌。惟軟啟動僅約三週後，DigiPlus隨即宣布策略性暫停GamePlus在巴西的營運，董事長Eusebio H. Tanco表示團隊在這段期間蒐集了巴西玩家行為與文化偏好的第一手數據，決定暫停整頓，改為打造更貼近巴西在地娛樂文化的自製產品，鎖定2026年初大規模重新上線。對PM的意義：軟啟動即快速喊停顯示DigiPlus寧可先蒐集市場數據、扎實打磨在地化內容，也不急於搶佔先機，是東南亞龍頭跨境擴張時審慎但仍積極布局的訊號。
-
-重點：類型 市場進入 ｜ 對象 DigiPlus、GamePlus、巴西市場 ｜ 影響 首個海外品牌軟啟動巴西後三週內喊停，改為籌備2026年初本土化重新上線
-查證：軟啟動日期（9/22）與後續暫停決定經DigiPlus官方新聞稿、GGRAsia、sigma.world交叉確認一致。
-來源：[DigiPlus官方](https://digiplus.com.ph/digiplus-to-kick-off-international-expansion-in-brazil-with-gameplus-on-september-22/) · [DigiPlus官方（暫停公告）](https://digiplus.com.ph/digiplus-pauses-brazil-platform-soft-launch-prepares-for-full-rollout-of-uniquely-local-game-in-early-2026/) · [GGRAsia](https://www.ggrasia.com/digiplus-says-to-launch-gameplus-platform-in-brazil-on-sept-22) · [sigma.world](https://sigma.world/news/digiplus-brazil-soft-launch-pause-2026-relaunch/) · 2026-09-22/23
-
-### 02 Blask數據揭露菲律賓iGaming市場真實規模，年增224.9%躍居全球第九大
+### 01 Blask數據揭露菲律賓iGaming市場真實規模，年增224.9%躍居全球第九大
 
 市場數據公司Blask最新報告顯示，截至2026年8月，菲律賓已是全球第九大iGaming市場，過去12個月「競爭營收基準（CEB）」預估中位數達11.7億美元，涵蓋257家活躍營運商；以Blask指數衡量，該市場年增224.9%，為全球第三高（僅次波札那＋422.1%、薩爾瓦多+252.7%），需求規模較2023年1月已擴大逾20倍。前十大營運商合計佔市場需求82.8%，其中PlayTime、Casino Plus、BingoPlus三家即合計佔比59.4%。玩家結構以25–34歲族群佔比最高（35%），年收入介於20萬至40萬披索者佔比最大（30%）。報告並指出PAGCOR將iGaming牌照費由GGR逾50%於2024年4月降至35%、2025年1月再降至30%，是帶動市場成長的關鍵監理動作。對PM的意義：菲律賓市場的爆發式成長已具備獨立數據佐證，前三大平台集中度逼近六成，對後進者而言進入門檻正快速墊高。
 
@@ -124,4 +116,4 @@ CasinoCanada最新研究指出，加拿大成長最快的博弈相關產品，�
 
 ---
 
-本日日報查詢約 50 個網站，其中提取 29 個資料來源並進行交叉比對
+本日日報查詢約 50 個網站，其中提取 25 個資料來源並進行交叉比對
