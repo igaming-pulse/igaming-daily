@@ -43,7 +43,7 @@
   <div class="sub">iGaming 市場日報如何自動生成、涵蓋哪些來源、用什麼邏輯判斷與排序</div>
 
   <div class="h2">一、生成的基本架構</div>
-  <div class="card"><p class="arch">本日報為<strong>全自動</strong>產物：每天<strong>台北時間 02:30</strong> 由排程觸發（半夜跑，讓運算用量在上班前就退出額度視窗）。流程先<strong>同步來源庫</strong>——以 Excel 主檔 igaming-daily-report-sources-v2.xlsx（目前 <strong>223 個來源、10 大分類</strong>，主檔存放於 repo 內）為唯一真相，重建成程式讀取的 sources.md。接著<strong>抓取新聞</strong>：跨分類主動取材，被擋的站改用 Firecrawl，並依五大分類（🎰 Slot 新遊戲、🕹️ 非 Slot、🤝 主流動態、🇵🇭 菲律賓、📊 市場數據）歸位。<strong>辨識與優先級</strong>依序判斷：先分類，再看是否為「優先展示品牌」（Yggdrasil、Jili、DigiPlus 等）與市場衝擊性，高者排前、寧缺毋濫。每則都要<strong>交叉查證</strong>：至少再找一個獨立來源佐證、用官網／SlotCatalog 補全參數、遇數據衝突以最權威來源為準並標註——且<strong>只增不減</strong>，基本參數（盤面／倍率／RTP／波動）必須填滿。最後渲染成 HTML、commit 並 push 到 GitHub Pages；<strong>Email 由 push 事件觸發的 GitHub Actions 寄出</strong>，<strong>Telegram 推播則延到 06:30 由另一支 GitHub Actions 定時發送</strong>（零額外運算成本）。</p></div>
+  <div class="card"><p class="arch">本日報為<strong>全自動</strong>產物：每天<strong>台北時間 02:30</strong> 由排程觸發（半夜跑，讓運算用量在上班前就退出額度視窗）。流程先<strong>同步來源庫</strong>——以 Excel 主檔 igaming-daily-report-sources-v2.xlsx（目前 <strong>223 個來源、10 大分類</strong>，主檔存放於 repo 內）為唯一真相，重建成程式讀取的 sources.md。接著<strong>抓取新聞</strong>：跨分類主動取材，被擋的站改用 Firecrawl，並依五大分類（🎰 Slot 新遊戲、🕹️ 非 Slot、🤝 主流動態、🇵🇭 菲律賓、📊 市場數據）歸位。<strong>辨識與優先級</strong>依序判斷：先分類，再看是否為「優先展示品牌」（Yggdrasil、Jili、DigiPlus 等）與市場衝擊性，高者排前、寧缺毋濫。每則先過<strong>主來源日期關</strong>：至少一個來源的發布日期含年份、且落在 24 小時收集窗內，否則視為舊聞不收。通過後再做<strong>交叉查證</strong>：至少再找一個獨立來源佐證、用官網／SlotCatalog 補全參數、遇數據衝突以最權威來源為準並標註——且<strong>只增不減</strong>，基本參數（盤面／倍率／RTP／波動）必須填滿。最後渲染成 HTML、commit 並 push 到 GitHub Pages；<strong>Email 由 push 事件觸發的 GitHub Actions 寄出</strong>，<strong>Telegram 推播則延到 06:30 由另一支 GitHub Actions 定時發送</strong>（零額外運算成本）。</p></div>
 
   <div class="h2">二、運作邏輯（流程圖）</div>
   <div class="card"><h3>2-1　每日總流程</h3><pre class="mermaid">
@@ -80,7 +80,9 @@ flowchart LR
 </pre></div>
   <div class="card"><h3>2-4　交叉查證（只增不減）</h3><pre class="mermaid">
 flowchart TD
-  X["取得一則（單一來源）"] --> Y["找 ≥1 個獨立來源佐證"]
+  X["取得一則（單一來源）"] --> D{"主來源發布日期<br/>含年份且在窗內？"}
+  D -- 否 --> DX["視為舊聞 · 剔除並遞補"]
+  D -- 是 --> Y["找 ≥1 個獨立來源佐證"]
   Y --> Z["補全參數：SlotCatalog／Provider 官網"]
   Z --> W{"多來源數據衝突？"}
   W -- 是 --> W1["以最權威來源為準<br/>＋標註『各來源不一』"]
