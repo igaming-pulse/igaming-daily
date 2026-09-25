@@ -1,32 +1,26 @@
-🎰 iGaming 市場日報 2026-09-25（週五）
-🎰 Slot 2 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 7 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 2
+🎰 iGaming 市場日報 2026-09-26（週六）
+🎰 Slot 0 ・ 🕹️ 非 Slot 0 ・ 🤝 主流 7 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 2
 
-🎰 Slot 新遊戲
-01 12 Masks of Fire Eruption Prize Flow – Games Global／Gameburger Studios
-02 Money Train 5 – Relax Gaming
+🤝 主流 GP／平台
+01 IGT – Graton Resort & Casino 全球首發 Wheel of Fortune Magic Coins
+02 Gaming1 收購比利時 Carousel Group（Pac-Man NV）
+03 巴西總統盧拉宣布全面禁止線上博彩
+04 Formula Spin 與 Kanggiten 達成內容分銷合作
+05 Games Valley 攜手 Wazdan 擴充內容聚合庫
+06 西班牙試辦跨業者共同存款限額
+07 The Star Gold Coast 賭場牌照暫緩吊銷至 2027 年 3 月
 
-🕹️ 非 Slot 新內容
-01 Voltplay 於 SBC Summit 2026 展出 UFO 主題 Crash 遊戲《WTF: What's That Flying?》
-
-🤝 主流 GP／平台動態
-01 Caesars 股東壓倒性通過 176 億美元 Fertitta 收購案
-02 MGM Resorts 維持獨立公司地位，Barry Diller 旗下 People Inc 撤回收購提案
-03 ONLYPLAY 推出「Hyper Play」新產品線策略
-04 博彩業高層異動：OpenBet 換 CEO、SciPlay 執行長請辭
-05 保加利亞執政黨提出全面博彩廣告禁令草案
-06 芬蘭博彩牌照申請數超乎預期，收到 75 件申請
-07 立陶宛法院將裁定是否對 Olympic Casino Group 處以 850 萬歐元罰款
-
-🇵🇭 菲律賓 GP／平台動態
-01 Light & Wonder 選在馬尼拉 Solaire Resort Entertainment City 全球首發電子老虎機 JOYUP!
+🇵🇭 菲律賓 GP／平台
+01 PAGCOR：Tengco 說明 Casino Filipino 場館拆分後命運（官方）
+02 Maybank 證券：Solaire 母公司 Bloomberry 估 2027 年轉虧為盈
 
 📊 市場數據 & 趨勢
-01 Greentube：北美市場飽和，老虎機須走在地化差異策略
-02 英國博彩業「黑市警告」說服力遞減，遊說策略面臨轉型壓力
+01 羅馬尼亞 7 月博彩營業額年減 20.1%
+02 吉爾吉斯 8 個月博彩稅收達 443.4 萬吉爾吉斯索姆
 
 📝 品質備註（本次爬找判斷）
-1. 本窗（09/24 02:40～09/25 02:40）核心必掃 8 站中有 3 站撈到 0 則窗內新聞（CasinoBeats 首頁最新僅到 9/4、Gambling Insider 首頁最新僅到 9/23、Stake Blog 僅有一則非核心的賽馬導流文），NEXT.io 原定 URL 404 已改抓 /all/ 補回；已依規則加碼多輪 WebSearch（菲律賓重點品牌、EEZE、市場數據報告、⭐⭐追蹤品牌）仍未能將候選池擴大到 25 則以上，判斷本窗確實新聞供給偏淡，非抓取失誤。
-2. EEZE 已連續 10 天（09/15～09/24 日報）未固定收錄，本次亦查無窗內新消息，依規則跳過。
-3. DigiPlus 官方新聞頁（news-updates）本次固定排查，最新一則仍是 09/03，PAGCOR 官方公告本次亦無窗內新增，菲律賓區僅靠 Light & Wonder／Solaire 一則撐起。
-4. cat1（Slot）僅收錄 2 則，低於一般水準；已就 Pragmatic Play／Hacksaw／Nolimit City／Jili／TaDa Gaming／CQ9／SPRIBE／Galaxsys 等品牌加碼搜尋,多數近期新作皆落在 8 月或 9 月初、不在本窗內。
-5. 總收錄 13 則，落在下限附近，已如實反映本窗新聞量,未灌水湊數。
+1. 本窗（9/25 02:30～9/26 02:30，跨週五夜～週六）🎰 Slot、🕹️ 非Slot 兩區掛零：對21個⭐優先品牌與全體watchlist GP做了廣泛交叉搜尋，找到的新遊戲發布全數落在9/17～9/24（窗外），本窗確實無合格新品，非抓取遺漏。
+2. EEZE 連續第4天無合格消息，依規則跳過固定收錄。
+3. 原考慮收錄的1spin4win「Lucky Foxilian Hold and Win」因主來源發布時間換算台北時間為9/24 21:38、落在窗外前緣約5小時，予以剔除，無遞補。
+4. 有一則涉及族群歧視指控的爭議性報導（Wicked Games／Hamsterdam）在窗內但屬敏感題材，無人值守模式下保守不收，留待人工複核。
+5. 本次firecrawl用量約38次，略超過35次上限（因核心站與加碼搜尋耗用較多），WebSearch約45次，均在可控範圍。
