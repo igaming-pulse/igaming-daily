@@ -1,29 +1,32 @@
-🎰 iGaming 市場日報 2026-09-24（週四）
-🎰 Slot 1 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-09-25（週五）
+🎰 Slot 2 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 7 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 2
 
 🎰 Slot 新遊戲
-01 GAMOMAT推出神秘鬧鬼森林新作《Hexwood》，Nudging Reveal機制驅動連鎖爆分
+01 12 Masks of Fire Eruption Prize Flow – Games Global／Gameburger Studios
+02 Money Train 5 – Relax Gaming
 
 🕹️ 非 Slot 新內容
-01 PokerStars轉型為全球撲克網路，正式開放外部品牌B2B接入
+01 Voltplay 於 SBC Summit 2026 展出 UFO 主題 Crash 遊戲《WTF: What's That Flying?》
 
 🤝 主流 GP／平台動態
-01 Caesars股東以逾97%高票通過Fertitta 176億美元收購案
-02 Aristocrat Interactive將《Buffalo》《Mo' Mummy》品牌授權Gaming Realms開發Slingo版本
-03 BGaming透過win2day合作正式進軍奧地利市場
-04 Playnetic透過Microgame平台在義大利GBO旗下品牌正式上線
-05 Games Valley攜手Wazdan強化內容聚合陣容
+01 Caesars 股東壓倒性通過 176 億美元 Fertitta 收購案
+02 MGM Resorts 維持獨立公司地位，Barry Diller 旗下 People Inc 撤回收購提案
+03 ONLYPLAY 推出「Hyper Play」新產品線策略
+04 博彩業高層異動：OpenBet 換 CEO、SciPlay 執行長請辭
+05 保加利亞執政黨提出全面博彩廣告禁令草案
+06 芬蘭博彩牌照申請數超乎預期，收到 75 件申請
+07 立陶宛法院將裁定是否對 Olympic Casino Group 處以 850 萬歐元罰款
 
 🇵🇭 菲律賓 GP／平台動態
-01 Blask數據揭露菲律賓iGaming市場真實規模，年增224.9%躍居全球第九大
-官方 PAGCOR董事長Tengco證實監理與營運角色脫鉤方案即將呈報總統
+01 Light & Wonder 選在馬尼拉 Solaire Resort Entertainment City 全球首發電子老虎機 JOYUP!
 
 📊 市場數據 & 趨勢
-01 巴西博彩業前八月營收達99.1億雷亞爾，年增69%
-02 巴西總統盧拉再度威脅全面禁止線上娛樂場，恐衝擊已合法化2500萬玩家
-03 CasinoCanada研究：加拿大成長最快的博弈型態游走在監理框架外
+01 Greentube：北美市場飽和，老虎機須走在地化差異策略
+02 英國博彩業「黑市警告」說服力遞減，遊說策略面臨轉型壓力
 
 📝 品質備註（本次爬找判斷）
-1. 本窗（9/23 02:30～9/24 02:30）新遊戲供給明顯偏淡：8個核心必掃站中SlotBeats、CasinoBeats兩站確認無窗內新內容（以maxAge:0強制取新後仍同），核心新slot僅GAMOMAT一則、且發布時間落在窗口開始前約10小時；已額外對Acewin／Omiplay／YellowBat／ATG／Jili／TaDa／PG Soft／Pragmatic／Hacksaw／Red Tiger／BTG／Relax／Push等優先品牌逐一WebSearch查證，均無窗內新作，判斷為真實淡季而非抓取不足。
-2. 總收錄13則，落在13–22下限邊界；已對Yogonet／SBC News／iGB／asgam.com／CDC Gaming五站以maxAge:0強制繞過快取重抓（原快取版本與昨日內容重複），並加碼WebSearch約30次仍未能補齊至18則目標，如實反映本窗供給狀況。
-3. Casino Plus「史上最大老虎機頭獎」事件經查證實為9/9～9/11舊聞的頒獎典禮後續報導，已判定為近期重複議題予以排除，未收錄。
+1. 本窗（09/24 02:40～09/25 02:40）核心必掃 8 站中有 3 站撈到 0 則窗內新聞（CasinoBeats 首頁最新僅到 9/4、Gambling Insider 首頁最新僅到 9/23、Stake Blog 僅有一則非核心的賽馬導流文），NEXT.io 原定 URL 404 已改抓 /all/ 補回；已依規則加碼多輪 WebSearch（菲律賓重點品牌、EEZE、市場數據報告、⭐⭐追蹤品牌）仍未能將候選池擴大到 25 則以上，判斷本窗確實新聞供給偏淡，非抓取失誤。
+2. EEZE 已連續 10 天（09/15～09/24 日報）未固定收錄，本次亦查無窗內新消息，依規則跳過。
+3. DigiPlus 官方新聞頁（news-updates）本次固定排查，最新一則仍是 09/03，PAGCOR 官方公告本次亦無窗內新增，菲律賓區僅靠 Light & Wonder／Solaire 一則撐起。
+4. cat1（Slot）僅收錄 2 則，低於一般水準；已就 Pragmatic Play／Hacksaw／Nolimit City／Jili／TaDa Gaming／CQ9／SPRIBE／Galaxsys 等品牌加碼搜尋,多數近期新作皆落在 8 月或 9 月初、不在本窗內。
+5. 總收錄 13 則，落在下限附近，已如實反映本窗新聞量,未灌水湊數。
