@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iGaming 市場日報 2026-09-26（測試）</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../icon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../icon-16.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<style>
+  :root{
+    --bg:#F5F7FA; --card:#ffffff; --line:#E7EBF0; --ink:#1A2230; --sub:#5B6675;
+    --c1:#1D9E75; --c1bg:#E1F5EE; --c1txt:#0F6E56;
+    --c2:#B31217; --c2bg:#FBE3E4; --c2txt:#8A1015;
+    --c3:#378ADD; --c3bg:#E6F1FB; --c3txt:#185FA5;
+    --c4:#D97706; --c4bg:#FBF0DD; --c4txt:#8A5206;
+    --c5:#8B5CF6; --c5bg:#EEE9FC; --c5txt:#5B3FA6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.7}
+  .wrap{max-width:860px;margin:0 auto;padding:28px 16px 60px}
+  header{text-align:center;margin-bottom:22px}
+  header h1{font-size:26px;margin:6px 0 4px}
+  header .date{color:var(--sub);font-size:14px}
+  .badges{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:14px 0}
+  .badge{font-size:12px;font-weight:700;padding:5px 12px;border-radius:999px}
+  .b1{background:var(--c1bg);color:var(--c1txt)}
+  .b2{background:var(--c2bg);color:var(--c2txt)}
+  .b3{background:var(--c3bg);color:var(--c3txt)}
+  .b4{background:var(--c4bg);color:var(--c4txt)}
+  .b5{background:var(--c5bg);color:var(--c5txt)}
+  .stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:20px 0 32px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 10px;text-align:center}
+  .stat .n{font-size:22px;font-weight:800}
+  .stat .l{font-size:12px;color:var(--sub);margin-top:2px}
+  .stat.s1 .n{color:var(--c1)} .stat.s2 .n{color:var(--c2)} .stat.s3 .n{color:var(--c3)} .stat.s4 .n{color:var(--c4)} .stat.s5 .n{color:var(--c5)}
+  section{margin-bottom:36px}
+  .sec-title{display:flex;align-items:center;gap:10px;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid var(--line)}
+  .sec-title .emoji{font-size:1.5em}
+  .sec-title h2{font-size:28px;margin:0}
+  .sec-title .cnt{font-size:13px;color:var(--sub);font-weight:600}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px;position:relative;border-left:6px solid transparent}
+  .card.c1{border-left-color:var(--c1)} .card.c2{border-left-color:var(--c2)} .card.c3{border-left-color:var(--c3)} .card.c4{border-left-color:var(--c4)} .card.c5{border-left-color:var(--c5)}
+  .no{display:inline-block;font-size:12px;font-weight:800;color:#fff;background:var(--ink);border-radius:6px;padding:2px 8px;margin-bottom:8px}
+  .c1 .no{background:var(--c1)} .c2 .no{background:var(--c2)} .c3 .no{background:var(--c3)} .c4 .no{background:var(--c4)} .c5 .no{background:var(--c5)}
+  h3{font-size:17px;margin:4px 0 10px;line-height:1.5}
+  p{font-size:14.5px;margin:0 0 10px;color:#2A3342}
+  .derive{font-size:13px;color:#7a4d0b;background:#FBF3E4;border:1px solid #F0E2C6;border-radius:8px;padding:9px 12px;margin-bottom:10px}
+  .derive b{color:#9a6209;margin-right:6px}
+  .spec{background:#F2F6F4;border:1px solid #E1EAE6;border-radius:8px;padding:10px 12px;margin-bottom:10px;font-size:12.5px}
+  .spec .row{display:flex;gap:10px;padding:3px 0;border-bottom:1px dashed #E1EAE6}
+  .spec .row:last-child{border-bottom:none}
+  .spec .k{flex:0 0 82px;font-weight:700;color:#0F6E56}
+  .keyrow{display:flex;flex-wrap:wrap;gap:14px;background:#F4F8FC;border:1px solid #DCE8F4;border-radius:8px;padding:9px 12px;margin-bottom:10px;font-size:12.5px}
+  .keyrow b{color:#185FA5;margin-right:5px}
+  .c4 .keyrow b{color:#8A5206}
+  .verify{font-size:12.5px;color:#334155;background:#F3F4F6;border:1px solid #E5E7EB;border-radius:8px;padding:8px 12px;margin-bottom:10px;line-height:1.6}
+  .verify::before{content:"🔎 "}
+  .tags{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:11px}
+  a.src{font-weight:600;color:var(--sub);text-decoration:none}
+  a.src:hover{text-decoration:underline}
+  .hero{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;margin-top:10px;display:block;background:#eee}
+  .stats-line{max-width:860px;margin:26px auto 0;text-align:center;font-size:13.5px;color:#1A2230;line-height:1.8}
+  .stats-line b{color:#B31217;font-weight:800}
+  footer{text-align:center;margin-top:30px;color:var(--sub);font-size:12px}
+  @media(max-width:600px){.sec-title h2{font-size:22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="date">2026-09-26（星期六）・台北時間</div>
+  <h1>🎰 iGaming 市場日報（測試）</h1>
+  <div class="badges">
+    <span class="badge b1">🎰 Slot 0</span>
+    <span class="badge b2">🕹️ 非 Slot 0</span>
+    <span class="badge b3">🤝 主流 7</span>
+    <span class="badge b4">🇵🇭 菲律賓 2</span>
+    <span class="badge b5">📊 市場數據 2</span>
+  </div>
+</header>
+
+<div class="stats-grid">
+  <div class="stat s3"><div class="n">7</div><div class="l">🤝 主流動態</div></div>
+  <div class="stat s4"><div class="n">2</div><div class="l">🇵🇭 菲律賓</div></div>
+  <div class="stat s5"><div class="n">2</div><div class="l">📊 市場數據</div></div>
+</div>
+
+<section>
+  <div class="sec-title"><span class="emoji">🤝</span><h2>動態：主流 GP／平台</h2><span class="cnt">共 7 則</span></div>
+
+  <div class="card c3">
+    <div class="no">01</div>
+    <h3>IGT – Graton Resort &amp; Casino 全球首發 Wheel of Fortune Magic Coins</h3>
+    <p>美國加州 Graton Resort &amp; Casino（由 Federated Indians of Graton Rancheria 持有）於 9 月 25 日舉行剪綵儀式，成為全球第一家導入 IGT《Wheel of Fortune Magic Coins》的賭場，機台採用 IGT RISE55 機殼。這是 IGT 旗下《Wheel of Fortune》系列最新作，主打五層累積彩池（multi-level progressive）與三種獎勵機制，結合收集金幣、轉輪派彩與最高 9 倍的 Jackpot Bonus 倍數。Graton 目前擁有 4,552 台角子機、142 張賭桌，是北加州最大的印第安賭場之一。IGT 同時宣布 Jamie Knight 將接任 Chief Studios Officer，於 2027 年 1 月 1 日生效，接替退休的 Jean Venneman。對 PM 的意義：三大實體老虎機廠持續用「首發合作」綁定旗艦賭場通路，《Wheel of Fortune》IP 的多層彩池機制是實體機台留客的重要範本。</p>
+    <div class="keyrow"><b>類型</b>運營活動　<b>對象</b>IGT、Graton Resort &amp; Casino　<b>影響</b>IGT 鞏固《Wheel of Fortune》IP 在北美部落賭場的機台部署，並完成工作室領導層交接</div>
+    <div class="verify">IGT／Graton 的機殼上機於 9/23 已由多家北美媒體報導，本則為賭場現場剪綵活動的獨立報導（9/25 發布，作者具名），非重複舊聞。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://globalgaminginsider.com/news/7519/graton-resort-casino-becomes-first-property-to-launch-igts-wheel-of-fortune-magic-coins" target="_blank" rel="noopener">Global Gaming Insider ↗</a>
+      · 2026-09-25
+    </div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">02</div>
+    <h3>Gaming1 收購比利時 Carousel Group（Pac-Man NV）</h3>
+    <p>比利時博彩集團 Gaming1 宣布收購合作夥伴 Carousel Group 母公司 Pac-Man NV 全數股權，雙方自 2012 年起即有長期合作關係。收購完成後，Gaming1 將取得 Pac-Man NV 在比利時的博彩牌照與數位營運業務，但此次交易不涉及員工轉移。Gaming1 營運長 Sylvain Boniver 表示，此舉將支持集團在日趨嚴格的監理環境下，持續提供安全且具吸引力的娛樂體驗。此交易同時代表 Carousel Group 正式脫離荷蘭母公司 711，後者未來將專注於國際市場擴張。對 PM 的意義：比利時線上博彩牌照持續整併，擁有本地牌照的中型業者成為擴大市佔的收購標的。</p>
+    <div class="keyrow"><b>類型</b>併購　<b>對象</b>Gaming1、Carousel Group（Pac-Man NV）　<b>影響</b>Gaming1 強化比利時本地數位博彩布局，牌照資源進一步集中</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://sbcnews.co.uk/igaming/2026/09/25/belgiums-gaming1-carousel-group/" target="_blank" rel="noopener">SBC News ↗</a>
+      · 2026-09-25
+    </div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">03</div>
+    <h3>巴西總統盧拉宣布全面禁止線上博彩</h3>
+    <p>巴西總統盧拉（Lula da Silva）於 9 月 25 日宣布將簽署臨時措施（Medida Provisória），全面禁止線上博彩與線上賭場，以兌現其工人黨政府的競選承諾。此舉發生在 10 月 4 日總統大選前夕，盧拉政府稱此舉是為解決弱勢家庭因博彩負債攀升的問題。該決定實質推翻了盧拉先前支持、2024 年通過的《博彩法》（Bets Law），巴西合法線上博彩市場自 2025 年起快速成長，根據巴西聯邦稅務局統計，今年 1 至 7 月持牌業者已繳納約 87 億雷亞爾（約 12 億英鎊）稅款。多家巴西足球俱樂部已警告，若博彩贊助收入中斷，將對球隊財務造成重大衝擊。對 PM 的意義：巴西是近年線上博彩成長最快的拉美市場之一，若禁令落地，將直接衝擊所有布局巴西的營運商與供應商，後續立法程序（國會是否於期限內追認）值得持續追蹤。</p>
+    <div class="keyrow"><b>類型</b>政府法規　<b>對象</b>巴西政府、全體巴西持牌線上博彩業者　<b>影響</b>巴西線上博彩／線上賭場市場面臨全面禁止風險，合法化僅一年多即可能逆轉</div>
+    <div class="verify">SBC News、EGR Intel、Global Gaming Insider 等多家獨立媒體於 9/25 同步報導，內容一致；禁令屬臨時措施，仍需國會於期限內追認方能長期生效。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://sbcnews.co.uk/sportsbook/2026/09/25/brazil-online-betting-ban/" target="_blank" rel="noopener">SBC News ↗</a>
+      <a class="src" href="https://www.egr.global/intel/news/brazil-trade-bodies-put-up-united-front-amid-looming-online-gambling-ban/" target="_blank" rel="noopener">EGR Intel ↗</a>
+      <a class="src" href="https://globalgaminginsider.com/news/7515/we-bet-on-brazil---with-igaming-ban-anticipated-industry-coalition-makes-final-push" target="_blank" rel="noopener">Global Gaming Insider ↗</a>
+      · 2026-09-25
+    </div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">04</div>
+    <h3>Formula Spin 與 Kanggiten 達成內容分銷合作</h3>
+    <p>行動優先的 HTML5 遊戲供應商 Formula Spin 宣布與內容聚合平台 Kanggiten 建立內容分銷合作，透過單一整合介面將旗下遊戲內容提供給 Kanggiten 的營運商客戶，並附帶錦標賽（Tournaments）與每日促銷（Daily Promotions）等推廣工具。雙方強調此次合作聚焦行動裝置載入速度優化，尤其鎖定非洲與拉丁美洲等行動網路頻寬受限的市場。Kanggiten 執行長指出，許多營運商面臨平台限制影響玩家留存的挑戰，此次整合可協助業者更快取得新內容。對 PM 的意義：內容聚合商持續透過「單一整合、多供應商」模式降低營運商導入新遊戲的技術門檻，新興市場（非洲／拉美）的行動優化能力成為供應商差異化重點。</p>
+    <div class="keyrow"><b>類型</b>合作　<b>對象</b>Formula Spin、Kanggiten　<b>影響</b>擴大 Formula Spin 內容在非洲、拉美市場營運商端的覆蓋</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://igamingexpert.com/news/games/slots/formula-spin-secures-kanggiten-content-partnership/" target="_blank" rel="noopener">iGamingExpert ↗</a>
+      · 2026-09-25
+    </div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">05</div>
+    <h3>Games Valley 攜手 Wazdan 擴充內容聚合庫</h3>
+    <p>內容聚合平台 Games Valley 宣布與一線供應商 Wazdan 達成合作，將 Wazdan 遊戲整合進其「智慧聚合」（smart aggregation）內容庫，使平台總遊戲數突破 1.5 萬款。Games Valley 執行長 Ariel Reem 表示，看重 Wazdan 在創新機制與玩家黏著度上的口碑；Wazdan 商務總監 Bekki D'Agata 則強調雙方合作將為玩家帶來更豐富的遊戲體驗。對 PM 的意義：一線供應商持續透過聚合平台擴大分銷覆蓋率，聚合商藉衝量遊戲庫規模鞏固對中小型營運商的吸引力。</p>
+    <div class="keyrow"><b>類型</b>合作　<b>對象</b>Games Valley、Wazdan　<b>影響</b>Wazdan 遊戲透過聚合平台觸及更多中小型營運商</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://igamingexpert.com/news/games/slots/games-valley-wazdan-link-up/" target="_blank" rel="noopener">iGamingExpert ↗</a>
+      · 2026-09-25
+    </div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">06</div>
+    <h3>西班牙試辦跨業者共同存款限額</h3>
+    <p>西班牙博彩監理機關 DGOJ 啟動跨業者共同存款限額系統測試，擬對所有持牌線上業者設定每日 700 歐元、每週 1,750 歐元、四週 3,300 歐元的共同上限，防止玩家透過同時持有多個帳戶規避單一業者的限額規範。測試期預計為期 6 個月，目標於 2027 年 3 月 25 日正式上路。此案源自西班牙消費者事務部的政策指示，監管機關擔憂玩家「多帳戶」行為削弱現行保護機制的效果；業界則憂心過嚴的共同限額恐將約 8,000 萬歐元的消費金額推向未持牌的境外業者。對 PM 的意義：歐洲監理正朝「跨業者聯防」方向收緊，存款限額系統一旦串接各業者資料庫，將直接影響高價值玩家的下注彈性與留存策略。</p>
+    <div class="keyrow"><b>類型</b>政府法規　<b>對象</b>西班牙 DGOJ、全體西班牙持牌線上業者　<b>影響</b>跨業者共同存款限額若全面上路，恐推升玩家轉往非持牌市場的風險</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://igamingexpert.com/regions/europe/spain-cross-operator-deposit-limits-gaming-accounts/" target="_blank" rel="noopener">iGamingExpert ↗</a>
+      · 2026-09-25
+    </div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">07</div>
+    <h3>The Star Gold Coast 賭場牌照暫緩吊銷至 2027 年 3 月</h3>
+    <p>澳洲昆士蘭州政府宣布，再度將 The Star Entertainment Group 旗下 The Star Gold Coast 賭場牌照的吊銷處分延後至 2027 年 3 月 31 日，讓該公司得以持續執行整改計畫。特別監察人 Nicholas Weeks 的報告指出，該公司在組織改革上已有顯著進展，但仍有部分整改事項尚未完成。昆士蘭州檢察總長 Deb Frecklington 強調 The Star 仍須履行相關義務，若整改期間未達標將立即採取行動。對 PM 的意義：澳洲大型實體賭場的監理整改期程持續拉長，反映監理機關傾向「有條件續命」而非直接吊照，但整改壓力仍是懸而未決的長期風險。</p>
+    <div class="keyrow"><b>類型</b>政府法規　<b>對象</b>The Star Entertainment Group、昆士蘭州政府　<b>影響</b>The Star Gold Coast 短期內免於吊照，但整改義務與監理壓力持續</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://igamingexpert.com/news/regulation/the-star-queensland-licence/" target="_blank" rel="noopener">iGamingExpert ↗</a>
+      <a class="src" href="https://asgam.com/2026/09/25/as-austrac-verdict-looms-suspension-of-the-star-gold-coasts-casino-licenses-deferred-by-queensland-government-again/" target="_blank" rel="noopener">Inside Asian Gaming ↗</a>
+      · 2026-09-25
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-title"><span class="emoji">🇵🇭</span><h2>動態：菲律賓 GP／平台</h2><span class="cnt">共 2 則</span></div>
+
+  <div class="card c4">
+    <div class="no">01</div>
+    <h3>PAGCOR：Tengco 說明 Casino Filipino 場館拆分後命運（官方）</h3>
+    <p>菲律賓博彩監理暨營運機構 PAGCOR 主席 Alejandro Tengco 於受訪時說明，一旦「監理與營運拆分」（decoupling）程序正式啟動，旗下近 40 家 Casino Filipino 分店與衛星場館的後續安排。PAGCOR 目前計劃將自身轉型為純監理機構，並推動 Casino Filipino 場館民營化，以解決該機構長期身兼「裁判與球員」的爭議；此提案仍待政府治理委員會（GCG）審議完畢後，轉呈總統府評估是否核發行政命令。市場預期若拆分方案過關，Casino Filipino 場館出售可望為政府帶來約 300 至 500 億披索收入，交易最快可望於 2026 年底至 2027 年初完成。對 PM 的意義：PAGCOR 拆分若落地，菲律賓實體賭場資產的民營化浪潮可能開啟新一波併購機會，但監理主體轉換期間的政策不確定性也需留意。</p>
+    <div class="keyrow"><b>類型</b>政府法規　<b>對象</b>PAGCOR、Casino Filipino　<b>影響</b>PAGCOR 拆分監理與營運角色若成真，將開啟菲律賓國營賭場資產民營化進程</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://asgam.com/2026/09/25/pagcors-alejandro-tengco-details-fate-of-casino-filipino-venues-once-decoupling-process-begins/" target="_blank" rel="noopener">Inside Asian Gaming ↗</a>
+      · 2026-09-25
+    </div>
+  </div>
+
+  <div class="card c4">
+    <div class="no">02</div>
+    <h3>Maybank 證券：Solaire 母公司 Bloomberry 估 2027 年轉虧為盈</h3>
+    <p>Maybank 證券發布報告指出，菲律賓 Solaire 賭場母公司 Bloomberry Resorts Corp 雖預估 2026 年仍將出現約 23 億披索（約 3,700 萬美元）核心虧損，但受惠於 VIP 業務回溫與線上博彩平台成長，可望於 2027 年轉虧為盈，獲利約 4.21 億披索（約 670 萬美元）。分析師 Raffy Mendoza 指出，Bloomberry 今年上半年（1Q26、2Q26）已連續兩季環比改善，主要受 Solaire Resort Entertainment City VIP GGR 與 Solaire Resort Quezon City 角子機營收回升帶動；Maybank 同時將該股評等由「持有」上調至「買進」。Bloomberry 總裁暨營運長 Greg Hawkins 透露，公司目標線上博彩業務至 2027 年底貢獻集團整體 GGR 的 20%。對 PM 的意義：菲律賓大型現金網業者透過「VIP 回溫＋線上平台成長」雙引擎尋求轉骨，線上化比重持續提升是觀察菲律賓實體賭場集團轉型的重要指標。</p>
+    <div class="keyrow"><b>類型</b>財務　<b>對象</b>Bloomberry Resorts、Solaire　<b>影響</b>Bloomberry 若 2027 年轉盈，顯示菲律賓大型賭場 VIP 業務與線上化雙軌策略見效</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://asgam.com/2026/09/25/maybank-securities-expecting-solaire-parent-bloomberry-to-return-to-profit-in-2027-on-vip-improvement-online-platform-growth/" target="_blank" rel="noopener">Inside Asian Gaming ↗</a>
+      · 2026-09-25
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-title"><span class="emoji">📊</span><h2>市場數據 &amp; 趨勢</h2><span class="cnt">共 2 則</span></div>
+
+  <div class="card c5">
+    <div class="no">01</div>
+    <h3>羅馬尼亞 7 月博彩營業額年減 20.1%</h3>
+    <p>根據羅馬尼亞國家統計局（INS）數據，受新規《第 7/2026 號緊急法令》（Emergency Ordinance 7/2026）提高牌照門檻與稅負影響，該國博彩暨休閒服務業 7 月營業額年減 20.1%，是所有民生服務類別中降幅最大的一項；累計今年前 7 個月營業額較去年同期下滑 16.6%。新規對線上博彩課徵 30% 營收稅，並調高角子機年費，導致實體博彩機台數量從 2023 年約 8 萬台大幅縮減至 2026 年約 2.9 萬台。對 PM 的意義：羅馬尼亞加稅與提高牌照門檻的組合拳，正快速壓縮當地實體博彩機台規模，是歐洲中東部市場監理收緊、業者退出的具體案例。</p>
+    <div class="keyrow"><b>類型</b>市場數據　<b>對象</b>羅馬尼亞博彩市場　<b>影響</b>稅負與牌照成本上升，加速當地實體博彩機台數量萎縮</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://globalgaminginsider.com/news/7504/july-romania-gambling-turnover-falls-201-year-on-year" target="_blank" rel="noopener">Global Gaming Insider ↗</a>
+      · 2026-09-25
+    </div>
+  </div>
+
+  <div class="card c5">
+    <div class="no">02</div>
+    <h3>吉爾吉斯 8 個月博彩稅收達 443.4 萬吉爾吉斯索姆</h3>
+    <p>根據吉爾吉斯財政部數據，該國 2026 年前 8 個月博彩稅收入達 4.434 億吉爾吉斯索姆（約 507 萬美元），其中賭場貢獻 4.227 億索姆，占比高達 95.3%；角子機與線上賭場等其他來源僅貢獻 2,070 萬索姆。報導同時指出，當地持牌博彩業正逐步成形新的產業協會，鄰近的哈薩克與烏茲別克也在積極發展各自的博彩市場。對 PM 的意義：中亞博彩市場規模仍小且高度依賴實體賭場稅收，線上化比重極低，反映該區域數位轉型仍處早期階段，長期具備成長空間。</p>
+    <div class="keyrow"><b>類型</b>市場數據　<b>對象</b>吉爾吉斯博彩市場　<b>影響</b>中亞博彩稅收高度集中於實體賭場，線上化程度低，顯示早期市場特徵</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://globalgaminginsider.com/news/7512/kyrgyzstan-collects-kgs4434m-507m-in-gambling-tax-over-eight-months" target="_blank" rel="noopener">Global Gaming Insider ↗</a>
+      · 2026-09-25
+    </div>
+  </div>
+</section>
+
+<div class="stats-line">本日日報查詢約 <b>52</b> 個網站，其中提取 <b>14</b> 個資料來源並進行交叉比對</div>
+
+<footer>
+  iGaming 日報自動化 v6.2（主來源日期規則）・每則皆附真實可點擊原文連結・多來源交叉查證<br>
+  產出時間：2026-09-26（台北時間）
+</footer>
+</div>
+</body>
+</html>
