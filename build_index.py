@@ -193,5 +193,11 @@ out = f'''<!DOCTYPE html>
 </html>
 '''
 
+# 首頁樣式開關（home_theme.txt）：v1＝清單刊頭；classic＝原樣式。回滾：python3 home_theme.py rollback（口令「首頁樣式回滾」）
+try:
+    import home_theme
+    out = home_theme.transform(out)
+except Exception as _e:  # 樣式失敗不能擋住首頁重建
+    print(f"⚠️ home_theme 略過：{_e}")
 open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(out)
 print(f"✓ index.html 已生成，共 {len(files)} 份報告，最新 {latest}")
