@@ -73,11 +73,11 @@ flowchart TD
   <div class="card"><h3>2-2　收集：網站內容怎麼抓、怎麼判斷</h3><pre class="mermaid">
 flowchart TD
   S["Excel 來源主檔"] ==> W{"抓取方式／頻率？"}
-  W == "RSS／WP API（約 90）" ==> L1["第一層 curl：文章清單＋精確時間"]
-  W == "Firecrawl・每日（6）" ==> L2["第二層 Firecrawl：Slot 資料庫站・SBC News・IAG"]
-  W == "Firecrawl・輪掃（約 70）" ==> RT["每天輪 3 個"]
-  W -. "每週／事件（監理・協會）" .-> TR{"補充：三種觸發"}
-  W -. "行事曆（展會）" .-> TR
+  W == "curl：RSS／WP API（約 90）" ==> L1["第一層 curl：文章清單＋精確時間"]
+  W == "Firecrawl：每日固定（6）" ==> L2["第二層 Firecrawl：Slot 資料庫站・SBC News・IAG"]
+  W == "Firecrawl：輪掃（約 70）" ==> RT["每天輪 3 個"]
+  W -. "Firecrawl：每週／事件（監理・協會）" .-> TR{"補充：三種觸發"}
+  W -. "Firecrawl：行事曆（展會）" .-> TR
   TR -.-> E1["事件：標題命中關鍵字<br/>每個關鍵字每週一次"]
   TR -.-> E2["行事曆：開展前 14 天～閉展日"]
   TR -.-> E3["固定：每週一輪 3 個"]
@@ -158,6 +158,15 @@ flowchart LR
       <tr><td>主要風險</td><td>被擋、網頁改版就解析失敗</td><td>額度用完、速率限制</td><td>容易撈到舊聞、長青排行頁</td><td>摘要可能遺漏或誤讀細節</td></tr>
       <tr><td>我們用在哪</td><td>第一層：RSS 約 30、WP API 約 60、BigWinBoard 新作列表</td><td>第二層列表頁、觸發來源、入選新聞的內文與配圖</td><td>第三層：菲律賓平台、新品牌進菲、實體機、Slot 補漏</td><td>備用：查證時抓一般網頁</td></tr>
       <tr><td>判斷順序</td><td>① 有 RSS／WP API 或網頁抓得到就用它</td><td>③ curl 或 WebFetch 被擋才用</td><td>④ 來源清單以外的題目</td><td>② curl 不方便解析時的替代</td></tr>
+    </tbody></table></div>
+  <div class="h2">三之一、工具 × 步驟對照</div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>工具</th><th>出現在哪個步驟</th><th>流程圖位置</th></tr></thead>
+    <tbody>
+      <tr><td>curl</td><td>第一層：抓 RSS、WP API，以及 BigWinBoard 新作列表</td><td>2-2「curl：RSS／WP API」分支（分支名稱寫的是資料格式，工具是 curl）</td></tr>
+      <tr><td>Firecrawl</td><td>第二層：每日固定站、輪掃、三種觸發；查證時抓入選新聞的內文與配圖</td><td>2-2「Firecrawl：…」各分支；2-3 查證步驟</td></tr>
+      <tr><td>WebSearch</td><td>第三層：Claude 找來源清單以外的題目（菲律賓平台、新品牌進菲、實體機、Slot 補漏）</td><td>2-1 總流程「第三層 WebSearch」（不在 2-2，因為不是照來源清單抓）</td></tr>
+      <tr><td>WebFetch</td><td>查證時的備用工具</td><td>2-3「交叉佐證＋補參數」（不在 2-2）</td></tr>
     </tbody></table></div>
   <div class="h2">四、三種觸發（監理・協會・展會）</div>
   <div class="tablewrap"><table>
