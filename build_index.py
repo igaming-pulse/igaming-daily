@@ -31,23 +31,24 @@ LABEL_OVERRIDE = {
 cards = []
 for date, fname in files:
     disp_date, disp_wd = LABEL_OVERRIDE.get(date, (date, weekday_zh(date)))
-    if fname.endswith("-test.html"):
-        disp_wd = disp_wd + " （測試）"
-    vm = re.search(r"-v(\d+)\.html$", fname)
-    if vm:
-        v = vm.group(1)
-        # -v2 ＝ 第二版重跑；-v64 ＝ 用 v6.4 規則重跑（兩位數以上視為規則版本號）
-        disp_wd += f" （測試・第{v}版 v{v}）" if len(v) == 1 else f" （測試・v{v[0]}.{v[1:]} 規則）"
-    label = f"{disp_wd} · iGaming 市場日報"
-    # 卡片底色依「來源與內容」區分：
-    #   <date>.html          ＝ 原本機器（Claude 帳號 natekao）→ 淡橘
+    # 卡片標示與底色依「來源與內容」區分：
+    #   <date>.html          ＝ 原本機器（Claude 帳號 natekao）→「（13' v）」、淡橘
+    #   -test／-vN           ＝ 公司帳號機器（nathan.kao@bituslabs.com）→「（15' v）」、維持原樣
     #   <date>-special.html  ＝ 特別版本內容 → 淡藍
-    #   -test／-vN           ＝ 公司帳號機器（nathan.kao@bituslabs.com）→ 維持原樣
     kind = ""
+    vm = re.search(r"-v(\d+)\.html$", fname)
     if fname.endswith("-special.html"):
         label = f"{disp_wd} 特別版本內容"
         kind = " src-special"
-    elif re.match(r"^\d{4}-\d{2}-\d{2}\.html$", fname):
+    elif fname.endswith("-test.html"):
+        label = f"{disp_wd} · iGaming 市場日報（15' v）"
+    elif vm:
+        v = vm.group(1)
+        # -v2 ＝ 第二版重跑；-v64 ＝ 用 v6.4 規則重跑（兩位數以上視為規則版本號）
+        tag = f"第{v}版" if len(v) == 1 else f"v{v[0]}.{v[1:]} 規則"
+        label = f"{disp_wd} · iGaming 市場日報（15' v・{tag}）"
+    else:
+        label = f"{disp_wd} · iGaming 市場日報（13' v）"
         kind = " src-old"
     cards.append(f'''    <a class="card{kind}" href="reports/{html.escape(fname)}">
       <div class="d">{html.escape(disp_date)}</div>
