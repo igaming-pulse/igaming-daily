@@ -10,7 +10,7 @@ REPORTS = os.path.join(ROOT, "reports")
 files = []
 for f in glob.glob(os.path.join(REPORTS, "*.html")):
     b = os.path.basename(f)
-    m = re.match(r"(\d{4})-(\d{2})-(\d{2})(-test|-v\d+)?\.html$", b)
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})(-test|-v\d+|-special)?\.html$", b)
     if m:
         files.append((b[:10], b))
 files.sort(reverse=True)  # 最新在上
@@ -38,9 +38,12 @@ for date, fname in files:
         v = vm.group(1)
         # -v2 ＝ 第二版重跑；-v64 ＝ 用 v6.4 規則重跑（兩位數以上視為規則版本號）
         disp_wd += f" （測試・第{v}版 v{v}）" if len(v) == 1 else f" （測試・v{v[0]}.{v[1:]} 規則）"
+    label = f"{disp_wd} · iGaming 市場日報"
+    if fname.endswith("-special.html"):
+        label = f"{disp_wd} 特別版本內容"
     cards.append(f'''    <a class="card" href="reports/{html.escape(fname)}">
       <div class="d">{html.escape(disp_date)}</div>
-      <div class="w">{html.escape(disp_wd)} · iGaming 市場日報</div>
+      <div class="w">{html.escape(label)}</div>
       <div class="go">查看日報 →</div>
     </a>''')
 
