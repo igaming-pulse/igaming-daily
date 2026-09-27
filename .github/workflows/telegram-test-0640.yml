@@ -23,6 +23,14 @@ on:
         description: '訊息第一行標記（留空＝預設的【測試】標記）'
         required: false
         default: ''
+      report_date:
+        description: '要發哪一天（YYYY-MM-DD，留空＝今天）'
+        required: false
+        default: ''
+      pending_path:
+        description: '預存訊息檔（留空＝state/pending_telegram.txt）'
+        required: false
+        default: ''
 
 concurrency:
   group: telegram-test
@@ -42,4 +50,6 @@ jobs:
           DRY_RUN:            ${{ github.event.inputs.dry_run }}
           MSG_PREFIX:         ${{ github.event.inputs.msg_prefix || '🧪【測試】公司帳號併行版 · nathan.kao@bituslabs.com' }}
           REPORT_URL_SUFFIX:  ${{ github.event.inputs.url_suffix || '-test' }}
+          REPORT_DATE:        ${{ github.event.inputs.report_date }}
+          PENDING_PATH:       ${{ github.event.inputs.pending_path }}
         run: python3 scripts/send_telegram.py

@@ -35,7 +35,9 @@ for date, fname in files:
         disp_wd = disp_wd + " （測試）"
     vm = re.search(r"-v(\d+)\.html$", fname)
     if vm:
-        disp_wd = disp_wd + f" （測試・第{vm.group(1)}版 v{vm.group(1)}）"
+        v = vm.group(1)
+        # -v2 ＝ 第二版重跑；-v64 ＝ 用 v6.4 規則重跑（兩位數以上視為規則版本號）
+        disp_wd += f" （測試・第{v}版 v{v}）" if len(v) == 1 else f" （測試・v{v[0]}.{v[1:]} 規則）"
     cards.append(f'''    <a class="card" href="reports/{html.escape(fname)}">
       <div class="d">{html.escape(disp_date)}</div>
       <div class="w">{html.escape(disp_wd)} · iGaming 市場日報</div>
