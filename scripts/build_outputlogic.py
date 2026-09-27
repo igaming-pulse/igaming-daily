@@ -264,7 +264,7 @@ nav = " · ".join(f'<a href="#cat{i}">{h(c)}（{len(groups[c])}）</a>'
 def table_html(tbl):
     head = "".join(f"<th>{h(x)}</th>" for x in tbl[0])
     body = "\n".join("      <tr>" + "".join(f"<td>{h(x)}</td>" for x in row) + "</tr>" for row in tbl[1:])
-    return f'  <div class="tablewrap"><table>\n    <thead><tr>{head}</tr></thead>\n    <tbody>\n{body}\n    </tbody></table></div>'
+    return f'  <div class="tablewrap"><table class="kv">\n    <thead><tr>{head}</tr></thead>\n    <tbody>\n{body}\n    </tbody></table></div>'
 
 
 extra_html = "\n".join(f'  <div class="h2">{h(t)}</div>\n{table_html(tb)}' for t, tb in EXTRA)
@@ -283,7 +283,7 @@ for i, cat in enumerate(active_cats):
     tables.append(
         f'  <h3 id="cat{i}" class="cat" style="--mk:var(--s{i % 6 + 1})">{h(cat)}<span class="badge">{len(groups[cat])}</span>'
         f'<a class="top" href="#top">↑ 回頂部</a></h3>\n'
-        f'  <div class="tablewrap"><table>\n'
+        f'  <div class="tablewrap"><table class="src">\n'
         f'    <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>抓取方式</th><th>頻率</th><th>備註</th><th>展期</th></tr></thead>\n'
         f'    <tbody>\n{body}\n    </tbody></table></div>')
 tables_html = "\n".join(tables)
@@ -350,6 +350,11 @@ HTML = """<!DOCTYPE html>
   tr:last-child td{border-bottom:none}
   td.no{font-family:"IBM Plex Mono",monospace;color:var(--faint);width:48px;font-variant-numeric:tabular-nums}
   td a{word-break:break-all}
+  table.src td:nth-child(2){min-width:130px;font-weight:700}
+  table.src td:nth-child(3){min-width:240px}
+  table.src td:nth-child(4),table.src td:nth-child(5){white-space:nowrap}
+  table.src td:nth-child(7){white-space:nowrap;font-family:"IBM Plex Mono",monospace;font-size:12px}
+  table.kv td:first-child{white-space:nowrap;font-weight:700}
   td.note{color:var(--sub);min-width:120px}
   .foot{margin-top:40px;padding-top:16px;border-top:2px solid var(--ink);font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--sub);line-height:1.9}
   a:focus-visible{outline:2px solid var(--s5);outline-offset:2px}

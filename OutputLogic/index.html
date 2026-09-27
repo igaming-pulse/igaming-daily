@@ -60,6 +60,11 @@
   tr:last-child td{border-bottom:none}
   td.no{font-family:"IBM Plex Mono",monospace;color:var(--faint);width:48px;font-variant-numeric:tabular-nums}
   td a{word-break:break-all}
+  table.src td:nth-child(2){min-width:130px;font-weight:700}
+  table.src td:nth-child(3){min-width:240px}
+  table.src td:nth-child(4),table.src td:nth-child(5){white-space:nowrap}
+  table.src td:nth-child(7){white-space:nowrap;font-family:"IBM Plex Mono",monospace;font-size:12px}
+  table.kv td:first-child{white-space:nowrap;font-weight:700}
   td.note{color:var(--sub);min-width:120px}
   .foot{margin-top:40px;padding-top:16px;border-top:2px solid var(--ink);font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--sub);line-height:1.9}
   a:focus-visible{outline:2px solid var(--s5);outline-offset:2px}
@@ -182,7 +187,7 @@ flowchart LR
 </pre></div>
 
   <div class="h2">三、四種找資料工具對比</div>
-  <div class="tablewrap"><table>
+  <div class="tablewrap"><table class="kv">
     <thead><tr><th></th><th>curl</th><th>Firecrawl</th><th>WebSearch</th><th>WebFetch</th></tr></thead>
     <tbody>
       <tr><td>是什麼</td><td>從 Mac 直接向網站要原始檔案</td><td>雲端服務，用真瀏覽器打開網頁再整理回傳</td><td>搜尋引擎，下關鍵字找全網</td><td>Claude 內建的抓頁工具，抓完順便摘要</td></tr>
@@ -198,7 +203,7 @@ flowchart LR
       <tr><td>判斷順序</td><td>① 有 RSS／WP API 或網頁抓得到就用它</td><td>③ curl 或 WebFetch 被擋才用</td><td>④ 來源清單以外的題目</td><td>② curl 不方便解析時的替代</td></tr>
     </tbody></table></div>
   <div class="h2">三之一、工具 × 步驟對照</div>
-  <div class="tablewrap"><table>
+  <div class="tablewrap"><table class="kv">
     <thead><tr><th>工具</th><th>出現在哪個步驟</th><th>流程圖位置</th></tr></thead>
     <tbody>
       <tr><td>curl</td><td>第一層：抓 RSS、WP API，以及 BigWinBoard 新作列表</td><td>2-2「curl：RSS／WP API」分支（分支名稱寫的是資料格式，工具是 curl）</td></tr>
@@ -207,7 +212,7 @@ flowchart LR
       <tr><td>WebFetch</td><td>查證時的備用工具</td><td>2-3「交叉佐證＋補參數」（不在 2-2）</td></tr>
     </tbody></table></div>
   <div class="h2">四、三種觸發（監理・協會・展會）</div>
-  <div class="tablewrap"><table>
+  <div class="tablewrap"><table class="kv">
     <thead><tr><th>觸發</th><th>對象</th><th>條件</th><th>上限</th></tr></thead>
     <tbody>
       <tr><td>事件觸發</td><td>監理機關（含 PAGCOR）、沒有 API 的協會</td><td>當天窗內新聞的標題命中該機構的關鍵字 → 抓官方頁當主來源／佐證；菲律賓、亞洲機構優先</td><td>每個關鍵字每週一次、每天最多 3 個</td></tr>
@@ -215,7 +220,7 @@ flowchart LR
       <tr><td>固定週期</td><td>監理機關＋沒有 API 的協會</td><td>每週一（平日裡新聞最少的一天）輪 3 個</td><td>每週 3 個</td></tr>
     </tbody></table></div>
   <div class="h2">五、日報結構：五大分類</div>
-  <div class="tablewrap"><table>
+  <div class="tablewrap"><table class="kv">
     <thead><tr><th>分類</th><th>收什麼</th><th>每天數量</th><th>格式</th></tr></thead>
     <tbody>
       <tr><td>🎰 cat1 Slot 新遊戲</td><td>線上老虎機新作、7 天內上線的預告、實體老虎機新機台</td><td>平日 ≤5、週末 ≤2</td><td>三段式：總述＋對 PM 的意義／衍生調整／參數</td></tr>
@@ -225,7 +230,7 @@ flowchart LR
       <tr><td>📊 cat5 市場數據 &amp; 趨勢</td><td>老虎機設計趨勢優先，其次市場數據、展會影響</td><td>目標 1–3、上限 5</td><td>市場格式</td></tr>
     </tbody></table></div>
   <div class="h2">六、打分表</div>
-  <div class="tablewrap"><table>
+  <div class="tablewrap"><table class="kv">
     <thead><tr><th>項目</th><th>分數</th><th>內容</th></tr></thead>
     <tbody>
       <tr><td>B 品牌</td><td>6／4／3／1／0</td><td>6：優先品牌 21 家（Acewin、Omiplay、YellowBat、ATG、EEZE、Yggdrasil、Jili、TaDa、DigiPlus 系、Stake、PAGCOR 等）；4：PG Soft、Pragmatic、Nolimit、Play&#x27;n GO、Red Tiger、Aristocrat、IGT、L&amp;W；3：二線知名；1：其他</td></tr>
@@ -237,7 +242,7 @@ flowchart LR
   <div class="h2">七、資料來源總表（共 233 個 · 10 大分類）</div>
   <div class="nav"><a href="#cat0">Provider 官網（27）</a> · <a href="#cat1">產品分析／評測（13）</a> · <a href="#cat2">產業媒體（102）</a> · <a href="#cat3">產業協會／技術認證機構（23）</a> · <a href="#cat4">市場數據／分析公司（18）</a> · <a href="#cat5">監理機關／官方數據（16）</a> · <a href="#cat6">展會（21）</a> · <a href="#cat7">論壇／社群（6）</a> · <a href="#cat8">Podcast／影音（5）</a> · <a href="#cat9">已停用（2）</a></div>
   <h3 id="cat0" class="cat" style="--mk:var(--s1)">Provider 官網<span class="badge">27</span><a class="top" href="#top">↑ 回頂部</a></h3>
-  <div class="tablewrap"><table>
+  <div class="tablewrap"><table class="src">
     <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>抓取方式</th><th>頻率</th><th>備註</th><th>展期</th></tr></thead>
     <tbody>
       <tr><td class="no">1</td><td>Pragmatic Play</td><td><a href="https://pragmaticplay.com/en/news/" target="_blank" rel="noopener">https://pragmaticplay.com/en/news/</a></td><td class="note">WP-API</td><td class="note">每日</td><td class="note">Provider 官網</td><td class="note"></td></tr>
@@ -269,7 +274,7 @@ flowchart LR
       <tr><td class="no">222</td><td>YellowBat</td><td><a href="https://www.yellowbat.com/games/" target="_blank" rel="noopener">https://www.yellowbat.com/games/</a></td><td class="note">WP-API</td><td class="note">每日</td><td class="note">★優先追蹤｜菲律賓平台 PlayTime 深度策略夥伴。上新遊戲於 DigiPlus 系/CasinoPlus/PlayTime 或特別活動/平台更新→提高露出權重</td><td class="note"></td></tr>
     </tbody></table></div>
   <h3 id="cat1" class="cat" style="--mk:var(--s2)">產品分析／評測<span class="badge">13</span><a class="top" href="#top">↑ 回頂部</a></h3>
-  <div class="tablewrap"><table>
+  <div class="tablewrap"><table class="src">
     <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>抓取方式</th><th>頻率</th><th>備註</th><th>展期</th></tr></thead>
     <tbody>
       <tr><td class="no">25</td><td>Clash of Slots</td><td><a href="https://clashofslots.com" target="_blank" rel="noopener">https://clashofslots.com</a></td><td class="note">WP-API</td><td class="note">每日</td><td class="note">bonus hit rate、variance、max multiplier 統計</td><td class="note"></td></tr>
@@ -287,7 +292,7 @@ flowchart LR
       <tr><td class="no">230</td><td>SlotsLaunch</td><td><a href="https://slotslaunch.com/" target="_blank" rel="noopener">https://slotslaunch.com/</a></td><td class="note">Firecrawl</td><td class="note">每日</td><td class="note">Slot 資料庫站（v6.4 新增）；新作與上線日</td><td class="note"></td></tr>
     </tbody></table></div>
   <h3 id="cat2" class="cat" style="--mk:var(--s3)">產業媒體<span class="badge">102</span><a class="top" href="#top">↑ 回頂部</a></h3>
-  <div class="tablewrap"><table>
+  <div class="tablewrap"><table class="src">
     <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>抓取方式</th><th>頻率</th><th>備註</th><th>展期</th></tr></thead>
     <tbody>
       <tr><td class="no">36</td><td>AGB（Asia Gaming Brief）</td><td><a href="https://agbrief.com" target="_blank" rel="noopener">https://agbrief.com</a></td><td class="note">RSS</td><td class="note">每日</td><td class="note">東南亞 iGaming 專業媒體，Jili 報導最完整</td><td class="note"></td></tr>
@@ -394,7 +399,7 @@ flowchart LR
       <tr><td class="no">231</td><td>EEGaming（Recent Slot Releases）</td><td><a href="https://eegaming.org/category/recent-slot-releases" target="_blank" rel="noopener">https://eegaming.org/category/recent-slot-releases</a></td><td class="note">Firecrawl</td><td class="note">每日</td><td class="note">Slot 新作通稿集中地（v6.4 新增）；每週五另有 Weekend Reels 整理</td><td class="note"></td></tr>
     </tbody></table></div>
   <h3 id="cat3" class="cat" style="--mk:var(--s4)">產業協會／技術認證機構<span class="badge">23</span><a class="top" href="#top">↑ 回頂部</a></h3>
-  <div class="tablewrap"><table>
+  <div class="tablewrap"><table class="src">
     <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>抓取方式</th><th>頻率</th><th>備註</th><th>展期</th></tr></thead>
     <tbody>
       <tr><td class="no">195</td><td>AGEM Index</td><td><a href="https://www.agem.org/agem-index/" target="_blank" rel="noopener">https://www.agem.org/agem-index/</a></td><td class="note">WP-API</td><td class="note">每日</td><td class="note">美國博彩設備商協會（AGEM）產業指數</td><td class="note"></td></tr>
@@ -422,7 +427,7 @@ flowchart LR
       <tr><td class="no">217</td><td>CIBELAE</td><td><a href="https://cibelae.net/" target="_blank" rel="noopener">https://cibelae.net/</a></td><td class="note">WP-API</td><td class="note">每日</td><td class="note">拉丁美洲暨伊比利半島博彩監理機關聯盟（監理機關組成的跨國協會）</td><td class="note"></td></tr>
     </tbody></table></div>
   <h3 id="cat4" class="cat" style="--mk:var(--s5)">市場數據／分析公司<span class="badge">18</span><a class="top" href="#top">↑ 回頂部</a></h3>
-  <div class="tablewrap"><table>
+  <div class="tablewrap"><table class="src">
     <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>抓取方式</th><th>頻率</th><th>備註</th><th>展期</th></tr></thead>
     <tbody>
       <tr><td class="no">177</td><td>Eilers &amp; Krejcik Gaming（新網域）</td><td><a href="https://ekgamingllc.com/" target="_blank" rel="noopener">https://ekgamingllc.com/</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">★EKG 官方新網域（原 ekg.com 已停站，見既有清單「已停用」項）；子頁 /reports 為報告庫、/services/game-performance-analytics 為單款 Slot／Cabinet 真實績效服務</td><td class="note"></td></tr>
@@ -445,7 +450,7 @@ flowchart LR
       <tr><td class="no">194</td><td>Gambling Research – Skill-based Gaming Machines（PDF）</td><td><a href="https://www.gamblingresearch.org.au/sites/default/files/2023-09/skill-based_gambling_in_australia_report_0.pdf" target="_blank" rel="noopener">https://www.gamblingresearch.org.au/sites/default/files/2023-09/skill-based_gambling_in_australia_report_0.pdf</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">澳洲 Skill-based EGM 專題研究報告（單一 PDF，非持續更新頁面）</td><td class="note"></td></tr>
     </tbody></table></div>
   <h3 id="cat5" class="cat" style="--mk:var(--s6)">監理機關／官方數據<span class="badge">16</span><a class="top" href="#top">↑ 回頂部</a></h3>
-  <div class="tablewrap"><table>
+  <div class="tablewrap"><table class="src">
     <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>抓取方式</th><th>頻率</th><th>備註</th><th>展期</th></tr></thead>
     <tbody>
       <tr><td class="no">161</td><td>DGOJ Estudios e Informes</td><td><a href="https://www.ordenacionjuego.es/participantes-juego/informacion-estudios" target="_blank" rel="noopener">https://www.ordenacionjuego.es/participantes-juego/informacion-estudios</a></td><td class="note">Firecrawl</td><td class="note">每週／事件</td><td class="note">西班牙官方博彩監理機關（DGOJ）研究與統計</td><td class="note"></td></tr>
@@ -466,7 +471,7 @@ flowchart LR
       <tr><td class="no">176</td><td>New Zealand DIA Gambling</td><td><a href="https://www.dia.govt.nz/Gambling" target="_blank" rel="noopener">https://www.dia.govt.nz/Gambling</a></td><td class="note">Firecrawl</td><td class="note">每週／事件</td><td class="note">紐西蘭官方博彩監理機關</td><td class="note"></td></tr>
     </tbody></table></div>
   <h3 id="cat6" class="cat" style="--mk:var(--s1)">展會<span class="badge">21</span><a class="top" href="#top">↑ 回頂部</a></h3>
-  <div class="tablewrap"><table>
+  <div class="tablewrap"><table class="src">
     <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>抓取方式</th><th>頻率</th><th>備註</th><th>展期</th></tr></thead>
     <tbody>
       <tr><td class="no">137</td><td>ICE Barcelona</td><td><a href="https://www.icegaming.com" target="_blank" rel="noopener">https://www.icegaming.com</a></td><td class="note">Firecrawl</td><td class="note">行事曆</td><td class="note">每年 1 月，全球最大 iGaming 展，有 content hub</td><td class="note">2027-01-18~2027-01-20</td></tr>
@@ -492,7 +497,7 @@ flowchart LR
       <tr><td class="no">233</td><td>iGB Live</td><td><a href="https://www.igblive.com/" target="_blank" rel="noopener">https://www.igblive.com/</a></td><td class="note">Firecrawl</td><td class="note">行事曆</td><td class="note">倫敦，iGaming Business 主辦（v6.4.2 新增）</td><td class="note">2027-07-07~2027-07-08</td></tr>
     </tbody></table></div>
   <h3 id="cat7" class="cat" style="--mk:var(--s2)">論壇／社群<span class="badge">6</span><a class="top" href="#top">↑ 回頂部</a></h3>
-  <div class="tablewrap"><table>
+  <div class="tablewrap"><table class="src">
     <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>抓取方式</th><th>頻率</th><th>備註</th><th>展期</th></tr></thead>
     <tbody>
       <tr><td class="no">131</td><td>r/slots</td><td><a href="https://www.reddit.com/r/slots" target="_blank" rel="noopener">https://www.reddit.com/r/slots</a></td><td class="note">Firecrawl</td><td class="note">每週／事件</td><td class="note">玩家討論 slot 遊戲體驗、Provider 產品反應</td><td class="note"></td></tr>
@@ -503,7 +508,7 @@ flowchart LR
       <tr><td class="no">136</td><td>Casinomeister 論壇</td><td><a href="https://www.casinomeister.com/forums/" target="_blank" rel="noopener">https://www.casinomeister.com/forums/</a></td><td class="note">Firecrawl</td><td class="note">每週／事件</td><td class="note">老牌業界論壇，玩家＋業內人士混合</td><td class="note"></td></tr>
     </tbody></table></div>
   <h3 id="cat8" class="cat" style="--mk:var(--s3)">Podcast／影音<span class="badge">5</span><a class="top" href="#top">↑ 回頂部</a></h3>
-  <div class="tablewrap"><table>
+  <div class="tablewrap"><table class="src">
     <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>抓取方式</th><th>頻率</th><th>備註</th><th>展期</th></tr></thead>
     <tbody>
       <tr><td class="no">156</td><td>Clash of Slots YouTube</td><td><a href="https://www.youtube.com/c/ClashofSlots" target="_blank" rel="noopener">https://www.youtube.com/c/ClashofSlots</a></td><td class="note">Firecrawl</td><td class="note">每週／事件</td><td class="note">大量 slot 試玩，觀察 bonus 觸發與遊戲行為</td><td class="note"></td></tr>
@@ -513,7 +518,7 @@ flowchart LR
       <tr><td class="no">160</td><td>iGaming Pulse</td><td><a href="https://podcasts.apple.com/us/podcast/igaming-pulse-trends-news-analysis/id1771798553" target="_blank" rel="noopener">https://podcasts.apple.com/us/podcast/igaming-pulse-trends-news-analysis/id1771798553</a></td><td class="note">Firecrawl</td><td class="note">每週／事件</td><td class="note">產業趨勢與新聞分析</td><td class="note"></td></tr>
     </tbody></table></div>
   <h3 id="cat9" class="cat" style="--mk:var(--s4)">已停用<span class="badge">2</span><a class="top" href="#top">↑ 回頂部</a></h3>
-  <div class="tablewrap"><table>
+  <div class="tablewrap"><table class="src">
     <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>抓取方式</th><th>頻率</th><th>備註</th><th>展期</th></tr></thead>
     <tbody>
       <tr><td class="no">218</td><td>CalvinAyre</td><td class="note">（網站已停止營運）</td><td class="note">不抓</td><td class="note">停用</td><td class="note">網站已停止營運（2026-06-15 確認），不再抓取</td><td class="note"></td></tr>
