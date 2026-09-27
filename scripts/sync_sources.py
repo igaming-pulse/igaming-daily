@@ -46,17 +46,20 @@ def read_xlsx():
         way = str(r[5] or "").strip() if len(r) > 5 else ""
         freq = str(r[6] or "").strip() if len(r) > 6 else ""
         endpoint = str(r[7] or "").strip() if len(r) > 7 else ""
+        # 觸發關鍵字是正規表示式，裡面的 | 會弄壞 markdown 表格 → 在 sources.md 改寫成 ¦（harvest.py 讀回時再換回來）
+        trigger = str(r[8] or "").strip().replace("|", "¦") if len(r) > 8 else ""
+        dates = str(r[9] or "").strip() if len(r) > 9 else ""
         # 已停用的項目可能沒有有效 URL（例如「（網站已停止營運）」），仍要保留在清單裡
         if not url:
             url = "（無有效網址）"
-        out.append((cat, name, url, note, way, freq, endpoint))
+        out.append((cat, name, url, note, way, freq, endpoint, trigger, dates))
     return out
 
 
 def write_md(records):
     groups = collections.OrderedDict((c, []) for c in ORDER)
-    for cat, name, url, note, way, freq, endpoint in records:
-        groups.setdefault(cat, []).append((name, url, note, way, freq, endpoint))
+    for cat, name, url, note, way, freq, endpoint, trigger, dates in records:
+        groups.setdefault(cat, []).append((name, url, note, way, freq, endpoint, trigger, dates))
 
     lines = [
         f"# iGaming Daily Report — 資訊來源清單（共 {len(records)} 個來源）",
@@ -66,7 +69,9 @@ def write_md(records):
         "> **勿手動編輯本檔** —— 要改來源請改 xlsx，然後跑 `python3 scripts/sync_sources.py`。",
         "> 抓取時依當日題材跨分類取材；「已停用」分類不要抓。",
         "> v6.4：「抓取方式」WP-API／RSS 由 `scripts/harvest.py` 每天自動收集（不花 Firecrawl）；",
-        ">       「Firecrawl／每日」是第二層固定抓；「Firecrawl／輪掃」由 `rotate_sources.py` 每天輪 3 個；「每週／事件」平常不抓。",
+        ">       「Firecrawl／每日」是第二層固定抓；「Firecrawl／輪掃」由 `rotate_sources.py` 每天輪 3 個；",
+        ">       「每週／事件」＝事件觸發（當天新聞提到觸發關鍵字，每個關鍵字每週最多一次）＋每週一固定輪 3 個；",
+        ">       「行事曆」＝展會，開展前 14 天到閉展日每天抓（每天最多 2 個）。",
         "",
     ]
     for cat, items in groups.items():
@@ -77,12 +82,12 @@ def write_md(records):
             "",
             f"## {cat}（{len(items)}）",
             "",
-            "| 名稱 | URL | 抓取方式 | 頻率 | 抓取端點 | 備註 |",
-            "|------|-----|------|------|------|------|",
+            "| 名稱 | URL | 抓取方式 | 頻率 | 抓取端點 | 觸發關鍵字 | 展期 | 備註 |",
+            "|------|-----|------|------|------|------|------|------|",
         ]
-        for name, url, note, way, freq, endpoint in items:
+        for name, url, note, way, freq, endpoint, trigger, dates in items:
             safe = note.replace("\n", " ").replace("|", "／")
-            lines.append(f"| {name} | {url} | {way} | {freq} | {endpoint} | {safe} |")
+            lines.append(f"| {name} | {url} | {way} | {freq} | {endpoint} | {trigger} | {dates} | {safe} |")
         lines.append("")
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)

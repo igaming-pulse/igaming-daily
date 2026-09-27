@@ -42,6 +42,11 @@ TPE = timezone(timedelta(hours=8))
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
 SLOT_LOOKBACK_DAYS = 7          # Slot 候選往回看幾天（餵庫存用）
 OTHER_LOOKBACK_DAYS = 3         # 其他分類往回看幾天（庫存保鮮期 3 天）
+TRIGGERS = os.path.join(ROOT, "state", "triggers.json")
+EVENT_MAX_PER_DAY = 3           # 事件觸發每天最多抓幾個（每個關鍵字每週最多一次）
+EXPO_LEAD_DAYS = 14             # 展會：開展前 14 天到閉展日每天抓
+EXPO_MAX_PER_DAY = 2
+WEEKLY_FIXED = 3                # 每週一固定輪幾個「每週／事件」來源
 
 # 綜合型媒體（菲律賓在地）整站新聞很多，只留跟博弈有關的
 GENERAL_MEDIA = {"GMA News", "Rappler", "SunStar", "BusinessWorld"}
@@ -111,7 +116,9 @@ def read_sources():
         if cur and line.startswith("| ") and "---" not in line:
             c = [x.strip() for x in line.strip().strip("|").split("|")]
             if len(c) >= 6 and c[0] != "名稱":
-                rows.append({"cat": cur, "name": c[0], "url": c[1], "way": c[2], "freq": c[3], "endpoint": c[4]})
+                rows.append({"cat": cur, "name": c[0], "url": c[1], "way": c[2], "freq": c[3], "endpoint": c[4],
+                             "trigger": c[5].replace("¦", "|") if len(c) >= 8 else "",
+                             "dates": c[6] if len(c) >= 8 else ""})
     return rows
 
 
@@ -214,6 +221,7 @@ def main():
     ap.add_argument("--date")
     ap.add_argument("--no-firecrawl", action="store_true")
     ap.add_argument("--anchor", help="窗的結束時刻 HH:MM（重跑舊日期時固定用 02:30）")
+    ap.add_argument("--plan", action="store_true", help="只列出第二層今天會抓哪些目標，不呼叫 Firecrawl、不寫觸發紀錄")
     a = ap.parse_args()
 
     now = datetime.now(TPE)
@@ -296,6 +304,58 @@ def main():
                 parts = line.split("\t")
                 if len(parts) >= 3:
                     targets.append({"name": parts[0], "url": parts[2], "endpoint": "", "freq": "輪掃"})
+        # ---------- v6.4.2 三種觸發：讓「每週／事件」「行事曆」來源有明確切入點 ----------
+        week = f"{d.isocalendar()[0]}-W{d.isocalendar()[1]:02d}"
+        try:
+            trig_log = json.load(open(TRIGGERS, encoding="utf-8"))
+        except Exception:
+            trig_log = {}
+        done_this_week = set(trig_log.get(week, []))
+        extra = []
+        # ① 事件觸發：當天窗內新聞提到觸發關鍵字 → 抓該機構官方頁（每個關鍵字每週最多一次）
+        # 只比對標題（內文順帶提到不算）；菲律賓、亞洲機構優先，其次依來源表順序
+        texts = [i["title"] for i in items if i["in_window"]]
+        fired = []
+        prio = lambda x: (0 if "PAGCOR" in x["name"] else 1 if any(k in x["name"] for k in ("DICJ", "Korea")) else 2)
+        for s_ in sorted(srcs, key=prio):
+            kw = s_.get("trigger")
+            if not kw or s_["name"] in done_this_week or len(fired) >= EVENT_MAX_PER_DAY:
+                continue
+            rx = re.compile(kw, re.I)
+            hit = next((t for t in texts if rx.search(t)), None)
+            if hit:
+                fired.append(s_["name"])
+                extra.append({**s_, "freq": f"事件觸發（命中：{hit[:60]}）"})
+        # ② 行事曆觸發：展會開展前 14 天到閉展日
+        expo = []
+        for s_ in srcs:
+            for rng in re.split(r"[;；]", s_.get("dates") or ""):
+                m = re.match(r"\s*(\d{4}-\d\d-\d\d)\s*[~～]\s*(\d{4}-\d\d-\d\d)", rng)
+                if not m:
+                    continue
+                st, en = datetime.fromisoformat(m.group(1)).date(), datetime.fromisoformat(m.group(2)).date()
+                if st - timedelta(days=EXPO_LEAD_DAYS) <= d.date() <= en:
+                    expo.append((st, {**s_, "freq": f"行事曆觸發（展期 {st}～{en}）"}))
+        expo.sort(key=lambda x: x[0])
+        extra += [x[1] for x in expo[:EXPO_MAX_PER_DAY]]
+        # ③ 固定週期：每週一從「每週／事件」來源輪 WEEKLY_FIXED 個（依 ISO 週數決定，無需狀態）
+        if d.weekday() == 0:
+            pool = [s_ for s_ in srcs if s_["freq"] == "每週／事件" and s_["cat"] in ("監理機關／官方數據", "產業協會／技術認證機構")]
+            if pool:
+                k = d.isocalendar()[1] * WEEKLY_FIXED
+                extra += [{**pool[(k + i) % len(pool)], "freq": "每週一固定週期"} for i in range(min(WEEKLY_FIXED, len(pool)))]
+        targets += extra
+        if a.plan:
+            print(f"# 第二層計畫 {date}（{week}，週{'一二三四五六日'[d.weekday()]}）：共 {len(targets)} 個")
+            for t in targets:
+                print(f"  - {t['name']}｜{t['freq']}")
+            return
+        if fired:
+            trig_log[week] = sorted(done_this_week | set(fired))
+            trig_log = {k: v for k, v in trig_log.items() if k >= f"{(d - timedelta(days=60)).isocalendar()[0]}-W"}
+            with open(TRIGGERS, "w", encoding="utf-8") as f:
+                json.dump(trig_log, f, ensure_ascii=False, indent=1)
+
         ldir = os.path.join(OUT_DIR, f"{date}-lists")
         os.makedirs(ldir, exist_ok=True)
         for s in targets:
