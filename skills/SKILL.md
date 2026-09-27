@@ -382,7 +382,6 @@ Slot 進庫存幾款、目前庫存量（Slot／其他）、各區連續空白�
 | **Huff N' Puff** | Light & Wonder | 三隻小豬系列；例：Huff N' Puff Haunted Mansion（萬聖節換皮） |
 | **Bao Zhu Zhao Fu（爆竹招福）** | Light & Wonder | 亞洲市場熱門實體機 IP |
 | **SuperGems（Super Gem）** | Omiplay（尊博） | 對標 Fortune Gem、在菲律賓平台有成績 |
-| **Big Bass** | Pragmatic Play／Reel Kingdom | 大鱸魚系列 |
 
 規則：
 - 打分加 **H = +3**（`score = B + E + R + T + H`），在 Slot 區排到最前面（同分時熱門 IP 優先）。
@@ -768,7 +767,7 @@ PAGCOR 官方公告與規範；實體賭場（Okada Manila、Solaire、NUSTAR、
 
 ## 版本沿革
 
-- **v6.4.3**（2026-09-28）新增「🔥 熱門 IP／系列作」：Huff N' Puff、Bao Zhu Zhao Fu、SuperGems、Big Bass 的新作加 H=+3、排 Slot 區最前，預告放寬到 30 天內
+- **v6.4.3**（2026-09-28）新增「🔥 熱門 IP／系列作」：Huff N' Puff、Bao Zhu Zhao Fu、SuperGems 的新作加 H=+3、排 Slot 區最前，預告放寬到 30 天內
 - **v6.4.2**（2026-09-27）「每週／事件」「行事曆」來源改為三種觸發：事件觸發（標題命中關鍵字，每個關鍵字每週一次）、行事曆觸發（展會開展前 14 天～閉展日）、每週一固定輪 3 個；xlsx 新增「觸發關鍵字」「展期」兩欄。起因：原寫法「平常不抓、遇到題材才查」沒有切入點，實際等於永久排除
 - **v6.4.1**（2026-09-27）Slot 節奏規則：平日上限 5、週末上限 2；當天 ≤3 款才從庫存補、≥4 款不補、不足 5 款自然呈現；
   上線日在 7 天以後的預告不上日報（只進庫存）；新增「📋 週六檢查點」（Weekend Reels＋BigWinBoard 本週新作）；iGamingToday 降為次要來源。
