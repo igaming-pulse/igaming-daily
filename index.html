@@ -21,10 +21,23 @@
   .card .d{font-size:19px;font-weight:800;white-space:nowrap}
   .card .w{font-size:13px;color:var(--sub);flex:1}
   .card .go{font-size:13px;font-weight:700;color:var(--accent);white-space:nowrap}
-  .card.pin{border-left-color:#D97706;background:#FFFCF4}
+  .card.pin{border-left-color:#0F6E56;background:#EEF7F3}
   .card.pin .picon{font-size:22px}
-  .card.pin .go{color:#B7791F}
-  .pintag{display:inline-block;font-size:11px;font-weight:800;color:#8A5206;background:#FBF0DD;padding:2px 8px;border-radius:20px;margin-left:8px}
+  .card.pin .go{color:#0F6E56}
+  .pintag{display:inline-block;font-size:11px;font-weight:800;color:#0F6E56;background:#D9EFE6;padding:2px 8px;border-radius:20px;margin-left:8px}
+  .card.src-old{background:#FFF3E6;border-left-color:#E8914A}
+  .card.src-old .go{color:#B8612A}
+  .card.src-special{background:#EAF2FF;border-left-color:#4F7FE0}
+  .card.src-special .go{color:#2F5FC4}
+  .legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12px;color:var(--sub);margin:-8px 0 18px}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .legend i{width:14px;height:14px;border-radius:4px;border:1px solid var(--line)}
+  .pager{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px;margin-top:18px}
+  .pager button{font:inherit;font-size:13px;min-width:36px;padding:6px 10px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;cursor:pointer}
+  .pager button[aria-current="page"]{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:700}
+  .pager button:disabled{opacity:.4;cursor:default}
+  .pager button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .pageinfo{font-size:12px;color:var(--sub);text-align:center;margin-top:8px}
   .foot{margin-top:30px;font-size:12px;color:var(--sub);text-align:center;line-height:1.7}
   @media(max-width:520px){.card .w{display:none}}
 </style>
@@ -34,6 +47,11 @@
   <h1>🎰 iGaming 市場日報</h1>
   <div class="sub">每日 iGaming / 博弈產業新聞彙整 · Game Provider 新遊戲、非 Slot、主流動態、菲律賓、市場數據</div>
   <div class="latest">最新：2026-09-27</div>
+  <div class="legend">
+    <span><i style="background:#fff;border-left:4px solid #1D9E75"></i>公司帳號產出（-test／重跑版）</span>
+    <span><i style="background:#FFF3E6;border-left:4px solid #E8914A"></i>原本機器產出（正式版）</span>
+    <span><i style="background:#EAF2FF;border-left:4px solid #4F7FE0"></i>特別版本內容</span>
+  </div>
   <div class="list">
     <a class="card pin" href="OutputLogic/">
       <div class="picon">📘</div>
@@ -41,7 +59,9 @@
       <div class="w">OutputLogic · 本日報如何生成、完整資料來源與流程圖<span class="pintag">📌 置頂</span></div>
       <div class="go">查看說明 →</div>
     </a>
-    <a class="card" href="reports/2026-09-27.html">
+  </div>
+  <div class="list" id="reports" style="margin-top:12px">
+    <a class="card src-old" href="reports/2026-09-27.html">
       <div class="d">2026-09-27</div>
       <div class="w">週日 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
@@ -56,12 +76,12 @@
       <div class="w">週日 （測試） · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-27-special.html">
+    <a class="card src-special" href="reports/2026-09-27-special.html">
       <div class="d">2026-09-27</div>
       <div class="w">週日 特別版本內容</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-26.html">
+    <a class="card src-old" href="reports/2026-09-26.html">
       <div class="d">2026-09-26</div>
       <div class="w">週六 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
@@ -76,7 +96,7 @@
       <div class="w">週六 （測試） · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-25.html">
+    <a class="card src-old" href="reports/2026-09-25.html">
       <div class="d">2026-09-25</div>
       <div class="w">週五 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
@@ -86,7 +106,7 @@
       <div class="w">週五 （測試） · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-24.html">
+    <a class="card src-old" href="reports/2026-09-24.html">
       <div class="d">2026-09-24</div>
       <div class="w">週四 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
@@ -96,7 +116,7 @@
       <div class="w">週四 （測試） · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-23.html">
+    <a class="card src-old" href="reports/2026-09-23.html">
       <div class="d">2026-09-23</div>
       <div class="w">週三 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
@@ -111,7 +131,7 @@
       <div class="w">週三 （測試） · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-22.html">
+    <a class="card src-old" href="reports/2026-09-22.html">
       <div class="d">2026-09-22</div>
       <div class="w">週二 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
@@ -121,7 +141,7 @@
       <div class="w">週二 （測試） · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-21.html">
+    <a class="card src-old" href="reports/2026-09-21.html">
       <div class="d">2026-09-21</div>
       <div class="w">週一 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
@@ -131,81 +151,112 @@
       <div class="w">週一 （測試） · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-20.html">
+    <a class="card src-old" href="reports/2026-09-20.html">
       <div class="d">2026-09-20</div>
       <div class="w">週日 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-19.html">
+    <a class="card src-old" href="reports/2026-09-19.html">
       <div class="d">2026-09-19</div>
       <div class="w">週六 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-18.html">
+    <a class="card src-old" href="reports/2026-09-18.html">
       <div class="d">2026-09-18</div>
       <div class="w">週五 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-17.html">
+    <a class="card src-old" href="reports/2026-09-17.html">
       <div class="d">2026-09-17</div>
       <div class="w">週四 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-16.html">
+    <a class="card src-old" href="reports/2026-09-16.html">
       <div class="d">2026-09-16</div>
       <div class="w">週三 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-15.html">
+    <a class="card src-old" href="reports/2026-09-15.html">
       <div class="d">2026-09-15</div>
       <div class="w">週二 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-14.html">
+    <a class="card src-old" href="reports/2026-09-14.html">
       <div class="d">2026-09-14</div>
       <div class="w">週一 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-13.html">
+    <a class="card src-old" href="reports/2026-09-13.html">
       <div class="d">2026-09-13</div>
       <div class="w">週日 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-12.html">
+    <a class="card src-old" href="reports/2026-09-12.html">
       <div class="d">2026-09-12</div>
       <div class="w">週六 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-11.html">
+    <a class="card src-old" href="reports/2026-09-11.html">
       <div class="d">2026-09-11</div>
       <div class="w">週五 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-10.html">
+    <a class="card src-old" href="reports/2026-09-10.html">
       <div class="d">2026-09-10</div>
       <div class="w">週四 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-08.html">
+    <a class="card src-old" href="reports/2026-09-08.html">
       <div class="d">2026-09-08＋09</div>
       <div class="w">週二/三 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-07.html">
+    <a class="card src-old" href="reports/2026-09-07.html">
       <div class="d">2026-09-07</div>
       <div class="w">週一 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
-    <a class="card" href="reports/2026-09-06.html">
+    <a class="card src-old" href="reports/2026-09-06.html">
       <div class="d">2026-09-06</div>
       <div class="w">週日 · iGaming 市場日報</div>
       <div class="go">查看日報 →</div>
     </a>
   </div>
+  <nav class="pager" id="pager" aria-label="日報分頁"></nav>
+  <div class="pageinfo" id="pageinfo"></div>
   <div class="foot">
     自動由 daily-news-report 產出並發布 · 每則附原文連結供查證<br>
     © iGaming Daily
   </div>
 </div>
+<script>
+(function(){
+  var PER = 20;
+  var list = document.getElementById("reports");
+  var cards = Array.prototype.slice.call(list.querySelectorAll("a.card"));
+  var pager = document.getElementById("pager"), info = document.getElementById("pageinfo");
+  var pages = Math.max(1, Math.ceil(cards.length / PER));
+  if (pages <= 1) return;
+  function btn(label, page, opts){
+    var b = document.createElement("button");
+    b.type = "button"; b.textContent = label;
+    if (opts && opts.current) b.setAttribute("aria-current", "page");
+    if (opts && opts.disabled) b.disabled = true;
+    b.addEventListener("click", function(){ show(page, true); });
+    return b;
+  }
+  function show(p, scroll){
+    cards.forEach(function(c, i){ c.hidden = Math.floor(i / PER) !== p - 1; });
+    pager.innerHTML = "";
+    pager.appendChild(btn("‹ 上一頁", p - 1, {disabled: p === 1}));
+    for (var i = 1; i <= pages; i++) pager.appendChild(btn(String(i), i, {current: i === p}));
+    pager.appendChild(btn("下一頁 ›", p + 1, {disabled: p === pages}));
+    var a = (p - 1) * PER + 1, b = Math.min(p * PER, cards.length);
+    info.textContent = "第 " + a + "–" + b + " 份，共 " + cards.length + " 份";
+    if (scroll) list.scrollIntoView({behavior: "smooth", block: "start"});
+  }
+  show(1, false);
+})();
+</script>
 </body>
 </html>

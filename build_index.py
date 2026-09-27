@@ -39,9 +39,17 @@ for date, fname in files:
         # -v2 ＝ 第二版重跑；-v64 ＝ 用 v6.4 規則重跑（兩位數以上視為規則版本號）
         disp_wd += f" （測試・第{v}版 v{v}）" if len(v) == 1 else f" （測試・v{v[0]}.{v[1:]} 規則）"
     label = f"{disp_wd} · iGaming 市場日報"
+    # 卡片底色依「來源與內容」區分：
+    #   <date>.html          ＝ 原本機器（Claude 帳號 natekao）→ 淡橘
+    #   <date>-special.html  ＝ 特別版本內容 → 淡藍
+    #   -test／-vN           ＝ 公司帳號機器（nathan.kao@bituslabs.com）→ 維持原樣
+    kind = ""
     if fname.endswith("-special.html"):
         label = f"{disp_wd} 特別版本內容"
-    cards.append(f'''    <a class="card" href="reports/{html.escape(fname)}">
+        kind = " src-special"
+    elif re.match(r"^\d{4}-\d{2}-\d{2}\.html$", fname):
+        kind = " src-old"
+    cards.append(f'''    <a class="card{kind}" href="reports/{html.escape(fname)}">
       <div class="d">{html.escape(disp_date)}</div>
       <div class="w">{html.escape(label)}</div>
       <div class="go">查看日報 →</div>
@@ -81,10 +89,23 @@ out = f'''<!DOCTYPE html>
   .card .d{{font-size:19px;font-weight:800;white-space:nowrap}}
   .card .w{{font-size:13px;color:var(--sub);flex:1}}
   .card .go{{font-size:13px;font-weight:700;color:var(--accent);white-space:nowrap}}
-  .card.pin{{border-left-color:#D97706;background:#FFFCF4}}
+  .card.pin{{border-left-color:#0F6E56;background:#EEF7F3}}
   .card.pin .picon{{font-size:22px}}
-  .card.pin .go{{color:#B7791F}}
-  .pintag{{display:inline-block;font-size:11px;font-weight:800;color:#8A5206;background:#FBF0DD;padding:2px 8px;border-radius:20px;margin-left:8px}}
+  .card.pin .go{{color:#0F6E56}}
+  .pintag{{display:inline-block;font-size:11px;font-weight:800;color:#0F6E56;background:#D9EFE6;padding:2px 8px;border-radius:20px;margin-left:8px}}
+  .card.src-old{{background:#FFF3E6;border-left-color:#E8914A}}
+  .card.src-old .go{{color:#B8612A}}
+  .card.src-special{{background:#EAF2FF;border-left-color:#4F7FE0}}
+  .card.src-special .go{{color:#2F5FC4}}
+  .legend{{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12px;color:var(--sub);margin:-8px 0 18px}}
+  .legend span{{display:inline-flex;align-items:center;gap:6px}}
+  .legend i{{width:14px;height:14px;border-radius:4px;border:1px solid var(--line)}}
+  .pager{{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px;margin-top:18px}}
+  .pager button{{font:inherit;font-size:13px;min-width:36px;padding:6px 10px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;cursor:pointer}}
+  .pager button[aria-current="page"]{{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:700}}
+  .pager button:disabled{{opacity:.4;cursor:default}}
+  .pager button:focus-visible{{outline:2px solid var(--accent);outline-offset:2px}}
+  .pageinfo{{font-size:12px;color:var(--sub);text-align:center;margin-top:8px}}
   .foot{{margin-top:30px;font-size:12px;color:var(--sub);text-align:center;line-height:1.7}}
   @media(max-width:520px){{.card .w{{display:none}}}}
 </style>
@@ -94,15 +115,53 @@ out = f'''<!DOCTYPE html>
   <h1>🎰 iGaming 市場日報</h1>
   <div class="sub">每日 iGaming / 博弈產業新聞彙整 · Game Provider 新遊戲、非 Slot、主流動態、菲律賓、市場數據</div>
   <div class="latest">最新：{html.escape(latest)}</div>
+  <div class="legend">
+    <span><i style="background:#fff;border-left:4px solid #1D9E75"></i>公司帳號產出（-test／重跑版）</span>
+    <span><i style="background:#FFF3E6;border-left:4px solid #E8914A"></i>原本機器產出（正式版）</span>
+    <span><i style="background:#EAF2FF;border-left:4px solid #4F7FE0"></i>特別版本內容</span>
+  </div>
   <div class="list">
 {pinned_card}
+  </div>
+  <div class="list" id="reports" style="margin-top:12px">
 {body_cards}
   </div>
+  <nav class="pager" id="pager" aria-label="日報分頁"></nav>
+  <div class="pageinfo" id="pageinfo"></div>
   <div class="foot">
     自動由 daily-news-report 產出並發布 · 每則附原文連結供查證<br>
     © iGaming Daily
   </div>
 </div>
+<script>
+(function(){{
+  var PER = 20;
+  var list = document.getElementById("reports");
+  var cards = Array.prototype.slice.call(list.querySelectorAll("a.card"));
+  var pager = document.getElementById("pager"), info = document.getElementById("pageinfo");
+  var pages = Math.max(1, Math.ceil(cards.length / PER));
+  if (pages <= 1) return;
+  function btn(label, page, opts){{
+    var b = document.createElement("button");
+    b.type = "button"; b.textContent = label;
+    if (opts && opts.current) b.setAttribute("aria-current", "page");
+    if (opts && opts.disabled) b.disabled = true;
+    b.addEventListener("click", function(){{ show(page, true); }});
+    return b;
+  }}
+  function show(p, scroll){{
+    cards.forEach(function(c, i){{ c.hidden = Math.floor(i / PER) !== p - 1; }});
+    pager.innerHTML = "";
+    pager.appendChild(btn("‹ 上一頁", p - 1, {{disabled: p === 1}}));
+    for (var i = 1; i <= pages; i++) pager.appendChild(btn(String(i), i, {{current: i === p}}));
+    pager.appendChild(btn("下一頁 ›", p + 1, {{disabled: p === pages}}));
+    var a = (p - 1) * PER + 1, b = Math.min(p * PER, cards.length);
+    info.textContent = "第 " + a + "–" + b + " 份，共 " + cards.length + " 份";
+    if (scroll) list.scrollIntoView({{behavior: "smooth", block: "start"}});
+  }}
+  show(1, false);
+}})();
+</script>
 </body>
 </html>
 '''
