@@ -1,14 +1,29 @@
-🎰 iGaming 市場日報 2026-09-27（週日）
-🎰 Slot 0 ・ 🕹️ 非 Slot 0 ・ 🤝 主流 1 ・ 🇵🇭 菲律賓 0 ・ 📊 市場數據 0
+🎰 iGaming 市場日報 2026-09-28（週一）
+🎰 Slot 5 ・ 🕹️ 非 Slot 0 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 2
 
-❗今日收錄偏少（共 1 則），可能來源異常，請留意
+🎰 Slot 新遊戲
+01 777 Rainbow Rampage（📦）— TaDa Gaming
+02 Lucky Mischief（📦）— PG Soft
+03 Thor's Rage 2（📦）— Red Tiger
+04 Big Bass Vegas 1000（📦）— Pragmatic Play
+05 Legendary Hammer（Zitro FANTASY 機台區域首發）
 
-🤝 主流 GP／平台
-01 巴西總統盧拉正式簽署禁令，線上博彩產業進入退場倒數
+🤝 主流動態
+01 CCT 於 G2E 展出 Casino Insight 連網賭場作業平台
+02 Pascal Gaming 將於 SBC Summit 展出羅納迪諾聯名新作
+03 Passport Technology 於 G2E 推出 OmniStream 現金服務一體機
+04 Renova Technology 赴 G2E 拓展維修與供應鏈服務版圖
+05 巴西線上博彩禁令上路前非法網站三日暴增428個，國會仍握最終決定權
+
+🇵🇭 菲律賓動態
+01 Century Entertainment：合作夥伴GSA執照遭撤仍維持PAGCOR合規
+
+📊 市場數據 & 趨勢
+01 博彩直播導客通路正快速成長，卻無人真正掌管
+02 巴西iGaming監理環境急速轉變：從立法開放到臨時禁令
 
 📝 品質備註（本次爬找判斷）
-1. 本窗（9/26 02:30～9/27 02:30，週六整日至週日凌晨）是本系列近期最嚴重的單日收錄偏低案例：核心必掃8站＋輪掃5站全數掃過，多數站最新內容仍停留在9/25，本窗（9/26～9/27）幾乎無新稿；額外加碼約48次WebSearch涵蓋菲律賓核心品牌、國際一二線GP、非Slot品類、市場數據、其他地區監理等仍無斬獲，判斷為週六至週日凌晨這個特定時段全球產業媒體确實少發稿，非抓取方法錯誤。
-2. 巴西禁令一則與昨日（9/26）日報的「盧拉宣布意向」為同一議題延續——今日是正式簽署生效＋退場時程（10/5提領、10/6下線）＋ANJL提告，屬有新增實質資訊的後續進展，故予收錄；請留意兩則報導的關聯性。
-3. EEZE 連續第5天無合格消息，依規則跳過固定收錄。
-4. Yellow Bat Gaming「三款新Slot上線BingoPlus」曾被WebSearch摘要誤判為本窗新聞，經firecrawl查證官方稿article:published_time實為2025-12-22（舊聞），已剔除；提醒此類「品牌+新品」關鍵字搜尋結果需逐一查證真實年份。
-5. 本次firecrawl用量約20次、WebSearch約48次，均在額度內；候選池與成稿量極低是查證後的真實結果，非額度不足所致。
+1. 今天窗內候選僅 15 則（來源健檢全數正常，僅 2 個非核心輪掃站 DNS／連線失敗），研判是真實淡季而非抓取不足：週一窗口本就涵蓋週日（歷史上新聞量最少的一天），且今天恰逢 G2E／SBC Summit 開展前夕，窗內新聞被大量「展會預告」型公關稿與延燒中的巴西全面禁令追蹤報導占據。
+2. 🕹️ 非 Slot 整區空手：窗內與庫存皆無合格候選，EEZE 已連續第 6 天無合格新聞（已查證豁免）；連同 Crash／Mines／Plinko／Live Game Show／Poker 等四類第三層加碼搜尋均未找到窗內新發布的合格項目。
+3. 🇵🇭 菲律賓區僅 1 則：已依規定查詢 DigiPlus／BingoPlus／ArenaPlus／GameZone／Casino Plus／OKBet／BET88／PT Gaming／PlayTime／Acewin／Omiplay／YellowBat／ATG 等，窗內僅 Century Entertainment／PAGCOR 一則合格候選，庫存亦無可補項目。
+4. Slot 5 款中 4 款為庫存補位（📦 標示 9/21、9/24 首見），因窗內僅 1 款實體機台上架新聞（Zitro，不受 3 款門檻限制），依規則以庫存前 4 高分項目補滿平日 5 款上限。

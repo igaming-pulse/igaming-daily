@@ -1,0 +1,22 @@
+{
+  "shown": [
+    {"cat": "cat1", "title": "777 Rainbow Rampage", "gp": "TaDa Gaming"},
+    {"cat": "cat1", "title": "Lucky Mischief", "gp": "PG Soft"},
+    {"cat": "cat1", "title": "Thor's Rage 2", "gp": "Red Tiger"},
+    {"cat": "cat1", "title": "Big Bass Vegas 1000", "gp": "Pragmatic Play"},
+    {"cat": "cat1", "title": "Legendary Hammer", "gp": "Zitro"},
+    {"cat": "cat3", "title": "CCT 於 G2E 展出 Casino Insight 連網賭場作業平台"},
+    {"cat": "cat3", "title": "Pascal Gaming 將於 SBC Summit 展出羅納迪諾聯名新作"},
+    {"cat": "cat3", "title": "Passport Technology 於 G2E 推出 OmniStream 現金服務一體機"},
+    {"cat": "cat3", "title": "Renova Technology 赴 G2E 拓展維修與供應鏈服務版圖"},
+    {"cat": "cat3", "title": "巴西線上博彩禁令上路前非法網站三日暴增428個"},
+    {"cat": "cat4", "title": "Century Entertainment：合作夥伴GSA執照遭撤仍維持PAGCOR合規"},
+    {"cat": "cat5", "title": "博彩直播導客通路正快速成長，卻無人真正掌管"},
+    {"cat": "cat5", "title": "巴西iGaming監理環境急速轉變：從立法開放到臨時禁令"}
+  ],
+  "stock": [
+    {"cat": "cat3", "title": "European Gaming 專訪 The Pools 平台談 Goal Rush 訂閱制成效", "gp": "The Pools",
+     "b": 1, "first_seen": "2026-09-28",
+     "sources": [{"name": "European Gaming", "url": "https://europeangaming.eu/portal/interviews/2026/09/27/214822/stefan-williams-the-pools-interview/", "published": "2026-09-27 14:00"}]}
+  ]
+}

@@ -273,21 +273,6 @@
   },
   {
    "cat": "cat1",
-   "title": "Thor's Rage 2",
-   "gp": "Red Tiger",
-   "first_seen": "2026-09-24",
-   "b": 4,
-   "sources": [
-    {
-     "name": "BigWinBoard",
-     "url": "https://www.bigwinboard.com/new-slots/",
-     "published": "2026-09-24"
-    }
-   ],
-   "key": "thorsrage2|redtiger"
-  },
-  {
-   "cat": "cat1",
    "title": "House of the Dragon",
    "gp": "Blueprint Gaming",
    "first_seen": "2026-09-24",
@@ -441,36 +426,6 @@
   },
   {
    "cat": "cat1",
-   "title": "777 Rainbow Rampage",
-   "gp": "TaDa Gaming",
-   "first_seen": "2026-09-21",
-   "b": 6,
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/09/21/52718/tada-gaming-releases-its-new-slot-game-777-rainbow-rampage/",
-     "published": "2026-09-21"
-    }
-   ],
-   "key": "777rainbowrampage|tadagaming"
-  },
-  {
-   "cat": "cat1",
-   "title": "Lucky Mischief",
-   "gp": "PG Soft",
-   "first_seen": "2026-09-21",
-   "b": 4,
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/09/21/52728/pg-soft-releases-new-slot-title-lucky-mischief/",
-     "published": "2026-09-21"
-    }
-   ],
-   "key": "luckymischief|pgsoft"
-  },
-  {
-   "cat": "cat1",
    "title": "3 Dragon Boosters",
    "gp": "BetGames",
    "first_seen": "2026-09-24",
@@ -483,21 +438,6 @@
     }
    ],
    "key": "3dragonboosters|betgames"
-  },
-  {
-   "cat": "cat1",
-   "title": "Big Bass Vegas 1000",
-   "gp": "Pragmatic Play",
-   "first_seen": "2026-09-24",
-   "b": 4,
-   "sources": [
-    {
-     "name": "OLBG",
-     "url": "https://www.olbg.com/news/weekly-slots-news-25-09-2026",
-     "published": "2026-09-24"
-    }
-   ],
-   "key": "bigbassvegas1000|pragmaticplay"
   },
   {
    "cat": "cat1",
@@ -549,7 +489,23 @@
    "key": "catscollect|playtech"
   }
  ],
- "others": [],
+ "others": [
+  {
+   "cat": "cat3",
+   "title": "European Gaming 專訪 The Pools 平台談 Goal Rush 訂閱制成效",
+   "gp": "The Pools",
+   "b": 1,
+   "first_seen": "2026-09-28",
+   "sources": [
+    {
+     "name": "European Gaming",
+     "url": "https://europeangaming.eu/portal/interviews/2026/09/27/214822/stefan-williams-the-pools-interview/",
+     "published": "2026-09-27 14:00"
+    }
+   ],
+   "key": "europeangaming專訪thepools平台談goalrush訂閱制成效|thepools"
+  }
+ ],
  "history": [
   {
    "date": "2026-09-23",
@@ -977,6 +933,97 @@
    "cat": "cat5",
    "title": "分析：博彩業者為何甘願為頂規AI模型支付溢價",
    "gp": "Business of iGaming"
+  },
+  {
+   "key": "777rainbowrampage|tadagaming",
+   "date": "2026-09-28",
+   "cat": "cat1",
+   "title": "777 Rainbow Rampage",
+   "gp": "TaDa Gaming"
+  },
+  {
+   "key": "luckymischief|pgsoft",
+   "date": "2026-09-28",
+   "cat": "cat1",
+   "title": "Lucky Mischief",
+   "gp": "PG Soft"
+  },
+  {
+   "key": "thorsrage2|redtiger",
+   "date": "2026-09-28",
+   "cat": "cat1",
+   "title": "Thor's Rage 2",
+   "gp": "Red Tiger"
+  },
+  {
+   "key": "bigbassvegas1000|pragmaticplay",
+   "date": "2026-09-28",
+   "cat": "cat1",
+   "title": "Big Bass Vegas 1000",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "legendaryhammer|zitro",
+   "date": "2026-09-28",
+   "cat": "cat1",
+   "title": "Legendary Hammer",
+   "gp": "Zitro"
+  },
+  {
+   "key": "cct於g2e展出casinoinsight連網賭場作業平台|",
+   "date": "2026-09-28",
+   "cat": "cat3",
+   "title": "CCT 於 G2E 展出 Casino Insight 連網賭場作業平台",
+   "gp": ""
+  },
+  {
+   "key": "pascalgaming將於sbcsummit展出羅納迪諾聯名新作|",
+   "date": "2026-09-28",
+   "cat": "cat3",
+   "title": "Pascal Gaming 將於 SBC Summit 展出羅納迪諾聯名新作",
+   "gp": ""
+  },
+  {
+   "key": "passporttechnology於g2e推出omnistream現金服務一體機|",
+   "date": "2026-09-28",
+   "cat": "cat3",
+   "title": "Passport Technology 於 G2E 推出 OmniStream 現金服務一體機",
+   "gp": ""
+  },
+  {
+   "key": "renovatechnology赴g2e拓展維修與供應鏈服務版圖|",
+   "date": "2026-09-28",
+   "cat": "cat3",
+   "title": "Renova Technology 赴 G2E 拓展維修與供應鏈服務版圖",
+   "gp": ""
+  },
+  {
+   "key": "巴西線上博彩禁令上路前非法網站三日暴增428個|",
+   "date": "2026-09-28",
+   "cat": "cat3",
+   "title": "巴西線上博彩禁令上路前非法網站三日暴增428個",
+   "gp": ""
+  },
+  {
+   "key": "centuryentertainment合作夥伴gsa執照遭撤仍維持pagcor合規|",
+   "date": "2026-09-28",
+   "cat": "cat4",
+   "title": "Century Entertainment：合作夥伴GSA執照遭撤仍維持PAGCOR合規",
+   "gp": ""
+  },
+  {
+   "key": "博彩直播導客通路正快速成長卻無人真正掌管|",
+   "date": "2026-09-28",
+   "cat": "cat5",
+   "title": "博彩直播導客通路正快速成長，卻無人真正掌管",
+   "gp": ""
+  },
+  {
+   "key": "巴西igaming監理環境急速轉變從立法開放到臨時禁令|",
+   "date": "2026-09-28",
+   "cat": "cat5",
+   "title": "巴西iGaming監理環境急速轉變：從立法開放到臨時禁令",
+   "gp": ""
   }
  ]
 }
