@@ -44,7 +44,7 @@
   .arch h4:nth-of-type(1){--mk:var(--s1)} .arch h4:nth-of-type(2){--mk:var(--s2)} .arch h4:nth-of-type(3){--mk:var(--s4)} .arch h4:nth-of-type(4){--mk:var(--s5)}
   .arch ul{list-style:none;display:flex;flex-direction:column;gap:0;border-top:1px solid var(--rule)}
   .arch li{padding:9px 4px;border-bottom:1px solid var(--rule)}
-  pre.mermaid{background:transparent;text-align:center;overflow-x:auto;margin:0}
+  pre.mermaid{background:transparent;text-align:center;overflow-x:auto;margin:0;font-family:"Noto Sans TC","PingFang TC",sans-serif;white-space:normal}
   .nav{font-family:"IBM Plex Mono",monospace;font-size:12px;background:var(--dark);color:var(--dark-ink);padding:12px 16px;margin-bottom:18px;line-height:2.1}
   .nav a{color:var(--dark-ink);text-decoration:none;white-space:nowrap;border-bottom:1px solid rgba(237,230,216,.35)}
   .nav a:hover{color:#fff;border-bottom-color:#fff}
@@ -112,6 +112,14 @@ flowchart TD
   N -- 否 --> X["記錄失敗原因"]
   O --> Q["早上 GitHub Actions 推播 Telegram"]
   X --> R["推播「日報未產出」警告"]
+  classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700
+  classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700
+  classDef muted fill:#EEE8DC,stroke:#A99F8E,color:#6F675A
+  class N gate
+  class Q out
+  class X,R muted
+  linkStyle 13 stroke:#4E9E68,stroke-width:2px
+  linkStyle 14,16 stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4
 </pre></div>
   <div class="card"><h3>2-2　收集：網站內容怎麼抓、怎麼判斷</h3><pre class="mermaid">
 flowchart TD
@@ -137,10 +145,18 @@ flowchart TD
   IN ==> OUT["候選清單＋來源健檢"]
   OLD --> OUT
   L2 ==> OUT
-  classDef main fill:#FFF3D6,stroke:#1B1A18,stroke-width:2px,color:#1B1A18
+  classDef main fill:#FBF6EC,stroke:#1B1A18,stroke-width:2px,color:#1B1A18
   classDef minor fill:#EEE8DC,stroke:#A99F8E,stroke-dasharray:4 3,color:#8C8373
-  class S,W,L1,L2,RT,NZ,TW,IN,OUT main
+  class S,L1,L2,RT,IN main
   class TR,E1,E2,E3 minor
+  classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700
+  classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700
+  classDef muted fill:#EEE8DC,stroke:#A99F8E,color:#6F675A
+  class NZ,TW,W gate
+  class OUT out
+  class DROP muted
+  linkStyle 15,16 stroke:#4E9E68,stroke-width:2px
+  linkStyle 14,18 stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4
 </pre></div>
   <div class="card"><h3>2-3　選稿：每則候選要過的關卡</h3><pre class="mermaid">
 flowchart TD
@@ -157,6 +173,14 @@ flowchart TD
   SWAP --> PICK
   V -- 是 --> X["交叉佐證＋補參數"]
   X --> W["寫入日報"]
+  classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700
+  classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700
+  classDef muted fill:#EEE8DC,stroke:#A99F8E,color:#6F675A
+  class CAP,D,V gate
+  class W out
+  class OUT1,SWAP muted
+  linkStyle 3,7,11 stroke:#4E9E68,stroke-width:2px
+  linkStyle 1,9,10 stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4
 </pre></div>
   <div class="card"><h3>2-4　Slot 區選法與庫存調用</h3><pre class="mermaid">
 flowchart TD
@@ -174,6 +198,13 @@ flowchart TD
   FILL --> NAT["庫存不夠就自然呈現"]
   SAT["📋 週六檢查點：Weekend Reels＋BigWinBoard 本週新作"] --> MISS{"漏收？"}
   MISS -- 是 --> BU["標「📋 本週補遺」，算在 2 款內，多的進庫存"]
+  classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700
+  classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700
+  classDef muted fill:#EEE8DC,stroke:#A99F8E,color:#6F675A
+  class DAY,MISS,N,PV gate
+  class LATER muted
+  linkStyle 2,13 stroke:#4E9E68,stroke-width:2px
+  linkStyle 1 stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4
 </pre></div>
   <div class="card"><h3>2-5　庫存機制</h3><pre class="mermaid">
 flowchart LR
@@ -184,6 +215,9 @@ flowchart LR
   INV --> O1["Slot：當天 ≤3 款時補到上限"]
   INV --> O2["其他分類：連續空 2 天，第 3 天補 1–2 則"]
   INV --> EX["過期：Slot 7 天・其他 3 天・預告到上線日＋3 天"]
+  classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700
+  classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700
+  classDef muted fill:#EEE8DC,stroke:#A99F8E,color:#6F675A
 </pre></div>
 
   <div class="h2">三、四種找資料工具對比</div>
@@ -529,7 +563,7 @@ flowchart LR
 </div>
 <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
 <script>
-  if(window.mermaid){mermaid.initialize({startOnLoad:true,securityLevel:"loose",theme:"base",themeVariables:{fontFamily:'"Noto Sans TC","PingFang TC",sans-serif',fontSize:"14px",primaryColor:"#FBF6EC",primaryTextColor:"#1B1A18",primaryBorderColor:"#1B1A18",lineColor:"#5F584D",secondaryColor:"#EEE8DC",tertiaryColor:"#F7F3EA",edgeLabelBackground:"#F7F3EA",clusterBkg:"#F7F3EA"},flowchart:{htmlLabels:true,useMaxWidth:true,curve:"basis"}});}
+  if(window.mermaid){mermaid.initialize({startOnLoad:true,securityLevel:"loose",theme:"base",themeVariables:{fontFamily:'"Noto Sans TC","PingFang TC",sans-serif',fontSize:"14px",primaryColor:"#FBF6EC",primaryTextColor:"#1B1A18",primaryBorderColor:"#5F584D",lineColor:"#8C8373",secondaryColor:"#EEE8DC",tertiaryColor:"#F7F3EA",edgeLabelBackground:"#F7F3EA",clusterBkg:"#F7F3EA"},flowchart:{htmlLabels:true,useMaxWidth:true,curve:"stepAfter"}});}
 </script>
 </body>
 </html>
