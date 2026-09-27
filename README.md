@@ -4,6 +4,7 @@
 
 - **線上瀏覽**：https://igaming-pulse.github.io/igaming-daily/
 - **運作說明**：https://igaming-pulse.github.io/igaming-daily/OutputLogic/
+- **業務邏輯交接（給 Claude 讀）**：[`docs/BUSINESS_LOGIC.md`](docs/BUSINESS_LOGIC.md) —— 換電腦或換帳號時，請新的 Claude 先讀這份，再讀 `skills/SKILL.md`
 
 ---
 
