@@ -81,8 +81,8 @@ flowchart TD
   IN ==> OUT["候選清單＋來源健檢"]
   OLD --> OUT
   L2 ==> OUT
-  classDef main fill:#E1F5EE,stroke:#0F6E56,stroke-width:2px,color:#1A2230
-  classDef minor fill:#F7F8FA,stroke:#B8C0CC,stroke-dasharray:4 3,color:#8A94A3
+  classDef main fill:#FFF3D6,stroke:#1B1A18,stroke-width:2px,color:#1B1A18
+  classDef minor fill:#EEE8DC,stroke:#A99F8E,stroke-dasharray:4 3,color:#8C8373
   class S,W,L1,L2,RT,NZ,TW,IN,OUT main
   class TR,E1,E2,E3 minor
 ```

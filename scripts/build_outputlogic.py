@@ -117,8 +117,8 @@ DIAGRAMS = [
   IN ==> OUT["候選清單＋來源健檢"]
   OLD --> OUT
   L2 ==> OUT
-  classDef main fill:#E1F5EE,stroke:#0F6E56,stroke-width:2px,color:#1A2230
-  classDef minor fill:#F7F8FA,stroke:#B8C0CC,stroke-dasharray:4 3,color:#8A94A3
+  classDef main fill:#FFF3D6,stroke:#1B1A18,stroke-width:2px,color:#1B1A18
+  classDef minor fill:#EEE8DC,stroke:#A99F8E,stroke-dasharray:4 3,color:#8C8373
   class S,W,L1,L2,RT,NZ,TW,IN,OUT main
   class TR,E1,E2,E3 minor"""),
     ("2-3　選稿：每則候選要過的關卡", """flowchart TD
@@ -281,7 +281,7 @@ for i, cat in enumerate(active_cats):
         + f'<td class="note">{h(esc_cell(r[9]) if len(r) > 9 else "")}</td></tr>'
         for r in groups[cat])
     tables.append(
-        f'  <h3 id="cat{i}" class="cat">{h(cat)}<span class="badge">{len(groups[cat])}</span>'
+        f'  <h3 id="cat{i}" class="cat" style="--mk:var(--s{i % 6 + 1})">{h(cat)}<span class="badge">{len(groups[cat])}</span>'
         f'<a class="top" href="#top">↑ 回頂部</a></h3>\n'
         f'  <div class="tablewrap"><table>\n'
         f'    <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>抓取方式</th><th>頻率</th><th>備註</th><th>展期</th></tr></thead>\n'
@@ -293,48 +293,86 @@ HTML = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OutputLogic — iGaming 市場日報 運作說明</title>
+<title>OutputLogic 運作說明</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <style>
-  :root{--bg:#F5F7FA;--card:#fff;--ink:#1A2230;--sub:#5B6675;--line:#E7EBF0;--accent:#1D9E75;--accent2:#0F6E56}
+  /* 風格參考：色譜圖表風（米白紙感底、粗黑標題、細線分隔、深色側欄、彩色色階帶）。CSS 為本站自寫，未複製任何第三方程式碼 */
+  :root{--paper:#EEE8DC;--sheet:#F7F3EA;--ink:#1B1A18;--sub:#5F584D;--faint:#8C8373;--rule:#D3C9B7;--dark:#2A2621;--dark-ink:#EDE6D8;
+        --s1:#D6493A;--s2:#EC8A2E;--s3:#E4C23A;--s4:#4E9E68;--s5:#3A78C4;--s6:#7654B4}
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--bg);color:var(--ink);font-family:-apple-system,"PingFang TC","Noto Sans TC","Segoe UI",sans-serif;line-height:1.75;padding:36px 16px}
-  .wrap{max-width:960px;margin:0 auto}
-  a{color:#185FA5}
-  .back{font-size:13px;color:var(--sub);text-decoration:none}
-  h1{font-size:30px;font-weight:800;letter-spacing:-.5px;margin:10px 0 4px}
-  .sub{color:var(--sub);font-size:14px;margin-bottom:6px}
-  .h2{font-size:22px;font-weight:800;margin:34px 0 14px;padding-left:12px;border-left:6px solid var(--accent)}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px}
-  .card h3{font-size:15px;font-weight:800;color:var(--accent2);margin-bottom:10px}
+  html{background:var(--paper)}
+  body{background:var(--paper);background-image:radial-gradient(rgba(60,48,30,.035) 1px,transparent 1px);background-size:3px 3px;
+       color:var(--ink);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.75;padding-block:40px 60px;padding-inline:20px}
+  .wrap{max-width:1000px;margin:0 auto}
+  a{color:var(--s5)}
+  code{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:.92em}
+  .back{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.06em;color:var(--sub);text-decoration:none}
+  .back:hover{color:var(--ink)}
+  .masthead{display:grid;grid-template-columns:1fr 240px;gap:0;margin:18px 0 8px;border:1px solid var(--ink);background:var(--sheet)}
+  .mh-main{padding:26px 28px 22px;display:flex;flex-direction:column;gap:10px}
+  .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--sub)}
+  h1{font-size:40px;line-height:1.15;font-weight:900;letter-spacing:-.5px;text-wrap:balance}
+  .sub{color:var(--sub);font-size:14px;max-width:62ch}
+  .spectrum{display:flex;height:8px;margin-top:6px}
+  .spectrum i{flex:1}
+  .mh-side{background:var(--dark);color:var(--dark-ink);padding:22px 20px;display:flex;flex-direction:column;gap:12px;font-family:"IBM Plex Mono",monospace;font-size:12px}
+  .mh-side div{display:flex;flex-direction:column;gap:2px;border-bottom:1px solid rgba(237,230,216,.18);padding-bottom:8px}
+  .mh-side div:last-child{border-bottom:none}
+  .mh-side b{font-size:18px;font-weight:600;color:#fff;font-variant-numeric:tabular-nums}
+  .mh-side span{color:#B9AF9C;letter-spacing:.08em;text-transform:uppercase;font-size:10.5px}
+  .h2{display:flex;align-items:center;gap:12px;font-size:23px;font-weight:900;margin:44px 0 14px;padding-bottom:10px;border-bottom:2px solid var(--ink);text-wrap:balance}
+  .h2::before{content:"";flex:none;width:36px;height:10px;background:linear-gradient(90deg,var(--s1) 0 16.6%,var(--s2) 0 33.3%,var(--s3) 0 50%,var(--s4) 0 66.6%,var(--s5) 0 83.3%,var(--s6) 0)}
+  .card{background:var(--sheet);border:1px solid var(--rule);padding:20px 22px;margin-bottom:16px}
+  .card h3{font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:600;letter-spacing:.04em;color:var(--sub);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--rule)}
   .arch{font-size:15px;line-height:1.85}
-  .arch strong{color:var(--accent2)}
-  .arch p{margin-bottom:14px}
-  .arch h4{font-size:15px;font-weight:800;color:var(--ink);margin:16px 0 6px}
-  .arch ul{list-style:none;display:flex;flex-direction:column;gap:6px}
-  .arch li{padding:8px 12px;background:#F6F9F8;border:1px solid var(--line);border-radius:8px}
-  pre.mermaid{background:#fff;text-align:center;overflow-x:auto;margin:0}
-  .nav{font-size:12.5px;color:var(--sub);background:#EEF6F2;border:1px solid #D6EAE0;border-radius:10px;padding:10px 14px;margin-bottom:16px;line-height:2}
-  .nav a{color:var(--accent2);text-decoration:none;white-space:nowrap}
-  h3.cat{display:flex;align-items:center;gap:10px;font-size:18px;font-weight:800;margin:26px 0 10px;padding-left:10px;border-left:5px solid var(--accent)}
-  h3.cat .badge{font-size:12px;font-weight:700;background:#E1F5EE;color:var(--accent2);padding:2px 9px;border-radius:20px}
-  h3.cat .top{margin-left:auto;font-size:12px;font-weight:600;color:var(--sub);text-decoration:none}
-  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:#fff}
+  .arch strong{color:var(--ink);font-weight:900}
+  .arch p{margin-bottom:16px;font-size:16px}
+  .arch h4{font-size:15.5px;font-weight:900;margin:20px 0 8px;display:flex;align-items:center;gap:8px}
+  .arch h4::before{content:"";width:10px;height:10px;background:var(--mk,var(--s4))}
+  .arch h4:nth-of-type(1){--mk:var(--s1)} .arch h4:nth-of-type(2){--mk:var(--s2)} .arch h4:nth-of-type(3){--mk:var(--s4)} .arch h4:nth-of-type(4){--mk:var(--s5)}
+  .arch ul{list-style:none;display:flex;flex-direction:column;gap:0;border-top:1px solid var(--rule)}
+  .arch li{padding:9px 4px;border-bottom:1px solid var(--rule)}
+  pre.mermaid{background:transparent;text-align:center;overflow-x:auto;margin:0}
+  .nav{font-family:"IBM Plex Mono",monospace;font-size:12px;background:var(--dark);color:var(--dark-ink);padding:12px 16px;margin-bottom:18px;line-height:2.1}
+  .nav a{color:var(--dark-ink);text-decoration:none;white-space:nowrap;border-bottom:1px solid rgba(237,230,216,.35)}
+  .nav a:hover{color:#fff;border-bottom-color:#fff}
+  h3.cat{display:flex;align-items:center;gap:10px;font-size:18px;font-weight:900;margin:30px 0 10px}
+  h3.cat::before{content:"";width:12px;height:12px;background:var(--mk,var(--s4))}
+  h3.cat .badge{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;background:var(--ink);color:var(--sheet);padding:1px 8px}
+  h3.cat .top{margin-left:auto;font-family:"IBM Plex Mono",monospace;font-size:11.5px;font-weight:500;color:var(--sub);text-decoration:none}
+  .tablewrap{overflow-x:auto;border:1px solid var(--ink);background:var(--sheet)}
   table{border-collapse:collapse;width:100%;font-size:13px}
-  thead th{position:sticky;top:0;background:#F2F6F4;color:var(--accent2);text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
-  td{padding:9px 12px;border-bottom:1px solid #F0F2F5;vertical-align:top}
+  thead th{position:sticky;top:0;background:var(--dark);color:var(--dark-ink);font-family:"IBM Plex Mono",monospace;font-weight:500;font-size:11.5px;letter-spacing:.06em;text-align:left;padding:10px 12px;white-space:nowrap}
+  td{padding:9px 12px;border-bottom:1px solid var(--rule);vertical-align:top}
+  tbody tr:nth-child(even) td{background:rgba(238,232,220,.55)}
   tr:last-child td{border-bottom:none}
-  td.no{color:var(--sub);width:48px}
+  td.no{font-family:"IBM Plex Mono",monospace;color:var(--faint);width:48px;font-variant-numeric:tabular-nums}
   td a{word-break:break-all}
-  td.note{color:#4a5563;min-width:200px}
-  .foot{margin-top:30px;padding-top:16px;border-top:1px solid var(--line);font-size:12px;color:var(--sub);text-align:center;line-height:1.8}
-  @media(max-width:640px){h1{font-size:24px}.h2{font-size:19px}}
+  td.note{color:var(--sub);min-width:120px}
+  .foot{margin-top:40px;padding-top:16px;border-top:2px solid var(--ink);font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--sub);line-height:1.9}
+  a:focus-visible{outline:2px solid var(--s5);outline-offset:2px}
+  @media(max-width:760px){.masthead{grid-template-columns:1fr}.mh-side{flex-direction:row;flex-wrap:wrap}.mh-side div{border-bottom:none;flex:1;min-width:120px}h1{font-size:30px}.h2{font-size:20px}}
 </style>
 </head>
 <body>
 <div class="wrap" id="top">
   <a class="back" href="../">← 回 iGaming 市場日報</a>
-  <h1>🎰 OutputLogic — 運作說明</h1>
-  <div class="sub">iGaming 市場日報如何自動生成、涵蓋哪些來源、用什麼邏輯判斷與排序 · 規則版本 v6.4.2</div>
+  <header class="masthead">
+    <div class="mh-main">
+      <div class="eyebrow">OutputLogic · 運作說明 · Rules v6.4.2</div>
+      <h1>iGaming 市場日報如何產生</h1>
+      <div class="sub">從排程、三層收集、選稿與庫存，到查證、發布與推播；以及涵蓋的全部資料來源。</div>
+      <div class="spectrum" aria-hidden="true"><i style="background:var(--s1)"></i><i style="background:var(--s2)"></i><i style="background:var(--s3)"></i><i style="background:var(--s4)"></i><i style="background:var(--s5)"></i><i style="background:var(--s6)"></i></div>
+    </div>
+    <aside class="mh-side">
+      <div><span>資料來源</span><b>__TOTAL__</b></div>
+      <div><span>來源分類</span><b>__NCATS__</b></div>
+      <div><span>每日排程</span><b>02:30</b></div>
+      <div><span>Slot 上限</span><b>平日 5／週末 2</b></div>
+    </aside>
+  </header>
 
   <div class="h2">一、生成的基本架構</div>
   <div class="card arch">__ARCH__</div>
@@ -352,7 +390,7 @@ __TABLES__
 </div>
 <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
 <script>
-  if(window.mermaid){mermaid.initialize({startOnLoad:true,securityLevel:"loose",theme:"neutral",flowchart:{htmlLabels:true,useMaxWidth:true}});}
+  if(window.mermaid){mermaid.initialize({startOnLoad:true,securityLevel:"loose",theme:"base",themeVariables:{fontFamily:'"Noto Sans TC","PingFang TC",sans-serif',fontSize:"14px",primaryColor:"#FBF6EC",primaryTextColor:"#1B1A18",primaryBorderColor:"#1B1A18",lineColor:"#5F584D",secondaryColor:"#EEE8DC",tertiaryColor:"#F7F3EA",edgeLabelBackground:"#F7F3EA",clusterBkg:"#F7F3EA"},flowchart:{htmlLabels:true,useMaxWidth:true,curve:"basis"}});}
 </script>
 </body>
 </html>
