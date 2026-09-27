@@ -4,6 +4,16 @@ import os, re, glob, html
 from datetime import datetime
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
+
+# 日報樣式開關（report_theme.txt）：spectrum-c 時，自動把結構符合、尚未套用的日報換成色譜圖表風。
+# 回滾：python3 report_theme.py rollback（口令「日報樣式回滾」）
+try:
+    import sys as _sys
+    _sys.path.insert(0, ROOT)
+    import report_theme
+    report_theme.auto()
+except Exception as _e:  # 樣式失敗不能擋住首頁重建
+    print(f"⚠️ report_theme 略過：{_e}")
 REPORTS = os.path.join(ROOT, "reports")
 
 # 收集 YYYY-MM-DD.html
