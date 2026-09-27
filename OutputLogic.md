@@ -53,6 +53,14 @@ flowchart TD
   N -- 否 --> X["記錄失敗原因"]
   O --> Q["早上 GitHub Actions 推播 Telegram"]
   X --> R["推播「日報未產出」警告"]
+  classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700
+  classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700
+  classDef muted fill:#EEE8DC,stroke:#A99F8E,color:#6F675A
+  class N gate
+  class Q out
+  class X,R muted
+  linkStyle 13 stroke:#4E9E68,stroke-width:2px
+  linkStyle 14,16 stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4
 ```
 
 ### 2-2　收集：網站內容怎麼抓、怎麼判斷
@@ -81,10 +89,18 @@ flowchart TD
   IN ==> OUT["候選清單＋來源健檢"]
   OLD --> OUT
   L2 ==> OUT
-  classDef main fill:#FFF3D6,stroke:#1B1A18,stroke-width:2px,color:#1B1A18
+  classDef main fill:#FBF6EC,stroke:#1B1A18,stroke-width:2px,color:#1B1A18
   classDef minor fill:#EEE8DC,stroke:#A99F8E,stroke-dasharray:4 3,color:#8C8373
-  class S,W,L1,L2,RT,NZ,TW,IN,OUT main
+  class S,L1,L2,RT,IN main
   class TR,E1,E2,E3 minor
+  classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700
+  classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700
+  classDef muted fill:#EEE8DC,stroke:#A99F8E,color:#6F675A
+  class NZ,TW,W gate
+  class OUT out
+  class DROP muted
+  linkStyle 15,16 stroke:#4E9E68,stroke-width:2px
+  linkStyle 14,18 stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4
 ```
 
 ### 2-3　選稿：每則候選要過的關卡
@@ -104,6 +120,14 @@ flowchart TD
   SWAP --> PICK
   V -- 是 --> X["交叉佐證＋補參數"]
   X --> W["寫入日報"]
+  classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700
+  classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700
+  classDef muted fill:#EEE8DC,stroke:#A99F8E,color:#6F675A
+  class CAP,D,V gate
+  class W out
+  class OUT1,SWAP muted
+  linkStyle 3,7,11 stroke:#4E9E68,stroke-width:2px
+  linkStyle 1,9,10 stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4
 ```
 
 ### 2-4　Slot 區選法與庫存調用
@@ -124,6 +148,13 @@ flowchart TD
   FILL --> NAT["庫存不夠就自然呈現"]
   SAT["📋 週六檢查點：Weekend Reels＋BigWinBoard 本週新作"] --> MISS{"漏收？"}
   MISS -- 是 --> BU["標「📋 本週補遺」，算在 2 款內，多的進庫存"]
+  classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700
+  classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700
+  classDef muted fill:#EEE8DC,stroke:#A99F8E,color:#6F675A
+  class DAY,MISS,N,PV gate
+  class LATER muted
+  linkStyle 2,13 stroke:#4E9E68,stroke-width:2px
+  linkStyle 1 stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4
 ```
 
 ### 2-5　庫存機制
@@ -137,6 +168,9 @@ flowchart LR
   INV --> O1["Slot：當天 ≤3 款時補到上限"]
   INV --> O2["其他分類：連續空 2 天，第 3 天補 1–2 則"]
   INV --> EX["過期：Slot 7 天・其他 3 天・預告到上線日＋3 天"]
+  classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700
+  classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700
+  classDef muted fill:#EEE8DC,stroke:#A99F8E,color:#6F675A
 ```
 
 ## 三、四種找資料工具對比

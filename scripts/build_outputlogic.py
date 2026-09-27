@@ -14,6 +14,7 @@
 """
 import os
 import html
+import re
 import collections
 import sys
 
@@ -117,9 +118,9 @@ DIAGRAMS = [
   IN ==> OUT["候選清單＋來源健檢"]
   OLD --> OUT
   L2 ==> OUT
-  classDef main fill:#FFF3D6,stroke:#1B1A18,stroke-width:2px,color:#1B1A18
+  classDef main fill:#FBF6EC,stroke:#1B1A18,stroke-width:2px,color:#1B1A18
   classDef minor fill:#EEE8DC,stroke:#A99F8E,stroke-dasharray:4 3,color:#8C8373
-  class S,W,L1,L2,RT,NZ,TW,IN,OUT main
+  class S,L1,L2,RT,IN main
   class TR,E1,E2,E3 minor"""),
     ("2-3　選稿：每則候選要過的關卡", """flowchart TD
   C["候選（程式＋WebSearch）"] --> D{"近 3 天出現過？"}
@@ -204,6 +205,51 @@ TOOL_STEPS = [
 ]
 EXTRA = [("三、四種找資料工具對比", TOOLS), ("三之一、工具 × 步驟對照", TOOL_STEPS), ("四、三種觸發（監理・協會・展會）", TRIGGERS),
          ("五、日報結構：五大分類", CATS), ("六、打分表", SCORE)]
+
+
+# ---------- 流程圖配色：方案 C 修訂版（2026-09-27 定案） ----------
+# 判斷節點＝中灰 #616161 白字；「否／剔除」＝淡橘虛線；「是／通過」＝綠線；最終輸出＝實心綠；直角折線
+FLOW_OUTPUTS = {"2-1": ["Q"], "2-2": ["OUT"], "2-3": ["W"], "2-4": [], "2-5": []}
+REJECT_RX = re.compile(r"丟掉|不收|剔除|失敗|未產出|不上日報")
+EDGE_RX = re.compile(r'^\s*(\w+)\s*(?:==>|-->|-\.->|--\s*"?([^">]*?)"?\s*-->|==\s*"?([^">]*?)"?\s*==>|-\.\s*"?([^">]*?)"?\s*\.->|-->\|"?([^|]*?)"?\|)\s*(\w+)')
+
+def style_flow(key, code):
+    lines = code.split("\n")
+    labels = dict(re.findall(r'(\w+)[\[{(]+"([^"]*)"', code))
+    gates = sorted(set(re.findall(r'(\w+)\{"', code)) - {"TR"})   # TR（補充：三種觸發）維持弱化樣式
+    rejects = [n for n, t in labels.items() if REJECT_RX.search(t)]
+    green, orange, idx = [], [], 0
+    node_def = re.compile(r'(\w+)(?:\[\(|\(\[|\[\[|\(\(|\[|\{|\()"[^"]*"(?:\)\]|\]\)|\]\]|\)\)|\]|\}|\))')
+    for ln in lines:
+        ln = node_def.sub(r"\1", ln)   # 先把行內的節點定義（A["…"]）化簡成 A，邊才不會漏算
+        m = EDGE_RX.match(ln)
+        if not m:
+            continue
+        label = next((g for g in m.groups()[1:5] if g), "") or ""
+        tgt, minor = m.group(6), "-.->" in ln or ".->" in ln
+        if tgt in rejects or m.group(1) in rejects:   # 通往剔除、或從剔除折返的線都用淡橘
+            orange.append(idx)
+        elif not minor and (label.strip() in ("是", "通過", "否") or label.startswith("是")):
+            green.append(idx)
+        idx += 1
+    extra = ["  classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700",
+             "  classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700",
+             "  classDef muted fill:#EEE8DC,stroke:#A99F8E,color:#6F675A"]
+    if gates:
+        extra.append("  class " + ",".join(gates) + " gate")
+    outs = [o for o in FLOW_OUTPUTS.get(key, []) if o in labels]
+    if outs:
+        extra.append("  class " + ",".join(outs) + " out")
+    if rejects:
+        extra.append("  class " + ",".join(rejects) + " muted")
+    if green:
+        extra.append("  linkStyle " + ",".join(map(str, green)) + " stroke:#4E9E68,stroke-width:2px")
+    if orange:
+        extra.append("  linkStyle " + ",".join(map(str, orange)) + " stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4")
+    return code + "\n" + "\n".join(extra)
+
+
+DIAGRAMS = [(t, style_flow(t[:3], c)) for t, c in DIAGRAMS]
 
 
 def esc_cell(s):
@@ -334,7 +380,7 @@ HTML = """<!DOCTYPE html>
   .arch h4:nth-of-type(1){--mk:var(--s1)} .arch h4:nth-of-type(2){--mk:var(--s2)} .arch h4:nth-of-type(3){--mk:var(--s4)} .arch h4:nth-of-type(4){--mk:var(--s5)}
   .arch ul{list-style:none;display:flex;flex-direction:column;gap:0;border-top:1px solid var(--rule)}
   .arch li{padding:9px 4px;border-bottom:1px solid var(--rule)}
-  pre.mermaid{background:transparent;text-align:center;overflow-x:auto;margin:0}
+  pre.mermaid{background:transparent;text-align:center;overflow-x:auto;margin:0;font-family:"Noto Sans TC","PingFang TC",sans-serif;white-space:normal}
   .nav{font-family:"IBM Plex Mono",monospace;font-size:12px;background:var(--dark);color:var(--dark-ink);padding:12px 16px;margin-bottom:18px;line-height:2.1}
   .nav a{color:var(--dark-ink);text-decoration:none;white-space:nowrap;border-bottom:1px solid rgba(237,230,216,.35)}
   .nav a:hover{color:#fff;border-bottom-color:#fff}
@@ -395,7 +441,7 @@ __TABLES__
 </div>
 <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
 <script>
-  if(window.mermaid){mermaid.initialize({startOnLoad:true,securityLevel:"loose",theme:"base",themeVariables:{fontFamily:'"Noto Sans TC","PingFang TC",sans-serif',fontSize:"14px",primaryColor:"#FBF6EC",primaryTextColor:"#1B1A18",primaryBorderColor:"#1B1A18",lineColor:"#5F584D",secondaryColor:"#EEE8DC",tertiaryColor:"#F7F3EA",edgeLabelBackground:"#F7F3EA",clusterBkg:"#F7F3EA"},flowchart:{htmlLabels:true,useMaxWidth:true,curve:"basis"}});}
+  if(window.mermaid){mermaid.initialize({startOnLoad:true,securityLevel:"loose",theme:"base",themeVariables:{fontFamily:'"Noto Sans TC","PingFang TC",sans-serif',fontSize:"14px",primaryColor:"#FBF6EC",primaryTextColor:"#1B1A18",primaryBorderColor:"#5F584D",lineColor:"#8C8373",secondaryColor:"#EEE8DC",tertiaryColor:"#F7F3EA",edgeLabelBackground:"#F7F3EA",clusterBkg:"#F7F3EA"},flowchart:{htmlLabels:true,useMaxWidth:true,curve:"stepAfter"}});}
 </script>
 </body>
 </html>
