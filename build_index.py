@@ -28,31 +28,31 @@ LABEL_OVERRIDE = {
     "2026-09-08": ("2026-09-08＋09", "週二/三"),
 }
 
-NEW_LABEL_FROM = "2026-09-28"  # 從這天起卡片標示改為「· iGaming 市場日報（15' v）／（13' v）」
+NEW_LABEL_FROM = "2026-09-28"  # 從這天起卡片標示改為「· iGaming 市場日報（13' v）／（15' v）」
 
 cards = []
 for date, fname in files:
     disp_date, disp_wd = LABEL_OVERRIDE.get(date, (date, weekday_zh(date)))
     # 卡片標示與底色依「來源與內容」區分：
-    #   <date>.html          ＝ 原本機器（Claude 帳號 natekao）→「（13' v）」、淡橘
-    #   -test／-vN           ＝ 公司帳號機器（nathan.kao@bituslabs.com）→「（15' v）」、維持原樣
+    #   <date>.html          ＝ 原本機器（Claude 帳號 natekao）→「（15' v）」、淡橘
+    #   -test／-vN           ＝ 公司帳號機器（nathan.kao@bituslabs.com）→「（13' v）」、維持原樣
     #   <date>-special.html  ＝ 特別版本內容 → 淡藍
     kind = ""
     vm = re.search(r"-v(\d+)\.html$", fname)
-    old_style = date < NEW_LABEL_FROM  # 過去的卡片維持舊標示，只有新日期用（15' v）／（13' v）
+    old_style = date < NEW_LABEL_FROM  # 過去的卡片維持舊標示，只有新日期用（13' v）／（15' v）
     if fname.endswith("-special.html"):
         label = f"{disp_wd} 特別版本內容"
         kind = " src-special"
     elif fname.endswith("-test.html"):
-        label = f"{disp_wd} （測試） · iGaming 市場日報" if old_style else f"{disp_wd} · iGaming 市場日報（15' v）"
+        label = f"{disp_wd} （測試） · iGaming 市場日報" if old_style else f"{disp_wd} · iGaming 市場日報（13' v）"
     elif vm:
         v = vm.group(1)
         # -v2 ＝ 第二版重跑；-v64 ＝ 用 v6.4 規則重跑（兩位數以上視為規則版本號）
         tag = f"第{v}版" if len(v) == 1 else f"v{v[0]}.{v[1:]} 規則"
         label = (f"{disp_wd} （測試・{tag}） · iGaming 市場日報" if old_style
-                 else f"{disp_wd} · iGaming 市場日報（15' v・{tag}）")
+                 else f"{disp_wd} · iGaming 市場日報（13' v・{tag}）")
     else:
-        label = f"{disp_wd} · iGaming 市場日報" if old_style else f"{disp_wd} · iGaming 市場日報（13' v）"
+        label = f"{disp_wd} · iGaming 市場日報" if old_style else f"{disp_wd} · iGaming 市場日報（15' v）"
         kind = " src-old"
     cards.append(f'''    <a class="card{kind}" href="reports/{html.escape(fname)}">
       <div class="d">{html.escape(disp_date)}</div>
@@ -133,8 +133,8 @@ out = f'''<!DOCTYPE html>
   <div class="sub">每日 iGaming / 博弈產業新聞彙整 · Game Provider 新遊戲、非 Slot、主流動態、菲律賓、市場數據</div>
   <div class="latest">最新：{html.escape(latest)}</div>
   <div class="legend">
-    <span><i style="background:#fff;border-left:4px solid #1D9E75"></i>15' v</span>
-    <span><i style="background:#FFF3E6;border-left:4px solid #E8914A"></i>13' v</span>
+    <span><i style="background:#fff;border-left:4px solid #1D9E75"></i>13' v</span>
+    <span><i style="background:#FFF3E6;border-left:4px solid #E8914A"></i>15' v</span>
     <span><i style="background:#EAF2FF;border-left:4px solid #4F7FE0"></i>特別版本內容</span>
   </div>
   <div class="list">
