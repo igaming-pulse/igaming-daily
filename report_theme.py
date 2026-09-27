@@ -23,6 +23,7 @@ REPORTS = os.path.join(ROOT, "reports")
 BACKUP = os.path.join(REPORTS, "_classic")
 FLAG = os.path.join(ROOT, "report_theme.txt")
 MARK = "<!-- theme:spectrum-c -->"
+THEME_FROM = "2026-09-27"  # 只套用這天以後的日報；更早的保留原樣（使用者要求過去的頁面不改）
 NAME_RX = re.compile(r"^\d{4}-\d{2}-\d{2}(-test|-v\d+|-special)?\.html$")
 
 CSS = r'''
@@ -46,7 +47,7 @@ h1 .wd{font-size:22px;font-weight:700;color:var(--sub);letter-spacing:0}
 .spectrum{display:flex;height:8px;margin-top:4px}.spectrum i{flex:1}
 .mast-side{background:var(--dark);color:var(--dark-ink);padding:18px 18px;display:flex;flex-direction:column;gap:0}
 .mast-side .cap{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#B9AF9C;padding-bottom:8px}
-.grid{display:flex;flex-direction:column;gap:0;margin:0}
+.grid,.stats,.stats-grid{display:flex;flex-direction:column;gap:0;margin:0}
 .stat{display:flex;align-items:baseline;justify-content:space-between;gap:10px;background:transparent;border:none!important;border-top:1px solid rgba(237,230,216,.18)!important;border-radius:0;padding:9px 0}
 .stat .n{font-family:"IBM Plex Mono",monospace;font-size:22px;font-weight:600;color:#fff!important;font-variant-numeric:tabular-nums;order:2}
 .stat .l{font-size:13px;color:var(--dark-ink);order:1;display:flex;align-items:center;gap:8px}
@@ -56,6 +57,11 @@ section{margin-top:40px}
 .sh{font-size:24px;font-weight:900;color:var(--ink)!important;border:none!important;border-bottom:2px solid var(--ink)!important;padding:0 0 10px!important;margin:0 0 16px;display:flex;align-items:center;gap:10px}
 .sh::before{content:"";width:14px;height:14px;background:var(--cat);flex:none;order:-2}
 .sh .em{font-size:1.1em}
+.sec-title{font-size:24px;font-weight:900;color:var(--ink)!important;border:none!important;border-bottom:2px solid var(--ink)!important;padding:0 0 10px!important;margin:0 0 16px;display:flex;align-items:center;gap:10px;background:none!important}
+.sec-title::before{content:"";width:14px;height:14px;background:var(--cat);flex:none;order:-2}
+.sec-title h2{font-size:inherit;font-weight:900;margin:0;color:var(--ink)}
+.sec-title .emo,.sec-title .emoji{font-size:1.1em}
+.sec-title .cnt{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;color:var(--sheet)!important;background:var(--ink);padding:2px 9px;margin-left:auto}
 .sh .cnt{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;color:var(--sheet)!important;background:var(--ink);padding:2px 9px;margin-left:auto}
 section:has(.c1){--cat:var(--s4)} section:has(.c5){--cat:var(--s1)} section:has(.c2){--cat:var(--s5)}
 section:has(.c3){--cat:var(--s2)} section:has(.c4){--cat:var(--s6)}
@@ -93,17 +99,19 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="
 
 
 def compatible(s):
-    return all(k in s for k in ("<header>", 'class="date"', 'class="grid"')) and re.search(r'class="card c[1-5]"', s)
+    # v2（2026-09-28）：統計格改為選用；區塊標題 sh／sec-title 都可
+    return all(k in s for k in ("<header>", 'class="date"')) and re.search(r'class="card c[1-5]"', s)
 
 
 def restyle(s):
     s = re.sub(r"<style>.*?</style>", "<style>" + CSS + "</style>", s, count=1, flags=re.S)
     s = s.replace("</head>", FONTS + "</head>", 1)
-    dm = re.search(r'<div class="date">(\d{4}-\d{2}-\d{2})（(週.)）</div>\s*<h1>(.*?)</h1>', s, re.S)
+    dm = re.search(r'<div class="date">\s*(\d{4}-\d{2}-\d{2})（(週.|星期.)）[^<]*</div>\s*<h1>(.*?)</h1>', s, re.S)
     if dm:
-        s = s.replace(dm.group(0), f'<div class="brand">{dm.group(3)}</div><h1>{dm.group(1)} <span class="wd">{dm.group(2)}</span></h1>', 1)
+        wd = dm.group(2).replace("星期", "週")
+        s = s.replace(dm.group(0), f'<div class="brand">{dm.group(3)}</div><h1>{dm.group(1)} <span class="wd">{wd}</span></h1>', 1)
     hm = re.search(r"<header>(.*?)</header>", s, re.S)
-    gm = re.search(r'<div class="grid">.*?</div></div></div>', s, re.S)
+    gm = re.search(r'<div class="(?:grid|stats|stats-grid)">\s*(?:<div class="stat(?:\s[^"]*)?"[^>]*>.*?</div>\s*</div>\s*)+</div>', s, re.S)
     grid = gm.group(0) if gm else ""
     if gm:
         s = s.replace(grid, "", 1)
@@ -111,8 +119,8 @@ def restyle(s):
     def mk(m):
         lab = m.group(0)
         col = next((v for k, v in MK.items() if k in lab), "#999")
-        return lab.replace('class="stat"', f'class="stat" style="--mk:{col}"', 1)
-    grid = re.sub(r'<div class="stat"[^>]*>.*?</div></div>', mk, grid, flags=re.S)
+        return re.sub(r'class="stat(?:\s[^"]*)?"', f'class="stat" style="--mk:{col}"', lab, count=1)
+    grid = re.sub(r'<div class="stat(?:\s[^"]*)?"[^>]*>.*?</div>\s*</div>', mk, grid, flags=re.S)
     grid = re.sub(r'style="border-top-color:[^"]*"', "", grid)
     spectrum = ('<div class="spectrum" aria-hidden="true">' +
                 "".join(f'<i style="background:var(--s{i})"></i>' for i in range(1, 7)) + "</div>")
@@ -136,6 +144,8 @@ def apply_all(verbose=True):
     done, skipped = [], []
     os.makedirs(BACKUP, exist_ok=True)
     for f in files():
+        if f[:10] < THEME_FROM:
+            continue
         p = os.path.join(REPORTS, f)
         s = open(p, encoding="utf-8").read()
         if MARK in s:
@@ -175,7 +185,8 @@ def status():
     print(f"開關：{flag()}")
     for f in files():
         s = open(os.path.join(REPORTS, f), encoding="utf-8").read()
-        st = "spectrum-c" if MARK in s else ("可套用" if compatible(s) else "結構不符（跳過）")
+        st = ("spectrum-c" if MARK in s else "早於套用起始日（不動）" if f[:10] < THEME_FROM
+              else ("可套用" if compatible(s) else "結構不符（跳過）"))
         print(f"  {f}：{st}")
 
 
