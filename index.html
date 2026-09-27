@@ -18,6 +18,7 @@
   .list{display:flex;flex-direction:column;gap:12px}
   a.card{display:flex;align-items:center;gap:14px;background:var(--card);border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:12px;padding:16px 18px;text-decoration:none;color:inherit;transition:box-shadow .15s}
   a.card:hover{box-shadow:0 4px 14px rgba(0,0,0,.07)}
+  a.card[hidden]{display:none}  /* 分頁用：a.card 的 display:flex 會蓋過瀏覽器預設的 [hidden]，要明確寫 */
   .card .d{font-size:19px;font-weight:800;white-space:nowrap}
   .card .w{font-size:13px;color:var(--sub);flex:1}
   .card .go{font-size:13px;font-weight:700;color:var(--accent);white-space:nowrap}
