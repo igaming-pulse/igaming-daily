@@ -13,6 +13,12 @@ if [ ! -f "$SRC" ]; then
   exit 1
 fi
 
+# 若上次發布卡在未完成的 rebase（例如 index.html 衝突），先中止回到乾淨狀態
+if [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ]; then
+  echo "（偵測到未完成的 rebase，先中止）"
+  git rebase --abort
+fi
+
 cp "$SRC" "reports/${DATE}.html"
 
 # /usr/local/bin/python3 目前架構損壞（Bad CPU type），改用系統內建的 /usr/bin/python3
@@ -27,6 +33,19 @@ else
   git commit -m "日報：${DATE}"
 fi
 
-git pull --rebase origin main
+if ! git pull --rebase origin main; then
+  # index.html 是 build_index.py 的自動產物：衝突時直接依 reports/ 重建後繼續 rebase
+  CONFLICTS="$(git diff --name-only --diff-filter=U)"
+  if [ "$CONFLICTS" = "index.html" ]; then
+    echo "（index.html 衝突，自動重建後繼續）"
+    "$PY3" build_index.py
+    git add index.html
+    GIT_EDITOR=true git rebase --continue
+  else
+    echo "✗ rebase 衝突檔案非僅 index.html：$CONFLICTS"
+    git rebase --abort
+    exit 1
+  fi
+fi
 git push
 echo "✓ 已發布 ${DATE}。網址：https://igaming-pulse.github.io/igaming-daily/（約 30 秒後更新）"
