@@ -71,6 +71,11 @@ git pull --ff-only >>"$LOG" 2>&1 || log "⚠️ git pull 失敗，用本地版�
 HEAD_BEFORE=$(git rev-parse HEAD 2>/dev/null || echo "none")
 START_EPOCH=$(date +%s)
 
+# v6.4：開跑前先用程式收集候選（第一層 WP-API／RSS ＋ 第二層 Firecrawl 列表頁）
+log "harvest…"
+python3 scripts/harvest.py >>"$LOG" 2>&1 && log "  ✓ harvest 完成：state/harvest/${DATE}.md" \
+  || log "  ⚠️ harvest 失敗，Claude 會依 SKILL.md 自行補跑或退回舊流程"
+
 log "claude $CLAUDE_ARGS -p <docs/scheduled-prompt.txt>"
 # 同時印到畫面與 log —— 手動跑時才看得到失敗原因（pipefail 讓 $? 仍是 claude 的退出碼）
 # shellcheck disable=SC2086

@@ -39,6 +39,13 @@ MSG_PREFIX = os.environ.get("MSG_PREFIX", "").strip()
 # 併行期用：按鈕要指向網站上的哪一份。空＝正式版 <date>.html；"-test"＝併行版 <date>-test.html。
 REPORT_URL_SUFFIX = os.environ.get("REPORT_URL_SUFFIX", "").strip()
 
+# 手動補發用：指定要發哪一天（預設今天）與哪一份預存訊息（預設 state/pending_telegram.txt）。
+# 例：補發 v6.4 重跑版 → REPORT_DATE=2026-09-26、PENDING_PATH=state/pending_telegram_v64_2026-09-26.txt
+REPORT_DATE = os.environ.get("REPORT_DATE", "").strip()
+PENDING_PATH = os.environ.get("PENDING_PATH", "").strip()
+if PENDING_PATH:
+    PENDING = os.path.join(ROOT, PENDING_PATH)
+
 
 def today_taipei():
     return datetime.now(TAIPEI).strftime("%Y-%m-%d")
@@ -95,7 +102,7 @@ def main():
         print("✗ 缺少 TELEGRAM_BOT_TOKEN 或 TELEGRAM_CHAT_ID —— 略過（不視為失敗）")
         return 0
 
-    date = today_taipei()
+    date = REPORT_DATE or today_taipei()
     report_path = os.path.join(ROOT, "reports", f"{date}.html")
     report_url = INDEX_URL + f"reports/{date}.html"
 

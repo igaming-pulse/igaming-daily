@@ -1,0 +1,27 @@
+🎰 iGaming 市場日報 2026-09-27（週日）（v6.4 規則）
+🎰 Slot 3 ・ 🕹️ 非 Slot 0 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 0 ・ 📊 市場數據 3
+
+❗今日收錄偏少（共 10 則），Brazil 全面禁賭為本窗絕對主流話題，其餘分類候選稀薄
+
+🎰 Slot 新遊戲
+01 🆕 新作預告（12/3上線）Crabby's Gold 3 — Play'n GO
+02 🆕 新作預告（10/22上線）Propaganda 2 — ELK Studios
+03 🆕 新作預告（10/21上線）Greedy Pumpking — Thunderkick
+
+🤝 主流 GP／平台動態
+01 巴西總統盧拉簽署臨時措施，全面禁止線上博彩營運
+02 預測市場監理持續收緊：Kalshi 遭聯邦第六巡迴法院裁定敗訴
+03 CFTC 發布預測市場操縱警告，紐約州檢察長對 Kalshi、Polymarket 提告
+04 Malta MGA 公告揭發 12 個冒用執照標章的非法博彩網站
+
+📊 市場數據 & 趨勢
+01 研究估算巴西非法博彩市場規模上看 436 億雷亞爾
+02 2026 年 iGaming 併購市場降溫，走向大者恆大整合格局
+03 分析：博彩業者為何甘願為頂規 AI 模型支付溢價
+
+📝 品質備註（本次爬找判斷）
+1. 本窗 79 則 harvest 窗內候選中約 68 則與巴西全面禁賭同一事件相關，排擠了其餘題材的版面；已合併為 1 則多來源綜合報導，其餘巴西相關內容僅在確屬不同事件（非法市場規模研究）時另計 1 則市場數據。
+2. 🕹️非Slot、🇵🇭菲律賓本窗皆掛零：harvest 本身即顯示菲律賓窗內候選 0 則，非Slot窗內僅 3 則且均與巴西禁令重複或屬已於昨日報導過的舊聞（Playtech Dab & Blab 已於 9/26 報導）；另加碼跑第三層 WebSearch（EEZE、Acewin、Omiplay、YellowBat、ATG、菲律賓四平台、PAGCOR 等共逾 20 次查詢）均未找到窗內合格候選，兩區庫存亦均為 0，故本次從缺，非抓取不足所致。
+3. EEZE 已連續 3 天窗內無相關消息，依例外規則跳過今日固定收錄。
+4. BigWinBoard 新作列表中的 Nigel of Ra（Quickspin）、Cats Collect（Playtech）標示「September 26, 2026 (TBC)」，惟頁面 metadata 實際發布日為 9/16、內文無實質評測、SlotCatalog 亦查無此二款遊戲，判斷為佔位頁後予以剔除，未遞補（Slot 窗內僅得 3 款，已達成 SKILL 允許之「≥3 款不強制庫存補位」門檻）。
+5. iGamingToday 另一則「MGM Resorts to Stay Public After People Inc Drops Takeover Plan」經核實實際發布於 9/24（窗外），且與 9/25 日報已收錄之同一則故事重複，已排除。

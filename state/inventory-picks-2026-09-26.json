@@ -1,0 +1,33 @@
+{
+  "shown": [
+    {"cat": "cat1", "title": "Chunky Carlo's Money Mania", "gp": "Play'n GO"},
+    {"cat": "cat1", "title": "Wheel of Fortune Magic Coins（Graton Resort 全球首發）", "gp": "IGT"},
+    {"cat": "cat1", "title": "Bonanza Billion Merge Up+", "gp": "BGaming"},
+    {"cat": "cat1", "title": "Raptor A865 65吋機台", "gp": "Ainsworth"},
+    {"cat": "cat1", "title": "Lucky Foxilian Hold and Win", "gp": "1spin4win"},
+    {"cat": "cat2", "title": "Dab & Blab Live Bingo Stream", "gp": "Playtech"},
+    {"cat": "cat2", "title": "Inferno Roulette（Vindral V-Track）", "gp": "CreedRoomz"},
+    {"cat": "cat3", "title": "Yggdrasil 攜手 Fortuna Entertainment 進軍捷克市場"},
+    {"cat": "cat3", "title": "Wazdan 簽署 Games Valley 內容聚合協議"},
+    {"cat": "cat3", "title": "Thunderkick 與挪威國家彩券 Norsk Tipping 合作"},
+    {"cat": "cat3", "title": "Danske Spil 採用 EveryMatrix 平台技術正式上線"},
+    {"cat": "cat3", "title": "Aristocrat Interactive 旗下 CXS 取得 ISO/IEC 27001:2022 認證"},
+    {"cat": "cat4", "title": "'Burstin' Chillies' 於 Solaire Manila 首發", "gp": "LT Game"},
+    {"cat": "cat4", "title": "Maybank 下修 Bloomberry EBITDA 預期但看好 2027 轉盈"},
+    {"cat": "cat4", "title": "PAGCOR Tengco 說明脫鉤後 Casino Filipino 場館去留"},
+    {"cat": "cat5", "title": "三大 Studio 掌控美國前 100 熱門 Slot 三分之一"},
+    {"cat": "cat5", "title": "AGA 研究：博弈玩家財務素養高於非玩家"},
+    {"cat": "cat5", "title": "西班牙 2026 上半年線上博彩營收逼近 10 億歐元"}
+  ],
+  "stock": [
+    {"cat": "cat1", "title": "Nigel of Ra", "gp": "Quickspin", "b": 3, "first_seen": "2026-09-26",
+     "release_date": "",
+     "sources": [{"name": "BigWinBoard（TBC，頁面 metadata 顯示 2026-09-16 舊日期，疑為佔位頁，待確認正式上線日）", "url": "https://www.bigwinboard.com/nigel-of-ra-quickspin-slot-review/", "published": ""}]},
+    {"cat": "cat1", "title": "Cats Collect", "gp": "Playtech", "b": 3, "first_seen": "2026-09-26",
+     "release_date": "",
+     "sources": [{"name": "BigWinBoard（TBC，頁面 metadata 顯示 2026-09-16 舊日期，疑為佔位頁，待確認正式上線日）", "url": "https://www.bigwinboard.com/cats-collect-playtech-slot-review/", "published": ""}]},
+    {"cat": "cat1", "title": "3 Dragon Boosters", "gp": "BetGames", "b": 1, "first_seen": "2026-09-25",
+     "release_date": "",
+     "sources": [{"name": "European Gaming", "url": "https://europeangaming.eu/portal/press-releases/2026/09/25/214738/betgames-3-dragon-boosters-slot/", "published": "2026-09-25 13:08"}]}
+  ]
+}

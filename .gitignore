@@ -1,2 +1,4 @@
 state/run.log
 state/*.log
+state/harvest/*.json
+state/harvest/*-lists/

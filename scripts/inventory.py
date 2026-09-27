@@ -1,0 +1,160 @@
+#!/usr/bin/env python3
+"""
+v6.4 庫存與重複控管（2026-09-27 定案）。
+
+狀態檔：state/inventory.json（跟著 repo 走，每晚的執行都讀得到）
+  slots    ：Slot／新遊戲庫存（含已上線、提前評測、預告）
+  others   ：其他分類的庫存（cat2–cat5）
+  history  ：已經在日報出現過的項目（去重用）
+
+規則（SKILL.md「📦 庫存機制」為準）：
+  - Slot：每天出 5 款；當天新作 < 3 款才從庫存補到 5 款；首次看到後保鮮 7 天，
+          未上線的預告保留到「上線日＋3 天」。
+  - 其他分類：保鮮 3 天；某區連續空 2 天可以，第 3 天必須從庫存補。
+  - 去重：3 天內出現過的不再出現；超過 3 天又出現且重要（例：預告→正式上線）可再展示。
+
+用法：
+  python3 scripts/inventory.py show --date 2026-09-27
+      清掉過期項目，印出「可用庫存」與「近 3 天已出現」清單（給 Claude 讀）。
+  python3 scripts/inventory.py update --date 2026-09-27 --file state/inventory-picks-2026-09-27.json
+      picks 檔格式見 SKILL.md：{"shown":[...], "stock":[...]}，寫回 inventory.json。
+"""
+import argparse
+import json
+import os
+import re
+from datetime import date, timedelta
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+INV = os.path.join(ROOT, "state", "inventory.json")
+SLOT_FRESH_DAYS = 7
+SLOT_AFTER_RELEASE_DAYS = 3
+OTHER_FRESH_DAYS = 3
+DEDUP_DAYS = 3
+
+
+def key_of(item):
+    base = item.get("key") or f"{item.get('title', '')}|{item.get('gp', '')}"
+    return re.sub(r"[^0-9a-z一-鿿|]+", "", base.lower())
+
+
+def load():
+    if os.path.exists(INV):
+        with open(INV, encoding="utf-8") as f:
+            return json.load(f)
+    return {"slots": [], "others": [], "history": []}
+
+
+def save(inv):
+    os.makedirs(os.path.dirname(INV), exist_ok=True)
+    with open(INV, "w", encoding="utf-8") as f:
+        json.dump(inv, f, ensure_ascii=False, indent=1)
+
+
+def d(s):
+    return date.fromisoformat(s[:10])
+
+
+def expired(item, today, is_slot):
+    first = d(item["first_seen"])
+    if is_slot:
+        rel = item.get("release_date")
+        if rel and d(rel) > first:
+            return today > max(first + timedelta(days=SLOT_FRESH_DAYS), d(rel) + timedelta(days=SLOT_AFTER_RELEASE_DAYS))
+        return today > first + timedelta(days=SLOT_FRESH_DAYS)
+    return today > first + timedelta(days=OTHER_FRESH_DAYS)
+
+
+def recent_keys(inv, today):
+    return {h["key"]: h for h in inv["history"] if 0 <= (today - d(h["date"])).days <= DEDUP_DAYS}
+
+
+def prune(inv, today):
+    inv["slots"] = [x for x in inv["slots"] if not expired(x, today, True)]
+    inv["others"] = [x for x in inv["others"] if not expired(x, today, False)]
+    inv["history"] = [h for h in inv["history"] if (today - d(h["date"])).days <= 30]
+
+
+def cmd_show(a):
+    inv = load()
+    today = date.fromisoformat(a.date)
+    prune(inv, today)
+    save(inv)
+    rk = recent_keys(inv, today)
+    print(f"# 庫存狀態 {a.date}（Slot 保鮮 {SLOT_FRESH_DAYS} 天、其他 {OTHER_FRESH_DAYS} 天、去重 {DEDUP_DAYS} 天）\n")
+    slots = [x for x in inv["slots"] if key_of(x) not in rk]
+    slots.sort(key=lambda x: (-(x.get("b") or 0), x["first_seen"]), reverse=False)
+    print(f"## 🎰 Slot 可用庫存 {len(slots)} 款（B 分高→首見早排序；當天新作 < 3 款時從這裡補到 5 款）")
+    for x in slots:
+        rel = f"｜上線日 {x['release_date']}" if x.get("release_date") else ""
+        src = x.get("sources", [{}])[0]
+        print(f"- [{x.get('b', '?')}] {x['title']} — {x.get('gp', '?')}｜首見 {x['first_seen']}{rel}"
+              f"｜{src.get('name', '')} {src.get('url', '')}".rstrip())
+    print()
+    for cat in ["cat2", "cat3", "cat4", "cat5"]:
+        items = [x for x in inv["others"] if x.get("cat") == cat and key_of(x) not in rk]
+        print(f"## {cat} 可用庫存 {len(items)} 則")
+        for x in items:
+            src = x.get("sources", [{}])[0]
+            print(f"- {x['title']}｜首見 {x['first_seen']}｜{src.get('name', '')} {src.get('url', '')}".rstrip())
+        print()
+    print(f"## 🚫 近 {DEDUP_DAYS} 天已出現（不可重複；超過 {DEDUP_DAYS} 天且有重大更新才可再展示）")
+    for k, h in sorted(rk.items(), key=lambda kv: kv[1]["date"], reverse=True):
+        print(f"- {h['date']}｜{h.get('cat', '')}｜{h['title']}" + (f" — {h['gp']}" if h.get("gp") else ""))
+    print()
+    streak = {}
+    for cat in ["cat1", "cat2", "cat3", "cat4", "cat5"]:
+        n = 0
+        for i in range(1, 4):
+            day = (today - timedelta(days=i)).isoformat()
+            if any(h["date"] == day and h.get("cat") == cat for h in inv["history"]):
+                break
+            if not any(h["date"] == day for h in inv["history"]):
+                break  # 那天沒有紀錄（系統還沒上線），不算空
+            n += 1
+        streak[cat] = n
+    print("## 📉 各區連續空白天數（≥2 表示今天必須從庫存補）")
+    print("- " + "、".join(f"{c} {n} 天" for c, n in streak.items()))
+
+
+def cmd_update(a):
+    inv = load()
+    today = date.fromisoformat(a.date)
+    with open(a.file, encoding="utf-8") as f:
+        picks = json.load(f)
+    shown_keys = set()
+    for x in picks.get("shown", []):
+        k = key_of(x)
+        shown_keys.add(k)
+        inv["history"].append({"key": k, "date": a.date, "cat": x.get("cat", ""), "title": x.get("title", ""),
+                               "gp": x.get("gp", "")})
+    inv["slots"] = [x for x in inv["slots"] if key_of(x) not in shown_keys]
+    inv["others"] = [x for x in inv["others"] if key_of(x) not in shown_keys]
+    have = {key_of(x) for x in inv["slots"] + inv["others"]}
+    added = 0
+    for x in picks.get("stock", []):
+        k = key_of(x)
+        if k in have or k in shown_keys:
+            continue
+        x.setdefault("first_seen", a.date)
+        x["key"] = x.get("key") or k
+        (inv["slots"] if x.get("cat") == "cat1" else inv["others"]).append(x)
+        have.add(k)
+        added += 1
+    prune(inv, today)
+    save(inv)
+    print(f"✓ 庫存更新 {a.date}：已出現 {len(shown_keys)} 則寫入紀錄、新增庫存 {added} 則；"
+          f"目前 Slot 庫存 {len(inv['slots'])}、其他 {len(inv['others'])}")
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    sub = ap.add_subparsers(dest="cmd", required=True)
+    s = sub.add_parser("show"); s.add_argument("--date", required=True)
+    u = sub.add_parser("update"); u.add_argument("--date", required=True); u.add_argument("--file", required=True)
+    a = ap.parse_args()
+    {"show": cmd_show, "update": cmd_update}[a.cmd](a)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,15 @@
+{
+  "shown": [
+    {"cat": "cat1", "title": "Crabby's Gold 3", "gp": "Play'n GO"},
+    {"cat": "cat1", "title": "Propaganda 2", "gp": "ELK Studios"},
+    {"cat": "cat1", "title": "Greedy Pumpking", "gp": "Thunderkick"},
+    {"cat": "cat3", "title": "巴西總統盧拉簽署臨時措施，全面禁止線上博彩營運", "gp": "Government of Brazil"},
+    {"cat": "cat3", "title": "預測市場監理持續收緊：Kalshi遭聯邦第六巡迴法院裁定敗訴", "gp": "Kalshi"},
+    {"cat": "cat3", "title": "CFTC發布預測市場操縱警告，紐約州檢察長對Kalshi、Polymarket提告", "gp": "Kalshi/Polymarket/CFTC"},
+    {"cat": "cat3", "title": "Malta MGA公告揭發12個冒用執照標章的非法博彩網站", "gp": "MGA"},
+    {"cat": "cat5", "title": "研究估算巴西非法博彩市場規模上看436億雷亞爾", "gp": "IBJR/LCA"},
+    {"cat": "cat5", "title": "2026年iGaming併購市場降溫，走向大者恆大整合格局", "gp": "Business of iGaming"},
+    {"cat": "cat5", "title": "分析：博彩業者為何甘願為頂規AI模型支付溢價", "gp": "Business of iGaming"}
+  ],
+  "stock": []
+}

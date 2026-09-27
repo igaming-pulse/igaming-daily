@@ -36,7 +36,7 @@ INCLUDE_CATEGORIES = [
     "市場數據／分析公司",
     "監理機關／官方數據",
 ]
-BATCH_SIZE = 5  # 每日輪掃批次大小（改這裡就改變覆蓋週期與 credit 用量）
+BATCH_SIZE = 3  # v6.4：有 API／RSS 的來源改由 harvest.py 每天全掃，輪掃只剩「頻率＝輪掃」的來源
 
 
 def parse(md):
@@ -52,7 +52,8 @@ def parse(md):
             cells = [c.strip() for c in line.strip().strip('|').split('|')]
             if len(cells) >= 2 and cells[0] not in ('名稱', '') and '---' not in cells[0]:
                 m = re.search(r'https?://\S+', cells[1])
-                if m:
+                # v6.4：sources.md 有「頻率」欄時，只收頻率＝輪掃的來源
+                if m and (len(cells) < 6 or cells[3] == '輪掃'):
                     rows.append((cur, cells[0], m.group(0)))
     return rows
 
@@ -87,7 +88,7 @@ def main():
 
     print(f"# 今日輪掃批次 {idx + 1}/{nb}（日期 {day.isoformat()}，"
           f"輪掃池 {n} 個新聞型來源，本批 {len(batch)} 個，約 {nb} 天覆蓋一輪）")
-    print("# 用法：逐一 firecrawl summary（onlyMainContent:true），看『收集時間窗內』有無夠份量新聞；")
+    print("# 用法：v6.4 由 harvest.py 自動以 firecrawl markdown 抓回（onlyMainContent:false），看『收集時間窗內』有無夠份量新聞；")
     print("#       有 → 納入候選、與搜尋結果去重、順手取 metadata['og:image']；沒有 → 跳過（多數會沒有，正常）。")
     for cat, name, url in batch:
         print(f"{name}\t{cat}\t{url}")
