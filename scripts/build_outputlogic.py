@@ -50,18 +50,30 @@ for c in groups:
 ncats = len(active_cats)
 catsum = "、".join(f"{c} {len(groups[c])}" for c in active_cats)
 
-ARCH = (
-    "本日報為**全自動**產物（規則版本 **v6.4.2**）：每天**台北時間 02:30** 由 Mac 排程啟動。"
-    "Claude 開工前，程式 **harvest.py** 先把當天的新聞收進來：**第一層**用 RSS／WordPress API 免費掃約 90 個來源，"
-    "拿到每篇文章**精確到分鐘的發布時間**；**第二層**用 Firecrawl 抓沒有 API 的高價值站（Slot 資料庫站、SBC News、IAG）與每日輪掃 3 站，"
-    "並依**三種觸發**（事件、行事曆、每週一固定週期）抓監理機關、協會與展會。"
-    f"來源主檔是 Excel（目前 **{total} 個來源、{ncats} 大分類**），「抓取方式」「頻率」欄決定每個來源怎麼抓。"
-    "接著 Claude 讀候選清單與**庫存**狀態，用 **WebSearch** 補程式抓不到的題目（菲律賓平台、新品牌進菲、實體機大廠、Slot 補漏），"
-    "以「品牌＋事件＋地區＋時效」打分，套用 **3 天去重**與硬上限選稿：**Slot 平日 5 款、週末 2 款，窗內大廠新作全收，當天 ≤3 款才從庫存補**。"
-    "入選者先過**主來源日期關**（發布日期含年份且在 24 小時窗內），再做**交叉查證**並補齊參數（只增不減）。"
-    "寫稿、渲染 HTML、寫 Telegram 預存訊息、更新庫存後，以單一 commit 推上 repo，網站由 GitHub Pages 自動更新；"
-    "**Telegram 由 GitHub Actions 在早上定時推播**（當天沒有日報則改發「未產出」警告）。"
-)
+ARCH_INTRO = ("本日報為**全自動**產物（規則版本 **v6.4.2**）：每天**台北時間 02:30** 由 Mac 排程啟動，"
+              "從收集、選稿、查證到發布與推播，全程不需人工介入。")
+ARCH_SECTIONS = [
+    ("① 收集：Claude 開工前，程式 harvest.py 先把當天的新聞收進來", [
+        "**第一層｜RSS／WordPress API**：免費掃約 90 個來源，取得每篇文章**精確到分鐘的發布時間**",
+        "**第二層｜Firecrawl**：抓沒有 API 的高價值站（Slot 資料庫站、SBC News、IAG），加上每日輪掃 3 站",
+        "**補充｜三種觸發**：事件、行事曆、每週一固定週期，抓監理機關、協會與展會（小眾，數量少）",
+        f"**來源主檔**：Excel（目前 **{total} 個來源、{ncats} 大分類**），「抓取方式」「頻率」欄決定每個來源怎麼抓",
+    ]),
+    ("② 選稿：Claude 讀候選清單與庫存", [
+        "**第三層｜WebSearch**：補程式抓不到的題目（菲律賓平台、新品牌進菲、實體機大廠、Slot 補漏）",
+        "**打分**：品牌＋事件＋地區＋時效，套用 **3 天去重**與硬上限",
+        "**Slot 區**：平日 5 款、週末 2 款；窗內大廠新作全收；當天 ≤3 款才從**庫存**補",
+    ]),
+    ("③ 查證：只對入選的新聞", [
+        "**主來源日期關**：發布日期含年份，且落在 24 小時收集窗內",
+        "**交叉查證**：至少一個獨立來源佐證，補齊盤面、倍率、RTP 等參數（只增不減）",
+    ]),
+    ("④ 發布與推播", [
+        "寫稿、渲染 HTML、寫 Telegram 預存訊息、更新庫存，以**單一 commit** 推上 repo",
+        "網站由 **GitHub Pages** 自動更新",
+        "**Telegram** 由 GitHub Actions 在早上定時推播；當天沒有日報則改發「未產出」警告",
+    ]),
+]
 
 DIAGRAMS = [
     ("2-1　每日總流程", """flowchart TD
@@ -83,28 +95,32 @@ DIAGRAMS = [
   O --> Q["早上 GitHub Actions 推播 Telegram"]
   X --> R["推播「日報未產出」警告"]"""),
     ("2-2　收集：網站內容怎麼抓、怎麼判斷", """flowchart TD
-  S["Excel 來源主檔"] --> W{"抓取方式／頻率？"}
-  W -- "RSS／WP API（約 90）" --> L1["第一層 curl：文章清單＋精確時間"]
-  W -- "Firecrawl・每日（6）" --> L2["第二層 Firecrawl：Slot 資料庫站・SBC News・IAG"]
-  W -- "Firecrawl・輪掃（約 70）" --> RT["每天輪 3 個"]
-  W -- "每週／事件（監理・協會）" --> TR{"三種觸發"}
-  W -- "行事曆（展會）" --> TR
-  TR --> E1["事件：標題命中關鍵字<br/>每個關鍵字每週一次"]
-  TR --> E2["行事曆：開展前 14 天～閉展日"]
-  TR --> E3["固定：每週一輪 3 個"]
-  RT --> L2
-  E1 --> L2
-  E2 --> L2
-  E3 --> L2
-  L1 --> NZ{"雜訊？樂透開獎・體育賠率<br/>綜合媒體無博彩關鍵字"}
+  S["Excel 來源主檔"] ==> W{"抓取方式／頻率？"}
+  W == "RSS／WP API（約 90）" ==> L1["第一層 curl：文章清單＋精確時間"]
+  W == "Firecrawl・每日（6）" ==> L2["第二層 Firecrawl：Slot 資料庫站・SBC News・IAG"]
+  W == "Firecrawl・輪掃（約 70）" ==> RT["每天輪 3 個"]
+  W -. "每週／事件（監理・協會）" .-> TR{"補充：三種觸發"}
+  W -. "行事曆（展會）" .-> TR
+  TR -.-> E1["事件：標題命中關鍵字<br/>每個關鍵字每週一次"]
+  TR -.-> E2["行事曆：開展前 14 天～閉展日"]
+  TR -.-> E3["固定：每週一輪 3 個"]
+  RT ==> L2
+  E1 -.-> L2
+  E2 -.-> L2
+  E3 -.-> L2
+  L1 ==> NZ{"雜訊？樂透開獎・體育賠率<br/>綜合媒體無博彩關鍵字"}
   NZ -- 是 --> DROP["丟掉"]
-  NZ -- 否 --> TW{"在 24 小時窗內？"}
-  TW -- 是 --> IN["✅ 當日候選"]
+  NZ == 否 ==> TW{"在 24 小時窗內？"}
+  TW == 是 ==> IN["✅ 當日候選"]
   TW -- "否，Slot 7 天內／其他 3 天內" --> OLD["窗外近期＝庫存候選"]
   TW -- 更舊 --> DROP
-  IN --> OUT["候選清單＋來源健檢"]
+  IN ==> OUT["候選清單＋來源健檢"]
   OLD --> OUT
-  L2 --> OUT"""),
+  L2 ==> OUT
+  classDef main fill:#E1F5EE,stroke:#0F6E56,stroke-width:2px,color:#1A2230
+  classDef minor fill:#F7F8FA,stroke:#B8C0CC,stroke-dasharray:4 3,color:#8A94A3
+  class S,W,L1,L2,RT,NZ,TW,IN,OUT main
+  class TR,E1,E2,E3 minor"""),
     ("2-3　選稿：每則候選要過的關卡", """flowchart TD
   C["候選（程式＋WebSearch）"] --> D{"近 3 天出現過？"}
   D -- "是，無重大更新" --> OUT1["不收"]
@@ -191,8 +207,11 @@ def esc_cell(s):
 md = [
     "# 🎰 iGaming 市場日報 — OutputLogic（運作說明）", "",
     "> 本頁記錄「iGaming 市場日報」如何自動生成、涵蓋哪些來源、用什麼邏輯判斷與排序。", "",
-    "## 一、生成的基本架構", "", ARCH, "", "## 二、運作邏輯（流程圖）", "",
+    "## 一、生成的基本架構", "", ARCH_INTRO, "",
 ]
+for head, items in ARCH_SECTIONS:
+    md += [f"**{head}**", ""] + [f"- {x}" for x in items] + [""]
+md += ["## 二、運作邏輯（流程圖）", ""]
 for title, code in DIAGRAMS:
     md += [f"### {title}", "", "```mermaid", code, "```", ""]
 for title, tbl in EXTRA:
@@ -200,16 +219,16 @@ for title, tbl in EXTRA:
     md += ["| " + " | ".join(esc_cell(x) for x in row) + " |" for row in tbl[1:]] + [""]
 md += [
     f"## 七、資料來源總表（共 {total} 個）", "",
-    f"> 欄位：編號｜網站名稱｜網站網址｜抓取方式｜頻率｜展期｜備註。分類數量：{catsum}。",
+    f"> 欄位：編號｜網站名稱｜網站網址｜抓取方式｜頻率｜備註｜展期。分類數量：{catsum}。",
 ]
 for cat in active_cats:
     md += ["", f"### {cat}（{len(groups[cat])}）", "",
-           "| 編號 | 網站名稱 | 網站網址 | 抓取方式 | 頻率 | 展期 | 備註 |", "|---|---|---|---|---|---|---|"]
+           "| 編號 | 網站名稱 | 網站網址 | 抓取方式 | 頻率 | 備註 | 展期 |", "|---|---|---|---|---|---|---|"]
     for r in groups[cat]:
         url = str(r[3] or "").strip()
         link = f"[{url}]({url})" if url.startswith("http") else esc_cell(url)
         g = lambda k: esc_cell(r[k]) if len(r) > k else ""
-        md.append(f"| {r[0]} | {esc_cell(r[2])} | {link} | {g(5)} | {g(6)} | {g(9)} | {esc_cell(r[4])} |")
+        md.append(f"| {r[0]} | {esc_cell(r[2])} | {link} | {g(5)} | {g(6)} | {esc_cell(r[4])} | {g(9)} |")
 md += ["", "---",
        "*本頁由 scripts/build_outputlogic.py 讀取主檔 xlsx 自動產生；來源異動後重跑即可更新。*", ""]
 with open(OUT_MD, "w", encoding="utf-8") as f:
@@ -250,14 +269,15 @@ for i, cat in enumerate(active_cats):
         + (f'<td><a href="{h(str(r[3]).strip())}" target="_blank" rel="noopener">{h(str(r[3]).strip())}</a></td>'
            if str(r[3] or "").strip().startswith("http")
            else f'<td class="note">{h(esc_cell(r[3]))}</td>')
-        + "".join(f'<td class="note">{h(esc_cell(r[k]) if len(r) > k else "")}</td>' for k in (5, 6, 9))
-        + f'<td class="note">{h(esc_cell(r[4]))}</td></tr>'
+        + "".join(f'<td class="note">{h(esc_cell(r[k]) if len(r) > k else "")}</td>' for k in (5, 6))
+        + f'<td class="note">{h(esc_cell(r[4]))}</td>'
+        + f'<td class="note">{h(esc_cell(r[9]) if len(r) > 9 else "")}</td></tr>'
         for r in groups[cat])
     tables.append(
         f'  <h3 id="cat{i}" class="cat">{h(cat)}<span class="badge">{len(groups[cat])}</span>'
         f'<a class="top" href="#top">↑ 回頂部</a></h3>\n'
         f'  <div class="tablewrap"><table>\n'
-        f'    <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>抓取方式</th><th>頻率</th><th>展期</th><th>備註</th></tr></thead>\n'
+        f'    <thead><tr><th>編號</th><th>網站名稱</th><th>網站網址</th><th>抓取方式</th><th>頻率</th><th>備註</th><th>展期</th></tr></thead>\n'
         f'    <tbody>\n{body}\n    </tbody></table></div>')
 tables_html = "\n".join(tables)
 
@@ -279,8 +299,12 @@ HTML = """<!DOCTYPE html>
   .h2{font-size:22px;font-weight:800;margin:34px 0 14px;padding-left:12px;border-left:6px solid var(--accent)}
   .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px}
   .card h3{font-size:15px;font-weight:800;color:var(--accent2);margin-bottom:10px}
-  .arch{font-size:15px;line-height:1.95;text-align:justify}
+  .arch{font-size:15px;line-height:1.85}
   .arch strong{color:var(--accent2)}
+  .arch p{margin-bottom:14px}
+  .arch h4{font-size:15px;font-weight:800;color:var(--ink);margin:16px 0 6px}
+  .arch ul{list-style:none;display:flex;flex-direction:column;gap:6px}
+  .arch li{padding:8px 12px;background:#F6F9F8;border:1px solid var(--line);border-radius:8px}
   pre.mermaid{background:#fff;text-align:center;overflow-x:auto;margin:0}
   .nav{font-size:12.5px;color:var(--sub);background:#EEF6F2;border:1px solid #D6EAE0;border-radius:10px;padding:10px 14px;margin-bottom:16px;line-height:2}
   .nav a{color:var(--accent2);text-decoration:none;white-space:nowrap}
@@ -306,7 +330,7 @@ HTML = """<!DOCTYPE html>
   <div class="sub">iGaming 市場日報如何自動生成、涵蓋哪些來源、用什麼邏輯判斷與排序 · 規則版本 v6.4.2</div>
 
   <div class="h2">一、生成的基本架構</div>
-  <div class="card"><p class="arch">__ARCH__</p></div>
+  <div class="card arch">__ARCH__</div>
 
   <div class="h2">二、運作邏輯（流程圖）</div>
 __DIAGRAMS__
@@ -326,7 +350,10 @@ __TABLES__
 </body>
 </html>
 """
-HTML = (HTML.replace("__ARCH__", bold_html(ARCH))
+arch_html = f"<p>{bold_html(ARCH_INTRO)}</p>" + "".join(
+    f"<h4>{h(head)}</h4><ul>" + "".join(f"<li>{bold_html(x)}</li>" for x in items) + "</ul>"
+    for head, items in ARCH_SECTIONS)
+HTML = (HTML.replace("__ARCH__", arch_html)
             .replace("__DIAGRAMS__", diagram_html)
             .replace("__EXTRA__", extra_html)
             .replace("__NAV__", nav)
