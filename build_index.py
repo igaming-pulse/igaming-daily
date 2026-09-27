@@ -58,11 +58,23 @@ for date, fname in files:
 latest = files[0][0] if files else "—"
 body_cards = "\n".join(cards) if cards else '<p style="color:#5B6675">目前沒有報告。</p>'
 
-# 永遠置頂的「運作說明 OutputLogic」卡片
-pinned_card = '''    <a class="card pin" href="OutputLogic/">
+# 永遠置頂的「運作說明 OutputLogic」卡片：顯示運作說明最後一次更新的日期
+import subprocess
+def outputlogic_date():
+    f = os.path.join(ROOT, "OutputLogic", "index.html")
+    try:
+        d = subprocess.run(["git", "-C", ROOT, "log", "-1", "--format=%cs", "--", "OutputLogic/index.html"],
+                           capture_output=True, text=True, timeout=10).stdout.strip()
+        if d:
+            return d.replace("-", "/")
+    except Exception:
+        pass
+    return datetime.fromtimestamp(os.path.getmtime(f)).strftime("%Y/%m/%d") if os.path.exists(f) else "—"
+
+pinned_card = f'''    <a class="card pin" href="OutputLogic/">
       <div class="picon">📘</div>
       <div class="d">運作說明</div>
-      <div class="w">OutputLogic · 本日報如何生成、完整資料來源與流程圖<span class="pintag">📌 置頂</span></div>
+      <div class="w">OutputLogic · 生成邏輯 {outputlogic_date()}<span class="pintag">📌 置頂</span></div>
       <div class="go">查看說明 →</div>
     </a>'''
 
@@ -116,8 +128,8 @@ out = f'''<!DOCTYPE html>
   <div class="sub">每日 iGaming / 博弈產業新聞彙整 · Game Provider 新遊戲、非 Slot、主流動態、菲律賓、市場數據</div>
   <div class="latest">最新：{html.escape(latest)}</div>
   <div class="legend">
-    <span><i style="background:#fff;border-left:4px solid #1D9E75"></i>公司帳號產出（-test／重跑版）</span>
-    <span><i style="background:#FFF3E6;border-left:4px solid #E8914A"></i>原本機器產出（正式版）</span>
+    <span><i style="background:#fff;border-left:4px solid #1D9E75"></i>15' v</span>
+    <span><i style="background:#FFF3E6;border-left:4px solid #E8914A"></i>13' v</span>
     <span><i style="background:#EAF2FF;border-left:4px solid #4F7FE0"></i>特別版本內容</span>
   </div>
   <div class="list">
