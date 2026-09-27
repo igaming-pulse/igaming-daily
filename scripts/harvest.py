@@ -313,6 +313,27 @@ def main():
                 lists.append({"source": s["name"], "freq": s["freq"], "status": "失敗", "error": err})
             time.sleep(3.5)  # Firecrawl 免費方案每分鐘 20 次
 
+        # 📋 週六檢查點：從 EEGaming Slot 分類頁找最新一篇 Weekend Reels，整篇抓回來
+        if d.weekday() == 5 and key:
+            wr_url = None
+            for x in lists:
+                if x.get("file") and "EEGaming" in x["source"]:
+                    md_txt = open(os.path.join(ROOT, x["file"]), encoding="utf-8").read()
+                    m = re.search(r"https://eegaming\.org/latest-news/\d{4}/\d\d/\d\d/\d+/weekend-reels[^)\s\"]*", md_txt)
+                    wr_url = m.group(0) if m else None
+            if wr_url:
+                md, err = firecrawl(wr_url, key)
+                if md:
+                    with open(os.path.join(ldir, "WEEKEND_REELS.md"), "w", encoding="utf-8") as f:
+                        f.write(f"<!-- Weekend Reels | {wr_url} | 抓取 {now:%Y-%m-%d %H:%M} -->\n{md}")
+                    lists.append({"source": "📋 Weekend Reels（週六檢查點）", "freq": "每週六", "status": "OK",
+                                  "file": f"state/harvest/{date}-lists/WEEKEND_REELS.md", "chars": len(md)})
+                else:
+                    lists.append({"source": "📋 Weekend Reels（週六檢查點）", "freq": "每週六", "status": "失敗", "error": err})
+            else:
+                lists.append({"source": "📋 Weekend Reels（週六檢查點）", "freq": "每週六", "status": "失敗",
+                              "error": "EEGaming 分類頁裡找不到 weekend-reels 連結，請用 WebSearch 找本週那篇"})
+
     os.makedirs(OUT_DIR, exist_ok=True)
     meta = {"date": date, "window": [w0.strftime("%Y-%m-%d %H:%M"), w1.strftime("%Y-%m-%d %H:%M")],
             "generated": now.strftime("%Y-%m-%d %H:%M"), "feeds": len(feeds)}
@@ -348,6 +369,15 @@ def main():
             L.append("  窗外近期（庫存候選，勿當當日新聞）：")
             for i in old[:25]:
                 L.append(f"  - {i['published']} | {i['source']} | {i['title']} | {i['url']}")
+        L.append("")
+    if d.weekday() == 5:
+        wk = sorted([i for i in items if i["source"].startswith("BigWinBoard") and
+                     (w1.date() - datetime.strptime(i["published"][:10], "%Y-%m-%d").date()).days <= 6],
+                    key=lambda i: i["published"])
+        L.append(f"## 📋 週六檢查點：BigWinBoard 本週上線新作 {len(wk)} 款（與 Weekend Reels 一起比對漏收）")
+        L.append("")
+        for i in wk:
+            L.append(f"- {i['published']} | {i['title']}" + ("（TBC）" if i.get("tbc") else ""))
         L.append("")
     L.append("## 📡 來源健檢")
     L.append("")

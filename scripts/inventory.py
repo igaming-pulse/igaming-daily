@@ -8,7 +8,7 @@ v6.4 庫存與重複控管（2026-09-27 定案）。
   history  ：已經在日報出現過的項目（去重用）
 
 規則（SKILL.md「📦 庫存機制」為準）：
-  - Slot：每天出 5 款；當天新作 < 3 款才從庫存補到 5 款；首次看到後保鮮 7 天，
+  - Slot：平日上限 5、週末上限 2；當天新作 ≤3 款才從庫存補到上限、≥4 款不補；首次看到後保鮮 7 天，
           未上線的預告保留到「上線日＋3 天」。
   - 其他分類：保鮮 3 天；某區連續空 2 天可以，第 3 天必須從庫存補。
   - 去重：3 天內出現過的不再出現；超過 3 天又出現且重要（例：預告→正式上線）可再展示。
@@ -31,6 +31,7 @@ SLOT_FRESH_DAYS = 7
 SLOT_AFTER_RELEASE_DAYS = 3
 OTHER_FRESH_DAYS = 3
 DEDUP_DAYS = 3
+PREVIEW_MAX_DAYS = 7   # 上線日在 7 天以後的預告不上日報（太遠，玩不到）
 
 
 def key_of(item):
@@ -82,14 +83,29 @@ def cmd_show(a):
     save(inv)
     rk = recent_keys(inv, today)
     print(f"# 庫存狀態 {a.date}（Slot 保鮮 {SLOT_FRESH_DAYS} 天、其他 {OTHER_FRESH_DAYS} 天、去重 {DEDUP_DAYS} 天）\n")
-    slots = [x for x in inv["slots"] if key_of(x) not in rk]
-    slots.sort(key=lambda x: (-(x.get("b") or 0), x["first_seen"]), reverse=False)
-    print(f"## 🎰 Slot 可用庫存 {len(slots)} 款（B 分高→首見早排序；當天新作 < 3 款時從這裡補到 5 款）")
+    cap = 2 if today.weekday() >= 5 else 5
+    wd = "一二三四五六日"[today.weekday()]
+    horizon = today + timedelta(days=PREVIEW_MAX_DAYS)
+    pool = [x for x in inv["slots"] if key_of(x) not in rk]
+    later = [x for x in pool if x.get("release_date") and d(x["release_date"]) > horizon]
+    slots = [x for x in pool if x not in later]
+    slots.sort(key=lambda x: (-(x.get("b") or 0), x["first_seen"]))
+    print(f"## 🎯 今天是週{wd}日報：Slot 上限 {cap} 款。當天新作 ≤3 款才從庫存補到 {cap} 款；≥4 款不補；"
+          f"庫存不夠就有多少補多少，不足不硬湊")
+    if today.weekday() == 5:
+        print("## 📋 今天是週六檢查點：比對 Weekend Reels 與 BigWinBoard 本週新作，漏收的標「📋 本週補遺」，算在 2 款內，多的進庫存")
+    print()
+    print(f"## 🎰 Slot 可用庫存 {len(slots)} 款（B 分高→首見早排序）")
     for x in slots:
         rel = f"｜上線日 {x['release_date']}" if x.get("release_date") else ""
         src = x.get("sources", [{}])[0]
         print(f"- [{x.get('b', '?')}] {x['title']} — {x.get('gp', '?')}｜首見 {x['first_seen']}{rel}"
               f"｜{src.get('name', '')} {src.get('url', '')}".rstrip())
+    if later:
+        print()
+        print(f"## ⏳ 待上線（上線日在 {horizon} 之後，今天不可上日報）{len(later)} 款")
+        for x in later:
+            print(f"- {x['title']} — {x.get('gp', '?')}｜上線日 {x['release_date']}")
     print()
     for cat in ["cat2", "cat3", "cat4", "cat5"]:
         items = [x for x in inv["others"] if x.get("cat") == cat and key_of(x) not in rk]
