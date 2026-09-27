@@ -64,7 +64,7 @@ flowchart TD
   N -- 是 --> O["發布到網站（GitHub Pages）"]
   N -- 否 --> X["記錄失敗原因"]
   O --> Q["早上 GitHub Actions 推播 Telegram"]
-  X --> R["推播「日報未產出」警告"
+  X --> R["推播「日報未產出」警告"]
 </pre></div>
   <div class="card"><h3>2-2　收集：網站內容怎麼抓、怎麼判斷</h3><pre class="mermaid">
 flowchart TD
@@ -122,7 +122,7 @@ flowchart TD
   N -- "≤3 款" --> FILL["③ 從庫存補到上限"]
   FILL --> NAT["庫存不夠就自然呈現"]
   SAT["📋 週六檢查點：Weekend Reels＋BigWinBoard 本週新作"] --> MISS{"漏收？"}
-  MISS -- 是 --> BU["標「📋 本週補遺」，算在 2 款內，多的進庫存"
+  MISS -- 是 --> BU["標「📋 本週補遺」，算在 2 款內，多的進庫存"]
 </pre></div>
   <div class="card"><h3>2-5　庫存機制</h3><pre class="mermaid">
 flowchart LR
@@ -132,7 +132,7 @@ flowchart LR
   I4["7 天後才上線的預告"] --> INV
   INV --> O1["Slot：當天 ≤3 款時補到上限"]
   INV --> O2["其他分類：連續空 2 天，第 3 天補 1–2 則"]
-  INV --> EX["過期：Slot 7 天・其他 3 天・預告到上線日＋3 天"
+  INV --> EX["過期：Slot 7 天・其他 3 天・預告到上線日＋3 天"]
 </pre></div>
 
   <div class="h2">三、四種找資料工具對比</div>
