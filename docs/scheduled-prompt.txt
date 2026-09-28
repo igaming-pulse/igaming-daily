@@ -67,6 +67,10 @@
   還是找不到就不收。佐證來源可以比窗舊，但所有來源都在窗外＝舊聞，不收。
   日報日期欄一律填主來源發布日期，不寫區間
 - 品質備註只能進 Telegram，不可進日報或 Email
+- v6.5 定稿：.md 照 SKILL.md「📐 Markdown 固定格式」寫；步驟 2 一律跑 `python3 scripts/finalize_report.py --date <DATE>`
+  產生 HTML，⛔ 嚴禁手寫或手改 reports/*.html。結束碼 1 → 依印出的錯誤修 .md 後重跑，最多 2 次；還有錯誤照樣發布並回報
+- v6.5 警報：寫完 pending_telegram.txt 後跑 `python3 scripts/health_alert.py --date <DATE> --append state/pending_telegram.txt`，
+  它附上的「⚙️ 系統警報」不要改寫或刪除
 - 收集時間窗 = 實際執行時刻往前推 24 小時（補跑也照這個算，不要回頭用 02:30）
 
 ## 完成的定義

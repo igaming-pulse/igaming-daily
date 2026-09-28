@@ -180,6 +180,18 @@ bash scripts/run_daily.sh
 
 ## 5. 日常維運
 
+### 定稿檢查與健康警報（v6.5）
+
+```bash
+python3 scripts/finalize_report.py --date 2026-10-01              # .md → 檢查 → reports/<DATE>.html
+python3 scripts/finalize_report.py --date 2026-10-01 --no-links --check-only   # 只檢查、不連網
+python3 scripts/health_alert.py --date 2026-10-01                 # 額度、來源連續失敗、候選量
+```
+
+- 檢查結果：`state/<DATE>-qa.json`（錯誤／警告／自動修正）、`state/health/<DATE>.json`
+- 額度紀錄：`state/health/credits.json`（每天剩餘點數，用來推估每天用量）；來源連續失敗：`state/health/source_streaks.json`
+- 日報版面改 `scripts/report_lib.py` 的模板；網站樣式照舊由 main 的 `report_theme.py` 控制
+
 ### 查今天輪掃哪一批
 
 ```bash

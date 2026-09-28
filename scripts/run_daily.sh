@@ -108,6 +108,16 @@ else
   fi
 fi
 
+# v6.5：日報應由 finalize_report.py 的固定模板產生（檔頭有 generator 標記）
+if [ -f "$REPORT" ] && ! grep -q 'name="generator" content="render_report.py' "$REPORT"; then
+  log "  ⚠️ ${REPORT} 不是固定模板產生的（Claude 可能手寫了 HTML），樣式開關可能套不上"
+fi
+if [ -f "state/${DATE}-qa.json" ]; then
+  log "  定稿檢查：$(python3 -c "import json;q=json.load(open('state/${DATE}-qa.json'));print(f\"錯誤 {len(q['errors'])}、警告 {len(q['warnings'])}、自動修正 {len(q['fixes'])}\")" 2>/dev/null)"
+else
+  log "  ⚠️ 沒有 state/${DATE}-qa.json —— 定稿檢查沒跑"
+fi
+
 if [ "$HEAD_BEFORE" != "$HEAD_AFTER" ]; then
   log "  ✓ 有新 commit：$(git log -1 --format='%h %s')"
 else

@@ -88,8 +88,13 @@ firecrawl_plan: 1000 credits/month, resets on the 14th, 20 requests/min (sleep �
       c layer-3 WebSearch (4 query families + 4 special GPs)
       d score → dedupe → caps → per-category selection (+ inventory fill)
       e verify selected only: primary-source date → corroboration → params → og:image
-      f write state/<DATE>-igaming-report.md → render reports/<DATE>.html
+      f write state/<DATE>-igaming-report.md (fixed grammar, v6.5)
+        → python3 scripts/finalize_report.py --date <DATE>
+          parse → schema check → link/image check → fuzzy dedupe → fixed template reports/<DATE>.html
+          writes state/<DATE>-report.json + state/<DATE>-qa.json; exit 1 = fix .md and rerun (≤2)
       g write state/pending_telegram.txt + pending_telegram_url.txt
+        → python3 scripts/health_alert.py --date <DATE> --append state/pending_telegram.txt
+          (Firecrawl credits vs reset date, 3-day source failure streaks, candidate volume, QA leftovers)
       h write state/inventory-picks-<DATE>.json → inventory.py update
       i build index, ONE commit "daily: <DATE> report", push test-publish
   4 acceptance: report mtime ≥ start AND HEAD changed (never trust exit code)
@@ -361,6 +366,8 @@ handoff_order_on_new_machine: docs/BUSINESS_LOGIC.md → skills/SKILL.md → doc
 | v6.2 | 9/24 | primary-source date gate | DigiPlus 2025 news leaked |
 | v6.4 | 9/27 | harvest.py, slot DB sites, inventory, PH redefinition, xlsx columns | 1 of 12 big-brand launches caught (9/23–9/26); iGB parsing failures |
 | v6.4.1 | 9/27 | weekday 5 / weekend 2; fill only if ≤3; previews ≤7 d; Saturday checkpoint; iGamingToday secondary; cat2–5 stock 1/day | 9/27 slot area = 3 far-future previews from one affiliate site |
+| v6.4.3 | 9/28 | hot IP rule (H=+3, 30-day preview) | Huff N' Puff missed on 9/28 |
+| v6.5 | 9/28 | frozen template (scripts/report_lib.py), finalize_report.py (schema + links + images + fuzzy dedupe), health_alert.py, fuzzy matching in inventory.py | theme failed on hand-written HTML; spelling variants; nobody watching credits/source failures |
 | v6.4.2 | 9/27 | three triggers; 觸發關鍵字 + 展期 columns; SBC Summit, iGB Live added; OutputLogic rewritten | "never fetched" sources |
 
 Old machine v4.1: search-first ("brand + RTP max win reels" hits slot DBs), rotation 30/day, lenient dates, cat1 fixed 5 → more slots but included out-of-window items and far-future previews (9/27: 7 of 13 outside window). Neither machine is a gold standard.
@@ -373,7 +380,7 @@ Old machine v4.1: search-first ("brand + RTP max win reels" hits slot DBs), rota
 2. Auto-reject BigWinBoard `(TBC)` placeholders from inventory.
 3. Email for company line; cutover plan (drop `telegram-test-0640.yml`, use `telegram-0630.yml`, run on main).
 4. Mac sleep risk (pmset wake or cloud scheduling; Routines not visible on company account).
-5. Firecrawl ~25–30/day steady; backfills are expensive.
+5. Firecrawl ~25–30/day steady; backfills are expensive. health_alert.py now warns when remaining credits won't last until the reset date (599 left on 9/28, reset 10/14).
 6. harvest md can reach ~100 KB on heavy news days.
 7. PH platform promos often only on FB/IG/app.
 8. Report page H1 still says "（測試）" for -test files (added by publish_test_to_main.sh); user has not decided whether to change it to 13' v.

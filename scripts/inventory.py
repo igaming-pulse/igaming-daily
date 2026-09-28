@@ -23,7 +23,11 @@ import argparse
 import json
 import os
 import re
+import sys
 from datetime import date, timedelta
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from report_lib import same_item  # noqa: E402  v6.5 模糊比對
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INV = os.path.join(ROOT, "state", "inventory.json")
@@ -70,6 +74,19 @@ def recent_keys(inv, today):
     return {h["key"]: h for h in inv["history"] if 0 <= (today - d(h["date"])).days <= DEDUP_DAYS}
 
 
+def matches(x, pool):
+    """v6.5：同一款／同一則？先比正規化 key，再用模糊比對（Huff N´Puff＝Huff N' Puff、Pragmatic＝Pragmatic Play）。
+    Slot／非 Slot 門檻 0.9；其他分類是中文新聞標題，只做精確 key 比對，避免誤殺不同新聞。"""
+    k = key_of(x)
+    if k in pool:
+        return True
+    if x.get("cat") not in ("cat1", "cat2"):
+        return False
+    return any(h.get("cat") in ("cat1", "cat2", "") and same_item(x.get("title", ""), x.get("gp", ""),
+                                                                  h.get("title", ""), h.get("gp", ""))
+               for h in pool.values())
+
+
 def prune(inv, today):
     inv["slots"] = [x for x in inv["slots"] if not expired(x, today, True)]
     inv["others"] = [x for x in inv["others"] if not expired(x, today, False)]
@@ -86,7 +103,7 @@ def cmd_show(a):
     cap = 2 if today.weekday() >= 5 else 5
     wd = "一二三四五六日"[today.weekday()]
     horizon = today + timedelta(days=PREVIEW_MAX_DAYS)
-    pool = [x for x in inv["slots"] if key_of(x) not in rk]
+    pool = [x for x in inv["slots"] if not matches(x, rk)]
     later = [x for x in pool if x.get("release_date") and d(x["release_date"]) > horizon]
     slots = [x for x in pool if x not in later]
     slots.sort(key=lambda x: (-(x.get("b") or 0), x["first_seen"]))
@@ -108,7 +125,7 @@ def cmd_show(a):
             print(f"- {x['title']} — {x.get('gp', '?')}｜上線日 {x['release_date']}")
     print()
     for cat in ["cat2", "cat3", "cat4", "cat5"]:
-        items = [x for x in inv["others"] if x.get("cat") == cat and key_of(x) not in rk]
+        items = [x for x in inv["others"] if x.get("cat") == cat and not matches(x, rk)]
         print(f"## {cat} 可用庫存 {len(items)} 則")
         for x in items:
             src = x.get("sources", [{}])[0]
@@ -138,28 +155,34 @@ def cmd_update(a):
     today = date.fromisoformat(a.date)
     with open(a.file, encoding="utf-8") as f:
         picks = json.load(f)
-    shown_keys = set()
+    shown = {}
+    # 重跑同一天：先清掉這一天舊的「已出現」紀錄，避免重複累加
+    inv["history"] = [h for h in inv["history"] if h["date"] != a.date]
     for x in picks.get("shown", []):
         k = key_of(x)
-        shown_keys.add(k)
-        inv["history"].append({"key": k, "date": a.date, "cat": x.get("cat", ""), "title": x.get("title", ""),
-                               "gp": x.get("gp", "")})
-    inv["slots"] = [x for x in inv["slots"] if key_of(x) not in shown_keys]
-    inv["others"] = [x for x in inv["others"] if key_of(x) not in shown_keys]
-    have = {key_of(x) for x in inv["slots"] + inv["others"]}
-    added = 0
+        h = {"key": k, "date": a.date, "cat": x.get("cat", ""), "title": x.get("title", ""), "gp": x.get("gp", "")}
+        shown[k] = h
+        inv["history"].append(h)
+    inv["slots"] = [x for x in inv["slots"] if not matches(x, shown)]
+    inv["others"] = [x for x in inv["others"] if not matches(x, shown)]
+    have = {key_of(x): x for x in inv["slots"] + inv["others"]}
+    added = merged = 0
     for x in picks.get("stock", []):
         k = key_of(x)
-        if k in have or k in shown_keys:
+        if matches(x, shown):
+            continue
+        if matches(x, have):
+            merged += 1   # 同一款換個寫法又進來：保留舊的那筆（首見日較早）
             continue
         x.setdefault("first_seen", a.date)
         x["key"] = x.get("key") or k
         (inv["slots"] if x.get("cat") == "cat1" else inv["others"]).append(x)
-        have.add(k)
+        have[k] = x
         added += 1
     prune(inv, today)
     save(inv)
-    print(f"✓ 庫存更新 {a.date}：已出現 {len(shown_keys)} 則寫入紀錄、新增庫存 {added} 則；"
+    print(f"✓ 庫存更新 {a.date}：已出現 {len(shown)} 則寫入紀錄、新增庫存 {added} 則"
+          f"{f'（{merged} 則與既有庫存模糊比對為同一款，未重複加入）' if merged else ''}；"
           f"目前 Slot 庫存 {len(inv['slots'])}、其他 {len(inv['others'])}")
 
 
