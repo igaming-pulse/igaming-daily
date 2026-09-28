@@ -1,0 +1,43 @@
+{
+ "date": "2026-09-29",
+ "alerts": [],
+ "info": {
+  "credits": {
+   "remaining": 581,
+   "plan": 1000,
+   "period_end": "2026-10-14",
+   "today_use": 18,
+   "daily_use": 18,
+   "daily_basis": "近 1 天實際",
+   "days_to_reset": 15,
+   "need_until_reset": 270
+  },
+  "tier": {
+   "tier": "🟢 充裕",
+   "budget": 38,
+   "remaining": 599,
+   "period_end": "2026-10-14",
+   "days_to_reset": 15,
+   "reserve": 20,
+   "note": "全開",
+   "lists_spent": 9,
+   "article_limit": 22
+  },
+  "sources": {
+   "total": 104,
+   "failed_today": [],
+   "streak_3d": []
+  },
+  "candidates": {
+   "today": 462,
+   "median_same_type": null,
+   "basis_days": 1,
+   "type": "平日窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 19,
+   "fixes": 1
+  }
+ }
+}

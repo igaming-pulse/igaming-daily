@@ -1,0 +1,266 @@
+# 🎰 iGaming 市場日報 2026-09-29（週二）
+
+🎰 Slot 5 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
+
+---
+
+## 🎰 Game Provider 新遊戲
+
+### 01 Gates of Olympus 2500 – Pragmatic Play
+
+Pragmatic Play 為旗艦宙斯主題老虎機推出重量級續作,將單一符號最高乘數自前作的 5,000x 一口氣拉高到 2,500x 起跳、組合後最高可達 25,000x,延續 Scatter Pays（8 個以上同符號即賠付）與買免費旋轉功能。作為系列最成功 IP 之一的再進化,新版維持高波動特性但把獎金上限大幅拉高,鎖定追求高倍率體驗的核心客群。對 PM 的意義:此為業界指標系列的重磅續作,幾乎必然成為上線後立即進榜的熱門標的,建議優先排入主推名單並準備對應的行銷素材。
+
+衍生調整:單一符號乘數區間由前作 2x–1,000x 大幅上修至 2x–2,500x,最高倍率由 5,000x 倍增至 25,000x,核心 Tumble 與買免費旋轉機制維持不變。
+
+參數:
+- 遊戲類型:線上電子老虎機
+- 盤面:6×5
+- 消除/賠付:Scatter Pays（8 個以上同符號賠付,無固定連線）
+- 最高倍率:25,000x
+- RTP:96.52%（另有 95.5%／94% 版本）
+- 波動:高
+- 目標市場:全球
+- 關鍵特色:乘數符號 2x–2,500x、買免費旋轉功能、系列 IP 延續
+
+來源:[Pragmatic Play 官網](https://www.pragmaticplay.com/en/news/pragmatic-play-supercharges-iconic-series-in-gates-of-olympus-2500/) · [Focus Gaming News](https://focusgn.com/gates-olympus-2500-pragmatic-play) · [SlotCatalog](https://slotcatalog.com/en/slots/gates-of-olympus-2500) · 日期:2026-09-28
+圖片:https://www.pragmaticplay.com/wp-content/uploads/2026/09/Gates-of-Olympus-2500_1200x630_EN.jpg
+
+### 02 Lawn n' Complete Disorder – Play'n GO
+
+Play'n GO 推出花園亂鬥主題續作,圍繞單一 Coin 符號設計,玩家在花園小精靈的搗亂中蒐集金幣觸發四階即時獎金(Mini/Minor/Major/Grand),搭配蘑菇 Wild 與 Hold & Spin 機制。相較前作 Lawn n' Disorder 高達 50,000x 的單次爆發設計,本作改以更頻繁的即時獎金觸發取代單一超高倍率,追求較平穩的對局節奏。對 PM 的意義:延續工作室既有「Disorder」系列辨識度,243 ways 賠付結構與中高頻獎金觸發適合作為主頁常駐選品,吸引偏好穩定回饋的玩家群。
+
+衍生調整:最高倍率由前作 50,000x 下修至 18,000x,以四階即時獎金(Instant Bonus)取代單次超高倍率設計,提高中頻對局節奏。
+
+參數:
+- 遊戲類型:線上電子老虎機
+- 盤面:5×3
+- 消除/賠付:243 ways to win
+- 最高倍率:18,000x
+- RTP:96.20%(另有 94.20%／91.20%／87.20%／84.20% 版本)
+- 波動:高
+- 目標市場:全球
+- 關鍵特色:蘑菇 Wild、Hold & Spin、四階即時獎金(Mini/Minor/Major/Grand)
+
+來源:[Yogonet International](https://www.yogonet.com/international/news/2026/09/28/126554-playn-go-launches-lawn-n-complete-disorder-video-slot-built-around-coin-symbol) · [BigWinBoard](https://www.bigwinboard.com/lawn-n-complete-disorder-playn-go-slot-review/) · 日期:2026-09-28
+圖片:https://imagenesyogonet.b-cdn.net/data/imagenes/2026/09/24/91542/1790261139-play-n-go-lawn-n-complete-disorder.jpg
+
+### 03 Money Train 5 – Relax Gaming
+
+Relax Gaming 為招牌搶劫題材系列推出第五代作品,故事背景轉往末日荒原,新增 Ticket Master、Bomber、Pyromancer 三名角色與 Nuclear Wild 符號。最大亮點是 Standard／Ultra 雙模式選擇:Standard 模式最高倍率維持 50,000x,更高波動的 Ultra 模式則把系列天花板推升至 100,000x。對 PM 的意義:Money Train 是業界公認長期穩定吸量的招牌系列,雙模式設計讓同一款遊戲同時服務「求穩」與「求刺激」兩種玩家分眾,無需拆成兩款產品即可擴大受眾覆蓋。
+
+衍生調整:新增 Nuclear Wild 符號與 Standard/Ultra 雙模式選擇,Ultra 模式將原系列最高倍率 5 萬倍再翻倍至 10 萬倍,並加入三名新角色豐富收集型獎勵機制。
+
+參數:
+- 遊戲類型:線上電子老虎機
+- 盤面:5×4(可擴展至 5×5)
+- 消除/賠付:40 條賠付線
+- 最高倍率:100,000x(Ultra 模式)／50,000x(Standard 模式)
+- RTP:96.1%(另有 94%／92%／90% 版本)
+- 波動:極高
+- 目標市場:全球
+- 關鍵特色:Standard/Ultra 雙模式、角色收集獎勵、Nuclear Wild
+
+來源:[EEGaming](https://eegaming.org/latest-news/2026/09/28/52874/relax-gaming-launches-money-train-5-slot-game/) · [OLBG](https://www.olbg.com/news/relax-gaming-launches-money-train-5-slot) · 日期:2026-09-28
+圖片:https://eegaming.org/api/eeg/social-image/55370.jpg
+
+### 04 Diamond Tornado – Swintt
+
+Swintt 推出寶石主題新作,核心機制是中央三軸 Scatter 觸發的漸進式乘數計量表(Tornado Meter):每次觸發最高可為下一次獲勝加乘 5 倍,計量表滿載後歸零重來;另有 3 個獎勵符號觸發 12 次免費遊戲,內含鑽石、加成符號與額外旋轉。對 PM 的意義:計量表式漸進乘數讓基本遊戲本身就具備逐漸堆疊的緊張感,而非完全仰賴買免費旋轉才有爆發感,在部分限制買免費旋轉功能的市場中可作為替代玩法賣點。
+
+衍生調整:全新 IP,無衍生;以中央三軸 Scatter 觸發的漸進式乘數計量表(Tornado Meter)為核心機制,取代傳統單次觸發乘數設計。
+
+參數:
+- 遊戲類型:線上電子老虎機
+- 盤面:4-3-3-3-4(非固定行列)
+- 消除/賠付:Scatter 觸發 + 漸進式乘數計量表
+- 最高倍率:6,000x
+- RTP:未公布(已查 SlotCatalog、Swintt 官網、EEGaming 內頁仍無)
+- 波動:高
+- 目標市場:全球
+- 關鍵特色:Tornado 漸進乘數表(每次最高 +5x)、12 次免費遊戲、本地化累積獎金
+
+查證:多方來源(EEGaming、iGaming Business)均未揭露正式 RTP 數字,已依規定查核 SlotCatalog 與官網後如實標註未公布。
+來源:[EEGaming](https://eegaming.org/latest-news/2026/09/28/52872/swintt-releases-diamond-tornado-slot-with-progressive-multipliers-and-local-jackpots/) · [iGaming Business](https://igamingbusiness.com/company-news/swintt-spin-up-a-storm-in-new-diamond-tornado-slot/) · 日期:2026-09-28
+圖片:https://eegaming.org/api/eeg/social-image/55367.jpg
+
+### 05 Throne of Atlantis – GAMOMAT
+
+GAMOMAT 推出亞特蘭提斯主題六軸 Tumble 老虎機,單一符號最高乘數可達 500x,整體win potential 超過 30,000x;4 個以上獎勵符號可觸發 15 次免費遊戲。本作透過自家 G-RGS 遠端遊戲伺服器發行,可加速在既有合作營運商網路快速上架。對 PM 的意義:G-RGS 發行模式代表更短的上架前置時間,適合在秋季內容改版週期中快速補齊水域/神話主題選品線。
+
+衍生調整:全新 IP,無衍生;採用 Tumble 連續消除搭配單一符號最高 500 倍乘數,並透過自家 G-RGS 遠端遊戲伺服器發行以加速上架。
+
+參數:
+- 遊戲類型:線上電子老虎機
+- 盤面:6 軸(Tumble 機制,無固定行列)
+- 消除/賠付:Tumble 連續消除
+- 最高倍率:30,000x 以上
+- RTP:未公布(已查 SlotCatalog、GAMOMAT 官網、EEGaming 內頁仍無)
+- 波動:高
+- 目標市場:全球
+- 關鍵特色:單一符號最高 500x 乘數、15 次免費遊戲(4 個以上獎勵符號觸發)、G-RGS 快速發行
+
+查證:多方來源均未揭露正式 RTP 數字,已依規定查核後如實標註未公布。
+來源:[EEGaming](https://eegaming.org/latest-news/2026/09/28/52899/gamomat-launches-atlantis-themed-slot-throne-of-atlantis-via-g-rgs/) · [iGaming Future](https://igamingfuture.com/gamomat-dives-into-the-deep-with-throne-of-atlantis/) · 日期:2026-09-28
+圖片:https://eegaming.org/api/eeg/social-image/55441.jpg
+
+## 🕹️ 非 Slot 新內容
+
+### 01 WTF: What's That Flying? – Voltplay
+
+Voltplay 搭配 SBC Summit 2026 展會發表 UFO 喜劇題材 Crash 遊戲,玩家扮演飛碟駕駛在紐約獨立日煙火夜空中操作,需在乘數持續攀升時抓準時機兌現,煙火、路障等隨機事件隨時可能讓回合提前結束。遊戲提供四段可調難度,讓同一款產品同時服務保守型與高風險玩家。對 PM 的意義:Crash 品類持續在「乘數攀升」的基本骨架上尋找差異化包裝,喜劇 IP 掛鉤加上可調難度為聯盟行銷提供新的創意切角,無需開發全新機制。
+
+參數:
+- 遊戲類型:Crash Game
+- 最高倍率:72,432x
+- RTP:95.5%
+- 目標市場:全球
+- 關鍵特色:四段難度可調、UFO 喜劇主題、瀏覽器型即開即玩
+
+來源:[Yogonet International](https://www.yogonet.com/international/news/2026/09/28/126590-voltplay-to-unveil-wtf-whats-that-flying-crash-game-at-sbc-summit-2026) · [NEXT.io](https://next.io/news/b2b-news/voltplay-to-present-its-new-ufo-themed-crash-game-at-sbc-summit-2026/) · 日期:2026-09-28
+圖片:https://imagenesyogonet.b-cdn.net/data/imagenes/2026/09/28/91595/1790597199-voltplay-generica.jpg
+
+### 02 LuckyConnect 聚合合作 – Imperious × LuckyStreak
+
+加密貨幣賭場平台商 Imperious 選定 LuckyStreak 作為首選內容聚合夥伴,採用 LuckyConnect API 讓旗下營運商客戶透過單一整合即可存取逾 60 家廠商、6,000 款以上的遊戲內容。雙方特別強調本次整合僅花費一週,相較 Imperious 過往與其他聚合商合作動輒六到八週大幅縮短。對 PM 的意義:聚合商整合速度直接影響新營運商上線前置時間,對於搶進市場的加密貨幣賭場品牌而言是重要的競爭變數。
+
+參數:
+- 遊戲類型:Live/Slot 內容聚合平台(非單一遊戲)
+- 目標市場:全球(加密貨幣賭場為主)
+- 關鍵特色:單一 API 串接逾 60 家廠商 6,000 款遊戲、一週內完成整合
+
+來源:[Find More Africa](https://findmoreafrica.com/imperious-luckystreak-casino-aggregation-partner/) · [Gaming International Online](https://gaminginternational.online/imperious-selects-luckystreak-as-its-preferred-casino-aggregation-partner/) · [Casino International](https://casinointernational-online.com/imperious-selects-luckystreak-as-its-preferred-casino-aggregation-partner/) · 日期:2026-09-28
+圖片:https://findmoreafrica.com/wp-content/uploads/2026/09/LuckyStreak-x-Imperious-1920-x-1080.jpg
+
+### 03 撲克平台擴充 – PIN Projekt × BETB2B
+
+PIN Projekt 擴大與平台商 BETB2B 的長期合作,推出專屬撲克產品供 BETB2B 旗下營運商網路使用,主打行動優先設計並同時提供現金桌與錦標賽賽制。PIN Projekt 營運長 Ivan Grković 將此次上線稱為「策略性里程碑」,強調目標是打造可長期維持品質與公信力的撲克生態系,而非一次性內容投放。對 PM 的意義:讓 BETB2B 旗下營運商多一條可直接交叉導流的撲克產品線,毋須另外對接獨立撲克客戶端。
+
+參數:
+- 遊戲類型:Poker(現金桌 + 錦標賽)
+- 目標市場:全球(BETB2B 營運商網路)
+- 關鍵特色:行動優先設計、現金桌與錦標賽並行、單一平台深化整合
+
+來源:[SlotBeats](https://slotbeats.com/slot-news/pin-projekt-expands-deal-betb2b/) · [SBC News](https://sbcnews.co.uk/igaming/2026/09/28/poker-betb2b-pin-projekt/) · [iGaming Expert](https://igamingexpert.com/news/games/pin-projekt-poker-platform-betb2b/) · 日期:2026-09-28
+圖片:https://resources.slotbeats.com/slotbeats/2026/09/Poker.jpg
+
+## 🤝 動態:主流 GP／平台
+
+### 01 IGT 於 G2E 2026 發布全新品牌識別,呼應公司轉型
+
+IGT 在 G2E 2026 開展前夕發布全新品牌識別,標語聚焦「流暢(fluid)、無摩擦(frictionless)、magnetic」三大原則。此次改版是 Apollo 私募基金主導 IGT 與 Everi 合併、更換高層團隊後的又一步——執行長 Hector Fernandez 稍早曾表示,他的任務是「讓 IGT 重返昔日榮光」。對 PM 的意義:品牌重塑本身不直接影響產品線,但釋出訊號顯示 IGT 正加速從老品牌形象轉向以玩家體驗為核心的市場定位,值得留意後續實體機台與內容策略是否跟進調整。
+
+重點:類型 合作 ｜ 對象 IGT ｜ 影響 標誌 IGT 併購 Everi 後的組織轉型進入公開階段,後續產品與行銷策略值得追蹤
+
+來源:[Inside Asian Gaming](https://asgam.com/2026/09/29/igt-launches-new-brand-identity-to-reflect-corporate-transformation/) · [PR Newswire](https://www.prnewswire.com/news-releases/igt-unveils-new-brand-identity-at-2026-global-gaming-expo-302890998.html) · 日期:2026-09-29
+
+### 02 Gaming1 收購 Carousel Group 母公司 Pac-Man NV,深化比利時線上賭場版圖
+
+比利時營運商 Gaming1 宣布收購 Carousel Group 母公司 Pac-Man NV 全部股權,取得該公司的數位資產、執照及 Harelbeke 實體賭場館。雙方合作可追溯至 2012 年,Pac-Man NV 與 Carousel Group 同屬 De Backer 家族(同時擁有 711 便利商店)。Gaming1 旗下 777 品牌目前是比利時第五大線上賭場品牌,此次收購將顯著擴大其線上賭場市佔。對 PM 的意義:比利時線上賭場市場整合持續進行,中型營運商透過收購既有執照與客群加速擴張,是觀察歐洲區域性整併節奏的指標案例。
+
+重點:類型 併購 ｜ 對象 Gaming1、Carousel Group(Pac-Man NV) ｜ 影響 比利時線上賭場市場進一步整併,Gaming1 市佔顯著提升
+
+來源:[Focus Gaming News](https://focusgn.com/gaming1-buys-carousel-group-parent-pac-man-nv-to-expand-presence-in-belgiums-online-casino-market) · [SBC News](https://sbcnews.co.uk/igaming/2026/09/25/belgiums-gaming1-carousel-group) · [EGR Intel](https://www.egr.global/intel/news/gaming1-acquires-belgian-operator-carousel-to-ramp-up-online-presence/) · 日期:2026-09-29
+
+### 03 巴西全面禁止線上博彩,10 月 6 日大限逼近,產業掀反彈
+
+巴西總統盧拉(Lula)於 9 月 25 日簽署臨時措施,全面禁止該國固定賠率線上博彩之營運、提供、居間與廣告,並要求業者於 10 月 6 日前完成停業,客戶餘額須於 10 月 9 日至 14 日間透過銀行退還。多家全球博彩巨頭公開表達不滿:Entain 對禁令表示遺憾,Allwyn 則準備採取法律行動;分析機構 Regulus Partners 估計禁令「僅維持數週或數月」的機率達 85%。巴西亦於禁令生效隔日一口氣封鎖近 300 個疑似非法博彩網站。對 PM 的意義:巴西是拉美最大博彩市場之一,一夕禁令將迫使國際營運商重新評估整個拉美布局,後續司法覆核與最高法院動向是接下來數週的觀察重點。
+
+重點:類型 政府法規 ｜ 對象 巴西政府、Entain、Allwyn 等國際營運商 ｜ 影響 巴西線上博彩市場一夕關閉,國際營運商重新評估拉美布局與法律因應
+
+來源:[SBC News](https://sbcnews.co.uk/features/2026/09/28/brazil-betting-ban-impact/) · [G3 Newswire](https://g3newswire.com/brazil-sets-6-october-deadline-for-betting-market-shutdown-2/) · [iGaming Business](https://igamingbusiness.com/legal-compliance/brazil-betting-ban-immediate-aftermath/) · [Yogonet International](https://www.yogonet.com/international/news/2026/09/28/126587-brazil-betting-ban-what-the-provisional-measure-actually-says) · 日期:2026-09-28
+
+### 04 Kambi 與秘魯 Olimpo.bet 續簽多年期運動彩合作,鞏固拉美布局
+
+運動彩科技商 Kambi 宣布與秘魯本土營運商 Olimpo.bet 續簽多年期合作,持續採用 Kambi 旗艦 Turnkey Sportsbook 方案並依當地玩家偏好客製化。雙方自 2021 年起合作,Olimpo.bet 已成為秘魯「在地英雄」型營運商;Olimpo 商務副理 Manuela Gomez 表示,Kambi 的技術支持是其成功關鍵。對 PM 的意義:在巴西禁令衝擊拉美大盤信心之際,Kambi 選擇同步鞏固秘魯這類已規範市場的長期合作,顯示供應商正分散區域風險、優先深耕法規明確的市場。
+
+重點:類型 合作 ｜ 對象 Kambi、Olimpo.bet ｜ 影響 鞏固 Kambi 在拉美已規範市場(秘魯)的長期供應商地位
+
+來源:[SBC News](https://sbcnews.co.uk/sportsbook/2026/09/28/kambi-olympo/) · [Focus Gaming News](https://focusgn.com/kambi-olimpo-bet-peru-sportsbook) · [AGB](https://agbrief.com/news/world/28/09/2026/kambi-renews-multi-year-turnkey-sportsbook-partnership-with-perus-olimpo-bet/) · 日期:2026-09-28
+
+### 05 Jumpman Gaming 勝訴上訴法庭,英國 1,320 萬英鎊免費旋轉稅單全數撤銷
+
+英國線上賭場營運商 Jumpman Gaming 在與英國稅務海關總署(HMRC)的爭議中勝訴,上訴法庭裁定原本針對 2018 年 7 月至 2022 年 12 月間促銷免費旋轉所課徵的約 1,320 萬英鎊遠端博彩稅(RGD)應全數撤銷。爭議源於 Jumpman 歡迎禮中「合格存款換取 Mega Reel 免費旋轉、再衍生其他遊戲免費旋轉」的促銷設計;法庭採納 Jumpman 對稅法的解讀,並指出若採 HMRC 的認定方式,將要求業者追蹤過長的免費遊戲交易鏈,窒礙難行。對 PM 的意義:此判決為英國博彩業促銷免費旋轉的稅務認定立下先例,可能協助其他營運商比照主張退稅或降低未來促銷稅務風險。
+
+重點:類型 提告 ｜ 對象 Jumpman Gaming、HMRC ｜ 影響 為英國博彩業 promotional free spins 的稅務處理立下判例,其他營運商可能援引減輕稅負
+
+來源:[EGR Intel](https://www.egr.global/intel/news/jumpman-gaming-wins-appeal-over-13-2m-remote-gaming-duty-bill-on-free-spins/) · [NEXT.io](https://next.io/news/casino/jumpman-defeats-hmrc-free-spins-tax-battle/) · 日期:2026-09-28
+
+## 🇵🇭 動態:菲律賓 GP／平台
+
+### 01 DigiPlus 回應巴西禁令:預期無重大財務衝擊
+
+針對巴西總統盧拉簽署禁令全面停止線上博彩,菲律賓上市博彩集團 DigiPlus 發布官方聲明,表示此一發展「預期不會對 DigiPlus 整體財務或營運狀況造成重大影響」。公司表示現階段首要任務是確保有序因應,包含即時處理客戶提領與依規定期限退還客戶餘額;DigiPlus 形容情勢仍「流動且未定案」,將持續關注立法與司法程序並適時更新。對 PM 的意義:DigiPlus 今年稍早才宣布以 GamePlus 進軍巴西市場,如今遭遇一夕禁令,顯示其國際擴張(尤其巴西線)出現重大變數,後續資源可能轉向南非等其他新興市場。
+
+重點:類型 政府法規 ｜ 對象 DigiPlus ｜ 影響 DigiPlus 巴西擴張計畫受挫,財務衝擊有限但國際布局策略需調整
+
+來源:[DigiPlus 官方聲明](https://digiplus.com.ph/official-statement-on-brazil-regulatory-developments/) · [AGB](https://agbrief.com/intel/28/09/2026/digiplus-expects-no-material-impact-from-brazil-online-betting-ban/) · [BusinessWorld](https://bworldonline.com/corporate/2026/09/28/782705/digiplus-monitors-brazil-after-betting-ban/) · 日期:2026-09-28
+
+### 02 Casino Plus 攜手代言人 Alden Richards 擴大 CSR 合作
+
+菲律賓現金網 Casino Plus 宣布與品牌代言人、演員 Alden Richards 深化合作,將原先聚焦負責任娛樂的代言關係擴展至企業社會責任(CSR)專案。雙方自 2024 年合作以來已成為品牌負責任娛樂與社區參與倡議的代表面孔;此次擴大合作恰與 Casino Plus 今年稍早宣布攜手 Philippine First Insurance 取得 10 億披索保證金、強化玩家保障的動作相呼應。對 PM 的意義:菲律賓現金網持續透過名人代言強化品牌信任度與負責任博彩形象,是本地市場行銷與監理觀感並重的常見打法。
+
+重點:類型 運營活動 ｜ 對象 Casino Plus、Alden Richards ｜ 影響 強化品牌負責任娛樂形象,鞏固玩家與監理機關的信任
+
+來源:[BusinessWorld](https://bworldonline.com/corporate/2026/09/28/782811/casino-plus-broadens-brand-partnership-to-csr-programs/) · 日期:2026-09-28
+
+### 03 PAGCOR 攜手教育部與 66 個地方政府單位興建教室(官方)
+
+PAGCOR 與菲律賓教育部(DepEd)於 9 月 24 日與 66 個地方政府單位(LGU)舉行儀式性合作備忘錄簽署,推動全國校舍興建計畫。PAGCOR 將撥款 20.9 億披索予其中 38 個 LGU(每單位約 5,500 萬披索),每棟三層樓建築規劃 12 間教室,配備 75 吋智慧電視、擴音設備及一年免費網路,並納入無障礙設施;工程預定 2027 年底完工後,由 DepEd 接手所有權與維運管理。對 PM 的意義:此為 PAGCOR 官方持續履行企業社會責任、鞏固博彩監理機關公共形象的例行性計畫,不佔商業新聞名額,但反映博彩稅收挹注公共建設的實質效益。
+
+重點:類型 政府法規 ｜ 對象 PAGCOR、DepEd、66 個地方政府單位 ｜ 影響 博彩稅收挹注全國校舍建設,強化 PAGCOR 公共形象
+
+來源:[EEGaming](https://eegaming.org/latest-news/2026/09/28/52862/pagcor-deped-partner-with-66-lgus-to-build-more-classrooms-nationwide/) · [Philippine News Agency](https://www.pna.gov.ph/articles/1284804) · 日期:2026-09-28
+
+## 📊 市場數據 & 趨勢
+
+### 01 Galaxsys 高層:「光靠新遊戲或漂亮視覺已經不夠」
+
+Galaxsys 夥伴發展負責人 Levan Kavtaradze 接受 Focus Gaming News 專訪,直言「單純推出又一款遊戲或做出好看的視覺,已經不足以在市場中脫穎而出」。他指出玩家能在數秒內於外觀相似的遊戲間切換,使品牌與受眾之間的連結比以往更重要;真正的挑戰在於如何在提供營運商實質可用價值的同時,為玩家創造更好的體驗,人工智慧與市場回饋將是形塑策略的關鍵主題。對 PM 的意義:內容供應商之間的差異化正從「畫面/主題」轉向「品牌黏著度與數據回饋驅動的體驗設計」,對選品與內容日曆規劃是重要提醒。
+
+重點:類型 產品趨勢 ｜ 對象 Galaxsys ｜ 影響 反映 Slot/Crash 供應商競爭焦點從視覺美術轉向品牌黏著度與 AI 驅動的體驗設計
+
+來源:[Focus Gaming News](https://focusgn.com/levan-kavtaradze-galaxsys-simply-launching-another-game-or-having-nice-looking-visuals-is-no-longer-enough) · 日期:2026-09-28
+
+### 02 哥倫比亞 Coljuegos 前八月博彩稅收年增 39%,運彩貢獻近半
+
+哥倫比亞博彩監理機關 Coljuegos 公布,今年 1 至 8 月挹注全民健保的博彩稅收達 9,772.2 億哥倫比亞披索,較去年同期成長 39.38%。成長主因是運動博彩隨世界盃熱潮大幅成長 84.24%,運彩線上業者貢獻 4,730.23 億披索、占總稅收約 48.4%;在地化遊戲(juegos localizados)稅收亦成長 12.25% 至 2,808.66 億披索。對 PM 的意義:大型國際賽事持續證明是拉美運彩市場最強的成長引擎,哥倫比亞作為拉美少數法規明確的市場,稅收數據可作為評估當地投放資源優先序的參考指標。
+
+重點:類型 財務 ｜ 對象 Coljuegos、哥倫比亞運彩業者 ｜ 影響 印證世界盃等大型賽事對拉美已規範市場稅收與投注量的顯著拉抬效果
+
+來源:[G3 Newswire](https://g3newswire.com/coljuegos-health-collections-rise-39-through-august-on-sports-betting-growth-in-colombia/) · [Yogonet Latinoamérica](https://www.yogonet.com/latinoamerica/noticias/2026/09/25/110840-la-recaudacion-de-coljuegos-crece-un-39-en-los-primeros-ochos-meses-de-2026-impulsada-por-las-apuestas-deportivas) · 日期:2026-09-29
+
+### 03 澳門中秋連假訪客量年增 19.5%,為十一黃金週熱身
+
+澳門旅遊局統計,9 月 25 日至 27 日中秋連假期間訪客總數約 41.5 萬人次,較去年同期成長 19.5%;單日均值 13.8 萬人次,9 月 26 日單日高峰達 17.1 萬人次,成績優於業界原先預期。澳門旅遊局預估緊接而來的十一黃金週(10 月 1 日至 7 日)單日訪客可望達 15 萬人次,飯店住房率有望超過九成。對 PM 的意義:中秋檔期的強勁表現為即將到來的十一黃金週注入信心,對澳門博彩業而言是評估第四季客流與 GGR 動能的先行指標。
+
+重點:類型 財務 ｜ 對象 澳門旅遊局、澳門博彩業 ｜ 影響 中秋訪客數據優於預期,為十一黃金週博彩業客流與營收提供正向指標
+
+來源:[AGB(Asia Gaming Brief)](https://agbrief.com/news/macau/28/09/2026/macau-visitor-arrivals-rise-19-5-to-415000-over-three-day-mid-autumn-holiday/) · [Focus Gaming News](https://focusgn.com/asia-pacific/macau-visitor-arrivals-golden-week) · 日期:2026-09-28
+
+---
+
+本日日報查詢約 90 個網站,其中提取 40 個資料來源並進行交叉比對
+
+---
+
+## 🗓️ 來源日期紀錄(內部,不渲染)
+
+- cat1-01 Gates of Olympus 2500:主來源 Pragmatic Play 官網,發布 2026-09-28T08:02:00Z(metadata article:published_time,Taipei 16:02);佐證 Focus Gaming News 2026-09-28、SlotCatalog(資料頁,無日期)
+- cat1-02 Lawn n' Complete Disorder:主來源 Yogonet International,harvest 精確時間 2026-09-28 07:41(內文明確寫「On September 28, 2026」);佐證 BigWinBoard(無日期,評測頁)
+- cat1-03 Money Train 5:主來源 EEGaming,發布 2026-09-28T07:33:00Z(metadata,Taipei 15:33);佐證 OLBG(無日期)
+- cat1-04 Diamond Tornado:主來源 EEGaming,發布 2026-09-28T07:29:00Z(metadata,Taipei 15:29);佐證 iGaming Business(無日期)
+- cat1-05 Throne of Atlantis:主來源 EEGaming,發布 2026-09-28T15:34:00Z(metadata,Taipei 23:34);佐證 iGaming Future(無日期)
+- cat2-01 WTF: What's That Flying?:主來源 Yogonet International,harvest 精確時間 2026-09-28 21:03;佐證 NEXT.io(無日期,同稿轉載 2026-09-24 PlayNewswire 為更早期新聞稿,不作主來源)
+- cat2-02 Imperious × LuckyStreak:主來源 Find More Africa,發布 2026-09-28T12:35:25Z(metadata,Taipei 20:35);佐證 Gaming International Online、Casino International(均 2026-09-28 17:30 前後)
+- cat2-03 PIN Projekt × BETB2B:主來源 SlotBeats,發布 2026-09-28T16:59:46+01:00(metadata,Taipei 23:59);佐證 SBC News、iGaming Expert(均 2026-09-28)
+- cat3-01 IGT 品牌識別:主來源 Inside Asian Gaming,harvest 精確時間 2026-09-29 01:09;佐證 PR Newswire(同日稿)
+- cat3-02 Gaming1/Carousel:主來源 Focus Gaming News,harvest 精確時間 2026-09-29 00:29;佐證 SBC News(2026-09-25,窗外但可佐證背景)、EGR Intel(2026-09-25)
+- cat3-03 巴西禁令:主來源 SBC News,harvest 精確時間 2026-09-28 17:23;佐證 G3 Newswire、iGaming Business、Yogonet(均 2026-09-28 窗內)
+- cat3-04 Kambi/Olimpo:主來源 SBC News,harvest 精確時間 2026-09-28 22:00;佐證 Focus Gaming News 21:11、AGB 22:05(均窗內)
+- cat3-05 Jumpman/HMRC:主來源 EGR Intel,harvest 精確時間 2026-09-28 19:48;佐證 NEXT.io(無日期,背景事件發生於 2026-09-25)
+- cat4-01 DigiPlus/巴西:主來源 DigiPlus 官方聲明,harvest 精確時間 2026-09-28 10:37;佐證 AGB 12:28、BusinessWorld 23:48、Inside Asian Gaming 21:55(均窗內)
+- cat4-02 Casino Plus/CSR:主來源 BusinessWorld,harvest 精確時間 2026-09-28 23:40
+- cat4-03 PAGCOR/DepEd:主來源 EEGaming,harvest 精確時間 2026-09-28 14:37;佐證 Philippine News Agency(2026-09-24,窗外但補背景細節)
+- cat5-01 Galaxsys 專訪:主來源 Focus Gaming News,harvest 精確時間 2026-09-28 19:15
+- cat5-02 Coljuegos:主來源 G3 Newswire,harvest 精確時間 2026-09-29 01:16;佐證 Yogonet Latinoamérica(2026-09-25,窗外但補充明細數字)
+- cat5-03 澳門訪客:主來源 AGB,harvest 精確時間 2026-09-28 15:31;佐證 Focus Gaming News(無日期,展望性報導)

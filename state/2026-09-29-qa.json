@@ -1,0 +1,45 @@
+{
+ "date": "2026-09-29",
+ "md": "state/2026-09-29-igaming-report.md",
+ "html": "reports/2026-09-29.html",
+ "items": 19,
+ "counts": {
+  "cat1": 5,
+  "cat2": 3,
+  "cat3": 5,
+  "cat4": 3,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 52,
+  "ok": 33,
+  "broken": 0,
+  "blocked": 19,
+  "images_dropped": 0
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-01 Gates of Olympus 2500 – ｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/gates-olympus-2500-pragmatic-play",
+  "cat1-01 Gates of Olympus 2500 – ｜來源連結無法自動驗證（403，多半是網站擋機器人）：SlotCatalog https://slotcatalog.com/en/slots/gates-of-olympus-2500",
+  "cat1-05 Throne of Atlantis – GAM｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Future https://igamingfuture.com/gamomat-dives-into-the-deep-with-throne-of-atlantis/",
+  "cat2-01 WTF: What's That Flying?｜來源連結無法自動驗證（error:[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol ver，多半是網站擋機器人）：NEXT.io https://next.io/news/b2b-news/voltplay-to-present-its-new-ufo-themed-crash-game-at-sbc-summit-2026/",
+  "cat2-03 撲克平台擴充 – PIN Projekt × B｜來源連結無法自動驗證（403，多半是網站擋機器人）：SBC News https://sbcnews.co.uk/igaming/2026/09/28/poker-betb2b-pin-projekt/",
+  "cat2-03 撲克平台擴充 – PIN Projekt × B｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Expert https://igamingexpert.com/news/games/pin-projekt-poker-platform-betb2b/",
+  "cat3-01 IGT 於 G2E 2026 發布全新品牌識別,｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/09/29/igt-launches-new-brand-identity-to-reflect-corporate-transformation/",
+  "cat3-02 Gaming1 收購 Carousel Grou｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/gaming1-buys-carousel-group-parent-pac-man-nv-to-expand-presence-in-belgiums-online-casino-market",
+  "cat3-02 Gaming1 收購 Carousel Grou｜來源連結無法自動驗證（403，多半是網站擋機器人）：SBC News https://sbcnews.co.uk/igaming/2026/09/25/belgiums-gaming1-carousel-group",
+  "cat3-03 巴西全面禁止線上博彩,10 月 6 日大限逼近,｜來源連結無法自動驗證（403，多半是網站擋機器人）：SBC News https://sbcnews.co.uk/features/2026/09/28/brazil-betting-ban-impact/",
+  "cat3-04 Kambi 與秘魯 Olimpo.bet 續簽多｜來源連結無法自動驗證（403，多半是網站擋機器人）：SBC News https://sbcnews.co.uk/sportsbook/2026/09/28/kambi-olympo/",
+  "cat3-04 Kambi 與秘魯 Olimpo.bet 續簽多｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/kambi-olimpo-bet-peru-sportsbook",
+  "cat3-04 Kambi 與秘魯 Olimpo.bet 續簽多｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/world/28/09/2026/kambi-renews-multi-year-turnkey-sportsbook-partnership-with-perus-olimpo-bet/",
+  "cat3-05 Jumpman Gaming 勝訴上訴法庭,英國｜來源連結無法自動驗證（error:[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol ver，多半是網站擋機器人）：NEXT.io https://next.io/news/casino/jumpman-defeats-hmrc-free-spins-tax-battle/",
+  "cat4-01 DigiPlus 回應巴西禁令:預期無重大財務衝｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/intel/28/09/2026/digiplus-expects-no-material-impact-from-brazil-online-betting-ban/",
+  "cat4-03 PAGCOR 攜手教育部與 66 個地方政府單位｜來源連結無法自動驗證（error:[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol ver，多半是網站擋機器人）：Philippine News Agency https://www.pna.gov.ph/articles/1284804",
+  "cat5-01 Galaxsys 高層:「光靠新遊戲或漂亮視覺已｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/levan-kavtaradze-galaxsys-simply-launching-another-game-or-having-nice-looking-visuals-is-no-longer-enough",
+  "cat5-03 澳門中秋連假訪客量年增 19.5%,為十一黃金週｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB(Asia Gaming Brief) https://agbrief.com/news/macau/28/09/2026/macau-visitor-arrivals-rise-19-5-to-415000-over-three-day-mid-autumn-holiday/",
+  "cat5-03 澳門中秋連假訪客量年增 19.5%,為十一黃金週｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/asia-pacific/macau-visitor-arrivals-golden-week"
+ ],
+ "fixes": [
+  "文末｜資料來源數 40 → 44（程式依來源連結去重計算）"
+ ]
+}

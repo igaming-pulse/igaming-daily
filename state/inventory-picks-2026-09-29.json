@@ -1,0 +1,29 @@
+{"shown": [
+  {"cat":"cat1","title":"Gates of Olympus 2500","gp":"Pragmatic Play"},
+  {"cat":"cat1","title":"Lawn n' Complete Disorder","gp":"Play'n GO"},
+  {"cat":"cat1","title":"Money Train 5","gp":"Relax Gaming"},
+  {"cat":"cat1","title":"Diamond Tornado","gp":"Swintt"},
+  {"cat":"cat1","title":"Throne of Atlantis","gp":"GAMOMAT"},
+  {"cat":"cat2","title":"WTF: What's That Flying?","gp":"Voltplay"},
+  {"cat":"cat2","title":"LuckyConnect 聚合合作","gp":"Imperious x LuckyStreak"},
+  {"cat":"cat2","title":"撲克平台擴充","gp":"PIN Projekt x BETB2B"},
+  {"cat":"cat3","title":"IGT 全新品牌識別","gp":"IGT"},
+  {"cat":"cat3","title":"Gaming1 收購 Carousel Group","gp":"Gaming1"},
+  {"cat":"cat3","title":"巴西全面禁止線上博彩","gp":"Brazil / Entain / Allwyn"},
+  {"cat":"cat3","title":"Kambi 續簽 Olimpo.bet","gp":"Kambi"},
+  {"cat":"cat3","title":"Jumpman Gaming 勝訴 HMRC","gp":"Jumpman Gaming"},
+  {"cat":"cat4","title":"DigiPlus 回應巴西禁令","gp":"DigiPlus"},
+  {"cat":"cat4","title":"Casino Plus CSR 擴大合作","gp":"Casino Plus"},
+  {"cat":"cat4","title":"PAGCOR/DepEd 66 LGU 教室計畫","gp":"PAGCOR"},
+  {"cat":"cat5","title":"Galaxsys 設計趨勢專訪","gp":"Galaxsys"},
+  {"cat":"cat5","title":"Coljuegos 前八月稅收年增39%","gp":"Coljuegos"},
+  {"cat":"cat5","title":"澳門中秋訪客年增19.5%","gp":"Macau"}
+],
+"stock": [
+  {"cat":"cat1","title":"House of the Dragon","gp":"Blueprint Gaming","b":1,"first_seen":"2026-09-29","sources":[{"name":"EEGaming","url":"https://eegaming.org/latest-news/2026/09/28/52875/blueprint-gaming-launches-house-of-the-dragon-slot-with-warner-bros-discovery/","published":"2026-09-28 15:49"}]},
+  {"cat":"cat1","title":"Sunken City Riches","gp":"Stakelogic","b":1,"first_seen":"2026-09-29","release_date":"2026-09-29","sources":[{"name":"SlotsLaunch","url":"https://slotslaunch.com/","published":"2026-09-29"}]},
+  {"cat":"cat2","title":"Local Hero Bingo 首播","gp":"ISA-GUIDE 報導","b":1,"first_seen":"2026-09-29","sources":[{"name":"ISA-GUIDE","url":"https://www.isa-guide.de/isa-gaming/local-hero-bingo-erste-ziehung-und-erste-show/","published":"2026-09-28 21:02"}]},
+  {"cat":"cat3","title":"Danske Licens Spil 上線 EveryMatrix 平台","gp":"EveryMatrix","b":1,"first_seen":"2026-09-29","sources":[{"name":"European Gaming","url":"https://europeangaming.eu/portal/press-releases/2026/09/28/214913/danske-licens-spil-everymatrix-casino-platform/","published":"2026-09-28 21:52"}]},
+  {"cat":"cat4","title":"PAGCOR Tengco 談菲律賓產業與本地展會展望","gp":"PAGCOR","b":6,"first_seen":"2026-09-29","sources":[{"name":"Inside Asian Gaming","url":"https://asgam.com/2026/09/28/pagcors-alejandro-tengco-discusses-philippine-industry-potential-and-local-trade-show-outlook/","published":"2026-09-28 04:43"}]},
+  {"cat":"cat5","title":"Gambling stocks weekly 21-25 September","gp":"European Gaming","b":1,"first_seen":"2026-09-29","sources":[{"name":"European Gaming","url":"https://europeangaming.eu/portal/latest-news/2026/09/28/214885/gambling-stocks-weekly-21-to-25-september/","published":"2026-09-28 16:21"}]}
+]}

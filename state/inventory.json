@@ -2,36 +2,6 @@
  "slots": [
   {
    "cat": "cat1",
-   "title": "THE VIP",
-   "gp": "Betsoft",
-   "first_seen": "2026-09-21",
-   "b": 3,
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/09/21/52715/betsoft-releases-its-latest-video-slot-the-vip/",
-     "published": "2026-09-21"
-    }
-   ],
-   "key": "thevip|betsoft"
-  },
-  {
-   "cat": "cat1",
-   "title": "3 Aztec Spells",
-   "gp": "Spinomenal",
-   "first_seen": "2026-09-21",
-   "b": 3,
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/09/21/52729/spinomenal-launches-3-aztec-spells-with-x3-000-bet-grand-jackpot/",
-     "published": "2026-09-21"
-    }
-   ],
-   "key": "3aztecspells|spinomenal"
-  },
-  {
-   "cat": "cat1",
    "title": "Fire & Ice Titans",
    "gp": "Slotland／CryptoSlots",
    "first_seen": "2026-09-22",
@@ -458,35 +428,19 @@
   },
   {
    "cat": "cat1",
-   "title": "Nigel of Ra",
-   "gp": "Quickspin",
-   "b": 3,
-   "first_seen": "2026-09-26",
-   "release_date": "",
+   "title": "Sunken City Riches",
+   "gp": "Stakelogic",
+   "b": 1,
+   "first_seen": "2026-09-29",
+   "release_date": "2026-09-29",
    "sources": [
     {
-     "name": "BigWinBoard（TBC，頁面 metadata 顯示 2026-09-16 舊日期，疑為佔位頁，待確認正式上線日）",
-     "url": "https://www.bigwinboard.com/nigel-of-ra-quickspin-slot-review/",
-     "published": ""
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/",
+     "published": "2026-09-29"
     }
    ],
-   "key": "nigelofra|quickspin"
-  },
-  {
-   "cat": "cat1",
-   "title": "Cats Collect",
-   "gp": "Playtech",
-   "b": 3,
-   "first_seen": "2026-09-26",
-   "release_date": "",
-   "sources": [
-    {
-     "name": "BigWinBoard（TBC，頁面 metadata 顯示 2026-09-16 舊日期，疑為佔位頁，待確認正式上線日）",
-     "url": "https://www.bigwinboard.com/cats-collect-playtech-slot-review/",
-     "published": ""
-    }
-   ],
-   "key": "catscollect|playtech"
+   "key": "sunkencityriches|stakelogic"
   }
  ],
  "others": [
@@ -504,6 +458,66 @@
     }
    ],
    "key": "europeangaming專訪thepools平台談goalrush訂閱制成效|thepools"
+  },
+  {
+   "cat": "cat2",
+   "title": "Local Hero Bingo 首播",
+   "gp": "ISA-GUIDE 報導",
+   "b": 1,
+   "first_seen": "2026-09-29",
+   "sources": [
+    {
+     "name": "ISA-GUIDE",
+     "url": "https://www.isa-guide.de/isa-gaming/local-hero-bingo-erste-ziehung-und-erste-show/",
+     "published": "2026-09-28 21:02"
+    }
+   ],
+   "key": "localherobingo首播|isaguide報導"
+  },
+  {
+   "cat": "cat3",
+   "title": "Danske Licens Spil 上線 EveryMatrix 平台",
+   "gp": "EveryMatrix",
+   "b": 1,
+   "first_seen": "2026-09-29",
+   "sources": [
+    {
+     "name": "European Gaming",
+     "url": "https://europeangaming.eu/portal/press-releases/2026/09/28/214913/danske-licens-spil-everymatrix-casino-platform/",
+     "published": "2026-09-28 21:52"
+    }
+   ],
+   "key": "danskelicensspil上線everymatrix平台|everymatrix"
+  },
+  {
+   "cat": "cat4",
+   "title": "PAGCOR Tengco 談菲律賓產業與本地展會展望",
+   "gp": "PAGCOR",
+   "b": 6,
+   "first_seen": "2026-09-29",
+   "sources": [
+    {
+     "name": "Inside Asian Gaming",
+     "url": "https://asgam.com/2026/09/28/pagcors-alejandro-tengco-discusses-philippine-industry-potential-and-local-trade-show-outlook/",
+     "published": "2026-09-28 04:43"
+    }
+   ],
+   "key": "pagcortengco談菲律賓產業與本地展會展望|pagcor"
+  },
+  {
+   "cat": "cat5",
+   "title": "Gambling stocks weekly 21-25 September",
+   "gp": "European Gaming",
+   "b": 1,
+   "first_seen": "2026-09-29",
+   "sources": [
+    {
+     "name": "European Gaming",
+     "url": "https://europeangaming.eu/portal/latest-news/2026/09/28/214885/gambling-stocks-weekly-21-to-25-september/",
+     "published": "2026-09-28 16:21"
+    }
+   ],
+   "key": "gamblingstocksweekly2125september|europeangaming"
   }
  ],
  "history": [
@@ -1024,6 +1038,153 @@
    "cat": "cat5",
    "title": "巴西iGaming監理環境急速轉變：從立法開放到臨時禁令",
    "gp": ""
+  },
+  {
+   "key": "gatesofolympus2500|pragmaticplay",
+   "date": "2026-09-29",
+   "cat": "cat1",
+   "title": "Gates of Olympus 2500",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "lawnncompletedisorder|playngo",
+   "date": "2026-09-29",
+   "cat": "cat1",
+   "title": "Lawn n' Complete Disorder",
+   "gp": "Play'n GO"
+  },
+  {
+   "key": "moneytrain5|relaxgaming",
+   "date": "2026-09-29",
+   "cat": "cat1",
+   "title": "Money Train 5",
+   "gp": "Relax Gaming"
+  },
+  {
+   "key": "diamondtornado|swintt",
+   "date": "2026-09-29",
+   "cat": "cat1",
+   "title": "Diamond Tornado",
+   "gp": "Swintt"
+  },
+  {
+   "key": "throneofatlantis|gamomat",
+   "date": "2026-09-29",
+   "cat": "cat1",
+   "title": "Throne of Atlantis",
+   "gp": "GAMOMAT"
+  },
+  {
+   "key": "wtfwhatsthatflying|voltplay",
+   "date": "2026-09-29",
+   "cat": "cat2",
+   "title": "WTF: What's That Flying?",
+   "gp": "Voltplay"
+  },
+  {
+   "key": "luckyconnect聚合合作|imperiousxluckystreak",
+   "date": "2026-09-29",
+   "cat": "cat2",
+   "title": "LuckyConnect 聚合合作",
+   "gp": "Imperious x LuckyStreak"
+  },
+  {
+   "key": "撲克平台擴充|pinprojektxbetb2b",
+   "date": "2026-09-29",
+   "cat": "cat2",
+   "title": "撲克平台擴充",
+   "gp": "PIN Projekt x BETB2B"
+  },
+  {
+   "key": "igt全新品牌識別|igt",
+   "date": "2026-09-29",
+   "cat": "cat3",
+   "title": "IGT 全新品牌識別",
+   "gp": "IGT"
+  },
+  {
+   "key": "gaming1收購carouselgroup|gaming1",
+   "date": "2026-09-29",
+   "cat": "cat3",
+   "title": "Gaming1 收購 Carousel Group",
+   "gp": "Gaming1"
+  },
+  {
+   "key": "巴西全面禁止線上博彩|brazilentainallwyn",
+   "date": "2026-09-29",
+   "cat": "cat3",
+   "title": "巴西全面禁止線上博彩",
+   "gp": "Brazil / Entain / Allwyn"
+  },
+  {
+   "key": "kambi續簽olimpobet|kambi",
+   "date": "2026-09-29",
+   "cat": "cat3",
+   "title": "Kambi 續簽 Olimpo.bet",
+   "gp": "Kambi"
+  },
+  {
+   "key": "jumpmangaming勝訴hmrc|jumpmangaming",
+   "date": "2026-09-29",
+   "cat": "cat3",
+   "title": "Jumpman Gaming 勝訴 HMRC",
+   "gp": "Jumpman Gaming"
+  },
+  {
+   "key": "digiplus回應巴西禁令|digiplus",
+   "date": "2026-09-29",
+   "cat": "cat4",
+   "title": "DigiPlus 回應巴西禁令",
+   "gp": "DigiPlus"
+  },
+  {
+   "key": "casinopluscsr擴大合作|casinoplus",
+   "date": "2026-09-29",
+   "cat": "cat4",
+   "title": "Casino Plus CSR 擴大合作",
+   "gp": "Casino Plus"
+  },
+  {
+   "key": "pagcordeped66lgu教室計畫|pagcor",
+   "date": "2026-09-29",
+   "cat": "cat4",
+   "title": "PAGCOR/DepEd 66 LGU 教室計畫",
+   "gp": "PAGCOR"
+  },
+  {
+   "key": "galaxsys設計趨勢專訪|galaxsys",
+   "date": "2026-09-29",
+   "cat": "cat5",
+   "title": "Galaxsys 設計趨勢專訪",
+   "gp": "Galaxsys"
+  },
+  {
+   "key": "coljuegos前八月稅收年增39|coljuegos",
+   "date": "2026-09-29",
+   "cat": "cat5",
+   "title": "Coljuegos 前八月稅收年增39%",
+   "gp": "Coljuegos"
+  },
+  {
+   "key": "澳門中秋訪客年增195|macau",
+   "date": "2026-09-29",
+   "cat": "cat5",
+   "title": "澳門中秋訪客年增19.5%",
+   "gp": "Macau"
+  }
+ ],
+ "rejected": [
+  {
+   "date": "2026-09-29",
+   "title": "Nigel of Ra",
+   "gp": "Quickspin",
+   "reason": "BigWinBoard（TBC）佔位頁"
+  },
+  {
+   "date": "2026-09-29",
+   "title": "Cats Collect",
+   "gp": "Playtech",
+   "reason": "BigWinBoard（TBC）佔位頁"
   }
  ]
 }

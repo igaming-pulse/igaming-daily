@@ -1,29 +1,36 @@
-🎰 iGaming 市場日報 2026-09-28（週一）
-🎰 Slot 5 ・ 🕹️ 非 Slot 0 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 2
+🎰 iGaming 市場日報 2026-09-29（週二）
+🎰 Slot 5 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
 
 🎰 Slot 新遊戲
-01 777 Rainbow Rampage（📦）— TaDa Gaming
-02 Lucky Mischief（📦）— PG Soft
-03 Thor's Rage 2（📦）— Red Tiger
-04 Big Bass Vegas 1000（📦）— Pragmatic Play
-05 Legendary Hammer（Zitro FANTASY 機台區域首發）
+01 Gates of Olympus 2500 – Pragmatic Play
+02 Lawn n' Complete Disorder – Play'n GO
+03 Money Train 5 – Relax Gaming
+04 Diamond Tornado – Swintt
+05 Throne of Atlantis – GAMOMAT
 
-🤝 主流動態
-01 CCT 於 G2E 展出 Casino Insight 連網賭場作業平台
-02 Pascal Gaming 將於 SBC Summit 展出羅納迪諾聯名新作
-03 Passport Technology 於 G2E 推出 OmniStream 現金服務一體機
-04 Renova Technology 赴 G2E 拓展維修與供應鏈服務版圖
-05 巴西線上博彩禁令上路前非法網站三日暴增428個，國會仍握最終決定權
+🕹️ 非 Slot 新內容
+01 WTF: What's That Flying? – Voltplay
+02 LuckyConnect 聚合合作 – Imperious × LuckyStreak
+03 撲克平台擴充 – PIN Projekt × BETB2B
 
-🇵🇭 菲律賓動態
-01 Century Entertainment：合作夥伴GSA執照遭撤仍維持PAGCOR合規
+🤝 動態:主流 GP／平台
+01 IGT 於 G2E 2026 發布全新品牌識別
+02 Gaming1 收購 Carousel Group 母公司 Pac-Man NV
+03 巴西全面禁止線上博彩,10 月 6 日大限逼近
+04 Kambi 與秘魯 Olimpo.bet 續簽多年期合作
+05 Jumpman Gaming 勝訴上訴法庭,1,320 萬英鎊稅單全數撤銷
+
+🇵🇭 動態:菲律賓 GP／平台
+01 DigiPlus 回應巴西禁令:預期無重大財務衝擊
+02 Casino Plus 攜手 Alden Richards 擴大 CSR 合作
+03 PAGCOR 攜手教育部與 66 個地方政府單位興建教室(官方)
 
 📊 市場數據 & 趨勢
-01 博彩直播導客通路正快速成長，卻無人真正掌管
-02 巴西iGaming監理環境急速轉變：從立法開放到臨時禁令
+01 Galaxsys 高層:「光靠新遊戲或漂亮視覺已經不夠」
+02 哥倫比亞 Coljuegos 前八月稅收年增 39%
+03 澳門中秋連假訪客量年增 19.5%
 
-📝 品質備註（本次爬找判斷）
-1. 今天窗內候選僅 15 則（來源健檢全數正常，僅 2 個非核心輪掃站 DNS／連線失敗），研判是真實淡季而非抓取不足：週一窗口本就涵蓋週日（歷史上新聞量最少的一天），且今天恰逢 G2E／SBC Summit 開展前夕，窗內新聞被大量「展會預告」型公關稿與延燒中的巴西全面禁令追蹤報導占據。
-2. 🕹️ 非 Slot 整區空手：窗內與庫存皆無合格候選，EEZE 已連續第 6 天無合格新聞（已查證豁免）；連同 Crash／Mines／Plinko／Live Game Show／Poker 等四類第三層加碼搜尋均未找到窗內新發布的合格項目。
-3. 🇵🇭 菲律賓區僅 1 則：已依規定查詢 DigiPlus／BingoPlus／ArenaPlus／GameZone／Casino Plus／OKBet／BET88／PT Gaming／PlayTime／Acewin／Omiplay／YellowBat／ATG 等，窗內僅 Century Entertainment／PAGCOR 一則合格候選，庫存亦無可補項目。
-4. Slot 5 款中 4 款為庫存補位（📦 標示 9/21、9/24 首見），因窗內僅 1 款實體機台上架新聞（Zitro，不受 3 款門檻限制），依規則以庫存前 4 高分項目補滿平日 5 款上限。
+📝 品質備註(本次爬找判斷)
+1. 本窗(09-28 02:30～09-29 02:30)候選量充足(harvest 窗內共 462 則),五區皆有足量當日新聞可選,未動用庫存補位。
+2. EEZE 已連續多天查無合格新消息(僅查到 9/9 舊聞與 SBC Summit 展會預告),今天再次查證仍無符合窗內條件的新消息,依規則跳過。
+3. 巴西禁令為本窗最大單一事件,已依三個硬上限的「其他國家 ≤3 則」控制在 2 則(cat3 巴西禁令本體、cat4 DigiPlus 回應),其餘巴西相關報導僅作佐證來源。
