@@ -90,7 +90,14 @@ a.src{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:500;color
 a.src:hover{background:var(--ink);color:var(--sheet)}
 a:focus-visible{outline:2px solid var(--s5);outline-offset:2px}
 .hero{width:100%;aspect-ratio:16/9;object-fit:cover;border:1px solid var(--ink);border-radius:0;margin-top:14px;display:block;background:var(--paper)}
-.stats-line{max-width:920px;margin:36px auto 0;padding:14px 20px 0;border-top:2px solid var(--ink);text-align:left;font-size:13px;color:var(--sub);line-height:1.8}
+.backnav{max-width:920px;margin:40px auto 0;padding:18px 20px 0;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;border-top:2px solid var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:"Noto Sans TC",sans-serif;font-size:15px;font-weight:600;text-decoration:none;padding:11px 22px;border:1.5px solid #616161;transition:background .15s,color .15s}
+.btn .arr{font-family:"IBM Plex Mono",monospace;font-weight:600}
+.btn-primary{background:#616161;color:#FFFFFF}
+.btn-primary:hover{background:var(--sheet);color:#616161}
+.btn-ghost{background:transparent;color:#616161}
+.btn-ghost:hover{background:#616161;color:#FFFFFF}
+.stats-line{max-width:920px;margin:24px auto 0;padding:0 20px;border-top:none;text-align:left;font-size:13px;color:var(--sub);line-height:1.8}
 .stats-line b{font-family:"IBM Plex Mono",monospace;color:var(--ink);font-weight:600;font-size:15px}
 footer{text-align:left;max-width:920px;margin:10px auto 0;padding:0 20px;font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--faint);line-height:1.8}
 @media(max-width:720px){header.mast{grid-template-columns:1fr}h1{font-size:28px}h3{font-size:21px}.sh{font-size:20px}.card{padding:16px}.spec .k{flex-basis:72px}}
@@ -128,6 +135,14 @@ def restyle(s):
                 "".join(f'<i style="background:var(--s{i})"></i>' for i in range(1, 7)) + "</div>")
     s = s.replace(hm.group(0), '<header class="mast"><div class="mast-main">' + hm.group(1) + spectrum + '</div>'
                   '<aside class="mast-side"><div class="cap">本日收錄</div>' + grid + '</aside></header>', 1)
+    nav = ('<nav class="backnav" aria-label="日報導覽"><a class="btn btn-primary" href="../"><span class="arr">←</span>回日報列表</a>'
+           '<a class="btn btn-ghost" href="#top"><span class="arr">↑</span>回到頂部</a></nav>')
+    s = s.replace('<div class="wrap">', '<div class="wrap" id="top">', 1)
+    for anchor in ('<div class="stats-line">', '<footer'):
+        if anchor in s:
+            i = s.index(anchor)
+            s = s[:i] + nav + "\n" + s[i:]
+            break
     return s.replace("<head>", "<head>" + MARK, 1) if "<head>" in s else MARK + s
 
 
