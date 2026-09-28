@@ -60,8 +60,8 @@
 | Gamingsoft Blog | https://www.gamingsoft.com/blog/ | WP-API | 每日 | https://www.gamingsoft.com/blog/wp-json/wp/v2/posts |  |  | B2B 視角 Provider 評測，關注營運整合 |
 | EZ Slot Design | https://ezslotdesign.com/ | RSS | 每日 | https://ezslotdesign.com/rss/ |  |  | Slot 遊戲設計分析，設計師視角拆解玩法機制 |
 | P-WORLD | https://www.p-world.co.jp/ | Firecrawl | 輪掃 |  |  |  | 日本遊技機資料庫；子頁 introduce_calendar.cgi 為★新台上市日期／規格／導入店數，日本機種情報最關鍵單一來源 |
-| BigWinBoard | https://www.bigwinboard.com/new-slots/ | Firecrawl | 每日 | https://www.bigwinboard.com/new-slots/ |  |  | Slot 資料庫站（v6.4 新增）；新作依上線日排序，大廠幾乎都有，含 RTP／最高倍率 |
-| SlotsLaunch | https://slotslaunch.com/ | Firecrawl | 每日 | https://slotslaunch.com/ |  |  | Slot 資料庫站（v6.4 新增）；新作與上線日 |
+| BigWinBoard | https://www.bigwinboard.com/new-slots/ | 程式解析 | 每日 | https://www.bigwinboard.com/new-slots/ |  |  | Slot 資料庫站（v6.4 新增）；新作依上線日排序，大廠幾乎都有，含 RTP／最高倍率 |
+| SlotsLaunch | https://slotslaunch.com/ | 程式解析 | 每日 | https://slotslaunch.com/calendar |  |  | Slot 資料庫站（v6.4 新增）；v6.5 改抓上線日曆（每款有上線日，免費） |
 
 ---
 
@@ -72,7 +72,7 @@
 | AGB（Asia Gaming Brief） | https://agbrief.com | RSS | 每日 | https://agbrief.com/feed/ |  |  | 東南亞 iGaming 專業媒體，Jili 報導最完整 |
 | iGaming Business | https://igamingbusiness.com/news/ | WP-API | 每日 | https://igamingbusiness.com/wp-json/wp/v2/posts |  |  | Provider 合作、盤口動向、市場數據 |
 | CasinoBeats | https://casinobeats.com | WP-API | 每日 | https://casinobeats.com/wp-json/wp/v2/posts |  |  | Provider 新遊戲、合作消息 |
-| SBC News | https://sbcnews.co.uk | Firecrawl | 每日 | https://sbcnews.co.uk/ |  |  | 盤口動態、Provider 合作 |
+| SBC News | https://sbcnews.co.uk | RSS | 每日 | https://sbcnews.co.uk/feed/ |  |  | 盤口動態、Provider 合作；v6.5 改用 RSS（10 則約 3 天，免費） |
 | Gambling Insider | https://gamblinginsider.com/news/ | WP-API | 每日 | https://gamblinginsider.com/wp-json/wp/v2/posts |  |  | 盤口市場數據、M&A、財務動態 |
 | Yogonet International | https://www.yogonet.com/international/ | RSS | 每日 | https://www.yogonet.com/international/rss.xml |  |  | 全球市場動態、M&A（每日主力來源之一） |
 | EGR Global | https://egr.global/news/ | RSS | 每日 | https://www.egr.global/feed/ |  |  | 盤口排名、Provider 表現 |
@@ -150,7 +150,7 @@
 | PlayGraph | https://www.play-graph.com/ | Firecrawl | 輪掃 |  |  |  | 日本遊技專門誌 |
 | Pachinko Media Portal | https://www.pmp-paa.com/ | Firecrawl | 輪掃 |  |  |  | 日本業界情報入口網 |
 | GGRAsia | https://www.ggrasia.com/ | WP-API | 每日 | https://www.ggrasia.com/wp-json/wp/v2/posts |  |  | 澳門／亞洲 Casino floor 報導 |
-| Inside Asian Gaming | https://www.asgam.com/ | Firecrawl | 每日 | https://www.asgam.com/ |  |  | 亞洲供應商、機台、展會報導 |
+| Inside Asian Gaming | https://www.asgam.com/ | RSS | 每日 | https://asgam.com/feed/ |  |  | 亞洲供應商、機台、展會報導；v6.5 改用 RSS（10 則約 3 天，免費） |
 | AGB Macau | https://agbrief.com/category/news/macau/ | RSS | 每日 | https://agbrief.com/feed/ |  |  | AGB 澳門專版 |
 | AGB Philippines | https://agbrief.com/category/news/philippines/ | RSS | 每日 | https://agbrief.com/feed/ |  |  | ★AGB 菲律賓專版，直接對應本報告 🇵🇭 分類 |
 | AGB Vietnam | https://agbrief.com/category/news/vietnam/ | RSS | 每日 | https://agbrief.com/feed/ |  |  | AGB 越南專版 |
@@ -170,7 +170,7 @@
 | SunStar | https://www.sunstar.com.ph/ | RSS | 每日 | https://www.sunstar.com.ph/feed/ |  |  | 菲律賓在地媒體（v6.4 新增）；需用博弈關鍵字過濾 |
 | BusinessWorld | https://www.bworldonline.com/ | RSS | 每日 | https://bworldonline.com/feed/ |  |  | 菲律賓財經媒體（v6.4 新增）；DigiPlus／Bloomberry 等上市公司動態 |
 | DigiPlus | https://digiplus.com.ph/news/ | RSS | 每日 | https://digiplus.com.ph/feed/ |  |  | ★DigiPlus 官網新聞（v6.4 新增）；BingoPlus／ArenaPlus／GameZone 主來源 |
-| EEGaming（Recent Slot Releases） | https://eegaming.org/category/recent-slot-releases | Firecrawl | 每日 | https://eegaming.org/category/recent-slot-releases |  |  | Slot 新作通稿集中地（v6.4 新增）；每週五另有 Weekend Reels 整理 |
+| EEGaming（Recent Slot Releases） | https://eegaming.org/category/recent-slot-releases | RSS | 每日 | https://eegaming.org/feed |  |  | Slot 新作通稿集中地（v6.4 新增）；每週五另有 Weekend Reels 整理；v6.5 改用全站 RSS（精確發布時間、免費） |
 
 ---
 

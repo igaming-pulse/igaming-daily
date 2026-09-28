@@ -192,6 +192,25 @@ python3 scripts/health_alert.py --date 2026-10-01                 # 額度、來
 - 額度紀錄：`state/health/credits.json`（每天剩餘點數，用來推估每天用量）；來源連續失敗：`state/health/source_streaks.json`
 - 日報版面改 `scripts/report_lib.py` 的模板；網站樣式照舊由 main 的 `report_theme.py` 控制
 
+### Firecrawl 用量分級（v6.5.1）
+
+```bash
+python3 scripts/harvest.py --plan        # 只看今天的分級、預算與會抓哪些列表頁，不花點數
+```
+
+今日預算 ＝（剩餘 − 保留 20）÷ 距離重置天數；≥30 充裕、20–29 標準、15–19 節約、<15 或剩餘 <100 保命。
+門檻在 `scripts/harvest.py` 的 `TIERS`／`CREDIT_RESERVE`，改了要同步改 SKILL.md「💳 Firecrawl 用量分級」。
+
+### 回歸測試（改 scripts/ 前後都要跑）
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+測試資料在 `tests/fixtures/`：過去 11 份日報 .md（含舊寫法）、解析快照 `expected_reports.json`、
+iGamingToday 列表頁與 SlotsLaunch 上線日曆存檔。新增一份日報當測試資料：把 .md 複製進 `tests/fixtures/reports/`，
+再用 `report_lib.parse_md` 重新產生 `expected_reports.json`。
+
 ### 查今天輪掃哪一批
 
 ```bash

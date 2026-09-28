@@ -47,11 +47,13 @@ python3 <REPO>/scripts/sync_sources.py
 **第零段｜讀程式備好的候選與庫存（v6.4 新增，一定先做）**
 1. 讀 `<REPO>/state/harvest/<DATE>.md`。這是 `scripts/harvest.py` 在你開跑前產生的候選清單：
    約 90 個 WP-API／RSS 來源＋BigWinBoard 新作列表，**每則都有精確到分鐘的台北發布時間**，
-   並已依關鍵字預判分類；最後附「第二層 Firecrawl 列表頁」的存檔路徑（Slot 資料庫站、SBC News、IAG 與輪掃 3 站）。
+   並已依關鍵字預判分類；開頭有「💳 Firecrawl 今日分級」與**今天文章抓取上限**；最後附「第二層 Firecrawl 列表頁」存檔路徑。
+   v6.5 起 BigWinBoard、SlotsLaunch 上線日曆、EEGaming、SBC News、IAG 都由程式免費抓並併入候選，iGamingToday 列表頁也由程式解析；
+   窗外近期的候選另存 `state/harvest/<DATE>-backlog.md`（需要庫存補位時再讀）。
    - 檔案不存在、或標頭的「收集時間窗」不是這次的窗 → 自己跑 `python3 <REPO>/scripts/harvest.py`
      （補跑舊日期加 `--date <DATE> --anchor 02:30`），跑完再讀。
-2. 逐一讀第二層列表頁存檔（`state/harvest/<DATE>-lists/*.md`），從 markdown 解析出**窗內**條目
-   （標題、網址、日期），併入候選。**這一步取代舊版的「核心必掃 8 站」，不必再自己開列表頁。**
+2. 讀第二層列表頁存檔中**標「請讀檔」的那幾個**（輪掃、觸發、週六 Weekend Reels），從 markdown 解析出**窗內**條目併入候選；
+   標「✅ 已解析」的（iGamingToday）不用再讀原檔。
 3. 跑 `python3 <REPO>/scripts/inventory.py show --date <DATE>`，讀「可用庫存」「近 3 天已出現」「各區連續空白天數」。
 
 **第一段｜第三層 WebSearch 補「程式抓不到」的題目（不查證）**
@@ -502,11 +504,11 @@ ATG（`https://atg-games.com/zh-tw`）同列特別追蹤，判準與下述三家
 
 **4. 成本上限（已定案）**
 - 每則的額外交叉查證抓取 **上限 3 次**。查證預算花在高衝擊／優先品牌的則；低優先的則有 1 個佐證即可。
-- **整場硬上限**：`firecrawl ≤ 35 次`、`WebSearch ≤ 60 次`。
+- **整場硬上限**：Firecrawl 依「💳 用量分級」（v6.5，下方）—— **以 harvest 檔頭寫的「今天文章最多 N 次」為準**；`WebSearch ≤ 60 次`。
   > WebSearch 上限比 firecrawl 寬鬆是刻意的：**WebSearch 不消耗 Firecrawl credit**，
   > 成本只是執行時間。2026-09-22 由 30 上調為 60 —— 當天為了確認「真的是淡季」
   > 而非抓取不足，用了約 55 次才敢下結論，這種查證是該鼓勵的，不該卡在上限。
-  拆法（v6.4.2）：**第二層列表頁約 9（固定 6 ＋ 輪掃 3），觸發日另加 0–5（事件 ≤3、展會 ≤2），週一另加 3 ＋ 入選文章 ≤22**；觸發日列表頁較多時，入選文章相應減少，整場仍 ≤35。第一層 WP-API／RSS 不花 Firecrawl。
+  （以下 v6.4.2 的舊拆法僅供參考，v6.5 起由分級取代）拆法：**第二層列表頁約 9（固定 6 ＋ 輪掃 3），觸發日另加 0–5（事件 ≤3、展會 ≤2），週一另加 3 ＋ 入選文章 ≤22**；觸發日列表頁較多時，入選文章相應減少，整場仍 ≤35。第一層 WP-API／RSS 不花 Firecrawl。
   `35 × 30 天 = 1,050`，月額度 1,125，餘裕 6.7%（約 2 次補跑的緩衝）。
   ⚠️ 交叉查證**優先用 WebSearch**（不吃 Firecrawl 額度）；firecrawl 只花在「入選且需要 og:image／內文」的那一次。
   > 2026-09-21 上調（原 ≤14／≤20）：連續兩天實測，≤14 只收到 5 則與 2 則，
@@ -516,6 +518,28 @@ ATG（`https://atg-games.com/zh-tw`）同列特別追蹤，判準與下述三家
   超過就停止擴大、用現有素材成稿。
   **⛔ 嚴禁開 5-credit 的 JSON 抽取** —— 能用 WebSearch snippet ＋ firecrawl summary 拿到的就不要開；
   og:image 跟 summary **同一次免費帶回，不另抓**。
+
+**💳 Firecrawl 用量分級（v6.5 硬規則，2026-09-28 定案）**
+
+`harvest.py` 開跑前先查 Firecrawl 剩餘點數，算出今天的預算，決定抓取強度：
+
+```
+今日預算 ＝（剩餘點數 − 保留 20）÷ 距離重置日的天數
+```
+
+| 等級 | 今日預算 | 輪掃 | 事件觸發 | 展會 | 週一固定 | 文章（入選查證）上限 |
+|---|---|---|---|---|---|---|
+| 🟢 充裕 | ≥30 | 3 | 3 | 2 | 3 | 22 |
+| 🟡 標準 | 20–29 | 2 | 2 | 1 | 2 | 16 |
+| 🟠 節約 | 15–19 | 0 | 1 | 1 | 0 | 10，只給 Slot／非 Slot；其他分類用 WebSearch |
+| 🔴 保命 | <15，或剩餘 <100 | 0 | 0 | 0 | 0 | 0；配圖改用 WebFetch 抓 og:image，抓不到寫「圖片：無」 |
+
+- 每天固定只剩 iGamingToday 1 個列表頁要花點數（其他來源 v6.5 起都改免費抓）
+- 實際文章上限 ＝ min(等級上限, 今日預算 − 程式已花在列表頁的點數)，**寫在 harvest 檔頭，照那個數字做**
+- 查不到剩餘點數時預設「標準」
+- 保留 20 點給重跑與特別版。**重跑或特別版要先估點數**，並說明會不會讓之後幾天降級，經使用者同意才跑
+- 省下的點數會自動讓隔天預算變多，不用另外處理
+- 開跑前、收尾各記一次剩餘點數（`state/health/credits.json`），`health_alert.py` 算出當天實際用量，超過預算或降到節約／保命級會發系統警報
 
 **📋 Slot 基本欄位必須填滿**
 
@@ -541,8 +565,8 @@ ATG（`https://atg-games.com/zh-tw`）同列特別追蹤，判準與下述三家
 
 | 層 | 誰做 | 範圍 | 成本 |
 |---|---|---|---|
-| **第一層** | `scripts/harvest.py`（run_daily.sh 開跑前自動執行） | 抓取方式＝**WP-API／RSS** 的來源全部每天掃（約 90 個，含菲律賓在地媒體 GMA、Rappler、SunStar、BusinessWorld、DigiPlus 官網），加上 BigWinBoard 新作列表 | 免費 |
-| **第二層** | 同上（`harvest.py` 內建） | 抓取方式＝Firecrawl、頻率＝**每日**的固定站：EEGaming Slot 分類頁、BigWinBoard、SlotsLaunch、iGamingToday、SBC News、Inside Asian Gaming；加上 `rotate_sources.py` 當天輪掃的 3 個 | 約 9 次 Firecrawl |
+| **第一層** | `scripts/harvest.py`（run_daily.sh 開跑前自動執行） | 抓取方式＝**WP-API／RSS** 的來源全部每天掃（約 90 個，含菲律賓在地媒體、DigiPlus 官網；v6.5 起 EEGaming、SBC News、IAG 改 RSS），加上**程式解析**的 BigWinBoard 新作列表與 **SlotsLaunch 上線日曆**（每款有上線日） | 免費 |
+| **第二層** | 同上（`harvest.py` 內建） | 抓取方式＝Firecrawl、頻率＝**每日**：只剩 iGamingToday（擋程式抓取，程式解析成候選）；加上輪掃與三種觸發，數量依「💳 用量分級」 | 1–10 次 Firecrawl |
 | **第三層** | 你（Claude），WebSearch | 程式抓不到的四類題目（下表） | WebSearch 約 30–40 次 |
 
 **第三層固定查詢（每天都要跑，查詢字串加上當週日期）**：
@@ -601,6 +625,7 @@ harvest 清單裡每區的「窗外近期」也是庫存候選（Slot 近 7 天�
 
 **去重（3 天規則）**：`inventory.py show` 的「近 3 天已出現」清單裡的項目不可再出現。
 超過 3 天又出現且重要（預告→正式上線、大廠新數據）可以再展示，標題前加「🔁」。
+**（TBC）佔位頁自動剔除（v6.5）**：BigWinBoard 標 TBC、沒有明確上線日、頁面日期比首見日還舊的項目，`inventory.py` 會自動移出庫存，`show` 會列出當天剔除了哪些。
 v6.5 起 Slot／非 Slot 用**模糊比對**判斷是不是同一款（撇號、大小寫、™、「Slot」字尾、廠商縮寫都不影響；
 續作數字不同視為不同款），`inventory.py` 與 `finalize_report.py` 共用 `scripts/report_lib.py` 的同一套規則。
 
@@ -747,7 +772,7 @@ curl -s -X POST https://api.firecrawl.dev/v1/scrape \
 ```
 
 - **N1** ＝ 本次實際查詢／開啟過的**不重複網站數**（WebFetch＋Firecrawl＋WebSearch 實際點開的頁面，去重估算）
-- **N2** ＝ 實際**提取並用於交叉比對的資料來源數**（所有則來源連結去重後的總數）
+- **N2** ＝ 實際**提取並用於交叉比對的資料來源數**（所有則來源連結去重後的總數）—— **v6.5 起由 `finalize_report.py` 自動計算並覆蓋**，.md 裡寫多少都會被改成實際數字
 - **N2 < N1 是正常的。** 兩數字由 LLM 估算，非程式精確計數。
 - 渲染時兩個數字用紅色。
 
@@ -849,6 +874,11 @@ PAGCOR 官方公告與規範；實體賭場（Okada Manila、Solaire、NUSTAR、
 ---
 
 ## 版本沿革
+
+- **v6.5.1**（2026-09-28）① Firecrawl 用量分級（充裕≥30／標準 20–29／節約 15–19／保命<15，保留 20 點），開跑前查剩餘點數決定強度；
+  ② BigWinBoard、SlotsLaunch（改抓上線日曆）、EEGaming、SBC News、IAG 改為免費抓取，每天固定列表頁從 6 個降到 1 個（iGamingToday，由程式解析）；
+  ③ 窗外候選另存 backlog 檔；④ 庫存自動剔除（TBC）佔位頁；⑤ 文末資料來源數改由程式計算；⑥ `tests/` 回歸測試（過去 11 份日報＋列表頁存檔）。
+  起因：剩 599 點撐 16 天、Huff N´Puff 埋在未解析的列表頁、TBC 佔位頁進庫存、N2 估算與實際差 6
 
 - **v6.5**（2026-09-28）定稿檢查：① 凍結日報模板 —— .md 改為固定格式的唯一原稿，HTML 由 `scripts/finalize_report.py` 用固定模板渲染，不再每次手寫；
   ② 資料格式檢查（必備欄位、主來源日期、cat1 參數 8 項）；③ 連結與圖片檢查（失效連結擋下、破圖自動拿掉）；

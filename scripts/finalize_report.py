@@ -62,8 +62,6 @@ def check_schema(rep, day, qa):
         qa.err("標頭", f"日期 {rep['date'] or '（讀不到）'} ≠ {day}")
     if not rep.get("stats"):
         qa.err("文末", "缺「本日日報查詢約 N1 個網站，其中提取 N2 個資料來源」統計列")
-    elif rep["stats"]["n2"] > rep["stats"]["n1"]:
-        qa.warn("文末", f"N2（{rep['stats']['n2']}）大於 N1（{rep['stats']['n1']}），通常 N2 < N1")
     total = 0
     seen_urls = {}
     cap = 2 if day.weekday() >= 5 else 5
@@ -278,6 +276,15 @@ def main():
     total = check_schema(rep, day, qa)
     links = {"checked": 0, "skipped": True} if a.no_links else check_links(rep, qa)
     check_dupes(rep, day, qa)
+    # v6.5：「提取 N2 個資料來源」改由程式算 —— 全部則的來源連結去重後的數量（SKILL.md「📊 文末統計列」定義）
+    n2 = len({u for sec in rep["sections"] for it in sec["items"] for _, u in it["sources"]})
+    if rep.get("stats"):
+        if rep["stats"]["n2"] != n2:
+            qa.fix("文末", f"資料來源數 {rep['stats']['n2']} → {n2}（程式依來源連結去重計算）")
+        rep["stats"]["n2"] = n2
+        if rep["stats"]["n1"] < n2:
+            qa.warn("文末", f"查詢網站數 N1（{rep['stats']['n1']}）小於實際來源數 {n2}，已調成 {n2}")
+            rep["stats"]["n1"] = n2
 
     base = os.path.splitext(os.path.basename(md))[0].replace("-igaming-report", "")
     with open(os.path.join(ROOT, "state", f"{base}-report.json"), "w", encoding="utf-8") as f:

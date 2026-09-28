@@ -30,7 +30,7 @@ STREAKS = os.path.join(HDIR, "source_streaks.json")
 BLOCK = "⚙️ 系統警報"
 
 CREDIT_FLOOR = 100          # 低於這個數字直接紅燈
-DEFAULT_DAILY_USE = 35      # 還沒有用量紀錄時，用 SKILL.md 的單日上限估
+DEFAULT_DAILY_USE = 30      # 還沒有用量紀錄時，用「充裕」級門檻估
 FAIL_STREAK_DAYS = 3
 LOW_CANDIDATE_RATIO = 0.5
 
@@ -70,18 +70,22 @@ def check_credits(day, alerts, info):
         info["credits"] = note
         return
     hist = jload(CREDITS, {})
-    hist[day.isoformat()] = cr["remaining"]
+    # 格式 {日期: {"start": 開跑前, "end": 收尾}}（harvest.py 寫 start、這裡寫 end）；舊格式是單一數字
+    rec = hist.get(day.isoformat())
+    rec = rec if isinstance(rec, dict) else ({"start": rec} if isinstance(rec, int) else {})
+    rec["end"] = cr["remaining"]
+    hist[day.isoformat()] = rec
     hist = dict(sorted(hist.items())[-40:])
     jsave(CREDITS, hist)
-    # 近 7 天實際用量：相鄰兩天剩餘點數的差（重置日會變多，跳過）
-    days = sorted(hist)
-    uses = [hist[a] - hist[b] for a, b in zip(days, days[1:])
-            if (date.fromisoformat(b) - date.fromisoformat(a)).days == 1 and hist[a] >= hist[b]][-7:]
+    uses = [v["start"] - v["end"] for k, v in hist.items()
+            if isinstance(v, dict) and "start" in v and "end" in v and v["start"] >= v["end"]][-7:]
+    today_use = rec["start"] - rec["end"] if "start" in rec else None
     daily = round(sum(uses) / len(uses)) if uses else DEFAULT_DAILY_USE
     end = date.fromisoformat(cr["period_end"]) if cr["period_end"] else None
     left_days = max((end - day).days, 0) if end else None
     need = daily * left_days if left_days is not None else None
-    info["credits"] = {**cr, "daily_use": daily, "daily_basis": "近 7 天實際" if uses else "預設上限",
+    info["credits"] = {**cr, "today_use": today_use, "daily_use": daily,
+                       "daily_basis": f"近 {len(uses)} 天實際" if uses else "預設上限",
                        "days_to_reset": left_days, "need_until_reset": need}
     rem = cr["remaining"]
     if rem < CREDIT_FLOOR:
@@ -100,6 +104,13 @@ def check_sources(day, alerts, info):
         alerts.append(f"🟠 找不到 harvest 結果（state/harvest/{day}.json），今天的候選可能是 Claude 自己補抓的")
         info["harvest"] = "missing"
         return
+    fc = h.get("meta", {}).get("firecrawl") or {}
+    info["tier"] = fc
+    if fc.get("tier", "").startswith(("🟠", "🔴")):
+        alerts.append(f"{fc['tier'][:1]} Firecrawl 今天是「{fc['tier'][2:]}」級（預算 {fc.get('budget')} 點）：{fc.get('note', '')}")
+    cr = info.get("credits") if isinstance(info.get("credits"), dict) else {}
+    if cr.get("today_use") is not None and fc.get("budget") is not None and cr["today_use"] > fc["budget"] + 3:
+        alerts.append(f"🟠 今天實際用了 {cr['today_use']} 點，超過今日預算 {fc['budget']} 點")
     rows = [(x["source"], x["status"] == "OK") for x in h.get("health", [])]
     rows += [(x["source"], x["status"] == "OK") for x in h.get("lists", []) if not x["status"].startswith("略過")]
     streaks = jload(STREAKS, {})
@@ -188,7 +199,8 @@ def main():
     c = info.get("credits")
     print(f"# 健康檢查 {day}")
     if isinstance(c, dict):
-        print(f"- Firecrawl：剩 {c['remaining']}/{c['plan']} 點，{c['period_end']} 重置（{c['days_to_reset']} 天），"
+        print(f"- Firecrawl：今天用了 {c['today_use'] if c['today_use'] is not None else '？'} 點；"
+              f"剩 {c['remaining']}/{c['plan']} 點，{c['period_end']} 重置（{c['days_to_reset']} 天），"
               f"每天約 {c['daily_use']} 點（{c['daily_basis']}），撐到重置需約 {c['need_until_reset']} 點")
     else:
         print(f"- Firecrawl：{c}")

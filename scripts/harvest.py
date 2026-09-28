@@ -48,6 +48,17 @@ EXPO_LEAD_DAYS = 14             # 展會：開展前 14 天到閉展日每天抓
 EXPO_MAX_PER_DAY = 2
 WEEKLY_FIXED = 3                # 每週一固定輪幾個「每週／事件」來源
 
+# v6.5 Firecrawl 用量分級（2026-09-28 使用者定案）：開跑前查剩餘點數，
+# 今日預算 ＝（剩餘 − 保留 20）÷ 距離重置天數，依預算決定今天的抓取強度
+CREDIT_RESERVE = 20
+CREDIT_FLOOR = 100              # 剩餘低於這個數字，不管預算多少一律保命
+TIERS = [  # (名稱, 預算下限, 輪掃, 事件觸發, 展會, 週一固定, 文章上限, 說明)
+    ("🟢 充裕", 30, 3, 3, 2, 3, 22, "全開"),
+    ("🟡 標準", 20, 2, 2, 1, 2, 16, "輪掃 2、觸發減量"),
+    ("🟠 節約", 15, 0, 1, 1, 0, 10, "停輪掃；文章只給 Slot／非 Slot，其他分類用 WebSearch"),
+    ("🔴 保命", -10 ** 9, 0, 0, 0, 0, 0, "只抓 iGamingToday；文章 0，配圖改用 WebFetch 免費抓"),
+]
+
 # 綜合型媒體（菲律賓在地）整站新聞很多，只留跟博弈有關的
 GENERAL_MEDIA = {"GMA News", "Rappler", "SunStar", "BusinessWorld"}
 GAMING_KW = re.compile(
@@ -185,6 +196,73 @@ def fetch_bigwinboard():
     return (out, None) if out else (None, "BigWinBoard 新作列表解析不到條目")
 
 
+MONTHS = {m: i for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
+
+
+def _mdy(txt):
+    """'September 28, 2026'／'Sep 28 2026'／'28 Sep 2026' → datetime（台北 00:00）。"""
+    m = re.search(r"([A-Z][a-z]{2,8})\.? (\d{1,2}),? (20\d\d)", txt) or None
+    if m:
+        mon, day, yr = m.group(1)[:3].lower(), int(m.group(2)), int(m.group(3))
+    else:
+        m = re.search(r"(\d{1,2}) ([A-Z][a-z]{2,8})\.? (20\d\d)", txt)
+        if not m:
+            return None
+        day, mon, yr = int(m.group(1)), m.group(2)[:3].lower(), int(m.group(3))
+    if mon not in MONTHS:
+        return None
+    return datetime(yr, MONTHS[mon], day, tzinfo=TPE)
+
+
+def fetch_slotslaunch(body=None):
+    """v6.5 SlotsLaunch 上線日曆（免費 curl）：每款遊戲都有上線日，今天起往後排；上線日只精確到日。
+    結構：<h2> September 28, 2026 </h2> 之後一張張 data-name="遊戲名" 的卡片，卡片內有遊戲頁連結與廠商連結。"""
+    body = body if body is not None else sh("https://slotslaunch.com/calendar", 25)
+    marks = [(m.start(), "date", m.group(1)) for m in re.finditer(r"<h2[^>]*>\s*([A-Z][a-z]+ \d{1,2}, 20\d\d)\s*</h2>", body)]
+    marks += [(m.start(), "card", html.unescape(m.group(1))) for m in re.finditer(r'data-name="([^"]+)"', body)]
+    marks.sort()
+    out, cur, seen, names_seen = [], None, set(), set()
+    for k, (pos, kind, val) in enumerate(marks):
+        if kind == "date":
+            cur = _mdy(val)
+            continue
+        if not cur or (cur, val) in names_seen:
+            continue            # 每張卡片 data-name 會出現兩次，只看第一次
+        names_seen.add((cur, val))
+        seg = body[pos:pos + 5000]
+        g = re.search(r'href="(https://slotslaunch\.com/([a-z0-9-]+)/[a-z0-9-]+)"', seg)
+        if not g or g.group(2) in ("tournaments", "games", "providers") or g.group(1) in seen:
+            continue
+        seen.add(g.group(1))
+        gp = re.search(r'href="https://slotslaunch\.com/' + re.escape(g.group(2)) + r'"[^>]*>\s*([^<]+?)\s*<', seg)
+        soon = "Coming Soon" in seg
+        out.append({"title": f"{val} — {html.unescape(gp.group(1)) if gp else g.group(2)}", "url": g.group(1), "dt": cur,
+                    "date_only": True,
+                    "excerpt": f"SlotsLaunch 上線日 {cur:%Y-%m-%d}{'（Coming Soon，尚未開放試玩）' if soon else ''}"})
+    return (out, None) if out else (None, "SlotsLaunch 上線日曆解析不到條目")
+
+
+def parse_igamingtoday(md):
+    """v6.5 iGamingToday 首頁（Firecrawl markdown）：「## [標題](網址)」後面幾行是「September 27, 2026」。"""
+    out, seen = [], set()
+    lines = md.splitlines()
+    for i, x in enumerate(lines):
+        m = re.match(r"\s*##\s*\[([^\]]+)\]\((https://www\.igamingtoday\.com/[^\s)\"]+)", x)
+        if not m or m.group(2) in seen:
+            continue
+        dt = None
+        for y in lines[i + 1:i + 12]:
+            if y.strip():
+                dt = _mdy(y.strip()) if re.fullmatch(r"\s*[A-Z][a-z]+ \d{1,2}, 20\d\d\s*", y) else None
+                if dt:
+                    break
+        if dt:
+            seen.add(m.group(2))
+            out.append({"title": clean(m.group(1)), "url": m.group(2), "dt": dt, "date_only": True,
+                        "excerpt": "iGamingToday（次要來源，不可當唯一來源）"})
+    return out
+
+
 def guess_cat(title, excerpt):
     text = f"{title} {excerpt}"
     for cat, rx in CAT_RULES:
@@ -214,6 +292,33 @@ def firecrawl(url, key):
             continue
         return None, err[:120]
     return None, "Rate limit 重試 3 次仍失敗"
+
+
+def credits_now(key):
+    """Firecrawl 剩餘點數（v2 API）。失敗回 None。"""
+    if not key:
+        return None
+    r = subprocess.run(["curl", "-s", "--max-time", "20", "-H", f"Authorization: Bearer {key}",
+                        "https://api.firecrawl.dev/v2/team/credit-usage"], capture_output=True, text=True)
+    try:
+        d = json.loads(r.stdout)["data"]
+        return {"remaining": int(d["remainingCredits"]), "plan": d.get("planCredits"),
+                "period_end": (d.get("billingPeriodEnd") or "")[:10]}
+    except Exception:
+        return None
+
+
+def pick_tier(cr, today):
+    """回傳 (tier tuple, 說明 dict)。查不到額度就用「標準」。"""
+    if not cr:
+        t = TIERS[1]
+        return t, {"tier": t[0], "budget": None, "note": "查不到剩餘點數，預設標準"}
+    end = datetime.fromisoformat(cr["period_end"]).date() if cr["period_end"] else today + timedelta(days=30)
+    days = max((end - today).days, 1)
+    budget = (cr["remaining"] - CREDIT_RESERVE) // days
+    t = TIERS[3] if cr["remaining"] < CREDIT_FLOOR else next(x for x in TIERS if budget >= x[1])
+    return t, {"tier": t[0], "budget": int(budget), "remaining": cr["remaining"], "period_end": cr["period_end"],
+               "days_to_reset": days, "reserve": CREDIT_RESERVE, "note": t[7]}
 
 
 def main():
@@ -256,12 +361,17 @@ def main():
     with cf.ThreadPoolExecutor(max_workers=16) as ex:
         results = list(ex.map(job, feeds))
     bwb, bwb_err = fetch_bigwinboard()
-    results.append(({"name": "BigWinBoard 新作列表", "way": "HTML", "cat": "產品分析／評測"}, bwb, bwb_err))
+    results.append(({"name": "BigWinBoard 新作列表", "way": "程式解析", "cat": "產品分析／評測"}, bwb, bwb_err))
+    try:
+        sl, sl_err = fetch_slotslaunch()
+    except Exception as e:  # noqa: BLE001
+        sl, sl_err = None, f"{type(e).__name__}: {e}"[:120]
+    results.append(({"name": "SlotsLaunch 上線日曆", "way": "程式解析", "cat": "產品分析／評測"}, sl, sl_err))
 
-    for s, res, err in results:
+    def ingest(s, res, err):
         if res is None:
             health.append({"source": s["name"], "way": s["way"], "status": "失敗", "error": err, "total": 0, "in_window": 0})
-            continue
+            return
         n_in = 0
         for it in res:
             if it["dt"] > w1 + timedelta(minutes=1) and not it.get("date_only"):
@@ -270,12 +380,14 @@ def main():
                 continue
             if NOISE.search(it["title"]):
                 continue
-            cat = "cat1" if s["name"].startswith("BigWinBoard") else guess_cat(it["title"], it["excerpt"])
+            cat = "cat1" if s["name"].startswith(("BigWinBoard", "SlotsLaunch")) else guess_cat(it["title"], it["excerpt"])
             if it.get("date_only"):
                 inw = w0.date() <= it["dt"].date() <= w1.date()
             else:
                 inw = w0 <= it["dt"] < w1
             age_days = (w1 - it["dt"]).total_seconds() / 86400
+            if age_days < -SLOT_LOOKBACK_DAYS:
+                continue  # 上線日在 7 天以後的預告：日報不收（SKILL.md），也不列
             if not inw and not (cat == "cat1" and age_days <= SLOT_LOOKBACK_DAYS) \
                     and not (age_days <= OTHER_LOOKBACK_DAYS):
                 continue
@@ -286,19 +398,28 @@ def main():
                           "in_window": inw, "guess": cat, "excerpt": it["excerpt"]})
         health.append({"source": s["name"], "way": s["way"], "status": "OK", "total": len(res), "in_window": n_in})
 
+    for s, res, err in results:
+        ingest(s, res, err)
+
     # 同一網址去重（Focus 的多個地區版共用同一個 feed 等）
-    uniq = {}
-    for it in sorted(items, key=lambda x: x["published"], reverse=True):
-        uniq.setdefault(it["url"] if "bigwinboard.com/new-slots" not in it["url"] else it["title"], it)
-    items = list(uniq.values())
+    def dedupe(xs):
+        uniq = {}
+        for it in sorted(xs, key=lambda x: x["published"], reverse=True):
+            uniq.setdefault(it["url"] if "bigwinboard.com/new-slots" not in it["url"] else it["title"], it)
+        return list(uniq.values())
+    items = dedupe(items)
 
     # ---------- 第二層：Firecrawl ----------
     lists = []
+    key = os.environ.get("FIRECRAWL_API_KEY", "").strip().strip('"').strip("'")
+    cr0 = None if (a.no_firecrawl or a.plan) and not key else credits_now(key)
+    tier, tinfo = pick_tier(cr0, d.date())
+    _, _, n_rot, n_event, n_expo, n_weekly, art_cap, _ = tier
+    spent_lists = 0
     if not a.no_firecrawl:
-        key = os.environ.get("FIRECRAWL_API_KEY", "").strip().strip('"').strip("'")
         targets = [s for s in srcs if s["way"] == "Firecrawl" and s["freq"] == "每日"]
-        rot = subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "rotate_sources.py"), "--date", date],
-                             capture_output=True, text=True).stdout
+        rot = subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "rotate_sources.py"), "--date", date,
+                              "--size", str(max(n_rot, 1))], capture_output=True, text=True).stdout if n_rot else ""
         for line in rot.splitlines():
             if line and not line.startswith("#"):
                 parts = line.split("\t")
@@ -319,7 +440,7 @@ def main():
         prio = lambda x: (0 if "PAGCOR" in x["name"] else 1 if any(k in x["name"] for k in ("DICJ", "Korea")) else 2)
         for s_ in sorted(srcs, key=prio):
             kw = s_.get("trigger")
-            if not kw or s_["name"] in done_this_week or len(fired) >= EVENT_MAX_PER_DAY:
+            if not kw or s_["name"] in done_this_week or len(fired) >= min(EVENT_MAX_PER_DAY, n_event):
                 continue
             rx = re.compile(kw, re.I)
             hit = next((t for t in texts if rx.search(t)), None)
@@ -337,15 +458,16 @@ def main():
                 if st - timedelta(days=EXPO_LEAD_DAYS) <= d.date() <= en:
                     expo.append((st, {**s_, "freq": f"行事曆觸發（展期 {st}～{en}）"}))
         expo.sort(key=lambda x: x[0])
-        extra += [x[1] for x in expo[:EXPO_MAX_PER_DAY]]
+        extra += [x[1] for x in expo[:min(EXPO_MAX_PER_DAY, n_expo)]]
         # ③ 固定週期：每週一從「每週／事件」來源輪 WEEKLY_FIXED 個（依 ISO 週數決定，無需狀態）
-        if d.weekday() == 0:
+        if d.weekday() == 0 and n_weekly:
             pool = [s_ for s_ in srcs if s_["freq"] == "每週／事件" and s_["cat"] in ("監理機關／官方數據", "產業協會／技術認證機構")]
             if pool:
                 k = d.isocalendar()[1] * WEEKLY_FIXED
-                extra += [{**pool[(k + i) % len(pool)], "freq": "每週一固定週期"} for i in range(min(WEEKLY_FIXED, len(pool)))]
+                extra += [{**pool[(k + i) % len(pool)], "freq": "每週一固定週期"} for i in range(min(WEEKLY_FIXED, n_weekly, len(pool)))]
         targets += extra
         if a.plan:
+            print(f"# Firecrawl 分級：{tinfo['tier']}｜今日預算 {tinfo['budget']}｜{tinfo['note']}")
             print(f"# 第二層計畫 {date}（{week}，週{'一二三四五六日'[d.weekday()]}）：共 {len(targets)} 個")
             for t in targets:
                 print(f"  - {t['name']}｜{t['freq']}")
@@ -364,7 +486,13 @@ def main():
                 continue
             url = s.get("endpoint") or s["url"]
             md, err = firecrawl(url, key)
+            spent_lists += 1
             fn = re.sub(r"[^\w\-]+", "_", s["name"])[:50] + ".md"
+            if md and s["name"] == "iGamingToday":
+                # v6.5：程式直接解析成候選，Claude 不用翻 1,500 行原文
+                parsed = parse_igamingtoday(md)
+                ingest({"name": "iGamingToday", "way": "Firecrawl＋程式解析"}, parsed or None,
+                       None if parsed else "iGamingToday 列表頁解析不到條目")
             if md:
                 with open(os.path.join(ldir, fn), "w", encoding="utf-8") as f:
                     f.write(f"<!-- {s['name']} | {url} | 抓取 {now:%Y-%m-%d %H:%M} -->\n{md}")
@@ -374,15 +502,17 @@ def main():
             time.sleep(3.5)  # Firecrawl 免費方案每分鐘 20 次
 
         # 📋 週六檢查點：從 EEGaming Slot 分類頁找最新一篇 Weekend Reels，整篇抓回來
-        if d.weekday() == 5 and key:
-            wr_url = None
-            for x in lists:
+        if d.weekday() == 5 and key and tier[0] != TIERS[3][0]:
+            wr_url = next((i["url"] for i in items if "weekend reels" in i["title"].lower()
+                           and "eegaming.org" in i["url"]), None)
+            for x in ([] if wr_url else lists):
                 if x.get("file") and "EEGaming" in x["source"]:
                     md_txt = open(os.path.join(ROOT, x["file"]), encoding="utf-8").read()
                     m = re.search(r"https://eegaming\.org/latest-news/\d{4}/\d\d/\d\d/\d+/weekend-reels[^)\s\"]*", md_txt)
                     wr_url = m.group(0) if m else None
             if wr_url:
                 md, err = firecrawl(wr_url, key)
+                spent_lists += 1
                 if md:
                     with open(os.path.join(ldir, "WEEKEND_REELS.md"), "w", encoding="utf-8") as f:
                         f.write(f"<!-- Weekend Reels | {wr_url} | 抓取 {now:%Y-%m-%d %H:%M} -->\n{md}")
@@ -395,8 +525,25 @@ def main():
                               "error": "EEGaming 分類頁裡找不到 weekend-reels 連結，請用 WebSearch 找本週那篇"})
 
     os.makedirs(OUT_DIR, exist_ok=True)
+    items = dedupe(items)
+    budget = tinfo["budget"]
+    art_limit = art_cap if budget is None else max(0, min(art_cap, budget - spent_lists))
+    tinfo.update({"lists_spent": spent_lists, "article_limit": art_limit})
     meta = {"date": date, "window": [w0.strftime("%Y-%m-%d %H:%M"), w1.strftime("%Y-%m-%d %H:%M")],
-            "generated": now.strftime("%Y-%m-%d %H:%M"), "feeds": len(feeds)}
+            "generated": now.strftime("%Y-%m-%d %H:%M"), "feeds": len(feeds), "firecrawl": tinfo}
+    # 開跑時的剩餘點數記下來，health_alert.py 收尾再記一次 → 得到今天的實際用量
+    if cr0 and not a.plan:
+        cp = os.path.join(ROOT, "state", "health", "credits.json")
+        try:
+            hist = json.load(open(cp, encoding="utf-8"))
+        except Exception:
+            hist = {}
+        rec = hist.get(date) if isinstance(hist.get(date), dict) else {}
+        rec.setdefault("start", cr0["remaining"])
+        hist[date] = rec
+        os.makedirs(os.path.dirname(cp), exist_ok=True)
+        with open(cp, "w", encoding="utf-8") as f:
+            json.dump(dict(sorted(hist.items())[-40:]), f, ensure_ascii=False, indent=1)
     with open(os.path.join(OUT_DIR, f"{date}.json"), "w", encoding="utf-8") as f:
         json.dump({"meta": meta, "health": health, "lists": lists, "items": items}, f, ensure_ascii=False, indent=1)
 
@@ -408,27 +555,54 @@ def main():
          f"- 第一層：{len(feeds)} 個 WP-API／RSS 來源＋BigWinBoard 新作列表；"
          f"成功 {sum(h['status']=='OK' for h in health)}、失敗 {sum(h['status']!='OK' for h in health)}",
          f"- 窗內候選 {sum(i['in_window'] for i in items)} 則；另列近 {SLOT_LOOKBACK_DAYS} 天 Slot 與近 {OTHER_LOOKBACK_DAYS} 天其他新聞供庫存參考",
-         "- ⚠️ 預判分類只是關鍵字猜的，最後歸類以 SKILL.md 為準；發布時間是台北時間，BigWinBoard 是遊戲上線日（只到日）",
+         "- ⚠️ 預判分類只是關鍵字猜的，最後歸類以 SKILL.md 為準；發布時間是台北時間，BigWinBoard／SlotsLaunch 是遊戲上線日（只到日）",
+         f"- 窗外近期候選（庫存參考）另存 `state/harvest/{date}-backlog.md`，需要補位時再讀",
+         "",
+         f"## 💳 Firecrawl 今日分級：{tinfo['tier']}",
+         "",
+         (f"- 剩餘 {tinfo['remaining']} 點，{tinfo['period_end']} 重置（{tinfo['days_to_reset']} 天）；"
+          f"今日預算 ＝（{tinfo['remaining']} − 保留 {CREDIT_RESERVE}）÷ {tinfo['days_to_reset']} ＝ **{tinfo['budget']} 點**"
+          if tinfo.get("remaining") is not None else f"- {tinfo['note']}"),
+         f"- 程式已用 {spent_lists} 點抓列表頁 → **Claude 今天 Firecrawl 抓文章最多 {art_limit} 次**（硬上限，用完改 WebSearch／WebFetch）",
+         f"- 本級規則：{tinfo['note']}",
          ""]
+    B = [f"# 窗外近期候選 {date}（庫存參考，勿當當日新聞）", "",
+         f"- Slot 近 {SLOT_LOOKBACK_DAYS} 天（含 7 天內將上線的預告）、其他近 {OTHER_LOOKBACK_DAYS} 天", ""]
     for cat in ["cat1", "cat2", "cat3", "cat4", "cat5"]:
         inw = [i for i in items if i["guess"] == cat and i["in_window"]]
         old = [i for i in items if i["guess"] == cat and not i["in_window"]]
         L.append(f"## {names[cat]}　窗內 {len(inw)}／窗外近期 {len(old)}")
         L.append("")
         per_src, skipped = {}, 0
+        # 單一來源洗版只列前幾則：主流／數據區多是各國在地法規新聞（規則裡最低優先），每站 4 則；其他區 10 則
+        cap = 4 if cat in ("cat3", "cat5") else 10
+        cal = [i for i in inw if i["source"].startswith("SlotsLaunch")]
         for i in inw:
+            if i in cal:
+                continue
             per_src[i["source"]] = per_src.get(i["source"], 0) + 1
-            if per_src[i["source"]] > 10:  # 單一來源洗版（例：巴西禁令當天 BNLData 發了 30 篇）只列前 10
+            if per_src[i["source"]] > cap and not i["source"].startswith(("BigWinBoard", "iGamingToday")):
                 skipped += 1
                 continue
             L.append(f"- ✅ {i['published']} | {i['source']} | {i['title']} | {i['url']}")
         if skipped:
-            L.append(f"- （另有 {skipped} 則同來源重複議題未列出，完整清單見 {date}.json）")
-        if old:
+            L.append(f"- （另有 {skipped} 則同來源議題未列出，完整清單見 {date}.json）")
+        if cal:
+            # SlotsLaunch 是上線日曆（資料庫，不是新聞稿）：精簡成一行一款，網址規則 slotslaunch.com/<廠商>/<遊戲>，完整見 json
             L.append("")
-            L.append("  窗外近期（庫存候選，勿當當日新聞）：")
-            for i in old[:25]:
-                L.append(f"  - {i['published']} | {i['source']} | {i['title']} | {i['url']}")
+            L.append(f"  🗓️ SlotsLaunch 上線日曆（窗內 {len(cal)} 款；只能當線索，主來源要另找新聞稿／GP 官網／BigWinBoard）：")
+            for dday in sorted({i["published"] for i in cal}):
+                row = [i["title"].replace(" — ", "／") + ("⏳" if "Coming Soon" in i["excerpt"] else "")
+                       for i in cal if i["published"] == dday]
+                L.append(f"  - {dday}：" + "；".join(row))
+        if old:
+            L.append(f"- （窗外近期 {len(old)} 則見 {date}-backlog.md）")
+            B.append(f"## {names[cat]}　{len(old)} 則")
+            B.append("")
+            for i in old[:40]:
+                B.append(f"- {i['published']} | {i['source']} | {i['title']} | {i['url']}"
+                         + (f" | {i['excerpt']}" if i["source"].startswith(("BigWinBoard", "SlotsLaunch")) else ""))
+            B.append("")
         L.append("")
     if d.weekday() == 5:
         wk = sorted([i for i in items if i["source"].startswith("BigWinBoard") and
@@ -441,20 +615,32 @@ def main():
         L.append("")
     L.append("## 📡 來源健檢")
     L.append("")
-    for h in sorted(health, key=lambda x: (x["status"] == "OK", -x["in_window"])):
-        L.append(f"- {h['source']}（{h['way']}）：{h['status']}，窗內 {h['in_window']}／回傳 {h['total']}"
-                 + (f"　⚠️ {h['error']}" if h.get("error") else ""))
+    bad = [h for h in health if h["status"] != "OK"]
+    zero = [h for h in health if h["status"] == "OK" and not h["in_window"]]
+    good = sorted((h for h in health if h["status"] == "OK" and h["in_window"]), key=lambda x: -x["in_window"])
+    for h in bad:
+        L.append(f"- ⚠️ {h['source']}（{h['way']}）：失敗　{h.get('error', '')}")
+    for h in good:
+        L.append(f"- {h['source']}（{h['way']}）：窗內 {h['in_window']}／回傳 {h['total']}")
+    if zero:
+        L.append(f"- 窗內 0 則（正常回傳）{len(zero)} 個：" + "、".join(h["source"] for h in zero))
     if lists:
-        L += ["", "## 🔥 第二層 Firecrawl 列表頁（請逐一讀檔解析窗內條目）", ""]
+        L += ["", "## 🔥 第二層 Firecrawl 列表頁", "",
+              "iGamingToday 已由程式解析併入上方候選，不用讀原檔；其他（輪掃／觸發／Weekend Reels）請讀檔解析窗內條目：", ""]
         for x in lists:
-            L.append(f"- {x['source']}（{x.get('freq','')}）：{x['status']}" + (f" → `{x['file']}`" if x.get("file") else f"　{x.get('error','')}"))
+            done = " ✅ 已解析" if x["source"] == "iGamingToday" and x["status"] == "OK" else ""
+            L.append(f"- {x['source']}（{x.get('freq','')}）：{x['status']}{done}"
+                     + (f" → 📖 請讀檔 `{x['file']}`" if x.get("file") and not done else "" if done else f"　{x.get('error','')}"))
     with open(os.path.join(OUT_DIR, f"{date}.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(L) + "\n")
+    with open(os.path.join(OUT_DIR, f"{date}-backlog.md"), "w", encoding="utf-8") as f:
+        f.write("\n".join(B) + "\n")
 
     print(f"✓ harvest {date}：窗 {meta['window'][0]}～{meta['window'][1]}，"
           f"來源 {len(feeds)}（失敗 {sum(h['status']!='OK' for h in health)}），"
           f"窗內候選 {sum(i['in_window'] for i in items)}，總候選 {len(items)}，"
-          f"Firecrawl 列表 {sum(x['status']=='OK' for x in lists)}/{len(lists)}")
+          f"Firecrawl 列表 {sum(x['status']=='OK' for x in lists)}/{len(lists)}｜分級 {tinfo['tier']}、"
+          f"今日預算 {tinfo['budget']}、文章上限 {art_limit}")
     print(f"  → state/harvest/{date}.md")
 
 

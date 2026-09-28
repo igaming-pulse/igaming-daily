@@ -81,7 +81,8 @@ firecrawl_plan: 1000 credits/month, resets on the 14th, 20 requests/min (sleep �
 ```
 02:30 launchd → scripts/run_daily.sh
   1 git pull --ff-only (test-publish)
-  2 python3 scripts/harvest.py                → state/harvest/<DATE>.md (+ .json, <DATE>-lists/*.md)
+  2 python3 scripts/harvest.py                → state/harvest/<DATE>.md (+ .json, -backlog.md, <DATE>-lists/*.md)
+      starts by querying Firecrawl credits → tier → list-page count + article cap written in the md header
   3 claude --permission-mode bypassPermissions -p "$(cat docs/scheduled-prompt.txt)"
       a read state/harvest/<DATE>.md and every <DATE>-lists/*.md
       b python3 scripts/inventory.py show --date <DATE>
@@ -368,6 +369,7 @@ handoff_order_on_new_machine: docs/BUSINESS_LOGIC.md → skills/SKILL.md → doc
 | v6.4.1 | 9/27 | weekday 5 / weekend 2; fill only if ≤3; previews ≤7 d; Saturday checkpoint; iGamingToday secondary; cat2–5 stock 1/day | 9/27 slot area = 3 far-future previews from one affiliate site |
 | v6.4.3 | 9/28 | hot IP rule (H=+3, 30-day preview) | Huff N' Puff missed on 9/28 |
 | v6.5 | 9/28 | frozen template (scripts/report_lib.py), finalize_report.py (schema + links + images + fuzzy dedupe), health_alert.py, fuzzy matching in inventory.py | theme failed on hand-written HTML; spelling variants; nobody watching credits/source failures |
+| v6.5.1 | 9/28 | Firecrawl tiers (budget=(remaining−20)/days_to_reset; ≥30/20–29/15–19/<15), BigWinBoard+SlotsLaunch calendar+EEGaming+SBC News+IAG moved to free fetch (daily Firecrawl lists 6→1), iGamingToday parsed by code, backlog file, TBC placeholder auto-reject, N2 computed, tests/ | 599 credits for 16 days; Huff N´Puff buried in unparsed list |
 | v6.4.2 | 9/27 | three triggers; 觸發關鍵字 + 展期 columns; SBC Summit, iGB Live added; OutputLogic rewritten | "never fetched" sources |
 
 Old machine v4.1: search-first ("brand + RTP max win reels" hits slot DBs), rotation 30/day, lenient dates, cat1 fixed 5 → more slots but included out-of-window items and far-future previews (9/27: 7 of 13 outside window). Neither machine is a gold standard.

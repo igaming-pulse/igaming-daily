@@ -87,7 +87,27 @@ def matches(x, pool):
                for h in pool.values())
 
 
+def is_placeholder(x):
+    """v6.5：BigWinBoard（TBC）佔位頁 —— 上線日未定、頁面日期比首見日還舊，多半是預先建好的空殼頁。
+    有明確上線日（release_date）的不算。"""
+    if x.get("release_date"):
+        return False
+    srcs = x.get("sources") or []
+    tbc = x.get("tbc") or any("TBC" in (s.get("name", "") + s.get("published", "")) for s in srcs)
+    if not tbc:
+        return False
+    first = x.get("first_seen", "")[:10]
+    olds = [m for s in srcs for m in re.findall(r"20\d\d-\d\d-\d\d", s.get("name", "") + " " + s.get("published", ""))]
+    return not olds or min(olds) < first
+
+
 def prune(inv, today):
+    rejected = [x for x in inv["slots"] if is_placeholder(x)]
+    if rejected:
+        inv["slots"] = [x for x in inv["slots"] if x not in rejected]
+        inv.setdefault("rejected", []).extend({"date": today.isoformat(), "title": x.get("title", ""), "gp": x.get("gp", ""),
+                                               "reason": "BigWinBoard（TBC）佔位頁"} for x in rejected)
+        inv["rejected"] = inv["rejected"][-50:]
     inv["slots"] = [x for x in inv["slots"] if not expired(x, today, True)]
     inv["others"] = [x for x in inv["others"] if not expired(x, today, False)]
     inv["history"] = [h for h in inv["history"] if (today - d(h["date"])).days <= 30]
@@ -100,6 +120,9 @@ def cmd_show(a):
     save(inv)
     rk = recent_keys(inv, today)
     print(f"# 庫存狀態 {a.date}（Slot 保鮮 {SLOT_FRESH_DAYS} 天、其他 {OTHER_FRESH_DAYS} 天、去重 {DEDUP_DAYS} 天）\n")
+    rej = [r for r in inv.get("rejected", []) if r["date"] == a.date]
+    if rej:
+        print(f"## 🗑️ 今天自動剔除（TBC）佔位頁 {len(rej)} 款：" + "、".join(f"{r['title']}（{r['gp']}）" for r in rej) + "\n")
     cap = 2 if today.weekday() >= 5 else 5
     wd = "一二三四五六日"[today.weekday()]
     horizon = today + timedelta(days=PREVIEW_MAX_DAYS)

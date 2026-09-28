@@ -47,8 +47,9 @@
 
 - 嚴禁平行 sub-agent，全程主線循序
 - 交叉查證每則上限 3 次
-- 整場 firecrawl ≤ 35 次（第二層列表頁約 9 ＋ 入選文章 ≤22）、WebSearch ≤ 60 次
-- v6.4 收集順序：先讀 state/harvest/<DATE>.md（程式已備好的候選＋精確時間）與第二層列表頁存檔 →
+- Firecrawl 依 harvest 檔頭「💳 今日分級」：文章抓取最多 N 次（硬上限，用完改 WebSearch／WebFetch）；WebSearch ≤ 60 次
+- ⛔ 節約級只給 Slot／非 Slot 抓文章；保命級完全不用 Firecrawl（配圖改 WebFetch 抓 og:image，抓不到寫「圖片：無」）
+- v6.4 收集順序：先讀 state/harvest/<DATE>.md（程式已備好的候選＋精確時間）與標「請讀檔」的列表頁存檔 →
   跑 inventory.py show 讀庫存 → 第三層 WebSearch 四類查詢 → 打分排序 → 只對入選者查證 →
   寫 inventory-picks 並跑 inventory.py update
 - Slot 上限：週一到週五日報 5 款、週六週日日報 2 款；超過進庫存。當天新作 ≤3 款才從庫存補到上限、≥4 款不補，

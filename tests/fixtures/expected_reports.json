@@ -1,0 +1,142 @@
+{
+ "2026-09-20-igaming-report.md": {
+  "date": "2026-09-20",
+  "counts": {
+   "cat1": 1,
+   "cat2": 1,
+   "cat3": 1,
+   "cat4": 2
+  },
+  "stats": {
+   "n1": 50,
+   "n2": 18
+  }
+ },
+ "2026-09-21-igaming-report.md": {
+  "date": "2026-09-21",
+  "counts": {
+   "cat3": 1,
+   "cat4": 1
+  },
+  "stats": {
+   "n1": 52,
+   "n2": 4
+  }
+ },
+ "2026-09-22-igaming-report.md": {
+  "date": "2026-09-22",
+  "counts": {
+   "cat1": 4,
+   "cat2": 2,
+   "cat3": 4,
+   "cat4": 3,
+   "cat5": 2
+  },
+  "stats": {
+   "n1": 85,
+   "n2": 23
+  }
+ },
+ "2026-09-23-igaming-report.md": {
+  "date": "2026-09-23",
+  "counts": {
+   "cat1": 8,
+   "cat3": 7,
+   "cat4": 1,
+   "cat5": 1
+  },
+  "stats": {
+   "n1": 90,
+   "n2": 35
+  }
+ },
+ "2026-09-24-igaming-report.md": {
+  "date": "2026-09-24",
+  "counts": {
+   "cat1": 1,
+   "cat2": 1,
+   "cat3": 5,
+   "cat4": 1,
+   "cat5": 3
+  },
+  "stats": {
+   "n1": 50,
+   "n2": 25
+  }
+ },
+ "2026-09-25-igaming-report.md": {
+  "date": "2026-09-25",
+  "counts": {
+   "cat1": 2,
+   "cat2": 1,
+   "cat3": 7,
+   "cat4": 1,
+   "cat5": 2
+  },
+  "stats": {
+   "n1": 32,
+   "n2": 20
+  }
+ },
+ "2026-09-26-igaming-report.md": {
+  "date": "2026-09-26",
+  "counts": {
+   "cat3": 7,
+   "cat4": 2,
+   "cat5": 2
+  },
+  "stats": {
+   "n1": 52,
+   "n2": 14
+  }
+ },
+ "2026-09-26-v64-igaming-report.md": {
+  "date": "2026-09-26",
+  "counts": {
+   "cat1": 5,
+   "cat2": 2,
+   "cat3": 5,
+   "cat4": 3,
+   "cat5": 3
+  },
+  "stats": {
+   "n1": 130,
+   "n2": 43
+  }
+ },
+ "2026-09-27-igaming-report.md": {
+  "date": "2026-09-27",
+  "counts": {
+   "cat3": 1
+  },
+  "stats": {
+   "n1": 78,
+   "n2": 3
+  }
+ },
+ "2026-09-27-v64-igaming-report.md": {
+  "date": "2026-09-27",
+  "counts": {
+   "cat1": 3,
+   "cat3": 4,
+   "cat5": 3
+  },
+  "stats": {
+   "n1": 130,
+   "n2": 15
+  }
+ },
+ "2026-09-28-igaming-report.md": {
+  "date": "2026-09-28",
+  "counts": {
+   "cat1": 5,
+   "cat3": 5,
+   "cat4": 1,
+   "cat5": 2
+  },
+  "stats": {
+   "n1": 28,
+   "n2": 15
+  }
+ }
+}
