@@ -1,0 +1,106 @@
+name: 日報雲端試跑（cloud-trial）
+
+# v6.5.1（2026-09-28）方案 A：把每日日報從 Mac 搬到 GitHub Actions 的第一階段 ——「並行試跑」。
+#
+# 做什麼：checkout test-publish → 開一個 cloud-trial 分支 → 跑 scripts/run_daily.sh（harvest → claude -p → 定稿 → 推送）
+# 不做什麼（刻意隔離，跟 Mac 正式那份互不干擾）：
+#   - 不推 test-publish（庫存、觸發紀錄不會被改兩次）
+#   - 不發佈到網站（IGAMING_PUBLISH_TEST_TO_MAIN=0）、不發 Telegram
+#   - 產出推到 cloud-trial 分支（每次從 test-publish 重新開始），另存成 Actions artifact 方便對照
+#
+# ⚠️ 沒設定 Secrets 時會自動跳過（不報錯、不做事）。要啟用請在 repo Settings → Secrets and variables → Actions 新增：
+#   CLAUDE_CODE_OAUTH_TOKEN   在自己電腦終端機跑 `claude setup-token` 產生（吃 Claude 訂閱額度）
+#   FIRECRAWL_API_KEY         Firecrawl 後台的 API key
+#
+# ⚠️ 為什麼放在 main：GitHub 的 cron 只認預設分支上的 workflow。
+# 台北 01:30 ＝ UTC 17:30。GitHub 排程常延遲，所以比 Mac 的 02:30 早一小時；時間窗照「實際執行時刻往前 24 小時」算，晚跑不會漏。
+on:
+  schedule:
+    - cron: '30 17 * * *'
+  workflow_dispatch:
+    inputs:
+      no_firecrawl:
+        description: '不用 Firecrawl（true＝只跑免費來源，省點數；false＝照分級正常用）'
+        required: false
+        default: 'false'
+
+concurrency:
+  group: daily-cloud-trial
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      TZ: Asia/Taipei
+      IGAMING_PUBLISH_TEST_TO_MAIN: '0'
+    steps:
+      - name: 檢查 Secrets（沒設就跳過）
+        id: gate
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          if [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ]; then
+            echo "::notice::尚未設定 CLAUDE_CODE_OAUTH_TOKEN，本次跳過（這是預期行為）"
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.ready == 'true'
+        with:
+          ref: test-publish
+          fetch-depth: 20
+
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.ready == 'true'
+        with:
+          python-version: '3.11'
+
+      - uses: actions/setup-node@v4
+        if: steps.gate.outputs.ready == 'true'
+        with:
+          node-version: '20'
+
+      - name: 安裝相依套件與 Claude Code
+        if: steps.gate.outputs.ready == 'true'
+        run: |
+          pip install --quiet openpyxl
+          npm install -g @anthropic-ai/claude-code
+          claude --version
+
+      - name: 準備 cloud-trial 分支
+        if: steps.gate.outputs.ready == 'true'
+        run: |
+          git config user.name  "iGaming Pulse (cloud)"
+          git config user.email "igaming-pulse@users.noreply.github.com"
+          git checkout -B cloud-trial
+          git push -f -u origin cloud-trial
+
+      - name: 跑日報（harvest → claude → 定稿 → 推送 cloud-trial）
+        if: steps.gate.outputs.ready == 'true'
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          FIRECRAWL_API_KEY: ${{ github.event.inputs.no_firecrawl != 'true' && secrets.FIRECRAWL_API_KEY || '' }}
+          IGAMING_REPO: ${{ github.workspace }}
+        run: bash scripts/run_daily.sh
+
+      - name: 保存產出（對照用）
+        if: always() && steps.gate.outputs.ready == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: cloud-trial-${{ github.run_id }}
+          retention-days: 14
+          path: |
+            reports/*.html
+            state/*-igaming-report.md
+            state/*-qa.json
+            state/harvest/
+            state/health/
+            state/pending_telegram.txt
+            state/run.log
