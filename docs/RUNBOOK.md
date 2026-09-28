@@ -201,6 +201,13 @@ python3 scripts/harvest.py --plan        # 只看今天的分級、預算與會�
 今日預算 ＝（剩餘 − 保留 20）÷ 距離重置天數；≥30 充裕、20–29 標準、15–19 節約、<15 或剩餘 <100 保命。
 門檻在 `scripts/harvest.py` 的 `TIERS`／`CREDIT_RESERVE`，改了要同步改 SKILL.md「💳 Firecrawl 用量分級」。
 
+### 雲端試跑（方案 A 第一階段，2026-09-28 建立）
+
+- workflow：main 分支 `.github/workflows/daily-cloud-trial.yml`，每天台北 01:30（UTC 17:30）＋可手動觸發
+- 沒設 Secrets `CLAUDE_CODE_OAUTH_TOKEN` 就自動跳過；另需 `FIRECRAWL_API_KEY`
+- 產出推到 `cloud-trial` 分支（每次從 test-publish 重開）＋ Actions artifact；**不動 test-publish、不發佈網站、不發 Telegram**
+- 並行期間 Firecrawl 與 Claude 用量約兩倍；手動觸發時可選 `no_firecrawl=true` 只跑免費來源
+
 ### 回歸測試（改 scripts/ 前後都要跑）
 
 ```bash
