@@ -1,36 +1,38 @@
-🎰 iGaming 市場日報 2026-09-29（週二）
-🎰 Slot 5 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-09-30（週三）
+🎰 Slot 5 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
 
 🎰 Slot 新遊戲
-01 Gates of Olympus 2500 – Pragmatic Play
-02 Lawn n' Complete Disorder – Play'n GO
-03 Money Train 5 – Relax Gaming
-04 Diamond Tornado – Swintt
-05 Throne of Atlantis – GAMOMAT
+01 Three Pots of the Genie – Play'n GO
+02 Queen Video Slots – IGT
+03 Piggy Bank: Coinstorm – Evoplay
+04 Dr Zappo – Hacksaw Gaming
+05 Sunken City Riches – Stakelogic
 
 🕹️ 非 Slot 新內容
-01 WTF: What's That Flying? – Voltplay
-02 LuckyConnect 聚合合作 – Imperious × LuckyStreak
-03 撲克平台擴充 – PIN Projekt × BETB2B
+01 GLI認證Green Wheel – Vindral × Gaming Support
+02 Comar Poker Tour – Grupo Comar
+03 Evenbeter擬進軍義大利撲克市場
 
-🤝 動態:主流 GP／平台
-01 IGT 於 G2E 2026 發布全新品牌識別
-02 Gaming1 收購 Carousel Group 母公司 Pac-Man NV
-03 巴西全面禁止線上博彩,10 月 6 日大限逼近
-04 Kambi 與秘魯 Olimpo.bet 續簽多年期合作
-05 Jumpman Gaming 勝訴上訴法庭,1,320 萬英鎊稅單全數撤銷
+🤝 動態：主流 GP／平台
+01 Kambi與Olimpo.bet延長秘魯博彩平台合作
+02 Flutter、Entain因巴西禁令下修2026年財測
+03 ANJL、IBJR向巴西最高法院聲請暫停禁令
+04 The Visualize Group完成收購eCOGRA,併入BMM Testlabs
+05 荷蘭VNLOK就非法博彩廣告正式對Meta提告
 
-🇵🇭 動態:菲律賓 GP／平台
-01 DigiPlus 回應巴西禁令:預期無重大財務衝擊
-02 Casino Plus 攜手 Alden Richards 擴大 CSR 合作
-03 PAGCOR 攜手教育部與 66 個地方政府單位興建教室(官方)
+🇵🇭 動態：菲律賓 GP／平台
+01 DigiPlus:巴西禁令預期不會對集團造成重大影響
+02 PAGCOR:盼在任內完成線上博彩專法立法
 
 📊 市場數據 & 趨勢
-01 Galaxsys 高層:「光靠新遊戲或漂亮視覺已經不夠」
-02 哥倫比亞 Coljuegos 前八月稅收年增 39%
-03 澳門中秋連假訪客量年增 19.5%
+01 SOFTSWISS發布《2027 iGaming Trends》趨勢報告
+02 巴西禁令生效後,線上博彩需求驟降20.1%
+03 澳門估十一黃金週單日通關恐破80萬人次
 
-📝 品質備註(本次爬找判斷)
-1. 本窗(09-28 02:30～09-29 02:30)候選量充足(harvest 窗內共 462 則),五區皆有足量當日新聞可選,未動用庫存補位。
-2. EEZE 已連續多天查無合格新消息(僅查到 9/9 舊聞與 SBC Summit 展會預告),今天再次查證仍無符合窗內條件的新消息,依規則跳過。
-3. 巴西禁令為本窗最大單一事件,已依三個硬上限的「其他國家 ≤3 則」控制在 2 則(cat3 巴西禁令本體、cat4 DigiPlus 回應),其餘巴西相關報導僅作佐證來源。
+日報連結：https://igaming-pulse.github.io/igaming-daily/reports/2026-09-30.html
+
+📝 品質備註（本次爬找判斷）
+1. EEZE今日依例外規則跳過:查證SBC Summit相關EEZE報導皆發布於9/22-9/23(窗外預告稿),過去3天日報亦無EEZE收錄,窗內無新消息可用。
+2. cat2、cat4候選偏薄:窗內菲律賓與非Slot合格候選數量少,已加碼WebSearch查證特別追蹤品牌(Acewin/Omiplay/YellowBat/ATG)與DigiPlus系平台,仍查無窗內新消息,非抓取不足所致。
+3. cat4「DigiPlus回應巴西禁令」一則疑似與近日報導重疊,惟本則為9/29較晚發布、內容更完整之聲明(含10/5提領截止日細節),故收錄並於內文查證欄註明。
+4. 剔除5則因主來源日期不合格:Beetlejuice Say It 3 Times與Wu Jin Pen–Panda(L&W,BigWinBoard評測頁實際發布日為9/17,非當日)、Local Hero Bingo首播(ISA-GUIDE,發布於9/28 21:02台北,窗外)、Century Entertainment WPT認證事件(各家一手報導均發布於9/28窗外,僅iGamingToday次要來源落在窗內)、EEZE Fusion Roulette預告(SoloAzar,發布於9/23窗外)。

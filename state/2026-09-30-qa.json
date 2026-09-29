@@ -1,0 +1,33 @@
+{
+ "date": "2026-09-30",
+ "md": "state/2026-09-30-igaming-report.md",
+ "html": "reports/2026-09-30.html",
+ "items": 18,
+ "counts": {
+  "cat1": 5,
+  "cat2": 3,
+  "cat3": 5,
+  "cat4": 2,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 31,
+  "ok": 24,
+  "broken": 0,
+  "blocked": 7,
+  "images_dropped": 0
+ },
+ "errors": [],
+ "warnings": [
+  "cat3-03 ANJL、IBJR向巴西最高法院聲請暫停禁令｜來源連結無法自動驗證（403，多半是網站擋機器人）：SBC Noticias https://sbcnoticias.com/anjl-stf-revertir-prohibicion-apuestas-brasi-ibjr/",
+  "cat3-04 The Visualize Group完成收購e｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/bmm-testlabs-owner-visualize-group-completes-acquisition-of-igaming-tester-ecogra",
+  "cat3-05 荷蘭VNLOK就非法博彩廣告正式對Meta提告｜來源連結無法自動驗證（403，多半是網站擋機器人）：SBC News https://sbcnews.co.uk/marketing/2026/09/29/meta-vnlok-gambling-ads/",
+  "cat4-01 DigiPlus:巴西禁令預期不會對集團造成重大｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/digiplus-says-brazil-betting-ban-unlikely-to-materially-affect-group",
+  "cat4-02 PAGCOR:盼在任內完成線上博彩專法立法｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/09/29/pagcors-alejandro-tengco-wants-online-gaming-law-enacted-during-his-term/",
+  "cat5-02 巴西禁令生效後,線上博彩需求驟降20.1%｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/latest-news/2026/09/29/214926/brazil-igaming-demand-blask-index-betting-ban/",
+  "cat5-03 澳門估十一黃金週單日通關恐破80萬人次｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB（Asia Gaming Brief） https://agbrief.com/news/macau/29/09/2026/macau-forecasts-up-to-5-4m-border-crossings-during-october-golden-week/"
+ ],
+ "fixes": [
+  "文末｜資料來源數 25 → 26（程式依來源連結去重計算）"
+ ]
+}

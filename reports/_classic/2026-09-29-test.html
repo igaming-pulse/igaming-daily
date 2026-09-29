@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="render_report.py v6.5（三層收集＋庫存＋定稿檢查）">
+<title>iGaming 市場日報 2026-09-29（測試）</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../icon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../icon-16.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<style>
+  :root{
+    --bg:#F5F7FA; --card:#ffffff; --line:#E7EBF0; --ink:#1A2230; --sub:#5B6675;
+    --c1:#1D9E75; --c1bg:#E1F5EE; --c1txt:#0F6E56;
+    --c2:#B31217; --c2bg:#FBE3E4; --c2txt:#8A1015;
+    --c3:#378ADD; --c3bg:#E6F1FB; --c3txt:#185FA5;
+    --c4:#D97706; --c4bg:#FBF0DD; --c4txt:#8A5206;
+    --c5:#8B5CF6; --c5bg:#EEE9FC; --c5txt:#5B3FA6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.7}
+  .wrap{max-width:860px;margin:0 auto;padding:28px 16px 60px}
+  header{text-align:center;margin-bottom:22px}
+  header h1{font-size:26px;margin:6px 0 4px}
+  header .date{color:var(--sub);font-size:14px}
+  .badges{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:14px 0}
+  .badge{font-size:12px;font-weight:700;padding:5px 12px;border-radius:999px}
+  .b1{background:var(--c1bg);color:var(--c1txt)}
+  .b2{background:var(--c2bg);color:var(--c2txt)}
+  .b3{background:var(--c3bg);color:var(--c3txt)}
+  .b4{background:var(--c4bg);color:var(--c4txt)}
+  .b5{background:var(--c5bg);color:var(--c5txt)}
+  .stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:20px 0 32px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 10px;text-align:center}
+  .stat .n{font-size:22px;font-weight:800}
+  .stat .l{font-size:12px;color:var(--sub);margin-top:2px}
+  .stat.s1 .n{color:var(--c1)} .stat.s2 .n{color:var(--c2)} .stat.s3 .n{color:var(--c3)} .stat.s4 .n{color:var(--c4)} .stat.s5 .n{color:var(--c5)}
+  section{margin-bottom:36px}
+  .sec-title{display:flex;align-items:center;gap:10px;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid var(--line)}
+  .sec-title .emoji{font-size:1.5em}
+  .sec-title h2{font-size:28px;margin:0}
+  .sec-title .cnt{font-size:13px;color:var(--sub);font-weight:600}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px;position:relative;border-left:6px solid transparent}
+  .card.c1{border-left-color:var(--c1)} .card.c2{border-left-color:var(--c2)} .card.c3{border-left-color:var(--c3)} .card.c4{border-left-color:var(--c4)} .card.c5{border-left-color:var(--c5)}
+  .no{display:inline-block;font-size:12px;font-weight:800;color:#fff;background:var(--ink);border-radius:6px;padding:2px 8px;margin-bottom:8px}
+  .c1 .no{background:var(--c1)} .c2 .no{background:var(--c2)} .c3 .no{background:var(--c3)} .c4 .no{background:var(--c4)} .c5 .no{background:var(--c5)}
+  h3{font-size:17px;margin:4px 0 10px;line-height:1.5}
+  p{font-size:14.5px;margin:0 0 10px;color:#2A3342}
+  .derive{font-size:13px;color:#7a4d0b;background:#FBF3E4;border:1px solid #F0E2C6;border-radius:8px;padding:9px 12px;margin-bottom:10px}
+  .derive b{color:#9a6209;margin-right:6px}
+  .spec{background:#F2F6F4;border:1px solid #E1EAE6;border-radius:8px;padding:10px 12px;margin-bottom:10px;font-size:12.5px}
+  .spec .row{display:flex;gap:10px;padding:3px 0;border-bottom:1px dashed #E1EAE6}
+  .spec .row:last-child{border-bottom:none}
+  .spec .k{flex:0 0 82px;font-weight:700;color:#0F6E56}
+  .keyrow{display:flex;flex-wrap:wrap;gap:14px;background:#F4F8FC;border:1px solid #DCE8F4;border-radius:8px;padding:9px 12px;margin-bottom:10px;font-size:12.5px}
+  .keyrow b{color:#185FA5;margin-right:5px}
+  .c4 .keyrow b{color:#8A5206}
+  .verify{font-size:12.5px;color:#334155;background:#F3F4F6;border:1px solid #E5E7EB;border-radius:8px;padding:8px 12px;margin-bottom:10px;line-height:1.6}
+  .verify::before{content:"🔎 "}
+  .tags{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:11px}
+  a.src{font-weight:600;color:var(--sub);text-decoration:none}
+  a.src:hover{text-decoration:underline}
+  .hero{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;margin-top:10px;display:block;background:#eee}
+  .stats-line{max-width:860px;margin:26px auto 0;text-align:center;font-size:13.5px;color:#1A2230;line-height:1.8}
+  .stats-line b{color:#B31217;font-weight:800}
+  footer{text-align:center;margin-top:30px;color:var(--sub);font-size:12px}
+  @media(max-width:600px){.sec-title h2{font-size:22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="date">2026-09-29（星期二）・台北時間</div>
+  <h1>🎰 iGaming 市場日報（測試）</h1>
+  <div class="badges">
+    <span class="badge b1">🎰 Slot 5</span>
+    <span class="badge b2">🕹️ 非 Slot 3</span>
+    <span class="badge b3">🤝 主流 5</span>
+    <span class="badge b4">🇵🇭 菲律賓 3</span>
+    <span class="badge b5">📊 市場數據 3</span>
+  </div>
+</header>
+
+<div class="stats-grid">
+  <div class="stat s1"><div class="n">5</div><div class="l">🎰 Slot 新遊戲</div></div>
+  <div class="stat s2"><div class="n">3</div><div class="l">🕹️ 非 Slot 新內容</div></div>
+  <div class="stat s3"><div class="n">5</div><div class="l">🤝 主流動態</div></div>
+  <div class="stat s4"><div class="n">3</div><div class="l">🇵🇭 菲律賓</div></div>
+  <div class="stat s5"><div class="n">3</div><div class="l">📊 市場數據</div></div>
+</div>
+
+<section>
+  <div class="sec-title"><span class="emoji">🎰</span><h2>Game Provider 新遊戲</h2><span class="cnt">共 5 則</span></div>
+  <div class="card c1">
+    <div class="no">01</div>
+    <h3>Gates of Olympus 2500 – Pragmatic Play</h3>
+    <p>Pragmatic Play 為旗艦宙斯主題老虎機推出重量級續作,將單一符號最高乘數自前作的 5,000x 一口氣拉高到 2,500x 起跳、組合後最高可達 25,000x,延續 Scatter Pays（8 個以上同符號即賠付）與買免費旋轉功能。作為系列最成功 IP 之一的再進化,新版維持高波動特性但把獎金上限大幅拉高,鎖定追求高倍率體驗的核心客群。對 PM 的意義:此為業界指標系列的重磅續作,幾乎必然成為上線後立即進榜的熱門標的,建議優先排入主推名單並準備對應的行銷素材。</p>
+    <div class="derive"><b>衍生調整</b>單一符號乘數區間由前作 2x–1,000x 大幅上修至 2x–2,500x,最高倍率由 5,000x 倍增至 25,000x,核心 Tumble 與買免費旋轉機制維持不變。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span>線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span>6×5</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span>Scatter Pays（8 個以上同符號賠付,無固定連線）</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>25,000x</span></div>
+      <div class="row"><span class="k">RTP</span><span>96.52%（另有 95.5%／94% 版本）</span></div>
+      <div class="row"><span class="k">波動</span><span>高</span></div>
+      <div class="row"><span class="k">目標市場</span><span>全球</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>乘數符號 2x–2,500x、買免費旋轉功能、系列 IP 延續</span></div>
+    </div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://www.pragmaticplay.com/en/news/pragmatic-play-supercharges-iconic-series-in-gates-of-olympus-2500/" target="_blank" rel="noopener">Pragmatic Play 官網 ↗</a>
+      <a class="src" href="https://focusgn.com/gates-olympus-2500-pragmatic-play" target="_blank" rel="noopener">Focus Gaming News ↗</a>
+      <a class="src" href="https://slotcatalog.com/en/slots/gates-of-olympus-2500" target="_blank" rel="noopener">SlotCatalog ↗</a>
+      · 2026-09-28
+    </div>
+    <img class="hero" src="https://www.pragmaticplay.com/wp-content/uploads/2026/09/Gates-of-Olympus-2500_1200x630_EN.jpg" alt="Gates of Olympus 2500" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c1">
+    <div class="no">02</div>
+    <h3>Lawn n' Complete Disorder – Play'n GO</h3>
+    <p>Play'n GO 推出花園亂鬥主題續作,圍繞單一 Coin 符號設計,玩家在花園小精靈的搗亂中蒐集金幣觸發四階即時獎金(Mini/Minor/Major/Grand),搭配蘑菇 Wild 與 Hold &amp; Spin 機制。相較前作 Lawn n' Disorder 高達 50,000x 的單次爆發設計,本作改以更頻繁的即時獎金觸發取代單一超高倍率,追求較平穩的對局節奏。對 PM 的意義:延續工作室既有「Disorder」系列辨識度,243 ways 賠付結構與中高頻獎金觸發適合作為主頁常駐選品,吸引偏好穩定回饋的玩家群。</p>
+    <div class="derive"><b>衍生調整</b>最高倍率由前作 50,000x 下修至 18,000x,以四階即時獎金(Instant Bonus)取代單次超高倍率設計,提高中頻對局節奏。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span>線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span>5×3</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span>243 ways to win</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>18,000x</span></div>
+      <div class="row"><span class="k">RTP</span><span>96.20%(另有 94.20%／91.20%／87.20%／84.20% 版本)</span></div>
+      <div class="row"><span class="k">波動</span><span>高</span></div>
+      <div class="row"><span class="k">目標市場</span><span>全球</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>蘑菇 Wild、Hold &amp; Spin、四階即時獎金(Mini/Minor/Major/Grand)</span></div>
+    </div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://www.yogonet.com/international/news/2026/09/28/126554-playn-go-launches-lawn-n-complete-disorder-video-slot-built-around-coin-symbol" target="_blank" rel="noopener">Yogonet International ↗</a>
+      <a class="src" href="https://www.bigwinboard.com/lawn-n-complete-disorder-playn-go-slot-review/" target="_blank" rel="noopener">BigWinBoard ↗</a>
+      · 2026-09-28
+    </div>
+    <img class="hero" src="https://imagenesyogonet.b-cdn.net/data/imagenes/2026/09/24/91542/1790261139-play-n-go-lawn-n-complete-disorder.jpg" alt="Lawn n&#x27; Complete Disorder" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c1">
+    <div class="no">03</div>
+    <h3>Money Train 5 – Relax Gaming</h3>
+    <p>Relax Gaming 為招牌搶劫題材系列推出第五代作品,故事背景轉往末日荒原,新增 Ticket Master、Bomber、Pyromancer 三名角色與 Nuclear Wild 符號。最大亮點是 Standard／Ultra 雙模式選擇:Standard 模式最高倍率維持 50,000x,更高波動的 Ultra 模式則把系列天花板推升至 100,000x。對 PM 的意義:Money Train 是業界公認長期穩定吸量的招牌系列,雙模式設計讓同一款遊戲同時服務「求穩」與「求刺激」兩種玩家分眾,無需拆成兩款產品即可擴大受眾覆蓋。</p>
+    <div class="derive"><b>衍生調整</b>新增 Nuclear Wild 符號與 Standard/Ultra 雙模式選擇,Ultra 模式將原系列最高倍率 5 萬倍再翻倍至 10 萬倍,並加入三名新角色豐富收集型獎勵機制。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span>線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span>5×4(可擴展至 5×5)</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span>40 條賠付線</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>100,000x(Ultra 模式)／50,000x(Standard 模式)</span></div>
+      <div class="row"><span class="k">RTP</span><span>96.1%(另有 94%／92%／90% 版本)</span></div>
+      <div class="row"><span class="k">波動</span><span>極高</span></div>
+      <div class="row"><span class="k">目標市場</span><span>全球</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>Standard/Ultra 雙模式、角色收集獎勵、Nuclear Wild</span></div>
+    </div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://eegaming.org/latest-news/2026/09/28/52874/relax-gaming-launches-money-train-5-slot-game/" target="_blank" rel="noopener">EEGaming ↗</a>
+      <a class="src" href="https://www.olbg.com/news/relax-gaming-launches-money-train-5-slot" target="_blank" rel="noopener">OLBG ↗</a>
+      · 2026-09-28
+    </div>
+    <img class="hero" src="https://eegaming.org/api/eeg/social-image/55370.jpg" alt="Money Train 5" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c1">
+    <div class="no">04</div>
+    <h3>Diamond Tornado – Swintt</h3>
+    <p>Swintt 推出寶石主題新作,核心機制是中央三軸 Scatter 觸發的漸進式乘數計量表(Tornado Meter):每次觸發最高可為下一次獲勝加乘 5 倍,計量表滿載後歸零重來;另有 3 個獎勵符號觸發 12 次免費遊戲,內含鑽石、加成符號與額外旋轉。對 PM 的意義:計量表式漸進乘數讓基本遊戲本身就具備逐漸堆疊的緊張感,而非完全仰賴買免費旋轉才有爆發感,在部分限制買免費旋轉功能的市場中可作為替代玩法賣點。</p>
+    <div class="derive"><b>衍生調整</b>全新 IP,無衍生;以中央三軸 Scatter 觸發的漸進式乘數計量表(Tornado Meter)為核心機制,取代傳統單次觸發乘數設計。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span>線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span>4-3-3-3-4(非固定行列)</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span>Scatter 觸發 + 漸進式乘數計量表</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>6,000x</span></div>
+      <div class="row"><span class="k">RTP</span><span>未公布(已查 SlotCatalog、Swintt 官網、EEGaming 內頁仍無)</span></div>
+      <div class="row"><span class="k">波動</span><span>高</span></div>
+      <div class="row"><span class="k">目標市場</span><span>全球</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>Tornado 漸進乘數表(每次最高 +5x)、12 次免費遊戲、本地化累積獎金</span></div>
+    </div>
+    <div class="verify">多方來源(EEGaming、iGaming Business)均未揭露正式 RTP 數字,已依規定查核 SlotCatalog 與官網後如實標註未公布。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://eegaming.org/latest-news/2026/09/28/52872/swintt-releases-diamond-tornado-slot-with-progressive-multipliers-and-local-jackpots/" target="_blank" rel="noopener">EEGaming ↗</a>
+      <a class="src" href="https://igamingbusiness.com/company-news/swintt-spin-up-a-storm-in-new-diamond-tornado-slot/" target="_blank" rel="noopener">iGaming Business ↗</a>
+      · 2026-09-28
+    </div>
+    <img class="hero" src="https://eegaming.org/api/eeg/social-image/55367.jpg" alt="Diamond Tornado" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c1">
+    <div class="no">05</div>
+    <h3>Throne of Atlantis – GAMOMAT</h3>
+    <p>GAMOMAT 推出亞特蘭提斯主題六軸 Tumble 老虎機,單一符號最高乘數可達 500x,整體win potential 超過 30,000x;4 個以上獎勵符號可觸發 15 次免費遊戲。本作透過自家 G-RGS 遠端遊戲伺服器發行,可加速在既有合作營運商網路快速上架。對 PM 的意義:G-RGS 發行模式代表更短的上架前置時間,適合在秋季內容改版週期中快速補齊水域/神話主題選品線。</p>
+    <div class="derive"><b>衍生調整</b>全新 IP,無衍生;採用 Tumble 連續消除搭配單一符號最高 500 倍乘數,並透過自家 G-RGS 遠端遊戲伺服器發行以加速上架。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span>線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span>6 軸(Tumble 機制,無固定行列)</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span>Tumble 連續消除</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>30,000x 以上</span></div>
+      <div class="row"><span class="k">RTP</span><span>未公布(已查 SlotCatalog、GAMOMAT 官網、EEGaming 內頁仍無)</span></div>
+      <div class="row"><span class="k">波動</span><span>高</span></div>
+      <div class="row"><span class="k">目標市場</span><span>全球</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>單一符號最高 500x 乘數、15 次免費遊戲(4 個以上獎勵符號觸發)、G-RGS 快速發行</span></div>
+    </div>
+    <div class="verify">多方來源均未揭露正式 RTP 數字,已依規定查核後如實標註未公布。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://eegaming.org/latest-news/2026/09/28/52899/gamomat-launches-atlantis-themed-slot-throne-of-atlantis-via-g-rgs/" target="_blank" rel="noopener">EEGaming ↗</a>
+      <a class="src" href="https://igamingfuture.com/gamomat-dives-into-the-deep-with-throne-of-atlantis/" target="_blank" rel="noopener">iGaming Future ↗</a>
+      · 2026-09-28
+    </div>
+    <img class="hero" src="https://eegaming.org/api/eeg/social-image/55441.jpg" alt="Throne of Atlantis" loading="lazy" onerror="this.style.display='none'">
+  </div>
+</section>
+<section>
+  <div class="sec-title"><span class="emoji">🕹️</span><h2>非 Slot 新內容</h2><span class="cnt">共 3 則</span></div>
+  <div class="card c2">
+    <div class="no">01</div>
+    <h3>WTF: What's That Flying? – Voltplay</h3>
+    <p>Voltplay 搭配 SBC Summit 2026 展會發表 UFO 喜劇題材 Crash 遊戲,玩家扮演飛碟駕駛在紐約獨立日煙火夜空中操作,需在乘數持續攀升時抓準時機兌現,煙火、路障等隨機事件隨時可能讓回合提前結束。遊戲提供四段可調難度,讓同一款產品同時服務保守型與高風險玩家。對 PM 的意義:Crash 品類持續在「乘數攀升」的基本骨架上尋找差異化包裝,喜劇 IP 掛鉤加上可調難度為聯盟行銷提供新的創意切角,無需開發全新機制。</p>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span>Crash Game</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>72,432x</span></div>
+      <div class="row"><span class="k">RTP</span><span>95.5%</span></div>
+      <div class="row"><span class="k">目標市場</span><span>全球</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>四段難度可調、UFO 喜劇主題、瀏覽器型即開即玩</span></div>
+    </div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://www.yogonet.com/international/news/2026/09/28/126590-voltplay-to-unveil-wtf-whats-that-flying-crash-game-at-sbc-summit-2026" target="_blank" rel="noopener">Yogonet International ↗</a>
+      <a class="src" href="https://next.io/news/b2b-news/voltplay-to-present-its-new-ufo-themed-crash-game-at-sbc-summit-2026/" target="_blank" rel="noopener">NEXT.io ↗</a>
+      · 2026-09-28
+    </div>
+    <img class="hero" src="https://imagenesyogonet.b-cdn.net/data/imagenes/2026/09/28/91595/1790597199-voltplay-generica.jpg" alt="WTF: What&#x27;s That Flying?" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c2">
+    <div class="no">02</div>
+    <h3>LuckyConnect 聚合合作 – Imperious × LuckyStreak</h3>
+    <p>加密貨幣賭場平台商 Imperious 選定 LuckyStreak 作為首選內容聚合夥伴,採用 LuckyConnect API 讓旗下營運商客戶透過單一整合即可存取逾 60 家廠商、6,000 款以上的遊戲內容。雙方特別強調本次整合僅花費一週,相較 Imperious 過往與其他聚合商合作動輒六到八週大幅縮短。對 PM 的意義:聚合商整合速度直接影響新營運商上線前置時間,對於搶進市場的加密貨幣賭場品牌而言是重要的競爭變數。</p>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span>Live/Slot 內容聚合平台(非單一遊戲)</span></div>
+      <div class="row"><span class="k">目標市場</span><span>全球(加密貨幣賭場為主)</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>單一 API 串接逾 60 家廠商 6,000 款遊戲、一週內完成整合</span></div>
+    </div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://findmoreafrica.com/imperious-luckystreak-casino-aggregation-partner/" target="_blank" rel="noopener">Find More Africa ↗</a>
+      <a class="src" href="https://gaminginternational.online/imperious-selects-luckystreak-as-its-preferred-casino-aggregation-partner/" target="_blank" rel="noopener">Gaming International Online ↗</a>
+      <a class="src" href="https://casinointernational-online.com/imperious-selects-luckystreak-as-its-preferred-casino-aggregation-partner/" target="_blank" rel="noopener">Casino International ↗</a>
+      · 2026-09-28
+    </div>
+    <img class="hero" src="https://findmoreafrica.com/wp-content/uploads/2026/09/LuckyStreak-x-Imperious-1920-x-1080.jpg" alt="LuckyConnect 聚合合作" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c2">
+    <div class="no">03</div>
+    <h3>撲克平台擴充 – PIN Projekt × BETB2B</h3>
+    <p>PIN Projekt 擴大與平台商 BETB2B 的長期合作,推出專屬撲克產品供 BETB2B 旗下營運商網路使用,主打行動優先設計並同時提供現金桌與錦標賽賽制。PIN Projekt 營運長 Ivan Grković 將此次上線稱為「策略性里程碑」,強調目標是打造可長期維持品質與公信力的撲克生態系,而非一次性內容投放。對 PM 的意義:讓 BETB2B 旗下營運商多一條可直接交叉導流的撲克產品線,毋須另外對接獨立撲克客戶端。</p>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span>Poker(現金桌 + 錦標賽)</span></div>
+      <div class="row"><span class="k">目標市場</span><span>全球(BETB2B 營運商網路)</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>行動優先設計、現金桌與錦標賽並行、單一平台深化整合</span></div>
+    </div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://slotbeats.com/slot-news/pin-projekt-expands-deal-betb2b/" target="_blank" rel="noopener">SlotBeats ↗</a>
+      <a class="src" href="https://sbcnews.co.uk/igaming/2026/09/28/poker-betb2b-pin-projekt/" target="_blank" rel="noopener">SBC News ↗</a>
+      <a class="src" href="https://igamingexpert.com/news/games/pin-projekt-poker-platform-betb2b/" target="_blank" rel="noopener">iGaming Expert ↗</a>
+      · 2026-09-28
+    </div>
+    <img class="hero" src="https://resources.slotbeats.com/slotbeats/2026/09/Poker.jpg" alt="撲克平台擴充" loading="lazy" onerror="this.style.display='none'">
+  </div>
+</section>
+<section>
+  <div class="sec-title"><span class="emoji">🤝</span><h2>動態：主流 GP／平台</h2><span class="cnt">共 5 則</span></div>
+  <div class="card c3">
+    <div class="no">01</div>
+    <h3>IGT 於 G2E 2026 發布全新品牌識別,呼應公司轉型</h3>
+    <p>IGT 在 G2E 2026 開展前夕發布全新品牌識別,標語聚焦「流暢(fluid)、無摩擦(frictionless)、magnetic」三大原則。此次改版是 Apollo 私募基金主導 IGT 與 Everi 合併、更換高層團隊後的又一步——執行長 Hector Fernandez 稍早曾表示,他的任務是「讓 IGT 重返昔日榮光」。對 PM 的意義:品牌重塑本身不直接影響產品線,但釋出訊號顯示 IGT 正加速從老品牌形象轉向以玩家體驗為核心的市場定位,值得留意後續實體機台與內容策略是否跟進調整。</p>
+    <div class="keyrow"><b>類型</b>合作　<b>對象</b>IGT　<b>影響</b>標誌 IGT 併購 Everi 後的組織轉型進入公開階段,後續產品與行銷策略值得追蹤</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://asgam.com/2026/09/29/igt-launches-new-brand-identity-to-reflect-corporate-transformation/" target="_blank" rel="noopener">Inside Asian Gaming ↗</a>
+      <a class="src" href="https://www.prnewswire.com/news-releases/igt-unveils-new-brand-identity-at-2026-global-gaming-expo-302890998.html" target="_blank" rel="noopener">PR Newswire ↗</a>
+      · 2026-09-29
+    </div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">02</div>
+    <h3>Gaming1 收購 Carousel Group 母公司 Pac-Man NV,深化比利時線上賭場版圖</h3>
+    <p>比利時營運商 Gaming1 宣布收購 Carousel Group 母公司 Pac-Man NV 全部股權,取得該公司的數位資產、執照及 Harelbeke 實體賭場館。雙方合作可追溯至 2012 年,Pac-Man NV 與 Carousel Group 同屬 De Backer 家族(同時擁有 711 便利商店)。Gaming1 旗下 777 品牌目前是比利時第五大線上賭場品牌,此次收購將顯著擴大其線上賭場市佔。對 PM 的意義:比利時線上賭場市場整合持續進行,中型營運商透過收購既有執照與客群加速擴張,是觀察歐洲區域性整併節奏的指標案例。</p>
+    <div class="keyrow"><b>類型</b>併購　<b>對象</b>Gaming1、Carousel Group(Pac-Man NV)　<b>影響</b>比利時線上賭場市場進一步整併,Gaming1 市佔顯著提升</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://focusgn.com/gaming1-buys-carousel-group-parent-pac-man-nv-to-expand-presence-in-belgiums-online-casino-market" target="_blank" rel="noopener">Focus Gaming News ↗</a>
+      <a class="src" href="https://sbcnews.co.uk/igaming/2026/09/25/belgiums-gaming1-carousel-group" target="_blank" rel="noopener">SBC News ↗</a>
+      <a class="src" href="https://www.egr.global/intel/news/gaming1-acquires-belgian-operator-carousel-to-ramp-up-online-presence/" target="_blank" rel="noopener">EGR Intel ↗</a>
+      · 2026-09-29
+    </div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">03</div>
+    <h3>巴西全面禁止線上博彩,10 月 6 日大限逼近,產業掀反彈</h3>
+    <p>巴西總統盧拉(Lula)於 9 月 25 日簽署臨時措施,全面禁止該國固定賠率線上博彩之營運、提供、居間與廣告,並要求業者於 10 月 6 日前完成停業,客戶餘額須於 10 月 9 日至 14 日間透過銀行退還。多家全球博彩巨頭公開表達不滿:Entain 對禁令表示遺憾,Allwyn 則準備採取法律行動;分析機構 Regulus Partners 估計禁令「僅維持數週或數月」的機率達 85%。巴西亦於禁令生效隔日一口氣封鎖近 300 個疑似非法博彩網站。對 PM 的意義:巴西是拉美最大博彩市場之一,一夕禁令將迫使國際營運商重新評估整個拉美布局,後續司法覆核與最高法院動向是接下來數週的觀察重點。</p>
+    <div class="keyrow"><b>類型</b>政府法規　<b>對象</b>巴西政府、Entain、Allwyn 等國際營運商　<b>影響</b>巴西線上博彩市場一夕關閉,國際營運商重新評估拉美布局與法律因應</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://sbcnews.co.uk/features/2026/09/28/brazil-betting-ban-impact/" target="_blank" rel="noopener">SBC News ↗</a>
+      <a class="src" href="https://g3newswire.com/brazil-sets-6-october-deadline-for-betting-market-shutdown-2/" target="_blank" rel="noopener">G3 Newswire ↗</a>
+      <a class="src" href="https://igamingbusiness.com/legal-compliance/brazil-betting-ban-immediate-aftermath/" target="_blank" rel="noopener">iGaming Business ↗</a>
+      <a class="src" href="https://www.yogonet.com/international/news/2026/09/28/126587-brazil-betting-ban-what-the-provisional-measure-actually-says" target="_blank" rel="noopener">Yogonet International ↗</a>
+      · 2026-09-28
+    </div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">04</div>
+    <h3>Kambi 與秘魯 Olimpo.bet 續簽多年期運動彩合作,鞏固拉美布局</h3>
+    <p>運動彩科技商 Kambi 宣布與秘魯本土營運商 Olimpo.bet 續簽多年期合作,持續採用 Kambi 旗艦 Turnkey Sportsbook 方案並依當地玩家偏好客製化。雙方自 2021 年起合作,Olimpo.bet 已成為秘魯「在地英雄」型營運商;Olimpo 商務副理 Manuela Gomez 表示,Kambi 的技術支持是其成功關鍵。對 PM 的意義:在巴西禁令衝擊拉美大盤信心之際,Kambi 選擇同步鞏固秘魯這類已規範市場的長期合作,顯示供應商正分散區域風險、優先深耕法規明確的市場。</p>
+    <div class="keyrow"><b>類型</b>合作　<b>對象</b>Kambi、Olimpo.bet　<b>影響</b>鞏固 Kambi 在拉美已規範市場(秘魯)的長期供應商地位</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://sbcnews.co.uk/sportsbook/2026/09/28/kambi-olympo/" target="_blank" rel="noopener">SBC News ↗</a>
+      <a class="src" href="https://focusgn.com/kambi-olimpo-bet-peru-sportsbook" target="_blank" rel="noopener">Focus Gaming News ↗</a>
+      <a class="src" href="https://agbrief.com/news/world/28/09/2026/kambi-renews-multi-year-turnkey-sportsbook-partnership-with-perus-olimpo-bet/" target="_blank" rel="noopener">AGB ↗</a>
+      · 2026-09-28
+    </div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">05</div>
+    <h3>Jumpman Gaming 勝訴上訴法庭,英國 1,320 萬英鎊免費旋轉稅單全數撤銷</h3>
+    <p>英國線上賭場營運商 Jumpman Gaming 在與英國稅務海關總署(HMRC)的爭議中勝訴,上訴法庭裁定原本針對 2018 年 7 月至 2022 年 12 月間促銷免費旋轉所課徵的約 1,320 萬英鎊遠端博彩稅(RGD)應全數撤銷。爭議源於 Jumpman 歡迎禮中「合格存款換取 Mega Reel 免費旋轉、再衍生其他遊戲免費旋轉」的促銷設計;法庭採納 Jumpman 對稅法的解讀,並指出若採 HMRC 的認定方式,將要求業者追蹤過長的免費遊戲交易鏈,窒礙難行。對 PM 的意義:此判決為英國博彩業促銷免費旋轉的稅務認定立下先例,可能協助其他營運商比照主張退稅或降低未來促銷稅務風險。</p>
+    <div class="keyrow"><b>類型</b>提告　<b>對象</b>Jumpman Gaming、HMRC　<b>影響</b>為英國博彩業 promotional free spins 的稅務處理立下判例,其他營運商可能援引減輕稅負</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://www.egr.global/intel/news/jumpman-gaming-wins-appeal-over-13-2m-remote-gaming-duty-bill-on-free-spins/" target="_blank" rel="noopener">EGR Intel ↗</a>
+      <a class="src" href="https://next.io/news/casino/jumpman-defeats-hmrc-free-spins-tax-battle/" target="_blank" rel="noopener">NEXT.io ↗</a>
+      · 2026-09-28
+    </div>
+  </div>
+</section>
+<section>
+  <div class="sec-title"><span class="emoji">🇵🇭</span><h2>動態：菲律賓 GP／平台</h2><span class="cnt">共 3 則</span></div>
+  <div class="card c4">
+    <div class="no">01</div>
+    <h3>DigiPlus 回應巴西禁令:預期無重大財務衝擊</h3>
+    <p>針對巴西總統盧拉簽署禁令全面停止線上博彩,菲律賓上市博彩集團 DigiPlus 發布官方聲明,表示此一發展「預期不會對 DigiPlus 整體財務或營運狀況造成重大影響」。公司表示現階段首要任務是確保有序因應,包含即時處理客戶提領與依規定期限退還客戶餘額;DigiPlus 形容情勢仍「流動且未定案」,將持續關注立法與司法程序並適時更新。對 PM 的意義:DigiPlus 今年稍早才宣布以 GamePlus 進軍巴西市場,如今遭遇一夕禁令,顯示其國際擴張(尤其巴西線)出現重大變數,後續資源可能轉向南非等其他新興市場。</p>
+    <div class="keyrow"><b>類型</b>政府法規　<b>對象</b>DigiPlus　<b>影響</b>DigiPlus 巴西擴張計畫受挫,財務衝擊有限但國際布局策略需調整</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://digiplus.com.ph/official-statement-on-brazil-regulatory-developments/" target="_blank" rel="noopener">DigiPlus 官方聲明 ↗</a>
+      <a class="src" href="https://agbrief.com/intel/28/09/2026/digiplus-expects-no-material-impact-from-brazil-online-betting-ban/" target="_blank" rel="noopener">AGB ↗</a>
+      <a class="src" href="https://bworldonline.com/corporate/2026/09/28/782705/digiplus-monitors-brazil-after-betting-ban/" target="_blank" rel="noopener">BusinessWorld ↗</a>
+      · 2026-09-28
+    </div>
+  </div>
+
+  <div class="card c4">
+    <div class="no">02</div>
+    <h3>Casino Plus 攜手代言人 Alden Richards 擴大 CSR 合作</h3>
+    <p>菲律賓現金網 Casino Plus 宣布與品牌代言人、演員 Alden Richards 深化合作,將原先聚焦負責任娛樂的代言關係擴展至企業社會責任(CSR)專案。雙方自 2024 年合作以來已成為品牌負責任娛樂與社區參與倡議的代表面孔;此次擴大合作恰與 Casino Plus 今年稍早宣布攜手 Philippine First Insurance 取得 10 億披索保證金、強化玩家保障的動作相呼應。對 PM 的意義:菲律賓現金網持續透過名人代言強化品牌信任度與負責任博彩形象,是本地市場行銷與監理觀感並重的常見打法。</p>
+    <div class="keyrow"><b>類型</b>運營活動　<b>對象</b>Casino Plus、Alden Richards　<b>影響</b>強化品牌負責任娛樂形象,鞏固玩家與監理機關的信任</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://bworldonline.com/corporate/2026/09/28/782811/casino-plus-broadens-brand-partnership-to-csr-programs/" target="_blank" rel="noopener">BusinessWorld ↗</a>
+      · 2026-09-28
+    </div>
+  </div>
+
+  <div class="card c4">
+    <div class="no">03</div>
+    <h3>PAGCOR 攜手教育部與 66 個地方政府單位興建教室(官方)</h3>
+    <p>PAGCOR 與菲律賓教育部(DepEd)於 9 月 24 日與 66 個地方政府單位(LGU)舉行儀式性合作備忘錄簽署,推動全國校舍興建計畫。PAGCOR 將撥款 20.9 億披索予其中 38 個 LGU(每單位約 5,500 萬披索),每棟三層樓建築規劃 12 間教室,配備 75 吋智慧電視、擴音設備及一年免費網路,並納入無障礙設施;工程預定 2027 年底完工後,由 DepEd 接手所有權與維運管理。對 PM 的意義:此為 PAGCOR 官方持續履行企業社會責任、鞏固博彩監理機關公共形象的例行性計畫,不佔商業新聞名額,但反映博彩稅收挹注公共建設的實質效益。</p>
+    <div class="keyrow"><b>類型</b>政府法規　<b>對象</b>PAGCOR、DepEd、66 個地方政府單位　<b>影響</b>博彩稅收挹注全國校舍建設,強化 PAGCOR 公共形象</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://eegaming.org/latest-news/2026/09/28/52862/pagcor-deped-partner-with-66-lgus-to-build-more-classrooms-nationwide/" target="_blank" rel="noopener">EEGaming ↗</a>
+      <a class="src" href="https://www.pna.gov.ph/articles/1284804" target="_blank" rel="noopener">Philippine News Agency ↗</a>
+      · 2026-09-28
+    </div>
+  </div>
+</section>
+<section>
+  <div class="sec-title"><span class="emoji">📊</span><h2>市場數據 & 趨勢</h2><span class="cnt">共 3 則</span></div>
+  <div class="card c5">
+    <div class="no">01</div>
+    <h3>Galaxsys 高層:「光靠新遊戲或漂亮視覺已經不夠」</h3>
+    <p>Galaxsys 夥伴發展負責人 Levan Kavtaradze 接受 Focus Gaming News 專訪,直言「單純推出又一款遊戲或做出好看的視覺,已經不足以在市場中脫穎而出」。他指出玩家能在數秒內於外觀相似的遊戲間切換,使品牌與受眾之間的連結比以往更重要;真正的挑戰在於如何在提供營運商實質可用價值的同時,為玩家創造更好的體驗,人工智慧與市場回饋將是形塑策略的關鍵主題。對 PM 的意義:內容供應商之間的差異化正從「畫面/主題」轉向「品牌黏著度與數據回饋驅動的體驗設計」,對選品與內容日曆規劃是重要提醒。</p>
+    <div class="keyrow"><b>類型</b>產品趨勢　<b>對象</b>Galaxsys　<b>影響</b>反映 Slot/Crash 供應商競爭焦點從視覺美術轉向品牌黏著度與 AI 驅動的體驗設計</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://focusgn.com/levan-kavtaradze-galaxsys-simply-launching-another-game-or-having-nice-looking-visuals-is-no-longer-enough" target="_blank" rel="noopener">Focus Gaming News ↗</a>
+      · 2026-09-28
+    </div>
+  </div>
+
+  <div class="card c5">
+    <div class="no">02</div>
+    <h3>哥倫比亞 Coljuegos 前八月博彩稅收年增 39%,運彩貢獻近半</h3>
+    <p>哥倫比亞博彩監理機關 Coljuegos 公布,今年 1 至 8 月挹注全民健保的博彩稅收達 9,772.2 億哥倫比亞披索,較去年同期成長 39.38%。成長主因是運動博彩隨世界盃熱潮大幅成長 84.24%,運彩線上業者貢獻 4,730.23 億披索、占總稅收約 48.4%;在地化遊戲(juegos localizados)稅收亦成長 12.25% 至 2,808.66 億披索。對 PM 的意義:大型國際賽事持續證明是拉美運彩市場最強的成長引擎,哥倫比亞作為拉美少數法規明確的市場,稅收數據可作為評估當地投放資源優先序的參考指標。</p>
+    <div class="keyrow"><b>類型</b>財務　<b>對象</b>Coljuegos、哥倫比亞運彩業者　<b>影響</b>印證世界盃等大型賽事對拉美已規範市場稅收與投注量的顯著拉抬效果</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://g3newswire.com/coljuegos-health-collections-rise-39-through-august-on-sports-betting-growth-in-colombia/" target="_blank" rel="noopener">G3 Newswire ↗</a>
+      <a class="src" href="https://www.yogonet.com/latinoamerica/noticias/2026/09/25/110840-la-recaudacion-de-coljuegos-crece-un-39-en-los-primeros-ochos-meses-de-2026-impulsada-por-las-apuestas-deportivas" target="_blank" rel="noopener">Yogonet Latinoamérica ↗</a>
+      · 2026-09-29
+    </div>
+  </div>
+
+  <div class="card c5">
+    <div class="no">03</div>
+    <h3>澳門中秋連假訪客量年增 19.5%,為十一黃金週熱身</h3>
+    <p>澳門旅遊局統計,9 月 25 日至 27 日中秋連假期間訪客總數約 41.5 萬人次,較去年同期成長 19.5%;單日均值 13.8 萬人次,9 月 26 日單日高峰達 17.1 萬人次,成績優於業界原先預期。澳門旅遊局預估緊接而來的十一黃金週(10 月 1 日至 7 日)單日訪客可望達 15 萬人次,飯店住房率有望超過九成。對 PM 的意義:中秋檔期的強勁表現為即將到來的十一黃金週注入信心,對澳門博彩業而言是評估第四季客流與 GGR 動能的先行指標。</p>
+    <div class="keyrow"><b>類型</b>財務　<b>對象</b>澳門旅遊局、澳門博彩業　<b>影響</b>中秋訪客數據優於預期,為十一黃金週博彩業客流與營收提供正向指標</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://agbrief.com/news/macau/28/09/2026/macau-visitor-arrivals-rise-19-5-to-415000-over-three-day-mid-autumn-holiday/" target="_blank" rel="noopener">AGB(Asia Gaming Brief) ↗</a>
+      <a class="src" href="https://focusgn.com/asia-pacific/macau-visitor-arrivals-golden-week" target="_blank" rel="noopener">Focus Gaming News ↗</a>
+      · 2026-09-28
+    </div>
+  </div>
+</section>
+
+<div class="stats-line">本日日報查詢約 <b>90</b> 個網站，其中提取 <b>44</b> 個資料來源並進行交叉比對</div>
+
+<footer>
+  iGaming 日報自動化 v6.5（三層收集＋庫存＋定稿檢查）・每則皆附真實可點擊原文連結・多來源交叉查證<br>
+  產出時間：2026-09-29（台北時間）
+</footer>
+</div>
+</body>
+</html>
