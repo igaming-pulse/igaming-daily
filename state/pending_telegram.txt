@@ -1,38 +1,34 @@
-🎰 iGaming 市場日報 2026-09-30（週三）
-🎰 Slot 5 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-10-01（週四）
+🎰 Slot 4 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
 
 🎰 Slot 新遊戲
-01 Three Pots of the Genie – Play'n GO
-02 Queen Video Slots – IGT
-03 Piggy Bank: Coinstorm – Evoplay
-04 Dr Zappo – Hacksaw Gaming
-05 Sunken City Riches – Stakelogic
+01 Triple Beasts of Fortune – Play'n GO
+02 Immortal Romance ASSEMBL'EM – Games Global × Stormcraft Studios
+03 Holy Wilds – DEGEN Studios
+04 📦 Crown Strike – Hold & Hit 3x3 – Spinomenal
 
 🕹️ 非 Slot 新內容
-01 GLI認證Green Wheel – Vindral × Gaming Support
-02 Comar Poker Tour – Grupo Comar
-03 Evenbeter擬進軍義大利撲克市場
+01 第四彈 Scratch Card 促銷活動 – 1spin4win
 
 🤝 動態：主流 GP／平台
-01 Kambi與Olimpo.bet延長秘魯博彩平台合作
-02 Flutter、Entain因巴西禁令下修2026年財測
-03 ANJL、IBJR向巴西最高法院聲請暫停禁令
-04 The Visualize Group完成收購eCOGRA,併入BMM Testlabs
-05 荷蘭VNLOK就非法博彩廣告正式對Meta提告
+01 Play'n GO 加入德國線上娛樂場協會（DOCV）
+02 Evolution 成立北美專屬 Slot 工作室 Spinning Whale
+03 IGT 連兩年蟬聯 2026 Global Gaming Awards
+04 Continent 8 與 FuturePath AI 成立合資公司 Future8
+05 Winvia 收購 Giveaway Guys、Win Life Competitions
 
 🇵🇭 動態：菲律賓 GP／平台
-01 DigiPlus:巴西禁令預期不會對集團造成重大影響
-02 PAGCOR:盼在任內完成線上博彩專法立法
+01 Casino Plus 攜手 Peter & Sons 強化菲律賓內容陣容
+02 Casino Plus 全額派發史上最大驗證頭獎 ₱122.4M
+03 PAGCOR 盼 2028 年前完成線上博彩專法立法
 
 📊 市場數據 & 趨勢
-01 SOFTSWISS發布《2027 iGaming Trends》趨勢報告
-02 巴西禁令生效後,線上博彩需求驟降20.1%
-03 澳門估十一黃金週單日通關恐破80萬人次
-
-日報連結：https://igaming-pulse.github.io/igaming-daily/reports/2026-09-30.html
+01 調查：0% VIP 團隊以專屬 AI/自動化工具管理高價值玩家
+02 內華達州 8 月博彩營收微幅成長 3.1%
+03 MDF Partners：義大利線上博彩 2016-2025 複合成長率 20.9%
 
 📝 品質備註（本次爬找判斷）
-1. EEZE今日依例外規則跳過:查證SBC Summit相關EEZE報導皆發布於9/22-9/23(窗外預告稿),過去3天日報亦無EEZE收錄,窗內無新消息可用。
-2. cat2、cat4候選偏薄:窗內菲律賓與非Slot合格候選數量少,已加碼WebSearch查證特別追蹤品牌(Acewin/Omiplay/YellowBat/ATG)與DigiPlus系平台,仍查無窗內新消息,非抓取不足所致。
-3. cat4「DigiPlus回應巴西禁令」一則疑似與近日報導重疊,惟本則為9/29較晚發布、內容更完整之聲明(含10/5提領截止日細節),故收錄並於內文查證欄註明。
-4. 剔除5則因主來源日期不合格:Beetlejuice Say It 3 Times與Wu Jin Pen–Panda(L&W,BigWinBoard評測頁實際發布日為9/17,非當日)、Local Hero Bingo首播(ISA-GUIDE,發布於9/28 21:02台北,窗外)、Century Entertainment WPT認證事件(各家一手報導均發布於9/28窗外,僅iGamingToday次要來源落在窗內)、EEZE Fusion Roulette預告(SoloAzar,發布於9/23窗外)。
+1. 原定 IGT「Queen Video Slots」與 2026-09-30 日報重複（同一則 G2E 發表新聞），已剔除並以庫存項目「Crown Strike – Spinomenal」(9/24 首見)遞補。
+2. EEZE 近 3 天日報皆查無收錄紀錄，今日已查 SBC Summit 相關報導但主來源發布日期皆在窗外（9/23 預告稿），依規則跳過不收。
+3. cat2（非 Slot）今日窗內候選偏弱，多為撲克監理／行銷活動類議題，最終僅收 1 則（1spin4win 刮刮卡行銷活動），品質偏薄，請留意。
+4. 窗內候選量充足（cat1 123、cat3 326、cat5 47 則），非抓取不足；本日新聞主軸集中在 G2E Las Vegas／SBC Summit Lisbon 兩大展會現場動態。

@@ -1,0 +1,34 @@
+{
+  "shown": [
+    {"cat": "cat1", "title": "Triple Beasts of Fortune", "gp": "Play'n GO"},
+    {"cat": "cat1", "title": "Immortal Romance ASSEMBL'EM", "gp": "Games Global"},
+    {"cat": "cat1", "title": "Holy Wilds", "gp": "DEGEN Studios"},
+    {"cat": "cat1", "title": "Crown Strike – Hold & Hit 3x3", "gp": "Spinomenal"},
+    {"cat": "cat2", "title": "第四彈 Scratch Card 促銷活動", "gp": "1spin4win"},
+    {"cat": "cat3", "title": "Play'n GO 加入德國線上娛樂場協會（DOCV）", "gp": "Play'n GO"},
+    {"cat": "cat3", "title": "Evolution 成立北美專屬 Slot 工作室 Spinning Whale", "gp": "Evolution"},
+    {"cat": "cat3", "title": "IGT 連兩年蟬聯 2026 Global Gaming Awards", "gp": "IGT"},
+    {"cat": "cat3", "title": "Continent 8 與 FuturePath AI 成立合資公司 Future8", "gp": "Continent 8"},
+    {"cat": "cat3", "title": "Winvia 收購 Giveaway Guys、Win Life Competitions", "gp": "Winvia"},
+    {"cat": "cat4", "title": "Casino Plus 攜手 Peter & Sons 強化菲律賓內容陣容", "gp": "Casino Plus"},
+    {"cat": "cat4", "title": "Casino Plus 全額派發史上最大驗證頭獎 ₱122.4M", "gp": "Casino Plus"},
+    {"cat": "cat4", "title": "PAGCOR 盼 2028 年前完成線上博彩專法立法", "gp": "PAGCOR"},
+    {"cat": "cat5", "title": "調查：0% VIP 團隊以專屬 AI/自動化工具管理高價值玩家", "gp": "The Playa/Gaming Operations Academy/WarriorLab"},
+    {"cat": "cat5", "title": "內華達州 8 月博彩營收微幅成長 3.1%", "gp": "Nevada Gaming Control Board"},
+    {"cat": "cat5", "title": "MDF Partners：義大利線上博彩 2016-2025 複合成長率 20.9%", "gp": "MDF Partners"}
+  ],
+  "stock": [
+    {"cat": "cat2", "title": "E-Play24 Tipster Poker Night（10/4，10萬歐元保證獎池）", "gp": "E-Play24", "b": 1,
+     "first_seen": "2026-10-01",
+     "sources": [{"name": "AGIMEG", "url": "https://www.agimeg.it/eplay24-domenica-4-ottobre-tipster-poker-night-montepremi/", "published": "2026-09-30 22:55"}]},
+    {"cat": "cat3", "title": "Aristocrat Gaming 獲 2026 Global Gaming Awards Americas 三項大獎", "gp": "Aristocrat", "b": 4,
+     "first_seen": "2026-10-01",
+     "sources": [{"name": "Yogonet International", "url": "https://www.yogonet.com/international/news/2026/09/30/126619-aristocrat-gaming-wins-three-global-gaming-awards-americas-honours", "published": "2026-09-30 15:24"}]},
+    {"cat": "cat4", "title": "Casino Plus 擴大 Alden Richards CSR 合作", "gp": "Casino Plus", "b": 6,
+     "first_seen": "2026-10-01",
+     "sources": [{"name": "Times of Casino", "url": "https://www.timesofcasino.com/casino-plus-alden-richards-deal-csr/", "published": "2026-09-30 21:07"}]},
+    {"cat": "cat5", "title": "報導：Kalshi 洽談以 400 億美元估值募資 10 億美元", "gp": "Kalshi", "b": 1,
+     "first_seen": "2026-10-01",
+     "sources": [{"name": "EGR Intel", "url": "https://www.egr.global/intel/news/report-kalshi-in-talks-to-raise-1bn-at-40bn-valuation/", "published": "2026-09-30 19:49"}]}
+  ]
+}

@@ -1,0 +1,32 @@
+{
+ "date": "2026-10-01",
+ "md": "state/2026-10-01-igaming-report.md",
+ "html": "reports/2026-10-01.html",
+ "items": 16,
+ "counts": {
+  "cat1": 4,
+  "cat2": 1,
+  "cat3": 5,
+  "cat4": 3,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 28,
+  "ok": 22,
+  "broken": 0,
+  "blocked": 6,
+  "images_dropped": 0
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-01 Triple Beasts of Fortune｜來源連結無法自動驗證（error:[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol ver，多半是網站擋機器人）：Times of Casino https://www.timesofcasino.com/play-n-go-triple-beasts-of-fortune/",
+  "cat3-01 Play'n GO 加入德國線上娛樂場協會（DO｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/playngo-docv-germany-channelisation",
+  "cat3-01 Play'n GO 加入德國線上娛樂場協會（DO｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Future https://igamingfuture.com/playn-go-joins-german-online-casino-association/",
+  "cat3-03 IGT 連兩年蟬聯 2026 Global Ga｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB（Asia Gaming Brief） https://agbrief.com/news/usa/30/09/2026/igt-retains-casino-services-supplier-of-the-year-title-at-2026-global-gaming-awards/",
+  "cat3-04 Continent 8 與 FuturePath｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB（Asia Gaming Brief） https://agbrief.com/news/europe/30/09/2026/continent-8-and-futurepath-ai-launch-future8-for-regulated-igaming/",
+  "cat4-01 Casino Plus 攜手 Peter & S｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB（Asia Gaming Brief） https://agbrief.com/news/philippines/30/09/2026/casino-plus-adds-peter-sons-portfolio-to-strengthen-philippine-offering/"
+ ],
+ "fixes": [
+  "文末｜資料來源數 24 → 23（程式依來源連結去重計算）"
+ ]
+}
