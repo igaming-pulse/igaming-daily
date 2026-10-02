@@ -1,0 +1,31 @@
+{
+ "date": "2026-10-03",
+ "md": "state/2026-10-03-igaming-report.md",
+ "html": "reports/2026-10-03.html",
+ "items": 15,
+ "counts": {
+  "cat1": 2,
+  "cat2": 2,
+  "cat3": 5,
+  "cat4": 2,
+  "cat5": 4
+ },
+ "links": {
+  "checked": 24,
+  "ok": 17,
+  "broken": 0,
+  "blocked": 7,
+  "images_dropped": 0
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-02 3 Pots of Venice – Betso｜來源連結無法自動驗證（403，多半是網站擋機器人）：SlotCatalog https://slotcatalog.com/en/slots/3-pots-of-luck",
+  "cat2-01 CreedRoomz 真人娛樂場內容登陸瑞士 P｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Expert https://igamingexpert.com/news/games/groupe-partouche-creedroomz-deal/",
+  "cat3-02 Evolution 重申要求將 Playtech｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Expert https://igamingexpert.com/regions/north-america/evolution-playtech-defamation-lawsuit/",
+  "cat3-03 DraftKings 遭控以 AI 鎖定輸錢玩家｜來源連結無法自動驗證（403，多半是網站擋機器人）：Gambling Insider https://www.gamblinginsider.com/news/196528/draftkings-ai-lawsuit-kalshi-connecticut-appeal",
+  "cat4-01 DigiPlus 參與 Meta Connect｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB（Asia Gaming Brief） https://agbrief.com/news/usa/02/10/2026/digiplus-explores-ai-and-digital-technologies-at-meta-connect-2026/",
+  "cat4-02 PAGCOR 籲擴大 MICE 設施，盼複製拉斯｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/01/pagcor-calls-for-expansion-of-mice-facilities-to-drive-growth-of-philippine-tourism-industry/",
+  "cat5-01 巴西禁令後，非法博彩網域與海外搜尋需求同步暴增｜來源連結無法自動驗證（403，多半是網站擋機器人）：Gambling Insider https://www.gamblinginsider.com/news/196516/brazil-betting-ban-illegal-domains-offshore-search-demand"
+ ],
+ "fixes": []
+}

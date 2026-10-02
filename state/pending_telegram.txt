@@ -1,39 +1,35 @@
-🎰 iGaming 市場日報 2026-10-02（週五）
-🎰 Slot 5 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 4 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-10-03（週六）
+🎰 Slot 2 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 4
 
 🎰 Slot 新遊戲
-01 Turbo Gold Deluxe GigaBlox – Yggdrasil
-02 Ghost Booster! GO Guaranteed – Play'n GO
-03 25 Coins x3000 – Wazdan
-04 Wild Dragon Express - Hold & Hit 3x3 – Spinomenal
-05 Forever Split Megaways – Pragmatic Play
+01 Le Bandit Monsters Unleashed – Hacksaw Gaming
+02 3 Pots of Venice – Betsoft
 
 🕹️ 非 Slot 新內容
-01 📦 E-Play24 Tipster Poker Night（9/30 發布，10/4 開賽）
+01 CreedRoomz 真人娛樂場內容登陸瑞士 PASINO.ch
+02 QTech 聚合平台導入 Caleta Gaming 逾 160 款內容
 
 🤝 動態：主流 GP／平台
-01 Stake 創辦人 Ed Craven 投資 AI 創投公司 Maincode Ventures
-02 Genting 宣布關閉 Coventry 娛樂場，警告博彩機稅調漲恐引發連鎖倒閉
-03 📦 Aristocrat Gaming 獲 2026 Global Gaming Awards Americas 三項大獎（9/30 發布）
+01 IGT ADVANTAGE X CMS 攻下加州 Soboba Casino Resort
+02 Evolution 重申要求將 Playtech 納入誹謗訴訟
+03 DraftKings 遭控以 AI 鎖定輸錢玩家，面臨集體訴訟
+04 📦 巴西擴大查封博彩網域，5,209 個遭盯上
+05 Century Casinos出售加拿大兩座賭場，聚焦美國本業
 
 🇵🇭 動態：菲律賓 GP／平台
-01 DigiPlus 參與 Meta Connect 2026，與全球科技領袖交流數位佈局
-02 PAGCOR 要求馬尼拉娛樂場 2027 年起導入 Smart Table
-03 Emerald Bay 母公司再失第二座度假村予債權銀行
-04 📦 Casino Plus 擴大 Alden Richards 合作，納入 CSR 與負責任博彩倡議（9/30 發布）
+01 DigiPlus 參與 Meta Connect 2026，探索 AI 與數位科技
+02 📦 PAGCOR 籲擴大 MICE 設施，盼複製拉斯維加斯模式
 
 📊 市場數據 & 趨勢
-01 報告：2025 年歐盟線上博彩 72% 收入來自非法業者
-02 澳門 9 月博彩毛收入年減 1.2% 至 22.4 億美元，創年內單月新低
-03 產業觀察：2026 年後 iGaming 邁向「數據驅動＋合規內嵌」成長模式
+01 巴西禁令後，非法博彩網域與海外搜尋需求同步暴增
+02 澳門 9 月 GGR 年減 1.2%，連續第四個月下滑
+03 拉斯維加斯 8 月旅客量年減 4.3%，酒店房價創全年新低
+04 義大利 9 月線上賭場消費 3.063 億歐元，年增 12%、Lottomatica 居冠
 
 📝 品質備註（本次爬找判斷）
-1. 🕹️非Slot區今日窗內候選稀少，僅收錄1則：已查小遊戲/Crash/Mines/Plinko/Live Game各類均無新內容，原庫存「Local Hero Bingo」因主來源發布已超過3天保鮮期（9/28）予以剔除未補位，判斷為真實候選不足而非抓取不到。
-2. cat5-01「歐盟非法博彩佔72%」報導的原始GCI/CFG報告發布於9月22–23日，今日歐洲產業媒體的報導為窗內後續分析，疑似與該週報告重疊，提醒留意。
-3. cat1原本預判的TaDa Gaming《Qilin Treasures》經查證實為2月全球發行作品的巴西地區分銷擴張，非真正新遊戲，已剔除不計入5款；由Pragmatic Play《Forever Split Megaways》遞補第5款。
-4. cat3候選EGT《PH 50 V AWP cabinets》經多方比對，原始發布日實為9/29（早於本次收集窗），予以剔除。
-5. Firecrawl本日共使用24次（含1次404嘗試、1次為修正排序後補查），超出今日🟢充裕級上限22次2次，已記錄供追蹤，未影響其餘查證完整度。
+1. 本窗（10/2 02:34～10/3 02:34）新聞量正常，收錄 15 則；查證時剔除 2 則候選：庫存誤收的 Century Entertainment WPT 認證新聞實際主來源為 2025-07-21 舊文（已從庫存移除）、PokerStars Casino Slotlist 週年慶僅是已報導過的 Gates of Olympus 2500 上架到新平台，不符合 🔁 重大更新門檻。
+2. 週六檢查點：比對 EEGaming Weekend Reels（本週 15 款）與 BigWinBoard 本週新作列表（15 款），僅 Le Bandit Monsters Unleashed（Hacksaw Gaming）因評測於窗內發布而新收錄，其餘本週大廠新作（Gates of Olympus 2500、Money Train 5、Diamond Tornado、Throne of Atlantis 等）皆已於 9/29 報導過，無需另標 📋 本週補遺。
+3. EEZE 連續 3 天（10/1～10/3）無窗內新消息，依規則跳過今日固定收錄。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：Kalamba Games（3 天）；請檢查網址或改抓取方式
-2. 🟠 今天有 21/99 個來源抓取失敗（≥20%），可能是網路或被擋
+1. 🟠 來源連續失敗 ≥3 天：Kalamba Games（4 天）、Jdigital（3 天）、Club de Convergentes（3 天）、Casinos de France（3 天）、CIBELAE（3 天） 等 6 個；請檢查網址或改抓取方式

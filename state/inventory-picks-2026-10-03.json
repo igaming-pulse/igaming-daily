@@ -1,0 +1,30 @@
+{
+  "shown": [
+    {"cat": "cat1", "title": "Le Bandit Monsters Unleashed", "gp": "Hacksaw Gaming"},
+    {"cat": "cat1", "title": "3 Pots of Venice", "gp": "Betsoft"},
+    {"cat": "cat2", "title": "CreedRoomz 真人娛樂場登陸瑞士 PASINO.ch", "gp": "CreedRoomz"},
+    {"cat": "cat2", "title": "QTech 聚合平台導入 Caleta Gaming 內容", "gp": "QTech"},
+    {"cat": "cat3", "title": "IGT ADVANTAGE X CMS 攻下 Soboba Casino Resort", "gp": "IGT"},
+    {"cat": "cat3", "title": "Evolution 重申要求將 Playtech 納入誹謗訴訟", "gp": "Evolution"},
+    {"cat": "cat3", "title": "DraftKings 遭控以 AI 鎖定輸錢玩家", "gp": "DraftKings"},
+    {"cat": "cat3", "title": "巴西擴大查封博彩網域，5,209 個遭盯上", "gp": "Anatel"},
+    {"cat": "cat3", "title": "Century Casinos出售加拿大兩座賭場", "gp": "Century Casinos"},
+    {"cat": "cat4", "title": "DigiPlus 參與 Meta Connect 2026", "gp": "DigiPlus"},
+    {"cat": "cat4", "title": "PAGCOR 籲擴大 MICE 設施", "gp": "PAGCOR"},
+    {"cat": "cat5", "title": "巴西禁令後非法博彩網域與海外搜尋需求同步暴增", "gp": ""},
+    {"cat": "cat5", "title": "澳門9月GGR年減1.2%", "gp": ""},
+    {"cat": "cat5", "title": "拉斯維加斯8月旅客量年減4.3%", "gp": ""},
+    {"cat": "cat5", "title": "義大利9月線上賭場消費3.063億歐元", "gp": ""}
+  ],
+  "stock": [
+    {"cat": "cat1", "title": "Divine Queen: Power of Sun", "gp": "BGaming", "b": 3, "first_seen": "2026-10-02",
+     "sources": [{"name": "EEGaming", "url": "https://eegaming.org/latest-news/2026/10/02/52975/bgaming-launches-divine-queen-power-of-sun-slot-sequel/", "published": "2026-10-02 15:05"},
+                 {"name": "European Gaming", "url": "https://europeangaming.eu/portal/press-releases/2026/10/02/215222/bgaming-divine-queen-power-of-sun-slot/", "published": "2026-10-02 16:02"}]},
+    {"cat": "cat1", "title": "Pots of Power: Dragon's Blessing", "gp": "AvatarUX", "b": 1, "first_seen": "2026-10-02",
+     "sources": [{"name": "AvatarUX 官網", "url": "https://avatarux.com/avatarux-launches-pots-of-power-dragons-blessing-unveiling-explosive-three-dragon-mechanics-and-up-to-10000x-win-potential/", "published": "2026-10-02 16:42"}]},
+    {"cat": "cat3", "title": "Taylor officially takes the reins at Flutter as Jackson signs off", "gp": "Flutter", "b": 1, "first_seen": "2026-10-02",
+     "sources": [{"name": "EGR Intel", "url": "https://www.egr.global/intel/news/taylor-officially-takes-the-reins-at-flutter-as-jackson-signs-off/", "published": "2026-10-02 18:48"}]},
+    {"cat": "cat5", "title": "Colorado casinos earn $104 million in August gaming revenue", "gp": "", "b": 0, "first_seen": "2026-10-02",
+     "sources": [{"name": "Gaming Intelligence", "url": "https://www.gamingintelligence.com/finance/236722-colorado-casinos-earn-104-million-in-august-gaming-revenue/", "published": "2026-10-02 16:33"}]}
+  ]
+}

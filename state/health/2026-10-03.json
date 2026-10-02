@@ -1,0 +1,72 @@
+{
+ "date": "2026-10-03",
+ "alerts": [
+  "🟠 來源連續失敗 ≥3 天：Kalamba Games（4 天）、Jdigital（3 天）、Club de Convergentes（3 天）、Casinos de France（3 天）、CIBELAE（3 天） 等 6 個；請檢查網址或改抓取方式"
+ ],
+ "info": {
+  "credits": {
+   "remaining": 483,
+   "plan": 1000,
+   "period_end": "2026-10-14",
+   "today_use": 18,
+   "daily_use": 23,
+   "daily_basis": "近 5 天實際",
+   "days_to_reset": 11,
+   "need_until_reset": 253
+  },
+  "tier": {
+   "tier": "🟢 充裕",
+   "budget": 43,
+   "remaining": 501,
+   "period_end": "2026-10-14",
+   "days_to_reset": 11,
+   "reserve": 20,
+   "note": "全開",
+   "lists_spent": 7,
+   "article_limit": 22
+  },
+  "sources": {
+   "total": 102,
+   "failed_today": [
+    "Kalamba Games",
+    "iGaming AFRIKA",
+    "Jdigital",
+    "ANESAR",
+    "CEJUEGO",
+    "Club de Convergentes",
+    "JAMMA",
+    "Deutsche Automatenwirtschaft",
+    "Casinos de France",
+    "日本電動式遊技機工業協同組合",
+    "日本遊技機工業組合",
+    "Gaming Technologies Association",
+    "CIBELAE",
+    "UNLV Gaming Research Infographics",
+    "Blask",
+    "SOFTSWISS iGaming Trends",
+    "BNLData",
+    "H2 Gambling Capital",
+    "Regulus Partners"
+   ],
+   "streak_3d": [
+    "Kalamba Games",
+    "Jdigital",
+    "Club de Convergentes",
+    "Casinos de France",
+    "CIBELAE",
+    "BNLData"
+   ]
+  },
+  "candidates": {
+   "today": 391,
+   "median_same_type": 472,
+   "basis_days": 5,
+   "type": "平日窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 7,
+   "fixes": 0
+  }
+ }
+}

@@ -1,0 +1,189 @@
+# 🎰 iGaming 市場日報 2026-10-03（週六）
+
+🎰 Slot 2 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 4
+
+---
+
+## 🎰 Game Provider 新遊戲
+
+### 01 Le Bandit Monsters Unleashed – Hacksaw Gaming
+
+Hacksaw Gaming 在其招牌西部題材系列「Le Bandit」之上推出萬聖節怪物變體《Le Bandit Monsters Unleashed》，沿用系列標誌性的 Cluster Pays 消除機制，但把視覺與敘事換成怪物獵人風格，最高倍率與原版相比明顯收斂，走向中等倍率、較親民的風險曲線。對 PM 的意義：同一 IP 推出節慶／主題變體是延長系列熱度、吸引既有玩家重複嘗試的低成本做法，值得觀察其留存數據是否優於全新 IP。
+
+衍生調整：相對原版《Le Bandit》（RTP 最高 96.34%、最高倍率 10,000x），本作為萬聖節怪物主題變體，RTP 降至 92.3%、最高倍率收斂至 2,500x，屬於同系列降波動的衍生版本。
+
+參數：
+- 遊戲類型：線上電子老虎機
+- 盤面：6 軸（Cluster Pays，無固定支付線）
+- 消除/賠付：Cluster Pays 消除賠付
+- 最高倍率：2,500x
+- RTP：92.3%
+- 波動：未公布（已查 SlotCatalog 尚未收錄本作、BigWinBoard 內頁亦未標示）
+- 目標市場：沒有（BigWinBoard 標示「僅限特定營運商上架」，未指定地區）
+- 關鍵特色：怪物獵人主題搭配系列既有 Cluster Pays 機制，屬限定上架的萬聖節版本
+
+來源：[BigWinBoard](https://www.bigwinboard.com/le-bandit-monsters-unleashed-hacksaw-gaming-slot-review-demo/) · 日期：2026-10-02
+圖片：https://www.bigwinboard.com/wp-content/uploads/2026/10/Le-Bandit-Monsters-Unleashed-slot-feat.jpg
+
+### 02 3 Pots of Venice – Betsoft
+
+Betsoft 推出威尼斯主題新作《3 Pots of Venice》，採 5×3 盤面、25 條賞付線，核心賣點是三種各具功能的金罐：EXTRA 罐加碼 respin 次數、MULTI 罐提供 2x–10x 隨機倍率、DOUBLE 罐則直接複製整個遊戲盤面再次觸發 Hold & Win，層層堆疊的設計把單次 Hold & Win round 的爆發力放大到最高 10,000 倍。對 PM 的意義：三金罐分工明確、Buy Bonus 可直接進場，便於作為高波動倉位搭配行銷活動主打。
+
+衍生調整：全新 IP，無衍生；延續 Betsoft 近期「Pots」系列（如 3 Pots of Wishes）的 Hold & Win 骨架，但以三種差異化金罐效果做出區隔。
+
+參數：
+- 遊戲類型：線上電子老虎機
+- 盤面：5×3，25 條賞付線
+- 消除/賠付：Hold & Win（三種 Coin Pot：EXTRA／MULTI／DOUBLE）
+- 最高倍率：10,000x
+- RTP：96.2%
+- 波動：高
+- 目標市場：國際（Betsoft 全通路合作夥伴同步上線）
+- 關鍵特色：EXTRA 罐加碼 respin、MULTI 罐 2x–10x 隨機倍率、DOUBLE 罐複製盤面再次觸發，並支援 Buy Bonus 直接進場
+
+來源：[Betsoft 官方公告](https://betsoft.com/3-pots-of-venice-brings-the-secrets-of-venice-to-the-reels/) · [SlotCatalog](https://slotcatalog.com/en/slots/3-pots-of-luck) · 日期：2026-10-02
+圖片：https://betsoft.com/wp-content/uploads/2026/09/3-pots-of-venice-pr-featured-image.jpg
+
+## 🕹️ 非 Slot 新內容
+
+### 01 CreedRoomz 真人娛樂場內容登陸瑞士 PASINO.ch
+
+SoftConstruct 旗下真人娛樂場品牌 CreedRoomz 與 Groupe Partouche 旗下日內瓦 Casino du Lac Meyrin 簽約，將把百家樂、輪盤、21 點與遊戲秀類真人桌引入該集團持牌線上平台 PASINO.ch，協議於 SBC Summit Lisbon 2026 期間公布。對 PM 的意義：瑞士是歐洲監管最嚴格的線上賭場市場之一，能取得當地持牌業者採用是真人內容供應商拓展高門檻市場的重要指標。
+
+衍生調整：全新合作，無衍生；CreedRoomz 現有產品線（Classic/Absolute/Snap Blackjack、輪盤、百家樂、Dragon Tiger、Andar Bahar、Teen Patti 等）預計原樣導入 PASINO.ch。
+
+參數：
+- 遊戲類型：Live Game（真人娛樂場內容）
+- 目標市場：瑞士（PASINO.ch／Groupe Partouche）
+- 關鍵特色：百家樂、輪盤、21 點、遊戲秀等真人桌內容，預計 2027 Q1、待瑞士聯邦博彩委員會核准後上線
+
+查證：SlotBeats、iGaming Expert、Zona de Azar 均同步報導同一合作，細節一致。
+來源：[G3 Newswire](https://g3newswire.com/creedroomz-brings-its-live-casino-to-switzerland-through-with-groupe-partouches-pasino/) · [SlotBeats](https://slotbeats.com/slot-news/creedroomz-live-casino-groupe-partouche/) · [iGaming Expert](https://igamingexpert.com/news/games/groupe-partouche-creedroomz-deal/) · [Zona de Azar](https://zonadeazar.com/juego-online/creedroomz-brings-live-casino-to-switzerland-with-pasino-ch/) · 日期：2026-10-02
+圖片：https://g3newswire.com/wp-content/uploads/2026/10/CreedRoomzPasino-e1790933099999.jpg
+
+### 02 QTech 聚合平台導入 Caleta Gaming 逾 160 款內容
+
+亞洲聚合平台 QTech 宣布整合巴西studio Caleta Gaming 旗下逾 160 款賓果、Crash 與即開型遊戲內容，瞄準新興市場營運商客群；Caleta 新作《Hallowins》預計 10 月上線。QTech 執行長 Philip Doftvik 表示，Caleta 的內容組合能為 Crash、賓果、即開型三大熱門品類再添多樣性。對 PM 的意義：聚合平台持續往 Crash／賓果等高留存小遊戲品類加碼內容密度，反映新興市場營運商對這類品類的需求正在上升。
+
+衍生調整：全新合作，無衍生。
+
+參數：
+- 遊戲類型：其他類型遊戲（平台聚合，涵蓋賓果／Crash／即開型遊戲）
+- 目標市場：新興市場（QTech 營運商客群）
+- 關鍵特色：一次導入逾 160 款 Caleta Gaming 內容，新作《Hallowins》預計 10 月上線
+
+來源：[EEGaming](https://eegaming.org/latest-news/2026/10/02/52971/qtech-adds-caleta-gaming-titles-to-its-aggregation-platform/) · 日期：2026-10-02
+圖片：https://eegaming.org/api/eeg/social-image/55521.jpg
+
+## 🤝 動態：主流 GP／平台
+
+### 01 IGT ADVANTAGE X CMS 攻下加州 Soboba Casino Resort
+
+IGT 在一場競標中勝出，將為加州部落賭場 Soboba Casino Resort 部署 ADVANTAGE X 賭場管理系統，取代原本的 Everi FinTech 系統，同時搭配 M5 服務窗口體驗、Lucky Coin Bonus 功能與自動化頭獎支付的 Taxable Accrual 模組。IGT 執行長 Hector Fernandez 表示此案展示公司「系統＋遊戲＋金融科技」整合策略如何協助賭場現代化營運。對 PM 的意義：北美部落賭場 CMS 換裝潮持續，系統商整合能力（而不只是單一硬體）正成為競標關鍵籌碼。
+
+重點：類型 合作 ｜ 對象 IGT、Soboba Casino Resort（加州部落賭場） ｜ 影響 鞏固 IGT 在北美賭場管理系統市場的滲透率，示範系統、遊戲、金融科技三合一的銷售策略
+來源：[G3 Newswire](https://g3newswire.com/igt-advantage-x-cms-continues-momentum-with-soboba-casino-resort-deal/) · 日期：2026-10-02
+
+### 02 Evolution 重申要求將 Playtech 納入誹謗訴訟
+
+Evolution 與 Playtech 之間的法律爭議持續升溫：Evolution 指控 Playtech 委託的調查公司 Black Cube 錯誤指控其在禁止營運地區開展業務，並主張紐澤西州監管機關並不承認 Playtech 所稱的禁止地區；Playtech 則堅稱其引用的 Spectrum Report 足以支持指控。案件預期將延燒至 2026 年底之後。對 PM 的意義：兩大頭部供應商互控的訴訟拖越久，對雙方在受監管市場的商譽與客戶信任風險越大，供應鏈夥伴宜持續關注後續進展。
+
+重點：類型 提告 ｜ 對象 Evolution、Playtech、Black Cube ｜ 影響 延長兩大供應商的法律與商譽風險，牽動雙方在受監管市場的客戶關係
+來源：[iGaming Expert](https://igamingexpert.com/regions/north-america/evolution-playtech-defamation-lawsuit/) · 日期：2026-10-02
+
+### 03 DraftKings 遭控以 AI 鎖定輸錢玩家，面臨集體訴訟
+
+DraftKings 客戶 Daniel Vest 在麻州對其提起集體訴訟擬案，指控公司利用機器學習依個人下注數據預測輸贏傾向，再針對性推送促銷以增加虧損，而非用於負責任博彩，涉嫌違反先前的隱私承諾。同一報導並提到 FanDuel 近期被揭露向 VIP 客戶發送個人化影片，同樣引發行銷倫理爭議。對 PM 的意義：AI 個人化行銷若被認定用於「精準坑殺」輸家而非風險控管，可能招致更嚴格的監管審查與訴訟風險，值得平台方重新檢視 AI 應用邊界。
+
+重點：類型 提告 ｜ 對象 DraftKings、FanDuel（對照案例） ｜ 影響 凸顯博彩業 AI 個人化行銷的倫理與法律風險，可能招致後續監管關注
+來源：[Gambling Insider](https://www.gamblinginsider.com/news/196528/draftkings-ai-lawsuit-kalshi-connecticut-appeal) · 日期：2026-10-02
+
+### 04 📦（10/2）巴西擴大查封博彩網域，5,209 個遭盯上
+
+巴西電信監管機關 Anatel 會同司法安全部與財政部，已對 5,209 個博彩相關網域展開查封程序，其中 2,387 個已於 9 月 29 日前完成封鎖；此外另移除 300 個 Facebook 頁面、90 個 Instagram 帳號，並通知 Apple、Google 於 10 月 6 日前下架 186 款博彩 App。行動依據的是 9 月 25 日發布、全面禁止巴西境內博彩經營與廣告的臨時措施（MP 1,394/2026），持牌業者須於 10 月 5 日前關閉網站與 App，該措施仍待國會審議才能成為正式法律。對 PM 的意義：執法力道持續升級，顯示巴西當局對禁令的執行決心，也呼應市場數據區「資金轉向非法市場」的觀察。
+
+重點：類型 政府法規 ｜ 對象 巴西 Anatel、司法安全部、財政部 ｜ 影響 展現禁令執行力道持續加強，為非法市場資金流向提供政策背景
+來源：[G3 Newswire](https://g3newswire.com/brazil-seeks-blocking-of-5209-betting-domains-after-nationwide-ban/) · 日期：2026-10-01
+
+### 05 Century Casinos出售加拿大兩座賭場，聚焦美國本業
+
+Century Casinos 宣布以 1,640 萬美元將旗下加拿大亞伯達省的 Century Mile（艾德蒙頓）與 Century Downs（卡加利）兩座賽馬場博彩中心，出售予 Highfield Investment Group。公司表示此舉將每年減少約 750 萬美元租金負擔並降低負債水準，使資源更集中於美國核心資產。對 PM 的意義：中小型跨國營運商持續透過處分非核心、低效益資產來改善財務彈性，反映北美賭場產業整併與瘦身壓力並未消退。
+
+重點：類型 財務 ｜ 對象 Century Casinos、Highfield Investment Group ｜ 影響 透過資產處分改善財務彈性，反映中小型營運商在北美市場的策略收斂
+來源：[G3 Newswire](https://g3newswire.com/century-casinos-to-sell-century-mile-and-century-downs-racetracks-in-alberta-canada/) · 日期：2026-10-02
+
+## 🇵🇭 動態：菲律賓 GP／平台
+
+### 01 DigiPlus 參與 Meta Connect 2026，探索 AI 與數位科技
+
+DigiPlus Interactive 執行長 Tommy Hu 出席在美國門洛帕克舉行的 Meta Connect 2026，與科技及遊戲業領袖交流 AI、數位商務與穿戴裝置等前沿技術，現場並有 Mark Zuckerberg 針對沉浸式技術未來的主題演講。公司表示此行旨在強化夥伴關係、掌握新興技術動態，以支援 BingoPlus、ArenaPlus 等品牌的長期發展。對 PM 的意義：目前仍停留在技術探索與人脈交流層次，尚未有具體產品或上線時間表，可視為觀察指標而非立即可評估的商業動作。
+
+重點：類型 市場進入 ｜ 對象 DigiPlus、Meta ｜ 影響 顯示 DigiPlus 持續布局 AI／沉浸式技術人脈與知識，但屬參展交流性質，暫無具體落地計畫
+來源：[AGB（Asia Gaming Brief）](https://agbrief.com/news/usa/02/10/2026/digiplus-explores-ai-and-digital-technologies-at-meta-connect-2026/) · 日期：2026-10-02
+
+### 02 📦（10/1）PAGCOR 籲擴大 MICE 設施，盼複製拉斯維加斯模式
+
+PAGCOR 主席 Alejandro Tengco 以拉斯維加斯的會展（MICE）產業作為範本，呼籲菲律賓將 MICE 設施擴大至綜合度假村以外的場域，吸引更多展會活動進駐馬尼拉、克拉克與宿霧等主要城市，藉此帶動觀光基礎建設與周邊產業收益。對 PM 的意義：若政策方向落實，將為博彩旅遊導入更多非賭桌客流，但目前仍處倡議階段，尚無具體設施擴建時程。
+
+重點：類型 政府法規 ｜ 對象 PAGCOR、菲律賓觀光產業 ｜ 影響 倡議擴大 MICE 設施以帶動觀光客流，惟尚未進入具體執行階段
+來源：[Inside Asian Gaming](https://asgam.com/2026/10/01/pagcor-calls-for-expansion-of-mice-facilities-to-drive-growth-of-philippine-tourism-industry/) · 日期：2026-10-01
+
+## 📊 市場數據 & 趨勢
+
+### 01 巴西禁令後，非法博彩網域與海外搜尋需求同步暴增
+
+分析機構 Bet Legal 的數據顯示，巴西 9 月 25 日全面禁令生效後，未授權博彩網域數量從 381 個暴增至 9 月 29 日的 1,071 個高峰，增幅達 181%；Blask 的數據則顯示海外品牌的搜尋聲量佔比從 3.4% 跳升至 11.3%，幾乎增為三倍，而本土聯盟行銷生態圈的涵蓋率則萎縮 41.5%。H2 Gambling Capital 推估，若禁令持續，恐有 200–300 億雷亞爾資金轉向非法市場。對 PM 的意義：禁令的外溢效應正在快速顯現，地下與離岸盤口正承接流失的巴西玩家，與今日 cat3 的網域查封行動形成因果對照。
+
+重點：類型 市場數據 ｜ 對象 巴西線上博彩市場、Bet Legal、Blask、H2 Gambling Capital ｜ 影響 印證禁令出現顯著外溢效應，地下與海外盤口快速承接流失玩家
+來源：[Gambling Insider](https://www.gamblinginsider.com/news/196516/brazil-betting-ban-illegal-domains-offshore-search-demand) · 日期：2026-10-02
+
+### 02 澳門 9 月 GGR 年減 1.2%，連續第四個月下滑
+
+澳門博彩監察協調局數據顯示，9 月博彩毛收入為 180.6 億澳門元（約 22.4 億美元），年減 1.2%，為連續第四個月出現年減，且較 8 月環比大減 17.5%；今年前 9 個月累計收入約 1,871.2 億澳門元（約 231.6 億美元），仍較 2025 年同期高出 3.2%。分析師指出 VIP 廳疲弱與監管審視持續壓抑復甦力道，並已下修 2027、2028 年獲利預期。對 PM 的意義：澳門市場復甦動能放緩的訊號漸趨明顯，依賴澳門營收的營運商需留意未來財測下修風險。
+
+重點：類型 市場數據 ｜ 對象 澳門博彩監察協調局、澳門六大博彩特許經營商 ｜ 影響 復甦動能放緩訊號明確，分析師已下修未來兩年獲利預期
+來源：[Yogonet International](https://www.yogonet.com/international/news/2026/10/02/126655-macau-ggr-declines-12-in-september-while-ninemonth-revenue-stays-32-ahead-of-2025) · 日期：2026-10-02
+
+### 03 拉斯維加斯 8 月旅客量年減 4.3%，酒店房價創全年新低
+
+拉斯維加斯 8 月旅客人次年減 4.3% 至 303 萬人次，儘管酒店均價創全年新低的 150.32 美元，入住率仍降至 74.1%（週末 85.5%、平日 69.4%），每房收益（RevPAR）年減 11.5% 至 111.39 美元；機場旅客量年減 9%，以國內旅客為主。相對地，會展參與人數受惠於 Def Con 2026、MAGIC Fall 2026 等活動年增 6.0% 至 62.27 萬人次，州博彩營收則維持小幅成長 3.1%。對 PM 的意義：休閒客層明顯轉弱，但會展與博彩端相對抗跌，顯示賭場端收入結構對純觀光波動的韌性優於酒店／旅遊業。
+
+重點：類型 市場數據 ｜ 對象 拉斯維加斯觀光局、內華達州博彩業者 ｜ 影響 休閒旅客走弱但會展人潮與博彩營收相對抗跌，顯示客群結構分化
+來源：[Yogonet International](https://www.yogonet.com/international/news/2026/10/02/126654-las-vegas-visitation-falls-43-in-august-despite-lowest-hotel-rates-of-2026) · 日期：2026-10-02
+
+### 04 義大利 9 月線上賭場消費 3.063 億歐元，年增 12%、Lottomatica 居冠
+
+義大利 9 月線上賭場消費達 3.063 億歐元（總投注額約 72 億歐元），年增 12%；市佔率方面 Lottomatica 以 31.38% 居冠，Sisal（13.3%）、Eurobet（7.56%）緊隨在後，前五大業者合計囊括 65.80% 市場、前七大業者更達 76.87%，顯示市場集中度持續攀升，中小型業者合計僅餘 5.34% 份額。對 PM 的意義：義大利線上賭場市場持續成長，但大者恆大的集中趨勢明顯，新進或中小型品牌須更仰賴差異化內容才能爭取剩餘市場。
+
+重點：類型 市場數據 ｜ 對象 Lottomatica、Sisal、Eurobet 等義大利線上賭場營運商 ｜ 影響 市場規模持續成長但集中度攀升，中小業者生存空間持續壓縮
+查證：AGIMEG 與 AgiproNews 同步報導同一數據，數字一致。
+來源：[AGIMEG](https://www.agimeg.it/casino-online-settembre-2026-spesa-quote-mercato/) · [AgiproNews](https://www.agipronews.it/casino-online-spesa-in-crescita-a-settembre-12-lottomatica-leader-del-mercato-313-davanti-a-flutter) · 日期：2026-10-02
+
+---
+
+本日日報查詢約 58 個網站，其中提取 20 個資料來源並進行交叉比對
+
+---
+
+## 🗓️ 來源日期紀錄（內部，不渲染）
+
+- cat1-01 Le Bandit Monsters Unleashed｜主來源 BigWinBoard｜2026-10-02（metadata article:published_time，Firecrawl 取得；BigWinBoard 週報列為 10/1 上線，文章評測 10/2 發布）
+- cat1-02 3 Pots of Venice｜主來源 Betsoft 官方公告｜2026-10-02（內文明述發布日；SlotCatalog 佐證 release date 同日、RTP/波動）
+- cat2-01 CreedRoomz×PASINO.ch｜主來源 G3 Newswire｜2026-10-02（metadata article:published_time）；佐證 SlotBeats／iGaming Expert／Zona de Azar 同日
+- cat2-02 QTech×Caleta｜主來源 EEGaming｜2026-10-02（metadata article:published_time）
+- cat3-01 IGT×Soboba｜主來源 G3 Newswire｜2026-10-02（harvest 精確時間 19:16）
+- cat3-02 Evolution/Playtech｜主來源 iGaming Expert｜2026-10-02（metadata article:published_time 12:55+01:00）
+- cat3-03 DraftKings AI lawsuit｜主來源 Gambling Insider｜2026-10-02（metadata article:published_time 14:55 UTC）
+- cat3-04 📦 巴西查封網域｜主來源 G3 Newswire｜2026-10-01（內文署名日期；庫存保鮮期 3 天內，標 📦（10/2）＝inventory 首見日）
+- cat3-05 Century Casinos 出售加拿大資產｜主來源 G3 Newswire｜2026-10-02（harvest 精確時間 19:26）
+- cat4-01 DigiPlus×Meta Connect｜主來源 AGB｜2026-10-02（metadata article:published_time 22:24+08:00，harvest 精確時間）
+- cat4-02 📦 PAGCOR MICE｜主來源 Inside Asian Gaming｜2026-10-01（metadata article:published_time 04:03+08:00；庫存保鮮期 3 天內）
+- cat5-01 巴西非法網域/海外搜尋｜主來源 Gambling Insider｜2026-10-02（metadata article:published_time 17:48 UTC＝台北 10/3 01:48，harvest 精確時間）
+- cat5-02 澳門 9 月 GGR｜主來源 Yogonet International｜2026-10-02（harvest 精確時間 13:17，網址日期佐證）
+- cat5-03 拉斯維加斯 8 月旅客量｜主來源 Yogonet International｜2026-10-02（harvest 精確時間 13:13，網址日期佐證）
+- cat5-04 義大利 9 月線上賭場消費｜主來源 AGIMEG｜2026-10-02（harvest 精確時間 22:23；AgiproNews 20:07 同日佐證）
+
+### 排除記錄（主來源日期不合格或重複）
+- Century Entertainment（WPT 認證問題）原列入庫存候選（cat4），查證後主來源實際發布於 2025-07-21，遠超過其他分類 3 天保鮮期，予以剔除、不計入正式候選遞補統計（inventory 標記有誤，已於本次執行排除，未另行遞補）
+- CFG「歐洲 72% 線上博彩收入來自非法業者」與近 3 天已出現的「Gaming Compliance International」同議題重複（2026-10-02 已收錄），剔除後以義大利線上賭場消費數據遞補 cat5-04
+- PokerStars Casino Slotlist 週年慶（搭配 Pragmatic Play《Gates of Olympus 2500》）：該遊戲已於 2026-09-29 報導過，本次僅為既有遊戲在另一平台上架，非重大更新，不符合「🔁 再展示」門檻，予以剔除
