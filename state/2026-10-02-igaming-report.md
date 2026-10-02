@@ -1,0 +1,250 @@
+# 🎰 iGaming 市場日報 2026-10-02（週五）
+
+🎰 Slot 5 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 4 ・ 📊 市場數據 3
+
+---
+
+## 🎰 Game Provider 新遊戲
+
+### 01 Turbo Gold Deluxe GigaBlox – Yggdrasil
+
+Yggdrasil 於今日（10/1）推出 GigaBlox 系列最新作《Turbo Gold Deluxe GigaBlox》，以復古西部採礦房為主題，結合招牌 GigaBlox 機制：每次旋轉至少保證出現一個巨型疊合符號，盤面固定為 6×4、搭配 4,096 條中獎路徑。免費旋轉模式中加入 Wild 乘數與「升級符號」機制，可將低倍率符號逐步提升至最高倍率的幸運七，命中率（hit frequency）約 22.1%，單局最高派彩上限為 200 萬歐元。對 PM 的意義：GigaBlox 系列持續以「換皮不換機制」方式擴充產品線，是驗證高波動玩家對同機制延伸作品接受度的觀察指標。
+
+衍生調整：延續 GigaBlox 系列的巨型疊合符號機制，相較基礎版 Turbo Gold Deluxe，免費旋轉加入「加倍旋轉次數」與「升級符號」雙重路徑，並將最高倍率拉升至 10,000x。
+
+參數：
+- 遊戲類型：線上電子老虎機
+- 盤面：6×4
+- 消除/賠付：4,096 ways ＋ GigaBlox 疊合巨型符號
+- 最高倍率：10,000x
+- RTP：90.5%（另提供 92%／94%／96% 組態供營運商選用）
+- 波動：高
+- 目標市場：全球（無特定單一市場）
+- 關鍵特色：GigaBlox 巨型疊合符號保證每輪出現、免費旋轉可加倍旋轉次數並升級符號
+
+查證：已查 SlotBeats、iGaming Business、NEXT.io 三方內容一致，RTP 多組態與最高倍率數字相符
+來源：[SlotBeats](https://slotbeats.com/latest-slots/turbo-gold-deluxe-gigablox-yggdrasil/) · [iGaming Business](https://igamingbusiness.com/company-news/turbo-gold-deluxe-gigablox-by-yggdrasil-powers-up-the-reels-with-oversized-symbols/) · [NEXT.io](https://next.io/news/b2b-news/turbo-gold-deluxe-gigablox-by-yggdrasil/) · 日期：2026-10-01
+圖片：https://resources.slotbeats.com/slotbeats/2026/10/Turbo-Gold-Deluxe-GigaBlox.jpg
+
+### 02 Ghost Booster! GO Guaranteed – Play'n GO
+
+Play'n GO 推出萬聖節主題新作《Ghost Booster! GO Guaranteed》，由友善幽靈 Wispy 在暗夜場景中收集金幣，結合 Hold & Spin 機制與「GO Guaranteed」保底計量表：計量表預設從 20 倍下注起跳，每次在盤面無金幣狀態下集滿 Collect 符號即增加 5 倍，最高可累積至 100 倍，確保玩家進入 Hold & Spin bonus 前已鎖定最低保底總獎金。盤面為 5×4、20 條固定派彩線。對 PM 的意義：「保底計量表」是 Play'n GO 近期主打的留存機制之一，讓中低頻中獎玩家仍能感受到「進度累積」，有助延長單局遊玩時間。
+
+衍生調整：延續 Play'n GO「GO Guaranteed」保底系列機制，加入萬聖節幽靈主題與 Wheel of Spooks 固定頭獎，相較前作強化了保底計量表的視覺化呈現。
+
+參數：
+- 遊戲類型：線上電子老虎機
+- 盤面：5×4，20 條固定派彩線
+- 消除/賠付：固定派彩線＋Collector 收集機制
+- 最高倍率：5,000x
+- RTP：96.25%（預設組態，另有 84.25%–96.30% 多組態）
+- 波動：中高
+- 目標市場：全球（無特定單一市場）
+- 關鍵特色：GO Guaranteed 保底計量表、Wheel of Spooks 固定頭獎、Hold & Spin bonus
+
+查證：RTP 在不同來源間介於 96.06%–96.30%，已採官方與 johnessyslots、win.gg 交叉比對後的區間中位數列出
+來源：[Play'n GO 官方](https://www.playngo.com/post/ghost-booster-go-guaranteed) · [johnessyslots](https://www.johnessyslots.com/slots/ghost-booster-go-guaranteed) · [win.gg](https://win.gg/ghost-booster-go-guaranteed-slot/) · 日期：2026-10-01
+圖片：無
+
+### 03 25 Coins x3000 – Wazdan
+
+Wazdan 於今日啟動為期一個月的「Cointober」活動，首發新作《25 Coins x3000》作為 Coins 系列最新一彈。遊戲核心為 Hold the Jackpot 機制：玩家獲得 3 次重旋機會，每次有新符號落地即重置次數，若 25 個格位全數填滿即觸發 3,000 倍的 Grand Jackpot。新增 Sticky to Infinity 機制可將 Mystery／Jackpot Mystery 符號從基礎遊戲一路保留至獎勵回合結束，並以 Cluster Collector 收集相鄰 Cash／Cash Infinity 符號數值、於回合結束時一次性派發。對 PM 的意義：Coins 系列是 Wazdan 近年最重要的自有 IP 之一，本次活動將持續至 11 月初推出《36 Coins x3000》，是觀察該系列商業續航力的指標。
+
+衍生調整：Coins 系列數字升級版，相較舊作新增 Sticky to Infinity 與 Cluster Collector 機制，最高倍率提升至 3,000x。
+
+參數：
+- 遊戲類型：線上電子老虎機
+- 盤面：5×5（25 格位 Hold the Jackpot 盤面）
+- 消除/賠付：Hold the Jackpot 格位收集制
+- 最高倍率：3,000x（Grand Jackpot）
+- RTP：96.19%
+- 波動：高
+- 目標市場：全球（無特定單一市場）
+- 關鍵特色：Hold the Jackpot、Sticky to Infinity、Cluster Collector
+
+查證：已查 Wazdan 官網、intergameonline、EEGaming 三方機制描述一致
+來源：[European Gaming](https://europeangaming.eu/portal/press-releases/2026/10/01/215166/wazdan-25-coins-x3000-slots/) · [Wazdan 官方](https://wazdan.com/news/new-releases-updates/wazdan-rolls-out-new-cluster-mechanic-in-25-coins) · [intergameonline](https://www.intergameonline.com/igaming/products/wazdan-coins-slot-series-new-release) · 日期：2026-10-01
+圖片：https://media.europeangaming.eu/uploads/2026/10/Wazdan-adds-25-Coins-x3000-to-its-Coins-series.jpg
+
+### 04 Wild Dragon Express - Hold & Hit 3x3 – Spinomenal
+
+Spinomenal 推出 Hold & Hit 3×3 系列最新作《Wild Dragon Express》，以蒸汽火車與金龍為主題：一尾盤繞的金龍 Wild 可替代除 Bonus 與 Bonus Collect 外的所有符號，3 個連線 Wild 可派彩 2.5 倍下注。Bonus 金幣符號僅會落在第 1、3 輪，Bonus Collect 符號則僅限第 2 輪；當兩者在未觸發 Bonus Game 的組合下相遇，會立即觸發 Instant Win Feature，將包含 Jackpot 符號在內的數值直接結算給玩家。進入 Bonus Game 後，符號鎖定並提供 3 次重旋，每個空格皆標有 x1 至 x15 不等的賠率或 Bonus Game Jackpot 乘數。對 PM 的意義：Hold & Hit 3×3 是 Spinomenal 近期換皮最快的系列之一，持續驗證小盤面、高頻率觸發玩法在不同主題間的延展性。
+
+衍生調整：延續 Hold & Hit 3×3 系列框架，加入龍／蒸汽火車主題與 Instant Win Feature，為該系列最新一款換皮作品。
+
+參數：
+- 遊戲類型：線上電子老虎機
+- 盤面：3×3
+- 消除/賠付：Hold & Hit 格位收集制
+- 最高倍率：5,000x
+- RTP：未公布
+- 波動：未公布
+- 目標市場：全球（無特定單一市場）
+- 關鍵特色：Instant Win Feature、Bonus Collect 觸發 Bonus Game、重旋格位含 Jackpot 乘數
+
+查證：已查 SlotCatalog（尚未收錄此作）、Spinomenal 官網與 EEGaming／hipther／igamingfuture 媒體內頁，均未公布正式 RTP 與波動分級，僅取得機制與最高倍率資訊
+來源：[EEGaming](https://eegaming.org/latest-news/2026/10/01/52960/spinomenal-releases-wild-dragon-express-hold-hit-3x3/) · [hipther](https://hipther.com/igaming-news/2026/10/01/160825/spinomenal-releases-wild-dragon-express-hold-hit-3x3) · [igamingfuture](https://igamingfuture.com/spinomenal-hits-the-tracks-with-wild-dragon-express-hold-hit-3x3/) · 日期：2026-10-01
+圖片：https://eegaming.org/api/eeg/social-image/55505.jpg
+
+### 05 Forever Split Megaways – Pragmatic Play
+
+Pragmatic Play 推出恐怖愛情主題新作《Forever Split Megaways》，講述一段「不死之戀」故事，採用 Megaways 機制、最高可達 72,030 條中獎路徑。遊戲以 Tumble 連消機制運作：中獎符號消失後由新符號落下補位，觸發連續派彩；期間 Settlement Multiplier 會在同一連串 Tumble 中持續疊加倍率，讓連續消除的潛在爆發力隨回合數遞增。盤面為 6 輪、下注範圍 0.2–5 英鎊。對 PM 的意義：Pragmatic Play 持續以 Megaways＋疊加倍率機制組合新主題，是觀察其「核心機制矩陣化」策略在不同題材間延展效果的參考案例。
+
+衍生調整：延續 Pragmatic Play 既有 Megaways＋Tumble 機制組合，本作新增 Settlement Multiplier 讓倍率隨連續 Tumble 疊加遞增，為恐怖愛情全新主題包裝。
+
+參數：
+- 遊戲類型：線上電子老虎機
+- 盤面：6 輪 Megaways（最高 72,030 ways）
+- 消除/賠付：Megaways＋Tumble 連消
+- 最高倍率：10,000x
+- RTP：96.58%（另有 95.49%／94.5% 組態）
+- 波動：中
+- 目標市場：英國（主要上架市場）
+- 關鍵特色：Megaways 動態路徑、Tumble 連消、Settlement Multiplier 疊加倍率
+
+查證：已查 OLBG、BigWinBoard、iGamingToday 三方機制與數字一致
+來源：[OLBG](https://www.olbg.com/news/forever-split-megaways-slot-launches-pragmatic-play) · [BigWinBoard 新作列表](https://www.bigwinboard.com/new-slots/) · [iGamingToday](https://www.igamingtoday.com/forever-split-megaways-slot-review/) · 日期：2026-10-01
+圖片：https://olbgimages.co.uk/image-cache?src=https://olbgimages.co.uk/storage/gallery/slots/forever-split-megaways-slot-news-image.png&w=1200&h=630&zc=1
+
+## 🕹️ 非 Slot 新內容
+
+### 01 📦 E-Play24 Tipster Poker Night（9/30 發布，10/4 開賽）
+
+義大利博彩集團 E-Play24 宣布將於 10 月 4 日晚間 21:00 舉辦「Tipster Poker Night」線上德州撲克賽事，採 25 歐元買入、保證獎池 10 萬歐元，並開放「re-entry」重新報名賽制，讓玩家在淘汰後仍可重新買入延續比賽策略。活動僅限 E-Play24 旗下平台參與，為集團近期強化撲克產品線、拉高核心玩家黏著度的操作之一。對 PM 的意義：以高保證獎池＋re-entry 賽制衝量，是歐洲中型博彩集團衝刺撲克縱深、對抗國際撲克平台競爭的常見手法。
+
+參數：
+- 遊戲類型：撲克／德州（線上錦標賽）
+- 目標市場：義大利
+- 關鍵特色：10 萬歐元保證獎池、25 歐元買入、re-entry 重新報名賽制
+
+查證：<可省略>
+來源：[AGIMEG](https://www.agimeg.it/eplay24-domenica-4-ottobre-tipster-poker-night-montepremi/) · 日期：2026-09-30
+圖片：無
+
+## 🤝 動態：主流 GP／平台
+
+### 01 Stake 創辦人 Ed Craven 投資 AI 創投公司 Maincode Ventures
+
+Stake 共同創辦人暨執行長 Ed Craven，投資由前 Easygo（Stake、Kick 背後技術服務商）技術長 David Lemphers 共同創立的 AI 新創 Maincode 旗下創投部門 Maincode Ventures，並成為核心出資者。Maincode 總部位於墨爾本，目標是打造澳洲首個「主權級」大型語言模型 Matilda，強調基礎設施完全由澳洲自主掌控。Lemphers 於 2024 年 11 月離開 Stake 母公司後創立 Maincode，此次 Craven 的注資被形容為「數百萬美元等級」，兼具資金挹注與延攬澳洲頂尖 AI 人才的雙重意義。對 PM 的意義：加密貨幣博彩龍頭創辦人的個人資本持續流向 AI 基礎設施，顯示頭部博彩業者對「自有 AI 能力」的佈局已延伸至創辦人層級的策略性投資。
+
+重點：類型 創投／策略投資 ｜ 對象 Stake（Ed Craven）、Maincode Ventures、Easygo ｜ 影響 加密博彩龍頭創辦人加碼自主 AI 基礎設施，反映頭部業者對 AI 人才與技術的長期佈局
+
+查證：<可省略>
+來源：[EGR Intel](https://www.egr.global/intel/news/stake-ceo-backs-former-easygo-ctos-ai-venture-capital-firm/) · [Forbes Australia](https://www.forbes.com.au/news/innovation/ed-cravens-multi-million-dollar-bet-on-australias-answer-to-openai/) · [win.gg](https://win.gg/ed-craven-ai-venture-stake-kick/) · 日期：2026-10-01
+
+### 02 Genting 宣布關閉 Coventry 娛樂場，警告博彩機稅調漲恐引發連鎖倒閉
+
+Genting Casinos UK 在完成與員工的諮詢程序後，宣布關閉其 Coventry 娛樂場，原因是財政部研議將博彩機稅（Machine Games Duty）最高調升至 40% 的提案，若成真將為集團增加每年約 1,600 萬英鎊的稅負成本，推估旗下 32 家娛樂場中將有 13 家陷入經營不可行的困境。集團在聲明中直言「無法對已經關門的娛樂場課稅」，警告此舉恐波及集團逾 3,000 名員工中的至少 850 個職位。對 PM 的意義：英國實體娛樂場正面臨稅制壓力下的結構性收斂，陸上博彩業者的稅務成本敏感度值得持續追蹤，可能進一步影響機台採購與內容授權需求。
+
+重點：類型 運營決策／政府法規 ｜ 對象 Genting Casinos UK、英國財政部 ｜ 影響 博彩機稅調漲提案恐致集團 13 家娛樂場不可行經營，凸顯英國陸上博彩稅制壓力
+
+查證：<可省略>
+來源：[Casino Life Magazine](https://www.casinolifemagazine.com/news/genting-casinos-confirms-coventry-casino-closure-amid-industry-pressures) · [next.io](https://next.io/news/casino/genting-coventry-venue-shut-mgd-threat/) · [Coventry Telegraph](https://www.coventrytelegraph.net/news/coventry-news/jobs-risk-coventry-casino-future-34585506) · 日期：2026-10-02
+
+### 03 📦 Aristocrat Gaming 獲 2026 Global Gaming Awards Americas 三項大獎（9/30 發布）
+
+Aristocrat Gaming 在 2026 Global Gaming Awards Americas 中一舉奪下三項大獎：Class 2、Class 3「年度陸上供應商」，以及以《MONOPOLY Big Board Bucks》拿下「年度老虎機」。其中 Class 3 獎項已連續第 8 年蟬聯、年度老虎機獎項也是第 8 次獲獎。執行長 Craig Toner 表示，此次獲獎肯定公司持續開發高品質遊戲產品與連動玩家體驗的投入，Aristocrat 目前也正於 G2E 2026 展示最新技術陣容。對 PM 的意義：連續多年蟬聯核心類別獎項，顯示 Aristocrat 在陸上機台與授權 IP 老虎機（如 MONOPOLY）的產品競爭力持續獲業界認可。
+
+重點：類型 獲獎 ｜ 對象 Aristocrat Gaming、《MONOPOLY Big Board Bucks》 ｜ 影響 連續 8 年蟬聯 Class 3 與年度老虎機獎項，鞏固其陸上機台與授權 IP 內容的市場地位
+
+查證：<可省略>
+來源：[Yogonet International](https://www.yogonet.com/international/news/2026/09/30/126619-aristocrat-gaming-wins-three-global-gaming-awards-americas-honours) · [SoloAzar](https://www.soloazar.com/en/category/events/aristocrat-gaming-honored-with-three-major-awards-at-global-gaming-awards-americas) · 日期：2026-09-30
+
+## 🇵🇭 動態：菲律賓 GP／平台
+
+### 01 DigiPlus 參與 Meta Connect 2026，與全球科技領袖交流數位佈局
+
+菲律賓數位娛樂集團 DigiPlus Interactive 由執行長 Tommy Hu 率隊，出席 9 月 23–24 日於加州 Menlo Park 舉行的 Meta Connect 2026，與全球業界領袖就新興數位體驗、互動科技展示及 Meta 在遊戲與 AI 領域的願景進行交流。DigiPlus 表示此行旨在強化集團數位能力，為旗下 BingoPlus、ArenaPlus 等平台未來導入新興互動科技預作準備。對 PM 的意義：集團層級親自參與 Meta 級科技盛會，釋出菲律賓現金網龍頭評估導入下一代互動／社群科技的訊號，值得留意後續是否轉化為具體產品動作。
+
+重點：類型 策略佈局 ｜ 對象 DigiPlus Interactive、Meta ｜ 影響 釋出集團評估新興互動科技導入旗下現金網平台的訊號，後續具體產品動作值得追蹤
+
+查證：<可省略>
+來源：[DigiPlus 官方](https://digiplus.com.ph/digiplus-joins-select-global-business-leaders-at-meta-connect-2026/) · 日期：2026-10-01
+
+### 02 PAGCOR 要求馬尼拉娛樂場 2027 年起導入 Smart Table
+
+PAGCOR 要求馬尼拉 Entertainment City 主要娛樂場最遲須於 2027 年 1 月 1 日前，將傳統賭桌逐步轉換為具數位監控能力的 Smart Table，初期聚焦百家樂賭桌，後續再擴大至其他桌 game。此舉旨在強化交易透明度與監理可視性，Solaire、Newport World Resorts 等業者已率先導入。PAGCOR 並表示未來將把此規範延伸至馬尼拉以外地區。對 PM 的意義：桌 game 數位化監理是菲律賓陸上博彩合規基礎建設的下一階段重點，牽動相關系統商與桌 game 設備供應商的商機。
+
+重點：類型 政府法規 ｜ 對象 PAGCOR、Solaire、Newport World Resorts ｜ 影響 要求馬尼拉主要娛樂場 2027 年前導入 Smart Table，桌 game 數位監理為下一階段合規重點
+
+查證：<可省略>
+來源：[Zona de Azar](https://zonadeazar.com/juego-online/pagcor-sets-january-2027-smart-table-deadline-for-manila-casinos/) · 日期：2026-10-01
+
+### 03 Emerald Bay 母公司再失第二座度假村予債權銀行
+
+Cebu 問題開發案 Emerald Bay 的母公司 PH Resorts Group（Dennis Uy 旗下 Udenna Corporation 子公司）宣布其全資子公司 Donatela Hotel Panglao Corp. 於 9 月 30 日正式結束 Bohol 省 Donatela Resort & Sanctuary 營運，並將資產移交予 Landbank（原 United Coconut Planters Bank）。該度假村因 9.75 億披索貸款違約遭法拍，Landbank 在無其他投標者情況下得標。此為繼 Emerald Bay 專案失守後，集團再失第二座度假資產，目前母公司 Udenna 正推動重組計畫，盼兩年內恢復正股東權益。對 PM 的意義：菲律賓部分中型博彩／度假村開發商財務體質持續惡化，反映該市場資本結構仍在修正，對潛在收購方或資產承接者而言可能浮現機會。
+
+重點：類型 財務重組／法拍 ｜ 對象 PH Resorts Group、Udenna Corporation、Landbank ｜ 影響 集團再失第二座度假資產，凸顯菲律賓中型博彩開發商財務壓力與潛在資產承接機會
+
+查證：<可省略>
+來源：[Inside Asian Gaming](https://asgam.com/2026/10/02/parent-of-failed-cebu-casino-project-emerald-bay-hands-over-second-resort-to-lenders/) · [BusinessWorld](https://bworldonline.com/corporate/2026/10/01/783755/ph-resorts-shuts-donatela-resort-in-bohol-after-foreclosure-proceedings/) · [Rappler](https://www.rappler.com/business/dennis-uy-donatela-resort-foreclosure/) · 日期：2026-10-02
+
+### 04 📦 Casino Plus 擴大 Alden Richards 合作，納入 CSR 與負責任博彩倡議（9/30 發布）
+
+菲律賓現金網 Casino Plus 宣布擴大與品牌代言人、演員 Alden Richards 自 2024 年起的合作關係，新增企業社會責任（CSR）與負責任博彩倡議面向，包括參與「Hero For All」社區服務表彰計畫，透過多方利害關係人參與的提名與評選機制表揚社區貢獻者。平台強調此次合作旨在傳遞「博彩應以娛樂為本」的負責任博彩訊息，惟雙方未揭露財務條款與計畫期程細節。對 PM 的意義：延續明星代言並疊加 CSR／負責任博彩敘事，是菲律賓現金網強化品牌正當性與監理形象的常見組合拳。
+
+重點：類型 品牌合作／CSR ｜ 對象 Casino Plus、Alden Richards ｜ 影響 透過 CSR 與負責任博彩倡議強化品牌正當性，呼應菲律賓現金網近期的形象管理趨勢
+
+查證：<可省略>
+來源：[Times of Casino](https://www.timesofcasino.com/casino-plus-alden-richards-deal-csr/) · 日期：2026-09-30
+
+## 📊 市場數據 & 趨勢
+
+### 01 報告：2025 年歐盟線上博彩 72% 收入來自非法業者
+
+博弈合規研究機構 Gaming Compliance International（GCI）受 Campaign for Fairer Gambling 委託發布的報告指出，2025 年非法／非持牌業者占歐盟 27 國線上博彩毛收入（GGR）比重高達 72%，較 2023 年的 67% 進一步攀升，非法 GGR 金額由 2023 年的 526 億歐元暴增至 2025 年的 916 億歐元，推估造成約 220 億歐元的稅收損失。報告並指出東歐非法佔比最高達 81%、北歐最低為 58%，全歐盟達 1.21 億人曾接觸線上博彩內容，其中 91% 的活躍消費者曾接觸非法業者推廣訊息。對 PM 的意義：非法市場規模持續擴大且遠超整體市場成長速度，是歐盟各國近期加強執法與廣告管制的核心論述依據，也凸顯持牌業者在價格與通路競爭上的結構性劣勢。
+
+重點：類型 市場數據 ｜ 對象 Gaming Compliance International、Campaign for Fairer Gambling ｜ 影響 非法業者佔歐盟線上博彩收入逾七成且持續擴大，為後續執法與廣告管制政策提供論述基礎
+
+查證：此報告原始發布於 9 月 22–23 日，本篇為歐洲產業媒體 10/1 的後續報導與分析，數字與原始報告一致
+來源：[European Gaming](https://europeangaming.eu/portal/latest-news/2026/10/01/215147/unregulated-online-gambling-eu-gci-report/) · [iGaming Business](https://igamingbusiness.com/offshore-gaming/new-report-fuels-europe-black-market-enforcement-debate/) · 日期：2026-10-01
+
+### 02 澳門 9 月博彩毛收入年減 1.2% 至 22.4 億美元，創年內單月新低
+
+澳門博彩監察協調局資料顯示，9 月博彩毛收入（GGR）年減 1.2% 至澳門元 180.6 億元（約 22.4 億美元），為 2026 年單月最低紀錄，也是連續第 4 個月年減；與 8 月的 218.9 億元相比，更大減 17.5%。儘管中秋連假訪客量年增 19.5%，GGR 表現仍疲弱，較 2019 年同期低 15.1%。累計今年前 9 個月 GGR 達 1,871.16 億元（約 231.9 億美元），年增 3.2%。對 PM 的意義：訪客量回升但消費轉化率未見同步改善，顯示澳門博彩復甦正從「量」轉向「質」的瓶頸期，值得留意第四季（黃金周、年底）能否扭轉連 4 月下滑態勢。
+
+重點：類型 市場數據 ｜ 對象 澳門博彩監察協調局 ｜ 影響 GGR 連 4 月年減且創年內單月新低，訪客回升與消費表現出現脫鉤
+
+查證：<可省略>
+來源：[AGB（Asia Gaming Brief）](https://agbrief.com/intel/01/10/2026/macau-september-ggr-falls-1-2-to-2-24b-lowest-monthly-total-of-2026/) · [GGRAsia](https://www.ggrasia.com/macaus-sept-casino-ggr-follows-downward-trend-down-1-2pct-y-o-y-to-us2-2bln) · [Inside Asian Gaming](https://asgam.com/2026/10/01/macau-ggr-down-1-2-year-on-year-to-mop18-1-billion-in-september/) · 日期：2026-10-01
+
+### 03 產業觀察：2026 年後 iGaming 邁向「數據驅動＋合規內嵌」成長模式
+
+產業評論媒體 Business of iGaming 發布趨勢觀察指出，iGaming 產業正轉向更嚴謹、數據驅動的成長模式，受監管趨嚴、技術演進與永續性要求三方拉動：AI 整合已成業者優先事項、多個市場監理持續收緊、負責任博彩工具重要性提升；以拉美為首的新興市場搭配行動投注持續帶動成長，同時網路釣魚與詐騙事件增加，促使業者加碼資安防護。文章建議業者應將合規與信任內嵌至核心策略、以整合生態系優化使用者體驗，並因地制宜調整各區域監理應對。對 PM 的意義：「合規即產品力」的論述持續強化，產品與法遵團隊的協作深度，將成為下一階段市場競爭的分水嶺。
+
+重點：類型 產業趨勢 ｜ 對象 Business of iGaming、iGaming 產業整體 ｜ 影響 凸顯合規內嵌與數據驅動將成下一階段核心競爭力，AI 整合與資安防護為業者優先投資方向
+
+查證：<可省略>
+來源：[Business of iGaming](https://www.businessofigaming.com/where-is-igaming-heading-2026/) · 日期：2026-10-01
+
+---
+
+本日日報查詢約 90 個網站，其中提取 35 個資料來源並進行交叉比對
+
+---
+
+## 🗓️ 來源日期紀錄（內部，不渲染）
+
+- cat1-01 Turbo Gold Deluxe GigaBlox（Yggdrasil）：主來源 SlotBeats，metadata article:published_time 2026-10-01T13:59:00+01:00（換算台北 20:59）；佐證 iGaming Business、NEXT.io
+- cat1-02 Ghost Booster! GO Guaranteed（Play'n GO）：主來源 Play'n GO 官方，metadata article:published_time 2026-10-01T06:00:08Z（換算台北 14:00）；佐證 johnessyslots、win.gg（RTP 區間已交叉比對）
+- cat1-03 25 Coins x3000（Wazdan）：主來源 European Gaming，metadata article:published_time 2026-10-01T17:16:08+03:00（換算台北 22:16）；佐證 Wazdan 官網、intergameonline
+- cat1-04 Wild Dragon Express - Hold & Hit 3x3（Spinomenal）：主來源 EEGaming，metadata article:published_time 2026-10-01T08:00:00Z（換算台北 16:00）；佐證 hipther、igamingfuture；RTP／波動三處查無仍標「未公布」
+- cat1-05 Forever Split Megaways（Pragmatic Play）：主來源 BigWinBoard 新作列表（2026-10-01，日期精確度僅到日）；佐證 OLBG、iGamingToday 內文均確認 2026-10-01 年份
+- cat2-01 E-Play24 Tipster Poker Night：📦 庫存補位，主來源 AGIMEG，metadata article:published_time 2026-09-30T14:55:01Z（換算台北 22:55），首見 2026-10-01（3 天保鮮期內）；原庫存「Local Hero Bingo 首播」主來源 ISA-GUIDE 發布於 2026-09-28，已超過 3 天保鮮期，故未採用
+- cat3-01 Stake／Ed Craven 投資 Maincode Ventures：主來源 EGR Intel，metadata article:published_time 2026-10-01T10:21:18Z（換算台北 18:21）；佐證 Forbes Australia、win.gg
+- cat3-02 Genting Coventry 關閉：主來源 Casino Life Magazine，metadata article:published_time 2026-10-01T20:47:29+03:00（換算台北 2026-10-02 01:47）；佐證 next.io、Coventry Telegraph
+- cat3-03 Aristocrat Gaming GGA Americas：📦 庫存補位，主來源 Yogonet International，首見 2026-10-01（原始 PR Newswire 稿為 2026-09-28，Yogonet 轉載於 09-30，3 天保鮮期內採用 Yogonet 日期）；佐證 SoloAzar
+- cat4-01 DigiPlus × Meta Connect 2026：主來源 DigiPlus 官方，metadata article:published_time 2026-10-01T03:43:48Z（換算台北 11:43）
+- cat4-02 PAGCOR Smart Table：主來源 Zona de Azar，metadata article:published_time 2026-10-01T01:36:00-03:00（換算台北 12:36）；同議題另有 2 個語言版本互為佐證
+- cat4-03 Emerald Bay／PH Resorts：主來源 Inside Asian Gaming（asgam），metadata article:published_time 2026-10-02T02:11:47+08:00；佐證 BusinessWorld、Rappler
+- cat4-04 Casino Plus × Alden Richards CSR：📦 庫存補位，主來源 Times of Casino，metadata article:published_time 2026-09-30T13:07:50Z（換算台北 21:07），首見 2026-10-01（3 天保鮮期內）
+- cat5-01 歐盟非法博彩佔比 72%：主來源 European Gaming，metadata article:published_time 2026-10-01T15:11:57+03:00（換算台北 20:11）；原始 GCI／CFG 報告發布於 9/22–23，本篇為窗內後續報導，已於查證欄註記
+- cat5-02 澳門 9 月 GGR：主來源 AGB（Asia Gaming Brief），metadata article:published_time 2026-10-01T12:58:27+08:00；佐證 GGRAsia、Inside Asian Gaming（同一官方數據之獨立報導）
+- cat5-03 iGaming 2026+ 趨勢觀察：主來源 Business of iGaming，metadata article:published_time 2026-10-01T12:34:12Z（換算台北 20:34）
+
+## 🔍 本次排除與未採用候選（供回報參考，內部，不渲染）
+
+- cat1：TaDa Gaming《Qilin Treasures》於 Focus Gaming News（2026-10-01）報導「Brazil 上線」，經查證該作實際全球首發日為 2026-02-05，本次僅為巴西地區分銷擴張，不符合 cat1「新遊戲」定義，予以剔除（不計入遞補數）
+- cat1：Hacksaw Gaming《Le Vampire》（B=3，與其他 B=3 候選同分但 B=4 的 Forever Split Megaways 分數更高而遞補出列）、Peter & Sons《Barbarossa: Beyond the Edge》、Relax Gaming《Tipping Point Drop Zone》、Booming Games《Gates of Hercules 10,000》、Red Rake Gaming《Triple Fiesta》、BGaming《Divine Queen: Power of Sun》等窗內合格新作，因 Slot 當日上限 5 款，已遞補進庫存（state/inventory-picks-2026-10-02.json）
+- cat3：EGT《PH 50 V AWP cabinets》於 Yogonet 標示 2026-10-01，但 EEGaming／hipther／igamingfuture 等多方佐證顯示原始發布日為 2026-09-29，已超出窗內與庫存保鮮期認定疑慮，予以剔除
+- cat5：Kalshi 400 億美元估值募資（EGR Intel）、SOFTSWISS《2027 iGaming Trends》後續報導（Yogonet）因與近 3 天已報導議題重複或屬非核心博彩題材（預測市場），未採用

@@ -1,0 +1,38 @@
+{
+ "date": "2026-10-02",
+ "md": "state/2026-10-02-igaming-report.md",
+ "html": "reports/2026-10-02.html",
+ "items": 16,
+ "counts": {
+  "cat1": 5,
+  "cat2": 1,
+  "cat3": 3,
+  "cat4": 4,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 40,
+  "ok": 31,
+  "broken": 0,
+  "blocked": 9,
+  "images_dropped": 0
+ },
+ "errors": [],
+ "warnings": [
+  "cat2-01 📦 E-Play24 Tipster Poker｜主來源 2026-09-30 是前兩天的當地日期，確認台北時間仍在窗內",
+  "cat3-03 📦 Aristocrat Gaming 獲 20｜主來源 2026-09-30 是前兩天的當地日期，確認台北時間仍在窗內",
+  "cat4-04 📦 Casino Plus 擴大 Alden R｜主來源 2026-09-30 是前兩天的當地日期，確認台北時間仍在窗內",
+  "cat1-01 Turbo Gold Deluxe GigaBl｜來源連結無法自動驗證（error:[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol ver，多半是網站擋機器人）：NEXT.io https://next.io/news/b2b-news/turbo-gold-deluxe-gigablox-by-yggdrasil/",
+  "cat1-04 Wild Dragon Express - Ho｜來源連結無法自動驗證（403，多半是網站擋機器人）：igamingfuture https://igamingfuture.com/spinomenal-hits-the-tracks-with-wild-dragon-express-hold-hit-3x3/",
+  "cat3-02 Genting 宣布關閉 Coventry 娛樂｜來源連結無法自動驗證（error:[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol ver，多半是網站擋機器人）：next.io https://next.io/news/casino/genting-coventry-venue-shut-mgd-threat/",
+  "cat4-03 Emerald Bay 母公司再失第二座度假村予｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/02/parent-of-failed-cebu-casino-project-emerald-bay-hands-over-second-resort-to-lenders/",
+  "cat4-04 📦 Casino Plus 擴大 Alden R｜來源連結無法自動驗證（error:[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol ver，多半是網站擋機器人）：Times of Casino https://www.timesofcasino.com/casino-plus-alden-richards-deal-csr/",
+  "cat5-01 報告：2025 年歐盟線上博彩 72% 收入來自｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/latest-news/2026/10/01/215147/unregulated-online-gambling-eu-gci-report/",
+  "cat5-02 澳門 9 月博彩毛收入年減 1.2% 至 22.｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB（Asia Gaming Brief） https://agbrief.com/intel/01/10/2026/macau-september-ggr-falls-1-2-to-2-24b-lowest-monthly-total-of-2026/",
+  "cat5-02 澳門 9 月博彩毛收入年減 1.2% 至 22.｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/macaus-sept-casino-ggr-follows-downward-trend-down-1-2pct-y-o-y-to-us2-2bln",
+  "cat5-02 澳門 9 月博彩毛收入年減 1.2% 至 22.｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/01/macau-ggr-down-1-2-year-on-year-to-mop18-1-billion-in-september/"
+ ],
+ "fixes": [
+  "文末｜資料來源數 35 → 36（程式依來源連結去重計算）"
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "date": "2026-10-02",
+ "alerts": [
+  "🟠 來源連續失敗 ≥3 天：Kalamba Games（3 天）；請檢查網址或改抓取方式",
+  "🟠 今天有 21/99 個來源抓取失敗（≥20%），可能是網路或被擋"
+ ],
+ "info": {
+  "credits": {
+   "remaining": 501,
+   "plan": 1000,
+   "period_end": "2026-10-14",
+   "today_use": 28,
+   "daily_use": 24,
+   "daily_basis": "近 4 天實際",
+   "days_to_reset": 12,
+   "need_until_reset": 288
+  },
+  "tier": {
+   "tier": "🟢 充裕",
+   "budget": 42,
+   "remaining": 529,
+   "period_end": "2026-10-14",
+   "days_to_reset": 12,
+   "reserve": 20,
+   "note": "全開",
+   "lists_spent": 5,
+   "article_limit": 22
+  },
+  "sources": {
+   "total": 99,
+   "failed_today": [
+    "Kalamba Games",
+    "Casino Inside Romania",
+    "iGaming AFRIKA",
+    "AGEM Index",
+    "Jdigital",
+    "Club de Convergentes",
+    "JAMMA",
+    "Deutsche Automatenwirtschaft",
+    "Casinos de France",
+    "日本遊技機工業組合",
+    "Gaming Technologies Association",
+    "CIBELAE",
+    "UNLV Gaming Research Infographics",
+    "Blask",
+    "SOFTSWISS iGaming Trends",
+    "BNLData",
+    "iGamingToday",
+    "Eilers & Krejcik Gaming（新網域）",
+    "Eilers-Fantini Game Performance Reports（各區域月報）",
+    "UNLV Gaming Research & Review Journal",
+    "GAT Expo"
+   ],
+   "streak_3d": [
+    "Kalamba Games"
+   ]
+  },
+  "candidates": {
+   "today": 390,
+   "median_same_type": 510,
+   "basis_days": 4,
+   "type": "平日窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 12,
+   "fixes": 1
+  }
+ }
+}

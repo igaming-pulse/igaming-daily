@@ -1,0 +1,38 @@
+{
+  "shown": [
+    {"cat": "cat1", "title": "Turbo Gold Deluxe GigaBlox", "gp": "Yggdrasil"},
+    {"cat": "cat1", "title": "Ghost Booster! GO Guaranteed", "gp": "Play'n GO"},
+    {"cat": "cat1", "title": "25 Coins x3000", "gp": "Wazdan"},
+    {"cat": "cat1", "title": "Wild Dragon Express - Hold & Hit 3x3", "gp": "Spinomenal"},
+    {"cat": "cat1", "title": "Forever Split Megaways", "gp": "Pragmatic Play"},
+    {"cat": "cat2", "title": "E-Play24 Tipster Poker Night", "gp": "E-Play24"},
+    {"cat": "cat3", "title": "Stake／Ed Craven 投資 Maincode Ventures", "gp": "Stake"},
+    {"cat": "cat3", "title": "Genting Casinos Confirms Coventry Casino Closure", "gp": "Genting Casinos UK"},
+    {"cat": "cat3", "title": "Aristocrat Gaming 獲 2026 Global Gaming Awards Americas 三項大獎", "gp": "Aristocrat Gaming"},
+    {"cat": "cat4", "title": "DigiPlus joins Meta Connect 2026", "gp": "DigiPlus"},
+    {"cat": "cat4", "title": "PAGCOR Sets January 2027 Smart Table Deadline", "gp": "PAGCOR"},
+    {"cat": "cat4", "title": "Emerald Bay 母公司再失第二座度假村予債權銀行", "gp": "PH Resorts Group"},
+    {"cat": "cat4", "title": "Casino Plus 擴大 Alden Richards CSR 合作", "gp": "Casino Plus"},
+    {"cat": "cat5", "title": "歐盟線上博彩72%收入來自非法業者", "gp": "Gaming Compliance International"},
+    {"cat": "cat5", "title": "澳門9月GGR年減1.2%至22.4億美元", "gp": "澳門博彩監察協調局"},
+    {"cat": "cat5", "title": "Where Is iGaming Heading In 2026+", "gp": "Business of iGaming"}
+  ],
+  "stock": [
+    {"cat": "cat1", "title": "Le Vampire", "gp": "Hacksaw Gaming", "b": 3, "first_seen": "2026-10-02",
+      "sources": [{"name": "OLBG", "url": "https://www.olbg.com/news/hacksaw-gaming-launches-le-vampire-slot", "published": "2026-10-01"}]},
+    {"cat": "cat1", "title": "Barbarossa: Beyond the Edge", "gp": "Peter & Sons", "b": 3, "first_seen": "2026-10-02",
+      "sources": [{"name": "BigWinBoard 新作列表", "url": "https://www.bigwinboard.com/new-slots/", "published": "2026-10-01"}]},
+    {"cat": "cat1", "title": "Tipping Point Drop Zone", "gp": "Relax Gaming", "b": 3, "first_seen": "2026-10-02",
+      "sources": [{"name": "BigWinBoard 新作列表", "url": "https://www.bigwinboard.com/new-slots/", "published": "2026-10-01"}]},
+    {"cat": "cat1", "title": "Gates of Hercules 10,000", "gp": "Booming Games", "b": 1, "first_seen": "2026-10-02",
+      "sources": [{"name": "EEGaming", "url": "https://eegaming.org/latest-news/2026/10/01/52964/booming-games-launches-gates-hercules-10-000-slot/", "published": "2026-10-01"}]},
+    {"cat": "cat1", "title": "Triple Fiesta", "gp": "Red Rake Gaming", "b": 1, "first_seen": "2026-10-02",
+      "sources": [{"name": "EEGaming", "url": "https://eegaming.org/latest-news/2026/10/01/52966/red-rake-gaming-rolls-out-triple-fiesta-slot-to-operator-network/", "published": "2026-10-01"}]},
+    {"cat": "cat3", "title": "Brazil seeks blocking of 5,209 betting domains after nationwide ban", "gp": "Brazil / G3 Newswire", "b": 0, "first_seen": "2026-10-02",
+      "sources": [{"name": "G3 Newswire", "url": "https://g3newswire.com/brazil-seeks-blocking-of-5209-betting-domains-after-nationwide-ban/", "published": "2026-10-01"}]},
+    {"cat": "cat4", "title": "PAGCOR calls for expansion of MICE facilities to drive growth of Philippine tourism industry", "gp": "PAGCOR", "b": 1, "first_seen": "2026-10-02",
+      "sources": [{"name": "Inside Asian Gaming", "url": "https://asgam.com/2026/10/01/pagcor-calls-for-expansion-of-mice-facilities-to-drive-growth-of-philippine-tourism-industry/", "published": "2026-10-01"}]},
+    {"cat": "cat5", "title": "New study finds AI assistants wrongly label unlicensed casinos as KSA-approved", "gp": "iGaming Business", "b": 0, "first_seen": "2026-10-02",
+      "sources": [{"name": "iGaming Business", "url": "https://igamingbusiness.com/tech-innovation/ai-assistants-unlicensed-casinos-as-ksa-approved/", "published": "2026-10-01"}]}
+  ]
+}

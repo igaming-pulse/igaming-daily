@@ -2,188 +2,6 @@
  "slots": [
   {
    "cat": "cat1",
-   "title": "Penalty Blast",
-   "gp": "Belatra Games",
-   "first_seen": "2026-09-24",
-   "b": 1,
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/09/24/52798/belatra-releases-penalty-blast-slot-with-cluster-pays-and-penalty-bonus",
-     "published": "2026-09-24"
-    }
-   ],
-   "key": "penaltyblast|belatragames"
-  },
-  {
-   "cat": "cat1",
-   "title": "Royal Gardens Buy Bonus",
-   "gp": "Amusnet",
-   "first_seen": "2026-09-24",
-   "b": 1,
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/09/24/52791/amusnet-releases-its-latest-online-video-slot-royal-gardens-buy-bonus",
-     "published": "2026-09-24"
-    }
-   ],
-   "key": "royalgardensbuybonus|amusnet"
-  },
-  {
-   "cat": "cat1",
-   "title": "Hot Deco Nonstop Super Pot",
-   "gp": "Amusnet",
-   "first_seen": "2026-09-24",
-   "b": 1,
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/09/24/52793/amsunet-releases-its-latest-slot-game-hot-deco-nonstop-super-pot",
-     "published": "2026-09-24"
-    }
-   ],
-   "key": "hotdecononstopsuperpot|amusnet"
-  },
-  {
-   "cat": "cat1",
-   "title": "Beez Turn Wild",
-   "gp": "Playson",
-   "first_seen": "2026-09-24",
-   "b": 1,
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/09/24/52810/playson-launches-beez-turn-wild-slot-with-four-hive-triggered-free-spins-modes",
-     "published": "2026-09-24"
-    }
-   ],
-   "key": "beezturnwild|playson"
-  },
-  {
-   "cat": "cat1",
-   "title": "Sugar Hell",
-   "gp": "Just Slots",
-   "first_seen": "2026-09-24",
-   "b": 1,
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/09/24/52818/just-slots-launches-sugar-hell-slot-with-5-000x-max-win-and-super-wild-feature",
-     "published": "2026-09-24"
-    }
-   ],
-   "key": "sugarhell|justslots"
-  },
-  {
-   "cat": "cat1",
-   "title": "Wolf It Up! 等四款新作",
-   "gp": "Inspired Entertainment",
-   "first_seen": "2026-09-24",
-   "b": 1,
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/09/24/52825/inspired-ships-four-new-mobile-slots-into-the-uk-and-malta-igaming-markets",
-     "published": "2026-09-24"
-    }
-   ],
-   "key": "wolfitup等四款新作|inspiredentertainment"
-  },
-  {
-   "cat": "cat1",
-   "title": "Odysseus Wild Journey",
-   "gp": "ELA Games",
-   "first_seen": "2026-09-24",
-   "b": 1,
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/09/24/52829/ela-games-releases-odysseus-wild-journey-slot-with-96-16-rtp",
-     "published": "2026-09-24"
-    }
-   ],
-   "key": "odysseuswildjourney|elagames"
-  },
-  {
-   "cat": "cat1",
-   "title": "House of the Dragon",
-   "gp": "Blueprint Gaming",
-   "first_seen": "2026-09-24",
-   "b": 1,
-   "sources": [
-    {
-     "name": "OLBG",
-     "url": "https://www.olbg.com/news/weekly-slots-news-25-09-2026",
-     "published": "2026-09-24"
-    }
-   ],
-   "key": "houseofthedragon|blueprintgaming"
-  },
-  {
-   "cat": "cat1",
-   "title": "Moneyplane Bail2Win",
-   "gp": "Hacksaw Gaming",
-   "first_seen": "2026-09-24",
-   "b": 3,
-   "sources": [
-    {
-     "name": "BigWinBoard",
-     "url": "https://www.bigwinboard.com/new-slots/",
-     "published": "2026-09-24"
-    }
-   ],
-   "note": "只有 BigWinBoard 上線日，需另找新聞主來源",
-   "key": "moneyplanebail2win|hacksawgaming"
-  },
-  {
-   "cat": "cat1",
-   "title": "Concrete Cowboys",
-   "gp": "ELK Studios",
-   "first_seen": "2026-09-24",
-   "b": 1,
-   "sources": [
-    {
-     "name": "BigWinBoard",
-     "url": "https://www.bigwinboard.com/new-slots/",
-     "published": "2026-09-24"
-    }
-   ],
-   "key": "concretecowboys|elkstudios"
-  },
-  {
-   "cat": "cat1",
-   "title": "NUUKD",
-   "gp": "Shady Lady",
-   "first_seen": "2026-09-24",
-   "b": 1,
-   "sources": [
-    {
-     "name": "OLBG",
-     "url": "https://www.olbg.com/news/weekly-slots-news-25-09-2026",
-     "published": "2026-09-24"
-    }
-   ],
-   "key": "nuukd|shadylady"
-  },
-  {
-   "cat": "cat1",
-   "title": "Sari-Sari Shop",
-   "gp": "Riddec Games",
-   "first_seen": "2026-09-24",
-   "b": 1,
-   "sources": [
-    {
-     "name": "G3 Newswire",
-     "url": "https://g3newswire.com/",
-     "published": "2026-09-24"
-    }
-   ],
-   "note": "菲律賓雜貨店題材",
-   "key": "sarisarishop|riddecgames"
-  },
-  {
-   "cat": "cat1",
    "title": "Scarab Ascension",
    "gp": "NowNow Gaming",
    "first_seen": "2026-09-25",
@@ -260,21 +78,6 @@
   },
   {
    "cat": "cat1",
-   "title": "3 Dragon Boosters",
-   "gp": "BetGames",
-   "first_seen": "2026-09-24",
-   "b": 1,
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/09/24/52807/betgames-releases-3-dragon-boosters-slot-with-three-scatter-modifiers",
-     "published": "2026-09-24"
-    }
-   ],
-   "key": "3dragonboosters|betgames"
-  },
-  {
-   "cat": "cat1",
    "title": "The Green Knight Camelot Gold",
    "gp": "Play'n GO",
    "first_seen": "2026-09-25",
@@ -339,24 +142,84 @@
     }
    ],
    "key": "deadmanscrew|slotmill"
+  },
+  {
+   "cat": "cat1",
+   "title": "Le Vampire",
+   "gp": "Hacksaw Gaming",
+   "b": 3,
+   "first_seen": "2026-10-02",
+   "sources": [
+    {
+     "name": "OLBG",
+     "url": "https://www.olbg.com/news/hacksaw-gaming-launches-le-vampire-slot",
+     "published": "2026-10-01"
+    }
+   ],
+   "key": "levampire|hacksawgaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Barbarossa: Beyond the Edge",
+   "gp": "Peter & Sons",
+   "b": 3,
+   "first_seen": "2026-10-02",
+   "sources": [
+    {
+     "name": "BigWinBoard 新作列表",
+     "url": "https://www.bigwinboard.com/new-slots/",
+     "published": "2026-10-01"
+    }
+   ],
+   "key": "barbarossabeyondtheedge|petersons"
+  },
+  {
+   "cat": "cat1",
+   "title": "Tipping Point Drop Zone",
+   "gp": "Relax Gaming",
+   "b": 3,
+   "first_seen": "2026-10-02",
+   "sources": [
+    {
+     "name": "BigWinBoard 新作列表",
+     "url": "https://www.bigwinboard.com/new-slots/",
+     "published": "2026-10-01"
+    }
+   ],
+   "key": "tippingpointdropzone|relaxgaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Gates of Hercules 10,000",
+   "gp": "Booming Games",
+   "b": 1,
+   "first_seen": "2026-10-02",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/01/52964/booming-games-launches-gates-hercules-10-000-slot/",
+     "published": "2026-10-01"
+    }
+   ],
+   "key": "gatesofhercules10000|boominggames"
+  },
+  {
+   "cat": "cat1",
+   "title": "Triple Fiesta",
+   "gp": "Red Rake Gaming",
+   "b": 1,
+   "first_seen": "2026-10-02",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/01/52966/red-rake-gaming-rolls-out-triple-fiesta-slot-to-operator-network/",
+     "published": "2026-10-01"
+    }
+   ],
+   "key": "triplefiesta|redrakegaming"
   }
  ],
  "others": [
-  {
-   "cat": "cat3",
-   "title": "European Gaming 專訪 The Pools 平台談 Goal Rush 訂閱制成效",
-   "gp": "The Pools",
-   "b": 1,
-   "first_seen": "2026-09-28",
-   "sources": [
-    {
-     "name": "European Gaming",
-     "url": "https://europeangaming.eu/portal/interviews/2026/09/27/214822/stefan-williams-the-pools-interview/",
-     "published": "2026-09-27 14:00"
-    }
-   ],
-   "key": "europeangaming專訪thepools平台談goalrush訂閱制成效|thepools"
-  },
   {
    "cat": "cat2",
    "title": "Local Hero Bingo 首播",
@@ -509,21 +372,6 @@
    "key": "aristocratgaming獲2026globalgamingawardsamericas三項大獎|aristocrat"
   },
   {
-   "cat": "cat4",
-   "title": "Casino Plus 擴大 Alden Richards CSR 合作",
-   "gp": "Casino Plus",
-   "b": 6,
-   "first_seen": "2026-10-01",
-   "sources": [
-    {
-     "name": "Times of Casino",
-     "url": "https://www.timesofcasino.com/casino-plus-alden-richards-deal-csr/",
-     "published": "2026-09-30 21:07"
-    }
-   ],
-   "key": "casinoplus擴大aldenrichardscsr合作|casinoplus"
-  },
-  {
    "cat": "cat5",
    "title": "報導：Kalshi 洽談以 400 億美元估值募資 10 億美元",
    "gp": "Kalshi",
@@ -537,6 +385,51 @@
     }
    ],
    "key": "報導kalshi洽談以400億美元估值募資10億美元|kalshi"
+  },
+  {
+   "cat": "cat3",
+   "title": "Brazil seeks blocking of 5,209 betting domains after nationwide ban",
+   "gp": "Brazil / G3 Newswire",
+   "b": 0,
+   "first_seen": "2026-10-02",
+   "sources": [
+    {
+     "name": "G3 Newswire",
+     "url": "https://g3newswire.com/brazil-seeks-blocking-of-5209-betting-domains-after-nationwide-ban/",
+     "published": "2026-10-01"
+    }
+   ],
+   "key": "brazilseeksblockingof5209bettingdomainsafternationwideban|brazilg3newswire"
+  },
+  {
+   "cat": "cat4",
+   "title": "PAGCOR calls for expansion of MICE facilities to drive growth of Philippine tourism industry",
+   "gp": "PAGCOR",
+   "b": 1,
+   "first_seen": "2026-10-02",
+   "sources": [
+    {
+     "name": "Inside Asian Gaming",
+     "url": "https://asgam.com/2026/10/01/pagcor-calls-for-expansion-of-mice-facilities-to-drive-growth-of-philippine-tourism-industry/",
+     "published": "2026-10-01"
+    }
+   ],
+   "key": "pagcorcallsforexpansionofmicefacilitiestodrivegrowthofphilippinetourismindustry|pagcor"
+  },
+  {
+   "cat": "cat5",
+   "title": "New study finds AI assistants wrongly label unlicensed casinos as KSA-approved",
+   "gp": "iGaming Business",
+   "b": 0,
+   "first_seen": "2026-10-02",
+   "sources": [
+    {
+     "name": "iGaming Business",
+     "url": "https://igamingbusiness.com/tech-innovation/ai-assistants-unlicensed-casinos-as-ksa-approved/",
+     "published": "2026-10-01"
+    }
+   ],
+   "key": "newstudyfindsaiassistantswronglylabelunlicensedcasinosasksaapproved|igamingbusiness"
   }
  ],
  "history": [
@@ -1428,6 +1321,118 @@
    "cat": "cat5",
    "title": "MDF Partners：義大利線上博彩 2016-2025 複合成長率 20.9%",
    "gp": "MDF Partners"
+  },
+  {
+   "key": "turbogolddeluxegigablox|yggdrasil",
+   "date": "2026-10-02",
+   "cat": "cat1",
+   "title": "Turbo Gold Deluxe GigaBlox",
+   "gp": "Yggdrasil"
+  },
+  {
+   "key": "ghostboostergoguaranteed|playngo",
+   "date": "2026-10-02",
+   "cat": "cat1",
+   "title": "Ghost Booster! GO Guaranteed",
+   "gp": "Play'n GO"
+  },
+  {
+   "key": "25coinsx3000|wazdan",
+   "date": "2026-10-02",
+   "cat": "cat1",
+   "title": "25 Coins x3000",
+   "gp": "Wazdan"
+  },
+  {
+   "key": "wilddragonexpressholdhit3x3|spinomenal",
+   "date": "2026-10-02",
+   "cat": "cat1",
+   "title": "Wild Dragon Express - Hold & Hit 3x3",
+   "gp": "Spinomenal"
+  },
+  {
+   "key": "foreversplitmegaways|pragmaticplay",
+   "date": "2026-10-02",
+   "cat": "cat1",
+   "title": "Forever Split Megaways",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "eplay24tipsterpokernight|eplay24",
+   "date": "2026-10-02",
+   "cat": "cat2",
+   "title": "E-Play24 Tipster Poker Night",
+   "gp": "E-Play24"
+  },
+  {
+   "key": "stakeedcraven投資maincodeventures|stake",
+   "date": "2026-10-02",
+   "cat": "cat3",
+   "title": "Stake／Ed Craven 投資 Maincode Ventures",
+   "gp": "Stake"
+  },
+  {
+   "key": "gentingcasinosconfirmscoventrycasinoclosure|gentingcasinosuk",
+   "date": "2026-10-02",
+   "cat": "cat3",
+   "title": "Genting Casinos Confirms Coventry Casino Closure",
+   "gp": "Genting Casinos UK"
+  },
+  {
+   "key": "aristocratgaming獲2026globalgamingawardsamericas三項大獎|aristocratgaming",
+   "date": "2026-10-02",
+   "cat": "cat3",
+   "title": "Aristocrat Gaming 獲 2026 Global Gaming Awards Americas 三項大獎",
+   "gp": "Aristocrat Gaming"
+  },
+  {
+   "key": "digiplusjoinsmetaconnect2026|digiplus",
+   "date": "2026-10-02",
+   "cat": "cat4",
+   "title": "DigiPlus joins Meta Connect 2026",
+   "gp": "DigiPlus"
+  },
+  {
+   "key": "pagcorsetsjanuary2027smarttabledeadline|pagcor",
+   "date": "2026-10-02",
+   "cat": "cat4",
+   "title": "PAGCOR Sets January 2027 Smart Table Deadline",
+   "gp": "PAGCOR"
+  },
+  {
+   "key": "emeraldbay母公司再失第二座度假村予債權銀行|phresortsgroup",
+   "date": "2026-10-02",
+   "cat": "cat4",
+   "title": "Emerald Bay 母公司再失第二座度假村予債權銀行",
+   "gp": "PH Resorts Group"
+  },
+  {
+   "key": "casinoplus擴大aldenrichardscsr合作|casinoplus",
+   "date": "2026-10-02",
+   "cat": "cat4",
+   "title": "Casino Plus 擴大 Alden Richards CSR 合作",
+   "gp": "Casino Plus"
+  },
+  {
+   "key": "歐盟線上博彩72收入來自非法業者|gamingcomplianceinternational",
+   "date": "2026-10-02",
+   "cat": "cat5",
+   "title": "歐盟線上博彩72%收入來自非法業者",
+   "gp": "Gaming Compliance International"
+  },
+  {
+   "key": "澳門9月ggr年減12至224億美元|澳門博彩監察協調局",
+   "date": "2026-10-02",
+   "cat": "cat5",
+   "title": "澳門9月GGR年減1.2%至22.4億美元",
+   "gp": "澳門博彩監察協調局"
+  },
+  {
+   "key": "whereisigamingheadingin2026|businessofigaming",
+   "date": "2026-10-02",
+   "cat": "cat5",
+   "title": "Where Is iGaming Heading In 2026+",
+   "gp": "Business of iGaming"
   }
  ],
  "rejected": [

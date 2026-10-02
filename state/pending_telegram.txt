@@ -1,34 +1,39 @@
-🎰 iGaming 市場日報 2026-10-01（週四）
-🎰 Slot 4 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-10-02（週五）
+🎰 Slot 5 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 4 ・ 📊 市場數據 3
 
 🎰 Slot 新遊戲
-01 Triple Beasts of Fortune – Play'n GO
-02 Immortal Romance ASSEMBL'EM – Games Global × Stormcraft Studios
-03 Holy Wilds – DEGEN Studios
-04 📦 Crown Strike – Hold & Hit 3x3 – Spinomenal
+01 Turbo Gold Deluxe GigaBlox – Yggdrasil
+02 Ghost Booster! GO Guaranteed – Play'n GO
+03 25 Coins x3000 – Wazdan
+04 Wild Dragon Express - Hold & Hit 3x3 – Spinomenal
+05 Forever Split Megaways – Pragmatic Play
 
 🕹️ 非 Slot 新內容
-01 第四彈 Scratch Card 促銷活動 – 1spin4win
+01 📦 E-Play24 Tipster Poker Night（9/30 發布，10/4 開賽）
 
 🤝 動態：主流 GP／平台
-01 Play'n GO 加入德國線上娛樂場協會（DOCV）
-02 Evolution 成立北美專屬 Slot 工作室 Spinning Whale
-03 IGT 連兩年蟬聯 2026 Global Gaming Awards
-04 Continent 8 與 FuturePath AI 成立合資公司 Future8
-05 Winvia 收購 Giveaway Guys、Win Life Competitions
+01 Stake 創辦人 Ed Craven 投資 AI 創投公司 Maincode Ventures
+02 Genting 宣布關閉 Coventry 娛樂場，警告博彩機稅調漲恐引發連鎖倒閉
+03 📦 Aristocrat Gaming 獲 2026 Global Gaming Awards Americas 三項大獎（9/30 發布）
 
 🇵🇭 動態：菲律賓 GP／平台
-01 Casino Plus 攜手 Peter & Sons 強化菲律賓內容陣容
-02 Casino Plus 全額派發史上最大驗證頭獎 ₱122.4M
-03 PAGCOR 盼 2028 年前完成線上博彩專法立法
+01 DigiPlus 參與 Meta Connect 2026，與全球科技領袖交流數位佈局
+02 PAGCOR 要求馬尼拉娛樂場 2027 年起導入 Smart Table
+03 Emerald Bay 母公司再失第二座度假村予債權銀行
+04 📦 Casino Plus 擴大 Alden Richards 合作，納入 CSR 與負責任博彩倡議（9/30 發布）
 
 📊 市場數據 & 趨勢
-01 調查：0% VIP 團隊以專屬 AI/自動化工具管理高價值玩家
-02 內華達州 8 月博彩營收微幅成長 3.1%
-03 MDF Partners：義大利線上博彩 2016-2025 複合成長率 20.9%
+01 報告：2025 年歐盟線上博彩 72% 收入來自非法業者
+02 澳門 9 月博彩毛收入年減 1.2% 至 22.4 億美元，創年內單月新低
+03 產業觀察：2026 年後 iGaming 邁向「數據驅動＋合規內嵌」成長模式
 
 📝 品質備註（本次爬找判斷）
-1. 原定 IGT「Queen Video Slots」與 2026-09-30 日報重複（同一則 G2E 發表新聞），已剔除並以庫存項目「Crown Strike – Spinomenal」(9/24 首見)遞補。
-2. EEZE 近 3 天日報皆查無收錄紀錄，今日已查 SBC Summit 相關報導但主來源發布日期皆在窗外（9/23 預告稿），依規則跳過不收。
-3. cat2（非 Slot）今日窗內候選偏弱，多為撲克監理／行銷活動類議題，最終僅收 1 則（1spin4win 刮刮卡行銷活動），品質偏薄，請留意。
-4. 窗內候選量充足（cat1 123、cat3 326、cat5 47 則），非抓取不足；本日新聞主軸集中在 G2E Las Vegas／SBC Summit Lisbon 兩大展會現場動態。
+1. 🕹️非Slot區今日窗內候選稀少，僅收錄1則：已查小遊戲/Crash/Mines/Plinko/Live Game各類均無新內容，原庫存「Local Hero Bingo」因主來源發布已超過3天保鮮期（9/28）予以剔除未補位，判斷為真實候選不足而非抓取不到。
+2. cat5-01「歐盟非法博彩佔72%」報導的原始GCI/CFG報告發布於9月22–23日，今日歐洲產業媒體的報導為窗內後續分析，疑似與該週報告重疊，提醒留意。
+3. cat1原本預判的TaDa Gaming《Qilin Treasures》經查證實為2月全球發行作品的巴西地區分銷擴張，非真正新遊戲，已剔除不計入5款；由Pragmatic Play《Forever Split Megaways》遞補第5款。
+4. cat3候選EGT《PH 50 V AWP cabinets》經多方比對，原始發布日實為9/29（早於本次收集窗），予以剔除。
+5. Firecrawl本日共使用24次（含1次404嘗試、1次為修正排序後補查），超出今日🟢充裕級上限22次2次，已記錄供追蹤，未影響其餘查證完整度。
+
+⚙️ 系統警報
+1. 🟠 來源連續失敗 ≥3 天：Kalamba Games（3 天）；請檢查網址或改抓取方式
+2. 🟠 今天有 21/99 個來源抓取失敗（≥20%），可能是網路或被擋
