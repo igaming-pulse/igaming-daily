@@ -1,35 +1,31 @@
-🎰 iGaming 市場日報 2026-10-03（週六）
-🎰 Slot 2 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 4
+🎰 iGaming 市場日報 2026-10-04（週日）
+🎰 Slot 2 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
 
 🎰 Slot 新遊戲
-01 Le Bandit Monsters Unleashed – Hacksaw Gaming
-02 3 Pots of Venice – Betsoft
+01 📦 Divine Queen: Power of Sun – BGaming
+02 📦 Triple Fiesta – Red Rake Gaming
 
 🕹️ 非 Slot 新內容
-01 CreedRoomz 真人娛樂場內容登陸瑞士 PASINO.ch
-02 QTech 聚合平台導入 Caleta Gaming 逾 160 款內容
+01 Norsk Tipping 擬開放線上撲克 – Norsk Tipping
+02 📦 TaDa Gaming《Plinko of Mine》進軍義大利市場 – TaDa Gaming
 
 🤝 動態：主流 GP／平台
-01 IGT ADVANTAGE X CMS 攻下加州 Soboba Casino Resort
-02 Evolution 重申要求將 Playtech 納入誹謗訴訟
-03 DraftKings 遭控以 AI 鎖定輸錢玩家，面臨集體訴訟
-04 📦 巴西擴大查封博彩網域，5,209 個遭盯上
-05 Century Casinos出售加拿大兩座賭場，聚焦美國本業
+01 巴西央行正式封鎖 Pix、TED、Boleto 用於固定賠率博彩交易
+02 英國 BGC 警告：機台博彩稅若調漲恐危及逾 2 億英鎊投資
+03 SBC Summit 與里斯本續約至 2030 年
 
 🇵🇭 動態：菲律賓 GP／平台
-01 DigiPlus 參與 Meta Connect 2026，探索 AI 與數位科技
-02 📦 PAGCOR 籲擴大 MICE 設施，盼複製拉斯維加斯模式
+01 Fitch：Okada Manila 母公司 Universal 未來三年恐持續負自由現金流
 
 📊 市場數據 & 趨勢
-01 巴西禁令後，非法博彩網域與海外搜尋需求同步暴增
-02 澳門 9 月 GGR 年減 1.2%，連續第四個月下滑
-03 拉斯維加斯 8 月旅客量年減 4.3%，酒店房價創全年新低
-04 義大利 9 月線上賭場消費 3.063 億歐元，年增 12%、Lottomatica 居冠
+01 韓國 Paradise Co 9 月博弈營收 6,450 萬美元，創紀錄季度收官
+02 Grand Korea Leisure 9 月博弈營收年增 7.2% 至 2,770 萬美元
+03 QCI 於 G2E 2026 推出 AI 驅動的賭場營收預測工具
 
 📝 品質備註（本次爬找判斷）
-1. 本窗（10/2 02:34～10/3 02:34）新聞量正常，收錄 15 則；查證時剔除 2 則候選：庫存誤收的 Century Entertainment WPT 認證新聞實際主來源為 2025-07-21 舊文（已從庫存移除）、PokerStars Casino Slotlist 週年慶僅是已報導過的 Gates of Olympus 2500 上架到新平台，不符合 🔁 重大更新門檻。
-2. 週六檢查點：比對 EEGaming Weekend Reels（本週 15 款）與 BigWinBoard 本週新作列表（15 款），僅 Le Bandit Monsters Unleashed（Hacksaw Gaming）因評測於窗內發布而新收錄，其餘本週大廠新作（Gates of Olympus 2500、Money Train 5、Diamond Tornado、Throne of Atlantis 等）皆已於 9/29 報導過，無需另標 📋 本週補遺。
-3. EEZE 連續 3 天（10/1～10/3）無窗內新消息，依規則跳過今日固定收錄。
+1. 今日收錄共 11 則，低於目標 15–18 則：harvest 窗內候選以巴西禁令後續發展（BNLData 同主題約 20 餘則）與通用博彩知識解說文（AGIMEG／JAMMA 等）為主，第三層 WebSearch 已針對菲律賓平台、實體機大廠、Acewin／Omiplay／YellowBat／ATG、熱門 IP 系列逐一查證，未發現窗內遺漏的新素材，非抓取不足所致。
+2. EEZE 近 3 天（10/1～10/3）與今日皆無新素材，依例外規則今日跳過每日固定收錄。
+3. 查證過程中剔除 3 則日期對不上的疑似舊聞重發（Barbarossa: Beyond the Edge、Tipping Point Drop Zone、Le Vampire）與 1 則實為 2025 年舊聞的 DigiPlus／Bayad 報導，改以 Triple Fiesta 等項目遞補。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：Kalamba Games（4 天）、Jdigital（3 天）、Club de Convergentes（3 天）、Casinos de France（3 天）、CIBELAE（3 天） 等 6 個；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：Kalamba Games（5 天）；請檢查網址或改抓取方式

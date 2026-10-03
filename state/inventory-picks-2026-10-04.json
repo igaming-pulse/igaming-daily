@@ -1,0 +1,23 @@
+{
+  "shown": [
+    {"cat": "cat1", "title": "Divine Queen: Power of Sun", "gp": "BGaming"},
+    {"cat": "cat1", "title": "Triple Fiesta", "gp": "Red Rake Gaming"},
+    {"cat": "cat2", "title": "Norsk Tipping 擬開放線上撲克", "gp": "Norsk Tipping"},
+    {"cat": "cat2", "title": "TaDa Gaming Plinko of Mine 進軍義大利市場", "gp": "TaDa Gaming"},
+    {"cat": "cat3", "title": "巴西央行正式封鎖 Pix、TED、Boleto 用於固定賠率博彩交易", "gp": "Banco Central do Brasil"},
+    {"cat": "cat3", "title": "英國 BGC 警告機台博彩稅調漲恐危及逾 2 億英鎊投資", "gp": "BGC"},
+    {"cat": "cat3", "title": "SBC Summit 與里斯本續約至 2030 年", "gp": "SBC Summit"},
+    {"cat": "cat4", "title": "Fitch：Okada Manila 母公司 Universal 未來三年恐持續負自由現金流", "gp": "Universal Entertainment"},
+    {"cat": "cat5", "title": "韓國 Paradise Co 9 月博弈營收創紀錄季度收官", "gp": "Paradise Co"},
+    {"cat": "cat5", "title": "Grand Korea Leisure 9 月博弈營收年增 7.2%", "gp": "Grand Korea Leisure"},
+    {"cat": "cat5", "title": "QCI 於 G2E 2026 推出 AI 驅動的賭場營收預測工具", "gp": "Quick Custom Intelligence"}
+  ],
+  "stock": [
+    {"cat": "cat3", "title": "UK gaming machines face mandatory breaks and loss limits", "gp": "UK Gambling Commission",
+     "sources": [{"name": "CasinoBeats", "url": "https://casinobeats.com/2026/10/03/gaming-machine-standards/", "published": "2026-10-03 16:13"}]},
+    {"cat": "cat4", "title": "SPiCE International 2026 聚焦宿霧亞洲 iGaming 市場", "gp": "DST Gaming",
+     "sources": [{"name": "JAMMA", "url": "https://www.jamma.it/mercato/spice-international-2026-a-cebu-il-confronto-sui-mercati-asiatici-delligaming-focus-sullo-sponsor-dstgaming-359874", "published": "2026-10-01 18:38"}]},
+    {"cat": "cat5", "title": "Jeju Dream Tower 9 月訪客創新高但賭場營收下滑", "gp": "Jeju Dream Tower",
+     "sources": [{"name": "iGamingToday", "url": "https://www.igamingtoday.com/jeju-dream-tower-records-highest-visitor-count-as-september-casino-revenue-declines/", "published": "2026-10-03"}]}
+  ]
+}

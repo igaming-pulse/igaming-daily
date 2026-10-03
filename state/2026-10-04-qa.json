@@ -1,0 +1,31 @@
+{
+ "date": "2026-10-04",
+ "md": "state/2026-10-04-igaming-report.md",
+ "html": "reports/2026-10-04.html",
+ "items": 11,
+ "counts": {
+  "cat1": 2,
+  "cat2": 2,
+  "cat3": 3,
+  "cat4": 1,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 21,
+  "ok": 16,
+  "broken": 0,
+  "blocked": 5,
+  "images_dropped": 0
+ },
+ "errors": [],
+ "warnings": [
+  "cat3-01 巴西央行正式封鎖 Pix、TED、Boleto ｜來源連結無法自動驗證（403，多半是網站擋機器人）：Finsiders Brasil https://finsidersbrasil.com.br/regulamentacao/bc-proibe-pix-boleto-e-ted-para-bets-e-cumpre-mp-assinada-por-lula/",
+  "cat3-03 SBC Summit 與里斯本續約至 2030 ｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/03/sbc-summit-inks-long-term-deal-to-remain-in-lisbon-until-2030/",
+  "cat4-01 Fitch：Okada Manila 母公司 U｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/03/fitch-sees-three-years-of-negative-free-cash-flow-for-universal-as-okada-manila-struggles/",
+  "cat5-01 韓國 Paradise Co 9 月博弈營收 6｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/03/koreas-paradise-co-reports-casino-revenue-of-us64-5-million-in-september-completing-record-quarter/",
+  "cat5-02 Grand Korea Leisure 9 月博｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/03/grand-korea-leisure-sees-casino-revenue-rise-to-us27-7-million-in-september/"
+ ],
+ "fixes": [
+  "文末｜資料來源數 20 → 18（程式依來源連結去重計算）"
+ ]
+}

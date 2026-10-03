@@ -1,0 +1,164 @@
+# 🎰 iGaming 市場日報 2026-10-04（週日）
+
+🎰 Slot 2 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
+
+---
+
+## 🎰 Game Provider 新遊戲
+
+### 01 Divine Queen: Power of Sun – BGaming
+📦 近期新作（10/2 首見）
+
+BGaming 推出人氣系列續作《Divine Queen: Power of Sun》，接續前作《Divine Queen: Heart of Ice》的世界觀，角色設計走向更強勢的太陽女神形象。遊戲採用 Pay Anywhere 消除機制，搭配「Cell Multipliers」區塊倍增系統，消除同色方塊可觸發倍數翻倍、最高疊加至 128 倍，讓單次連鎖的爆發力明顯放大。四個以上 Scatter 觸發免費旋轉，並提供多段 Buy Feature（含提升中獎率的 Chance x10、強化倍數區塊的 Booster，以及直接購買免費旋轉／超級免費旋轉的選項），滿足不同預算玩家的節奏偏好。對 PM 的意義：續作策略能延續既有 IP 的玩家黏著度，128 倍區塊倍增上限則是本月連消機制的熱門調校方向，適合用來評估消除類主力產品的賠付曲線設計。
+
+衍生調整：延續前作 Pay Anywhere 與連鎖消除骨架，新增「Cell Multipliers」區塊倍增系統（最高 128 倍）與三段式 Buy Feature，整體爆發節奏較前作更陡峭。
+
+參數：
+- 遊戲類型：線上電子老虎機
+- 盤面：Pay Anywhere（無固定盤面限制）
+- 消除/賠付：Cascading 連消 + Cell Multipliers 區塊倍增（最高 128 倍）
+- 最高倍率：5,000x
+- RTP：97%
+- 波動：中高
+- 目標市場：全球
+- 關鍵特色：Cell Multipliers 區塊倍增、4+ Scatter 觸發免費旋轉、三段式 Buy Feature
+
+查證：EEGaming 原文與 iGaming Business、European Gaming 轉述數據一致，均為 BGaming 官方口徑。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/10/02/52975/bgaming-launches-divine-queen-power-of-sun-slot-sequel/) · [iGaming Business](https://igamingbusiness.com/company-news/channel-the-strength-of-a-radiant-goddess-in-bgamings-divine-queen-power-of-sun/) · [European Gaming](https://europeangaming.eu/portal/press-releases/2026/10/02/215222/bgaming-divine-queen-power-of-sun-slot/) · 日期：2026-10-02
+圖片：https://eegaming.org/api/eeg/social-image/55522.jpg
+
+### 02 Triple Fiesta – Red Rake Gaming
+📦 近期新作（10/1 首見）
+
+Red Rake Gaming 推出墨西哥節慶主題新作《Triple Fiesta》，以亡靈節風格的 Rolando、Pancho、Catrina 三角色貫穿盤面，主打「Skull Coins」收集機制：玩家收集不同顏色骷髏幣可同時觸發「Extra Spin」「Double Reel」「Multipliers」三款迷你遊戲中的一種、兩種甚至三種同時啟動，並搭配「Skull Roulette」升級與 Grand Prize 觸發點，讓小遊戲層層嵌套的設計提升了單局的變化性。對 PM 的意義：多重迷你遊戲並行觸發是近期中等預算供應商常用的差異化手法，務實地用低研發成本堆疊出高話題性的玩法深度，值得作為同類 5x3／25 線產品的賠付與節奏對照組。
+
+衍生調整：全新 IP，無衍生；首度將「Skull Coins」多重迷你遊戲並行觸發機制應用在節慶主題產品線。
+
+參數：
+- 遊戲類型：線上電子老虎機
+- 盤面：5x3
+- 消除/賠付：25 條賠付線（非消除型）
+- 最高倍率：3,473x
+- RTP：95.3%
+- 波動：中
+- 目標市場：全球（義大利等歐洲市場同步上線）
+- 關鍵特色：Skull Coins 多重迷你遊戲並行觸發、Skull Roulette 升級、Grand Prize 觸發
+
+查證：SlotCatalog 公布之 RTP、波動與最高倍率與 EEGaming／HIPTHER 發布稿機制描述一致。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/10/01/52966/red-rake-gaming-rolls-out-triple-fiesta-slot-to-operator-network/) · [HIPTHER](https://hipther.com/igaming-news/2026/10/01/160831/red-rake-gaming-rolls-out-triple-fiesta-slot-to-operator-network) · 日期：2026-10-01
+圖片：https://eegaming.org/api/eeg/social-image/55515.jpg
+
+## 🕹️ 非 Slot 新內容
+
+### 01 Norsk Tipping 擬開放線上撲克 – Norsk Tipping
+挪威政府正評估開放國營博彩公司 Norsk Tipping 經營線上撲克，相關產業諮詢已於 9 月 29 日啟動。挪威目前並未開放本地線上撲克，據 2022 年卑爾根大學調查，約有 9 萬名挪威玩家長期透過海外非持牌平台進行撲克遊戲，全國推估年活躍撲克玩家約 10 萬至 15 萬人。新方案擬比照既有責任博彩框架，導入損失上限、最高下注額與強制休息等保護機制；文化與平等部長 Lubna Jaffery 表示，與其放任玩家流向海外平台，不如提供安全的本地選項。對 PM 的意義：國家壟斷體系鬆綁撲克品類，意味著未來可能出現新的持牌內容採購需求，是觀察北歐撲克內容供應鏈變化的早期訊號。
+
+衍生調整：不適用（首次政策提案，尚無實際產品落地）
+
+參數：
+- 遊戲類型：Poker（線上撲克，政策提案階段）
+- 目標市場：挪威
+- 關鍵特色：國營壟斷體系首次納入線上撲克，搭配損失上限、最高下注額、強制休息等保護機制
+
+查證：Gaming Intelligence、Interplay Poland 均引用同一諮詢文件與部長談話，數據一致。
+來源：[Online Gambling Quarterly](https://www.ogqnews.com/norway-proposes-online-poker-at-norsk-tipping/) · [Gaming Intelligence](https://www.gamingintelligence.com/legal/236756-norsk-tipping-to-offer-online-poker-for-the-first-time/) · [Interplay Poland](https://interplay.pl/nowe-przepisy-ws-pokera-online-w-norwegii-norsk-tipping-wkracza-do-gry/) · 日期：2026-10-03
+圖片：無
+
+### 02 TaDa Gaming《Plinko of Mine》進軍義大利市場 – TaDa Gaming
+📦（10/1）
+
+TaDa Gaming 旗下爆款小遊戲《Plinko of Mine》正式登陸義大利市場，延續挖礦主題的掉球機制：玩家可自由調整由易到難的波動等級，讓球體穿越障礙落入倍數區或觸發獎勵；其中 Free Ball 格可釋出額外球體，Special Reward 格更可一次激活最多 99 顆附加倍數的金色球體，擴大單局爆發空間。遊戲支援 15 種以上語言、100 多種貨幣，全裝置皆可遊玩。對 PM 的意義：Plinko 類小遊戲在歐洲單一市場（義大利）的在地化上架速度，反映出該品類正從北美／亞洲市場向歐洲持牌市場擴散，適合納入小遊戲品類的市場覆蓋率追蹤。
+
+衍生調整：延續原版掉球機制與波動自選設計，本次為義大利市場的在地化上架，無額外玩法調整。
+
+參數：
+- 遊戲類型：小遊戲（Plinko／掉球類）
+- 目標市場：義大利
+- 關鍵特色：波動等級自選、Free Ball 格、Special Reward 格（最多 99 顆加倍金球）
+
+來源：[JAMMA](https://www.jamma.it/prodotti/tada-gaming-lancia-in-italia-plinko-of-mine-tra-miniere-doro-e-palline-bonus-359819) · 日期：2026-10-01
+圖片：https://www.jamma.it/wp-content/uploads/2026/10/plinko.jpg
+
+## 🤝 動態：主流 GP／平台
+
+### 01 巴西央行正式封鎖 Pix、TED、Boleto 用於固定賠率博彩交易
+
+巴西央行（BC）依 Lula 總統於 9 月 25 日簽署的臨時法令（MP 1,394）訂定三項決議（BCB 第 595、596、597 號），正式將 Pix、TED（電子轉帳）與 boleto（繳款單）納入禁止用於固定賠率博彩交易的支付工具清單，9 月 25 日生效。決議要求所有金融機構與金融科技公司阻擋、拒絕處理任何流向博彩業者的上述支付管道，玩家僅能透過這些管道取回資金、無法再用於入金；boleto 更完全不允許退款。此舉正式切斷巴西博彩業者最主要的本地支付入口，此前博彩業已面臨逾萬個網域遭封鎖、單日流動資金約 6 億雷亞爾被凍結等連鎖衝擊。對 PM 的意義：支付管道級的強制封鎖意味著巴西市場在可預見的未來將持續處於高度不確定狀態，任何在地化入金方案都需要重新評估合規風險。
+
+重點：類型 政府法規 ｜ 對象 巴西博彩業者、Pix/TED/Boleto 支付體系 ｜ 影響 博彩業者本地支付入口被官方全面切斷，合規與現金流風險大幅上升
+來源：[BNLData](https://bnldata.com.br/bc-proibe-pix-ted-e-boleto-para-apostas-de-quota-fixa-e-formaliza-bloqueio-financeiro-da-mp-das-bets/) · [Finsiders Brasil](https://finsidersbrasil.com.br/regulamentacao/bc-proibe-pix-boleto-e-ted-para-bets-e-cumpre-mp-assinada-por-lula/) · 日期：2026-10-03
+
+### 02 英國 BGC 警告：機台博彩稅若調漲恐危及逾 2 億英鎊投資
+
+英國博彩暨遊戲委員會（BGC）警告，若機台博彩稅（Machine Games Duty, MGD）如傳聞由 20% 調漲至 40%，恐導致超過 50 座場館、逾 2 億英鎊的投資計畫遭取消或縮編。BGC 強調，英國持牌實體場館近年已面臨就業成本、營業稅與能源價格三重壓力，若疊加稅率翻倍的政策衝擊，將直接衝擊場館端新機台採購與場地更新的資本支出計畫。對 PM 的意義：英國實體機台稅制若真的翻倍，將直接壓縮場館端的採購預算，連帶影響供應商在英市場的機台更新週期與營收預期。
+
+重點：類型 政府法規 ｜ 對象 英國持牌實體場館、機台供應商 ｜ 影響 稅率翻倍恐取消／縮編逾 2 億英鎊場館投資計畫，波及機台採購需求
+來源：[JAMMA](https://www.jamma.it/mercato/regno-unito-bgc-aumento-delle-tasse-sui-casino-mette-a-rischio-200-milioni-di-investimenti-359988) · 日期：2026-10-03
+
+### 03 SBC Summit 與里斯本續約至 2030 年
+
+SBC Summit 宣布與里斯本簽署長期合作協議，確定年度線上博彩展會續留當地至 2030 年，較先前僅確認至 2027 年的安排大幅延長。展會主要場地 Feira Internacional de Lisboa 與 MEO Arena 的場館規模足以支撐展會現有規模；本屆展會吸引來自 178 個國家的與會者，為當地帶來可觀經濟效益，惟因與另一大型展會檔期重疊而影響部分出席率。SBC 執行長 Rasmus Sojmark 表示，長約為未來規劃與投資提供穩定性。對 PM 的意義：展會場地長約確定後，未來數年的產業展會日曆可提前納入年度行銷與差旅預算規劃，降低展會地點變動的不確定性。
+
+重點：類型 合作 ｜ 對象 SBC Summit、里斯本市政府／FIL ｜ 影響 穩定未來數年產業展會日曆，便於廠商提前規劃參展與行銷預算
+來源：[Inside Asian Gaming](https://asgam.com/2026/10/03/sbc-summit-inks-long-term-deal-to-remain-in-lisbon-until-2030/) · [JAMMA](https://www.jamma.it/attualita/sbc-restera-a-lisbona-fino-al-2030-con-un-nuovo-accordo-a-lungo-termine-359991) · 日期：2026-10-03
+
+## 🇵🇭 動態：菲律賓 GP／平台
+
+### 01 Fitch：Okada Manila 母公司 Universal 未來三年恐持續負自由現金流
+
+Fitch Ratings 發布報告指出，受 VIP 貴賓廳市場萎縮、客群線上遷移與總體經濟逆風三重因素影響，Okada Manila 母公司 Universal Entertainment Corp（UEC）調整後 EBITDA 承壓，預估未來三年將持續呈現負自由現金流。報告將 Okada Manila 所面臨的挑戰，與菲律賓線上博彩平台持續搶占實體貴賓廳客群的趨勢相連結，反映實體綜合度假村在博弈收入結構上的調整壓力。對 PM 的意義：評等機構點名實體貴賓廳營收結構性下滑，意味著菲律賓市場的博弈收入重心將加速往線上平台移動，對線上內容供應商是擴大布局的訊號。
+
+重點：類型 財務 ｜ 對象 Universal Entertainment Corp（Okada Manila 母公司） ｜ 影響 實體貴賓廳營收結構性承壓，凸顯菲律賓博弈收入線上化趨勢
+來源：[Inside Asian Gaming](https://asgam.com/2026/10/03/fitch-sees-three-years-of-negative-free-cash-flow-for-universal-as-okada-manila-struggles/) · 日期：2026-10-03
+
+## 📊 市場數據 & 趨勢
+
+### 01 韓國 Paradise Co 9 月博弈營收 6,450 萬美元，創紀錄季度收官
+
+Paradise Co（韓國專營外國人賭場業者）公布 9 月博弈淨收入達 867 億韓元（約 6,450 萬美元），年增 38.2%，但較 8 月創紀錄的 1,043 億韓元（約 7,760 萬美元）下滑 16.8%。公司藉此完成全年度表現最佳的單季（第三季）成績。對 PM 的意義：外國人專營賭場在年增數據上維持強勁，但月度環比的回落提醒旺季後續動能需持續觀察，可作為評估東北亞貴賓與高端客群消費力道的指標。
+
+重點：類型 財務 ｜ 對象 Paradise Co ｜ 影響 驗證韓國外國人賭場市場年增動能，惟環比回落需留意旺季後續走勢
+來源：[Inside Asian Gaming](https://asgam.com/2026/10/03/koreas-paradise-co-reports-casino-revenue-of-us64-5-million-in-september-completing-record-quarter/) · 日期：2026-10-03
+
+### 02 Grand Korea Leisure 9 月博弈營收年增 7.2% 至 2,770 萬美元
+
+Grand Korea Leisure（GKL，韓國外國人專營賭場業者）公布 9 月博弈營收為 373 億韓元（約 2,770 萬美元），年增 7.2%，較 8 月更大幅成長 19.8%。其中桌遊營收年增 8.4% 至 340 億韓元（約 2,530 萬美元），惟機台營收表現相對疲軟。對 PM 的意義：與 Paradise Co 的數據合併觀察，韓國外國人賭場市場 9 月普遍呈現年增、環比分化的格局，桌遊貴賓客群仍是主要成長動能來源。
+
+重點：類型 財務 ｜ 對象 Grand Korea Leisure ｜ 影響 桌遊營收帶動整體年增，機台端相對疲軟，反映客群結構持續向桌遊傾斜
+來源：[Inside Asian Gaming](https://asgam.com/2026/10/03/grand-korea-leisure-sees-casino-revenue-rise-to-us27-7-million-in-september/) · 日期：2026-10-03
+
+### 03 QCI 於 G2E 2026 推出 AI 驅動的賭場營收預測工具
+
+博弈數據公司 Quick Custom Intelligence（QCI）於 Global Gaming Expo（G2E）2026 發表 AI 驅動的營收預測新功能，整合至旗下 QCI Resorts™ 平台，協助場館營運方在訂價、排程與營收管理上做出更精準的決策。QCI 執行長 Ralph Thomas 強調，此功能能幫助營運團隊更快速因應市場變化調整策略。對 PM 的意義：AI 預測工具從單店營運延伸至整體場館營收管理，顯示博弈產業的數據工具鏈正加速導入預測式 AI，值得關注同類競品（如 Tangam SODA）的跟進動作。
+
+重點：類型 運營活動 ｜ 對象 Quick Custom Intelligence（QCI） ｜ 影響 AI 預測工具滲透場館營收管理環節，代表產業數據工具鏈加速智慧化
+來源：[Gaming & Leisure](https://mygamingandleisure.com/qci-introduces-ai-powered-revenue-forecasting-for-casino-resorts/) · 日期：2026-10-03
+
+---
+
+本日日報查詢約 52 個網站，其中提取 20 個資料來源並進行交叉比對
+
+---
+
+## 🗓️ 來源日期紀錄（內部，不渲染）
+
+- cat1-01 Divine Queen: Power of Sun：主來源 EEGaming，發布 2026-10-02（metadata article:published_time），佐證 iGaming Business／European Gaming 同日發布
+- cat1-02 Triple Fiesta：主來源 EEGaming，發布 2026-10-01（metadata article:published_time），佐證 HIPTHER 同日發布
+- cat2-01 Norsk Tipping 線上撲克：主來源 Online Gambling Quarterly，發布 2026-10-02T22:17 UTC（＝台北 2026-10-03 06:17，metadata article:published_time），佐證 Gaming Intelligence（2026-10-01）、Interplay Poland（2026-10-02）
+- cat2-02 TaDa Gaming Plinko of Mine（義大利）：主來源 JAMMA，發布 2026-10-01（metadata article:published_time）
+- cat3-01 巴西央行封鎖 Pix/TED/Boleto：主來源 BNLData，發布 2026-10-02T19:00 UTC（＝台北 2026-10-03，metadata article:published_time），佐證 Finsiders Brasil 同一組 BCB 決議編號
+- cat3-02 英國 BGC 稅務警告：主來源 JAMMA，發布 2026-10-03（metadata article:published_time）
+- cat3-03 SBC Summit 里斯本續約：主來源 Inside Asian Gaming，發布 2026-10-03（metadata article:published_time），佐證 JAMMA 同日報導
+- cat4-01 Fitch／Okada Manila：主來源 Inside Asian Gaming，發布 2026-10-03（metadata article:published_time）
+- cat5-01 Paradise Co 9 月營收：主來源 Inside Asian Gaming，發布 2026-10-03（metadata article:published_time）
+- cat5-02 Grand Korea Leisure 9 月營收：主來源 Inside Asian Gaming，發布 2026-10-03（metadata article:published_time）
+- cat5-03 QCI AI 營收預測：主來源 Gaming & Leisure，發布 2026-10-02T19:38 UTC（＝台北 2026-10-03，metadata article:published_time）
+
+剔除紀錄：
+- Barbarossa: Beyond the Edge（Peter & Sons）：BigWinBoard／iGamingToday 評測文發布日（09-17／09-20）皆早於遊戲聲稱上線日（10-01）且超過庫存保鮮期 7 天，無法確認主來源，剔除，遞補 Triple Fiesta
+- Tipping Point Drop Zone（Relax Gaming）：同上，找不到保鮮期內且與上線日一致的主來源，剔除
+- Le Vampire（Hacksaw Gaming）：OLBG 原文無發布日 metadata，其餘轉載（bettorsinsider）日期（09-22）早於聲稱上線日（10-01），剔除
+- DigiPlus taps Bayad 支付合作：WebSearch 顯示為 2026-10-03 相關報導，但原文與 philstar 等多方確認實際簽署日為 2025-10-08，整整提前一年，判定為舊聞轉載，剔除
+- Genting UK closes Coventry casino citing rising costs：與近 3 天已出現的「Genting Casinos Confirms Coventry Casino Closure」（2026-10-02）同一事件，無重大新進展，剔除
+- Emerald Bay 母公司交出第二座度假村：與近 3 天已出現項目（2026-10-02）完全重複，剔除
+- E-Play24 Tipster Poker Night：庫存清單雖列為可用，但與近 3 天已出現項目（2026-10-02）重複，剔除未採用

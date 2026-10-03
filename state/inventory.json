@@ -129,41 +129,6 @@
   },
   {
    "cat": "cat1",
-   "title": "Triple Fiesta",
-   "gp": "Red Rake Gaming",
-   "b": 1,
-   "first_seen": "2026-10-02",
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/10/01/52966/red-rake-gaming-rolls-out-triple-fiesta-slot-to-operator-network/",
-     "published": "2026-10-01"
-    }
-   ],
-   "key": "triplefiesta|redrakegaming"
-  },
-  {
-   "cat": "cat1",
-   "title": "Divine Queen: Power of Sun",
-   "gp": "BGaming",
-   "b": 3,
-   "first_seen": "2026-10-02",
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/10/02/52975/bgaming-launches-divine-queen-power-of-sun-slot-sequel/",
-     "published": "2026-10-02 15:05"
-    },
-    {
-     "name": "European Gaming",
-     "url": "https://europeangaming.eu/portal/press-releases/2026/10/02/215222/bgaming-divine-queen-power-of-sun-slot/",
-     "published": "2026-10-02 16:02"
-    }
-   ],
-   "key": "divinequeenpowerofsun|bgaming"
-  },
-  {
-   "cat": "cat1",
    "title": "Pots of Power: Dragon's Blessing",
    "gp": "AvatarUX",
    "b": 1,
@@ -179,67 +144,6 @@
   }
  ],
  "others": [
-  {
-   "cat": "cat2",
-   "title": "Local Hero Bingo 首播",
-   "gp": "WestLotto",
-   "first_seen": "2026-09-30",
-   "sources": [
-    {
-     "name": "ISA-GUIDE",
-     "url": "https://www.isa-guide.de/isa-gaming/local-hero-bingo-erste-ziehung-und-erste-show/",
-     "published": "2026-09-28 21:02"
-    }
-   ],
-   "key": "localherobingo首播|westlotto"
-  },
-  {
-   "cat": "cat3",
-   "title": "White Hat Gaming appoints Leon Thomas as CCO",
-   "gp": "White Hat Gaming",
-   "first_seen": "2026-09-30",
-   "sources": [
-    {
-     "name": "AGB",
-     "url": "https://agbrief.com/news/world/29/09/2026/white-hat-gaming-appoints-leon-thomas-as-cco-to-lead-growth-across-regulated-markets/",
-     "published": "2026-09-29 22:31"
-    }
-   ],
-   "key": "whitehatgamingappointsleonthomasascco|whitehatgaming"
-  },
-  {
-   "cat": "cat4",
-   "title": "Century Entertainment 維持菲律賓營運（WPT認證事件後續）",
-   "gp": "Century Entertainment",
-   "first_seen": "2026-09-30",
-   "sources": [
-    {
-     "name": "AGB",
-     "url": "https://agbrief.com/intel/21/07/2026/century-entertainments-philippine-gaming-rollout-faces-questions-over-partner-wpt-status/",
-     "published": "2026-07-21"
-    },
-    {
-     "name": "focusgn",
-     "url": "https://focusgn.com/asia-pacific/century-entertainment-maintains-philippine-operations-after-wpt-licence-loss",
-     "published": "2026-09-28 19:40"
-    }
-   ],
-   "key": "centuryentertainment維持菲律賓營運wpt認證事件後續|centuryentertainment"
-  },
-  {
-   "cat": "cat5",
-   "title": "H2GC:巴西禁令後恐有BRL30bn轉入非法市場",
-   "gp": "H2GC/EGR Intel",
-   "first_seen": "2026-09-30",
-   "sources": [
-    {
-     "name": "EGR Intel",
-     "url": "https://www.egr.global/intel/news/exclusive-h2gc-forecasts-up-to-brl30bn-will-shift-to-illegal-marketafter-brazils-ban/",
-     "published": "2026-09-29 19:50"
-    }
-   ],
-   "key": "h2gc巴西禁令後恐有brl30bn轉入非法市場|h2gcegrintel"
-  },
   {
    "cat": "cat2",
    "title": "E-Play24 Tipster Poker Night（10/4，10萬歐元保證獎池）",
@@ -359,6 +263,48 @@
     }
    ],
    "key": "coloradocasinosearn104millioninaugustgamingrevenue|"
+  },
+  {
+   "cat": "cat3",
+   "title": "UK gaming machines face mandatory breaks and loss limits",
+   "gp": "UK Gambling Commission",
+   "sources": [
+    {
+     "name": "CasinoBeats",
+     "url": "https://casinobeats.com/2026/10/03/gaming-machine-standards/",
+     "published": "2026-10-03 16:13"
+    }
+   ],
+   "first_seen": "2026-10-04",
+   "key": "ukgamingmachinesfacemandatorybreaksandlosslimits|ukgamblingcommission"
+  },
+  {
+   "cat": "cat4",
+   "title": "SPiCE International 2026 聚焦宿霧亞洲 iGaming 市場",
+   "gp": "DST Gaming",
+   "sources": [
+    {
+     "name": "JAMMA",
+     "url": "https://www.jamma.it/mercato/spice-international-2026-a-cebu-il-confronto-sui-mercati-asiatici-delligaming-focus-sullo-sponsor-dstgaming-359874",
+     "published": "2026-10-01 18:38"
+    }
+   ],
+   "first_seen": "2026-10-04",
+   "key": "spiceinternational2026聚焦宿霧亞洲igaming市場|dstgaming"
+  },
+  {
+   "cat": "cat5",
+   "title": "Jeju Dream Tower 9 月訪客創新高但賭場營收下滑",
+   "gp": "Jeju Dream Tower",
+   "sources": [
+    {
+     "name": "iGamingToday",
+     "url": "https://www.igamingtoday.com/jeju-dream-tower-records-highest-visitor-count-as-september-casino-revenue-declines/",
+     "published": "2026-10-03"
+    }
+   ],
+   "first_seen": "2026-10-04",
+   "key": "jejudreamtower9月訪客創新高但賭場營收下滑|jejudreamtower"
   }
  ],
  "history": [
@@ -1467,6 +1413,83 @@
    "cat": "cat5",
    "title": "義大利9月線上賭場消費3.063億歐元",
    "gp": ""
+  },
+  {
+   "key": "divinequeenpowerofsun|bgaming",
+   "date": "2026-10-04",
+   "cat": "cat1",
+   "title": "Divine Queen: Power of Sun",
+   "gp": "BGaming"
+  },
+  {
+   "key": "triplefiesta|redrakegaming",
+   "date": "2026-10-04",
+   "cat": "cat1",
+   "title": "Triple Fiesta",
+   "gp": "Red Rake Gaming"
+  },
+  {
+   "key": "norsktipping擬開放線上撲克|norsktipping",
+   "date": "2026-10-04",
+   "cat": "cat2",
+   "title": "Norsk Tipping 擬開放線上撲克",
+   "gp": "Norsk Tipping"
+  },
+  {
+   "key": "tadagamingplinkoofmine進軍義大利市場|tadagaming",
+   "date": "2026-10-04",
+   "cat": "cat2",
+   "title": "TaDa Gaming Plinko of Mine 進軍義大利市場",
+   "gp": "TaDa Gaming"
+  },
+  {
+   "key": "巴西央行正式封鎖pixtedboleto用於固定賠率博彩交易|bancocentraldobrasil",
+   "date": "2026-10-04",
+   "cat": "cat3",
+   "title": "巴西央行正式封鎖 Pix、TED、Boleto 用於固定賠率博彩交易",
+   "gp": "Banco Central do Brasil"
+  },
+  {
+   "key": "英國bgc警告機台博彩稅調漲恐危及逾2億英鎊投資|bgc",
+   "date": "2026-10-04",
+   "cat": "cat3",
+   "title": "英國 BGC 警告機台博彩稅調漲恐危及逾 2 億英鎊投資",
+   "gp": "BGC"
+  },
+  {
+   "key": "sbcsummit與里斯本續約至2030年|sbcsummit",
+   "date": "2026-10-04",
+   "cat": "cat3",
+   "title": "SBC Summit 與里斯本續約至 2030 年",
+   "gp": "SBC Summit"
+  },
+  {
+   "key": "fitchokadamanila母公司universal未來三年恐持續負自由現金流|universalentertainment",
+   "date": "2026-10-04",
+   "cat": "cat4",
+   "title": "Fitch：Okada Manila 母公司 Universal 未來三年恐持續負自由現金流",
+   "gp": "Universal Entertainment"
+  },
+  {
+   "key": "韓國paradiseco9月博弈營收創紀錄季度收官|paradiseco",
+   "date": "2026-10-04",
+   "cat": "cat5",
+   "title": "韓國 Paradise Co 9 月博弈營收創紀錄季度收官",
+   "gp": "Paradise Co"
+  },
+  {
+   "key": "grandkorealeisure9月博弈營收年增72|grandkorealeisure",
+   "date": "2026-10-04",
+   "cat": "cat5",
+   "title": "Grand Korea Leisure 9 月博弈營收年增 7.2%",
+   "gp": "Grand Korea Leisure"
+  },
+  {
+   "key": "qci於g2e2026推出ai驅動的賭場營收預測工具|quickcustomintelligence",
+   "date": "2026-10-04",
+   "cat": "cat5",
+   "title": "QCI 於 G2E 2026 推出 AI 驅動的賭場營收預測工具",
+   "gp": "Quick Custom Intelligence"
   }
  ],
  "rejected": [
