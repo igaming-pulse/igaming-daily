@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Telegram 庫存查詢機器人（常駐長輪詢，macOS launchd）
+
+  安裝（token 只放在 ~/Library/LaunchAgents 這份本機檔案裡，不進 repo）：
+    1. 把 __HOME__ 換成家目錄、__TELEGRAM_BOT_TOKEN__ 換成接收日報的那個 bot 的 token
+    2. 存成 ~/Library/LaunchAgents/com.igaming.telegram-bot.plist，並 chmod 600
+    3. launchctl load -w ~/Library/LaunchAgents/com.igaming.telegram-bot.plist
+    4. 驗證：launchctl list | grep telegram-bot；tail -f __HOME__/igaming-daily/state/telegram-bot.log
+
+  KeepAlive＋RunAtLoad：登入就啟動，程式掛掉 launchd 會自動重啟（ThrottleInterval 避免狂重啟）。
+  ⚠️ Mac 睡眠時機器人不會回覆，醒來後會把睡眠期間的訊息補回。
+
+  移除：
+    launchctl unload -w ~/Library/LaunchAgents/com.igaming.telegram-bot.plist
+-->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.igaming.telegram-bot</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/python3</string>
+    <string>__HOME__/igaming-daily/scripts/telegram_bot.py</string>
+  </array>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>TELEGRAM_BOT_TOKEN</key><string>__TELEGRAM_BOT_TOKEN__</string>
+    <key>TELEGRAM_ALLOWED_CHAT_ID</key><string>606981537</string>
+    <key>PYTHONUNBUFFERED</key><string>1</string>
+  </dict>
+
+  <key>WorkingDirectory</key><string>__HOME__/igaming-daily</string>
+  <key>StandardOutPath</key><string>__HOME__/igaming-daily/state/telegram-bot.log</string>
+  <key>StandardErrorPath</key><string>__HOME__/igaming-daily/state/telegram-bot.log</string>
+
+  <key>RunAtLoad</key><true/>
+  <key>KeepAlive</key><true/>
+  <key>ThrottleInterval</key><integer>30</integer>
+</dict>
+</plist>
