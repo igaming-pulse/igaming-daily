@@ -1,0 +1,27 @@
+{
+  "shown": [
+    {"cat": "cat1", "title": "Money Train 5", "gp": "Relax Gaming"},
+    {"cat": "cat1", "title": "House of the Dragon", "gp": "Blueprint Gaming"},
+    {"cat": "cat1", "title": "Fortune City Hold & Win", "gp": "Million Games"},
+    {"cat": "cat1", "title": "Gates of Hercules 10,000", "gp": "Booming Games"},
+    {"cat": "cat1", "title": "Cherry Cherry Baby", "gp": "Amusnet"},
+    {"cat": "cat3", "title": "Nevada 檢察官反對 Kalshi 延後聽證案", "gp": "Kalshi"},
+    {"cat": "cat3", "title": "荷蘭業界協會 VNLOK 控告 Meta 非法博彩廣告", "gp": "Meta"},
+    {"cat": "cat3", "title": "千里達及托巴哥通過遠端博彩新法", "gp": ""},
+    {"cat": "cat3", "title": "巴西加碼封鎖逾萬個博彩網站", "gp": ""},
+    {"cat": "cat3", "title": "加拿大亞伯達省取締無牌線上博彩", "gp": ""},
+    {"cat": "cat4", "title": "Casino Plus 攜手 Peter & Sons 合作", "gp": "Casino Plus"},
+    {"cat": "cat4", "title": "DigiPlus 基金會賑濟呂宋風災災民", "gp": "DigiPlus"},
+    {"cat": "cat5", "title": "巴西運彩禁令衝擊奧運／帕運經費", "gp": ""},
+    {"cat": "cat5", "title": "NagaCorp 前三季 GGR 衰退 21.5%", "gp": "NagaCorp"},
+    {"cat": "cat5", "title": "澳門黃金週首四日訪客逾 75 萬人次", "gp": ""}
+  ],
+  "stock": [
+    {"cat": "cat1", "title": "Diamond Tornado", "gp": "Swintt", "b": 1, "first_seen": "2026-10-05",
+     "sources": [{"name": "EEGaming", "url": "https://eegaming.org/latest-news/2026/09/28/52872/swintt-releases-diamond-tornado-slot-with-progressive-multipliers-and-local-jackpots", "published": "2026-09-28 07:29"}]},
+    {"cat": "cat3", "title": "SBC Awards 2026 winners crowned at MEO Arena in Lisbon", "gp": "", "b": 0, "first_seen": "2026-10-05",
+     "sources": [{"name": "AGB", "url": "https://agbrief.com/news/europe/04/10/2026/sbc-awards-2026-winners-crowned-at-meo-arena-in-lisbon/", "published": "2026-10-04 22:24"}]},
+    {"cat": "cat5", "title": "After Casino – What's Next In iGaming", "gp": "", "b": 0, "first_seen": "2026-10-05",
+     "sources": [{"name": "Business of iGaming", "url": "https://www.businessofigaming.com/after-casino-whats-next-igaming/", "published": "2026-10-04 13:22"}]}
+  ]
+}

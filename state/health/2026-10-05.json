@@ -1,0 +1,52 @@
+{
+ "date": "2026-10-05",
+ "alerts": [
+  "🟠 今天實際用了 70 點，超過今日預算 46 點",
+  "🟠 來源連續失敗 ≥3 天：Kalamba Games（6 天）；請檢查網址或改抓取方式"
+ ],
+ "info": {
+  "credits": {
+   "remaining": 385,
+   "plan": 1000,
+   "period_end": "2026-10-14",
+   "today_use": 70,
+   "daily_use": 31,
+   "daily_basis": "近 7 天實際",
+   "days_to_reset": 9,
+   "need_until_reset": 279
+  },
+  "tier": {
+   "tier": "🟢 充裕",
+   "budget": 46,
+   "remaining": 434,
+   "period_end": "2026-10-14",
+   "days_to_reset": 9,
+   "reserve": 20,
+   "note": "全開",
+   "lists_spent": 8,
+   "article_limit": 22
+  },
+  "sources": {
+   "total": 103,
+   "failed_today": [
+    "Kalamba Games",
+    "SunStar",
+    "Korea Casino Association"
+   ],
+   "streak_3d": [
+    "Kalamba Games"
+   ]
+  },
+  "candidates": {
+   "today": 49,
+   "median_same_type": 79,
+   "basis_days": 3,
+   "type": "週末窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 2,
+   "fixes": 1
+  }
+ }
+}

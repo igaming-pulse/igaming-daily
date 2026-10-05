@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-05",
+ "md": "state/2026-10-05-igaming-report.md",
+ "html": "reports/2026-10-05.html",
+ "items": 15,
+ "counts": {
+  "cat1": 5,
+  "cat3": 5,
+  "cat4": 2,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 29,
+  "ok": 27,
+  "broken": 0,
+  "blocked": 2,
+  "images_dropped": 0
+ },
+ "errors": [],
+ "warnings": [
+  "cat5-02 NagaCorp 前三季 GGR 衰退 21.5｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/05/nagacorp-ggr-down-21-5-to-us418-million-in-first-nine-months-of-2026-as-vip-woes-accelerate-in-september-quarter/",
+  "cat5-03 澳門黃金週首四日訪客逾 75 萬人次，內地旅客年｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/05/macau-sees-strong-golden-week-visitation-with-750000-arrivals-across-first-four-days-of-holiday/"
+ ],
+ "fixes": [
+  "文末｜資料來源數 28 → 24（程式依來源連結去重計算）"
+ ]
+}

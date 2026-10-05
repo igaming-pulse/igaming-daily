@@ -39,21 +39,6 @@
   },
   {
    "cat": "cat1",
-   "title": "Fortune City Hold & Winv",
-   "gp": "Million Games",
-   "b": 1,
-   "first_seen": "2026-09-30",
-   "sources": [
-    {
-     "name": "Gaming International Online",
-     "url": "https://gaminginternational.online/million-games-launches-fortune-city-hold-winv/",
-     "published": "2026-09-29 21:07"
-    }
-   ],
-   "key": "fortunecityholdwinv|milliongames"
-  },
-  {
-   "cat": "cat1",
    "title": "Dead Man's Crew",
    "gp": "Slotmill",
    "b": 1,
@@ -114,21 +99,6 @@
   },
   {
    "cat": "cat1",
-   "title": "Gates of Hercules 10,000",
-   "gp": "Booming Games",
-   "b": 1,
-   "first_seen": "2026-10-02",
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/10/01/52964/booming-games-launches-gates-hercules-10-000-slot/",
-     "published": "2026-10-01"
-    }
-   ],
-   "key": "gatesofhercules10000|boominggames"
-  },
-  {
-   "cat": "cat1",
    "title": "Pots of Power: Dragon's Blessing",
    "gp": "AvatarUX",
    "b": 1,
@@ -141,54 +111,24 @@
     }
    ],
    "key": "potsofpowerdragonsblessing|avatarux"
+  },
+  {
+   "cat": "cat1",
+   "title": "Diamond Tornado",
+   "gp": "Swintt",
+   "b": 1,
+   "first_seen": "2026-10-05",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/09/28/52872/swintt-releases-diamond-tornado-slot-with-progressive-multipliers-and-local-jackpots",
+     "published": "2026-09-28 07:29"
+    }
+   ],
+   "key": "diamondtornado|swintt"
   }
  ],
  "others": [
-  {
-   "cat": "cat2",
-   "title": "E-Play24 Tipster Poker Night（10/4，10萬歐元保證獎池）",
-   "gp": "E-Play24",
-   "b": 1,
-   "first_seen": "2026-10-01",
-   "sources": [
-    {
-     "name": "AGIMEG",
-     "url": "https://www.agimeg.it/eplay24-domenica-4-ottobre-tipster-poker-night-montepremi/",
-     "published": "2026-09-30 22:55"
-    }
-   ],
-   "key": "eplay24tipsterpokernight10410萬歐元保證獎池|eplay24"
-  },
-  {
-   "cat": "cat3",
-   "title": "Aristocrat Gaming 獲 2026 Global Gaming Awards Americas 三項大獎",
-   "gp": "Aristocrat",
-   "b": 4,
-   "first_seen": "2026-10-01",
-   "sources": [
-    {
-     "name": "Yogonet International",
-     "url": "https://www.yogonet.com/international/news/2026/09/30/126619-aristocrat-gaming-wins-three-global-gaming-awards-americas-honours",
-     "published": "2026-09-30 15:24"
-    }
-   ],
-   "key": "aristocratgaming獲2026globalgamingawardsamericas三項大獎|aristocrat"
-  },
-  {
-   "cat": "cat5",
-   "title": "報導：Kalshi 洽談以 400 億美元估值募資 10 億美元",
-   "gp": "Kalshi",
-   "b": 1,
-   "first_seen": "2026-10-01",
-   "sources": [
-    {
-     "name": "EGR Intel",
-     "url": "https://www.egr.global/intel/news/report-kalshi-in-talks-to-raise-1bn-at-40bn-valuation/",
-     "published": "2026-09-30 19:49"
-    }
-   ],
-   "key": "報導kalshi洽談以400億美元估值募資10億美元|kalshi"
-  },
   {
    "cat": "cat3",
    "title": "Brazil seeks blocking of 5,209 betting domains after nationwide ban",
@@ -305,6 +245,36 @@
    ],
    "first_seen": "2026-10-04",
    "key": "jejudreamtower9月訪客創新高但賭場營收下滑|jejudreamtower"
+  },
+  {
+   "cat": "cat3",
+   "title": "SBC Awards 2026 winners crowned at MEO Arena in Lisbon",
+   "gp": "",
+   "b": 0,
+   "first_seen": "2026-10-05",
+   "sources": [
+    {
+     "name": "AGB",
+     "url": "https://agbrief.com/news/europe/04/10/2026/sbc-awards-2026-winners-crowned-at-meo-arena-in-lisbon/",
+     "published": "2026-10-04 22:24"
+    }
+   ],
+   "key": "sbcawards2026winnerscrownedatmeoarenainlisbon|"
+  },
+  {
+   "cat": "cat5",
+   "title": "After Casino – What's Next In iGaming",
+   "gp": "",
+   "b": 0,
+   "first_seen": "2026-10-05",
+   "sources": [
+    {
+     "name": "Business of iGaming",
+     "url": "https://www.businessofigaming.com/after-casino-whats-next-igaming/",
+     "published": "2026-10-04 13:22"
+    }
+   ],
+   "key": "aftercasinowhatsnextinigaming|"
   }
  ],
  "history": [
@@ -1490,6 +1460,111 @@
    "cat": "cat5",
    "title": "QCI 於 G2E 2026 推出 AI 驅動的賭場營收預測工具",
    "gp": "Quick Custom Intelligence"
+  },
+  {
+   "key": "moneytrain5|relaxgaming",
+   "date": "2026-10-05",
+   "cat": "cat1",
+   "title": "Money Train 5",
+   "gp": "Relax Gaming"
+  },
+  {
+   "key": "houseofthedragon|blueprintgaming",
+   "date": "2026-10-05",
+   "cat": "cat1",
+   "title": "House of the Dragon",
+   "gp": "Blueprint Gaming"
+  },
+  {
+   "key": "fortunecityholdwin|milliongames",
+   "date": "2026-10-05",
+   "cat": "cat1",
+   "title": "Fortune City Hold & Win",
+   "gp": "Million Games"
+  },
+  {
+   "key": "gatesofhercules10000|boominggames",
+   "date": "2026-10-05",
+   "cat": "cat1",
+   "title": "Gates of Hercules 10,000",
+   "gp": "Booming Games"
+  },
+  {
+   "key": "cherrycherrybaby|amusnet",
+   "date": "2026-10-05",
+   "cat": "cat1",
+   "title": "Cherry Cherry Baby",
+   "gp": "Amusnet"
+  },
+  {
+   "key": "nevada檢察官反對kalshi延後聽證案|kalshi",
+   "date": "2026-10-05",
+   "cat": "cat3",
+   "title": "Nevada 檢察官反對 Kalshi 延後聽證案",
+   "gp": "Kalshi"
+  },
+  {
+   "key": "荷蘭業界協會vnlok控告meta非法博彩廣告|meta",
+   "date": "2026-10-05",
+   "cat": "cat3",
+   "title": "荷蘭業界協會 VNLOK 控告 Meta 非法博彩廣告",
+   "gp": "Meta"
+  },
+  {
+   "key": "千里達及托巴哥通過遠端博彩新法|",
+   "date": "2026-10-05",
+   "cat": "cat3",
+   "title": "千里達及托巴哥通過遠端博彩新法",
+   "gp": ""
+  },
+  {
+   "key": "巴西加碼封鎖逾萬個博彩網站|",
+   "date": "2026-10-05",
+   "cat": "cat3",
+   "title": "巴西加碼封鎖逾萬個博彩網站",
+   "gp": ""
+  },
+  {
+   "key": "加拿大亞伯達省取締無牌線上博彩|",
+   "date": "2026-10-05",
+   "cat": "cat3",
+   "title": "加拿大亞伯達省取締無牌線上博彩",
+   "gp": ""
+  },
+  {
+   "key": "casinoplus攜手petersons合作|casinoplus",
+   "date": "2026-10-05",
+   "cat": "cat4",
+   "title": "Casino Plus 攜手 Peter & Sons 合作",
+   "gp": "Casino Plus"
+  },
+  {
+   "key": "digiplus基金會賑濟呂宋風災災民|digiplus",
+   "date": "2026-10-05",
+   "cat": "cat4",
+   "title": "DigiPlus 基金會賑濟呂宋風災災民",
+   "gp": "DigiPlus"
+  },
+  {
+   "key": "巴西運彩禁令衝擊奧運帕運經費|",
+   "date": "2026-10-05",
+   "cat": "cat5",
+   "title": "巴西運彩禁令衝擊奧運／帕運經費",
+   "gp": ""
+  },
+  {
+   "key": "nagacorp前三季ggr衰退215|nagacorp",
+   "date": "2026-10-05",
+   "cat": "cat5",
+   "title": "NagaCorp 前三季 GGR 衰退 21.5%",
+   "gp": "NagaCorp"
+  },
+  {
+   "key": "澳門黃金週首四日訪客逾75萬人次|",
+   "date": "2026-10-05",
+   "cat": "cat5",
+   "title": "澳門黃金週首四日訪客逾 75 萬人次",
+   "gp": ""
   }
  ],
  "rejected": [
