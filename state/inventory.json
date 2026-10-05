@@ -126,84 +126,44 @@
     }
    ],
    "key": "diamondtornado|swintt"
+  },
+  {
+   "cat": "cat1",
+   "title": "25 Coins x3000 (Cointober)",
+   "gp": "Wazdan",
+   "b": 4,
+   "first_seen": "2026-10-01",
+   "sources": [
+    {
+     "name": "Yogonet International",
+     "url": "https://www.yogonet.com/international/news/2026/10/05/126668-wazdan-launches-cointober-campaign-to-highlight-popular-coins-series-titles",
+     "published": "2026-10-05 21:46"
+    },
+    {
+     "name": "European Gaming",
+     "url": "https://europeangaming.eu/portal/press-releases/2026/10/01/215166/wazdan-25-coins-x3000-slots/",
+     "published": "2026-10-01"
+    }
+   ],
+   "key": "25coinsx3000cointober|wazdan"
+  },
+  {
+   "cat": "cat1",
+   "title": "Witchcraft Riches",
+   "gp": "BGaming",
+   "b": 3,
+   "first_seen": "2026-10-02",
+   "sources": [
+    {
+     "name": "BigWinBoard",
+     "url": "https://www.bigwinboard.com/witchcraft-riches-bgaming-slot-review-demo/",
+     "published": "2026-10-02 09:40"
+    }
+   ],
+   "key": "witchcraftriches|bgaming"
   }
  ],
  "others": [
-  {
-   "cat": "cat3",
-   "title": "Brazil seeks blocking of 5,209 betting domains after nationwide ban",
-   "gp": "Brazil / G3 Newswire",
-   "b": 0,
-   "first_seen": "2026-10-02",
-   "sources": [
-    {
-     "name": "G3 Newswire",
-     "url": "https://g3newswire.com/brazil-seeks-blocking-of-5209-betting-domains-after-nationwide-ban/",
-     "published": "2026-10-01"
-    }
-   ],
-   "key": "brazilseeksblockingof5209bettingdomainsafternationwideban|brazilg3newswire"
-  },
-  {
-   "cat": "cat4",
-   "title": "PAGCOR calls for expansion of MICE facilities to drive growth of Philippine tourism industry",
-   "gp": "PAGCOR",
-   "b": 1,
-   "first_seen": "2026-10-02",
-   "sources": [
-    {
-     "name": "Inside Asian Gaming",
-     "url": "https://asgam.com/2026/10/01/pagcor-calls-for-expansion-of-mice-facilities-to-drive-growth-of-philippine-tourism-industry/",
-     "published": "2026-10-01"
-    }
-   ],
-   "key": "pagcorcallsforexpansionofmicefacilitiestodrivegrowthofphilippinetourismindustry|pagcor"
-  },
-  {
-   "cat": "cat5",
-   "title": "New study finds AI assistants wrongly label unlicensed casinos as KSA-approved",
-   "gp": "iGaming Business",
-   "b": 0,
-   "first_seen": "2026-10-02",
-   "sources": [
-    {
-     "name": "iGaming Business",
-     "url": "https://igamingbusiness.com/tech-innovation/ai-assistants-unlicensed-casinos-as-ksa-approved/",
-     "published": "2026-10-01"
-    }
-   ],
-   "key": "newstudyfindsaiassistantswronglylabelunlicensedcasinosasksaapproved|igamingbusiness"
-  },
-  {
-   "cat": "cat3",
-   "title": "Taylor officially takes the reins at Flutter as Jackson signs off",
-   "gp": "Flutter",
-   "b": 1,
-   "first_seen": "2026-10-02",
-   "sources": [
-    {
-     "name": "EGR Intel",
-     "url": "https://www.egr.global/intel/news/taylor-officially-takes-the-reins-at-flutter-as-jackson-signs-off/",
-     "published": "2026-10-02 18:48"
-    }
-   ],
-   "key": "taylorofficiallytakesthereinsatflutterasjacksonsignsoff|flutter"
-  },
-  {
-   "cat": "cat5",
-   "title": "Colorado casinos earn $104 million in August gaming revenue",
-   "gp": "",
-   "b": 0,
-   "first_seen": "2026-10-02",
-   "sources": [
-    {
-     "name": "Gaming Intelligence",
-     "url": "https://www.gamingintelligence.com/finance/236722-colorado-casinos-earn-104-million-in-august-gaming-revenue/",
-     "published": "2026-10-02 16:33"
-    }
-   ],
-   "key": "coloradocasinosearn104millioninaugustgamingrevenue|"
-  },
   {
    "cat": "cat3",
    "title": "UK gaming machines face mandatory breaks and loss limits",
@@ -275,6 +235,56 @@
     }
    ],
    "key": "aftercasinowhatsnextinigaming|"
+  },
+  {
+   "cat": "cat2",
+   "title": "Norway online poker 監理諮詢，恐成商業化契機",
+   "gp": "挪威博彩局",
+   "b": 1,
+   "first_seen": "2026-10-05",
+   "sources": [
+    {
+     "name": "iGaming Expert",
+     "url": "https://igamingexpert.com/news/games/norway-online-poker-consultation/",
+     "published": "2026-10-05 21:04"
+    }
+   ],
+   "key": "norwayonlinepoker監理諮詢恐成商業化契機|挪威博彩局"
+  },
+  {
+   "cat": "cat3",
+   "title": "SBC Summit 與里斯本續約至 2030 年",
+   "gp": "SBC Summit",
+   "b": 1,
+   "first_seen": "2026-10-05",
+   "sources": [
+    {
+     "name": "Yogonet International",
+     "url": "https://www.yogonet.com/international/news/2026/10/05/126684-sbc-extends-lisbon-hosting-deal-for-flagship-summit-through-2030",
+     "published": "2026-10-05 01:34"
+    },
+    {
+     "name": "SBC Americas",
+     "url": "https://sbcamericas.com/2026/10/05/sbc-summit-agreement-lisbon-2030/",
+     "published": "2026-10-05 21:00"
+    }
+   ],
+   "key": "sbcsummit與里斯本續約至2030年|sbcsummit"
+  },
+  {
+   "cat": "cat5",
+   "title": "LatAm 2026：巴西、墨西哥、智利玩家偏好調查",
+   "gp": "Focus Gaming News",
+   "b": 1,
+   "first_seen": "2026-10-05",
+   "sources": [
+    {
+     "name": "Focus Gaming News",
+     "url": "https://focusgn.com/latam-2026-a-closer-look-at-gaming-preferences-in-brazil-mexico-and-chile",
+     "published": "2026-10-06 01:07"
+    }
+   ],
+   "key": "latam2026巴西墨西哥智利玩家偏好調查|focusgamingnews"
   }
  ],
  "history": [
@@ -1565,6 +1575,118 @@
    "cat": "cat5",
    "title": "澳門黃金週首四日訪客逾 75 萬人次",
    "gp": ""
+  },
+  {
+   "key": "turbogolddeluxegigablox|yggdrasil",
+   "date": "2026-10-06",
+   "cat": "cat1",
+   "title": "Turbo Gold Deluxe GigaBlox",
+   "gp": "Yggdrasil"
+  },
+  {
+   "key": "threepotsofthegenie|playngo",
+   "date": "2026-10-06",
+   "cat": "cat1",
+   "title": "Three Pots of the Genie",
+   "gp": "Play'n GO"
+  },
+  {
+   "key": "3wildtroopers|spinomenal",
+   "date": "2026-10-06",
+   "cat": "cat1",
+   "title": "3 Wild Troopers",
+   "gp": "Spinomenal"
+  },
+  {
+   "key": "thorcandystorm3000|tomhorngaming",
+   "date": "2026-10-06",
+   "cat": "cat1",
+   "title": "Thor Candy Storm 3000",
+   "gp": "Tom Horn Gaming"
+  },
+  {
+   "key": "playdoitqtech深化內容整合|playdoitqtech",
+   "date": "2026-10-06",
+   "cat": "cat2",
+   "title": "Playdoit×QTech 深化內容整合",
+   "gp": "Playdoit/QTech"
+  },
+  {
+   "key": "creedroomz攜手pasinoch進軍瑞士|creedroomz",
+   "date": "2026-10-06",
+   "cat": "cat2",
+   "title": "CreedRoomz 攜手 Pasino.ch 進軍瑞士",
+   "gp": "CreedRoomz"
+  },
+  {
+   "key": "tadagaming攜手777be深耕比利時市場|tadagaming",
+   "date": "2026-10-06",
+   "cat": "cat3",
+   "title": "TaDa Gaming 攜手 777.be 深耕比利時市場",
+   "gp": "TaDa Gaming"
+  },
+  {
+   "key": "izigroup財報年營收首度突破10億歐元|izigroup",
+   "date": "2026-10-06",
+   "cat": "cat3",
+   "title": "IZI Group 財報：年營收首度突破 10 億歐元",
+   "gp": "IZI Group"
+  },
+  {
+   "key": "aristocrat連8年奪class3實體供應商年度大獎|aristocrat",
+   "date": "2026-10-06",
+   "cat": "cat3",
+   "title": "Aristocrat 連 8 年奪 Class 3 實體供應商年度大獎",
+   "gp": "Aristocrat"
+  },
+  {
+   "key": "巴西博彩業者於甲級聯賽場邊廣告看板抗議禁令|anjlibjr",
+   "date": "2026-10-06",
+   "cat": "cat3",
+   "title": "巴西博彩業者於甲級聯賽場邊廣告看板抗議禁令",
+   "gp": "ANJL/IBJR"
+  },
+  {
+   "key": "jumpmangaming勝訴1320萬英鎊免費旋轉稅單撤銷|jumpmangaming",
+   "date": "2026-10-06",
+   "cat": "cat3",
+   "title": "Jumpman Gaming 勝訴，1,320 萬英鎊免費旋轉稅單撤銷",
+   "gp": "Jumpman Gaming"
+  },
+  {
+   "key": "maybank下修digiplus獲利預估|digiplus",
+   "date": "2026-10-06",
+   "cat": "cat4",
+   "title": "Maybank 下修 DigiPlus 獲利預估",
+   "gp": "DigiPlus"
+  },
+  {
+   "key": "菲律賓年度最大規模pogo掃蕩|pagcorbi",
+   "date": "2026-10-06",
+   "cat": "cat4",
+   "title": "菲律賓年度最大規模 POGO 掃蕩",
+   "gp": "PAGCOR/BI"
+  },
+  {
+   "key": "gamesglobal十月排程20多款新作|gamesglobal",
+   "date": "2026-10-06",
+   "cat": "cat5",
+   "title": "Games Global 十月排程 20 多款新作",
+   "gp": "Games Global"
+  },
+  {
+   "key": "澳門十一黃金週首四日訪客突破75萬人次|澳門治安警察局",
+   "date": "2026-10-06",
+   "cat": "cat5",
+   "title": "澳門十一黃金週首四日訪客突破 75 萬人次",
+   "gp": "澳門治安警察局"
+  },
+  {
+   "key": "ballys取得4億美元融資推進布朗克斯賭場案|ballyscorporation",
+   "date": "2026-10-06",
+   "cat": "cat5",
+   "title": "Bally's 取得 4 億美元融資，推進布朗克斯賭場案",
+   "gp": "Bally's Corporation"
   }
  ],
  "rejected": [

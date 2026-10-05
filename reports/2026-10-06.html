@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="render_report.py v6.5（三層收集＋庫存＋定稿檢查）">
+<title>iGaming 市場日報 2026-10-06</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../icon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../icon-16.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<style>
+  :root{
+    --bg:#F5F7FA; --card:#ffffff; --line:#E7EBF0; --ink:#1A2230; --sub:#5B6675;
+    --c1:#1D9E75; --c1bg:#E1F5EE; --c1txt:#0F6E56;
+    --c2:#B31217; --c2bg:#FBE3E4; --c2txt:#8A1015;
+    --c3:#378ADD; --c3bg:#E6F1FB; --c3txt:#185FA5;
+    --c4:#D97706; --c4bg:#FBF0DD; --c4txt:#8A5206;
+    --c5:#8B5CF6; --c5bg:#EEE9FC; --c5txt:#5B3FA6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.7}
+  .wrap{max-width:860px;margin:0 auto;padding:28px 16px 60px}
+  header{text-align:center;margin-bottom:22px}
+  header h1{font-size:26px;margin:6px 0 4px}
+  header .date{color:var(--sub);font-size:14px}
+  .badges{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:14px 0}
+  .badge{font-size:12px;font-weight:700;padding:5px 12px;border-radius:999px}
+  .b1{background:var(--c1bg);color:var(--c1txt)}
+  .b2{background:var(--c2bg);color:var(--c2txt)}
+  .b3{background:var(--c3bg);color:var(--c3txt)}
+  .b4{background:var(--c4bg);color:var(--c4txt)}
+  .b5{background:var(--c5bg);color:var(--c5txt)}
+  .stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:20px 0 32px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 10px;text-align:center}
+  .stat .n{font-size:22px;font-weight:800}
+  .stat .l{font-size:12px;color:var(--sub);margin-top:2px}
+  .stat.s1 .n{color:var(--c1)} .stat.s2 .n{color:var(--c2)} .stat.s3 .n{color:var(--c3)} .stat.s4 .n{color:var(--c4)} .stat.s5 .n{color:var(--c5)}
+  section{margin-bottom:36px}
+  .sec-title{display:flex;align-items:center;gap:10px;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid var(--line)}
+  .sec-title .emoji{font-size:1.5em}
+  .sec-title h2{font-size:28px;margin:0}
+  .sec-title .cnt{font-size:13px;color:var(--sub);font-weight:600}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px;position:relative;border-left:6px solid transparent}
+  .card.c1{border-left-color:var(--c1)} .card.c2{border-left-color:var(--c2)} .card.c3{border-left-color:var(--c3)} .card.c4{border-left-color:var(--c4)} .card.c5{border-left-color:var(--c5)}
+  .no{display:inline-block;font-size:12px;font-weight:800;color:#fff;background:var(--ink);border-radius:6px;padding:2px 8px;margin-bottom:8px}
+  .c1 .no{background:var(--c1)} .c2 .no{background:var(--c2)} .c3 .no{background:var(--c3)} .c4 .no{background:var(--c4)} .c5 .no{background:var(--c5)}
+  h3{font-size:17px;margin:4px 0 10px;line-height:1.5}
+  p{font-size:14.5px;margin:0 0 10px;color:#2A3342}
+  .derive{font-size:13px;color:#7a4d0b;background:#FBF3E4;border:1px solid #F0E2C6;border-radius:8px;padding:9px 12px;margin-bottom:10px}
+  .derive b{color:#9a6209;margin-right:6px}
+  .spec{background:#F2F6F4;border:1px solid #E1EAE6;border-radius:8px;padding:10px 12px;margin-bottom:10px;font-size:12.5px}
+  .spec .row{display:flex;gap:10px;padding:3px 0;border-bottom:1px dashed #E1EAE6}
+  .spec .row:last-child{border-bottom:none}
+  .spec .k{flex:0 0 82px;font-weight:700;color:#0F6E56}
+  .keyrow{display:flex;flex-wrap:wrap;gap:14px;background:#F4F8FC;border:1px solid #DCE8F4;border-radius:8px;padding:9px 12px;margin-bottom:10px;font-size:12.5px}
+  .keyrow b{color:#185FA5;margin-right:5px}
+  .c4 .keyrow b{color:#8A5206}
+  .verify{font-size:12.5px;color:#334155;background:#F3F4F6;border:1px solid #E5E7EB;border-radius:8px;padding:8px 12px;margin-bottom:10px;line-height:1.6}
+  .verify::before{content:"🔎 "}
+  .tags{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:11px}
+  a.src{font-weight:600;color:var(--sub);text-decoration:none}
+  a.src:hover{text-decoration:underline}
+  .hero{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;margin-top:10px;display:block;background:#eee}
+  .stats-line{max-width:860px;margin:26px auto 0;text-align:center;font-size:13.5px;color:#1A2230;line-height:1.8}
+  .stats-line b{color:#B31217;font-weight:800}
+  footer{text-align:center;margin-top:30px;color:var(--sub);font-size:12px}
+  @media(max-width:600px){.sec-title h2{font-size:22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="date">2026-10-06（星期二）・台北時間</div>
+  <h1>🎰 iGaming 市場日報</h1>
+  <div class="badges">
+    <span class="badge b1">🎰 Slot 4</span>
+    <span class="badge b2">🕹️ 非 Slot 2</span>
+    <span class="badge b3">🤝 主流 5</span>
+    <span class="badge b4">🇵🇭 菲律賓 2</span>
+    <span class="badge b5">📊 市場數據 3</span>
+  </div>
+</header>
+
+<div class="stats-grid">
+  <div class="stat s1"><div class="n">4</div><div class="l">🎰 Slot 新遊戲</div></div>
+  <div class="stat s2"><div class="n">2</div><div class="l">🕹️ 非 Slot 新內容</div></div>
+  <div class="stat s3"><div class="n">5</div><div class="l">🤝 主流動態</div></div>
+  <div class="stat s4"><div class="n">2</div><div class="l">🇵🇭 菲律賓</div></div>
+  <div class="stat s5"><div class="n">3</div><div class="l">📊 市場數據</div></div>
+</div>
+
+<section>
+  <div class="sec-title"><span class="emoji">🎰</span><h2>Game Provider 新遊戲</h2><span class="cnt">共 4 則</span></div>
+  <div class="card c1">
+    <div class="no">01</div>
+    <h3>Turbo Gold Deluxe GigaBlox – Yggdrasil</h3>
+    <p>Yggdrasil 推出復古水果盤新作「Turbo Gold Deluxe GigaBlox」，以霓虹色調的櫻桃、七七、鈴鐺等經典符號搭配招牌 GigaBlox 大符機制，確保基本遊戲與 Free Spins 中每次轉動至少出現一個放大符號；Free Spins 期間並有 Wild 倍增符號、可累積的額外免費遊戲次數，以及把低階符號升級的 Upgrade 符號，最高可贏得押注的 10,000 倍（上限 €2,000,000）。Yggdrasil 表示經典玩法正在回流，此作鎖定想要簡單易懂、同時仍有現代機制加持的玩家。對 PM 的意義：經典水果盤+大符機制的組合成本低、轉化率穩定，適合作為主流市場的常態補位款。</p>
+    <div class="derive"><b>衍生調整</b>延續 Yggdrasil 既有 Gold 系列水果盤外觀，新套用 GigaBlox 大符與 Upgrade 符號機制，屬既有系列的機制升級版。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span>線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span>6×4，4,096 ways</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span>GigaBlox 大符機制＋Ways to Win</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>10,000x（上限 €2,000,000）</span></div>
+      <div class="row"><span class="k">RTP</span><span>96%（營運商可選配 94%／92%／90.5%）</span></div>
+      <div class="row"><span class="k">波動</span><span>高</span></div>
+      <div class="row"><span class="k">目標市場</span><span>沒有明確單一市場（全球鋪貨）</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>GigaBlox 保證大符＋Free Spins Wild 倍增與符號升級</span></div>
+    </div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://gaminginternational.online/turbo-gold-deluxe-gigablox-by-yggdrasil-powers-up-the-reels/" target="_blank" rel="noopener">Gaming International Online ↗</a>
+      <a class="src" href="https://igamingbusiness.com/company-news/turbo-gold-deluxe-gigablox-by-yggdrasil-powers-up-the-reels-with-oversized-symbols/" target="_blank" rel="noopener">iGB ↗</a>
+      <a class="src" href="https://slotbeats.com/latest-slots/turbo-gold-deluxe-gigablox-yggdrasil/" target="_blank" rel="noopener">SlotBeats ↗</a>
+      · 2026-10-05
+    </div>
+    <img class="hero" src="https://gaminginternational.online/wp-content/uploads/image-34.png" alt="Turbo Gold Deluxe GigaBlox" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c1">
+    <div class="no">02</div>
+    <h3>Three Pots of the Genie – Play'n GO</h3>
+    <p>Play'n GO 發布「Three Pots of the Genie」，六轉軸、4,096 ways 新作延伸自品牌招牌的 Lock'n Gold 收集引擎，加入藍、紅、紫三種顏色的罐子機制：藍罐加倍已選中的硬幣值、紅罐讓選中硬幣值隨每次重轉持續增加、紫罐則在填滿面板後揭露即時獎勵。只要在基本遊戲中出現一個以上的寶石 Scatter，就有機會同時觸發一種、兩種或三種罐子效果疊加。官方表示此作延續「罐子＋精靈」配方並進一步擴充玩法層次。對 PM 的意義：Lock'n Gold 系列是 Play'n GO 最穩定的現金流品項之一，三罐疊加的設計可拉長單局節奏、提升黏著度。</p>
+    <div class="derive"><b>衍生調整</b>延伸自既有 Pots 收集機制 IP，新增三種顏色罐子可疊加觸發於 Lock'n Gold 之上，較前作機制更複雜。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span>線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span>6 轉軸，4,096 ways</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span>Lock'n Gold 硬幣收集＋三色罐子加碼</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>10,000x</span></div>
+      <div class="row"><span class="k">RTP</span><span>96.2%</span></div>
+      <div class="row"><span class="k">波動</span><span>高</span></div>
+      <div class="row"><span class="k">目標市場</span><span>沒有明確單一市場（全球鋪貨）</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>藍/紅/紫三罐可疊加觸發，分別加倍、累增、即時開獎</span></div>
+    </div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://www.yogonet.com/international/news/2026/10/05/126637-new-play-39n-go-slot-three-pots-of-the-genie-combines-three-pot-bonuses-within-lock-39n-gold-round" target="_blank" rel="noopener">Yogonet International ↗</a>
+      <a class="src" href="https://www.vegasslotsonline.com/news/2026/09/30/playn-go-doubles-down-on-pots-and-genie-formula-with-three-pots-of-the-genie/" target="_blank" rel="noopener">VegasSlotsOnline ↗</a>
+      <a class="src" href="https://www.igamingtoday.com/three-pots-of-the-genie-slot-review/" target="_blank" rel="noopener">iGamingToday ↗</a>
+      · 2026-10-05
+    </div>
+    <img class="hero" src="https://imagenesyogonet.b-cdn.net/data/imagenes/2026/09/30/91705/1790774239-play-n-go-three-pots-of-the-genie.jpg" alt="Three Pots of the Genie" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c1">
+    <div class="no">03</div>
+    <h3>3 Wild Troopers – Spinomenal</h3>
+    <p>Spinomenal 推出沙漠軍事主題新作「3 Wild Troopers」，Grand Jackpot 封頂 3,000 倍押注，五個 Wild 連線最高可派彩押注的 10 倍。遊戲設計了鎖定機制：觸發符號鎖定畫面後給予三次重轉，期間只有 Bonus 與 Special Bonus 符號能夠落下；BOOST 功能會隨機選出 2–10 倍的加成值疊加到畫面所有符號上，Bonus Blast 功能則可能在收集到足夠 Special Bonus 符號後於基本遊戲中隨機觸發。對 PM 的意義：鎖定＋隨機加成的雙層機制提供了比傳統 Free Spins 更頻繁的小高潮節奏，適合搭配促銷活動操作。</p>
+    <div class="derive"><b>衍生調整</b>全新主題與角色設定，核心鎖定＋隨機加成機制沿用 Spinomenal 近期作品路線，非既有 IP 直接衍生。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span>線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span>未公布（已查 SlotCatalog／官網／媒體內頁仍無盤面規格）</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span>符號鎖定重轉＋BOOST 隨機加成＋Bonus Blast</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>3,000x（Grand Jackpot）</span></div>
+      <div class="row"><span class="k">RTP</span><span>未公布（已查 SlotCatalog／官網／媒體內頁仍無）</span></div>
+      <div class="row"><span class="k">波動</span><span>高</span></div>
+      <div class="row"><span class="k">目標市場</span><span>沒有明確單一市場（全球鋪貨）</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>三重轉鎖定機制＋BOOST 隨機倍增＋Bonus Blast 隨機觸發</span></div>
+    </div>
+    <div class="verify">RTP 與盤面規格 SlotCatalog 尚未收錄，暫以官方與媒體稿內容為準。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://eegaming.org/latest-news/2026/10/05/52984/spinomenal-deploys-its-bomb-squad-with-3-wild-troopers/" target="_blank" rel="noopener">EEGaming ↗</a>
+      <a class="src" href="https://igamingfuture.com/spinomenal-deploys-its-bomb-squad-with-3-wild-troopers/" target="_blank" rel="noopener">iGaming Future ↗</a>
+      · 2026-10-05
+    </div>
+    <img class="hero" src="https://eegaming.org/api/eeg/social-image/55547.jpg" alt="3 Wild Troopers" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c1">
+    <div class="no">04</div>
+    <h3>🆕 新作預告（10/8 上線）Thor Candy Storm 3000 – Tom Horn Gaming</h3>
+    <p>Tom Horn Gaming 預告將於 10 月 8 日推出「Thor Candy Storm 3000」，把北歐神話阿斯嘉特世界觀套上糖果色彩外衣，6×5 Scatter Pays 盤面採用品牌招牌 BlastX 機制：中獎符號會從畫面炸開、騰出空間讓新符號落下以延續連鎖贏分。Super Free Spins 模式下倍增係數從 10 倍起跳，並提供 Free Spins Booster 提高觸發機率，以及可直接買進 Free Spins 或 Super Free Spins 的 Bonus Buy。官方表示此作最高派彩可達 13,900 倍押注，執行長 Ondrej Lapides 強調遊戲步調明快、容易上手。對 PM 的意義：神話題材＋高倍率在歐洲市場仍是穩定吸客主題，上線前的預告有助於營運商提前排入促銷排程。</p>
+    <div class="derive"><b>衍生調整</b>延續 BlastX 連鎖機制的糖果風格系列，首次結合北歐神話阿斯嘉特世界觀與雷神主題。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span>線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span>6×5，Scatter Pays</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span>BlastX 連鎖炸裂機制</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>3,000x（官方另註最高派彩 13,900x）</span></div>
+      <div class="row"><span class="k">RTP</span><span>未公布（已查 SlotCatalog／官網／媒體內頁仍無）</span></div>
+      <div class="row"><span class="k">波動</span><span>高</span></div>
+      <div class="row"><span class="k">目標市場</span><span>歐洲市場</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>BlastX 連鎖機制＋Super Free Spins 倍增起跳 10x＋Free Spins Booster／Bonus Buy</span></div>
+    </div>
+    <div class="verify">RTP 尚未公布，官方與媒體稿僅揭露倍率與機制；上線日 10/8 以官方稿為準。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://europeangaming.eu/portal/press-releases/2026/10/05/215354/tom-horn-gaming-thor-candy-storm-3000-slot/" target="_blank" rel="noopener">European Gaming ↗</a>
+      <a class="src" href="https://eegaming.org/latest-news/2026/10/05/52983/tom-horn-gaming-launches-thor-candy-storm-3000-with-3-000x-multipliers/" target="_blank" rel="noopener">EEGaming ↗</a>
+      · 2026-10-05
+    </div>
+    <img class="hero" src="https://media.europeangaming.eu/uploads/2026/10/Tom-Horn-Gaming-launches-Thor-Candy-Storm-3000-with-multipliers-up-to-3000x-1.jpg" alt="Thor Candy Storm 3000" loading="lazy" onerror="this.style.display='none'">
+  </div>
+</section>
+<section>
+  <div class="sec-title"><span class="emoji">🕹️</span><h2>非 Slot 新內容</h2><span class="cnt">共 2 則</span></div>
+  <div class="card c2">
+    <div class="no">01</div>
+    <h3>Playdoit × QTech 深化內容整合 – Playdoit／QTech</h3>
+    <p>墨西哥營運商 Playdoit 與內容聚合平台 QTech 宣布深化既有合作，透過 QTech 的單一整合介面擴充 Playdoit 的娛樂場內容陣容，重點加入 Crash 類遊戲等在拉美需求強勁的品類。雙方團隊在整合、產品開發、內容、技術支援與商務開發上共同投入，持續為 Playdoit 新增內容供應商。對 PM 的意義：墨西哥是拉美成長最快的受監管市場之一，聚合平台深化整合可快速補齊在地化內容缺口。</p>
+    <div class="derive"><b>衍生調整</b>屬既有 Playdoit×QTech 合作關係的擴充升級，非全新合作。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span>平台聚合（Crash／娛樂場內容整合）</span></div>
+      <div class="row"><span class="k">目標市場</span><span>墨西哥</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>QTech 聚合平台擴充 Playdoit 娛樂場內容陣容，聚焦 Crash 類遊戲</span></div>
+    </div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://eegaming.org/latest-news/2026/10/05/52981/playdoit-expands-mexico-casino-content-via-deeper-qtech-integration/" target="_blank" rel="noopener">EEGaming ↗</a>
+      <a class="src" href="https://igamingfuture.com/playdoit-qtech-partnership/" target="_blank" rel="noopener">iGaming Future ↗</a>
+      · 2026-10-05
+    </div>
+    <img class="hero" src="https://eegaming.org/api/eeg/social-image/55544.jpg" alt="Playdoit × QTech 深化內容整合" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c2">
+    <div class="no">02</div>
+    <h3>CreedRoomz 攜手 Pasino.ch 進軍瑞士 – CreedRoomz</h3>
+    <p>SoftConstruct 旗下真人娛樂場供應商 CreedRoomz 宣布與 Groupe Partouche 旗下 Pasino.ch 合作，將在瑞士上線真人撲克、輪盤與百家樂等真人遊戲，內容將由 CreedRoomz 自有攝影棚直播。合作預計在取得瑞士聯邦博彩委員會核准後於 2027 年第一季正式上線。對 PM 的意義：瑞士是歐洲少數仍在擴大真人娛樂場供給的受監管市場，對真人內容商而言是具指標性的新市場切入點。</p>
+    <div class="derive"><b>衍生調整</b>全新市場合作，CreedRoomz 既有真人內容產品線導入瑞士。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span>Live Game（真人娛樂場）</span></div>
+      <div class="row"><span class="k">目標市場</span><span>瑞士</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>真人撲克／輪盤／百家樂，CreedRoomz 自有攝影棚直播，預計 2027 Q1 上線</span></div>
+    </div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://www.gamingintelligence.com/sectors/online-gaming/236827-creedroomz-brings-live-casino-to-switzerland-with-pasino-partnership/" target="_blank" rel="noopener">Gaming Intelligence ↗</a>
+      <a class="src" href="https://igamingenquirer.com/creedroomz-expands-into-switzerland-through-pasino-ch-partnership/" target="_blank" rel="noopener">iGaming Enquirer ↗</a>
+      <a class="src" href="https://europeangaming.eu/portal/press-releases/2026/10/05/215265/creedroomz-groupe-partouche-pasino-switzerland/" target="_blank" rel="noopener">European Gaming ↗</a>
+      <a class="src" href="https://gaminginternational.online/creedroomz-brings-its-live-casino-to-switzerland-through-a-strategic-partnership-with-groupe-partouches-pasino-ch/" target="_blank" rel="noopener">Gaming International Online ↗</a>
+      · 2026-10-05
+    </div>
+    <img class="hero" src="https://www.gamingintelligence.com/wp-content/uploads/2026/10/CreedRoom_Pasino.jpg" alt="CreedRoomz 攜手 Pasino.ch 進軍瑞士" loading="lazy" onerror="this.style.display='none'">
+  </div>
+</section>
+<section>
+  <div class="sec-title"><span class="emoji">🤝</span><h2>動態：主流 GP／平台</h2><span class="cnt">共 5 則</span></div>
+  <div class="card c3">
+    <div class="no">01</div>
+    <h3>TaDa Gaming 攜手 777.be 深耕比利時市場</h3>
+    <p>TaDa Gaming 宣布與比利時博彩委員會持牌、Gaming1 集團旗下的指標性營運商 777.be 達成合作，讓 777.be 玩家可直接取得 TaDa 招牌的骰子機制 B+ Slot 陣容，包括 3 Lightning Blitz、Fortune Garuda 500、Gold Mine Express，以及 Hit the Cash 系列的 Joker Coins 2 Unlimited Fortune 與 Fortune Coins Unlimited Fortune。777.be 自 2011 年起於比利時經營，玩家基礎穩固。對 PM 的意義：比利時是歐洲少數成熟且高度監管的市場，取得指標營運商上架是 GP 打入當地的關鍵背書。</p>
+    <div class="keyrow"><b>類型</b>合作　<b>對象</b>TaDa Gaming、777.be（Gaming1 集團）　<b>影響</b>強化 TaDa Gaming 在比利時受監管市場的品牌能見度與內容滲透</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://focusgn.com/tada-gaming-777be-belgium" target="_blank" rel="noopener">Focus Gaming News ↗</a>
+      <a class="src" href="https://www.jamma.it/aziende/tada-gaming-rafforza-la-presenza-in-belgio-con-laccordo-con-777-be-359992" target="_blank" rel="noopener">JAMMA ↗</a>
+      · 2026-10-05
+    </div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">02</div>
+    <h3>IZI Group 財報：年營收首度突破 10 億歐元、獲利翻倍</h3>
+    <p>馬爾他博彩集團 IZI Group 公布 2026 財年（至 6 月底）財報，年營收達 11.72 億歐元，年增 27.4%，首度突破 10 億歐元門檻；稅前利潤約翻倍至 1,440 萬歐元，GGR 年增 18.3% 至 1.109 億歐元，EBITDA 利潤率自 30.8% 提升至 33.7%，營運現金流年增約 40% 至 3,970 萬歐元。成長主要由國家彩券（National Lottery plc）及集團娛樂場、互動博彩業務帶動，集團並向馬爾他政府繳納 4,180 萬歐元稅費。對 PM 的意義：歐洲中小型博彩集團財報持續改善，反映受監管市場在成本控管得宜下仍有健康成長空間。</p>
+    <div class="keyrow"><b>類型</b>財務　<b>對象</b>IZI Group（馬爾他）　<b>影響</b>顯示歐洲中型博彩集團獲利能力持續改善，EBITDA 利潤率同步提升</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://g3newswire.com/izi-group-turnover-passes-e1bn-as-profit-doubles/" target="_blank" rel="noopener">G3 Newswire ↗</a>
+      <a class="src" href="https://www.intergameonline.com/land-based-gaming/news/izigroup-expects-to-beat-2026-forecast-after-record-results" target="_blank" rel="noopener">Intergame Online ↗</a>
+      · 2026-10-05
+    </div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">03</div>
+    <h3>Aristocrat 連 8 年奪 Class 3 實體供應商年度大獎</h3>
+    <p>Aristocrat Gaming 在 Global Gaming Awards Americas 上同時奪下 Class 2、Class 3 年度實體供應商大獎，以及憑藉 MONOPOLY Big Board Bucks 獲得年度 Slot 大獎。這是 Aristocrat 連續第 8 年奪得 Class 3 年度供應商、連續第 2 年奪得 Class 2 年度供應商。執行長 Craig Toner 強調公司對提供創新遊戲體驗的長期投入。對 PM 的意義：實體老虎機三大廠的年度獎項是市場地位的重要風向球，Aristocrat 連年蟬聯顯示其在北美實體市場的供應鏈優勢穩固。</p>
+    <div class="keyrow"><b>類型</b>獲獎　<b>對象</b>Aristocrat Gaming　<b>影響</b>鞏固 Aristocrat 在北美實體老虎機供應鏈的龍頭地位</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://g3newswire.com/aristocrat-gaming-honoured-at-global-gaming-awards-americas-with-class-2-and-class-3-land-based-supplier-of-the-year-and-slot-of-the-year/" target="_blank" rel="noopener">G3 Newswire ↗</a>
+      <a class="src" href="https://www.aristocratgaming.com/us/press/2026/aristocrat-gaming-honored-at-global-gaming-awards-americas-with-class-2-and-class-3-land-based-supplier-of-the-year-and-slot-of-the-year" target="_blank" rel="noopener">Aristocrat Gaming 官網 ↗</a>
+      · 2026-10-05
+    </div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">04</div>
+    <h3>巴西博彩業者於甲級聯賽場邊廣告看板抗議禁令</h3>
+    <p>巴西「全國博彩與彩票協會」（ANJL）與「巴西負責任博彩協會」（IBJR）會員業者，在巴甲聯賽場邊廣告看板打出「禁止不等於保護」「禁令無法終結博彩」等標語，抗議魯拉總統於 9 月 25 日發布的 1,394 號臨時措施（全面禁止線上博彩）。兩協會警告禁令將衝擊球隊與贊助商收入，並把玩家推向非法網站；業界並質疑政府未能證明採用「臨時措施」所需的憲法急迫性。對 PM 的意義：巴西是拉美最大受監管市場之一,禁令若維持將直接衝擊所有在當地布局的國際營運商與內容供應商。</p>
+    <div class="keyrow"><b>類型</b>政府法規　<b>對象</b>ANJL、IBJR 及巴西持牌博彩業者　<b>影響</b>巴西線上博彩禁令若維持,將使國際營運商被迫退出拉美最大市場之一</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://igamingbusiness.com/legal-compliance/regulation/brazil-betting-firms-protest-lulas-ban-football-ad-boards/" target="_blank" rel="noopener">iGamingBusiness ↗</a>
+      <a class="src" href="https://www.igamingtoday.com/brazil-betting-industry-uses-brasileirao-matches-to-protest-ban-on-legal-betting/" target="_blank" rel="noopener">iGamingToday ↗</a>
+      · 2026-10-05
+    </div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">05</div>
+    <h3>Jumpman Gaming 勝訴，1,320 萬英鎊免費旋轉稅單撤銷</h3>
+    <p>根據英國上級法庭（Upper Tribunal）裁決，根西島線上娛樂場營運商 Jumpman Gaming 針對英國稅務海關總署（HMRC）開出的 1,320 萬英鎊遠端博彩稅（RGD）追繳單提出的上訴成立：裁決認定玩家因促銷免費旋轉贏得、且再投注的款項不應被課稅，推翻了先前初審法庭的認定，為未來同類案件樹立先例。此裁決正值英國博彩稅率將於 2026 年 4 月自 21% 大幅調升至 40% 之際，格外受到業界關注。對 PM 的意義：此判例為英國營運商在促銷免費旋轉的稅務認定上提供重要法律依據,有助於釐清未來爭議案件的處理方向。</p>
+    <div class="keyrow"><b>類型</b>提告　<b>對象</b>Jumpman Gaming、HMRC　<b>影響</b>為英國博彩業促銷免費旋轉的稅務認定建立判例,可能影響其他營運商的稅務爭議</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://sbcnews.co.uk/igaming/2026/10/05/jumpman-gamings-tax-bill/" target="_blank" rel="noopener">SBC News ↗</a>
+      <a class="src" href="https://slotbeats.com/slot-news/jumpman-gaming-tax-relief/" target="_blank" rel="noopener">SlotBeats ↗</a>
+      <a class="src" href="https://igamingexpert.com/regions/europe/uk-igaming-tax-windfall-jumpman-ruling/" target="_blank" rel="noopener">iGaming Expert ↗</a>
+      · 2026-10-05
+    </div>
+  </div>
+</section>
+<section>
+  <div class="sec-title"><span class="emoji">🇵🇭</span><h2>動態：菲律賓 GP／平台</h2><span class="cnt">共 2 則</span></div>
+  <div class="card c4">
+    <div class="no">01</div>
+    <h3>Maybank 下修 DigiPlus 獲利預估，惟維持長線樂觀</h3>
+    <p>Maybank 證券將 DigiPlus 2026 年核心淨利預估大幅下修 43% 至 78 億披索（約 1.24 億美元），2027 年預估下修 48% 至 86 億披索，主因總體經濟壓力持續侵蝕玩家可支配所得；DigiPlus 股價自 4 月以來已下跌 48%，上半年表現疲弱疊加巴西監理疑慮further拖累信心。儘管如此，Maybank 認為 DigiPlus 基本面仍穩固，點名 ARPU 改善空間與實體賭場投資變現作為長期成長動能。對 PM 的意義：分析師下修獲利預估但維持長線看好,反映市場對菲律賓龍頭現金網短期承壓、長期體質健康的分歧解讀。</p>
+    <div class="keyrow"><b>類型</b>財務　<b>對象</b>DigiPlus　<b>影響</b>分析師下修獲利預估恐短期壓抑股價表現,但長期成長動能（ARPU、實體賭場投資）未被看淡</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://asgam.com/2026/10/05/maybank-outlook-strong-for-digiplus-despite-persistent-short-term-headwinds/" target="_blank" rel="noopener">Inside Asian Gaming ↗</a>
+      <a class="src" href="https://agbrief.com/news/philippines/05/10/2026/maybank-slashes-digiplus-profit-forecasts-as-weak-player-spending-delays-recovery/" target="_blank" rel="noopener">AGB ↗</a>
+      <a class="src" href="https://www.ggrasia.com/digiplus-recovery-hinges-on-player-spend-earnings-forecasts-cut-maybank" target="_blank" rel="noopener">GGRAsia ↗</a>
+      · 2026-10-05
+    </div>
+  </div>
+
+  <div class="card c4">
+    <div class="no">02</div>
+    <h3>菲律賓年度最大規模 POGO 掃蕩，244 名外籍人士被捕</h3>
+    <p>菲律賓移民局（BI）聯合國家調查局與軍方，於三描禮士省 Siay 與 Alicia 兩地展開突擊行動，逮捕 244 名涉嫌從事非法線上博彩（POGO）相關活動的外籍人士，多數為中國籍，為 2026 年迄今規模最大的 POGO 掃蕩行動。現場查扣約 3,000 支手機、筆電與電腦設備，當局懷疑用於網路詐騙。在《反 POGO 法》與全國性禁令生效後，被捕人士將面臨遣返程序，並就潛在人口販運疑雲接受調查。對 PM 的意義：持續高強度執法顯示菲律賓政府打擊地下 POGO 的決心不減,持牌業者的合規成本與審查壓力預期將維持高檔。</p>
+    <div class="keyrow"><b>類型</b>政府法規　<b>對象</b>菲律賓移民局（BI）、涉案 POGO 營運點　<b>影響</b>凸顯菲律賓政府持續強力執法打擊非法 POGO,間接提高持牌業者合規與聲譽門檻</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://agbrief.com/news/philippines/05/10/2026/philippines-arrests-244-foreigners-in-largest-pogo-crackdown-of-2026-bi/" target="_blank" rel="noopener">AGB ↗</a>
+      <a class="src" href="https://igamingexpert.com/regions/asia/arrests-philippines-pogo-bust/" target="_blank" rel="noopener">iGaming Expert ↗</a>
+      · 2026-10-05
+    </div>
+  </div>
+</section>
+<section>
+  <div class="sec-title"><span class="emoji">📊</span><h2>市場數據 & 趨勢</h2><span class="cnt">共 3 則</span></div>
+  <div class="card c5">
+    <div class="no">01</div>
+    <h3>Games Global 十月排程 20 多款新作，萬聖節續作領銜</h3>
+    <p>內容集團 Games Global 公布 10 月將推出超過 20 款新遊戲，以萬聖節主題續作為主軸，包括 Wishbone Games 的 Cash Collect 機制新作「Phoenix Reign of Horror」、PearFiction Studios 搭載 Power Spins 機制的「Granny vs Zombies 2 Loot Collect」、Neon Valley Studios 的「Cash Abduction 5000X Gold Blitz Fusion」，以及 AreaVegas Games 推出的「Bigger Bonanza Platinum Rush Express」新版本。Games Global 遊戲策略總監 David Reynolds 表示第四季陣容強勁。對 PM 的意義：集團化內容商以節慶續作衝量的策略持續強化,萬聖節檔期的鋪貨密度可作為營運商排期參考。</p>
+    <div class="keyrow"><b>類型</b>運營活動　<b>對象</b>Games Global 旗下多個工作室　<b>影響</b>反映大型內容集團以節慶續作密集鋪貨衝刺第四季流量的產業趨勢</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://europeangaming.eu/portal/press-releases/2026/10/05/215335/games-global-october-2026-releases/" target="_blank" rel="noopener">European Gaming ↗</a>
+      <a class="src" href="https://igamingfuture.com/games-global-gears-up-for-halloween-with-packed-october-roadmap/" target="_blank" rel="noopener">iGaming Future ↗</a>
+      <a class="src" href="https://eegaming.org/latest-news/2026/10/05/52980/games-global-sets-20-october-releases-led-by-halloween-themed-sequels/" target="_blank" rel="noopener">EEGaming ↗</a>
+      · 2026-10-05
+    </div>
+  </div>
+
+  <div class="card c5">
+    <div class="no">02</div>
+    <h3>澳門十一黃金週首四日訪客突破 75 萬人次創單日新高</h3>
+    <p>根據澳門治安警察局數據，十一黃金週首四天錄得近 75.1 萬人次訪客，平均每日超過 18.77 萬人次，10 月 4 日單日更創下 21.0325 萬人次新高紀錄。主要入境口岸為關閘、橫琴口岸與港珠澳大橋,訪客以中國大陸與香港旅客為主。另一方面，里昂證券（CLSA）維持澳門 10 月 GGR 預估持平，顯示儘管黃金週人潮暢旺，博彩消費轉換力道仍待觀察。對 PM 的意義：訪客量創紀錄但 GGR 預估未同步上修,顯示澳門博彩業仍面臨消費力道不如訪客量道的結構性問題。</p>
+    <div class="keyrow"><b>類型</b>運營活動　<b>對象</b>澳門博彩業、澳門治安警察局　<b>影響</b>訪客量創紀錄但分析師未同步上修 GGR 預估,顯示澳門消費轉換力道仍待觀察</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://www.ggrasia.com/macau-logs-over-750k-visitors-in-first-4-days-of-october-golden-week-new-single-day-arrivals-record-at-210k" target="_blank" rel="noopener">GGRAsia ↗</a>
+      <a class="src" href="https://agbrief.com/intel/05/10/2026/clsa-keeps-macau-october-ggr-forecast-flat-despite-strong-golden-week-crowds/" target="_blank" rel="noopener">AGB ↗</a>
+      · 2026-10-05
+    </div>
+  </div>
+
+  <div class="card c5">
+    <div class="no">03</div>
+    <h3>Bally's 取得 4 億美元融資，推進 40 億美元布朗克斯賭場案</h3>
+    <p>Bally's Corporation 宣布取得由 WhiteHawk Capital Partners 主導的 4 億美元融資，用於挹注其位於紐約布朗克斯區、總投資額達 40 億美元的賭場開發案前期建設與營運成本,其中 1.6 億美元可供後續動撥以支持工程進度。該賭場預計 2030 年開業,將包含 300 萬平方呎博弈空間、500 間客房的飯店、可容納 2,000 人的活動中心,以及一座 18 洞高爾夫球場,基地為前川普集團持有土地。儘管取得新融資,Bally's 本身仍背負不低的債務壓力,並已放緩芝加哥賭場工程進度。對 PM 的意義：大型實體賭場開發案的融資能力是觀察美國博彩業資本市場信心的重要指標,但個別業者的債務結構仍是潛在風險。</p>
+    <div class="keyrow"><b>類型</b>財務　<b>對象</b>Bally's Corporation、WhiteHawk Capital Partners　<b>影響</b>顯示美國大型賭場開發案仍能取得資本市場支持,但 Bally's 自身債務壓力與芝加哥工程延宕值得持續觀察</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://www.yogonet.com/international/news/2026/10/05/126676-bally-39s-closes-400-million-financing-for-4-billion-bronx-casino" target="_blank" rel="noopener">Yogonet International ↗</a>
+      <a class="src" href="https://www.casinoreports.com/news/ballys-funding-bronx-casino/" target="_blank" rel="noopener">Casino Reports ↗</a>
+      · 2026-10-05
+    </div>
+  </div>
+</section>
+
+<div class="stats-line">本日日報查詢約 <b>130</b> 個網站，其中提取 <b>39</b> 個資料來源並進行交叉比對</div>
+
+<footer>
+  iGaming 日報自動化 v6.5（三層收集＋庫存＋定稿檢查）・每則皆附真實可點擊原文連結・多來源交叉查證<br>
+  產出時間：2026-10-06（台北時間）
+</footer>
+</div>
+</body>
+</html>

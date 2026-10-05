@@ -1,0 +1,39 @@
+{
+ "date": "2026-10-06",
+ "md": "state/2026-10-06-igaming-report.md",
+ "html": "reports/2026-10-06.html",
+ "items": 16,
+ "counts": {
+  "cat1": 4,
+  "cat2": 2,
+  "cat3": 5,
+  "cat4": 2,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 45,
+  "ok": 32,
+  "broken": 0,
+  "blocked": 13,
+  "images_dropped": 0
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-03 3 Wild Troopers – Spinom｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Future https://igamingfuture.com/spinomenal-deploys-its-bomb-squad-with-3-wild-troopers/",
+  "cat2-01 Playdoit × QTech 深化內容整合 ｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Future https://igamingfuture.com/playdoit-qtech-partnership/",
+  "cat3-01 TaDa Gaming 攜手 777.be 深耕｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/tada-gaming-777be-belgium",
+  "cat3-05 Jumpman Gaming 勝訴，1,320 ｜來源連結無法自動驗證（403，多半是網站擋機器人）：SBC News https://sbcnews.co.uk/igaming/2026/10/05/jumpman-gamings-tax-bill/",
+  "cat3-05 Jumpman Gaming 勝訴，1,320 ｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Expert https://igamingexpert.com/regions/europe/uk-igaming-tax-windfall-jumpman-ruling/",
+  "cat4-01 Maybank 下修 DigiPlus 獲利預估｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/05/maybank-outlook-strong-for-digiplus-despite-persistent-short-term-headwinds/",
+  "cat4-01 Maybank 下修 DigiPlus 獲利預估｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/philippines/05/10/2026/maybank-slashes-digiplus-profit-forecasts-as-weak-player-spending-delays-recovery/",
+  "cat4-01 Maybank 下修 DigiPlus 獲利預估｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/digiplus-recovery-hinges-on-player-spend-earnings-forecasts-cut-maybank",
+  "cat4-02 菲律賓年度最大規模 POGO 掃蕩，244 名外｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/philippines/05/10/2026/philippines-arrests-244-foreigners-in-largest-pogo-crackdown-of-2026-bi/",
+  "cat4-02 菲律賓年度最大規模 POGO 掃蕩，244 名外｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Expert https://igamingexpert.com/regions/asia/arrests-philippines-pogo-bust/",
+  "cat5-01 Games Global 十月排程 20 多款新｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Future https://igamingfuture.com/games-global-gears-up-for-halloween-with-packed-october-roadmap/",
+  "cat5-02 澳門十一黃金週首四日訪客突破 75 萬人次創單日｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/macau-logs-over-750k-visitors-in-first-4-days-of-october-golden-week-new-single-day-arrivals-record-at-210k",
+  "cat5-02 澳門十一黃金週首四日訪客突破 75 萬人次創單日｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/intel/05/10/2026/clsa-keeps-macau-october-ggr-forecast-flat-despite-strong-golden-week-crowds/"
+ ],
+ "fixes": [
+  "文末｜資料來源數 45 → 39（程式依來源連結去重計算）"
+ ]
+}

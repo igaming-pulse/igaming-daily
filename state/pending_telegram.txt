@@ -1,35 +1,36 @@
-🎰 iGaming 市場日報 2026-10-05（週一）
-🎰 Slot 5 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-10-06（週二）
+🎰 Slot 4 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
 
 🎰 Slot 新遊戲
-📦01 Money Train 5 – Relax Gaming
-📦02 House of the Dragon – Blueprint Gaming
-📦03 Fortune City Hold & Win – Million Games
-📦04 Gates of Hercules 10,000 – Booming Games
-📦05 Cherry Cherry Baby – Amusnet
+01 Turbo Gold Deluxe GigaBlox – Yggdrasil
+02 Three Pots of the Genie – Play'n GO
+03 3 Wild Troopers – Spinomenal
+04 🆕 新作預告（10/8 上線）Thor Candy Storm 3000 – Tom Horn Gaming
+
+🕹️ 非 Slot 新內容
+01 Playdoit×QTech 深化內容整合
+02 CreedRoomz 攜手 Pasino.ch 進軍瑞士
 
 🤝 動態：主流 GP／平台
-01 Nevada 檢察官反對 Kalshi 延後聽證案
-02 荷蘭業界協會 VNLOK 控告 Meta 非法博彩廣告
-03 千里達及托巴哥通過遠端博彩新法
-04 巴西加碼封鎖逾萬個博彩網站
-05 加拿大亞伯達省取締無牌線上博彩
+01 TaDa Gaming 攜手 777.be 深耕比利時市場
+02 IZI Group 財報：年營收首度突破 10 億歐元
+03 Aristocrat 連 8 年奪 Class 3 實體供應商年度大獎
+04 巴西博彩業者於甲級聯賽場邊廣告看板抗議禁令
+05 Jumpman Gaming 勝訴，1,320 萬英鎊免費旋轉稅單撤銷
 
 🇵🇭 動態：菲律賓 GP／平台
-01 Casino Plus 攜手 Peter & Sons 合作
-📦02 DigiPlus 基金會賑濟呂宋風災災民
+01 Maybank 下修 DigiPlus 獲利預估
+02 菲律賓年度最大規模 POGO 掃蕩，244 名外籍人士被捕
 
 📊 市場數據 & 趨勢
-01 巴西運彩禁令衝擊奧運／帕運經費
-02 NagaCorp 前三季 GGR 衰退 21.5%
-03 澳門黃金週首四日訪客逾 75 萬人次
+01 Games Global 十月排程 20 多款新作，萬聖節續作領銜
+02 澳門十一黃金週首四日訪客突破 75 萬人次創單日新高
+03 Bally's 取得 4 億美元融資，推進布朗克斯賭場案
 
 📝 品質備註（本次爬找判斷）
-1. 本窗 cat1 窗內候選（BigWinBoard／SlotsLaunch 清單所列）經查證後，確認是「遊戲上線日曆」而非文章發布日，實際預告文章均發布於上線日前數週，找不到任何 EEGaming／HIPTHER／G3Newswire 等同業新聞稿於上線當日或前後確認；為避免重蹈 09/24 DigiPlus GamePlus 誤收事件，改以 EEGaming／HIPTHER 有確切同業新聞稿日期的 5 款庫存新作遞補，5 款皆標 📦。
-2. cat2 非 Slot 本日從缺：窗內候選 0 則，第三層已針對 Crash／Mines／Plinko／Bingo／Live Game Show／Poker 五大品類分別執行 WebSearch 查證，均未查得發布日落在窗內或保鮮期內的合格候選；EEZE 最近一篇可查證新聞為 9/25（SBC Summit 前瞻），已逾 3 天無新消息，依規則例外跳過當日固定收錄。
-3. cat4 菲律賓區原擬收錄 PAGCOR MICE 會展設施倡議（首見 10/1），經定稿檢查判定已超過其他分類 3 天保鮮期，剔除並改以 DigiPlus 基金會賑災新聞（10/3，保鮮期內）遞補；本日 PH 商業新聞量偏薄，已執行第三層固定查詢（DigiPlus／Casino Plus／OKBet／PlayTime／BET88 等）仍僅查得 1 則真正窗內商業新聞。
-4. 定稿檢查跑了 2 次（第 1 次因 cat4-02 保鮮期不合格失敗，已修正 .md 後重跑成功）；最終 0 錯誤、2 筆警告（Inside Asian Gaming 連結因網站擋機器人無法自動驗證，已人工以 Firecrawl 確認為有效連結）。
+1. 定稿檢查抓出 2 則 3 天內重複：Gates of Hercules 10,000（Booming Games，與 10/5 日報庫存補位項目重複）、Casino Plus×Peter & Sons（與 10/4 日報同一合作案重複），已剔除；cat1 因此為 4 款（未強補到 5）、cat4 為 2 則，皆屬自然呈現不灌水。
+2. EEZE 近期最新消息為 10/3 與 1X2 Network 的合作（窗外），今日窗內與近 3 天皆無新消息，依例跳過。
+3. 特別追蹤 Acewin／Omiplay／YellowBat／ATG 今日皆無窗內新消息（已逐一查證）。
 
 ⚙️ 系統警報
-1. 🟠 今天實際用了 70 點，超過今日預算 46 點
-2. 🟠 來源連續失敗 ≥3 天：Kalamba Games（6 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：Kalamba Games（7 天）；請檢查網址或改抓取方式

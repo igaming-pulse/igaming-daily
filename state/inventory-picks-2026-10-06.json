@@ -1,0 +1,34 @@
+{
+  "shown": [
+    {"cat": "cat1", "title": "Turbo Gold Deluxe GigaBlox", "gp": "Yggdrasil"},
+    {"cat": "cat1", "title": "Three Pots of the Genie", "gp": "Play'n GO"},
+    {"cat": "cat1", "title": "3 Wild Troopers", "gp": "Spinomenal"},
+    {"cat": "cat1", "title": "Thor Candy Storm 3000", "gp": "Tom Horn Gaming"},
+    {"cat": "cat2", "title": "Playdoit×QTech 深化內容整合", "gp": "Playdoit/QTech"},
+    {"cat": "cat2", "title": "CreedRoomz 攜手 Pasino.ch 進軍瑞士", "gp": "CreedRoomz"},
+    {"cat": "cat3", "title": "TaDa Gaming 攜手 777.be 深耕比利時市場", "gp": "TaDa Gaming"},
+    {"cat": "cat3", "title": "IZI Group 財報：年營收首度突破 10 億歐元", "gp": "IZI Group"},
+    {"cat": "cat3", "title": "Aristocrat 連 8 年奪 Class 3 實體供應商年度大獎", "gp": "Aristocrat"},
+    {"cat": "cat3", "title": "巴西博彩業者於甲級聯賽場邊廣告看板抗議禁令", "gp": "ANJL/IBJR"},
+    {"cat": "cat3", "title": "Jumpman Gaming 勝訴，1,320 萬英鎊免費旋轉稅單撤銷", "gp": "Jumpman Gaming"},
+    {"cat": "cat4", "title": "Maybank 下修 DigiPlus 獲利預估", "gp": "DigiPlus"},
+    {"cat": "cat4", "title": "菲律賓年度最大規模 POGO 掃蕩", "gp": "PAGCOR/BI"},
+    {"cat": "cat5", "title": "Games Global 十月排程 20 多款新作", "gp": "Games Global"},
+    {"cat": "cat5", "title": "澳門十一黃金週首四日訪客突破 75 萬人次", "gp": "澳門治安警察局"},
+    {"cat": "cat5", "title": "Bally's 取得 4 億美元融資，推進布朗克斯賭場案", "gp": "Bally's Corporation"}
+  ],
+  "stock": [
+    {"cat": "cat1", "title": "25 Coins x3000 (Cointober)", "gp": "Wazdan", "b": 4, "first_seen": "2026-10-01",
+     "sources": [{"name": "Yogonet International", "url": "https://www.yogonet.com/international/news/2026/10/05/126668-wazdan-launches-cointober-campaign-to-highlight-popular-coins-series-titles", "published": "2026-10-05 21:46"},
+                 {"name": "European Gaming", "url": "https://europeangaming.eu/portal/press-releases/2026/10/01/215166/wazdan-25-coins-x3000-slots/", "published": "2026-10-01"}]},
+    {"cat": "cat1", "title": "Witchcraft Riches", "gp": "BGaming", "b": 3, "first_seen": "2026-10-02",
+     "sources": [{"name": "BigWinBoard", "url": "https://www.bigwinboard.com/witchcraft-riches-bgaming-slot-review-demo/", "published": "2026-10-02 09:40"}]},
+    {"cat": "cat2", "title": "Norway online poker 監理諮詢，恐成商業化契機", "gp": "挪威博彩局", "b": 1, "first_seen": "2026-10-05",
+     "sources": [{"name": "iGaming Expert", "url": "https://igamingexpert.com/news/games/norway-online-poker-consultation/", "published": "2026-10-05 21:04"}]},
+    {"cat": "cat3", "title": "SBC Summit 與里斯本續約至 2030 年", "gp": "SBC Summit", "b": 1, "first_seen": "2026-10-05",
+     "sources": [{"name": "Yogonet International", "url": "https://www.yogonet.com/international/news/2026/10/05/126684-sbc-extends-lisbon-hosting-deal-for-flagship-summit-through-2030", "published": "2026-10-05 01:34"},
+                 {"name": "SBC Americas", "url": "https://sbcamericas.com/2026/10/05/sbc-summit-agreement-lisbon-2030/", "published": "2026-10-05 21:00"}]},
+    {"cat": "cat5", "title": "LatAm 2026：巴西、墨西哥、智利玩家偏好調查", "gp": "Focus Gaming News", "b": 1, "first_seen": "2026-10-05",
+     "sources": [{"name": "Focus Gaming News", "url": "https://focusgn.com/latam-2026-a-closer-look-at-gaming-preferences-in-brazil-mexico-and-chile", "published": "2026-10-06 01:07"}]}
+  ]
+}
