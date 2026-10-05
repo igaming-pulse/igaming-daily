@@ -201,6 +201,14 @@ python3 scripts/harvest.py --plan        # 只看今天的分級、預算與會�
 今日預算 ＝（剩餘 − 保留 20）÷ 距離重置天數；≥30 充裕、20–29 標準、15–19 節約、<15 或剩餘 <100 保命。
 門檻在 `scripts/harvest.py` 的 `TIERS`／`CREDIT_RESERVE`，改了要同步改 SKILL.md「💳 Firecrawl 用量分級」。
 
+### 發布到 main 與晚到推播（2026-10-05）
+
+- `scripts/publish_test_to_main.sh` v2：在暫存 worktree 處理 main，每天排程的工作目錄不離開 test-publish；
+  只有 index.html 衝突時自動重建首頁續 rebase（最多 3 次），其他衝突放棄並報錯；`reports/_classic/` 備份一起提交
+- `scripts/run_daily.sh` 開跑前：有未完成的 rebase／merge 先 abort、不在預期分支先切回（`IGAMING_BRANCH`，預設 test-publish）
+- `scripts/notify_telegram.sh`：跑完時已過 06:30（`IGAMING_TELEGRAM_CUTOFF`）→ 等 `<DATE>-test.html` 回 200 後直接 dispatch Telegram；
+  `telegram-test-0640.yml` 的排程那次若看到今天已有成功的手動發送就跳過
+
 ### 雲端試跑（方案 A 第一階段，2026-09-28 建立）
 
 - workflow：main 分支 `.github/workflows/daily-cloud-trial.yml`，每天台北 01:30（UTC 17:30）＋可手動觸發

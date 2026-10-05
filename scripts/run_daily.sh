@@ -65,6 +65,22 @@ BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "?")
 log "日期: ${DATE}　分支: ${BRANCH}"
 [ "$BRANCH" = "main" ] && log "※ 目前在 main —— 併行期應該在 test-publish，切換後才會是 main"
 
+# 保險（2026-10-05）：上一輪若卡在合併／rebase 中途，或停在別的分支，先恢復乾淨再開跑
+if [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ]; then
+  log "⚠️ 偵測到未完成的 rebase，先 abort"
+  git rebase --abort >>"$LOG" 2>&1 || true
+fi
+if [ -f .git/MERGE_HEAD ]; then
+  log "⚠️ 偵測到未完成的 merge，先 abort"
+  git merge --abort >>"$LOG" 2>&1 || true
+fi
+EXPECT_BRANCH="${IGAMING_BRANCH:-test-publish}"
+if [ "$(git rev-parse --abbrev-ref HEAD 2>/dev/null)" != "$EXPECT_BRANCH" ] && git show-ref -q "refs/heads/$EXPECT_BRANCH"; then
+  log "⚠️ 目前不在 ${EXPECT_BRANCH}，切回去"
+  git checkout -q "$EXPECT_BRANCH" >>"$LOG" 2>&1 || log "✗ 切不回 ${EXPECT_BRANCH}"
+fi
+BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "?")
+
 log "git pull…"
 git pull --ff-only >>"$LOG" 2>&1 || log "⚠️ git pull 失敗，用本地版本繼續"
 
@@ -135,6 +151,8 @@ if [ "$fail" -eq 0 ]; then
   # 分支已是 main（＝切換完成）就自動跳過；設 IGAMING_PUBLISH_TEST_TO_MAIN=0 可關閉。
   if [ "${IGAMING_PUBLISH_TEST_TO_MAIN:-1}" = "1" ] && [ "$BRANCH" != "main" ]; then
     bash scripts/publish_test_to_main.sh "$DATE" 2>&1 | tee -a "$LOG"
+    # 晚到就立刻推播：已過 06:30 才跑完時，等網站頁面上線後直接觸發 Telegram（早於 06:30 交給排程）
+    bash scripts/notify_telegram.sh "$DATE" 2>&1 | tee -a "$LOG"
   fi
   log "──────── 結束 ────────"
   exit 0
