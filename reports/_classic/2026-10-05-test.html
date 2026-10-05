@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="render_report.py v6.5（三層收集＋庫存＋定稿檢查）">
+<title>iGaming 市場日報 2026-10-05（測試）</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../icon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../icon-16.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<style>
+  :root{
+    --bg:#F5F7FA; --card:#ffffff; --line:#E7EBF0; --ink:#1A2230; --sub:#5B6675;
+    --c1:#1D9E75; --c1bg:#E1F5EE; --c1txt:#0F6E56;
+    --c2:#B31217; --c2bg:#FBE3E4; --c2txt:#8A1015;
+    --c3:#378ADD; --c3bg:#E6F1FB; --c3txt:#185FA5;
+    --c4:#D97706; --c4bg:#FBF0DD; --c4txt:#8A5206;
+    --c5:#8B5CF6; --c5bg:#EEE9FC; --c5txt:#5B3FA6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.7}
+  .wrap{max-width:860px;margin:0 auto;padding:28px 16px 60px}
+  header{text-align:center;margin-bottom:22px}
+  header h1{font-size:26px;margin:6px 0 4px}
+  header .date{color:var(--sub);font-size:14px}
+  .badges{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:14px 0}
+  .badge{font-size:12px;font-weight:700;padding:5px 12px;border-radius:999px}
+  .b1{background:var(--c1bg);color:var(--c1txt)}
+  .b2{background:var(--c2bg);color:var(--c2txt)}
+  .b3{background:var(--c3bg);color:var(--c3txt)}
+  .b4{background:var(--c4bg);color:var(--c4txt)}
+  .b5{background:var(--c5bg);color:var(--c5txt)}
+  .stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:20px 0 32px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 10px;text-align:center}
+  .stat .n{font-size:22px;font-weight:800}
+  .stat .l{font-size:12px;color:var(--sub);margin-top:2px}
+  .stat.s1 .n{color:var(--c1)} .stat.s2 .n{color:var(--c2)} .stat.s3 .n{color:var(--c3)} .stat.s4 .n{color:var(--c4)} .stat.s5 .n{color:var(--c5)}
+  section{margin-bottom:36px}
+  .sec-title{display:flex;align-items:center;gap:10px;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid var(--line)}
+  .sec-title .emoji{font-size:1.5em}
+  .sec-title h2{font-size:28px;margin:0}
+  .sec-title .cnt{font-size:13px;color:var(--sub);font-weight:600}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px;position:relative;border-left:6px solid transparent}
+  .card.c1{border-left-color:var(--c1)} .card.c2{border-left-color:var(--c2)} .card.c3{border-left-color:var(--c3)} .card.c4{border-left-color:var(--c4)} .card.c5{border-left-color:var(--c5)}
+  .no{display:inline-block;font-size:12px;font-weight:800;color:#fff;background:var(--ink);border-radius:6px;padding:2px 8px;margin-bottom:8px}
+  .c1 .no{background:var(--c1)} .c2 .no{background:var(--c2)} .c3 .no{background:var(--c3)} .c4 .no{background:var(--c4)} .c5 .no{background:var(--c5)}
+  h3{font-size:17px;margin:4px 0 10px;line-height:1.5}
+  p{font-size:14.5px;margin:0 0 10px;color:#2A3342}
+  .derive{font-size:13px;color:#7a4d0b;background:#FBF3E4;border:1px solid #F0E2C6;border-radius:8px;padding:9px 12px;margin-bottom:10px}
+  .derive b{color:#9a6209;margin-right:6px}
+  .spec{background:#F2F6F4;border:1px solid #E1EAE6;border-radius:8px;padding:10px 12px;margin-bottom:10px;font-size:12.5px}
+  .spec .row{display:flex;gap:10px;padding:3px 0;border-bottom:1px dashed #E1EAE6}
+  .spec .row:last-child{border-bottom:none}
+  .spec .k{flex:0 0 82px;font-weight:700;color:#0F6E56}
+  .keyrow{display:flex;flex-wrap:wrap;gap:14px;background:#F4F8FC;border:1px solid #DCE8F4;border-radius:8px;padding:9px 12px;margin-bottom:10px;font-size:12.5px}
+  .keyrow b{color:#185FA5;margin-right:5px}
+  .c4 .keyrow b{color:#8A5206}
+  .verify{font-size:12.5px;color:#334155;background:#F3F4F6;border:1px solid #E5E7EB;border-radius:8px;padding:8px 12px;margin-bottom:10px;line-height:1.6}
+  .verify::before{content:"🔎 "}
+  .tags{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:11px}
+  a.src{font-weight:600;color:var(--sub);text-decoration:none}
+  a.src:hover{text-decoration:underline}
+  .hero{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;margin-top:10px;display:block;background:#eee}
+  .stats-line{max-width:860px;margin:26px auto 0;text-align:center;font-size:13.5px;color:#1A2230;line-height:1.8}
+  .stats-line b{color:#B31217;font-weight:800}
+  footer{text-align:center;margin-top:30px;color:var(--sub);font-size:12px}
+  @media(max-width:600px){.sec-title h2{font-size:22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="date">2026-10-05（星期一）・台北時間</div>
+  <h1>🎰 iGaming 市場日報（測試）</h1>
+  <div class="badges">
+    <span class="badge b1">🎰 Slot 5</span>
+    <span class="badge b3">🤝 主流 5</span>
+    <span class="badge b4">🇵🇭 菲律賓 2</span>
+    <span class="badge b5">📊 市場數據 3</span>
+  </div>
+</header>
+
+<div class="stats-grid">
+  <div class="stat s1"><div class="n">5</div><div class="l">🎰 Slot 新遊戲</div></div>
+  <div class="stat s3"><div class="n">5</div><div class="l">🤝 主流動態</div></div>
+  <div class="stat s4"><div class="n">2</div><div class="l">🇵🇭 菲律賓</div></div>
+  <div class="stat s5"><div class="n">3</div><div class="l">📊 市場數據</div></div>
+</div>
+
+<section>
+  <div class="sec-title"><span class="emoji">🎰</span><h2>Game Provider 新遊戲</h2><span class="cnt">共 5 則</span></div>
+  <div class="card c1">
+    <div class="no">01</div>
+    <h3>📦 近期新作（9/28 首見）Money Train 5 – Relax Gaming</h3>
+    <p>Relax Gaming 推出旗艦系列最新作《Money Train 5》，延續末日荒漠西部世界觀，新增 Bomber、Absorber、Ticket Master、Pyromancer 等角色符號，並導入全新「Nuclear Wild」機制。遊戲維持系列招牌的 Cash Collector 收集玩法，同時提供 Standard 與 Ultra 雙模式，讓玩家可依風險偏好選擇不同的最高倍率上限，另搭配多段 Buy Feature 直接購買不同強度的免費旋轉。對 PM 的意義：系列第五代作品在維持核心辨識度的同時持續疊加新機制，是觀察「長壽 IP 如何延續生命週期」的指標案例，雙模式設計也值得作為同類高倍率產品的節奏參考。</p>
+    <div class="derive"><b>衍生調整</b>延續系列招牌 Cash Collector 機制與末日世界觀，新增 Nuclear Wild、Bomber／Absorber／Ticket Master／Pyromancer 角色符號，並首次導入 Standard／Ultra 雙模式倍率上限設計。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span>線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span>5x4</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span>40 條賠付線 + Cash Collector 收集機制</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>100,000x（Ultra 模式）／50,000x（Standard 模式）</span></div>
+      <div class="row"><span class="k">RTP</span><span>96.1%（另提供 94%／92%／90% 版本）</span></div>
+      <div class="row"><span class="k">波動</span><span>高（Ultra 模式更高）</span></div>
+      <div class="row"><span class="k">目標市場</span><span>全球</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>Nuclear Wild、Standard／Ultra 雙模式、Cash Collector 收集機制、多段 Buy Feature</span></div>
+    </div>
+    <div class="verify">EEGaming、HIPTHER 官方稿與 OLBG 轉述之角色機制描述一致；RTP／倍率數據經 SlotCatalog 交叉確認相符。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://eegaming.org/latest-news/2026/09/28/52874/relax-gaming-launches-money-train-5-slot-game" target="_blank" rel="noopener">EEGaming ↗</a>
+      <a class="src" href="https://hipther.com/igaming-news/2026/09/28/160695/relax-gaming-launches-money-train-5-slot-game" target="_blank" rel="noopener">HIPTHER ↗</a>
+      <a class="src" href="https://www.olbg.com/news/relax-gaming-launches-money-train-5-slot" target="_blank" rel="noopener">OLBG ↗</a>
+      · 2026-09-28
+    </div>
+    <img class="hero" src="https://eegaming.org/api/eeg/social-image/55370.jpg" alt="Money Train 5" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c1">
+    <div class="no">02</div>
+    <h3>📦 近期新作（9/28 首見）House of the Dragon – Blueprint Gaming</h3>
+    <p>Blueprint Gaming 與 Warner Bros. Discovery 合作，推出 HBO 影集《House of the Dragon》官方授權新作，延續該廠 HBO 授權片單陣容。遊戲採 5x4 盤面、20 條固定賠付線，主打劇中龍族元素的視覺呈現與對應的獎勵機制，RTP 提供 94%／93%／92%／90% 多版本供營運商選擇。對 PM 的意義：大型影視 IP 授權持續是歐美市場吸引休閒玩家的重要手段，固定賠付線＋多版本 RTP 的配置也是目前主流平台常見的在地化上架模板。</p>
+    <div class="derive"><b>衍生調整</b>全新 IP 授權合作，無衍生；首次將《House of the Dragon》影集世界觀導入 Blueprint 自有產品線。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span>線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span>5x4，20 條固定賠付線</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span>固定賠付線（非消除型）</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>3,000x</span></div>
+      <div class="row"><span class="k">RTP</span><span>94%（另提供 93%／92%／90% 版本）</span></div>
+      <div class="row"><span class="k">波動</span><span>中高</span></div>
+      <div class="row"><span class="k">目標市場</span><span>全球（HBO 授權市場同步上線）</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>HBO《House of the Dragon》官方影視 IP 授權、與 Warner Bros. Discovery Global Experiences 合作</span></div>
+    </div>
+    <div class="verify">EEGaming 發布稿與 VegasSlotsOnline、CasinoListings 轉述之機制與版本說明一致。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://eegaming.org/latest-news/2026/09/28/52875/blueprint-gaming-launches-house-of-the-dragon-slot-with-warner-bros-discovery" target="_blank" rel="noopener">EEGaming ↗</a>
+      <a class="src" href="https://www.vegasslotsonline.com/news/2026/09/29/blueprint-gaming-extends-its-hbo-roster-with-house-of-the-dragon-slot/" target="_blank" rel="noopener">VegasSlotsOnline ↗</a>
+      · 2026-09-28
+    </div>
+    <img class="hero" src="https://eegaming.org/api/eeg/social-image/55377.jpg" alt="House of the Dragon" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c1">
+    <div class="no">03</div>
+    <h3>📦 近期新作（9/29 首見）Fortune City Hold &amp; Win – Million Games</h3>
+    <p>Million Games 推出都會摩天大樓主題新作《Fortune City Hold &amp; Win》，採獨特「摩天大樓式」盤面搭配 720 ways 賠付結構。遊戲以 Gorilla X-Wild 符號觸發「Banana Wilds」擴充野生符號，並設有「Rooftop Riches」Hold &amp; Win 獎勵機制，3 個以上金幣符號即可觸發。對 PM 的意義：Hold &amp; Win 仍是目前中小型供應商最主流的賠付框架，本作以都會動物主題做差異化包裝，可作為同類 720 ways 產品的賠付與觸發機制對照組。</p>
+    <div class="derive"><b>衍生調整</b>全新 IP，無衍生；首度將 Hold &amp; Win 機制與摩天大樓都會動物主題結合。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span>線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span>5 軸，720 ways（摩天大樓式盤面）</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span>720 ways-to-win</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>8,000x</span></div>
+      <div class="row"><span class="k">RTP</span><span>96.25%</span></div>
+      <div class="row"><span class="k">波動</span><span>高</span></div>
+      <div class="row"><span class="k">目標市場</span><span>全球</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>Gorilla X-Wild 觸發 Banana Wilds、Rooftop Riches Hold &amp; Win（3+ 金幣符號觸發）</span></div>
+    </div>
+    <div class="verify">EEGaming 與 HIPTHER 發布稿之 RTP、最高倍率與機制描述一致。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://eegaming.org/latest-news/2026/09/29/52931/million-games-releases-fortune-city-hold-win-slot" target="_blank" rel="noopener">EEGaming ↗</a>
+      <a class="src" href="https://hipther.com/igaming-news/2026/09/29/160777/million-games-releases-fortune-city-hold-win-slot" target="_blank" rel="noopener">HIPTHER ↗</a>
+      · 2026-09-29
+    </div>
+    <img class="hero" src="https://eegaming.org/api/eeg/social-image/55478.jpg" alt="Fortune City Hold &amp; Win" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c1">
+    <div class="no">04</div>
+    <h3>📦 近期新作（10/1 首見）Gates of Hercules 10,000 – Booming Games</h3>
+    <p>Booming Games 推出希臘神話主題新作《Gates of Hercules 10,000》，採 6x5 盤面搭配 Cascading 連消機制，任意位置集滿 8 個相同符號即觸發消除。遊戲隨機倍數範圍達 2x 至 500x，並在連消序列結束時合併疊加；集滿 4 個以上 Scatter 可觸發 15 次免費旋轉，免費旋轉中中獎倍數會持續累加。對 PM 的意義：萬倍最高獎金搭配隨機倍數疊加是近期高波動 Cascading 產品的主流配方，本作可作為評估同類神話題材競品賠付曲線的參考。</p>
+    <div class="derive"><b>衍生調整</b>全新 IP，無衍生；首次將 10,000x 最高倍率與隨機倍數疊加機制應用於此希臘神話題材。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span>線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span>6x5</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span>Cascading 連消 + 隨機倍數（2x–500x）疊加</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>10,000x</span></div>
+      <div class="row"><span class="k">RTP</span><span>未公布（已查 SlotCatalog／EEGaming／HIPTHER／European Gaming 官方稿均未揭露）</span></div>
+      <div class="row"><span class="k">波動</span><span>高</span></div>
+      <div class="row"><span class="k">目標市場</span><span>全球</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>隨機倍數 2x–500x 疊加、4+ Scatter 觸發 15 次免費旋轉、免費旋轉倍數累加</span></div>
+    </div>
+    <div class="verify">EEGaming、HIPTHER、European Gaming 三方發布稿之機制與最高倍率描述一致。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://eegaming.org/latest-news/2026/10/01/52964/booming-games-launches-gates-of-hercules-10-000-slot" target="_blank" rel="noopener">EEGaming ↗</a>
+      <a class="src" href="https://hipther.com/igaming-news/2026/10/01/160830/booming-games-launches-gates-of-hercules-10-000-slot" target="_blank" rel="noopener">HIPTHER ↗</a>
+      <a class="src" href="https://europeangaming.eu/portal/press-releases/2026/10/02/215186/booming-games-gates-of-hercules-10000-slot/" target="_blank" rel="noopener">European Gaming ↗</a>
+      · 2026-10-01
+    </div>
+    <img class="hero" src="https://eegaming.org/api/eeg/social-image/55512.jpg" alt="Gates of Hercules 10,000" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c1">
+    <div class="no">05</div>
+    <h3>📦 近期新作（10/1 首見）Cherry Cherry Baby – Amusnet</h3>
+    <p>Amusnet 推出復古水果機風格新作《Cherry Cherry Baby》，以鮮紅櫻桃 Scatter 符號為核心，集滿 3 個即觸發 5 次免費旋轉。免費旋轉中會出現一般與 Golden Scatter 兩種符號，Scatter 本身帶有 0.5x 至 50x 不等的賠付值，Golden Scatter 則可額外附加 x2、x3、x5、x10 倍數或重觸發免費旋轉；遊戲另設有隨機觸發的 Jackpot Cards 小遊戲。對 PM 的意義：復古水果機題材搭配現代 Scatter 疊加倍數設計，是休閒向產品持續翻新經典題材的典型手法，適合觀察低門檻產品線的玩法迭代速度。</p>
+    <div class="derive"><b>衍生調整</b>全新 IP，無衍生；首次將 Golden Scatter 倍數疊加與重觸發機制應用於復古水果機題材。</div>
+    <div class="spec">
+      <div class="row"><span class="k">遊戲類型</span><span>線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span>未公布（已查 SlotCatalog／EEGaming／HIPTHER 官方稿均未揭露）</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span>Scatter 觸發賠付（非消除型）</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>未公布（已查 SlotCatalog／EEGaming／HIPTHER 官方稿均未揭露）</span></div>
+      <div class="row"><span class="k">RTP</span><span>未公布（已查 SlotCatalog／EEGaming／HIPTHER 官方稿均未揭露）</span></div>
+      <div class="row"><span class="k">波動</span><span>未公布（已查 SlotCatalog／EEGaming／HIPTHER 官方稿均未揭露）</span></div>
+      <div class="row"><span class="k">目標市場</span><span>全球</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>Golden Scatter 倍數（x2/x3/x5/x10）、Scatter 賠付值 0.5x–50x、Jackpot Cards 隨機小遊戲、兩種 Bonus Buy 選項</span></div>
+    </div>
+    <div class="verify">EEGaming 與 HIPTHER 發布稿機制描述一致，惟兩者均未揭露 RTP、盤面與最高倍率數據。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://eegaming.org/latest-news/2026/10/01/52952/amusnet-releases-its-new-video-slot-cherry-cherry-baby" target="_blank" rel="noopener">EEGaming ↗</a>
+      <a class="src" href="https://hipther.com/igaming-news/2026/10/01/160819/amusnet-releases-its-new-video-slot-cherry-cherry-baby" target="_blank" rel="noopener">HIPTHER ↗</a>
+      · 2026-10-01
+    </div>
+    <img class="hero" src="https://eegaming.org/api/eeg/social-image/55502.jpg" alt="Cherry Cherry Baby" loading="lazy" onerror="this.style.display='none'">
+  </div>
+</section>
+<section>
+  <div class="sec-title"><span class="emoji">🤝</span><h2>動態：主流 GP／平台</h2><span class="cnt">共 5 則</span></div>
+  <div class="card c3">
+    <div class="no">01</div>
+    <h3>Nevada 檢察官反對 Kalshi 延後聽證案，批評其為拖延戰術</h3>
+    <p>內華達州檢察官正式反對預測市場平台 Kalshi 要求延後第九巡迴法院全院合議庭聽證的請求。Kalshi 主張應等待 CFTC 修訂 17 CFR 40.11 規則（CFTC 已表示將於兩個月內完成）再進行聽證，但內華達州代表律師反駁稱，先前法院「體育賽事合約不屬於 CEA 定義之 swap」的判決是基於法規文本、脈絡與立法目的做出，CFTC 規則修訂不會改變此結論，並指控 Kalshi 此舉意在拖延其「非法營運」的認定期程。本案後續走向也牽動該案是否能在本開庭期（2026年10月至2027年6月）進入最高法院審理。對 PM 的意義：預測市場與傳統博彩監管權限的司法攻防持續延燒，各州博彩監理機關如何定義「事件合約」將直接影響博彩業者未來面對的競爭格局。</p>
+    <div class="keyrow"><b>類型</b>提告　<b>對象</b>內華達州政府 vs Kalshi　<b>影響</b>牽動預測市場是否受州博彩監管規範的司法判例，間接影響傳統博彩業者的競爭環境</div>
+    <div class="verify">covers.com 背景報導與 CDC Gaming 對聽證時程與雙方主張的描述一致。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://cdcgaming.com/nevada-attorney-opposes-kalshis-bid-to-delay-rehearing-due-to-cftc-rulemaking/" target="_blank" rel="noopener">CDC Gaming ↗</a>
+      · 2026-10-05
+    </div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">02</div>
+    <h3>荷蘭業界協會 VNLOK 正式控告 Meta 縱容非法博彩廣告</h3>
+    <p>荷蘭博彩業貿易協會 VNLOK 已於阿姆斯特丹法院正式對 Meta 提告，指控其 Facebook、Instagram 平台持續縱容非法博彩廣告觸及荷蘭消費者。VNLOK 先前調查發現，其分析的博彩廣告中逾 90% 來自非法業者，2025 年第四季 Meta 平台上出現超過 7 萬則博彩相關廣告，當中逾 95% 由無牌業者投放；儘管 Meta 今年 5、6 月已分別下架 11%、15% 的違規廣告，VNLOK 認為成效仍遠遠不足。此次提告要求法院裁定 Meta 是否違反歐盟《數位服務法》（DSA），並責令其採取更積極的下架與審核措施。對 PM 的意義：社群平台廣告治理持續成為歐洲博彩監管的新戰場，若 VNLOK 勝訴，將加重社群平台對博彩廣告的審核義務，連帶影響業者的社群行銷操作空間。</p>
+    <div class="keyrow"><b>類型</b>提告　<b>對象</b>VNLOK（荷蘭博彩業貿易協會）vs Meta　<b>影響</b>若勝訴將加重社群平台對博彩廣告的審核義務，壓縮非法業者透過社群廣告觸及消費者的空間</div>
+    <div class="verify">iGaming Business、NEXT.io 對廣告占比與提告時程的描述與 CasinoBeats 一致。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://casinobeats.com/2026/10/04/meta-gambling-adverts-dutch-court/" target="_blank" rel="noopener">CasinoBeats ↗</a>
+      <a class="src" href="https://igamingbusiness.com/marketing-affiliates/vnlok-summons-meta-to-court-dutch-illegal-gambling-ads/" target="_blank" rel="noopener">iGaming Business ↗</a>
+      · 2026-10-05
+    </div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">03</div>
+    <h3>千里達及托巴哥通過遠端博彩新法，明年 1 月進入落地測試期</h3>
+    <p>千里達及托巴哥參議院於 10 月 2 日無異議通過《遠端博彩令》，修改現行《博彩、遊戲與投注管制法》第 76 條，解除對國際線上博彩業者的經營限制，使該國有機會成為本地與國際 iGaming 業者皆可合法進入的市場。政府官員認為開放監管將增加稅收與在地就業，惟在野黨參議員 Faris Al-Rawi 對修法速度與外匯流通風險表達疑慮。下一步將建立發牌與監理框架，預計於 2027 年 1 月 1 日前到位，屆時將是檢視此次開放成效的關鍵時間點。對 PM 的意義：加勒比海地區再添一個合法化線上博彩市場，發牌框架能否在明年 1 月如期到位，將是國際業者評估進場時機的重要觀察指標。</p>
+    <div class="keyrow"><b>類型</b>政府法規　<b>對象</b>千里達及托巴哥政府、國際線上博彩業者　<b>影響</b>為國際業者開放合法進入當地市場的可能性，發牌框架預計 2027 年 1 月到位</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://casinobeats.com/2026/10/04/remote-gambling-trinidad-tobago/" target="_blank" rel="noopener">CasinoBeats ↗</a>
+      · 2026-10-04
+    </div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">04</div>
+    <h3>巴西政府加碼封鎖逾萬個博彩網站，資金流通大幅萎縮</h3>
+    <p>巴西政府依據禁止固定賠率博彩的臨時法令（MP 1,394/2026），持續加大執法力道，目前已封鎖逾 10,000 個博彩網站。財政監管單位揭露，受封鎖行動影響，流向這些平台的資金餘額已從 21 億雷亞爾大幅降至 14.53 億雷亞爾，當局並持續調查多起可疑大額帳戶是否涉及洗錢。此波執法是巴西自 9 月底全面禁止運彩與固定賠率博彩以來最大規模的後續行動。對 PM 的意義：巴西監管機關展現出持續加碼而非見好就收的執法態勢，意味著任何評估重返巴西市場的業者都必須將「長期、擴大化執法」納入合規風險評估的基本假設。</p>
+    <div class="keyrow"><b>類型</b>政府法規　<b>對象</b>巴西財政部、非法博彩網站　<b>影響</b>資金流通規模顯著萎縮，執法力道持續擴大，重返市場的合規風險評估需更保守</div>
+    <div class="verify">BNLData 9 月底報導之封鎖網域數與資金凍結規模與 iGamingToday 最新數字為同一執法行動的持續延伸。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://www.igamingtoday.com/brazil-blocks-more-than-10000-betting-websites-as-government-tightens-enforcement/" target="_blank" rel="noopener">iGamingToday ↗</a>
+      <a class="src" href="https://bnldata.com.br/governo-bloqueia-10-mil-sites-de-apostas-e-anula-fluxo-diario-de-r-600-mi/" target="_blank" rel="noopener">BNLData ↗</a>
+      · 2026-10-05
+    </div>
+  </div>
+
+  <div class="card c3">
+    <div class="no">05</div>
+    <h3>加拿大亞伯達省啟動無牌線上博彩取締，合法業者估增至 60 家</h3>
+    <p>加拿大亞伯達省政府宣布，針對無牌線上博彩業者為期三個月的緩衝期將於 10 月 13 日結束，屆時將啟動正式執法，手段包括發出停止令與鎖定第三方支付處理商等選項。省府預期隨著執法到位，當地合法持牌業者數量將從目前約 35 家成長至約 60 家。對 PM 的意義：北美又一個新興合規市場進入執法收尾階段，合法業者數量倍增的預期也顯示該市場仍有新進者卡位空間，值得持續追蹤 10 月 13 日後的實際執法效果。</p>
+    <div class="keyrow"><b>類型</b>政府法規　<b>對象</b>亞伯達省政府（AGLC）、無牌線上博彩業者　<b>影響</b>合法持牌業者數量預期由 35 家增至約 60 家，無牌業者將面臨停止令與金流封鎖</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://www.igamingtoday.com/alberta-prepares-action-against-unlicensed-online-gambling-sites/" target="_blank" rel="noopener">iGamingToday ↗</a>
+      · 2026-10-05
+    </div>
+  </div>
+</section>
+<section>
+  <div class="sec-title"><span class="emoji">🇵🇭</span><h2>動態：菲律賓 GP／平台</h2><span class="cnt">共 2 則</span></div>
+  <div class="card c4">
+    <div class="no">01</div>
+    <h3>Casino Plus 攜手 Peter &amp; Sons，引進國際 GP 內容深化在地布局</h3>
+    <p>PAGCOR 持牌現金網 Casino Plus 宣布與國際遊戲開發商 Peter &amp; Sons 達成策略內容合作，將逐步引進該廠旗下精選老虎機作品供菲律賓玩家遊玩。雙方規劃採漸進式整合排程，內容將持續擴充至 2026 年底並延伸至 2027 年，同時規劃推出針對菲律賓市場量身打造的聯名活動與專屬作品。Casino Plus 執行長 Evan Spytma 強調「文化契合度」是選片關鍵，遊戲必須符合當地玩家的喜好。對 PM 的意義：Peter &amp; Sons 近期已透過 BingoPlus 取得 PAGCOR 核准進入菲律賓市場，如今再與 Casino Plus 達成合作，顯示國際二線 GP 正加速在菲律賓現金網生態圈鋪貨，是觀察菲律賓市場內容採購偏好的指標案例。</p>
+    <div class="keyrow"><b>類型</b>合作　<b>對象</b>Casino Plus、Peter &amp; Sons　<b>影響</b>國際 GP 內容加速進駐菲律賓現金網生態圈，強化在地化內容競爭力</div>
+    <div class="verify">boracayislandnews、sportsonair、voiceofasean 等多方轉載內容與 mindanaodailynews 原文一致。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://mindanaodailynews.com/casino-plus-and-peter-sons-unite-to-bring-world-class-gaming-to-filipino-players/" target="_blank" rel="noopener">Mindanao Daily News ↗</a>
+      · 2026-10-04
+    </div>
+  </div>
+
+  <div class="card c4">
+    <div class="no">02</div>
+    <h3>📦（10/3）DigiPlus 基金會賑濟呂宋逾 2.4 萬名西南季風風災災民</h3>
+    <p>DigiPlus 旗下公益基金會透過「BayanihanPlus」計畫，於 8 月 27 日至 9 月 22 日間在大馬尼拉、邦阿西楠、邦板牙、布拉幹等地執行五場賑災行動，合計發放 3,500 份民生物資包與 1,600 份米糧包，協助逾 2.4 萬名受西南季風（habagat）豪雨及淹水影響的災民，行動並與社會福利暨發展部（DSWD）及地方政府協調執行。對 PM 的意義：菲律賓核心現金網集團持續透過品牌基金會強化在地社會責任形象，是觀察菲律賓大型博彩集團如何經營政府與社區關係、鞏固持牌正當性的指標性操作。</p>
+    <div class="keyrow"><b>類型</b>負責任博彩　<b>對象</b>DigiPlus 基金會、呂宋風災災民　<b>影響</b>強化 DigiPlus 集團在菲律賓的社會責任形象與政府關係，間接鞏固其持牌正當性</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://manilatimes.net/2026/10/03/tmt-newswire/digiplus-foundation-provides-relief-to-24000-filipinos-affected-by-habagat-across-luzon/2438336" target="_blank" rel="noopener">Manila Times ↗</a>
+      · 2026-10-03
+    </div>
+  </div>
+</section>
+<section>
+  <div class="sec-title"><span class="emoji">📊</span><h2>市場數據 & 趨勢</h2><span class="cnt">共 3 則</span></div>
+  <div class="card c5">
+    <div class="no">01</div>
+    <h3>巴西運彩禁令衝擊奧運及帕運經費，預估損失逾 26 億雷亞爾</h3>
+    <p>巴西運彩全面禁令預計將使該國奧運委員會（COB）與帕運委員會（CPB）等體育組織，至 2027 年止損失約 26.23 億雷亞爾的資金挹注，原因是禁令同時取消了《14,790/2023 號法》原本提撥給體育界的博彩收入分潤。COB 表示，若無博彩收入來源，其預計收入將減少 20%，直接衝擊 2028 洛杉磯奧運的備戰資源；聯邦政府則以保護家庭免於博彩負債為由，為禁令的必要性辯護。對 PM 的意義：博彩禁令的外溢影響已從業者端擴散至整個體育生態系的財務結構，顯示巴西政府對待此次禁令的態度相當徹底，短期內幾乎不存在鬆綁或部分開放的政策空間。</p>
+    <div class="keyrow"><b>類型</b>政府法規　<b>對象</b>巴西奧運委員會／帕運委員會、巴西聯邦政府　<b>影響</b>體育界資金缺口擴大，顯示博彩禁令執行態度徹底、短期難有鬆綁空間</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://bnldata.com.br/proibicao-de-apostas-esportivas-gera-prejuizo-de-r-26-bi-ao-esporte-olimpico-e-paralimpico/" target="_blank" rel="noopener">BNLData ↗</a>
+      · 2026-10-04
+    </div>
+  </div>
+
+  <div class="card c5">
+    <div class="no">02</div>
+    <h3>NagaCorp 前三季 GGR 衰退 21.5% 至 4.18 億美元，VIP 市場持續萎縮</h3>
+    <p>柬埔寨金邊 NagaWorld 綜合度假村營運商 NagaCorp 公布，2026 年前九個月博弈毛收入（GGR）年減 21.5% 至 4.179 億美元，主要受 Premium VIP 貴賓廳收入暴跌 40.1%、介紹人 VIP 收入銳減 72.5% 拖累，背後反映柬埔寨網路詐騙疑慮升高與國際旅遊意願下滑的雙重衝擊；相對之下，大眾市場收入僅小幅下滑 10%，展現較強韌性。對 PM 的意義：柬埔寨 VIP 貴賓廳市場的結構性衰退持續惡化，與區域內 Okada Manila 等其他亞洲綜合度假村的 VIP 困境形成一致趨勢，顯示東南亞實體賭場正集體面臨客群結構轉型壓力。</p>
+    <div class="keyrow"><b>類型</b>財務　<b>對象</b>NagaCorp（NagaWorld）　<b>影響</b>VIP 貴賓廳收入結構性衰退，與區域同業困境相呼應，凸顯東南亞實體賭場客群轉型壓力</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://asgam.com/2026/10/05/nagacorp-ggr-down-21-5-to-us418-million-in-first-nine-months-of-2026-as-vip-woes-accelerate-in-september-quarter/" target="_blank" rel="noopener">Inside Asian Gaming ↗</a>
+      · 2026-10-05
+    </div>
+  </div>
+
+  <div class="card c5">
+    <div class="no">03</div>
+    <h3>澳門黃金週首四日訪客逾 75 萬人次，內地旅客年增 34.1%</h3>
+    <p>澳門黃金週假期首四日累計約 75 萬人次訪客，其中第四日單日入境人數約 21 萬人次，較去年同期分別成長 22.3%、10.2%、6.4%（依前三日計算）。整體內地旅客約 467,348 人次，年增 34.1%。對 PM 的意義：黃金週訪客數據的強勁年增，為澳門博弈業第四季營收提供正面訊號，尤其內地客流大幅回升，有助評估博彩毛收入在年底前的環比動能。</p>
+    <div class="keyrow"><b>類型</b>市場數據　<b>對象</b>澳門博弈業、內地訪客市場　<b>影響</b>內地客流強勁回升為澳門第四季博弈營收提供正面訊號</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://asgam.com/2026/10/05/macau-sees-strong-golden-week-visitation-with-750000-arrivals-across-first-four-days-of-holiday/" target="_blank" rel="noopener">Inside Asian Gaming ↗</a>
+      · 2026-10-05
+    </div>
+  </div>
+</section>
+
+<div class="stats-line">本日日報查詢約 <b>58</b> 個網站，其中提取 <b>24</b> 個資料來源並進行交叉比對</div>
+
+<footer>
+  iGaming 日報自動化 v6.5（三層收集＋庫存＋定稿檢查）・每則皆附真實可點擊原文連結・多來源交叉查證<br>
+  產出時間：2026-10-05（台北時間）
+</footer>
+</div>
+</body>
+</html>
