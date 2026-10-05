@@ -38,6 +38,7 @@ jobs:
     env:
       TZ: Asia/Taipei
       IGAMING_PUBLISH_TEST_TO_MAIN: '0'
+      IGAMING_BRANCH: cloud-trial   # run_daily.sh 開跑前的「切回預期分支」保險要認 cloud-trial
     steps:
       - name: 檢查 Secrets（沒設就跳過）
         id: gate

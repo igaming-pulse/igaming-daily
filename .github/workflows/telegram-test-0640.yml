@@ -36,14 +36,44 @@ concurrency:
   group: telegram-test
   cancel-in-progress: false
 
+permissions:
+  contents: read
+  actions: read
+
 jobs:
   push-telegram-test:
     runs-on: ubuntu-latest
     steps:
+      # 2026-10-05：13' v 跑完若已過 06:30，scripts/notify_telegram.sh 會直接手動觸發本 workflow。
+      # 排程那次若發現「今天（台北）已有成功的手動發送」就跳過，避免同一份日報送兩次。
+      - name: 今天已手動發送過就跳過（只對排程）
+        id: guard
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request
+          from datetime import datetime, timedelta, timezone
+          tpe = timezone(timedelta(hours=8))
+          today = datetime.now(tpe).date()
+          url = (f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/actions/workflows/"
+                 "telegram-test-0640.yml/runs?event=workflow_dispatch&status=success&per_page=20")
+          req = urllib.request.Request(url, headers={"Authorization": f"Bearer {os.environ['GH_TOKEN']}",
+                                                     "Accept": "application/vnd.github+json"})
+          runs = json.load(urllib.request.urlopen(req)).get("workflow_runs", [])
+          sent = [r for r in runs if datetime.fromisoformat(r["created_at"].replace("Z", "+00:00")).astimezone(tpe).date() == today]
+          skip = "true" if sent else "false"
+          print(f"今天（{today}）已成功手動發送 {len(sent)} 次 → skip={skip}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"skip={skip}\n")
+          PY
       - uses: actions/checkout@v4
+        if: steps.guard.outputs.skip != 'true'
         with:
           ref: test-publish
       - name: 發送（測試）Telegram
+        if: steps.guard.outputs.skip != 'true'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
