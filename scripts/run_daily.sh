@@ -84,6 +84,15 @@ BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "?")
 log "git pull…"
 git pull --ff-only >>"$LOG" 2>&1 || log "⚠️ git pull 失敗，用本地版本繼續"
 
+# 提早手動執行後，02:30 的排程就不要再跑一次（2026-10-07）：今天已有成功的日報 commit → 略過
+# 要強制重跑：IGAMING_FORCE=1 bash scripts/run_daily.sh
+if [ "${IGAMING_FORCE:-0}" != "1" ] && git log --since="18 hours ago" --format=%s | grep -qx "daily: ${DATE} report" \
+   && [ -f "reports/${DATE}.html" ]; then
+  log "今天（${DATE}）已經有成功的日報 commit，略過本次（強制重跑請設 IGAMING_FORCE=1）"
+  log "──────── 結束 ────────"
+  exit 0
+fi
+
 HEAD_BEFORE=$(git rev-parse HEAD 2>/dev/null || echo "none")
 START_EPOCH=$(date +%s)
 
