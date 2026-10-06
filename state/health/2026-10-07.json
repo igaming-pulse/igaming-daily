@@ -5,28 +5,28 @@
  ],
  "info": {
   "credits": {
-   "remaining": 343,
+   "remaining": 326,
    "plan": 1000,
    "period_end": "2026-10-14",
-   "today_use": 13,
-   "daily_use": 30,
+   "today_use": 30,
+   "daily_use": 33,
    "daily_basis": "近 7 天實際",
    "days_to_reset": 7,
-   "need_until_reset": 210
+   "need_until_reset": 231
   },
   "tier": {
    "tier": "🟢 充裕",
-   "budget": 48,
-   "remaining": 356,
+   "budget": 46,
+   "remaining": 343,
    "period_end": "2026-10-14",
    "days_to_reset": 7,
    "reserve": 20,
    "note": "全開",
-   "lists_spent": 6,
+   "lists_spent": 5,
    "article_limit": 22
   },
   "sources": {
-   "total": 101,
+   "total": 100,
    "failed_today": [
     "Kalamba Games"
    ],
@@ -35,14 +35,14 @@
    ]
   },
   "candidates": {
-   "today": 505,
+   "today": 504,
    "median_same_type": 417,
    "basis_days": 5,
    "type": "平日窗"
   },
   "qa": {
    "errors": 0,
-   "warnings": 7,
+   "warnings": 8,
    "fixes": 1
   }
  }

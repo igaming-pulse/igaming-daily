@@ -1,32 +1,36 @@
 🎰 iGaming 市場日報 2026-10-07（週三）
-🎰 Slot 5 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 4 ・ 📊 市場數據 3
+🎰 Slot 5 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
 
 🎰 Slot 新遊戲
-01 Gator Hunters 2 – Nolimit City
-02 Pelican Payday – Pragmatic Play
-03 Bull Blitz Rampage／Dragon's Law Super Fortune – Konami
-04 Demonic Dolls – Hacksaw Gaming
-05 Gems of Scaralith – Million Games
+01 🆕 Huff N' Puff Haunted Mansion（10/15上線）
+02 Bull Blitz Rampage／Dragon's Law Super Fortune
+03 Gator Hunters 2
+04 Pelican Payday
+05 Demonic Dolls
 
 🕹️ 非 Slot 新內容
-01 Tonybet 愛爾蘭上線撲克業務，補齊第三垂直
-02 ICONIC21 為線上 21 點推出「暗牌加倍」
+01 Tonybet 新增撲克垂直
+02 Face Down Double Down 新功能 – ICONIC21
+03 📦 挪威線上撲克監理諮詢
 
 🤝 動態：主流 GP／平台
-01 Stake 取得加拿大亞伯達省博彩牌照，10/12 正式合規上線
-02 Informa 以 22.4 億英鎊收購 ICE／iGB 主辦方 Clarion Events
-03 NOVOMATIC Colombia 預告 GAT Bogotá 2026 連線彩池新品陣容
-04 IGT 推出 Tiger and Dragon Link，切入西班牙沙龍多遊戲彩池市場
+01 Stake 取得加拿大亞伯達省博彩牌照
+02 NOVOMATIC Colombia GAT Bogotá 展出連線彩池新品
+03 IGT Tiger and Dragon Link 進軍西班牙沙龍市場
+04 Informa 以 22.4 億英鎊收購 Clarion Events（ICE／iGB）
+
+🇵🇭 動態：菲律賓 GP／平台
+01 IAG Academy Summit 馬尼拉精華影片發布
 
 📊 市場數據 & 趨勢
-01 SOFTSWISS 發布第五版《2027 iGaming Trends》報告，SBC Lisbon 收官
-02 Jefferies 分析師：Aristocrat、Light & Wonder 持續穩居老虎機龍頭
-03 巴西禁令後線上博彩需求單週驟降 78.2%，境外品牌逆勢吃下更多份額
+01 SOFTSWISS 發布《2027 iGaming Trends》趨勢報告
+02 Blask分析：巴西博弈需求單週驟降 78.2%
+03 美國線上賭場年營收突破 107 億美元
 
 📝 品質備註（本次爬找判斷）
-1. 🇵🇭 菲律賓區本日從缺：唯一查得的「Casino Plus × Peter & Sons」合作新聞經比對為 10/1、10/5 已報導過之同一合作案的媒體反覆轉載，非新進展，依規則剔除；第三層對 DigiPlus／BingoPlus／OKBet／BET88／PT Gaming 等逐一查證均未查得其他窗內合格新聞。
-2. cat2 非 Slot 僅收錄 2 則（目標 2–3 下緣）：EEZE 因連續逾 3 天無新消息（最近一篇為 9/25）依規則跳過當日固定收錄；窗內其餘候選多為重複報導或純監管/治安類新聞，未達收錄門檻。
-3. cat3-02 Informa 收購 Clarion Events 公式評分偏低（屬 M&A 類別、E 權重僅 1 分），但考量其為 iGaming 產業核心展會/媒體資產易主、對 PM 實務意義重大，判斷予以收錄。
+1. 🇵🇭 菲律賓區今日窗內候選僅 2 則、且多為舊聞重複，已跑第三層 WebSearch 共 8 輪查詢（DigiPlus/BingoPlus/PAGCOR/Acewin/Omiplay/YellowBat/ATG/Casino Plus等）仍無新鮮度足夠的平台動態，僅收錄 1 則（IAG Academy Summit 精華影片，屬次要活動紀錄），低於 2-4 目標，以庫存與持續追蹤維持可讀性。
+2. cat1-01 Huff N' Puff Haunted Mansion 主來源發布於 2026-09-27（距今10天），因屬熱門IP系列（H加分）適用30天放寬預告規則，故予以收錄，上線日 10/15。
+3. 7 個來源連結因站方擋爬蟲回傳 403 無法自動驗證（Focus Gaming News、iGaming Expert、SBC News、SiGMA、GGRAsia、Inside Asian Gaming 各一），內容已人工交叉比對多家轉載確認屬實，非連結失效。
 
 ⚙️ 系統警報
 1. 🟠 來源連續失敗 ≥3 天：Kalamba Games（8 天）；請檢查網址或改抓取方式

@@ -191,6 +191,36 @@
     }
    ],
    "key": "gameofthronesslot|blueprintgaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Gems of Scaralith",
+   "gp": "Million Games",
+   "b": 1,
+   "first_seen": "2026-10-07",
+   "sources": [
+    {
+     "name": "SlotsLaunch 上線日曆",
+     "url": "https://slotslaunch.com/arcane-pixel/gems-of-scaralith",
+     "published": "2026-10-06"
+    }
+   ],
+   "key": "gemsofscaralith|milliongames"
+  },
+  {
+   "cat": "cat1",
+   "title": "Los Piratas Golfetes",
+   "gp": "MGA Games",
+   "b": 1,
+   "first_seen": "2026-10-07",
+   "sources": [
+    {
+     "name": "Sector del Juego",
+     "url": "https://sectordeljuego.com/2026/10/06/mga-games-presenta-los-piratas-golfetes-un-nuevo-video-slot-con-respins-espectrales-y-free-spins-del-mas-alla/",
+     "published": "2026-10-06"
+    }
+   ],
+   "key": "lospiratasgolfetes|mgagames"
   }
  ],
  "others": [
@@ -345,6 +375,62 @@
     }
    ],
    "key": "usonlinecasinorevenuetops107billion|美國線上賭場市場"
+  },
+  {
+   "cat": "cat2",
+   "title": "CreedRoomz 攜手 Pasino.ch 深化瑞士市場",
+   "gp": "CreedRoomz",
+   "first_seen": "2026-10-07",
+   "sources": [
+    {
+     "name": "Zona de Azar",
+     "url": "https://zonadeazar.com/juego-online/creedroomz-to-bring-live-casino-content-to-switzerland-with-pasino-ch/",
+     "published": "2026-10-06"
+    }
+   ],
+   "key": "creedroomz攜手pasinoch深化瑞士市場|creedroomz"
+  },
+  {
+   "cat": "cat3",
+   "title": "SBC Awards 2026 得獎名單揭曉",
+   "gp": "SBC Awards",
+   "first_seen": "2026-10-05",
+   "sources": [
+    {
+     "name": "AGB",
+     "url": "https://agbrief.com/news/europe/04/10/2026/sbc-awards-2026-winners-crowned-at-meo-arena-in-lisbon/",
+     "published": "2026-10-05"
+    }
+   ],
+   "key": "sbcawards2026得獎名單揭曉|sbcawards"
+  },
+  {
+   "cat": "cat3",
+   "title": "多明尼加通過博弈新法並任命新監理機關首長",
+   "gp": "Dominican Republic DGJA",
+   "first_seen": "2026-10-06",
+   "sources": [
+    {
+     "name": "Yogonet International",
+     "url": "https://www.yogonet.com/international/news/2026/10/06/126710-dominican-republic-enacts-law-regulating-gambling-and-appoints-quico-tabar-to-head-new-dgja",
+     "published": "2026-10-06"
+    }
+   ],
+   "key": "多明尼加通過博弈新法並任命新監理機關首長|dominicanrepublicdgja"
+  },
+  {
+   "cat": "cat4",
+   "title": "2026 IAG Academy Summit 馬尼拉精華影片",
+   "gp": "Inside Asian Gaming",
+   "first_seen": "2026-10-07",
+   "sources": [
+    {
+     "name": "Inside Asian Gaming",
+     "url": "https://asgam.com/2026/10/06/inside-asian-gaming-releases-official-highlights-video-of-2026-iag-academy-summit-at-manilas-newport-world-resorts/",
+     "published": "2026-10-06"
+    }
+   ],
+   "key": "2026iagacademysummit馬尼拉精華影片|insideasiangaming"
   }
  ],
  "history": [
@@ -1749,6 +1835,20 @@
    "gp": "Bally's Corporation"
   },
   {
+   "key": "huffnpuffhauntedmansion|lightwonder",
+   "date": "2026-10-07",
+   "cat": "cat1",
+   "title": "Huff N' Puff Haunted Mansion",
+   "gp": "Light & Wonder"
+  },
+  {
+   "key": "bullblitzrampagedragonslawsuperfortune|konami",
+   "date": "2026-10-07",
+   "cat": "cat1",
+   "title": "Bull Blitz Rampage / Dragon's Law Super Fortune",
+   "gp": "Konami"
+  },
+  {
    "key": "gatorhunters2|nolimitcity",
    "date": "2026-10-07",
    "cat": "cat1",
@@ -1763,13 +1863,6 @@
    "gp": "Pragmatic Play"
   },
   {
-   "key": "bullblitzrampagedragonslawsuperfortune|konami",
-   "date": "2026-10-07",
-   "cat": "cat1",
-   "title": "Bull Blitz Rampage / Dragon's Law Super Fortune",
-   "gp": "Konami"
-  },
-  {
    "key": "demonicdolls|hacksawgaming",
    "date": "2026-10-07",
    "cat": "cat1",
@@ -1777,39 +1870,32 @@
    "gp": "Hacksaw Gaming"
   },
   {
-   "key": "gemsofscaralith|milliongames",
-   "date": "2026-10-07",
-   "cat": "cat1",
-   "title": "Gems of Scaralith",
-   "gp": "Million Games"
-  },
-  {
-   "key": "tonybet愛爾蘭上線撲克|tonybet",
+   "key": "tonybet新增撲克垂直|tonybet",
    "date": "2026-10-07",
    "cat": "cat2",
-   "title": "Tonybet 愛爾蘭上線撲克",
+   "title": "Tonybet 新增撲克垂直",
    "gp": "Tonybet"
   },
   {
-   "key": "iconic21暗牌加倍21點新功能|iconic21",
+   "key": "facedowndoubledown新功能|iconic21",
    "date": "2026-10-07",
    "cat": "cat2",
-   "title": "ICONIC21 暗牌加倍 21 點新功能",
+   "title": "Face Down Double Down 新功能",
    "gp": "ICONIC21"
   },
   {
-   "key": "stake取得亞伯達省博彩牌照|stake",
+   "key": "挪威線上撲克監理諮詢|norsktipping",
    "date": "2026-10-07",
-   "cat": "cat3",
-   "title": "Stake 取得亞伯達省博彩牌照",
-   "gp": "Stake"
+   "cat": "cat2",
+   "title": "挪威線上撲克監理諮詢",
+   "gp": "Norsk Tipping"
   },
   {
-   "key": "informa收購clarioneventsiceigb|informa",
+   "key": "stake取得加拿大亞伯達省博彩牌照|stake",
    "date": "2026-10-07",
    "cat": "cat3",
-   "title": "Informa 收購 Clarion Events（ICE/iGB）",
-   "gp": "Informa"
+   "title": "Stake 取得加拿大亞伯達省博彩牌照",
+   "gp": "Stake"
   },
   {
    "key": "novomaticcolombiagatbogot連線彩池新品|novomatic",
@@ -1826,6 +1912,20 @@
    "gp": "IGT"
   },
   {
+   "key": "informa收購clarionevents|informa",
+   "date": "2026-10-07",
+   "cat": "cat3",
+   "title": "Informa 收購 Clarion Events",
+   "gp": "Informa"
+  },
+  {
+   "key": "iagacademysummit馬尼拉精華影片|insideasiangaming",
+   "date": "2026-10-07",
+   "cat": "cat4",
+   "title": "IAG Academy Summit 馬尼拉精華影片",
+   "gp": "Inside Asian Gaming"
+  },
+  {
    "key": "softswiss2027igamingtrends報告|softswiss",
    "date": "2026-10-07",
    "cat": "cat5",
@@ -1833,18 +1933,18 @@
    "gp": "SOFTSWISS"
   },
   {
-   "key": "aristocratlightwonder分析師觀點|aristocratlightwonder",
+   "key": "blask巴西線上博彩需求驟降782|blask",
    "date": "2026-10-07",
    "cat": "cat5",
-   "title": "Aristocrat／Light & Wonder 分析師觀點",
-   "gp": "Aristocrat/Light & Wonder"
+   "title": "Blask 巴西線上博彩需求驟降 78.2%",
+   "gp": "Blask"
   },
   {
-   "key": "巴西線上博彩需求驟降782|blask",
+   "key": "美國線上賭場年營收突破107億美元|casinolifemagazine",
    "date": "2026-10-07",
    "cat": "cat5",
-   "title": "巴西線上博彩需求驟降 78.2%",
-   "gp": "Blask"
+   "title": "美國線上賭場年營收突破 107 億美元",
+   "gp": "Casino Life Magazine"
   }
  ],
  "rejected": [
