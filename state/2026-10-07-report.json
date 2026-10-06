@@ -1,0 +1,689 @@
+{
+ "date": "2026-10-07",
+ "sections": [
+  {
+   "cat": "cat1",
+   "heading": "🎰 Game Provider 新遊戲",
+   "items": [
+    {
+     "no": 1,
+     "label": "",
+     "title": "Gator Hunters 2 – Nolimit City",
+     "body": [
+      "Nolimit City 推出沼澤獵鱷系列續作《Gator Hunters 2》，在原作基礎上全面加碼：新增 Fire Zone 機制，可為落在特定區域的特殊符號升級，推動最高倍率與整體刺激感雙雙提升。遊戲維持系列招牌的左輪槍倍數機制與沼澤題材美術風格，命中頻率約每 5.5 次旋轉一次，觸發免費遊戲約需 205 次旋轉。對 PM 的意義：延續爆紅 IP 比單純推新作風險更低，適合作為高波動老虎機櫃位的續作補位。"
+     ],
+     "derive": "續作沿用原作沼澤獵鱷題材與左輪槍倍數機制，新增 Fire Zone 符號升級區域，最高倍率由原作上修。",
+     "spec": [
+      [
+       "遊戲類型",
+       "線上電子老虎機"
+      ],
+      [
+       "盤面",
+       "6×5"
+      ],
+      [
+       "消除/賠付",
+       "Scatter Pays（集齊符號計分，不限連線）"
+      ],
+      [
+       "最高倍率",
+       "30,000x（另提供 94%／92% RTP 版本供營運商選用）"
+      ],
+      [
+       "RTP",
+       "96%（基礎局 63.37%＋ Bonus 32.64%）"
+      ],
+      [
+       "波動",
+       "極高"
+      ],
+      [
+       "目標市場",
+       "沒有特定單一市場"
+      ],
+      [
+       "關鍵特色",
+       "Fire Zone 符號升級機制、雙重免費遊戲模式、左輪槍倍數"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "",
+     "sources": [
+      [
+       "BigWinBoard 新作列表",
+       "https://www.bigwinboard.com/new-slots/"
+      ],
+      [
+       "BigWinBoard 評測",
+       "https://www.bigwinboard.com/gator-hunters-2-nolimit-city-slot-review/"
+      ]
+     ],
+     "date": "2026-10-06",
+     "image": "https://www.bigwinboard.com/wp-content/uploads/2026/09/Gator-Hunters-2-slot-feat.jpg",
+     "image_raw": "https://www.bigwinboard.com/wp-content/uploads/2026/09/Gator-Hunters-2-slot-feat.jpg"
+    },
+    {
+     "no": 2,
+     "label": "",
+     "title": "Pelican Payday – Pragmatic Play",
+     "body": [
+      "Pragmatic Play 旗下休閒向 POP 系列再添新作《Pelican Payday》，以一隻熱衷撿鈔票勝過抓魚的鵜鶘為主角，延續該系列慣用的 Money ＆ Collect 符號收集玩法。遊戲支援直向與橫向兩種顯示模式，直向版本更貼近行動裝置重度玩家的操作習慣；整體節奏輕快、規則單純，定位為休閒玩家取向的日常轉盤選項而非高波動獵殺型老虎機。對 PM 的意義：低波動＋簡單規則的組合有助提升新手留存與行動端黏著度，可作為大廠休閒向櫃位的常態補充。"
+     ],
+     "derive": "屬 Pragmatic Play POP 原創 IP 系列最新作，延續系列既有的 Money ＆ Collect 收集玩法公式，無重大機制衍生。",
+     "spec": [
+      [
+       "遊戲類型",
+       "線上電子老虎機"
+      ],
+      [
+       "盤面",
+       "3 轉軸 × 每輪 5 符號（直向／橫向可切換）"
+      ],
+      [
+       "消除/賠付",
+       "10 條賠付線＋ Money／Collect 符號收集"
+      ],
+      [
+       "最高倍率",
+       "5,000x"
+      ],
+      [
+       "RTP",
+       "96.59%"
+      ],
+      [
+       "波動",
+       "低"
+      ],
+      [
+       "目標市場",
+       "休閒玩家、行動裝置為主"
+      ],
+      [
+       "關鍵特色",
+       "Money ＆ Collect 收集機制、Free Spins 功能、直向行動版面"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "",
+     "sources": [
+      [
+       "BigWinBoard 新作列表",
+       "https://www.bigwinboard.com/new-slots/"
+      ],
+      [
+       "BigWinBoard 評測",
+       "https://www.bigwinboard.com/pelican-payday-pragmatic-play-slot-review/"
+      ]
+     ],
+     "date": "2026-10-06",
+     "image": "https://www.bigwinboard.com/wp-content/uploads/2026/08/Pelican-Payday-slot-feat.jpg",
+     "image_raw": "https://www.bigwinboard.com/wp-content/uploads/2026/08/Pelican-Payday-slot-feat.jpg"
+    },
+    {
+     "no": 3,
+     "label": "",
+     "title": "Bull Blitz Rampage ／ Dragon's Law Super Fortune – Konami",
+     "body": [
+      "Konami 在 G2E 2026（拉斯維加斯）展會上發表超過 50 款新遊戲主題，橫跨五個機台家族，其中最受矚目的是兩款實體老虎機新機台：《Bull Blitz Rampage》搭載在疊屏式 Solstice 機台上，是澳洲市場人氣系列的品牌延伸；《Dragon's Law Super Fortune》則是業界首款 11 呎高巨型機台，內建三重 Bonus 玩法，承接暢銷系列 Dragon's Law Fortune 的熱度。Konami 資深副總裁 Gerard Crosby 表示現場反應媲美去年 Bomberman 系列上市時的熱度。對 PM 的意義：兩款新機台分別鎖定「沉浸式大型機台」與「IP 品牌延伸」兩條產品線，可作為實體廳規劃巨型機台與人氣系列補位的參考指標。"
+     ],
+     "derive": "Dragon's Law Super Fortune 為暢銷系列 Dragon's Law Fortune 的升級延伸版本；Bull Blitz Rampage 為澳洲市場成功系列的品牌延伸之作。",
+     "spec": [
+      [
+       "遊戲類型",
+       "實體老虎機"
+      ],
+      [
+       "盤面",
+       "不適用（實體機台，多主題／多機型）"
+      ],
+      [
+       "消除/賠付",
+       "不適用（Dragon's Law Super Fortune 內建三重 Bonus 玩法）"
+      ],
+      [
+       "最高倍率",
+       "未公布"
+      ],
+      [
+       "RTP",
+       "未公布"
+      ],
+      [
+       "波動",
+       "未公布"
+      ],
+      [
+       "目標市場",
+       "北美（G2E／拉斯維加斯首發）"
+      ],
+      [
+       "關鍵特色",
+       "Dragon's Law Super Fortune 為 11 呎巨型機台／三重 Bonus；Bull Blitz Rampage 採疊屏 Solstice 機型"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "max倍率／RTP／波動屬實體機台現場展示資訊，官方新聞稿與二手媒體均未公布數值，已查 G3 Newswire、Focus Gaming News 兩篇現場報導仍無公布數字。",
+     "sources": [
+      [
+       "G3 Newswire",
+       "https://g3newswire.com/konamis-g2e-showing-sees-major-launches-like-bull-blitz-rampage-and-dragons-law-super-fortune/"
+      ],
+      [
+       "Focus Gaming News",
+       "https://focusgn.com/konami-gaming-g2e-slot-launches"
+      ]
+     ],
+     "date": "2026-10-06",
+     "image": "https://g3newswire.com/wp-content/uploads/2026/10/Konami-Gaming-G2E1-scaled-e1791301056196.jpg",
+     "image_raw": "https://g3newswire.com/wp-content/uploads/2026/10/Konami-Gaming-G2E1-scaled-e1791301056196.jpg"
+    },
+    {
+     "no": 4,
+     "label": "",
+     "title": "Demonic Dolls – Hacksaw Gaming",
+     "body": [
+      "Hacksaw Gaming 推出陰森詭譎的新作《Demonic Dolls》，以兩個被巫毒詛咒的詭異娃娃盤踞盤面兩側為視覺主軸，玩法走 Cluster Pays 路線。核心機制是 Wild Rattle 符號，單顆可帶有最高 100x 的附加倍數，兩顆以上還可合併成 2×2 的巨型 Wild Rattle 並疊加倍數；免費遊戲提供三種模式，可提高或保證 Wild Rattle 出現機率。對 PM 的意義：中波動＋疊加倍數機制兼顧回報穩定性與爆發感，適合作為吸引中階玩家的主力櫃位補充。"
+     ],
+     "derive": "全新主題與角色設定，延續 Hacksaw Gaming 慣用的 Cluster Pays 與 Wild 疊加倍數公式，無直接前作。",
+     "spec": [
+      [
+       "遊戲類型",
+       "線上電子老虎機"
+      ],
+      [
+       "盤面",
+       "5×5"
+      ],
+      [
+       "消除/賠付",
+       "Cluster Pays（5 個以上相連符號計分）"
+      ],
+      [
+       "最高倍率",
+       "10,000x"
+      ],
+      [
+       "RTP",
+       "96.26%"
+      ],
+      [
+       "波動",
+       "中"
+      ],
+      [
+       "目標市場",
+       "沒有特定單一市場"
+      ],
+      [
+       "關鍵特色",
+       "Wild Rattle 疊加倍數（最高 100x）、合併成巨型 Wild Rattle、三種免費遊戲模式"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "",
+     "sources": [
+      [
+       "BigWinBoard 新作列表",
+       "https://www.bigwinboard.com/new-slots/"
+      ],
+      [
+       "BigWinBoard 評測",
+       "https://www.bigwinboard.com/demonic-dolls-hacksaw-gaming-slot-review/"
+      ]
+     ],
+     "date": "2026-10-06",
+     "image": "https://www.bigwinboard.com/wp-content/uploads/2026/07/Demonic-Dolls-slot-feat.jpg",
+     "image_raw": "https://www.bigwinboard.com/wp-content/uploads/2026/07/Demonic-Dolls-slot-feat.jpg"
+    },
+    {
+     "no": 5,
+     "label": "",
+     "title": "Gems of Scaralith – Million Games（Arcane Pixel）",
+     "body": [
+      "Million Games 旗下新品牌 Arcane Pixel 推出首作《Gems of Scaralith》，核心機制圍繞「贏分觸發 Respin＋漸進倍數」設計：每次中獎都會觸發 Respin，期間若有高分符號伴隨綠寶石或藍寶石落地，綠寶石會拉高倍數、藍寶石則再加碼 Respin 次數，形成連鎖延伸的爽快感。集滿 4／5／6 個 Scatter 可分別觸發 15／20／25 次免費遊戲，且免費遊戲期間累積倍數不會重置；另設有加注 50% 投注額換取更高 Wild／寶石符號機率的 Arcane Spin 選購模式。對 PM 的意義：高波動＋可選購加成的組合貼近當前流行的「玩家自選風險」趨勢，適合作為中小型 Provider 衝刺櫃位能見度的補位款。"
+     ],
+     "derive": "Arcane Pixel 為 Million Games 旗下全新品牌首發作品，無衍生前作。",
+     "spec": [
+      [
+       "遊戲類型",
+       "線上電子老虎機"
+      ],
+      [
+       "盤面",
+       "5×4（All Ways）"
+      ],
+      [
+       "消除/賠付",
+       "Win-triggered Respin ＋漸進倍數"
+      ],
+      [
+       "最高倍率",
+       "5,000x"
+      ],
+      [
+       "RTP",
+       "96.04%"
+      ],
+      [
+       "波動",
+       "高"
+      ],
+      [
+       "目標市場",
+       "沒有特定單一市場"
+      ],
+      [
+       "關鍵特色",
+       "綠寶石加倍數／藍寶石加 Respin 連鎖機制、Arcane Spin 加注選購模式"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "",
+     "sources": [
+      [
+       "EEGaming",
+       "https://eegaming.org/latest-news/2026/10/06/53002/million-games-launches-arcane-pixel-slot-gems-of-scaralith/"
+      ],
+      [
+       "HIPTHER",
+       "https://hipther.com/igaming-news/2026/10/06/160907/million-games-launches-arcane-pixel-slot-gems-of-scaralith"
+      ]
+     ],
+     "date": "2026-10-06",
+     "image": "https://eegaming.org/api/eeg/social-image/55565.jpg",
+     "image_raw": "https://eegaming.org/api/eeg/social-image/55565.jpg"
+    }
+   ],
+   "count": 5
+  },
+  {
+   "cat": "cat2",
+   "heading": "🕹️ 非 Slot 新內容",
+   "items": [
+    {
+     "no": 1,
+     "label": "",
+     "title": "Tonybet 愛爾蘭上線撲克業務，補齊第三垂直產品線",
+     "body": [
+      "立陶宛背景的 Tonybet 於 10 月 6 日宣布在愛爾蘭正式上線撲克業務，與既有的運動博彩、賭場帳號完全整合，玩家不需另外註冊帳號或下載 App。新產品由 EvenBet Gaming 提供技術支援，提供現金桌、排程錦標賽與快速模式 Spins；品牌大使、前愛爾蘭足球國腳 Tony Cascarino也出面力挺，強調撲克競技張力的吸引力。對 PM 的意義：以單一帳號整合三項垂直產品是中型運營商常見的留存策略，值得觀察愛爾蘭市場撲克滲透率能否因此提升。"
+     ],
+     "derive": "",
+     "spec": [
+      [
+       "遊戲類型",
+       "撲克（Poker）— 現金桌／排程錦標賽／快速模式 Spins"
+      ],
+      [
+       "目標市場",
+       "愛爾蘭"
+      ],
+      [
+       "關鍵特色",
+       "與既有運動博彩、賭場帳號完全整合免重複註冊；採用 EvenBet Gaming 技術；品牌大使代言"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "",
+     "sources": [
+      [
+       "EEGaming",
+       "https://eegaming.org/latest-news/2026/10/06/53013/tonybet-launches-poker-in-ireland-adding-a-third-vertical/"
+      ],
+      [
+       "G3 Newswire",
+       "https://g3newswire.com/tonybet-adds-poker-to-its-irish-offering-alongside-sports-betting-and-casino/"
+      ]
+     ],
+     "date": "2026-10-06",
+     "image": "https://eegaming.org/api/eeg/social-image/55576.jpg",
+     "image_raw": "https://eegaming.org/api/eeg/social-image/55576.jpg"
+    },
+    {
+     "no": 2,
+     "label": "",
+     "title": "ICONIC21 為線上 21 點推出「暗牌加倍」新功能",
+     "body": [
+      "Live／虛擬賭場桌遊供應商 ICONIC21 推出全新 21 點功能「Face Down Double Down」，玩家在加倍後可選擇讓加碼牌立即翻開（Double Face Up），或暫時蓋住直到莊家補牌完畢才揭曉（Double Face Down），藉由延後開牌時間還原實體賭場桌邊的懸念感，且完全不更動既有規則與賠率結構。新功能已率先上線至《7-Seater Blackjack》與《Private Blackjack》兩款遊戲。對 PM 的意義：零數學風險的體驗型功能更新成本低、好上線，是桌遊供應商維持內容新鮮感的典型做法。"
+     ],
+     "derive": "",
+     "spec": [
+      [
+       "遊戲類型",
+       "21 點（Blackjack）新功能／桌遊"
+      ],
+      [
+       "目標市場",
+       "沒有特定單一市場"
+      ],
+      [
+       "關鍵特色",
+       "Double Face Down 延後開牌增加懸念；不改變賠率與規則；已上線《7-Seater Blackjack》《Private Blackjack》"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "",
+     "sources": [
+      [
+       "Focus Gaming News",
+       "https://focusgn.com/iconic21-face-down-double-down"
+      ],
+      [
+       "EEGaming",
+       "https://eegaming.org/latest-news/2026/10/06/53004/iconic21-adds-face-down-double-down-option-to-online-blackjack-games/"
+      ],
+      [
+       "G3 Newswire",
+       "https://g3newswire.com/iconic21-introduces-face-down-double-down-to-online-blackjack-portfolio/"
+      ]
+     ],
+     "date": "2026-10-06",
+     "image": "https://focusgn.com/wp-content/uploads/2026/10/ICONIC21-Face-Down-Double-Down-1200x630.jpg",
+     "image_raw": "https://focusgn.com/wp-content/uploads/2026/10/ICONIC21-Face-Down-Double-Down-1200x630.jpg"
+    }
+   ],
+   "count": 2
+  },
+  {
+   "cat": "cat3",
+   "heading": "🤝 動態：主流 GP／平台",
+   "items": [
+    {
+     "no": 1,
+     "label": "",
+     "title": "Stake 取得加拿大亞伯達省博彩牌照，10/12 正式合規上線",
+     "body": [
+      "國際現金網 Stake 宣布取得亞伯達省博彩監理機關 AGLC 核發的牌照，將於 10 月 12 日依與 Alberta iGaming Corporation 的營運協議正式上線賭場與運動博彩（暫不包含撲克與幻想運動）。Stake 此前在加拿大以灰色市場身分經營多年，年營收估計近 10 億加幣，更一度佔全國線上博彩流量逾三成；亞伯達也成為繼安大略之後，第二個把線上賭場導入正式監管體系的加拿大省份。對 PM 的意義：指標性現金網從灰色地帶轉正規合規營運，為其他仍以灰色市場姿態經營的司法管轄區提供現成的合規路徑範本。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "市場進入"
+      ],
+      [
+       "對象",
+       "Stake、Alberta Gaming, Liquor and Cannabis（AGLC）"
+      ],
+      [
+       "影響",
+       "加拿大線上博彩監管版圖擴大，灰色市場現金網合規化案例持續增加"
+      ]
+     ],
+     "keyrow_raw": "類型 市場進入 ｜ 對象 Stake、Alberta Gaming, Liquor and Cannabis（AGLC）｜ 影響 加拿大線上博彩監管版圖擴大，灰色市場現金網合規化案例持續增加",
+     "verify": "",
+     "sources": [
+      [
+       "G3 Newswire",
+       "https://g3newswire.com/stake-secures-alberta-license-as-it-prepares-for-canadian-expansion/"
+      ],
+      [
+       "Covers.com",
+       "https://www.covers.com/industry/stake-receives-alberta-gaming-license-plans-for-october-12-launch-oct-6-2026"
+      ]
+     ],
+     "date": "2026-10-06",
+     "image": "",
+     "image_raw": ""
+    },
+    {
+     "no": 2,
+     "label": "",
+     "title": "Informa 以 22.4 億英鎊收購 ICE／iGB 主辦方 Clarion Events",
+     "body": [
+      "會展巨頭 Informa 宣布以 22.4 億英鎊現金收購 Blackstone 旗下 Clarion Events，取得 ICE Barcelona、iGB Affiliate 及 WorldGaming 品牌群的主辦權，交易預計 2026 年第四季完成；收購資金來自專案融資與 9.4 億英鎊股權增發，合併後兩家會展業務年營收將超過 42 億英鎊、涵蓋逾 1,000 個 B2B 品牌。Informa 同步宣布將拆分旗下學術出版業務 Taylor & Francis，聚焦會展核心本業。對 PM 的意義：產業最具指標性的展會與媒體資產易主，未來 ICE、iGB 的活動定位、同業合作與贊助模式都可能隨母集團策略調整而改變。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "併購"
+      ],
+      [
+       "對象",
+       "Informa、Clarion Events（ICE Barcelona／iGB）"
+      ],
+      [
+       "影響",
+       "iGaming 核心展會與媒體資產所有權變動，牽動未來會展生態與同業合作模式"
+      ]
+     ],
+     "keyrow_raw": "類型 併購 ｜ 對象 Informa、Clarion Events（ICE Barcelona／iGB）｜ 影響 iGaming 核心展會與媒體資產所有權變動，牽動未來會展生態與同業合作模式",
+     "verify": "",
+     "sources": [
+      [
+       "SBC News",
+       "https://sbcnews.co.uk/events/2026/10/06/informa-clarion-ice/"
+      ],
+      [
+       "G3 Newswire",
+       "https://g3newswire.com/informa-buys-ice-and-world-gaming-organiser-clarion-for-2-24bn/"
+      ],
+      [
+       "iGaming Business",
+       "https://igamingbusiness.com/strategy/ma/informa-targets-gaming-growth-clarion-acquisition/"
+      ]
+     ],
+     "date": "2026-10-06",
+     "image": "",
+     "image_raw": ""
+    },
+    {
+     "no": 3,
+     "label": "",
+     "title": "NOVOMATIC Colombia 預告 GAT Bogotá 2026 連線彩池新品陣容",
+     "body": [
+      "NOVOMATIC Colombia 宣布將於 10 月 15 日哥倫比亞 GAT Bogotá 展會展出其連線累積彩池（Linked Progressive Jackpot）系列，包括 RISING TREASURES、IMPERA PROLINK 2 與 XTENSION LINK Evolution，皆搭載於 BLACK EDITION II 機台；其中 XTENSION LINK Evolution 近期在拉丁美洲市場被評為表現最佳新機種，績效達同業平均的 2.93 倍。對 PM 的意義：實體老虎機大廠持續把連線彩池視為拉美市場的核心武器，顯示該地區場主對跨機台彩池吸睛度仍有強勁需求。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "運營布局"
+      ],
+      [
+       "對象",
+       "NOVOMATIC Colombia、GAT Bogotá"
+      ],
+      [
+       "影響",
+       "鞏固 NOVOMATIC 在哥倫比亞／中美洲實體老虎機市場的連線彩池產品優勢"
+      ]
+     ],
+     "keyrow_raw": "類型 運營布局 ｜ 對象 NOVOMATIC Colombia、GAT Bogotá ｜ 影響 鞏固 NOVOMATIC 在哥倫比亞／中美洲實體老虎機市場的連線彩池產品優勢",
+     "verify": "",
+     "sources": [
+      [
+       "ISA-GUIDE",
+       "https://www.isa-guide.de/english-news/novomatic-colombia-heads-to-gat-bogota-2026-with-solutions-already-delivering-strong-performance-across-latin-america/"
+      ],
+      [
+       "Casino Life Magazine",
+       "https://www.casinolifemagazine.com/news/novomatic-colombia-brings-high-performing-jackpot-solutions-gat-bogot%C3%A1-2026"
+      ],
+      [
+       "NOVOMATIC 官網",
+       "https://www.novomatic.com/en/explore-novomatic/press/press-releases/novomatic-launch-of-new-linked-progressive-jackpots-at-gat"
+      ]
+     ],
+     "date": "2026-10-07",
+     "image": "",
+     "image_raw": ""
+    },
+    {
+     "no": 4,
+     "label": "",
+     "title": "IGT 推出 Tiger and Dragon Link，切入西班牙沙龍多遊戲彩池市場",
+     "body": [
+      "IGT 將旗下人氣機制 Tiger and Dragon 升級為多層級連線累積彩池機台「Tiger and Dragon Link」，正式進駐西班牙沙龍（salones）市場。同一機台可切換 Cash on Reels 與 Multiplier 兩種截然不同的玩法，並共享 Tiger Bonus、Dragon Bonus、Tiger and Dragon Bonus 三種獎項與跨機台連線彩池，讓場主能在同一空間彈性配置不同遊戲風格以貼合在地客群偏好。對 PM 的意義：以「一機多玩法」滿足場主空間效率需求，是實體機三大廠布局歐洲沙龍型通路的典型打法。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "產品布局"
+      ],
+      [
+       "對象",
+       "IGT、西班牙沙龍營運商"
+      ],
+      [
+       "影響",
+       "實體機大廠持續深耕歐洲沙龍多遊戲彩池通路，反映場主對空間效率與彩池吸睛度的雙重需求"
+      ]
+     ],
+     "keyrow_raw": "類型 產品布局 ｜ 對象 IGT、西班牙沙龍營運商 ｜ 影響 實體機大廠持續深耕歐洲沙龍多遊戲彩池通路，反映場主對空間效率與彩池吸睛度的雙重需求",
+     "verify": "",
+     "sources": [
+      [
+       "Sector del Juego",
+       "https://sectordeljuego.com/2026/10/06/igt-marca-un-nuevo-paso-en-la-evolucion-de-los-salones-con-tiger-and-dragon-link/"
+      ]
+     ],
+     "date": "2026-10-06",
+     "image": "",
+     "image_raw": ""
+    }
+   ],
+   "count": 4
+  },
+  {
+   "cat": "cat5",
+   "heading": "📊 市場數據 & 趨勢",
+   "items": [
+    {
+     "no": 1,
+     "label": "",
+     "title": "SOFTSWISS 發布第五版《2027 iGaming Trends》報告，SBC Lisbon 收官",
+     "body": [
+      "SOFTSWISS 在 SBC Summit Lisbon 閉幕之際發布第五版年度《2027 iGaming Trends》報告，首度納入產業外部觀點（包括 AWS），新增「Beyond iGaming」專章，比較 iGaming 與其他數位產業在技術應用、監管因應、成長策略與客戶體驗上的異同。同場 SOFTSWISS Game Aggregator 也獲頒 SBC Awards 2026「年度最佳聚合平台」。對 PM 的意義：年度趨勢報告是研判下一年度產品與市場布局方向的重要參考指標，尤其「跨產業對照」視角值得留意監管與技術成熟度的外部對標。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "市場數據"
+      ],
+      [
+       "對象",
+       "SOFTSWISS、AWS、SBC Awards 2026"
+      ],
+      [
+       "影響",
+       "提供 2027 年產業趨勢觀察與跨產業對標視角，供GP與平台研判來年布局方向"
+      ]
+     ],
+     "keyrow_raw": "類型 市場數據 ｜ 對象 SOFTSWISS、AWS、SBC Awards 2026 ｜ 影響 提供 2027 年產業趨勢觀察與跨產業對標視角，供GP與平台研判來年布局方向",
+     "verify": "",
+     "sources": [
+      [
+       "Focus Gaming News",
+       "https://focusgn.com/softswiss-igaming-trends-report"
+      ],
+      [
+       "SOFTSWISS 官網",
+       "https://www.softswiss.com/news/softswiss-wraps-up-sbc-lisbon/"
+      ]
+     ],
+     "date": "2026-10-06",
+     "image": "",
+     "image_raw": ""
+    },
+    {
+     "no": 2,
+     "label": "",
+     "title": "Jefferies 分析師：Aristocrat、Light & Wonder 持續穩居老虎機龍頭",
+     "body": [
+      "Jefferies 證券分析師 Kai Erman 在 G2E 2026 展後報告中指出，Aristocrat 穩居實體與 iGaming 雙線龍頭供應商地位，且在線上賭場市場也持續成長；Light & Wonder 則憑藉租賃制、慈善博彩與國際市場布局具備加速成長潛力。兩家公司 8 月雖傳出整體賭場業務疲軟，但營收均未見放緩，分析師特別看好 Aristocrat 新機台 Reign Double（租賃制）與 Reign Single（買斷制）的雙軌動能。對 PM 的意義：權威分析師報告驗證兩大實體老虎機廠在 G2E 後的市場地位，可作為評估供應商合作優先序的參考依據。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "市場數據"
+      ],
+      [
+       "對象",
+       "Aristocrat、Light & Wonder、Jefferies"
+      ],
+      [
+       "影響",
+       "驗證兩大實體機龍頭廠 G2E 後市場地位不變，供應商合作優先序評估具參考價值"
+      ]
+     ],
+     "keyrow_raw": "類型 市場數據 ｜ 對象 Aristocrat、Light & Wonder、Jefferies ｜ 影響 驗證兩大實體機龍頭廠 G2E 後市場地位不變，供應商合作優先序評估具參考價值",
+     "verify": "",
+     "sources": [
+      [
+       "CDC Gaming",
+       "https://cdcgaming.com/aristocrat-light-wonder-still-tops-in-slots-analyst-says/"
+      ]
+     ],
+     "date": "2026-10-06",
+     "image": "",
+     "image_raw": ""
+    },
+    {
+     "no": 3,
+     "label": "",
+     "title": "巴西禁令後線上博彩需求單週驟降 78.2%，境外品牌逆勢吃下更多份額",
+     "body": [
+      "市場分析平台 Blask 數據顯示，巴西全面禁止固定賠率運彩與線上賭博後，截至 10 月 4 日當週線上博彩需求週減 78.2%，是總統盧拉 9 月 25 日簽署禁令以來連續第二週重挫；玩家原訂 10 月 5 日前須提領帳戶餘額，相關網站與 App 已自 10 月 6 日起全面停止營運。儘管大盤急凍，境外（offshore）品牌占 Blask 指數的比重卻從 9 月中的 3.7% 一路攀升至 10 月 4 日當週的 23.4%，顯示監管退場後灰色境外業者正快速填補需求缺口。對 PM 的意義：全面禁令未能消除玩家需求，反而可能把流量推向缺乏監管的境外平台，為其他考慮全面禁止線上博彩的市場提供早期警訊。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "市場數據"
+      ],
+      [
+       "對象",
+       "Blask、巴西線上博彩市場"
+      ],
+      [
+       "影響",
+       "全面禁令可能助長境外無牌平台份額成長，為其他研議全面禁令的市場提供早期警訊"
+      ]
+     ],
+     "keyrow_raw": "類型 市場數據 ｜ 對象 Blask、巴西線上博彩市場 ｜ 影響 全面禁令可能助長境外無牌平台份額成長，為其他研議全面禁令的市場提供早期警訊",
+     "verify": "",
+     "sources": [
+      [
+       "GGRAsia",
+       "https://www.ggrasia.com/brazil-igaming-demand-fell-78pct-w-o-w-post-ban-but-offshore-brands-took-some-remaining-share-blask-analysis"
+      ],
+      [
+       "Yogonet International",
+       "https://www.yogonet.com/international/news/2026/10/02/126662-brazil-39s-igaming-ban-offshore-share-triples-as-affiliate-coverage-shrinks"
+      ]
+     ],
+     "date": "2026-10-06",
+     "image": "",
+     "image_raw": ""
+    }
+   ],
+   "count": 3
+  }
+ ],
+ "stats": {
+  "n1": 48,
+  "n2": 27
+ },
+ "internal": "## 🗓️ 來源日期紀錄（內部，不渲染）\n\n- cat1-01 Gator Hunters 2（Nolimit City）：主來源 BigWinBoard 新作列表，日期取自程式解析 harvest 列表（2026-10-06，網址列表頁無個別日期標記，以 harvest 抓取確認之發布日為準）；佐證 BigWinBoard 評測頁 metadata article:published_time 顯示 2026-09-29（評測稿先行撰寫，非上線日，僅作參數補充用）\n- cat1-02 Pelican Payday（Pragmatic Play）：主來源 BigWinBoard 新作列表（2026-10-06）；佐證 BigWinBoard 評測頁 metadata 顯示 2026-09-06（同上，僅作參數補充）\n- cat1-03 Konami G2E 新機台：主來源 G3 Newswire，metadata article:published_time 2026-10-06T16:39:40+01:00；佐證 Focus Gaming News metadata 顯示 2026-10-07T00:00（台北時間換算落於窗內）\n- cat1-04 Demonic Dolls（Hacksaw Gaming）：主來源 BigWinBoard 新作列表（2026-10-06，WebSearch 查證確認官方發布日 2026-10-06）；佐證 BigWinBoard 評測頁 metadata 顯示 2026-08-25（僅作參數補充）\n- cat1-05 Gems of Scaralith（Million Games）：主來源 EEGaming，metadata article:published_time 2026-10-06T08:36:00Z；佐證 HIPTHER 同步轉載，日期一致\n- cat2-01 Tonybet 愛爾蘭撲克：主來源 EEGaming，metadata article:published_time 2026-10-06T17:55:00Z；佐證 G3 Newswire 同日報導\n- cat2-02 ICONIC21 暗牌加倍：主來源 Focus Gaming News，metadata article:published_time 2026-10-06T05:58:45-03:00；佐證 EEGaming、G3 Newswire 同日轉載\n- cat3-01 Stake 亞伯達牌照：主來源 G3 Newswire（harvest 標記 2026-10-06 22:22 台北時間）；佐證 Covers.com 同日報導\n- cat3-02 Informa 收購 Clarion Events：主來源 AGB（harvest 標記 2026-10-06 21:57 台北時間，即 SBC News／G3 Newswire 同日報導之事件首發）；佐證 SBC News、G3 Newswire、iGaming Business 均為 2026-10-06 報導\n- cat3-03 NOVOMATIC Colombia GAT Bogotá：主來源 ISA-GUIDE（harvest 標記 2026-10-07 00:36 台北時間）；佐證 Casino Life Magazine（harvest 標記 2026-10-07 01:17）、NOVOMATIC 官方新聞稿（日期較舊，僅作產品細節補充）\n- cat3-04 IGT Tiger and Dragon Link：主來源 Sector del Juego，網址日期 2026/10/06 確認發布日為 2026-10-06\n- cat5-01 SOFTSWISS 2027 Trends：主來源 Focus Gaming News（harvest 標記 2026-10-06 22:40 台北時間）；佐證 SOFTSWISS 官網同日新聞稿\n- cat5-02 Aristocrat／Light & Wonder 分析師觀點：主來源 CDC Gaming（harvest 標記 2026-10-06 22:36 台北時間）\n- cat5-03 巴西線上博彩需求驟降：主來源 GGRAsia（harvest 標記 2026-10-06 13:10 台北時間）；佐證 Yogonet International 10/2 報導同一趨勢系列數據（背景佐證，數據本體以 GGRAsia 10/6 報導之 10/4 當週數字為準）\n\n判斷與假設（本次執行）：\n- cat2 僅收錄 2 則（落在 2–3 目標下緣）：窗內候選實際檢視約 22 則，扣除與近 3 天重複（CreedRoomz×Pasino.ch、Playdoit×QTech）、純犯罪/監管類（UK 非法撲克場判刑）、純規範類（LiveG24 ADM 認證）後，僅 Tonybet 撲克與 ICONIC21 暗牌加倍兩則內容夠格；EEZE 因連續逾 3 天（最近一篇具體新聞為 2026-09-25）未見新消息，依規則跳過當日固定收錄。\n- cat4 本區從缺（0 則）：第三層 WebSearch 對 DigiPlus／BingoPlus／ArenaPlus／GameZone／OKBet／BET88／PT Gaming／PlayTime 逐一查證，原本查得「Casino Plus × Peter & Sons」合作（philstar.com 2026-10-06 報導），但 finalize_report.py 模糊比對發現與 2026-10-05 日報（Mindanao Daily News 為主來源）為同一合作案的媒體後續轉載、非重大更新，依 3 天去重規則剔除；此案先前已於 2026-10-01、2026-10-04（剔除）、2026-10-05 出現過，屬菲律賓媒體反覆轉載同一則合作新聞，非新進展。庫存僅有的 1 則（SPiCE International 2026 Cebu 展會贊助稿）經 2026-10-05 已判定為展會日期過遠、內容性質為贊助商稿、E 權重最低而未收錄，本次同樣判定不予遞補。本區連續空白天數因此由 0 轉為 1 天，尚未達 3 天強制遞補門檻。\n- cat3-02 Informa 收購 Clarion Events 公式評分僅 8 分（E=1 因屬 M&A 類別權重低），但考量其為 iGaming 產業最核心展會／媒體資產易主、對 PM 實務意義重大，依「可讀性優先」判斷予以收錄。\n- 實體機類（cat1-03 Konami）之盤面／消除賠付／RTP／波動依實體機性質填寫「不適用」或「未公布」，非抓取不足。",
+ "header_counts": "🎰 Slot 5 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 4 ・ 📊 市場數據 3"
+}

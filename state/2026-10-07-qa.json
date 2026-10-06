@@ -1,0 +1,32 @@
+{
+ "date": "2026-10-07",
+ "md": "state/2026-10-07-igaming-report.md",
+ "html": "reports/2026-10-07.html",
+ "items": 14,
+ "counts": {
+  "cat1": 5,
+  "cat2": 2,
+  "cat3": 4,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 36,
+  "ok": 31,
+  "broken": 0,
+  "blocked": 5,
+  "images_dropped": 0
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-02 Pelican Payday – Pragmat｜與 cat1-01 Gator Hunters 2 – Nolimi 用了同一個來源連結",
+  "cat1-04 Demonic Dolls – Hacksaw ｜與 cat1-01 Gator Hunters 2 – Nolimi 用了同一個來源連結",
+  "cat1-03 Bull Blitz Rampage ／ Dra｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/konami-gaming-g2e-slot-launches",
+  "cat2-02 ICONIC21 為線上 21 點推出「暗牌加倍｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/iconic21-face-down-double-down",
+  "cat3-02 Informa 以 22.4 億英鎊收購 ICE｜來源連結無法自動驗證（403，多半是網站擋機器人）：SBC News https://sbcnews.co.uk/events/2026/10/06/informa-clarion-ice/",
+  "cat5-01 SOFTSWISS 發布第五版《2027 iGa｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/softswiss-igaming-trends-report",
+  "cat5-03 巴西禁令後線上博彩需求單週驟降 78.2%，境外｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/brazil-igaming-demand-fell-78pct-w-o-w-post-ban-but-offshore-brands-took-some-remaining-share-blask-analysis"
+ ],
+ "fixes": [
+  "文末｜資料來源數 24 → 27（程式依來源連結去重計算）"
+ ]
+}

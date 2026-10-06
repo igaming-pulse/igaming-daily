@@ -1,0 +1,49 @@
+{
+ "date": "2026-10-07",
+ "alerts": [
+  "🟠 來源連續失敗 ≥3 天：Kalamba Games（8 天）；請檢查網址或改抓取方式"
+ ],
+ "info": {
+  "credits": {
+   "remaining": 343,
+   "plan": 1000,
+   "period_end": "2026-10-14",
+   "today_use": 13,
+   "daily_use": 30,
+   "daily_basis": "近 7 天實際",
+   "days_to_reset": 7,
+   "need_until_reset": 210
+  },
+  "tier": {
+   "tier": "🟢 充裕",
+   "budget": 48,
+   "remaining": 356,
+   "period_end": "2026-10-14",
+   "days_to_reset": 7,
+   "reserve": 20,
+   "note": "全開",
+   "lists_spent": 6,
+   "article_limit": 22
+  },
+  "sources": {
+   "total": 101,
+   "failed_today": [
+    "Kalamba Games"
+   ],
+   "streak_3d": [
+    "Kalamba Games"
+   ]
+  },
+  "candidates": {
+   "today": 505,
+   "median_same_type": 417,
+   "basis_days": 5,
+   "type": "平日窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 7,
+   "fixes": 1
+  }
+ }
+}

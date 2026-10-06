@@ -1,0 +1,32 @@
+{
+  "shown": [
+    {"cat": "cat1", "title": "Gator Hunters 2", "gp": "Nolimit City"},
+    {"cat": "cat1", "title": "Pelican Payday", "gp": "Pragmatic Play"},
+    {"cat": "cat1", "title": "Bull Blitz Rampage / Dragon's Law Super Fortune", "gp": "Konami"},
+    {"cat": "cat1", "title": "Demonic Dolls", "gp": "Hacksaw Gaming"},
+    {"cat": "cat1", "title": "Gems of Scaralith", "gp": "Million Games"},
+    {"cat": "cat2", "title": "Tonybet 愛爾蘭上線撲克", "gp": "Tonybet"},
+    {"cat": "cat2", "title": "ICONIC21 暗牌加倍 21 點新功能", "gp": "ICONIC21"},
+    {"cat": "cat3", "title": "Stake 取得亞伯達省博彩牌照", "gp": "Stake"},
+    {"cat": "cat3", "title": "Informa 收購 Clarion Events（ICE/iGB）", "gp": "Informa"},
+    {"cat": "cat3", "title": "NOVOMATIC Colombia GAT Bogotá 連線彩池新品", "gp": "NOVOMATIC"},
+    {"cat": "cat3", "title": "IGT Tiger and Dragon Link 進軍西班牙沙龍", "gp": "IGT"},
+    {"cat": "cat5", "title": "SOFTSWISS 2027 iGaming Trends 報告", "gp": "SOFTSWISS"},
+    {"cat": "cat5", "title": "Aristocrat／Light & Wonder 分析師觀點", "gp": "Aristocrat/Light & Wonder"},
+    {"cat": "cat5", "title": "巴西線上博彩需求驟降 78.2%", "gp": "Blask"}
+  ],
+  "stock": [
+    {"cat": "cat1", "title": "Capi Cash Jackpot Fortunes", "gp": "Neko Games", "b": 1,
+     "first_seen": "2026-10-06",
+     "sources": [{"name": "Zona de Azar", "url": "https://zonadeazar.com/juego-online/neko-games-capi-cash-jackpot-fortunes-goes-live-worldwide/", "published": "2026-10-06 14:24"}]},
+    {"cat": "cat1", "title": "Game of Thrones Slot", "gp": "Blueprint Gaming", "b": 1,
+     "first_seen": "2026-10-06",
+     "sources": [{"name": "Zona de Azar", "url": "https://zonadeazar.com/juego-online/blueprint-gaming-and-betmgm-launch-game-of-thrones-slot-in-the-us/", "published": "2026-10-06 12:38"}]},
+    {"cat": "cat3", "title": "Dominican Republic enacts gambling law, appoints Quico Tabar to head new DGJA", "gp": "Dominican Republic DGJA", "b": 1,
+     "first_seen": "2026-10-06",
+     "sources": [{"name": "Yogonet International", "url": "https://www.yogonet.com/international/news/2026/10/06/126710-dominican-republic-enacts-law-regulating-gambling-and-appoints-quico-tabar-to-head-new-dgja", "published": "2026-10-06 22:18"}]},
+    {"cat": "cat5", "title": "US Online Casino Revenue Tops $10.7 Billion", "gp": "美國線上賭場市場", "b": 1,
+     "first_seen": "2026-10-06",
+     "sources": [{"name": "Casino Life Magazine", "url": "https://www.casinolifemagazine.com/news/us-online-casino-revenue-tops-107-billion-consumer-complaints-put-player-protection-focus", "published": "2026-10-06 06:33"}]}
+  ]
+}

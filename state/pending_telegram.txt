@@ -1,36 +1,32 @@
-🎰 iGaming 市場日報 2026-10-06（週二）
-🎰 Slot 4 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-10-07（週三）
+🎰 Slot 5 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 4 ・ 📊 市場數據 3
 
 🎰 Slot 新遊戲
-01 Turbo Gold Deluxe GigaBlox – Yggdrasil
-02 Three Pots of the Genie – Play'n GO
-03 3 Wild Troopers – Spinomenal
-04 🆕 新作預告（10/8 上線）Thor Candy Storm 3000 – Tom Horn Gaming
+01 Gator Hunters 2 – Nolimit City
+02 Pelican Payday – Pragmatic Play
+03 Bull Blitz Rampage／Dragon's Law Super Fortune – Konami
+04 Demonic Dolls – Hacksaw Gaming
+05 Gems of Scaralith – Million Games
 
 🕹️ 非 Slot 新內容
-01 Playdoit×QTech 深化內容整合
-02 CreedRoomz 攜手 Pasino.ch 進軍瑞士
+01 Tonybet 愛爾蘭上線撲克業務，補齊第三垂直
+02 ICONIC21 為線上 21 點推出「暗牌加倍」
 
 🤝 動態：主流 GP／平台
-01 TaDa Gaming 攜手 777.be 深耕比利時市場
-02 IZI Group 財報：年營收首度突破 10 億歐元
-03 Aristocrat 連 8 年奪 Class 3 實體供應商年度大獎
-04 巴西博彩業者於甲級聯賽場邊廣告看板抗議禁令
-05 Jumpman Gaming 勝訴，1,320 萬英鎊免費旋轉稅單撤銷
-
-🇵🇭 動態：菲律賓 GP／平台
-01 Maybank 下修 DigiPlus 獲利預估
-02 菲律賓年度最大規模 POGO 掃蕩，244 名外籍人士被捕
+01 Stake 取得加拿大亞伯達省博彩牌照，10/12 正式合規上線
+02 Informa 以 22.4 億英鎊收購 ICE／iGB 主辦方 Clarion Events
+03 NOVOMATIC Colombia 預告 GAT Bogotá 2026 連線彩池新品陣容
+04 IGT 推出 Tiger and Dragon Link，切入西班牙沙龍多遊戲彩池市場
 
 📊 市場數據 & 趨勢
-01 Games Global 十月排程 20 多款新作，萬聖節續作領銜
-02 澳門十一黃金週首四日訪客突破 75 萬人次創單日新高
-03 Bally's 取得 4 億美元融資，推進布朗克斯賭場案
+01 SOFTSWISS 發布第五版《2027 iGaming Trends》報告，SBC Lisbon 收官
+02 Jefferies 分析師：Aristocrat、Light & Wonder 持續穩居老虎機龍頭
+03 巴西禁令後線上博彩需求單週驟降 78.2%，境外品牌逆勢吃下更多份額
 
 📝 品質備註（本次爬找判斷）
-1. 定稿檢查抓出 2 則 3 天內重複：Gates of Hercules 10,000（Booming Games，與 10/5 日報庫存補位項目重複）、Casino Plus×Peter & Sons（與 10/4 日報同一合作案重複），已剔除；cat1 因此為 4 款（未強補到 5）、cat4 為 2 則，皆屬自然呈現不灌水。
-2. EEZE 近期最新消息為 10/3 與 1X2 Network 的合作（窗外），今日窗內與近 3 天皆無新消息，依例跳過。
-3. 特別追蹤 Acewin／Omiplay／YellowBat／ATG 今日皆無窗內新消息（已逐一查證）。
+1. 🇵🇭 菲律賓區本日從缺：唯一查得的「Casino Plus × Peter & Sons」合作新聞經比對為 10/1、10/5 已報導過之同一合作案的媒體反覆轉載，非新進展，依規則剔除；第三層對 DigiPlus／BingoPlus／OKBet／BET88／PT Gaming 等逐一查證均未查得其他窗內合格新聞。
+2. cat2 非 Slot 僅收錄 2 則（目標 2–3 下緣）：EEZE 因連續逾 3 天無新消息（最近一篇為 9/25）依規則跳過當日固定收錄；窗內其餘候選多為重複報導或純監管/治安類新聞，未達收錄門檻。
+3. cat3-02 Informa 收購 Clarion Events 公式評分偏低（屬 M&A 類別、E 權重僅 1 分），但考量其為 iGaming 產業核心展會/媒體資產易主、對 PM 實務意義重大，判斷予以收錄。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：Kalamba Games（7 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：Kalamba Games（8 天）；請檢查網址或改抓取方式

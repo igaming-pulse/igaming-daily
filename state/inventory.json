@@ -161,6 +161,36 @@
     }
    ],
    "key": "witchcraftriches|bgaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Capi Cash Jackpot Fortunes",
+   "gp": "Neko Games",
+   "b": 1,
+   "first_seen": "2026-10-06",
+   "sources": [
+    {
+     "name": "Zona de Azar",
+     "url": "https://zonadeazar.com/juego-online/neko-games-capi-cash-jackpot-fortunes-goes-live-worldwide/",
+     "published": "2026-10-06 14:24"
+    }
+   ],
+   "key": "capicashjackpotfortunes|nekogames"
+  },
+  {
+   "cat": "cat1",
+   "title": "Game of Thrones Slot",
+   "gp": "Blueprint Gaming",
+   "b": 1,
+   "first_seen": "2026-10-06",
+   "sources": [
+    {
+     "name": "Zona de Azar",
+     "url": "https://zonadeazar.com/juego-online/blueprint-gaming-and-betmgm-launch-game-of-thrones-slot-in-the-us/",
+     "published": "2026-10-06 12:38"
+    }
+   ],
+   "key": "gameofthronesslot|blueprintgaming"
   }
  ],
  "others": [
@@ -285,6 +315,36 @@
     }
    ],
    "key": "latam2026巴西墨西哥智利玩家偏好調查|focusgamingnews"
+  },
+  {
+   "cat": "cat3",
+   "title": "Dominican Republic enacts gambling law, appoints Quico Tabar to head new DGJA",
+   "gp": "Dominican Republic DGJA",
+   "b": 1,
+   "first_seen": "2026-10-06",
+   "sources": [
+    {
+     "name": "Yogonet International",
+     "url": "https://www.yogonet.com/international/news/2026/10/06/126710-dominican-republic-enacts-law-regulating-gambling-and-appoints-quico-tabar-to-head-new-dgja",
+     "published": "2026-10-06 22:18"
+    }
+   ],
+   "key": "dominicanrepublicenactsgamblinglawappointsquicotabartoheadnewdgja|dominicanrepublicdgja"
+  },
+  {
+   "cat": "cat5",
+   "title": "US Online Casino Revenue Tops $10.7 Billion",
+   "gp": "美國線上賭場市場",
+   "b": 1,
+   "first_seen": "2026-10-06",
+   "sources": [
+    {
+     "name": "Casino Life Magazine",
+     "url": "https://www.casinolifemagazine.com/news/us-online-casino-revenue-tops-107-billion-consumer-complaints-put-player-protection-focus",
+     "published": "2026-10-06 06:33"
+    }
+   ],
+   "key": "usonlinecasinorevenuetops107billion|美國線上賭場市場"
   }
  ],
  "history": [
@@ -1687,6 +1747,104 @@
    "cat": "cat5",
    "title": "Bally's 取得 4 億美元融資，推進布朗克斯賭場案",
    "gp": "Bally's Corporation"
+  },
+  {
+   "key": "gatorhunters2|nolimitcity",
+   "date": "2026-10-07",
+   "cat": "cat1",
+   "title": "Gator Hunters 2",
+   "gp": "Nolimit City"
+  },
+  {
+   "key": "pelicanpayday|pragmaticplay",
+   "date": "2026-10-07",
+   "cat": "cat1",
+   "title": "Pelican Payday",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "bullblitzrampagedragonslawsuperfortune|konami",
+   "date": "2026-10-07",
+   "cat": "cat1",
+   "title": "Bull Blitz Rampage / Dragon's Law Super Fortune",
+   "gp": "Konami"
+  },
+  {
+   "key": "demonicdolls|hacksawgaming",
+   "date": "2026-10-07",
+   "cat": "cat1",
+   "title": "Demonic Dolls",
+   "gp": "Hacksaw Gaming"
+  },
+  {
+   "key": "gemsofscaralith|milliongames",
+   "date": "2026-10-07",
+   "cat": "cat1",
+   "title": "Gems of Scaralith",
+   "gp": "Million Games"
+  },
+  {
+   "key": "tonybet愛爾蘭上線撲克|tonybet",
+   "date": "2026-10-07",
+   "cat": "cat2",
+   "title": "Tonybet 愛爾蘭上線撲克",
+   "gp": "Tonybet"
+  },
+  {
+   "key": "iconic21暗牌加倍21點新功能|iconic21",
+   "date": "2026-10-07",
+   "cat": "cat2",
+   "title": "ICONIC21 暗牌加倍 21 點新功能",
+   "gp": "ICONIC21"
+  },
+  {
+   "key": "stake取得亞伯達省博彩牌照|stake",
+   "date": "2026-10-07",
+   "cat": "cat3",
+   "title": "Stake 取得亞伯達省博彩牌照",
+   "gp": "Stake"
+  },
+  {
+   "key": "informa收購clarioneventsiceigb|informa",
+   "date": "2026-10-07",
+   "cat": "cat3",
+   "title": "Informa 收購 Clarion Events（ICE/iGB）",
+   "gp": "Informa"
+  },
+  {
+   "key": "novomaticcolombiagatbogot連線彩池新品|novomatic",
+   "date": "2026-10-07",
+   "cat": "cat3",
+   "title": "NOVOMATIC Colombia GAT Bogotá 連線彩池新品",
+   "gp": "NOVOMATIC"
+  },
+  {
+   "key": "igttigeranddragonlink進軍西班牙沙龍|igt",
+   "date": "2026-10-07",
+   "cat": "cat3",
+   "title": "IGT Tiger and Dragon Link 進軍西班牙沙龍",
+   "gp": "IGT"
+  },
+  {
+   "key": "softswiss2027igamingtrends報告|softswiss",
+   "date": "2026-10-07",
+   "cat": "cat5",
+   "title": "SOFTSWISS 2027 iGaming Trends 報告",
+   "gp": "SOFTSWISS"
+  },
+  {
+   "key": "aristocratlightwonder分析師觀點|aristocratlightwonder",
+   "date": "2026-10-07",
+   "cat": "cat5",
+   "title": "Aristocrat／Light & Wonder 分析師觀點",
+   "gp": "Aristocrat/Light & Wonder"
+  },
+  {
+   "key": "巴西線上博彩需求驟降782|blask",
+   "date": "2026-10-07",
+   "cat": "cat5",
+   "title": "巴西線上博彩需求驟降 78.2%",
+   "gp": "Blask"
   }
  ],
  "rejected": [
