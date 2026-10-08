@@ -1,0 +1,31 @@
+{"shown": [
+ {"cat":"cat1","title":"3 Pot Panda","gp":"TaDa Gaming"},
+ {"cat":"cat1","title":"Buffalo Horizon","gp":"Yggdrasil"},
+ {"cat":"cat1","title":"Redtail Robber Cash Vault Heist","gp":"Play'n GO"},
+ {"cat":"cat1","title":"Grimms' Bounty: Princess & the Frog","gp":"PG Soft"},
+ {"cat":"cat1","title":"Cheetah Wild","gp":"Pragmatic Play"},
+ {"cat":"cat2","title":"Inferno Roulette","gp":"Creedroomz"},
+ {"cat":"cat2","title":"Blackjack Bonus Live","gp":"ICONIC21"},
+ {"cat":"cat2","title":"BetGames 攜手 bet365 進軍英國","gp":"BetGames"},
+ {"cat":"cat3","title":"Zitro Digital 全產品線上架秘魯 Betmaster.pe"},
+ {"cat":"cat3","title":"Yggdrasil 延攬 David Hopkins 任首席轉型長"},
+ {"cat":"cat3","title":"Evoplay 攜 11 款 Slot 與 Crash 遊戲上架西班牙 Luckia Games"},
+ {"cat":"cat3","title":"巴西禁令生效，Apple、Google 下架博彩 App"},
+ {"cat":"cat4","title":"Bloomberry 推出 OnlyFun.PH 直播互動娛樂平台"},
+ {"cat":"cat5","title":"老虎機設計趨勢：持續累積型機台退燒"},
+ {"cat":"cat5","title":"AGEM 指數 9 月下跌 6.1%"},
+ {"cat":"cat5","title":"澳門十一黃金週訪客 114 萬人次"}
+],
+"stock": [
+ {"cat":"cat1","title":"Cocks & Robbers","gp":"Red Tiger","b":4,"first_seen":"2026-10-08","sources":[{"name":"BigWinBoard 新作列表","url":"https://www.bigwinboard.com/new-slots/","published":"2026-10-07"}]},
+ {"cat":"cat1","title":"Sweet Bonanza Xmas 2500","gp":"Pragmatic Play","b":4,"first_seen":"2026-10-08","sources":[{"name":"BigWinBoard 新作列表","url":"https://www.bigwinboard.com/new-slots/","published":"2026-10-08"}]},
+ {"cat":"cat1","title":"CloudForge","gp":"Relax Gaming","b":3,"first_seen":"2026-10-08","sources":[{"name":"European Gaming","url":"https://europeangaming.eu/portal/press-releases/2026/10/08/215666/relax-gaming-cloudforge-slot/","published":"2026-10-08 21:43"},{"name":"EEGaming","url":"https://eegaming.org/latest-news/2026/10/08/53054/relax-gaming-releases-cloudforge-slot-with-expanding-wilds-and-electric-reels/","published":"2026-10-08 16:24"}]},
+ {"cat":"cat1","title":"Wicked Grin","gp":"Hacksaw Gaming","b":3,"first_seen":"2026-10-08","sources":[{"name":"BigWinBoard 新作列表","url":"https://www.bigwinboard.com/new-slots/","published":"2026-10-08"}]},
+ {"cat":"cat1","title":"Red & Hot Chilli","gp":"BGaming","b":3,"first_seen":"2026-10-08","sources":[{"name":"BigWinBoard 新作列表","url":"https://www.bigwinboard.com/new-slots/","published":"2026-10-07"}]},
+ {"cat":"cat1","title":"Pirate Coins: 3 Chests","gp":"Evoplay","b":1,"first_seen":"2026-10-08","sources":[{"name":"EEGaming","url":"https://eegaming.org/latest-news/2026/10/08/53048/evoplay-launches-pirate-coins-3-chests-slot-with-three-boosters-and-four-jackpots/","published":"2026-10-08 15:13"}]},
+ {"cat":"cat1","title":"Raccoon Raiders","gp":"Booming Games","b":1,"first_seen":"2026-10-08","sources":[{"name":"European Gaming","url":"https://europeangaming.eu/portal/press-releases/2026/10/08/215660/booming-games-raccoon-raiders-slot/","published":"2026-10-08 20:43"}]},
+ {"cat":"cat2","title":"BOYLE Casino 改版真人賭場，300+ 遊戲與 Playtech 滑動功能","gp":"BOYLE Casino","first_seen":"2026-10-08","sources":[{"name":"EEGaming","url":"https://eegaming.org/latest-news/2026/10/08/53058/boyle-casino-relaunches-live-casino-with-300-games-and-playtech-swipe-feature/","published":"2026-10-08 18:55"}]},
+ {"cat":"cat3","title":"Sportradar 以 1.7 億美元出售 Atrium Sports","first_seen":"2026-10-08","sources":[{"name":"SBC News","url":"https://sbcnews.co.uk/technology/2026/10/08/sportradar-sells-atrium/","published":"2026-10-08 19:35"}]},
+ {"cat":"cat4","title":"IAG Manila After Dark 年終場移師 Solaire","first_seen":"2026-10-08","sources":[{"name":"Inside Asian Gaming","url":"https://asgam.com/2026/10/08/inside-asian-gaming-announces-brb-at-solaire-resort-entertainment-city-on-thursday-10-december-as-last-manila-after-dark-of-2026/","published":"2026-10-08 13:21"}]},
+ {"cat":"cat5","title":"Blask：巴西禁令恐使 2,160 萬人轉向離岸博彩","first_seen":"2026-10-08","sources":[{"name":"GGRAsia","url":"https://www.ggrasia.com/brazil-betting-ban-could-push-21-6mln-people-to-gamble-offshore-blask","published":"2026-10-08 12:20"}]}
+]}

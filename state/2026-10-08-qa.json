@@ -1,0 +1,40 @@
+{
+ "date": "2026-10-08",
+ "md": "state/2026-10-08-igaming-report.md",
+ "html": "reports/2026-10-08.html",
+ "items": 16,
+ "counts": {
+  "cat1": 5,
+  "cat2": 3,
+  "cat3": 4,
+  "cat4": 1,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 48,
+  "ok": 34,
+  "broken": 0,
+  "blocked": 14,
+  "images_dropped": 0
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-01 3 Pot Panda – TaDa Gamin｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/tada-gaming-3-pot-panda-stackable-features",
+  "cat1-01 3 Pot Panda – TaDa Gamin｜來源連結無法自動驗證（403，多半是網站擋機器人）：SlotCatalog https://slotcatalog.com/en/slots/3-pot-panda",
+  "cat1-02 Buffalo Horizon – Yggdra｜來源連結無法自動驗證（403，多半是網站擋機器人）：SlotCatalog https://slotcatalog.com/en/slots/buffalo-horizon",
+  "cat1-03 Redtail Robber Cash Vaul｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/playngo-redtail-robber-cash-vault-heist",
+  "cat1-03 Redtail Robber Cash Vaul｜來源連結無法自動驗證（403，多半是網站擋機器人）：SlotCatalog https://slotcatalog.com/en/slots/redtail-robber-cash-vault-heist",
+  "cat1-05 Cheetah Wild – Pragmatic｜來源連結無法自動驗證（403，多半是網站擋機器人）：SlotCatalog https://slotcatalog.com/en/slots/cheetah-wild",
+  "cat2-02 Blackjack Bonus Live – I｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/iconic21-blackjack-bonus-live",
+  "cat4-01 Bloomberry 推出 OnlyFun.PH｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/08/solaire-operator-bloomberry-expands-igaming-offering-with-launch-of-interactive-entertainment-platform-onlyfun-ph/",
+  "cat4-01 Bloomberry 推出 OnlyFun.PH｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/philippines-based-bloomberry-expanding-online-offer-with-onlyfun-ph-platform",
+  "cat4-01 Bloomberry 推出 OnlyFun.PH｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/philippines/08/10/2026/bloomberry-expands-online-gaming-portfolio-with-onlyfun-ph-launch/",
+  "cat5-02 AGEM 指數 9 月下跌 6.1%，Arist｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/08/agem-index-suffers-rare-month-on-month-fall-in-september-on-widespread-supplier-stock-price-declines/",
+  "cat5-02 AGEM 指數 9 月下跌 6.1%，Arist｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/usa/08/10/2026/agem-index-falls-6-1-mom-in-september-as-supplier-stocks-weaken/",
+  "cat5-03 澳門十一黃金週訪客 114 萬人次，日均創新高｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/macau-visitor-tally-hits-1-14mln-for-this-years-october-golden-week",
+  "cat5-03 澳門十一黃金週訪客 114 萬人次，日均創新高｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/08/macaus-visitor-arrivals-across-seven-day-golden-week-holiday-reached-1-14-million/"
+ ],
+ "fixes": [
+  "文末｜資料來源數 40 → 41（程式依來源連結去重計算）"
+ ]
+}
