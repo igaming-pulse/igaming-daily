@@ -94,26 +94,6 @@
   },
   {
    "cat": "cat1",
-   "title": "25 Coins x3000 (Cointober)",
-   "gp": "Wazdan",
-   "b": 4,
-   "first_seen": "2026-10-01",
-   "sources": [
-    {
-     "name": "Yogonet International",
-     "url": "https://www.yogonet.com/international/news/2026/10/05/126668-wazdan-launches-cointober-campaign-to-highlight-popular-coins-series-titles",
-     "published": "2026-10-05 21:46"
-    },
-    {
-     "name": "European Gaming",
-     "url": "https://europeangaming.eu/portal/press-releases/2026/10/01/215166/wazdan-25-coins-x3000-slots/",
-     "published": "2026-10-01"
-    }
-   ],
-   "key": "25coinsx3000cointober|wazdan"
-  },
-  {
-   "cat": "cat1",
    "title": "Witchcraft Riches",
    "gp": "BGaming",
    "b": 3,
@@ -219,41 +199,6 @@
   },
   {
    "cat": "cat1",
-   "title": "CloudForge",
-   "gp": "Relax Gaming",
-   "b": 3,
-   "first_seen": "2026-10-08",
-   "sources": [
-    {
-     "name": "European Gaming",
-     "url": "https://europeangaming.eu/portal/press-releases/2026/10/08/215666/relax-gaming-cloudforge-slot/",
-     "published": "2026-10-08 21:43"
-    },
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/10/08/53054/relax-gaming-releases-cloudforge-slot-with-expanding-wilds-and-electric-reels/",
-     "published": "2026-10-08 16:24"
-    }
-   ],
-   "key": "cloudforge|relaxgaming"
-  },
-  {
-   "cat": "cat1",
-   "title": "Wicked Grin",
-   "gp": "Hacksaw Gaming",
-   "b": 3,
-   "first_seen": "2026-10-08",
-   "sources": [
-    {
-     "name": "BigWinBoard 新作列表",
-     "url": "https://www.bigwinboard.com/new-slots/",
-     "published": "2026-10-08"
-    }
-   ],
-   "key": "wickedgrin|hacksawgaming"
-  },
-  {
-   "cat": "cat1",
    "title": "Red & Hot Chilli",
    "gp": "BGaming",
    "b": 3,
@@ -284,101 +229,81 @@
   },
   {
    "cat": "cat1",
-   "title": "Raccoon Raiders",
-   "gp": "Booming Games",
-   "b": 1,
-   "first_seen": "2026-10-08",
+   "title": "Egg Eruption",
+   "gp": "TaDa Gaming",
+   "b": 6,
+   "first_seen": "2026-10-09",
    "sources": [
     {
-     "name": "European Gaming",
-     "url": "https://europeangaming.eu/portal/press-releases/2026/10/08/215660/booming-games-raccoon-raiders-slot/",
-     "published": "2026-10-08 20:43"
+     "name": "SlotsLaunch 上線日曆",
+     "url": "https://slotslaunch.com/tada-gaming/egg-eruption",
+     "published": "2026-10-08"
     }
    ],
-   "key": "raccoonraiders|boominggames"
+   "key": "eggeruption|tadagaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Diamond Slam: Super Wheel",
+   "gp": "ENJOY",
+   "b": 1,
+   "first_seen": "2026-10-09",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/08/53053/enjoy-launches-diamond-slam-super-wheel-with-new-wheel-mechanic-and-double-chance/",
+     "published": "2026-10-08 15:52"
+    }
+   ],
+   "key": "diamondslamsuperwheel|enjoy"
+  },
+  {
+   "cat": "cat1",
+   "title": "Coins Blast",
+   "gp": "Belatra Games",
+   "b": 1,
+   "first_seen": "2026-10-09",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/08/53052/belatra-games-releases-new-slot-title-coins-blast/",
+     "published": "2026-10-08 15:30"
+    }
+   ],
+   "key": "coinsblast|belatragames"
+  },
+  {
+   "cat": "cat1",
+   "title": "Zoo Busters",
+   "gp": "Fantasma Games",
+   "b": 1,
+   "first_seen": "2026-10-09",
+   "sources": [
+    {
+     "name": "Fantasma Games",
+     "url": "https://www.fantasmagames.com/fantasma-games-unleashes-wild-action-with-zoo-busters/",
+     "published": "2026-10-08 15:13"
+    }
+   ],
+   "key": "zoobusters|fantasmagames"
+  },
+  {
+   "cat": "cat1",
+   "title": "5 Power Joker",
+   "gp": "AvatarUX",
+   "b": 1,
+   "first_seen": "2026-10-09",
+   "sources": [
+    {
+     "name": "BigWinBoard 新作列表",
+     "url": "https://www.bigwinboard.com/new-slots/",
+     "published": "2026-10-09"
+    }
+   ],
+   "key": "5powerjoker|avatarux"
   }
  ],
  "others": [
-  {
-   "cat": "cat3",
-   "title": "SBC Awards 2026 winners crowned at MEO Arena in Lisbon",
-   "gp": "",
-   "b": 0,
-   "first_seen": "2026-10-05",
-   "sources": [
-    {
-     "name": "AGB",
-     "url": "https://agbrief.com/news/europe/04/10/2026/sbc-awards-2026-winners-crowned-at-meo-arena-in-lisbon/",
-     "published": "2026-10-04 22:24"
-    }
-   ],
-   "key": "sbcawards2026winnerscrownedatmeoarenainlisbon|"
-  },
-  {
-   "cat": "cat5",
-   "title": "After Casino – What's Next In iGaming",
-   "gp": "",
-   "b": 0,
-   "first_seen": "2026-10-05",
-   "sources": [
-    {
-     "name": "Business of iGaming",
-     "url": "https://www.businessofigaming.com/after-casino-whats-next-igaming/",
-     "published": "2026-10-04 13:22"
-    }
-   ],
-   "key": "aftercasinowhatsnextinigaming|"
-  },
-  {
-   "cat": "cat2",
-   "title": "Norway online poker 監理諮詢，恐成商業化契機",
-   "gp": "挪威博彩局",
-   "b": 1,
-   "first_seen": "2026-10-05",
-   "sources": [
-    {
-     "name": "iGaming Expert",
-     "url": "https://igamingexpert.com/news/games/norway-online-poker-consultation/",
-     "published": "2026-10-05 21:04"
-    }
-   ],
-   "key": "norwayonlinepoker監理諮詢恐成商業化契機|挪威博彩局"
-  },
-  {
-   "cat": "cat3",
-   "title": "SBC Summit 與里斯本續約至 2030 年",
-   "gp": "SBC Summit",
-   "b": 1,
-   "first_seen": "2026-10-05",
-   "sources": [
-    {
-     "name": "Yogonet International",
-     "url": "https://www.yogonet.com/international/news/2026/10/05/126684-sbc-extends-lisbon-hosting-deal-for-flagship-summit-through-2030",
-     "published": "2026-10-05 01:34"
-    },
-    {
-     "name": "SBC Americas",
-     "url": "https://sbcamericas.com/2026/10/05/sbc-summit-agreement-lisbon-2030/",
-     "published": "2026-10-05 21:00"
-    }
-   ],
-   "key": "sbcsummit與里斯本續約至2030年|sbcsummit"
-  },
-  {
-   "cat": "cat5",
-   "title": "LatAm 2026：巴西、墨西哥、智利玩家偏好調查",
-   "gp": "Focus Gaming News",
-   "b": 1,
-   "first_seen": "2026-10-05",
-   "sources": [
-    {
-     "name": "Focus Gaming News",
-     "url": "https://focusgn.com/latam-2026-a-closer-look-at-gaming-preferences-in-brazil-mexico-and-chile",
-     "published": "2026-10-06 01:07"
-    }
-   ],
-   "key": "latam2026巴西墨西哥智利玩家偏好調查|focusgamingnews"
-  },
   {
    "cat": "cat3",
    "title": "Dominican Republic enacts gambling law, appoints Quico Tabar to head new DGJA",
@@ -422,20 +347,6 @@
     }
    ],
    "key": "creedroomz攜手pasinoch深化瑞士市場|creedroomz"
-  },
-  {
-   "cat": "cat3",
-   "title": "SBC Awards 2026 得獎名單揭曉",
-   "gp": "SBC Awards",
-   "first_seen": "2026-10-05",
-   "sources": [
-    {
-     "name": "AGB",
-     "url": "https://agbrief.com/news/europe/04/10/2026/sbc-awards-2026-winners-crowned-at-meo-arena-in-lisbon/",
-     "published": "2026-10-05"
-    }
-   ],
-   "key": "sbcawards2026得獎名單揭曉|sbcawards"
   },
   {
    "cat": "cat3",
@@ -517,6 +428,45 @@
     }
    ],
    "key": "blask巴西禁令恐使2160萬人轉向離岸博彩|"
+  },
+  {
+   "cat": "cat2",
+   "title": "WSOP 年度最佳選手 100 萬美元獎池決戰移師巴哈馬 Paradise",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/08/53064/wsop-sets-1m-player-of-the-year-finale-at-wsop-paradise-in-the-bahamas/",
+     "published": "2026-10-09 03:40"
+    }
+   ],
+   "first_seen": "2026-10-09",
+   "key": "wsop年度最佳選手100萬美元獎池決戰移師巴哈馬paradise|"
+  },
+  {
+   "cat": "cat3",
+   "title": "密西根博彩委員會對 33 家離岸非法業者發停止令",
+   "sources": [
+    {
+     "name": "CDC Gaming",
+     "url": "https://cdcgaming.com/michigan-gaming-regulators-target-33-illegal-offshore-operators/",
+     "published": "2026-10-09 08:29"
+    }
+   ],
+   "first_seen": "2026-10-09",
+   "key": "密西根博彩委員會對33家離岸非法業者發停止令|"
+  },
+  {
+   "cat": "cat5",
+   "title": "江原樂園 60 歲以上佔常客一半",
+   "sources": [
+    {
+     "name": "Inside Asian Gaming",
+     "url": "https://asgam.com/2026/10/09/adults-aged-60-or-more-now-comprise-half-of-regular-repeat-visitors-to-koreas-kangwon-land-casino/",
+     "published": "2026-10-09 05:36"
+    }
+   ],
+   "first_seen": "2026-10-09",
+   "key": "江原樂園60歲以上佔常客一半|"
   }
  ],
  "history": [
@@ -2142,6 +2092,118 @@
    "date": "2026-10-08",
    "cat": "cat5",
    "title": "澳門十一黃金週訪客 114 萬人次",
+   "gp": ""
+  },
+  {
+   "key": "ringofwealthhollandcasinoanniversaryedition|igt",
+   "date": "2026-10-09",
+   "cat": "cat1",
+   "title": "Ring of Wealth Holland Casino Anniversary Edition",
+   "gp": "IGT"
+  },
+  {
+   "key": "cloudforge|relaxgaming",
+   "date": "2026-10-09",
+   "cat": "cat1",
+   "title": "CloudForge",
+   "gp": "Relax Gaming"
+  },
+  {
+   "key": "25coinsx3000|wazdan",
+   "date": "2026-10-09",
+   "cat": "cat1",
+   "title": "25 Coins x3000",
+   "gp": "Wazdan"
+  },
+  {
+   "key": "wickedgrin|hacksawgaming",
+   "date": "2026-10-09",
+   "cat": "cat1",
+   "title": "Wicked Grin",
+   "gp": "Hacksaw Gaming"
+  },
+  {
+   "key": "raccoonraiders|boominggames",
+   "date": "2026-10-09",
+   "cat": "cat1",
+   "title": "Raccoon Raiders",
+   "gp": "Booming Games"
+  },
+  {
+   "key": "fusionroulette產品負責人專訪|eeze",
+   "date": "2026-10-09",
+   "cat": "cat2",
+   "title": "Fusion Roulette 產品負責人專訪",
+   "gp": "EEZE"
+  },
+  {
+   "key": "wcoop2026落幕總派彩4900萬美元|pokerstars",
+   "date": "2026-10-09",
+   "cat": "cat2",
+   "title": "WCOOP 2026 落幕，總派彩 4,900 萬美元",
+   "gp": "PokerStars"
+  },
+  {
+   "key": "boylecasino真人館改版300遊戲加滑動切桌|boylecasino",
+   "date": "2026-10-09",
+   "cat": "cat2",
+   "title": "BOYLE Casino 真人館改版，300+ 遊戲加滑動切桌",
+   "gp": "BOYLE Casino"
+  },
+  {
+   "key": "stake取得巴西法院禁制令可營運至10月25日|",
+   "date": "2026-10-09",
+   "cat": "cat3",
+   "title": "Stake 取得巴西法院禁制令，可營運至 10 月 25 日",
+   "gp": ""
+  },
+  {
+   "key": "seminole部落控告draftkings與執行長在佛州非法經營|",
+   "date": "2026-10-09",
+   "cat": "cat3",
+   "title": "Seminole 部落控告 DraftKings 與執行長在佛州非法經營",
+   "gp": ""
+  },
+  {
+   "key": "pokerstarscasino把theslotlist帶進羅馬尼亞首推elkpirots4|",
+   "date": "2026-10-09",
+   "cat": "cat3",
+   "title": "PokerStars Casino 把 The Slotlist 帶進羅馬尼亞，首推 ELK Pirots 4",
+   "gp": ""
+  },
+  {
+   "key": "gli獲准為紐西蘭新開放的線上賭場市場做認證測試|",
+   "date": "2026-10-09",
+   "cat": "cat3",
+   "title": "GLI 獲准為紐西蘭新開放的線上賭場市場做認證測試",
+   "gp": ""
+  },
+  {
+   "key": "gcash母公司mynt支付營收下滑|",
+   "date": "2026-10-09",
+   "cat": "cat4",
+   "title": "GCash 母公司 Mynt 支付營收下滑",
+   "gp": ""
+  },
+  {
+   "key": "blask巴西合法博彩一週流失74用戶印度63玩家轉離岸|",
+   "date": "2026-10-09",
+   "cat": "cat5",
+   "title": "Blask：巴西合法博彩一週流失 74% 用戶，印度 63% 玩家轉離岸",
+   "gp": ""
+  },
+  {
+   "key": "伊利諾州9月賭場營收年增127|",
+   "date": "2026-10-09",
+   "cat": "cat5",
+   "title": "伊利諾州 9 月賭場營收年增 12.7%",
+   "gp": ""
+  },
+  {
+   "key": "老虎機長青榜十週年bookofdead今年仍排第6|",
+   "date": "2026-10-09",
+   "cat": "cat5",
+   "title": "老虎機長青榜：十週年 Book of Dead 今年仍排第 6",
    "gp": ""
   }
  ],

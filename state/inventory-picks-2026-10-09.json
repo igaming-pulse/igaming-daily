@@ -1,0 +1,28 @@
+{"shown": [
+ {"cat":"cat1","title":"Ring of Wealth Holland Casino Anniversary Edition","gp":"IGT"},
+ {"cat":"cat1","title":"CloudForge","gp":"Relax Gaming"},
+ {"cat":"cat1","title":"25 Coins x3000","gp":"Wazdan"},
+ {"cat":"cat1","title":"Wicked Grin","gp":"Hacksaw Gaming"},
+ {"cat":"cat1","title":"Raccoon Raiders","gp":"Booming Games"},
+ {"cat":"cat2","title":"Fusion Roulette 產品負責人專訪","gp":"EEZE"},
+ {"cat":"cat2","title":"WCOOP 2026 落幕，總派彩 4,900 萬美元","gp":"PokerStars"},
+ {"cat":"cat2","title":"BOYLE Casino 真人館改版，300+ 遊戲加滑動切桌","gp":"BOYLE Casino"},
+ {"cat":"cat3","title":"Stake 取得巴西法院禁制令，可營運至 10 月 25 日"},
+ {"cat":"cat3","title":"Seminole 部落控告 DraftKings 與執行長在佛州非法經營"},
+ {"cat":"cat3","title":"PokerStars Casino 把 The Slotlist 帶進羅馬尼亞，首推 ELK Pirots 4"},
+ {"cat":"cat3","title":"GLI 獲准為紐西蘭新開放的線上賭場市場做認證測試"},
+ {"cat":"cat4","title":"GCash 母公司 Mynt 支付營收下滑"},
+ {"cat":"cat5","title":"Blask：巴西合法博彩一週流失 74% 用戶，印度 63% 玩家轉離岸"},
+ {"cat":"cat5","title":"伊利諾州 9 月賭場營收年增 12.7%"},
+ {"cat":"cat5","title":"老虎機長青榜：十週年 Book of Dead 今年仍排第 6"}
+],
+"stock": [
+ {"cat":"cat1","title":"Egg Eruption","gp":"TaDa Gaming","b":6,"first_seen":"2026-10-09","sources":[{"name":"SlotsLaunch 上線日曆","url":"https://slotslaunch.com/tada-gaming/egg-eruption","published":"2026-10-08"}]},
+ {"cat":"cat1","title":"Diamond Slam: Super Wheel","gp":"ENJOY","b":1,"first_seen":"2026-10-09","sources":[{"name":"EEGaming","url":"https://eegaming.org/latest-news/2026/10/08/53053/enjoy-launches-diamond-slam-super-wheel-with-new-wheel-mechanic-and-double-chance/","published":"2026-10-08 15:52"}]},
+ {"cat":"cat1","title":"Coins Blast","gp":"Belatra Games","b":1,"first_seen":"2026-10-09","sources":[{"name":"EEGaming","url":"https://eegaming.org/latest-news/2026/10/08/53052/belatra-games-releases-new-slot-title-coins-blast/","published":"2026-10-08 15:30"}]},
+ {"cat":"cat1","title":"Zoo Busters","gp":"Fantasma Games","b":1,"first_seen":"2026-10-09","sources":[{"name":"Fantasma Games","url":"https://www.fantasmagames.com/fantasma-games-unleashes-wild-action-with-zoo-busters/","published":"2026-10-08 15:13"}]},
+ {"cat":"cat1","title":"5 Power Joker","gp":"AvatarUX","b":1,"first_seen":"2026-10-09","sources":[{"name":"BigWinBoard 新作列表","url":"https://www.bigwinboard.com/new-slots/","published":"2026-10-09"}]},
+ {"cat":"cat2","title":"WSOP 年度最佳選手 100 萬美元獎池決戰移師巴哈馬 Paradise","sources":[{"name":"EEGaming","url":"https://eegaming.org/latest-news/2026/10/08/53064/wsop-sets-1m-player-of-the-year-finale-at-wsop-paradise-in-the-bahamas/","published":"2026-10-09 03:40"}],"first_seen":"2026-10-09"},
+ {"cat":"cat3","title":"密西根博彩委員會對 33 家離岸非法業者發停止令","sources":[{"name":"CDC Gaming","url":"https://cdcgaming.com/michigan-gaming-regulators-target-33-illegal-offshore-operators/","published":"2026-10-09 08:29"}],"first_seen":"2026-10-09"},
+ {"cat":"cat5","title":"江原樂園 60 歲以上佔常客一半","sources":[{"name":"Inside Asian Gaming","url":"https://asgam.com/2026/10/09/adults-aged-60-or-more-now-comprise-half-of-regular-repeat-visitors-to-koreas-kangwon-land-casino/","published":"2026-10-09 05:36"}],"first_seen":"2026-10-09"}
+]}

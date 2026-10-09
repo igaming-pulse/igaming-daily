@@ -1,36 +1,36 @@
-🎰 iGaming 市場日報 2026-10-08（週四）
+🎰 iGaming 市場日報 2026-10-09（週五）
 🎰 Slot 5 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
 
 🎰 Slot 新遊戲
-01 3 Pot Panda – TaDa Gaming
-02 Buffalo Horizon – Yggdrasil
-03 Redtail Robber Cash Vault Heist – Play'n GO
-04 Grimms' Bounty: Princess & the Frog – PG Soft
-05 Cheetah Wild – Pragmatic Play
+01 Ring of Wealth Holland Casino Anniversary Edition – IGT
+02 CloudForge – Relax Gaming
+03 25 Coins x3000 – Wazdan
+04 Wicked Grin – Hacksaw Gaming
+05 Raccoon Raiders – Booming Games
 
 🕹️ 非 Slot 新內容
-01 Inferno Roulette – Creedroomz
-02 Blackjack Bonus Live – ICONIC21
-03 BetGames 攜手 bet365 進軍英國 – BetGames
+01 Fusion Roulette 產品負責人專訪 – EEZE
+02 WCOOP 2026 落幕，總派彩 4,900 萬美元 – PokerStars
+03 BOYLE Casino 真人館改版，300+ 遊戲加滑動切桌 – BOYLE Casino
 
 🤝 主流 GP／平台
-01 Zitro Digital 全產品線上架秘魯 Betmaster.pe
-02 Yggdrasil 延攬 David Hopkins 任首席轉型長
-03 Evoplay 攜 11 款 Slot 與 Crash 遊戲上架西班牙 Luckia Games
-04 巴西禁令生效，Apple、Google 下架博彩 App
+01 Stake 取得巴西法院禁制令，可營運至 10 月 25 日
+02 Seminole 部落控告 DraftKings 與執行長在佛州非法經營
+03 PokerStars Casino 把「The Slotlist」帶進羅馬尼亞，首推 ELK《Pirots 4》
+04 GLI 獲准為紐西蘭新開放的線上賭場市場做認證測試
 
 🇵🇭 菲律賓 GP／平台
-01 Bloomberry 推出 OnlyFun.PH 直播互動娛樂平台
+01 GCash 母公司 Mynt 支付營收下滑，電子錢包斷開博彩連結效應延續
 
 📊 市場數據 & 趨勢
-01 老虎機設計趨勢：「持續累積型」機台退燒，廠商轉向高波動
-02 AGEM 指數 9 月下跌 6.1%，Aristocrat、L&W 拖累最深
-03 澳門十一黃金週訪客 114 萬人次，日均創新高
+01 Blask：巴西合法博彩一週流失 74% 用戶，印度經驗顯示 63% 玩家轉離岸
+02 伊利諾州 9 月賭場營收年增 12.7%，老虎機貢獻四分之三
+03 老虎機長青榜：十週年《Book of Dead》今年仍排第 6
 
 📝 品質備註（本次爬找判斷）
-1. 本次為手動提前執行（台北 22:44），收集窗為 10/07 22:43～10/08 22:43；harvest 窗內候選 583 則，新聞量充足。窗內大廠 Slot 新作約 12 款，取 B 分最高 5 款，其餘 7 款（Red Tiger、Relax、Hacksaw、BGaming 等）進庫存。
-2. 3 Pot Panda、Redtail Robber 的 SlotCatalog 上線日（4/14、9/7）早於今日新聞稿，疑為先行區域上線；澳門黃金週為 10/5–10/6「首四日 75 萬」的後續全期正式數字。
-3. EEZE 今日窗內無消息，未收錄；菲律賓區窗內僅 Bloomberry 一則有份量（WebSearch 第三層未找到其他平台新動態）。
+1. 本次為手動提早執行（台北 11:01），收集窗為 10/8 11:00～10/9 11:00；與 10/8 晚間那份日報窗口大幅重疊，Buffalo Horizon、Redtail Robber 等已報過的不重複收錄。harvest 窗內候選 555 則，6 個來源失敗（Pragmatic Play、Play'n GO、Kalamba、SunStar 等），非主要新聞來源，不算抓取異常。
+2. 因主來源日期不合格剔除 2 則：TaDa Gaming《Egg Eruption》（只有 SlotsLaunch 上線日 10/8，查無含日期的新聞稿）、Pragmatic Play《Gameshow Party Jackpot》（BigWinBoard 標 TBC 佔位），Egg Eruption 已進庫存；由 Wazdan、Booming Games 遞補。
+3. 菲律賓區窗內只有 1 則合格（Mynt 主來源為 iGamingToday，另以 InsiderPH 佐證）；Blask 巴西數據疑似與 10/7、10/8 的 Blask 報導主題重疊，但本則是新發布的印度對照數據，所以照收。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：Kalamba Games（9 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：Kalamba Games（10 天）；請檢查網址或改抓取方式

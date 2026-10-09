@@ -1,0 +1,37 @@
+{
+ "date": "2026-10-09",
+ "md": "state/2026-10-09-igaming-report.md",
+ "html": "reports/2026-10-09.html",
+ "items": 16,
+ "counts": {
+  "cat1": 5,
+  "cat2": 3,
+  "cat3": 4,
+  "cat4": 1,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 47,
+  "ok": 36,
+  "broken": 0,
+  "blocked": 11,
+  "images_dropped": 0
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-01 Ring of Wealth Holland C｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/europe/09/10/2026/igt-launches-custom-ring-of-wealth-game-for-holland-casino-50th-anniversary-celebrations/",
+  "cat1-01 Ring of Wealth Holland C｜來源連結無法自動驗證（403，多半是網站擋機器人）：CasinoNieuws.nl https://www.casinonieuws.nl/landgebonden/holland-casino-bestaat-50-jaar/",
+  "cat1-04 Wicked Grin – Hacksaw Ga｜來源連結無法自動驗證（403，多半是網站擋機器人）：SlotCatalog https://slotcatalog.com/en/slots/wicked-grin",
+  "cat1-05 Raccoon Raiders – Boomin｜來源連結無法自動驗證（403，多半是網站擋機器人）：SlotCatalog https://slotcatalog.com/en/slots/raccoon-raiders",
+  "cat3-01 Stake 取得巴西法院禁制令，可營運至 10 ｜來源連結無法自動驗證（403，多半是網站擋機器人）：SBC Americas https://sbcamericas.com/2026/10/08/brazil-court-allows-stake-to-operate/",
+  "cat3-01 Stake 取得巴西法院禁制令，可營運至 10 ｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Brazil https://igamingbrazil.com/legislacao/2026/10/08/stake-obtem-liminar-e-podera-operar-no-brasil-ate-25-de-outubro/",
+  "cat3-02 Seminole 部落控告 DraftKings｜來源連結無法自動驗證（403，多半是網站擋機器人）：SBC Americas https://sbcamericas.com/2026/10/08/draftkings-sued-seminole-tribe-florida/",
+  "cat3-04 GLI 獲准為紐西蘭新開放的線上賭場市場做認證測｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/09/gli-receives-approval-to-test-igaming-for-new-zealands-newly-regulated-online-casino-market/",
+  "cat3-04 GLI 獲准為紐西蘭新開放的線上賭場市場做認證測｜來源連結無法自動驗證（error:[SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol ver，多半是網站擋機器人）：GLI https://gaminglabs.com/press-releases/gaming-laboratories-international-gli-approved-to-test-igaming-for-new-zealands-newly-regulated-online-casino-market/",
+  "cat3-04 GLI 獲准為紐西蘭新開放的線上賭場市場做認證測｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/new-zealand/09/10/2026/gli-approved-to-test-igaming-for-new-zealands-newly-regulated-online-casino-market/",
+  "cat5-03 老虎機長青榜：十週年《Book of Dead》｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Future https://igamingfuture.com/spin-genie-book-of-dead-2/"
+ ],
+ "fixes": [
+  "文末｜資料來源數 30 → 39（程式依來源連結去重計算）"
+ ]
+}
