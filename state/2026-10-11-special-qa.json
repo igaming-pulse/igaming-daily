@@ -2,18 +2,24 @@
  "date": "2026-10-11",
  "md": "state/2026-10-11-special-igaming-report.md",
  "html": "reports/2026-10-11-special.html",
- "items": 4,
+ "items": 17,
  "counts": {
-  "cat1": 4
+  "cat1": 16,
+  "cat2": 1
  },
  "links": {
-  "checked": 14,
-  "ok": 14,
+  "checked": 53,
+  "ok": 52,
   "broken": 0,
-  "blocked": 0,
+  "blocked": 1,
   "images_dropped": 0
  },
  "errors": [],
- "warnings": [],
- "fixes": []
+ "warnings": [
+  "cat1-08 Coins Blast – Belatra Ga｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGamingFuture https://igamingfuture.com/belatra-sparks-a-retro-revival-with-coins-blast/",
+  "文末｜查詢網站數 N1（34）小於實際來源數 36，已調成 36"
+ ],
+ "fixes": [
+  "文末｜資料來源數 30 → 36（程式依來源連結去重計算）"
+ ]
 }

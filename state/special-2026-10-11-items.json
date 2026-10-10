@@ -1,6 +1,6 @@
 {
  "date": "2026-10-11",
- "available": 18,
+ "available": 14,
  "chosen": [
   {
    "cat": "cat1",
@@ -19,21 +19,6 @@
   },
   {
    "cat": "cat1",
-   "title": "Cocks & Robbers",
-   "gp": "Red Tiger",
-   "b": 4,
-   "first_seen": "2026-10-08",
-   "sources": [
-    {
-     "name": "BigWinBoard 新作列表",
-     "url": "https://www.bigwinboard.com/new-slots/",
-     "published": "2026-10-07"
-    }
-   ],
-   "key": "cocksrobbers|redtiger"
-  },
-  {
-   "cat": "cat1",
    "title": "Sweet Bonanza Xmas 2500",
    "gp": "Pragmatic Play",
    "b": 4,
@@ -46,6 +31,22 @@
     }
    ],
    "key": "sweetbonanzaxmas2500|pragmaticplay"
+  },
+  {
+   "cat": "cat1",
+   "title": "Cocks & Robbers",
+   "gp": "Red Tiger",
+   "b": 4,
+   "first_seen": "2026-10-08",
+   "sources": [
+    {
+     "name": "BigWinBoard 新作列表",
+     "url": "https://www.bigwinboard.com/new-slots/",
+     "published": "2026-10-07"
+    }
+   ],
+   "key": "cocksrobbers|redtiger",
+   "already_released": true
   },
   {
    "cat": "cat1",
@@ -90,7 +91,8 @@
      "published": "2026-10-06"
     }
    ],
-   "key": "gemsofscaralith|milliongames"
+   "key": "gemsofscaralith|milliongames",
+   "already_released": true
   },
   {
    "cat": "cat1",
@@ -105,7 +107,8 @@
      "published": "2026-10-06"
     }
    ],
-   "key": "lospiratasgolfetes|mgagames"
+   "key": "lospiratasgolfetes|mgagames",
+   "already_released": true
   },
   {
    "cat": "cat1",
@@ -120,7 +123,168 @@
      "published": "2026-10-08 15:13"
     }
    ],
-   "key": "piratecoins3chests|evoplay"
+   "key": "piratecoins3chests|evoplay",
+   "already_released": true
+  },
+  {
+   "cat": "cat1",
+   "title": "5 Power Joker",
+   "gp": "AvatarUX",
+   "b": 1,
+   "first_seen": "2026-10-09",
+   "sources": [
+    {
+     "name": "BigWinBoard 新作列表",
+     "url": "https://www.bigwinboard.com/new-slots/",
+     "published": "2026-10-09"
+    }
+   ],
+   "key": "5powerjoker|avatarux"
+  },
+  {
+   "cat": "cat1",
+   "title": "Coins Blast",
+   "gp": "Belatra Games",
+   "b": 1,
+   "first_seen": "2026-10-09",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/08/53052/belatra-games-releases-new-slot-title-coins-blast/",
+     "published": "2026-10-08 15:30"
+    }
+   ],
+   "key": "coinsblast|belatragames"
+  },
+  {
+   "cat": "cat1",
+   "title": "Diamond Slam: Super Wheel",
+   "gp": "ENJOY",
+   "b": 1,
+   "first_seen": "2026-10-09",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/08/53053/enjoy-launches-diamond-slam-super-wheel-with-new-wheel-mechanic-and-double-chance/",
+     "published": "2026-10-08 15:52"
+    }
+   ],
+   "key": "diamondslamsuperwheel|enjoy"
+  },
+  {
+   "cat": "cat1",
+   "title": "Zoo Busters",
+   "gp": "Fantasma Games",
+   "b": 1,
+   "first_seen": "2026-10-09",
+   "sources": [
+    {
+     "name": "Fantasma Games",
+     "url": "https://www.fantasmagames.com/fantasma-games-unleashes-wild-action-with-zoo-busters/",
+     "published": "2026-10-08 15:13"
+    }
+   ],
+   "key": "zoobusters|fantasmagames"
+  },
+  {
+   "cat": "cat1",
+   "title": "40 Vampire Beast Triple Boost",
+   "gp": "Amusnet",
+   "b": 1,
+   "first_seen": "2026-10-10",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/08/53045/amusnet-releases-40-vampire-beast-triple-boost-golden-coins-link/",
+     "published": "2026-10-08"
+    }
+   ],
+   "key": "40vampirebeasttripleboost|amusnet"
+  },
+  {
+   "cat": "cat1",
+   "title": "Bjorn",
+   "gp": "Thunderkick",
+   "b": 1,
+   "first_seen": "2026-10-10",
+   "sources": [
+    {
+     "name": "Thunderkick",
+     "url": "https://www.thunderkick.com/bjorn-is-live-stand-your-ground/",
+     "published": "2026-10-09 15:32"
+    }
+   ],
+   "key": "bjorn|thunderkick"
+  },
+  {
+   "cat": "cat1",
+   "title": "Doctor Dust",
+   "gp": "Bullshark Games",
+   "b": 1,
+   "first_seen": "2026-10-10",
+   "sources": [
+    {
+     "name": "Yogonet",
+     "url": "https://www.yogonet.com/international/news/2026/10/09/126769-bullshark-games-unveils-doctor-dust-a-cascading-cluster-slot-set-in-postapocalyptic-wasteland",
+     "published": "2026-10-09 21:23"
+    }
+   ],
+   "key": "doctordust|bullsharkgames"
+  },
+  {
+   "cat": "cat1",
+   "title": "Egypt King Multi",
+   "gp": "Swintt",
+   "b": 1,
+   "first_seen": "2026-10-10",
+   "sources": [
+    {
+     "name": "European Gaming",
+     "url": "https://europeangaming.eu/portal/press-releases/2026/10/09/215711/swintt-egypt-king-multi-slot/",
+     "published": "2026-10-09 19:22"
+    },
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/09/53071/swintt-adds-egypt-king-multi-slot-to-premium-portfolio/",
+     "published": "2026-10-09 15:53"
+    }
+   ],
+   "key": "egyptkingmulti|swintt"
+  },
+  {
+   "cat": "cat1",
+   "title": "Garuda Da Fortuna 1000",
+   "gp": "PopOK Gaming",
+   "b": 1,
+   "first_seen": "2026-10-10",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/09/53080/popok-gaming-launches-garuda-da-fortuna-1000-slot-with-multipliers-up-to-x1000/",
+     "published": "2026-10-09 20:08"
+    },
+    {
+     "name": "SlotBeats",
+     "url": "https://slotbeats.com/latest-slots/garuda-da-fortuna-1000-popok-gaming/",
+     "published": "2026-10-09 23:10"
+    }
+   ],
+   "key": "garudadafortuna1000|popokgaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Vice Spins",
+   "gp": "R. Franco Digital",
+   "b": 1,
+   "first_seen": "2026-10-10",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/07/53030/r-franco-digital-launches-vice-spins-slot-with-four-tier-jackpot/",
+     "published": "2026-10-07"
+    }
+   ],
+   "key": "vicespins|rfrancodigital"
   }
  ]
 }

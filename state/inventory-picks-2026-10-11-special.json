@@ -2,8 +2,18 @@
  "shown": [
   {
    "cat": "cat1",
+   "title": "Egg Eruption",
+   "gp": "TaDa Gaming"
+  },
+  {
+   "cat": "cat1",
    "title": "Cocks & Robbers",
    "gp": "Red Tiger"
+  },
+  {
+   "cat": "cat1",
+   "title": "Diamond Tornado",
+   "gp": "Swintt"
   },
   {
    "cat": "cat1",
@@ -19,6 +29,61 @@
    "cat": "cat1",
    "title": "Pirate Coins: 3 Chests",
    "gp": "Evoplay"
+  },
+  {
+   "cat": "cat1",
+   "title": "5 Power Joker",
+   "gp": "AvatarUX"
+  },
+  {
+   "cat": "cat1",
+   "title": "Coins Blast",
+   "gp": "Belatra Games"
+  },
+  {
+   "cat": "cat1",
+   "title": "Diamond Slam: Super Wheel",
+   "gp": "ENJOY"
+  },
+  {
+   "cat": "cat1",
+   "title": "Zoo Busters",
+   "gp": "Fantasma Games"
+  },
+  {
+   "cat": "cat1",
+   "title": "40 Vampire Beast Triple Boost",
+   "gp": "Amusnet"
+  },
+  {
+   "cat": "cat1",
+   "title": "Bjorn",
+   "gp": "Thunderkick"
+  },
+  {
+   "cat": "cat1",
+   "title": "Doctor Dust",
+   "gp": "Bullshark Games"
+  },
+  {
+   "cat": "cat1",
+   "title": "Egypt King Multi",
+   "gp": "Swintt"
+  },
+  {
+   "cat": "cat1",
+   "title": "Garuda Da Fortuna 1000",
+   "gp": "PopOK Gaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Vice Spins",
+   "gp": "R. Franco Digital"
+  },
+  {
+   "cat": "cat1",
+   "title": "Capi Cash Jackpot Fortunes",
+   "gp": "Neko Games"
   }
  ],
  "stock": []
