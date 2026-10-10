@@ -6,6 +6,9 @@ name: Telegram 測試推播（公司帳號併行版）
 #    才會觸發。但它 checkout 的是 test-publish —— 腳本與當天的 pending 檔在那個分支。
 #
 # 切換日要做的事：刪掉這個檔，改用 test-publish 上的 telegram-0630.yml。
+# 執行名稱帶上種類：守門判斷「今天日報已推播」時，只算 url_suffix=-test 的正常日報（不算警報、特別版）
+run-name: "Telegram ${{ github.event_name == 'schedule' && '排程' || (inputs.alert == 'true' && '警報' || format('{0} {1}', inputs.report_date, inputs.url_suffix)) }}"
+
 on:
   schedule:
     - cron: '40 22 * * *'
@@ -31,6 +34,10 @@ on:
         description: '預存訊息檔（留空＝state/pending_telegram.txt）'
         required: false
         default: ''
+      alert:
+        description: '即時警報模式（true＝直接送 pending_path 內容，不經守門員）'
+        required: false
+        default: 'false'
 
 concurrency:
   group: telegram-test
@@ -62,7 +69,8 @@ jobs:
           req = urllib.request.Request(url, headers={"Authorization": f"Bearer {os.environ['GH_TOKEN']}",
                                                      "Accept": "application/vnd.github+json"})
           runs = json.load(urllib.request.urlopen(req)).get("workflow_runs", [])
-          sent = [r for r in runs if datetime.fromisoformat(r["created_at"].replace("Z", "+00:00")).astimezone(tpe).date() == today]
+          sent = [r for r in runs if datetime.fromisoformat(r["created_at"].replace("Z", "+00:00")).astimezone(tpe).date() == today
+                  and "-test" in (r.get("display_title") or "") and "警報" not in (r.get("display_title") or "")]
           skip = "true" if sent else "false"
           print(f"今天（{today}）已成功手動發送 {len(sent)} 次 → skip={skip}")
           with open(os.environ["GITHUB_OUTPUT"], "a") as f:
@@ -82,4 +90,5 @@ jobs:
           REPORT_URL_SUFFIX:  ${{ github.event.inputs.url_suffix || '-test' }}
           REPORT_DATE:        ${{ github.event.inputs.report_date }}
           PENDING_PATH:       ${{ github.event.inputs.pending_path }}
+          ALERT:              ${{ github.event.inputs.alert }}
         run: python3 scripts/send_telegram.py
