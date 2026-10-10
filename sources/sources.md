@@ -18,7 +18,7 @@
 | Pragmatic Play | https://pragmaticplay.com/en/news/ | WP-API | 每日 | https://pragmaticplay.com/wp-json/wp/v2/posts |  |  | Provider 官網 |
 | PG Soft | https://pgsoft.com/en/news/ | Firecrawl | 輪掃 |  |  |  | Provider 官網 |
 | Jili | https://jiligames.com/ | Firecrawl | 輪掃 |  |  |  | Provider 官網 |
-| Play'n GO | https://www.playngo.com/ | RSS | 每日 | https://www.playngo.com/blog-feed.xml |  |  | Provider 官網 |
+| Play'n GO | https://www.playngo.com/ | Sitemap | 每日 | https://www.playngo.com/sitemap.xml |  |  | Provider 官網；v6.5.2 官網改 Wix、RSS 消失 → 改抓 sitemap（/games/ 的日期＝上線日，/post/ 為新聞） |
 | NetEnt | https://www.netent.com/ | Firecrawl | 輪掃 |  |  |  | Provider 官網 |
 | Red Tiger Gaming | https://redtiger.com/ | Firecrawl | 輪掃 |  |  |  | Provider 官網 |
 | Spribe | https://spribe.co/ | Firecrawl | 輪掃 |  |  |  | Provider 官網（Crash 代表廠商） |
@@ -36,7 +36,7 @@
 | Relax Gaming | https://www.relaxgaming.com/ | Firecrawl | 輪掃 |  |  |  | Provider 官網 |
 | 4ThePlayer | https://4theplayer.com/ | WP-API | 每日 | https://4theplayer.com/wp-json/wp/v2/posts |  |  | Provider 官網 |
 | AvatarUX | https://avatarux.com/ | WP-API | 每日 | https://avatarux.com/wp-json/wp/v2/posts |  |  | Provider 官網 |
-| Kalamba Games | https://kalambagames.com/ | WP-API | 每日 | https://kalambagames.com/wp-json/wp/v2/posts |  |  | Provider 官網 |
+| Kalamba Games | https://kalambagames.com/ | Firecrawl | 輪掃 | https://kalambagames.com/ |  |  | Provider 官網；v6.5.2 網站加了機器人驗證（curl 被擋）→ 改 Firecrawl 輪掃 |
 | Peter & Sons | https://peterandsonsgames.com/ | Firecrawl | 輪掃 |  |  |  | Provider 官網 |
 | CP Game | https://cpgames.com/ | Firecrawl | 輪掃 |  |  |  | Provider 官網 |
 | Acewin | https://www.acewin168.com/ | Firecrawl | 輪掃 |  |  |  | ★優先追蹤｜IGS鈊象電子旗下 GP；可視為 Jili 低配版、多款與 Jili 互通，B 端價格有優勢。上新遊戲於 DigiPlus 系(BingoPlus/ArenaPlus/GameZone)或 CasinoPlus 等菲現金網、或特別線上/線下活動與平台功能更新→提高露出權重 |
@@ -137,7 +137,7 @@
 | CasinoNieuws.nl | https://www.casinonieuws.nl/ | Firecrawl | 輪掃 |  |  |  | 荷蘭博彩媒體 |
 | Gaming in Holland | https://gaminginholland.com/ | Firecrawl | 輪掃 |  |  |  | 荷蘭／英語博彩媒體 |
 | GBC Time | https://gbc-time.com/ | Firecrawl | 輪掃 |  |  |  | 英／俄／烏語博彩媒體 |
-| Casino Inside Romania | https://casinoinside.ro/ | WP-API | 每日 | https://casinoinside.ro/wp-json/wp/v2/posts |  |  | 羅馬尼亞博彩媒體 |
+| Casino Inside Romania | https://casinoinside.ro/ | Firecrawl | 輪掃 | https://casinoinside.ro/ |  |  | 羅馬尼亞博彩媒體；v6.5.2 網站加了機器人驗證（curl 被擋）→ 改 Firecrawl 輪掃 |
 | Casino Life & Business Romania | https://www.casino-life.ro/ | Firecrawl | 輪掃 |  |  |  | 羅馬尼亞／中東歐博彩媒體 |
 | Interplay Poland | https://interplay.pl/ | WP-API | 每日 | https://interplay.pl/wp-json/wp/v2/posts |  |  | 波蘭博彩媒體 |
 | GreenBelt | https://web-greenbelt.jp/ | WP-API | 每日 | https://web-greenbelt.jp/wp-json/wp/v2/posts |  |  | 日本 Pachislot 媒體；子頁 /category/machine/ 為新台專區（優先級最高） |

@@ -34,6 +34,7 @@ import sys
 import time
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from urllib.parse import unquote as urllib_unquote
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SOURCES_MD = os.path.join(ROOT, "sources", "sources.md")
@@ -263,6 +264,35 @@ def parse_igamingtoday(md):
     return out
 
 
+def fetch_sitemap(src, since):
+    """v6.5.2 官網 sitemap（2026-10-11，Play'n GO 改用 Wix、RSS 消失後新增）。
+    /games/<slug> 的 lastmod ＝ 遊戲上線日（Play'n GO 實測，排到隔年）→ 當 Slot 上線日曆；
+    /post/<slug>、/news/<slug> 的 lastmod ＝ 文章日期。只精確到日；標題由網址 slug 還原。"""
+    body = sh(src["endpoint"], 25)
+    rows = re.findall(r"<url>(.*?)</url>", body, re.S)
+    if not rows:
+        return None, "sitemap 解析不到 <url>（可能被擋或網址失效）"
+    out = []
+    for u in rows:
+        loc = re.search(r"<loc>\s*(.*?)\s*</loc>", u)
+        mod = re.search(r"<lastmod>\s*(\d{4}-\d{2}-\d{2})", u)
+        if not loc or not mod or mod.group(1).startswith("9999"):
+            continue
+        url = html.unescape(loc.group(1))
+        kind = "game" if "/games/" in url else "post" if re.search(r"/(post|news|blog)/", url) else None
+        if not kind:
+            continue
+        dt = datetime.fromisoformat(mod.group(1)).replace(tzinfo=TPE)
+        if dt < since - timedelta(days=1):
+            continue
+        slug = urllib_unquote(url.rstrip("/").rsplit("/", 1)[-1])
+        title = " ".join(w if w.isupper() else w[:1].upper() + w[1:] for w in slug.replace("-", " ").split())
+        out.append({"title": f"{title} — {src['name']}" if kind == "game" else title, "url": url, "dt": dt,
+                    "date_only": True, "force_cat": "cat1" if kind == "game" else None,
+                    "excerpt": f"{src['name']} 官網上線日 {dt:%Y-%m-%d}" if kind == "game" else f"{src['name']} 官網文章（{dt:%Y-%m-%d}）"})
+    return out, None
+
+
 def guess_cat(title, excerpt):
     text = f"{title} {excerpt}"
     for cat, rx in CAT_RULES:
@@ -344,14 +374,14 @@ def main():
     srcs = read_sources()
     feeds, seen_ep = [], set()
     for s in srcs:
-        if s["way"] in ("WP-API", "RSS") and s["endpoint"] and s["endpoint"] not in seen_ep:
+        if s["way"] in ("WP-API", "RSS", "Sitemap") and s["endpoint"] and s["endpoint"] not in seen_ep:
             seen_ep.add(s["endpoint"])
             feeds.append(s)
 
     health, items = [], []
 
     def job(s):
-        fn = fetch_wp if s["way"] == "WP-API" else fetch_rss
+        fn = {"WP-API": fetch_wp, "Sitemap": fetch_sitemap}.get(s["way"], fetch_rss)
         try:
             res, err = fn(s, since)
         except Exception as e:  # 單一來源出錯不影響其他來源
@@ -380,7 +410,8 @@ def main():
                 continue
             if NOISE.search(it["title"]):
                 continue
-            cat = "cat1" if s["name"].startswith(("BigWinBoard", "SlotsLaunch")) else guess_cat(it["title"], it["excerpt"])
+            cat = it.get("force_cat") or ("cat1" if s["name"].startswith(("BigWinBoard", "SlotsLaunch"))
+                                          else guess_cat(it["title"], it["excerpt"]))
             if it.get("date_only"):
                 inw = w0.date() <= it["dt"].date() <= w1.date()
             else:

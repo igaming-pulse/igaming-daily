@@ -145,6 +145,23 @@ class TestHarvestParsers(unittest.TestCase):
         self.assertEqual(len({x["url"] for x in r}), len(r), "同一款重複")
 
 
+class TestSitemap(unittest.TestCase):
+    def test_playngo_sitemap(self):
+        from datetime import datetime
+        body = open(os.path.join(FIX, "playngo-sitemap-2026-10-11.xml"), encoding="utf-8").read()
+        orig = H.sh
+        H.sh = lambda url, timeout=20: body
+        try:
+            r, err = H.fetch_sitemap({"name": "Play'n GO", "endpoint": "x"}, datetime(2026, 10, 1, tzinfo=H.TPE))
+        finally:
+            H.sh = orig
+        self.assertIsNone(err)
+        games = {x["title"]: x for x in r if x["force_cat"] == "cat1"}
+        self.assertIn("Redtail Robber Cash Vault Heist — Play'n GO", games)
+        self.assertEqual(games["Redtail Robber Cash Vault Heist — Play'n GO"]["dt"].date().isoformat(), "2026-10-08")
+        self.assertFalse(any(x["dt"].year == 9999 for x in r))
+
+
 class TestTiers(unittest.TestCase):
     def tier(self, remaining, end="2026-10-14", today="2026-09-28"):
         return H.pick_tier({"remaining": remaining, "plan": 1000, "period_end": end}, date.fromisoformat(today))[0][0]

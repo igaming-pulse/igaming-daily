@@ -875,6 +875,8 @@ PAGCOR 官方公告與規範；實體賭場（Okada Manila、Solaire、NUSTAR、
 
 ## 版本沿革
 
+- **v6.5.2**（2026-10-11）來源修復：Play'n GO 官網改用 Wix、RSS 消失 → 新增抓取方式「Sitemap」（`harvest.py` 的 `fetch_sitemap`；`/games/` 的日期＝上線日，當 Slot 上線日曆用）；Kalamba Games、Casino Inside Romania 加了機器人驗證 → 改 Firecrawl 輪掃。另：排程自帶防睡眠（caffeinate）、晚到立刻推播、發布到 main 改暫存 worktree
+
 - **v6.5.1**（2026-09-28）① Firecrawl 用量分級（充裕≥30／標準 20–29／節約 15–19／保命<15，保留 20 點），開跑前查剩餘點數決定強度；
   ② BigWinBoard、SlotsLaunch（改抓上線日曆）、EEGaming、SBC News、IAG 改為免費抓取，每天固定列表頁從 6 個降到 1 個（iGamingToday，由程式解析）；
   ③ 窗外候選另存 backlog 檔；④ 庫存自動剔除（TBC）佔位頁；⑤ 文末資料來源數改由程式計算；⑥ `tests/` 回歸測試（過去 11 份日報＋列表頁存檔）。
