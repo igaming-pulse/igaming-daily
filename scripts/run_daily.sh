@@ -96,7 +96,7 @@ git pull --ff-only >>"$LOG" 2>&1 || log "⚠️ git pull 失敗，用本地版�
 # 要強制重跑：IGAMING_FORCE=1 bash scripts/run_daily.sh
 # ⚠️ 不可寫成 git log | grep -q：grep 提早結束讓 git log 收到 SIGPIPE，在 pipefail 下整條被當成失敗（10/7 因此重跑了一次）
 RECENT_SUBJECTS=$(git log --since="18 hours ago" --format=%s 2>/dev/null)
-if [ "${IGAMING_FORCE:-0}" != "1" ] && printf '%s\n' "$RECENT_SUBJECTS" | grep -qx "daily: ${DATE} report" \
+if [ "${IGAMING_FORCE:-0}" != "1" ] && printf '%s\n' "$RECENT_SUBJECTS" | grep -x "daily: ${DATE} report" >/dev/null \
    && [ -f "reports/${DATE}.html" ]; then
   log "今天（${DATE}）已經有成功的日報 commit，略過本次（強制重跑請設 IGAMING_FORCE=1）"
   log "──────── 結束 ────────"

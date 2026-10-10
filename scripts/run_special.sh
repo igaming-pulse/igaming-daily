@@ -34,11 +34,11 @@ if [ "$FORCE" != "1" ] && [ "$WD" != "1" ] && [ "$WD" != "4" ]; then
 fi
 
 SUBJECTS=$(git log --since="30 hours ago" --format=%s 2>/dev/null)
-if ! printf '%s\n' "$SUBJECTS" | grep -qx "daily: ${DATE} report" || [ ! -f "reports/${DATE}.html" ]; then
+if ! printf '%s\n' "$SUBJECTS" | grep -x "daily: ${DATE} report" >/dev/null || [ ! -f "reports/${DATE}.html" ]; then
   say "今天（${DATE}）的日報還沒成功，不發特別版"
   exit 0
 fi
-if [ "$REDO" != "1" ] && printf '%s\n' "$SUBJECTS" | grep -q "^special: ${DATE}"; then
+if [ "$REDO" != "1" ] && printf '%s\n' "$SUBJECTS" | grep "^special: ${DATE}" >/dev/null; then
   say "今天已經發過特別版，略過"
   exit 0
 fi
