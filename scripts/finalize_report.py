@@ -117,8 +117,8 @@ def check_schema(rep, day, qa):
                     (qa.err if c in ("cat3", "cat4") else qa.warn)(w, "缺「重點：類型 … ｜ 對象 … ｜ 影響 …」")
                 elif {k for k, _ in it["keyrow"]} < {"類型", "對象", "影響"}:
                     qa.warn(w, "「重點」應含 類型／對象／影響 三項")
-            if c in ("cat1", "cat2") and not it["image_raw"]:
-                qa.warn(w, "缺「圖片：」行（沒有就寫「圖片：無」）")
+            if not it["image_raw"]:
+                qa.warn(w, "缺「圖片：」行（v6.6.6 起五區都要配圖；試過全部方法才寫「圖片：無」）")
     if total > 22:
         qa.warn("總量", f"共 {total} 則，超過上限 22")
     if total < 6 and not rep.get("edition"):
@@ -191,7 +191,7 @@ def check_links(rep, qa):
             w = f"{sec['cat']}-{it['no']:02d} {it['title'][:24]}"
             for n, u in it["sources"]:
                 jobs.append(("src", w, it, n, u))
-            if sec["cat"] in ("cat1", "cat2") and it["image"]:
+            if it["image"]:
                 jobs.append(("img", w, it, "配圖", it["image"]))
     with ThreadPoolExecutor(max_workers=8) as ex:
         res = list(ex.map(lambda j: probe(j[4], want_image=j[0] == "img"), jobs))
@@ -216,6 +216,29 @@ def check_links(rep, qa):
             stat["blocked"] += 1
             qa.warn(w, f"來源連結無法自動驗證（{code}，多半是網站擋機器人）：{n} {u}")
     return stat
+
+
+def fill_images(rep, qa):
+    """v6.6.6 配圖補位：沒圖、或圖打不開的，依序免費讀各來源網頁的 og:image，找到能開的就補上。"""
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import page_meta as P
+    todo = [(s["cat"], it) for s in rep["sections"] for it in s["items"] if not it["image"] or it.get("image_dropped")]
+    for c, it in todo:
+        w = f"{c}-{it['no']:02d} {it['title'][:24]}"
+        for name, url in it["sources"]:
+            try:
+                img = P.analyse(url, want_text=False).get("image", "")
+            except Exception:  # noqa: BLE001
+                img = ""
+            if not img or img == it["image"]:
+                continue
+            code, ctype = probe(img, want_image=True)
+            if isinstance(code, int) and code < 400 and not ctype.lower().startswith("text/"):
+                it["image"], it["image_dropped"] = img, False
+                qa.fix(w, f"自動補上配圖（取自 {name}）：{img}")
+                break
+        else:
+            qa.warn(w, "各來源都找不到可用的配圖")
 
 
 # ─────────────────────────── 4. 模糊比對去重 ───────────────────────────
@@ -348,6 +371,9 @@ def main():
     qa = QA()
     total = check_schema(rep, day, qa)
     links = {"checked": 0, "skipped": True} if a.no_links else check_links(rep, qa)
+    if not a.no_links:
+        fill_images(rep, qa)
+        links["images"] = sum(1 for s in rep["sections"] for it in s["items"] if it["image"] and not it.get("image_dropped"))
     check_dupes(rep, day, qa)
     check_inventory_use(rep, day, qa)
     # v6.5：「提取 N2 個資料來源」改由程式算 —— 全部則的來源連結去重後的數量（SKILL.md「📊 文末統計列」定義）
@@ -375,7 +401,7 @@ def main():
     print(f"# 定稿檢查 {a.date}：{total} 則｜" + "、".join(f"{c} {n}" for c, n in result["counts"].items()))
     if not a.no_links:
         print(f"- 連結：檢查 {links['checked']}、正常 {links['ok']}、失效 {links['broken']}、"
-              f"無法驗證 {links['blocked']}、配圖拿掉 {links['images_dropped']}")
+              f"無法驗證 {links['blocked']}、配圖拿掉 {links['images_dropped']}；最後有配圖 {links.get('images', 0)}/{total} 則")
     for title, rows in (("❌ 錯誤（必須修正 .md 後重跑）", qa.errors), ("⚠️ 警告", qa.warnings), ("🔧 自動修正", qa.fixes)):
         if rows:
             print(f"\n## {title} {len(rows)}")

@@ -559,7 +559,9 @@ def main():
     items = dedupe(items)
     budget = tinfo["budget"]
     art_limit = art_cap if budget is None else max(0, min(art_cap, budget - spent_lists))
-    tinfo.update({"lists_spent": spent_lists, "article_limit": art_limit})
+    # v6.6.6 使用者定案：配圖優先，另給 Firecrawl 額度（不佔文章上限）；保命級不給
+    img_extra = {"🟢": 12, "🟡": 10, "🟠": 6}.get(tinfo["tier"][:1], 0)
+    tinfo.update({"lists_spent": spent_lists, "article_limit": art_limit, "image_extra": img_extra})
     meta = {"date": date, "window": [w0.strftime("%Y-%m-%d %H:%M"), w1.strftime("%Y-%m-%d %H:%M")],
             "generated": now.strftime("%Y-%m-%d %H:%M"), "feeds": len(feeds), "firecrawl": tinfo}
     # 開跑時的剩餘點數記下來，health_alert.py 收尾再記一次 → 得到今天的實際用量
@@ -595,6 +597,7 @@ def main():
           f"今日預算 ＝（{tinfo['remaining']} − 保留 {CREDIT_RESERVE}）÷ {tinfo['days_to_reset']} ＝ **{tinfo['budget']} 點**"
           if tinfo.get("remaining") is not None else f"- {tinfo['note']}"),
          f"- 程式已用 {spent_lists} 點抓列表頁 → **Claude 今天 Firecrawl 抓文章最多 {art_limit} 次**（硬上限，用完改 WebSearch／WebFetch）",
+         f"- 🖼️ **配圖另外可再用 Firecrawl {img_extra} 次**（不佔上面的文章上限；只用在免費方式找不到圖的那幾則）",
          f"- 本級規則：{tinfo['note']}",
          ""]
     B = [f"# 窗外近期候選 {date}（庫存參考，勿當當日新聞）", "",

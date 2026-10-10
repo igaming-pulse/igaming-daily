@@ -269,7 +269,7 @@ def _card(cat, it):
     if it["date"]:
         L.append(f"      · {it['date']}")
     L.append("    </div>")
-    if cat in ("cat1", "cat2") and it["image"] and not it.get("image_dropped"):
+    if it["image"] and not it.get("image_dropped"):   # v6.6.6：五區都配圖
         alt = html.escape(re.split(r"\s+[–—-]\s+", it["title"])[0])
         L.append(f'    <img class="hero" src="{html.escape(it["image"])}" alt="{alt}" loading="lazy" '
                  f"onerror=\"this.style.display='none'\">")
