@@ -117,6 +117,15 @@ def main():
         m = re.search(r"(\d{4}-\d{2}-\d{2})", pending_text.split("\n")[0] if pending_text else "")
         pending_is_today = bool(m and m.group(1) == date)
 
+    # ---------- 即時警報（2026-10-11）：run_daily.sh 失敗或開跑前檢查不過時直接送出，不經守門員 ----------
+    if str(os.environ.get("ALERT", "")).lower() == "true":
+        if not pending_text:
+            print("✗ ALERT 模式但沒有警報內容")
+            return 1
+        ok = send(token, chat_id, pending_text, None, dry)
+        print("✓ 即時警報已發送" if ok else "✗ 即時警報發送失敗")
+        return 0 if ok else 1
+
     # ---------- 守門員：沒有今天的報告 ----------
     if not has_report or not pending_is_today:
         reasons = []

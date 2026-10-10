@@ -103,6 +103,20 @@ if [ "${IGAMING_FORCE:-0}" != "1" ] && printf '%s\n' "$RECENT_SUBJECTS" | grep -
   exit 0
 fi
 
+# 開跑前檢查 Claude 登入（2026-10-11）：10/8 登入過期，白跑了收集才發現 → 先檢查，過期就立刻發警報、不浪費 Firecrawl 點數
+AUTH_JSON=$(claude auth status 2>&1)
+case "$AUTH_JSON" in
+  *'"loggedIn": true'*) log "Claude 登入：正常" ;;
+  *)
+    log "✗ Claude 終端機版沒有登入（或登入已過期），本次不執行"
+    bash scripts/alert_telegram.sh "Claude 登入過期，日報沒有執行" \
+      "請在終端機輸入 claude，進去後輸入 /login 重新登入（用 nathan.kao@bituslabs.com）。
+登入後跟 Claude 說「補跑日報」，或在終端機執行：
+launchctl kickstart gui/\$(id -u)/com.igaming.daily-0230" 2>&1 | tee -a "$LOG"
+    log "──────── 結束 ────────"
+    exit 1 ;;
+esac
+
 HEAD_BEFORE=$(git rev-parse HEAD 2>/dev/null || echo "none")
 START_EPOCH=$(date +%s)
 
@@ -181,6 +195,18 @@ fi
 
 log ""
 log "❌❌❌ 本次執行失敗 —— 日報沒產出或沒發布 ❌❌❌"
+# 即時警報（2026-10-11）：判斷最可能的原因，馬上發 Telegram，不等早上的守門員
+TAIL=$(tail -60 "$LOG")
+case "$TAIL" in
+  *"OAuth"*|*"authenticate"*|*"Login expired"*)
+    WHY="Claude 登入過期"; HOWTO="請在終端機輸入 claude → /login 重新登入，再跟 Claude 說「補跑日報」。" ;;
+  *"usage limit"*|*"session limit"*|*"rate limit"*)
+    WHY="Claude 用量額度用完"; HOWTO="等額度重置後再補跑；若 reports/ 已產出只差發布，可手動 commit／push。" ;;
+  *)
+    if [ "$fail" -eq 1 ] && [ ! -f "$REPORT" ]; then WHY="日報沒有產出"; else WHY="日報沒有發布（沒有新 commit）"; fi
+    HOWTO="耗時 ${ELAPSED} 秒。可跟 Claude 說「補跑日報」，或看 state/run.log 最後一段。" ;;
+esac
+bash scripts/alert_telegram.sh "$WHY" "$HOWTO" 2>&1 | tee -a "$LOG"
 if tail -40 "$LOG" | grep -qiE 'session limit|usage limit|rate limit'; then
   log "   ⚠️ 偵測到「用量上限」訊息 —— 這不是流程壞掉，是 Claude 訂閱額度用完。"
   log "      等額度重置後重跑；若 reports/ 與 state/ 的產物已經寫好，只差發布，"
