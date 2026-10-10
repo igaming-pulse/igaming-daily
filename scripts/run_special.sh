@@ -11,7 +11,8 @@
 #    6. commit＋push test-publish → publish_test_to_main.sh 以 -special 發佈到網站
 #  週六、週日日報的 Slot 上限不受影響。
 #
-#  用法：bash scripts/run_special.sh [DATE] [--force]   （--force 略過「週一／週四」判斷，手動例外用）
+#  用法：bash scripts/run_special.sh [DATE] [--force] [--redo]
+#        --force 略過「週一／週四」判斷（手動例外）；--redo 重做今天這期（帶回今天已發的，合成完整總覽、覆蓋同一個網址）
 # ============================================================
 set -uo pipefail
 
@@ -19,8 +20,8 @@ REPO="${IGAMING_REPO:-$HOME/igaming-daily}"
 cd "$REPO" || exit 1
 export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 
-DATE="$(TZ=Asia/Taipei date +%F)"; FORCE=0
-for a in "$@"; do case "$a" in --force) FORCE=1 ;; 20[0-9][0-9]-*) DATE="$a" ;; esac; done
+DATE="$(TZ=Asia/Taipei date +%F)"; FORCE=0; REDO=0
+for a in "$@"; do case "$a" in --force) FORCE=1 ;; --redo) REDO=1; FORCE=1 ;; 20[0-9][0-9]-*) DATE="$a" ;; esac; done
 LOG="$REPO/state/run.log"
 CLAUDE_ARGS="${CLAUDE_ARGS:---permission-mode bypassPermissions}"
 SITE="https://igaming-pulse.github.io/igaming-daily/reports"
@@ -37,13 +38,13 @@ if ! printf '%s\n' "$SUBJECTS" | grep -qx "daily: ${DATE} report" || [ ! -f "rep
   say "今天（${DATE}）的日報還沒成功，不發特別版"
   exit 0
 fi
-if printf '%s\n' "$SUBJECTS" | grep -q "^special: ${DATE}"; then
+if [ "$REDO" != "1" ] && printf '%s\n' "$SUBJECTS" | grep -q "^special: ${DATE}"; then
   say "今天已經發過特別版，略過"
   exit 0
 fi
 
 say "檢查庫存…"
-python3 scripts/special_edition.py select --date "$DATE" | tee -a "$LOG"
+python3 scripts/special_edition.py select --date "$DATE" $([ "$REDO" = "1" ] && echo --redo) | tee -a "$LOG"
 rc=${PIPESTATUS[0]}
 if [ "$rc" = "3" ]; then say "可用庫存未達門檻，不發"; exit 0; fi
 [ "$rc" = "0" ] || { say "✗ 選款失敗"; exit 1; }
@@ -64,9 +65,9 @@ try:
         now = json.loads(r.stdout)["data"]["remainingCredits"]
     used = (hist.get("start", now) - now) if (now is not None and hist.get("start")) else 0
     n = len(json.load(open(f"state/special-{date}-items.json"))["chosen"])
-    print(max(0, min(n, (budget or 8) - used)) if budget is not None else min(n, 8))
+    print(max(0, min(n, (budget or 20) - used)) if budget is not None else min(n, 20))
 except Exception:
-    print(8)
+    print(20)
 PY
 )
 say "Firecrawl 上限 ${FC_LIMIT} 次；啟動 Claude 寫稿"
@@ -88,7 +89,7 @@ N=$(python3 -c "import json,sys;print(len(json.load(open(sys.argv[1]))['shown'])
 python3 scripts/inventory.py update --date "$DATE" --file "state/inventory-picks-${DATE}-special.json" --keep-day | tee -a "$LOG"
 
 # Telegram：合併進今天日報那則（插在前兩行與「❗收錄偏少」之後）
-LINE="📦 今日另有特別版：釋放 ${N} 款近期新作（大廠優先）→ ${SITE}/${DATE}-special.html"
+LINE="📦 今日另有特別版：釋放 ${N} 款近期新作（大廠在前）→ ${SITE}/${DATE}-special.html"
 python3 - "$LINE" <<'PY'
 import sys
 p = "state/pending_telegram.txt"
@@ -105,7 +106,7 @@ PY
 
 git add "$OUT" "state/${DATE}-special-igaming-report.md" "state/${DATE}-special-report.json" "state/${DATE}-special-qa.json" \
         "state/special-${DATE}-items.json" "state/inventory-picks-${DATE}-special.json" state/inventory.json state/pending_telegram.txt 2>/dev/null
-git commit -q -m "special: ${DATE} 特別版（庫存釋放 ${N} 款）" && git push -q || say "⚠️ push test-publish 失敗"
+git commit -q -m "special: ${DATE} 特別版（庫存釋放 ${N} 款）$([ "$REDO" = "1" ] && echo "・重做全部釋放")" && git push -q || say "⚠️ push test-publish 失敗"
 
 PUBLISH_SUFFIX=-special bash scripts/publish_test_to_main.sh "$DATE" 2>&1 | tee -a "$LOG"
 

@@ -86,7 +86,7 @@ def check_schema(rep, day, qa):
             if not it["date"]:
                 qa.err(w, "「來源：」行缺主來源日期（YYYY-MM-DD）")
             else:
-                check_date(it, c, day, w, qa)
+                check_date(it, c, day, w, qa, special=bool(rep.get("edition")))
             for _, u in it["sources"]:
                 if u in seen_urls and seen_urls[u] != w:
                     qa.warn(w, f"與 {seen_urls[u]} 用了同一個來源連結")
@@ -126,7 +126,7 @@ def check_schema(rep, day, qa):
     return total
 
 
-def check_date(it, cat, day, w, qa):
+def check_date(it, cat, day, w, qa, special=False):
     try:
         pd = date.fromisoformat(it["date"])
     except ValueError:
@@ -138,7 +138,7 @@ def check_date(it, cat, day, w, qa):
         qa.err(w, f"主來源日期 {pd} 在未來")
         return
     if lab.startswith(("📦", "📋")):
-        lim = FRESH[cat]
+        lim = 14 if special else FRESH[cat]   # v6.6.1 特別版（近期新作總覽）放寬到 14 天
         if age > lim:
             qa.err(w, f"庫存補位主來源 {pd} 已超過保鮮期 {lim} 天")
     elif lab.startswith("🆕"):
