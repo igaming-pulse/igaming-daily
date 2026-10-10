@@ -1,36 +1,33 @@
-🎰 iGaming 市場日報 2026-10-09（週五）
-🎰 Slot 5 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-10-10（週六）
+🎰 Slot 2 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
 
 🎰 Slot 新遊戲
-01 Ring of Wealth Holland Casino Anniversary Edition – IGT
-02 CloudForge – Relax Gaming
-03 25 Coins x3000 – Wazdan
-04 Wicked Grin – Hacksaw Gaming
-05 Raccoon Raiders – Booming Games
+01 📋 本週補遺（10/7 發布）Roma X 8192 – TaDa Gaming
+02 📋 本週補遺（10/7 發布）Red & Hot Chilli – BGaming
 
 🕹️ 非 Slot 新內容
-01 Fusion Roulette 產品負責人專訪 – EEZE
-02 WCOOP 2026 落幕，總派彩 4,900 萬美元 – PokerStars
-03 BOYLE Casino 真人館改版，300+ 遊戲加滑動切桌 – BOYLE Casino
+01 Jackpot Blitz 電子撲克桌進駐 Pechanga，8 桌創單一場館最大部署 – Jackpot Digital
+02 LOW6 收購 Splash Games，擴張 Rivalz 真錢技能對戰 – LOW6
 
-🤝 主流 GP／平台
-01 Stake 取得巴西法院禁制令，可營運至 10 月 25 日
-02 Seminole 部落控告 DraftKings 與執行長在佛州非法經營
-03 PokerStars Casino 把「The Slotlist」帶進羅馬尼亞，首推 ELK《Pirots 4》
-04 GLI 獲准為紐西蘭新開放的線上賭場市場做認證測試
+🤝 動態：主流 GP／平台
+01 TaDa Gaming 借 G2E 打開美國市場，DraftKings、FanDuel 表達高度興趣
+02 🔁 更新：巴西 TRF3 隔天撤銷 Stake 禁制令，博彩禁令效力恢復
+03 Wazdan 經 EveryMatrix 上架丹麥國營 Danske Spil Casino
+04 Konami 強化全通路策略，自有 iGaming 遊戲庫串接實體機與 SYNKROS
+05 YouTube 10 月 21 日起開放持牌博彩業者購買首頁 Masthead 廣告
 
-🇵🇭 菲律賓 GP／平台
-01 GCash 母公司 Mynt 支付營收下滑，電子錢包斷開博彩連結效應延續
+🇵🇭 動態：菲律賓 GP／平台
+01 BingoPlus 贊助 2026 菲律賓音樂獎，經營在地娛樂品牌形象
 
 📊 市場數據 & 趨勢
-01 Blask：巴西合法博彩一週流失 74% 用戶，印度經驗顯示 63% 玩家轉離岸
-02 伊利諾州 9 月賭場營收年增 12.7%，老虎機貢獻四分之三
-03 老虎機長青榜：十週年《Book of Dead》今年仍排第 6
+01 BGaming：熟悉題材帶來注意力，玩法才決定留存——三大產品線分工
+02 阿根廷線上博彩稅前 9 月已超越 2025 全年，實質成長約 42%
+03 巴西博彩禁令不到兩週，業界已裁員約 3,500 人
 
 📝 品質備註（本次爬找判斷）
-1. 本次為手動提早執行（台北 11:01），收集窗為 10/8 11:00～10/9 11:00；與 10/8 晚間那份日報窗口大幅重疊，Buffalo Horizon、Redtail Robber 等已報過的不重複收錄。harvest 窗內候選 555 則，6 個來源失敗（Pragmatic Play、Play'n GO、Kalamba、SunStar 等），非主要新聞來源，不算抓取異常。
-2. 因主來源日期不合格剔除 2 則：TaDa Gaming《Egg Eruption》（只有 SlotsLaunch 上線日 10/8，查無含日期的新聞稿）、Pragmatic Play《Gameshow Party Jackpot》（BigWinBoard 標 TBC 佔位），Egg Eruption 已進庫存；由 Wazdan、Booming Games 遞補。
-3. 菲律賓區窗內只有 1 則合格（Mynt 主來源為 iGamingToday，另以 InsiderPH 佐證）；Blask 巴西數據疑似與 10/7、10/8 的 Blask 報導主題重疊，但本則是新發布的印度對照數據，所以照收。
+1. 本次為白天補跑（13:41 執行），窗為 10/9 13:40～10/10 13:40；harvest 窗內 333 則，但多為義大利／巴西法規與體育，週六 Slot 依上限只收 2 款，皆為 Weekend Reels／BigWinBoard 本週補遺；窗內另有 5 款小廠新作（Swintt、PopOK、Bullshark、Thunderkick、IT 實體機）進庫存。
+2. 剔除 2 則：Cocks & Robbers（Red Tiger，主來源 10/2 超過 7 天保鮮期）、Casino Plus×Peter & Sons（與 10/4 同案）。EEZE 今日查無新消息未收；Stake 一則與 10/9 同公司但為法院撤銷的新進展，標 🔁。
+3. 菲律賓區只找到 BingoPlus 贊助 1 則；ELK Studios 官網網域失效（Squarespace 未認領），GGRAsia、Play'n GO RSS 等 4 個來源抓取失敗。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：Kalamba Games（10 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：Kalamba Games（11 天）、Play'n GO（3 天）、Casino Inside Romania（3 天）；請檢查網址或改抓取方式

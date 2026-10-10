@@ -1,0 +1,206 @@
+{
+ "shown": [
+  {
+   "cat": "cat1",
+   "title": "Roma X 8192",
+   "gp": "TaDa Gaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Red & Hot Chilli",
+   "gp": "BGaming"
+  },
+  {
+   "cat": "cat2",
+   "title": "Jackpot Blitz 電子撲克桌進駐 Pechanga",
+   "gp": "Jackpot Digital"
+  },
+  {
+   "cat": "cat2",
+   "title": "LOW6 收購 Splash Games 擴張 Rivalz 技能對戰",
+   "gp": "LOW6"
+  },
+  {
+   "cat": "cat3",
+   "title": "TaDa Gaming 借 G2E 打開美國市場"
+  },
+  {
+   "cat": "cat3",
+   "title": "巴西 TRF3 撤銷 Stake 禁制令"
+  },
+  {
+   "cat": "cat3",
+   "title": "Wazdan 上架丹麥 Danske Spil Casino"
+  },
+  {
+   "cat": "cat3",
+   "title": "Konami 全通路策略與自有 iGaming 遊戲庫"
+  },
+  {
+   "cat": "cat3",
+   "title": "YouTube 開放博彩業者購買 Masthead 廣告"
+  },
+  {
+   "cat": "cat4",
+   "title": "BingoPlus 贊助 2026 菲律賓音樂獎"
+  },
+  {
+   "cat": "cat5",
+   "title": "BGaming：熟悉題材帶來注意力，玩法決定留存"
+  },
+  {
+   "cat": "cat5",
+   "title": "阿根廷線上博彩稅前 9 月超越 2025 全年"
+  },
+  {
+   "cat": "cat5",
+   "title": "巴西博彩禁令兩週裁員約 3,500 人"
+  }
+ ],
+ "stock": [
+  {
+   "cat": "cat1",
+   "title": "Egypt King Multi",
+   "gp": "Swintt",
+   "b": 1,
+   "first_seen": "2026-10-10",
+   "sources": [
+    {
+     "name": "European Gaming",
+     "url": "https://europeangaming.eu/portal/press-releases/2026/10/09/215711/swintt-egypt-king-multi-slot/",
+     "published": "2026-10-09 19:22"
+    },
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/09/53071/swintt-adds-egypt-king-multi-slot-to-premium-portfolio/",
+     "published": "2026-10-09 15:53"
+    }
+   ]
+  },
+  {
+   "cat": "cat1",
+   "title": "Garuda Da Fortuna 1000",
+   "gp": "PopOK Gaming",
+   "b": 1,
+   "first_seen": "2026-10-10",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/09/53080/popok-gaming-launches-garuda-da-fortuna-1000-slot-with-multipliers-up-to-x1000/",
+     "published": "2026-10-09 20:08"
+    },
+    {
+     "name": "SlotBeats",
+     "url": "https://slotbeats.com/latest-slots/garuda-da-fortuna-1000-popok-gaming/",
+     "published": "2026-10-09 23:10"
+    }
+   ]
+  },
+  {
+   "cat": "cat1",
+   "title": "Doctor Dust",
+   "gp": "Bullshark Games",
+   "b": 1,
+   "first_seen": "2026-10-10",
+   "sources": [
+    {
+     "name": "Yogonet",
+     "url": "https://www.yogonet.com/international/news/2026/10/09/126769-bullshark-games-unveils-doctor-dust-a-cascading-cluster-slot-set-in-postapocalyptic-wasteland",
+     "published": "2026-10-09 21:23"
+    }
+   ]
+  },
+  {
+   "cat": "cat1",
+   "title": "Bjorn",
+   "gp": "Thunderkick",
+   "b": 1,
+   "first_seen": "2026-10-10",
+   "sources": [
+    {
+     "name": "Thunderkick",
+     "url": "https://www.thunderkick.com/bjorn-is-live-stand-your-ground/",
+     "published": "2026-10-09 15:32"
+    }
+   ]
+  },
+  {
+   "cat": "cat1",
+   "title": "Incredible Technologies G2E 新機台",
+   "gp": "Incredible Technologies",
+   "b": 1,
+   "first_seen": "2026-10-10",
+   "sources": [
+    {
+     "name": "CDC Gaming",
+     "url": "https://cdcgaming.com/incredible-technologies-features-two-cabinets-new-game-at-g2e/",
+     "published": "2026-10-10 03:06"
+    }
+   ]
+  },
+  {
+   "cat": "cat1",
+   "title": "40 Vampire Beast Triple Boost",
+   "gp": "Amusnet",
+   "b": 1,
+   "first_seen": "2026-10-10",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/08/53045/amusnet-releases-40-vampire-beast-triple-boost-golden-coins-link/",
+     "published": "2026-10-08"
+    }
+   ]
+  },
+  {
+   "cat": "cat1",
+   "title": "Vice Spins",
+   "gp": "R. Franco Digital",
+   "b": 1,
+   "first_seen": "2026-10-10",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/07/53030/r-franco-digital-launches-vice-spins-slot-with-four-tier-jackpot/",
+     "published": "2026-10-07"
+    }
+   ]
+  },
+  {
+   "cat": "cat3",
+   "title": "Hacksaw Gaming 攜手捷克 Sazka Hry",
+   "first_seen": "2026-10-10",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/09/53069/hacksaw-gaming-enters-into-partnership-with-sazka-hry/",
+     "published": "2026-10-09 14:38"
+    }
+   ]
+  },
+  {
+   "cat": "cat4",
+   "title": "PAGCOR 支持新創、強化菲律賓投資連結",
+   "first_seen": "2026-10-10",
+   "sources": [
+    {
+     "name": "SigmaPlay",
+     "url": "https://sigma.world/news/pagcor-backs-startups-to-strengthen-philippine-investment-ties/",
+     "published": "2026-10-10"
+    }
+   ]
+  },
+  {
+   "cat": "cat5",
+   "title": "義大利 9 月線上運彩支出 1.06 億歐元月增 44%",
+   "first_seen": "2026-10-10",
+   "sources": [
+    {
+     "name": "AgiproNews",
+     "url": "https://www.agipronews.it/scommesse-online-a-settembre-la-spesa-sale-a-106-milioni-di-euro-44-lottomatica-leader-davanti-a-flutter-bet365-sul-podio",
+     "published": "2026-10-09 20:46"
+    }
+   ]
+  }
+ ]
+}

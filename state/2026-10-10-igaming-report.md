@@ -1,0 +1,182 @@
+# 🎰 iGaming 市場日報 2026-10-10（週六）
+
+🎰 Slot 2 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
+
+---
+
+## 🎰 Game Provider 新遊戲
+
+### 01 Roma X 8192 – TaDa Gaming
+📋 本週補遺（10/7 發布）
+
+⭐ 優先展示 GP TaDa Gaming 推出古羅馬主題連消倍數新作「Roma X 8192」，是旗下 Roma X 系列的最新一代。遊戲採直式（portrait）設計，6 軸、3-4-5-5-4-3 不規則列數、3,600 種連線方式，官方標示最高可贏 25,000 倍押注。核心只有一個概念：同一次旋轉內每多一次連消，Win Multiplier 就翻倍——第一次中獎 x1、第二次 x2、第三次 x4，一路翻到上限 x8192，連消結束才重置回 x1；另有「Gold Frame」金框機制，第 3、4 軸出現金框符號且參與中獎時，會在原位生成 Wild 再往下掉落，延長連消鏈。相較初代 Roma X（5×3、15 線、最高 500 倍）與 Roma X Deluxe（最高 3,000 倍），這一代把爆發上限拉高近十倍。對 PM 的意義：「連消翻倍＋直式盤面」是亞洲 GP 主打手機玩家的典型組合，TaDa 把熱門 IP 改造成高爆發版本，可作為自家系列作做數值升級時的參考。
+
+衍生調整：Roma X 系列新作，盤面由初代 5×3 改為 6 軸不規則列數 3,600 ways，新增連消翻倍至 x8192 與 Gold Frame 生成 Wild，最高倍率由 500 倍拉高到 25,000 倍。
+
+參數：
+- 遊戲類型：線上電子老虎機
+- 盤面：6 軸 3-4-5-5-4-3（直式）
+- 消除/賠付：3,600 ways、Cascading 連消
+- 最高倍率：25,000x
+- RTP：未公布
+- 波動：未公布
+- 目標市場：全球（亞洲、拉美為主）
+- 關鍵特色：連消倍數每次翻倍至 x8192、Gold Frame 金框生成 Wild、直式手機設計
+
+查證：已查 SlotCatalog（無此款頁面）／SlotsLaunch（標 10/6 上線，未列 RTP）／EEGaming 內頁仍無 RTP 與波動。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/10/07/53017/tada-gaming-releases-roma-x-8192-slot/) · [EEGaming Weekend Reels](https://eegaming.org/latest-news/2026/10/09/53076/weekend-reels-week-41-slot-drops-trends/) · [SlotsLaunch](https://slotslaunch.com/tada-gaming/roma-x-8192) · 日期：2026-10-07
+圖片：https://eegaming.org/api/eeg/social-image/55583.jpg
+
+### 02 Red & Hot Chilli – BGaming
+📋 本週補遺（10/7 發布）
+
+二線知名 GP BGaming 與 Cream Team 合作推出辣椒主題新作「Red & Hot Chilli」，10 月 7 日上線。遊戲為 5×5 盤面、20 條固定線（左到右），RTP 96.35%、中低波動，最高 5,000 倍押注集中在 Bonus Game。最大特色是把「踩地雷」玩法搬進 Slot：Scatter 觸發後進入類 Minesweeper 的翻格獎勵，翻出 Lucky Coins、倍數、金袋、辣椒等獎項，翻到炸彈則結束；主遊戲另有 Chilli Wild，並提供 Double Win 加倍與 Buy Bonus（依司法管轄區開放）。BGaming 前作 Hot Chilli Bells 在 UpGaming 的 D7 留存高出平台基準 229%，辣椒題材已被驗證有留存力。對 PM 的意義：把 Mines 類小遊戲的「翻格＋炸彈」心理機制嫁接進 Slot Bonus，是近期 Slot 與小遊戲融合的典型做法，適合以中低波動吸引休閒玩家。
+
+衍生調整：延續 BGaming 辣椒題材（Hot Chilli Bells 系列風格），但 Bonus 改為全新的踩地雷式翻格玩法，非直接續作。
+
+參數：
+- 遊戲類型：線上電子老虎機
+- 盤面：5×5
+- 消除/賠付：20 條固定線（左到右）
+- 最高倍率：5,000x
+- RTP：96.35%
+- 波動：中低
+- 目標市場：全球
+- 關鍵特色：Minesweeper 式 Bonus Game、Chilli Wild、Lucky Coins／倍數／金袋獎勵、Double Win、Buy Bonus
+
+來源：[BigWinBoard](https://www.bigwinboard.com/red-hot-chilli-bgaming-slot-review-demo/) · [iGamingToday](https://www.igamingtoday.com/red-hot-chilli-slot-review/) · 日期：2026-10-07
+圖片：https://www.bigwinboard.com/wp-content/uploads/2026/10/Red-Hot-Chilli-slot-feat.jpg
+
+## 🕹️ 非 Slot 新內容
+
+### 01 Jackpot Blitz 電子撲克桌進駐 Pechanga，8 桌創單一場館最大部署 – Jackpot Digital
+
+加拿大上市的無荷官電子撲克桌製造商 Jackpot Digital（TSXV: JJ）宣布，旗下 Jackpot Blitz® 電子撲克桌已在南加州 Temecula 的 Pechanga Resort Casino 上線 8 桌，設在賭場樓層手扶梯旁的桌台區，是該公司至今最大的單一場館部署。Jackpot Blitz 是無荷官的多人電子撲克桌，配備 75 吋觸控螢幕，並以專利「掀牌（card-bending）」技術模擬實體看牌的手感與緊張感，主打快節奏、社交化的撲克體驗。Pechanga 桌台遊戲副總 Paul Mollo 表示，希望以現代化的無荷官形式同時吸引新手與老手；Jackpot Digital 執行長 Jake Kalpakian 則稱此案證明平台的規模化能力。對 PM 的意義：實體撲克正朝「無荷官、電子化」降低人力成本，數位互動設計（看牌動畫、觸控）成為吸引新玩家的關鍵，線上撲克產品也可借鏡其節奏設計。
+
+衍生調整：既有產品擴大部署，無衍生。
+
+參數：
+- 遊戲類型：其他類型遊戲（無荷官電子撲克桌）
+- 目標市場：美國（加州部落賭場）
+- 關鍵特色：8 桌單一場館最大部署、75 吋觸控螢幕、card-bending 掀牌技術、無荷官快節奏
+
+來源：[Casino Life Magazine](https://www.casinolifemagazine.com/news/jackpot-blitz-brings-digital-poker-innovation-pechanga-resort-casino) · 日期：2026-10-10
+圖片：無
+
+### 02 LOW6 收購 Splash Games，擴張 Rivalz 真錢技能對戰 – LOW6
+
+B2B 技術商 LOW6 宣布收購英國技能遊戲公司 Splash Games，把 Splash 在真錢、玩家對玩家（PvP）錦標賽上的經驗併入自家 B2B 技能遊戲平台 Rivalz。Splash 原本經營面向消費者的技能遊戲平台，擅長一對一對戰與錦標賽營運；Splash 執行長 Joshua Sprey 將加入 LOW6 擔任技能遊戲商務主管。LOW6 執行長 Jamie Mitchell 表示，PvP 技能遊戲是博彩業的新垂直，Rivalz 已準備與多個全球品牌上線。對 PM 的意義：技能型 PvP 遊戲被包裝成營運商可直接接入的 B2B 產品，代表「非機率型」真錢內容開始走向聚合化，可作為吸引年輕、非傳統博彩玩家的新品類觀察。
+
+衍生調整：產業併購帶來的新品類（技能 PvP），無衍生。
+
+參數：
+- 遊戲類型：其他類型遊戲（真錢技能 PvP 對戰／錦標賽）
+- 目標市場：全球（英國起步）
+- 關鍵特色：B2B 平台 Rivalz、一對一對戰與錦標賽、即將與多個全球品牌上線
+
+來源：[EEGaming](https://eegaming.org/latest-news/2026/10/09/53078/low6-buys-uk-based-splash-games-to-scale-rivalz-b2b-skill-gaming/) · 日期：2026-10-09
+圖片：https://eegaming.org/api/eeg/social-image/55641.jpg
+
+## 🤝 動態：主流 GP／平台
+
+### 01 TaDa Gaming 借 G2E 打開美國市場，DraftKings、FanDuel 表達高度興趣
+
+⭐ 優先展示 GP TaDa Gaming 公布 G2E Las Vegas 2026 參展成果：以系列第三作「Fortune Zombie: Dark City」為主打，帶動旗下整個 Slot 產品線的詢問，DraftKings、FanDuel 等美國一線營運商表達高度興趣，同時也接觸到新創與既有受監理市場客戶，展場互動試玩成功吸引人流。Fortune Zombie 系列專為美國玩家設計，第三作把場景搬到好萊塢星光大道、帝國大廈等美國地標。TaDa 自 2025 年透過 EveryMatrix 進入美國後，已陸續與 BetMGM、FanDuel、Caesars、DraftKings、BetRivers 建立合作，總監 Arthur Lee 表示此次展會進一步深化既有關係。對 PM 的意義：亞洲背景 GP 以「為美國玩家量身打造的系列 IP」切入北美一線營運商，證明在地化題材比單純移植亞洲爆款更容易打開受監理市場。
+
+重點：類型 合作 ｜ 對象 TaDa Gaming、DraftKings、FanDuel、BetMGM ｜ 影響 亞洲 GP 以在地化 IP 加深北美一線營運商布局
+
+來源：[Focus Gaming News](https://focusgn.com/tada-gaming-g2e-us-growth) · [JAMMA](https://www.jamma.it/mercato/tada-gaming-centra-gli-obiettivi-al-g2e-con-fortune-zombie-dark-city-360407) · [iGaming Brazil](https://igamingbrazil.com/cobertura-eventos/2026/10/09/tada-gaming-destaca-expansao-nos-estados-unidos-e-novas-parcerias-durante-a-g2e-las-vegas/) · 日期：2026-10-09
+
+### 02 🔁 更新：巴西 TRF3 隔天撤銷 Stake 禁制令，博彩禁令效力恢復
+
+巴西聯邦第三區域法院（TRF3）院長 Johonsom Di Salvo 應聯邦政府請求，暫停聖保羅第 9 聯邦民事法院 10 月 8 日核發給 Stake 的禁制令。Stake 原本取得可營運至 10 月 25 日的臨時授權，如今隨即失效，臨時措施（MP 1.394/2026）的效力恢復，包括將 stake.bet.br 網域導流封鎖；此暫停效力持續到該案判決確定。院長認為禁制令對公共秩序造成「嚴重損害」，並有引發其他業者跟進訴訟的「乘數效應」風險，禁令必須對所有業者一體適用。Stake 仍可向 TRF3 合議庭上訴，最高法院（STF）Fux 大法官對 ADI 8024、8027、8028 的違憲審查也尚未裁示。對 PM 的意義：業者個別爭取有序退場的空間被迅速關閉，巴西合法市場的走向只剩 STF 違憲審查與國會兩條路，相關營運應以禁令持續作為基本情境。
+
+重點：類型 政府法規 ｜ 對象 Stake、巴西聯邦政府、TRF3 ｜ 影響 首個業者有利裁決一日翻盤，個案突圍路線受阻
+
+查證：前一日 Stake 取得禁制令已於 10/9 日報收錄，本則為法院撤銷的新進展；目前僅 BNLData 一家詳報。
+來源：[BNLData](https://bnldata.com.br/trf3-derruba-liminar-da-stake-um-dia-depois-e-restabelece-efeitos-da-mp-das-bets/) · 日期：2026-10-10
+
+### 03 Wazdan 經 EveryMatrix 上架丹麥國營 Danske Spil Casino
+
+二線知名 GP Wazdan 與丹麥國營博彩集團旗下的 Danske Spil Casino 合作，透過 EveryMatrix 聚合平台把 Slot 產品線帶給丹麥玩家，首波上架 Coins、Mighty Wild、Hot Slot 等熱門系列。這是 Wazdan 在丹麥的第三家營運商，前兩家為 25syv（2021 年）與 NetBet（2024 年 4 月）。Danske Spil Casino 資深合作經理 Simon Hoffmann Riis 表示 Wazdan 是平台的重要新成員；Wazdan 也將此案定位為深耕歐洲受監理市場的一環。對 PM 的意義：國營營運商是受監理市場中流量最大的通路，GP 透過大型聚合商一次接入，可以大幅縮短進入門檻，聚合商關係仍是歐洲擴張的關鍵。
+
+重點：類型 合作 ｜ 對象 Wazdan、Danske Spil Casino、EveryMatrix ｜ 影響 GP 經聚合商打進北歐國營通路
+
+來源：[EEGaming](https://eegaming.org/latest-news/2026/10/09/53072/wazdan-takes-slots-portfolio-live-with-danske-spil-casino-in-denmark/) · [SlotBeats](https://slotbeats.com/developer/wazdan/danske-spil-casino-wazdan-denmark/) · 日期：2026-10-09
+
+### 04 Konami 強化全通路策略，自有 iGaming 遊戲庫串接實體機與 SYNKROS
+
+實體機大廠 Konami Gaming 在 G2E Las Vegas 2026 說明全通路（omnichannel）布局：把硬體機台、實體遊戲、SYNKROS 賭場管理系統與 iGaming 內容整合成同一套技術方案。約一年前成立的 Konami Online Interactive 只經營 Konami 自研遊戲，不做多工作室聚合，已把 Money in the Bank、Red Fortune Rail 等實體機熱門作搬上線，並包含 Bull Blitz Rampage、Dragon's Law Super Fortune 等新作，節慶主題版本也在開發中，主攻美國與拉美市場。區域營運總監 Leonardo Sosa 表示，客戶最看重的是「表現好、品質經過驗證、品牌辨識度高」的遊戲。對 PM 的意義：實體機大廠正把地面驗證過的 IP 直接轉成線上內容，線上 GP 未來將面對擁有實體玩家基礎的品牌競爭。
+
+重點：類型 運營活動 ｜ 對象 Konami Gaming、Konami Online Interactive ｜ 影響 實體機 IP 線上化，大廠以全通路綁定營運商
+
+來源：[Zona de Azar](https://zonadeazar.com/ver-todo/konami-refuerza-su-estrategia-omnicanal-con-una-biblioteca-propia-de-igaming/) · 日期：2026-10-09
+
+### 05 YouTube 10 月 21 日起開放持牌博彩業者購買首頁 Masthead 廣告
+
+Google 更新廣告政策，自 2026 年 10 月 21 日起，線上博彩廣告主首度可以購買 YouTube 首頁最顯眼的 Masthead 版位，前提是符合 Google 博彩廣告政策並持有當地牌照。這項調整出現在英國、澳洲、美國對博彩廣告監督升溫之際；Google 的立場是提升持牌業者曝光、對抗黑市，與近期因未能攔阻非法博彩廣告而受批評的 Meta 形成對比。對 PM 的意義：最大影音平台的頂級版位對博彩開放，持牌業者的品牌投放成本與競爭將上升，但也提供了以合規身分與黑市拉開差距的新管道。
+
+重點：類型 運營活動 ｜ 對象 Google、YouTube、持牌博彩業者 ｜ 影響 頂級廣告版位開放，持牌品牌行銷戰升級
+
+來源：[SBC News](https://sbcnews.co.uk/marketing/2026/10/09/youtube-google-gambling/) · [EEGaming](https://eegaming.org/latest-news/2026/10/09/53082/youtube-opens-door-to-more-gambling-advertising/) · 日期：2026-10-09
+
+## 🇵🇭 動態：菲律賓 GP／平台
+
+### 01 BingoPlus 贊助 2026 菲律賓音樂獎，經營在地娛樂品牌形象
+
+DigiPlus 旗下菲律賓最大線上娛樂平台 BingoPlus 與 2026 Filipino Music Awards 合作，於 10 月 6 日在 Mall of Asia Arena 舉辦頒獎典禮。BingoPlus 冠名的「BingoPlus Star of the Night」由現場觀眾互動投票選出，P-Pop 女團 KAIA 獲獎；BingoPlus 另頒發「年度音樂基金會」獎給菲律賓歌手組織 OPM，並提供特別捐款（金額未公開）。BingoPlus 總裁 Jasper Vicencio 表示，目標是成為「建立在信任之上、肯定卓越的娛樂平台」。對 PM 的意義：在支付斷鏈與監理收緊下，菲律賓頭部平台持續以音樂、運動等主流娛樂贊助強化合規形象與品牌信任，互動投票也是把活動流量導回 App 的常見手法。
+
+重點：類型 運營活動 ｜ 對象 BingoPlus、DigiPlus、Filipino Music Awards ｜ 影響 頭部平台以娛樂贊助鞏固品牌信任
+
+來源：[BusinessMirror](https://businessmirror.com.ph/2026/10/09/bingoplus-champions-filipino-music-homegrown-talent-at-a-star-studded-celebration) · [Gadgets Magazine](https://gadgetsmagazine.com.ph/lifestyle/entertainment/bingoplus-filipino-music-awards-2026) · 日期：2026-10-09
+
+## 📊 市場數據 & 趨勢
+
+### 01 BGaming：熟悉題材帶來注意力，玩法才決定留存——三大產品線分工
+
+BGaming 業務經理 Gian Carlo Ferrini 在 SBC Summit 期間受訪，拆解旗下產品策略：遊戲分成三個「Game Worlds」——Casual 負責獲客、Classic 以調校過的數學模型負責長期留存、Entertainment 以適合直播的高波動作品帶動自然擴散。他強調熟悉題材能吸引目光，但真正把注意力轉成長期黏著的是玩法體驗。數據上，Fishing Time 在 TopX 上線數月於馬來西亞創造逾 110 萬美元營收、約 50% 玩家轉玩 Slot；Hot Chilli Bells 在 UpGaming 的 D7 留存比平台基準高 229%；與足球員 Júlio César 合作的 Penalty Duel 在世界盃期間進入品牌觸及全球前十。拉美方面，巴西是行動優先的首要市場，阿根廷、秘魯、哥倫比亞為成長市場。對 PM 的意義：把產品線依「獲客／留存／擴散」分工並各自調數學模型，是比單純追熱門題材更可複製的 Slot 產品組合策略。
+
+重點：類型 市場趨勢 ｜ 對象 BGaming ｜ 影響 Slot 產品組合由題材導向轉向玩法與留存導向
+
+來源：[Yogonet](https://www.yogonet.com/international/news/2026/10/09/126788-bgaming-34recognizable-themes-generate-attention-but-it-39s-gameplay-that-turns-that-attention-into-lasting-engagement-34) · 日期：2026-10-09
+
+### 02 阿根廷線上博彩稅前 9 月已超越 2025 全年，實質成長約 42%
+
+據阿根廷稅務局 ARCA 資料，2026 年 1–9 月線上博彩間接稅收達 1,238.56 億披索，比 2025 全年的 936.58 億披索多出 301.98 億；顧問機構 Empiria 估算扣除通膨後實質成長約 42%。單月稅收 7 月 177.98 億、8 月 169.75 億、9 月 172.55 億披索，維持穩定高檔。該稅以玩家淨存款課徵，一般稅率 5%，符合投資條件可降至 2.5%；同期實體電子機台投注稅（稅率 0.95%）收入為 569.62 億披索。對 PM 的意義：阿根廷線上市場在受監理框架下持續擴張，與巴西全面禁令形成強烈對比，拉美布局可考慮把資源分散到阿根廷等穩定成長的市場。
+
+重點：類型 財務 ｜ 對象 ARCA、阿根廷線上博彩市場 ｜ 影響 線上稅收超越前一年全年，拉美受監理市場持續成長
+
+來源：[SoloAzar](https://soloazar.com/es/categoria/legislacion/argentina-el-impuesto-a-las-apuestas-online-ya-supero-la-recaudacion-de-todo-2025) · 日期：2026-10-09
+
+### 03 巴西博彩禁令不到兩週，業界已裁員約 3,500 人
+
+巴西博彩協會 ANJL 初步調查顯示，臨時措施 MP 1.394/2026 生效後，博彩業約 15,000 名員工中已有 23%（約 3,500 人）遭裁員、28%（約 4,167 人）被安排集體休假，合計 51%、逾 7,600 人在不到兩週內失業或停工。若趨勢持續，90 天內裁員比例可能升至 37%（約 5,600 人），再增約 2,100 人。業者正等待最高法院與國會的決定，ANJL 的 Plínio Jorge 表示需要真實數據來衡量禁令的影響。對 PM 的意義：巴西禁令的衝擊已從營收擴散到人力與供應鏈，以巴西為主要市場的 GP 與服務商應盡快評估人力與資源重新配置。
+
+重點：類型 市場數據 ｜ 對象 ANJL、巴西博彩業 ｜ 影響 禁令兩週內過半從業人員失業或停工
+
+來源：[Yogonet](https://www.yogonet.com/international/news/2026/10/09/126768-brazil-betting-ban-has-cost-3-500-jobs-so-far-anjl-survey-finds) · [Zona de Azar](https://zonadeazar.com/ver-todo/anjl-estima-3-500-despidos-tras-la-prohibicion-de-las-bets-en-brasil/) · 日期：2026-10-09
+
+---
+
+本日日報查詢約 42 個網站，其中提取 22 個資料來源並進行交叉比對
+
+---
+
+## 🗓️ 來源日期紀錄（內部，不渲染）
+
+- 本次實際執行 13:41，窗為 2026-10-09 13:40 ～ 2026-10-10 13:40（台北）
+- cat1-01 Roma X 8192（📋 補遺）：主來源 EEGaming 2026-10-07（網址日期）；佐證 Weekend Reels 2026-10-09（byline）、SlotsLaunch 上線日 10-06
+- cat1-02 Red & Hot Chilli（📋 補遺）：主來源 BigWinBoard 2026-10-07 19:20 台北（metadata 2026-10-07T11:20Z）；佐證 iGamingToday 2026-10-09（WebFetch byline）
+- cat2-01 Jackpot Blitz：主來源 Casino Life Magazine 2026-10-10 05:29 台北（metadata 2026-10-10T00:29+03:00）
+- cat2-02 LOW6：主來源 EEGaming 2026-10-09 18:51 台北（metadata 2026-10-09T10:51Z）
+- cat3-01 TaDa：主來源 Focus Gaming News 2026-10-09 19:21 台北（metadata 08:21-03:00）；佐證 JAMMA 10-09 14:02、iGaming Brazil 10-10 00:21
+- cat3-02 Stake TRF3：主來源 BNLData 2026-10-10 07:21 台北（harvest WP-API）
+- cat3-03 Wazdan：主來源 EEGaming 2026-10-09 16:05 台北（harvest）；佐證 SlotBeats 10-09 18:08
+- cat3-04 Konami：主來源 Zona de Azar 2026-10-09 13:42 台北（harvest；byline 9 de Octubre de 2026）
+- cat3-05 YouTube：主來源 SBC News 2026-10-09 23:39 台北（metadata 16:39+01:00）；佐證 EEGaming 10-10 06:54
+- cat4-01 BingoPlus：主來源 BusinessMirror 2026-10-09（只到日，網址＋byline）；佐證 Gadgets Magazine 2026-10-09
+- cat5-01 BGaming：主來源 Yogonet 2026-10-09 23:22 台北（harvest RSS）
+- cat5-02 Argentina：主來源 SoloAzar 2026-10-09 20:00 台北（harvest）
+- cat5-03 Brazil jobs：主來源 Yogonet 2026-10-09 22:18 台北（harvest RSS）；佐證 Zona de Azar 10-09 14:12
+- 剔除：Cocks & Robbers – Red Tiger（BigWinBoard 評測頁發布 2026-10-02，超過 7 天保鮮期，查無更新日期的主來源 → 不收）
+- 剔除：Casino Plus × Peter & Sons（iGamingToday 10-10 轉寫，與 10/4 日報同一合作案，無新進展）

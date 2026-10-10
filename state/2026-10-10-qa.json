@@ -1,0 +1,28 @@
+{
+ "date": "2026-10-10",
+ "md": "state/2026-10-10-igaming-report.md",
+ "html": "reports/2026-10-10.html",
+ "items": 13,
+ "counts": {
+  "cat1": 2,
+  "cat2": 2,
+  "cat3": 5,
+  "cat4": 1,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 25,
+  "ok": 21,
+  "broken": 0,
+  "blocked": 4,
+  "images_dropped": 0
+ },
+ "errors": [],
+ "warnings": [
+  "cat3-01 TaDa Gaming 借 G2E 打開美國市場｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/tada-gaming-g2e-us-growth",
+  "cat3-01 TaDa Gaming 借 G2E 打開美國市場｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Brazil https://igamingbrazil.com/cobertura-eventos/2026/10/09/tada-gaming-destaca-expansao-nos-estados-unidos-e-novas-parcerias-durante-a-g2e-las-vegas/",
+  "cat3-05 YouTube 10 月 21 日起開放持牌博彩｜來源連結無法自動驗證（403，多半是網站擋機器人）：SBC News https://sbcnews.co.uk/marketing/2026/10/09/youtube-google-gambling/",
+  "cat4-01 BingoPlus 贊助 2026 菲律賓音樂獎｜來源連結無法自動驗證（403，多半是網站擋機器人）：BusinessMirror https://businessmirror.com.ph/2026/10/09/bingoplus-champions-filipino-music-homegrown-talent-at-a-star-studded-celebration"
+ ],
+ "fixes": []
+}
