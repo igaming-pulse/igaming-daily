@@ -69,7 +69,9 @@ harvest 顯示窗內候選多、你卻收得少 → 是你篩錯了，回頭檢�
 
 **第三段｜只對入選的做查證**
 對入選的每則做交叉查證並抓 og:image。
-**Firecrawl 每則原則上只用 1 次**（內文＋og:image 同一次帶回）；
+**先用免費的 `python3 <REPO>/scripts/page_meta.py <網址>`**（v6.6.5）：一次取回發布時間、og:image、內文（EEGaming 會自動改讀 RSS）；
+回傳 `"need_firecrawl": true`（被擋、要 JavaScript）才用 Firecrawl，**每則原則上只用 1 次**（內文＋og:image 同一次帶回）。
+實測約一半到三分之二的主來源免費就夠，Firecrawl 點數留給真正抓不到的站；
 額外佐證優先用 **WebSearch（不吃 Firecrawl 額度）**，每則查證抓取仍以 3 次為上限。
 
 **第三段的第一件事是驗主來源日期**（v6.2 硬規則，見「📅 主來源日期規則」）：
@@ -197,6 +199,11 @@ python3 <REPO>/scripts/finalize_report.py --date <DATE>
 🎰 iGaming 市場日報 <DATE>（週X）
 🎰 Slot X ・ 🕹️ 非 Slot X ・ 🤝 主流 X ・ 🇵🇭 菲律賓 X ・ 📊 市場數據 X
 
+⭐ 今日重點
+・<最值得看的 Slot 新作或大廠動作，一句話>
+・<菲律賓平台／市場重點，一句話>
+・<市場數據或 Slot 趨勢重點，一句話>
+
 🎰 Slot 新遊戲
 01 <標題>
 02 <標題>
@@ -213,6 +220,11 @@ python3 <REPO>/scripts/finalize_report.py --date <DATE>
 ```
 
 **Telegram 標題行照樣加 📦／🆕／🔁 前綴**，讓讀者分得出當日與補位。
+
+**⭐ 今日重點（v6.6.5）**：第 3 行起先放 3 條、每條 ≤40 字，讓使用者在手機上一眼判斷今天值不值得點開：
+① 分數最高的 Slot 新作或大廠動作（寫出遊戲名／廠商＋一個具體亮點，例如最高倍率、新機制）
+② 菲律賓區最重要的一則（平台營運優先於政策）③ 市場數據或 Slot 趨勢最重要的一則。
+該區當天沒有內容就省略那一條；不要寫空泛句（「今日市場動態豐富」）。前兩行格式不變。
 
 **📝 品質備註規則**
 - 放在訊息**最後**，用 **1–3 條數字編號**（`1.` `2.` `3.`，不要用「・」）
@@ -876,6 +888,8 @@ PAGCOR 官方公告與規範；實體賭場（Okada Manila、Solaire、NUSTAR、
 ---
 
 ## 版本沿革
+
+- **v6.6.5**（2026-10-11）① Telegram 訊息開頭加「⭐ 今日重點」3 條；② 查證先用免費的 `scripts/page_meta.py`（curl 讀發布時間、og:image、內文；EEGaming 改讀 RSS），抓不到才用 Firecrawl（實測 53 個主來源免費就夠約 50–65%）；③ 失敗即時警報與開跑前檢查 Claude 登入（`scripts/alert_telegram.sh`）；④ 推上 test-publish 自動跑回歸測試（`.github/workflows/tests.yml`）
 
 - **v6.6.4**（2026-10-11）庫存三項把關：① 其他分類改為**當天空著就從庫存補 1 則**（原本連續空 2 天才補，14 天存 47 則只用 2 則）；② **補位照 B 分由程式檢查**（finalize_report.py：跳過高分庫存或空區有料沒補 → 錯誤，查證後不能用要在內部紀錄寫「剔除：名稱（原因）」）；③ **進庫存把關**（inventory.py update 擋下沒有網址、TBC 佔位頁，明顯非 Slot 自動改歸 cat2）。起因：10/11 用 B1 補位跳過 B6、特別版查出空白佔位頁與賓果混在 Slot 庫存
 

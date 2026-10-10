@@ -39,6 +39,7 @@
 
 ## 預算
 
+- 每款先用免費的 `python3 scripts/page_meta.py <網址>` 取發布時間、配圖、內文；回傳 need_firecrawl=true 才用 Firecrawl
 - Firecrawl 最多 {{FIRECRAWL_LIMIT}} 次（每款原則上 1 次：內文＋og:image 同一次帶回）；額外佐證用 WebSearch
 - 嚴禁 5-credit 的 JSON 抽取；嚴禁平行 sub-agent；每款查證抓取 ≤3 次
 

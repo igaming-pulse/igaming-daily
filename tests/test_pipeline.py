@@ -162,6 +162,24 @@ class TestSitemap(unittest.TestCase):
         self.assertFalse(any(x["dt"].year == 9999 for x in r))
 
 
+class TestPageMeta(unittest.TestCase):
+    def test_parse(self):
+        import page_meta as P
+        body = ('<html><head><meta property="og:title" content="New Slot &amp; Co"/>'
+                '<meta property="article:published_time" content="2026-10-10T08:00:00+00:00"/>'
+                '<meta content="https://x.com/a.jpg" property="og:image"/></head>'
+                '<body><article>' + "<p>" + "內文段落" * 30 + "</p>" * 1 + '</article></body></html>')
+        self.assertEqual(P.meta(body, "og:title"), "New Slot & Co")
+        self.assertEqual(P.meta(body, "og:image"), "https://x.com/a.jpg")
+        self.assertEqual(P.published(body), ("2026-10-10T08:00:00+00:00", "metadata"))
+        self.assertTrue(len(P.main_text(body, 3000)) > 40)
+
+    def test_jsonld_date(self):
+        import page_meta as P
+        body = '<script type="application/ld+json">{"dateModified":"2026-10-11","datePublished":"2026-10-09T01:00:00Z"}</script>'
+        self.assertEqual(P.published(body)[0], "2026-10-09T01:00:00Z")
+
+
 class TestTiers(unittest.TestCase):
     def tier(self, remaining, end="2026-10-14", today="2026-09-28"):
         return H.pick_tier({"remaining": remaining, "plan": 1000, "period_end": end}, date.fromisoformat(today))[0][0]
