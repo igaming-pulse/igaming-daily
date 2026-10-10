@@ -49,21 +49,6 @@
   },
   {
    "cat": "cat1",
-   "title": "Game of Thrones Slot",
-   "gp": "Blueprint Gaming",
-   "b": 1,
-   "first_seen": "2026-10-06",
-   "sources": [
-    {
-     "name": "Zona de Azar",
-     "url": "https://zonadeazar.com/juego-online/blueprint-gaming-and-betmgm-launch-game-of-thrones-slot-in-the-us/",
-     "published": "2026-10-06 12:38"
-    }
-   ],
-   "key": "gameofthronesslot|blueprintgaming"
-  },
-  {
-   "cat": "cat1",
    "title": "Gems of Scaralith",
    "gp": "Million Games",
    "b": 1,
@@ -284,21 +269,6 @@
   },
   {
    "cat": "cat1",
-   "title": "Incredible Technologies G2E 新機台",
-   "gp": "Incredible Technologies",
-   "b": 1,
-   "first_seen": "2026-10-10",
-   "sources": [
-    {
-     "name": "CDC Gaming",
-     "url": "https://cdcgaming.com/incredible-technologies-features-two-cabinets-new-game-at-g2e/",
-     "published": "2026-10-10 03:06"
-    }
-   ],
-   "key": "incredibletechnologiesg2e新機台|incredibletechnologies"
-  },
-  {
-   "cat": "cat1",
    "title": "40 Vampire Beast Triple Boost",
    "gp": "Amusnet",
    "b": 1,
@@ -326,37 +296,51 @@
     }
    ],
    "key": "vicespins|rfrancodigital"
+  },
+  {
+   "cat": "cat1",
+   "title": "Rat Royale",
+   "gp": "Pragmatic Play",
+   "b": 4,
+   "first_seen": "2026-10-11",
+   "release_date": "2026-10-22",
+   "sources": [
+    {
+     "name": "iGamingToday",
+     "url": "https://www.igamingtoday.com/rat-royale-slot-review/",
+     "published": "2026-10-11 02:24"
+    },
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/pragmatic-play/rat-royale",
+     "published": "2026-10-11"
+    }
+   ],
+   "key": "ratroyale|pragmaticplay"
+  },
+  {
+   "cat": "cat1",
+   "title": "Ghost Vision",
+   "gp": "Hacksaw Gaming",
+   "b": 3,
+   "first_seen": "2026-10-11",
+   "release_date": "2026-11-19",
+   "sources": [
+    {
+     "name": "iGamingToday",
+     "url": "https://www.igamingtoday.com/ghost-vision-slot-review/",
+     "published": "2026-10-11 02:25"
+    },
+    {
+     "name": "BigWinBoard",
+     "url": "https://www.bigwinboard.com/ghost-vision-hacksaw-gaming-slot-review/",
+     "published": "2026-10-11"
+    }
+   ],
+   "key": "ghostvision|hacksawgaming"
   }
  ],
  "others": [
-  {
-   "cat": "cat2",
-   "title": "CreedRoomz 攜手 Pasino.ch 深化瑞士市場",
-   "gp": "CreedRoomz",
-   "first_seen": "2026-10-07",
-   "sources": [
-    {
-     "name": "Zona de Azar",
-     "url": "https://zonadeazar.com/juego-online/creedroomz-to-bring-live-casino-content-to-switzerland-with-pasino-ch/",
-     "published": "2026-10-06"
-    }
-   ],
-   "key": "creedroomz攜手pasinoch深化瑞士市場|creedroomz"
-  },
-  {
-   "cat": "cat4",
-   "title": "2026 IAG Academy Summit 馬尼拉精華影片",
-   "gp": "Inside Asian Gaming",
-   "first_seen": "2026-10-07",
-   "sources": [
-    {
-     "name": "Inside Asian Gaming",
-     "url": "https://asgam.com/2026/10/06/inside-asian-gaming-releases-official-highlights-video-of-2026-iag-academy-summit-at-manilas-newport-world-resorts/",
-     "published": "2026-10-06"
-    }
-   ],
-   "key": "2026iagacademysummit馬尼拉精華影片|insideasiangaming"
-  },
   {
    "cat": "cat2",
    "title": "BOYLE Casino 改版真人賭場，300+ 遊戲與 Playtech 滑動功能",
@@ -463,19 +447,6 @@
    "key": "hacksawgaming攜手捷克sazkahry|"
   },
   {
-   "cat": "cat4",
-   "title": "PAGCOR 支持新創、強化菲律賓投資連結",
-   "first_seen": "2026-10-10",
-   "sources": [
-    {
-     "name": "SigmaPlay",
-     "url": "https://sigma.world/news/pagcor-backs-startups-to-strengthen-philippine-investment-ties/",
-     "published": "2026-10-10"
-    }
-   ],
-   "key": "pagcor支持新創強化菲律賓投資連結|"
-  },
-  {
    "cat": "cat5",
    "title": "義大利 9 月線上運彩支出 1.06 億歐元月增 44%",
    "first_seen": "2026-10-10",
@@ -487,6 +458,32 @@
     }
    ],
    "key": "義大利9月線上運彩支出106億歐元月增44|"
+  },
+  {
+   "cat": "cat3",
+   "title": "NFL 向最高法院提交法庭之友意見書，預測市場案聚焦州權",
+   "first_seen": "2026-10-11",
+   "sources": [
+    {
+     "name": "iGaming Business",
+     "url": "https://igamingbusiness.com/sports-betting/prediction-market-roundup-10926/",
+     "published": "2026-10-10 04:53"
+    }
+   ],
+   "key": "nfl向最高法院提交法庭之友意見書預測市場案聚焦州權|"
+  },
+  {
+   "cat": "cat5",
+   "title": "巴西博彩財源：Lula 政府每年從警政挪走近 10 億雷亞爾博彩收入",
+   "first_seen": "2026-10-11",
+   "sources": [
+    {
+     "name": "BNLData",
+     "url": "https://bnldata.com.br/lula-promete-seguranca-mas-tirou-das-policias-quase-r-1-bilhao-por-ano-dos-recursos-das-bets/",
+     "published": "2026-10-10 20:54"
+    }
+   ],
+   "key": "巴西博彩財源lula政府每年從警政挪走近10億雷亞爾博彩收入|"
   }
  ],
  "history": [
@@ -2315,6 +2312,76 @@
    "date": "2026-10-10",
    "cat": "cat5",
    "title": "巴西博彩禁令兩週裁員約 3,500 人",
+   "gp": ""
+  },
+  {
+   "key": "justburied|incredibletechnologies",
+   "date": "2026-10-11",
+   "cat": "cat1",
+   "title": "Just Buried",
+   "gp": "Incredible Technologies"
+  },
+  {
+   "key": "gameofthronesslot|blueprintgaming",
+   "date": "2026-10-11",
+   "cat": "cat1",
+   "title": "Game of Thrones Slot",
+   "gp": "Blueprint Gaming"
+  },
+  {
+   "key": "incredibletechnologiesg2e新機台|incredibletechnologies",
+   "date": "2026-10-11",
+   "cat": "cat1",
+   "title": "Incredible Technologies G2E 新機台",
+   "gp": "Incredible Technologies"
+  },
+  {
+   "key": "丹麥l37博彩修法廣告與營運商注意義務全面收緊|",
+   "date": "2026-10-11",
+   "cat": "cat3",
+   "title": "丹麥 L37 博彩修法：廣告與營運商注意義務全面收緊",
+   "gp": ""
+  },
+  {
+   "key": "巴西禁令反撲國會湧入54項修正案23家以上球會向stf請願|",
+   "date": "2026-10-11",
+   "cat": "cat3",
+   "title": "巴西禁令反撲：國會湧入 54 項修正案，23 家以上球會向 STF 請願",
+   "gp": ""
+  },
+  {
+   "key": "巴西聯邦總檢察署起訴8家博彩業者卡住159億雷亞爾玩家退款|",
+   "date": "2026-10-11",
+   "cat": "cat3",
+   "title": "巴西聯邦總檢察署起訴 8 家博彩業者，卡住 1.59 億雷亞爾玩家退款",
+   "gp": ""
+  },
+  {
+   "key": "歐盟20282034預算新提案未納入線上博彩稅|",
+   "date": "2026-10-11",
+   "cat": "cat3",
+   "title": "歐盟 2028–2034 預算新提案，未納入線上博彩稅",
+   "gp": ""
+  },
+  {
+   "key": "pagcor支持新創強化菲律賓投資連結|",
+   "date": "2026-10-11",
+   "cat": "cat4",
+   "title": "PAGCOR 支持新創、強化菲律賓投資連結",
+   "gp": ""
+  },
+  {
+   "key": "加密賭場一週存款112億美元stake獨佔509億|",
+   "date": "2026-10-11",
+   "cat": "cat5",
+   "title": "加密賭場一週存款 11.2 億美元，Stake 獨佔 5.09 億",
+   "gp": ""
+  },
+  {
+   "key": "巴西博彩禁令代價2027年前稅收損失68億雷亞爾|",
+   "date": "2026-10-11",
+   "cat": "cat5",
+   "title": "巴西博彩禁令代價：2027 年前稅收損失 68 億雷亞爾",
    "gp": ""
   }
  ],

@@ -1,33 +1,28 @@
-🎰 iGaming 市場日報 2026-10-10（週六）
-🎰 Slot 2 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-10-11（週日）
+🎰 Slot 2 ・ 🕹️ 非 Slot 0 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 2
+❗今日收錄偏少（共 9 則），可能來源異常，請留意
 
 🎰 Slot 新遊戲
-01 📋 本週補遺（10/7 發布）Roma X 8192 – TaDa Gaming
-02 📋 本週補遺（10/7 發布）Red & Hot Chilli – BGaming
-
-🕹️ 非 Slot 新內容
-01 Jackpot Blitz 電子撲克桌進駐 Pechanga，8 桌創單一場館最大部署 – Jackpot Digital
-02 LOW6 收購 Splash Games，擴張 Rivalz 真錢技能對戰 – LOW6
+01 Just Buried – Incredible Technologies
+02 📦 近期新作（10/6 首見）Game of Thrones – Blueprint Gaming
 
 🤝 動態：主流 GP／平台
-01 TaDa Gaming 借 G2E 打開美國市場，DraftKings、FanDuel 表達高度興趣
-02 🔁 更新：巴西 TRF3 隔天撤銷 Stake 禁制令，博彩禁令效力恢復
-03 Wazdan 經 EveryMatrix 上架丹麥國營 Danske Spil Casino
-04 Konami 強化全通路策略，自有 iGaming 遊戲庫串接實體機與 SYNKROS
-05 YouTube 10 月 21 日起開放持牌博彩業者購買首頁 Masthead 廣告
+01 丹麥 L37 博彩修法：廣告與營運商注意義務全面收緊
+02 巴西禁令反撲：國會湧入 54 項修正案，23 家以上球會向 STF 請願
+03 巴西聯邦總檢察署起訴 8 家博彩業者，卡住 1.59 億雷亞爾玩家退款
+04 歐盟 2028–2034 預算新提案，未納入線上博彩稅
 
 🇵🇭 動態：菲律賓 GP／平台
-01 BingoPlus 贊助 2026 菲律賓音樂獎，經營在地娛樂品牌形象
+01 PAGCOR 主席 Tengco：支持新創、強化菲律賓投資生態
 
 📊 市場數據 & 趨勢
-01 BGaming：熟悉題材帶來注意力，玩法才決定留存——三大產品線分工
-02 阿根廷線上博彩稅前 9 月已超越 2025 全年，實質成長約 42%
-03 巴西博彩禁令不到兩週，業界已裁員約 3,500 人
+01 加密賭場一週存款 11.2 億美元，Stake 獨佔 5.09 億
+02 巴西博彩禁令代價：2027 年前稅收損失 68 億雷亞爾，非法網站暴增近 1,700 個
 
 📝 品質備註（本次爬找判斷）
-1. 本次為白天補跑（13:41 執行），窗為 10/9 13:40～10/10 13:40；harvest 窗內 333 則，但多為義大利／巴西法規與體育，週六 Slot 依上限只收 2 款，皆為 Weekend Reels／BigWinBoard 本週補遺；窗內另有 5 款小廠新作（Swintt、PopOK、Bullshark、Thunderkick、IT 實體機）進庫存。
-2. 剔除 2 則：Cocks & Robbers（Red Tiger，主來源 10/2 超過 7 天保鮮期）、Casino Plus×Peter & Sons（與 10/4 同案）。EEZE 今日查無新消息未收；Stake 一則與 10/9 同公司但為法院撤銷的新進展，標 🔁。
-3. 菲律賓區只找到 BingoPlus 贊助 1 則；ELK Studios 官網網域失效（Squarespace 未認領），GGRAsia、Play'n GO RSS 等 4 個來源抓取失敗。
+1. 週六窗偏淡：harvest 窗內 49 則，其中近半是巴西 BNLData 在地稿與已報過的 Stake／YouTube 後續；6 個來源失敗（Play'n GO、Kalamba、AGIMEG、Casino Inside Romania、SunStar、Jdigital），主要媒體正常，非抓取異常。WebSearch 加跑約 22 次仍無窗內新料。
+2. Slot 窗內新作只有 IT 的 G2E 新作；Rat Royale（Pragmatic，10/22 上線）、Ghost Vision（Hacksaw，11/19 上線）超過 7 天只進庫存，Monstroland 查無含日期主來源不收；第 2 款從庫存補 Game of Thrones。Casino Plus × Peter & Sons 為 10/1、10/5 已報舊聞轉寫，未收。
+3. 非 Slot 今日 0 則（連續空白第 1 天），EEZE 窗內無新消息；菲律賓只有 PAGCOR 官方 1 則。丹麥 L37 的「禁 Slot Bonus Buy」只見於 OGQ，待一讀版本確認。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：Kalamba Games（11 天）、Play'n GO（3 天）、Casino Inside Romania（3 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：Kalamba Games（12 天）、Play'n GO（4 天）、Casino Inside Romania（4 天）；請檢查網址或改抓取方式

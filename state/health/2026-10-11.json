@@ -1,0 +1,56 @@
+{
+ "date": "2026-10-11",
+ "alerts": [
+  "🟠 來源連續失敗 ≥3 天：Kalamba Games（12 天）、Play'n GO（4 天）、Casino Inside Romania（4 天）；請檢查網址或改抓取方式"
+ ],
+ "info": {
+  "credits": {
+   "remaining": 233,
+   "plan": 1000,
+   "period_end": "2026-10-14",
+   "today_use": 20,
+   "daily_use": 31,
+   "daily_basis": "近 7 天實際",
+   "days_to_reset": 3,
+   "need_until_reset": 93
+  },
+  "tier": {
+   "tier": "🟢 充裕",
+   "budget": 77,
+   "remaining": 253,
+   "period_end": "2026-10-14",
+   "days_to_reset": 3,
+   "reserve": 20,
+   "note": "全開",
+   "lists_spent": 5,
+   "article_limit": 22
+  },
+  "sources": {
+   "total": 100,
+   "failed_today": [
+    "Play'n GO",
+    "Kalamba Games",
+    "AGIMEG",
+    "Casino Inside Romania",
+    "SunStar",
+    "Jdigital"
+   ],
+   "streak_3d": [
+    "Kalamba Games",
+    "Play'n GO",
+    "Casino Inside Romania"
+   ]
+  },
+  "candidates": {
+   "today": 49,
+   "median_same_type": 79,
+   "basis_days": 4,
+   "type": "週末窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 6,
+   "fixes": 1
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "date": "2026-10-11",
+ "md": "state/2026-10-11-igaming-report.md",
+ "html": "reports/2026-10-11.html",
+ "items": 9,
+ "counts": {
+  "cat1": 2,
+  "cat3": 4,
+  "cat4": 1,
+  "cat5": 2
+ },
+ "links": {
+  "checked": 21,
+  "ok": 15,
+  "broken": 0,
+  "blocked": 6,
+  "images_dropped": 0
+ },
+ "errors": [],
+ "warnings": [
+  "cat3-01 丹麥 L37 博彩修法：廣告與營運商注意義務全面｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/denmark-eyes-phased-implementation-of-new-gambling-reforms",
+  "cat3-01 丹麥 L37 博彩修法：廣告與營運商注意義務全面｜來源連結無法自動驗證（403，多半是網站擋機器人）：SBC News https://sbcnews.co.uk/igaming/2026/10/08/denmark-gambling-bill/",
+  "cat3-02 巴西禁令反撲：國會湧入 54 項修正案，23 家｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/over-50-amendments-proposed-for-brazils-online-gambling-ban",
+  "cat4-01 PAGCOR 主席 Tengco：支持新創、強化｜來源連結無法自動驗證（403，多半是網站擋機器人）：SigmaPlay https://sigma.world/news/pagcor-backs-startups-to-strengthen-philippine-investment-ties/",
+  "cat4-01 PAGCOR 主席 Tengco：支持新創、強化｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/philippines/16/04/2026/philippine-ggr-rises-6-39-to-6-61b-in-2025-online-gaming-overtakes-casinos/",
+  "cat5-01 加密賭場一週存款 11.2 億美元，Stake ｜來源連結無法自動驗證（403，多半是網站擋機器人）：DappRadar https://dappradar.com/narratives/gambling/players"
+ ],
+ "fixes": [
+  "文末｜資料來源數 20 → 19（程式依來源連結去重計算）"
+ ]
+}
