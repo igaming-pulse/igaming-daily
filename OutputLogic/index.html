@@ -76,7 +76,7 @@
   <a class="back" href="../">← 回 iGaming 市場日報</a>
   <header class="masthead">
     <div class="mh-main">
-      <div class="eyebrow">OutputLogic · 運作說明 · Rules v6.4.2</div>
+      <div class="eyebrow">OutputLogic · 運作說明 · Rules v6.6.4</div>
       <h1>iGaming 市場日報如何產生</h1>
       <div class="sub">從排程、三層收集、選稿與庫存，到查證、發布與推播；以及涵蓋的全部資料來源。</div>
       <div class="spectrum" aria-hidden="true"><i style="background:var(--s1)"></i><i style="background:var(--s2)"></i><i style="background:var(--s3)"></i><i style="background:var(--s4)"></i><i style="background:var(--s5)"></i><i style="background:var(--s6)"></i></div>
@@ -90,80 +90,84 @@
   </header>
 
   <div class="h2">一、生成的基本架構</div>
-  <div class="card arch"><p>本日報為<strong>全自動</strong>產物（規則版本 <strong>v6.4.2</strong>）：每天<strong>台北時間 02:30</strong> 由 Mac 排程啟動，從收集、選稿、查證到發布與推播，全程不需人工介入。</p><h4>① 收集：Claude 開工前，程式 harvest.py 先把當天的新聞收進來</h4><ul><li><strong>第一層｜RSS／WordPress API</strong>：免費掃約 90 個來源，取得每篇文章<strong>精確到分鐘的發布時間</strong></li><li><strong>第二層｜Firecrawl</strong>：抓沒有 API 的高價值站（Slot 資料庫站、SBC News、IAG），加上每日輪掃 3 站</li><li><strong>補充｜三種觸發</strong>：事件、行事曆、每週一固定週期，抓監理機關、協會與展會（小眾，數量少）</li><li><strong>來源主檔</strong>：Excel（目前 <strong>233 個來源、10 大分類</strong>），「抓取方式」「頻率」欄決定每個來源怎麼抓</li></ul><h4>② 選稿：Claude 讀候選清單與庫存</h4><ul><li><strong>第三層｜WebSearch</strong>：補程式抓不到的題目（菲律賓平台、新品牌進菲、實體機大廠、Slot 補漏）</li><li><strong>打分</strong>：品牌＋事件＋地區＋時效，套用 <strong>3 天去重</strong>與硬上限</li><li><strong>Slot 區</strong>：平日 7 款、週末 3 款；窗內大廠新作全收；平日當天新作 ≤5 款、週末 ≤2 款才從<strong>庫存</strong>補</li><li><strong>特別版</strong>：每週一、週四日報成功後，Slot 庫存 ≥5 款就另發一期釋放（最多 10 款，大廠在前）</li></ul><h4>③ 查證：只對入選的新聞</h4><ul><li><strong>主來源日期關</strong>：發布日期含年份，且落在 24 小時收集窗內</li><li><strong>交叉查證</strong>：至少一個獨立來源佐證，補齊盤面、倍率、RTP 等參數（只增不減）</li></ul><h4>④ 發布與推播</h4><ul><li>寫稿、渲染 HTML、寫 Telegram 預存訊息、更新庫存，以<strong>單一 commit</strong> 推上 repo</li><li>網站由 <strong>GitHub Pages</strong> 自動更新</li><li><strong>Telegram</strong> 由 GitHub Actions 在早上定時推播；當天沒有日報則改發「未產出」警告</li></ul></div>
+  <div class="card arch"><p>本日報為<strong>全自動</strong>產物（規則版本 <strong>v6.6.4</strong>）：每天<strong>台北時間 02:30</strong> 由 Mac 排程啟動，從收集、選稿、查證、定稿到發布與推播，全程不需人工介入；每週一、週四另會視庫存發一期<strong>特別版</strong>。</p><h4>① 收集：Claude 開工前，程式 harvest.py 先把當天的新聞收進來</h4><ul><li><strong>第一層｜免費抓取</strong>：RSS／WordPress API／官網 sitemap 約 92 個來源，取得<strong>精確發布時間</strong>；程式另外解析 BigWinBoard 新作列表、<strong>SlotsLaunch 上線日曆</strong>、Play&#x27;n GO 官網上線日</li><li><strong>第二層｜Firecrawl</strong>：每天固定只剩 iGamingToday（擋程式抓取，由程式解析），加上輪掃與三種觸發</li><li><strong>💳 用量分級</strong>：開跑前查 Firecrawl 剩餘點數，今日預算＝（剩餘－保留 20）÷ 距離重置天數，分「充裕／標準／節約／保命」四級決定抓多少</li><li><strong>來源主檔</strong>：Excel（目前 <strong>233 個來源、10 大分類</strong>），「抓取方式」「頻率」欄決定每個來源怎麼抓</li></ul><h4>② 選稿：Claude 讀候選清單與庫存</h4><ul><li><strong>第三層｜WebSearch</strong>：補程式抓不到的題目（菲律賓平台、新品牌進菲、實體機大廠、Slot 補漏）</li><li><strong>打分</strong>：品牌＋事件＋地區＋時效＋熱門 IP，套用 <strong>3 天去重</strong>與硬上限</li><li><strong>Slot 區</strong>：平日 7 款、週末 3 款；窗內大廠新作全收；平日當天新作 ≤5 款、週末 ≤2 款才從<strong>庫存</strong>依 B 分補</li><li><strong>其他分類</strong>：某區當天沒有合格新聞，就從庫存補 1 則</li></ul><h4>③ 查證與定稿：只對入選的新聞</h4><ul><li><strong>主來源日期關</strong>：發布日期含年份，且落在 24 小時收集窗內（庫存補位要在保鮮期內）</li><li><strong>交叉查證</strong>：至少一個獨立來源佐證，補齊盤面、倍率、RTP 等參數（只增不減）</li><li><strong>定稿檢查（程式）</strong>：格式、連結與配圖、模糊去重、<strong>補位有沒有照 B 分</strong>；通過後用<strong>固定模板</strong>產生 HTML（不再每天手寫）</li></ul><h4>④ 發布與推播</h4><ul><li>日報、庫存、推播訊息以<strong>單一 commit</strong> 推上 repo，網站由 <strong>GitHub Pages</strong> 自動更新</li><li><strong>Telegram</strong> 早上定時推播；日報晚到（過 06:30）則跑完<strong>立刻推播</strong>；當天沒有日報改發「未產出」警告</li><li><strong>系統警報</strong>：Firecrawl 額度、來源連續失敗、候選量異常、定稿錯誤會附在推播最後</li><li><strong>庫存查詢機器人</strong>：在 Telegram 私訊打「庫存」即可查目前各分類庫存與標題</li></ul><h4>⑤ 庫存釋放特別版（每週一、週四）</h4><ul><li>當天日報<strong>成功後</strong>接著檢查；Slot 可用庫存 <strong>≥5 款</strong>才發，不足就略過</li><li>一次最多 <strong>10 款</strong>：大廠（B≥3）在前，其餘先放快過期的；查證不過的直接移出庫存</li><li>連結<strong>併進當天日報</strong>的 Telegram 訊息，不另外多發一則</li></ul></div>
 
   <div class="h2">二、運作邏輯（流程圖）</div>
   <div class="card"><h3>2-1　每日總流程</h3><pre class="mermaid">
 flowchart TD
-  A["⏰ 02:30 Mac 排程"] --> B["run_daily.sh<br/>拉最新規則"]
-  B --> C["harvest.py<br/>第一層＋第二層收集"]
+  A["⏰ 02:30 Mac 排程<br/>開啟防睡眠直到跑完"] --> B["run_daily.sh<br/>拉最新規則"]
+  B --> C["harvest.py<br/>查額度分級 → 第一層＋第二層收集"]
   C --> D["候選清單<br/>含精確發布時間"]
-  D --> E["Claude 讀候選＋列表頁存檔"]
-  E --> F["讀庫存：今日上限／可用庫存／近 3 天已出現"]
+  D --> F["讀庫存：今日上限／可用庫存／近 3 天已出現"]
   F --> G["第三層 WebSearch<br/>菲律賓平台・新品牌進菲・實體機・Slot 補漏"]
-  G --> H["打分排序＋各區選稿"]
+  G --> H["打分排序＋各區選稿＋庫存補位"]
   H --> I["只對入選者查證<br/>主來源日期→交叉佐證→補參數"]
-  I --> J["寫 Markdown → 渲染 HTML"]
-  J --> K["寫 Telegram 預存訊息"]
-  K --> L["更新庫存"]
-  L --> M["單一 commit 推上 repo"]
-  M --> N{"驗收：有新日報＋新 commit？"}
-  N -- 是 --> O["發布到網站（GitHub Pages）"]
+  I --> J["寫 Markdown 原稿"]
+  J --> QA{"定稿檢查通過？"}
+  QA -- 否 --> FIX["修原稿重跑（最多 2 次）"]
+  FIX --> QA
+  QA -- 是 --> T["固定模板產生 HTML"]
+  T --> K["Telegram 訊息＋系統警報"]
+  K --> L["更新庫存 → 單一 commit"]
+  L --> N{"驗收：有新日報＋新 commit？"}
   N -- 否 --> X["記錄失敗原因"]
-  O --> Q["早上 GitHub Actions 推播 Telegram"]
+  N -- 是 --> O["發布到網站"]
+  O --> SP{"週一／週四且庫存 ≥5？"}
+  SP -- 是 --> SE["發特別版，連結併進推播"]
+  SP -- 否 --> PUSH["推播"]
+  SE --> PUSH
+  PUSH --> Q["Telegram：06:40 定時；過 06:30 才跑完則立刻推播"]
   X --> R["推播「日報未產出」警告"]
   classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700
   classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700
   classDef muted fill:#EEE8DC,stroke:#A99F8E,color:#6F675A
-  class N gate
+  class N,QA,SP gate
   class Q out
   class X,R muted
-  linkStyle 13 stroke:#4E9E68,stroke-width:2px
-  linkStyle 14,16 stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4
+  linkStyle 9,11,16,18,19 stroke:#4E9E68,stroke-width:2px
+  linkStyle 15,22 stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4
 </pre></div>
   <div class="card"><h3>2-2　收集：網站內容怎麼抓、怎麼判斷</h3><pre class="mermaid">
 flowchart TD
   S["Excel 來源主檔"] ==> W{"抓取方式／頻率？"}
-  W == "curl：RSS／WP API（約 90）" ==> L1["第一層 curl：文章清單＋精確時間"]
-  W == "Firecrawl：每日固定（6）" ==> L2["第二層 Firecrawl：Slot 資料庫站・SBC News・IAG"]
-  W == "Firecrawl：輪掃（約 70）" ==> RT["每天輪 3 個"]
-  W -. "Firecrawl：每週／事件（監理・協會）" .-> TR{"補充：三種觸發"}
-  W -. "Firecrawl：行事曆（展會）" .-> TR
-  TR -.-> E1["事件：標題命中關鍵字<br/>每個關鍵字每週一次"]
-  TR -.-> E2["行事曆：開展前 14 天～閉展日"]
-  TR -.-> E3["固定：每週一輪 3 個"]
-  RT ==> L2
-  E1 -.-> L2
-  E2 -.-> L2
-  E3 -.-> L2
+  W == "免費：RSS／WP API／Sitemap（約 92）" ==> L1["第一層 curl：文章清單＋精確時間"]
+  W == "免費：程式解析" ==> L0["BigWinBoard 新作・SlotsLaunch 上線日曆"]
+  W == "Firecrawl：每日（iGamingToday）" ==> FC{"💳 今日分級？"}
+  W == "Firecrawl：輪掃（約 70）" ==> FC
+  W -. "Firecrawl：監理・協會・展會" .-> TR{"補充：三種觸發"}
+  TR -.-> FC
+  FC == "充裕／標準" ==> L2["第二層 Firecrawl：列表頁＋輪掃 2–3＋觸發"]
+  FC -- "節約／保命" --> L2S["只抓 iGamingToday，停輪掃"]
+  L0 ==> NZ
   L1 ==> NZ{"雜訊？樂透開獎・體育賠率<br/>綜合媒體無博彩關鍵字"}
   NZ -- 是 --> DROP["丟掉"]
   NZ == 否 ==> TW{"在 24 小時窗內？"}
   TW == 是 ==> IN["✅ 當日候選"]
-  TW -- "否，Slot 7 天內／其他 3 天內" --> OLD["窗外近期＝庫存候選"]
+  TW -- "否，Slot 7 天內／其他 3 天內" --> OLD["窗外近期＝庫存候選（另存 backlog）"]
   TW -- 更舊 --> DROP
   IN ==> OUT["候選清單＋來源健檢"]
   OLD --> OUT
   L2 ==> OUT
+  L2S --> OUT
   classDef main fill:#FBF6EC,stroke:#1B1A18,stroke-width:2px,color:#1B1A18
   classDef minor fill:#EEE8DC,stroke:#A99F8E,stroke-dasharray:4 3,color:#8C8373
-  class S,L1,L2,RT,IN main
-  class TR,E1,E2,E3 minor
+  class S,L0,L1,L2,IN main
+  class TR minor
   classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700
   classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700
   classDef muted fill:#EEE8DC,stroke:#A99F8E,color:#6F675A
-  class NZ,TW,W gate
+  class FC,NZ,TW,W gate
   class OUT out
   class DROP muted
-  linkStyle 15,16 stroke:#4E9E68,stroke-width:2px
-  linkStyle 14,18 stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4
+  linkStyle 12,13 stroke:#4E9E68,stroke-width:2px
+  linkStyle 11,15 stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4
 </pre></div>
   <div class="card"><h3>2-3　選稿：每則候選要過的關卡</h3><pre class="mermaid">
 flowchart TD
   C["候選（程式＋WebSearch）"] --> D{"近 3 天出現過？"}
   D -- "是，無重大更新" --> OUT1["不收"]
   D -- "超過 3 天且有重大更新" --> RE["可再展示，標 🔁"]
-  D -- 否 --> SC["打分：B 品牌＋E 事件＋R 地區＋T 時效"]
+  D -- 否 --> SC["打分：B 品牌＋E 事件＋R 地區＋T 時效＋H 熱門 IP"]
   RE --> SC
   SC --> CAP{"硬上限：同 GP ≤2・其他國家 ≤3・總量 ≤22"}
   CAP -- 超過 --> STOCK["進庫存"]
@@ -195,7 +199,7 @@ flowchart TD
   C2 --> N2{"週末當天新作 ≤2 款？"}
   N -- 否 --> NOFILL["不補，超過上限的進庫存"]
   N2 -- 否 --> NOFILL
-  N -- 是 --> FILL["③ 從庫存依 B 分補到上限"]
+  N -- 是 --> FILL["③ 從庫存依 B 分補到上限<br/>（程式檢查順序）"]
   N2 -- 是 --> FILL
   FILL --> NAT["庫存不夠就自然呈現"]
   SAT["📋 週六檢查點：Weekend Reels＋BigWinBoard 本週新作"] --> MISS{"漏收？"}
@@ -210,16 +214,47 @@ flowchart TD
 </pre></div>
   <div class="card"><h3>2-5　庫存機制</h3><pre class="mermaid">
 flowchart LR
-  I1["Slot：超過當日上限的新作"] --> INV[("庫存 inventory.json")]
-  I2["cat2–cat5：每區每天分數最高、沒用上的 1 則"] --> INV
-  I3["週六補遺多出來的"] --> INV
-  I4["7 天後才上線的預告"] --> INV
-  INV --> O1["Slot：當天 ≤3 款時補到上限"]
-  INV --> O2["其他分類：連續空 2 天，第 3 天補 1–2 則"]
+  I1["Slot：超過當日上限的新作"] --> GATE{"進庫存把關"}
+  I2["cat2–cat5：每區每天沒用上的最高分 1 則"] --> GATE
+  I3["週六補遺多出來的"] --> GATE
+  I4["7 天後才上線的預告"] --> GATE
+  GATE -- "沒網址／TBC 佔位頁" --> REJ["不收"]
+  GATE -- "賓果／Crash 等" --> MV["改歸非 Slot"]
+  GATE -- 通過 --> INV[("庫存 inventory.json")]
+  MV --> INV
+  INV --> O1["Slot：平日 ≤5 款、週末 ≤2 款時依 B 分補到上限"]
+  INV --> O2["其他分類：當天空著就補 1 則"]
+  INV --> O3["週一／週四特別版：≥5 款就釋放最多 10 款"]
   INV --> EX["過期：Slot 7 天・其他 3 天・預告到上線日＋3 天"]
   classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700
   classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700
   classDef muted fill:#EEE8DC,stroke:#A99F8E,color:#6F675A
+  class GATE gate
+  class REJ muted
+  linkStyle 6 stroke:#4E9E68,stroke-width:2px
+  linkStyle 4 stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4
+</pre></div>
+  <div class="card"><h3>2-6　庫存釋放特別版（每週一、週四）</h3><pre class="mermaid">
+flowchart TD
+  A["週一／週四日報"] --> OK{"日報成功？"}
+  OK -- 否 --> SKIP["不發"]
+  OK -- 是 --> CNT{"Slot 可用庫存 ≥5 款？<br/>不含 7 天外預告"}
+  CNT -- 否 --> SKIP
+  CNT -- 是 --> SEL["選款：最多 10 款<br/>大廠 B≥3 在前，其餘先放快過期的"]
+  SEL --> VER{"每款查證：真實原文＋遊戲確實存在？"}
+  VER -- 否 --> RM["剔除並移出庫存"]
+  VER -- 是 --> CARD["寫卡片（可用資料庫上線日、保鮮 14 天、參數查不到寫未公布）"]
+  CARD --> PUB["定稿檢查 → 特別版頁面上網站"]
+  PUB --> TG["連結併進當天日報的 Telegram"]
+  PUB --> UPD["發出的移出庫存、寫入 3 天去重"]
+  classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700
+  classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700
+  classDef muted fill:#EEE8DC,stroke:#A99F8E,color:#6F675A
+  class CNT,OK,VER gate
+  class TG out
+  class SKIP,RM muted
+  linkStyle 2,4,7 stroke:#4E9E68,stroke-width:2px
+  linkStyle 1,3,6 stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4
 </pre></div>
 
   <div class="h2">三、四種找資料工具對比</div>
@@ -235,15 +270,15 @@ flowchart LR
       <tr><td>發布時間</td><td>RSS／WP API 精確到秒；一般網頁要自己找</td><td>附在標籤資料裡，常有</td><td>只有大概日期，常不準</td><td>要自己從內文判斷</td></tr>
       <tr><td>回傳內容</td><td>原始碼、RSS、JSON，要自己解析</td><td>整理好的 markdown 或摘要，附配圖、發布時間</td><td>標題、網址、摘要片段</td><td>依提問整理過的摘要，看不到全文</td></tr>
       <tr><td>主要風險</td><td>被擋、網頁改版就解析失敗</td><td>額度用完、速率限制</td><td>容易撈到舊聞、長青排行頁</td><td>摘要可能遺漏或誤讀細節</td></tr>
-      <tr><td>我們用在哪</td><td>第一層：RSS 約 30、WP API 約 60、BigWinBoard 新作列表</td><td>第二層列表頁、觸發來源、入選新聞的內文與配圖</td><td>第三層：菲律賓平台、新品牌進菲、實體機、Slot 補漏</td><td>備用：查證時抓一般網頁</td></tr>
+      <tr><td>我們用在哪</td><td>第一層：RSS／WP API／官網 sitemap 約 92 個；程式解析 BigWinBoard、SlotsLaunch 上線日曆</td><td>iGamingToday、輪掃與觸發；入選新聞的內文與配圖（用量依每日分級）</td><td>第三層：菲律賓平台、新品牌進菲、實體機、Slot 補漏</td><td>備用：查證時抓一般網頁</td></tr>
       <tr><td>判斷順序</td><td>① 有 RSS／WP API 或網頁抓得到就用它</td><td>③ curl 或 WebFetch 被擋才用</td><td>④ 來源清單以外的題目</td><td>② curl 不方便解析時的替代</td></tr>
     </tbody></table></div>
   <div class="h2">三之一、工具 × 步驟對照</div>
   <div class="tablewrap"><table class="kv">
     <thead><tr><th>工具</th><th>出現在哪個步驟</th><th>流程圖位置</th></tr></thead>
     <tbody>
-      <tr><td>curl</td><td>第一層：抓 RSS、WP API，以及 BigWinBoard 新作列表</td><td>2-2「curl：RSS／WP API」分支（分支名稱寫的是資料格式，工具是 curl）</td></tr>
-      <tr><td>Firecrawl</td><td>第二層：每日固定站、輪掃、三種觸發；查證時抓入選新聞的內文與配圖</td><td>2-2「Firecrawl：…」各分支；2-3 查證步驟</td></tr>
+      <tr><td>curl</td><td>第一層：抓 RSS、WP API、官網 sitemap，以及 BigWinBoard／SlotsLaunch</td><td>2-2「curl：RSS／WP API」分支（分支名稱寫的是資料格式，工具是 curl）</td></tr>
+      <tr><td>Firecrawl</td><td>第二層：iGamingToday、輪掃、三種觸發（強度依 💳 分級）；查證時抓入選新聞的內文與配圖</td><td>2-2「Firecrawl：…」各分支；2-3 查證步驟</td></tr>
       <tr><td>WebSearch</td><td>第三層：Claude 找來源清單以外的題目（菲律賓平台、新品牌進菲、實體機、Slot 補漏）</td><td>2-1 總流程「第三層 WebSearch」（不在 2-2，因為不是照來源清單抓）</td></tr>
       <tr><td>WebFetch</td><td>查證時的備用工具</td><td>2-3「交叉佐證＋補參數」（不在 2-2）</td></tr>
     </tbody></table></div>
@@ -259,7 +294,7 @@ flowchart LR
   <div class="tablewrap"><table class="kv">
     <thead><tr><th>分類</th><th>收什麼</th><th>每天數量</th><th>格式</th></tr></thead>
     <tbody>
-      <tr><td>🎰 cat1 Slot 新遊戲</td><td>線上老虎機新作、7 天內上線的預告、實體老虎機新機台</td><td>平日 ≤5、週末 ≤2</td><td>三段式：總述＋對 PM 的意義／衍生調整／參數</td></tr>
+      <tr><td>🎰 cat1 Slot 新遊戲</td><td>線上老虎機新作、7 天內上線的預告、實體老虎機新機台</td><td>平日 ≤7、週末 ≤3</td><td>三段式：總述＋對 PM 的意義／衍生調整／參數</td></tr>
       <tr><td>🕹️ cat2 非 Slot 新內容</td><td>小遊戲 → Live Game → 撲克 → 棋牌 → 其他；EEZE 每日固定 1 則</td><td>目標 2–3、上限 5</td><td>三段式，參數 3 或 5 欄</td></tr>
       <tr><td>🤝 cat3 主流 GP／平台動態</td><td>大品牌具體動作：合作、併購、提告、運營；線上與實體機大廠</td><td>目標 3–5、上限 7</td><td>動態格式</td></tr>
       <tr><td>🇵🇭 cat4 菲律賓</td><td>平台策略與新產品 ＞ 新品牌進菲 ＞ GP 上架 ＞ 政策</td><td>目標 2–4，商業 ≤6，官方另計</td><td>動態格式</td></tr>
@@ -273,6 +308,7 @@ flowchart LR
       <tr><td>E 事件</td><td>6／5.5／5／2／1／0.5</td><td>6：新遊戲上線、實體機首發、重大整合；5.5：新作預告；5：市場數據、玩法流行；2：展會；1：法規、M&amp;A、財報；0.5：人事、獲獎、行銷</td></tr>
       <tr><td>R 地區</td><td>6／5／4／3／2／1</td><td>6：菲律賓；5：台灣、東南亞；4：拉美、巴西、全球；3：美國、歐洲；2：澳門、日韓、中國；1：其他</td></tr>
       <tr><td>T 時效</td><td>+2／+1／0</td><td>窗內 0–12 小時 +2；12–24 小時 +1；只精確到日 0</td></tr>
+      <tr><td>H 熱門 IP</td><td>+3</td><td>Huff N&#x27; Puff、Bao Zhu Zhao Fu、SuperGems 的新作：排 Slot 區最前，預告放寬到 30 天</td></tr>
     </tbody></table></div>
 
   <div class="h2">七、資料來源總表（共 233 個 · 10 大分類）</div>
