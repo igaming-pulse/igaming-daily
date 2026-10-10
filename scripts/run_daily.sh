@@ -22,6 +22,14 @@
 # ============================================================
 set -uo pipefail
 
+# ── 防睡眠（2026-10-10）──────────────────────────────────────────
+# 10/1、10/5、10/8、10/9、10/10 都是 02:30 準時開跑後 Mac 又睡回去，收集拖 1–2 小時、Claude 卡到早上。
+# 這裡讓整支腳本在 caffeinate -i 底下重新執行：跑完才放開。用電池時也有效（-i＝防閒置睡眠）；闔上螢幕仍會睡（硬體限制）。
+if [ -z "${IGAMING_CAFFEINATED:-}" ] && command -v caffeinate >/dev/null 2>&1; then
+  export IGAMING_CAFFEINATED=1
+  exec caffeinate -i /bin/bash "$0" "$@"
+fi
+
 REPO="${IGAMING_REPO:-$HOME/igaming-daily}"
 PROMPT_FILE="$REPO/docs/scheduled-prompt.txt"
 LOG_DIR="$REPO/state"
