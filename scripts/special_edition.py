@@ -5,7 +5,7 @@ v6.6 庫存釋放特別版（2026-10-11 使用者定案）。
 每週一、週四的日報成功後，run_special.sh 會呼叫這支挑選要釋放的 Slot 庫存：
   - 可用庫存＝沒過期、近 3 天沒出現、不是 TBC 佔位頁、上線日不在 7 天以後（同 inventory.py show 的判斷）
   - 可用 ≥ MIN_TRIGGER（5）款才發；週六、週日日報上限不受影響
-  - v6.6.1（使用者更正）：**全部釋放、不設上限**；大廠（B≥3）依 B 高→首見早排前面，B1 依首見早排後面
+  - v6.6.2：一次最多 10 款；大廠（B≥3）依 B 高→首見早排前面，B1 依首見早（快過期優先）排後面；沒放到的留在庫存給日報補位
   - 查證不過的（找不到真實原文、確認不了遊戲存在）直接移出庫存，記到 rejected，不再囤積
   - 重做同一天（--redo）：今天已發過的項目一併帶回，合成一份完整總覽
 
@@ -26,6 +26,7 @@ import report_lib as R  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MIN_TRIGGER = 5          # 使用者定案：可用庫存超過 4 款才發
+MAX_TOTAL = 10           # v6.6.2 使用者定案：一次最多 10 款（太多看不完）；沒放到的留給之後的日報補位
 
 
 def available(today):
@@ -46,7 +47,7 @@ def pick(items):
     """全部釋放：大廠（B≥3）B 高→首見早在前，其餘依首見早在後。"""
     big = sorted([x for x in items if (x.get("b") or 0) >= 3], key=lambda x: (-(x.get("b") or 0), x["first_seen"]))
     small = sorted([x for x in items if (x.get("b") or 0) < 3], key=lambda x: (x["first_seen"], x["title"]))
-    return big + small
+    return (big + small)[:MAX_TOTAL]
 
 
 def released_today(day):

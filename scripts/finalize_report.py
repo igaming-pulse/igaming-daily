@@ -64,7 +64,7 @@ def check_schema(rep, day, qa):
         qa.err("文末", "缺「本日日報查詢約 N1 個網站，其中提取 N2 個資料來源」統計列")
     total = 0
     seen_urls = {}
-    cap = 2 if day.weekday() >= 5 else 5
+    cap = 2 if day.weekday() >= 5 else 7
     for sec in rep["sections"]:
         c = sec["cat"]
         n = len(sec["items"])
