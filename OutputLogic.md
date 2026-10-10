@@ -17,7 +17,8 @@
 
 - **第三層｜WebSearch**：補程式抓不到的題目（菲律賓平台、新品牌進菲、實體機大廠、Slot 補漏）
 - **打分**：品牌＋事件＋地區＋時效，套用 **3 天去重**與硬上限
-- **Slot 區**：平日 5 款、週末 2 款；窗內大廠新作全收；當天 ≤3 款才從**庫存**補
+- **Slot 區**：平日 7 款、週末 3 款；窗內大廠新作全收；平日當天新作 ≤5 款、週末 ≤2 款才從**庫存**補
+- **特別版**：每週一、週四日報成功後，Slot 庫存 ≥5 款就另發一期釋放（最多 10 款，大廠在前）
 
 **③ 查證：只對入選的新聞**
 
@@ -139,21 +140,23 @@ flowchart TD
   PV -- 否 --> BIG["① 窗內大廠 B≥3 全收（同 GP ≤2）"]
   BIG --> OTHER["② 其他窗內新作依分數補"]
   OTHER --> DAY{"日報是？"}
-  DAY -- 週一～週五 --> C5["上限 5 款"]
-  DAY -- 週六、週日 --> C2["上限 2 款"]
-  C5 --> N{"當天新作幾款？"}
-  C2 --> N
-  N -- "≥4 款" --> NOFILL["不補，超過上限的進庫存"]
-  N -- "≤3 款" --> FILL["③ 從庫存補到上限"]
+  DAY -- 週一～週五 --> C5["上限 7 款"]
+  DAY -- 週六、週日 --> C2["上限 3 款"]
+  C5 --> N{"平日當天新作 ≤5 款？"}
+  C2 --> N2{"週末當天新作 ≤2 款？"}
+  N -- 否 --> NOFILL["不補，超過上限的進庫存"]
+  N2 -- 否 --> NOFILL
+  N -- 是 --> FILL["③ 從庫存依 B 分補到上限"]
+  N2 -- 是 --> FILL
   FILL --> NAT["庫存不夠就自然呈現"]
   SAT["📋 週六檢查點：Weekend Reels＋BigWinBoard 本週新作"] --> MISS{"漏收？"}
-  MISS -- 是 --> BU["標「📋 本週補遺」，算在 2 款內，多的進庫存"]
+  MISS -- 是 --> BU["標「📋 本週補遺」，算在 3 款內，多的進庫存"]
   classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700
   classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700
   classDef muted fill:#EEE8DC,stroke:#A99F8E,color:#6F675A
-  class DAY,MISS,N,PV gate
+  class DAY,MISS,N,N2,PV gate
   class LATER muted
-  linkStyle 2,13 stroke:#4E9E68,stroke-width:2px
+  linkStyle 2,9,10,11,12,15 stroke:#4E9E68,stroke-width:2px
   linkStyle 1 stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4
 ```
 
@@ -236,7 +239,7 @@ flowchart LR
 | 1 | Pragmatic Play | [https://pragmaticplay.com/en/news/](https://pragmaticplay.com/en/news/) | WP-API | 每日 | Provider 官網 |  |
 | 2 | PG Soft | [https://pgsoft.com/en/news/](https://pgsoft.com/en/news/) | Firecrawl | 輪掃 | Provider 官網 |  |
 | 3 | Jili | [https://jiligames.com/](https://jiligames.com/) | Firecrawl | 輪掃 | Provider 官網 |  |
-| 4 | Play'n GO | [https://www.playngo.com/](https://www.playngo.com/) | RSS | 每日 | Provider 官網 |  |
+| 4 | Play'n GO | [https://www.playngo.com/](https://www.playngo.com/) | Sitemap | 每日 | Provider 官網；v6.5.2 官網改 Wix、RSS 消失 → 改抓 sitemap（/games/ 的日期＝上線日，/post/ 為新聞） |  |
 | 5 | NetEnt | [https://www.netent.com/](https://www.netent.com/) | Firecrawl | 輪掃 | Provider 官網 |  |
 | 6 | Red Tiger Gaming | [https://redtiger.com/](https://redtiger.com/) | Firecrawl | 輪掃 | Provider 官網 |  |
 | 7 | Spribe | [https://spribe.co/](https://spribe.co/) | Firecrawl | 輪掃 | Provider 官網（Crash 代表廠商） |  |
@@ -254,7 +257,7 @@ flowchart LR
 | 19 | Relax Gaming | [https://www.relaxgaming.com/](https://www.relaxgaming.com/) | Firecrawl | 輪掃 | Provider 官網 |  |
 | 20 | 4ThePlayer | [https://4theplayer.com/](https://4theplayer.com/) | WP-API | 每日 | Provider 官網 |  |
 | 21 | AvatarUX | [https://avatarux.com/](https://avatarux.com/) | WP-API | 每日 | Provider 官網 |  |
-| 22 | Kalamba Games | [https://kalambagames.com/](https://kalambagames.com/) | WP-API | 每日 | Provider 官網 |  |
+| 22 | Kalamba Games | [https://kalambagames.com/](https://kalambagames.com/) | Firecrawl | 輪掃 | Provider 官網；v6.5.2 網站加了機器人驗證（curl 被擋）→ 改 Firecrawl 輪掃 |  |
 | 23 | Peter & Sons | [https://peterandsonsgames.com/](https://peterandsonsgames.com/) | Firecrawl | 輪掃 | Provider 官網 |  |
 | 24 | CP Game | [https://cpgames.com/](https://cpgames.com/) | Firecrawl | 輪掃 | Provider 官網 |  |
 | 220 | Acewin | [https://www.acewin168.com/](https://www.acewin168.com/) | Firecrawl | 輪掃 | ★優先追蹤｜IGS鈊象電子旗下 GP；可視為 Jili 低配版、多款與 Jili 互通，B 端價格有優勢。上新遊戲於 DigiPlus 系(BingoPlus/ArenaPlus/GameZone)或 CasinoPlus 等菲現金網、或特別線上/線下活動與平台功能更新→提高露出權重 |  |
@@ -276,8 +279,8 @@ flowchart LR
 | 33 | Gamingsoft Blog | [https://www.gamingsoft.com/blog/](https://www.gamingsoft.com/blog/) | WP-API | 每日 | B2B 視角 Provider 評測，關注營運整合 |  |
 | 34 | EZ Slot Design | [https://ezslotdesign.com/](https://ezslotdesign.com/) | RSS | 每日 | Slot 遊戲設計分析，設計師視角拆解玩法機制 |  |
 | 35 | P-WORLD | [https://www.p-world.co.jp/](https://www.p-world.co.jp/) | Firecrawl | 輪掃 | 日本遊技機資料庫；子頁 introduce_calendar.cgi 為★新台上市日期／規格／導入店數，日本機種情報最關鍵單一來源 |  |
-| 229 | BigWinBoard | [https://www.bigwinboard.com/new-slots/](https://www.bigwinboard.com/new-slots/) | Firecrawl | 每日 | Slot 資料庫站（v6.4 新增）；新作依上線日排序，大廠幾乎都有，含 RTP／最高倍率 |  |
-| 230 | SlotsLaunch | [https://slotslaunch.com/](https://slotslaunch.com/) | Firecrawl | 每日 | Slot 資料庫站（v6.4 新增）；新作與上線日 |  |
+| 229 | BigWinBoard | [https://www.bigwinboard.com/new-slots/](https://www.bigwinboard.com/new-slots/) | 程式解析 | 每日 | Slot 資料庫站（v6.4 新增）；新作依上線日排序，大廠幾乎都有，含 RTP／最高倍率 |  |
+| 230 | SlotsLaunch | [https://slotslaunch.com/](https://slotslaunch.com/) | 程式解析 | 每日 | Slot 資料庫站（v6.4 新增）；v6.5 改抓上線日曆（每款有上線日，免費） |  |
 
 ### 產業媒體（102）
 
@@ -286,7 +289,7 @@ flowchart LR
 | 36 | AGB（Asia Gaming Brief） | [https://agbrief.com](https://agbrief.com) | RSS | 每日 | 東南亞 iGaming 專業媒體，Jili 報導最完整 |  |
 | 37 | iGaming Business | [https://igamingbusiness.com/news/](https://igamingbusiness.com/news/) | WP-API | 每日 | Provider 合作、盤口動向、市場數據 |  |
 | 38 | CasinoBeats | [https://casinobeats.com](https://casinobeats.com) | WP-API | 每日 | Provider 新遊戲、合作消息 |  |
-| 39 | SBC News | [https://sbcnews.co.uk](https://sbcnews.co.uk) | Firecrawl | 每日 | 盤口動態、Provider 合作 |  |
+| 39 | SBC News | [https://sbcnews.co.uk](https://sbcnews.co.uk) | RSS | 每日 | 盤口動態、Provider 合作；v6.5 改用 RSS（10 則約 3 天，免費） |  |
 | 40 | Gambling Insider | [https://gamblinginsider.com/news/](https://gamblinginsider.com/news/) | WP-API | 每日 | 盤口市場數據、M&A、財務動態 |  |
 | 41 | Yogonet International | [https://www.yogonet.com/international/](https://www.yogonet.com/international/) | RSS | 每日 | 全球市場動態、M&A（每日主力來源之一） |  |
 | 42 | EGR Global | [https://egr.global/news/](https://egr.global/news/) | RSS | 每日 | 盤口排名、Provider 表現 |  |
@@ -351,7 +354,7 @@ flowchart LR
 | 101 | CasinoNieuws.nl | [https://www.casinonieuws.nl/](https://www.casinonieuws.nl/) | Firecrawl | 輪掃 | 荷蘭博彩媒體 |  |
 | 102 | Gaming in Holland | [https://gaminginholland.com/](https://gaminginholland.com/) | Firecrawl | 輪掃 | 荷蘭／英語博彩媒體 |  |
 | 103 | GBC Time | [https://gbc-time.com/](https://gbc-time.com/) | Firecrawl | 輪掃 | 英／俄／烏語博彩媒體 |  |
-| 104 | Casino Inside Romania | [https://casinoinside.ro/](https://casinoinside.ro/) | WP-API | 每日 | 羅馬尼亞博彩媒體 |  |
+| 104 | Casino Inside Romania | [https://casinoinside.ro/](https://casinoinside.ro/) | Firecrawl | 輪掃 | 羅馬尼亞博彩媒體；v6.5.2 網站加了機器人驗證（curl 被擋）→ 改 Firecrawl 輪掃 |  |
 | 105 | Casino Life & Business Romania | [https://www.casino-life.ro/](https://www.casino-life.ro/) | Firecrawl | 輪掃 | 羅馬尼亞／中東歐博彩媒體 |  |
 | 106 | Interplay Poland | [https://interplay.pl/](https://interplay.pl/) | WP-API | 每日 | 波蘭博彩媒體 |  |
 | 107 | GreenBelt | [https://web-greenbelt.jp/](https://web-greenbelt.jp/) | WP-API | 每日 | 日本 Pachislot 媒體；子頁 /category/machine/ 為新台專區（優先級最高） |  |
@@ -364,7 +367,7 @@ flowchart LR
 | 114 | PlayGraph | [https://www.play-graph.com/](https://www.play-graph.com/) | Firecrawl | 輪掃 | 日本遊技專門誌 |  |
 | 115 | Pachinko Media Portal | [https://www.pmp-paa.com/](https://www.pmp-paa.com/) | Firecrawl | 輪掃 | 日本業界情報入口網 |  |
 | 116 | GGRAsia | [https://www.ggrasia.com/](https://www.ggrasia.com/) | WP-API | 每日 | 澳門／亞洲 Casino floor 報導 |  |
-| 117 | Inside Asian Gaming | [https://www.asgam.com/](https://www.asgam.com/) | Firecrawl | 每日 | 亞洲供應商、機台、展會報導 |  |
+| 117 | Inside Asian Gaming | [https://www.asgam.com/](https://www.asgam.com/) | RSS | 每日 | 亞洲供應商、機台、展會報導；v6.5 改用 RSS（10 則約 3 天，免費） |  |
 | 118 | AGB Macau | [https://agbrief.com/category/news/macau/](https://agbrief.com/category/news/macau/) | RSS | 每日 | AGB 澳門專版 |  |
 | 119 | AGB Philippines | [https://agbrief.com/category/news/philippines/](https://agbrief.com/category/news/philippines/) | RSS | 每日 | ★AGB 菲律賓專版，直接對應本報告 🇵🇭 分類 |  |
 | 120 | AGB Vietnam | [https://agbrief.com/category/news/vietnam/](https://agbrief.com/category/news/vietnam/) | RSS | 每日 | AGB 越南專版 |  |
@@ -384,7 +387,7 @@ flowchart LR
 | 226 | SunStar | [https://www.sunstar.com.ph/](https://www.sunstar.com.ph/) | RSS | 每日 | 菲律賓在地媒體（v6.4 新增）；需用博弈關鍵字過濾 |  |
 | 227 | BusinessWorld | [https://www.bworldonline.com/](https://www.bworldonline.com/) | RSS | 每日 | 菲律賓財經媒體（v6.4 新增）；DigiPlus／Bloomberry 等上市公司動態 |  |
 | 228 | DigiPlus | [https://digiplus.com.ph/news/](https://digiplus.com.ph/news/) | RSS | 每日 | ★DigiPlus 官網新聞（v6.4 新增）；BingoPlus／ArenaPlus／GameZone 主來源 |  |
-| 231 | EEGaming（Recent Slot Releases） | [https://eegaming.org/category/recent-slot-releases](https://eegaming.org/category/recent-slot-releases) | Firecrawl | 每日 | Slot 新作通稿集中地（v6.4 新增）；每週五另有 Weekend Reels 整理 |  |
+| 231 | EEGaming（Recent Slot Releases） | [https://eegaming.org/category/recent-slot-releases](https://eegaming.org/category/recent-slot-releases) | RSS | 每日 | Slot 新作通稿集中地（v6.4 新增）；每週五另有 Weekend Reels 整理；v6.5 改用全站 RSS（精確發布時間、免費） |  |
 
 ### 產業協會／技術認證機構（23）
 

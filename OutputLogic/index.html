@@ -85,12 +85,12 @@
       <div><span>資料來源</span><b>233</b></div>
       <div><span>來源分類</span><b>10</b></div>
       <div><span>每日排程</span><b>02:30</b></div>
-      <div><span>Slot 上限</span><b>平日 5／週末 2</b></div>
+      <div><span>Slot 上限</span><b>平日 7／週末 3</b></div>
     </aside>
   </header>
 
   <div class="h2">一、生成的基本架構</div>
-  <div class="card arch"><p>本日報為<strong>全自動</strong>產物（規則版本 <strong>v6.4.2</strong>）：每天<strong>台北時間 02:30</strong> 由 Mac 排程啟動，從收集、選稿、查證到發布與推播，全程不需人工介入。</p><h4>① 收集：Claude 開工前，程式 harvest.py 先把當天的新聞收進來</h4><ul><li><strong>第一層｜RSS／WordPress API</strong>：免費掃約 90 個來源，取得每篇文章<strong>精確到分鐘的發布時間</strong></li><li><strong>第二層｜Firecrawl</strong>：抓沒有 API 的高價值站（Slot 資料庫站、SBC News、IAG），加上每日輪掃 3 站</li><li><strong>補充｜三種觸發</strong>：事件、行事曆、每週一固定週期，抓監理機關、協會與展會（小眾，數量少）</li><li><strong>來源主檔</strong>：Excel（目前 <strong>233 個來源、10 大分類</strong>），「抓取方式」「頻率」欄決定每個來源怎麼抓</li></ul><h4>② 選稿：Claude 讀候選清單與庫存</h4><ul><li><strong>第三層｜WebSearch</strong>：補程式抓不到的題目（菲律賓平台、新品牌進菲、實體機大廠、Slot 補漏）</li><li><strong>打分</strong>：品牌＋事件＋地區＋時效，套用 <strong>3 天去重</strong>與硬上限</li><li><strong>Slot 區</strong>：平日 5 款、週末 2 款；窗內大廠新作全收；當天 ≤3 款才從<strong>庫存</strong>補</li></ul><h4>③ 查證：只對入選的新聞</h4><ul><li><strong>主來源日期關</strong>：發布日期含年份，且落在 24 小時收集窗內</li><li><strong>交叉查證</strong>：至少一個獨立來源佐證，補齊盤面、倍率、RTP 等參數（只增不減）</li></ul><h4>④ 發布與推播</h4><ul><li>寫稿、渲染 HTML、寫 Telegram 預存訊息、更新庫存，以<strong>單一 commit</strong> 推上 repo</li><li>網站由 <strong>GitHub Pages</strong> 自動更新</li><li><strong>Telegram</strong> 由 GitHub Actions 在早上定時推播；當天沒有日報則改發「未產出」警告</li></ul></div>
+  <div class="card arch"><p>本日報為<strong>全自動</strong>產物（規則版本 <strong>v6.4.2</strong>）：每天<strong>台北時間 02:30</strong> 由 Mac 排程啟動，從收集、選稿、查證到發布與推播，全程不需人工介入。</p><h4>① 收集：Claude 開工前，程式 harvest.py 先把當天的新聞收進來</h4><ul><li><strong>第一層｜RSS／WordPress API</strong>：免費掃約 90 個來源，取得每篇文章<strong>精確到分鐘的發布時間</strong></li><li><strong>第二層｜Firecrawl</strong>：抓沒有 API 的高價值站（Slot 資料庫站、SBC News、IAG），加上每日輪掃 3 站</li><li><strong>補充｜三種觸發</strong>：事件、行事曆、每週一固定週期，抓監理機關、協會與展會（小眾，數量少）</li><li><strong>來源主檔</strong>：Excel（目前 <strong>233 個來源、10 大分類</strong>），「抓取方式」「頻率」欄決定每個來源怎麼抓</li></ul><h4>② 選稿：Claude 讀候選清單與庫存</h4><ul><li><strong>第三層｜WebSearch</strong>：補程式抓不到的題目（菲律賓平台、新品牌進菲、實體機大廠、Slot 補漏）</li><li><strong>打分</strong>：品牌＋事件＋地區＋時效，套用 <strong>3 天去重</strong>與硬上限</li><li><strong>Slot 區</strong>：平日 7 款、週末 3 款；窗內大廠新作全收；平日當天新作 ≤5 款、週末 ≤2 款才從<strong>庫存</strong>補</li><li><strong>特別版</strong>：每週一、週四日報成功後，Slot 庫存 ≥5 款就另發一期釋放（最多 10 款，大廠在前）</li></ul><h4>③ 查證：只對入選的新聞</h4><ul><li><strong>主來源日期關</strong>：發布日期含年份，且落在 24 小時收集窗內</li><li><strong>交叉查證</strong>：至少一個獨立來源佐證，補齊盤面、倍率、RTP 等參數（只增不減）</li></ul><h4>④ 發布與推播</h4><ul><li>寫稿、渲染 HTML、寫 Telegram 預存訊息、更新庫存，以<strong>單一 commit</strong> 推上 repo</li><li>網站由 <strong>GitHub Pages</strong> 自動更新</li><li><strong>Telegram</strong> 由 GitHub Actions 在早上定時推播；當天沒有日報則改發「未產出」警告</li></ul></div>
 
   <div class="h2">二、運作邏輯（流程圖）</div>
   <div class="card"><h3>2-1　每日總流程</h3><pre class="mermaid">
@@ -189,21 +189,23 @@ flowchart TD
   PV -- 否 --> BIG["① 窗內大廠 B≥3 全收（同 GP ≤2）"]
   BIG --> OTHER["② 其他窗內新作依分數補"]
   OTHER --> DAY{"日報是？"}
-  DAY -- 週一～週五 --> C5["上限 5 款"]
-  DAY -- 週六、週日 --> C2["上限 2 款"]
-  C5 --> N{"當天新作幾款？"}
-  C2 --> N
-  N -- "≥4 款" --> NOFILL["不補，超過上限的進庫存"]
-  N -- "≤3 款" --> FILL["③ 從庫存補到上限"]
+  DAY -- 週一～週五 --> C5["上限 7 款"]
+  DAY -- 週六、週日 --> C2["上限 3 款"]
+  C5 --> N{"平日當天新作 ≤5 款？"}
+  C2 --> N2{"週末當天新作 ≤2 款？"}
+  N -- 否 --> NOFILL["不補，超過上限的進庫存"]
+  N2 -- 否 --> NOFILL
+  N -- 是 --> FILL["③ 從庫存依 B 分補到上限"]
+  N2 -- 是 --> FILL
   FILL --> NAT["庫存不夠就自然呈現"]
   SAT["📋 週六檢查點：Weekend Reels＋BigWinBoard 本週新作"] --> MISS{"漏收？"}
-  MISS -- 是 --> BU["標「📋 本週補遺」，算在 2 款內，多的進庫存"]
+  MISS -- 是 --> BU["標「📋 本週補遺」，算在 3 款內，多的進庫存"]
   classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700
   classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700
   classDef muted fill:#EEE8DC,stroke:#A99F8E,color:#6F675A
-  class DAY,MISS,N,PV gate
+  class DAY,MISS,N,N2,PV gate
   class LATER muted
-  linkStyle 2,13 stroke:#4E9E68,stroke-width:2px
+  linkStyle 2,9,10,11,12,15 stroke:#4E9E68,stroke-width:2px
   linkStyle 1 stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4
 </pre></div>
   <div class="card"><h3>2-5　庫存機制</h3><pre class="mermaid">
@@ -282,7 +284,7 @@ flowchart LR
       <tr><td class="no">1</td><td>Pragmatic Play</td><td><a href="https://pragmaticplay.com/en/news/" target="_blank" rel="noopener">https://pragmaticplay.com/en/news/</a></td><td class="note">WP-API</td><td class="note">每日</td><td class="note">Provider 官網</td><td class="note"></td></tr>
       <tr><td class="no">2</td><td>PG Soft</td><td><a href="https://pgsoft.com/en/news/" target="_blank" rel="noopener">https://pgsoft.com/en/news/</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">Provider 官網</td><td class="note"></td></tr>
       <tr><td class="no">3</td><td>Jili</td><td><a href="https://jiligames.com/" target="_blank" rel="noopener">https://jiligames.com/</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">Provider 官網</td><td class="note"></td></tr>
-      <tr><td class="no">4</td><td>Play&#x27;n GO</td><td><a href="https://www.playngo.com/" target="_blank" rel="noopener">https://www.playngo.com/</a></td><td class="note">RSS</td><td class="note">每日</td><td class="note">Provider 官網</td><td class="note"></td></tr>
+      <tr><td class="no">4</td><td>Play&#x27;n GO</td><td><a href="https://www.playngo.com/" target="_blank" rel="noopener">https://www.playngo.com/</a></td><td class="note">Sitemap</td><td class="note">每日</td><td class="note">Provider 官網；v6.5.2 官網改 Wix、RSS 消失 → 改抓 sitemap（/games/ 的日期＝上線日，/post/ 為新聞）</td><td class="note"></td></tr>
       <tr><td class="no">5</td><td>NetEnt</td><td><a href="https://www.netent.com/" target="_blank" rel="noopener">https://www.netent.com/</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">Provider 官網</td><td class="note"></td></tr>
       <tr><td class="no">6</td><td>Red Tiger Gaming</td><td><a href="https://redtiger.com/" target="_blank" rel="noopener">https://redtiger.com/</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">Provider 官網</td><td class="note"></td></tr>
       <tr><td class="no">7</td><td>Spribe</td><td><a href="https://spribe.co/" target="_blank" rel="noopener">https://spribe.co/</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">Provider 官網（Crash 代表廠商）</td><td class="note"></td></tr>
@@ -300,7 +302,7 @@ flowchart LR
       <tr><td class="no">19</td><td>Relax Gaming</td><td><a href="https://www.relaxgaming.com/" target="_blank" rel="noopener">https://www.relaxgaming.com/</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">Provider 官網</td><td class="note"></td></tr>
       <tr><td class="no">20</td><td>4ThePlayer</td><td><a href="https://4theplayer.com/" target="_blank" rel="noopener">https://4theplayer.com/</a></td><td class="note">WP-API</td><td class="note">每日</td><td class="note">Provider 官網</td><td class="note"></td></tr>
       <tr><td class="no">21</td><td>AvatarUX</td><td><a href="https://avatarux.com/" target="_blank" rel="noopener">https://avatarux.com/</a></td><td class="note">WP-API</td><td class="note">每日</td><td class="note">Provider 官網</td><td class="note"></td></tr>
-      <tr><td class="no">22</td><td>Kalamba Games</td><td><a href="https://kalambagames.com/" target="_blank" rel="noopener">https://kalambagames.com/</a></td><td class="note">WP-API</td><td class="note">每日</td><td class="note">Provider 官網</td><td class="note"></td></tr>
+      <tr><td class="no">22</td><td>Kalamba Games</td><td><a href="https://kalambagames.com/" target="_blank" rel="noopener">https://kalambagames.com/</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">Provider 官網；v6.5.2 網站加了機器人驗證（curl 被擋）→ 改 Firecrawl 輪掃</td><td class="note"></td></tr>
       <tr><td class="no">23</td><td>Peter &amp; Sons</td><td><a href="https://peterandsonsgames.com/" target="_blank" rel="noopener">https://peterandsonsgames.com/</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">Provider 官網</td><td class="note"></td></tr>
       <tr><td class="no">24</td><td>CP Game</td><td><a href="https://cpgames.com/" target="_blank" rel="noopener">https://cpgames.com/</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">Provider 官網</td><td class="note"></td></tr>
       <tr><td class="no">220</td><td>Acewin</td><td><a href="https://www.acewin168.com/" target="_blank" rel="noopener">https://www.acewin168.com/</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">★優先追蹤｜IGS鈊象電子旗下 GP；可視為 Jili 低配版、多款與 Jili 互通，B 端價格有優勢。上新遊戲於 DigiPlus 系(BingoPlus/ArenaPlus/GameZone)或 CasinoPlus 等菲現金網、或特別線上/線下活動與平台功能更新→提高露出權重</td><td class="note"></td></tr>
@@ -322,8 +324,8 @@ flowchart LR
       <tr><td class="no">33</td><td>Gamingsoft Blog</td><td><a href="https://www.gamingsoft.com/blog/" target="_blank" rel="noopener">https://www.gamingsoft.com/blog/</a></td><td class="note">WP-API</td><td class="note">每日</td><td class="note">B2B 視角 Provider 評測，關注營運整合</td><td class="note"></td></tr>
       <tr><td class="no">34</td><td>EZ Slot Design</td><td><a href="https://ezslotdesign.com/" target="_blank" rel="noopener">https://ezslotdesign.com/</a></td><td class="note">RSS</td><td class="note">每日</td><td class="note">Slot 遊戲設計分析，設計師視角拆解玩法機制</td><td class="note"></td></tr>
       <tr><td class="no">35</td><td>P-WORLD</td><td><a href="https://www.p-world.co.jp/" target="_blank" rel="noopener">https://www.p-world.co.jp/</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">日本遊技機資料庫；子頁 introduce_calendar.cgi 為★新台上市日期／規格／導入店數，日本機種情報最關鍵單一來源</td><td class="note"></td></tr>
-      <tr><td class="no">229</td><td>BigWinBoard</td><td><a href="https://www.bigwinboard.com/new-slots/" target="_blank" rel="noopener">https://www.bigwinboard.com/new-slots/</a></td><td class="note">Firecrawl</td><td class="note">每日</td><td class="note">Slot 資料庫站（v6.4 新增）；新作依上線日排序，大廠幾乎都有，含 RTP／最高倍率</td><td class="note"></td></tr>
-      <tr><td class="no">230</td><td>SlotsLaunch</td><td><a href="https://slotslaunch.com/" target="_blank" rel="noopener">https://slotslaunch.com/</a></td><td class="note">Firecrawl</td><td class="note">每日</td><td class="note">Slot 資料庫站（v6.4 新增）；新作與上線日</td><td class="note"></td></tr>
+      <tr><td class="no">229</td><td>BigWinBoard</td><td><a href="https://www.bigwinboard.com/new-slots/" target="_blank" rel="noopener">https://www.bigwinboard.com/new-slots/</a></td><td class="note">程式解析</td><td class="note">每日</td><td class="note">Slot 資料庫站（v6.4 新增）；新作依上線日排序，大廠幾乎都有，含 RTP／最高倍率</td><td class="note"></td></tr>
+      <tr><td class="no">230</td><td>SlotsLaunch</td><td><a href="https://slotslaunch.com/" target="_blank" rel="noopener">https://slotslaunch.com/</a></td><td class="note">程式解析</td><td class="note">每日</td><td class="note">Slot 資料庫站（v6.4 新增）；v6.5 改抓上線日曆（每款有上線日，免費）</td><td class="note"></td></tr>
     </tbody></table></div>
   <h3 id="cat2" class="cat" style="--mk:var(--s3)">產業媒體<span class="badge">102</span><a class="top" href="#top">↑ 回頂部</a></h3>
   <div class="tablewrap"><table class="src">
@@ -332,7 +334,7 @@ flowchart LR
       <tr><td class="no">36</td><td>AGB（Asia Gaming Brief）</td><td><a href="https://agbrief.com" target="_blank" rel="noopener">https://agbrief.com</a></td><td class="note">RSS</td><td class="note">每日</td><td class="note">東南亞 iGaming 專業媒體，Jili 報導最完整</td><td class="note"></td></tr>
       <tr><td class="no">37</td><td>iGaming Business</td><td><a href="https://igamingbusiness.com/news/" target="_blank" rel="noopener">https://igamingbusiness.com/news/</a></td><td class="note">WP-API</td><td class="note">每日</td><td class="note">Provider 合作、盤口動向、市場數據</td><td class="note"></td></tr>
       <tr><td class="no">38</td><td>CasinoBeats</td><td><a href="https://casinobeats.com" target="_blank" rel="noopener">https://casinobeats.com</a></td><td class="note">WP-API</td><td class="note">每日</td><td class="note">Provider 新遊戲、合作消息</td><td class="note"></td></tr>
-      <tr><td class="no">39</td><td>SBC News</td><td><a href="https://sbcnews.co.uk" target="_blank" rel="noopener">https://sbcnews.co.uk</a></td><td class="note">Firecrawl</td><td class="note">每日</td><td class="note">盤口動態、Provider 合作</td><td class="note"></td></tr>
+      <tr><td class="no">39</td><td>SBC News</td><td><a href="https://sbcnews.co.uk" target="_blank" rel="noopener">https://sbcnews.co.uk</a></td><td class="note">RSS</td><td class="note">每日</td><td class="note">盤口動態、Provider 合作；v6.5 改用 RSS（10 則約 3 天，免費）</td><td class="note"></td></tr>
       <tr><td class="no">40</td><td>Gambling Insider</td><td><a href="https://gamblinginsider.com/news/" target="_blank" rel="noopener">https://gamblinginsider.com/news/</a></td><td class="note">WP-API</td><td class="note">每日</td><td class="note">盤口市場數據、M&amp;A、財務動態</td><td class="note"></td></tr>
       <tr><td class="no">41</td><td>Yogonet International</td><td><a href="https://www.yogonet.com/international/" target="_blank" rel="noopener">https://www.yogonet.com/international/</a></td><td class="note">RSS</td><td class="note">每日</td><td class="note">全球市場動態、M&amp;A（每日主力來源之一）</td><td class="note"></td></tr>
       <tr><td class="no">42</td><td>EGR Global</td><td><a href="https://egr.global/news/" target="_blank" rel="noopener">https://egr.global/news/</a></td><td class="note">RSS</td><td class="note">每日</td><td class="note">盤口排名、Provider 表現</td><td class="note"></td></tr>
@@ -397,7 +399,7 @@ flowchart LR
       <tr><td class="no">101</td><td>CasinoNieuws.nl</td><td><a href="https://www.casinonieuws.nl/" target="_blank" rel="noopener">https://www.casinonieuws.nl/</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">荷蘭博彩媒體</td><td class="note"></td></tr>
       <tr><td class="no">102</td><td>Gaming in Holland</td><td><a href="https://gaminginholland.com/" target="_blank" rel="noopener">https://gaminginholland.com/</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">荷蘭／英語博彩媒體</td><td class="note"></td></tr>
       <tr><td class="no">103</td><td>GBC Time</td><td><a href="https://gbc-time.com/" target="_blank" rel="noopener">https://gbc-time.com/</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">英／俄／烏語博彩媒體</td><td class="note"></td></tr>
-      <tr><td class="no">104</td><td>Casino Inside Romania</td><td><a href="https://casinoinside.ro/" target="_blank" rel="noopener">https://casinoinside.ro/</a></td><td class="note">WP-API</td><td class="note">每日</td><td class="note">羅馬尼亞博彩媒體</td><td class="note"></td></tr>
+      <tr><td class="no">104</td><td>Casino Inside Romania</td><td><a href="https://casinoinside.ro/" target="_blank" rel="noopener">https://casinoinside.ro/</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">羅馬尼亞博彩媒體；v6.5.2 網站加了機器人驗證（curl 被擋）→ 改 Firecrawl 輪掃</td><td class="note"></td></tr>
       <tr><td class="no">105</td><td>Casino Life &amp; Business Romania</td><td><a href="https://www.casino-life.ro/" target="_blank" rel="noopener">https://www.casino-life.ro/</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">羅馬尼亞／中東歐博彩媒體</td><td class="note"></td></tr>
       <tr><td class="no">106</td><td>Interplay Poland</td><td><a href="https://interplay.pl/" target="_blank" rel="noopener">https://interplay.pl/</a></td><td class="note">WP-API</td><td class="note">每日</td><td class="note">波蘭博彩媒體</td><td class="note"></td></tr>
       <tr><td class="no">107</td><td>GreenBelt</td><td><a href="https://web-greenbelt.jp/" target="_blank" rel="noopener">https://web-greenbelt.jp/</a></td><td class="note">WP-API</td><td class="note">每日</td><td class="note">日本 Pachislot 媒體；子頁 /category/machine/ 為新台專區（優先級最高）</td><td class="note"></td></tr>
@@ -410,7 +412,7 @@ flowchart LR
       <tr><td class="no">114</td><td>PlayGraph</td><td><a href="https://www.play-graph.com/" target="_blank" rel="noopener">https://www.play-graph.com/</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">日本遊技專門誌</td><td class="note"></td></tr>
       <tr><td class="no">115</td><td>Pachinko Media Portal</td><td><a href="https://www.pmp-paa.com/" target="_blank" rel="noopener">https://www.pmp-paa.com/</a></td><td class="note">Firecrawl</td><td class="note">輪掃</td><td class="note">日本業界情報入口網</td><td class="note"></td></tr>
       <tr><td class="no">116</td><td>GGRAsia</td><td><a href="https://www.ggrasia.com/" target="_blank" rel="noopener">https://www.ggrasia.com/</a></td><td class="note">WP-API</td><td class="note">每日</td><td class="note">澳門／亞洲 Casino floor 報導</td><td class="note"></td></tr>
-      <tr><td class="no">117</td><td>Inside Asian Gaming</td><td><a href="https://www.asgam.com/" target="_blank" rel="noopener">https://www.asgam.com/</a></td><td class="note">Firecrawl</td><td class="note">每日</td><td class="note">亞洲供應商、機台、展會報導</td><td class="note"></td></tr>
+      <tr><td class="no">117</td><td>Inside Asian Gaming</td><td><a href="https://www.asgam.com/" target="_blank" rel="noopener">https://www.asgam.com/</a></td><td class="note">RSS</td><td class="note">每日</td><td class="note">亞洲供應商、機台、展會報導；v6.5 改用 RSS（10 則約 3 天，免費）</td><td class="note"></td></tr>
       <tr><td class="no">118</td><td>AGB Macau</td><td><a href="https://agbrief.com/category/news/macau/" target="_blank" rel="noopener">https://agbrief.com/category/news/macau/</a></td><td class="note">RSS</td><td class="note">每日</td><td class="note">AGB 澳門專版</td><td class="note"></td></tr>
       <tr><td class="no">119</td><td>AGB Philippines</td><td><a href="https://agbrief.com/category/news/philippines/" target="_blank" rel="noopener">https://agbrief.com/category/news/philippines/</a></td><td class="note">RSS</td><td class="note">每日</td><td class="note">★AGB 菲律賓專版，直接對應本報告 🇵🇭 分類</td><td class="note"></td></tr>
       <tr><td class="no">120</td><td>AGB Vietnam</td><td><a href="https://agbrief.com/category/news/vietnam/" target="_blank" rel="noopener">https://agbrief.com/category/news/vietnam/</a></td><td class="note">RSS</td><td class="note">每日</td><td class="note">AGB 越南專版</td><td class="note"></td></tr>
@@ -430,7 +432,7 @@ flowchart LR
       <tr><td class="no">226</td><td>SunStar</td><td><a href="https://www.sunstar.com.ph/" target="_blank" rel="noopener">https://www.sunstar.com.ph/</a></td><td class="note">RSS</td><td class="note">每日</td><td class="note">菲律賓在地媒體（v6.4 新增）；需用博弈關鍵字過濾</td><td class="note"></td></tr>
       <tr><td class="no">227</td><td>BusinessWorld</td><td><a href="https://www.bworldonline.com/" target="_blank" rel="noopener">https://www.bworldonline.com/</a></td><td class="note">RSS</td><td class="note">每日</td><td class="note">菲律賓財經媒體（v6.4 新增）；DigiPlus／Bloomberry 等上市公司動態</td><td class="note"></td></tr>
       <tr><td class="no">228</td><td>DigiPlus</td><td><a href="https://digiplus.com.ph/news/" target="_blank" rel="noopener">https://digiplus.com.ph/news/</a></td><td class="note">RSS</td><td class="note">每日</td><td class="note">★DigiPlus 官網新聞（v6.4 新增）；BingoPlus／ArenaPlus／GameZone 主來源</td><td class="note"></td></tr>
-      <tr><td class="no">231</td><td>EEGaming（Recent Slot Releases）</td><td><a href="https://eegaming.org/category/recent-slot-releases" target="_blank" rel="noopener">https://eegaming.org/category/recent-slot-releases</a></td><td class="note">Firecrawl</td><td class="note">每日</td><td class="note">Slot 新作通稿集中地（v6.4 新增）；每週五另有 Weekend Reels 整理</td><td class="note"></td></tr>
+      <tr><td class="no">231</td><td>EEGaming（Recent Slot Releases）</td><td><a href="https://eegaming.org/category/recent-slot-releases" target="_blank" rel="noopener">https://eegaming.org/category/recent-slot-releases</a></td><td class="note">RSS</td><td class="note">每日</td><td class="note">Slot 新作通稿集中地（v6.4 新增）；每週五另有 Weekend Reels 整理；v6.5 改用全站 RSS（精確發布時間、免費）</td><td class="note"></td></tr>
     </tbody></table></div>
   <h3 id="cat3" class="cat" style="--mk:var(--s4)">產業協會／技術認證機構<span class="badge">23</span><a class="top" href="#top">↑ 回頂部</a></h3>
   <div class="tablewrap"><table class="src">
