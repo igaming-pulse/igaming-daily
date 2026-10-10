@@ -8,7 +8,7 @@ v6.4 庫存與重複控管（2026-09-27 定案）。
   history  ：已經在日報出現過的項目（去重用）
 
 規則（SKILL.md「📦 庫存機制」為準）：
-  - Slot：平日上限 7（v6.6.2）、週末上限 2；平日當天新作不到 7 款就從庫存補到 7；週末當天新作 ≤1 款才補到 2；首次看到後保鮮 7 天，
+  - Slot（v6.6.3）：平日上限 7、週末上限 3；平日當天新作 ≤5 款才從庫存補到 7；週末當天新作 ≤2 款才補到 3；首次看到後保鮮 7 天，
           未上線的預告保留到「上線日＋3 天」。
   - 其他分類：保鮮 3 天；某區連續空 2 天可以，第 3 天必須從庫存補。
   - 去重：3 天內出現過的不再出現；超過 3 天又出現且重要（例：預告→正式上線）可再展示。
@@ -123,18 +123,18 @@ def cmd_show(a):
     rej = [r for r in inv.get("rejected", []) if r["date"] == a.date]
     if rej:
         print(f"## 🗑️ 今天自動剔除（TBC）佔位頁 {len(rej)} 款：" + "、".join(f"{r['title']}（{r['gp']}）" for r in rej) + "\n")
-    cap = 2 if today.weekday() >= 5 else 7
+    cap = 3 if today.weekday() >= 5 else 7
     wd = "一二三四五六日"[today.weekday()]
     horizon = today + timedelta(days=PREVIEW_MAX_DAYS)
     pool = [x for x in inv["slots"] if not matches(x, rk)]
     later = [x for x in pool if x.get("release_date") and d(x["release_date"]) > horizon]
     slots = [x for x in pool if x not in later]
     slots.sort(key=lambda x: (-(x.get("b") or 0), x["first_seen"]))
-    rule = ("當天新作不到 7 款就從庫存依 B 分補到 7 款" if cap == 7 else "當天新作 ≤1 款才從庫存補到 2 款")
+    rule = ("當天新作 ≤5 款才從庫存依 B 分補到 7 款、≥6 款不補" if cap == 7 else "當天新作 ≤2 款才從庫存依 B 分補到 3 款、≥3 款不補")
     print(f"## 🎯 今天是週{wd}日報：Slot 上限 {cap} 款。{rule}；"
           f"庫存不夠就有多少補多少，不足不硬湊")
     if today.weekday() == 5:
-        print("## 📋 今天是週六檢查點：比對 Weekend Reels 與 BigWinBoard 本週新作，漏收的標「📋 本週補遺」，算在 2 款內，多的進庫存")
+        print("## 📋 今天是週六檢查點：比對 Weekend Reels 與 BigWinBoard 本週新作，漏收的標「📋 本週補遺」，算在 3 款內，多的進庫存")
     print()
     print(f"## 🎰 Slot 可用庫存 {len(slots)} 款（B 分高→首見早排序）")
     for x in slots:
