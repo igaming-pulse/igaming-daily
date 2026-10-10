@@ -1,0 +1,28 @@
+name: 回歸測試
+
+# 2026-10-11：改 scripts／tests 推上 test-publish 時自動跑 17+ 項回歸測試，壞掉的程式不會留到半夜 02:30 才爆。
+# 測試全部用 tests/fixtures 的存檔，不連網、不花任何點數。失敗會在 GitHub 顯示紅叉並寄信給 repo 擁有者。
+on:
+  push:
+    branches: [test-publish]
+    paths: ["scripts/**", "tests/**", "skills/**", ".github/workflows/tests.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  unittest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      TZ: Asia/Taipei
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'   # 跟 Mac 上的 /usr/bin/python3 同版本
+      - name: 語法檢查（shell）
+        run: for f in scripts/*.sh; do bash -n "$f" || exit 1; done
+      - name: 回歸測試
+        run: python3 -W ignore -m unittest discover -s tests -v
