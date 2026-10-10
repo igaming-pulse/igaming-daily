@@ -10,7 +10,7 @@ v6.4 庫存與重複控管（2026-09-27 定案）。
 規則（SKILL.md「📦 庫存機制」為準）：
   - Slot（v6.6.3）：平日上限 7、週末上限 3；平日當天新作 ≤5 款才從庫存補到 7；週末當天新作 ≤2 款才補到 3；首次看到後保鮮 7 天，
           未上線的預告保留到「上線日＋3 天」。
-  - 其他分類：保鮮 3 天；某區連續空 2 天可以，第 3 天必須從庫存補。
+  - 其他分類：保鮮 3 天；v6.6.4 起某區當天沒有合格新聞，就從庫存補 1 則（分數最高、首見早）。
   - 去重：3 天內出現過的不再出現；超過 3 天又出現且重要（例：預告→正式上線）可再展示。
 
 用法：
@@ -170,8 +170,23 @@ def cmd_show(a):
                 break  # 那天沒有紀錄（系統還沒上線），不算空
             n += 1
         streak[cat] = n
-    print("## 📉 各區連續空白天數（≥2 表示今天必須從庫存補）")
+    print("## 📉 各區連續空白天數（v6.6.4：任一區今天沒有合格新聞，就從上方庫存補 1 則；不能用要在原稿內部紀錄寫「剔除：名稱（原因）」）")
     print("- " + "、".join(f"{c} {n} 天" for c, n in streak.items()))
+
+
+NON_SLOT_RX = re.compile(r"\b(bingo|keno|crash|plinko|mines|scratch|instant win|lottery|dice|roulette|blackjack|baccarat|poker|live (casino|dealer)|game show)\b", re.I)
+
+
+def intake_problem(x):
+    """v6.6.4 進庫存把關：回傳不收的原因（None＝可以收）。"""
+    srcs = [s for s in (x.get("sources") or []) if str(s.get("url", "")).startswith("http")]
+    if not srcs:
+        return "沒有真實的來源網址"
+    if not x.get("title"):
+        return "沒有標題"
+    if x.get("cat") == "cat1" and is_placeholder(x):
+        return "BigWinBoard（TBC）佔位頁"
+    return None
 
 
 def cmd_update(a):
@@ -193,8 +208,16 @@ def cmd_update(a):
     inv["others"] = [x for x in inv["others"] if not matches(x, shown)]
     have = {key_of(x): x for x in inv["slots"] + inv["others"]}
     added = merged = 0
+    refused, moved = [], []
     for x in picks.get("stock", []):
         k = key_of(x)
+        why = intake_problem(x)
+        if why:
+            refused.append(f"{x.get('title', '?')}（{why}）")
+            continue
+        if x.get("cat") == "cat1" and NON_SLOT_RX.search(f"{x.get('title', '')} {x.get('note', '')}"):
+            x["cat"] = "cat2"            # 標題看得出是賓果／Crash／刮刮樂等 → 歸非 Slot
+            moved.append(x.get("title", "?"))
         if matches(x, shown):
             continue
         if matches(x, have):
@@ -210,6 +233,10 @@ def cmd_update(a):
     print(f"✓ 庫存更新 {a.date}：已出現 {len(shown)} 則寫入紀錄、新增庫存 {added} 則"
           f"{f'（{merged} 則與既有庫存模糊比對為同一款，未重複加入）' if merged else ''}；"
           f"目前 Slot 庫存 {len(inv['slots'])}、其他 {len(inv['others'])}")
+    if refused:
+        print(f"  ✗ 不收 {len(refused)} 則：" + "、".join(refused))
+    if moved:
+        print(f"  ↪ 改歸非 Slot（cat2）{len(moved)} 則：" + "、".join(moved))
 
 
 def main():

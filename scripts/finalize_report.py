@@ -255,6 +255,79 @@ def check_dupes(rep, day, qa):
             break
 
 
+# ─────────────────────────── 5. 庫存使用檢查（v6.6.4） ───────────────────────────
+
+def _mentioned(title, text):
+    """原稿內部紀錄有沒有提到這一款（用來允許「查證後剔除」並寫明原因）。"""
+    n = R.norm_title(title)
+    return bool(n) and n in R.norm_title(text.replace("\n", " "))
+
+
+def check_inventory_use(rep, day, qa):
+    """補位要照 B 分；某區當天空著、庫存卻有料就要補。
+    例外：在原稿最後的內部紀錄寫「剔除：<名稱>（原因）」，代表查證後確定不能用。"""
+    if rep.get("edition"):
+        return
+    inv_path = os.path.join(ROOT, "state", "inventory.json")
+    if not os.path.exists(inv_path):
+        return
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import inventory as INV
+    inv = INV.load()
+    rk = INV.recent_keys(inv, day)
+    horizon = day + timedelta(days=INV.PREVIEW_MAX_DAYS)
+    internal = rep.get("internal", "")
+    secs = {s["cat"]: s["items"] for s in rep["sections"]}
+
+    def split(t):
+        parts = re.split(r"\s+[–—-]\s+", t, maxsplit=1)
+        return parts[0], (parts[1] if len(parts) > 1 else "")
+
+    # ① Slot 補位要照 B 分
+    slots = [x for x in inv["slots"] if not INV.expired(x, day, True) and not INV.matches(x, rk)
+             and not INV.is_placeholder(x) and not (x.get("release_date") and INV.d(x["release_date"]) > horizon)]
+    fills = [it for it in secs.get("cat1", []) if it["label"].startswith("📦")]
+    used, used_b = [], []
+    for it in fills:
+        t, g = split(it["title"])
+        hit = next((x for x in slots if R.same_item(t, g, x["title"], x.get("gp", ""))), None)
+        if hit:
+            used.append(hit)
+            used_b.append(hit.get("b") or 0)
+    if used_b:
+        floor = min(used_b)
+        for x in slots:
+            if x in used or (x.get("b") or 0) <= floor:
+                continue
+            if any(R.same_item(split(it["title"])[0], split(it["title"])[1], x["title"], x.get("gp", ""))
+                   for it in secs.get("cat1", [])):
+                continue
+            if _mentioned(x["title"], internal):
+                continue
+            qa.err("cat1", f"補位沒照 B 分：庫存有 {x['title']}（B{x.get('b')}）沒用，卻用了 B{floor} 的項目；"
+                           f"不能用的話在原稿內部紀錄寫「剔除：{x['title']}（原因）」")
+    # ①-b 該補沒補：平日當天新作 ≤5、週末 ≤2，Slot 沒滿上限、庫存還有沒用的 → 要補
+    cap, thr = (3, 2) if day.weekday() >= 5 else (7, 5)
+    cat1 = secs.get("cat1", [])
+    new = [it for it in cat1 if not it["label"].startswith(("📦", "📋"))]
+    if len(new) <= thr and len(cat1) < cap:
+        left = [x for x in slots if x not in used and not _mentioned(x["title"], internal)
+                and not any(R.same_item(split(it["title"])[0], split(it["title"])[1], x["title"], x.get("gp", "")) for it in cat1)]
+        if left:
+            best = max(left, key=lambda x: (x.get("b") or 0))
+            qa.err("cat1", f"當天新作 {len(new)} 款（≤{thr}），Slot 只有 {len(cat1)} 款、未滿 {cap}，庫存還有 {len(left)} 款可補"
+                           f"（最高 {best['title']} B{best.get('b')}）；不能用的話在原稿內部紀錄寫「剔除：名稱（原因）」")
+    # ② 其他分類：當天空著、庫存有料就要補 1 則
+    for cat in ("cat2", "cat3", "cat4", "cat5"):
+        if secs.get(cat):
+            continue
+        stock = [x for x in inv["others"] if x.get("cat") == cat and not INV.expired(x, day, False)
+                 and not INV.matches(x, rk) and not _mentioned(x["title"], internal)]
+        if stock:
+            qa.err(cat, f"今天 0 則，但庫存有 {len(stock)} 則可補（例：{stock[0]['title'][:30]}）；"
+                        f"不能用的話在原稿內部紀錄寫「剔除：<名稱>（原因）」")
+
+
 # ─────────────────────────── 主流程 ───────────────────────────
 
 def main():
@@ -276,6 +349,7 @@ def main():
     total = check_schema(rep, day, qa)
     links = {"checked": 0, "skipped": True} if a.no_links else check_links(rep, qa)
     check_dupes(rep, day, qa)
+    check_inventory_use(rep, day, qa)
     # v6.5：「提取 N2 個資料來源」改由程式算 —— 全部則的來源連結去重後的數量（SKILL.md「📊 文末統計列」定義）
     n2 = len({u for sec in rep["sections"] for it in sec["items"] for _, u in it["sources"]})
     if rep.get("stats"):
