@@ -180,7 +180,9 @@ def cmd_update(a):
         picks = json.load(f)
     shown = {}
     # 重跑同一天：先清掉這一天舊的「已出現」紀錄，避免重複累加
-    inv["history"] = [h for h in inv["history"] if h["date"] != a.date]
+    # （特別版跟日報同一天寫入時用 --keep-day，不可清掉當天日報的紀錄）
+    if not a.keep_day:
+        inv["history"] = [h for h in inv["history"] if h["date"] != a.date]
     for x in picks.get("shown", []):
         k = key_of(x)
         h = {"key": k, "date": a.date, "cat": x.get("cat", ""), "title": x.get("title", ""), "gp": x.get("gp", "")}
@@ -214,6 +216,7 @@ def main():
     sub = ap.add_subparsers(dest="cmd", required=True)
     s = sub.add_parser("show"); s.add_argument("--date", required=True)
     u = sub.add_parser("update"); u.add_argument("--date", required=True); u.add_argument("--file", required=True)
+    u.add_argument("--keep-day", action="store_true", help="不清掉當天既有的已出現紀錄（特別版用）")
     a = ap.parse_args()
     {"show": cmd_show, "update": cmd_update}[a.cmd](a)
 

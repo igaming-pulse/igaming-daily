@@ -69,7 +69,7 @@ def check_schema(rep, day, qa):
         c = sec["cat"]
         n = len(sec["items"])
         total += n
-        if c == "cat1" and n > cap:
+        if c == "cat1" and n > cap and not rep.get("edition"):
             qa.warn("cat1", f"Slot {n} 款，超過{'週末' if cap == 2 else '平日'}上限 {cap}（窗內 B≥3 全收時可接受）")
         for i, it in enumerate(sec["items"], 1):
             w = f"{c}-{it['no']:02d} {it['title'][:24]}"
@@ -121,7 +121,7 @@ def check_schema(rep, day, qa):
                 qa.warn(w, "缺「圖片：」行（沒有就寫「圖片：無」）")
     if total > 22:
         qa.warn("總量", f"共 {total} 則，超過上限 22")
-    if total < 6:
+    if total < 6 and not rep.get("edition"):
         qa.warn("總量", f"只有 {total} 則，可能去重過頭或抓取不足")
     return total
 

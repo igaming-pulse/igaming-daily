@@ -875,6 +875,8 @@ PAGCOR 官方公告與規範；實體賭場（Okada Manila、Solaire、NUSTAR、
 
 ## 版本沿革
 
+- **v6.6**（2026-10-11）庫存釋放特別版：每週一、週四日報成功後，Slot 可用庫存（不含 7 天外預告、TBC 佔位）≥5 款就另發 `reports/<DATE>-special.html`；大廠（B≥3）全收在前、B1 最多 5 款（快過期優先）、每期 ≤12 款；連結併進當天日報的 Telegram（今天推播已送出才單獨補發）。週六、週日日報上限不變。程式：`scripts/special_edition.py`、`scripts/run_special.sh`、`docs/special-prompt.txt`。起因：14 天 Slot 庫存進 39、用 11，約 10 款大廠款白白過期
+
 - **v6.5.2**（2026-10-11）來源修復：Play'n GO 官網改用 Wix、RSS 消失 → 新增抓取方式「Sitemap」（`harvest.py` 的 `fetch_sitemap`；`/games/` 的日期＝上線日，當 Slot 上線日曆用）；Kalamba Games、Casino Inside Romania 加了機器人驗證 → 改 Firecrawl 輪掃。另：排程自帶防睡眠（caffeinate）、晚到立刻推播、發布到 main 改暫存 worktree
 
 - **v6.5.1**（2026-09-28）① Firecrawl 用量分級（充裕≥30／標準 20–29／節約 15–19／保命<15，保留 20 點），開跑前查剩餘點數決定強度；

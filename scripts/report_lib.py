@@ -63,10 +63,12 @@ def _split_label(title):
 
 
 def parse_md(text):
-    rep = {"date": "", "sections": [], "stats": None, "internal": "", "header_counts": ""}
+    rep = {"date": "", "sections": [], "stats": None, "internal": "", "header_counts": "", "edition": ""}
     lines = text.splitlines()
     m = RX_DATE.search(lines[0] if lines else "")
     rep["date"] = m.group(1) if m else ""
+    if lines and "特別版" in lines[0]:
+        rep["edition"] = "特別版"
     sec = item = None
     field = None           # 目前在收的多行欄位（spec）
     pending_no = None      # 「01」獨立一行、下一行才是標題的舊寫法
@@ -299,7 +301,7 @@ def render_html(rep):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="generator" content="render_report.py {VERSION}">
-<title>iGaming 市場日報 {d}</title>
+<title>iGaming 市場日報 {d}{"（特別版）" if rep.get("edition") else ""}</title>
 <link rel="icon" type="image/png" sizes="32x32" href="../icon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../icon-16.png">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
@@ -311,7 +313,7 @@ def render_html(rep):
 <div class="wrap">
 <header>
   <div class="date">{d}（星期{wd}）・台北時間</div>
-  <h1>🎰 iGaming 市場日報</h1>
+  <h1>🎰 iGaming 市場日報{"・特別版" if rep.get("edition") else ""}</h1>
   <div class="badges">
 {badges}
   </div>

@@ -15,14 +15,16 @@ REPO="${IGAMING_REPO:-$HOME/igaming-daily}"
 cd "$REPO" || exit 1
 
 DATE="${1:-$(TZ=Asia/Taipei date +%F)}"
-SRC="$REPO/reports/${DATE}.html"
-DST="reports/${DATE}-test.html"
+# PUBLISH_SUFFIX=-special：發特別版（來源 reports/<DATE>-special.html，不加「（測試）」）
+SUFFIX="${PUBLISH_SUFFIX:--test}"
+if [ "$SUFFIX" = "-test" ]; then SRC="$REPO/reports/${DATE}.html"; else SRC="$REPO/reports/${DATE}${SUFFIX}.html"; fi
+DST="reports/${DATE}${SUFFIX}.html"
 BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "?")
 
 say() { echo "  [test→main] $*"; }
 
 [ "$BRANCH" = "main" ] && { say "已在 main，不需要併行條目，略過"; exit 0; }
-[ -f "$SRC" ] || { say "✗ 找不到 reports/${DATE}.html，略過"; exit 1; }
+[ -f "$SRC" ] || { say "✗ 找不到 ${SRC#$REPO/}，略過"; exit 1; }
 
 git worktree prune >/dev/null 2>&1
 git fetch -q origin main || { say "✗ 抓不到 origin/main"; exit 1; }
@@ -33,7 +35,7 @@ git worktree add -q --detach "$WT" origin/main || { say "✗ 建不了 main 的�
 cd "$WT" || exit 1
 
 cp "$SRC" "$DST"
-python3 - "$DST" <<'PY'
+[ "$SUFFIX" = "-test" ] && python3 - "$DST" <<'PY'
 import sys, re, pathlib
 p = pathlib.Path(sys.argv[1]); s = p.read_text(encoding='utf-8')
 if '（測試）' not in s:
@@ -43,7 +45,7 @@ p.write_text(s, encoding='utf-8')
 PY
 
 python3 build_index.py >/dev/null || { say "✗ build_index.py 失敗"; exit 1; }
-grep -q "${DATE}-test.html" index.html || { say "✗ 首頁沒收錄 $DST"; exit 1; }
+grep -q "${DATE}${SUFFIX}.html" index.html || { say "✗ 首頁沒收錄 $DST"; exit 1; }
 
 # ⛔ 只加這幾個路徑。main 沒有 .gitignore，git add -A 會掃進不該進的東西。
 git add "$DST" index.html
@@ -52,7 +54,11 @@ if git diff --cached --quiet; then
   say "內容沒變化，不用 commit"
   exit 0
 fi
-git commit -q -m "test: ${DATE} 公司帳號併行版（13' v 條目，不影響正式版）"
+if [ "$SUFFIX" = "-special" ]; then
+  git commit -q -m "special: ${DATE} 特別版（13' v 庫存釋放）"
+else
+  git commit -q -m "test: ${DATE} 公司帳號併行版（13' v 條目，不影響正式版）"
+fi
 
 for try in 1 2 3; do
   git push -q origin HEAD:main 2>/dev/null && { say "✓ 已發佈 ${DST} 到 main"; exit 0; }
