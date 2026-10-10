@@ -1,0 +1,19 @@
+{
+ "date": "2026-10-11",
+ "md": "state/2026-10-11-special-igaming-report.md",
+ "html": "reports/2026-10-11-special.html",
+ "items": 4,
+ "counts": {
+  "cat1": 4
+ },
+ "links": {
+  "checked": 14,
+  "ok": 14,
+  "broken": 0,
+  "blocked": 0,
+  "images_dropped": 0
+ },
+ "errors": [],
+ "warnings": [],
+ "fixes": []
+}

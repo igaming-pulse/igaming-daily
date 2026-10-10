@@ -49,51 +49,6 @@
   },
   {
    "cat": "cat1",
-   "title": "Gems of Scaralith",
-   "gp": "Million Games",
-   "b": 1,
-   "first_seen": "2026-10-07",
-   "sources": [
-    {
-     "name": "SlotsLaunch 上線日曆",
-     "url": "https://slotslaunch.com/arcane-pixel/gems-of-scaralith",
-     "published": "2026-10-06"
-    }
-   ],
-   "key": "gemsofscaralith|milliongames"
-  },
-  {
-   "cat": "cat1",
-   "title": "Los Piratas Golfetes",
-   "gp": "MGA Games",
-   "b": 1,
-   "first_seen": "2026-10-07",
-   "sources": [
-    {
-     "name": "Sector del Juego",
-     "url": "https://sectordeljuego.com/2026/10/06/mga-games-presenta-los-piratas-golfetes-un-nuevo-video-slot-con-respins-espectrales-y-free-spins-del-mas-alla/",
-     "published": "2026-10-06"
-    }
-   ],
-   "key": "lospiratasgolfetes|mgagames"
-  },
-  {
-   "cat": "cat1",
-   "title": "Cocks & Robbers",
-   "gp": "Red Tiger",
-   "b": 4,
-   "first_seen": "2026-10-08",
-   "sources": [
-    {
-     "name": "BigWinBoard 新作列表",
-     "url": "https://www.bigwinboard.com/new-slots/",
-     "published": "2026-10-07"
-    }
-   ],
-   "key": "cocksrobbers|redtiger"
-  },
-  {
-   "cat": "cat1",
    "title": "Sweet Bonanza Xmas 2500",
    "gp": "Pragmatic Play",
    "b": 4,
@@ -106,21 +61,6 @@
     }
    ],
    "key": "sweetbonanzaxmas2500|pragmaticplay"
-  },
-  {
-   "cat": "cat1",
-   "title": "Pirate Coins: 3 Chests",
-   "gp": "Evoplay",
-   "b": 1,
-   "first_seen": "2026-10-08",
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/10/08/53048/evoplay-launches-pirate-coins-3-chests-slot-with-three-boosters-and-four-jackpots/",
-     "published": "2026-10-08 15:13"
-    }
-   ],
-   "key": "piratecoins3chests|evoplay"
   },
   {
    "cat": "cat1",
@@ -2383,6 +2323,34 @@
    "cat": "cat5",
    "title": "巴西博彩禁令代價：2027 年前稅收損失 68 億雷亞爾",
    "gp": ""
+  },
+  {
+   "key": "cocksrobbers|redtiger",
+   "date": "2026-10-11",
+   "cat": "cat1",
+   "title": "Cocks & Robbers",
+   "gp": "Red Tiger"
+  },
+  {
+   "key": "gemsofscaralith|milliongames",
+   "date": "2026-10-11",
+   "cat": "cat1",
+   "title": "Gems of Scaralith",
+   "gp": "Million Games"
+  },
+  {
+   "key": "lospiratasgolfetes|mgagames",
+   "date": "2026-10-11",
+   "cat": "cat1",
+   "title": "Los Piratas Golfetes",
+   "gp": "MGA Games"
+  },
+  {
+   "key": "piratecoins3chests|evoplay",
+   "date": "2026-10-11",
+   "cat": "cat1",
+   "title": "Pirate Coins: 3 Chests",
+   "gp": "Evoplay"
   }
  ],
  "rejected": [
