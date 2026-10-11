@@ -128,21 +128,168 @@ def reply_slot():
     return "\n".join([header(today, mtime), ""] + slot_lines(today, ready, later))
 
 
-HELP = ("🤖 13' v 庫存查詢\n"
-        "・庫存 或 /stock — 各分類數量與標題\n"
-        "・slot 或 /slot — Slot 明細（含待上線）\n"
+SITE = "https://igaming-pulse.github.io/igaming-daily"
+
+
+def _read(path, default=None):
+    try:
+        with open(os.path.join(ROOT, path), encoding="utf-8") as f:
+            return json.load(f) if path.endswith(".json") else f.read()
+    except (OSError, ValueError):
+        return default
+
+
+def _runs(n=40):
+    """state/run.log 裡最近幾次執行：[(開始時間, 結果, 細節)]。"""
+    log_text = _read("state/run.log", "") or ""
+    out, cur = [], None
+    for ln in log_text.splitlines():
+        if "──────── 開始 ────────" in ln:
+            cur = [ln[1:20], "執行中", ""]
+            out.append(cur)
+        elif cur and "✅ 本次執行成功" in ln:
+            cur[1] = "✅ 成功"
+        elif cur and "❌❌❌" in ln:
+            cur[1] = "❌ 失敗"
+        elif cur and "略過本次" in ln:
+            cur[1] = "⏭ 略過（今天已跑過）"
+        elif cur and "Claude 終端機版沒有登入" in ln:
+            cur[1] = "❌ Claude 登入過期"
+        elif cur and "claude 結束" in ln:
+            cur[2] = ln.split("，")[-1] if "，" in ln else ""
+    return out[-n:]
+
+
+def reply_today():
+    today = date.today().isoformat()
+    md_text = _read(f"state/{today}-igaming-report.md")
+    if not md_text:
+        last = _runs(1)
+        st = f"（最近一次執行：{last[0][0]} {last[0][1]}）" if last else ""
+        return f"📰 今天（{today}）的 13' v 日報還沒產出 {st}\n要補跑請跟 Claude 說「補跑日報」。"
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import report_lib as R
+    rep = R.parse_md(md_text)
+    names = {"cat1": "🎰 Slot", "cat2": "🕹️ 非 Slot", "cat3": "🤝 主流", "cat4": "🇵🇭 菲律賓", "cat5": "📊 市場數據"}
+    secs = [s for s in rep["sections"] if s["items"]]
+    L = [f"📰 今日日報 {today}（週{WEEK[date.today().weekday()]}）・13' v",
+         "・".join(f"{names[s['cat']]} {len(s['items'])}" for s in secs), ""]
+    for s in secs:
+        L.append(names[s["cat"]])
+        L += [f"{it['no']:02d} {it['title'][:60]}" for it in s["items"]]
+        L.append("")
+    L.append(f"🔗 {SITE}/reports/{today}-test.html")
+    if os.path.exists(os.path.join(ROOT, "reports", f"{today}-special.html")):
+        L.append(f"📦 今日特別版：{SITE}/reports/{today}-special.html")
+    return "\n".join(L)
+
+
+def reply_status():
+    import subprocess
+    L = ["🩺 系統狀態（13' v）", ""]
+    runs = _runs(5)
+    if runs:
+        L.append("🕑 最近執行")
+        L += [f"・{r[0]}　{r[1]}" + (f"（{r[2]}）" if r[2] else "") for r in runs[-4:]]
+        L.append("")
+    try:
+        auth = subprocess.run([os.path.expanduser("~/.local/bin/claude"), "auth", "status"], capture_output=True,
+                              text=True, timeout=20).stdout
+        L.append("🔑 Claude 登入：" + ("✅ 正常" if '"loggedIn": true' in auth else "❌ 已過期（終端機輸入 claude → /login）"))
+    except Exception:  # noqa: BLE001
+        L.append("🔑 Claude 登入：無法確認")
+    cr = _read("state/health/credits.json", {}) or {}
+    if cr:
+        d = sorted(cr)[-1]
+        v = cr[d]
+        rem = v.get("end", v.get("start")) if isinstance(v, dict) else v
+        used = (v["start"] - v["end"]) if isinstance(v, dict) and "start" in v and "end" in v else None
+        L.append(f"💳 Firecrawl：剩 {rem} 點（{d}）" + (f"，當天用 {used} 點" if used is not None else "") + "；每月 14 日重置")
+    hl = _read(f"state/health/{date.today().isoformat()}.json") or _read(
+        f"state/health/{(date.today() - timedelta(days=1)).isoformat()}.json")
+    if hl and hl.get("alerts"):
+        L.append("⚙️ 系統警報：")
+        L += [f"・{a[:80]}" for a in hl["alerts"]]
+    else:
+        L.append("⚙️ 系統警報：無")
+    L.append("")
+    L.append("⏰ 下次排程：每天 02:30（週一、週四日報成功後會檢查特別版）")
+    return "\n".join(L)
+
+
+def reply_special():
+    import glob
+    files = sorted(glob.glob(os.path.join(ROOT, "state", "*-special-igaming-report.md")))
+    today, _, ready, later, _ = snapshot()
+    nxt = next(today + timedelta(days=i) for i in range(1, 8) if (today + timedelta(days=i)).weekday() in (0, 3))
+    L = ["📦 庫存釋放特別版", ""]
+    if files:
+        d = os.path.basename(files[-1])[:10]
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import report_lib as R
+        rep = R.parse_md(open(files[-1], encoding="utf-8").read())
+        n = sum(len(s["items"]) for s in rep["sections"])
+        L += [f"最近一期：{d}，釋放 {n} 款", f"🔗 {SITE}/reports/{d}-special.html", ""]
+    L.append(f"下一次檢查：{nxt.month}/{nxt.day}（週{WEEK[nxt.weekday()]}）日報成功後")
+    L.append(f"目前 Slot 可用庫存 {len(ready)} 款（門檻 ≥5）→ " + ("會發" if len(ready) >= 5 else "不到門檻，不會發"))
+    return "\n".join(L)
+
+
+def reply_week():
+    """本週（週日起算）每天的收錄概況。"""
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import report_lib as R
+    today = date.today()
+    start = today - timedelta(days=(today.weekday() + 1) % 7)
+    L = [f"📅 本週概況（{start.month}/{start.day} 週日起）", ""]
+    for i in range((today - start).days + 1):
+        d = start + timedelta(days=i)
+        md_text = _read(f"state/{d.isoformat()}-igaming-report.md")
+        if not md_text:
+            L.append(f"{d.month}/{d.day} 週{WEEK[d.weekday()]}　—")
+            continue
+        rep = R.parse_md(md_text)
+        c = {s["cat"]: len(s["items"]) for s in rep["sections"]}
+        sp = "　📦特別版" if os.path.exists(os.path.join(ROOT, "reports", f"{d.isoformat()}-special.html")) else ""
+        L.append(f"{d.month}/{d.day} 週{WEEK[d.weekday()]}　共 {sum(c.values())} 則（Slot {c.get('cat1', 0)}）{sp}")
+    return "\n".join(L)
+
+
+COMMANDS = [("today", "今天的日報：各區標題與連結"), ("stock", "庫存：各分類數量與標題"),
+            ("slot", "Slot 庫存明細（含待上線）"), ("special", "特別版：最近一期與下次檢查"),
+            ("week", "本週每天收錄概況"), ("status", "系統狀態：最近執行、登入、額度、警報"),
+            ("help", "指令說明")]
+
+HELP = ("🤖 13' v 日報機器人（有沒有斜線都可以）\n"
+        "・今天 或 /today — 今天的日報：各區標題與連結\n"
+        "・庫存 或 /stock — 各分類庫存數量與標題\n"
+        "・slot 或 /slot — Slot 庫存明細（含待上線）\n"
+        "・特別版 或 /special — 最近一期與下次檢查\n"
+        "・本週 或 /week — 本週每天收錄概況\n"
+        "・狀態 或 /status — 最近執行、Claude 登入、Firecrawl 額度、系統警報\n"
         "・說明 或 /help — 這份說明\n"
-        "資料來自公司 Mac 上的 state/inventory.json，每晚日報跑完更新；Mac 睡眠時機器人不會回覆。")
+        "資料來自公司 Mac，每晚日報跑完更新；Mac 睡眠時機器人不會回覆，醒來後會補回。")
 
 
 def route(text):
     t = (text or "").strip().lower()
     t = t.split("@")[0] if t.startswith("/") else t      # /stock@MyBot → /stock
     t = t.lstrip("/").strip()
-    if t in ("slot", "slots", "slot 庫存", "slot庫存", "老虎機", "老虎機庫存"):
-        return reply_slot()
-    if t in ("stock", "inventory", "庫存", "库存", "查庫存", "剩多少", "庫存多少", "剩多少庫存") or "庫存" in t or "库存" in t:
-        return reply_stock()
+    try:
+        if t in ("slot", "slots", "slot 庫存", "slot庫存", "老虎機", "老虎機庫存"):
+            return reply_slot()
+        if t in ("today", "今天", "今日", "日報", "今天日報", "今日日報"):
+            return reply_today()
+        if t in ("special", "特別版", "釋放"):
+            return reply_special()
+        if t in ("week", "本週", "這週", "週報"):
+            return reply_week()
+        if t in ("status", "狀態", "系統", "健康", "health"):
+            return reply_status()
+        if t in ("stock", "inventory", "庫存", "库存", "查庫存", "剩多少", "庫存多少", "剩多少庫存") or "庫存" in t or "库存" in t:
+            return reply_stock()
+    except Exception as e:  # noqa: BLE001  資料檔讀到一半等狀況，回一句而不是讓機器人掛掉
+        return f"⚠️ 查詢時出錯（{type(e).__name__}），請稍後再試"
     return HELP
 
 
@@ -181,6 +328,12 @@ def main():
         sys.exit("✗ 沒有 TELEGRAM_BOT_TOKEN 環境變數")
     offset = load_offset()
     log(f"啟動：只回應 chat_id {ALLOWED}，offset {offset}")
+    try:   # 註冊指令選單：在 Telegram 打「/」就會列出可用指令
+        api(token, "setMyCommands", {"commands": json.dumps([{"command": c, "description": d} for c, d in COMMANDS],
+                                                            ensure_ascii=False)})
+        log("已註冊指令選單")
+    except Exception as e:  # noqa: BLE001
+        log(f"⚠️ 註冊指令選單失敗：{type(e).__name__}")
     backoff = 5
     while True:
         try:
