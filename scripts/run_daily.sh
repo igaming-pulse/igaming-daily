@@ -185,7 +185,7 @@ if [ "$fail" -eq 0 ]; then
   if [ "${IGAMING_PUBLISH_TEST_TO_MAIN:-1}" = "1" ] && [ "$BRANCH" != "main" ]; then
     bash scripts/publish_test_to_main.sh "$DATE" 2>&1 | tee -a "$LOG"
     # v6.6 庫存釋放特別版：週一、週四且 Slot 可用庫存 ≥5 才發（其他天自動略過）；放在推播前，連結才會併進今天的訊息
-    bash scripts/run_special.sh "$DATE" 2>&1 | tee -a "$LOG"
+    bash scripts/run_special.sh "$DATE"   # 它自己會寫 run.log，這裡不再 tee（避免紀錄重複）
     # 晚到就立刻推播：已過 06:30 才跑完時，等網站頁面上線後直接觸發 Telegram（早於 06:30 交給排程）
     bash scripts/notify_telegram.sh "$DATE" 2>&1 | tee -a "$LOG"
   fi
