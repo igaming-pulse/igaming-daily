@@ -328,9 +328,13 @@ Slot 進庫存幾款、目前庫存量（Slot／其他）、各區連續空白�
 
 ### 2. 發布日期從哪裡取（依序，取到第一個就停）
 1. 網頁 metadata：`article:published_time`、`og:published_time`、JSON-LD `datePublished`
-   —— Firecrawl 回傳的 `data.metadata` 通常就帶著，**跟抓內文同一次拿，不多花 credit**
-2. 網址內的日期（`/2026/09/23/`）
-3. 頁面上印出的發布日期／署名日期（byline）
+   —— Firecrawl 回傳的 `data.metadata`、`page_meta.py` 的 `published` 通常就帶著
+2. **來源自己的 RSS／WordPress API 給的精確發布時間**（v6.6.8）：也就是 harvest 候選清單上那個「精確到分鐘」的時間。
+   跟網址日期不一致時，**相差 7 天以內就採信 RSS／API 時間**（媒體常先發原文版、幾天後才發英文版，網址卻沿用原文日期，例：Yogonet 國際版）；
+   在「查證：」註明兩個日期，例如「網址日期 10/8，英文版 RSS 10/12 01:44 發布，採 RSS」。
+   ⚠️ 相差**超過 7 天**視為舊文重新推送，改採較舊的日期（防止舊聞冒充新聞）
+3. 網址內的日期（`/2026/09/23/`）
+4. 頁面上印出的發布日期／署名日期（byline）
 
 `dateModified`／「最後更新」**不能**當發布日期 —— 舊文改個錯字就會被刷新。
 
@@ -900,6 +904,8 @@ PAGCOR 官方公告與規範；實體賭場（Okada Manila、Solaire、NUSTAR、
 ---
 
 ## 版本沿革
+
+- **v6.6.8**（2026-10-12，使用者定案）主來源日期改**採信來源自己的 RSS／WordPress API 時間**：網頁沒有發布時間標籤時，RSS／API 時間優先於網址日期；兩者相差 7 天內採 RSS／API、超過 7 天視為舊文重推採較舊日期，查證欄註明兩個日期。起因：10/12 Yogonet 的 FA CHAI 專訪 RSS 為 10/12、網址沿用西文原文日期 10/8，被誤判窗外
 
 - **v6.6.7**（2026-10-12，使用者定案）Slot 參數表第一列新增「**廠牌**」，一律寫遊戲商**全名**（PG Soft、Pragmatic Play、Jili…，不寫 PP／L&W 等縮寫）；`finalize_report.py` 會自動從標題補上、把常見縮寫換成全名
 
