@@ -120,6 +120,7 @@ harvest 顯示窗內候選多、你卻收得少 → 是你篩錯了，回頭檢�
 衍生調整：<…>
 
 參數：
+- 廠牌：<遊戲商全名>
 - 遊戲類型：<…>
 - 盤面：<…>
 - 消除/賠付：<…>
@@ -164,7 +165,7 @@ python3 <REPO>/scripts/finalize_report.py --date <DATE>
 
 這一行做完四件事：
 1. 把 .md 解析成 `state/<DATE>-report.json`
-2. **資料格式檢查**：每則必備欄位、主來源日期（當日新聞要在窗內、📦 要在保鮮期內）、cat1 參數 8 項、統計列、內文不可出現品質備註用語
+2. **資料格式檢查**：每則必備欄位、主來源日期（當日新聞要在窗內、📦 要在保鮮期內）、cat1 參數 9 項（含廠牌）、統計列、內文不可出現品質備註用語
 3. **連結與圖片檢查**：來源連結 404／網域不存在＝錯誤；被網站擋（403 等）＝只警告；**配圖打不開會自動拿掉**
 4. **模糊比對去重**：同份日報內互比、跟近 3 天日報比（Huff N´Puff＝Huff N' Puff、L&W＝Light & Wonder）
 
@@ -727,6 +728,7 @@ curl -s -X POST https://api.firecrawl.dev/v1/scrape \
 衍生調整：<相對原作新增或調整了什麼；全新款寫「全新 IP，無衍生」>
 
 參數：
+- 廠牌：<遊戲商**全名**，例：PG Soft、Pragmatic Play、Jili、Light & Wonder、Nolimit City、FA CHAI Gaming；不要寫 PP、L&W、NLC、FC 這類縮寫>
 - 遊戲類型：<四選一> 實體老虎機 / 線上電子老虎機 / 實體+電子老虎機 / 其他類型遊戲（括號註明）
 - 盤面：<例 3×5 直式 / 6×5>
 - 消除/賠付：<例 Cluster Pays、243 ways、Cascading 連消、Hold & Win>
@@ -899,6 +901,8 @@ PAGCOR 官方公告與規範；實體賭場（Okada Manila、Solaire、NUSTAR、
 
 ## 版本沿革
 
+- **v6.6.7**（2026-10-12，使用者定案）Slot 參數表第一列新增「**廠牌**」，一律寫遊戲商**全名**（PG Soft、Pragmatic Play、Jili…，不寫 PP／L&W 等縮寫）；`finalize_report.py` 會自動從標題補上、把常見縮寫換成全名
+
 - **v6.6.6**（2026-10-11，使用者定案）配圖優先：**五區都配圖**（原本只有 Slot、非 Slot）；配圖依序找「page_meta 主來源 → 其他來源 → Firecrawl（另給 12／10／6 次額度，不佔文章上限）→ 遊戲官網／資料庫頁 → 內文圖」，試過全部才寫無；定稿檢查對沒圖或打不開的自動從各來源補圖。起因：使用者希望圖片出現率更高，願意多花 Firecrawl 與時間
 
 - **v6.6.5**（2026-10-11）① Telegram 訊息開頭加「⭐ 今日重點」3 條；② 查證先用免費的 `scripts/page_meta.py`（curl 讀發布時間、og:image、內文；EEGaming 改讀 RSS），抓不到才用 Firecrawl（實測 53 個主來源免費就夠約 50–65%）；③ 失敗即時警報與開跑前檢查 Claude 登入（`scripts/alert_telegram.sh`）；④ 推上 test-publish 自動跑回歸測試（`.github/workflows/tests.yml`）
@@ -921,7 +925,7 @@ PAGCOR 官方公告與規範；實體賭場（Okada Manila、Solaire、NUSTAR、
   起因：剩 599 點撐 16 天、Huff N´Puff 埋在未解析的列表頁、TBC 佔位頁進庫存、N2 估算與實際差 6
 
 - **v6.5**（2026-09-28）定稿檢查：① 凍結日報模板 —— .md 改為固定格式的唯一原稿，HTML 由 `scripts/finalize_report.py` 用固定模板渲染，不再每次手寫；
-  ② 資料格式檢查（必備欄位、主來源日期、cat1 參數 8 項）；③ 連結與圖片檢查（失效連結擋下、破圖自動拿掉）；
+  ② 資料格式檢查（必備欄位、主來源日期、cat1 參數 9 項（含廠牌））；③ 連結與圖片檢查（失效連結擋下、破圖自動拿掉）；
   ④ 模糊比對去重（`report_lib.same_item`，inventory 與定稿共用）；⑤ `scripts/health_alert.py` 額度與健康警報附在 Telegram 最後。
   起因：每天 HTML 結構不同導致新樣式套不上、寫法差異造成重複判斷不到、Firecrawl 額度與來源失效沒有人盯
 - **v6.4.3**（2026-09-28）新增「🔥 熱門 IP／系列作」：Huff N' Puff、Bao Zhu Zhao Fu、SuperGems 的新作加 H=+3、排 Slot 區最前，預告放寬到 30 天內

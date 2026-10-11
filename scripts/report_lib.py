@@ -24,7 +24,24 @@ CATS = {
 }
 EMOJI_CAT = [("🕹", "cat2"), ("🇵🇭", "cat4"), ("🤝", "cat3"), ("📊", "cat5"), ("🎰", "cat1")]
 LABELS = ("📦", "🆕", "🔁", "📋")
-SLOT_SPEC_KEYS = ["遊戲類型", "盤面", "消除/賠付", "最高倍率", "RTP", "波動", "目標市場", "關鍵特色"]
+SLOT_SPEC_KEYS = ["廠牌", "遊戲類型", "盤面", "消除/賠付", "最高倍率", "RTP", "波動", "目標市場", "關鍵特色"]
+# v6.6.7「廠牌」欄要寫全名：常見縮寫／簡稱 → 對外正式名稱（比對時不分大小寫、忽略空白與標點）
+BRAND_FULL = {
+    "pp": "Pragmatic Play", "pragmatic": "Pragmatic Play", "pg": "PG Soft", "pgsoft": "PG Soft", "pocketgames": "PG Soft",
+    "lw": "Light & Wonder", "lnw": "Light & Wonder", "lightandwonder": "Light & Wonder", "sg": "Light & Wonder",
+    "nlc": "Nolimit City", "nolimit": "Nolimit City", "btg": "Big Time Gaming", "bigtime": "Big Time Gaming",
+    "fc": "FA CHAI Gaming", "fachai": "FA CHAI Gaming", "redtiger": "Red Tiger Gaming", "hacksaw": "Hacksaw Gaming",
+    "relax": "Relax Gaming", "push": "Push Gaming", "elk": "ELK Studios", "playngo": "Play'n GO", "png": "Play'n GO",
+    "tada": "TaDa Gaming", "cq9": "CQ9 Gaming", "jdb": "JDB Gaming", "igt": "IGT", "netent": "NetEnt",
+}
+
+
+def brand_full(name):
+    """縮寫或簡稱換成全名；不在對照表裡的照原樣（已經是全名，例如 PG Soft、Jili）。"""
+    n = re.sub(r"[^0-9a-z]+", "", unicodedata.normalize("NFKC", name or "").lower())
+    return BRAND_FULL.get(n, (name or "").strip())
+
+
 NONSLOT_SPEC_MIN = ["遊戲類型", "目標市場", "關鍵特色"]
 WEEKDAY = "一二三四五六日"
 VERSION = "v6.5（三層收集＋庫存＋定稿檢查）"

@@ -6,7 +6,7 @@ v6.5 定稿：Markdown → 檢查 → 固定模板 HTML（2026-09-28 定案，�
   python3 scripts/finalize_report.py --date <DATE>
 
   1. 解析  state/<DATE>-igaming-report.md → state/<DATE>-report.json（結構化，給檢查與日後分析用）
-  2. 資料格式檢查：每則必備欄位、主來源日期是否在窗內／保鮮期內、cat1 參數 8 項、統計列…
+  2. 資料格式檢查：每則必備欄位、主來源日期是否在窗內／保鮮期內、cat1 參數 9 項（含廠牌）、統計列…
   3. 連結與圖片檢查：來源連結 404／網域不存在 → 錯誤；配圖打不開 → 自動拿掉（不留破圖）
   4. 模糊比對去重：跟近 3 天日報、同一份日報內互比（Huff N´Puff＝Huff N' Puff）
   最後用固定模板寫 reports/<DATE>.html，檢查結果寫 state/<DATE>-qa.json。
@@ -56,6 +56,34 @@ class QA:
 
 
 # ─────────────────────────── 2. 資料格式檢查 ───────────────────────────
+
+def fill_brand(rep, qa):
+    """v6.6.7：Slot 表格第一列是「廠牌」（全名）。沒寫就從標題「遊戲名 – 廠商」補上；寫了縮寫就換成全名。"""
+    for sec in rep["sections"]:
+        if sec["cat"] != "cat1":
+            continue
+        for it in sec["items"]:
+            w = f"cat1-{it['no']:02d} {it['title'][:24]}"
+            spec = it["spec"]
+            cur = next((v for k, v in spec if k == "廠牌"), None)
+            parts = re.split(r"\s+[–—-]\s+", it["title"], maxsplit=1)
+            from_title = parts[1].strip() if len(parts) > 1 else ""
+            if cur is None:
+                if from_title:
+                    spec.insert(0, ["廠牌", R.brand_full(from_title)])
+                    qa.fix(w, f"自動補上廠牌：{R.brand_full(from_title)}")
+                continue
+            full = R.brand_full(cur)
+            if full != cur:
+                for row in spec:
+                    if row[0] == "廠牌":
+                        row[1] = full
+                qa.fix(w, f"廠牌縮寫改全名：{cur} → {full}")
+            if spec[0][0] != "廠牌":   # 一律放第一列
+                row = next(r for r in spec if r[0] == "廠牌")
+                spec.remove(row)
+                spec.insert(0, row)
+
 
 def check_schema(rep, day, qa):
     if rep["date"] != day.isoformat():
@@ -369,6 +397,7 @@ def main():
         sys.exit(2)
     rep = R.parse_md(open(md, encoding="utf-8").read())
     qa = QA()
+    fill_brand(rep, qa)
     total = check_schema(rep, day, qa)
     links = {"checked": 0, "skipped": True} if a.no_links else check_links(rep, qa)
     if not a.no_links:
