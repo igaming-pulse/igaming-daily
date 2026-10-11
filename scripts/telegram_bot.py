@@ -58,6 +58,20 @@ def deadline(x, is_slot):
     return first + timedelta(days=INV.OTHER_FRESH_DAYS)
 
 
+_LAST_PULL = [0.0]
+
+
+def sync_repo():
+    """IGAMING_BOT_PULL=1（裝在沒有跑日報的電腦上）：回答前先 git pull，最多每 5 分鐘一次，讀到 GitHub 上最新的庫存與日報。"""
+    if os.environ.get("IGAMING_BOT_PULL") != "1" or time.time() - _LAST_PULL[0] < 300:
+        return
+    import subprocess
+    _LAST_PULL[0] = time.time()
+    r = subprocess.run(["git", "-C", ROOT, "pull", "-q", "--ff-only"], capture_output=True, text=True, timeout=60)
+    if r.returncode != 0:
+        log(f"⚠️ git pull 失敗：{(r.stderr or '').strip()[:120]}")
+
+
 def snapshot(today=None):
     today = today or date.today()
     inv = INV.load()
@@ -140,8 +154,16 @@ def _read(path, default=None):
 
 
 def _runs(n=40):
-    """state/run.log 裡最近幾次執行：[(開始時間, 結果, 細節)]。"""
+    """state/run.log 裡最近幾次執行：[(開始時間, 結果, 細節)]。
+    沒有 run.log（機器人裝在別台電腦）時，改用 git 紀錄裡的「daily: <DATE> report」判斷哪幾天成功。"""
     log_text = _read("state/run.log", "") or ""
+    if not log_text:
+        import subprocess
+        out = subprocess.run(["git", "-C", ROOT, "log", "-40", "--format=%cd|%s", "--date=format:%Y-%m-%d %H:%M"],
+                             capture_output=True, text=True).stdout
+        rows = [[ln.split("|", 1)[0], "✅ 成功（日報已推上 GitHub）", ""] for ln in out.splitlines()
+                if "|daily: " in ln]
+        return list(reversed(rows))[-n:]
     out, cur = [], None
     for ln in log_text.splitlines():
         if "──────── 開始 ────────" in ln:
@@ -358,6 +380,7 @@ def main():
             if chat != ALLOWED:
                 continue                           # 非白名單：直接丟棄，不回覆、不記內容
             text = m.get("text", "")
+            sync_repo()
             try:
                 send(token, chat, route(text))
                 log(f"回覆：{text[:20]!r}")
