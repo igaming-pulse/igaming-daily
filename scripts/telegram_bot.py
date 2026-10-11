@@ -87,6 +87,12 @@ def snapshot(today=None):
     others = {c: sorted((x for x in inv["others"] if x.get("cat") == c and not INV.expired(x, today, False)
                          and not INV.matches(x, rk)), key=lambda x: x["first_seen"]) for c in CATS}
     mtime = datetime.fromtimestamp(os.path.getmtime(INV.INV))
+    if os.environ.get("IGAMING_BOT_PULL") == "1" or not os.path.exists(os.path.join(ROOT, "state", "run.log")):
+        import subprocess   # 複製下來的資料夾：檔案時間＝複製時間，改用 GitHub 上最後一次更新庫存的時間
+        out = subprocess.run(["git", "-C", ROOT, "log", "-1", "--format=%ct", "--", "state/inventory.json"],
+                             capture_output=True, text=True).stdout.strip()
+        if out.isdigit():
+            mtime = datetime.fromtimestamp(int(out))
     return today, mtime, ready, later, others
 
 
