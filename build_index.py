@@ -92,6 +92,28 @@ pinned_card = f'''    <a class="card pin" href="OutputLogic/">
       <div class="go">查看說明 →</div>
     </a>'''
 
+# 置頂第二張：Slot 新作資料庫（2026-10-11；頁面由 test-publish 的 build_slot_db.py 產生、發布時複製進 slots/）
+def slotdb_card():
+    f = os.path.join(ROOT, "slots", "index.html")
+    if not os.path.exists(f):
+        return ""
+    n = open(f, encoding="utf-8").read().count('"name":')
+    try:
+        d = subprocess.run(["git", "-C", ROOT, "log", "-1", "--format=%cs", "--", "slots/index.html"],
+                           capture_output=True, text=True, timeout=10).stdout.strip().replace("-", "/")
+    except Exception:
+        d = ""
+    d = d or datetime.now().strftime("%Y/%m/%d")
+    return f'''
+    <a class="card pin" href="slots/">
+      <div class="picon">🎰</div>
+      <div class="d">Slot 新作資料庫</div>
+      <div class="w">收錄 {n} 款 · 可搜尋、篩選大廠 · 更新 {d}<span class="pintag">📌 置頂</span></div>
+      <div class="go">查看資料庫 →</div>
+    </a>'''
+
+pinned_card += slotdb_card()
+
 out = f'''<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
