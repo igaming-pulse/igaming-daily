@@ -63,59 +63,6 @@
  "others": [
   {
    "cat": "cat2",
-   "title": "BOYLE Casino 改版真人賭場，300+ 遊戲與 Playtech 滑動功能",
-   "gp": "BOYLE Casino",
-   "first_seen": "2026-10-08",
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/10/08/53058/boyle-casino-relaunches-live-casino-with-300-games-and-playtech-swipe-feature/",
-     "published": "2026-10-08 18:55"
-    }
-   ],
-   "key": "boylecasino改版真人賭場300遊戲與playtech滑動功能|boylecasino"
-  },
-  {
-   "cat": "cat3",
-   "title": "Sportradar 以 1.7 億美元出售 Atrium Sports",
-   "first_seen": "2026-10-08",
-   "sources": [
-    {
-     "name": "SBC News",
-     "url": "https://sbcnews.co.uk/technology/2026/10/08/sportradar-sells-atrium/",
-     "published": "2026-10-08 19:35"
-    }
-   ],
-   "key": "sportradar以17億美元出售atriumsports|"
-  },
-  {
-   "cat": "cat4",
-   "title": "IAG Manila After Dark 年終場移師 Solaire",
-   "first_seen": "2026-10-08",
-   "sources": [
-    {
-     "name": "Inside Asian Gaming",
-     "url": "https://asgam.com/2026/10/08/inside-asian-gaming-announces-brb-at-solaire-resort-entertainment-city-on-thursday-10-december-as-last-manila-after-dark-of-2026/",
-     "published": "2026-10-08 13:21"
-    }
-   ],
-   "key": "iagmanilaafterdark年終場移師solaire|"
-  },
-  {
-   "cat": "cat5",
-   "title": "Blask：巴西禁令恐使 2,160 萬人轉向離岸博彩",
-   "first_seen": "2026-10-08",
-   "sources": [
-    {
-     "name": "GGRAsia",
-     "url": "https://www.ggrasia.com/brazil-betting-ban-could-push-21-6mln-people-to-gamble-offshore-blask",
-     "published": "2026-10-08 12:20"
-    }
-   ],
-   "key": "blask巴西禁令恐使2160萬人轉向離岸博彩|"
-  },
-  {
-   "cat": "cat2",
    "title": "WSOP 年度最佳選手 100 萬美元獎池決戰移師巴哈馬 Paradise",
    "sources": [
     {
@@ -204,6 +151,34 @@
     }
    ],
    "key": "巴西博彩財源lula政府每年從警政挪走近10億雷亞爾博彩收入|"
+  },
+  {
+   "cat": "cat3",
+   "title": "BetMGM 獲 BrandSpark 2026 最受信任線上賭場品牌",
+   "b": 1,
+   "first_seen": "2026-10-12",
+   "sources": [
+    {
+     "name": "Yogonet",
+     "url": "https://www.yogonet.com/international/news/2026/10/12/126770-betmgm-named-most-trusted-online-casino-brand-in-2026-brandspark-study",
+     "published": "2026-10-12 01:41"
+    }
+   ],
+   "key": "betmgm獲brandspark2026最受信任線上賭場品牌|"
+  },
+  {
+   "cat": "cat5",
+   "title": "巴西 Ipespe 民調：博彩禁令影響 5% 選民投票",
+   "b": 1,
+   "first_seen": "2026-10-12",
+   "sources": [
+    {
+     "name": "BNLData",
+     "url": "https://bnldata.com.br/ipespe-fim-das-bets-pesou-no-voto-de-5-dos-eleitores-entre-os-de-lula-indice-dobra/",
+     "published": "2026-10-12 00:26"
+    }
+   ],
+   "key": "巴西ipespe民調博彩禁令影響5選民投票|"
   }
  ],
  "history": [
@@ -2250,6 +2225,111 @@
    "cat": "cat1",
    "title": "Capi Cash Jackpot Fortunes",
    "gp": "Neko Games"
+  },
+  {
+   "key": "bigbasssplashhalloween1000|pragmaticplay",
+   "date": "2026-10-12",
+   "cat": "cat1",
+   "title": "Big Bass Splash Halloween 1000",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "mayarelics|popiplay",
+   "date": "2026-10-12",
+   "cat": "cat1",
+   "title": "Maya Relics",
+   "gp": "Popiplay"
+  },
+  {
+   "key": "vitussbritva2phoenixreborn|truelab",
+   "date": "2026-10-12",
+   "cat": "cat1",
+   "title": "Vituss Britva 2: Phoenix Reborn",
+   "gp": "TrueLab"
+  },
+  {
+   "key": "marlinmastersfrozenfrenzy|hacksawgaming",
+   "date": "2026-10-12",
+   "cat": "cat1",
+   "title": "Marlin Masters: Frozen Frenzy",
+   "gp": "Hacksaw Gaming"
+  },
+  {
+   "key": "bamboopandits|elkstudios",
+   "date": "2026-10-12",
+   "cat": "cat1",
+   "title": "Bamboo Pandits",
+   "gp": "ELK Studios"
+  },
+  {
+   "key": "hypercore|snowborngames",
+   "date": "2026-10-12",
+   "cat": "cat1",
+   "title": "HyperCore",
+   "gp": "Snowborn Games"
+  },
+  {
+   "key": "avantistudios談ai荷官|avantistudios",
+   "date": "2026-10-12",
+   "cat": "cat2",
+   "title": "Avanti Studios 談 AI 荷官",
+   "gp": "Avanti Studios"
+  },
+  {
+   "key": "zitrodigital全產品線上架秘魯betmasterpe|",
+   "date": "2026-10-12",
+   "cat": "cat3",
+   "title": "Zitro Digital 全產品線上架秘魯 Betmaster.pe",
+   "gp": ""
+  },
+  {
+   "key": "gamesglobal取得西維吉尼亞牌照|",
+   "date": "2026-10-12",
+   "cat": "cat3",
+   "title": "Games Global 取得西維吉尼亞牌照",
+   "gp": ""
+  },
+  {
+   "key": "lottomatica併購cirsa簽定合併計畫|",
+   "date": "2026-10-12",
+   "cat": "cat3",
+   "title": "Lottomatica 併購 CIRSA 簽定合併計畫",
+   "gp": ""
+  },
+  {
+   "key": "gentingberhad擬配股募資306億美元減債|",
+   "date": "2026-10-12",
+   "cat": "cat3",
+   "title": "Genting Berhad 擬配股募資 3.06 億美元減債",
+   "gp": ""
+  },
+  {
+   "key": "centuryentertainment擴大菲律賓博彩合作|",
+   "date": "2026-10-12",
+   "cat": "cat4",
+   "title": "Century Entertainment 擴大菲律賓博彩合作",
+   "gp": ""
+  },
+  {
+   "key": "澳門與菲律賓航權擴大每週各20000席|",
+   "date": "2026-10-12",
+   "cat": "cat4",
+   "title": "澳門與菲律賓航權擴大每週各 20,000 席",
+   "gp": ""
+  },
+  {
+   "key": "澳門維持2026年ggr預測2360億澳門元|",
+   "date": "2026-10-12",
+   "cat": "cat5",
+   "title": "澳門維持 2026 年 GGR 預測 2,360 億澳門元",
+   "gp": ""
+  },
+  {
+   "key": "丹麥8月博彩支出年減71|",
+   "date": "2026-10-12",
+   "cat": "cat5",
+   "title": "丹麥 8 月博彩支出年減 7.1%",
+   "gp": ""
   }
  ],
  "rejected": [

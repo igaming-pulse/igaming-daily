@@ -1,29 +1,37 @@
-🎰 iGaming 市場日報 2026-10-11（週日）
-🎰 Slot 2 ・ 🕹️ 非 Slot 0 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 2
-❗今日收錄偏少（共 9 則），可能來源異常，請留意
-📦 今日另有特別版：釋放 17 款近期新作（大廠在前）→ https://igaming-pulse.github.io/igaming-daily/reports/2026-10-11-special.html
+🎰 iGaming 市場日報 2026-10-12（週一）
+🎰 Slot 6 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 2
+
+⭐ 今日重點
+・Pragmatic 萬聖節版 Big Bass 1000 上線，最高 20,000 倍
+・Century Entertainment 入股 PAGCOR 持牌商拚 e-casino
+・澳門 GGR 連四月年減，政府仍守 2,360 億預測
 
 🎰 Slot 新遊戲
-01 Just Buried – Incredible Technologies
-02 📦 近期新作（10/6 首見）Game of Thrones – Blueprint Gaming
+01 Big Bass Splash Halloween 1000 – Pragmatic Play
+02 Maya Relics – Popiplay
+03 Vituss Britva 2: Phoenix Reborn – TrueLab
+04 📦 Marlin Masters: Frozen Frenzy – Hacksaw Gaming
+05 📦 Bamboo Pandits – ELK Studios
+06 📦 HyperCore – Snowborn Games
+
+🕹️ 非 Slot 新內容
+01 Avanti Studios 談 AI 荷官：不是把人從產品裡拿掉
 
 🤝 動態：主流 GP／平台
-01 丹麥 L37 博彩修法：廣告與營運商注意義務全面收緊
-02 巴西禁令反撲：國會湧入 54 項修正案，23 家以上球會向 STF 請願
-03 巴西聯邦總檢察署起訴 8 家博彩業者，卡住 1.59 億雷亞爾玩家退款
-04 歐盟 2028–2034 預算新提案，未納入線上博彩稅
+01 Zitro Digital 全產品線上架秘魯 Betmaster.pe
+02 Games Global 取得西維吉尼亞牌照，進入美國第五州
+03 Lottomatica 併購 CIRSA 簽定合併計畫，目標 2027 Q2
+04 Genting Berhad 擬配股募資 3.06 億美元減債
 
 🇵🇭 動態：菲律賓 GP／平台
-01 PAGCOR 主席 Tengco：支持新創、強化菲律賓投資生態
+01 Century Entertainment 擴大菲律賓博彩合作，力拚港股復牌
+02 澳門與菲律賓航權擴大：每週雙方各 20,000 席
 
 📊 市場數據 & 趨勢
-01 加密賭場一週存款 11.2 億美元，Stake 獨佔 5.09 億
-02 巴西博彩禁令代價：2027 年前稅收損失 68 億雷亞爾，非法網站暴增近 1,700 個
+01 澳門維持 2026 年 GGR 預測 2,360 億澳門元
+02 丹麥 8 月博彩支出年減 7.1%，線上賭場逆勢增 12.5%
 
 📝 品質備註（本次爬找判斷）
-1. 週六窗偏淡：harvest 窗內 49 則，其中近半是巴西 BNLData 在地稿與已報過的 Stake／YouTube 後續；6 個來源失敗（Play'n GO、Kalamba、AGIMEG、Casino Inside Romania、SunStar、Jdigital），主要媒體正常，非抓取異常。WebSearch 加跑約 22 次仍無窗內新料。
-2. Slot 窗內新作只有 IT 的 G2E 新作；Rat Royale（Pragmatic，10/22 上線）、Ghost Vision（Hacksaw，11/19 上線）超過 7 天只進庫存，Monstroland 查無含日期主來源不收；第 2 款從庫存補 Game of Thrones。Casino Plus × Peter & Sons 為 10/1、10/5 已報舊聞轉寫，未收。
-3. 非 Slot 今日 0 則（連續空白第 1 天），EEZE 窗內無新消息；菲律賓只有 PAGCOR 官方 1 則。丹麥 L37 的「禁 Slot Bonus Buy」只見於 OGQ，待一讀版本確認。
-
-⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：Kalamba Games（12 天）、Play'n GO（4 天）、Casino Inside Romania（4 天）；請檢查網址或改抓取方式
+1. 週一日報窗＝週日，harvest 窗內 43 則（雜訊多、Slot 窗內新作僅 3 款有主來源），已觸發加碼查詢；Slot 用 3 款 7 天內新作（📦）補到 6 款，Slot 庫存無可用款，未補滿 7 款。
+2. 剔除：FA CHAI、Comtrade 專訪（網址日期 10/8、10/9 窗外）；Bloomberry OnlyFun.PH（與 10/8 同一事件）；Stake 巴西法院條件（與 10/9–10/10 同議題）；SlotsLaunch 上線日曆 5 款查無主來源。
+3. EEZE 近 3 天無新消息依例外跳過；cat2、cat4 今日無剩餘合格候選，庫存從缺。

@@ -1,0 +1,37 @@
+{
+ "date": "2026-10-12",
+ "md": "state/2026-10-12-igaming-report.md",
+ "html": "reports/2026-10-12.html",
+ "items": 15,
+ "counts": {
+  "cat1": 6,
+  "cat2": 1,
+  "cat3": 4,
+  "cat4": 2,
+  "cat5": 2
+ },
+ "links": {
+  "checked": 43,
+  "ok": 34,
+  "broken": 0,
+  "blocked": 9,
+  "images_dropped": 0,
+  "images": 15
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-06 HyperCore – Snowborn Gam｜與 cat1-01 Big Bass Splash Hallowee 用了同一個來源連結",
+  "cat2-01 Avanti Studios 談 AI 荷官：不｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/interviews/2026/10/11/215726/gustaf-hagman-avanti-studios-interview/",
+  "cat3-02 Games Global 取得西維吉尼亞牌照，進｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/usa/11/10/2026/games-global-expands-into-fifth-us-igaming-market-with-west-virginia-entry/",
+  "cat3-04 Genting Berhad 擬配股募資 3.0｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/11/genting-bhd-proposes-us306-million-rights-issue-to-cut-debt-with-lim-family-backing/",
+  "cat3-04 Genting Berhad 擬配股募資 3.0｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/intel/11/10/2026/maybank-warns-genting-berhad-may-need-more-equity-funding-after-306m-rights-issue/",
+  "cat4-01 Century Entertainment 擴大｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/philippines/11/10/2026/century-entertainment-broadens-philippine-gaming-ties-ahead-of-resumption-deadline/",
+  "cat4-02 澳門與菲律賓航權擴大：每週座位上限提高至雙方各 ｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/macau/11/10/2026/macau-and-philippines-raise-manila-seat-limit-to-20000-weekly-per-side/",
+  "cat5-01 澳門維持 2026 年 GGR 預測 2,360｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/macau/11/10/2026/macau-keeps-29-2b-ggr-forecast-despite-four-months-of-declines/",
+  "cat5-01 澳門維持 2026 年 GGR 預測 2,360｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/11/macaus-chief-executive-says-no-consideration-given-to-lowering-this-years-ggr-forecast/",
+  "cat5-01 澳門維持 2026 年 GGR 預測 2,360｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB 黃金週 https://agbrief.com/news/macau/11/10/2026/macau-golden-week-hotel-occupancy-rises-to-91-3-while-room-rates-soften/"
+ ],
+ "fixes": [
+  "文末｜資料來源數 30 → 27（程式依來源連結去重計算）"
+ ]
+}

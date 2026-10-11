@@ -1,0 +1,252 @@
+# 🎰 iGaming 市場日報 2026-10-12（週一）
+
+🎰 Slot 6 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 2
+
+---
+
+## 🎰 Game Provider 新遊戲
+
+### 01 Big Bass Splash Halloween 1000 – Pragmatic Play
+
+一線大廠 Pragmatic Play 與合作工作室 Reel Kingdom 的 Big Bass 系列，10 月 12 日上線第四款萬聖節版本「Big Bass Splash Halloween 1000」。這款以 Big Bass Splash 1000 為底換上萬聖節外觀，漁夫打扮成德古拉伯爵，沿用 5×3、10 線與 Money 符號收集玩法，但把波動從原作的高波動調降為中波動，RTP 96.50%（另有 95.50%、94.50% 版本），最高 20,000 倍。免費遊戲前先從 6 顆南瓜中挑一顆，可能開出更多 Wild、Wild 收集從第 2 級起跳、更多魚符號、更多「Trick or Treat」功能或多 2 轉；免費遊戲中南瓜也會落在最右軸，帶來額外挑選機會。每收集 4 個 Wild 就再觸發 10 轉、收集倍數最高 x10。提供 100 倍與 450 倍兩種 Buy、Ante Bet 加注 50%。對 PM 的意義：大廠把長青 IP 做成「節慶換皮＋調降波動」，用低開發成本搶季節性流量，這套節慶版節奏值得自家系列作參考。
+
+衍生調整：Big Bass Splash 1000 的萬聖節換皮，波動由高調為中、RTP 微降至 96.50%，新增免費遊戲前的南瓜升級挑選與免費遊戲中的南瓜符號。
+
+參數：
+- 遊戲類型：線上電子老虎機
+- 盤面：5×3
+- 消除/賠付：10 條固定線、Money 符號收集
+- 最高倍率：20,000x
+- RTP：96.50%（另有 95.50%／94.50%）
+- 波動：中
+- 目標市場：全球
+- 關鍵特色：南瓜升級挑選、每 4 個 Wild 重觸發並提高收集倍數至 x10、100x／450x 兩種 Buy、Ante Bet
+
+查證：VegasSlotsOnline 標題寫 10,000x，BigWinBoard 評測頁為 20,000x，以 BigWinBoard 為準。
+來源：[BigWinBoard](https://www.bigwinboard.com/new-slots/) · [BigWinBoard 評測](https://www.bigwinboard.com/big-bass-splash-halloween-1000-pragmatic-play-slot-review/) · [VegasSlotsOnline](https://www.vegasslotsonline.com/news/2026/09/16/pragmatic-play-rolls-out-big-bass-splash-halloween-1000-with-10000x-max-win-ahead-of-spooky-season/) · [SlotsLaunch](https://slotslaunch.com/pragmatic-play/big-bass-halloween-splash-1000) · 日期：2026-10-12
+圖片：https://www.bigwinboard.com/wp-content/uploads/2026/08/Big-Bass-Splash-Halloween-1000-slot-feat.jpg
+
+### 02 Maya Relics – Popiplay
+
+Popiplay 推出馬雅叢林主題新作「Maya Relics」，6 軸 5 列、Scatter Pays（任意位置湊足相同符號即中獎，無固定線），中獎符號消除後補新符號（refill 連消），搭配可疊加的倍數，RTP 96.11%、高波動，最高 10,200 倍，押注 0.20～24。盤面上方有一名馬雅祭司注視，符號包括祭儀匕首、黃金面具、指環與火、水、靈三種元素符文，視覺偏暗色石雕加紫綠金光。倍數符號可出現在任何位置，主遊戲也會派彩。對 PM 的意義：6×5 Scatter Pays＋連消倍數是近兩年 Pragmatic 帶紅的主流公式，中小型 GP 以「主題差異化＋萬倍上限」切入，說明這個框架仍是新作的安全選擇。
+
+衍生調整：全新 IP，無衍生。
+
+參數：
+- 遊戲類型：線上電子老虎機
+- 盤面：6×5
+- 消除/賠付：Scatter Pays（任意位置）、Refill 連消
+- 最高倍率：10,200x
+- RTP：96.11%
+- 波動：高
+- 目標市場：全球
+- 關鍵特色：可疊加倍數符號、主遊戲倍數也派彩、押注 0.20～24
+
+來源：[iGamingToday](https://www.igamingtoday.com/maya-relics-slot-review/) · [SlotsLaunch](https://slotslaunch.com/popiplay/maya-relics) · 日期：2026-10-11
+圖片：https://www.igamingtoday.com/wp-content/uploads/2026/10/maya-relics-resized-to-large-1.jpeg
+
+### 03 Vituss Britva 2: Phoenix Reborn – TrueLab
+
+TrueLab 推出與俄語圈知名實況主 Vituss Britva 聯名的續作「Vituss Britva 2: Phoenix Reborn」，主角從貴賓廳豪客化身鳳凰重生。遊戲為 5×5 盤面，RTP 96.07%、高波動，最高 20,000 倍，押注 €0.10～€12。核心機制是 Expanding Wild Multiplier：Wild 擴展覆蓋整軸並轉動倍數輪，最高 x100；3 個 Scatter 觸發三選一的免費遊戲（Magic Forest、Firestorm、Phoenix Reborn，各 10 轉），另有 Bonus Bet 提高觸發率與 Buy Bonus 直購。SlotsLaunch 標示 10 月 7 日上線。對 PM 的意義：實況主聯名是近年歐洲與獨立國協市場拉新的常見手段，續作把「三種免費模式＋擴展倍數 Wild」組合起來，給玩家選擇感，適合作為直播導流型產品的參考。
+
+衍生調整：Vituss Britva 聯名系列續作，新增鳳凰主題三種免費遊戲模式與倍數輪 Expanding Wild（最高 x100）。
+
+參數：
+- 遊戲類型：線上電子老虎機
+- 盤面：5×5
+- 消除/賠付：15 條線（左到右）
+- 最高倍率：20,000x
+- RTP：96.07%
+- 波動：高
+- 目標市場：全球（實況主粉絲圈）
+- 關鍵特色：Expanding Wild 倍數輪至 x100、三選一免費遊戲、Bonus Bet、Buy Bonus
+
+查證：iGamingToday 寫 15 線，SlotsLaunch 標「All Ways」，各來源不一，暫採評測內文。
+來源：[iGamingToday](https://www.igamingtoday.com/vituss-britva-2-phoenix-reborn-slot-review/) · [SlotsLaunch](https://slotslaunch.com/truelab/vituss-britva-2-phoenix-reborn) · 日期：2026-10-11
+圖片：https://www.igamingtoday.com/wp-content/uploads/2026/10/Screenshot-2026-10-11-154532-resized-to-large-1.jpeg
+
+### 04 Marlin Masters: Frozen Frenzy – Hacksaw Gaming
+📦 近期新作（10/9 首見）
+
+二線知名 GP Hacksaw Gaming 把旗下釣魚系列 Marlin Masters 搬到冰封湖面，推出「Marlin Masters: Frozen Frenzy」。遊戲為 5 軸 3 列、9 條線，RTP 96.37%、中波動，最高 5,000 倍。玩法是典型「魚符號帶現金、漁夫收集」：Marlin 符號帶現金值，Fisherman 會收走盤面所有 Marlin，並可附加最高 x20 的倍數；新的 Ice Fisherman 一次啟動最多 4 名漁夫，同時收集冰凍 Marlin 與一般 Marlin，再套一次最高 x20 倍數。盤面上方的 LootLines 會隨機派發獎勵，黃金 FS Scatter 從木箱中冒出觸發免費遊戲，多種功能可以疊加。對 PM 的意義：「魚＋漁夫收集」已是 Pragmatic Big Bass 驗證過的公式，Hacksaw 以雙層 x20 倍數和 LootLines 做差異化，代表這個品類仍在比「誰的收集倍數疊得更兇」。
+
+衍生調整：Marlin Masters 系列冰雪主題新作，新增 Ice Fisherman（一次啟動最多 4 名漁夫）與冰凍 Marlin 二次倍數。
+
+參數：
+- 遊戲類型：線上電子老虎機
+- 盤面：5×3
+- 消除/賠付：9 條線、現金符號收集
+- 最高倍率：5,000x
+- RTP：96.37%
+- 波動：中
+- 目標市場：全球
+- 關鍵特色：Fisherman 收集附最高 x20 倍數、Ice Fisherman 二次倍數、LootLines 隨機獎勵
+
+來源：[iGamingToday](https://www.igamingtoday.com/marlin-masters-frozen-frenzy-slot-review/) · [Hacksaw Gaming 官網](https://www.hacksawgaming.com/games/marlin-masters-frozen-frenzy) · 日期：2026-10-09
+圖片：https://www.igamingtoday.com/wp-content/uploads/2026/10/Screenshot-2026-10-09-075857-resized-to-large-1.jpeg
+
+### 05 Bamboo Pandits – ELK Studios
+📦 近期新作（10/9 首見）
+
+瑞典 ELK Studios 於 10 月 6 日上線「Bamboo Pandits」，以三名熊貓「大盜」為主角的角色驅動型新作。遊戲為 5×5 盤面、35 條固定線，RTP 96%、最高 10,000 倍，命中率約 25.3%。核心是三隻 Pandit 各自收集自己顏色的 Loot 符號，集滿觸發時給一次 Respin 並附帶對應的修飾器：Big Wild（大型 Wild）、位置倍數（Position Multipliers）、Mystery 神秘符號；盤面可擴到 6 軸、最多 44 線。另提供 ELK 招牌的 X-iter 五種直購選項，RTP 同為 96%。對 PM 的意義：「多角色各自收集、各自觸發不同修飾器」能讓玩家在主遊戲就有持續的進度感，是提升留存的低成本設計，適合導入自家收集型產品。
+
+衍生調整：全新 IP，無衍生。
+
+參數：
+- 遊戲類型：線上電子老虎機
+- 盤面：5×5（可擴至 6 軸）
+- 消除/賠付：35 條固定線（擴展後最多 44 線）
+- 最高倍率：10,000x
+- RTP：96%
+- 波動：中（OLBG）／高（VegasSlotsOnline）
+- 目標市場：全球
+- 關鍵特色：三角色各收集 Loot 觸發 Big Wild／位置倍數／Mystery、Respin、X-iter 五種直購
+
+查證：波動各來源不一（OLBG 稱中、VegasSlotsOnline 稱高）。
+來源：[OLBG](https://www.olbg.com/news/weekly-slots-news-09-10-2026) · [OLBG 遊戲頁](https://www.olbg.com/slots/games/bamboo-pandits) · [VegasSlotsOnline](https://www.vegasslotsonline.com/news/2026/08/27/elk-studios-launches-bamboo-pandits-slot-with-trio-of-character-driven-modifiers/) · [SlotsLaunch](https://slotslaunch.com/elk-studios/bamboo-pandits) · 日期：2026-10-09
+圖片：https://www.vegasslotsonline.com/news/wp-content/uploads/2026/08/Bamboo-Pandits-Demo-Slot-by-Elk-Studios-1.png
+
+### 06 HyperCore – Snowborn Games
+📦 近期新作（10/8 首見）
+
+Snowborn Games 新作「HyperCore」於 10 月 8 日上線。BigWinBoard 資料顯示這款為 5 軸、20 條線，中波動，最高 6,250 倍，並提供 96%、94.2%、92.2% 三檔 RTP 讓營運商依市場選用。Snowborn 是近年以中波動、規則清楚見長的北歐中小型工作室，6,250 倍的上限屬中段設定，定位偏向日常留存而非追求極端爆發。對 PM 的意義：同一款遊戲提供三檔 RTP，是 GP 迎合不同監理市場與營運商利潤需求的常見做法；採購或上架時要確認拿到的是哪一檔，避免玩家端實際回報與宣傳不符。
+
+衍生調整：全新 IP，無衍生。
+
+參數：
+- 遊戲類型：線上電子老虎機
+- 盤面：5 軸
+- 消除/賠付：20 條線
+- 最高倍率：6,250x
+- RTP：96%（另有 94.2%／92.2%）
+- 波動：中
+- 目標市場：全球
+- 關鍵特色：三檔 RTP 可選、中波動、中段最高倍率
+
+查證：已查 BigWinBoard 評測頁、SlotsLaunch；列數與特色功能各來源均未列。
+來源：[BigWinBoard](https://www.bigwinboard.com/new-slots/) · [BigWinBoard 評測](https://www.bigwinboard.com/hypercore-snowborn-games-slot-review/) · 日期：2026-10-08
+圖片：https://www.bigwinboard.com/wp-content/uploads/2026/09/Hypercore-slot-feat.jpg
+
+## 🕹️ 非 Slot 新內容
+
+### 01 Avanti Studios 談 AI 荷官：不是把人從產品裡拿掉 – Avanti Studios
+
+真人娛樂新創 Avanti Studios 共同創辦人 Gustaf Hagman 接受 European Gaming 專訪，說明公司如何用 AI 與新技術重做真人荷官產品。他認為傳統真人娛樂場的製作模式已過時，需要「重建式」思維：以 RNG 確保遊戲結果公平，再用 AI 與數位製作擴大荷官的觸及與效率，而不是取代真人。Avanti 已在西班牙上線真人 21 點，並吸引 bet365、Entain 等一線營運商；Hagman 也說明與投資方 Genting 之間「投資人」與「客戶」角色清楚分開。對 PM 的意義：AI 荷官正從概念走向實際上線，真人娛樂的成本結構（荷官、攝影棚、時段）可能被改寫；做 Live 產品的團隊應評估「RNG＋AI 呈現」對自家成本與合規的影響。
+
+參數：
+- 遊戲類型：Live Game（AI 荷官／真人 21 點）
+- 目標市場：西班牙、歐洲受監理市場
+- 關鍵特色：RNG 決定結果、AI 擴大荷官產能、已獲 bet365、Entain 採用
+
+來源：[European Gaming](https://europeangaming.eu/portal/interviews/2026/10/11/215726/gustaf-hagman-avanti-studios-interview/) · 日期：2026-10-11
+圖片：https://media.europeangaming.eu/uploads/2026/10/Gustaf-Hagman-Avanti-Studios-on-AI-dealers_-Were-not-taking-the-human-out-of-the-product.jpg
+
+## 🤝 動態：主流 GP／平台
+
+### 01 Zitro Digital 全產品線上架秘魯 Betmaster.pe
+
+西班牙實體機大廠 Zitro 的線上部門 Zitro Digital 與秘魯營運商 Betmaster.pe 合作，旗下完整線上遊戲組合已在 Betmaster.pe 上線，包含由實體機移植的 King Fu Frog、Legendary Sword、Cash Totems，以及 Ancient Link – Roma、River Gold Wealth – Hudson 與聖誕主題 Candy Cane Delight 等新作。Betmaster.pe 賭場經理 Aleksei Tolstov 表示，這套組合兼具「已驗證的熱門作」與新作，能補強平台遊戲庫。秘魯是拉美少數已建立線上博彩監理架構的市場，Zitro 正以實體機品牌知名度帶動線上內容在當地擴張。對 PM 的意義：實體機 IP 線上化再進拉美受監理市場，是大廠「全通路」策略的具體落地；在巴西禁令不確定期間，秘魯等鄰近市場的重要性正在上升。
+
+重點：類型 合作 ｜ 對象 Zitro Digital、Betmaster.pe ｜ 影響 實體機 IP 線上化，加碼秘魯受監理市場
+
+來源：[Yogonet](https://www.yogonet.com/international/news/2026/10/12/126759-zitro-digital-expands-peru-presence-through-betmasterpe-partnership) · 日期：2026-10-12
+圖片：https://imagenesyogonet.b-cdn.net/data/imagenes/2026/10/08/92037/1791464654-zitro-digital-betmaster-peru-eng.jpg
+
+### 02 Games Global 取得西維吉尼亞牌照，進入美國第五個 iGaming 州
+
+iGaming 內容供應商 Games Global 取得西維吉尼亞州彩券委員會（West Virginia Lottery Commission）牌照，成為繼康乃狄克、密西根、紐澤西、賓州之後，第五個上線的美國線上賭場州。首波將推出 Gold Blitz、Masks of Fire、Thunderstruck 等招牌作品。商務長 Mark MacCombie 表示，西維吉尼亞是公司北美擴張策略的重要一步，並將與當地一線營運商合作服務美國玩家。對 PM 的意義：美國合法線上賭場州數仍有限，供應商比的是「已覆蓋幾州」；Games Global 補齊西維吉尼亞，代表大型內容商正在逐州鋪滿，後進 GP 要進美國得先找聚合或州級合作夥伴。
+
+重點：類型 市場進入 ｜ 對象 Games Global、West Virginia Lottery Commission ｜ 影響 美國覆蓋擴至 5 州，內容商逐州卡位
+
+來源：[AGB](https://agbrief.com/news/usa/11/10/2026/games-global-expands-into-fifth-us-igaming-market-with-west-virginia-entry/) · 日期：2026-10-11
+圖片：https://agbrief.com/wp-content/uploads/2026/10/Games-Global.png
+
+### 03 Lottomatica 併購 CIRSA 簽定合併計畫，目標 2027 年第二季完成
+
+義大利博彩龍頭 Lottomatica 與西班牙 CIRSA 簽署跨境合併計畫，CIRSA 將併入 Lottomatica、由 Lottomatica 存續。依換股比例，CIRSA 股東每股可換 0.668 股新發行的 Lottomatica 普通股；合併生效前 CIRSA 另發每股 1.56 歐元特別股息，合計約 2.62 億歐元。合併後公司保留 Lottomatica 名稱、總部設在羅馬，Guglielmo Angelozzi 續任領導。交易仍需股東會與監理機關核准，預計 2027 年第二季生效；條款已於 10 月 8 日的聯合聲明確認。對 PM 的意義：南歐兩大龍頭合併後，義大利、西班牙與拉美的通路與採購權更集中，GP 面對的議價對象變少、上架門檻與議價壓力都會提高。
+
+重點：類型 併購 ｜ 對象 Lottomatica、CIRSA ｜ 影響 南歐與拉美通路集中，大型營運商議價力上升
+
+來源：[CasinoBeats](https://casinobeats.com/2026/10/11/lottomatica-cirsa-merger/) · 日期：2026-10-11
+圖片：https://casinobeats.com/wp-content/uploads/2026/10/lottomatica-cirsa-deal-targets-2027-completion.webp
+
+### 04 Genting Berhad 擬配股募資 3.06 億美元減債，林氏家族認購 45%
+
+馬來西亞雲頂集團母公司 Genting Berhad 提出附認股權配售（rights issue），擬募集 12.5 億令吉（約 3.06 億美元），用於償還一年內到期借款與補充營運資金。由主席林國泰領軍的林氏家族承諾認購 45% 新股。集團 2025 年轉虧、2026 年初營運仍承壓，此舉是為了在波動環境中保留財務彈性。Maybank 分析師另示警，即使完成本次配股，Genting Berhad 未來仍可能需要更多股本融資。對 PM 的意義：東南亞最大賭場集團之一的資金壓力上升，旗下雲頂高原、新加坡聖淘沙名勝世界與海外項目的擴張與採購節奏可能放慢，供應商評估亞洲大客戶時需納入其財務體質。
+
+重點：類型 財務 ｜ 對象 Genting Berhad、林氏家族、Maybank ｜ 影響 東南亞賭場龍頭減債，擴張與採購可能趨保守
+
+來源：[Inside Asian Gaming](https://asgam.com/2026/10/11/genting-bhd-proposes-us306-million-rights-issue-to-cut-debt-with-lim-family-backing/) · [AGB](https://agbrief.com/intel/11/10/2026/maybank-warns-genting-berhad-may-need-more-equity-funding-after-306m-rights-issue/) · 日期：2026-10-11
+圖片：https://asgam.com/wp-content/uploads/og-cache/146212.jpg
+
+## 🇵🇭 動態：菲律賓 GP／平台
+
+### 01 Century Entertainment 擴大菲律賓博彩合作，力拚 12 月底前港股復牌
+
+香港上市的 Century Entertainment 正擴大在菲律賓的博彩合作網絡，近期取得一家持有 PAGCOR 牌照公司的 5% 股權，計畫在多個平台發展電子賭場（e-casino）業務，降低對單一通路商的依賴。公司上半年來自合資企業的未經審計收入為 8,690 萬港元（約 1,110 萬美元）。Century Entertainment 自 2025 年 6 月 26 日停牌，必須在 2026 年 12 月 25 日前達成港交所復牌條件，擴大菲律賓業務是其證明營運持續性的關鍵。對 PM 的意義：在 PAGCOR 凍結新線上牌照的背景下，外資改以「入股既有持牌商」切入菲律賓電子賭場，持牌平台的股權與通路價值正在上升，GP 可留意這類新股東帶來的上架機會。
+
+重點：類型 市場進入 ｜ 對象 Century Entertainment、PAGCOR 持牌業者 ｜ 影響 外資以入股持牌商切入菲律賓 e-casino
+
+來源：[AGB](https://agbrief.com/news/philippines/11/10/2026/century-entertainment-broadens-philippine-gaming-ties-ahead-of-resumption-deadline/) · 日期：2026-10-11
+圖片：https://agbrief.com/wp-content/uploads/2025/07/online-gambling-philippines.jpg
+
+### 02 澳門與菲律賓航權擴大：每週座位上限提高至雙方各 20,000 席
+
+澳門與菲律賓民航當局完成協商，10 月 11 日正式把兩地航班的運力上限提高到每週雙方各 20,000 個座位，並取消飛往菲律賓其他目的地的客運運力限制、提高貨運上限，目的在強化航空服務與旅遊連結。對菲律賓博彩業而言，澳門是亞洲最大的賭客來源與轉運樞紐之一，航班座位增加有利馬尼拉 Entertainment City 的綜合度假村（Solaire、Okada、City of Dreams、Newport World Resorts）吸引華人與區域旅客，也有助宿霧、克拉克等地的賭場。對 PM 的意義：菲律賓陸上賭場的成長高度依賴國際旅客，航權鬆綁是觀察 2027 年馬尼拉 IR 客流與陸上 GGR 的先行指標。
+
+重點：類型 政府法規 ｜ 對象 澳門民航局、菲律賓民航局 ｜ 影響 澳菲運力擴大，利多馬尼拉綜合度假村客流
+
+來源：[AGB](https://agbrief.com/news/macau/11/10/2026/macau-and-philippines-raise-manila-seat-limit-to-20000-weekly-per-side/) · 日期：2026-10-11
+圖片：https://agbrief.com/wp-content/uploads/2026/10/Macau-and-the-Philippines.jpg
+
+## 📊 市場數據 & 趨勢
+
+### 01 澳門維持 2026 年 GGR 預測 2,360 億澳門元，第四季月均需 163 億
+
+澳門特首岑浩輝確認，政府維持 2026 年博彩毛收入（GGR）預測 2,360 億澳門元（約 292 億美元）不下修，儘管已連續四個月年減。截至 9 月累計 GGR 約 1,871 億澳門元，第四季還需 489 億，即 10–12 月月均約 163 億澳門元，比前九個月的月均低約 22%，達標門檻不算高。岑浩輝表示會觀察十一黃金週的訪客表現，並評估近期營收下滑是短期因素還是博彩收入已見頂。黃金週期間澳門酒店入住率升至 91.3%，但房價走軟，顯示客流回穩、消費力仍偏保守。對 PM 的意義：澳門營收高原化的訊號浮現，亞洲陸上賭場的成長動能轉向非博彩與大眾市場，供應商在澳門的機台更新與採購預期應保守看待。
+
+重點：類型 市場數據 ｜ 對象 澳門特區政府、澳門六大博企 ｜ 影響 GGR 連四月年減，政府評估是否已見頂
+
+來源：[AGB](https://agbrief.com/news/macau/11/10/2026/macau-keeps-29-2b-ggr-forecast-despite-four-months-of-declines/) · [Inside Asian Gaming](https://asgam.com/2026/10/11/macaus-chief-executive-says-no-consideration-given-to-lowering-this-years-ggr-forecast/) · [AGB 黃金週](https://agbrief.com/news/macau/11/10/2026/macau-golden-week-hotel-occupancy-rises-to-91-3-while-room-rates-soften/) · 日期：2026-10-11
+圖片：https://agbrief.com/wp-content/uploads/2026/10/Sam-Hou-Fai.jpg
+
+### 02 丹麥 8 月博彩支出年減 7.1%：運彩崩跌 42.7%，線上賭場逆勢增 12.5%
+
+丹麥博彩監理機關 Spillemyndigheden 最新月報顯示，經 GDP 調整後，8 月整體博彩支出年減 7.1%。跌幅最大的是運彩，年減 42.7%；線上賭場則逆勢成長 12.5%，實體 Slot 機台減 2.6%，實體賓果增 6.4%、實體賭場增 8.7%。統計儀表板顯示，2025 年 1 月 1 日至 2026 年 8 月 31 日開放市場毛博彩收入合計 135.05 億丹麥克朗（前期 124.11 億），其中線上賭場 73.59 億居冠、運彩 35.78 億、Slot 機台 19.05 億。對 PM 的意義：在成熟監理市場，線上賭場已是最大且仍在成長的板塊，運彩受賽事週期影響劇烈波動；Slot 內容商在北歐的成長空間主要在線上，而非實體機台。
+
+重點：類型 市場數據 ｜ 對象 Spillemyndigheden、丹麥博彩市場 ｜ 影響 線上賭場成最大板塊且持續成長，運彩大幅回落
+
+來源：[JAMMA](https://www.jamma.it/gioco-legale-online/danimarca-ad-agosto-cala-la-spesa-nel-gioco-crollano-le-scommesse-360466) · 日期：2026-10-11
+圖片：https://www.jamma.it/wp-content/uploads/2024/12/Depositphotos_polizia-Danimarca.jpg
+
+---
+
+本日日報查詢約 48 個網站，其中提取 30 個資料來源並進行交叉比對
+
+---
+
+## 🗓️ 來源日期紀錄（內部，不渲染）
+
+- 本次實際執行 02:31，窗為 2026-10-11 02:30 ～ 2026-10-12 02:30（台北）
+- cat1-01 Big Bass Splash Halloween 1000：主來源 BigWinBoard 新作列表 上線日 2026-10-12（依過往慣例以上線日為準）；佐證 BigWinBoard 評測 2026-09-13（metadata）、VegasSlotsOnline 2026-09-16（metadata）
+- cat1-02 Maya Relics：主來源 iGamingToday 2026-10-11 02:34 台北（metadata 2026-10-10T18:34Z，落在窗內）；佐證 SlotsLaunch 遊戲頁
+- cat1-03 Vituss Britva 2：主來源 iGamingToday 2026-10-11 22:59 台北（metadata 2026-10-11T14:59Z）；佐證 SlotsLaunch（上線日 10-07）
+- cat1-04 Marlin Masters: Frozen Frenzy（📦）：主來源 iGamingToday 2026-10-09 16:54 台北（metadata 08:54Z），7 天保鮮期內；佐證 Hacksaw 官網遊戲頁
+- cat1-05 Bamboo Pandits（📦）：主來源 OLBG Weekly Slots News 2026-10-09（metadata 08:00Z），列上線日 10-06；佐證 VegasSlotsOnline 2026-08-27、OLBG 遊戲頁
+- cat1-06 HyperCore（📦）：主來源 BigWinBoard 新作列表 上線日 2026-10-08；佐證 BigWinBoard 評測 2026-09-07（metadata）
+- cat2-01 Avanti Studios：主來源 European Gaming 2026-10-11 14:00 台北（metadata 09:00+03:00）
+- cat3-01 Zitro Digital：主來源 Yogonet 2026-10-12 01:41 台北（harvest RSS；網址日期 2026/10/12）
+- cat3-02 Games Global：主來源 AGB 2026-10-11 21:14 台北（metadata）
+- cat3-03 Lottomatica-CIRSA：主來源 CasinoBeats 2026-10-11 16:14 台北（metadata 08:14Z）
+- cat3-04 Genting：主來源 Inside Asian Gaming 2026-10-11 15:20 台北（metadata）；佐證 AGB 2026-10-11 18:36
+- cat4-01 Century Entertainment：主來源 AGB 2026-10-11 17:09 台北（metadata）
+- cat4-02 澳菲航權：主來源 AGB 2026-10-11 16:34 台北（metadata）
+- cat5-01 澳門 GGR：主來源 AGB 2026-10-11 16:25 台北（metadata）；佐證 IAG 2026-10-11 06:07、AGB 黃金週 2026-10-11 16:46
+- cat5-02 丹麥：主來源 JAMMA 2026-10-11 19:41 台北（metadata 13:41+02:00）
+- 剔除：FA CHAI Gaming SBC 專訪（Yogonet RSS 時間 10-12 01:44，但網址日期 2026/10/08，主來源日期以網址為準 → 窗外不收）
+- 剔除：Comtrade Gaming 專訪（網址日期 2026/10/09 → 窗外）
+- 剔除：Bloomberry OnlyFun.PH（Yogonet 10-12 轉寫，同一上線事件已於 10/8 日報收錄，無新進展）
+- 剔除：Stake 巴西 12 項法院條件（CasinoBeats 主來源 2026-10-10 19:00Z＝10-11 03:00，事件與 10/9、10/10 已收錄的 Stake 禁制令同議題）
+- 剔除：Aviajet – Gamzix（SlotCatalog 上線日 2025-11-12，舊作）；Tiger Charms、Piggy Prize Pots、Lava Coin Rush、Wild Clovers 10、Clover Wealth 10（僅 SlotsLaunch 上線日曆線索，查無新聞稿或評測主來源）
+- 剔除：Betfred 週日新作清單（Totally Reckless、Shake The Money Tree 2 等，為營運商上架清單，查無上線日與參數）
+- EEZE：近 3 天（10/10–10/12）WebSearch 與 harvest 均無新消息，依例外規則跳過
