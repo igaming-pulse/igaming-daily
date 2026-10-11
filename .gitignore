@@ -3,3 +3,4 @@ state/*.log
 state/harvest/*.json
 state/harvest/*-lists/
 state/telegram-bot.offset
+slots/

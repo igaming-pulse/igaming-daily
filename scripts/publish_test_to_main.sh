@@ -44,12 +44,18 @@ if '（測試）' not in s:
 p.write_text(s, encoding='utf-8')
 PY
 
+# Slot 新作資料庫（2026-10-11）：發布前先重建，跟日報一起上網站 /slots/
+if python3 "$REPO/scripts/build_slot_db.py" >/dev/null 2>&1 && [ -f "$REPO/slots/index.html" ]; then
+  mkdir -p slots && cp "$REPO/slots/index.html" slots/index.html
+fi
+
 python3 build_index.py >/dev/null || { say "✗ build_index.py 失敗"; exit 1; }
 grep -q "${DATE}${SUFFIX}.html" index.html || { say "✗ 首頁沒收錄 $DST"; exit 1; }
 
 # ⛔ 只加這幾個路徑。main 沒有 .gitignore，git add -A 會掃進不該進的東西。
 git add "$DST" index.html
 [ -d reports/_classic ] && git add reports/_classic
+[ -f slots/index.html ] && git add slots/index.html
 if git diff --cached --quiet; then
   say "內容沒變化，不用 commit"
   exit 0
