@@ -293,6 +293,14 @@ def fetch_sitemap(src, since):
     return out, None
 
 
+# v6.6.8 B：專訪／展會報導裡提到 B≥3 廠商時列成「新作線索」（10/12 FA CHAI 專訪提到新作 Power of Vikings 卻沒被追查）
+BIG_GP = re.compile(r"acewin|omiplay|yellowbat|\batg\b|yggdrasil|\bjili\b|tada|pg ?soft|pragmatic|nolimit|play'?n ?go|red tiger|"
+                    r"aristocrat|\bigt\b|light ?(&|and) ?wonder|cp ?game|peter ?& ?sons|netent|hacksaw|fa ?chai|evolution|playtech|"
+                    r"betsoft|spinomenal|relax gaming|push gaming|bgaming|wazdan|quickspin", re.I)
+LEAD_RX = re.compile(r"interview|speaking with|talks?\b|q&a|sbc|g2e|ice\b|igb|sigma|expo|summit|showcas|unveil|debut|"
+                     r"exclusive|專訪|展會|首次展出|[\"“][^\"”]{3,}[\"”]", re.I)   # 引號＝引述談話（專訪標題常見「廠商：\"…\"」）
+
+
 def guess_cat(title, excerpt):
     text = f"{title} {excerpt}"
     for cat, rx in CAT_RULES:
@@ -637,6 +645,17 @@ def main():
                 B.append(f"- {i['published']} | {i['source']} | {i['title']} | {i['url']}"
                          + (f" | {i['excerpt']}" if i["source"].startswith(("BigWinBoard", "SlotsLaunch")) else ""))
             B.append("")
+        L.append("")
+    leads = [i for i in items if i["in_window"] and BIG_GP.search(f"{i['title']} {i['excerpt']}")
+             and LEAD_RX.search(f"{i['title']} {i['excerpt']}")]
+    if leads:
+        L.append(f"## 🔎 專訪／展會裡的新作線索 {len(leads)} 則（v6.6.8：提到 B≥3 廠商的專訪、展會報導）")
+        L.append("")
+        L.append("⚠️ 逐則看內文有沒有提到新遊戲（首次展出、即將上線、新作名稱）：有的話把那款遊戲當成**獨立的 Slot 候選**，"
+                 "另外搜尋上線日與主來源；專訪本身收不收另外判斷。")
+        L.append("")
+        for i in leads[:12]:
+            L.append(f"- {i['published']} | {i['source']} | {i['title']} | {i['url']}")
         L.append("")
     if d.weekday() == 5:
         wk = sorted([i for i in items if i["source"].startswith("BigWinBoard") and

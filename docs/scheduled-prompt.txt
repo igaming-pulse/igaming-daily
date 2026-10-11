@@ -65,6 +65,7 @@
   抓取不足造成的假性偏少，比漏收更嚴重
 - 嚴禁開 5-credit 的 JSON 抽取；og:image 跟 summary 同一次帶回
 - 查證抓內文／配圖／發布時間先用免費的 `python3 scripts/page_meta.py <網址>`，回傳 need_firecrawl=true 才用 Firecrawl（v6.6.5）
+- harvest 的「🔎 專訪／展會裡的新作線索」每則都要看：提到 B≥3 廠商的新遊戲，要當成獨立 Slot 候選另外查，不可跟著專訪一起剔除（v6.6.8）
 - Slot 參數表第一列是「廠牌」，寫遊戲商全名（PG Soft、Pragmatic Play、Jili…，不寫縮寫）（v6.6.7）
 - 🖼️ 配圖優先（v6.6.6）：**五區都要配圖**；找不到就換其他來源、再用 Firecrawl（配圖另有額度，見 harvest 檔頭）、再找遊戲官網／資料庫頁；試過全部才寫「圖片：無」
 - Telegram 訊息第 3 行起先寫「⭐ 今日重點」3 條（Slot／菲律賓／市場各一，每條 ≤40 字），格式見 SKILL.md 步驟 3
