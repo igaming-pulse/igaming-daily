@@ -158,6 +158,12 @@ def cmd_show(a):
     print(f"## 🚫 近 {DEDUP_DAYS} 天已出現（不可重複；超過 {DEDUP_DAYS} 天且有重大更新才可再展示）")
     for k, h in sorted(rk.items(), key=lambda kv: kv[1]["date"], reverse=True):
         print(f"- {h['date']}｜{h.get('cat', '')}｜{h['title']}" + (f" — {h['gp']}" if h.get("gp") else ""))
+    older = [h for h in inv["history"] if DEDUP_DAYS < (today - d(h["date"])).days <= 7]
+    if older:
+        print()
+        print("## ⏸ 4～7 天前出現過（v6.6.9：同一款／同一事件沒有新進展不可再收；有新進展標 🔁 並寫出新進展，定稿檢查會比對）")
+        for h in sorted(older, key=lambda h: h["date"], reverse=True):
+            print(f"- {h['date']}｜{h.get('cat', '')}｜{h['title']}" + (f" — {h['gp']}" if h.get("gp") else ""))
     print()
     streak = {}
     for cat in ["cat1", "cat2", "cat3", "cat4", "cat5"]:

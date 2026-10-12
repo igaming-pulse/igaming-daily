@@ -34,6 +34,7 @@ import sys
 import time
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from urllib.parse import quote as urllib_quote
 from urllib.parse import unquote as urllib_unquote
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -173,6 +174,74 @@ def fetch_rss(src, since):
             continue
         out.append({"title": clean(t.group(1) if t else ""), "url": clean((l.group(1) or l.group(2)) if l else ""),
                     "dt": dt, "excerpt": clean(ds.group(1) if ds else "", 220)})
+    return out, None
+
+
+GNEWS_CACHE = os.path.join(ROOT, "state", "gnews-urls.json")
+
+
+def gnews_decode(link, cache):
+    """Google News 的轉址連結 → 媒體原文網址（兩次請求；結果快取在 state/gnews-urls.json，失敗就回原連結）。"""
+    if "news.google.com" not in link:
+        return link
+    aid = link.split("/articles/")[-1].split("?")[0]
+    if aid in cache:
+        return cache[aid]
+    try:
+        page = subprocess.run(["curl", "-sL", "-m", "20", "-A", UA, f"https://news.google.com/rss/articles/{aid}"],
+                              capture_output=True, text=True, errors="ignore").stdout
+        sg = re.search(r'data-n-a-sg="([^"]+)"', page)
+        ts = re.search(r'data-n-a-ts="([^"]+)"', page)
+        if sg and ts:
+            inner = json.dumps(["garturlreq", [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1, None, None, None,
+                                                None, None, 0, 1], "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0],
+                                aid, int(ts.group(1)), sg.group(1)])
+            body = "f.req=" + urllib_quote(json.dumps([[["Fbv4je", inner, None, "generic"]]]))
+            r = subprocess.run(["curl", "-s", "-m", "20", "-X", "POST", "https://news.google.com/_/DotsSplashUi/data/batchexecute",
+                                "-H", "Content-Type: application/x-www-form-urlencoded;charset=UTF-8", "-d", body],
+                               capture_output=True, text=True, errors="ignore").stdout
+            m = re.search(r'"garturlres\\",\\"(https?://[^\\"]+)', r)
+            if m:
+                cache[aid] = m.group(1)
+                return m.group(1)
+    except Exception:  # noqa: BLE001
+        pass
+    return link
+
+
+def fetch_gnews(src, since):
+    """v6.6.9 Google News 搜尋 RSS（菲律賓平台品牌）：菲律賓在地媒體的平台新聞；標題去掉「 - 媒體名」，連結轉回原文。
+    只轉換近 3 天的條目（太舊的不會用到），一律歸 cat4 菲律賓。"""
+    body = sh(src["endpoint"], 25)
+    items = re.findall(r"<item>(.*?)</item>", body, re.S)
+    if not body or "<rss" not in body:
+        return None, "Google News RSS 沒有回應"
+    try:
+        cache = json.load(open(GNEWS_CACHE, encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        cache = {}
+    out, recent = [], datetime.now(TPE) - timedelta(days=3)
+    for it in items:
+        t = re.search(r"<title>(.*?)</title>", it, re.S)
+        d = re.search(r"<pubDate>(.*?)</pubDate>", it)
+        l = re.search(r"<link>(.*?)</link>", it)
+        sname = re.search(r"<source[^>]*>(.*?)</source>", it, re.S)
+        dt = parse_dt(d.group(1)) if d else None
+        if not dt or not l:
+            continue
+        media = clean(sname.group(1)) if sname else ""
+        title = clean(t.group(1) if t else "")
+        if media and title.endswith(" - " + media):
+            title = title[: -len(media) - 3]
+        url = gnews_decode(clean(l.group(1)), cache) if dt >= recent else clean(l.group(1))
+        out.append({"title": title, "url": url, "dt": dt, "force_cat": "cat4",
+                    "excerpt": f"{media}（Google News：{src['name']}）" + ("" if "news.google.com" not in url else "｜原文網址未轉換，用標題搜尋原文")})
+        time.sleep(0.3)
+    try:
+        os.makedirs(os.path.dirname(GNEWS_CACHE), exist_ok=True)
+        json.dump(dict(list(cache.items())[-800:]), open(GNEWS_CACHE, "w", encoding="utf-8"), ensure_ascii=False)
+    except Exception:  # noqa: BLE001
+        pass
     return out, None
 
 
@@ -382,14 +451,14 @@ def main():
     srcs = read_sources()
     feeds, seen_ep = [], set()
     for s in srcs:
-        if s["way"] in ("WP-API", "RSS", "Sitemap") and s["endpoint"] and s["endpoint"] not in seen_ep:
+        if s["way"] in ("WP-API", "RSS", "Sitemap", "GoogleNews") and s["endpoint"] and s["endpoint"] not in seen_ep:
             seen_ep.add(s["endpoint"])
             feeds.append(s)
 
     health, items = [], []
 
     def job(s):
-        fn = {"WP-API": fetch_wp, "Sitemap": fetch_sitemap}.get(s["way"], fetch_rss)
+        fn = {"WP-API": fetch_wp, "Sitemap": fetch_sitemap, "GoogleNews": fetch_gnews}.get(s["way"], fetch_rss)
         try:
             res, err = fn(s, since)
         except Exception as e:  # 單一來源出錯不影響其他來源

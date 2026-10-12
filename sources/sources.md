@@ -1,4 +1,4 @@
-# iGaming Daily Report — 資訊來源清單（共 233 個來源）
+# iGaming Daily Report — 資訊來源清單（共 240 個來源）
 
 > 核心關注：Game Provider 產品動向、玩法設計、營運調整；盤口平台動態；市場數據與趨勢。
 > ⚠️ 本檔由 `sources/igaming-daily-report-sources-v2.xlsx` 自動產生。
@@ -65,7 +65,7 @@
 
 ---
 
-## 產業媒體（102）
+## 產業媒體（109）
 
 | 名稱 | URL | 抓取方式 | 頻率 | 抓取端點 | 觸發關鍵字 | 展期 | 備註 |
 |------|-----|------|------|------|------|------|------|
@@ -171,6 +171,13 @@
 | BusinessWorld | https://www.bworldonline.com/ | RSS | 每日 | https://bworldonline.com/feed/ |  |  | 菲律賓財經媒體（v6.4 新增）；DigiPlus／Bloomberry 等上市公司動態 |
 | DigiPlus | https://digiplus.com.ph/news/ | RSS | 每日 | https://digiplus.com.ph/feed/ |  |  | ★DigiPlus 官網新聞（v6.4 新增）；BingoPlus／ArenaPlus／GameZone 主來源 |
 | EEGaming（Recent Slot Releases） | https://eegaming.org/category/recent-slot-releases | RSS | 每日 | https://eegaming.org/feed |  |  | Slot 新作通稿集中地（v6.4 新增）；每週五另有 Weekend Reels 整理；v6.5 改用全站 RSS（精確發布時間、免費） |
+| Google News：BingoPlus | https://news.google.com/ | GoogleNews | 每日 | https://news.google.com/rss/search?q=%22BingoPlus%22%20when%3A3d&hl=en-PH&gl=PH&ceid=PH:en |  |  | v6.6.9 菲律賓平台品牌的在地媒體報導（BusinessMirror、Manila Times、Inquirer…）；連結由程式轉回原文；一律歸 cat4 |
+| Google News：ArenaPlus | https://news.google.com/ | GoogleNews | 每日 | https://news.google.com/rss/search?q=%22ArenaPlus%22%20when%3A3d&hl=en-PH&gl=PH&ceid=PH:en |  |  | v6.6.9 菲律賓平台品牌的在地媒體報導（BusinessMirror、Manila Times、Inquirer…）；連結由程式轉回原文；一律歸 cat4 |
+| Google News：GameZone | https://news.google.com/ | GoogleNews | 每日 | https://news.google.com/rss/search?q=%22GameZone%22%20%28DigiPlus%20OR%20Philippines%20OR%20tongits%20OR%20PAGCOR%20OR%20GZone%29%20when%3A3d&hl=en-PH&gl=PH&ceid=PH:en |  |  | v6.6.9 菲律賓平台品牌的在地媒體報導（BusinessMirror、Manila Times、Inquirer…）；連結由程式轉回原文；一律歸 cat4 |
+| Google News：Casino Plus | https://news.google.com/ | GoogleNews | 每日 | https://news.google.com/rss/search?q=%22Casino%20Plus%22%20Philippines%20when%3A3d&hl=en-PH&gl=PH&ceid=PH:en |  |  | v6.6.9 菲律賓平台品牌的在地媒體報導（BusinessMirror、Manila Times、Inquirer…）；連結由程式轉回原文；一律歸 cat4 |
+| Google News：PlayTime／PT Gaming | https://news.google.com/ | GoogleNews | 每日 | https://news.google.com/rss/search?q=%28%22PlayTime%20Entertainment%22%20OR%20%22PT%20Gaming%22%20OR%20%22PlayTime%22%20PAGCOR%20OR%20%22PlayTime%22%20sponsorship%20OR%20%22PlayTime%22%20NCAA%29%20when%3A3d&hl=en-PH&gl=PH&ceid=PH:en |  |  | v6.6.9 菲律賓平台品牌的在地媒體報導（BusinessMirror、Manila Times、Inquirer…）；連結由程式轉回原文；一律歸 cat4 |
+| Google News：OKBet | https://news.google.com/ | GoogleNews | 每日 | https://news.google.com/rss/search?q=%22OKBet%22%20when%3A3d&hl=en-PH&gl=PH&ceid=PH:en |  |  | v6.6.9 菲律賓平台品牌的在地媒體報導（BusinessMirror、Manila Times、Inquirer…）；連結由程式轉回原文；一律歸 cat4 |
+| Google News：BET88 | https://news.google.com/ | GoogleNews | 每日 | https://news.google.com/rss/search?q=%22BET88%22%20when%3A3d&hl=en-PH&gl=PH&ceid=PH:en |  |  | v6.6.9 菲律賓平台品牌的在地媒體報導（BusinessMirror、Manila Times、Inquirer…）；連結由程式轉回原文；一律歸 cat4 |
 
 ---
 

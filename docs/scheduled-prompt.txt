@@ -57,6 +57,8 @@
 - 週六日報是檢查點：比對 Weekend Reels 與 BigWinBoard 本週新作，漏收的標「📋 本週補遺」，算在 3 款內
 - iGamingToday 只當次要來源，不可當唯一來源
 - 其他分類當天沒有合格新聞就從庫存補 1 則；3 天內出現過的不再出現
+- 4～7 天前出現過的同一款／同一事件（含不同媒體報導同一件事），沒有新進展不可再收；有新進展標 🔁（v6.6.9，定稿檢查會比對）
+- 菲律賓區：harvest 的「Google News：<品牌>」候選是平台在地新聞（BingoPlus／ArenaPlus／GameZone／Casino Plus／PlayTime…），優先看；業配性質的活動稿可收，但內文寫明是品牌發布
 - 補位一定照 B 分：跳過的高分庫存若不能用，要在原稿最後的內部紀錄寫「剔除：名稱（原因）」，否則定稿檢查會擋（v6.6.4）
 - 寫進庫存（stock）前確認有真實遊戲頁或新聞網址、分類正確（賓果／Crash 歸 cat2）
 - 排序用 SKILL.md 的 `B+E+R+T+H` 公式（H＝熱門 IP 加分：Huff N' Puff、Bao Zhu Zhao Fu、SuperGems 的新作 +3、排 Slot 區最前、預告放寬到 30 天內），再套 D 與三個硬上限、平手規則

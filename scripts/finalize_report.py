@@ -284,11 +284,54 @@ def check_dupes(rep, day, qa):
             tb, gb = split(b["title"])
             if R.same_item(ta, ga, tb, gb, 0.9):
                 qa.err(f"{cb}-{b['no']:02d} {tb[:24]}", f"與同份日報 {ca}-{a['no']:02d}「{ta[:24]}」疑似重複")
+    # v6.6.9 重複修正：過去 7 天的日報用過同一個來源連結（同一篇報導）→ 同一事件；沒標 🔁 就不可再收
+    #（10/1、10/5 兩天都收了 Casino Plus × Peter & Sons，隔 4 天剛好躲過 3 天去重）
+    past_urls = {}
+    for back in range(1, 8):
+        pd_ = (day - timedelta(days=back)).isoformat()
+        mdp = os.path.join(ROOT, "state", f"{pd_}-igaming-report.md")
+        if not os.path.exists(mdp):
+            continue
+        for psec in R.parse_md(open(mdp, encoding="utf-8").read())["sections"]:
+            for pit in psec["items"]:
+                for _, u in pit["sources"]:
+                    path = re.sub(r"^https?://[^/]+", "", u).strip("/")
+                    if path.count("/") >= 1 or len(path) > 25:        # 列表頁、首頁不算（例：/new-slots/）
+                        past_urls.setdefault(u.rstrip("/"), (pd_, pit["title"][:24]))
+    # 專有名詞比對：同一分類、7 天內，標題的英文專有名詞幾乎一樣（≥3 個相同、重疊 ≥60%）→ 同一事件（不同媒體報導同一件事）
+    def names(t):
+        return {w.lower() for w in re.findall(r"[A-Z][A-Za-z0-9'&.]+|[A-Z]{2,}", t)} - {"the", "and", "of", "for", "gp", "ph"}
+    past_items = []
+    for back in range(1, 8):
+        pd_ = (day - timedelta(days=back)).isoformat()
+        mdp = os.path.join(ROOT, "state", f"{pd_}-igaming-report.md")
+        if os.path.exists(mdp):
+            for psec in R.parse_md(open(mdp, encoding="utf-8").read())["sections"]:
+                past_items += [(pd_, psec["cat"], pit["title"]) for pit in psec["items"]]
+    for c, it in flat:
+        if it["label"].startswith("🔁") or c in ("cat1", "cat2"):
+            continue
+        mine = names(it["title"])
+        for pd_, pc, pt in past_items:
+            theirs = names(pt)
+            common = mine & theirs
+            if pc == c and len(common) >= 3 and len(common) / max(len(mine | theirs), 1) >= 0.6:
+                qa.err(f"{c}-{it['no']:02d} {it['title'][:24]}",
+                       f"與 {pd_} 日報「{pt[:24]}」疑似同一事件（{'、'.join(sorted(common))}）；沒有新進展就拿掉，有新進展標 🔁 並寫出新進展")
+                break
+    for c, it in flat:
+        if it["label"].startswith("🔁"):
+            continue
+        hit = next((past_urls[u.rstrip("/")] for _, u in it["sources"] if u.rstrip("/") in past_urls), None)
+        if hit:
+            qa.err(f"{c}-{it['no']:02d} {it['title'][:24]}",
+                   f"與 {hit[0]} 日報「{hit[1]}」用了同一篇報導（7 天內同一事件）；沒有新進展就拿掉，有新進展標 🔁 並寫出新進展")
+
     inv_path = os.path.join(ROOT, "state", "inventory.json")
     if not os.path.exists(inv_path):
         return
     hist = json.load(open(inv_path, encoding="utf-8")).get("history", [])
-    recent = [h for h in hist if 1 <= (day - date.fromisoformat(h["date"][:10])).days <= 3]
+    recent = [h for h in hist if 1 <= (day - date.fromisoformat(h["date"][:10])).days <= 7]   # v6.6.9：3 → 7 天
     for c, it in flat:
         t, g = split(it["title"])
         for h in recent:
@@ -296,7 +339,7 @@ def check_dupes(rep, day, qa):
             if not R.same_item(t, g, h.get("title", ""), h.get("gp", ""), 0.9 if game else 0.8):
                 continue
             where = f"{c}-{it['no']:02d} {t[:24]}"
-            msg = f"與 {h['date']} 日報「{h.get('title', '')[:24]}」疑似重複（3 天去重）"
+            msg = f"與 {h['date']} 日報「{h.get('title', '')[:24]}」疑似重複（7 天內同一款／同一事件；超過 3 天要有新進展並標 🔁）"
             if it["label"].startswith("🔁"):
                 qa.warn(where, msg + "，已標 🔁")
             elif game:
