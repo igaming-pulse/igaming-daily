@@ -189,7 +189,15 @@ class TestTiers(unittest.TestCase):
         self.assertIn("標準", self.tier(400))           # 23
         self.assertIn("節約", self.tier(290))           # 16
         self.assertIn("保命", self.tier(250))           # 14
-        self.assertIn("保命", self.tier(99, today="2026-10-13"))   # 低於 100 一律保命
+        self.assertIn("保命", self.tier(99, today="2026-10-01"))   # 低於 100 一律保命（離重置還遠）
+
+    def test_sprint(self):
+        # v6.6.12 週期末衝刺：離重置 ≤2 天，剩餘點數在重置前用完（保留 10），不受 100 點保命限制
+        t, info = H.pick_tier({"remaining": 172, "period_end": "2026-10-14"}, date(2026, 10, 13))
+        self.assertIn("衝刺", t[0]); self.assertEqual(info["budget"], 81)
+        t, info = H.pick_tier({"remaining": 92, "period_end": "2026-10-14"}, date(2026, 10, 14))
+        self.assertIn("衝刺", t[0]); self.assertEqual(info["budget"], 82)
+        self.assertIn("保命", self.tier(25, today="2026-10-13"))   # 幾乎用完就不衝
 
     def test_no_credit_info(self):
         self.assertIn("標準", H.pick_tier(None, date(2026, 9, 28))[0][0])

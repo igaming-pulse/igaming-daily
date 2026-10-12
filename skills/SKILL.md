@@ -919,6 +919,7 @@ PAGCOR 官方公告與規範；實體賭場（Okada Manila、Solaire、NUSTAR、
 
 - **v6.6.10**（2026-10-12）**官方上線日檢查**：harvest 累積上線日曆 `state/release-calendar.json`，定稿檢查擋下「官方上線日在 7 天以後」的 Slot（熱門 IP 30 天）；起因：10/12 重跑版收了上線日 10/22 的《Wrappin' More Gold》
 - **v6.6.11**（2026-10-12）**Firecrawl 用量顯示**：定稿時程式算本日用量（harvest 開跑剩餘 − 定稿剩餘）、剩餘點數、下次重置日（API 查不到就用 `state/firecrawl-reset.json` 的 anchor 每月加一，標「推估」），寫進 `state/health/credits.json` 與 report.json；日報文末統計列下一行、Telegram 存檔首頁連結上一行自動帶出，**Claude 不用手寫**
+- **v6.6.12**（2026-10-12）**Firecrawl 週期末衝刺**：離官方重置日（API billingPeriodEnd）≤2 天時改「🔥 衝刺」級——預算 ＝（剩餘 − 保留 10）÷ 到重置日為止的日報次數（含當天），不受 100 點保命限制；輪掃 6、配圖額度 15、文章上限 ＝ 預算 − 列表 − 配圖；harvest 檔頭要求 Claude 用到至少八成，每則讀原文＋第二來源全文、配圖規格抓不到直接 Firecrawl
 
 - **v6.6.9**（2026-10-12）① **Google News 搜尋 RSS**：BingoPlus、ArenaPlus、GameZone、Casino Plus、PlayTime／PT Gaming、OKBet、BET88 各一條（`harvest.py` 的 `fetch_gnews`，連結自動轉回媒體原文，一律歸 cat4）；起因：DigiPlus 官網一個月只 2–3 則且以集團為主，平台新聞在菲律賓在地媒體（Google News 近 30 天 BingoPlus 11、ArenaPlus 11、GameZone 9 則，我們只抓到 1 則）；② **7 天同一事件去重**：同一篇報導連結、同一款遊戲、標題專有名詞幾乎相同 → 定稿檢查判錯（回測抓到 5 起真實重複）
 

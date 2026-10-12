@@ -60,6 +60,15 @@ TIERS = [  # (名稱, 預算下限, 輪掃, 事件觸發, 展會, 週一固定, 
     ("🟠 節約", 15, 0, 1, 1, 0, 10, "停輪掃；文章只給 Slot／非 Slot，其他分類用 WebSearch"),
     ("🔴 保命", -10 ** 9, 0, 0, 0, 0, 0, "只抓 iGamingToday；文章 0，配圖改用 WebFetch 免費抓"),
 ]
+# v6.6.12 週期末衝刺（使用者 2026-10-12 定案）：離重置日 ≤ SPRINT_DAYS 天時，把剩下的點數在重置前用完、搜得更完整。
+#   預算 ＝（剩餘 − 保留 SPRINT_RESERVE）÷ 到重置日為止還有幾次日報（含重置日當天）；不受 CREDIT_FLOOR 保命限制
+#   文章上限 ＝ 預算 − 列表頁 − 配圖額度（不再有固定上限）
+SPRINT_DAYS = 2
+SPRINT_RESERVE = 10
+SPRINT_IMG = 15
+SPRINT = ("🔥 衝刺", 0, 6, 3, 2, 3, 10 ** 6,
+          "週期末衝刺：重置前把點數用完——輪掃加倍；每則 Slot／重點新聞都用 Firecrawl 讀原文＋第二來源全文交叉查證，"
+          "配圖、發布時間、規格表抓不到就用 Firecrawl，不必先省")
 
 # 綜合型媒體（菲律賓在地）整站新聞很多，只留跟博弈有關的
 GENERAL_MEDIA = {"GMA News", "Rappler", "SunStar", "BusinessWorld"}
@@ -422,6 +431,12 @@ def pick_tier(cr, today):
         return t, {"tier": t[0], "budget": None, "note": "查不到剩餘點數，預設標準"}
     end = datetime.fromisoformat(cr["period_end"]).date() if cr["period_end"] else today + timedelta(days=30)
     days = max((end - today).days, 1)
+    if (end - today).days <= SPRINT_DAYS and cr["remaining"] > SPRINT_RESERVE + 20:
+        runs = max((end - today).days, 0) + 1
+        budget = (cr["remaining"] - SPRINT_RESERVE) // runs
+        return SPRINT, {"tier": SPRINT[0], "budget": int(budget), "remaining": cr["remaining"],
+                        "period_end": cr["period_end"], "days_to_reset": runs, "reserve": SPRINT_RESERVE,
+                        "note": SPRINT[7]}
     budget = (cr["remaining"] - CREDIT_RESERVE) // days
     t = TIERS[3] if cr["remaining"] < CREDIT_FLOOR else next(x for x in TIERS if budget >= x[1])
     return t, {"tier": t[0], "budget": int(budget), "remaining": cr["remaining"], "period_end": cr["period_end"],
@@ -656,7 +671,9 @@ def main():
     budget = tinfo["budget"]
     art_limit = art_cap if budget is None else max(0, min(art_cap, budget - spent_lists))
     # v6.6.6 使用者定案：配圖優先，另給 Firecrawl 額度（不佔文章上限）；保命級不給
-    img_extra = {"🟢": 12, "🟡": 10, "🟠": 6}.get(tinfo["tier"][:1], 0)
+    img_extra = {"🟢": 12, "🟡": 10, "🟠": 6, "🔥": SPRINT_IMG}.get(tinfo["tier"][:1], 0)
+    if tier is SPRINT and budget is not None:
+        art_limit = max(0, budget - spent_lists - img_extra)
     tinfo.update({"lists_spent": spent_lists, "article_limit": art_limit, "image_extra": img_extra})
     meta = {"date": date, "window": [w0.strftime("%Y-%m-%d %H:%M"), w1.strftime("%Y-%m-%d %H:%M")],
             "generated": now.strftime("%Y-%m-%d %H:%M"), "feeds": len(feeds), "firecrawl": tinfo}
@@ -690,9 +707,12 @@ def main():
          f"## 💳 Firecrawl 今日分級：{tinfo['tier']}",
          "",
          (f"- 剩餘 {tinfo['remaining']} 點，{tinfo['period_end']} 重置（{tinfo['days_to_reset']} 天）；"
-          f"今日預算 ＝（{tinfo['remaining']} − 保留 {CREDIT_RESERVE}）÷ {tinfo['days_to_reset']} ＝ **{tinfo['budget']} 點**"
+          f"今日預算 ＝（{tinfo['remaining']} − 保留 {tinfo['reserve']}）÷ {tinfo['days_to_reset']} ＝ **{tinfo['budget']} 點**"
           if tinfo.get("remaining") is not None else f"- {tinfo['note']}"),
          f"- 程式已用 {spent_lists} 點抓列表頁 → **Claude 今天 Firecrawl 抓文章最多 {art_limit} 次**（硬上限，用完改 WebSearch／WebFetch）",
+         *([f"- 🔥 **衝刺目標：今天請把 Firecrawl 用到接近 {art_limit} 次（至少八成）**——重置後沒用完的點數會作廢。"
+            f"用法：每則入選都用 Firecrawl 讀原文全文＋至少一個第二來源全文；候選裡分數接近門檻的也抓原文再判斷；"
+            f"配圖／規格表／發布時間 page_meta 拿不到就直接 Firecrawl；輪掃與觸發來源的列表頁逐篇點進去讀"] if tier is SPRINT else []),
          f"- 🖼️ **配圖另外可再用 Firecrawl {img_extra} 次**（不佔上面的文章上限；只用在免費方式找不到圖的那幾則）",
          f"- 本級規則：{tinfo['note']}",
          ""]

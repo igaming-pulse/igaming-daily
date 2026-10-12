@@ -90,7 +90,7 @@ def check_credits(day, alerts, info):
                        "daily_basis": f"近 {len(uses)} 天實際" if uses else "預設上限",
                        "days_to_reset": left_days, "need_until_reset": need}
     rem = cr["remaining"]
-    if rem < CREDIT_FLOOR:
+    if rem < CREDIT_FLOOR and (left_days is None or left_days > 2):   # v6.6.12 週期末衝刺本來就會用到低點
         alerts.append(f"🔴 Firecrawl 額度只剩 {rem} 點（{cr['period_end']} 重置），低於警戒線 {CREDIT_FLOOR}；"
                       f"建議暫停加碼抓取、只留第二層列表頁")
     elif need is not None and rem < need:
