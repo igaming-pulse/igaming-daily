@@ -497,6 +497,11 @@ def main():
             qa.warn("文末", f"查詢網站數 N1（{rep['stats']['n1']}）小於實際來源數 {n2}，已調成 {n2}")
             rep["stats"]["n1"] = n2
 
+    # v6.6.11：Firecrawl 本日用量／剩餘／下次重置日 → 文末統計列下一行（特別版不跑收集，不顯示）
+    if not a.check_only and not rep.get("edition"):
+        import firecrawl_usage as FU
+        rep["firecrawl"] = FU.usage(day)
+
     base = os.path.splitext(os.path.basename(md))[0].replace("-igaming-report", "")
     with open(os.path.join(ROOT, "state", f"{base}-report.json"), "w", encoding="utf-8") as f:
         json.dump(rep, f, ensure_ascii=False, indent=1)

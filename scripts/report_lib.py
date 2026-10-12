@@ -243,6 +243,7 @@ CSS = """  :root{
   .hero{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;margin-top:10px;display:block;background:#eee}
   .stats-line{max-width:860px;margin:26px auto 0;text-align:center;font-size:13.5px;color:#1A2230;line-height:1.8}
   .stats-line b{color:#B31217;font-weight:800}
+  .stats-line.fc-line{margin-top:4px}
   footer{text-align:center;margin-top:30px;color:var(--sub);font-size:12px}
   @media(max-width:600px){.sec-title h2{font-size:22px}}"""
 
@@ -294,6 +295,20 @@ def _card(cat, it):
     return "\n".join(L)
 
 
+def firecrawl_line(fc):
+    """v6.6.11：文末第二行 Firecrawl 用量。沒有資料就不顯示。"""
+    if not fc:
+        return ""
+    parts = []
+    if fc.get("used") is not None:
+        parts.append(f"本日使用 Firecrawl <b>{fc['used']}</b> 點")
+    if fc.get("remaining") is not None:
+        parts.append(f"剩餘 <b>{fc['remaining']}</b> 點")
+    if fc.get("reset"):
+        parts.append(f"下次重置日 <b>{fc['reset']}</b>" + ("（推估）" if fc.get("reset_source") == "estimate" else ""))
+    return f'<div class="stats-line fc-line">{"，".join(parts)}</div>' if parts else ""
+
+
 def render_html(rep):
     d = rep["date"]
     wd = WEEKDAY[date.fromisoformat(d).weekday()]
@@ -342,6 +357,7 @@ def render_html(rep):
 
 {"".join(body)}
 <div class="stats-line">本日日報查詢約 <b>{st["n1"]}</b> 個網站，其中提取 <b>{st["n2"]}</b> 個資料來源並進行交叉比對</div>
+{firecrawl_line(rep.get("firecrawl"))}
 
 <footer>
   iGaming 日報自動化 {VERSION}・每則皆附真實可點擊原文連結・多來源交叉查證<br>

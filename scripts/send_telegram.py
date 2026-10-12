@@ -93,6 +93,23 @@ def send(token, chat_id, text, button_url=None, dry=False):
     return True
 
 
+def firecrawl_text(date):
+    """v6.6.11：Firecrawl 剩餘用量（finalize_report.py 寫進 state/<DATE>-report.json），放在存檔首頁連結上面。"""
+    try:
+        with open(os.path.join(ROOT, "state", f"{date}-report.json"), encoding="utf-8") as f:
+            fc = json.load(f).get("firecrawl") or {}
+    except (OSError, ValueError):
+        return ""
+    parts = []
+    if fc.get("used") is not None:
+        parts.append(f"本日用 {fc['used']} 點")
+    if fc.get("remaining") is not None:
+        parts.append(f"剩餘 {fc['remaining']} 點")
+    if fc.get("reset"):
+        parts.append(f"下次重置 {fc['reset']}" + ("（推估）" if fc.get("reset_source") == "estimate" else ""))
+    return "💳 Firecrawl：" + "，".join(parts) if parts else ""
+
+
 def main():
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     chat_id = os.environ.get("TELEGRAM_CHAT_ID")
@@ -145,6 +162,9 @@ def main():
 
     # ---------- 正常推播 ----------
     text = pending_text
+    fc = firecrawl_text(date)
+    if fc and "Firecrawl" not in text:
+        text += f"\n\n{fc}"
     if INDEX_URL not in text:
         text += f"\n\n📚 日報存檔首頁：{INDEX_URL}"
 

@@ -74,6 +74,8 @@ def check_credits(day, alerts, info):
     rec = hist.get(day.isoformat())
     rec = rec if isinstance(rec, dict) else ({"start": rec} if isinstance(rec, int) else {})
     rec["end"] = cr["remaining"]
+    if isinstance(rec.get("start"), int) and rec["start"] >= rec["end"]:
+        rec["used"] = rec["start"] - rec["end"]
     hist[day.isoformat()] = rec
     hist = dict(sorted(hist.items())[-40:])
     jsave(CREDITS, hist)
