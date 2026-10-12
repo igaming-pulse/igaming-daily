@@ -3,19 +3,19 @@
  "alerts": [],
  "info": {
   "credits": {
-   "remaining": 195,
+   "remaining": 172,
    "plan": 1000,
    "period_end": "2026-10-14",
-   "today_use": 18,
-   "daily_use": 24,
+   "today_use": 41,
+   "daily_use": 27,
    "daily_basis": "近 7 天實際",
    "days_to_reset": 2,
-   "need_until_reset": 48
+   "need_until_reset": 54
   },
   "tier": {
    "tier": "🟢 充裕",
-   "budget": 96,
-   "remaining": 213,
+   "budget": 87,
+   "remaining": 195,
    "period_end": "2026-10-14",
    "days_to_reset": 2,
    "reserve": 20,
@@ -25,22 +25,23 @@
    "image_extra": 12
   },
   "sources": {
-   "total": 101,
+   "total": 108,
    "failed_today": [
-    "AGIMEG"
+    "SunStar",
+    "Jdigital"
    ],
    "streak_3d": []
   },
   "candidates": {
-   "today": 43,
+   "today": 51,
    "median_same_type": 49,
    "basis_days": 5,
    "type": "週末窗"
   },
   "qa": {
    "errors": 0,
-   "warnings": 10,
-   "fixes": 1
+   "warnings": 15,
+   "fixes": 0
   }
  }
 }

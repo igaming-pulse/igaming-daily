@@ -2,36 +2,39 @@
  "date": "2026-10-12",
  "md": "state/2026-10-12-igaming-report.md",
  "html": "reports/2026-10-12.html",
- "items": 15,
+ "items": 16,
  "counts": {
   "cat1": 6,
   "cat2": 1,
   "cat3": 4,
   "cat4": 2,
-  "cat5": 2
+  "cat5": 3
  },
  "links": {
-  "checked": 43,
-  "ok": 34,
+  "checked": 48,
+  "ok": 35,
   "broken": 0,
-  "blocked": 9,
+  "blocked": 13,
   "images_dropped": 0,
-  "images": 15
+  "images": 16
  },
  "errors": [],
  "warnings": [
-  "cat1-06 HyperCore – Snowborn Gam｜與 cat1-01 Big Bass Splash Hallowee 用了同一個來源連結",
-  "cat2-01 Avanti Studios 談 AI 荷官：不｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/interviews/2026/10/11/215726/gustaf-hagman-avanti-studios-interview/",
-  "cat3-02 Games Global 取得西維吉尼亞牌照，進｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/usa/11/10/2026/games-global-expands-into-fifth-us-igaming-market-with-west-virginia-entry/",
-  "cat3-04 Genting Berhad 擬配股募資 3.0｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/11/genting-bhd-proposes-us306-million-rights-issue-to-cut-debt-with-lim-family-backing/",
-  "cat3-04 Genting Berhad 擬配股募資 3.0｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/intel/11/10/2026/maybank-warns-genting-berhad-may-need-more-equity-funding-after-306m-rights-issue/",
-  "cat4-01 Century Entertainment 擴大｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/philippines/11/10/2026/century-entertainment-broadens-philippine-gaming-ties-ahead-of-resumption-deadline/",
-  "cat4-02 澳門與菲律賓航權擴大：每週座位上限提高至雙方各 ｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/macau/11/10/2026/macau-and-philippines-raise-manila-seat-limit-to-20000-weekly-per-side/",
-  "cat5-01 澳門維持 2026 年 GGR 預測 2,360｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/macau/11/10/2026/macau-keeps-29-2b-ggr-forecast-despite-four-months-of-declines/",
-  "cat5-01 澳門維持 2026 年 GGR 預測 2,360｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/11/macaus-chief-executive-says-no-consideration-given-to-lowering-this-years-ggr-forecast/",
-  "cat5-01 澳門維持 2026 年 GGR 預測 2,360｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB 黃金週 https://agbrief.com/news/macau/11/10/2026/macau-golden-week-hotel-occupancy-rises-to-91-3-while-room-rates-soften/"
+  "cat1-04 HyperCore – Snowborn Gam｜與 cat1-01 Big Bass Halloween Splas 用了同一個來源連結",
+  "cat1-06 Grand Voyage: Hold The S｜與 cat1-01 Big Bass Halloween Splas 用了同一個來源連結",
+  "cat1-02 Wrappin' More Gold – Pla｜來源連結無法自動驗證（403，多半是網站擋機器人）：SlotCatalog https://slotcatalog.com/en/slots/wrappin-more-gold",
+  "cat1-04 HyperCore – Snowborn Gam｜來源連結無法自動驗證（403，多半是網站擋機器人）：SlotCatalog https://slotcatalog.com/en/slots/hypercore",
+  "cat1-06 Grand Voyage: Hold The S｜來源連結無法自動驗證（403，多半是網站擋機器人）：SlotCatalog https://slotcatalog.com/en/slots/grand-voyage-hold-the-spin",
+  "cat2-01 AI 數位荷官 Live Casino – Av｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/interviews/2026/10/11/215726/gustaf-hagman-avanti-studios-interview/",
+  "cat3-01 FA CHAI 在 SBC 首次展出 Power｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/set-sail-for-valhalla-fa-chai-gamings-power-of-vikings-unleashes-mega-symbols-and-gold-frame-mechanic",
+  "cat3-02 Games Global 取得西維吉尼亞牌照，美｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/usa/11/10/2026/games-global-expands-into-fifth-us-igaming-market-with-west-virginia-entry/",
+  "cat4-01 Century Entertainment 入股｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/philippines/11/10/2026/century-entertainment-broadens-philippine-gaming-ties-ahead-of-resumption-deadline/",
+  "cat4-02 澳門—馬尼拉航線座位上限提高至每週 2 萬席｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/macau/11/10/2026/macau-and-philippines-raise-manila-seat-limit-to-20000-weekly-per-side/",
+  "cat5-01 澳門維持 2026 年 2,360 億澳門元 G｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/macau/11/10/2026/macau-keeps-29-2b-ggr-forecast-despite-four-months-of-declines/",
+  "cat5-01 澳門維持 2026 年 2,360 億澳門元 G｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/11/macaus-chief-executive-says-no-consideration-given-to-lowering-this-years-ggr-forecast/",
+  "cat5-02 韓國賭場股重挫：中國資本管制、韓元走強與觀光基金｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/12/korea-casino-stocks-plummet-as-china-headwinds-strong-won-and-levy-concerns-weigh-on-sentiment/",
+  "cat5-03 Genting Bhd 擬配售 3.06 億美元｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/11/genting-bhd-proposes-us306-million-rights-issue-to-cut-debt-with-lim-family-backing/",
+  "cat5-03 Genting Bhd 擬配售 3.06 億美元｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/intel/11/10/2026/maybank-warns-genting-berhad-may-need-more-equity-funding-after-306m-rights-issue/"
  ],
- "fixes": [
-  "文末｜資料來源數 30 → 27（程式依來源連結去重計算）"
- ]
+ "fixes": []
 }
