@@ -349,6 +349,43 @@ def check_dupes(rep, day, qa):
             break
 
 
+# ─────────────────────────── 4-b. 官方上線日檢查（v6.6.10） ───────────────────────────
+HOT_IP = re.compile(r"huff ?n'? ?puff|huff n´puff|bao zhu zhao fu|爆竹招福|super ?gems?", re.I)
+
+
+def check_release(rep, day, qa):
+    """Slot 的官方上線日在 7 天以後（熱門 IP 30 天）→ 還不能上日報，要放庫存「待上線」。
+    上線日來源：state/release-calendar.json（harvest 從 Play'n GO 官網、SlotsLaunch、BigWinBoard 累積）＋ 庫存的 release_date。"""
+    cal = []
+    try:
+        cal += list(json.load(open(os.path.join(ROOT, "state", "release-calendar.json"), encoding="utf-8")).values())
+    except (OSError, ValueError):
+        pass
+    try:
+        inv = json.load(open(os.path.join(ROOT, "state", "inventory.json"), encoding="utf-8"))
+        cal += [{"name": x["title"], "gp": x.get("gp", ""), "release": x["release_date"], "source": "庫存"}
+                for x in inv.get("slots", []) if x.get("release_date")]
+    except (OSError, ValueError):
+        pass
+    if not cal:
+        return
+    for sec in rep["sections"]:
+        if sec["cat"] != "cat1":
+            continue
+        for it in sec["items"]:
+            parts = re.split(r"\s+[–—-]\s+", it["title"], maxsplit=1)
+            name, gp = parts[0], (parts[1] if len(parts) > 1 else "")
+            hit = next((c for c in cal if R.same_item(name, gp, c["name"], c.get("gp", ""))), None)
+            if not hit:
+                continue
+            ahead = (date.fromisoformat(hit["release"]) - day).days
+            limit = 30 if HOT_IP.search(name) else 7
+            if ahead > limit:
+                qa.err(f"cat1-{it['no']:02d} {it['title'][:24]}",
+                       f"官方上線日 {hit['release']}（{hit['source']}），距今 {ahead} 天、超過 {limit} 天：還不能上日報，"
+                       f"請拿掉並放進庫存（待上線，寫 release_date），依分數遞補")
+
+
 # ─────────────────────────── 5. 庫存使用檢查（v6.6.4） ───────────────────────────
 
 def _mentioned(title, text):
@@ -448,6 +485,8 @@ def main():
         links["images"] = sum(1 for s in rep["sections"] for it in s["items"] if it["image"] and not it.get("image_dropped"))
     check_dupes(rep, day, qa)
     check_inventory_use(rep, day, qa)
+    if not rep.get("edition"):
+        check_release(rep, day, qa)
     # v6.5：「提取 N2 個資料來源」改由程式算 —— 全部則的來源連結去重後的數量（SKILL.md「📊 文末統計列」定義）
     n2 = len({u for sec in rep["sections"] for it in sec["items"] for _, u in it["sources"]})
     if rep.get("stats"):

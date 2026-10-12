@@ -647,6 +647,10 @@ ATG（`https://atg-games.com/zh-tw`）同列特別追蹤，判準與下述三家
 harvest 清單裡每區的「窗外近期」也是庫存候選（Slot 近 7 天、其他近 3 天），可以直接取用，但一樣要標 📦。
 **從庫存補的項目不佔「當日新聞」的時間窗規則**，但主來源必須在保鮮期內。
 
+**官方上線日檢查（v6.6.10）**：harvest 每天把 Play'n GO 官網、SlotsLaunch 上線日曆、BigWinBoard 的官方上線日累積到 `state/release-calendar.json`（含 7 天以後的遠期新作）。
+`finalize_report.py` 會比對日報上每款 Slot：**官方上線日在 7 天以後**（熱門 IP 30 天）→ 判定錯誤，要拿掉、放進庫存（寫 release_date，待上線）並遞補。
+媒體提前評測不算上線（例：10/12《Wrappin' More Gold》用 10/7 評測當 📦 補位，但官網上線日是 10/22）。
+
 **去重（3 天規則＋7 天同一事件，v6.6.9）**：`inventory.py show` 的「近 3 天已出現」清單裡的項目不可再出現；
 「4～7 天前出現過」的同一款遊戲／同一事件，**沒有新進展也不可再收**（不同媒體報導同一件事也算同一事件）。
 `finalize_report.py` 會比對過去 7 天日報：同一篇報導連結、同一款遊戲、標題英文專有名詞幾乎相同 → 判定錯誤。
@@ -912,6 +916,8 @@ PAGCOR 官方公告與規範；實體賭場（Okada Manila、Solaire、NUSTAR、
 ---
 
 ## 版本沿革
+
+- **v6.6.10**（2026-10-12）**官方上線日檢查**：harvest 累積上線日曆 `state/release-calendar.json`，定稿檢查擋下「官方上線日在 7 天以後」的 Slot（熱門 IP 30 天）；起因：10/12 重跑版收了上線日 10/22 的《Wrappin' More Gold》
 
 - **v6.6.9**（2026-10-12）① **Google News 搜尋 RSS**：BingoPlus、ArenaPlus、GameZone、Casino Plus、PlayTime／PT Gaming、OKBet、BET88 各一條（`harvest.py` 的 `fetch_gnews`，連結自動轉回媒體原文，一律歸 cat4）；起因：DigiPlus 官網一個月只 2–3 則且以集團為主，平台新聞在菲律賓在地媒體（Google News 近 30 天 BingoPlus 11、ArenaPlus 11、GameZone 9 則，我們只抓到 1 則）；② **7 天同一事件去重**：同一篇報導連結、同一款遊戲、標題專有名詞幾乎相同 → 定稿檢查判錯（回測抓到 5 起真實重複）
 

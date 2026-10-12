@@ -456,6 +456,7 @@ def main():
             feeds.append(s)
 
     health, items = [], []
+    releases = []   # v6.6.10 官方上線日（含 7 天以後的遠期新作），存進 state/release-calendar.json 給定稿檢查比對
 
     def job(s):
         fn = {"WP-API": fetch_wp, "Sitemap": fetch_sitemap, "GoogleNews": fetch_gnews}.get(s["way"], fetch_rss)
@@ -494,6 +495,8 @@ def main():
             else:
                 inw = w0 <= it["dt"] < w1
             age_days = (w1 - it["dt"]).total_seconds() / 86400
+            if it.get("date_only") and "上線日" in it.get("excerpt", ""):
+                releases.append({"title": it["title"], "release": it["dt"].strftime("%Y-%m-%d"), "source": s["name"]})
             if age_days < -SLOT_LOOKBACK_DAYS:
                 continue  # 上線日在 7 天以後的預告：日報不收（SKILL.md），也不列
             if not inw and not (cat == "cat1" and age_days <= SLOT_LOOKBACK_DAYS) \
@@ -508,6 +511,22 @@ def main():
 
     for s, res, err in results:
         ingest(s, res, err)
+
+    # v6.6.10 上線日曆：累積各來源的官方上線日（保留上線日在 30 天前以後的），finalize_report.py 用來擋「上線日在 7 天以後」的 Slot
+    cal_path = os.path.join(ROOT, "state", "release-calendar.json")
+    try:
+        cal = json.load(open(cal_path, encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        cal = {}
+    for r in releases:
+        parts = re.split(r"\s+—\s+", r["title"], maxsplit=1)
+        name, gp = parts[0].strip(), (parts[1].strip() if len(parts) > 1 else "")
+        k = re.sub(r"[^0-9a-z]+", "", f"{name}|{gp}".lower())
+        cal[k] = {"name": name, "gp": gp, "release": r["release"], "source": r["source"], "seen": date if a.date else now.strftime("%Y-%m-%d")}
+    cutoff = (w1 - timedelta(days=30)).strftime("%Y-%m-%d")
+    cal = {k: v for k, v in cal.items() if v["release"] >= cutoff}
+    with open(cal_path, "w", encoding="utf-8") as f:
+        json.dump(dict(sorted(cal.items())), f, ensure_ascii=False, indent=0)
 
     # 同一網址去重（Focus 的多個地區版共用同一個 feed 等）
     def dedupe(xs):
