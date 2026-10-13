@@ -66,6 +66,7 @@ TIERS = [  # (名稱, 預算下限, 輪掃, 事件觸發, 展會, 週一固定, 
 SPRINT_DAYS = 2
 SPRINT_RESERVE = 10
 SPRINT_IMG = 15
+SPRINT_CLAUDE_KEEP = 15   # 衝刺級預抓原文後，留給 Claude 自己查證／補抓的點數
 SPRINT = ("🔥 衝刺", 0, 6, 3, 2, 3, 10 ** 6,
           "週期末衝刺：重置前把點數用完——輪掃加倍；每則 Slot／重點新聞都用 Firecrawl 讀原文＋第二來源全文交叉查證，"
           "配圖、發布時間、規格表抓不到就用 Firecrawl，不必先省")
@@ -390,8 +391,8 @@ def guess_cat(title, excerpt):
     return "cat3"
 
 
-def firecrawl(url, key):
-    body = json.dumps({"url": url, "formats": ["markdown"], "onlyMainContent": False, "maxAge": 3600000})
+def firecrawl(url, key, main_only=False):
+    body = json.dumps({"url": url, "formats": ["markdown"], "onlyMainContent": main_only, "maxAge": 3600000})
     for attempt in range(3):
         r = subprocess.run(["curl", "-s", "-X", "POST", "https://api.firecrawl.dev/v1/scrape",
                             "-H", f"Authorization: Bearer {key}", "-H", "Content-Type: application/json",
@@ -675,6 +676,43 @@ def main():
     if tier is SPRINT and budget is not None:
         art_limit = max(0, budget - spent_lists - img_extra)
     tinfo.update({"lists_spent": spent_lists, "article_limit": art_limit, "image_extra": img_extra})
+    # v6.6.13 衝刺級：程式直接用 Firecrawl 預抓窗內候選原文（Slot 優先），保證點數在重置前用掉，Claude 查證時直接讀全文
+    prefetched = 0
+    if tier is SPRINT and key and not a.no_firecrawl and not a.plan and budget is not None:
+        n_pre = max(0, art_limit - SPRINT_CLAUDE_KEEP)
+        # 新聞原文優先（上線日曆／遊戲頁內容短、放最後）；各分類輪流取，Slot 一輪取 2 篇
+        seen, groups, tail = set(), {c: [] for c in ("cat1", "cat4", "cat5", "cat3", "cat2")}, []
+        for i in sorted(items, key=lambda x: x.get("published") or "", reverse=True):
+            u = i.get("url") or ""
+            if not i.get("in_window") or not u.startswith("http") or "news.google.com" in u or u in seen:
+                continue
+            seen.add(u)
+            (tail if i.get("date_only") else groups.setdefault(i.get("guess") or "cat3", [])).append(i)
+        pool = []
+        while any(groups.values()):
+            for c in ("cat1", "cat1", "cat4", "cat5", "cat3", "cat2"):
+                if groups.get(c):
+                    pool.append(groups[c].pop(0))
+        pool += tail
+        pool = pool[:n_pre]
+        fdir = os.path.join(OUT_DIR, f"{date}-fulltext")
+        os.makedirs(fdir, exist_ok=True)
+
+        def _grab(arg):
+            n, it = arg
+            md, err = firecrawl(it["url"], key, main_only=True)
+            if md:
+                fn = f"{n:03d}.md"
+                with open(os.path.join(fdir, fn), "w", encoding="utf-8") as f:
+                    f.write(f"<!-- {it['title']} | {it['url']} -->\n\n{md}")
+                it["fulltext"] = f"state/harvest/{date}-fulltext/{fn}"
+            return 1   # 失敗也可能扣點，保守都算
+
+        with cf.ThreadPoolExecutor(max_workers=3) as ex:
+            prefetched = sum(ex.map(_grab, enumerate(pool, 1)))
+        art_limit = max(0, art_limit - prefetched)
+        tinfo.update({"article_limit": art_limit, "prefetched": prefetched,
+                      "prefetched_ok": sum(1 for i in pool if i.get("fulltext"))})
     meta = {"date": date, "window": [w0.strftime("%Y-%m-%d %H:%M"), w1.strftime("%Y-%m-%d %H:%M")],
             "generated": now.strftime("%Y-%m-%d %H:%M"), "feeds": len(feeds), "firecrawl": tinfo}
     # 開跑時的剩餘點數記下來，health_alert.py 收尾再記一次 → 得到今天的實際用量
@@ -710,6 +748,8 @@ def main():
           f"今日預算 ＝（{tinfo['remaining']} − 保留 {tinfo['reserve']}）÷ {tinfo['days_to_reset']} ＝ **{tinfo['budget']} 點**"
           if tinfo.get("remaining") is not None else f"- {tinfo['note']}"),
          f"- 程式已用 {spent_lists} 點抓列表頁 → **Claude 今天 Firecrawl 抓文章最多 {art_limit} 次**（硬上限，用完改 WebSearch／WebFetch）",
+         *([f"- 📄 **程式已用 Firecrawl 預抓 {tinfo.get('prefetched_ok', 0)} 篇窗內候選原文**（標「📄 原文已預抓」，存在 state/harvest/{date}-fulltext/），"
+            f"查證直接讀這些檔，不要再對同一網址用 Firecrawl"] if tinfo.get("prefetched") else []),
          *([f"- 🔥 **衝刺目標：今天請把 Firecrawl 用到接近 {art_limit} 次（至少八成）**——重置後沒用完的點數會作廢。"
             f"用法：每則入選都用 Firecrawl 讀原文全文＋至少一個第二來源全文；候選裡分數接近門檻的也抓原文再判斷；"
             f"配圖／規格表／發布時間 page_meta 拿不到就直接 Firecrawl；輪掃與觸發來源的列表頁逐篇點進去讀"] if tier is SPRINT else []),
@@ -734,7 +774,8 @@ def main():
             if per_src[i["source"]] > cap and not i["source"].startswith(("BigWinBoard", "iGamingToday")):
                 skipped += 1
                 continue
-            L.append(f"- ✅ {i['published']} | {i['source']} | {i['title']} | {i['url']}")
+            L.append(f"- ✅ {i['published']} | {i['source']} | {i['title']} | {i['url']}"
+                     + (f" | 📄 原文已預抓：{i['fulltext']}" if i.get("fulltext") else ""))
         if skipped:
             L.append(f"- （另有 {skipped} 則同來源議題未列出，完整清單見 {date}.json）")
         if cal:

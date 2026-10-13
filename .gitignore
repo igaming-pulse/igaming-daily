@@ -5,3 +5,4 @@ state/harvest/*-lists/
 state/telegram-bot.offset
 slots/
 state/gnews-urls.json
+state/harvest/*-fulltext/
