@@ -1,0 +1,48 @@
+{
+ "date": "2026-10-14",
+ "md": "state/2026-10-14-igaming-report.md",
+ "html": "reports/2026-10-14.html",
+ "items": 21,
+ "counts": {
+  "cat1": 6,
+  "cat2": 3,
+  "cat3": 5,
+  "cat4": 4,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 70,
+  "ok": 54,
+  "broken": 0,
+  "blocked": 16,
+  "images_dropped": 0,
+  "images": 19
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-02 Power Puff – Red Tiger G｜與 cat1-01 Thunder vs Underworld 25 用了同一個來源連結",
+  "cat1-05 Fat Cats DoubleMax – Ref｜與 cat1-01 Thunder vs Underworld 25 用了同一個來源連結",
+  "cat1-06 Gold Wired – Foxium｜與 cat1-01 Thunder vs Underworld 25 用了同一個來源連結",
+  "cat1-01 Thunder vs Underworld 25｜來源連結無法自動驗證（403，多半是網站擋機器人）：SlotCatalog https://slotcatalog.com/en/slots/thunder-vs-underworld-250",
+  "cat1-02 Power Puff – Red Tiger G｜來源連結無法自動驗證（403，多半是網站擋機器人）：SlotCatalog https://slotcatalog.com/en/slots/power-puff",
+  "cat1-03 Khepri's Reelic – Zitro｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/13/zitro-says-significant-interest-in-new-games-for-fantasy-and-concept-cabinets-at-recent-g2e-trade-show/",
+  "cat1-05 Fat Cats DoubleMax – Ref｜來源連結無法自動驗證（403，多半是網站擋機器人）：SlotCatalog https://slotcatalog.com/en/slots/fat-cats-doublemax",
+  "cat1-06 Gold Wired – Foxium｜來源連結無法自動驗證（403，多半是網站擋機器人）：SlotCatalog https://slotcatalog.com/en/slots/gold-wired",
+  "cat2-02 Flash Jack – CT Interact｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/ct-interactive-flash-jack-palms-bet-bulgaria",
+  "cat2-03 Kiron 虛擬運動 20 款上架 Sporty｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Future https://igamingfuture.com/sportybet-kiron-virtual-sports/",
+  "cat3-02 BetMGM：Game of Thrones 是｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Expert https://igamingexpert.com/news/games/game-of-thrones-betmgm-igaming-record/",
+  "cat3-03 紐西蘭線上賭場牌照拍賣結果出爐：Stake、En｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/13/skycity-entain-and-stake-among-11-entities-to-progress-through-new-zealands-online-casino-license-auction/",
+  "cat3-04 TaDa Gaming 拉美負責人：鞏固墨西哥、｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Brazil https://igamingbrazil.com/cobertura-eventos/2026/10/13/exclusivo-heitor-langa-fala-dos-planos-da-tada-gaming-para-a-america-latina-e-lamenta-situacao-do-brasil/",
+  "cat4-01 BingoPlus 推「延遲賠償保證」：快速提款｜來源連結無法自動驗證（403，多半是網站擋機器人）：BusinessMirror https://businessmirror.com.ph/2026/10/13/bingoplus-brings-more-confidence-through-delay-compensation-guarantee/",
+  "cat4-02 🔁 Peter & Sons 遊戲正式在 Cas｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Future https://igamingfuture.com/peter-sons-2/",
+  "cat4-03 Casino Plus 冠名 2026 Mass｜來源連結無法自動驗證（403，多半是網站擋機器人）：BusinessMirror https://businessmirror.com.ph/2026/10/13/casino-plus-brings-hataw-masskara-to-bacolod-as-official-presenter-of-masskara-festival-2026-zeinab-moonstar88-baby-dolls-to-headline-3-day-concert/",
+  "cat5-01 bet365 美加 9 月 Slot 榜：系列作｜來源連結無法自動驗證（403，多半是網站擋機器人）：SBC Americas https://sbcamericas.com/2026/10/13/bet365-online-slots-september-2026/",
+  "cat5-03 Jefferies：澳門 10 月 GGR 恐年｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/macau/13/10/2026/macau-october-ggr-forecast-to-fall-7-weakness-into-november-jefferies/",
+  "cat5-03 Jefferies：澳門 10 月 GGR 恐年｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/macau-daily-ggr-at-us90mln-oct-5-to-11-consensus-on-full-month-challenging-ubs",
+  "cat4-01 BingoPlus 推「延遲賠償保證」：快速提款｜各來源都找不到可用的配圖",
+  "cat4-03 Casino Plus 冠名 2026 Mass｜各來源都找不到可用的配圖"
+ ],
+ "fixes": [
+  "文末｜資料來源數 50 → 48（程式依來源連結去重計算）"
+ ]
+}

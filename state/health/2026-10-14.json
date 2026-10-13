@@ -1,0 +1,49 @@
+{
+ "date": "2026-10-14",
+ "alerts": [],
+ "info": {
+  "credits": {
+   "remaining": 49,
+   "plan": 1000,
+   "period_end": "2026-10-14",
+   "today_use": 86,
+   "daily_use": 36,
+   "daily_basis": "近 7 天實際",
+   "days_to_reset": 0,
+   "need_until_reset": 0
+  },
+  "tier": {
+   "tier": "🔥 衝刺",
+   "budget": 125,
+   "remaining": 135,
+   "period_end": "2026-10-14",
+   "days_to_reset": 1,
+   "reserve": 10,
+   "note": "週期末衝刺：重置前把點數用完——輪掃加倍；每則 Slot／重點新聞都用 Firecrawl 讀原文＋第二來源全文交叉查證，配圖、發布時間、規格表抓不到就用 Firecrawl，不必先省",
+   "lists_spent": 11,
+   "article_limit": 15,
+   "image_extra": 15,
+   "prefetched": 84,
+   "prefetched_ok": 66
+  },
+  "sources": {
+   "total": 111,
+   "failed_today": [
+    "Find More Africa",
+    "Casino Life & Business Romania"
+   ],
+   "streak_3d": []
+  },
+  "candidates": {
+   "today": 525,
+   "median_same_type": 504,
+   "basis_days": 5,
+   "type": "平日窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 21,
+   "fixes": 1
+  }
+ }
+}

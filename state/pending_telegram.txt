@@ -1,45 +1,43 @@
-🎰 iGaming 市場日報 2026-10-13（週二）
-🎰 Slot 5 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 4
+🎰 iGaming 市場日報 2026-10-14（週三）
+🎰 Slot 6 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 4 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Spinomenal Tiger Charms：3×3 鎖符號重轉，滿盤最高 x25
-・ArenaPlus 談同場過關與社群化，運彩平台轉型方向
-・Pragmatic 包辦歐洲 9 月 Slot 榜前二，Hacksaw 股價重挫 27%
+・Pragmatic《Thunder vs Underworld 250》上線：RTP 98.01%、最高 25,000x
+・BingoPlus 推延遲賠償：快速提款超時最高補 ₱5,000
+・bet365 美加 9 月榜：Cash Eruption、Huff N' Puff 系列稱霸
 
 🎰 Slot 新遊戲
-01 Tiger Charms – Spinomenal
-02 Witchcraft Riches – BGaming
-03 Deus da Fortuna – PopOK Gaming
-04 Flor de Muerto – GAMOMAT
-05 Kebab Super Pot – Amusnet
+01 Thunder vs Underworld 250 – Pragmatic Play
+02 Power Puff – Red Tiger Gaming
+03 Khepri's Reelic – Zitro
+04 Elvis Presley: Viva Las Jackpots – Octoplay
+05 Fat Cats DoubleMax – Reflex Gaming
+06 Gold Wired – Foxium
 
 🕹️ 非 Slot 新內容
-01 Phoenix Roulette x2000 – ENJOY
-02 Voltmania – GoldenRace
-03 Vabanq Live 輪盤與百家樂 – NOVOMATIC Italia
+01 New JetX – SmartSoft Gaming
+02 Flash Jack – CT Interactive
+03 Kiron 虛擬運動 20 款上架 SportyBet 非洲五國
 
 🤝 動態：主流 GP／平台
-01 TaDa Gaming 推出 TaDa Jackpot，營運商免逐款整合即可掛載
-02 Aristocrat 展示 Buffalo Boom 新機台，加入「Boom or Bust」風險獎勵玩法
-03 Playson 經 Light & Wonder 聚合平台上架南非 World Sports Betting
-04 Evoplay 上架秘魯 Te Apuesto，結合最大零售通路
-05 Hard Rock Casino 取得荷蘭 KSA 核准，跨足線上運彩
+01 Yggdrasil 經 Microgame 上架 ZonaGioco，覆蓋義大利約 95% 線上賭場品牌
+02 BetMGM：Game of Thrones 是史上最成功的遊戲上線，Q3 iGaming 4.83 億美元
+03 紐西蘭線上賭場牌照拍賣：Stake、Entain 等 11 家取得申請權
+04 TaDa Gaming 拉美負責人：鞏固墨西哥、委內瑞拉，準備進入南美新市場
+05 Kendoo 首度進軍比利時，上架 Starcasino
 
 🇵🇭 動態：菲律賓 GP／平台
-01 ArenaPlus 談運彩產品設計：給玩家更多控制、不增加複雜度
-02 菲律賓爭取擴大中國旅客免簽範圍，全年目標 640 萬國際旅客
+01 BingoPlus 推「延遲賠償保證」：快速提款超時最高補償 ₱5,000
+02 🔁 Peter & Sons 遊戲正式在 Casino Plus 上線
+03 Casino Plus 冠名 2026 MassKara 節，巴科洛德辦 18 天 Hataw MassKara
+04 ArenaPlus 公布亞運數據：Alex Eala 準決賽投注量是首輪近 5 倍
 
 📊 市場數據 & 趨勢
-01 9 月 Slot 排行：Pragmatic 包辦歐洲前二，Gates of Olympus Super Scatter 登加拿大第一
-02 Hacksaw Gaming 預告第三季營收成長放緩，股價重挫逾 27%
-03 Blask 估算：巴西禁令 10 天讓合法業者損失 13.5 億雷亞爾 GGR
-04 CLSA 預估澳門第三季 EBITDA 年減 11%，佣金回饋吃掉利潤
+01 bet365 美加 9 月 Slot 榜：系列作稱霸
+02 🔁 義大利 9 月線上 Slot 供應商市占：Playtech 11.7% 居首
+03 Jefferies：澳門 10 月 GGR 恐年減 7%
 
 📝 品質備註（本次爬找判斷）
-1. 本次 05:05 才開跑（晚於 02:30），重跑 harvest 超過 10 分鐘被終止，沿用 02:34 為止的候選窗；harvest 18 個來源失敗（GGRAsia、GMA、Rappler、SunStar、BusinessWorld 等菲律賓來源多數失敗），屬抓取異常，菲律賓區偏薄。
-2. Slot 窗內合格 5 款、庫存可補 0 款，未達 7 款；Red Tiger Power Puff、Hacksaw Epic SixSixSix 只有上線日曆、查無含日期新聞稿，未收。
-3. Stake 巴西禁制令遭撤銷、Century 菲律賓合作、Ring of Wealth 等為近幾天已收同一事件，未重複收錄；EEZE 查無新消息。
-
-⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：Casino Inside Romania（5 天）、AGIMEG（3 天）；請檢查網址或改抓取方式
-2. 🟠 今天有 25/109 個來源抓取失敗（≥20%），可能是網路或被擋
+1. 窗內候選 525 則、來源失敗 1 個（Find More Africa），新聞量正常。Slot 大廠 Epic SixSixSix（Hacksaw）、Fruits Fever Blitz On Ice（Spinomenal）只有上線日曆、找不到有日期的主來源，未收；PG Soft《Thunder Reckoning》（10/12）進庫存。
+2. 疑似與前幾天重疊：Peter & Sons × Casino Plus 10/1、10/5 報過合作，今天是正式上線才收（標 🔁）；Casino Plus MassKara 活動 10/9 已有報導，今天收的是 10/13 BusinessMirror 的新稿；義大利 Slot 榜與 10/13 EGR 歐洲榜主題相近（標 🔁）。
+3. EEZE 近 3 天沒有消息，跳過。BingoPlus、Casino Plus 兩則的圖片網站擋外連，沒有配圖。

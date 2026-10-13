@@ -79,35 +79,72 @@
     }
    ],
    "key": "marlinmastersfrozenfrenzy|hacksawgaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Thunder Reckoning",
+   "gp": "PG Soft",
+   "b": 4,
+   "first_seen": "2026-10-14",
+   "sources": [
+    {
+     "name": "BigWinBoard",
+     "url": "https://www.bigwinboard.com/thunder-reckoning-pg-soft-slot-review-demo/",
+     "published": "2026-10-12"
+    }
+   ],
+   "key": "thunderreckoning|pgsoft"
+  },
+  {
+   "cat": "cat1",
+   "title": "Rex's 5 Pot Steakhouse",
+   "gp": "Play'n GO",
+   "b": 4,
+   "first_seen": "2026-10-14",
+   "release_date": "2027-01-14",
+   "sources": [
+    {
+     "name": "iGamingToday",
+     "url": "https://www.igamingtoday.com/rexs-5-pot-steakhouse-slot-review/",
+     "published": "2026-10-13 22:37"
+    }
+   ],
+   "key": "rexs5potsteakhouse|playngo"
+  },
+  {
+   "cat": "cat1",
+   "title": "Triple Gobble Wobble",
+   "gp": "AvatarUX",
+   "b": 1,
+   "first_seen": "2026-10-14",
+   "release_date": "2026-11-06",
+   "sources": [
+    {
+     "name": "iGamingToday",
+     "url": "https://www.igamingtoday.com/triple-gobble-wobble-slot-review/",
+     "published": "2026-10-13 15:08"
+    }
+   ],
+   "key": "triplegobblewobble|avatarux"
+  },
+  {
+   "cat": "cat1",
+   "title": "Gears of Eternia Megaways",
+   "gp": "Four Leaf Gaming",
+   "b": 1,
+   "first_seen": "2026-10-14",
+   "release_date": "2026-11-05",
+   "sources": [
+    {
+     "name": "iGamingToday",
+     "url": "https://www.igamingtoday.com/gears-of-eternia-megaways-slot-review/",
+     "published": "2026-10-13 22:35"
+    }
+   ],
+   "key": "gearsofeterniamegaways|fourleafgaming"
   }
  ],
  "others": [
-  {
-   "cat": "cat3",
-   "title": "Hacksaw Gaming 攜手捷克 Sazka Hry",
-   "first_seen": "2026-10-10",
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/10/09/53069/hacksaw-gaming-enters-into-partnership-with-sazka-hry/",
-     "published": "2026-10-09 14:38"
-    }
-   ],
-   "key": "hacksawgaming攜手捷克sazkahry|"
-  },
-  {
-   "cat": "cat5",
-   "title": "義大利 9 月線上運彩支出 1.06 億歐元月增 44%",
-   "first_seen": "2026-10-10",
-   "sources": [
-    {
-     "name": "AgiproNews",
-     "url": "https://www.agipronews.it/scommesse-online-a-settembre-la-spesa-sale-a-106-milioni-di-euro-44-lottomatica-leader-davanti-a-flutter-bet365-sul-podio",
-     "published": "2026-10-09 20:46"
-    }
-   ],
-   "key": "義大利9月線上運彩支出106億歐元月增44|"
-  },
   {
    "cat": "cat3",
    "title": "NFL 向最高法院提交法庭之友意見書，預測市場案聚焦州權",
@@ -244,6 +281,62 @@
     }
    ],
    "key": "希臘2026上半年ggr156億歐元線上貢獻88成長|"
+  },
+  {
+   "cat": "cat2",
+   "title": "FARO 歷史紙牌遊戲重新推出",
+   "b": 1,
+   "first_seen": "2026-10-14",
+   "sources": [
+    {
+     "name": "ISA-GUIDE",
+     "url": "https://www.isa-guide.de/isa-casinos/faro-kehrt-zurueck-ein-historisches-kartenspiel-neu-aufgelegt/",
+     "published": "2026-10-13 21:00"
+    }
+   ],
+   "key": "faro歷史紙牌遊戲重新推出|"
+  },
+  {
+   "cat": "cat3",
+   "title": "Just Slots 取得 MGA B2B 牌照後與 Wildz Group 簽內容合約",
+   "b": 1,
+   "first_seen": "2026-10-14",
+   "sources": [
+    {
+     "name": "G3 Newswire",
+     "url": "https://g3newswire.com/just-slots-partners-with-wildz-group-to-bring-original-content-to-eight-operator-brands/",
+     "published": "2026-10-13 17:07"
+    }
+   ],
+   "key": "justslots取得mgab2b牌照後與wildzgroup簽內容合約|"
+  },
+  {
+   "cat": "cat4",
+   "title": "BI 突襲疑似 POGO 據點逮捕 76 名外籍人士",
+   "b": 1,
+   "first_seen": "2026-10-14",
+   "sources": [
+    {
+     "name": "BusinessWorld",
+     "url": "https://bworldonline.com/the-nation/2026/10/13/786666/bi-nabs-76-foreign-nationals-in-alleged-pogo-facility/",
+     "published": "2026-10-13 21:17"
+    }
+   ],
+   "key": "bi突襲疑似pogo據點逮捕76名外籍人士|"
+  },
+  {
+   "cat": "cat5",
+   "title": "Macquarie：2026 年預測市場 taker 交易量將達 1,870 億美元",
+   "b": 1,
+   "first_seen": "2026-10-14",
+   "sources": [
+    {
+     "name": "EGR Intel",
+     "url": "https://www.egr.global/intel/news/macquarie-prediction-market-taker-volume-to-hit-187bn-in-2026/",
+     "published": "2026-10-13 18:28"
+    }
+   ],
+   "key": "macquarie2026年預測市場taker交易量將達1870億美元|"
   }
  ],
  "history": [
@@ -2534,6 +2627,153 @@
    "date": "2026-10-13",
    "cat": "cat5",
    "title": "CLSA 預估澳門第三季 EBITDA 年減 11%",
+   "gp": ""
+  },
+  {
+   "key": "thundervsunderworld250|pragmaticplay",
+   "date": "2026-10-14",
+   "cat": "cat1",
+   "title": "Thunder vs Underworld 250",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "powerpuff|redtigergaming",
+   "date": "2026-10-14",
+   "cat": "cat1",
+   "title": "Power Puff",
+   "gp": "Red Tiger Gaming"
+  },
+  {
+   "key": "kheprisreelic|zitro",
+   "date": "2026-10-14",
+   "cat": "cat1",
+   "title": "Khepri's Reelic",
+   "gp": "Zitro"
+  },
+  {
+   "key": "elvispresleyvivalasjackpots|octoplay",
+   "date": "2026-10-14",
+   "cat": "cat1",
+   "title": "Elvis Presley: Viva Las Jackpots",
+   "gp": "Octoplay"
+  },
+  {
+   "key": "fatcatsdoublemax|reflexgaming",
+   "date": "2026-10-14",
+   "cat": "cat1",
+   "title": "Fat Cats DoubleMax",
+   "gp": "Reflex Gaming"
+  },
+  {
+   "key": "goldwired|foxium",
+   "date": "2026-10-14",
+   "cat": "cat1",
+   "title": "Gold Wired",
+   "gp": "Foxium"
+  },
+  {
+   "key": "newjetx|smartsoftgaming",
+   "date": "2026-10-14",
+   "cat": "cat2",
+   "title": "New JetX",
+   "gp": "SmartSoft Gaming"
+  },
+  {
+   "key": "flashjack|ctinteractive",
+   "date": "2026-10-14",
+   "cat": "cat2",
+   "title": "Flash Jack",
+   "gp": "CT Interactive"
+  },
+  {
+   "key": "kiron虛擬運動20款上架sportybet非洲五國|kiron",
+   "date": "2026-10-14",
+   "cat": "cat2",
+   "title": "Kiron 虛擬運動 20 款上架 SportyBet 非洲五國",
+   "gp": "Kiron"
+  },
+  {
+   "key": "yggdrasil經microgame上架zonagioco|",
+   "date": "2026-10-14",
+   "cat": "cat3",
+   "title": "Yggdrasil 經 Microgame 上架 ZonaGioco",
+   "gp": ""
+  },
+  {
+   "key": "betmgmgameofthrones史上最成功遊戲上線q3igaming483億美元|",
+   "date": "2026-10-14",
+   "cat": "cat3",
+   "title": "BetMGM：Game of Thrones 史上最成功遊戲上線，Q3 iGaming 4.83 億美元",
+   "gp": ""
+  },
+  {
+   "key": "紐西蘭線上賭場牌照拍賣stakeentain等11家取得申請權|",
+   "date": "2026-10-14",
+   "cat": "cat3",
+   "title": "紐西蘭線上賭場牌照拍賣：Stake、Entain 等 11 家取得申請權",
+   "gp": ""
+  },
+  {
+   "key": "tadagaming拉美布局墨西哥委內瑞拉與南美新市場|",
+   "date": "2026-10-14",
+   "cat": "cat3",
+   "title": "TaDa Gaming 拉美布局：墨西哥、委內瑞拉與南美新市場",
+   "gp": ""
+  },
+  {
+   "key": "kendoo進軍比利時starcasino|",
+   "date": "2026-10-14",
+   "cat": "cat3",
+   "title": "Kendoo 進軍比利時 Starcasino",
+   "gp": ""
+  },
+  {
+   "key": "bingoplus延遲賠償保證|",
+   "date": "2026-10-14",
+   "cat": "cat4",
+   "title": "BingoPlus 延遲賠償保證",
+   "gp": ""
+  },
+  {
+   "key": "petersons遊戲正式在casinoplus上線|",
+   "date": "2026-10-14",
+   "cat": "cat4",
+   "title": "Peter & Sons 遊戲正式在 Casino Plus 上線",
+   "gp": ""
+  },
+  {
+   "key": "casinoplus冠名2026masskara節|",
+   "date": "2026-10-14",
+   "cat": "cat4",
+   "title": "Casino Plus 冠名 2026 MassKara 節",
+   "gp": ""
+  },
+  {
+   "key": "arenaplus亞運alexeala投注數據|",
+   "date": "2026-10-14",
+   "cat": "cat4",
+   "title": "ArenaPlus 亞運 Alex Eala 投注數據",
+   "gp": ""
+  },
+  {
+   "key": "bet365美加9月slot榜|",
+   "date": "2026-10-14",
+   "cat": "cat5",
+   "title": "bet365 美加 9 月 Slot 榜",
+   "gp": ""
+  },
+  {
+   "key": "義大利9月線上slot排行與供應商市占|",
+   "date": "2026-10-14",
+   "cat": "cat5",
+   "title": "義大利 9 月線上 Slot 排行與供應商市占",
+   "gp": ""
+  },
+  {
+   "key": "jefferies預估澳門10月ggr年減7|",
+   "date": "2026-10-14",
+   "cat": "cat5",
+   "title": "Jefferies 預估澳門 10 月 GGR 年減 7%",
    "gp": ""
   }
  ],
