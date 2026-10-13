@@ -1,38 +1,45 @@
-🎰 iGaming 市場日報 2026-10-12（週一）
-🎰 Slot 6 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-10-13（週二）
+🎰 Slot 5 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 5 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 4
 
 ⭐ 今日重點
-・PP 萬聖節 Big Bass 新作降為中波動，最高 20,000x
-・Century 入股 PAGCOR GSA 牌照商，分散菲律賓平台風險
-・澳門維持全年 GGR 2,360 億預測，Q4 月均需 163 億
+・Spinomenal Tiger Charms：3×3 鎖符號重轉，滿盤最高 x25
+・ArenaPlus 談同場過關與社群化，運彩平台轉型方向
+・Pragmatic 包辦歐洲 9 月 Slot 榜前二，Hacksaw 股價重挫 27%
 
 🎰 Slot 新遊戲
-01 Big Bass Halloween Splash 1000 – Pragmatic Play
-02 📦 Wrappin' More Gold – Play'n GO
-03 Vituss Britva 2: Phoenix Reborn – TrueLab
-04 📦 HyperCore – Snowborn Games
-05 📦 Maya Relics – Popiplay
-06 📦 Grand Voyage: Hold The Spin – Gamzix
+01 Tiger Charms – Spinomenal
+02 Witchcraft Riches – BGaming
+03 Deus da Fortuna – PopOK Gaming
+04 Flor de Muerto – GAMOMAT
+05 Kebab Super Pot – Amusnet
 
 🕹️ 非 Slot 新內容
-01 AI 數位荷官 Live Casino – Avanti Studios
+01 Phoenix Roulette x2000 – ENJOY
+02 Voltmania – GoldenRace
+03 Vabanq Live 輪盤與百家樂 – NOVOMATIC Italia
 
 🤝 動態：主流 GP／平台
-01 FA CHAI 在 SBC 首次展出 Power of Vikings，加速進軍拉美與歐洲
-02 Games Global 取得西維吉尼亞牌照，美國 iGaming 市場增至 5 州
-03 紐約監理機關擬禁止運彩業者用 AI 個人化推播促銷
-04 Lottomatica 吸收合併 CIRSA 簽定合併計畫，預計 2027 年第二季完成
+01 TaDa Gaming 推出 TaDa Jackpot，營運商免逐款整合即可掛載
+02 Aristocrat 展示 Buffalo Boom 新機台，加入「Boom or Bust」風險獎勵玩法
+03 Playson 經 Light & Wonder 聚合平台上架南非 World Sports Betting
+04 Evoplay 上架秘魯 Te Apuesto，結合最大零售通路
+05 Hard Rock Casino 取得荷蘭 KSA 核准，跨足線上運彩
 
 🇵🇭 動態：菲律賓 GP／平台
-01 Century Entertainment 入股菲律賓 GSA 牌照商，擴大電子賭場合作夥伴
-02 澳門—馬尼拉航線座位上限提高至每週 2 萬席
+01 ArenaPlus 談運彩產品設計：給玩家更多控制、不增加複雜度
+02 菲律賓爭取擴大中國旅客免簽範圍，全年目標 640 萬國際旅客
 
 📊 市場數據 & 趨勢
-01 澳門維持 2026 年 2,360 億澳門元 GGR 預測，第四季月均須達 163 億
-02 韓國賭場股重挫：中國資本管制、韓元走強與觀光基金徵費疑慮
-03 Genting Bhd 擬配售 3.06 億美元附權股還債，林氏家族認購 45%
+01 9 月 Slot 排行：Pragmatic 包辦歐洲前二，Gates of Olympus Super Scatter 登加拿大第一
+02 Hacksaw Gaming 預告第三季營收成長放緩，股價重挫逾 27%
+03 Blask 估算：巴西禁令 10 天讓合法業者損失 13.5 億雷亞爾 GGR
+04 CLSA 預估澳門第三季 EBITDA 年減 11%，佣金回饋吃掉利潤
 
 📝 品質備註（本次爬找判斷）
-1. 窗為週日白天到週一清晨（10/11 08:09～10/12 08:09），harvest 窗內 51 則，以歐美週末淡稿與巴西／義大利在地新聞為主；窗內合格 Slot 只有 2 款，依規則從近 7 天候選補 4 款（📦）。Big Bass Cluster Catch 雖列在 BigWinBoard 10/12，但 SlotCatalog 標 12/12 上線、查無參數，所以沒有收
-2. 菲律賓平台（BingoPlus／ArenaPlus／GameZone／Casino Plus 等）窗內沒有新消息，第三層 WebSearch 6 次也沒找到，菲律賓區只有 2 則；Bloomberry OnlyFun.PH 和 10/8 是同一事件，所以沒有收
-3. EEZE 連續 3 天沒有消息，依例外規則跳過；非 Slot 只有 1 則
+1. 本次 05:05 才開跑（晚於 02:30），重跑 harvest 超過 10 分鐘被終止，沿用 02:34 為止的候選窗；harvest 18 個來源失敗（GGRAsia、GMA、Rappler、SunStar、BusinessWorld 等菲律賓來源多數失敗），屬抓取異常，菲律賓區偏薄。
+2. Slot 窗內合格 5 款、庫存可補 0 款，未達 7 款；Red Tiger Power Puff、Hacksaw Epic SixSixSix 只有上線日曆、查無含日期新聞稿，未收。
+3. Stake 巴西禁制令遭撤銷、Century 菲律賓合作、Ring of Wealth 等為近幾天已收同一事件，未重複收錄；EEZE 查無新消息。
+
+⚙️ 系統警報
+1. 🟠 來源連續失敗 ≥3 天：Casino Inside Romania（5 天）、AGIMEG（3 天）；請檢查網址或改抓取方式
+2. 🟠 今天有 25/109 個來源抓取失敗（≥20%），可能是網路或被擋

@@ -1,0 +1,38 @@
+{
+ "date": "2026-10-13",
+ "md": "state/2026-10-13-igaming-report.md",
+ "html": "reports/2026-10-13.html",
+ "items": 19,
+ "counts": {
+  "cat1": 5,
+  "cat2": 3,
+  "cat3": 5,
+  "cat4": 2,
+  "cat5": 4
+ },
+ "links": {
+  "checked": 58,
+  "ok": 47,
+  "broken": 0,
+  "blocked": 11,
+  "images_dropped": 0,
+  "images": 19
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-01 Tiger Charms – Spinomena｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Future https://igamingfuture.com/spinomenal-celebrates-good-fortune-with-tiger-charms/",
+  "cat1-03 Deus da Fortuna – PopOK ｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/world/12/10/2026/popok-gaming-launches-chinese-themed-slot-deus-da-fortuna/",
+  "cat1-03 Deus da Fortuna – PopOK ｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/popok-gaming-deus-da-fortuna-slot",
+  "cat3-01 TaDa Gaming 推出 TaDa Jack｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/tada-gaming-tada-jackpot-launch",
+  "cat3-03 Playson 經 Light & Wonder｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Future https://igamingfuture.com/playson-world-sports-betting/",
+  "cat3-04 Evoplay 上架秘魯 Te Apuesto，｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Future https://igamingfuture.com/evoplay-te-apuesto/",
+  "cat3-05 Hard Rock Casino 取得荷蘭 KS｜來源連結無法自動驗證（403，多半是網站擋機器人）：SBC News https://sbcnews.co.uk/sportsbook/2026/10/12/hard-rock-casino-dutch-betting/",
+  "cat4-01 ArenaPlus 談運彩產品設計：給玩家更多控｜來源連結無法自動驗證（403，多半是網站擋機器人）：Malaya Business Insight https://malaya.com.ph/business/marketing-board/more-control-less-complexity-how-player-choice-is-reshaping-sportsbook-design/",
+  "cat4-02 菲律賓爭取擴大中國旅客免簽範圍，全年目標 640｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/philippines/12/10/2026/philippines-seeks-wider-chinese-visa-free-access-as-it-targets-6-4m-international-visitors/",
+  "cat5-04 CLSA 預估澳門第三季 EBITDA 年減 1｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/intel/12/10/2026/clsa-forecasts-11-macau-3q26-ebitda-fall-on-weak-ggr-rising-costs/",
+  "cat5-04 CLSA 預估澳門第三季 EBITDA 年減 1｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/12/macau-gaming-tax-collection-up-5-9-in-first-nine-months-of-2026-to-us9-2-billion/"
+ ],
+ "fixes": [
+  "文末｜資料來源數 40 → 39（程式依來源連結去重計算）"
+ ]
+}

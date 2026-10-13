@@ -1,0 +1,27 @@
+{"shown": [
+ {"cat":"cat1","title":"Tiger Charms","gp":"Spinomenal"},
+ {"cat":"cat1","title":"Witchcraft Riches","gp":"BGaming"},
+ {"cat":"cat1","title":"Deus da Fortuna","gp":"PopOK Gaming"},
+ {"cat":"cat1","title":"Flor de Muerto","gp":"GAMOMAT"},
+ {"cat":"cat1","title":"Kebab Super Pot","gp":"Amusnet"},
+ {"cat":"cat2","title":"Phoenix Roulette x2000","gp":"ENJOY"},
+ {"cat":"cat2","title":"Voltmania","gp":"GoldenRace"},
+ {"cat":"cat2","title":"Vabanq Live 輪盤與百家樂","gp":"NOVOMATIC Italia"},
+ {"cat":"cat3","title":"TaDa Gaming 推出 TaDa Jackpot"},
+ {"cat":"cat3","title":"Aristocrat 展示 Buffalo Boom 新機台"},
+ {"cat":"cat3","title":"Playson 經 Light & Wonder 聚合平台上架南非 World Sports Betting"},
+ {"cat":"cat3","title":"Evoplay 上架秘魯 Te Apuesto"},
+ {"cat":"cat3","title":"Hard Rock Casino 取得荷蘭 KSA 核准跨足線上運彩"},
+ {"cat":"cat4","title":"ArenaPlus 談運彩產品設計"},
+ {"cat":"cat4","title":"菲律賓爭取擴大中國旅客免簽範圍"},
+ {"cat":"cat5","title":"9 月 Slot 排行：Pragmatic 包辦歐洲前二"},
+ {"cat":"cat5","title":"Hacksaw Gaming 預告第三季營收成長放緩"},
+ {"cat":"cat5","title":"Blask 估算巴西禁令 10 天損失 13.5 億雷亞爾"},
+ {"cat":"cat5","title":"CLSA 預估澳門第三季 EBITDA 年減 11%"}
+],
+"stock": [
+ {"cat":"cat2","title":"Three Card Poker","gp":"Urgent Games","b":1,"first_seen":"2026-10-13","sources":[{"name":"SlotsLaunch","url":"https://slotslaunch.com/urgent-games/three-card-poker","published":"2026-10-12"}]},
+ {"cat":"cat3","title":"GiG Software 支援 PowerPlay 進軍加拿大亞伯達","first_seen":"2026-10-13","sources":[{"name":"Gaming Intelligence","url":"https://www.gamingintelligence.com/sectors/online-gaming/237144-gig-software-powers-powerplay-launch-in-alberta/","published":"2026-10-12 17:01"}]},
+ {"cat":"cat4","title":"Century Entertainment 新增兩家遊戲內容商分散菲律賓平台依賴","first_seen":"2026-10-13","sources":[{"name":"Times of Casino","url":"https://www.timesofcasino.com/century-philippine-gaming-partnerships/","published":"2026-10-12 20:29"}]},
+ {"cat":"cat5","title":"希臘 2026 上半年 GGR 15.6 億歐元，線上貢獻 88% 成長","first_seen":"2026-10-13","sources":[{"name":"European Gaming","url":"https://europeangaming.eu/portal/latest-news/2026/10/12/215803/greece-gambling-ggr-h1-2026/","published":"2026-10-12 19:47"}]}
+]}

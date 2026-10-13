@@ -1,0 +1,76 @@
+{
+ "date": "2026-10-13",
+ "alerts": [
+  "🟠 來源連續失敗 ≥3 天：Casino Inside Romania（5 天）、AGIMEG（3 天）；請檢查網址或改抓取方式",
+  "🟠 今天有 25/109 個來源抓取失敗（≥20%），可能是網路或被擋"
+ ],
+ "info": {
+  "credits": {
+   "remaining": 136,
+   "plan": 1000,
+   "period_end": "2026-10-14",
+   "today_use": 36,
+   "daily_use": 28,
+   "daily_basis": "近 7 天實際",
+   "days_to_reset": 1,
+   "need_until_reset": 28
+  },
+  "tier": {
+   "tier": "🔥 衝刺",
+   "budget": 81,
+   "remaining": 172,
+   "period_end": "2026-10-14",
+   "days_to_reset": 2,
+   "reserve": 10,
+   "note": "週期末衝刺：重置前把點數用完——輪掃加倍；每則 Slot／重點新聞都用 Firecrawl 讀原文＋第二來源全文交叉查證，配圖、發布時間、規格表抓不到就用 Firecrawl，不必先省",
+   "lists_spent": 9,
+   "article_limit": 57,
+   "image_extra": 15
+  },
+  "sources": {
+   "total": 109,
+   "failed_today": [
+    "AGIMEG",
+    "PressGiochi",
+    "Online Gambling Quarterly",
+    "ISA-GUIDE",
+    "LesCasinos.org",
+    "Interplay Poland",
+    "GreenBelt",
+    "GGRAsia",
+    "iGaming AFRIKA",
+    "AGE Insight",
+    "Find More Africa",
+    "SlotBeats",
+    "GMA News",
+    "Rappler",
+    "SunStar",
+    "BusinessWorld",
+    "Casinos de France",
+    "iGamingToday",
+    "Games Magazine Brasil",
+    "Journal des Casinos",
+    "CasinoNieuws.nl",
+    "Gaming in Holland",
+    "Casino Inside Romania",
+    "ADM Giochi",
+    "GAT Expo"
+   ],
+   "streak_3d": [
+    "Casino Inside Romania",
+    "AGIMEG"
+   ]
+  },
+  "candidates": {
+   "today": 252,
+   "median_same_type": 504,
+   "basis_days": 5,
+   "type": "平日窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 11,
+   "fixes": 1
+  }
+ }
+}

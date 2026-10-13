@@ -83,45 +83,6 @@
  ],
  "others": [
   {
-   "cat": "cat2",
-   "title": "WSOP 年度最佳選手 100 萬美元獎池決戰移師巴哈馬 Paradise",
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/10/08/53064/wsop-sets-1m-player-of-the-year-finale-at-wsop-paradise-in-the-bahamas/",
-     "published": "2026-10-09 03:40"
-    }
-   ],
-   "first_seen": "2026-10-09",
-   "key": "wsop年度最佳選手100萬美元獎池決戰移師巴哈馬paradise|"
-  },
-  {
-   "cat": "cat3",
-   "title": "密西根博彩委員會對 33 家離岸非法業者發停止令",
-   "sources": [
-    {
-     "name": "CDC Gaming",
-     "url": "https://cdcgaming.com/michigan-gaming-regulators-target-33-illegal-offshore-operators/",
-     "published": "2026-10-09 08:29"
-    }
-   ],
-   "first_seen": "2026-10-09",
-   "key": "密西根博彩委員會對33家離岸非法業者發停止令|"
-  },
-  {
-   "cat": "cat5",
-   "title": "江原樂園 60 歲以上佔常客一半",
-   "sources": [
-    {
-     "name": "Inside Asian Gaming",
-     "url": "https://asgam.com/2026/10/09/adults-aged-60-or-more-now-comprise-half-of-regular-repeat-visitors-to-koreas-kangwon-land-casino/",
-     "published": "2026-10-09 05:36"
-    }
-   ],
-   "first_seen": "2026-10-09",
-   "key": "江原樂園60歲以上佔常客一半|"
-  },
-  {
    "cat": "cat3",
    "title": "Hacksaw Gaming 攜手捷克 Sazka Hry",
    "first_seen": "2026-10-10",
@@ -229,6 +190,60 @@
     }
    ],
    "key": "丹麥8月博彩支出下滑運彩大跌|"
+  },
+  {
+   "cat": "cat2",
+   "title": "Three Card Poker",
+   "gp": "Urgent Games",
+   "b": 1,
+   "first_seen": "2026-10-13",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/urgent-games/three-card-poker",
+     "published": "2026-10-12"
+    }
+   ],
+   "key": "threecardpoker|urgentgames"
+  },
+  {
+   "cat": "cat3",
+   "title": "GiG Software 支援 PowerPlay 進軍加拿大亞伯達",
+   "first_seen": "2026-10-13",
+   "sources": [
+    {
+     "name": "Gaming Intelligence",
+     "url": "https://www.gamingintelligence.com/sectors/online-gaming/237144-gig-software-powers-powerplay-launch-in-alberta/",
+     "published": "2026-10-12 17:01"
+    }
+   ],
+   "key": "gigsoftware支援powerplay進軍加拿大亞伯達|"
+  },
+  {
+   "cat": "cat4",
+   "title": "Century Entertainment 新增兩家遊戲內容商分散菲律賓平台依賴",
+   "first_seen": "2026-10-13",
+   "sources": [
+    {
+     "name": "Times of Casino",
+     "url": "https://www.timesofcasino.com/century-philippine-gaming-partnerships/",
+     "published": "2026-10-12 20:29"
+    }
+   ],
+   "key": "centuryentertainment新增兩家遊戲內容商分散菲律賓平台依賴|"
+  },
+  {
+   "cat": "cat5",
+   "title": "希臘 2026 上半年 GGR 15.6 億歐元，線上貢獻 88% 成長",
+   "first_seen": "2026-10-13",
+   "sources": [
+    {
+     "name": "European Gaming",
+     "url": "https://europeangaming.eu/portal/latest-news/2026/10/12/215803/greece-gambling-ggr-h1-2026/",
+     "published": "2026-10-12 19:47"
+    }
+   ],
+   "key": "希臘2026上半年ggr156億歐元線上貢獻88成長|"
   }
  ],
  "history": [
@@ -2386,6 +2401,139 @@
    "date": "2026-10-12",
    "cat": "cat5",
    "title": "Genting Bhd 擬配售 3.06 億美元附權股還債",
+   "gp": ""
+  },
+  {
+   "key": "tigercharms|spinomenal",
+   "date": "2026-10-13",
+   "cat": "cat1",
+   "title": "Tiger Charms",
+   "gp": "Spinomenal"
+  },
+  {
+   "key": "witchcraftriches|bgaming",
+   "date": "2026-10-13",
+   "cat": "cat1",
+   "title": "Witchcraft Riches",
+   "gp": "BGaming"
+  },
+  {
+   "key": "deusdafortuna|popokgaming",
+   "date": "2026-10-13",
+   "cat": "cat1",
+   "title": "Deus da Fortuna",
+   "gp": "PopOK Gaming"
+  },
+  {
+   "key": "flordemuerto|gamomat",
+   "date": "2026-10-13",
+   "cat": "cat1",
+   "title": "Flor de Muerto",
+   "gp": "GAMOMAT"
+  },
+  {
+   "key": "kebabsuperpot|amusnet",
+   "date": "2026-10-13",
+   "cat": "cat1",
+   "title": "Kebab Super Pot",
+   "gp": "Amusnet"
+  },
+  {
+   "key": "phoenixroulettex2000|enjoy",
+   "date": "2026-10-13",
+   "cat": "cat2",
+   "title": "Phoenix Roulette x2000",
+   "gp": "ENJOY"
+  },
+  {
+   "key": "voltmania|goldenrace",
+   "date": "2026-10-13",
+   "cat": "cat2",
+   "title": "Voltmania",
+   "gp": "GoldenRace"
+  },
+  {
+   "key": "vabanqlive輪盤與百家樂|novomaticitalia",
+   "date": "2026-10-13",
+   "cat": "cat2",
+   "title": "Vabanq Live 輪盤與百家樂",
+   "gp": "NOVOMATIC Italia"
+  },
+  {
+   "key": "tadagaming推出tadajackpot|",
+   "date": "2026-10-13",
+   "cat": "cat3",
+   "title": "TaDa Gaming 推出 TaDa Jackpot",
+   "gp": ""
+  },
+  {
+   "key": "aristocrat展示buffaloboom新機台|",
+   "date": "2026-10-13",
+   "cat": "cat3",
+   "title": "Aristocrat 展示 Buffalo Boom 新機台",
+   "gp": ""
+  },
+  {
+   "key": "playson經lightwonder聚合平台上架南非worldsportsbetting|",
+   "date": "2026-10-13",
+   "cat": "cat3",
+   "title": "Playson 經 Light & Wonder 聚合平台上架南非 World Sports Betting",
+   "gp": ""
+  },
+  {
+   "key": "evoplay上架秘魯teapuesto|",
+   "date": "2026-10-13",
+   "cat": "cat3",
+   "title": "Evoplay 上架秘魯 Te Apuesto",
+   "gp": ""
+  },
+  {
+   "key": "hardrockcasino取得荷蘭ksa核准跨足線上運彩|",
+   "date": "2026-10-13",
+   "cat": "cat3",
+   "title": "Hard Rock Casino 取得荷蘭 KSA 核准跨足線上運彩",
+   "gp": ""
+  },
+  {
+   "key": "arenaplus談運彩產品設計|",
+   "date": "2026-10-13",
+   "cat": "cat4",
+   "title": "ArenaPlus 談運彩產品設計",
+   "gp": ""
+  },
+  {
+   "key": "菲律賓爭取擴大中國旅客免簽範圍|",
+   "date": "2026-10-13",
+   "cat": "cat4",
+   "title": "菲律賓爭取擴大中國旅客免簽範圍",
+   "gp": ""
+  },
+  {
+   "key": "9月slot排行pragmatic包辦歐洲前二|",
+   "date": "2026-10-13",
+   "cat": "cat5",
+   "title": "9 月 Slot 排行：Pragmatic 包辦歐洲前二",
+   "gp": ""
+  },
+  {
+   "key": "hacksawgaming預告第三季營收成長放緩|",
+   "date": "2026-10-13",
+   "cat": "cat5",
+   "title": "Hacksaw Gaming 預告第三季營收成長放緩",
+   "gp": ""
+  },
+  {
+   "key": "blask估算巴西禁令10天損失135億雷亞爾|",
+   "date": "2026-10-13",
+   "cat": "cat5",
+   "title": "Blask 估算巴西禁令 10 天損失 13.5 億雷亞爾",
+   "gp": ""
+  },
+  {
+   "key": "clsa預估澳門第三季ebitda年減11|",
+   "date": "2026-10-13",
+   "cat": "cat5",
+   "title": "CLSA 預估澳門第三季 EBITDA 年減 11%",
    "gp": ""
   }
  ],
