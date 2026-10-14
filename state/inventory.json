@@ -19,27 +19,6 @@
   },
   {
    "cat": "cat1",
-   "title": "Rat Royale",
-   "gp": "Pragmatic Play",
-   "b": 4,
-   "first_seen": "2026-10-11",
-   "release_date": "2026-10-22",
-   "sources": [
-    {
-     "name": "iGamingToday",
-     "url": "https://www.igamingtoday.com/rat-royale-slot-review/",
-     "published": "2026-10-11 02:24"
-    },
-    {
-     "name": "SlotsLaunch",
-     "url": "https://slotslaunch.com/pragmatic-play/rat-royale",
-     "published": "2026-10-11"
-    }
-   ],
-   "key": "ratroyale|pragmaticplay"
-  },
-  {
-   "cat": "cat1",
    "title": "Ghost Vision",
    "gp": "Hacksaw Gaming",
    "b": 3,
@@ -79,21 +58,6 @@
     }
    ],
    "key": "marlinmastersfrozenfrenzy|hacksawgaming"
-  },
-  {
-   "cat": "cat1",
-   "title": "Thunder Reckoning",
-   "gp": "PG Soft",
-   "b": 4,
-   "first_seen": "2026-10-14",
-   "sources": [
-    {
-     "name": "BigWinBoard",
-     "url": "https://www.bigwinboard.com/thunder-reckoning-pg-soft-slot-review-demo/",
-     "published": "2026-10-12"
-    }
-   ],
-   "key": "thunderreckoning|pgsoft"
   },
   {
    "cat": "cat1",
@@ -142,35 +106,24 @@
     }
    ],
    "key": "gearsofeterniamegaways|fourleafgaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Ghost Ship Gold",
+   "gp": "Triple Cherry",
+   "b": 1,
+   "first_seen": "2026-10-15",
+   "sources": [
+    {
+     "name": "Sector del Juego",
+     "url": "https://sectordeljuego.com/2026/10/14/ghost-ship-gold-triple-cherry-se-embarca-en-una-aventura-llena-de-oro-y-misterio/",
+     "published": "2026-10-14 13:58"
+    }
+   ],
+   "key": "ghostshipgold|triplecherry"
   }
  ],
  "others": [
-  {
-   "cat": "cat3",
-   "title": "NFL 向最高法院提交法庭之友意見書，預測市場案聚焦州權",
-   "first_seen": "2026-10-11",
-   "sources": [
-    {
-     "name": "iGaming Business",
-     "url": "https://igamingbusiness.com/sports-betting/prediction-market-roundup-10926/",
-     "published": "2026-10-10 04:53"
-    }
-   ],
-   "key": "nfl向最高法院提交法庭之友意見書預測市場案聚焦州權|"
-  },
-  {
-   "cat": "cat5",
-   "title": "巴西博彩財源：Lula 政府每年從警政挪走近 10 億雷亞爾博彩收入",
-   "first_seen": "2026-10-11",
-   "sources": [
-    {
-     "name": "BNLData",
-     "url": "https://bnldata.com.br/lula-promete-seguranca-mas-tirou-das-policias-quase-r-1-bilhao-por-ano-dos-recursos-das-bets/",
-     "published": "2026-10-10 20:54"
-    }
-   ],
-   "key": "巴西博彩財源lula政府每年從警政挪走近10億雷亞爾博彩收入|"
-  },
   {
    "cat": "cat2",
    "title": "Aviajet",
@@ -337,6 +290,62 @@
     }
    ],
    "key": "macquarie2026年預測市場taker交易量將達1870億美元|"
+  },
+  {
+   "cat": "cat2",
+   "title": "Grupo Comar 推出 Comar Poker Tour，七家賭場巡迴",
+   "b": 1,
+   "first_seen": "2026-10-15",
+   "sources": [
+    {
+     "name": "Sector del Juego",
+     "url": "https://sectordeljuego.com/2026/10/14/grupo-comar-presenta-el-comar-poker-tour-un-circuito-en-siete-casinos-con-una-final-en-santander/",
+     "published": "2026-10-14 13:58"
+    }
+   ],
+   "key": "grupocomar推出comarpokertour七家賭場巡迴|"
+  },
+  {
+   "cat": "cat3",
+   "title": "Matchbook 完成收購交易所 Betdaq",
+   "b": 1,
+   "first_seen": "2026-10-15",
+   "sources": [
+    {
+     "name": "iGaming Business",
+     "url": "https://igamingbusiness.com/strategy/ma/matchbook-completes-acquisition-rival-exchange-betdaq/",
+     "published": "2026-10-14 18:21"
+    }
+   ],
+   "key": "matchbook完成收購交易所betdaq|"
+  },
+  {
+   "cat": "cat4",
+   "title": "Melco Foundation 捐贈 39.5 萬美元設備給甲米地紅十字會",
+   "b": 1,
+   "first_seen": "2026-10-15",
+   "sources": [
+    {
+     "name": "Inside Asian Gaming",
+     "url": "https://asgam.com/2026/10/14/melco-foundation-donates-us395000-worth-of-equipment-to-red-cross-cavite/",
+     "published": "2026-10-14 14:00"
+    }
+   ],
+   "key": "melcofoundation捐贈395萬美元設備給甲米地紅十字會|"
+  },
+  {
+   "cat": "cat5",
+   "title": "堪薩斯州實體賭場前 9 月營收近 3.25 億美元",
+   "b": 1,
+   "first_seen": "2026-10-15",
+   "sources": [
+    {
+     "name": "Gaming Intelligence",
+     "url": "https://www.gamingintelligence.com/finance/237197-kansas-land-based-gaming-revenue-nears-325-million-in-9m-2026/",
+     "published": "2026-10-14 17:33"
+    }
+   ],
+   "key": "堪薩斯州實體賭場前9月營收近325億美元|"
   }
  ],
  "history": [
@@ -2774,6 +2783,153 @@
    "date": "2026-10-14",
    "cat": "cat5",
    "title": "Jefferies 預估澳門 10 月 GGR 年減 7%",
+   "gp": ""
+  },
+  {
+   "key": "9orbsofgold|yggdrasil",
+   "date": "2026-10-15",
+   "cat": "cat1",
+   "title": "9 Orbs of Gold",
+   "gp": "Yggdrasil"
+  },
+  {
+   "key": "tarzanunleashed|aristocrat",
+   "date": "2026-10-15",
+   "cat": "cat1",
+   "title": "Tarzan Unleashed",
+   "gp": "Aristocrat"
+  },
+  {
+   "key": "towerruntreasuresteps|playngo",
+   "date": "2026-10-15",
+   "cat": "cat1",
+   "title": "Tower Run Treasure Steps",
+   "gp": "Play'n GO"
+  },
+  {
+   "key": "monopolymoney|bigtimegaming",
+   "date": "2026-10-15",
+   "cat": "cat1",
+   "title": "MONOPOLY Money",
+   "gp": "Big Time Gaming"
+  },
+  {
+   "key": "ratsvsravenscoingrid|maxxilabs",
+   "date": "2026-10-15",
+   "cat": "cat1",
+   "title": "Rats vs Ravens Coin Grid",
+   "gp": "Maxxi Labs"
+  },
+  {
+   "key": "ratroyale|pragmaticplay",
+   "date": "2026-10-15",
+   "cat": "cat1",
+   "title": "Rat Royale",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "thunderreckoning|pgsoft",
+   "date": "2026-10-15",
+   "cat": "cat1",
+   "title": "Thunder Reckoning",
+   "gp": "PG Soft"
+  },
+  {
+   "key": "megawheellatino|pragmaticplay",
+   "date": "2026-10-15",
+   "cat": "cat2",
+   "title": "Mega Wheel Latino",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "solidicon的crashmines與虛擬遊戲上架qtech|solidicon",
+   "date": "2026-10-15",
+   "cat": "cat2",
+   "title": "Solidicon 的 Crash、Mines 與虛擬遊戲上架 QTech",
+   "gp": "Solidicon"
+  },
+  {
+   "key": "amusnet導入vindral即時串流與綠幕製作升級livecasino|amusnet",
+   "date": "2026-10-15",
+   "cat": "cat2",
+   "title": "Amusnet 導入 Vindral 即時串流與綠幕製作升級 Live Casino",
+   "gp": "Amusnet"
+  },
+  {
+   "key": "tadagaming把clovercoins44帶進義大利市場|",
+   "date": "2026-10-15",
+   "cat": "cat3",
+   "title": "TaDa Gaming 把 Clover Coins 4×4 帶進義大利市場",
+   "gp": ""
+  },
+  {
+   "key": "gamingcorps把videoslots合作從瑞典擴大到英國與安大略|",
+   "date": "2026-10-15",
+   "cat": "cat3",
+   "title": "Gaming Corps 把 Videoslots 合作從瑞典擴大到英國與安大略",
+   "gp": ""
+  },
+  {
+   "key": "elagames全產品線加入everymatrix聚合網路|",
+   "date": "2026-10-15",
+   "cat": "cat3",
+   "title": "ELA Games 全產品線加入 EveryMatrix 聚合網路",
+   "gp": ""
+  },
+  {
+   "key": "gamomat首度進軍奧地利經win2day上架|",
+   "date": "2026-10-15",
+   "cat": "cat3",
+   "title": "GAMOMAT 首度進軍奧地利，經 win2day 上架",
+   "gp": ""
+  },
+  {
+   "key": "digiplus退出紐西蘭線上賭場牌照競標|",
+   "date": "2026-10-15",
+   "cat": "cat4",
+   "title": "DigiPlus 退出紐西蘭線上賭場牌照競標",
+   "gp": ""
+  },
+  {
+   "key": "okadamanila第三季ggr112億美元中場賭桌撐起營收|",
+   "date": "2026-10-15",
+   "cat": "cat4",
+   "title": "Okada Manila 第三季 GGR 1.12 億美元，中場賭桌撐起營收",
+   "gp": ""
+  },
+  {
+   "key": "pagcorcasinofilipino營運與監理脫鉤建議本月出爐|",
+   "date": "2026-10-15",
+   "cat": "cat4",
+   "title": "PAGCOR：Casino Filipino 營運與監理「脫鉤」建議本月出爐",
+   "gp": ""
+  },
+  {
+   "key": "加密平台coinsph傳因境外博彩金流遭央行處分|",
+   "date": "2026-10-15",
+   "cat": "cat4",
+   "title": "加密平台 Coins.ph 傳因境外博彩金流遭央行處分",
+   "gp": ""
+  },
+  {
+   "key": "wazdancointobercoins系列如何靠同一公式持續迭代|",
+   "date": "2026-10-15",
+   "cat": "cat5",
+   "title": "Wazdan「Cointober」：Coins™ 系列如何靠同一公式持續迭代",
+   "gp": ""
+  },
+  {
+   "key": "iconic21ai對話荷官正在rng與真人之間開出新品類|",
+   "date": "2026-10-15",
+   "cat": "cat5",
+   "title": "ICONIC21：AI 對話荷官正在 RNG 與真人之間開出新品類",
+   "gp": ""
+  },
+  {
+   "key": "slotegrator報告五大區域在地化做法金流與方言決定留存|",
+   "date": "2026-10-15",
+   "cat": "cat5",
+   "title": "Slotegrator 報告：五大區域在地化做法，金流與方言決定留存",
    "gp": ""
   }
  ],

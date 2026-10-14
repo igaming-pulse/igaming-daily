@@ -68,5 +68,12 @@
   "used": 86,
   "reset": "2026-10-14",
   "reset_source": "api"
+ },
+ "2026-10-15": {
+  "start": 1049,
+  "end": 1036,
+  "used": 13,
+  "reset": "2026-11-14",
+  "reset_source": "api"
  }
 }

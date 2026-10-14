@@ -1,0 +1,42 @@
+{
+ "date": "2026-10-15",
+ "md": "state/2026-10-15-igaming-report.md",
+ "html": "reports/2026-10-15.html",
+ "items": 21,
+ "counts": {
+  "cat1": 7,
+  "cat2": 3,
+  "cat3": 4,
+  "cat4": 4,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 69,
+  "ok": 54,
+  "broken": 0,
+  "blocked": 15,
+  "images_dropped": 0,
+  "images": 21
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-02 Tarzan Unleashed – Arist｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/aristocrat-debuts-tarzan-unleashed-slot-game",
+  "cat1-02 Tarzan Unleashed – Arist｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/usa/14/10/2026/tarzan-unleashed-by-aristocrat-gaming-debuts-on-the-baron-portrait-across-north-america/",
+  "cat1-03 Tower Run Treasure Steps｜來源連結無法自動驗證（403，多半是網站擋機器人）：SlotCatalog https://slotcatalog.com/en/slots/tower-run-treasure-steps",
+  "cat1-06 Rat Royale – Pragmatic P｜來源連結無法自動驗證（403，多半是網站擋機器人）：SlotCatalog https://slotcatalog.com/en/slots/rat-royale",
+  "cat2-01 Mega Wheel Latino – Prag｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/pragmatic-play-mega-wheel-latino",
+  "cat2-03 Amusnet 導入 Vindral 即時串流與｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/amusnet-vindral-live-casino-partnership",
+  "cat3-01 TaDa Gaming 把 Clover Coi｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/tada-gaming-unveils-its-latest-slot-clover-coins-4x4-hit-the-cash",
+  "cat4-01 DigiPlus 退出紐西蘭線上賭場牌照競標｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/15/digiplus-says-it-opted-out-of-new-zealand-online-license-progression-after-further-market-analysis/",
+  "cat4-01 DigiPlus 退出紐西蘭線上賭場牌照競標｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/intel/15/10/2026/digiplus-withdraws-from-new-zealand-online-casino-bid-amid-overseas-expansion-setbacks/",
+  "cat4-02 Okada Manila 第三季 GGR 1.1｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/15/okada-manila-reports-improved-ggr-of-us112-million-in-3q26-as-mass-table-games-offset-further-decline-in-vip/",
+  "cat4-02 Okada Manila 第三季 GGR 1.1｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/philippines/14/10/2026/okada-manila-3q-ebitda-falls-13-despite-12-rise-in-visitors/",
+  "cat4-02 Okada Manila 第三季 GGR 1.1｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/okada-manila-3q-ebitda-down-13pct-despite-mass-gaming-growth",
+  "cat4-03 PAGCOR：Casino Filipino 營｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/10/14/decoupling-high-on-pagcor-agenda-as-casino-filipino-losses-projected-to-hit-us111-million-in-2026/",
+  "cat4-03 PAGCOR：Casino Filipino 營｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/casino-filipino-decoupling-recommendation-due-this-month-tengco",
+  "cat4-04 加密平台 Coins.ph 傳因境外博彩金流遭央｜來源連結無法自動驗證（403，多半是網站擋機器人）：AGB https://agbrief.com/news/philippines/15/10/2026/philippine-crypto-platform-coins-ph-reportedly-faces-bsp-action-over-offshore-gambling-flows/"
+ ],
+ "fixes": [
+  "文末｜資料來源數 50 → 48（程式依來源連結去重計算）"
+ ]
+}
