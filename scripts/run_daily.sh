@@ -133,6 +133,51 @@ launchctl kickstart gui/\$(id -u)/com.igaming.daily-0230" 2>&1 | tee -a "$LOG"
     exit 1 ;;
 esac
 
+# ── 執行中標記（2026-10-15，NAS 主跑＋Mac 05:30 備援）──────────────────────────
+# 開跑前把 state/running-<DATE>.txt 推上 GitHub，讓另一台知道「這台正在跑」。
+# 另一台（備援）看到別台的標記、而且還在 running：每 5 分鐘 git pull 看一次，
+#   日報出來 → 略過；標記變 failed 或等滿 IGAMING_LOCK_WAIT_MIN 分鐘（預設 90）→ 接手。
+# 標記超過 IGAMING_LOCK_STALE_H 小時（預設 5）視為卡死，直接接手。IGAMING_FORCE=1 不看標記。
+MACHINE="${IGAMING_MACHINE:-Mac}"
+LOCK="state/running-${DATE}.txt"
+lock_field() { sed -n "s/^$1=//p" "$LOCK" 2>/dev/null | head -1; }
+lock_push() {   # $1 = running | failed
+  printf 'machine=%s\nstarted=%s\nstatus=%s\nupdated=%s\n' "$MACHINE" "${LOCK_STARTED:-$(date +%s)}" "$1" "$(ts)" > "$LOCK"
+  git add -f "$LOCK" >/dev/null 2>&1
+  git commit -q -m "lock: ${DATE} ${MACHINE} $1" -- "$LOCK" >/dev/null 2>&1
+  git push -q >/dev/null 2>&1 || { git pull -q --rebase >/dev/null 2>&1 && git push -q >/dev/null 2>&1; } \
+    || log "  ⚠️ 執行中標記推不上 GitHub（不影響本次執行）"
+}
+if [ "${IGAMING_FORCE:-0}" != "1" ] && [ -f "$LOCK" ] && [ "$(lock_field machine)" != "$MACHINE" ] \
+   && [ "$(lock_field status)" = "running" ]; then
+  OTHER=$(lock_field machine); STARTED=$(lock_field started)
+  case "$STARTED" in (*[!0-9]*|'') STARTED=0 ;; esac
+  WAIT_MAX=$(( ${IGAMING_LOCK_WAIT_MIN:-90} * 60 )); STALE=$(( ${IGAMING_LOCK_STALE_H:-5} * 3600 ))
+  WAITED=0
+  log "${OTHER} 從 $(TZ=Asia/Taipei date -r "$STARTED" '+%H:%M' 2>/dev/null || TZ=Asia/Taipei date -d "@$STARTED" '+%H:%M') 開始在跑今天的日報，本機（${MACHINE}）先等它"
+  while :; do
+    if [ $(( $(date +%s) - STARTED )) -ge "$STALE" ]; then
+      log "  ${OTHER} 的標記已超過 ${IGAMING_LOCK_STALE_H:-5} 小時，視為卡住 → 本機接手"; break
+    fi
+    if [ "$WAITED" -ge "$WAIT_MAX" ]; then
+      log "  已等 $(( WAITED / 60 )) 分鐘仍未完成 → 本機接手"; break
+    fi
+    sleep 300; WAITED=$(( WAITED + 300 ))
+    git pull --ff-only -q >>"$LOG" 2>&1 || true
+    if git log --since="18 hours ago" --format=%s 2>/dev/null | grep -x "daily: ${DATE} report" >/dev/null \
+       && [ -f "reports/${DATE}.html" ]; then
+      log "  ✓ ${OTHER} 已完成今天的日報，本機略過"
+      log "──────── 結束 ────────"
+      exit 0
+    fi
+    if [ "$(lock_field status)" != "running" ]; then
+      log "  ${OTHER} 回報失敗 → 本機接手"; break
+    fi
+  done
+fi
+LOCK_STARTED=$(date +%s)
+lock_push running
+
 HEAD_BEFORE=$(git rev-parse HEAD 2>/dev/null || echo "none")
 START_EPOCH=$(date +%s)
 
@@ -209,6 +254,7 @@ if [ "$fail" -eq 0 ]; then
   exit 0
 fi
 
+lock_push failed
 log ""
 log "❌❌❌ 本次執行失敗 —— 日報沒產出或沒發布 ❌❌❌"
 # 即時警報（2026-10-11）：判斷最可能的原因，馬上發 Telegram，不等早上的守門員
