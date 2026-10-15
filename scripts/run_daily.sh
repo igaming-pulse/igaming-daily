@@ -22,6 +22,16 @@
 # ============================================================
 set -uo pipefail
 
+# ── 從副本執行（2026-10-16）──────────────────────────────────────
+# bash 是邊跑邊讀腳本檔的。下面的 git pull 若改到本檔，正在跑的程序會從新檔案的舊位置接著讀，
+# 跳段或亂跑（10/16 NAS 第一次跑時「執行中標記」整段被跳過）。所以先複製一份到暫存檔、從副本執行；
+# git pull 之後若本檔有更新，就用新版本從頭重新開始一次。
+if [ -z "${IGAMING_RUN_COPY:-}" ]; then
+  _copy=$(mktemp "${TMPDIR:-/tmp}/run_daily.XXXXXX") && cp "$0" "$_copy" \
+    && IGAMING_RUN_COPY="$_copy" exec /bin/bash "$_copy" "$@"
+fi
+export IGAMING_RUN_COPY
+
 # ── 防睡眠（2026-10-10）──────────────────────────────────────────
 # 10/1、10/5、10/8、10/9、10/10 都是 02:30 準時開跑後 Mac 又睡回去，收集拖 1–2 小時、Claude 卡到早上。
 # 這裡讓整支腳本在 caffeinate -i 底下重新執行：跑完才放開。用電池時也有效（-i＝防閒置睡眠）；闔上螢幕仍會睡（硬體限制）。
@@ -91,6 +101,13 @@ BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "?")
 
 log "git pull…"
 git pull --ff-only >>"$LOG" 2>&1 || log "⚠️ git pull 失敗，用本地版本繼續"
+if [ -z "${IGAMING_REEXEC:-}" ] && ! cmp -s "$IGAMING_RUN_COPY" "$REPO/scripts/run_daily.sh"; then
+  log "run_daily.sh 剛被 git pull 更新 → 用新版本重新開始"
+  rm -f "$IGAMING_RUN_COPY"
+  export IGAMING_REEXEC=1; unset IGAMING_RUN_COPY
+  exec /bin/bash "$REPO/scripts/run_daily.sh" "$@"
+fi
+rm -f "$IGAMING_RUN_COPY"   # bash 已經開著它，刪掉檔名不影響繼續執行
 
 # 提早手動執行後，02:30 的排程就不要再跑一次（2026-10-07）：今天已有成功的日報 commit → 略過
 # 要強制重跑：IGAMING_FORCE=1 bash scripts/run_daily.sh
