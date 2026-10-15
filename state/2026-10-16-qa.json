@@ -1,0 +1,37 @@
+{
+ "date": "2026-10-16",
+ "md": "state/2026-10-16-igaming-report.md",
+ "html": "reports/2026-10-16.html",
+ "items": 18,
+ "counts": {
+  "cat1": 7,
+  "cat2": 2,
+  "cat3": 4,
+  "cat4": 2,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 52,
+  "ok": 47,
+  "broken": 0,
+  "blocked": 4,
+  "images_dropped": 1,
+  "images": 17
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-03 Wonders of Aztec – Pragm｜與 cat1-01 Huff N' Puff Haunted Man 用了同一個來源連結",
+  "cat1-04 Demon Beats – NetEnt｜與 cat1-01 Huff N' Puff Haunted Man 用了同一個來源連結",
+  "cat1-07 The Jade Path Hold & Win｜與 cat1-01 Huff N' Puff Haunted Man 用了同一個來源連結",
+  "cat1-01 Huff N' Puff Haunted Man｜來源連結無法自動驗證（403，多半是網站擋機器人）：Hard Rock Bet https://www.hardrock.bet/?p=46907",
+  "cat4-01 PAGCOR 對陸上賭場設定賭客回饋上限：Slo｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/pagcor-implements-1-50pct-turnover-cap-on-incentives-for-slot-players",
+  "cat4-02 Melco Foundation 捐贈 39.5｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/melco-foundation-donates-us395k-in-equipment-to-philippine-red-cross",
+  "cat5-01 Entain 第三季淨博彩收入成長 2%，英國與｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/latest-news/2026/10/15/216063/entain-q3-2026-trading-update/",
+  "cat4-01 PAGCOR 對陸上賭場設定賭客回饋上限：Slo｜各來源都找不到可用的配圖"
+ ],
+ "fixes": [
+  "cat4-01 PAGCOR 對陸上賭場設定賭客回饋上限：Slo｜配圖打不開（403 text/html），已自動拿掉：https://www.ggrasia.com/wp-content/uploads/2025/11/Solaire-Aristocrat-Dragon-Room-2.jpg",
+  "cat2-01 Plaza Las Vegas 推出「Deale｜自動補上配圖（取自 Casino Life Magazine）：https://www.casinolifemagazine.com/sites/default/files/clm_logo.png",
+  "文末｜資料來源數 40 → 32（程式依來源連結去重計算）"
+ ]
+}

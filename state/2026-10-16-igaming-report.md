@@ -1,0 +1,309 @@
+# 🎰 iGaming 市場日報 2026-10-16（週五）
+
+🎰 Slot 7 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
+
+---
+
+## 🎰 Game Provider 新遊戲
+
+### 01 Huff N' Puff Haunted Mansion – Light & Wonder
+
+Light & Wonder 把 Huff N' Puff Money Mansion 的玩法搬到墓園與鬧鬼豪宅，三隻小豬換上骷髏、怪物等萬聖節造型，已於 10 月 15 日上線（Hard Rock Bet 於紐澤西、密西根的線上賭場同步露出）。底層機制與 Money Mansion 相同：三個 Bonus 符號打開豪宅，內含獎池、免費遊戲與三種 6 轉加成（Touch-Up、Halloween 四列擴盤、Graveyard 金色骨框）；基礎遊戲有 Mystery 疊層符號，白／紅／金棺材框分別給 0.5x–1.5x、1.5x–5x、7.5x–75x，並含 Mini 20x、Minor 100x、Major 1,000x 與 5,000x Grand。對 PM 的意義：熱門 IP 的節慶換皮是低成本維持老客回訪的標準做法，菲律賓平台可比照排萬聖節檔期。
+
+衍生調整：承襲 Huff N' Puff Money Mansion，換成萬聖節墓園主題，新增 Bone Frames（骨框）與 Mystery Stacked Reels。
+
+參數：
+- 廠牌：Light & Wonder
+- 遊戲類型：線上電子老虎機
+- 盤面：5×3 直式
+- 消除/賠付：243 ways
+- 最高倍率：約 5,600x（Grand 5,000x）
+- RTP：96%（營運商可選 94／92／90／87%）
+- 波動：中
+- 目標市場：北美（NJ、MI 等）
+- 關鍵特色：Haunted Mansion 獎池、三種 6 轉加成、Bone Frames、Mystery Stacks
+
+查證：BigWinBoard 新作列表上線日 10/15；參數取自 BWB 評測頁，Hard Rock Bet 頁面無日期。
+來源：[BigWinBoard 評測](https://www.bigwinboard.com/huff-n-puff-haunted-mansion-light-wonder-slot-review-demo/) · [BigWinBoard 新作列表](https://www.bigwinboard.com/new-slots/) · [Hard Rock Bet](https://www.hardrock.bet/?p=46907) · 日期：2026-10-15
+圖片：https://www.bigwinboard.com/wp-content/uploads/2026/09/Huff-N-Puff-Haunted-Mansion-slot-feat.jpg
+
+### 02 Spooky Link Go Ghost – Aristocrat
+
+Aristocrat Interactive（Aristocrat 的線上真錢部門）10 月 15 日宣布，實體機明星 IP Spooky Link 首度以《Spooky Link Go Ghost》登陸美國所有合法 iGaming 州與加拿大各省的主要線上平台，是該系列第一款線上版，2027 年全年還會陸續推出系列其他作品。玩法延續 Cash Collect：特殊符號收集並放大積分、獎池等獎項，Go Ghost 的新點子是鬼魂角色隨機出現加成數值。對 PM 的意義：實體機熱門 IP 轉線上是大廠固定打法，Spooky Link 系列後續作品可作為北美以外市場評估引進的觀察對象。
+
+衍生調整：由實體機 Spooky Link 系列改作線上版，新增 Ghost 角色隨機加成。
+
+參數：
+- 廠牌：Aristocrat
+- 遊戲類型：實體+電子老虎機（實體機 IP 的線上版）
+- 盤面：未公布
+- 消除/賠付：Cash Collect 收集
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：北美（美國合法 iGaming 州、加拿大）
+- 關鍵特色：Cash Collect、Ghost 隨機加成、系列 2027 年續推
+
+查證：已查 G3 新聞稿與官方稿，參數未公開。
+來源：[G3 Newswire](https://g3newswire.com/aristocrat-launches-spooky-link-online-across-north-america/) · 日期：2026-10-15
+圖片：https://g3newswire.com/wp-content/uploads/2026/10/Spookly-LInk-RMG-by-Aristocrat-Interactive-e1792070883872.jpg
+
+### 03 Wonders of Aztec – Pragmatic Play
+
+Pragmatic Play 的阿茲特克題材新作《Wonders of Aztec》10 月 15 日上線，採 6×5 Scatter Pays：8 個以上相同符號即中獎，連消後重複，並帶 Bomb Multiplier（炸彈倍數）——有贏分時為所在輪加 x2 或翻倍，最高 x128；Super Bomb 影響整排輪，另有免費遊戲、Super 免費遊戲、特殊下注與購買功能。BigWinBoard 評分 6/10，認為題材老但乘數堆疊有賣點。對 PM 的意義：Pragmatic 把「可累積的倍數」當標準賣點，倍數堆疊型玩法仍是主力題材，可與 Sweet Bonanza 系列做同類對照。
+
+衍生調整：全新款，延用 Pragmatic Scatter Pays＋倍數玩法框架，無明確前作。
+
+參數：
+- 廠牌：Pragmatic Play
+- 遊戲類型：線上電子老虎機
+- 盤面：6×5
+- 消除/賠付：Scatter Pays（8 個以上）、Tumble 連消
+- 最高倍率：未公布
+- RTP：最高 96.55%
+- 波動：中
+- 目標市場：全球
+- 關鍵特色：Bomb／Super Bomb 倍數（最高 x128）、Super 免費遊戲、購買功能
+
+查證：已查 BigWinBoard、SlotsLaunch，最高倍率仍無。
+來源：[BigWinBoard 評測](https://www.bigwinboard.com/wonders-of-aztec-pragmatic-play-slot-review/) · [BigWinBoard 新作列表](https://www.bigwinboard.com/new-slots/) · [SlotsLaunch](https://slotslaunch.com/pragmatic-play/wonders-of-aztec) · 日期：2026-10-15
+圖片：https://www.bigwinboard.com/wp-content/uploads/2026/08/Wonders-of-Aztec-slot-feat.jpg
+
+### 04 Demon Beats – NetEnt
+
+NetEnt《Demon Beats》10 月 15 日上線：搖滾樂團闖進惡魔神殿對戰，結合巨型符號、擴張 Wild、遞增倍數與兩段獎勵（Battle 對決、免費遊戲／Super 免費遊戲）。5×4 盤面、178 條連線，贏分後符號消散、上方補位的 Avalanche 連消；Wild 擴張覆蓋整輪，遇巨型符號變 Colossal Wild，疊在其他 Wild 上倍數 x2 並遞增，並支援 NetEnt Elevate 的 Ante Bet 與購買功能。BigWinBoard 評分 8/10。對 PM 的意義：NetEnt 回到「高波動＋連消＋擴張 Wild」的亞洲風格，與目標客群偏好的視覺語言接近，可列入觀察清單。
+
+衍生調整：全新 IP，無衍生。
+
+參數：
+- 廠牌：NetEnt
+- 遊戲類型：線上電子老虎機
+- 盤面：5×4
+- 消除/賠付：178 條連線、Avalanche 連消
+- 最高倍率：未公布
+- RTP：96.08%（預設，共三檔）
+- 波動：高
+- 目標市場：全球
+- 關鍵特色：Colossal 符號、擴張 Wild 倍數、Battle 功能、Elevate 購買
+
+查證：已查 BigWinBoard、SlotsLaunch，最高倍率仍無。
+來源：[BigWinBoard 評測](https://www.bigwinboard.com/demon-beats-netent-slot-review/) · [BigWinBoard 新作列表](https://www.bigwinboard.com/new-slots/) · [SlotsLaunch](https://slotslaunch.com/netent/demon-beats) · 日期：2026-10-15
+圖片：https://www.bigwinboard.com/wp-content/uploads/2026/09/Demon-Beats-slot-feat.jpg
+
+### 05 Phoenix Inferno – Betsoft
+
+Betsoft 10 月 15 日官網發布《Phoenix Inferno》：3-4-5-4-3 菱形盤面、720 ways，最高 10,000x。核心是 Collect Cash（CASH 符號從最左輪連續落在 2 輪以上即收集），免費遊戲可選乘數、場次、現金加成三種強化，基礎遊戲中鳳凰會收集 Scatter；Wild 出現在 2、3、4 輪，並提供 5、10、15 轉三種購買選項。對 PM 的意義：Betsoft 以「收集現金」機制貼近亞洲玩家熟悉的 Collect 玩法，是二線 GP 追趕主流機制的例子。
+
+衍生調整：全新款，無衍生。
+
+參數：
+- 廠牌：Betsoft
+- 遊戲類型：線上電子老虎機
+- 盤面：3-4-5-4-3（菱形）
+- 消除/賠付：720 ways
+- 最高倍率：10,000x
+- RTP：未公布
+- 波動：未公布
+- 目標市場：全球
+- 關鍵特色：Collect Cash、三種免費遊戲強化、鳳凰收集 Scatter、購買功能
+
+查證：已查 Betsoft 官網稿與 SlotsLaunch，RTP／波動未公布。
+來源：[Betsoft 官網](https://betsoft.com/phoenix-inferno-brings-fire-and-fortune-to-the-reels/) · [SlotsLaunch](https://slotslaunch.com/betsoft/phoenix-inferno) · 日期：2026-10-15
+圖片：https://betsoft.com/wp-content/uploads/2026/10/phoenix-inferno-pr-featured-image.jpg
+
+### 06 Haunted Coins x5000 – Wazdan
+
+Wazdan 把萬聖節季節版《Haunted Coins x5000》加入 Cointober 檔期，10 月 15 日上線。Coins 系列把 Grand 獎池拉到 5,000x，核心仍是 Hold the Jackpot（四階獎池），新增基礎遊戲的 Cash Out 機制、最高 10x 的 Cash Infinity 符號，以及可調高觸發機率的 Chance Level。對 PM 的意義：Wazdan 以系列化＋節慶換皮維持金幣 Hold & Win 熱度，與 Super Gem、Fortune Gems 同路線，平台可用「系列檔期」包裝。
+
+衍生調整：承襲 Coins 系列，Grand 提高到 5,000x，新增 Cash Out 轉輪與 Cash Infinity 符號。
+
+參數：
+- 廠牌：Wazdan
+- 遊戲類型：線上電子老虎機
+- 盤面：未公布
+- 消除/賠付：Hold the Jackpot（Hold & Win）
+- 最高倍率：5,000x（Grand 獎池）
+- RTP：未公布
+- 波動：未公布
+- 目標市場：全球
+- 關鍵特色：四階獎池、基礎遊戲 Cash Out、Cash Infinity（最高 10x）、Chance Level
+
+查證：已查 European Gaming 新聞稿與 SlotsLaunch，盤面／RTP／波動未公布。
+來源：[European Gaming](https://europeangaming.eu/portal/press-releases/2026/10/15/216032/wazdan-haunted-coins-x5000/) · [SlotsLaunch](https://slotslaunch.com/wazdan/haunted-coins-x5000) · 日期：2026-10-15
+圖片：https://media.europeangaming.eu/uploads/2026/10/Wazdan-adds-Haunted-Coins-x5000-to-its-Cointober-campaign.jpg
+
+### 07 The Jade Path Hold & Win – Hacksaw Gaming
+
+Hacksaw Gaming 的叢林冒險《The Jade Path Hold & Win》10 月 15 日上線，主角是女戰士 Queen Aisha，5×3、9 條連線。特色是中途可在「Warrior Riches」黏性 Wild 免費遊戲與「Jade Bounty」Hold & Win 間二選一：3 個 Coin／Jackpot Orb 觸發 Jade Hold & Win，給 3 次重置次數，Orb 與 Jaguar 倍數落地即鎖定；另有多種購買功能。BigWinBoard 評 4/10，認為創新度偏低。對 PM 的意義：Hacksaw 在自家高波動路線外也做 Hold & Win 保守款，可作為 Hold & Win 品類的比較樣本。
+
+衍生調整：全新款（不含原有 Jade 系列前作）。
+
+參數：
+- 廠牌：Hacksaw Gaming
+- 遊戲類型：線上電子老虎機
+- 盤面：5×3
+- 消除/賠付：9 條連線、Hold & Win
+- 最高倍率：未公布
+- RTP：最高 96.3%（四檔，選 Jade Bounty 時 96.3%）
+- 波動：中
+- 目標市場：全球
+- 關鍵特色：Bonus Choice 二選一、Jade Hold & Win、Jaguar 倍數、購買功能
+
+查證：已查 BigWinBoard、SlotsLaunch，最高倍率仍無。
+來源：[BigWinBoard 評測](https://www.bigwinboard.com/the-jade-path-hold-win-hacksaw-gaming-slot-review/) · [BigWinBoard 新作列表](https://www.bigwinboard.com/new-slots/) · [SlotsLaunch](https://slotslaunch.com/hacksaw-gaming/the-jade-path-hold-win) · 日期：2026-10-15
+圖片：https://www.bigwinboard.com/wp-content/uploads/2026/07/The-Jade-Path-Hold-Win-slot-feat.jpg
+
+## 🕹️ 非 Slot 新內容
+
+### 01 Plaza Las Vegas 推出「Dealertainers」，真人賭桌直播加入表演型荷官
+
+拉斯維加斯 Plaza Hotel & Casino 宣布在 Vegas Live Casino Network 的直播節目中新增「Dealertainers」職位：以個人魅力與熱情帶動節目的荷官，需持內華達博彩管理局執照、能發 21 點、輪盤、百家樂三款中至少兩款，每天晚上 6 點到午夜輪班，並保證每日小費。Plaza 10 月 16 日下午舉辦選角，預計招募 20 至 30 人。對 PM 的意義：直播式賭桌把「荷官個性」當產品賣點，與 Live Casino 的主持人化、AI 荷官同一個方向，可參考作為 Live 內容差異化的做法。
+
+參數：
+- 遊戲類型：Live Game（實體賭桌直播：21 點、輪盤、百家樂）
+- 目標市場：美國（拉斯維加斯）
+- 關鍵特色：表演型荷官、每日 18:00–24:00 直播、保證小費、20–30 人選角
+
+查證：EEGaming 同步報導。
+來源：[Casino Life Magazine](https://www.casinolifemagazine.com/news/plaza-hotel-casino-launches-%E2%80%98dealertainers%E2%80%99-vegas-live-casino-streaming) · [EEGaming](https://eegaming.org/latest-news/2026/10/15/53164/plaza-las-vegas-launches-dealertainers-for-its-live-streamed-casino-tables/) · 日期：2026-10-15
+圖片：無
+
+### 02 📦（10/15）Grupo Comar 推出 Comar Poker Tour，七家賭場巡迴
+
+西班牙 Grupo Comar 宣布 Comar Poker Tour：串連七家賭場，11 月 5 日從 El Puerto de Santa María 開賽，經 León、Zaragoza、A Coruña、Madrid、Salamanca，2027 年 4 月 29 日至 5 月 2 日在桑坦德 Gran Casino Sardinero 決賽。每站兩天，進入總人數前 5% 的選手直接取得決賽席位，總獎金約 30 萬歐元。對 PM 的意義：連鎖賭場以統一品牌的巡迴賽串起各據點，是撲克類內容維持玩家黏著度的線下做法，可參考作為線上線下聯動的活動框架。
+
+參數：
+- 遊戲類型：撲克／德州（實體賭場巡迴賽）
+- 目標市場：西班牙
+- 關鍵特色：七站巡迴、前 5% 直通決賽、獎金約 30 萬歐元
+
+來源：[Sector del Juego](https://sectordeljuego.com/2026/10/14/grupo-comar-presenta-el-comar-poker-tour-un-circuito-en-siete-casinos-con-una-final-en-santander/) · 日期：2026-10-14
+圖片：https://sectordeljuego.com/wp-content/uploads/2026/10/1791876502989-1.jpg
+
+## 🤝 動態：主流 GP／平台
+
+### 01 Stake 與 EveryMatrix 合作，用聚合技術擴張受監管市場內容
+
+Stake 與 EveryMatrix 簽約，由 Stake 在北美、拉美與歐洲多個受監管市場，透過 EveryMatrix 的內容聚合單一整合，取得超過 360 家供應商、4.5 萬款賭場、真人、Crash、桌遊與即時遊戲，並可使用 EveryMatrix 旗下 Fantasma Games 的獨家內容，後續階段還會加入玩家互動功能。Stake 正快速取得多地在地牌照。EveryMatrix 稱這是它近一個月第三個一線客戶案。對 PM 的意義：頭部現金網轉向受監管市場後，內容採購從直簽改走聚合，意味著一線 GP 可經單一接口觸及 Stake，小 GP 的曝光機會與議價結構會改變。
+
+重點：類型 合作 ｜ 對象 Stake、EveryMatrix、Fantasma Games ｜ 影響 Stake 進受監管市場改以聚合器採購內容
+
+查證：Online Gambling Quarterly 同稿。
+來源：[G3 Newswire](https://g3newswire.com/stake-partners-with-everymatrix-to-support-casino-aggregation-across-regulated-markets/) · [Online Gambling Quarterly](https://www.ogqnews.com/stake-adds-45000-casino-games-through-everymatrix-partnership/) · 日期：2026-10-15
+圖片：https://g3newswire.com/wp-content/uploads/2026/10/EveryMatrixStake.jpg
+
+### 02 Hacksaw Gaming 取得 MGA 擴大許可，跨入預測市場 B2B
+
+Hacksaw Gaming 宣布推出 B2B 預測市場平台：馬爾他博彩管理局（MGA）把其既有 B2B 關鍵供應牌照由 Type 1 擴大涵蓋 Type 3，可提供 B2B 點對點預測市場服務；消息公布後 Hacksaw 在斯德哥爾摩股價漲逾 3%。Hacksaw 集團 CEO Ana Vrabic Verdir 稱這是把技術生態延伸到相鄰領域的策略，並指現有平台與營運商關係能讓客戶快速參與這個類別。對 PM 的意義：Slot 內容商開始把預測市場當第二成長曲線，與美國預測市場熱潮相呼應，值得追蹤是否有更多 GP 跟進。
+
+重點：類型 市場進入 ｜ 對象 Hacksaw Gaming、MGA ｜ 影響 頭部 Slot GP 跨足預測市場 B2B
+
+來源：[Gaming Intelligence](https://www.gamingintelligence.com/sectors/betting/237311-hacksaw-expands-into-prediction-markets/) · 日期：2026-10-15
+圖片：https://www.gamingintelligence.com/wp-content/uploads/2025/10/Hacksaw-Gaming-logo-1200px.jpg
+
+### 03 Novomatic 帶 Ghost Party 參加 G2E 2026，主打北美在地化方案
+
+Novomatic 在拉斯維加斯 G2E（9 月 29 日至 10 月 1 日，Venetian Expo）以「Ghost Party」為主題擺攤，吉祥物 Boo 帶動氣氛。展出重點是 Vision Link 的美國首演、最新 Linked Progressives、高階機台與電子賭桌，強調把國際驗證過的產品配合北美需求調整。Novomatic Americas 董事總經理稱展期也強化了既有合作並建立新關係。對 PM 的意義：歐系實體機大廠仍把北美當成重點擴張市場，展會成果以連線獎池與電子賭桌為主，可作為實體機趨勢的觀察點。
+
+重點：類型 運營活動 ｜ 對象 Novomatic、G2E 2026 ｜ 影響 歐系實體機大廠主打連線獎池與電子賭桌進北美
+
+查證：Revista Casino Perú 同稿（西文）。
+來源：[G3 Newswire](https://g3newswire.com/novomatic-brings-innovation-and-ghost-party-energy-to-g2e-2026/) · [Revista Casino Perú](https://www.revistacasinoperu.com/novomatic-energia-ghost-party-g2e-2026/) · 日期：2026-10-15
+圖片：https://g3newswire.com/wp-content/uploads/2026/10/Novomatic26Day3-003-e1792054299866.jpg
+
+### 04 Wildz Group 成為芬蘭首家公開取得線上博彩牌照的營運商
+
+總部在馬爾他的 Wildz Group 宣布取得芬蘭線上博彩牌照，市場將於 2027 年 7 月 1 日由國營壟斷轉為開放私人業者。芬蘭牌照申請 3 月開放，原預期約六個月審查，截至 9 月 22 日共收到 75 件申請，遠超預期。Wildz 稱將與監管機關合作爭取最高的管道化率。國家監管機關尚未公開確認 Wildz 或任何其他申請案。對 PM 的意義：芬蘭開放進入牌照發放階段，Slot 內容商的上架時程預計跟著開放日走，可作為北歐市場評估的時間點。
+
+重點：類型 政府法規 ｜ 對象 Wildz Group、芬蘭監管機關 ｜ 影響 芬蘭 2027/7 開放前首家公開取得牌照者出現
+
+來源：[iGaming Business](https://igamingbusiness.com/legal-compliance/licensing/wildz-group-announces-first-gambling-licence-finland/) · 日期：2026-10-15
+圖片：https://igamingbusiness.com/wp-content/uploads/2026/10/poliisi-national-polcie-board-finland-e1792083617286.jpg
+
+## 🇵🇭 動態：菲律賓 GP／平台
+
+### 01 PAGCOR 對陸上賭場設定賭客回饋上限：Slot 返現最高 1.4%
+
+菲律賓博弈監管機構 PAGCOR 對持牌陸上賭場實施新的賭客回饋上限，10 月 13 日起生效：Slot 玩家最高可獲流水 1.40% 的現金回饋，另加 0.20% 不可兌現的獎勵佣金；賭桌方面，非 Junket 玩家最高 1.35%、Junket 玩家最高 1.50%。此規定經 10 月 8 日董事會通過，公布後即生效。對 PM 的意義：回饋比例被官方定上限，實體賭場無法再靠加碼返現搶客，業者競爭將轉向非現金權益與會員體驗，也可作為菲律賓線上平台評估促銷設計時的參考。
+
+重點：類型 政府法規 ｜ 對象 PAGCOR、菲律賓持牌陸上賭場 ｜ 影響 Slot／賭桌回饋比例設上限，限制返現競爭
+
+查證：已查 GGRAsia 原文摘要。
+來源：[GGRAsia](https://www.ggrasia.com/pagcor-implements-1-50pct-turnover-cap-on-incentives-for-slot-players) · 日期：2026-10-15
+圖片：https://www.ggrasia.com/wp-content/uploads/2025/11/Solaire-Aristocrat-Dragon-Room-2.jpg
+
+### 02 📦（10/15）Melco Foundation 捐贈 39.5 萬美元設備給甲米地紅十字會
+
+新濠（Melco）旗下基金會捐贈價值 39.5 萬美元的設備給菲律賓紅十字會甲米地分會。Melco 是馬尼拉 City of Dreams 的營運方，這類捐贈屬企業社會責任與在地形象經營。對 PM 的意義：菲律賓實體度假村業者持續用 CSR 維持在地關係，屬對平台品牌影響較低的背景消息。
+
+重點：類型 運營活動 ｜ 對象 Melco Foundation、菲律賓紅十字會 ｜ 影響 實體度假村業者的在地 CSR 操作
+
+查證：GGRAsia 同題報導。
+來源：[Inside Asian Gaming](https://asgam.com/2026/10/14/melco-foundation-donates-us395000-worth-of-equipment-to-red-cross-cavite/) · [GGRAsia](https://www.ggrasia.com/melco-foundation-donates-us395k-in-equipment-to-philippine-red-cross) · 日期：2026-10-14
+圖片：https://asgam.com/wp-content/uploads/og-cache/146400.jpg
+
+## 📊 市場數據 & 趨勢
+
+### 01 Entain 第三季淨博彩收入成長 2%，英國與愛爾蘭線上大增 14%
+
+Entain 公布 2026 年第三季：以固定匯率計，持續經營業務的淨博彩收入（NGR）成長 2%，線上 NGR 成長 3%，英國與愛爾蘭線上成長 14%；義大利收入下滑 6%，Gaming 約 +8%；公司重申全年財測，CEO 警告英國財政部若提高稅負會有影響，也提到巴西封鎖的衝擊。對 PM 的意義：大型營運商整體成長放緩、英國線上是主力；巴西停擺與英國加稅是風險，Slot 內容銷售的歐洲需求仍穩定。
+
+重點：類型 財務 ｜ 對象 Entain ｜ 影響 英國線上強、義大利與巴西拖累，整體成長 2%
+
+來源：[Gaming Intelligence](https://www.gamingintelligence.com/finance/237296-entain-benefits-from-uk-and-ireland-growth-in-q3-2026/) · [Online Gambling Quarterly](https://www.ogqnews.com/entain-q3-2026-online-ngr-grows-3-uk-up-14/) · [European Gaming](https://europeangaming.eu/portal/latest-news/2026/10/15/216063/entain-q3-2026-trading-update/) · 日期：2026-10-15
+圖片：https://www.gamingintelligence.com/wp-content/uploads/2020/12/Entain.png
+
+### 02 EGR 9 月全球 Slot 榜：Pragmatic Play 包辦前五
+
+EGR Intel 的 9 月 Global/dotcom Slots Tracker 顯示 Pragmatic Play 包辦榜單前五名，RTG 的《Fortunate Buddha》則表現亮眼。榜單全文需訂閱，僅能確認排名結論。對 PM 的意義：Pragmatic 的前五壟斷顯示頭部效應仍強，中小 GP 想進榜只能靠差異化機制或獨家渠道，可與 10 月 13、14 日的歐洲與美加榜單互相對照。
+
+重點：類型 趨勢 ｜ 對象 Pragmatic Play、RTG ｜ 影響 9 月全球 Slot 榜前五由 Pragmatic 包辦
+
+查證：全文需訂閱，僅確認摘要結論。
+來源：[EGR Intel](https://www.egr.global/intel/insight/global-dotcom-slots-tracker-pragmatic-play-remains-the-studio-to-beat/) · 日期：2026-10-15
+圖片：https://www.egr.global/intel/wp-content/uploads/sites/2/2017/01/Globe-e1484827957123-700x380.jpg
+
+### 03 法國 2026 上半年博彩 GGR 56.6 億歐元，線上成長 11% 成唯一動能
+
+法國監管機關 ANJ 半年報：不含賭場與俱樂部，2026 年上半年博彩 GGR 為 56.6 億歐元，僅成長 0.5%（去年同期 +4.1%）。線上是唯一成長來源（貢獻 +2.5 個百分點），線上 GGR 14.5 億歐元、年增 11%，占市場 25.6%；活躍遊戲帳戶 5.85 百萬創新高；運動博彩是主要成長引擎，其次為撲克。對 PM 的意義：歐洲成熟市場的成長幾乎全來自線上，傳統通路的獨家業務（FDJ、PMU）拖累整體，線上化仍是內容商的主要機會。
+
+重點：類型 市場數據 ｜ 對象 法國 ANJ ｜ 影響 法國上半年成長由線上獨撐，實體與壟斷業務下滑
+
+查證：EEGaming 另有 ANJ 2025 年運彩數據可佐證。
+來源：[AGIMEG](https://www.agimeg.it/francia-primo-semestre-2026-ricavi-gioco-saliti-5-66-miliardi-euro-online-cresciuto-11/) · [LesCasinos.org](https://www.lescasinos.org/actualites.php?id=5757) · 日期：2026-10-15
+圖片：https://agimeg.b-cdn.net/wp-content/uploads/2026/10/flag-france-scaled.jpg
+
+---
+
+本日日報查詢約 55 個網站，其中提取 40 個資料來源並進行交叉比對
+
+---
+
+## 🗓️ 來源日期紀錄（內部，不渲染）
+
+- 執行時刻 02:31 台北，窗為 2026-10-15 02:30 ～ 2026-10-16 02:30（依 harvest 檔頭）
+- cat1-01 Huff N' Puff Haunted Mansion：主來源 BigWinBoard 新作列表上線日 2026-10-15（只到日；harvest 窗內）；評測頁 metadata 2026-09-20 為預告頁；Hard Rock Bet 頁無日期
+- cat1-02 Spooky Link Go Ghost：主來源 G3 Newswire 2026-10-15 21:28 台北（metadata 14:28+01:00）
+- cat1-03 Wonders of Aztec：主來源 BigWinBoard／SlotsLaunch 上線日 2026-10-15；評測頁 metadata 2026-09-16 為預告頁
+- cat1-04 Demon Beats：主來源 BigWinBoard／SlotsLaunch 上線日 2026-10-15；評測頁 metadata 2026-10-01
+- cat1-05 Phoenix Inferno：主來源 Betsoft 官網 2026-10-15 16:00 台北（RSS，harvest 精確時間）
+- cat1-06 Haunted Coins x5000：主來源 European Gaming 2026-10-15 16:50 台北（metadata 11:50+03:00 → 16:50）
+- cat1-07 The Jade Path Hold & Win：主來源 BigWinBoard／SlotsLaunch 上線日 2026-10-15；評測頁 metadata 2026-09-04
+- cat2-01 Dealertainers：主來源 Casino Life Magazine 2026-10-15 20:15 台北（harvest RSS；metadata 15:15+03:00 → 20:15）；佐證 EEGaming 10/15 15:06
+- cat2-02 Comar Poker Tour（📦 庫存補位）：主來源 Sector del Juego 2026-10-14 13:58 台北（metadata 05:58Z），3 天保鮮內
+- cat3-01 Stake × EveryMatrix：主來源 G3 Newswire 2026-10-15 18:29 台北（metadata 11:29+01:00 → 18:29）；佐證 OGQ 10/15 16:41
+- cat3-02 Hacksaw 預測市場：主來源 Gaming Intelligence 2026-10-15 17:45 台北（metadata 09:45Z → 17:45）
+- cat3-03 Novomatic G2E：主來源 G3 Newswire 2026-10-15 16:55 台北（metadata 09:55+01:00 → 16:55）；佐證 Revista Casino Perú 17:10
+- cat3-04 Wildz Finland：主來源 iGaming Business 2026-10-16 01:18 台北（metadata 17:18Z → 01:18 台北 10/16）
+- cat4-01 PAGCOR 回饋上限：主來源 GGRAsia 2026-10-15 09:43 台北（Firecrawl metadata 01:43Z → 09:43）
+- cat4-02 Melco Foundation（📦 庫存補位）：主來源 Inside Asian Gaming 2026-10-14 14:00 台北（metadata +08:00）；佐證 GGRAsia 10/15 09:54
+- cat5-01 Entain Q3：主來源 Gaming Intelligence 2026-10-15 16:34 台北（metadata 08:34Z → 16:34）；佐證 OGQ 15:55、European Gaming 20:10
+- cat5-02 EGR Slots Tracker：主來源 EGR Intel 2026-10-15（metadata 00:00Z；harvest 10-15 08:00 台北）
+- cat5-03 法國 H1：主來源 AGIMEG 2026-10-15 18:19 台北（metadata 10:19Z → 18:19）；佐證 LesCasinos.org 10/15 21:45
+- Slot 選取：窗內 B≥3 新作多於 7 款（HnP L&W、Spooky Link Aristocrat、Wonders PP、Demon Beats NetEnt、Phoenix Inferno Betsoft、Haunted Coins Wazdan、Jade Path Hacksaw、Inks & Pints Peter & Sons、Aviamasters 2 Halloween BGaming）→ 取 7 款（HnP 熱門 IP 優先，其餘依 B＋E＋R＋T），Inks & Pints、3 Roaring Bells、The Castle of Slotenstein、Ted Stuffed & Loaded 進庫存；當天新作 ≥6 款，不從庫存補（Ghost Ship Gold 保留）
+- 剔除：Aviamasters 2 Halloween – BGaming（Crash 類非 Slot，且僅 BigWinBoard 列表、查無新聞稿）
+- 剔除：Tower Run Treasure Steps – Play'n GO、Tarzan Unleashed – Aristocrat、MONOPOLY Money – Big Time Gaming、Rats vs Ravens Coin Grid – Maxxi Labs（10/15 已收，近 3 天去重）
+- 剔除：DigiPlus 退出紐西蘭（10/15 已收，iGaming Expert 為同一事件）、Okada Manila Q3（10/15 已收）、Century Entertainment 菲律賓合作（主來源 10/12，已超過保鮮期且同公司 10/12 已收）
+- EEZE：harvest 與標題搜尋窗內皆無 EEZE 消息，依例外規則跳過
+- 菲律賓區：Google News 品牌查詢窗內僅有電競／體育雜訊（PlayTime 電競賽事），WebSearch 查無 BingoPlus／ArenaPlus／GameZone／Casino Plus 10 月新聞；窗內僅 PAGCOR 回饋上限一則可用，另 1 則由庫存補位
+- 第二層列表頁：Peter & Sons、CP Game、Acewin 首頁無日期條目，無窗內新作

@@ -1,0 +1,46 @@
+{
+ "date": "2026-10-16",
+ "alerts": [],
+ "info": {
+  "credits": {
+   "remaining": 1031,
+   "plan": 1000,
+   "period_end": "2026-11-14",
+   "today_use": 5,
+   "daily_use": 31,
+   "daily_basis": "近 7 天實際",
+   "days_to_reset": 29,
+   "need_until_reset": 899
+  },
+  "tier": {
+   "tier": "🟢 充裕",
+   "budget": 35,
+   "remaining": 1036,
+   "period_end": "2026-11-14",
+   "days_to_reset": 29,
+   "reserve": 20,
+   "note": "全開",
+   "lists_spent": 4,
+   "article_limit": 22,
+   "image_extra": 12
+  },
+  "sources": {
+   "total": 104,
+   "failed_today": [
+    "Interplay Poland"
+   ],
+   "streak_3d": []
+  },
+  "candidates": {
+   "today": 563,
+   "median_same_type": null,
+   "basis_days": 0,
+   "type": "平日窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 8,
+   "fixes": 3
+  }
+ }
+}
