@@ -6,3 +6,7 @@ state/telegram-bot.offset
 slots/
 state/gnews-urls.json
 state/harvest/*-fulltext/
+
+# NAS 部署：機密與執行資料
+nas/secrets.env
+nas/data/

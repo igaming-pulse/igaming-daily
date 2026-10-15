@@ -16,7 +16,8 @@ TITLE="${1:-日報異常}"
 BODY="${2:-}"
 F="state/pending_alert_${DATE}.txt"
 
-printf '🚨 iGaming 日報即時警報 %s %s（13'"'"' v）\n%s\n\n%s\n\n詳細紀錄：~/igaming-daily/state/run.log\n' "$DATE" "$NOW" "$TITLE" "$BODY" > "$F"
+MAC_LABEL="13' v"; MACHINE="${IGAMING_MACHINE:-$MAC_LABEL}"
+printf '🚨 iGaming 日報即時警報 %s %s（%s）\n%s\n\n%s\n\n詳細紀錄：%s/state/run.log\n' "$DATE" "$NOW" "$MACHINE" "$TITLE" "$BODY" "$REPO" > "$F"
 
 git add "$F" >/dev/null 2>&1
 git commit -q -m "alert: ${DATE} ${TITLE}" -- "$F" >/dev/null 2>&1

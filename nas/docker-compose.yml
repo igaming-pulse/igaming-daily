@@ -1,0 +1,31 @@
+# Synology Container Manager → 專案 → 建立，路徑選放這個檔案的資料夾（例如 /docker/igaming-daily）。
+# 機密放在同資料夾的 secrets.env（照 secrets.env.example 填），不要放進 git。
+services:
+  bot:                       # Telegram 查詢 bot（/stock 等），24 小時常駐
+    build: .
+    image: igaming-daily:latest
+    container_name: igaming-bot
+    command: ["bot"]
+    user: "1026:100"         # 你的 DSM 帳號 uid:gid，見 README「權限」
+    env_file: secrets.env
+    environment:
+      IGAMING_BOT_PULL: "0"  # 跟 daily 共用同一份 repo，日報跑完就是最新，不必自己 pull
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
+
+  daily:                     # 每天 02:30 產日報（取代 Mac 的 launchd）
+    build: .                 # 跟 bot 同一個 image（第二次 build 走快取，幾秒就好）
+    image: igaming-daily:latest
+    container_name: igaming-daily
+    command: ["daily"]
+    user: "1026:100"
+    env_file: secrets.env
+    environment:
+      DAILY_AT: "02:30"
+      CATCHUP_UNTIL: "10:00"
+      IGAMING_BRANCH: "test-publish"
+      IGAMING_MACHINE: "NAS"
+    volumes:
+      - ./data:/data
+    restart: unless-stopped

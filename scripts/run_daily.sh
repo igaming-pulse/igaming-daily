@@ -104,9 +104,24 @@ if [ "${IGAMING_FORCE:-0}" != "1" ] && printf '%s\n' "$RECENT_SUBJECTS" | grep -
 fi
 
 # 開跑前檢查 Claude 登入（2026-10-11）：10/8 登入過期，白跑了收集才發現 → 先檢查，過期就立刻發警報、不浪費 Firecrawl 點數
-AUTH_JSON=$(claude auth status 2>&1)
+# NAS（2026-10-15）：用 CLAUDE_CODE_OAUTH_TOKEN 長效 token、沒有互動登入 → 改成實際問一句，確認 token 有效
+if [ -n "${CLAUDE_CODE_OAUTH_TOKEN:-}" ]; then
+  PING=$(timeout 180 claude -p "只回覆 OK 兩個字母" 2>&1 | tail -5)
+  case "$PING" in
+    *OK*) AUTH_JSON='"loggedIn": true'; log "Claude token：正常" ;;
+    *)
+      log "✗ Claude token 無效或過期：${PING}"
+      bash scripts/alert_telegram.sh "${IGAMING_MACHINE:-NAS} 的 Claude token 失效，日報沒有執行" \
+        "請在 Mac 終端機執行 claude setup-token 產生新 token，填進 NAS 的 secrets.env（CLAUDE_CODE_OAUTH_TOKEN），
+再到 Container Manager 重新啟動 igaming-daily 容器（10:00 前重啟會自動補跑）。" 2>&1 | tee -a "$LOG"
+      log "──────── 結束 ────────"
+      exit 1 ;;
+  esac
+else
+  AUTH_JSON=$(claude auth status 2>&1)
+fi
 case "$AUTH_JSON" in
-  *'"loggedIn": true'*) log "Claude 登入：正常" ;;
+  *'"loggedIn": true'*) [ -n "${CLAUDE_CODE_OAUTH_TOKEN:-}" ] || log "Claude 登入：正常" ;;
   *)
     log "✗ Claude 終端機版沒有登入（或登入已過期），本次不執行"
     bash scripts/alert_telegram.sh "Claude 登入過期，日報沒有執行" \
