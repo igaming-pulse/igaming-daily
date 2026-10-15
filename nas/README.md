@@ -16,12 +16,13 @@ NAS（Container Manager）
 ## 事前準備（在 Mac 上做，公司或家裡都可以）
 
 準備四個值，最後填進 `secrets.env`。**不要貼到聊天或任何文件裡。**
+最省事：在 Mac 執行 `bash ~/igaming-daily/nas/fill_secrets.sh`，Telegram／GitHub／Firecrawl 會從 Mac 現有設定自動帶入，Claude token 從剪貼簿讀。
 
 | 值 | 怎麼拿 |
 |---|---|
 | `TELEGRAM_BOT_TOKEN` | Telegram → @BotFather → `/mybots` → 選 bot → API Token |
 | `GITHUB_TOKEN` | GitHub → Settings → Developer settings → Fine-grained tokens → Generate。Resource owner 選 **igaming-pulse**，Repository 只勾 `igaming-daily`，權限：**Contents：Read and write**、**Actions：Read and write**。有效期限最長 1 年，到期前要換 |
-| `CLAUDE_CODE_OAUTH_TOKEN` | Mac 終端機執行 `claude setup-token`，瀏覽器登入後會印出一串 `sk-ant-oat…`（有效 1 年） |
+| `CLAUDE_CODE_OAUTH_TOKEN` | Mac 終端機執行 `claude setup-token`，瀏覽器登入後會印出一串 `sk-ant-oat…`（108 字元，有效 1 年）。⚠️ **它會折成 2–3 行，直接 ⌘C 會連換行一起複製，貼上會斷掉、要手動拼回一行**。用 `fill_secrets.sh` 就不用拼：把那幾行 ⌘C 後執行腳本，它會從剪貼簿自動拼接 |
 | `FIRECRAWL_API_KEY` | firecrawl.dev → API Keys（跟 Mac 上 `~/.zshrc` 裡的是同一把） |
 
 ---
@@ -95,14 +96,14 @@ plist 檔先不要刪，萬一 NAS 出問題可以 `launchctl bootstrap` 載回�
 | 強制重跑今天 | 終端機：`IGAMING_FORCE=1 bash /data/igaming-daily/scripts/run_daily.sh` |
 | 看紀錄 | SMB 打開 `docker/igaming-daily/data/igaming-daily/state/run.log` |
 | 更新 Claude 版本 | Container Manager → 專案 → 動作 → 建置（重 build image） |
-| 換 token | 改 `secrets.env` → 專案 → 停止 → 啟動 |
+| 換 token | 改 `secrets.env` → 專案 → **停止** → **操作 → 建立**（⚠️ 單純停止／啟動不會重讀 `secrets.env`，容器建立時就把值存起來了） |
 | 程式碼更新 | 不用動：每次跑日報、bot 啟動都會 `git pull` |
 
 ## 會收到的警報
 
 | Telegram 訊息 | 處理 |
 |---|---|
-| NAS 的 Claude token 失效 | Mac 執行 `claude setup-token` → 更新 `secrets.env` → 重啟專案 |
+| NAS 的 Claude token 失效 | Mac 執行 `claude setup-token` → 把 token 那幾行 ⌘C → `bash ~/igaming-daily/nas/fill_secrets.sh` → 專案 停止 → 操作 → 建立 |
 | 日報沒有產出／沒有發布 | 看 `run.log` 最後一段，或跟 Claude 說「補跑日報」 |
 | bot 沒回應 | Container Manager 看 `igaming-bot` 是否在跑、日誌有無錯誤 |
 

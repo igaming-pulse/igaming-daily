@@ -112,8 +112,9 @@ if [ -n "${CLAUDE_CODE_OAUTH_TOKEN:-}" ]; then
     *)
       log "✗ Claude token 無效或過期：${PING}"
       bash scripts/alert_telegram.sh "${IGAMING_MACHINE:-NAS} 的 Claude token 失效，日報沒有執行" \
-        "請在 Mac 終端機執行 claude setup-token 產生新 token，填進 NAS 的 secrets.env（CLAUDE_CODE_OAUTH_TOKEN），
-再到 Container Manager 重新啟動 igaming-daily 容器（10:00 前重啟會自動補跑）。" 2>&1 | tee -a "$LOG"
+        "請在 Mac 終端機執行 claude setup-token，把印出的 token 那幾行 ⌘C（會折行，不要手動貼），
+再執行 bash ~/igaming-daily/nas/fill_secrets.sh 寫進 NAS；
+最後到 Container Manager → 專案 igaming-daily → 停止 → 操作 → 建立（10:00 前完成會自動補跑）。" 2>&1 | tee -a "$LOG"
       log "──────── 結束 ────────"
       exit 1 ;;
   esac
