@@ -1,0 +1,38 @@
+{
+ "date": "2026-10-17",
+ "md": "state/2026-10-17-igaming-report.md",
+ "html": "reports/2026-10-17.html",
+ "items": 14,
+ "counts": {
+  "cat1": 3,
+  "cat2": 2,
+  "cat3": 4,
+  "cat4": 2,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 36,
+  "ok": 29,
+  "broken": 0,
+  "blocked": 3,
+  "images_dropped": 4,
+  "images": 10
+ },
+ "errors": [],
+ "warnings": [
+  "cat2-01 Battle for Earth – Inter｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/interblocks-battle-for-earth-gets-pagcor-approval-manila-launch-due-in-4q",
+  "cat4-02 ArenaPlus 代言人 Luis Manza｜來源連結無法自動驗證（403，多半是網站擋機器人）：Malaya Business Insight https://malaya.com.ph/business/marketing-board/when-luis-manzano-isnt-making-everyone-laugh/",
+  "cat5-01 澳門第三季 Mass GGR 年減 5.2%，S｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/macau-3q-mass-ggr-dips-5-2pct-y-o-y-though-slots-up-18-8pct-govt",
+  "cat2-01 Battle for Earth – Inter｜各來源都找不到可用的配圖",
+  "cat3-01 TaDa Gaming 為 2026 展會巡迴收｜各來源都找不到可用的配圖",
+  "cat4-02 ArenaPlus 代言人 Luis Manza｜各來源都找不到可用的配圖",
+  "cat5-01 澳門第三季 Mass GGR 年減 5.2%，S｜各來源都找不到可用的配圖"
+ ],
+ "fixes": [
+  "cat2-01 Battle for Earth – Inter｜配圖打不開（403 text/html），已自動拿掉：https://www.ggrasia.com/wp-content/uploads/2018/11/Interblock1.jpg",
+  "cat3-01 TaDa Gaming 為 2026 展會巡迴收｜配圖打不開（error:UnicodeEncodeError ），已自動拿掉：https://focusgn.com/wp-content/uploads/2026/10/SiGMA-Rome新聞網_1200x800-1200x630.jpg",
+  "cat4-02 ArenaPlus 代言人 Luis Manza｜配圖打不開（403 text/html），已自動拿掉：https://malaya.com.ph/wp-content/uploads/2026/10/image-188.png",
+  "cat5-01 澳門第三季 Mass GGR 年減 5.2%，S｜配圖打不開（403 text/html），已自動拿掉：https://www.ggrasia.com/wp-content/uploads/2014/05/VMRH-Casino-5-e1400133145819.jpg",
+  "文末｜資料來源數 30 → 22（程式依來源連結去重計算）"
+ ]
+}

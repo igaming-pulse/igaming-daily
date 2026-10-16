@@ -181,63 +181,24 @@
     }
    ],
    "key": "tedstuffedloaded|blueprintgaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Grace of Cleopatra Buy Bonus",
+   "gp": "Amusnet",
+   "b": 1,
+   "first_seen": "2026-10-17",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/16/53193/amusnet-uncovers-the-treasure-of-ancient-egypt-with-grace-of-cleopatra-buy-bonus/",
+     "published": "2026-10-16 15:30"
+    }
+   ],
+   "key": "graceofcleopatrabuybonus|amusnet"
   }
  ],
  "others": [
-  {
-   "cat": "cat2",
-   "title": "Three Card Poker",
-   "gp": "Urgent Games",
-   "b": 1,
-   "first_seen": "2026-10-13",
-   "sources": [
-    {
-     "name": "SlotsLaunch",
-     "url": "https://slotslaunch.com/urgent-games/three-card-poker",
-     "published": "2026-10-12"
-    }
-   ],
-   "key": "threecardpoker|urgentgames"
-  },
-  {
-   "cat": "cat3",
-   "title": "GiG Software 支援 PowerPlay 進軍加拿大亞伯達",
-   "first_seen": "2026-10-13",
-   "sources": [
-    {
-     "name": "Gaming Intelligence",
-     "url": "https://www.gamingintelligence.com/sectors/online-gaming/237144-gig-software-powers-powerplay-launch-in-alberta/",
-     "published": "2026-10-12 17:01"
-    }
-   ],
-   "key": "gigsoftware支援powerplay進軍加拿大亞伯達|"
-  },
-  {
-   "cat": "cat4",
-   "title": "Century Entertainment 新增兩家遊戲內容商分散菲律賓平台依賴",
-   "first_seen": "2026-10-13",
-   "sources": [
-    {
-     "name": "Times of Casino",
-     "url": "https://www.timesofcasino.com/century-philippine-gaming-partnerships/",
-     "published": "2026-10-12 20:29"
-    }
-   ],
-   "key": "centuryentertainment新增兩家遊戲內容商分散菲律賓平台依賴|"
-  },
-  {
-   "cat": "cat5",
-   "title": "希臘 2026 上半年 GGR 15.6 億歐元，線上貢獻 88% 成長",
-   "first_seen": "2026-10-13",
-   "sources": [
-    {
-     "name": "European Gaming",
-     "url": "https://europeangaming.eu/portal/latest-news/2026/10/12/215803/greece-gambling-ggr-h1-2026/",
-     "published": "2026-10-12 19:47"
-    }
-   ],
-   "key": "希臘2026上半年ggr156億歐元線上貢獻88成長|"
-  },
   {
    "cat": "cat2",
    "title": "FARO 歷史紙牌遊戲重新推出",
@@ -3057,6 +3018,104 @@
    "date": "2026-10-16",
    "cat": "cat5",
    "title": "法國 2026 上半年 GGR 56.6 億歐元，線上 +11%",
+   "gp": ""
+  },
+  {
+   "key": "cloverpaddy|zitro",
+   "date": "2026-10-17",
+   "cat": "cat1",
+   "title": "Clover Paddy",
+   "gp": "Zitro"
+  },
+  {
+   "key": "3potsofaladdin|tomhorngaming",
+   "date": "2026-10-17",
+   "cat": "cat1",
+   "title": "3 Pots of Aladdin",
+   "gp": "Tom Horn Gaming"
+  },
+  {
+   "key": "hubaobeitigerriches|ags",
+   "date": "2026-10-17",
+   "cat": "cat1",
+   "title": "Hu Bao Bei: Tiger Riches",
+   "gp": "AGS"
+  },
+  {
+   "key": "battleforearth|interblock",
+   "date": "2026-10-17",
+   "cat": "cat2",
+   "title": "Battle for Earth",
+   "gp": "Interblock"
+  },
+  {
+   "key": "beeinfinity|galaxsys",
+   "date": "2026-10-17",
+   "cat": "cat2",
+   "title": "BeeInfinity",
+   "gp": "Galaxsys"
+  },
+  {
+   "key": "tadagaming為2026展會巡迴收尾sigmarome帶86款義大利認證遊戲|",
+   "date": "2026-10-17",
+   "cat": "cat3",
+   "title": "TaDa Gaming 為 2026 展會巡迴收尾：SiGMA Rome 帶 86 款義大利認證遊戲",
+   "gp": ""
+  },
+  {
+   "key": "aristocratinteractiveneogamesstudio內容上線肯塔基彩券|",
+   "date": "2026-10-17",
+   "cat": "cat3",
+   "title": "Aristocrat Interactive NeoGames Studio 內容上線肯塔基彩券",
+   "gp": ""
+  },
+  {
+   "key": "wazdan經lightwonder聚合平台進入南非hollywoodbets|",
+   "date": "2026-10-17",
+   "cat": "cat3",
+   "title": "Wazdan 經 Light & Wonder 聚合平台進入南非 Hollywoodbets",
+   "gp": ""
+  },
+  {
+   "key": "evoplay約50款遊戲上線西班牙granmadrid|",
+   "date": "2026-10-17",
+   "cat": "cat3",
+   "title": "Evoplay 約 50 款遊戲上線西班牙 Gran Madrid",
+   "gp": ""
+  },
+  {
+   "key": "casinoplus加冠首屆misscasinoplusbacolod|",
+   "date": "2026-10-17",
+   "cat": "cat4",
+   "title": "Casino Plus 加冠首屆 Miss Casino Plus Bacolod",
+   "gp": ""
+  },
+  {
+   "key": "arenaplus代言人luismanzano談平台合作|",
+   "date": "2026-10-17",
+   "cat": "cat4",
+   "title": "ArenaPlus 代言人 Luis Manzano 談平台合作",
+   "gp": ""
+  },
+  {
+   "key": "澳門第三季massggr年減52slot成長188|",
+   "date": "2026-10-17",
+   "cat": "cat5",
+   "title": "澳門第三季 Mass GGR 年減 5.2%，Slot 成長 18.8%",
+   "gp": ""
+  },
+  {
+   "key": "4theplayer創辦人ai讓slot分成快時尚與精品|",
+   "date": "2026-10-17",
+   "cat": "cat5",
+   "title": "4ThePlayer 創辦人：AI 讓 Slot 分成快時尚與精品",
+   "gp": ""
+  },
+  {
+   "key": "西班牙2025年3100萬人參與博彩問題賭博率030|",
+   "date": "2026-10-17",
+   "cat": "cat5",
+   "title": "西班牙 2025 年 3,100 萬人參與博彩，問題賭博率 0.30%",
    "gp": ""
   }
  ],
