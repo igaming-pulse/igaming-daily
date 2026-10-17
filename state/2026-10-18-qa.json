@@ -1,0 +1,26 @@
+{
+ "date": "2026-10-18",
+ "md": "state/2026-10-18-igaming-report.md",
+ "html": "reports/2026-10-18.html",
+ "items": 10,
+ "counts": {
+  "cat1": 3,
+  "cat2": 1,
+  "cat3": 3,
+  "cat4": 1,
+  "cat5": 2
+ },
+ "links": {
+  "checked": 24,
+  "ok": 24,
+  "broken": 0,
+  "blocked": 0,
+  "images_dropped": 0,
+  "images": 10
+ },
+ "errors": [],
+ "warnings": [],
+ "fixes": [
+  "文末｜資料來源數 15 → 14（程式依來源連結去重計算）"
+ ]
+}

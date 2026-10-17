@@ -1,0 +1,48 @@
+{
+ "date": "2026-10-18",
+ "alerts": [],
+ "info": {
+  "credits": {
+   "remaining": 1018,
+   "plan": 1000,
+   "period_end": "2026-11-14",
+   "today_use": 4,
+   "daily_use": 28,
+   "daily_basis": "近 7 天實際",
+   "days_to_reset": 27,
+   "need_until_reset": 756
+  },
+  "tier": {
+   "tier": "🟢 充裕",
+   "budget": 37,
+   "remaining": 1022,
+   "period_end": "2026-11-14",
+   "days_to_reset": 27,
+   "reserve": 20,
+   "note": "全開",
+   "lists_spent": 4,
+   "article_limit": 22,
+   "image_extra": 12
+  },
+  "sources": {
+   "total": 104,
+   "failed_today": [
+    "SunStar",
+    "BusinessWorld",
+    "BigWinBoard 新作列表"
+   ],
+   "streak_3d": []
+  },
+  "candidates": {
+   "today": 54,
+   "median_same_type": null,
+   "basis_days": 0,
+   "type": "週末窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 0,
+   "fixes": 1
+  }
+ }
+}
