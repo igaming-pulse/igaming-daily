@@ -27,14 +27,22 @@ if [ ! -d "$REPO/.git" ]; then
   git clone -q -b "$BRANCH" "$REPO_URL" "$REPO" || { say "✗ clone 失敗"; exit 1; }
 fi
 
+# bot 與 daily 兩個容器同時啟動、同時 git pull 會互相干擾（2026-10-18 遇到 Cannot fast-forward to multiple branches）
+# → 先清掉 Synology 的 @eaDir，再用 flock 排隊（鎖檔在共用的 .git 裡，兩個容器看得到同一把）
+safe_pull() {
+  cd "$REPO" || return 1
+  find .git -name '@eaDir' -type d -prune -exec rm -rf {} + 2>/dev/null
+  flock -w 120 .git/igaming-pull.lock git pull -q || say "⚠️ git pull 失敗，用現有版本"
+}
+
 case "${1:-bot}" in
   bot)
     [ -n "${TELEGRAM_BOT_TOKEN:-}" ] || { say "✗ 沒有 TELEGRAM_BOT_TOKEN"; exit 1; }
-    cd "$REPO" && git pull -q || say "⚠️ git pull 失敗，用現有版本"
+    safe_pull
     exec python3 "$REPO/scripts/telegram_bot.py" ;;
   daily)
     # 優先用 repo 裡的排程（改排程不必重建映像檔），沒有才用映像檔內建的
-    cd "$REPO" && git pull -q || say "⚠️ git pull 失敗，用現有版本"
+    safe_pull
     if [ -f "$REPO/nas/scheduler.sh" ]; then exec bash "$REPO/nas/scheduler.sh"; fi
     exec /usr/local/bin/scheduler.sh ;;
   run-once)            # 手動立刻跑一次：docker compose run --rm daily run-once

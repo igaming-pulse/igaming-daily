@@ -13,6 +13,9 @@ services:
     volumes:
       - ./data:/data
     restart: unless-stopped
+    logging:                 # 容器日誌上限：每個檔 10MB、留 3 個（Docker 預設不清，會一直長大）
+      driver: json-file
+      options: {max-size: "10m", max-file: "3"}
 
   daily:                     # 每天 02:30 產日報（取代 Mac 的 launchd）
     build: .                 # 跟 bot 同一個 image（第二次 build 走快取，幾秒就好）
@@ -29,3 +32,6 @@ services:
     volumes:
       - ./data:/data
     restart: unless-stopped
+    logging:                 # 容器日誌上限：每個檔 10MB、留 3 個（Docker 預設不清，會一直長大）
+      driver: json-file
+      options: {max-size: "10m", max-file: "3"}

@@ -103,8 +103,13 @@ BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "?")
 # 出現在 .git/refs 裡會讓 git pull 失敗（fatal: bad object refs/heads/@eaDir/...）→ 開跑前清掉（Mac 上不會有，無影響）
 find .git -name '@eaDir' -type d -prune -exec rm -rf {} + 2>/dev/null
 
+# NAS（2026-10-18）：bot 與 daily 兩個容器共用同一份 repo，同時 git pull 會互相干擾
+# （fatal: Cannot fast-forward to multiple branches）→ 有 flock 就排隊（最多等 120 秒）。Mac 沒有 flock，直接跑。
+PULL_LOCK=()
+command -v flock >/dev/null 2>&1 && PULL_LOCK=(flock -w 120 .git/igaming-pull.lock)
+
 log "git pull…"
-git pull --ff-only >>"$LOG" 2>&1 || log "⚠️ git pull 失敗，用本地版本繼續"
+${PULL_LOCK[@]+"${PULL_LOCK[@]}"} git pull --ff-only >>"$LOG" 2>&1 || log "⚠️ git pull 失敗，用本地版本繼續"
 if [ -z "${IGAMING_REEXEC:-}" ] && ! cmp -s "$IGAMING_RUN_COPY" "$REPO/scripts/run_daily.sh"; then
   log "run_daily.sh 剛被 git pull 更新 → 用新版本重新開始"
   rm -f "$IGAMING_RUN_COPY"
@@ -166,7 +171,7 @@ lock_push() {   # $1 = running | failed
   printf 'machine=%s\nstarted=%s\nstatus=%s\nupdated=%s\n' "$MACHINE" "${LOCK_STARTED:-$(date +%s)}" "$1" "$(ts)" > "$LOCK"
   git add -f "$LOCK" >/dev/null 2>&1
   git commit -q -m "lock: ${DATE} ${MACHINE} $1" -- "$LOCK" >/dev/null 2>&1
-  git push -q >/dev/null 2>&1 || { git pull -q --rebase >/dev/null 2>&1 && git push -q >/dev/null 2>&1; } \
+  git push -q >/dev/null 2>&1 || { ${PULL_LOCK[@]+"${PULL_LOCK[@]}"} git pull -q --rebase >/dev/null 2>&1 && git push -q >/dev/null 2>&1; } \
     || log "  ⚠️ 執行中標記推不上 GitHub（不影響本次執行）"
 }
 if [ "${IGAMING_FORCE:-0}" != "1" ] && [ -f "$LOCK" ] && [ "$(lock_field machine)" != "$MACHINE" ] \
@@ -184,7 +189,7 @@ if [ "${IGAMING_FORCE:-0}" != "1" ] && [ -f "$LOCK" ] && [ "$(lock_field machine
       log "  已等 $(( WAITED / 60 )) 分鐘仍未完成 → 本機接手"; break
     fi
     sleep 300; WAITED=$(( WAITED + 300 ))
-    git pull --ff-only -q >>"$LOG" 2>&1 || true
+    ${PULL_LOCK[@]+"${PULL_LOCK[@]}"} git pull --ff-only -q >>"$LOG" 2>&1 || true
     if git log --since="18 hours ago" --format=%s 2>/dev/null | grep -x "daily: ${DATE} report" >/dev/null \
        && [ -f "reports/${DATE}.html" ]; then
       log "  ✓ ${OTHER} 已完成今天的日報，本機略過"
@@ -256,8 +261,9 @@ else
   fail=1
 fi
 
-if [ "$ELAPSED" -lt 300 ]; then
-  log "  ⚠️ 只跑了 ${ELAPSED} 秒，正常應該 30 分鐘以上 —— 很可能中途停下來反問或提早結束"
+# 2026-10-18：門檻 300→120 秒。NAS 上正常約 4–20 分鐘（10/18 只花 258 秒也是完整日報），只在真的提早結束時提醒
+if [ "$ELAPSED" -lt 120 ]; then
+  log "  ⚠️ 只跑了 ${ELAPSED} 秒，正常應該 4 分鐘以上 —— 很可能中途停下來反問或提早結束"
 fi
 
 if [ "$fail" -eq 0 ]; then

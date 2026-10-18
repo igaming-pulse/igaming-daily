@@ -27,7 +27,7 @@ if [ -z "${IGAMING_SCHED_UPDATED:-}" ] && [ -d "$REPO/.git" ]; then
   self="$REPO/nas/scheduler.sh"; before=$(cksum < "$self" 2>/dev/null)
   find "$REPO/.git" -name '@eaDir' -type d -prune -exec rm -rf {} + 2>/dev/null
   for i in 1 2 3; do
-    git -C "$REPO" pull -q --ff-only 2>&1 && break
+    (cd "$REPO" && flock -w 120 .git/igaming-pull.lock git pull -q --ff-only 2>&1) && break
     say "git pull 失敗（第 ${i} 次），10 秒後重試"; sleep 10
   done
   if [ -f "$self" ] && [ "$(cksum < "$self")" != "$before" ]; then
