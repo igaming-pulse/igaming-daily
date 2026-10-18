@@ -19,6 +19,23 @@ UNTIL="${CATCHUP_UNTIL:-10:00}"
 LOCK=/tmp/igaming-daily.lock
 say() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] [scheduler] $*"; }
 
+# ── 啟動時自己更新（2026-10-18）────────────────────────────────
+# bot 和 daily 兩個容器同時啟動、同時 git pull 會互相干擾（fatal: Cannot fast-forward to multiple branches），
+# 入口那次 pull 失敗就會跑到舊版排程。所以這裡再清一次 .git 裡的 Synology @eaDir、重試 pull，
+# 本檔有更新就用新版重新開始（只做一次）。
+if [ -z "${IGAMING_SCHED_UPDATED:-}" ] && [ -d "$REPO/.git" ]; then
+  self="$REPO/nas/scheduler.sh"; before=$(cksum < "$self" 2>/dev/null)
+  find "$REPO/.git" -name '@eaDir' -type d -prune -exec rm -rf {} + 2>/dev/null
+  for i in 1 2 3; do
+    git -C "$REPO" pull -q --ff-only 2>&1 && break
+    say "git pull 失敗（第 ${i} 次），10 秒後重試"; sleep 10
+  done
+  if [ -f "$self" ] && [ "$(cksum < "$self")" != "$before" ]; then
+    say "排程程式已更新 → 用新版本重新開始"
+    export IGAMING_SCHED_UPDATED=1; exec bash "$self"
+  fi
+fi
+
 run_daily() {
   say "開始執行 run_daily.sh"
   flock -n "$LOCK" bash "$REPO/scripts/run_daily.sh"
