@@ -1,0 +1,51 @@
+{
+ "date": "2026-10-19",
+ "alerts": [
+  "🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（3 天）；請檢查網址或改抓取方式"
+ ],
+ "info": {
+  "credits": {
+   "remaining": 1009,
+   "plan": 1000,
+   "period_end": "2026-11-14",
+   "today_use": 9,
+   "daily_use": 23,
+   "daily_basis": "近 7 天實際",
+   "days_to_reset": 26,
+   "need_until_reset": 598
+  },
+  "tier": {
+   "tier": "🟢 充裕",
+   "budget": 38,
+   "remaining": 1018,
+   "period_end": "2026-11-14",
+   "days_to_reset": 26,
+   "reserve": 20,
+   "note": "全開",
+   "lists_spent": 9,
+   "article_limit": 22,
+   "image_extra": 12
+  },
+  "sources": {
+   "total": 109,
+   "failed_today": [
+    "Gaming Technologies Association",
+    "BigWinBoard 新作列表"
+   ],
+   "streak_3d": [
+    "BigWinBoard 新作列表"
+   ]
+  },
+  "candidates": {
+   "today": 41,
+   "median_same_type": null,
+   "basis_days": 1,
+   "type": "週末窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 0,
+   "fixes": 1
+  }
+ }
+}

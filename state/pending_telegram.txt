@@ -1,31 +1,36 @@
-🎰 iGaming 市場日報 2026-10-18（週日）
-🎰 Slot 3 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 2
+🎰 iGaming 市場日報 2026-10-19（週一）
+🎰 Slot 5 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Peter & Sons《Inks & Pints》：四階 Bonus Wheel，最高 10,000x
-・DigiPlus 獲 ACES 評為亞洲最佳績效公司之一
-・Catena Media 第三季營收年減 29%，下修 2026 目標
+・BGaming《Spider Circus》今日上線，97% RTP、最高 5,000x
+・PhilWeb 取得 MegaWin 內容，Q4 供應菲律賓賭場平台
+・巴西 MP 1394 週報：97 項修正案、Stake 禁制令被推翻
 
 🎰 Slot 新遊戲
-01 📦 Inks & Pints – Peter & Sons
-02 📦 Ghost Ship Gold – Triple Cherry
-03 📦 3 Roaring Bells: Hold and Win – Playson
-
-🕹️ 非 Slot 新內容
-01 📦 線上撲克流量 10 月上揚：GGPoker 增、PokerStars 減
+01 Spider Circus Hold and Win – BGaming
+02 3 Shadow Wolves – Spinomenal
+03 📦 ted Stuffed & Loaded – Blueprint Gaming
+04 📦 The Castle of Slotenstein – Evoplay
+05 📦 Grace of Cleopatra Buy Bonus – Amusnet
 
 🤝 動態：主流 GP／平台
-01 Hacksaw Gaming 成為 Bally's Intralot 第 72 家英國營運商夥伴
-02 bet365 瑞典牌照保住：上訴法院維持 4,400 萬克朗罰款
-03 Matchbook 完成收購 Betdaq
+01 MGM 與 Aristocrat 慶祝 ARIA 首度 $5M+ Dragon Link 大獎
+02 📦 英國 90 名工黨議員要求調高機台遊戲稅（MGD）
+03 📦 歐盟預算談判卡關，歐洲議會重提線上博彩課稅
 
 🇵🇭 動態：菲律賓 GP／平台
-01 DigiPlus 獲 ACES 評為亞洲最佳績效公司之一
+01 PhilWeb 取得 MegaWin 獨家合作，目標第四季推出數位賭場遊戲
+02 🔁 新進展：Casino Plus 21 呎花車、代言人登場電子花車遊行
 
 📊 市場數據 & 趨勢
-01 Catena Media 第三季營收年減 29%，下修 2026 目標
-02 馬爾他 iGaming 2025 年產值 14.22 億歐元、員工數 +4.8%
+01 巴西 MP 1394 週報：97 項修正案、Stake 禁制令被推翻
+02 線上博彩股週報：Bragg 週漲 9%
+03 📦 預測市場週報：2026 美國期中選舉合約成交逼近 10 億美元
 
 📝 品質備註（本次爬找判斷）
-1. 週日窗內新聞偏淡（窗內候選 54 則，多為日本、巴西、體育雜訊）；Slot 窗內無合格新作，3 款全由庫存補位，iGamingToday 的三篇預覽評測（上線日 11/10、12/1、2027/1/7）因超過 7 天不收。
-2. 菲律賓區窗內只有 1 則合格（Casino Plus、ArenaPlus 稿 10/17 已上），庫存無料；非 Slot 僅 1 則（EEZE 近期無新消息）。DigiPlus 獎項僅單一來源；Inks & Pints 日期採官方上線日 10/15。BigWinBoard、SunStar、BusinessWorld 抓取失敗。
+1. 今日共收 13 則（偏少）：窗內 harvest 候選 41 則多為義大利／巴西／日本在地新聞與體育，合格新遊戲僅 2 款，其餘 3 款 Slot 由庫存補位；非 Slot 區窗內無合格候選、庫存為 0，從缺。
+2. Slot 多款參數（盤面、RTP）查無公開資料，已標未公布；Dynamo Express、Coffee Dealer 上線日 10/20–21 但無新聞稿，進庫存待明後天使用。BigWinBoard 與 PAGCOR 頁面今日抓取失敗；WebSearch 對菲律賓平台近況回傳偏舊，可能漏收。
+3. Casino Plus MassKara 遊行疑與 10/14、10/17 報導同系列重疊，因為是新活動而收錄（標 🔁）。
+
+⚙️ 系統警報
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（3 天）；請檢查網址或改抓取方式

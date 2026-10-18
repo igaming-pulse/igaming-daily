@@ -109,79 +109,38 @@
   },
   {
    "cat": "cat1",
-   "title": "The Castle of Slotenstein",
-   "gp": "Evoplay",
-   "b": 1,
-   "first_seen": "2026-10-16",
+   "title": "Dynamo Express",
+   "gp": "Push Gaming",
+   "b": 3,
+   "first_seen": "2026-10-19",
+   "release_date": "2026-10-21",
    "sources": [
     {
-     "name": "European Gaming",
-     "url": "https://europeangaming.eu/portal/press-releases/2026/10/15/216083/evoplay-castle-of-slotenstein-3-pumpkins/",
-     "published": "2026-10-15 21:01"
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/push-gaming/dynamo-express",
+     "published": "2026-10-21"
     }
    ],
-   "key": "thecastleofslotenstein|evoplay"
+   "key": "dynamoexpress|pushgaming"
   },
   {
    "cat": "cat1",
-   "title": "Ted Stuffed & Loaded",
-   "gp": "Blueprint Gaming",
-   "b": 1,
-   "first_seen": "2026-10-16",
+   "title": "Coffee Dealer",
+   "gp": "Hacksaw Gaming",
+   "b": 3,
+   "first_seen": "2026-10-19",
+   "release_date": "2026-10-20",
    "sources": [
     {
-     "name": "G3 Newswire",
-     "url": "https://g3newswire.com/ted-returns-as-blueprint-gaming-adds-stuffed-and-loaded-to-hit-series/",
-     "published": "2026-10-15 18:20"
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/hacksaw-gaming/coffee-dealer",
+     "published": "2026-10-20"
     }
    ],
-   "key": "tedstuffedloaded|blueprintgaming"
-  },
-  {
-   "cat": "cat1",
-   "title": "Grace of Cleopatra Buy Bonus",
-   "gp": "Amusnet",
-   "b": 1,
-   "first_seen": "2026-10-17",
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/10/16/53193/amusnet-uncovers-the-treasure-of-ancient-egypt-with-grace-of-cleopatra-buy-bonus/",
-     "published": "2026-10-16 15:30"
-    }
-   ],
-   "key": "graceofcleopatrabuybonus|amusnet"
+   "key": "coffeedealer|hacksawgaming"
   }
  ],
  "others": [
-  {
-   "cat": "cat3",
-   "title": "Matchbook 完成收購交易所 Betdaq",
-   "b": 1,
-   "first_seen": "2026-10-15",
-   "sources": [
-    {
-     "name": "iGaming Business",
-     "url": "https://igamingbusiness.com/strategy/ma/matchbook-completes-acquisition-rival-exchange-betdaq/",
-     "published": "2026-10-14 18:21"
-    }
-   ],
-   "key": "matchbook完成收購交易所betdaq|"
-  },
-  {
-   "cat": "cat5",
-   "title": "堪薩斯州實體賭場前 9 月營收近 3.25 億美元",
-   "b": 1,
-   "first_seen": "2026-10-15",
-   "sources": [
-    {
-     "name": "Gaming Intelligence",
-     "url": "https://www.gamingintelligence.com/finance/237197-kansas-land-based-gaming-revenue-nears-325-million-in-9m-2026/",
-     "published": "2026-10-14 17:33"
-    }
-   ],
-   "key": "堪薩斯州實體賭場前9月營收近325億美元|"
-  },
   {
    "cat": "cat3",
    "title": "ICONIC21 與 Advabet 簽多品類內容合作",
@@ -209,20 +168,6 @@
    "key": "西班牙2025年3100萬人參與博彩問題賭博降至030|"
   },
   {
-   "cat": "cat3",
-   "title": "英國 90 名工黨議員要求調高機台遊戲稅（MGD）",
-   "b": 1,
-   "first_seen": "2026-10-18",
-   "sources": [
-    {
-     "name": "JAMMA",
-     "url": "https://www.jamma.it/apparecchi-intrattenimento/regno-unito-90-deputati-laburisti-chiedono-di-aumentare-le-tasse-sugli-apparecchi-da-gioco-lettera-al-cancelliere-dello-scacchiere-360781",
-     "published": "2026-10-17 21:30"
-    }
-   ],
-   "key": "英國90名工黨議員要求調高機台遊戲稅mgd|"
-  },
-  {
    "cat": "cat5",
    "title": "預測市場週報：2026 美國期中選舉成交量逼近 10 億美元",
    "b": 1,
@@ -235,6 +180,20 @@
     }
    ],
    "key": "預測市場週報2026美國期中選舉成交量逼近10億美元|"
+  },
+  {
+   "cat": "cat5",
+   "title": "澳門第三季 GGR 年減，Mass 百家樂 -7.9%（DICJ）",
+   "b": 1,
+   "first_seen": "2026-10-19",
+   "sources": [
+    {
+     "name": "Inside Asian Gaming",
+     "url": "https://asgam.com/2026/10/18/macau-3q-ggr-decline-driven-by-7-9-drop-in-mass-baccarat-dicj-figures-show/",
+     "published": "2026-10-18 18:11"
+    }
+   ],
+   "key": "澳門第三季ggr年減mass百家樂79dicj|"
   }
  ],
  "history": [
@@ -3113,6 +3072,97 @@
    "date": "2026-10-18",
    "cat": "cat5",
    "title": "馬爾他 iGaming 2025 年產值 14.22 億歐元、員工數 +4.8%",
+   "gp": ""
+  },
+  {
+   "key": "spidercircusholdandwin|bgaming",
+   "date": "2026-10-19",
+   "cat": "cat1",
+   "title": "Spider Circus Hold and Win",
+   "gp": "BGaming"
+  },
+  {
+   "key": "3shadowwolves|spinomenal",
+   "date": "2026-10-19",
+   "cat": "cat1",
+   "title": "3 Shadow Wolves",
+   "gp": "Spinomenal"
+  },
+  {
+   "key": "tedstuffedloaded|blueprintgaming",
+   "date": "2026-10-19",
+   "cat": "cat1",
+   "title": "Ted Stuffed & Loaded",
+   "gp": "Blueprint Gaming"
+  },
+  {
+   "key": "thecastleofslotenstein|evoplay",
+   "date": "2026-10-19",
+   "cat": "cat1",
+   "title": "The Castle of Slotenstein",
+   "gp": "Evoplay"
+  },
+  {
+   "key": "graceofcleopatrabuybonus|amusnet",
+   "date": "2026-10-19",
+   "cat": "cat1",
+   "title": "Grace of Cleopatra Buy Bonus",
+   "gp": "Amusnet"
+  },
+  {
+   "key": "mgm與aristocrat慶祝aria首度5mdragonlink大獎|",
+   "date": "2026-10-19",
+   "cat": "cat3",
+   "title": "MGM 與 Aristocrat 慶祝 ARIA 首度 $5M+ Dragon Link 大獎",
+   "gp": ""
+  },
+  {
+   "key": "英國90名工黨議員要求調高機台遊戲稅mgd|",
+   "date": "2026-10-19",
+   "cat": "cat3",
+   "title": "英國 90 名工黨議員要求調高機台遊戲稅（MGD）",
+   "gp": ""
+  },
+  {
+   "key": "歐盟預算談判卡關歐洲議會重提線上博彩課稅|",
+   "date": "2026-10-19",
+   "cat": "cat3",
+   "title": "歐盟預算談判卡關，歐洲議會重提線上博彩課稅",
+   "gp": ""
+  },
+  {
+   "key": "philweb取得megawin獨家合作目標第四季推出數位賭場遊戲|",
+   "date": "2026-10-19",
+   "cat": "cat4",
+   "title": "PhilWeb 取得 MegaWin 獨家合作，目標第四季推出數位賭場遊戲",
+   "gp": ""
+  },
+  {
+   "key": "casinoplus21呎花車登場bacolodmasskara電子花車遊行|",
+   "date": "2026-10-19",
+   "cat": "cat4",
+   "title": "Casino Plus 21 呎花車登場 Bacolod MassKara 電子花車遊行",
+   "gp": ""
+  },
+  {
+   "key": "巴西mp1394週報97項修正案stake禁制令被推翻|",
+   "date": "2026-10-19",
+   "cat": "cat5",
+   "title": "巴西 MP 1394 週報：97 項修正案、Stake 禁制令被推翻",
+   "gp": ""
+  },
+  {
+   "key": "線上博彩股週報bragg週漲9|",
+   "date": "2026-10-19",
+   "cat": "cat5",
+   "title": "線上博彩股週報：Bragg 週漲 9%",
+   "gp": ""
+  },
+  {
+   "key": "預測市場週報2026美國期中選舉合約成交逼近10億美元|",
+   "date": "2026-10-19",
+   "cat": "cat5",
+   "title": "預測市場週報：2026 美國期中選舉合約成交逼近 10 億美元",
    "gp": ""
   }
  ],
