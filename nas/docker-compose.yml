@@ -1,5 +1,7 @@
 # Synology Container Manager → 專案 → 建立，路徑選放這個檔案的資料夾（例如 /docker/igaming-daily）。
 # 機密放在同資料夾的 secrets.env（照 secrets.env.example 填），不要放進 git。
+# ⚠️ 不要加 logging: driver 設定：Synology 用自己的日誌驅動，Container Manager 的「日誌」頁才看得到內容
+#    （2026-10-18 設成 json-file 後日誌頁整個變空白）。
 services:
   bot:                       # Telegram 查詢 bot（/stock 等），24 小時常駐
     build: .
@@ -13,9 +15,6 @@ services:
     volumes:
       - ./data:/data
     restart: unless-stopped
-    logging:                 # 容器日誌上限：每個檔 10MB、留 3 個（Docker 預設不清，會一直長大）
-      driver: json-file
-      options: {max-size: "10m", max-file: "3"}
 
   daily:                     # 每天 02:30 產日報（取代 Mac 的 launchd）
     build: .                 # 跟 bot 同一個 image（第二次 build 走快取，幾秒就好）
@@ -32,6 +31,3 @@ services:
     volumes:
       - ./data:/data
     restart: unless-stopped
-    logging:                 # 容器日誌上限：每個檔 10MB、留 3 個（Docker 預設不清，會一直長大）
-      driver: json-file
-      options: {max-size: "10m", max-file: "3"}
