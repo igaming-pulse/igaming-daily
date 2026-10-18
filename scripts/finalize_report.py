@@ -116,6 +116,10 @@ def check_schema(rep, day, qa):
             else:
                 check_date(it, c, day, w, qa, special=bool(rep.get("edition")))
             for _, u in it["sources"]:
+                # 2026-10-18：沒有新聞稿的 Slot 會共用 BigWinBoard 新作列表當主來源（SKILL.md 3.6），列表頁共用是正常的，不警告
+                lp = re.sub(r"^https?://[^/]+", "", u).strip("/")
+                if lp.count("/") < 1 and len(lp) <= 25:
+                    continue
                 if u in seen_urls and seen_urls[u] != w:
                     qa.warn(w, f"與 {seen_urls[u]} 用了同一個來源連結")
                 seen_urls.setdefault(u, w)
