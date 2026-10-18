@@ -33,6 +33,9 @@ case "${1:-bot}" in
     cd "$REPO" && git pull -q || say "⚠️ git pull 失敗，用現有版本"
     exec python3 "$REPO/scripts/telegram_bot.py" ;;
   daily)
+    # 優先用 repo 裡的排程（改排程不必重建映像檔），沒有才用映像檔內建的
+    cd "$REPO" && git pull -q || say "⚠️ git pull 失敗，用現有版本"
+    if [ -f "$REPO/nas/scheduler.sh" ]; then exec bash "$REPO/nas/scheduler.sh"; fi
     exec /usr/local/bin/scheduler.sh ;;
   run-once)            # 手動立刻跑一次：docker compose run --rm daily run-once
     exec bash "$REPO/scripts/run_daily.sh" ;;

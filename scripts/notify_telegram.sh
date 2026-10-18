@@ -4,7 +4,8 @@
 # 為什麼：Telegram 由 GitHub Actions 的 06:40 排程發送，若那時日報還沒產出，它只會送「⚠️ 未產出」警報，
 #         之後日報補出來也不會再送（10/1 發生過）。
 # 做什麼：run_daily.sh 成功後呼叫。
-#   - 現在（台北）早於 06:30 → 什麼都不做，交給 06:40 排程（避免半夜吵人）
+#   - 現在（台北）早於 06:30 → 什麼都不做，交給 06:30 的推播（2026-10-18 起由 NAS 的 scheduler 準時呼叫本腳本；
+#     GitHub 06:40 cron 留作備援）
 #   - 已過 06:30 → 等網站上的 <DATE>-test.html 回 200（最多 5 分鐘），再 dispatch telegram-test-0640.yml
 #   - workflow 那邊：今天已有成功的手動發送，排程那次就跳過，不會重複
 # 憑證：用 macOS 鑰匙圈裡的 git 憑證（git credential fill），不寫進任何檔案。
@@ -34,7 +35,11 @@ for _ in $(seq 1 30); do
   [ "$code" = "200" ] && { ok=1; break; }
   sleep 10
 done
-[ -n "$ok" ] || { say "✗ 網站頁面 5 分鐘內沒有上線（${URL}），不推播，留給排程或手動補發"; exit 1; }
+if [ -z "$ok" ]; then
+  # IGAMING_PUSH_ANYWAY=1（NAS 06:30 準時推播）：沒有頁面也照樣觸發，讓 workflow 的守門員發「日報未產出」警報
+  [ "${IGAMING_PUSH_ANYWAY:-0}" = "1" ] || { say "✗ 網站頁面 5 分鐘內沒有上線（${URL}），不推播，留給排程或手動補發"; exit 1; }
+  say "⚠️ 網站頁面 5 分鐘內沒有上線，照樣觸發（守門員會改發未產出警報）"
+fi
 
 TOKEN=$(cd "$REPO" && printf "protocol=https\nhost=github.com\n\n" | git credential fill 2>/dev/null | sed -n 's/^password=//p')
 [ -n "$TOKEN" ] || { say "✗ 取不到 GitHub 憑證，無法觸發推播"; exit 1; }
