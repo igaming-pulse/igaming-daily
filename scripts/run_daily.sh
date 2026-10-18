@@ -99,6 +99,10 @@ if [ "$(git rev-parse --abbrev-ref HEAD 2>/dev/null)" != "$EXPECT_BRANCH" ] && g
 fi
 BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null || echo "?")
 
+# Synology（2026-10-17）：從 Mac 用 SMB 寫過的資料夾，NAS 會產生隱藏的 @eaDir/*@SynoEAStream。
+# 出現在 .git/refs 裡會讓 git pull 失敗（fatal: bad object refs/heads/@eaDir/...）→ 開跑前清掉（Mac 上不會有，無影響）
+find .git -name '@eaDir' -type d -prune -exec rm -rf {} + 2>/dev/null
+
 log "git pull…"
 git pull --ff-only >>"$LOG" 2>&1 || log "⚠️ git pull 失敗，用本地版本繼續"
 if [ -z "${IGAMING_REEXEC:-}" ] && ! cmp -s "$IGAMING_RUN_COPY" "$REPO/scripts/run_daily.sh"; then

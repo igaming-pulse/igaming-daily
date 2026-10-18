@@ -10,3 +10,7 @@ state/harvest/*-fulltext/
 # NAS 部署：機密與執行資料
 nas/secrets.env
 nas/data/
+
+# Synology NAS 的隱藏中繼資料（從 Mac 用 SMB 寫入時產生），不可進 repo
+@eaDir/
+*@SynoEAStream
