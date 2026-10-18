@@ -22,6 +22,9 @@ RUN HOME=/root curl -fsSL https://claude.ai/install.sh | HOME=/root bash \
  && rm -rf /root/.local /root/.claude* \
  && claude --version
 
+# 幫容器的執行身分（docker-compose 的 user: "1026:100"）取個名字，終端機提示字元才不會顯示「I have no name!」
+RUN useradd -u 1026 -g 100 -d /data/home -M -s /bin/bash igaming
+
 COPY entrypoint.sh scheduler.sh /usr/local/bin/
 RUN chmod 755 /usr/local/bin/entrypoint.sh /usr/local/bin/scheduler.sh
 
