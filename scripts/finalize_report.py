@@ -158,6 +158,27 @@ def check_schema(rep, day, qa):
     return total
 
 
+def check_summary(rep, qa):
+    """2026-10-19「📌 本日重點」：必看 Slot＝🎰 區 01；趨勢只寫一段或「沒有」；全段約 350 字。"""
+    sm = rep.get("summary") or {}
+    slot, trend = sm.get("slot", "").strip(), sm.get("trend", "").strip()
+    if not slot and not trend:
+        qa.err("本日重點", "缺「## 📌 本日重點」段落（本日必看 Slot 新品＋本日市場趨勢總結）")
+        return
+    cat1 = next((s["items"] for s in rep["sections"] if s["cat"] == "cat1" and s["items"]), [])
+    if not slot:
+        qa.err("本日重點", "缺「本日必看 Slot 新品：遊戲名 – 廠商」")
+    elif cat1 and R.norm_title(slot) != R.norm_title(cat1[0]["title"]):
+        qa.err("本日重點", f"必看 Slot「{slot[:30]}」不是 🎰 區的 01「{cat1[0]['title'][:30]}」—— 把它排到 01，或改寫必看 Slot")
+    if not trend:
+        qa.err("本日重點", "缺「本日市場趨勢總結：…」（看不出趨勢就寫「沒有」）")
+    elif trend.rstrip("。.") != "沒有" and len(trend) < 40:
+        qa.warn("本日重點", f"趨勢總結只有 {len(trend)} 字，太短；沒有明確趨勢請直接寫「沒有」")
+    n = len(slot) + len(trend)
+    if n > 420:
+        qa.warn("本日重點", f"本日重點共 {n} 字，超過約 350 字的目標，請精簡")
+
+
 def check_date(it, cat, day, w, qa, special=False):
     try:
         pd = date.fromisoformat(it["date"])
@@ -491,6 +512,7 @@ def main():
     check_inventory_use(rep, day, qa)
     if not rep.get("edition"):
         check_release(rep, day, qa)
+        check_summary(rep, qa)
     # v6.5：「提取 N2 個資料來源」改由程式算 —— 全部則的來源連結去重後的數量（SKILL.md「📊 文末統計列」定義）
     n2 = len({u for sec in rep["sections"] for it in sec["items"] for _, u in it["sources"]})
     if rep.get("stats"):

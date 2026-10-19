@@ -27,6 +27,32 @@ REPORT_URL = INDEX_URL + "reports/{date}.html"
 REQUIRED = ["SMTP_HOST", "SMTP_PORT", "SMTP_USER", "SMTP_PASS", "MAIL_TO"]
 
 
+def summary_from_report(date):
+    """讀 reports/<date>.html（併行期是 <date>-test.html）裡的本日重點 meta；沒有就回傳空字串。"""
+    import html as H
+    for name in (f"{date}.html", f"{date}-test.html"):
+        p = os.path.join(ROOT, "reports", name)
+        if os.path.exists(p):
+            head = open(p, encoding="utf-8").read(20000)
+            get = lambda k: H.unescape((re.search(rf'<meta name="igaming-summary-{k}" content="([^"]*)"', head) or [None, ""])[1])
+            return get("slot"), get("trend")
+    return "", ""
+
+
+def summary_html(slot, trend):
+    import html as H
+    if not (slot or trend):
+        return ""
+    rows = ""
+    if slot:
+        rows += f'<div style="margin-top:6px;"><b>本日必看 Slot 新品：</b>{H.escape(slot)}</div>'
+    if trend:
+        rows += f'<div style="margin-top:6px;"><b>本日市場趨勢總結：</b>{H.escape(trend)}</div>'
+    return ('<div style="margin-top:18px;background:#FFF6F6;border-left:5px solid #B31217;border-radius:10px;'
+            'padding:12px 14px;font-size:14px;color:#1A2230;line-height:1.8;">'
+            '<div style="font-weight:800;color:#B31217;">📌 本日重點</div>' + rows + '</div>')
+
+
 def main():
     missing = [k for k in REQUIRED if not os.environ.get(k)]
     if missing:
@@ -56,12 +82,17 @@ def main():
     subject = f"iGaming 市場日報 {date}" + (f"（{wd.group(1)}）" if wd else "")
     report_url = REPORT_URL.format(date=date)
 
+    # ---- 2026-10-19「📌 本日重點」：從日報 HTML 的 meta 取（render_report 寫入），Telegram 不放 ----
+    sum_slot, sum_trend = summary_from_report(date)
+
     # ---- 純文字備援 ----
     text = "\n".join([
         f"iGaming 市場日報 {date}",
         "",
         counts,
         "",
+        *([f"本日必看 Slot 新品：{sum_slot}"] if sum_slot else []),
+        *([f"本日市場趨勢總結：{sum_trend}", ""] if sum_trend else []),
         f"完整日報：{report_url}",
         f"存檔首頁：{INDEX_URL}",
     ])
@@ -73,6 +104,7 @@ def main():
     <div style="font-size:14px;color:#5B6675;margin-top:6px;">{date}{'（' + wd.group(1) + '）' if wd else ''} · 台北時間</div>
     <div style="height:1px;background:#E7EBF0;margin:20px 0;"></div>
     <div style="font-size:14px;color:#1A2230;line-height:1.9;">{counts}</div>
+    {summary_html(sum_slot, sum_trend)}
     <div style="margin:26px 0 8px;">
       <a href="{report_url}" style="display:inline-block;background:#1D9E75;color:#ffffff;font-size:15px;font-weight:700;text-decoration:none;padding:13px 26px;border-radius:10px;">開啟今日完整日報 →</a>
     </div>

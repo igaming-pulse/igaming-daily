@@ -80,7 +80,8 @@ def _split_label(title):
 
 
 def parse_md(text):
-    rep = {"date": "", "sections": [], "stats": None, "internal": "", "header_counts": "", "edition": ""}
+    rep = {"date": "", "sections": [], "stats": None, "internal": "", "header_counts": "", "edition": "",
+           "summary": {"slot": "", "trend": ""}}
     lines = text.splitlines()
     m = RX_DATE.search(lines[0] if lines else "")
     rep["date"] = m.group(1) if m else ""
@@ -95,6 +96,17 @@ def parse_md(text):
         s = line.strip()
         if sec == "internal":
             internal.append(line)
+            continue
+        if s.startswith("## ") and "本日重點" in s:      # 2026-10-19：網站／Email 頂部的「📌 本日重點」
+            sec, item, field, pending_no = "summary", None, None, None
+            continue
+        if sec == "summary" and not s.startswith("## "):
+            ms = re.match(r"^本日(必看 ?Slot ?新品|市場趨勢總結)\s*[:：]\s*(.*)$", s)
+            if ms:
+                field = "slot" if "Slot" in ms.group(1) else "trend"
+                rep["summary"][field] = ms.group(2).strip()
+            elif s and s != "---" and field == "trend":
+                rep["summary"]["trend"] += s            # 趨勢段落換行續寫
             continue
         if s.startswith("## "):
             c = section_cat(s)
@@ -215,6 +227,11 @@ CSS = """  :root{
   .stat .n{font-size:22px;font-weight:800}
   .stat .l{font-size:12px;color:var(--sub);margin-top:2px}
   .stat.s1 .n{color:var(--c1)} .stat.s2 .n{color:var(--c2)} .stat.s3 .n{color:var(--c3)} .stat.s4 .n{color:var(--c4)} .stat.s5 .n{color:var(--c5)}
+  .summary{background:var(--card);border:1px solid var(--line);border-left:6px solid #B31217;border-radius:14px;padding:16px 20px;margin:0 0 32px}
+  .summary .sum-title{font-size:15px;font-weight:800;color:#B31217;margin-bottom:8px}
+  .summary p{margin:0 0 8px}
+  .summary p:last-child{margin-bottom:0}
+  .summary b{color:#1A2230;margin-right:4px}
   section{margin-bottom:36px}
   .sec-title{display:flex;align-items:center;gap:10px;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid var(--line)}
   .sec-title .emoji{font-size:1.5em}
@@ -327,13 +344,25 @@ def render_html(rep):
         body.append("\n\n".join(_card(c, it) for it in s["items"]))
         body.append("\n</section>\n")
     st = rep.get("stats") or {"n1": 0, "n2": 0}
+    sm = rep.get("summary") or {}
+    summary, summary_meta = "", ""
+    if sm.get("slot") or sm.get("trend"):
+        rows = []
+        if sm.get("slot"):
+            rows.append(f'  <p><b>本日必看 Slot 新品：</b>{inline(sm["slot"])}</p>')
+        if sm.get("trend"):
+            rows.append(f'  <p><b>本日市場趨勢總結：</b>{inline(sm["trend"])}</p>')
+        summary = '<div class="summary">\n  <div class="sum-title">📌 本日重點</div>\n' + "\n".join(rows) + "\n</div>\n"
+        # Email（send_email.py）從這兩個 meta 取本日重點，不必另外讀原稿
+        summary_meta = (f'<meta name="igaming-summary-slot" content="{html.escape(sm.get("slot", ""))}">\n'
+                        f'<meta name="igaming-summary-trend" content="{html.escape(sm.get("trend", ""))}">\n')
     return f"""<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="generator" content="render_report.py {VERSION}">
-<title>iGaming 市場日報 {d}{"（特別版）" if rep.get("edition") else ""}</title>
+{summary_meta}<title>iGaming 市場日報 {d}{"（特別版）" if rep.get("edition") else ""}</title>
 <link rel="icon" type="image/png" sizes="32x32" href="../icon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../icon-16.png">
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
@@ -355,6 +384,7 @@ def render_html(rep):
 {stats}
 </div>
 
+{summary}
 {"".join(body)}
 <div class="stats-line">本日日報查詢約 <b>{st["n1"]}</b> 個網站，其中提取 <b>{st["n2"]}</b> 個資料來源並進行交叉比對</div>
 {firecrawl_line(rep.get("firecrawl"))}
