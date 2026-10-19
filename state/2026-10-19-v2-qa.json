@@ -1,0 +1,23 @@
+{
+ "date": "2026-10-19",
+ "md": "state/2026-10-19-v2-igaming-report.md",
+ "html": "reports/2026-10-19-v2.html",
+ "items": 13,
+ "counts": {
+  "cat1": 5,
+  "cat3": 3,
+  "cat4": 2,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 0,
+  "skipped": true
+ },
+ "errors": [
+  "cat1｜當天新作 2 款（≤5），Slot 只有 5 款、未滿 7，庫存還有 2 款可補（最高 Dynamo Express B3）；不能用的話在原稿內部紀錄寫「剔除：名稱（原因）」"
+ ],
+ "warnings": [],
+ "fixes": [
+  "文末｜資料來源數 15 → 17（程式依來源連結去重計算）"
+ ]
+}
