@@ -1,36 +1,45 @@
-🎰 iGaming 市場日報 2026-10-19（週一）
-🎰 Slot 5 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-10-20（週二）
+🎰 Slot 7 ・ 🕹️ 非 Slot 4 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・BGaming《Spider Circus》今日上線，97% RTP、最高 5,000x
-・PhilWeb 取得 MegaWin 內容，Q4 供應菲律賓賭場平台
-・巴西 MP 1394 週報：97 項修正案、Stake 禁制令被推翻
+・Nolimit City 萬聖節新作 Six Feet Under 上線：6×6、最高 30,000x、炸彈清盤
+・PAGCOR 目標十二月推出辨識合法平台的手機 App，DCI 免費開發
+・巴西禁令後離岸搜尋量五天升至 11.3%；Booming Games 安大略新作統一 93.5% RTP
 
 🎰 Slot 新遊戲
-01 Spider Circus Hold and Win – BGaming
-02 3 Shadow Wolves – Spinomenal
-03 📦 ted Stuffed & Loaded – Blueprint Gaming
-04 📦 The Castle of Slotenstein – Evoplay
-05 📦 Grace of Cleopatra Buy Bonus – Amusnet
+01 Six Feet Under – Nolimit City
+02 Sweet Bonanza POP – Pragmatic Play
+03 Coffee Dealer – Hacksaw Gaming
+04 4 Gates of Pyramid – Kendoo
+05 Golden Rabbit – Amusnet
+06 The Shining Globe Deluxe – CT Interactive
+07 3 Coin Volcanoes – 3 Oaks Gaming
+
+🕹️ 非 Slot 新內容
+01 AviaX – Maxxi Labs
+02 Kevin Hart 真人娛樂場企劃 – Pragmatic Play
+03 Eeze：SBC Summit 後加碼拉美
+04 GGPoker Ocean KO Opener 創單場參賽人數紀錄
 
 🤝 動態：主流 GP／平台
-01 MGM 與 Aristocrat 慶祝 ARIA 首度 $5M+ Dragon Link 大獎
-02 📦 英國 90 名工黨議員要求調高機台遊戲稅（MGD）
-03 📦 歐盟預算談判卡關，歐洲議會重提線上博彩課稅
+01 Rio 開設 Aristocrat 專屬機台區 Dragon Lair
+02 TaDa Gaming 英國布局滿一年：40 款認證遊戲
+03 BGaming 與秘魯 LaFija.com 簽約
+04 BetMGM 推出 LegendSCARY 萬聖節活動
 
 🇵🇭 動態：菲律賓 GP／平台
-01 PhilWeb 取得 MegaWin 獨家合作，目標第四季推出數位賭場遊戲
-02 🔁 新進展：Casino Plus 21 呎花車、代言人登場電子花車遊行
+01 PAGCOR 規劃十二月推出合法平台查證 App
+02 PAGCOR 捐贈 16 輛病患運送車
 
 📊 市場數據 & 趨勢
-01 巴西 MP 1394 週報：97 項修正案、Stake 禁制令被推翻
-02 線上博彩股週報：Bragg 週漲 9%
-03 📦 預測市場週報：2026 美國期中選舉合約成交逼近 10 億美元
+01 Booming Games 安大略新作統一 93.5% RTP
+02 賓州 9 月博彩營收 5.55 億美元，線上賭場 +6.8%
+03 Blask：巴西禁令後離岸搜尋量五天升至 11.3%
 
 📝 品質備註（本次爬找判斷）
-1. 今日共收 13 則（偏少）：窗內 harvest 候選 41 則多為義大利／巴西／日本在地新聞與體育，合格新遊戲僅 2 款，其餘 3 款 Slot 由庫存補位；非 Slot 區窗內無合格候選、庫存為 0，從缺。
-2. Slot 多款參數（盤面、RTP）查無公開資料，已標未公布；Dynamo Express、Coffee Dealer 上線日 10/20–21 但無新聞稿，進庫存待明後天使用。BigWinBoard 與 PAGCOR 頁面今日抓取失敗；WebSearch 對菲律賓平台近況回傳偏舊，可能漏收。
-3. Casino Plus MassKara 遊行疑與 10/14、10/17 報導同系列重疊，因為是新活動而收錄（標 🔁）。
+1. 菲律賓區窗內只有 PAGCOR 兩則（平台新聞多為體育贊助雜訊）；Casino Plus MassKara 花車、PhilWeb×MegaWin 為 10/19 已報導的同一事件，未再收。
+2. Six Feet Under、Sweet Bonanza POP、Coffee Dealer 無窗內新聞稿，主來源為 SlotsLaunch 上線日曆；Dynamo Express（10/21 上線）窗內無含日期主來源，留庫存；Big Bass Christmas Blast 1000 上線日 11/16，進庫存待上線。BigWinBoard 新作列表本次解析失敗。
+3. 澳門第三季 GGR 與 10/17 已報導同一事件，未再收。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（3 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（4 天）；請檢查網址或改抓取方式

@@ -125,48 +125,22 @@
   },
   {
    "cat": "cat1",
-   "title": "Coffee Dealer",
-   "gp": "Hacksaw Gaming",
-   "b": 3,
-   "first_seen": "2026-10-19",
-   "release_date": "2026-10-20",
+   "title": "Big Bass Christmas Blast 1000",
+   "gp": "Pragmatic Play",
+   "b": 4,
+   "first_seen": "2026-10-20",
+   "release_date": "2026-11-16",
    "sources": [
     {
-     "name": "SlotsLaunch",
-     "url": "https://slotslaunch.com/hacksaw-gaming/coffee-dealer",
-     "published": "2026-10-20"
+     "name": "iGamingToday",
+     "url": "https://www.igamingtoday.com/big-bass-christmas-blast-1000-slot-review/",
+     "published": "2026-10-19 16:14"
     }
    ],
-   "key": "coffeedealer|hacksawgaming"
+   "key": "bigbasschristmasblast1000|pragmaticplay"
   }
  ],
  "others": [
-  {
-   "cat": "cat3",
-   "title": "ICONIC21 與 Advabet 簽多品類內容合作",
-   "first_seen": "2026-10-16",
-   "sources": [
-    {
-     "name": "G3 Newswire",
-     "url": "https://g3newswire.com/iconic21-signs-multi-vertical-partnership-agreement-with-advabet/",
-     "published": "2026-10-15 17:29"
-    }
-   ],
-   "key": "iconic21與advabet簽多品類內容合作|"
-  },
-  {
-   "cat": "cat5",
-   "title": "西班牙 2025 年 3,100 萬人參與博彩，問題賭博降至 0.30%",
-   "first_seen": "2026-10-16",
-   "sources": [
-    {
-     "name": "Sector del Juego",
-     "url": "https://sectordeljuego.com/2026/10/15/31-millones-de-espanoles-jugaron-en-2025-y-el-juego-problematico-se-situo-en-minimos-del-030/",
-     "published": "2026-10-15 13:45"
-    }
-   ],
-   "key": "西班牙2025年3100萬人參與博彩問題賭博降至030|"
-  },
   {
    "cat": "cat5",
    "title": "預測市場週報：2026 美國期中選舉成交量逼近 10 億美元",
@@ -194,6 +168,45 @@
     }
    ],
    "key": "澳門第三季ggr年減mass百家樂79dicj|"
+  },
+  {
+   "cat": "cat2",
+   "title": "Americas Cardroom 11 月 4 日起預設啟用 ScreenShield",
+   "first_seen": "2026-10-20",
+   "sources": [
+    {
+     "name": "Yogonet",
+     "url": "https://www.yogonet.com/international/news/2026/10/19/126906-americas-cardroom-to-enable-screenshield-by-default-from-november-4",
+     "published": "2026-10-20 02:19"
+    }
+   ],
+   "key": "americascardroom11月4日起預設啟用screenshield|"
+  },
+  {
+   "cat": "cat3",
+   "title": "IGT 九月三筆百萬美元以上大獎，累計逾 410 萬美元",
+   "first_seen": "2026-10-20",
+   "sources": [
+    {
+     "name": "Yogonet",
+     "url": "https://www.yogonet.com/international/news/2026/10/19/126859-igt-awards-three-milliondollarplus-jackpots-in-september",
+     "published": "2026-10-19 19:00"
+    }
+   ],
+   "key": "igt九月三筆百萬美元以上大獎累計逾410萬美元|"
+  },
+  {
+   "cat": "cat5",
+   "title": "Seaport：澳門第三季 EBITDA 預估年減 10.6%",
+   "first_seen": "2026-10-20",
+   "sources": [
+    {
+     "name": "AGB",
+     "url": "https://agbrief.com/news/macau/19/10/2026/macau-3q26-ebitda-forecast-to-fall-10-6-as-margins-tighten-seaport/",
+     "published": "2026-10-19 22:13"
+    }
+   ],
+   "key": "seaport澳門第三季ebitda預估年減106|"
   }
  ],
  "history": [
@@ -3163,6 +3176,146 @@
    "date": "2026-10-19",
    "cat": "cat5",
    "title": "預測市場週報：2026 美國期中選舉合約成交逼近 10 億美元",
+   "gp": ""
+  },
+  {
+   "key": "sixfeetunder|nolimitcity",
+   "date": "2026-10-20",
+   "cat": "cat1",
+   "title": "Six Feet Under",
+   "gp": "Nolimit City"
+  },
+  {
+   "key": "sweetbonanzapop|pragmaticplay",
+   "date": "2026-10-20",
+   "cat": "cat1",
+   "title": "Sweet Bonanza POP",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "coffeedealer|hacksawgaming",
+   "date": "2026-10-20",
+   "cat": "cat1",
+   "title": "Coffee Dealer",
+   "gp": "Hacksaw Gaming"
+  },
+  {
+   "key": "4gatesofpyramid|kendoo",
+   "date": "2026-10-20",
+   "cat": "cat1",
+   "title": "4 Gates of Pyramid",
+   "gp": "Kendoo"
+  },
+  {
+   "key": "goldenrabbit|amusnet",
+   "date": "2026-10-20",
+   "cat": "cat1",
+   "title": "Golden Rabbit",
+   "gp": "Amusnet"
+  },
+  {
+   "key": "theshiningglobedeluxe|ctinteractive",
+   "date": "2026-10-20",
+   "cat": "cat1",
+   "title": "The Shining Globe Deluxe",
+   "gp": "CT Interactive"
+  },
+  {
+   "key": "3coinvolcanoes|3oaksgaming",
+   "date": "2026-10-20",
+   "cat": "cat1",
+   "title": "3 Coin Volcanoes",
+   "gp": "3 Oaks Gaming"
+  },
+  {
+   "key": "aviaxmaxxilabs|maxxilabs",
+   "date": "2026-10-20",
+   "cat": "cat2",
+   "title": "AviaX — Maxxi Labs",
+   "gp": "Maxxi Labs"
+  },
+  {
+   "key": "pragmaticplaykevinhart真人娛樂場企劃|pragmaticplay",
+   "date": "2026-10-20",
+   "cat": "cat2",
+   "title": "Pragmatic Play Kevin Hart 真人娛樂場企劃",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "eezesbcsummit後加碼拉美|eeze",
+   "date": "2026-10-20",
+   "cat": "cat2",
+   "title": "Eeze：SBC Summit 後加碼拉美",
+   "gp": "EEZE"
+  },
+  {
+   "key": "ggpokeroceankoopener創單場參賽人數紀錄|ggpoker",
+   "date": "2026-10-20",
+   "cat": "cat2",
+   "title": "GGPoker Ocean KO Opener 創單場參賽人數紀錄",
+   "gp": "GGPoker"
+  },
+  {
+   "key": "rio開設aristocrat專屬機台區dragonlair|",
+   "date": "2026-10-20",
+   "cat": "cat3",
+   "title": "Rio 開設 Aristocrat 專屬機台區 Dragon Lair",
+   "gp": ""
+  },
+  {
+   "key": "tadagaming英國布局滿一年40款認證遊戲|",
+   "date": "2026-10-20",
+   "cat": "cat3",
+   "title": "TaDa Gaming 英國布局滿一年：40 款認證遊戲",
+   "gp": ""
+  },
+  {
+   "key": "bgaming與秘魯lafijacom簽約上架完整產品線|",
+   "date": "2026-10-20",
+   "cat": "cat3",
+   "title": "BGaming 與秘魯 LaFija.com 簽約上架完整產品線",
+   "gp": ""
+  },
+  {
+   "key": "betmgm推出年度最大季節性活動legendscary|",
+   "date": "2026-10-20",
+   "cat": "cat3",
+   "title": "BetMGM 推出年度最大季節性活動 LegendSCARY",
+   "gp": ""
+  },
+  {
+   "key": "pagcor規劃十二月推出辨識合法線上平台的手機app|",
+   "date": "2026-10-20",
+   "cat": "cat4",
+   "title": "PAGCOR 規劃十二月推出辨識合法線上平台的手機 App",
+   "gp": ""
+  },
+  {
+   "key": "pagcor捐贈16輛病患運送車|",
+   "date": "2026-10-20",
+   "cat": "cat4",
+   "title": "PAGCOR 捐贈 16 輛病患運送車",
+   "gp": ""
+  },
+  {
+   "key": "boominggames安大略新作統一採935rtp|",
+   "date": "2026-10-20",
+   "cat": "cat5",
+   "title": "Booming Games 安大略新作統一採 93.5% RTP",
+   "gp": ""
+  },
+  {
+   "key": "賓州9月博彩營收555億美元線上賭場68|",
+   "date": "2026-10-20",
+   "cat": "cat5",
+   "title": "賓州 9 月博彩營收 5.55 億美元，線上賭場 +6.8%",
+   "gp": ""
+  },
+  {
+   "key": "blask巴西禁令後離岸搜尋量五天內升至113|",
+   "date": "2026-10-20",
+   "cat": "cat5",
+   "title": "Blask：巴西禁令後離岸搜尋量五天內升至 11.3%",
    "gp": ""
   }
  ],

@@ -1,0 +1,38 @@
+{
+ "date": "2026-10-19",
+ "available": 2,
+ "chosen": [
+  {
+   "cat": "cat1",
+   "title": "Dynamo Express",
+   "gp": "Push Gaming",
+   "b": 3,
+   "first_seen": "2026-10-19",
+   "release_date": "2026-10-21",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/push-gaming/dynamo-express",
+     "published": "2026-10-21"
+    }
+   ],
+   "key": "dynamoexpress|pushgaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Coffee Dealer",
+   "gp": "Hacksaw Gaming",
+   "b": 3,
+   "first_seen": "2026-10-19",
+   "release_date": "2026-10-20",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/hacksaw-gaming/coffee-dealer",
+     "published": "2026-10-20"
+    }
+   ],
+   "key": "coffeedealer|hacksawgaming"
+  }
+ ]
+}
