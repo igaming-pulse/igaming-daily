@@ -61,8 +61,13 @@ for date, fname in files:
         if vm:
             v = vm.group(1)
             # -v2 ＝ 第二版重跑；-v64 ＝ 用 v6.4 規則重跑（兩位數以上視為規則版本號）
-            tag += "・" + (f"第{v}版" if len(v) == 1 else f"v{v[0]}.{v[1:]} 規則")
-        label = f"{disp_wd} · iGaming 市場日報（{tag}）"
+            if len(v) == 1:                  # 2026-10-19：重發版改標「（13' v） v2」（使用者指定格式）
+                label = f"{disp_wd} · iGaming 市場日報（{tag}） v{v}"
+            else:
+                tag += "・" + f"v{v[0]}.{v[1:]} 規則"
+                label = f"{disp_wd} · iGaming 市場日報（{tag}）"
+        else:
+            label = f"{disp_wd} · iGaming 市場日報（{tag}）"
     cards.append(f'''    <a class="card{kind}" href="reports/{html.escape(fname)}">
       <div class="d">{html.escape(disp_date)}</div>
       <div class="w">{html.escape(label)}</div>
