@@ -276,6 +276,10 @@ if [ "$fail" -eq 0 ]; then
     bash scripts/run_special.sh "$DATE"   # 它自己會寫 run.log，這裡不再 tee（避免紀錄重複）
     # 晚到就立刻推播：已過 06:30 才跑完時，等網站頁面上線後直接觸發 Telegram（早於 06:30 交給排程）
     bash scripts/notify_telegram.sh "$DATE" 2>&1 | tee -a "$LOG"
+    # 2026-10-19：跑完時已過 06:30（NAS 06:30 那次因日報還在跑而略過）→ 這裡補寄 Email；Mac 沒有 SMTP_* 不會寄
+    if [ -n "${SMTP_HOST:-}" ] && [ "$(TZ=Asia/Taipei date +%H%M)" -ge "${IGAMING_TELEGRAM_CUTOFF:-0630}" ]; then
+      REPORT_URL_SUFFIX="${REPORT_URL_SUFFIX:--test}" python3 scripts/send_email.py 2>&1 | tee -a "$LOG"
+    fi
   fi
   log "──────── 結束 ────────"
   exit 0

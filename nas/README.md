@@ -95,6 +95,7 @@ plist 檔先不要刪，萬一 NAS 出問題可以 `launchctl bootstrap` 載回�
 | 立刻補跑日報 | Container Manager → 容器 → `igaming-daily` → 重新啟動（10:00 前才會補跑）；或任何時間在「動作 → 開啟終端機」執行 `bash /data/igaming-daily/scripts/run_daily.sh` |
 | 強制重跑今天 | 終端機：`IGAMING_FORCE=1 bash /data/igaming-daily/scripts/run_daily.sh` |
 | 看紀錄 | SMB 打開 `docker/igaming-daily/data/igaming-daily/state/run.log` |
+| Email 設定／換收件人 | Mac 執行 `bash ~/igaming-daily/nas/add_smtp.sh` → 專案 停止 → 操作 → 清除 → 操作 → 建立（06:30 推播後自動寄出） |
 | 改排程時間／排程邏輯 | 改 repo 的 `nas/scheduler.sh` 推上 GitHub → 重新啟動 `igaming-daily` 容器（不必重建映像檔） |
 | 更新 Claude 版本 | Container Manager → 專案 → 動作 → 建置（重 build image） |
 | 換 token | 改 `secrets.env` → 專案 → **停止** → **操作 → 建立**（⚠️ 單純停止／啟動不會重讀 `secrets.env`，容器建立時就把值存起來了） |

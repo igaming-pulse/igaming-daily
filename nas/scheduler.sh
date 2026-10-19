@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # NAS 容器的排程（台北時間），取代 Mac 的 launchd 與 GitHub 的 cron：
 #   DAILY_AT（預設 02:30）→ scripts/run_daily.sh 產日報
-#   PUSH_AT （預設 06:30）→ scripts/notify_telegram.sh 觸發 Telegram 推播
+#   PUSH_AT （預設 06:30）→ scripts/notify_telegram.sh 觸發 Telegram 推播，接著 scripts/send_email.py 寄 Email
 #     （2026-10-18：GitHub cron 常延遲 2 小時以上，10/17 拖到 08:45 才送，改由 NAS 準時觸發；
 #       GitHub 那邊的排程保留當備援，它看到今天已手動發送過就會自己跳過）
 #
@@ -52,6 +52,11 @@ push() {
   # 沒有今天的日報也照樣觸發：workflow 的守門員會改發「日報未產出」警報
   IGAMING_PUSH_ANYWAY=1 bash "$REPO/scripts/notify_telegram.sh"
   say "推播觸發結束（exit $?）"
+  # 2026-10-19：Email 也由 NAS 寄（secrets.env 有 SMTP_* 才寄；連結指向併行期的 -test 頁）
+  if [ -n "${SMTP_HOST:-}" ]; then
+    (cd "$REPO" && REPORT_URL_SUFFIX="${REPORT_URL_SUFFIX:--test}" python3 scripts/send_email.py)
+    say "Email 結束（exit $?）"
+  fi
 }
 
 next_at() {   # $1 = HH:MM → 下一次的 epoch 秒

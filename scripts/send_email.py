@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """
-寄出當日 iGaming 日報 Email（由 GitHub Actions 在 push 後觸發，零 token）。
+寄出當日 iGaming 日報 Email（零 token）。
+2026-10-19 起由 NAS 的 nas/scheduler.sh 在 06:30 推播 Telegram 之後呼叫
+（原本的 GitHub Actions notify-email.yml 只放在 test-publish，從沒觸發過）。
+環境變數：REPORT_URL_SUFFIX（併行期 -test）、EMAIL_FORCE=1（不是今天的日報也寄，補寄用）。
 
 不使用任何第三方 Action —— 只用 Python 標準函式庫的 smtplib，
 這樣換 GitHub 帳號、換 CI 平台時都能直接照搬。
@@ -22,7 +25,7 @@ from email.message import EmailMessage
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PENDING = os.path.join(ROOT, "state", "pending_telegram.txt")
 INDEX_URL = "https://igaming-pulse.github.io/igaming-daily/"
-REPORT_URL = INDEX_URL + "reports/{date}.html"
+REPORT_URL = INDEX_URL + "reports/{date}%s.html" % os.environ.get("REPORT_URL_SUFFIX", "").strip()
 
 REQUIRED = ["SMTP_HOST", "SMTP_PORT", "SMTP_USER", "SMTP_PASS", "MAIL_TO"]
 
@@ -78,6 +81,11 @@ def main():
         print(f"✗ 第一行找不到日期：{title} —— 略過寄信")
         return 0
     date = m.group(1)
+    from datetime import datetime, timedelta, timezone
+    today = datetime.now(timezone(timedelta(hours=8))).date().isoformat()
+    if date != today and os.environ.get("EMAIL_FORCE") != "1":
+        print(f"✗ 待送訊息是 {date}，不是今天（{today}）—— 今天的日報可能沒產出，不寄（Telegram 守門員會發警報）")
+        return 0
     wd = re.search(r"（(週.)）", title)
     subject = f"iGaming 市場日報 {date}" + (f"（{wd.group(1)}）" if wd else "")
     report_url = REPORT_URL.format(date=date)
