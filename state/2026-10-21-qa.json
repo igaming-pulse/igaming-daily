@@ -1,0 +1,32 @@
+{
+ "date": "2026-10-21",
+ "md": "state/2026-10-21-igaming-report.md",
+ "html": "reports/2026-10-21.html",
+ "items": 18,
+ "counts": {
+  "cat1": 7,
+  "cat2": 4,
+  "cat3": 3,
+  "cat4": 1,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 53,
+  "ok": 49,
+  "broken": 0,
+  "blocked": 3,
+  "images_dropped": 1,
+  "images": 17
+ },
+ "errors": [],
+ "warnings": [
+  "cat2-01 Eeze × BetConstruct 全球分銷｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Brazil https://igamingbrazil.com/online/2026/10/20/eeze-firma-acordo-de-distribuicao-global-com-a-betconstruct/",
+  "cat4-01 Blask：菲律賓 9 月線上博彩搜尋需求居全球｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/philippines-tops-global-online-gaming-search-demand-in-sept-overtakes-brazil-blask",
+  "cat5-01 2026 年最流行的 Slot 機制：Megaw｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/most-popular-slot-mechanics/",
+  "cat4-01 Blask：菲律賓 9 月線上博彩搜尋需求居全球｜各來源都找不到可用的配圖"
+ ],
+ "fixes": [
+  "cat4-01 Blask：菲律賓 9 月線上博彩搜尋需求居全球｜配圖打不開（403 text/html），已自動拿掉：https://www.ggrasia.com/wp-content/uploads/2016/06/online-gaming-electronic-gaming-ipad-computer-e-gaming.jpg",
+  "文末｜資料來源數 40 → 35（程式依來源連結去重計算）"
+ ]
+}

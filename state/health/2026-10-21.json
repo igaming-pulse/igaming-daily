@@ -1,0 +1,52 @@
+{
+ "date": "2026-10-21",
+ "alerts": [
+  "🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（5 天）；請檢查網址或改抓取方式"
+ ],
+ "info": {
+  "credits": {
+   "remaining": 989,
+   "plan": 1000,
+   "period_end": "2026-11-14",
+   "today_use": 12,
+   "daily_use": 9,
+   "daily_basis": "近 7 天實際",
+   "days_to_reset": 24,
+   "need_until_reset": 216
+  },
+  "tier": {
+   "tier": "🟢 充裕",
+   "budget": 40,
+   "remaining": 1001,
+   "period_end": "2026-11-14",
+   "days_to_reset": 24,
+   "reserve": 20,
+   "note": "全開",
+   "lists_spent": 8,
+   "article_limit": 22,
+   "image_extra": 12
+  },
+  "sources": {
+   "total": 108,
+   "failed_today": [
+    "ISA-GUIDE",
+    "BigWinBoard 新作列表",
+    "SiGMA"
+   ],
+   "streak_3d": [
+    "BigWinBoard 新作列表"
+   ]
+  },
+  "candidates": {
+   "today": 539,
+   "median_same_type": 500,
+   "basis_days": 3,
+   "type": "平日窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 4,
+   "fixes": 2
+  }
+ }
+}
