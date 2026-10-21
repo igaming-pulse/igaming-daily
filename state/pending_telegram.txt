@@ -1,43 +1,43 @@
-🎰 iGaming 市場日報 2026-10-21（週三）
-🎰 Slot 7 ・ 🕹️ 非 Slot 4 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-10-22（週四）
+🎰 Slot 7 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・BGaming《Noche de Almas》亡靈節新作上線，首度推出 500 轉折價 Real Deal
-・Blask：菲律賓 9 月線上博彩搜尋需求年增 87%，超越巴西
-・Flutter 因英國稅負裁員 1,400 人；Slot 機制組合化成主流
+・TaDa Gaming《Lucky Tiger 2》：新增倍率轉輪與四種 Jackpot，最高 5,000x
+・BingoPlus 贊助 Filipino Music Awards；DigiPlus 科技優先策略解析
+・Blask：Blackjack 占西班牙搜尋 38%、目錄不到 1%；英國 MGD 傳聞升至 25%
 
 🎰 Slot 新遊戲
-01 Noche de Almas – BGaming
-02 Dynamo Express – Push Gaming
-03 Piggy Prizes: Ghost of Gambini – Greentube
-04 Jin Ken Express – Zitro
-05 Thunder Diamonds 2: Hold and Win – NeverEnding
-06 Lucky Clover x3 – CT Interactive
-07 Halloween 四款新作 – Inspired Entertainment
+01 Lucky Tiger 2 – TaDa Gaming
+02 Manananggal 1000 – TaDa Gaming
+03 Wrappin' More Gold – Play'n GO
+04 Barbarossa: Beyond the Edge – Peter & Sons
+05 Trout's Treasure – Halloween – Spinomenal
+06 House of the Dragon – Blueprint Gaming
+07 Stitchers Get Stitches – Stakelogic
 
 🕹️ 非 Slot 新內容
-01 Eeze × BetConstruct 全球分銷 – EEZE
-02 Halloween Pack 四款 – ICONIC21
-03 Chick'N'Fly – VeliPlay
-04 📦（10/19）Americas Cardroom 11 月 4 日起預設啟用 ScreenShield – Winning Poker Network
+01 BetGames 與 STS 延長波蘭撲克與 Live Studio 獨家至 2028
+02 Imagine Live 經 Microgame 進入義大利
+03 FireKeepers MSPT 撲克錦標賽獎池 237 萬美元
 
 🤝 動態：主流 GP／平台
-01 Flutter 宣布英愛業務最多裁員 1,400 人，稱博彩稅調升改變營運模型
-02 Blueprint Gaming 與 Supergroup 合作，Betway、Jackpotcity 上架南非
-03 Kendoo 與 Broadway Platform 合作擴大賭場內容分銷
+01 Stake 推出《The Merab Method》內容企劃，綁定 UFC 333
+02 EGT Digital 首度在西班牙部署 X-Nave，支援 El Dorado
+03 Codere Online 墨西哥首發 G Games《99 Royale》
 
 🇵🇭 動態：菲律賓 GP／平台
-01 Blask：菲律賓 9 月線上博彩搜尋需求居全球之首，超越巴西
+01 BingoPlus 贊助 Filipino Music Awards 2026
+02 🔁 DigiPlus 獲 ACES 肯定後，InsiderPH 解析科技優先策略
 
 📊 市場數據 & 趨勢
-01 2026 年最流行的 Slot 機制：Megaways 680 款、Pay Anywhere 今年前八個月出 377 款
-02 佛羅里達非部落賭場 9 月 Slot 營收 5,150 萬美元，年減 3.3%
-03 西班牙遊戲廳：機台玩家比例 39.2%，與輪盤 39.4% 幾乎持平
+01 Blask：萬聖節 Slot 四項發現
+02 Blask：Blackjack 占西班牙遊戲搜尋 38%
+03 英國機台遊戲稅（MGD）傳聞只升到 25%
 
 📝 品質備註（本次爬找判斷）
-1. 窗內候選 539 則，Slot 新作 B≥3 僅 BGaming、Push Gaming 兩款；Dynamo Express、Noche de Almas 無新聞稿，主來源為 SlotsLaunch 上線日曆，參數多為未公布。
-2. 菲律賓區僅 1 則：Google News 品牌候選多為體育雜訊，其餘 PAGCOR 稿 10/20 已收，庫存 cat4 為 0。
-3. 剔除：Thunder Reckoning（10/15 已收）、Starburst XXXtreme（2021 年舊作）、Wazdan×Hollywoodbets（10/17 已收同事件）。BigWinBoard 與 ISA-GUIDE 來源今日抓取失敗。
+1. 本次為 02:32 執行，收錄 18 則；BigWinBoard 解析失敗，Slot 新作靠 SlotsLaunch 上線日曆與新聞稿補齊，其中 Manananggal 1000、Trout's Treasure 無新聞稿，參數多為未公布。
+2. 菲律賓區窗內合格新聞少（PAGCOR App 等已於 10/20 收錄），第 2 則 DigiPlus 疑似與 10/18 ACES 獎項重疊，已標 🔁 並註明新增內容。
+3. 剔除：Steve, Larry and Gogo（Red Tiger）、Double Diamond Deluxe（IGT）因來源不足；Rat Royale 10/15 已收。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（5 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（6 天）；請檢查網址或改抓取方式
