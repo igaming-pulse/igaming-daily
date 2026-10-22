@@ -171,20 +171,6 @@
  ],
  "others": [
   {
-   "cat": "cat5",
-   "title": "澳門第三季 GGR 年減，Mass 百家樂 -7.9%（DICJ）",
-   "b": 1,
-   "first_seen": "2026-10-19",
-   "sources": [
-    {
-     "name": "Inside Asian Gaming",
-     "url": "https://asgam.com/2026/10/18/macau-3q-ggr-decline-driven-by-7-9-drop-in-mass-baccarat-dicj-figures-show/",
-     "published": "2026-10-18 18:11"
-    }
-   ],
-   "key": "澳門第三季ggr年減mass百家樂79dicj|"
-  },
-  {
    "cat": "cat3",
    "title": "IGT 九月三筆百萬美元以上大獎，累計逾 410 萬美元",
    "first_seen": "2026-10-20",
@@ -265,6 +251,62 @@
     }
    ],
    "key": "紐約商業賭場9月營收1843億美元年增2198|"
+  },
+  {
+   "cat": "cat2",
+   "title": "Live! Casino Maryland PokerFest 2026 保證獎池逾 60 萬美元",
+   "b": 1,
+   "first_seen": "2026-10-23",
+   "sources": [
+    {
+     "name": "Casino Life Magazine",
+     "url": "https://www.casinolifemagazine.com/news/live-casino-maryland-pokerfest-2026-600k-guaranteed-prizes",
+     "published": "2026-10-23 02:25"
+    }
+   ],
+   "key": "livecasinomarylandpokerfest2026保證獎池逾60萬美元|"
+  },
+  {
+   "cat": "cat3",
+   "title": "Casinos Austria 任命 Andreas Bierwirth 為下任 CEO",
+   "b": 1,
+   "first_seen": "2026-10-22",
+   "sources": [
+    {
+     "name": "iGaming Business",
+     "url": "https://igamingbusiness.com/people/casinos-austria-names-andreas-bierwirth-ceo-designate-concession-battle/",
+     "published": "2026-10-22 18:26"
+    }
+   ],
+   "key": "casinosaustria任命andreasbierwirth為下任ceo|"
+  },
+  {
+   "cat": "cat4",
+   "title": "Newport World Resorts 基金會承諾 1,100 萬美元支援警方設施",
+   "b": 1,
+   "first_seen": "2026-10-22",
+   "sources": [
+    {
+     "name": "GGRAsia",
+     "url": "https://www.ggrasia.com/newport-world-resorts-foundation-commits-us11mln-for-police-facilities",
+     "published": "2026-10-22 09:53"
+    }
+   ],
+   "key": "newportworldresorts基金會承諾1100萬美元支援警方設施|"
+  },
+  {
+   "cat": "cat5",
+   "title": "FDJ United 前九個月營收年減 5.6%，下修 2026 目標",
+   "b": 1,
+   "first_seen": "2026-10-22",
+   "sources": [
+    {
+     "name": "PressGiochi",
+     "url": "https://www.pressgiochi.it/fdj-united-ricavi-in-calo-del-56-nei-primi-nove-mesi-del-2026/156562",
+     "published": "2026-10-22 21:41"
+    }
+   ],
+   "key": "fdjunited前九個月營收年減56下修2026目標|"
   }
  ],
  "history": [
@@ -3626,6 +3668,139 @@
    "date": "2026-10-22",
    "cat": "cat5",
    "title": "英國 MGD 傳聞升至 25%",
+   "gp": ""
+  },
+  {
+   "key": "devilfiretwins|tadagaming",
+   "date": "2026-10-23",
+   "cat": "cat1",
+   "title": "Devil Fire Twins",
+   "gp": "TaDa Gaming"
+  },
+  {
+   "key": "buffalosupereclipse|aristocrat",
+   "date": "2026-10-23",
+   "cat": "cat1",
+   "title": "Buffalo Super Eclipse",
+   "gp": "Aristocrat"
+  },
+  {
+   "key": "ratroyale|pragmaticplay",
+   "date": "2026-10-23",
+   "cat": "cat1",
+   "title": "Rat Royale",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "luckypotsx1000|playson",
+   "date": "2026-10-23",
+   "cat": "cat1",
+   "title": "Lucky Pots x1000",
+   "gp": "Playson"
+  },
+  {
+   "key": "soulfiesta|elagames",
+   "date": "2026-10-23",
+   "cat": "cat1",
+   "title": "Soul Fiesta",
+   "gp": "ELA Games"
+  },
+  {
+   "key": "fireandrosesjokerdiamonds|gamesglobal",
+   "date": "2026-10-23",
+   "cat": "cat1",
+   "title": "Fire and Roses Joker Diamonds",
+   "gp": "Games Global"
+  },
+  {
+   "key": "apollolegendsofolympus|inspiredentertainment",
+   "date": "2026-10-23",
+   "cat": "cat1",
+   "title": "Apollo Legends of Olympus",
+   "gp": "Inspired Entertainment"
+  },
+  {
+   "key": "iconic21推出live撲克gravitypoker|",
+   "date": "2026-10-23",
+   "cat": "cat2",
+   "title": "ICONIC21 推出 Live 撲克 Gravity Poker",
+   "gp": ""
+  },
+  {
+   "key": "creedroomz將在sigmaworld發表infernoroulette與twomoonbaccarat|",
+   "date": "2026-10-23",
+   "cat": "cat2",
+   "title": "CreedRoomz 將在 SiGMA World 發表 Inferno Roulette 與 Two Moon Baccarat",
+   "gp": ""
+  },
+  {
+   "key": "pokerstarsopendicampione2027年1月回歸|",
+   "date": "2026-10-23",
+   "cat": "cat2",
+   "title": "PokerStars Open di Campione 2027 年 1 月回歸",
+   "gp": ""
+  },
+  {
+   "key": "petersons經fonbet在希臘上線60款遊戲|",
+   "date": "2026-10-23",
+   "cat": "cat3",
+   "title": "Peter & Sons 經 Fonbet 在希臘上線 60 款遊戲",
+   "gp": ""
+  },
+  {
+   "key": "softswissgameaggregator十一週年遊戲庫突破5萬款|",
+   "date": "2026-10-23",
+   "cat": "cat3",
+   "title": "SOFTSWISS Game Aggregator 十一週年遊戲庫突破 5 萬款",
+   "gp": ""
+  },
+  {
+   "key": "lightwonderg2e2026展出cosmic20firebird與授權ip|",
+   "date": "2026-10-23",
+   "cat": "cat3",
+   "title": "Light & Wonder G2E 2026 展出 COSMIC 2.0、FIREBIRD 與授權 IP",
+   "gp": ""
+  },
+  {
+   "key": "nesthypetecio成為arenaplus代言人|",
+   "date": "2026-10-23",
+   "cat": "cat4",
+   "title": "Nesthy Petecio 成為 ArenaPlus 代言人",
+   "gp": ""
+  },
+  {
+   "key": "菲律賓外交部將檢討對中國旅客免簽政策|",
+   "date": "2026-10-23",
+   "cat": "cat4",
+   "title": "菲律賓外交部將檢討對中國旅客免簽政策",
+   "gp": ""
+  },
+  {
+   "key": "spiceinternational2026將於宿霧登場|",
+   "date": "2026-10-23",
+   "cat": "cat4",
+   "title": "SPiCE International 2026 將於宿霧登場",
+   "gp": ""
+  },
+  {
+   "key": "betsson第三季營收創單季新高ebitda年減23|",
+   "date": "2026-10-23",
+   "cat": "cat5",
+   "title": "Betsson 第三季營收創單季新高，EBITDA 年減 23%",
+   "gp": ""
+  },
+  {
+   "key": "巴西19月博彩稅收1112億雷亞爾年增55|",
+   "date": "2026-10-23",
+   "cat": "cat5",
+   "title": "巴西 1–9 月博彩稅收 111.2 億雷亞爾，年增 55%",
+   "gp": ""
+  },
+  {
+   "key": "美國8月商業博彩營收年減06運彩156|",
+   "date": "2026-10-23",
+   "cat": "cat5",
+   "title": "美國 8 月商業博彩營收年減 0.6%，運彩 -15.6%",
    "gp": ""
   }
  ],

@@ -1,0 +1,30 @@
+{
+ "date": "2026-10-23",
+ "md": "state/2026-10-23-igaming-report.md",
+ "html": "reports/2026-10-23.html",
+ "items": 19,
+ "counts": {
+  "cat1": 7,
+  "cat2": 3,
+  "cat3": 3,
+  "cat4": 3,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 54,
+  "ok": 51,
+  "broken": 0,
+  "blocked": 3,
+  "images_dropped": 0,
+  "images": 19
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-06 Fire and Roses Joker Dia｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/press-releases/2026/10/22/216503/games-global-triple-edge-fire-and-roses-joker-diamonds/",
+  "cat4-02 菲律賓外交部將檢討對中國旅客免簽政策，源於 PO｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/philippines-to-review-visa-free-entry-for-chinese-nationals-amid-pogo-concerns",
+  "cat5-02 巴西聯邦稅收 1–9 月博彩稅收 111.2 億｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Brazil https://igamingbrazil.com/nao-categorizado/2026/10/22/arrecadacao-federal-com-bets-soma-r-111-bilhoes-de-janeiro-a-setembro-de-2026/"
+ ],
+ "fixes": [
+  "文末｜資料來源數 30 → 35（程式依來源連結去重計算）"
+ ]
+}

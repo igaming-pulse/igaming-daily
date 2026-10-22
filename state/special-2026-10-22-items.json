@@ -1,0 +1,51 @@
+{
+ "date": "2026-10-22",
+ "available": 3,
+ "chosen": [
+  {
+   "cat": "cat1",
+   "title": "Greedy Pumpking",
+   "gp": "Thunderkick",
+   "b": 1,
+   "first_seen": "2026-10-22",
+   "sources": [
+    {
+     "name": "Thunderkick",
+     "url": "https://www.thunderkick.com/greedy-pumpking-long-live-the-king-of-halloween/",
+     "published": "2026-10-21 15:14"
+    }
+   ],
+   "key": "greedypumpking|thunderkick"
+  },
+  {
+   "cat": "cat1",
+   "title": "Odysseus Wild Journey",
+   "gp": "ELA Games",
+   "b": 1,
+   "first_seen": "2026-10-22",
+   "sources": [
+    {
+     "name": "iGaming Business",
+     "url": "https://igamingbusiness.com/casino-games/odysseus-wild-journey-by-ela-games/",
+     "published": "2026-10-21 19:55"
+    }
+   ],
+   "key": "odysseuswildjourney|elagames"
+  },
+  {
+   "cat": "cat1",
+   "title": "Turkeys Gone Wild",
+   "gp": "Maxxi Labs",
+   "b": 1,
+   "first_seen": "2026-10-22",
+   "sources": [
+    {
+     "name": "iGaming Business",
+     "url": "https://igamingbusiness.com/casino-games/turkeys-gone-wild-by-maxilabs/",
+     "published": "2026-10-21 21:56"
+    }
+   ],
+   "key": "turkeysgonewild|maxxilabs"
+  }
+ ]
+}

@@ -1,0 +1,169 @@
+{
+ "shown": [
+  {
+   "cat": "cat1",
+   "title": "Devil Fire Twins",
+   "gp": "TaDa Gaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Buffalo Super Eclipse",
+   "gp": "Aristocrat"
+  },
+  {
+   "cat": "cat1",
+   "title": "Rat Royale",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "cat": "cat1",
+   "title": "Lucky Pots x1000",
+   "gp": "Playson"
+  },
+  {
+   "cat": "cat1",
+   "title": "Soul Fiesta",
+   "gp": "ELA Games"
+  },
+  {
+   "cat": "cat1",
+   "title": "Fire and Roses Joker Diamonds",
+   "gp": "Games Global"
+  },
+  {
+   "cat": "cat1",
+   "title": "Apollo Legends of Olympus",
+   "gp": "Inspired Entertainment"
+  },
+  {
+   "cat": "cat2",
+   "title": "ICONIC21 推出 Live 撲克 Gravity Poker"
+  },
+  {
+   "cat": "cat2",
+   "title": "CreedRoomz 將在 SiGMA World 發表 Inferno Roulette 與 Two Moon Baccarat"
+  },
+  {
+   "cat": "cat2",
+   "title": "PokerStars Open di Campione 2027 年 1 月回歸"
+  },
+  {
+   "cat": "cat3",
+   "title": "Peter & Sons 經 Fonbet 在希臘上線 60 款遊戲"
+  },
+  {
+   "cat": "cat3",
+   "title": "SOFTSWISS Game Aggregator 十一週年遊戲庫突破 5 萬款"
+  },
+  {
+   "cat": "cat3",
+   "title": "Light & Wonder G2E 2026 展出 COSMIC 2.0、FIREBIRD 與授權 IP"
+  },
+  {
+   "cat": "cat4",
+   "title": "Nesthy Petecio 成為 ArenaPlus 代言人"
+  },
+  {
+   "cat": "cat4",
+   "title": "菲律賓外交部將檢討對中國旅客免簽政策"
+  },
+  {
+   "cat": "cat4",
+   "title": "SPiCE International 2026 將於宿霧登場"
+  },
+  {
+   "cat": "cat5",
+   "title": "Betsson 第三季營收創單季新高，EBITDA 年減 23%"
+  },
+  {
+   "cat": "cat5",
+   "title": "巴西 1–9 月博彩稅收 111.2 億雷亞爾，年增 55%"
+  },
+  {
+   "cat": "cat5",
+   "title": "美國 8 月商業博彩營收年減 0.6%，運彩 -15.6%"
+  }
+ ],
+ "stock": [
+  {
+   "cat": "cat1",
+   "title": "Odysseus Wild Journey",
+   "gp": "ELA Games",
+   "b": 1,
+   "first_seen": "2026-10-22",
+   "sources": [
+    {
+     "name": "iGaming Business",
+     "url": "https://igamingbusiness.com/casino-games/odysseus-wild-journey-by-ela-games/",
+     "published": "2026-10-22 00:00"
+    }
+   ]
+  },
+  {
+   "cat": "cat1",
+   "title": "Greedy Pumpking",
+   "gp": "Thunderkick",
+   "b": 1,
+   "first_seen": "2026-10-22",
+   "sources": [
+    {
+     "name": "Thunderkick",
+     "url": "https://www.thunderkick.com/greedy-pumpking-long-live-the-king-of-halloween/",
+     "published": "2026-10-22 00:00"
+    }
+   ]
+  },
+  {
+   "cat": "cat2",
+   "title": "Live! Casino Maryland PokerFest 2026 保證獎池逾 60 萬美元",
+   "b": 1,
+   "first_seen": "2026-10-23",
+   "sources": [
+    {
+     "name": "Casino Life Magazine",
+     "url": "https://www.casinolifemagazine.com/news/live-casino-maryland-pokerfest-2026-600k-guaranteed-prizes",
+     "published": "2026-10-23 02:25"
+    }
+   ]
+  },
+  {
+   "cat": "cat3",
+   "title": "Casinos Austria 任命 Andreas Bierwirth 為下任 CEO",
+   "b": 1,
+   "first_seen": "2026-10-22",
+   "sources": [
+    {
+     "name": "iGaming Business",
+     "url": "https://igamingbusiness.com/people/casinos-austria-names-andreas-bierwirth-ceo-designate-concession-battle/",
+     "published": "2026-10-22 18:26"
+    }
+   ]
+  },
+  {
+   "cat": "cat4",
+   "title": "Newport World Resorts 基金會承諾 1,100 萬美元支援警方設施",
+   "b": 1,
+   "first_seen": "2026-10-22",
+   "sources": [
+    {
+     "name": "GGRAsia",
+     "url": "https://www.ggrasia.com/newport-world-resorts-foundation-commits-us11mln-for-police-facilities",
+     "published": "2026-10-22 09:53"
+    }
+   ]
+  },
+  {
+   "cat": "cat5",
+   "title": "FDJ United 前九個月營收年減 5.6%，下修 2026 目標",
+   "b": 1,
+   "first_seen": "2026-10-22",
+   "sources": [
+    {
+     "name": "PressGiochi",
+     "url": "https://www.pressgiochi.it/fdj-united-ricavi-in-calo-del-56-nei-primi-nove-mesi-del-2026/156562",
+     "published": "2026-10-22 21:41"
+    }
+   ]
+  }
+ ]
+}
