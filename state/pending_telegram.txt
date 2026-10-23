@@ -1,44 +1,40 @@
-🎰 iGaming 市場日報 2026-10-23（週五）
-🎰 Slot 7 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-10-24（週六）
+🎰 Slot 3 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・TaDa Gaming《Devil Fire Twins》義大利上線，雙 Devil Wild 收集翻倍、最高 15,000x
-・ArenaPlus 簽下奧運獎牌選手 Petecio；菲律賓外交部擬檢討中國旅客免簽（POGO 疑慮）
-・Betsson Q3 營收創新高但 EBITDA 年減 23%，博彩稅推高成本
+・PG Soft《Thunder Reckoning》：格子啟動合併，最高 5,000x（本週補遺）
+・DigiPlus 攜 Regal 推《Shake, Rattle & Roll》五款在地 IP 遊戲；BingoPlus 推提款延遲賠付
+・Evolution Q3 營收 +3.7% 但關閉巴西工作室；evoke 營收 -7% 籲勿再加稅
 
 🎰 Slot 新遊戲
-01 Devil Fire Twins – TaDa Gaming
-02 Buffalo Super Eclipse – Aristocrat
-03 🔁 正式上線 Rat Royale – Pragmatic Play
-04 Lucky Pots x1000 – Playson
-05 Soul Fiesta – ELA Games
-06 Fire and Roses Joker Diamonds – Games Global
-07 Apollo Legends of Olympus – Inspired Entertainment
+01 📋 本週補遺 Thunder Reckoning – PG Soft
+02 Tempting Treats – AvatarUX
+03 Hammy Heist：Royal 與 Scarab – Zitro
 
 🕹️ 非 Slot 新內容
-01 Gravity Poker – ICONIC21
-02 CreedRoomz 將在 SiGMA World 發表 Inferno Roulette 與 Two Moon Baccarat
-03 PokerStars Open di Campione 2027 年 1 月回歸
+01 Tower Rush 2 – Galaxsys
+02 📦 Live! Casino Maryland PokerFest 2026 保證獎池逾 60 萬美元
+03 StarYes 新 Poker Team 出戰 Battle of Malta
 
-🤝 主流 GP／平台
-01 Peter & Sons 經 Fonbet 在希臘上線 60 款遊戲
-02 SOFTSWISS Game Aggregator 十一週年，遊戲庫突破 5 萬款
-03 Light & Wonder：G2E 2026 展出 COSMIC 2.0、FIREBIRD 與多項授權 IP
+🤝 動態：主流 GP／平台
+01 Aristocrat Buffalo Ultimate Stampede 將移植手機，2027 Q1 線上推出
+02 Estelarbet 上架 Zitro Digital 完整遊戲庫
+03 NOVOMATIC Colombia 結束 GAT Bogotá 2026
 
-🇵🇭 菲律賓 GP／平台
-01 奧運獎牌得主 Nesthy Petecio 成為 ArenaPlus 最新代言人
-02 菲律賓外交部將檢討對中國旅客免簽政策，源於 POGO 疑慮
-03 SPiCE International 2026 將於 11 月 12–13 日在宿霧登場
+🇵🇭 動態：菲律賓 GP／平台
+01 DigiPlus 與 Regal 合作推出五款《Shake, Rattle & Roll》恐怖主題遊戲
+02 BingoPlus 推出提款延遲賠付保證
+03 📦 Newport World Resorts 基金會承諾 6.78 億披索支援警方設施
 
 📊 市場數據 & 趨勢
-01 Betsson 第三季營收創單季新高，EBITDA 年減 23%
-02 巴西 1–9 月博彩稅收 111.2 億雷亞爾，年增 55%
-03 美國 8 月商業博彩營收年減 0.6%，運彩 -15.6%
+01 Evolution 第三季營收年增 3.7%，關閉巴西工作室
+02 evoke 第三季營收年減 7%，稱稅負造成 270 間店面關閉
+03 密西根 9 月線上博彩與運彩收入 3.557 億美元
 
 📝 品質備註（本次爬找判斷）
-1. 窗內候選 596 則，Slot 窗內大廠 3 款全收、其餘補到 7 款，未動用庫存；Rat Royale 為 10/15 預告後的正式上線（🔁）。
-2. 剔除：Steve, Larry and Gogo（Red Tiger）、Power of Vikings（FA CHAI）、Double Diamond Deluxe（IGT）等查證不足；EEZE 窗內無新議題。
-3. BigWinBoard 解析失敗、Online Gambling Quarterly 失敗；菲律賓區窗內商業新聞偏少，其中 Petecio 為品牌方發布稿。
+1. 週六檢查點：Weekend Reels 15 款中 10 款已收、補遺 1 款（Thunder Reckoning）、3 款進庫存。BigWinBoard 解析失敗，Great Western 5（Relax）查無新聞稿未收。
+2. 窗內菲律賓商業新聞偏少，Newport 一則由庫存補；Yellow Bat × BingoPlus 為 SiGMA 品牌稿且無發布日期，僅作佐證。
+3. GGRAsia 配圖被擋已自動拿掉（2 則無圖）；PokerFest 發布時間僅早窗起點 5 分鐘，以庫存補位處理。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（7 天）、SiGMA（3 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（8 天）、SiGMA（4 天）；請檢查網址或改抓取方式

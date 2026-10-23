@@ -1,0 +1,219 @@
+# 🎰 iGaming 市場日報 2026-10-24（週六）
+
+🎰 Slot 3 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
+
+---
+
+## 📌 本日重點
+
+本日必看 Slot 新品：Thunder Reckoning – PG Soft
+本日市場趨勢總結：三區的訊息共同指向「營收微幅回升，但稅負與政策不確定性仍壓著獲利」。Evolution 第三季營收十七個月來首度回到成長，卻同時關閉巴西工作室；英國 evoke 營收年減 7%，並公開呼籲政府不要再調高博彩稅；菲律賓平台則把競爭重點放在提款體驗與在地 IP 內容，而不是價格。對 PM 的意涵：評估市場時要把稅制與禁令的時間表放進預測，菲律賓平台端的差異化正從內容數量轉向服務保證與本土 IP。
+
+---
+
+## 🎰 Game Provider 新遊戲
+
+### 01 📋 本週補遺（10/20 發布）Thunder Reckoning – PG Soft
+📋 本週補遺（10/20 發布）
+
+PG Soft 推出北歐神話題材的 Thunder Reckoning，5×6 盤面、8 個以上相同符號即賠付，採連消機制，最高 5,000x。核心是「格子啟動」系統：每次贏分會讓盤面位置先半啟動、再全啟動，相鄰的全啟動位置會合併成 2×2 到 5×5 的大塊，連消結束後依大小轉成 Prize 符號，單格 0.25x–1x、2×2 為 5x–10x、3×3 為 20x–200x、4×4 為 50x–500x、5×5 為 200x–1,000x，整盤 5×6 全啟動則可達 1,000x–5,000x。三個 Scatter 觸發 10 次免費遊戲、每多一個加 2 次，免費遊戲開場盤面已部分啟動且進度延續，可重複觸發，並提供購買免費遊戲。PG Soft 是菲律賓與東南亞平台的主力內容，這款屬於本週 Weekend Reels 的漏收大廠新作。對 PM 的意義：以「視覺化累積進度」取代單純倍率，是 PG Soft 在連消類型上的新差異點，可作為本地平台上架與行銷素材的候選。
+
+衍生調整：全新 IP，無衍生；延續 PG Soft 連消玩法並加入格子啟動與合併機制。
+
+參數：
+- 廠牌：PG Soft
+- 遊戲類型：線上電子老虎機
+- 盤面：5×6
+- 消除/賠付：8+ 相同符號任意位置賠付、Cascading 連消、格子啟動合併
+- 最高倍率：5,000x
+- RTP：未公布
+- 波動：未公布
+- 目標市場：全球（含東南亞）
+- 關鍵特色：格子啟動與 Prize 符號合併、10 次免費遊戲可重複觸發、可購買免費遊戲
+
+查證：已查 EEGaming 全文、SlotCatalog（被擋）、搜尋，RTP 與波動均查無。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/10/20/53240/pg-soft-releases-thunder-reckoning-slot-with-5-000x-max-win/) · [EEGaming Weekend Reels Week 43](https://eegaming.org/latest-news/2026/10/23/53311/weekend-reels-week-43-slot-drops-trends/) · 日期：2026-10-20
+圖片：https://eegaming.org/api/eeg-media/bff81bfb-5a32-446a-bcb1-76cde2c783c1.jpg
+
+### 02 Tempting Treats – AvatarUX
+AvatarUX 於 10 月 23 日全球上線糖果主題的 Tempting Treats，7×7 叢集賠付（5 個以上相連），最高 10,000x，官方形容為高波動。每個獲勝叢集會提高底層格子的倍率（上限 500x），最多三個 Walking Wilds 隨每次消除在盤面移動並攜帶倍率；倍率盤面與百搭從基本遊戲延續到免費遊戲、不會重置。三個 Scatter 觸發 6、8 或 10 次免費遊戲，並提供 Xpress Hub 購買功能。對 PM 的意義：「倍率累積且不重置」的叢集玩法與 Sweet Bonanza 類糖果題材競爭，可觀察是否被菲律賓平台採用。
+
+衍生調整：全新 IP，無衍生。
+
+參數：
+- 廠牌：AvatarUX
+- 遊戲類型：線上電子老虎機
+- 盤面：7×7
+- 消除/賠付：Cluster Pays（5+ 相連）、Multiclusters 倍率格
+- 最高倍率：10,000x
+- RTP：未公布
+- 波動：高
+- 目標市場：全球營運商夥伴
+- 關鍵特色：倍率格上限 500x、Walking Wilds、進度延續至免費遊戲、Xpress Hub 購買
+
+查證：已查官方新聞稿與 SlotsLaunch 上線日曆（10/23）；RTP 查無。
+來源：[AvatarUX](https://avatarux.com/avatarux-launches-tempting-treats-unveiling-sugar-hexed-7x7-cluster-pays-action-and-10000x-max-win-potential/) · 日期：2026-10-23
+圖片：https://avatarux.com/wp-content/uploads/2026/09/Web-Thumb-150x150-Tempting-Treats.png
+
+### 03 Hammy Heist：Royal 與 Scarab – Zitro
+Zitro 在 CONCEPT 機櫃的 Hammy Heist 系列新增 Royal 與 Scarab 兩款實體機遊戲。三隻倉鼠（綠、藍、紅）合力觸發 Royal／Scarab Heist Bonus Link，並有升級機制讓 Bonus Link 依進度從不同獎勵等級起跳，另含驚喜升級與特殊 Bonus 功能。這是 Zitro 本週繼 Jin Ken Express 之後第二波 CONCEPT 新內容。對 PM 的意義：實體機廠商以「系列＋雙標題」節奏快速填滿同一機櫃，可作為線上與實體內容聯動的參考。
+
+衍生調整：Hammy Heist 系列新增兩個標題版本，主題換成 Royal 與 Scarab。
+
+參數：
+- 廠牌：Zitro
+- 遊戲類型：實體老虎機
+- 盤面：未公布
+- 消除/賠付：Bonus Link 連線獎勵（分級起跳）
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：三色倉鼠合作觸發 Heist Bonus Link、等級起跳機制、CONCEPT 機櫃
+
+查證：僅 Yogonet 單一來源，已查 Zitro 官網與其他媒體，盤面與倍率未公布。
+來源：[Yogonet International](https://www.yogonet.com/international/news/2026/10/23/126962-zitro-adds-royal-and-scarab-games-to-concept-cabinet) · 日期：2026-10-23
+圖片：https://imagenesyogonet.b-cdn.net/data/imagenes/2026/10/21/92343/1792603632-zitro-concept-hammy-heist.jpg
+
+## 🕹️ 非 Slot 新內容
+
+### 01 Tower Rush 2 – Galaxsys
+Galaxsys 推出疊塔 Crash 類小遊戲 Tower Rush 2，保留一層層堆疊、累積倍率、自行決定何時收手的玩法，不設固定高度上限，塔倒就失去未收的部分。新增 Triple Build（以進度為基礎的 Bonus 回合）、倍率達 3x 後可一次收走 50% 並以剩餘一半繼續，以及 Re-Buy（符合條件的失敗後付費延續同一回合）。對 PM 的意義：「部分提領」與「付費續局」是 Crash 類的新風險管理與變現設計，值得追蹤玩家接受度與合規影響。
+
+參數：
+- 遊戲類型：小遊戲（疊塔 Crash）
+- 最高倍率：未公布
+- RTP：未公布
+- 目標市場：全球（SoloAzar 拉美版報導）
+- 關鍵特色：Triple Build、50% 部分提領（一回合一次）、Re-Buy 續局
+
+查證：僅 SoloAzar 單一來源，最高倍率與 RTP 查無。
+來源：[SoloAzar](https://soloazar.com/es/categoria/gaming/galaxsys-eleva-la-experiencia-de-juego-con-tower-rush-2) · 日期：2026-10-23
+圖片：https://cdn.soloazar.com/storage/images/64437_crop916010_1600px_2O1cK8ZWDYxBzbV7FFvA8xEHnq1nN8TBWUX.jpg
+
+### 02 📦（10/23）Live! Casino Maryland PokerFest 2026 保證獎池逾 60 萬美元
+📦 近期新作（10/23 首見）
+
+Live! Casino & Hotel Maryland 的 PokerFest 於 10/21–11/1 舉行，共 17 場賽事，包含 20 萬美元保證獎池的多日賽（10/21–25）與 25 萬美元保證的 Main Event（10/29–11/1，買入 1,100 美元），並在萬聖節加開 Tag Team Switch：兩人搭檔分桌，經場主喊「switch」後互換座位與籌碼。冠軍可獲客製獎盃。對 PM 的意義：以搭檔換位等新賽制與節慶主題吸引休閒玩家，是實體撲克室拉活躍度的做法。
+
+參數：
+- 遊戲類型：撲克／德州（實體錦標賽系列）
+- 目標市場：美國（馬里蘭）
+- 關鍵特色：17 場賽事、Main Event 保證 25 萬美元、萬聖節 Tag Team Switch
+
+來源：[Casino Life Magazine](https://www.casinolifemagazine.com/news/live-casino-maryland-pokerfest-2026-600k-guaranteed-prizes) · 日期：2026-10-23
+圖片：無
+
+### 03 StarYes 新 Poker Team 出戰 Battle of Malta，2027 規劃十場線下活動
+義大利平台 StarYes 組成新的 Poker Team，將出戰 10 月 27 日至 11 月 4 日在 Casino Malta 舉行的 Battle of Malta。隊員透過每週日 22:30 的 Freeroll 與週一 22:00 的 Super Sat 線上資格賽產生，今年已延伸到斯洛伐克站與馬爾他 WSOP Circuit，2027 年已排定十場線下賽事。對 PM 的意義：以「線上資格賽→線下代表隊」串聯撲克玩家，是平台提高留存與品牌曝光的標準做法。
+
+參數：
+- 遊戲類型：撲克／德州（線上資格賽＋線下賽事）
+- 目標市場：義大利、歐洲
+- 關鍵特色：每週 Freeroll／Super Sat 資格賽、Poker Team、2027 十場線下行程
+
+來源：[AGIMEG](https://www.agimeg.it/staryes-nuovo-poker-team-battle-of-malta-dieci-appuntamenti-2027/) · 日期：2026-10-23
+圖片：https://agimeg.b-cdn.net/wp-content/uploads/2026/10/Battle-of-Malta-2026-Staryes.jpg
+
+## 🤝 動態：主流 GP／平台
+
+### 01 Aristocrat：Buffalo Ultimate Stampede 將移植手機，2027 年第一季線上推出
+Aristocrat Interactive 數位產品資深副總 Josh Morris 在 G2E 現場向 CDC Gaming 展示 Buffalo Ultimate Stampede 的手機版：Hold & Spin、Jackpot 與進度條等機制原樣保留，只針對小螢幕調整介面，預計 2027 年第一季上線。對 PM 的意義：Aristocrat 把 Buffalo 這個實體機 IP 持續轉成線上版本，亞洲熱門的實體機 IP 線上化是值得追蹤的內容來源。
+
+重點：類型 運營活動（產品線上化） ｜ 對象 Aristocrat Interactive、Buffalo Ultimate Stampede ｜ 影響 實體機熱門 IP 加速進入手機線上通路
+來源：[CDC Gaming](https://cdcgaming.com/video-demo-aristocrat-brings-buffalo-ultimate-stampede-to-mobile-gaming/) · 日期：2026-10-23
+圖片：https://cdcgaming.com/wp-content/uploads/og-cache/158723.jpg
+
+### 02 Estelarbet 上架 Zitro Digital 完整遊戲庫，進一步深耕智利
+智利老牌線上營運商 Estelarbet 與 Zitro Digital 簽約，將 King Fu Frog、Legendary Sword、Cash Totems、Link King 等源自實體機的系列整批上架。Zitro Digital CCO José Javier Martí 表示，此舉強化其在拉丁美洲的版圖，並將持續帶入新作。對 PM 的意義：實體機血統的內容靠地區營運商分銷進入線上，是內容商拓展拉美的常見路徑。
+
+重點：類型 合作 ｜ 對象 Zitro Digital、Estelarbet ｜ 影響 實體機系列內容以整庫上架方式擴大智利線上通路
+來源：[Casino Life Magazine](https://www.casinolifemagazine.com/news/estelarbet-adds-zitro-digital-games-its-online-casino-chile) · 日期：2026-10-23
+圖片：https://imagenesyogonet.b-cdn.net/data/imagenes/2026/10/21/92343/1792603632-zitro-concept-hammy-heist.jpg
+
+### 03 NOVOMATIC Colombia 結束 GAT Bogotá 2026，主打連線累積獎與在地機櫃
+NOVOMATIC Colombia 在 10 月 15 日的 GAT Bogotá 展出為拉美市場挑選的組合：BLACK EDITION II 機櫃搭配 XTENSION LINK Evolution、IMPERA PROLINK 2、RISING TREASURES 等連線累積獎，以及 SUPERIA GAMES Link 1（MASTER SL 3.32 機櫃）與 MAGIC GAMES HD（PANTHER 2.27）。公司表示會後客戶關係更穩固並帶來新商機。對 PM 的意義：連線累積獎與多遊戲機櫃仍是實體機廠商在拉美的主打，可作為各市場內容偏好的參考。
+
+重點：類型 運營活動（展會） ｜ 對象 NOVOMATIC Colombia、拉美營運商 ｜ 影響 實體機廠商以連線累積獎與在地機櫃經營哥倫比亞及中美洲
+來源：[ISA-GUIDE](https://www.isa-guide.de/english-news/novomatic-colombia-concludes-gat-bogota-2026-with-even-stronger-relationships-and-new-business-opportunities/) · 日期：2026-10-23
+圖片：https://www.isa-guide.de/wp-content/uploads/2026/10/NOVOMATIC_GAT-Bogota_1.jpeg
+
+## 🇵🇭 動態：菲律賓 GP／平台
+
+### 01 DigiPlus 與 Regal 合作推出五款《Shake, Rattle & Roll》恐怖主題遊戲
+DigiPlus Interactive 與 Regal Entertainment 合作，把菲律賓經典恐怖片系列《Shake, Rattle & Roll》改編為五款遊戲：Manananggal、Reyna Ahas、Triple Terror、LRT Monster、Aswang，已在 BingoPlus 上線並將陸續擴及其他平台。DigiPlus 表示今年規劃開發逾 30 款在地化遊戲，2027 年再引進兩個 IP。Yellow Bat 的品牌稿稱 Reyna Ahas 是它與 BingoPlus 長期獨家合作的首款作品。對 PM 的意義：授權本土影視 IP 並綁定特定 GP，是菲律賓平台以在地內容差異化的主要路線，也提高了內容獨家性。
+
+重點：類型 運營活動（IP 授權遊戲） ｜ 對象 DigiPlus、BingoPlus、Regal Entertainment、Yellow Bat ｜ 影響 本土電影 IP 成為平台差異化內容，2027 年再擴兩個 IP
+查證：Yellow Bat 合作說法來自 SiGMA 品牌稿（未見發布時間），僅作佐證。
+來源：[GGRAsia](https://www.ggrasia.com/digiplus-launches-horror-themed-games-based-on-philippine-film-franchise) · [SiGMA（Yellow Bat 品牌稿）](https://sigma.world/news/yellow-bat-gaming-bingoplus-exclusive-games/) · 日期：2026-10-23
+圖片：https://www.ggrasia.com/wp-content/uploads/2026/10/DigiPlus-games-1.jpg
+
+### 02 BingoPlus 推出提款延遲賠付保證，最高賠 5,000 披索
+DigiPlus 旗下 BingoPlus 推出「延遲賠付保證」：符合資格的快速提款若超過適用處理時間，客戶可申請提款金額 100% 的補償，每筆最高 5,000 披索。這是 Philstar 報導的品牌發布內容。對 PM 的意義：平台把提款速度做成有賠付的服務承諾，競爭焦點從獎勵促銷轉向信任與體驗，值得評估同類保證的成本與濫用風險。
+
+重點：類型 運營活動（平台功能） ｜ 對象 BingoPlus、DigiPlus ｜ 影響 以提款延遲賠付作為信任與留存差異化
+來源：[Philstar](https://www.philstar.com/business/2026/10/24/2565244/bingoplus-introduces-new-feature-enhance-user-experience) · 日期：2026-10-24
+圖片：https://media.philstar.com/photos/2026/10/23/digiplus_2026-10-23_18-45-39.jpg
+
+### 03 📦（10/22）Newport World Resorts 基金會承諾 6.78 億披索支援警方設施
+📦（10/22）
+
+Newport World Resorts 基金會承諾約 6.78 億披索（約 1,070 萬美元）支援警方設施，包含位於卡威特的菲律賓國家警察學院 3.79 億披索領導與訓練大樓，以及奎松市警察總部 2.99 億披索辦公大樓。PAGCOR 主席 Alejandro Tengco 與基金會會長 Nilo Thaddeus Rodriguez 出席，強調博彩業對公共機構的貢獻。對 PM 的意義：實體賭場集團以大額公共捐贈與 PAGCOR 維持關係，是菲律賓監理環境中的政治資本操作。
+
+重點：類型 運營活動（企業責任） ｜ 對象 Newport World Resorts、PAGCOR、PNP ｜ 影響 實體賭場業者以公共捐贈強化與監理方關係
+來源：[GGRAsia](https://www.ggrasia.com/newport-world-resorts-foundation-commits-us11mln-for-police-facilities) · 日期：2026-10-22
+圖片：https://www.ggrasia.com/wp-content/uploads/2026/10/Newport-foundation.jpg
+
+## 📊 市場數據 & 趨勢
+
+### 01 Evolution 第三季營收年增 3.7% 至 5.261 億歐元，關閉巴西工作室
+Evolution 第三季淨營收年增 3.7% 至 5.261 億歐元，是連續四季下滑後首度成長；Live 賭場營收增 2.6%、RNG 增 10.1%，拉美與亞洲成長、歐洲下滑，手機占營運商博彩收入 77%。淨利下滑 3.6%，含 1,210 萬歐元一次性成本，營運支出因人事費用明顯上升；公司因巴西禁令關閉當地工作室，CEO 稱本季「平淡」。對 PM 的意義：Live 龍頭回到成長但拉美風險升高，巴西禁令的後續影響要看下一季的區域數字。
+
+重點：類型 財務 ｜ 對象 Evolution ｜ 影響 營收回升但巴西禁令迫使關閉工作室，拉美成長面臨不確定性
+查證：EGR Intel 標題與歐洲博彩網數字一致（+3.7%、5.261 億歐元）。
+來源：[European Gaming](https://europeangaming.eu/portal/latest-news/2026/10/23/216673/evolution-q3-2026-results-revenue-growth-profit/) · [EGR Intel](https://www.egr.global/intel/news/evolution-hails-uneventful-quarter-as-q3-revenue-rises-3-7-to-e526m/) · 日期：2026-10-23
+圖片：https://media.europeangaming.eu/uploads/2026/10/evolution-q3-2026-results-featured.webp
+
+### 02 evoke 第三季營收年減 7% 至 4.06 億英鎊，稱稅負已造成 270 間店面關閉
+William Hill、888 與 Mr Green 的母公司 evoke 公布第三季營收 4.06 億英鎊，年減 7%；扣除約 270 間已關閉的投注店並以固定匯率計算，營收僅降 2%，足球賽果對玩家有利另拖累一到兩個百分點。CEO Per Widerström 呼籲英國政府在下週的秋季預算不要再調高博彩稅。對 PM 的意義：英國稅負直接壓縮零售通路，營運商的獲利策略正轉向現金流與利潤，而非規模。
+
+重點：類型 財務 ｜ 對象 evoke（William Hill、888、Mr Green）、英國政府 ｜ 影響 稅負上調造成實體店面關閉，下週預算案成為關鍵
+來源：[iGaming Business](https://igamingbusiness.com/finance/evoke-blames-tax-rises-for-270-shop-closures-as-revenue-falls-7/) · 日期：2026-10-23
+圖片：https://igamingbusiness.com/wp-content/uploads/2025/03/Evoke_logo-detail.jpg
+
+### 03 密西根 9 月線上博彩與運彩總收入 3.557 億美元，月增 5.4%
+密西根博彩管理局（MGCB）10 月 22 日公布：9 月商業與部落營運商總收入 3.557 億美元，較 8 月成長 5.4%，其中 iGaming 3.002 億美元、線上運彩 5,550 萬美元；調整後總收入 3.1304 億美元（iGaming 2.8815 億、運彩 2,489 萬）。對 PM 的意義：iGaming 占比約 84%，運彩只是配角，印證美國線上賭場是成長主體。
+
+重點：類型 市場數據 ｜ 對象 MGCB、密西根營運商 ｜ 影響 iGaming 約占 84%，線上賭場為美國成長主力
+查證：單一來源（JAMMA 引述 MGCB 官方數據）。
+來源：[JAMMA](https://www.jamma.it/mercato/michigan-gioco-online-e-scommesse-ricavi-per-3557-milioni-di-dollari-a-settembre-54-361100) · 日期：2026-10-23
+圖片：https://www.jamma.it/wp-content/uploads/2025/12/Michigan.jpg
+
+---
+
+本日日報查詢約 34 個網站，其中提取 20 個資料來源並進行交叉比對
+
+---
+
+## 🗓️ 來源日期紀錄（內部，不渲染）
+
+- Thunder Reckoning：EEGaming 2026-10-20 07:35 UTC（metadata）；Weekend Reels 10/23 17:15 台北收錄，漏收補遺
+- Tempting Treats：AvatarUX 2026-10-23 08:22 UTC（metadata）；SlotsLaunch 上線日 10/23
+- Hammy Heist Royal／Scarab：Yogonet RSS 2026-10-23 19:00 台北（頁面無日期，網址 10/23）
+- Tower Rush 2：SoloAzar 2026-10-23 12:00 UTC（metadata）
+- PokerFest：Casino Life Magazine 2026-10-22 21:25 +03:00（= 台北 10/23 02:25，窗外 5 分鐘；庫存補位，3 天保鮮內）
+- StarYes：AGIMEG 2026-10-23 14:55 UTC（metadata）
+- Aristocrat：CDC Gaming 2026-10-23 11:43 -04:00（metadata）
+- Estelarbet：Casino Life Magazine 2026-10-23 16:47 +03:00（metadata）
+- NOVOMATIC：ISA-GUIDE 2026-10-23 15:20 +02:00（metadata）
+- DigiPlus：GGRAsia 2026-10-23 00:49 UTC（Firecrawl metadata）；SiGMA 品牌稿日期不明，僅佐證
+- BingoPlus：Philstar 2026-10-24 00:00 +08:00（JSON-LD）
+- Newport：GGRAsia 2026-10-22 01:53 UTC（Firecrawl metadata）；庫存補位
+- Evolution：European Gaming 2026-10-23 13:24 +03:00（metadata）；EGR 2026-10-23 09:58 UTC
+- evoke：iGaming Business 2026-10-23 09:03 UTC（metadata）
+- 密西根：JAMMA 2026-10-23 12:59 +02:00（metadata）
+- 剔除：Great Western 5 – Relax Gaming（SlotsLaunch 10/24 條目，搜尋查無新聞稿與可開啟的遊戲頁）、Buffalo Ultimate Stampede 手機版（線上上線在 2027 Q1，改收 cat3）、Lucky Tides Lock 'N' Boost – Incredible Technologies（僅 G2E 影片預覽，無上線資料，B 分低）、Vampires: Blood Moon – Booming Games／Grog To Hell Hold & Win – Elysium Studios／Carnival of Freaks – DEGEN Studios（本週補遺，B 分低於已收三款，上限 3 款，進庫存）、EEZE（窗內無新議題）、Charon／Blood Sugar／Jet Bark（僅 SlotsLaunch 條目，無可驗證來源）
+- 週六檢查點：Weekend Reels 共 15 款，本週已收 10 款、補遺 1 款（Thunder Reckoning）、進庫存 3 款
+- Slot 補位：窗內合格新作 3 款（含補遺）達週末上限，未動用庫存；Odysseus Wild Journey、Greedy Pumpking、Turkeys Gone Wild 續留庫存
+- 其他分類補位：cat2 PokerFest、cat4 Newport 由庫存補（各區窗內合格新聞偏少）
+- 菲律賓區：窗內 2 則商業新聞（含 1 則品牌發布稿）＋1 則庫存

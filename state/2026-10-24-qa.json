@@ -1,0 +1,36 @@
+{
+ "date": "2026-10-24",
+ "md": "state/2026-10-24-igaming-report.md",
+ "html": "reports/2026-10-24.html",
+ "items": 15,
+ "counts": {
+  "cat1": 3,
+  "cat2": 3,
+  "cat3": 3,
+  "cat4": 3,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 32,
+  "ok": 26,
+  "broken": 0,
+  "blocked": 4,
+  "images_dropped": 2,
+  "images": 13
+ },
+ "errors": [],
+ "warnings": [
+  "cat4-01 DigiPlus 與 Regal 合作推出五款《｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/digiplus-launches-horror-themed-games-based-on-philippine-film-franchise",
+  "cat4-01 DigiPlus 與 Regal 合作推出五款《｜來源連結無法自動驗證（403，多半是網站擋機器人）：SiGMA（Yellow Bat 品牌稿） https://sigma.world/news/yellow-bat-gaming-bingoplus-exclusive-games/",
+  "cat4-03 Newport World Resorts 基金｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/newport-world-resorts-foundation-commits-us11mln-for-police-facilities",
+  "cat5-01 Evolution 第三季營收年增 3.7% 至｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/latest-news/2026/10/23/216673/evolution-q3-2026-results-revenue-growth-profit/",
+  "cat4-01 DigiPlus 與 Regal 合作推出五款《｜各來源都找不到可用的配圖",
+  "cat4-03 Newport World Resorts 基金｜各來源都找不到可用的配圖"
+ ],
+ "fixes": [
+  "cat4-01 DigiPlus 與 Regal 合作推出五款《｜配圖打不開（403 text/html），已自動拿掉：https://www.ggrasia.com/wp-content/uploads/2026/10/DigiPlus-games-1.jpg",
+  "cat4-03 Newport World Resorts 基金｜配圖打不開（403 text/html），已自動拿掉：https://www.ggrasia.com/wp-content/uploads/2026/10/Newport-foundation.jpg",
+  "cat2-02 Live! Casino Maryland Po｜自動補上配圖（取自 Casino Life Magazine）：https://www.casinolifemagazine.com/sites/default/files/clm_logo.png",
+  "文末｜資料來源數 20 → 18（程式依來源連結去重計算）"
+ ]
+}

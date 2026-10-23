@@ -167,35 +167,54 @@
     }
    ],
    "key": "turkeysgonewild|maxxilabs"
+  },
+  {
+   "cat": "cat1",
+   "title": "Vampires: Blood Moon",
+   "gp": "Booming Games",
+   "b": 1,
+   "first_seen": "2026-10-24",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/22/53276/booming-games-launches-halloween-slot-vampires-blood-moon/",
+     "published": "2026-10-22 00:00"
+    }
+   ],
+   "key": "vampiresbloodmoon|boominggames"
+  },
+  {
+   "cat": "cat1",
+   "title": "Carnival of Freaks",
+   "gp": "DEGEN Studios",
+   "b": 1,
+   "first_seen": "2026-10-24",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/22/53287/degen-studios-launches-carnival-of-freaks-slot-with-20-000x-max-win/",
+     "published": "2026-10-22 00:00"
+    }
+   ],
+   "key": "carnivaloffreaks|degenstudios"
+  },
+  {
+   "cat": "cat1",
+   "title": "Grog To Hell Hold & Win",
+   "gp": "Elysium Studios",
+   "b": 1,
+   "first_seen": "2026-10-24",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/22/53286/elysium-studios-releases-grog-to-hell-hold-win-slot-via-swintt/",
+     "published": "2026-10-22 00:00"
+    }
+   ],
+   "key": "grogtohellholdwin|elysiumstudios"
   }
  ],
  "others": [
-  {
-   "cat": "cat3",
-   "title": "IGT 九月三筆百萬美元以上大獎，累計逾 410 萬美元",
-   "first_seen": "2026-10-20",
-   "sources": [
-    {
-     "name": "Yogonet",
-     "url": "https://www.yogonet.com/international/news/2026/10/19/126859-igt-awards-three-milliondollarplus-jackpots-in-september",
-     "published": "2026-10-19 19:00"
-    }
-   ],
-   "key": "igt九月三筆百萬美元以上大獎累計逾410萬美元|"
-  },
-  {
-   "cat": "cat5",
-   "title": "Seaport：澳門第三季 EBITDA 預估年減 10.6%",
-   "first_seen": "2026-10-20",
-   "sources": [
-    {
-     "name": "AGB",
-     "url": "https://agbrief.com/news/macau/19/10/2026/macau-3q26-ebitda-forecast-to-fall-10-6-as-margins-tighten-seaport/",
-     "published": "2026-10-19 22:13"
-    }
-   ],
-   "key": "seaport澳門第三季ebitda預估年減106|"
-  },
   {
    "cat": "cat3",
    "title": "Atucha Strategic Advisory 代理 RTG Slots 拉美業務",
@@ -253,20 +272,6 @@
    "key": "紐約商業賭場9月營收1843億美元年增2198|"
   },
   {
-   "cat": "cat2",
-   "title": "Live! Casino Maryland PokerFest 2026 保證獎池逾 60 萬美元",
-   "b": 1,
-   "first_seen": "2026-10-23",
-   "sources": [
-    {
-     "name": "Casino Life Magazine",
-     "url": "https://www.casinolifemagazine.com/news/live-casino-maryland-pokerfest-2026-600k-guaranteed-prizes",
-     "published": "2026-10-23 02:25"
-    }
-   ],
-   "key": "livecasinomarylandpokerfest2026保證獎池逾60萬美元|"
-  },
-  {
    "cat": "cat3",
    "title": "Casinos Austria 任命 Andreas Bierwirth 為下任 CEO",
    "b": 1,
@@ -281,20 +286,6 @@
    "key": "casinosaustria任命andreasbierwirth為下任ceo|"
   },
   {
-   "cat": "cat4",
-   "title": "Newport World Resorts 基金會承諾 1,100 萬美元支援警方設施",
-   "b": 1,
-   "first_seen": "2026-10-22",
-   "sources": [
-    {
-     "name": "GGRAsia",
-     "url": "https://www.ggrasia.com/newport-world-resorts-foundation-commits-us11mln-for-police-facilities",
-     "published": "2026-10-22 09:53"
-    }
-   ],
-   "key": "newportworldresorts基金會承諾1100萬美元支援警方設施|"
-  },
-  {
    "cat": "cat5",
    "title": "FDJ United 前九個月營收年減 5.6%，下修 2026 目標",
    "b": 1,
@@ -307,65 +298,51 @@
     }
    ],
    "key": "fdjunited前九個月營收年減56下修2026目標|"
+  },
+  {
+   "cat": "cat3",
+   "title": "Evolution CEO 對巴西禁令感到錯愕",
+   "sources": [
+    {
+     "name": "iGaming Expert",
+     "url": "https://igamingexpert.com/regions/europe/evolution-flabbergasted-brazil-betting-ban/",
+     "published": "2026-10-23 21:31"
+    }
+   ],
+   "first_seen": "2026-10-24",
+   "b": 3,
+   "key": "evolutionceo對巴西禁令感到錯愕|"
+  },
+  {
+   "cat": "cat4",
+   "title": "Yellow Bat × BingoPlus 長期獨家合作（品牌稿）",
+   "sources": [
+    {
+     "name": "SiGMA",
+     "url": "https://sigma.world/news/yellow-bat-gaming-bingoplus-exclusive-games/",
+     "published": "2026-10-23 20:45"
+    }
+   ],
+   "first_seen": "2026-10-24",
+   "b": 6,
+   "key": "yellowbatbingoplus長期獨家合作品牌稿|"
+  },
+  {
+   "cat": "cat5",
+   "title": "FDJ United 第三季營收年減 8.1%，再度下修 2026 目標",
+   "sources": [
+    {
+     "name": "Yogonet",
+     "url": "https://www.yogonet.com/international/news/2026/10/23/126980-fdj-united-lowers-2026-targets-after-a-jackpot-shortfall-and-tax-increases-cut-q3-revenue-81-",
+     "published": "2026-10-23 23:07"
+    }
+   ],
+   "first_seen": "2026-10-24",
+   "b": 1,
+   "key": "fdjunited第三季營收年減81再度下修2026目標|"
   }
  ],
  "history": [
-  {
-   "date": "2026-09-23",
-   "cat": "cat1",
-   "title": "Vikings Go To Hollywood",
-   "gp": "Yggdrasil",
-   "key": "vikingsgotohollywood|yggdrasil"
-  },
-  {
-   "date": "2026-09-23",
-   "cat": "cat1",
-   "title": "Ding Dong Death",
-   "gp": "Nolimit City",
-   "key": "dingdongdeath|nolimitcity"
-  },
-  {
-   "date": "2026-09-23",
-   "cat": "cat1",
-   "title": "Freya 1000",
-   "gp": "Pragmatic Play",
-   "key": "freya1000|pragmaticplay"
-  },
-  {
-   "date": "2026-09-23",
-   "cat": "cat1",
-   "title": "Highway to Bell Stack & Collect",
-   "gp": "Greentube",
-   "key": "highwaytobellstackcollect|greentube"
-  },
-  {
-   "date": "2026-09-23",
-   "cat": "cat1",
-   "title": "9K Wild Yeti Dream Drop",
-   "gp": "4ThePlayer",
-   "key": "9kwildyetidreamdrop|4theplayer"
-  },
-  {
-   "date": "2026-09-23",
-   "cat": "cat1",
-   "title": "Ned & Ted",
-   "gp": "Playradar",
-   "key": "nedted|playradar"
-  },
-  {
-   "date": "2026-09-23",
-   "cat": "cat1",
-   "title": "Fruit Fusion: Three Pots",
-   "gp": "Evoplay",
-   "key": "fruitfusionthreepots|evoplay"
-  },
-  {
-   "date": "2026-09-23",
-   "cat": "cat1",
-   "title": "The Traitors",
-   "gp": "BetMGM",
-   "key": "thetraitors|betmgm"
-  },
   {
    "date": "2026-09-24",
    "cat": "cat1",
@@ -3801,6 +3778,111 @@
    "date": "2026-10-23",
    "cat": "cat5",
    "title": "美國 8 月商業博彩營收年減 0.6%，運彩 -15.6%",
+   "gp": ""
+  },
+  {
+   "key": "thunderreckoning|pgsoft",
+   "date": "2026-10-24",
+   "cat": "cat1",
+   "title": "Thunder Reckoning",
+   "gp": "PG Soft"
+  },
+  {
+   "key": "temptingtreats|avatarux",
+   "date": "2026-10-24",
+   "cat": "cat1",
+   "title": "Tempting Treats",
+   "gp": "AvatarUX"
+  },
+  {
+   "key": "hammyheistroyalscarab|zitro",
+   "date": "2026-10-24",
+   "cat": "cat1",
+   "title": "Hammy Heist Royal / Scarab",
+   "gp": "Zitro"
+  },
+  {
+   "key": "towerrush2galaxsys|",
+   "date": "2026-10-24",
+   "cat": "cat2",
+   "title": "Tower Rush 2 — Galaxsys",
+   "gp": ""
+  },
+  {
+   "key": "livecasinomarylandpokerfest2026保證獎池逾60萬美元|",
+   "date": "2026-10-24",
+   "cat": "cat2",
+   "title": "Live! Casino Maryland PokerFest 2026 保證獎池逾 60 萬美元",
+   "gp": ""
+  },
+  {
+   "key": "staryes新pokerteam出戰battleofmalta|",
+   "date": "2026-10-24",
+   "cat": "cat2",
+   "title": "StarYes 新 Poker Team 出戰 Battle of Malta",
+   "gp": ""
+  },
+  {
+   "key": "aristocratbuffaloultimatestampede手機版2027q1線上推出|",
+   "date": "2026-10-24",
+   "cat": "cat3",
+   "title": "Aristocrat Buffalo Ultimate Stampede 手機版 2027 Q1 線上推出",
+   "gp": ""
+  },
+  {
+   "key": "estelarbet上架zitrodigital完整遊戲庫|",
+   "date": "2026-10-24",
+   "cat": "cat3",
+   "title": "Estelarbet 上架 Zitro Digital 完整遊戲庫",
+   "gp": ""
+  },
+  {
+   "key": "novomaticcolombia結束gatbogot2026|",
+   "date": "2026-10-24",
+   "cat": "cat3",
+   "title": "NOVOMATIC Colombia 結束 GAT Bogotá 2026",
+   "gp": ""
+  },
+  {
+   "key": "digiplus與regal合作推出五款shakerattleroll恐怖主題遊戲|",
+   "date": "2026-10-24",
+   "cat": "cat4",
+   "title": "DigiPlus 與 Regal 合作推出五款 Shake, Rattle & Roll 恐怖主題遊戲",
+   "gp": ""
+  },
+  {
+   "key": "bingoplus推出提款延遲賠付保證|",
+   "date": "2026-10-24",
+   "cat": "cat4",
+   "title": "BingoPlus 推出提款延遲賠付保證",
+   "gp": ""
+  },
+  {
+   "key": "newportworldresorts基金會承諾1100萬美元支援警方設施|",
+   "date": "2026-10-24",
+   "cat": "cat4",
+   "title": "Newport World Resorts 基金會承諾 1,100 萬美元支援警方設施",
+   "gp": ""
+  },
+  {
+   "key": "evolution第三季營收年增37至5261億歐元關閉巴西工作室|",
+   "date": "2026-10-24",
+   "cat": "cat5",
+   "title": "Evolution 第三季營收年增 3.7% 至 5.261 億歐元，關閉巴西工作室",
+   "gp": ""
+  },
+  {
+   "key": "evoke第三季營收年減7稱稅負造成270間店面關閉|",
+   "date": "2026-10-24",
+   "cat": "cat5",
+   "title": "evoke 第三季營收年減 7%，稱稅負造成 270 間店面關閉",
+   "gp": ""
+  },
+  {
+   "key": "密西根9月線上博彩與運彩總收入3557億美元|",
+   "date": "2026-10-24",
+   "cat": "cat5",
+   "title": "密西根 9 月線上博彩與運彩總收入 3.557 億美元",
    "gp": ""
   }
  ],
