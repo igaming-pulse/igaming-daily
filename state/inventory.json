@@ -140,21 +140,6 @@
   },
   {
    "cat": "cat1",
-   "title": "Greedy Pumpking",
-   "gp": "Thunderkick",
-   "b": 1,
-   "first_seen": "2026-10-22",
-   "sources": [
-    {
-     "name": "Thunderkick",
-     "url": "https://www.thunderkick.com/greedy-pumpking-long-live-the-king-of-halloween/",
-     "published": "2026-10-21 15:14"
-    }
-   ],
-   "key": "greedypumpking|thunderkick"
-  },
-  {
-   "cat": "cat1",
    "title": "Turkeys Gone Wild",
    "gp": "Maxxi Labs",
    "b": 1,
@@ -167,36 +152,6 @@
     }
    ],
    "key": "turkeysgonewild|maxxilabs"
-  },
-  {
-   "cat": "cat1",
-   "title": "Vampires: Blood Moon",
-   "gp": "Booming Games",
-   "b": 1,
-   "first_seen": "2026-10-24",
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/10/22/53276/booming-games-launches-halloween-slot-vampires-blood-moon/",
-     "published": "2026-10-22 00:00"
-    }
-   ],
-   "key": "vampiresbloodmoon|boominggames"
-  },
-  {
-   "cat": "cat1",
-   "title": "Carnival of Freaks",
-   "gp": "DEGEN Studios",
-   "b": 1,
-   "first_seen": "2026-10-24",
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/10/22/53287/degen-studios-launches-carnival-of-freaks-slot-with-20-000x-max-win/",
-     "published": "2026-10-22 00:00"
-    }
-   ],
-   "key": "carnivaloffreaks|degenstudios"
   },
   {
    "cat": "cat1",
@@ -215,34 +170,6 @@
   }
  ],
  "others": [
-  {
-   "cat": "cat3",
-   "title": "Atucha Strategic Advisory 代理 RTG Slots 拉美業務",
-   "b": 1,
-   "first_seen": "2026-10-21",
-   "sources": [
-    {
-     "name": "G3 Newswire",
-     "url": "https://g3newswire.com/atucha-strategic-advisory-to-represent-rtg-slots-across-latin-america/",
-     "published": "2026-10-20 16:47"
-    }
-   ],
-   "key": "atuchastrategicadvisory代理rtgslots拉美業務|"
-  },
-  {
-   "cat": "cat5",
-   "title": "澳門第三季賭收年減 3.8%，Mass 百家樂疲弱",
-   "b": 1,
-   "first_seen": "2026-10-21",
-   "sources": [
-    {
-     "name": "Yogonet",
-     "url": "https://www.yogonet.com/international/news/2026/10/20/126913-macau-third-quarter-casino-revenue-slips-38-on-weaker-mass-baccarat",
-     "published": "2026-10-20 21:04"
-    }
-   ],
-   "key": "澳門第三季賭收年減38mass百家樂疲弱|"
-  },
   {
    "cat": "cat3",
    "title": "Bluberi 任命 David Bollesen 主管美國工作室",
@@ -344,13 +271,6 @@
  ],
  "history": [
   {
-   "date": "2026-09-24",
-   "cat": "cat1",
-   "title": "Hexwood",
-   "gp": "GAMOMAT",
-   "key": "hexwood|gamomat"
-  },
-  {
    "date": "2026-09-25",
    "cat": "cat1",
    "title": "12 Masks of Fire Eruption Prize Flow",
@@ -363,83 +283,6 @@
    "title": "Money Train 5",
    "gp": "Relax Gaming",
    "key": "moneytrain5|relaxgaming"
-  },
-  {
-   "date": "2026-09-24",
-   "cat": "cat2",
-   "title": "PokerStars 轉型為全球撲克網路，正式開放外部品牌 B2B 接入",
-   "gp": "",
-   "key": "pokerstars轉型為全球撲克網路正式開放外部品牌b2b接入|"
-  },
-  {
-   "date": "2026-09-24",
-   "cat": "cat3",
-   "title": "Caesars 股東以逾 97% 高票通過 Fertitta 176 億美元收購案",
-   "gp": "",
-   "key": "caesars股東以逾97高票通過fertitta176億美元收購案|"
-  },
-  {
-   "date": "2026-09-24",
-   "cat": "cat3",
-   "title": "Aristocrat Interactive 將《Buffalo》《Mo' Mummy》品牌授權 Gaming Realms 開發 Slingo 版本",
-   "gp": "",
-   "key": "aristocratinteractive將buffalomomummy品牌授權gamingrealms開發slingo版本|"
-  },
-  {
-   "date": "2026-09-24",
-   "cat": "cat3",
-   "title": "BGaming 透過 win2day 合作正式進軍奧地利市場",
-   "gp": "",
-   "key": "bgaming透過win2day合作正式進軍奧地利市場|"
-  },
-  {
-   "date": "2026-09-24",
-   "cat": "cat3",
-   "title": "Playnetic 透過 Microgame 平台在義大利 GBO 旗下品牌正式上線",
-   "gp": "",
-   "key": "playnetic透過microgame平台在義大利gbo旗下品牌正式上線|"
-  },
-  {
-   "date": "2026-09-24",
-   "cat": "cat3",
-   "title": "Games Valley 攜手 Wazdan 強化內容聚合陣容",
-   "gp": "",
-   "key": "gamesvalley攜手wazdan強化內容聚合陣容|"
-  },
-  {
-   "date": "2026-09-24",
-   "cat": "cat4",
-   "title": "Blask 數據揭露菲律賓 iGaming 市場真實規模，年增 224.9% 躍居全球第九大",
-   "gp": "",
-   "key": "blask數據揭露菲律賓igaming市場真實規模年增2249躍居全球第九大|"
-  },
-  {
-   "date": "2026-09-24",
-   "cat": "cat4",
-   "title": "PAGCOR 董事長 Tengco 證實監理與營運角色脫鉤方案即將呈報總統",
-   "gp": "",
-   "key": "pagcor董事長tengco證實監理與營運角色脫鉤方案即將呈報總統|"
-  },
-  {
-   "date": "2026-09-24",
-   "cat": "cat5",
-   "title": "巴西博彩業前八月營收達 99.1 億雷亞爾，年增 69%",
-   "gp": "",
-   "key": "巴西博彩業前八月營收達991億雷亞爾年增69|"
-  },
-  {
-   "date": "2026-09-24",
-   "cat": "cat5",
-   "title": "巴西總統盧拉再度威脅全面禁止線上娛樂場，恐衝擊已合法化 2500 萬玩家",
-   "gp": "",
-   "key": "巴西總統盧拉再度威脅全面禁止線上娛樂場恐衝擊已合法化2500萬玩家|"
-  },
-  {
-   "date": "2026-09-24",
-   "cat": "cat5",
-   "title": "CasinoCanada 研究：加拿大成長最快的博弈型態游走在監理框架外",
-   "gp": "",
-   "key": "casinocanada研究加拿大成長最快的博弈型態游走在監理框架外|"
   },
   {
    "date": "2026-09-25",
@@ -3883,6 +3726,90 @@
    "date": "2026-10-24",
    "cat": "cat5",
    "title": "密西根 9 月線上博彩與運彩總收入 3.557 億美元",
+   "gp": ""
+  },
+  {
+   "key": "vampiresbloodmoon|boominggames",
+   "date": "2026-10-25",
+   "cat": "cat1",
+   "title": "Vampires: Blood Moon",
+   "gp": "Booming Games"
+  },
+  {
+   "key": "greedypumpking|thunderkick",
+   "date": "2026-10-25",
+   "cat": "cat1",
+   "title": "Greedy Pumpking",
+   "gp": "Thunderkick"
+  },
+  {
+   "key": "carnivaloffreaks|degenstudios",
+   "date": "2026-10-25",
+   "cat": "cat1",
+   "title": "Carnival of Freaks",
+   "gp": "DEGEN Studios"
+  },
+  {
+   "key": "pokerstarsirishopen2027線上衛星賽|",
+   "date": "2026-10-25",
+   "cat": "cat2",
+   "title": "PokerStars Irish Open 2027 線上衛星賽",
+   "gp": ""
+  },
+  {
+   "key": "spielbankenbayern慈善撲克賽|",
+   "date": "2026-10-25",
+   "cat": "cat2",
+   "title": "Spielbanken Bayern 慈善撲克賽",
+   "gp": ""
+  },
+  {
+   "key": "betfair終止義大利聯盟行銷計畫|",
+   "date": "2026-10-25",
+   "cat": "cat3",
+   "title": "Betfair 終止義大利聯盟行銷計畫",
+   "gp": ""
+  },
+  {
+   "key": "draftkings執行長持牌州不提供預測市場|",
+   "date": "2026-10-25",
+   "cat": "cat3",
+   "title": "DraftKings 執行長：持牌州不提供預測市場",
+   "gp": ""
+  },
+  {
+   "key": "evolution執行長對巴西禁令感到錯愕|",
+   "date": "2026-10-25",
+   "cat": "cat3",
+   "title": "Evolution 執行長對巴西禁令感到錯愕",
+   "gp": ""
+  },
+  {
+   "key": "digiplus連續第二年獲goldenarrow公司治理獎|",
+   "date": "2026-10-25",
+   "cat": "cat4",
+   "title": "DigiPlus 連續第二年獲 Golden Arrow 公司治理獎",
+   "gp": ""
+  },
+  {
+   "key": "澳門六家博彩公司承諾90億澳門元注入多元化基金|",
+   "date": "2026-10-25",
+   "cat": "cat5",
+   "title": "澳門六家博彩公司承諾 90 億澳門元注入多元化基金",
+   "gp": ""
+  },
+  {
+   "key": "西班牙2027年3月啟用跨營運商合併存款上限|",
+   "date": "2026-10-25",
+   "cat": "cat5",
+   "title": "西班牙 2027 年 3 月啟用跨營運商合併存款上限",
+   "gp": ""
+  },
+  {
+   "key": "boydgaming第三季營收年減14|",
+   "date": "2026-10-25",
+   "cat": "cat5",
+   "title": "Boyd Gaming 第三季營收年減 1.4%",
    "gp": ""
   }
  ],

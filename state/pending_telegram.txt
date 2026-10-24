@@ -1,40 +1,37 @@
-🎰 iGaming 市場日報 2026-10-24（週六）
-🎰 Slot 3 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-10-25（週日）
+🎰 Slot 3 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・PG Soft《Thunder Reckoning》：格子啟動合併，最高 5,000x（本週補遺）
-・DigiPlus 攜 Regal 推《Shake, Rattle & Roll》五款在地 IP 遊戲；BingoPlus 推提款延遲賠付
-・Evolution Q3 營收 +3.7% 但關閉巴西工作室；evoke 營收 -7% 籲勿再加稅
+・Slot：Vampires: Blood Moon（Booming Games）最高 15,000x，進化免費遊戲
+・菲律賓：DigiPlus 連續第二年獲 Golden Arrow 公司治理獎（品牌稿）
+・市場：西班牙 2027/3 起啟用跨營運商合併存款上限（日 700 歐元）
 
 🎰 Slot 新遊戲
-01 📋 本週補遺 Thunder Reckoning – PG Soft
-02 Tempting Treats – AvatarUX
-03 Hammy Heist：Royal 與 Scarab – Zitro
+01 📦 Vampires: Blood Moon – Booming Games
+02 📦 Greedy Pumpking – Thunderkick
+03 📦 Carnival of Freaks – DEGEN Studios
 
 🕹️ 非 Slot 新內容
-01 Tower Rush 2 – Galaxsys
-02 📦 Live! Casino Maryland PokerFest 2026 保證獎池逾 60 萬美元
-03 StarYes 新 Poker Team 出戰 Battle of Malta
+01 Irish Open 2027 線上衛星賽 – PokerStars
+02 Spielbanken Bayern 慈善撲克賽 – Spielbanken Bayern
 
 🤝 動態：主流 GP／平台
-01 Aristocrat Buffalo Ultimate Stampede 將移植手機，2027 Q1 線上推出
-02 Estelarbet 上架 Zitro Digital 完整遊戲庫
-03 NOVOMATIC Colombia 結束 GAT Bogotá 2026
+01 Betfair 宣布 10 月 31 日終止義大利聯盟行銷計畫
+02 DraftKings 執行長：持牌州不提供預測市場是雙贏選擇
+03 📦 Evolution 執行長：對巴西禁令「感到錯愕」
 
 🇵🇭 動態：菲律賓 GP／平台
-01 DigiPlus 與 Regal 合作推出五款《Shake, Rattle & Roll》恐怖主題遊戲
-02 BingoPlus 推出提款延遲賠付保證
-03 📦 Newport World Resorts 基金會承諾 6.78 億披索支援警方設施
+01 DigiPlus 連續第二年獲 Golden Arrow 公司治理獎
 
 📊 市場數據 & 趨勢
-01 Evolution 第三季營收年增 3.7%，關閉巴西工作室
-02 evoke 第三季營收年減 7%，稱稅負造成 270 間店面關閉
-03 密西根 9 月線上博彩與運彩收入 3.557 億美元
+01 澳門六家博彩公司承諾 90 億澳門元注入政府多元化基金
+02 西班牙將於 2027 年 3 月啟用跨營運商合併存款上限
+03 Boyd Gaming 第三季營收年減 1.4% 至 9.905 億美元
 
 📝 品質備註（本次爬找判斷）
-1. 週六檢查點：Weekend Reels 15 款中 10 款已收、補遺 1 款（Thunder Reckoning）、3 款進庫存。BigWinBoard 解析失敗，Great Western 5（Relax）查無新聞稿未收。
-2. 窗內菲律賓商業新聞偏少，Newport 一則由庫存補；Yellow Bat × BingoPlus 為 SiGMA 品牌稿且無發布日期，僅作佐證。
-3. GGRAsia 配圖被擋已自動拿掉（2 則無圖）；PokerFest 發布時間僅早窗起點 5 分鐘，以庫存補位處理。
+1. 週日窗內新聞偏淡：窗內 Slot 新作 0 款（BigWinBoard 列表解析失敗），3 款全由庫存補位；Odysseus Wild Journey（來源日期衝突）、Great Western 5（無新聞稿、遊戲頁空白）、Turkeys Gone Wild（10/28 才上線）未收。
+2. 菲律賓區僅 1 則：Yellow Bat × BingoPlus 與 10/24 已收事件同一 SiGMA 報導，剔除；BingoPlus × Regal 窗內再報導，屬 10/24 已收事件。
+3. EEZE 窗內無新消息（最新為 10/20 BetConstruct 分銷，已收錄），本日跳過。SiGMA 展會頁抓取失敗（無回應）。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（8 天）、SiGMA（4 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（9 天）、SiGMA（5 天）；請檢查網址或改抓取方式
