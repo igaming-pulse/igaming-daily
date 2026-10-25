@@ -1,0 +1,225 @@
+# 🎰 iGaming 市場日報 2026-10-26（週一）
+
+🎰 Slot 5 ・ 🤝 主流 2 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
+
+---
+
+## 📌 本日重點
+
+本日必看 Slot 新品：Chests of Cai Shen – Infinity – Pragmatic Play
+本日市場趨勢總結：監理焦點正從「禁止」轉向「機台與帳戶層級的強制管控」。澳洲首都領地的修法草案要求機台改為實名帳戶、設定淨損上限並強制休息，伊利諾州也提議把五萬多台影片博奕機納入自我排除計畫，兩者都指向機台端將被要求具備身分驗證與限額功能；與此同時，菲律賓業者以在地化內容與影視、體育合作擴大品牌觸及，DigiPlus 規劃 2027 年把在地化遊戲量拉到約 60 款。對 PM 的意義：機台與實名帳戶的合規能力會成為上架門檻，在地化內容與跨界聯名則是菲律賓市場的差異化手段。
+
+---
+
+## 🎰 Game Provider 新遊戲
+
+### 01 Chests of Cai Shen – Infinity – Pragmatic Play
+
+Pragmatic Play 的 Chests of Cai Shen 系列推出續作 Infinity，SlotsLaunch 與 Pragmatic Play 官網遊戲列表顯示上線日為 10 月 26 日，Casinos.com 當天也已刊出完整評測。遊戲維持財神爺與金幣的亞洲題材，核心是由四個寶箱驅動的 Hold & Spin：收集同色金幣啟動不同修飾效果，包括提升金幣價值、同時進行兩個獎勵盤面、增加重轉次數或加上倍率區；新增的 Quad Coin 可一次啟動四個寶箱，最高倍率提高到 15,000x。對 PM 的意義：這是亞洲市場常青系列的加碼版，可作為 Hold & Spin 類遊戲在菲律賓平台上架的優先評估對象。
+
+衍生調整：相對原作 Chests of Cai Shen（最高 10,000x），新增 Quad Coin 與可同時啟動四個寶箱的機制，最高倍率由 10,000x 提高到 15,000x。
+
+參數：
+- 廠牌：Pragmatic Play
+- 遊戲類型：線上電子老虎機
+- 盤面：未公布（原作為 5×3）
+- 消除/賠付：Hold & Spin 收集金幣
+- 最高倍率：15,000x
+- RTP：96.50%
+- 波動：高
+- 目標市場：亞洲題材，沒有特定市場資訊
+- 關鍵特色：四寶箱修飾效果、Quad Coin 啟動全部寶箱、雙盤面與倍率區
+
+查證：已查 SlotsLaunch、Casinos.com 評測；官網頁僅有列表與日期，盤面未公布。
+來源：[Casinos.com](https://www.casinos.com/slots/chests-of-cai-shen-infinity) · [SlotsLaunch](https://slotslaunch.com/pragmatic-play/chests-of-cai-shen-infinity) · 日期：2026-10-26
+圖片：https://objects.kaxmedia.com/auto/o/194132/a42000f2c1.jpeg?v=f0bc98f4108ecc08a6606450b03d306a791725ef
+
+### 02 Hot Rocket Mega Potz – BGaming
+
+BGaming 的 Rocket Eruption 系列再添新作 Hot Rocket Mega Potz，10 月 26 日上線。場景是熱帶叢林與阿茲特克風格，6×4 盤面採 4,096 ways 由左至右連線；火山計量條最多給 18 次免費遊戲，另有 Mini、Minor、Major、Mega、Max 五級固定獎池與 6,030x 最高倍率，並提供 Ante Bet 與 Feature Buy。RTP 標示 94.15%，低於市場平均約 96%。對 PM 的意義：RTP 偏低但有五級固定獎池與買入功能，上架時要留意各地法規對 Feature Buy 與最低 RTP 的限制。
+
+衍生調整：Rocket Eruption 系列新作，由固定賠付線改為 6×4、4,096 ways，並新增 X-Potz 隨機獎勵。
+
+參數：
+- 廠牌：BGaming
+- 遊戲類型：線上電子老虎機
+- 盤面：6×4
+- 消除/賠付：4,096 ways（左至右）
+- 最高倍率：6,030x
+- RTP：94.15%
+- 波動：中高
+- 目標市場：沒有
+- 關鍵特色：火山計量條最多 18 次免費遊戲、五級固定獎池、X-Potz 隨機獎勵、Ante Bet 與 Feature Buy
+
+查證：iGamingToday 評測 10/25 發布；上線日取自 SlotsLaunch 上線日曆。
+來源：[iGamingToday](https://www.igamingtoday.com/hot-rocket-mega-potz-slot-review/) · [SlotsLaunch](https://slotslaunch.com/bgaming/hot-rocket-mega-potz) · 日期：2026-10-25
+圖片：https://www.igamingtoday.com/wp-content/uploads/2026/10/Hot_Rocket_Mega_Potz_1020x1280-720x904-resized-to-large-1.jpeg
+
+### 03 Spooky Halloween – Hold & Hit 3x3 – Spinomenal
+
+Spinomenal 的萬聖節 Hold & Hit 3x3 於 10 月 26 日正式上線，1xBet 自 10 月 16 日起已提前開放預發行，標示最高 5,000x。遊戲屬於 Spinomenal 的 Hold & Hit 3x3 系列（同系列有 Magical Genie、Mega Zeus），採 3×3 小盤面的鎖定重轉，並有固定獎池與符號收集功能。對 PM 的意義：3×3 盤面節奏快、容易在行動端呈現，適合作為萬聖節檔期的輕量內容；但官方尚未公布完整賠付表。
+
+衍生調整：Hold & Hit 3x3 系列的萬聖節新題材，無其他衍生。
+
+參數：
+- 廠牌：Spinomenal
+- 遊戲類型：線上電子老虎機
+- 盤面：3×3
+- 消除/賠付：Hold & Hit 鎖定重轉
+- 最高倍率：5,000x
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：鎖定重轉、固定獎池、符號收集、萬聖節題材
+
+查證：無新聞稿，主來源為 SlotsLaunch 上線日曆（上線日 10/26）；已查 SlotsLaunch、RG.org 報導，RTP／波動仍無。
+來源：[SlotsLaunch](https://slotslaunch.com/spinomenal/spooky-halloween-hold-and-hit-3x3) · [RG.org](https://rg.org/en-ca/news/gambling-industry/1xbet-spooky-halloween-hold-hit-3x3-pre-release-5000x) · 日期：2026-10-26
+圖片：https://assets.slotslaunch.com/114329/spooky-halloween-hold-and-hit-3x3.jpg
+
+### 04 Grog To Hell Hold & Win – Elysium Studios
+📦 近期新作（10/24 首見）
+
+Elysium Studios 透過 Swintt 發行海盜題材的 Grog To Hell Hold & Win，5 轉輪、20 條賠付線，場景是鬧鬼的帆船。船長符號累積計量條後啟動 Hold & Win 三次重轉，額外船長可解鎖更多盤面位置；鑰匙分散符號則啟動大砲對戰互動獎勵，最高倍率 13,842x。對 PM 的意義：同一款遊戲內含兩種獨立的獎勵機制，行銷素材較好切分，可用於海盜與萬聖節檔期。
+
+衍生調整：全新 IP，無衍生。
+
+參數：
+- 廠牌：Elysium Studios
+- 遊戲類型：線上電子老虎機
+- 盤面：5 轉輪、20 條賠付線
+- 消除/賠付：固定賠付線、Hold & Win 重轉
+- 最高倍率：13,842x
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：船長計量條、Hold & Win 三次重轉、大砲對戰互動獎勵
+
+查證：已查 EEGaming、G3 Newswire；RTP、波動廠商稿未提供。
+來源：[G3 Newswire](https://g3newswire.com/elysium-studios-sets-sail-with-grog-to-hell-hold-win/) · [EEGaming](https://eegaming.org/latest-news/2026/10/22/53286/elysium-studios-releases-grog-to-hell-hold-win-slot-via-swintt/) · 日期：2026-10-22
+圖片：https://g3newswire.com/wp-content/uploads/2026/10/GrogToHell.jpg
+
+### 05 Turkeys Gone Wild – Maxxi Labs
+🆕 新作預告（10/28 上線）
+
+Maxxi Labs 的 Turkeys Gone Wild 預計 10 月 28 日上線（SlotsLaunch 上線日曆），iGaming Business 已於 10 月 21 日刊出遊戲介紹：以搗蛋火雞為主角，採 Pay Anywhere 全盤任意位置賠付，搭配免費遊戲、Rolling Reels 與遞增倍率。對 PM 的意義：感恩節檔期可預先準備的主題內容，但參數尚未公布，建議上線後再確認 RTP 與倍率。
+
+衍生調整：全新 IP，無衍生。
+
+參數：
+- 廠牌：Maxxi Labs
+- 遊戲類型：線上電子老虎機
+- 盤面：未公布
+- 消除/賠付：Pay Anywhere、Rolling Reels
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：全盤任意賠付、Rolling Reels、遞增倍率免費遊戲
+
+查證：已查 iGaming Business、SlotsLaunch；盤面、倍率、RTP、波動目前查無公開資料。
+來源：[iGaming Business](https://igamingbusiness.com/casino-games/turkeys-gone-wild-by-maxilabs/) · [SlotsLaunch](https://slotslaunch.com/maxxi-labs/turkeys-gone-wild) · 日期：2026-10-21
+圖片：https://igamingbusiness.com/wp-content/uploads/2026/10/turkeys-gone-wild.jpg
+
+## 🤝 動態：主流 GP／平台
+
+### 01 Zitro 包辦 EKG 新遊戲榜新興供應商類 13 款、前十名占七席
+
+Eilers & Krejcik Gaming（EKG）與 Fantini Research 的 2026 年 10 月美加遊戲表現報告中，Zitro 在新興供應商類別的 Top Indexing New Games 榜單，25 款裡占 13 款、前十名占 7 席。新作 Penguin Party 首度上榜即排第一，Theo vs Zone 指數 2.19 倍、Theo vs House 指數 1.53 倍，僅在 6 台機器、2 間賭場運行 27 天；前期榜首 Funny Bunnies – Lotus 降到第四（1.21 倍）。Lion Falls – Zion 升至第三，Haunted Fortune – Nightfall 排第八。對 PM 的意義：新興實體機供應商在美加賭場的實測成績可作為內容採購與題材參考，但樣本機台數少，需保守看待。
+
+重點：類型 市場表現 ｜ 對象 Zitro、EKG、Fantini Research ｜ 影響 新興供應商在美加實體機市場的排名由 Zitro 主導
+來源：[BNLData](https://bnldata.com.br/zitro-domina-ranking-de-novos-jogos-de-fornecedores-emergentes-nos-eua-e-canada/) · 日期：2026-10-25
+圖片：https://bnldata.com.br/wp-content/uploads/2026/10/zitro-domina-ranking-de-novos-jogos-de-fornecedores-emergentes-nos-eua-e-canada-4.jpg
+
+### 02 荷蘭 Ksa 對 EOD Code 開出史上最高 3,700 萬歐元罰款
+
+荷蘭博彩監管機構 Ksa 於 10 月 22 日宣布，對 EOD Code SRL 因向荷蘭玩家提供無牌線上博彩，開罰 3,700 萬歐元，為該機構迄今對非法經營開出的最高罰款。Ksa 發現該公司經營十二個未持牌賭場品牌（起點是 Instantcasino，另含 Skyhills、Slotmonster、Betiro 等），沒有地理阻擋與年齡驗證，並提供加密與匿名支付。罰款以推估的荷蘭營業額計算，而非標準罰款表。對 PM 的意義：離岸品牌面對荷蘭市場的執法風險持續升高，罰款上限被一再推高。
+
+重點：類型 政府法規 ｜ 對象 Ksa、EOD Code SRL ｜ 影響 荷蘭對無牌業者的罰款水準創新高
+來源：[CasinoBeats](https://casinobeats.com/2026/10/25/ksa-record-fine-eod-code/) · 日期：2026-10-25
+圖片：https://casinobeats.com/wp-content/uploads/2026/10/ksa-record-fine-eod-code.webp
+
+## 🇵🇭 動態：菲律賓 GP／平台
+
+### 01 DigiPlus 規劃 2027 年推出約 60 款在地化遊戲
+
+BusinessWorld 報導，DigiPlus 在地化負責人 Ray De Guzman 表示，公司預計 2027 年推出約 60 款在地化遊戲，幾乎是今年預期產量（超過 30 款）的兩倍；內容取材菲律賓故事、民間傳說與影視 IP，並已取得兩個新 IP，預計 2027 年第一、第二季推出，其中一款已有供應商在開發，另會再發包更多供應商。此前與 Regal Entertainment 合作的五款 Shake, Rattle & Roll 遊戲已於 10 月 22 日在 BingoPlus 上線，ArenaPlus 與 GameZone 稍後跟進。對 PM 的意義：DigiPlus 正擴大向外部供應商發包在地題材，是菲律賓市場內容合作與題材設計的重要訊號。
+
+重點：類型 運營活動 ｜ 對象 DigiPlus、BingoPlus、ArenaPlus、GameZone ｜ 影響 在地化 IP 遊戲產量預計翻倍，供應商合作機會增加
+查證：與 10/24 已收的 Regal 合作同屬一條脈絡，本則為 2027 年產量目標的新進展。
+來源：[BusinessWorld](https://bworldonline.com/corporate/2026/10/25/789090/digiplus-targets-60-localized-games-in-2027/) · 日期：2026-10-25
+圖片：http://bworldonline.com/wp-content/uploads/2025/07/DigiPlus.jpg
+
+### 02 PlayTime 擴大影視與體育合作：PMPC 星光獎、MMFF、NCAA
+
+PlayTime Entertainment 總裁 Roy Alcid 表示，公司正擴大娛樂產業合作：續約菲律賓電影記者協會（PMPC）第 42 屆電影星光獎；簽下第 52 屆馬尼拉大都會電影節（MMFF）的官方娛樂夥伴；9 月則與菲律賓大專體育協會（NCAA）合作，成為第 102 季官方娛樂夥伴與賽季冠名。公司說明合作將帶動聯合行銷與活動曝光。對 PM 的意義：PlayTime 以影視與校園體育兩大高觸及族群做品牌曝光，可作為菲律賓平台行銷合作的參考。
+
+重點：類型 運營活動 ｜ 對象 PlayTime Entertainment、PMPC、MMFF、NCAA ｜ 影響 平台品牌透過影視與體育贊助擴大觸及
+來源：[BusinessWorld](https://bworldonline.com/corporate/2026/10/25/789088/playtime-deepens-ties-with-film-sports-groups-to-reach-customers/) · 日期：2026-10-25
+圖片：http://bworldonline.com/wp-content/uploads/2026/10/PlayTime-1.jpg
+
+### 03 菲律賓司法部警告 POGO 以分散小據點捲土重來
+
+菲律賓司法部（DOJ）警告，儘管有《2025 反 POGO 法》全面禁令，非法離岸博彩業者正把大型園區拆成住宅單間等分散小據點以躲避查緝。司法部次長 Nicholas Felix Ty 表示，執法已拆除多棟建築的大型園區，接下來會鎖定保安安排、移民漏洞與房產租約。對 PM 的意義：菲律賓對離岸博彩的監管仍在加碼，合作對象需確認牌照與資金來源。
+
+重點：類型 政府法規 ｜ 對象 菲律賓司法部、非法 POGO 業者 ｜ 影響 查緝重點轉向分散小據點與租約、移民漏洞
+來源：[iGamingToday](https://www.igamingtoday.com/philippines-targets-illegal-pogo-networks-as-doj-warns-of-resurgence-despite-ban/) · 日期：2026-10-25
+圖片：https://www.igamingtoday.com/wp-content/uploads/2026/10/Philippines-Targets-Illegal-POGO-Networks-as-DOJ-Warns-of-Resurgence-Despite-Ban.jpg
+
+## 📊 市場數據 & 趨勢
+
+### 01 澳洲 ACT 修法草案：機台改實名帳戶、禁設 ATM，2045 年降至 1,000 台
+
+ACT 博彩改革部長 Marisa Paterson 於 10 月 20 日向立法議會提出《博弈機台（傷害預防與減少）修正案 2026》。草案要求玩家申請實名帳戶、完成身分驗證才能取得玩家卡，機台只能用該卡遊玩；開戶時須設定淨損上限，並在連續遊玩一小時後強制休息 15 分鐘；調高限額須等 48 小時。場所內 ATM 全面禁設（取代現行每日 250 澳元提領上限），機台數量將以每四年強制收回 500 張執照的方式，在 2045 年降至 1,000 台，首輪強制收回於 2029 年。對 PM 的意義：機台端的實名帳戶與限額功能將成為澳洲市場的合規門檻。
+
+重點：類型 政府法規 ｜ 對象 澳洲首都領地政府、俱樂部與機台場所 ｜ 影響 實名帳戶、淨損限額、禁設 ATM 與機台總量長期遞減
+來源：[AGB](https://agbrief.com/news/australia/25/10/2026/act-bill-mandates-cashless-pokies-bans-atms-and-cuts-machines-to-1000-by-2045/) · 日期：2026-10-25
+圖片：https://agbrief.com/wp-content/uploads/2026/10/gaming-machines-venue-act-reform.jpg
+
+### 02 伊利諾州提議把 5 萬台影片博奕機納入自我排除計畫
+
+伊利諾州博彩委員會（IGB）通過提案，把逾 5 萬台影片博奕機（VGT）納入州自我排除計畫，玩家可在 VGT 兌換終端以身分驗證登記。提案同時建立影片博奕玩家帳戶、無現金下注與負責任博彩限額的框架。州內共有 8,800 個持牌場所、50,141 台 VGT，9 月下注總額超過 29 億美元。IGB 署長 Marcus Fruchter 稱此為規模最大的同類影片博奕網絡。對 PM 的意義：大型影片博奕網絡開始要求身分驗證與帳戶機制，相關設備與軟體供應商需預留對應開發。
+
+重點：類型 政府法規 ｜ 對象 伊利諾州博彩委員會、VGT 營運商與供應商 ｜ 影響 影片博奕機導入自我排除、玩家帳戶與無現金下注框架
+來源：[CDC Gaming](https://cdcgaming.com/illinois-regulators-to-bring-video-gaming-terminals-under-self-exclusion-program/) · 日期：2026-10-25
+圖片：https://cdcgaming.com/wp-content/uploads/og-cache/158838.jpg
+
+### 03 新加坡金沙 Marina Bay Sands 第三季 EBITDA 年減 20.6%
+
+據 AGB 引述拉斯維加斯金沙 10 月 21 日財報，Marina Bay Sands 第三季淨營收年減 9.9% 至 12.9 億美元，EBITDA 利潤率下降 6.1 個百分點至 45.6%，賭場營收年減 14.9% 至 9.16 億美元。非高額籌碼投注額年增 12.6% 至 28.7 億美元，老虎機投注額年增 2.1% 至 65.4 億美元、hold 穩定在 4.4%；下滑主因是非高額桌上遊戲贏率由 24.5% 降至 18.7%，高額籌碼投注額年減 7.1%。對 PM 的意義：投注量仍成長、營收下滑來自贏率波動，機台投注額穩定，顯示老虎機是波動較小的區塊。
+
+重點：類型 財務 ｜ 對象 Marina Bay Sands、拉斯維加斯金沙 ｜ 影響 新加坡賭場營收受桌上贏率拖累，機台投注額微幅成長
+來源：[AGB](https://agbrief.com/news/singapore/25/10/2026/marina-bay-sands-3q26-ebitda-falls-20-6-as-non-rolling-hold-drops/) · 日期：2026-10-25
+圖片：https://agbrief.com/wp-content/uploads/2026/10/marina-bay-sands-singapore-3q26.jpg
+
+---
+
+本日日報查詢約 34 個網站，其中提取 20 個資料來源並進行交叉比對
+
+---
+
+## 🗓️ 來源日期紀錄（內部，不渲染）
+
+・Chests of Cai Shen：Infinity：Casinos.com 2026-10-26（metadata，僅日期）；SlotsLaunch 上線日 10/26；窗內
+・Hot Rocket Mega Potz：iGamingToday 2026-10-25 14:07 UTC = 台北 22:07（metadata）；SlotsLaunch 上線日 10/26
+・Spooky Halloween：SlotsLaunch 上線日 10/26（無新聞稿，依 3.6）；RG.org 2026-10-19 為佐證
+・Grog To Hell：G3 Newswire 2026-10-22 11:52 +01:00、EEGaming 2026-10-22（metadata）；庫存補位（10/24 首見）
+・Turkeys Gone Wild：iGaming Business 2026-10-21 13:56 UTC（metadata）；SlotsLaunch 上線日 10/28；庫存補位
+・Zitro：BNLData 2026-10-25 15:13 UTC（metadata）
+・Ksa 罰款：CasinoBeats 2026-10-25 10:37 UTC（metadata）
+・DigiPlus 60 款：BusinessWorld 2026-10-25 12:03 UTC（metadata）
+・PlayTime：BusinessWorld 2026-10-25 12:00 UTC（metadata）
+・POGO：iGamingToday 2026-10-25 01:24 UTC（metadata）
+・ACT：AGB 2026-10-25 21:00 +08:00（metadata）
+・Illinois：CDC Gaming 2026-10-25 11:45 -04:00 = 台北 23:45（metadata）
+・Marina Bay Sands：AGB 2026-10-25 17:30 +08:00（metadata）
+・剔除：Odysseus Wild Journey（ELA Games，與 10/25 判斷一致：疑似非新作、參數無法確認）
+・剔除：Monkey Gods of the Inca（Relax Gaming，僅 iGamingToday 評測單一來源，搜尋查無新聞稿與上線日）
+・剔除：Formula x10000（BGaming，iGamingToday 評測未標上線日、SlotsLaunch 查無當日條目）
+・剔除：Secret of the Witch（Onlyplay，SlotsLaunch 上線日 10/22，評測延後 3 天，非窗內新作）
+・剔除：Gates of Olympus Super Scatter Dice（Pragmatic Play，評測標上線日 10/14，非新作）
+・剔除：Devil's Coins Halloween Hotfire Hold & Win（Novomatic，SlotsLaunch 10/26 條目，搜尋查無參數與新聞稿，且頁面為預告）
+・Slot 補位：窗內合格新作 3 款（≤5），庫存可用 3 款中 Odysseus 剔除，補 Grog To Hell、Turkeys Gone Wild；庫存不足，自然呈現 5 款
+・非 Slot 區：窗內候選 0 則、庫存 0 則；Urgent Games 的 Deuces Wild／Baccarat Mania 只有 SlotsLaunch 無日期頁面（依 3.6 僅限 Slot），不收；剔除：Baccarat Mania、Deuces Wild（主來源無發布日期）
+・EEZE：搜尋查無 10 月新消息，本日跳過
+・其他分類庫存：cat3 Evolution CEO 為 10/25 已收事件，剔除：Evolution CEO（近 3 天已出現）；cat4 Yellow Bat × BingoPlus 剔除：Yellow Bat × BingoPlus（10/24 已判定與同一事件重複）；cat5 FDJ United 因當日候選充足未用，留庫存
+・菲律賓區：Nesthy Petecio 成為 ArenaPlus 代言人為 10/23 已收事件，窗內再報導不重複；Casino Plus 條目為藝人新聞與賭場無關，不收

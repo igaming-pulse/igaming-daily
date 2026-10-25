@@ -137,95 +137,9 @@
     }
    ],
    "key": "odysseuswildjourney|elagames"
-  },
-  {
-   "cat": "cat1",
-   "title": "Turkeys Gone Wild",
-   "gp": "Maxxi Labs",
-   "b": 1,
-   "first_seen": "2026-10-22",
-   "sources": [
-    {
-     "name": "iGaming Business",
-     "url": "https://igamingbusiness.com/casino-games/turkeys-gone-wild-by-maxilabs/",
-     "published": "2026-10-21 21:56"
-    }
-   ],
-   "key": "turkeysgonewild|maxxilabs"
-  },
-  {
-   "cat": "cat1",
-   "title": "Grog To Hell Hold & Win",
-   "gp": "Elysium Studios",
-   "b": 1,
-   "first_seen": "2026-10-24",
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/10/22/53286/elysium-studios-releases-grog-to-hell-hold-win-slot-via-swintt/",
-     "published": "2026-10-22 00:00"
-    }
-   ],
-   "key": "grogtohellholdwin|elysiumstudios"
   }
  ],
  "others": [
-  {
-   "cat": "cat3",
-   "title": "Bluberi 任命 David Bollesen 主管美國工作室",
-   "b": 1,
-   "first_seen": "2026-10-22",
-   "sources": [
-    {
-     "name": "Gaming Intelligence",
-     "url": "https://www.gamingintelligence.com/people/237545-bluberi-brings-in-david-bollesen-to-lead-us-studios/",
-     "published": "2026-10-21 17:20"
-    }
-   ],
-   "key": "bluberi任命davidbollesen主管美國工作室|"
-  },
-  {
-   "cat": "cat5",
-   "title": "紐約商業賭場 9 月營收 1.843 億美元，年增 219.8%",
-   "b": 1,
-   "first_seen": "2026-10-22",
-   "sources": [
-    {
-     "name": "CDC Gaming",
-     "url": "https://cdcgaming.com/new-york-casino-revenue-rises-219-8-to-184-3-million-in-september/",
-     "published": "2026-10-21 13:15"
-    }
-   ],
-   "key": "紐約商業賭場9月營收1843億美元年增2198|"
-  },
-  {
-   "cat": "cat3",
-   "title": "Casinos Austria 任命 Andreas Bierwirth 為下任 CEO",
-   "b": 1,
-   "first_seen": "2026-10-22",
-   "sources": [
-    {
-     "name": "iGaming Business",
-     "url": "https://igamingbusiness.com/people/casinos-austria-names-andreas-bierwirth-ceo-designate-concession-battle/",
-     "published": "2026-10-22 18:26"
-    }
-   ],
-   "key": "casinosaustria任命andreasbierwirth為下任ceo|"
-  },
-  {
-   "cat": "cat5",
-   "title": "FDJ United 前九個月營收年減 5.6%，下修 2026 目標",
-   "b": 1,
-   "first_seen": "2026-10-22",
-   "sources": [
-    {
-     "name": "PressGiochi",
-     "url": "https://www.pressgiochi.it/fdj-united-ricavi-in-calo-del-56-nei-primi-nove-mesi-del-2026/156562",
-     "published": "2026-10-22 21:41"
-    }
-   ],
-   "key": "fdjunited前九個月營收年減56下修2026目標|"
-  },
   {
    "cat": "cat3",
    "title": "Evolution CEO 對巴西禁令感到錯愕",
@@ -267,100 +181,37 @@
    "first_seen": "2026-10-24",
    "b": 1,
    "key": "fdjunited第三季營收年減81再度下修2026目標|"
+  },
+  {
+   "cat": "cat3",
+   "title": "紐約博彩委員會請求法院強制 Kalshi 遵守傳票",
+   "b": 1,
+   "first_seen": "2026-10-26",
+   "sources": [
+    {
+     "name": "Gambling Insider",
+     "url": "https://www.gamblinginsider.com/news/197514/new-york-gaming-commission-kalshi-subpoenas-court",
+     "published": "2026-10-26 00:05"
+    }
+   ],
+   "key": "紐約博彩委員會請求法院強制kalshi遵守傳票|"
+  },
+  {
+   "cat": "cat5",
+   "title": "澳門 2026 年前九個月旅客 3,220 萬人次，年增 8.5%",
+   "b": 1,
+   "first_seen": "2026-10-26",
+   "sources": [
+    {
+     "name": "Inside Asian Gaming",
+     "url": "https://asgam.com/2026/10/25/macaus-visitor-arrivals-up-8-5-to-32-2-million-in-first-nine-months-of-2026/",
+     "published": "2026-10-25 04:55"
+    }
+   ],
+   "key": "澳門2026年前九個月旅客3220萬人次年增85|"
   }
  ],
  "history": [
-  {
-   "date": "2026-09-25",
-   "cat": "cat1",
-   "title": "12 Masks of Fire Eruption Prize Flow",
-   "gp": "Games Global",
-   "key": "12masksoffireeruptionprizeflow|gamesglobal"
-  },
-  {
-   "date": "2026-09-25",
-   "cat": "cat1",
-   "title": "Money Train 5",
-   "gp": "Relax Gaming",
-   "key": "moneytrain5|relaxgaming"
-  },
-  {
-   "date": "2026-09-25",
-   "cat": "cat2",
-   "title": "Voltplay 於 SBC Summit 2026 展出 UFO 主題 Crash 遊戲《WTF: What's That Flying?》",
-   "gp": "",
-   "key": "voltplay於sbcsummit2026展出ufo主題crash遊戲wtfwhatsthatflying|"
-  },
-  {
-   "date": "2026-09-25",
-   "cat": "cat3",
-   "title": "Caesars 股東壓倒性通過 176 億美元 Fertitta 收購案",
-   "gp": "",
-   "key": "caesars股東壓倒性通過176億美元fertitta收購案|"
-  },
-  {
-   "date": "2026-09-25",
-   "cat": "cat3",
-   "title": "MGM Resorts 維持獨立公司地位，Barry Diller 旗下 People Inc 撤回收購提案",
-   "gp": "",
-   "key": "mgmresorts維持獨立公司地位barrydiller旗下peopleinc撤回收購提案|"
-  },
-  {
-   "date": "2026-09-25",
-   "cat": "cat3",
-   "title": "ONLYPLAY 推出「Hyper Play」新產品線策略",
-   "gp": "",
-   "key": "onlyplay推出hyperplay新產品線策略|"
-  },
-  {
-   "date": "2026-09-25",
-   "cat": "cat3",
-   "title": "博彩業高層異動：OpenBet 換 CEO、SciPlay 執行長請辭",
-   "gp": "",
-   "key": "博彩業高層異動openbet換ceosciplay執行長請辭|"
-  },
-  {
-   "date": "2026-09-25",
-   "cat": "cat3",
-   "title": "保加利亞執政黨提出全面博彩廣告禁令草案",
-   "gp": "",
-   "key": "保加利亞執政黨提出全面博彩廣告禁令草案|"
-  },
-  {
-   "date": "2026-09-25",
-   "cat": "cat3",
-   "title": "芬蘭博彩牌照申請數超乎預期，收到 75 件申請",
-   "gp": "",
-   "key": "芬蘭博彩牌照申請數超乎預期收到75件申請|"
-  },
-  {
-   "date": "2026-09-25",
-   "cat": "cat3",
-   "title": "立陶宛法院將裁定是否對 Olympic Casino Group 處以 850 萬歐元罰款",
-   "gp": "",
-   "key": "立陶宛法院將裁定是否對olympiccasinogroup處以850萬歐元罰款|"
-  },
-  {
-   "date": "2026-09-25",
-   "cat": "cat4",
-   "title": "Light & Wonder 選在馬尼拉 Solaire Resort Entertainment City 全球首發電子老虎機 JOYUP!",
-   "gp": "",
-   "key": "lightwonder選在馬尼拉solaireresortentertainmentcity全球首發電子老虎機joyup|"
-  },
-  {
-   "date": "2026-09-25",
-   "cat": "cat5",
-   "title": "Greentube：北美市場飽和，老虎機須走在地化差異策略",
-   "gp": "",
-   "key": "greentube北美市場飽和老虎機須走在地化差異策略|"
-  },
-  {
-   "date": "2026-09-25",
-   "cat": "cat5",
-   "title": "英國博彩業「黑市警告」說服力遞減，遊說策略面臨轉型壓力",
-   "gp": "",
-   "key": "英國博彩業黑市警告說服力遞減遊說策略面臨轉型壓力|"
-  },
   {
    "key": "chunkycarlosmoneymania|playngo",
    "date": "2026-09-26",
@@ -3810,6 +3661,97 @@
    "date": "2026-10-25",
    "cat": "cat5",
    "title": "Boyd Gaming 第三季營收年減 1.4%",
+   "gp": ""
+  },
+  {
+   "key": "chestsofcaisheninfinity|pragmaticplay",
+   "date": "2026-10-26",
+   "cat": "cat1",
+   "title": "Chests of Cai Shen – Infinity",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "hotrocketmegapotz|bgaming",
+   "date": "2026-10-26",
+   "cat": "cat1",
+   "title": "Hot Rocket Mega Potz",
+   "gp": "BGaming"
+  },
+  {
+   "key": "spookyhalloweenholdhit3x3|spinomenal",
+   "date": "2026-10-26",
+   "cat": "cat1",
+   "title": "Spooky Halloween – Hold & Hit 3x3",
+   "gp": "Spinomenal"
+  },
+  {
+   "key": "grogtohellholdwin|elysiumstudios",
+   "date": "2026-10-26",
+   "cat": "cat1",
+   "title": "Grog To Hell Hold & Win",
+   "gp": "Elysium Studios"
+  },
+  {
+   "key": "turkeysgonewild|maxxilabs",
+   "date": "2026-10-26",
+   "cat": "cat1",
+   "title": "Turkeys Gone Wild",
+   "gp": "Maxxi Labs"
+  },
+  {
+   "key": "zitro包辦ekg新遊戲榜新興供應商類13款|",
+   "date": "2026-10-26",
+   "cat": "cat3",
+   "title": "Zitro 包辦 EKG 新遊戲榜新興供應商類 13 款",
+   "gp": ""
+  },
+  {
+   "key": "荷蘭ksa對eodcode開出3700萬歐元罰款|",
+   "date": "2026-10-26",
+   "cat": "cat3",
+   "title": "荷蘭 Ksa 對 EOD Code 開出 3,700 萬歐元罰款",
+   "gp": ""
+  },
+  {
+   "key": "digiplus規劃2027年推出約60款在地化遊戲|",
+   "date": "2026-10-26",
+   "cat": "cat4",
+   "title": "DigiPlus 規劃 2027 年推出約 60 款在地化遊戲",
+   "gp": ""
+  },
+  {
+   "key": "playtime擴大影視與體育合作|",
+   "date": "2026-10-26",
+   "cat": "cat4",
+   "title": "PlayTime 擴大影視與體育合作",
+   "gp": ""
+  },
+  {
+   "key": "菲律賓司法部警告pogo以分散小據點捲土重來|",
+   "date": "2026-10-26",
+   "cat": "cat4",
+   "title": "菲律賓司法部警告 POGO 以分散小據點捲土重來",
+   "gp": ""
+  },
+  {
+   "key": "澳洲act修法草案機台改實名帳戶2045年降至1000台|",
+   "date": "2026-10-26",
+   "cat": "cat5",
+   "title": "澳洲 ACT 修法草案：機台改實名帳戶、2045 年降至 1,000 台",
+   "gp": ""
+  },
+  {
+   "key": "伊利諾州提議把5萬台影片博奕機納入自我排除計畫|",
+   "date": "2026-10-26",
+   "cat": "cat5",
+   "title": "伊利諾州提議把 5 萬台影片博奕機納入自我排除計畫",
+   "gp": ""
+  },
+  {
+   "key": "marinabaysands第三季ebitda年減206|",
+   "date": "2026-10-26",
+   "cat": "cat5",
+   "title": "Marina Bay Sands 第三季 EBITDA 年減 20.6%",
    "gp": ""
   }
  ],

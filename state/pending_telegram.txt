@@ -1,37 +1,36 @@
-🎰 iGaming 市場日報 2026-10-25（週日）
-🎰 Slot 3 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-10-26（週一）
+🎰 Slot 5 ・ 🤝 主流 2 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Slot：Vampires: Blood Moon（Booming Games）最高 15,000x，進化免費遊戲
-・菲律賓：DigiPlus 連續第二年獲 Golden Arrow 公司治理獎（品牌稿）
-・市場：西班牙 2027/3 起啟用跨營運商合併存款上限（日 700 歐元）
+・Pragmatic Play《Chests of Cai Shen – Infinity》今日上線，最高 15,000x、Quad Coin 啟動四寶箱
+・DigiPlus 規劃 2027 年推出約 60 款在地化遊戲，產量翻倍
+・澳洲 ACT 修法要求機台實名帳戶，伊利諾州 5 萬台 VGT 納入自我排除
 
 🎰 Slot 新遊戲
-01 📦 Vampires: Blood Moon – Booming Games
-02 📦 Greedy Pumpking – Thunderkick
-03 📦 Carnival of Freaks – DEGEN Studios
-
-🕹️ 非 Slot 新內容
-01 Irish Open 2027 線上衛星賽 – PokerStars
-02 Spielbanken Bayern 慈善撲克賽 – Spielbanken Bayern
+01 Chests of Cai Shen – Infinity – Pragmatic Play
+02 Hot Rocket Mega Potz – BGaming
+03 Spooky Halloween – Hold & Hit 3x3 – Spinomenal
+04 📦 Grog To Hell Hold & Win – Elysium Studios
+05 🆕 Turkeys Gone Wild – Maxxi Labs（10/28 上線）
 
 🤝 動態：主流 GP／平台
-01 Betfair 宣布 10 月 31 日終止義大利聯盟行銷計畫
-02 DraftKings 執行長：持牌州不提供預測市場是雙贏選擇
-03 📦 Evolution 執行長：對巴西禁令「感到錯愕」
+01 Zitro 包辦 EKG 新遊戲榜新興供應商類 13 款、前十名占七席
+02 荷蘭 Ksa 對 EOD Code 開出史上最高 3,700 萬歐元罰款
 
 🇵🇭 動態：菲律賓 GP／平台
-01 DigiPlus 連續第二年獲 Golden Arrow 公司治理獎
+01 DigiPlus 規劃 2027 年推出約 60 款在地化遊戲
+02 PlayTime 擴大影視與體育合作：PMPC、MMFF、NCAA
+03 菲律賓司法部警告 POGO 以分散小據點捲土重來
 
 📊 市場數據 & 趨勢
-01 澳門六家博彩公司承諾 90 億澳門元注入政府多元化基金
-02 西班牙將於 2027 年 3 月啟用跨營運商合併存款上限
-03 Boyd Gaming 第三季營收年減 1.4% 至 9.905 億美元
+01 澳洲 ACT 修法草案：機台改實名帳戶，2045 年降至 1,000 台
+02 伊利諾州提議把 5 萬台影片博奕機納入自我排除計畫
+03 Marina Bay Sands 第三季 EBITDA 年減 20.6%
 
 📝 品質備註（本次爬找判斷）
-1. 週日窗內新聞偏淡：窗內 Slot 新作 0 款（BigWinBoard 列表解析失敗），3 款全由庫存補位；Odysseus Wild Journey（來源日期衝突）、Great Western 5（無新聞稿、遊戲頁空白）、Turkeys Gone Wild（10/28 才上線）未收。
-2. 菲律賓區僅 1 則：Yellow Bat × BingoPlus 與 10/24 已收事件同一 SiGMA 報導，剔除；BingoPlus × Regal 窗內再報導，屬 10/24 已收事件。
-3. EEZE 窗內無新消息（最新為 10/20 BetConstruct 分銷，已收錄），本日跳過。SiGMA 展會頁抓取失敗（無回應）。
+1. 本日收錄僅 15 則（<18 目標）：窗內候選以監理與義大利／巴西在地新聞為主，Slot 窗內新作僅 3 款，非 Slot 區窗內 0 則、庫存 0 則、EEZE 無新消息，本日整區從缺。
+2. BigWinBoard 新作列表解析失敗（0 條）、SiGMA 列表頁無回應；Slot 因此多靠 SlotsLaunch 與 iGamingToday。Spooky Halloween 無新聞稿，主來源為 SlotsLaunch 上線日。
+3. 剔除 Odysseus Wild Journey、Monkey Gods of the Inca、Formula x10000 等（疑非新作或僅單一來源）。DigiPlus 60 款一則與 10/24 Regal 合作屬同脈絡新進展，疑似與 10/24 重疊。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（9 天）、SiGMA（5 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（10 天）、SiGMA（6 天）；請檢查網址或改抓取方式
