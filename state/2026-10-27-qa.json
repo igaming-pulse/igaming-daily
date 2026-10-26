@@ -1,0 +1,34 @@
+{
+ "date": "2026-10-27",
+ "md": "state/2026-10-27-igaming-report.md",
+ "html": "reports/2026-10-27.html",
+ "items": 18,
+ "counts": {
+  "cat1": 6,
+  "cat2": 3,
+  "cat3": 3,
+  "cat4": 3,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 43,
+  "ok": 38,
+  "broken": 0,
+  "blocked": 3,
+  "images_dropped": 2,
+  "images": 16
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-01 Sunken City Riches – Sta｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/press-releases/2026/10/26/216734/stakelogic-sunken-city-riches/",
+  "cat4-02 Okada Manila 開設 70 台 AGS｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/okada-manila-opens-70-slot-zone-with-ags-aruze-products",
+  "cat4-03 Bloomberry 的 FUNaloMAX 啟｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/bloomberrys-funalomax-launches-year-end-marketing-campaign",
+  "cat4-02 Okada Manila 開設 70 台 AGS｜各來源都找不到可用的配圖",
+  "cat4-03 Bloomberry 的 FUNaloMAX 啟｜各來源都找不到可用的配圖"
+ ],
+ "fixes": [
+  "cat4-02 Okada Manila 開設 70 台 AGS｜配圖打不開（403 text/html），已自動拿掉：https://www.ggrasia.com/wp-content/uploads/2026/10/Okada-Manila-slot-area.jpg",
+  "cat4-03 Bloomberry 的 FUNaloMAX 啟｜配圖打不開（403 text/html），已自動拿掉：https://www.ggrasia.com/wp-content/uploads/2026/07/FUNaloMAX.jpg",
+  "文末｜資料來源數 30 → 25（程式依來源連結去重計算）"
+ ]
+}

@@ -1,36 +1,43 @@
-🎰 iGaming 市場日報 2026-10-26（週一）
-🎰 Slot 5 ・ 🤝 主流 2 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-10-27（週二）
+🎰 Slot 6 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Pragmatic Play《Chests of Cai Shen – Infinity》今日上線，最高 15,000x、Quad Coin 啟動四寶箱
-・DigiPlus 規劃 2027 年推出約 60 款在地化遊戲，產量翻倍
-・澳洲 ACT 修法要求機台實名帳戶，伊利諾州 5 萬台 VGT 納入自我排除
+・Stakelogic《Sunken City Riches》：永久解鎖修飾＋寶石累積，最高 x15,000
+・Okada Manila 設 AGS／Aruze 70 台專屬區；Yellow Bat×BingoPlus 推 Reyna Ahas Slot
+・巴西 85 張授權過期、Lula 連任；亞伯達開放三個月 GGR 約 C$122m
 
 🎰 Slot 新遊戲
-01 Chests of Cai Shen – Infinity – Pragmatic Play
-02 Hot Rocket Mega Potz – BGaming
-03 Spooky Halloween – Hold & Hit 3x3 – Spinomenal
-04 📦 Grog To Hell Hold & Win – Elysium Studios
-05 🆕 Turkeys Gone Wild – Maxxi Labs（10/28 上線）
+01 Sunken City Riches – Stakelogic
+02 Secret of the Witch – Onlyplay
+03 Clover Dice Super Pot – Amusnet
+04 Pot o'Pumpkins – Amusnet
+05 Golden Joker Halloween – 1spin4win
+06 📦 Odysseus Wild Journey – ELA Games
+
+🕹️ 非 Slot 新內容
+01 🆕 Game Night – Evolution
+02 Multiplayer Bingo 新介面 – End2End
+03 CreedRoomz Live Casino 上架 QTech
 
 🤝 動態：主流 GP／平台
-01 Zitro 包辦 EKG 新遊戲榜新興供應商類 13 款、前十名占七席
-02 荷蘭 Ksa 對 EOD Code 開出史上最高 3,700 萬歐元罰款
+01 Yggdrasil 執行長 Curwen：三年轉型，GIAB 改寫開發成本
+02 KingMidas Games 加入 Yggdrasil YGG Masters
+03 Gaming Corps 與芬蘭 Veikkaus 簽署內容合作
 
 🇵🇭 動態：菲律賓 GP／平台
-01 DigiPlus 規劃 2027 年推出約 60 款在地化遊戲
-02 PlayTime 擴大影視與體育合作：PMPC、MMFF、NCAA
-03 菲律賓司法部警告 POGO 以分散小據點捲土重來
+01 Yellow Bat 與 BingoPlus 合作開發獨家遊戲（Reyna Ahas）
+02 Okada Manila 開設 70 台 AGS／Aruze 專屬機台區
+03 Bloomberry 的 FUNaloMAX 啟動年終促銷，獎金池 3,000 萬披索
 
 📊 市場數據 & 趨勢
-01 澳洲 ACT 修法草案：機台改實名帳戶，2045 年降至 1,000 台
-02 伊利諾州提議把 5 萬台影片博奕機納入自我排除計畫
-03 Marina Bay Sands 第三季 EBITDA 年減 20.6%
+01 Kinetic Digital：萬聖節 Slot 玩家占比由 5.8% 升至 17.4%
+02 巴西 85 張博彩授權因 MP 1,394 過期，Lula 連任後轉向 STF 與國會
+03 加拿大亞伯達省開放三個月 GGR 約 C$122m
 
 📝 品質備註（本次爬找判斷）
-1. 本日收錄僅 15 則（<18 目標）：窗內候選以監理與義大利／巴西在地新聞為主，Slot 窗內新作僅 3 款，非 Slot 區窗內 0 則、庫存 0 則、EEZE 無新消息，本日整區從缺。
-2. BigWinBoard 新作列表解析失敗（0 條）、SiGMA 列表頁無回應；Slot 因此多靠 SlotsLaunch 與 iGamingToday。Spooky Halloween 無新聞稿，主來源為 SlotsLaunch 上線日。
-3. 剔除 Odysseus Wild Journey、Monkey Gods of the Inca、Formula x10000 等（疑非新作或僅單一來源）。DigiPlus 60 款一則與 10/24 Regal 合作屬同脈絡新進展，疑似與 10/24 重疊。
+1. 窗內候選 451 則，BigWinBoard 解析失敗、SiGMA 無回應；Slot 新作可驗證者僅 5 款，Eye Strike 2、Ouija 查無資料未收。
+2. Yellow Bat×BingoPlus 疑似與 10/24 SiGMA 報導重疊，採官網 10/26 稿；Secret of the Witch 上線日 10/22，採新聞稿 10/26。
+3. 本日 EEZE 查無新消息跳過；GGRAsia 兩則菲律賓稿配圖被擋，無圖。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（10 天）、SiGMA（6 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（11 天）、SiGMA（7 天）；請檢查網址或改抓取方式
