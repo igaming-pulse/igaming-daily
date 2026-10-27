@@ -1,43 +1,41 @@
-🎰 iGaming 市場日報 2026-10-27（週二）
-🎰 Slot 6 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-10-28（週三）
+🎰 Slot 6 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Stakelogic《Sunken City Riches》：永久解鎖修飾＋寶石累積，最高 x15,000
-・Okada Manila 設 AGS／Aruze 70 台專屬區；Yellow Bat×BingoPlus 推 Reyna Ahas Slot
-・巴西 85 張授權過期、Lula 連任；亞伯達開放三個月 GGR 約 C$122m
+・Play'n GO《Beasts of Fire Inferno》上線，最高 50,000x
+・Casino Plus 贊助 MassKara 兩晚活動，強化在地曝光
+・德國 Q3 博彩稅年增 11.2%；澳門 GGR 目標仍可達
 
 🎰 Slot 新遊戲
-01 Sunken City Riches – Stakelogic
-02 Secret of the Witch – Onlyplay
-03 Clover Dice Super Pot – Amusnet
-04 Pot o'Pumpkins – Amusnet
-05 Golden Joker Halloween – 1spin4win
-06 📦 Odysseus Wild Journey – ELA Games
+01 Beasts of Fire Inferno – Play'n GO
+02 Legendary Sword II – Zitro
+03 Fivefold the Gold – Games Global
+04 Reel Fin Fury – BetGames
+05 🆕 Burn the Sevens – GAMOMAT（10/29 上線）
+06 Bivol Beasts 2 Pate Link – Pateplay
 
 🕹️ 非 Slot 新內容
-01 🆕 Game Night – Evolution
-02 Multiplayer Bingo 新介面 – End2End
-03 CreedRoomz Live Casino 上架 QTech
+01 Twister – Cubeia Originals
+02 📦 Imagine Live 與 N1 Casino 合作進入希臘
+03 Betpassion 玩家於 Red Baron 單輪贏得逾 3.1 萬歐元
 
 🤝 動態：主流 GP／平台
-01 Yggdrasil 執行長 Curwen：三年轉型，GIAB 改寫開發成本
-02 KingMidas Games 加入 Yggdrasil YGG Masters
-03 Gaming Corps 與芬蘭 Veikkaus 簽署內容合作
+01 Pragmatic Play 與墨西哥 Logrand 簽署多品牌合約
+02 Light & Wonder RapidPlay 於內華達完成首裝
+03 TaDa Gaming：以義大利 86 款認證遊戲深耕歐洲
+04 Konami BOMBERMAN 獲北美年度遊戲
 
 🇵🇭 動態：菲律賓 GP／平台
-01 Yellow Bat 與 BingoPlus 合作開發獨家遊戲（Reyna Ahas）
-02 Okada Manila 開設 70 台 AGS／Aruze 專屬機台區
-03 Bloomberry 的 FUNaloMAX 啟動年終促銷，獎金池 3,000 萬披索
+01 Casino Plus 擔任 MassKara 2026 主要贊助
 
 📊 市場數據 & 趨勢
-01 Kinetic Digital：萬聖節 Slot 玩家占比由 5.8% 升至 17.4%
-02 巴西 85 張博彩授權因 MP 1,394 過期，Lula 連任後轉向 STF 與國會
-03 加拿大亞伯達省開放三個月 GGR 約 C$122m
+01 德國 2026 Q3 博彩稅收年增 11.2%
+02 CreditSights：澳門 2026 GGR 目標仍可達
+03 📦 Octoplay 連續六個月登 Eilers-Fantini 榜首
 
 📝 品質備註（本次爬找判斷）
-1. 窗內候選 451 則，BigWinBoard 解析失敗、SiGMA 無回應；Slot 新作可驗證者僅 5 款，Eye Strike 2、Ouija 查無資料未收。
-2. Yellow Bat×BingoPlus 疑似與 10/24 SiGMA 報導重疊，採官網 10/26 稿；Secret of the Witch 上線日 10/22，採新聞稿 10/26。
-3. 本日 EEZE 查無新消息跳過；GGRAsia 兩則菲律賓稿配圖被擋，無圖。
+1. 菲律賓區窗內僅 1 則可用：BingoPlus×Regal 為 10/24 同事件、BingoPlus VIP Club 來源 403、DigiPlus 治理與 10/25 重複；疑似與 10/24 重疊。
+2. 來源異常：BigWinBoard 解析失敗、ISA-GUIDE 失敗；Ouija（Red Tiger）查無新聞稿未收；無 EEZE 消息。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（11 天）、SiGMA（7 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（12 天）、SiGMA（8 天）；請檢查網址或改抓取方式

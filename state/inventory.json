@@ -127,48 +127,6 @@
  "others": [
   {
    "cat": "cat3",
-   "title": "Evolution CEO 對巴西禁令感到錯愕",
-   "sources": [
-    {
-     "name": "iGaming Expert",
-     "url": "https://igamingexpert.com/regions/europe/evolution-flabbergasted-brazil-betting-ban/",
-     "published": "2026-10-23 21:31"
-    }
-   ],
-   "first_seen": "2026-10-24",
-   "b": 3,
-   "key": "evolutionceo對巴西禁令感到錯愕|"
-  },
-  {
-   "cat": "cat4",
-   "title": "Yellow Bat × BingoPlus 長期獨家合作（品牌稿）",
-   "sources": [
-    {
-     "name": "SiGMA",
-     "url": "https://sigma.world/news/yellow-bat-gaming-bingoplus-exclusive-games/",
-     "published": "2026-10-23 20:45"
-    }
-   ],
-   "first_seen": "2026-10-24",
-   "b": 6,
-   "key": "yellowbatbingoplus長期獨家合作品牌稿|"
-  },
-  {
-   "cat": "cat5",
-   "title": "FDJ United 第三季營收年減 8.1%，再度下修 2026 目標",
-   "sources": [
-    {
-     "name": "Yogonet",
-     "url": "https://www.yogonet.com/international/news/2026/10/23/126980-fdj-united-lowers-2026-targets-after-a-jackpot-shortfall-and-tax-increases-cut-q3-revenue-81-",
-     "published": "2026-10-23 23:07"
-    }
-   ],
-   "first_seen": "2026-10-24",
-   "b": 1,
-   "key": "fdjunited第三季營收年減81再度下修2026目標|"
-  },
-  {
-   "cat": "cat3",
    "title": "紐約博彩委員會請求法院強制 Kalshi 遵守傳票",
    "b": 1,
    "first_seen": "2026-10-26",
@@ -194,19 +152,6 @@
     }
    ],
    "key": "澳門2026年前九個月旅客3220萬人次年增85|"
-  },
-  {
-   "cat": "cat2",
-   "title": "Imagine Live 與 N1 Casino 合作進入希臘",
-   "first_seen": "2026-10-27",
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/10/26/53333/imagine-live-adds-n1-casino-as-fourth-greek-operator-partner/",
-     "published": "2026-10-26 17:18"
-    }
-   ],
-   "key": "imaginelive與n1casino合作進入希臘|"
   },
   {
    "cat": "cat3",
@@ -246,79 +191,36 @@
     }
    ],
    "key": "octoplay連續六個月登eilersfantini美國供應商總榜首|"
+  },
+  {
+   "cat": "cat3",
+   "title": "Betfair 全面退出義大利市場（Flutter）",
+   "b": 4,
+   "first_seen": "2026-10-28",
+   "sources": [
+    {
+     "name": "SBC News",
+     "url": "https://sbcnews.co.uk/europe/italy/2026/10/27/betfair-italy-shutting-down/",
+     "published": "2026-10-27 23:55"
+    }
+   ],
+   "key": "betfair全面退出義大利市場flutter|"
+  },
+  {
+   "cat": "cat5",
+   "title": "阿爾伯塔省 9 月 iGaming 收入 C$56.6m",
+   "first_seen": "2026-10-28",
+   "sources": [
+    {
+     "name": "Online Gambling Quarterly",
+     "url": "https://www.ogqnews.com/alberta-igaming-revenue-reaches-cad-56-6m-in-09-2026/",
+     "published": "2026-10-27 22:51"
+    }
+   ],
+   "key": "阿爾伯塔省9月igaming收入c566m|"
   }
  ],
  "history": [
-  {
-   "key": "crabbysgold3|playngo",
-   "date": "2026-09-27",
-   "cat": "cat1",
-   "title": "Crabby's Gold 3",
-   "gp": "Play'n GO"
-  },
-  {
-   "key": "propaganda2|elkstudios",
-   "date": "2026-09-27",
-   "cat": "cat1",
-   "title": "Propaganda 2",
-   "gp": "ELK Studios"
-  },
-  {
-   "key": "greedypumpking|thunderkick",
-   "date": "2026-09-27",
-   "cat": "cat1",
-   "title": "Greedy Pumpking",
-   "gp": "Thunderkick"
-  },
-  {
-   "key": "巴西總統盧拉簽署臨時措施全面禁止線上博彩營運|governmentofbrazil",
-   "date": "2026-09-27",
-   "cat": "cat3",
-   "title": "巴西總統盧拉簽署臨時措施，全面禁止線上博彩營運",
-   "gp": "Government of Brazil"
-  },
-  {
-   "key": "預測市場監理持續收緊kalshi遭聯邦第六巡迴法院裁定敗訴|kalshi",
-   "date": "2026-09-27",
-   "cat": "cat3",
-   "title": "預測市場監理持續收緊：Kalshi遭聯邦第六巡迴法院裁定敗訴",
-   "gp": "Kalshi"
-  },
-  {
-   "key": "cftc發布預測市場操縱警告紐約州檢察長對kalshipolymarket提告|kalshipolymarketcftc",
-   "date": "2026-09-27",
-   "cat": "cat3",
-   "title": "CFTC發布預測市場操縱警告，紐約州檢察長對Kalshi、Polymarket提告",
-   "gp": "Kalshi/Polymarket/CFTC"
-  },
-  {
-   "key": "maltamga公告揭發12個冒用執照標章的非法博彩網站|mga",
-   "date": "2026-09-27",
-   "cat": "cat3",
-   "title": "Malta MGA公告揭發12個冒用執照標章的非法博彩網站",
-   "gp": "MGA"
-  },
-  {
-   "key": "研究估算巴西非法博彩市場規模上看436億雷亞爾|ibjrlca",
-   "date": "2026-09-27",
-   "cat": "cat5",
-   "title": "研究估算巴西非法博彩市場規模上看436億雷亞爾",
-   "gp": "IBJR/LCA"
-  },
-  {
-   "key": "2026年igaming併購市場降溫走向大者恆大整合格局|businessofigaming",
-   "date": "2026-09-27",
-   "cat": "cat5",
-   "title": "2026年iGaming併購市場降溫，走向大者恆大整合格局",
-   "gp": "Business of iGaming"
-  },
-  {
-   "key": "分析博彩業者為何甘願為頂規ai模型支付溢價|businessofigaming",
-   "date": "2026-09-27",
-   "cat": "cat5",
-   "title": "分析：博彩業者為何甘願為頂規AI模型支付溢價",
-   "gp": "Business of iGaming"
-  },
   {
    "key": "777rainbowrampage|tadagaming",
    "date": "2026-09-28",
@@ -3789,6 +3691,125 @@
    "date": "2026-10-27",
    "cat": "cat5",
    "title": "亞伯達省開放三個月 GGR 約 C$122m",
+   "gp": ""
+  },
+  {
+   "key": "beastsoffireinferno|playngo",
+   "date": "2026-10-28",
+   "cat": "cat1",
+   "title": "Beasts of Fire Inferno",
+   "gp": "Play'n GO"
+  },
+  {
+   "key": "legendaryswordii|zitro",
+   "date": "2026-10-28",
+   "cat": "cat1",
+   "title": "Legendary Sword II",
+   "gp": "Zitro"
+  },
+  {
+   "key": "fivefoldthegold|gamesglobal",
+   "date": "2026-10-28",
+   "cat": "cat1",
+   "title": "Fivefold the Gold",
+   "gp": "Games Global"
+  },
+  {
+   "key": "reelfinfury|betgames",
+   "date": "2026-10-28",
+   "cat": "cat1",
+   "title": "Reel Fin Fury",
+   "gp": "BetGames"
+  },
+  {
+   "key": "burnthesevens|gamomat",
+   "date": "2026-10-28",
+   "cat": "cat1",
+   "title": "Burn the Sevens",
+   "gp": "GAMOMAT"
+  },
+  {
+   "key": "bivolbeasts2patelink|pateplay",
+   "date": "2026-10-28",
+   "cat": "cat1",
+   "title": "Bivol Beasts 2 Pate Link",
+   "gp": "Pateplay"
+  },
+  {
+   "key": "twistercubeiaoriginals|",
+   "date": "2026-10-28",
+   "cat": "cat2",
+   "title": "Twister — Cubeia Originals",
+   "gp": ""
+  },
+  {
+   "key": "imaginelive與n1casino合作進入希臘|",
+   "date": "2026-10-28",
+   "cat": "cat2",
+   "title": "Imagine Live 與 N1 Casino 合作進入希臘",
+   "gp": ""
+  },
+  {
+   "key": "redbaron單輪贏獎betpassion|",
+   "date": "2026-10-28",
+   "cat": "cat2",
+   "title": "Red Baron 單輪贏獎 Betpassion",
+   "gp": ""
+  },
+  {
+   "key": "pragmaticplay與logrand簽署多品牌合約|",
+   "date": "2026-10-28",
+   "cat": "cat3",
+   "title": "Pragmatic Play 與 Logrand 簽署多品牌合約",
+   "gp": ""
+  },
+  {
+   "key": "lightwonderrapidplay於內華達完成首裝|",
+   "date": "2026-10-28",
+   "cat": "cat3",
+   "title": "Light & Wonder RapidPlay 於內華達完成首裝",
+   "gp": ""
+  },
+  {
+   "key": "tadagaming歐洲策略專訪|",
+   "date": "2026-10-28",
+   "cat": "cat3",
+   "title": "TaDa Gaming 歐洲策略專訪",
+   "gp": ""
+  },
+  {
+   "key": "konamibomberman獲北美年度遊戲|",
+   "date": "2026-10-28",
+   "cat": "cat3",
+   "title": "Konami BOMBERMAN 獲北美年度遊戲",
+   "gp": ""
+  },
+  {
+   "key": "casinoplus贊助masskara2026|",
+   "date": "2026-10-28",
+   "cat": "cat4",
+   "title": "Casino Plus 贊助 MassKara 2026",
+   "gp": ""
+  },
+  {
+   "key": "德國2026q3博彩稅收年增112|",
+   "date": "2026-10-28",
+   "cat": "cat5",
+   "title": "德國 2026 Q3 博彩稅收年增 11.2%",
+   "gp": ""
+  },
+  {
+   "key": "creditsights澳門2026ggr目標可達|",
+   "date": "2026-10-28",
+   "cat": "cat5",
+   "title": "CreditSights：澳門 2026 GGR 目標可達",
+   "gp": ""
+  },
+  {
+   "key": "octoplay連續六個月登eilersfantini榜首|",
+   "date": "2026-10-28",
+   "cat": "cat5",
+   "title": "Octoplay 連續六個月登 Eilers-Fantini 榜首",
    "gp": ""
   }
  ],

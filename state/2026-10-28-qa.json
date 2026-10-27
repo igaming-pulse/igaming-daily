@@ -1,0 +1,35 @@
+{
+ "date": "2026-10-28",
+ "md": "state/2026-10-28-igaming-report.md",
+ "html": "reports/2026-10-28.html",
+ "items": 17,
+ "counts": {
+  "cat1": 6,
+  "cat2": 3,
+  "cat3": 4,
+  "cat4": 1,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 49,
+  "ok": 43,
+  "broken": 0,
+  "blocked": 5,
+  "images_dropped": 1,
+  "images": 16
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-01 Beasts of Fire Inferno –｜來源連結無法自動驗證（403，多半是網站擋機器人）：Sigma https://sigma.world/play/games/playn-go/beasts-of-fire-inferno/",
+  "cat1-03 Fivefold the Gold – Game｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/press-releases/2026/10/27/216877/games-global-high-limit-studio-fivefold-the-gold/",
+  "cat1-04 Reel Fin Fury – BetGames｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/press-releases/2026/10/27/216904/betgames-reel-fin-fury-fishing-slot/",
+  "cat3-02 Light & Wonder 無現金方案 Rap｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/light-wonder-debuts-rapidplay-cashless-payment-system",
+  "cat5-02 CreditSights：澳門仍可達成 2026｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/macau-still-able-to-meet-us29-2bln-ggr-target-for-2026-creditsights",
+  "cat4-01 Casino Plus 擔任 MassKara ｜各來源都找不到可用的配圖"
+ ],
+ "fixes": [
+  "cat5-02 CreditSights：澳門仍可達成 2026｜配圖打不開（403 text/html），已自動拿掉：https://www.ggrasia.com/wp-content/uploads/2025/08/DJI_20250815160013_0012_D.jpg",
+  "cat5-02 CreditSights：澳門仍可達成 2026｜自動補上配圖（取自 Yogonet International）：https://imagenesyogonet.b-cdn.net/data/imagenes/2025/03/03/73132/1741008089-macau-city-view-2025.jpg",
+  "文末｜資料來源數 30 → 33（程式依來源連結去重計算）"
+ ]
+}
