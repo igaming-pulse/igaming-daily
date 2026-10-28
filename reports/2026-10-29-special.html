@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="render_report.py v6.5（三層收集＋庫存＋定稿檢查）">
+<title>iGaming 市場日報 2026-10-29（特別版）</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../icon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../icon-16.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<style>
+  :root{
+    --bg:#F5F7FA; --card:#ffffff; --line:#E7EBF0; --ink:#1A2230; --sub:#5B6675;
+    --c1:#1D9E75; --c1bg:#E1F5EE; --c1txt:#0F6E56;
+    --c2:#B31217; --c2bg:#FBE3E4; --c2txt:#8A1015;
+    --c3:#378ADD; --c3bg:#E6F1FB; --c3txt:#185FA5;
+    --c4:#D97706; --c4bg:#FBF0DD; --c4txt:#8A5206;
+    --c5:#8B5CF6; --c5bg:#EEE9FC; --c5txt:#5B3FA6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.7}
+  .wrap{max-width:860px;margin:0 auto;padding:28px 16px 60px}
+  header{text-align:center;margin-bottom:22px}
+  header h1{font-size:26px;margin:6px 0 4px}
+  header .date{color:var(--sub);font-size:14px}
+  .badges{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:14px 0}
+  .badge{font-size:12px;font-weight:700;padding:5px 12px;border-radius:999px}
+  .b1{background:var(--c1bg);color:var(--c1txt)}
+  .b2{background:var(--c2bg);color:var(--c2txt)}
+  .b3{background:var(--c3bg);color:var(--c3txt)}
+  .b4{background:var(--c4bg);color:var(--c4txt)}
+  .b5{background:var(--c5bg);color:var(--c5txt)}
+  .stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:20px 0 32px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 10px;text-align:center}
+  .stat .n{font-size:22px;font-weight:800}
+  .stat .l{font-size:12px;color:var(--sub);margin-top:2px}
+  .stat.s1 .n{color:var(--c1)} .stat.s2 .n{color:var(--c2)} .stat.s3 .n{color:var(--c3)} .stat.s4 .n{color:var(--c4)} .stat.s5 .n{color:var(--c5)}
+  .summary{background:var(--card);border:1px solid var(--line);border-left:6px solid #B31217;border-radius:14px;padding:16px 20px;margin:0 0 32px}
+  .summary .sum-title{font-size:15px;font-weight:800;color:#B31217;margin-bottom:8px}
+  .summary p{margin:0 0 8px}
+  .summary p:last-child{margin-bottom:0}
+  .summary b{color:#1A2230;margin-right:4px}
+  section{margin-bottom:36px}
+  .sec-title{display:flex;align-items:center;gap:10px;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid var(--line)}
+  .sec-title .emoji{font-size:1.5em}
+  .sec-title h2{font-size:28px;margin:0}
+  .sec-title .cnt{font-size:13px;color:var(--sub);font-weight:600}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:16px;position:relative;border-left:6px solid transparent}
+  .card.c1{border-left-color:var(--c1)} .card.c2{border-left-color:var(--c2)} .card.c3{border-left-color:var(--c3)} .card.c4{border-left-color:var(--c4)} .card.c5{border-left-color:var(--c5)}
+  .no{display:inline-block;font-size:12px;font-weight:800;color:#fff;background:var(--ink);border-radius:6px;padding:2px 8px;margin-bottom:8px}
+  .c1 .no{background:var(--c1)} .c2 .no{background:var(--c2)} .c3 .no{background:var(--c3)} .c4 .no{background:var(--c4)} .c5 .no{background:var(--c5)}
+  h3{font-size:17px;margin:4px 0 10px;line-height:1.5}
+  p{font-size:14.5px;margin:0 0 10px;color:#2A3342}
+  .derive{font-size:13px;color:#7a4d0b;background:#FBF3E4;border:1px solid #F0E2C6;border-radius:8px;padding:9px 12px;margin-bottom:10px}
+  .derive b{color:#9a6209;margin-right:6px}
+  .spec{background:#F2F6F4;border:1px solid #E1EAE6;border-radius:8px;padding:10px 12px;margin-bottom:10px;font-size:12.5px}
+  .spec .row{display:flex;gap:10px;padding:3px 0;border-bottom:1px dashed #E1EAE6}
+  .spec .row:last-child{border-bottom:none}
+  .spec .k{flex:0 0 82px;font-weight:700;color:#0F6E56}
+  .keyrow{display:flex;flex-wrap:wrap;gap:14px;background:#F4F8FC;border:1px solid #DCE8F4;border-radius:8px;padding:9px 12px;margin-bottom:10px;font-size:12.5px}
+  .keyrow b{color:#185FA5;margin-right:5px}
+  .c4 .keyrow b{color:#8A5206}
+  .verify{font-size:12.5px;color:#334155;background:#F3F4F6;border:1px solid #E5E7EB;border-radius:8px;padding:8px 12px;margin-bottom:10px;line-height:1.6}
+  .verify::before{content:"🔎 "}
+  .tags{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:11px}
+  a.src{font-weight:600;color:var(--sub);text-decoration:none}
+  a.src:hover{text-decoration:underline}
+  .hero{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;margin-top:10px;display:block;background:#eee}
+  .stats-line{max-width:860px;margin:26px auto 0;text-align:center;font-size:13.5px;color:#1A2230;line-height:1.8}
+  .stats-line b{color:#B31217;font-weight:800}
+  .stats-line.fc-line{margin-top:4px}
+  footer{text-align:center;margin-top:30px;color:var(--sub);font-size:12px}
+  @media(max-width:600px){.sec-title h2{font-size:22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="date">2026-10-29（星期四）・台北時間</div>
+  <h1>🎰 iGaming 市場日報・特別版</h1>
+  <div class="badges">
+    <span class="badge b1">🎰 Slot 5</span>
+  </div>
+</header>
+
+<div class="stats-grid">
+  <div class="stat s1"><div class="n">5</div><div class="l">🎰 Slot 新遊戲</div></div>
+</div>
+
+
+<section>
+  <div class="sec-title"><span class="emoji">🎰</span><h2>Game Provider 新遊戲</h2><span class="cnt">共 5 則</span></div>
+  <div class="card c1">
+    <div class="no">01</div>
+    <h3>📦 近期新作（10/29 首見）Coin Voltage - Bonus Flash 3x3 – Spinomenal</h3>
+    <p>Spinomenal 的 Coin Voltage 系列再添一款 Bonus Flash 3x3 版本，SlotsLaunch 已收錄遊戲頁並標示為 2026 年新作。名稱沿用 Spinomenal 的「3x3」小盤面、Bonus 導向產品線（同系列另有 Blast the Bonus 3x3）。目前只有資料庫頁，官方新聞稿與數值尚未公開，內容以資料庫條目為準。對 PM 的意義：Spinomenal 持續以 3x3 低成本小盤面快速量產 Bonus 型新作，適合作為菲律賓平台補足 Hold &amp; Hit 類目的候選，但需待官方 RTP／倍率公布再評估。</p>
+    <div class="derive"><b>衍生調整</b>同屬 Coin Voltage 系列，與 Blast the Bonus 3x3 為姊妹作，確切差異未公布</div>
+    <div class="spec">
+      <div class="row"><span class="k">廠牌</span><span>Spinomenal</span></div>
+      <div class="row"><span class="k">遊戲類型</span><span>線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span>3×3（依遊戲名稱）</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span>未公布</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>未公布</span></div>
+      <div class="row"><span class="k">RTP</span><span>未公布</span></div>
+      <div class="row"><span class="k">波動</span><span>未公布</span></div>
+      <div class="row"><span class="k">目標市場</span><span>沒有</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>Coin Voltage 系列 Bonus 導向小盤面新作</span></div>
+    </div>
+    <div class="verify">無新聞稿，日期取自 SlotsLaunch 上線日（10/29）；參數查一次（SlotsLaunch 頁、WebSearch）無公開數值。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://slotslaunch.com/spinomenal/coin-voltage-bonus-flash-3x3" target="_blank" rel="noopener">SlotsLaunch ↗</a>
+      · 2026-10-29
+    </div>
+    <img class="hero" src="https://assets.slotslaunch.com/115289/coin-voltage-bonus-flash-3x3.jpg" alt="Coin Voltage" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c1">
+    <div class="no">02</div>
+    <h3>📦 近期新作（10/29 首見）Nunchucks – NetEnt</h3>
+    <p>NetEnt 新作 Nunchucks 已在 SlotsLaunch 建立遊戲頁，標示為 2026 年新作。依 SlotCatalog 資料（聚合站、非官方），該遊戲為 6×4 盤面、4,096 ways、RTP 96.21%、最高 12,000x、高波動，上線日標示 2026-10-29；此為單一聚合來源，數值待官方確認。對 PM 的意義：NetEnt 回到高波動、高倍率的 ways 型產品，12,000x 上限在其產品線中偏高，可觀察市場反應。</p>
+    <div class="derive"><b>衍生調整</b>全新款，無衍生</div>
+    <div class="spec">
+      <div class="row"><span class="k">廠牌</span><span>NetEnt</span></div>
+      <div class="row"><span class="k">遊戲類型</span><span>線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span>6×4</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span>4,096 ways（SlotCatalog）</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>12,000x（SlotCatalog，未經官方確認）</span></div>
+      <div class="row"><span class="k">RTP</span><span>96.21%（SlotCatalog，未經官方確認）</span></div>
+      <div class="row"><span class="k">波動</span><span>高</span></div>
+      <div class="row"><span class="k">目標市場</span><span>沒有</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>高波動、高倍率 ways 型新作</span></div>
+    </div>
+    <div class="verify">無新聞稿，日期取自 SlotsLaunch 上線日（10/29）；數值僅 SlotCatalog 單一來源，各來源未見衝突。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://slotslaunch.com/netent/nunchucks" target="_blank" rel="noopener">SlotsLaunch ↗</a>
+      <a class="src" href="https://slotcatalog.com/uk/slots/nunchucks" target="_blank" rel="noopener">SlotCatalog ↗</a>
+      · 2026-10-29
+    </div>
+    <img class="hero" src="https://assets.slotslaunch.com/114088/nunchucks.jpg" alt="Nunchucks" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c1">
+    <div class="no">03</div>
+    <h3>🆕 新作預告（11/5 上線）Gears of Eternia Megaways – Four Leaf Gaming</h3>
+    <p>Four Leaf Gaming 推出蒸氣龐克續作 Gears of Eternia Megaways，iGamingToday 評測指出預定 2026 年 11 月 5 日上線。本作 6 轉輪、2–7 列、最多 117,649 ways，功能包含連消、倍數 Wild、神祕符號、炸彈清盤再落、免費旋轉、Nitro Spins 與購買功能。相較前作移除 Dream Drop 彩金，RTP 由 94.06% 提升至 95.96%，最高 6,000x，中波動。對 PM 的意義：Megaways 搭配購買功能與較高 RTP，適合歐洲與開放購買功能的市場，菲律賓上架需確認購買功能是否可關閉。</p>
+    <div class="derive"><b>衍生調整</b>前作 Gears of Eternia 的 Megaways 版；移除 Dream Drop 彩金，RTP 94.06% → 95.96%</div>
+    <div class="spec">
+      <div class="row"><span class="k">廠牌</span><span>Four Leaf Gaming</span></div>
+      <div class="row"><span class="k">遊戲類型</span><span>線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span>6 轉輪 × 2–7 列</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span>Megaways，最多 117,649 ways，Cascading 連消</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>6,000x</span></div>
+      <div class="row"><span class="k">RTP</span><span>95.96%</span></div>
+      <div class="row"><span class="k">波動</span><span>中</span></div>
+      <div class="row"><span class="k">目標市場</span><span>沒有</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>倍數 Wild、炸彈清盤再落、Nitro Spins、Feature Buy</span></div>
+    </div>
+    <div class="verify">評測為單一來源（iGamingToday，次要來源）；上線日 11/5 取自該評測。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://www.igamingtoday.com/gears-of-eternia-megaways-slot-review/" target="_blank" rel="noopener">iGamingToday ↗</a>
+      · 2026-10-13
+    </div>
+    <img class="hero" src="https://www.igamingtoday.com/wp-content/uploads/2026/10/gears_of_eternia_megaways_four_leaf_gaming_slot_banner_b7bb87ac58-resized-to-large-1.jpeg" alt="Gears of Eternia Megaways" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c1">
+    <div class="no">04</div>
+    <h3>📦 近期新作（10/29 首見）Cheeky Pirates – MGA Games</h3>
+    <p>MGA Games 推出 Cheeky Pirates，定位為其 2026 萬聖節旗艦新作，.com 市場於 9 月 28 日上線、葡萄牙於 10 月 28 日上線。遊戲為 5×4 盤面、中波動，下注範圍 €0.20–€30；核心機制 Spectral Respins：首輪被相同符號填滿時鎖定並給 2 次重轉，Free Spins from Beyond 中 Wild 比例提高。營運商可依轄區開關購買功能並調整下注與曝險參數。對 PM 的意義：可依轄區開關購買功能的設計，對需要合規彈性的市場上架較友善。</p>
+    <div class="derive"><b>衍生調整</b>全新款，無衍生</div>
+    <div class="spec">
+      <div class="row"><span class="k">廠牌</span><span>MGA Games</span></div>
+      <div class="row"><span class="k">遊戲類型</span><span>線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span>5×4</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span>未公布</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>未公布</span></div>
+      <div class="row"><span class="k">RTP</span><span>未公布</span></div>
+      <div class="row"><span class="k">波動</span><span>中</span></div>
+      <div class="row"><span class="k">目標市場</span><span>.com 與葡萄牙</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>Spectral Respins、Free Spins from Beyond、可開關購買功能</span></div>
+    </div>
+    <div class="verify">EEGaming 稿內 .com 上線日寫 9/28、葡萄牙 10/28；參數僅查 EEGaming 一處。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://eegaming.org/latest-news/2026/10/28/53387/mga-games-rolls-out-cheeky-pirates-slot/" target="_blank" rel="noopener">EEGaming ↗</a>
+      · 2026-10-28
+    </div>
+    <img class="hero" src="https://eegaming.org/api/eeg-media/c009425b-54d6-47c8-b4cd-9c05586ea1cd.jpg" alt="Cheeky Pirates" loading="lazy" onerror="this.style.display='none'">
+  </div>
+
+  <div class="card c1">
+    <div class="no">05</div>
+    <h3>📦 近期新作（10/29 首見）Hold the Phone – Backseat Gaming</h3>
+    <p>獨立工作室 Backseat Gaming 推出全新「Trending」系列首作 Hold the Phone，主打以時事與網路趨勢為題材、加速開發、獨立於常規產品路線圖之外。遊戲為 5×5 盤面，卡通風經典符號，對側另有一組在基礎遊戲中鎖定的第二轉輪組，靈感來自折疊雙螢幕手機的熱潮。對 PM 的意義：「趨勢快速上架」讓營運商可搭配實況主合作與社群行銷，但時效性強，需觀察後續作品節奏。</p>
+    <div class="derive"><b>衍生調整</b>全新 IP，無衍生</div>
+    <div class="spec">
+      <div class="row"><span class="k">廠牌</span><span>Backseat Gaming</span></div>
+      <div class="row"><span class="k">遊戲類型</span><span>線上電子老虎機</span></div>
+      <div class="row"><span class="k">盤面</span><span>5×5（另有鎖定的第二組轉輪）</span></div>
+      <div class="row"><span class="k">消除/賠付</span><span>未公布</span></div>
+      <div class="row"><span class="k">最高倍率</span><span>未公布</span></div>
+      <div class="row"><span class="k">RTP</span><span>未公布</span></div>
+      <div class="row"><span class="k">波動</span><span>未公布</span></div>
+      <div class="row"><span class="k">目標市場</span><span>沒有</span></div>
+      <div class="row"><span class="k">關鍵特色</span><span>雙轉輪組（第二組基礎遊戲鎖定）、Trending 系列首作</span></div>
+    </div>
+    <div class="verify">新聞稿轉載於 Zona de Azar，發布 10/28；參數查一次（新聞稿）未公布。</div>
+    <div class="tags">
+      來源：
+      <a class="src" href="https://zonadeazar.com/juego-online/backseat-gaming-launches-trending-series-with-hold-the-phone/" target="_blank" rel="noopener">Zona de Azar ↗</a>
+      · 2026-10-28
+    </div>
+    <img class="hero" src="https://zonadeazar.com/wp-content/uploads/2026/10/image003-10-1-700x368.png" alt="Hold the Phone" loading="lazy" onerror="this.style.display='none'">
+  </div>
+</section>
+
+<div class="stats-line">本日日報查詢約 <b>12</b> 個網站，其中提取 <b>6</b> 個資料來源並進行交叉比對</div>
+
+
+<footer>
+  iGaming 日報自動化 v6.5（三層收集＋庫存＋定稿檢查）・每則皆附真實可點擊原文連結・多來源交叉查證<br>
+  產出時間：2026-10-29（台北時間）
+</footer>
+</div>
+</body>
+</html>

@@ -93,22 +93,6 @@
   },
   {
    "cat": "cat1",
-   "title": "Gears of Eternia Megaways",
-   "gp": "Four Leaf Gaming",
-   "b": 1,
-   "first_seen": "2026-10-14",
-   "release_date": "2026-11-05",
-   "sources": [
-    {
-     "name": "iGamingToday",
-     "url": "https://www.igamingtoday.com/gears-of-eternia-megaways-slot-review/",
-     "published": "2026-10-13 22:35"
-    }
-   ],
-   "key": "gearsofeterniamegaways|fourleafgaming"
-  },
-  {
-   "cat": "cat1",
    "title": "Big Bass Christmas Blast 1000",
    "gp": "Pragmatic Play",
    "b": 4,
@@ -122,66 +106,6 @@
     }
    ],
    "key": "bigbasschristmasblast1000|pragmaticplay"
-  },
-  {
-   "cat": "cat1",
-   "title": "Coin Voltage - Bonus Flash 3x3",
-   "gp": "Spinomenal",
-   "b": 3,
-   "first_seen": "2026-10-29",
-   "sources": [
-    {
-     "name": "SlotsLaunch",
-     "url": "https://slotslaunch.com/spinomenal/coin-voltage-bonus-flash-3x3",
-     "published": "2026-10-29 00:00"
-    }
-   ],
-   "key": "coinvoltagebonusflash3x3|spinomenal"
-  },
-  {
-   "cat": "cat1",
-   "title": "Nunchucks",
-   "gp": "NetEnt",
-   "b": 3,
-   "first_seen": "2026-10-29",
-   "sources": [
-    {
-     "name": "SlotsLaunch",
-     "url": "https://slotslaunch.com/netent/nunchucks",
-     "published": "2026-10-29 00:00"
-    }
-   ],
-   "key": "nunchucks|netent"
-  },
-  {
-   "cat": "cat1",
-   "title": "Cheeky Pirates",
-   "gp": "MGA Games",
-   "b": 1,
-   "first_seen": "2026-10-29",
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/10/28/53387/mga-games-rolls-out-cheeky-pirates-slot/",
-     "published": "2026-10-28 19:56"
-    }
-   ],
-   "key": "cheekypirates|mgagames"
-  },
-  {
-   "cat": "cat1",
-   "title": "Hold the Phone",
-   "gp": "Backseat Gaming",
-   "b": 1,
-   "first_seen": "2026-10-29",
-   "sources": [
-    {
-     "name": "Zona de Azar",
-     "url": "https://zonadeazar.com/juego-online/backseat-gaming-launches-trending-series-with-hold-the-phone/",
-     "published": "2026-10-28 12:42"
-    }
-   ],
-   "key": "holdthephone|backseatgaming"
   }
  ],
  "others": [
@@ -3939,6 +3863,41 @@
    "cat": "cat5",
    "title": "Caesars 第三季淨損 1.23 億美元",
    "gp": ""
+  },
+  {
+   "key": "coinvoltagebonusflash3x3|spinomenal",
+   "date": "2026-10-29",
+   "cat": "cat1",
+   "title": "Coin Voltage - Bonus Flash 3x3",
+   "gp": "Spinomenal"
+  },
+  {
+   "key": "nunchucks|netent",
+   "date": "2026-10-29",
+   "cat": "cat1",
+   "title": "Nunchucks",
+   "gp": "NetEnt"
+  },
+  {
+   "key": "gearsofeterniamegaways|fourleafgaming",
+   "date": "2026-10-29",
+   "cat": "cat1",
+   "title": "Gears of Eternia Megaways",
+   "gp": "Four Leaf Gaming"
+  },
+  {
+   "key": "cheekypirates|mgagames",
+   "date": "2026-10-29",
+   "cat": "cat1",
+   "title": "Cheeky Pirates",
+   "gp": "MGA Games"
+  },
+  {
+   "key": "holdthephone|backseatgaming",
+   "date": "2026-10-29",
+   "cat": "cat1",
+   "title": "Hold the Phone",
+   "gp": "Backseat Gaming"
   }
  ],
  "rejected": [

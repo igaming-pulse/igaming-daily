@@ -1,0 +1,24 @@
+{
+ "date": "2026-10-29",
+ "md": "state/2026-10-29-special-igaming-report.md",
+ "html": "reports/2026-10-29-special.html",
+ "items": 5,
+ "counts": {
+  "cat1": 5
+ },
+ "links": {
+  "checked": 11,
+  "ok": 11,
+  "broken": 0,
+  "blocked": 0,
+  "images_dropped": 0,
+  "images": 5
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-03 Gears of Eternia Megaway｜新作預告主來源 2026-10-13 已 16 天（只有熱門 IP 可放寬到 30 天）"
+ ],
+ "fixes": [
+  "文末｜資料來源數 7 → 6（程式依來源連結去重計算）"
+ ]
+}
