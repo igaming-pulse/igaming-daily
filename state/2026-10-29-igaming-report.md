@@ -1,0 +1,327 @@
+# 🎰 iGaming 市場日報 2026-10-29（週四）
+
+🎰 Slot 7 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 4
+
+---
+
+## 📌 本日重點
+
+本日必看 Slot 新品：3 Adventures of Alice Hold & Win – Hacksaw Gaming
+本日市場趨勢總結：三區的共同方向是「機台與實體通路承受更重的稅負與成本壓力，營運重心轉向品牌關係與會員經營」。英國財政大臣在預算案宣布把高額下注機台的機台遊戲稅（MGD）從 20% 調升到 25%，自 2027 年 4 月 1 日生效，並預計 2028 年起把供應商自有機台的納稅責任轉給機台供應商；業界雖慶幸沒有上看 40%，仍警告會造成場館縮減。另一方面，菲律賓平台 ArenaPlus 與 BingoPlus 不靠遊戲新品，而是以運動員代言與 VIP 會員活動維繫用戶，大廠如 PG Soft 與 Novomatic 也把資源放在展會與跨市場交流。對 PM 而言，稅負上升的市場更看重單機產出與會員黏著，品牌與會員經營值得提早布局。
+
+---
+
+## 🎰 Game Provider 新遊戲
+
+### 01 3 Adventures of Alice Hold & Win – Hacksaw Gaming
+
+Hacksaw Gaming 的《3 Adventures of Alice Hold & Win》，SlotsLaunch 上線日曆列為 10 月 29 日上線。遊戲取材《愛麗絲夢遊仙境》，盤面上方有三個茶壺，紅、綠、藍三色茶杯 Scatter 會分別為茶壺充能；三壺集滿即進入 Bonus Game，青銅、白銀、黃金與鑽石金幣直接給即時獎金，已啟動的茶壺還會加成獎勵，並提供購買 Feature Buy。最高倍率 2,500x，RTP 96.26%、中波動。對 PM 的意義：Hacksaw 把「集滿觸發」與 Hold & Win 疊在同一個進度條上，玩家能直觀看到離大獎多近，對菲律賓偏好收集型玩法的用戶有參考價值。
+
+衍生調整：全新 IP（Hold & Win 系列命名延伸），無直接前作；以三色茶壺充能取代常見的單一金幣觸發。
+
+參數：
+- 廠牌：Hacksaw Gaming
+- 遊戲類型：線上電子老虎機
+- 盤面：5×5（9 條賠付線）
+- 消除/賠付：左起相鄰 3 軸賠付線、Hold & Win 金幣收集
+- 最高倍率：2,500x
+- RTP：96.26%
+- 波動：中
+- 目標市場：全球
+- 關鍵特色：三色茶杯充能茶壺、Hold & Win 即時金幣獎、Feature Buy
+
+查證：無新聞稿，主來源為 SlotsLaunch 上線日曆（上線日 10/29）；參數取自 iGamingToday 9/22 評測（單一來源，該頁標示的發行日 2029 為誤植）。
+來源：[SlotsLaunch](https://slotslaunch.com/hacksaw-gaming/3-adventures-of-alice-hold-win) · [iGamingToday](https://www.igamingtoday.com/3-adventures-of-alice-hold-win-slot-review/) · 日期：2026-10-29
+圖片：https://assets.slotslaunch.com/114707/3-adventures-of-alice.jpg
+
+### 02 CrazyHunter: Zombie Rush – TaDa Gaming
+
+TaDa Gaming 的《CrazyHunter: Zombie Rush》，SlotsLaunch 列為 10 月 29 日上線，屬於 TaDa 的 CrazyHunter 系列新作，主題為殭屍。TaDa 是菲律賓平台常見的核心內容商，系列作品通常能快速在 BingoPlus、ArenaPlus 等平台上架。目前查得到的資料有限，盤面、倍率與 RTP 尚未公開。對 PM 的意義：TaDa 以既有 IP 換主題的節奏出新作，可預先留意是否登陸菲律賓平台，作為專區補貨的候選。
+
+衍生調整：承襲 CrazyHunter 系列，換為殭屍主題的 Zombie Rush 版本；細部機制未公布。
+
+參數：
+- 廠牌：TaDa Gaming
+- 遊戲類型：線上電子老虎機
+- 盤面：未公布
+- 消除/賠付：未公布
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：CrazyHunter 系列、殭屍主題
+
+查證：無新聞稿，主來源為 SlotsLaunch 上線日曆（上線日 10/29，頁面同時標示 Coming Soon）；已查 SlotsLaunch 頁面與網路搜尋仍無參數（SlotCatalog 被擋）。
+來源：[SlotsLaunch](https://slotslaunch.com/tada-gaming/crazyhunter-zombie-rush) · 日期：2026-10-29
+圖片：https://assets.slotslaunch.com/114745/crazy-hunter-zombie-rush.jpg
+
+### 03 Sweet Loot – Pragmatic Play
+
+Pragmatic Play 的《Sweet Loot》，SlotsLaunch 列為 10 月 29 日上線，6 軸、甜點主題，延續該公司「Sweet」系列在糖果題材的長線經營。除了上線日、盤面軸數與主題，目前查不到最高倍率、RTP 等數字。對 PM 的意義：Pragmatic Play 的糖果題材在亞洲與拉美都有穩定表現，新作若沿用 Scatter Pays 玩法，可優先評估與既有 Sweet Bonanza 系列的專區並排。
+
+衍生調整：全新款，是否延續 Sweet Bonanza 機制尚未公布。
+
+參數：
+- 廠牌：Pragmatic Play
+- 遊戲類型：線上電子老虎機
+- 盤面：6 軸（列數未公布）
+- 消除/賠付：未公布
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：甜點主題
+
+查證：無新聞稿，主來源為 SlotsLaunch 上線日曆（上線日 10/29）；已查 SlotsLaunch 與網路搜尋，Pragmatic Play 尚未發布公告。
+來源：[SlotsLaunch](https://slotslaunch.com/pragmatic-play/sweet-loot) · 日期：2026-10-29
+圖片：https://assets.slotslaunch.com/112933/Sweet-Loot_600x400_EN.png
+
+### 04 Aztec Queen – IGT
+
+IGT 的《Aztec Queen》，SlotsLaunch 列為 10 月 29 日上線，頁面同時標示 Coming Soon，上線狀態待確認；英國商標公報另有 AZTEC QUEEN 的 2025 年申請紀錄（申請人未標示）。IGT 近期在 G2E 推出 Queen 授權機台，線上與實體內容並行。對 PM 的意義：IGT 的線上新作資訊透明度低，這類只有日曆條目的新作宜先觀察實際上線再決定是否編入補貨。
+
+衍生調整：全新款；細節未公布。
+
+參數：
+- 廠牌：IGT
+- 遊戲類型：線上電子老虎機
+- 盤面：未公布
+- 消除/賠付：未公布
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：阿茲特克題材（依名稱推測，頁面未說明）
+
+查證：SlotsLaunch 頁標示 Coming Soon，上線狀態未獲官方證實；已查 SlotsLaunch 與網路搜尋仍無參數。
+來源：[SlotsLaunch](https://slotslaunch.com/igt/aztec-queen) · 日期：2026-10-29
+圖片：https://assets.slotslaunch.com/351/igt.png
+
+### 05 Hot Pots Master Spicy Feast – Realtime Gaming
+
+Realtime Gaming（RTG）的《Hot Pots Master Spicy Feast》，SlotsLaunch 列為 10 月 28 日上線，6 軸、美食主題，為 Hot Pots 系列的新作。RTG 的內容主要供應美國與加密貨幣賭場，亞洲曝光較低。對 PM 的意義：系列作持續出新，屬於低優先的補貨資訊，菲律賓導入價值有限，留作產品線追蹤即可。
+
+衍生調整：Hot Pots 系列延伸作，具體新增機制未公布。
+
+參數：
+- 廠牌：Realtime Gaming
+- 遊戲類型：線上電子老虎機
+- 盤面：6 軸（列數未公布）
+- 消除/賠付：未公布
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：美食主題、Hot Pots 系列
+
+查證：無新聞稿，主來源為 SlotsLaunch 上線日曆（上線日 10/28）；已查 SlotsLaunch 與網路搜尋仍無參數。
+來源：[SlotsLaunch](https://slotslaunch.com/rtg/hot-pots-master-spicy-feast) · 日期：2026-10-28
+圖片：https://assets.slotslaunch.com/114901/hot-pots-master-spicy-feast.jpg
+
+### 06 Nuclear Tumble – Relax Gaming
+
+Relax Gaming 的《Nuclear Tumble》，SlotsLaunch 列為 10 月 29 日上線，頁面註記限制地區為英國，承接該公司 Tumble 系列（Temple Tumble、Tower Tumble、TNT Tumble 等）。盤面與數值尚未公開。對 PM 的意義：Tumble 系列是 Relax 的長壽 IP，新作若延續連消與倍率成長機制，值得留意是否進入亞洲平台的代理清單。
+
+衍生調整：Tumble 系列新作，機制細節未公布。
+
+參數：
+- 廠牌：Relax Gaming
+- 遊戲類型：線上電子老虎機
+- 盤面：未公布
+- 消除/賠付：未公布
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：英國（頁面標示限制地區 GB）
+- 關鍵特色：Tumble 系列
+
+查證：無新聞稿，主來源為 SlotsLaunch 上線日曆（上線日 10/29）；已查 SlotsLaunch 與網路搜尋仍無參數。
+來源：[SlotsLaunch](https://slotslaunch.com/relax-gaming/nuclear-tumble) · 日期：2026-10-29
+圖片：https://assets.slotslaunch.com/111523/nuclear-tumble.jpg
+
+### 07 Gold Raiders – Peter & Sons
+
+Peter & Sons 的《Gold Raiders》，SlotsLaunch 列為 10 月 29 日上線，6 軸、黃金主題。Peter & Sons 近期透過 Fonbet 在希臘擴大上線，內容持續鋪貨。對 PM 的意義：黃金題材是亞洲平台的穩定類型，新作若搭配高倍率機制，可列入補貨觀察名單；目前仍缺倍率與 RTP。
+
+衍生調整：全新款，機制未公布。
+
+參數：
+- 廠牌：Peter & Sons
+- 遊戲類型：線上電子老虎機
+- 盤面：6 軸（列數未公布）
+- 消除/賠付：未公布
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：黃金主題
+
+查證：無新聞稿，主來源為 SlotsLaunch 上線日曆（上線日 10/29）；已查 SlotsLaunch 與網路搜尋仍無參數。
+來源：[SlotsLaunch](https://slotslaunch.com/peter-sons/gold-raiders) · 日期：2026-10-29
+圖片：https://assets.slotslaunch.com/115254/gold-raiders.jpg
+
+## 🕹️ 非 Slot 新內容
+
+### 01 MLK PUMP! – DELULU Gaming
+
+DELULU Gaming 在進入市場四個月後推出第九款遊戲《MLK PUMP!》，屬即時遊戲（Instant Game），角色來自前作 MLK Voyage，但捨棄捲軸，改為漫畫風格的舉重競賽。玩家每回合先在三位風險等級不同的選手之間選擇（含 Titan Tom），再由槓鈴結果決定賠付，最高倍率 5,000x。對 PM 的意義：即時遊戲以「先選風險等級」作為第一個決策，與 Crash、Mines 的單一決策不同，可作為小遊戲專區內容差異化的參考。
+
+參數：
+- 遊戲類型：小遊戲（Instant Game，舉重競賽主題）
+- 最高倍率：5,000x
+- RTP：未公布
+- 目標市場：國際市場（未指定）
+- 關鍵特色：三位風險等級不同的選手、漫畫風舉重機制、承接 MLK Voyage 角色
+
+查證：已查 Focus Gaming News 新聞稿，RTP 未列。
+來源：[Focus Gaming News](https://focusgn.com/delulu-gaming-mlk-pump-instant-game) · 日期：2026-10-28
+圖片：https://focusgn.com/wp-content/uploads/2026/10/DELULU-Gaming-MLK-PUMP-1200x630.jpg
+
+### 02 Magic School Bingo – MGA Games
+
+MGA Games 為 .com 市場自 10 月 28 日推出 Video Bingo 新作《Magic School Bingo》，改編自自家 Classic Bar Slot《Escuela de Magia》，西班牙版將於 11 月 2 日以《Escuela de Magia Bingo》上線。遊戲使用四張 3×5 賓果卡與 60 球，起始開 30 球，最多再加開 15 顆額外球（含 Wild 球），另有可設定的累積彩金、15 種獎型與四個主題小遊戲，投注範圍 €0.02–€30，最高獎 €40,000。對 PM 的意義：以現有 Slot IP 改作賓果，是低成本擴充賓果產品線的做法，對菲律賓賓果平台的內容策略有參考價值。
+
+參數：
+- 遊戲類型：Bingo（Video Bingo）
+- 最高倍率：最高獎 €40,000（倍率未公布）
+- RTP：未公布
+- 目標市場：.com 市場、西班牙（11/2）
+- 關鍵特色：四張卡＋60 球、最多 15 顆額外球、15 種獎型、四個小遊戲
+
+來源：[EEGaming](https://eegaming.org/latest-news/2026/10/28/53384/mga-games-launches-magic-school-bingo/) · 日期：2026-10-28
+圖片：https://eegaming.org/api/eeg-media/07dee0a2-f42f-43c7-b18d-fdcb2caf2a24.jpg
+
+### 03 Sphere Wheel – Flows（FlowsWave）
+
+Flows 透過玩家端互動層 FlowsWave 推出 3D 轉盤小遊戲《Sphere Wheel》，為免費遊玩的留存工具，可由玩家事件觸發，嵌入獎勵、任務、登入禮與留存活動。營運商可自行設定獎項、機率、幣別與視覺風格，結果的技術與安全由 Flows 管理。這是 FlowsWave 本月第二款小遊戲，前一款為免費 Crash 遊戲 TakeDown。對 PM 的意義：免費小遊戲已被當成留存與遊戲化工具而非賭注內容，適合評估能否嵌進平台任務與登入禮流程。
+
+參數：
+- 遊戲類型：小遊戲（免費 3D 轉盤，遊戲化工具）
+- 目標市場：營運商端（未指定市場）
+- 關鍵特色：事件觸發、獎項／機率／幣別可自訂、整合於 FlowsWave
+
+來源：[EEGaming](https://eegaming.org/latest-news/2026/10/28/53373/flows-rolls-out-sphere-wheel-3d-spin-wheel-mini-game-via-flowswave/) · 日期：2026-10-28
+圖片：https://eegaming.org/api/eeg-media/d9ab6c65-594e-4bd7-8479-3d440ebd3b46.jpg
+
+## 🤝 動態：主流 GP／平台
+
+### 01 PG Soft 贊助 SiGMA World 2026 羅馬站
+
+PG Soft 將贊助 11 月 2–5 日在羅馬 Fiera Roma 舉行的 SiGMA World 2026，這是繼去年 SiGMA Central Europe 之後第二度贊助同一場館。贊助內容包含登記櫃台 4、5、6 的品牌露出、兩面螢幕的標誌與內容、售票大廳出口門的 12 面品牌玻璃，以及美食廣場的立柱與長椅。對 PM 的意義：PG Soft 持續投資歐洲展會曝光，可預期在展期前後釋出新作與歐洲合作消息，值得提早盯 SiGMA 期間的發布。
+
+重點：類型 運營活動 ｜ 對象 PG Soft、SiGMA World 2026 ｜ 影響 PG Soft 持續擴大歐洲展會品牌曝光
+
+來源：[EEGaming](https://eegaming.org/latest-news/2026/10/28/53385/pg-soft-signs-on-as-sponsor-for-sigma-world-2026-in-rome/) · [iGaming Future](https://igamingfuture.com/pg-soft-named-as-sponsor-of-sigma-world-2026/) · 日期：2026-10-28
+圖片：https://eegaming.org/api/eeg-media/a9c6ac8e-cbe2-4712-838e-0953494c4337.png
+
+### 02 Zitro Digital 完整遊戲庫上架西班牙 Marathonbet
+
+Zitro Digital 將完整數位目錄上架西班牙營運商 Marathonbet，內容結合實體機沿革的遊戲與專為線上設計的作品，系列包含 Fu Frog、Legendary Sword、Cash Totems 與 Link King。這是 Zitro 在西班牙受監管市場持續擴大分銷的一步，10 月 24 日才有 Estelarbet 上架消息。對 PM 的意義：實體機廠以「同一 IP 線上線下並行」方式快速鋪貨，是內容分銷的可複製打法。
+
+重點：類型 合作 ｜ 對象 Zitro Digital、Marathonbet ｜ 影響 Zitro 在西班牙線上通路持續擴張
+
+來源：[Sector del Juego](https://sectordeljuego.com/2026/10/28/zitro-digital-incorpora-su-catalogo-completo-a-marathonbet-en-espana/) · [AZARplus](https://www.azarplus.com/zitro-digital-amplia-su-presencia-en-espana-con-la-incorporacion-de-su-catalogo-a-marathonbet/) · 日期：2026-10-28
+圖片：https://sectordeljuego.com/wp-content/uploads/2026/10/ZITROMARATHONWEB.jpg
+
+### 03 NOVOMATIC Symposium on the Road 在慕尼黑舉行第二屆
+
+NOVOMATIC 於 10 月 20–21 日在慕尼黑舉辦第二屆「Symposium on the Road」，約 90 位來自 20 多個市場的代表參加，主軸為「One Vision. One Organization. One Goal」，議題涵蓋 Smart Operations、人工智慧、市場趨勢與協作式解決方案，期間在 Casino Bad Wiessee 辦慈善賽並由董事會捐款。對 PM 的意義：大型集團把 AI 與智慧營運列為跨市場共同議題，可作為評估內部營運工具投入方向的外部參照。
+
+重點：類型 運營活動 ｜ 對象 NOVOMATIC ｜ 影響 集團以 AI 與智慧營運統一跨市場營運方向
+
+來源：[JAMMA](https://www.jamma.it/aziende/novomatic-symposium-on-the-road-a-monaco-90-partecipanti-da-oltre-20-mercati-per-discutere-il-futuro-del-gaming-361403) · 日期：2026-10-28
+圖片：https://www.jamma.it/wp-content/uploads/2026/10/IMG_2026-10-28-184407.jpeg
+
+## 🇵🇭 動態：菲律賓 GP／平台
+
+### 01 ArenaPlus 簽下 Gilas 球星 Kevin Quiambao 擔任代言人
+
+DigiPlus 旗下運動博彩平台 ArenaPlus 宣布 Gilas Pilipinas 的 Kevin Quiambao 成為新代言人。Quiambao 出身 De La Salle Green Archers 並贏得 UAAP 冠軍，隨後在韓國職籃 KBL 的 Goyang Sono Skygunners 拿下新秀榮譽，加入 Derrick Rose、Scottie Thompson 等既有代言人行列。ArenaPlus 負責人 Ethan William 稱讚其決心與企圖心。本則為品牌發布的代言新聞。對 PM 的意義：ArenaPlus 以國家隊球星疊加國際球星的代言組合，持續鞏固籃球這個菲律賓最大體育流量入口，是同類平台談代言與流量綁定的參考。
+
+重點：類型 運營活動 ｜ 對象 ArenaPlus、Kevin Quiambao ｜ 影響 ArenaPlus 代言陣容再添籃球國手，強化體育流量
+
+查證：BusinessMirror 與 Malaya 兩家媒體刊出同一稿，內容一致。
+來源：[BusinessMirror](https://businessmirror.com.ph/2026/10/28/arenaplus-welcomes-gilas-mainstay-kevin-quiambao-as-ambassador/) · [Malaya](https://malaya.com.ph/business/marketing-board/arenaplus-welcomes-gilas-mainstay-kevin-quiambao-as-ambassador/) · 日期：2026-10-28
+圖片：https://businessmirror.com.ph/wp-content/uploads/2026/10/ArenaPlus-Kevin-Quiambao.webp
+
+### 02 BingoPlus VIP Club 以運動與生活風格活動深化會員互動
+
+BingoPlus VIP Club 以迷你匹克球與保齡球賽等小型活動經營 VIP 會員，內容包含運動、餐敘與特別獎品，目的是讓會員與專屬經理人、其他會員在遊戲之外建立連結，強調把會員視為有各自興趣與生活風格的個人。本則為品牌發布的活動稿。對 PM 的意義：頭部平台把 VIP 經營從紅利與額度轉向線下社群與體驗，顯示高價值會員的留存手段正走向關係經營。
+
+重點：類型 運營活動 ｜ 對象 BingoPlus VIP Club ｜ 影響 以線下體驗與個人化服務強化高價值會員黏著
+
+來源：[BusinessMirror](https://businessmirror.com.ph/2026/10/28/bingoplus-vip-club-elevates-personal-engagement-through-sports-and-lifestyle-experiences/) · 日期：2026-10-28
+圖片：https://businessmirror.com.ph/wp-content/uploads/2026/10/BP-VIP-Club-Sports-and-Lifestyle.webp
+
+## 📊 市場數據 & 趨勢
+
+### 01 Pragmatic Play：Gates of Olympus 從單一 Slot 發展為跨品類 IP
+
+Pragmatic Play 公關總監 Sharon McHugh 在 Yogonet 撰文說明，Gates of Olympus 自 2021 年推出（Scatter Pays、高波動、最高 5,000x）以來，已擴展為涵蓋多品類、多種視覺風格與不同玩家族群的系列，宙斯的角色形象在拉丁美洲尤其成功。文章為廠商署名稿。對 PM 的意義：高辨識度角色加上多品類延伸（Slot、牌桌、遊戲節目），是把單款熱門遊戲轉為品牌資產的做法，可用來檢視自家熱門 IP 的延伸空間。
+
+重點：類型 市場趨勢 ｜ 對象 Pragmatic Play、Gates of Olympus ｜ 影響 熱門 Slot 往跨品類 IP 系列化發展
+
+來源：[Yogonet International](https://www.yogonet.com/international/news/2026/10/28/127042-gates-of-olympus-from-mythology-to-iconic-slot-ip) · 日期：2026-10-28
+圖片：https://imagenesyogonet.b-cdn.net/data/imagenes/2026/10/28/92497/1793190596-pragmatic-play-gates-of-olympus.jpg
+
+### 02 英國預算案：機台遊戲稅 MGD 調升至 25%
+
+英國財政大臣 John Healey 在其首份預算案宣布，高額下注機台的機台遊戲稅（MGD）自 2027 年 4 月 1 日起從 20% 調升到 25%，酒館與海濱遊樂場使用的低額機台維持原稅率；此外自 2028 年 4 月 1 日起，供應商自有並採分潤的機台，納稅責任改由機台供應商承擔，並展開 12 週諮詢（1 月 20 日截止）。政府預估新增稅收 2027/28 年度 1.35 億英鎊、2028/29 年度 1.5 億英鎊。市場原先擔心升至 40%，Entain、Rank、evoke 股價上揚，但博彩業協會 BGC 稱此舉「極具破壞性」，Rank 執行長警告恐導致場館關閉與裁員。對 PM 的意義：稅率上調但低於預期，對英國機台與博彩零售場館的單機利潤與供應商分潤模式有直接影響。
+
+重點：類型 政府法規 ｜ 對象 英國財政部、BGC、Entain、Rank、evoke ｜ 影響 英國機台稅負上升並改變分潤機台的納稅責任
+
+來源：[Gaming Intelligence](https://www.gamingintelligence.com/finance/237939-uk-government-confirms-machine-games-duty-rise-to-25/) · [iGaming Business](https://igamingbusiness.com/finance/uk-gaming-operators-dodge-feared-40-tax-shock-as-mgd-rises-to-25/) · 日期：2026-10-28
+圖片：https://www.gamingintelligence.com/wp-content/uploads/2025/04/UK-Parliament-1200px.jpg
+
+### 03 內華達 9 月博彩贏額 12 億美元，年減 0.05%
+
+內華達博彩管理局（NGCB）公布，內華達 453 家賭場 9 月贏額 12 億美元，較去年同期下滑 0.05%；本財年（7 月起）累計成長 1.6%。拉斯維加斯大道贏額 6.934 億美元、年增 0.82%，克拉克郡整體 10.8 億美元、年減 0.95%。Citizens 分析師指出大道桌上遊戲營收年減 5%，8 月則為年減 19%，與業者在 G2E 與財報電話會議中提到的需求趨緩一致，夏季強勢可能只是假象。對 PM 的意義：美國最大實體博彩市場轉入持平，可作為評估北美實體機與桌遊投入時的需求面參考。
+
+重點：類型 市場數據 ｜ 對象 內華達博彩管理局、拉斯維加斯大道 ｜ 影響 美國最大實體市場轉入持平、桌上遊戲走弱
+
+來源：[CDC Gaming](https://cdcgaming.com/nevada-gaming-win-posted-slight-decline-in-september/) · 日期：2026-10-28
+圖片：https://cdcgaming.com/wp-content/uploads/og-cache/159136.jpg
+
+### 04 Caesars 第三季淨損 1.23 億美元，拉斯維加斯走弱、數位與區域成長
+
+Caesars Entertainment 第三季淨損擴大至 1.23 億美元（去年同期 5,500 萬），調整後 EBITDA 年減 2.1% 至 8.65 億美元；營收年增 2.5% 至 29.4 億美元，低於分析師預期的 29.7 億。區域賭場營收年增 5.9% 至 16.3 億美元，拉斯維加斯營收年減 2.3% 至 9.3 億美元，調整後 EBITDA 年減 9.5%。這是在被 Fertitta Entertainment 以 176 億美元收購前的最後階段之一。對 PM 的意義：拉斯維加斯需求走弱而區域與數位業務支撐整體，與內華達博彩贏額持平的訊號相互印證。
+
+重點：類型 財務 ｜ 對象 Caesars Entertainment、Fertitta Entertainment ｜ 影響 美國實體博彩需求分化，數位與區域撐住整體
+
+來源：[Yogonet International](https://www.yogonet.com/international/news/2026/10/28/127047-caesars-reports-123-million-q3-loss-as-las-vegas-weakness-offsets-regional-and-digital-gains) · [CDC Gaming](https://cdcgaming.com/caesars-entertainment-reports-worse-than-expected-third-quarter-earnings/) · 日期：2026-10-28
+圖片：https://imagenesyogonet.b-cdn.net/data/imagenes/2020/07/17/32081/1625354044-caesars-las-vegas-exterior.jpg
+
+---
+
+本日日報查詢約 48 個網站，其中提取 30 個資料來源並進行交叉比對
+
+---
+
+## 🗓️ 來源日期紀錄（內部，不渲染）
+
+・3 Adventures of Alice：SlotsLaunch 上線日曆 10/29（無新聞稿，§3.6）；佐證 iGamingToday 2026-09-22（metadata，評測）
+・CrazyHunter: Zombie Rush：SlotsLaunch 10/29（§3.6）
+・Sweet Loot：SlotsLaunch 10/29（§3.6）
+・Aztec Queen：SlotsLaunch 10/29（§3.6，頁標 Coming Soon）
+・Hot Pots Master Spicy Feast：SlotsLaunch 10/28（§3.6）
+・Nuclear Tumble：SlotsLaunch 10/29（§3.6）
+・Gold Raiders：SlotsLaunch 10/29（§3.6）
+・MLK PUMP!：Focus Gaming News 2026-10-28 12:58 -03:00（metadata）
+・Magic School Bingo：EEGaming 2026-10-28 11:40 UTC（metadata）
+・Sphere Wheel：EEGaming 2026-10-28 07:32 UTC（metadata）
+・PG Soft SiGMA：EEGaming 2026-10-28 11:51 UTC（metadata）；iGaming Future 10-28 16:00 台北（harvest）
+・Zitro Digital Marathonbet：Sector del Juego 2026-10-28 06:52 UTC（metadata）
+・NOVOMATIC Symposium：JAMMA 2026-10-28 18:46 +01:00（metadata；活動日 10/20–21）
+・ArenaPlus Quiambao：BusinessMirror 2026-10-28 23:34 +08:00（Firecrawl metadata）
+・BingoPlus VIP Club：BusinessMirror 2026-10-28 11:37 +08:00（Firecrawl metadata）
+・Gates of Olympus IP：Yogonet RSS 2026-10-28 21:00 台北（harvest；頁面無時間標籤）
+・英國 MGD：Gaming Intelligence 2026-10-28 14:09 UTC、iGaming Business 13:06 UTC（metadata）
+・內華達 9 月：CDC Gaming 2026-10-28 13:38 -04:00（metadata）
+・Caesars Q3：Yogonet RSS 2026-10-28 22:07 台北（harvest）；CDC Gaming 10-28 07:40 台北（harvest）
+
+剔除：Casino Plus MassKara Bacolod（GMA，與 10/28 Casino Plus 贊助 MassKara 同一事件，內文 dateline 10/13）
+剔除：DigiPlus 治理與永續（InsiderPH）（與 10/25 Golden Arrow 同一事件）
+剔除：Betfair 全面退出義大利（SBC 10/27 23:55 台北在窗外；與 10/25 Betfair 終止聯盟行銷同議題）
+剔除：Alberta 9 月 iGaming 收入（與 10/27 亞伯達 GGR 同主題）
+剔除：Keno+ — Pragmatic Play（查無新聞稿與遊戲頁，僅 SlotsLaunch 日曆）
+剔除：EEZE（窗內與近期查無 EEZE 新消息，今日從缺）

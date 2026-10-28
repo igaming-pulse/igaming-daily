@@ -1,41 +1,43 @@
-🎰 iGaming 市場日報 2026-10-28（週三）
-🎰 Slot 6 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-10-29（週四）
+🎰 Slot 7 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 4
 
 ⭐ 今日重點
-・Play'n GO《Beasts of Fire Inferno》上線，最高 50,000x
-・Casino Plus 贊助 MassKara 兩晚活動，強化在地曝光
-・德國 Q3 博彩稅年增 11.2%；澳門 GGR 目標仍可達
+・Hacksaw《3 Adventures of Alice Hold & Win》今日上線：三色茶壺充能、最高 2,500x
+・ArenaPlus 簽下 Gilas 球星 Kevin Quiambao；BingoPlus 以 VIP 線下活動經營會員
+・英國 MGD 自 2027/4 起升至 25%，供應商自有機台納稅責任 2028 起轉移
 
 🎰 Slot 新遊戲
-01 Beasts of Fire Inferno – Play'n GO
-02 Legendary Sword II – Zitro
-03 Fivefold the Gold – Games Global
-04 Reel Fin Fury – BetGames
-05 🆕 Burn the Sevens – GAMOMAT（10/29 上線）
-06 Bivol Beasts 2 Pate Link – Pateplay
+01 3 Adventures of Alice Hold & Win – Hacksaw Gaming
+02 CrazyHunter: Zombie Rush – TaDa Gaming
+03 Sweet Loot – Pragmatic Play
+04 Aztec Queen – IGT
+05 Hot Pots Master Spicy Feast – Realtime Gaming
+06 Nuclear Tumble – Relax Gaming
+07 Gold Raiders – Peter & Sons
 
 🕹️ 非 Slot 新內容
-01 Twister – Cubeia Originals
-02 📦 Imagine Live 與 N1 Casino 合作進入希臘
-03 Betpassion 玩家於 Red Baron 單輪贏得逾 3.1 萬歐元
+01 MLK PUMP! – DELULU Gaming
+02 Magic School Bingo – MGA Games
+03 Sphere Wheel – Flows
 
 🤝 動態：主流 GP／平台
-01 Pragmatic Play 與墨西哥 Logrand 簽署多品牌合約
-02 Light & Wonder RapidPlay 於內華達完成首裝
-03 TaDa Gaming：以義大利 86 款認證遊戲深耕歐洲
-04 Konami BOMBERMAN 獲北美年度遊戲
+01 PG Soft 贊助 SiGMA World 2026 羅馬站
+02 Zitro Digital 完整遊戲庫上架西班牙 Marathonbet
+03 NOVOMATIC Symposium on the Road 在慕尼黑舉行第二屆
 
 🇵🇭 動態：菲律賓 GP／平台
-01 Casino Plus 擔任 MassKara 2026 主要贊助
+01 ArenaPlus 簽下 Gilas 球星 Kevin Quiambao 擔任代言人
+02 BingoPlus VIP Club 以運動與生活風格活動深化會員互動
 
 📊 市場數據 & 趨勢
-01 德國 2026 Q3 博彩稅收年增 11.2%
-02 CreditSights：澳門 2026 GGR 目標仍可達
-03 📦 Octoplay 連續六個月登 Eilers-Fantini 榜首
+01 Pragmatic Play：Gates of Olympus 從單一 Slot 發展為跨品類 IP
+02 英國預算案：機台遊戲稅 MGD 調升至 25%
+03 內華達 9 月博彩贏額 12 億美元，年減 0.05%
+04 Caesars 第三季淨損 1.23 億美元
 
 📝 品質備註（本次爬找判斷）
-1. 菲律賓區窗內僅 1 則可用：BingoPlus×Regal 為 10/24 同事件、BingoPlus VIP Club 來源 403、DigiPlus 治理與 10/25 重複；疑似與 10/24 重疊。
-2. 來源異常：BigWinBoard 解析失敗、ISA-GUIDE 失敗；Ouija（Red Tiger）查無新聞稿未收；無 EEZE 消息。
+1. 今日 Slot 七款全為 SlotsLaunch 日曆主來源（無新聞稿，依 §3.6 收錄），多數參數「未公布」；Aztec Queen 頁面標 Coming Soon，上線狀態待確認。BigWinBoard 解析失敗、SiGMA 展會頁抓取失敗。
+2. EEZE 窗內查無新消息，今日從缺；菲律賓區僅 2 則（Casino Plus MassKara 疑與 10/28 重疊、DigiPlus 治理疑與 10/25 重疊，皆未收）；BusinessMirror 配圖被擋（403）已自動拿掉。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（12 天）、SiGMA（8 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（13 天）、SiGMA（9 天）；請檢查網址或改抓取方式

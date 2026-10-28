@@ -1,0 +1,36 @@
+{
+ "date": "2026-10-29",
+ "md": "state/2026-10-29-igaming-report.md",
+ "html": "reports/2026-10-29.html",
+ "items": 19,
+ "counts": {
+  "cat1": 7,
+  "cat2": 3,
+  "cat3": 3,
+  "cat4": 2,
+  "cat5": 4
+ },
+ "links": {
+  "checked": 44,
+  "ok": 38,
+  "broken": 0,
+  "blocked": 3,
+  "images_dropped": 3,
+  "images": 17
+ },
+ "errors": [],
+ "warnings": [
+  "cat4-01 ArenaPlus 簽下 Gilas 球星 Ke｜來源連結無法自動驗證（403，多半是網站擋機器人）：BusinessMirror https://businessmirror.com.ph/2026/10/28/arenaplus-welcomes-gilas-mainstay-kevin-quiambao-as-ambassador/",
+  "cat4-01 ArenaPlus 簽下 Gilas 球星 Ke｜來源連結無法自動驗證（403，多半是網站擋機器人）：Malaya https://malaya.com.ph/business/marketing-board/arenaplus-welcomes-gilas-mainstay-kevin-quiambao-as-ambassador/",
+  "cat4-02 BingoPlus VIP Club 以運動與生｜來源連結無法自動驗證（403，多半是網站擋機器人）：BusinessMirror https://businessmirror.com.ph/2026/10/28/bingoplus-vip-club-elevates-personal-engagement-through-sports-and-lifestyle-experiences/",
+  "cat4-01 ArenaPlus 簽下 Gilas 球星 Ke｜各來源都找不到可用的配圖",
+  "cat4-02 BingoPlus VIP Club 以運動與生｜各來源都找不到可用的配圖"
+ ],
+ "fixes": [
+  "cat4-01 ArenaPlus 簽下 Gilas 球星 Ke｜配圖打不開（403 text/html），已自動拿掉：https://businessmirror.com.ph/wp-content/uploads/2026/10/ArenaPlus-Kevin-Quiambao.webp",
+  "cat4-02 BingoPlus VIP Club 以運動與生｜配圖打不開（403 text/html），已自動拿掉：https://businessmirror.com.ph/wp-content/uploads/2026/10/BP-VIP-Club-Sports-and-Lifestyle.webp",
+  "cat5-02 英國預算案：機台遊戲稅 MGD 調升至 25%｜配圖打不開（404 text/html），已自動拿掉：https://www.gamingintelligence.com/wp-content/uploads/2025/04/UK-Parliament-1200px.jpg",
+  "cat5-02 英國預算案：機台遊戲稅 MGD 調升至 25%｜自動補上配圖（取自 Gaming Intelligence）：https://www.gamingintelligence.com/wp-content/uploads/2025/04/UK-Parliament-1200px.jpeg",
+  "文末｜資料來源數 30 → 25（程式依來源連結去重計算）"
+ ]
+}

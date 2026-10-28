@@ -122,6 +122,66 @@
     }
    ],
    "key": "bigbasschristmasblast1000|pragmaticplay"
+  },
+  {
+   "cat": "cat1",
+   "title": "Coin Voltage - Bonus Flash 3x3",
+   "gp": "Spinomenal",
+   "b": 3,
+   "first_seen": "2026-10-29",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/spinomenal/coin-voltage-bonus-flash-3x3",
+     "published": "2026-10-29 00:00"
+    }
+   ],
+   "key": "coinvoltagebonusflash3x3|spinomenal"
+  },
+  {
+   "cat": "cat1",
+   "title": "Nunchucks",
+   "gp": "NetEnt",
+   "b": 3,
+   "first_seen": "2026-10-29",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/netent/nunchucks",
+     "published": "2026-10-29 00:00"
+    }
+   ],
+   "key": "nunchucks|netent"
+  },
+  {
+   "cat": "cat1",
+   "title": "Cheeky Pirates",
+   "gp": "MGA Games",
+   "b": 1,
+   "first_seen": "2026-10-29",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/28/53387/mga-games-rolls-out-cheeky-pirates-slot/",
+     "published": "2026-10-28 19:56"
+    }
+   ],
+   "key": "cheekypirates|mgagames"
+  },
+  {
+   "cat": "cat1",
+   "title": "Hold the Phone",
+   "gp": "Backseat Gaming",
+   "b": 1,
+   "first_seen": "2026-10-29",
+   "sources": [
+    {
+     "name": "Zona de Azar",
+     "url": "https://zonadeazar.com/juego-online/backseat-gaming-launches-trending-series-with-hold-the-phone/",
+     "published": "2026-10-28 12:42"
+    }
+   ],
+   "key": "holdthephone|backseatgaming"
   }
  ],
  "others": [
@@ -218,100 +278,35 @@
     }
    ],
    "key": "阿爾伯塔省9月igaming收入c566m|"
+  },
+  {
+   "cat": "cat3",
+   "title": "Booming Games 任命 Ally McIvor 為銷售長",
+   "sources": [
+    {
+     "name": "Focus Gaming News",
+     "url": "https://focusgn.com/booming-games-ally-mcivor-chief-of-sales",
+     "published": "2026-10-28 18:49"
+    }
+   ],
+   "first_seen": "2026-10-29",
+   "key": "boominggames任命allymcivor為銷售長|"
+  },
+  {
+   "cat": "cat5",
+   "title": "Sands China 發行 10 億美元票據提前贖回 2027 債券",
+   "sources": [
+    {
+     "name": "AGB",
+     "url": "https://agbrief.com/news/macau/28/10/2026/sands-china-raises-1-billion-in-two-tranche-notes-to-retire-2027-bonds-early/",
+     "published": "2026-10-28 16:27"
+    }
+   ],
+   "first_seen": "2026-10-29",
+   "key": "sandschina發行10億美元票據提前贖回2027債券|"
   }
  ],
  "history": [
-  {
-   "key": "777rainbowrampage|tadagaming",
-   "date": "2026-09-28",
-   "cat": "cat1",
-   "title": "777 Rainbow Rampage",
-   "gp": "TaDa Gaming"
-  },
-  {
-   "key": "luckymischief|pgsoft",
-   "date": "2026-09-28",
-   "cat": "cat1",
-   "title": "Lucky Mischief",
-   "gp": "PG Soft"
-  },
-  {
-   "key": "thorsrage2|redtiger",
-   "date": "2026-09-28",
-   "cat": "cat1",
-   "title": "Thor's Rage 2",
-   "gp": "Red Tiger"
-  },
-  {
-   "key": "bigbassvegas1000|pragmaticplay",
-   "date": "2026-09-28",
-   "cat": "cat1",
-   "title": "Big Bass Vegas 1000",
-   "gp": "Pragmatic Play"
-  },
-  {
-   "key": "legendaryhammer|zitro",
-   "date": "2026-09-28",
-   "cat": "cat1",
-   "title": "Legendary Hammer",
-   "gp": "Zitro"
-  },
-  {
-   "key": "cct於g2e展出casinoinsight連網賭場作業平台|",
-   "date": "2026-09-28",
-   "cat": "cat3",
-   "title": "CCT 於 G2E 展出 Casino Insight 連網賭場作業平台",
-   "gp": ""
-  },
-  {
-   "key": "pascalgaming將於sbcsummit展出羅納迪諾聯名新作|",
-   "date": "2026-09-28",
-   "cat": "cat3",
-   "title": "Pascal Gaming 將於 SBC Summit 展出羅納迪諾聯名新作",
-   "gp": ""
-  },
-  {
-   "key": "passporttechnology於g2e推出omnistream現金服務一體機|",
-   "date": "2026-09-28",
-   "cat": "cat3",
-   "title": "Passport Technology 於 G2E 推出 OmniStream 現金服務一體機",
-   "gp": ""
-  },
-  {
-   "key": "renovatechnology赴g2e拓展維修與供應鏈服務版圖|",
-   "date": "2026-09-28",
-   "cat": "cat3",
-   "title": "Renova Technology 赴 G2E 拓展維修與供應鏈服務版圖",
-   "gp": ""
-  },
-  {
-   "key": "巴西線上博彩禁令上路前非法網站三日暴增428個|",
-   "date": "2026-09-28",
-   "cat": "cat3",
-   "title": "巴西線上博彩禁令上路前非法網站三日暴增428個",
-   "gp": ""
-  },
-  {
-   "key": "centuryentertainment合作夥伴gsa執照遭撤仍維持pagcor合規|",
-   "date": "2026-09-28",
-   "cat": "cat4",
-   "title": "Century Entertainment：合作夥伴GSA執照遭撤仍維持PAGCOR合規",
-   "gp": ""
-  },
-  {
-   "key": "博彩直播導客通路正快速成長卻無人真正掌管|",
-   "date": "2026-09-28",
-   "cat": "cat5",
-   "title": "博彩直播導客通路正快速成長，卻無人真正掌管",
-   "gp": ""
-  },
-  {
-   "key": "巴西igaming監理環境急速轉變從立法開放到臨時禁令|",
-   "date": "2026-09-28",
-   "cat": "cat5",
-   "title": "巴西iGaming監理環境急速轉變：從立法開放到臨時禁令",
-   "gp": ""
-  },
   {
    "key": "gatesofolympus2500|pragmaticplay",
    "date": "2026-09-29",
@@ -3810,6 +3805,139 @@
    "date": "2026-10-28",
    "cat": "cat5",
    "title": "Octoplay 連續六個月登 Eilers-Fantini 榜首",
+   "gp": ""
+  },
+  {
+   "key": "3adventuresofaliceholdwin|hacksawgaming",
+   "date": "2026-10-29",
+   "cat": "cat1",
+   "title": "3 Adventures of Alice Hold & Win",
+   "gp": "Hacksaw Gaming"
+  },
+  {
+   "key": "crazyhunterzombierush|tadagaming",
+   "date": "2026-10-29",
+   "cat": "cat1",
+   "title": "CrazyHunter: Zombie Rush",
+   "gp": "TaDa Gaming"
+  },
+  {
+   "key": "sweetloot|pragmaticplay",
+   "date": "2026-10-29",
+   "cat": "cat1",
+   "title": "Sweet Loot",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "aztecqueen|igt",
+   "date": "2026-10-29",
+   "cat": "cat1",
+   "title": "Aztec Queen",
+   "gp": "IGT"
+  },
+  {
+   "key": "hotpotsmasterspicyfeast|realtimegaming",
+   "date": "2026-10-29",
+   "cat": "cat1",
+   "title": "Hot Pots Master Spicy Feast",
+   "gp": "Realtime Gaming"
+  },
+  {
+   "key": "nucleartumble|relaxgaming",
+   "date": "2026-10-29",
+   "cat": "cat1",
+   "title": "Nuclear Tumble",
+   "gp": "Relax Gaming"
+  },
+  {
+   "key": "goldraiders|petersons",
+   "date": "2026-10-29",
+   "cat": "cat1",
+   "title": "Gold Raiders",
+   "gp": "Peter & Sons"
+  },
+  {
+   "key": "mlkpumpdelulugaming|delulugaming",
+   "date": "2026-10-29",
+   "cat": "cat2",
+   "title": "MLK PUMP! — DELULU Gaming",
+   "gp": "DELULU Gaming"
+  },
+  {
+   "key": "magicschoolbingomgagames|mgagames",
+   "date": "2026-10-29",
+   "cat": "cat2",
+   "title": "Magic School Bingo — MGA Games",
+   "gp": "MGA Games"
+  },
+  {
+   "key": "spherewheelflows|flows",
+   "date": "2026-10-29",
+   "cat": "cat2",
+   "title": "Sphere Wheel — Flows",
+   "gp": "Flows"
+  },
+  {
+   "key": "pgsoft贊助sigmaworld2026羅馬站|",
+   "date": "2026-10-29",
+   "cat": "cat3",
+   "title": "PG Soft 贊助 SiGMA World 2026 羅馬站",
+   "gp": ""
+  },
+  {
+   "key": "zitrodigital完整遊戲庫上架marathonbet|",
+   "date": "2026-10-29",
+   "cat": "cat3",
+   "title": "Zitro Digital 完整遊戲庫上架 Marathonbet",
+   "gp": ""
+  },
+  {
+   "key": "novomaticsymposiumontheroad慕尼黑|",
+   "date": "2026-10-29",
+   "cat": "cat3",
+   "title": "NOVOMATIC Symposium on the Road 慕尼黑",
+   "gp": ""
+  },
+  {
+   "key": "arenaplus簽下kevinquiambao擔任代言人|",
+   "date": "2026-10-29",
+   "cat": "cat4",
+   "title": "ArenaPlus 簽下 Kevin Quiambao 擔任代言人",
+   "gp": ""
+  },
+  {
+   "key": "bingoplusvipclub運動與生活風格活動|",
+   "date": "2026-10-29",
+   "cat": "cat4",
+   "title": "BingoPlus VIP Club 運動與生活風格活動",
+   "gp": ""
+  },
+  {
+   "key": "pragmaticplaygatesofolympus跨品類ip|",
+   "date": "2026-10-29",
+   "cat": "cat5",
+   "title": "Pragmatic Play：Gates of Olympus 跨品類 IP",
+   "gp": ""
+  },
+  {
+   "key": "英國mgd調升至25|",
+   "date": "2026-10-29",
+   "cat": "cat5",
+   "title": "英國 MGD 調升至 25%",
+   "gp": ""
+  },
+  {
+   "key": "內華達9月博彩贏額年減005|",
+   "date": "2026-10-29",
+   "cat": "cat5",
+   "title": "內華達 9 月博彩贏額年減 0.05%",
+   "gp": ""
+  },
+  {
+   "key": "caesars第三季淨損123億美元|",
+   "date": "2026-10-29",
+   "cat": "cat5",
+   "title": "Caesars 第三季淨損 1.23 億美元",
    "gp": ""
   }
  ],
