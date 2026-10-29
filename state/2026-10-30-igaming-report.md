@@ -1,0 +1,304 @@
+# 🎰 iGaming 市場日報 2026-10-30（週五）
+
+🎰 Slot 7 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
+
+---
+
+## 📌 本日重點
+
+本日必看 Slot 新品：Supernova – TaDa Gaming
+本日市場趨勢總結：菲律賓 PAGCOR 前九個月營收年減 23.41%，其中電子遊戲（eGames、eBingo）降幅 37.23%，遠大於實體賭場的 3.22%，顯示菲律賓線上與電子遊戲板塊承受較大壓力。這與荷蘭 2025 年整體 GGR 年減 9%、主因為線上端下滑的訊號方向一致，各地線上博彩在新保護措施與消費疲弱下成長放緩，而實體高端客群（如 MGM China 市占創高）相對撐得住。對 PM 的意義：菲律賓線上產品的獲客與留存成本可能上升，內容與活動規劃宜更重視既有玩家黏著度。
+
+---
+
+## 🎰 Game Provider 新遊戲
+
+### 01 Supernova – TaDa Gaming
+
+TaDa Gaming 經義大利 JAMMA 報導，於 10 月 29 日在義大利推出新作 Supernova，銀河宇宙主題但採用水果與寶石的傳統 5×3 版面，10 條固定線、雙向賠付。核心是多色 Wild：只會出現在第 2、3 轉輪，出現時擴展鎖定整軸並觸發免費 Respin，連鎖直到沒有新 Wild，最高 4,000 倍。TaDa 為菲律賓核心優先品牌，低波動復古式機制與簡單 Respin 適合快速玩家。對 PM 的意義：可觀察簡單經典盤面搭配擴展 Wild 連鎖的玩法，是否適合作為菲律賓平台的輕量上架內容。
+
+衍生調整：全新 IP，無衍生
+
+參數：
+- 廠牌：TaDa Gaming
+- 遊戲類型：線上電子老虎機
+- 盤面：5×3、10 條固定線
+- 消除/賠付：固定線雙向賠付、擴展 Wild 鎖軸＋連鎖 Respin
+- 最高倍率：4,000x
+- RTP：未公布
+- 波動：未公布
+- 目標市場：義大利
+- 關鍵特色：多色擴展 Wild、免費 Respin 連鎖、倍率加成
+
+查證：RTP、波動僅依 JAMMA 報導，來源稿未公布。
+來源：[JAMMA](https://www.jamma.it/prodotti/tada-gaming-lancia-supernova-in-italia-slot-con-wild-espandibili-e-vincite-fino-a-4-000x-361422) · 日期：2026-10-29
+圖片：https://www.jamma.it/wp-content/uploads/2026/10/supernova.jpg
+
+### 02 Gremlins – Light & Wonder
+
+Light & Wonder 與華納兄弟全球體驗合作的 Gremlins 實體老虎機，10 月 29 日於加州 Yaamava' Resort & Casino at San Manuel 全球首演，題材取自 1984 年同名電影。基礎遊戲中 Gizmo 與 Mogwai 會推動轉輪、複製符號、增加 Wild；Coin 功能收集轉輪上的硬幣值，另有 Hold & Spin 風格的 Jackpot Mayhem Bonus，Gremlin 符號揭示字母以對應五種彩金。對 PM 的意義：大廠把強 IP 授權與彩金型 Hold & Spin 結合，是實體機熱門授權題材的最新一款，可供評估授權 IP 的策略。
+
+衍生調整：全新授權 IP 機台，無衍生
+
+參數：
+- 廠牌：Light & Wonder
+- 遊戲類型：實體老虎機
+- 盤面：未公布
+- 消除/賠付：Coin 收集、Hold & Spin 風格 Jackpot Mayhem Bonus
+- 最高倍率：未公布（五種彩金）
+- RTP：未公布
+- 波動：未公布
+- 目標市場：北美
+- 關鍵特色：華納授權 IP、Gizmo／Mogwai 角色功能、五種彩金
+
+查證：GGRAsia 同題報導；盤面、RTP 在來源稿皆未公布。
+來源：[G3 Newswire](https://g3newswire.com/gremlins-makes-world-debut-at-yaamava-resort-casino-at-san-manuel/) · [GGRAsia](https://www.ggrasia.com/light-wonder-debuts-gremlins-themed-slot-game) · 日期：2026-10-29
+圖片：https://g3newswire.com/wp-content/uploads/2026/10/Gremlins.jpg
+
+### 03 Monopoly Big Board Bucks（Class II 版） – Aristocrat
+
+Aristocrat Gaming 宣布把剛在 Global Gaming Awards Americas 奪得年度 Slot 的 Monopoly Big Board Bucks 擴展到美國 Class II 市場。玩家跟著 Mr. Monopoly 繞大富翁棋盤，可選擇棋子，帶來 Extra Spins、Extra Properties、Extra Houses 三重變形玩法，進入 Big Board Bucks Bonus。對 PM 的意義：得獎機台由 Class III 擴展到 Class II，說明熱門授權機台會跨法規類型複製，可作為授權 IP 與機台跨市場擴張的參考。
+
+衍生調整：原 Class III 機台的 Class II 市場版本
+
+參數：
+- 廠牌：Aristocrat
+- 遊戲類型：實體老虎機
+- 盤面：未公布
+- 消除/賠付：三重變形（Extra Spins／Properties／Houses）→ Big Board Bucks Bonus
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：美國 Class II 市場
+- 關鍵特色：大富翁棋盤互動、可選棋子、年度 Slot 獎
+
+查證：CDC Gaming、Indian Gaming 同題；技術參數來源稿皆未公布。
+來源：[G3 Newswire](https://g3newswire.com/aristocrat-gaming-brings-slot-of-the-year-monopoly-big-board-bucks-to-class-2-markets/) · [CDC Gaming](https://cdcgaming.com/aristocrat-makes-monopoly-big-board-bucks-for-class-ii-markets/) · [Indian Gaming](https://www.indiangaming.com/aristocrat-expands-monopoly-big-board-bucks-to-class-ii/) · 日期：2026-10-29
+圖片：https://g3newswire.com/wp-content/uploads/2026/10/MonopolyBigBoardBucks.jpg
+
+### 04 Kong Even More Money – Blueprint Gaming
+
+Blueprint Gaming 推出 Kong 系列新作 Kong Even More Money，主軸是金剛在 Bonus 中從 2×2 Collect 逐步長大到 5×5，Level Up 符號把金剛擴張四個階段，並增加免費轉數與收集力；綠色罐子升級可把版面擴到 8×5。三個 Feature Upgrade Pot 可隨機單獨或同時觸發，套用倍率或加入額外現金獎。基礎遊戲在第 5 軸收集現金獎，Banana Pot 滿了會進入 Banana Blitz 選擇功能。對 PM 的意義：成熟系列以「會成長的收集符號」疊加玩法，是 Collect 類機制的延伸示範。
+
+衍生調整：King Kong Cash 系列續作，新增 Level Up 擴張與 Feature Upgrade Pot
+
+參數：
+- 廠牌：Blueprint Gaming
+- 遊戲類型：線上電子老虎機
+- 盤面：基礎 5 軸，Bonus 可擴到 8×5
+- 消除/賠付：Collect 符號收集現金獎、Level Up 擴張
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：未公布（已開放給營運商夥伴）
+- 關鍵特色：金剛 2×2→5×5 成長、三種升級罐、Banana Blitz
+
+查證：EEGaming 同題；最高倍率與 RTP 在兩份來源稿未公布。
+來源：[G3 Newswire](https://g3newswire.com/blueprint-gaming-releases-its-biggest-entry-to-an-iconic-series-in-kong-even-more-money/) · [EEGaming](https://eegaming.org/latest-news/2026/10/29/53408/blueprint-gaming-launches-kong-even-more-money-with-expanding-collect-symbol/) · 日期：2026-10-29
+圖片：https://g3newswire.com/wp-content/uploads/2026/10/Kong-EMM-e1793270500123.jpg
+
+### 05 Stitchers Get Stitches – Stakelogic
+
+Stakelogic 推出暗黑漫畫風 Stitchers Get Stitches，場景設在鬧鬼的夾娃娃機內，反派泰迪熊 Stitches 帶領被腐化的玩具推翻上層完美玩具。6×4、4,096 ways，最高 20,000 倍；Stitches Wild 與電鋸符號可把其他符號切成多塊，擴大版面與增加賠付方式。免費遊戲中 Stitches 每轉都是 Wild 並累積倍率，另有 Hold 'n' Win，並提供 Buy Bonus 與 Super Stake。對 PM 的意義：萬聖節暗黑主題結合符號分裂機制，是高倍率、購買功能齊備的標準化內容。
+
+衍生調整：全新 IP，無衍生
+
+參數：
+- 廠牌：Stakelogic
+- 遊戲類型：線上電子老虎機
+- 盤面：6×4
+- 消除/賠付：4,096 ways、符號分裂擴格
+- 最高倍率：20,000x
+- RTP：未公布
+- 波動：未公布
+- 目標市場：未公布
+- 關鍵特色：符號分裂、Hold 'n' Win、Buy Bonus、Super Stake
+
+查證：EEGaming 同題；RTP 與波動來源稿未公布。
+來源：[G3 Newswire](https://g3newswire.com/stakelogic-unveils-twisted-toy-rebellion-stitchers-get-stitches/) · [EEGaming](https://eegaming.org/latest-news/2026/10/29/53403/stakelogic-releases-stitchers-get-stitches-slot-with-6-4-grid-and-x20-000-max-win/) · 日期：2026-10-29
+圖片：https://g3newswire.com/wp-content/uploads/2026/10/StichesGetStiches.jpg
+
+### 06 Greedy For Gold Power Hit 10,000 – Booming Games
+
+Booming Games 推出愛爾蘭主題 Greedy For Gold Power Hit 10,000，由小妖精 Finn 與 Fergus 主演。採不規則擴張轉輪，初始 576 ways，第 1、5 軸的收集者符號會收集第 2、3、4 軸硬幣倍率，兩個同時出現會再收一次。免費遊戲以 10 次起跳、轉輪擴為 1,944 ways，收集者會維持三轉並逐格下移；Reel Frenzy 可在隨機轉動加上欄倍率。對 PM 的意義：硬幣收集型機制仍是熱門方向，這款把收集者放在兩側軸，值得觀察。
+
+衍生調整：Greedy For Gold 系列的 Power Hit 版本
+
+參數：
+- 廠牌：Booming Games
+- 遊戲類型：線上電子老虎機
+- 盤面：擴張轉輪，初始 576 ways，免費遊戲 1,944 ways
+- 消除/賠付：Ways 賠付、硬幣收集
+- 最高倍率：10,000x 以上
+- RTP：未公布
+- 波動：未公布
+- 目標市場：未公布
+- 關鍵特色：雙側收集者、Reel Frenzy 欄倍率、擴張轉輪
+
+查證：JAMMA 同題；RTP 在來源稿未公布。
+來源：[G3 Newswire](https://g3newswire.com/booming-games-launches-greedy-for-gold-power-hit-10000/) · [JAMMA](https://www.jamma.it/prodotti/booming-games-lancia-greedy-for-gold-power-hit-10-000-vincite-oltre-10-000x-361424) · 日期：2026-10-29
+圖片：https://g3newswire.com/wp-content/uploads/2026/10/GreedyForGold.jpg
+
+### 07 Spell Realm（Lunar／Solar） – Zitro
+
+Zitro 為 CONCEPT 機台推出 Spell Realm，包含 Lunar 與 Solar 兩個版本，以巫師召喚坩堝、藥水與神秘 Orb 為主題。三個以上 Orb 啟動坩堝；紫藥水提高單轉獎勵，綠藥水在坩堝運行期間持續加成。免費遊戲加入擴展 Wild 與額外轉數，收集金坩堝累積頂獎，整體採用 Zitro 的 link-and-grow 連結成長機制。對 PM 的意義：大廠外的實體機廠商持續以雙版本成套推出，可觀察 CONCEPT 機台內容更新節奏。
+
+衍生調整：全新系列，一次兩個版本（Lunar、Solar）
+
+參數：
+- 廠牌：Zitro
+- 遊戲類型：實體老虎機
+- 盤面：未公布
+- 消除/賠付：Link-and-grow 連結成長
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：未公布
+- 關鍵特色：坩堝與藥水加成、神秘 Orb、擴展 Wild、金坩堝累積
+
+查證：AZARplus 同日報導；Yogonet 網頁無時間標籤，採 RSS 時間。
+來源：[Yogonet International](https://www.yogonet.com/international/news/2026/10/29/127054-zitro-launches-spell-realm-with-lunar-and-solar-titles-for-the-concept-cabinet) · 日期：2026-10-29
+圖片：https://imagenesyogonet.b-cdn.net/data/imagenes/2026/10/28/92512/1793197382-zitro-concept-spell-realm.jpg
+
+---
+
+## 🕹️ 非 Slot 新內容
+
+### 01 Cash Stack – TaDa Gaming
+
+TaDa Gaming 於 10 月 29 日在義大利推出新的 Crash 遊戲 Cash Stack，主打手動控制：每回合從 1.01x 開始，玩家按 DROP 逐步提高倍率，決定繼續或兌現，最高 100x。隨機的 Cash Rain 事件會套用 0.1x 至 10x 的倍率，必須在回合結束前 CASH OUT 才能享有。介面簡潔、規則直覺。對 PM 的意義：Crash 類玩家重視掌控感，手動 DROP 與隨機事件的組合可作為小遊戲差異化的參考。
+
+參數：
+- 遊戲類型：其他類型遊戲（Crash）
+- 最高倍率：100x
+- RTP：未公布
+- 目標市場：義大利
+- 關鍵特色：手動 DROP 控制、Cash Rain 隨機倍率事件
+
+來源：[JAMMA](https://www.jamma.it/prodotti/tada-gaming-lancia-cash-stack-in-italia-il-nuovo-crash-game-con-vincite-fino-a-100x-361408) · 日期：2026-10-29
+圖片：https://www.jamma.it/wp-content/uploads/2026/10/crash.jpg
+
+### 02 Betsson 取得法國線上撲克牌照 – Betsson
+
+法國 ANJ 於 10 月 15 日核發 Betsson France 線上撲克牌照（五年，至 2031 年 10 月 15 日），並批准其加入法國、義大利、西班牙、葡萄牙的國際共享流動性機制，Betsson 成為法國第九家撲克營運商，將採 Playtech iPoker 平台。實際共享桌台仍需各國主管機關核准與軟體認證，不會自動對義大利玩家開放。對 PM 的意義：歐洲撲克共享流動性擴大，營運商靠平台供應商快速進場，可觀察撲克品類的合規與平台選擇。
+
+參數：
+- 遊戲類型：撲克／德州
+- 目標市場：法國（共享流動性涵蓋法、義、西、葡）
+- 關鍵特色：五年牌照、Playtech iPoker 平台、國際共享流動性待核准
+
+來源：[JAMMA](https://www.jamma.it/aziende/betsson-ottiene-la-licenza-per-il-poker-online-in-francia-autorizzata-anche-la-liquidita-internazionale-361465) · 日期：2026-10-29
+圖片：https://www.jamma.it/wp-content/uploads/2026/05/poker-online-Depositphotos_7154864_XL.jpg
+
+---
+
+## 🤝 動態：主流 GP／平台
+
+### 01 Peter & Sons 經 BetVictor 在阿爾伯塔上線
+
+Peter & Sons 與 BVGroup 旗下 BetVictor 在加拿大阿爾伯塔省上線，把現有的英國合作延伸到加拿大最新開放的受監管 iGaming 市場，玩家可玩到工作室以手繪視覺與角色著稱的遊戲組合。Peter & Sons 稱這是其北美成長策略的另一步。對 PM 的意義：阿爾伯塔開放後內容商正快速透過既有營運商進場，可追蹤各 GP 在新市場的上架節奏。
+
+重點：類型 合作 ｜ 對象 Peter & Sons、BetVictor（BVGroup） ｜ 影響 內容商沿既有營運商關係進入阿爾伯塔新市場
+
+來源：[G3 Newswire](https://g3newswire.com/peter-sons-goes-live-in-alberta-with-bvgroups-betvictor/) · 日期：2026-10-29
+圖片：https://g3newswire.com/wp-content/uploads/2026/10/PeterSonsBetVictor-e1793276962252.jpg
+
+### 02 MGM 結束與最大股東 People Inc. 的收購談判
+
+MGM Resorts 執行長 Bill Hornbuckle 在第三季財報電話會議表示，與最大股東 People Inc. 的收購討論已結束；雙方曾就價格達成共識，但 People 無法組成符合目標的聯貸團而撤回逾 180 億美元的出價。MGM 同時修訂既有投票協議，承諾在對方符合條件下不採取防禦措施，保留回購股票或日後控制權交易的彈性，但目前沒有任何交易在考慮中。對 PM 的意義：大型賭場集團的併購不確定性暫時解除，MGM 將回到營運策略，可觀察其數位與澳門事業的後續動向。
+
+重點：類型 併購 ｜ 對象 MGM Resorts、People Inc. ｜ 影響 控制權交易暫告段落，MGM 回到既有營運策略
+
+來源：[Yogonet International](https://www.yogonet.com/international/news/2026/10/29/127077-mgm-ends-takeover-talks-with-largest-shareholder-people-inc-after-18b-bid-withdrawal) · 日期：2026-10-29
+圖片：https://imagenesyogonet.b-cdn.net/data/imagenes/2025/11/21/81883/1763729411-william-hornbuckle-ceo-mgm-conference.jpg
+
+### 03 Veikkaus 與 Viaplay 合作推出新品牌 Viabet
+
+芬蘭國營博彩業者 Veikkaus 宣布與 Viaplay Denmark、Viaplay Finland 合作，推出新的消費者品牌 Viabet，2027 年 7 月 1 日同時在芬蘭與丹麥上線，這是 Veikkaus 首次在境外經營 B2C 品牌；先前海外業務集中在 B2B 子公司 Fennica Gaming。Veikkaus 將整合 Viaplay 的體育內容與數據。對 PM 的意義：媒體內容商與博彩業者結合的品牌模式，在北歐新開放市場出現，可作為跨業合作的案例。
+
+重點：類型 市場進入 ｜ 對象 Veikkaus、Viaplay ｜ 影響 國營業者以媒體品牌首度跨境經營 B2C
+
+來源：[iGaming Business](https://igamingbusiness.com/igaming/veikkaus-and-viaplay-partner-for-first-overseas-b2c-venture/) · [Gaming Intelligence](https://www.gamingintelligence.com/sectors/online-gaming/237989-veikkaus-partners-viaplay-to-launch-new-gaming-brand-in-finland-and-denmark/) · 日期：2026-10-29
+圖片：https://igamingbusiness.com/wp-content/uploads/2026/10/download.jpg
+
+---
+
+## 🇵🇭 動態：菲律賓 GP／平台
+
+### 01 PAGCOR 前九個月營收年減 23.41%，電子遊戲降 37%
+
+菲律賓博彩監管機構 PAGCOR 公布 2026 年 1–9 月總營收 644.1 億披索，較去年同期 840.9 億下降 23.41%；電子遊戲（eGames、eBingo 與賓果經營商）降 37.23% 至 276.3 億，持牌賭場降 3.22% 至 231 億，Casino Filipino 降 8%，撲克降 4.6%，淨利下滑 84.85%。AGB 推算第三季營收約年減 16%，較上半年的 26.64% 收斂；官方此次未說明原因，先前曾歸因通膨與中東局勢。對 PM 的意義：菲律賓電子遊戲與賓果板塊的營收壓力最大，線上產品的規劃要更重視玩家留存與成本效率。
+
+重點：類型 財務 ｜ 對象 PAGCOR ｜ 影響 菲律賓電子遊戲營收明顯縮水，成長壓力集中在線上
+
+查證：Rappler 與 AGB 數字一致（總營收、降幅、電子遊戲）。
+來源：[AGB（Asia Gaming Brief）](https://agbrief.com/news/philippines/29/10/2026/pagcor-revenue-falls-23-4-in-first-nine-months-as-e-gaming-income-drops-37/) · [Rappler](https://www.rappler.com/business/pagcor-earnings-reports-third-quarter-2026/) · 日期：2026-10-29
+圖片：https://www.rappler.com/tachyon/2023/08/pagcor-pogo-aug-3-2023.jpg
+
+### 02 GameZone 推廣 Tongits Plus PvP 模式（品牌發布稿）
+
+DigiPlus 旗下 GameZone 透過 The New Pelican 刊登品牌內容（文中註明「非該媒體撰寫」），推廣線上版 Tongits Plus，強調 PvP 模式與真人對手而非 AI 機器人，並介紹拿牌、棄牌與組合的基本玩法。內文提醒規則與功能可能依版本變動。對 PM 的意義：菲律賓平台以在地棋牌（Tongits）搭配真人對戰作為訴求，可觀察在地棋牌內容的內容行銷方式。本則為品牌發布性質的活動稿。
+
+重點：類型 運營活動 ｜ 對象 GameZone、Tongits Plus ｜ 影響 在地棋牌的真人對戰訴求持續被行銷
+
+來源：[The New Pelican（品牌稿）](https://www.newpelican.com/articles/shuffle-strategize-and-compete-explore-tongits-plus-on-gamezone/) · 日期：2026-10-29
+圖片：https://www.newpelican.com/wp-content/uploads/2026/10/image-80.png
+
+---
+
+## 📊 市場數據 & 趨勢
+
+### 01 Betaro 2026 Slot 研究：續作與翻新版占前 25 名熱門 Slot 的 62.4% 投注
+
+Slot 試玩與數據網站 Betaro 發布免費研究，統計 2026 年 2 月 2 日至 10 月 26 日、21 個加密與 Sweepstakes 賭場的 521,008,025 筆真實投注，其中約 2.605 億筆在 10,481 款 Slot。前 25 名熱門 Slot 中有 15 款是續作、翻新版或衍生作，合計占前 25 名 62.4% 的投注；近 30 天 Sugar Rush 1000 的投注是原版的 6.6 倍，但 The Dog House 原版仍是 Megaways 1000 的 2 倍。497 款 2 至 7 月新作中，105 款進過週榜前 100，八週後仍在榜上的只剩 21 款，Sweet Bonanza 2500 是年度最強上線。研究樣本偏向加密與 Sweepstakes 平台，並非全市場。對 PM 的意義：續作與高倍率版本的投注優勢明顯，但新作壽命短，上架策略要兼顧續作與持續更新。
+
+重點：類型 市場趨勢 ｜ 對象 Betaro、Pragmatic Play 系列 ｜ 影響 續作主導熱門榜，新作多數兩個月內退榜
+
+來源：[Casino Life Magazine（PlayNewswire）](https://www.casinolifemagazine.com/news/betaro-releases-free-2026-slot-study-built-521-million-real-money-bets) · 日期：2026-10-29
+圖片：https://www.casinolifemagazine.com/sites/default/files/clm_logo.png
+
+### 02 MGM China 第三季營收與調整後 EBITDA 創單季新高，市占 17.1%
+
+MGM China 第三季營收年增 5% 至約 89 億港元，調整後 EBITDA 約 24 億港元，皆為同期最高；雖然澳門日均博彩收入 6.55 億澳門元、年減 4%（公司稱世界盃造成暫時拖累），MGM China 每日博彩收入仍增 5%，含 Slot 的大眾場收入也增 5%，市占 17.1%（路氹 10.5%、澳門半島 6.6%）。執行長 Kenneth Feng 把成長歸因於高端客群與客房翻新。對 PM 的意義：澳門整體收入下滑而個別業者市占創高，高端客群與設施更新是差異來源。
+
+重點：類型 財務 ｜ 對象 MGM China ｜ 影響 澳門大盤走弱下，高端與設施投資支撐單一業者
+
+來源：[AGB（Asia Gaming Brief）](https://agbrief.com/news/macau/29/10/2026/mgm-china-posts-record-third-quarter-as-macau-market-share-hits-17-1/) · 日期：2026-10-29
+圖片：https://agbrief.com/wp-content/uploads/2026/10/mgm-cotai-macau-facade.jpg
+
+### 03 荷蘭 2025 年博彩市場 GGR 降至 41 億歐元，年減約 9%
+
+荷蘭博彩監管機關 Ksa 年度市場統計顯示，含線上與實體的整體 BSR（等同 GGR）由 2024 年 45 億歐元降到 2025 年 41 億歐元，主因線上營運商 BSR 下滑。報導指出，這與 2024 年底引入的淨存款上限等保護玩家措施有關，且 2024 年歐洲盃推高了當年運動博彩基期；Ksa 同時公布 2026 上半年線上監測報告，顯示線上帳戶數量增加。對 PM 的意義：嚴格的玩家保護措施在成熟市場會壓低整體收入，是評估監管收緊對產品與營收影響的參考案例。
+
+重點：類型 市場數據 ｜ 對象 荷蘭 Ksa ｜ 影響 成熟市場線上收入受保護措施與基期影響而下滑
+
+來源：[PressGiochi](https://www.pressgiochi.it/paesi-bassi-mercato-del-gioco-in-calo-nel-2025-ggr-a-41-mld-di-euro-9-su-base-annua/156896) · 日期：2026-10-29
+圖片：https://www.pressgiochi.it/wp-content/uploads/2024/10/statistiche-gioco.jpg
+
+---
+
+本日日報查詢約 60 個網站，其中提取 30 個資料來源並進行交叉比對
+
+---
+
+## 🗓️ 來源日期紀錄（內部，不渲染）
+
+・Supernova：JAMMA 2026-10-29 09:12 +01:00（metadata）
+・Gremlins：G3 Newswire 2026-10-29 08:25 UTC（metadata）；GGRAsia 10-29 09:34 台北（harvest）
+・Monopoly Big Board Bucks Class II：G3 2026-10-29 08:37 UTC（metadata）；CDC Gaming 10-29 08:07 台北（harvest）；Indian Gaming 10-29 18:00（harvest）
+・Kong Even More Money：G3 2026-10-29 10:42 UTC（metadata）；EEGaming 10-29 18:04 台北（harvest）
+・Stitchers Get Stitches：G3 2026-10-29 12:34 UTC（metadata）；EEGaming 10-29 17:49 台北（harvest）
+・Greedy For Gold Power Hit 10,000：G3 2026-10-29 12:39 UTC（metadata）；JAMMA 10-29 16:15 台北（harvest）
+・Spell Realm：Yogonet RSS 2026-10-29 19:00 台北（harvest；頁面無時間標籤）；AZARplus 10-29 14:30
+・Cash Stack：JAMMA 2026-10-29 08:27 +01:00（metadata）
+・Betsson 法國撲克：JAMMA 2026-10-29 16:36 +01:00（metadata）
+・Peter & Sons × BetVictor：G3 2026-10-29 12:30 UTC（metadata）
+・MGM 結束談判：Yogonet RSS 2026-10-29 22:14 台北（harvest；頁面無時間標籤）
+・Veikkaus × Viaplay：iGaming Business 2026-10-29 10:51 UTC（metadata）；Gaming Intelligence 10-29 19:16 台北（harvest）
+・PAGCOR 九個月營收：AGB 2026-10-29 18:30 +08:00（metadata）；Rappler 10-29 06:21 UTC（metadata）
+・GameZone Tongits Plus：The New Pelican 2026-10-29 14:32 UTC（metadata）
+・Betaro 研究：Casino Life Magazine 2026-10-29 14:25 +02:00（metadata）
+・MGM China Q3：AGB 2026-10-29 16:05 +08:00（metadata）
+・荷蘭 GGR：PressGiochi 2026-10-29 14:37 UTC（metadata）
+
+說明：EEZE 近 3 天內查無窗內新消息（最新為 10/20 BetConstruct AI 分銷協議，已過窗），今日不收。

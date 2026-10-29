@@ -1,0 +1,28 @@
+{
+ "date": "2026-10-30",
+ "md": "state/2026-10-30-igaming-report.md",
+ "html": "reports/2026-10-30.html",
+ "items": 17,
+ "counts": {
+  "cat1": 7,
+  "cat2": 2,
+  "cat3": 3,
+  "cat4": 2,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 42,
+  "ok": 41,
+  "broken": 0,
+  "blocked": 1,
+  "images_dropped": 0,
+  "images": 17
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-02 Gremlins – Light & Wonde｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/light-wonder-debuts-gremlins-themed-slot-game"
+ ],
+ "fixes": [
+  "文末｜資料來源數 30 → 25（程式依來源連結去重計算）"
+ ]
+}

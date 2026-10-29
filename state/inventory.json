@@ -106,37 +106,39 @@
     }
    ],
    "key": "bigbasschristmasblast1000|pragmaticplay"
+  },
+  {
+   "cat": "cat1",
+   "title": "Cirque du Habanero",
+   "gp": "Habanero",
+   "b": 1,
+   "first_seen": "2026-10-30",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/29/53405/habanero-launches-cirque-du-habanero-slot-and-debuts-first-mascot/",
+     "published": "2026-10-29 17:54"
+    }
+   ],
+   "key": "cirqueduhabanero|habanero"
+  },
+  {
+   "cat": "cat1",
+   "title": "3 Gems of Vegas: Super Wheel",
+   "gp": "Playson",
+   "b": 3,
+   "first_seen": "2026-10-30",
+   "sources": [
+    {
+     "name": "G3 Newswire",
+     "url": "https://g3newswire.com/playson-enhances-player-proven-mechanic-in-3-gems-of-vegas-super-wheel/",
+     "published": "2026-10-29 17:02"
+    }
+   ],
+   "key": "3gemsofvegassuperwheel|playson"
   }
  ],
  "others": [
-  {
-   "cat": "cat3",
-   "title": "紐約博彩委員會請求法院強制 Kalshi 遵守傳票",
-   "b": 1,
-   "first_seen": "2026-10-26",
-   "sources": [
-    {
-     "name": "Gambling Insider",
-     "url": "https://www.gamblinginsider.com/news/197514/new-york-gaming-commission-kalshi-subpoenas-court",
-     "published": "2026-10-26 00:05"
-    }
-   ],
-   "key": "紐約博彩委員會請求法院強制kalshi遵守傳票|"
-  },
-  {
-   "cat": "cat5",
-   "title": "澳門 2026 年前九個月旅客 3,220 萬人次，年增 8.5%",
-   "b": 1,
-   "first_seen": "2026-10-26",
-   "sources": [
-    {
-     "name": "Inside Asian Gaming",
-     "url": "https://asgam.com/2026/10/25/macaus-visitor-arrivals-up-8-5-to-32-2-million-in-first-nine-months-of-2026/",
-     "published": "2026-10-25 04:55"
-    }
-   ],
-   "key": "澳門2026年前九個月旅客3220萬人次年增85|"
-  },
   {
    "cat": "cat3",
    "title": "BetMGM 延長 NFL 在安大略與亞伯達合作",
@@ -228,142 +230,48 @@
    ],
    "first_seen": "2026-10-29",
    "key": "sandschina發行10億美元票據提前贖回2027債券|"
+  },
+  {
+   "cat": "cat2",
+   "title": "Evoplay 推出 100 萬歐元冬季 Season of Legends（含新刮刮樂機制）",
+   "sources": [
+    {
+     "name": "European Gaming",
+     "url": "https://europeangaming.eu/portal/press-releases/2026/10/29/217045/evoplay-winter-season-legends-prize-pool/",
+     "published": "2026-10-29 17:35"
+    }
+   ],
+   "first_seen": "2026-10-30",
+   "key": "evoplay推出100萬歐元冬季seasonoflegends含新刮刮樂機制|"
+  },
+  {
+   "cat": "cat3",
+   "title": "Cirsa 召開臨時股東會審議與 Lottomatica 合併",
+   "sources": [
+    {
+     "name": "SBC Noticias",
+     "url": "https://sbcnoticias.com/cirsa-convoca-junta-noviembre-lottomatica/",
+     "published": "2026-10-29 21:56"
+    }
+   ],
+   "first_seen": "2026-10-30",
+   "key": "cirsa召開臨時股東會審議與lottomatica合併|"
+  },
+  {
+   "cat": "cat5",
+   "title": "Konami 博弈部門半年營業利益大增 154.5%",
+   "sources": [
+    {
+     "name": "GGRAsia",
+     "url": "https://www.ggrasia.com/konami-gaming-segment-sees-half-year-business-profit-jump-154-5pct",
+     "published": "2026-10-29 17:16"
+    }
+   ],
+   "first_seen": "2026-10-30",
+   "key": "konami博弈部門半年營業利益大增1545|"
   }
  ],
  "history": [
-  {
-   "key": "gatesofolympus2500|pragmaticplay",
-   "date": "2026-09-29",
-   "cat": "cat1",
-   "title": "Gates of Olympus 2500",
-   "gp": "Pragmatic Play"
-  },
-  {
-   "key": "lawnncompletedisorder|playngo",
-   "date": "2026-09-29",
-   "cat": "cat1",
-   "title": "Lawn n' Complete Disorder",
-   "gp": "Play'n GO"
-  },
-  {
-   "key": "moneytrain5|relaxgaming",
-   "date": "2026-09-29",
-   "cat": "cat1",
-   "title": "Money Train 5",
-   "gp": "Relax Gaming"
-  },
-  {
-   "key": "diamondtornado|swintt",
-   "date": "2026-09-29",
-   "cat": "cat1",
-   "title": "Diamond Tornado",
-   "gp": "Swintt"
-  },
-  {
-   "key": "throneofatlantis|gamomat",
-   "date": "2026-09-29",
-   "cat": "cat1",
-   "title": "Throne of Atlantis",
-   "gp": "GAMOMAT"
-  },
-  {
-   "key": "wtfwhatsthatflying|voltplay",
-   "date": "2026-09-29",
-   "cat": "cat2",
-   "title": "WTF: What's That Flying?",
-   "gp": "Voltplay"
-  },
-  {
-   "key": "luckyconnect聚合合作|imperiousxluckystreak",
-   "date": "2026-09-29",
-   "cat": "cat2",
-   "title": "LuckyConnect 聚合合作",
-   "gp": "Imperious x LuckyStreak"
-  },
-  {
-   "key": "撲克平台擴充|pinprojektxbetb2b",
-   "date": "2026-09-29",
-   "cat": "cat2",
-   "title": "撲克平台擴充",
-   "gp": "PIN Projekt x BETB2B"
-  },
-  {
-   "key": "igt全新品牌識別|igt",
-   "date": "2026-09-29",
-   "cat": "cat3",
-   "title": "IGT 全新品牌識別",
-   "gp": "IGT"
-  },
-  {
-   "key": "gaming1收購carouselgroup|gaming1",
-   "date": "2026-09-29",
-   "cat": "cat3",
-   "title": "Gaming1 收購 Carousel Group",
-   "gp": "Gaming1"
-  },
-  {
-   "key": "巴西全面禁止線上博彩|brazilentainallwyn",
-   "date": "2026-09-29",
-   "cat": "cat3",
-   "title": "巴西全面禁止線上博彩",
-   "gp": "Brazil / Entain / Allwyn"
-  },
-  {
-   "key": "kambi續簽olimpobet|kambi",
-   "date": "2026-09-29",
-   "cat": "cat3",
-   "title": "Kambi 續簽 Olimpo.bet",
-   "gp": "Kambi"
-  },
-  {
-   "key": "jumpmangaming勝訴hmrc|jumpmangaming",
-   "date": "2026-09-29",
-   "cat": "cat3",
-   "title": "Jumpman Gaming 勝訴 HMRC",
-   "gp": "Jumpman Gaming"
-  },
-  {
-   "key": "digiplus回應巴西禁令|digiplus",
-   "date": "2026-09-29",
-   "cat": "cat4",
-   "title": "DigiPlus 回應巴西禁令",
-   "gp": "DigiPlus"
-  },
-  {
-   "key": "casinopluscsr擴大合作|casinoplus",
-   "date": "2026-09-29",
-   "cat": "cat4",
-   "title": "Casino Plus CSR 擴大合作",
-   "gp": "Casino Plus"
-  },
-  {
-   "key": "pagcordeped66lgu教室計畫|pagcor",
-   "date": "2026-09-29",
-   "cat": "cat4",
-   "title": "PAGCOR/DepEd 66 LGU 教室計畫",
-   "gp": "PAGCOR"
-  },
-  {
-   "key": "galaxsys設計趨勢專訪|galaxsys",
-   "date": "2026-09-29",
-   "cat": "cat5",
-   "title": "Galaxsys 設計趨勢專訪",
-   "gp": "Galaxsys"
-  },
-  {
-   "key": "coljuegos前八月稅收年增39|coljuegos",
-   "date": "2026-09-29",
-   "cat": "cat5",
-   "title": "Coljuegos 前八月稅收年增39%",
-   "gp": "Coljuegos"
-  },
-  {
-   "key": "澳門中秋訪客年增195|macau",
-   "date": "2026-09-29",
-   "cat": "cat5",
-   "title": "澳門中秋訪客年增19.5%",
-   "gp": "Macau"
-  },
   {
    "key": "threepotsofthegenie|playngo",
    "date": "2026-09-30",
@@ -3898,6 +3806,125 @@
    "cat": "cat1",
    "title": "Hold the Phone",
    "gp": "Backseat Gaming"
+  },
+  {
+   "key": "supernova|tadagaming",
+   "date": "2026-10-30",
+   "cat": "cat1",
+   "title": "Supernova",
+   "gp": "TaDa Gaming"
+  },
+  {
+   "key": "gremlins|lightwonder",
+   "date": "2026-10-30",
+   "cat": "cat1",
+   "title": "Gremlins",
+   "gp": "Light & Wonder"
+  },
+  {
+   "key": "monopolybigboardbucks|aristocrat",
+   "date": "2026-10-30",
+   "cat": "cat1",
+   "title": "Monopoly Big Board Bucks",
+   "gp": "Aristocrat"
+  },
+  {
+   "key": "kongevenmoremoney|blueprintgaming",
+   "date": "2026-10-30",
+   "cat": "cat1",
+   "title": "Kong Even More Money",
+   "gp": "Blueprint Gaming"
+  },
+  {
+   "key": "stitchersgetstitches|stakelogic",
+   "date": "2026-10-30",
+   "cat": "cat1",
+   "title": "Stitchers Get Stitches",
+   "gp": "Stakelogic"
+  },
+  {
+   "key": "greedyforgoldpowerhit10000|boominggames",
+   "date": "2026-10-30",
+   "cat": "cat1",
+   "title": "Greedy For Gold Power Hit 10,000",
+   "gp": "Booming Games"
+  },
+  {
+   "key": "spellrealm|zitro",
+   "date": "2026-10-30",
+   "cat": "cat1",
+   "title": "Spell Realm",
+   "gp": "Zitro"
+  },
+  {
+   "key": "cashstacktadagaming|",
+   "date": "2026-10-30",
+   "cat": "cat2",
+   "title": "Cash Stack — TaDa Gaming",
+   "gp": ""
+  },
+  {
+   "key": "betsson取得法國線上撲克牌照|",
+   "date": "2026-10-30",
+   "cat": "cat2",
+   "title": "Betsson 取得法國線上撲克牌照",
+   "gp": ""
+  },
+  {
+   "key": "petersons經betvictor在阿爾伯塔上線|",
+   "date": "2026-10-30",
+   "cat": "cat3",
+   "title": "Peter & Sons 經 BetVictor 在阿爾伯塔上線",
+   "gp": ""
+  },
+  {
+   "key": "mgm結束與peopleinc收購談判|",
+   "date": "2026-10-30",
+   "cat": "cat3",
+   "title": "MGM 結束與 People Inc. 收購談判",
+   "gp": ""
+  },
+  {
+   "key": "veikkaus與viaplay推出viabet|",
+   "date": "2026-10-30",
+   "cat": "cat3",
+   "title": "Veikkaus 與 Viaplay 推出 Viabet",
+   "gp": ""
+  },
+  {
+   "key": "pagcor前九個月營收年減2341|",
+   "date": "2026-10-30",
+   "cat": "cat4",
+   "title": "PAGCOR 前九個月營收年減 23.41%",
+   "gp": ""
+  },
+  {
+   "key": "gamezone推廣tongitspluspvp|",
+   "date": "2026-10-30",
+   "cat": "cat4",
+   "title": "GameZone 推廣 Tongits Plus PvP",
+   "gp": ""
+  },
+  {
+   "key": "betaro2026slot研究|",
+   "date": "2026-10-30",
+   "cat": "cat5",
+   "title": "Betaro 2026 Slot 研究",
+   "gp": ""
+  },
+  {
+   "key": "mgmchina第三季創高|",
+   "date": "2026-10-30",
+   "cat": "cat5",
+   "title": "MGM China 第三季創高",
+   "gp": ""
+  },
+  {
+   "key": "荷蘭2025年ggr降至41億歐元|",
+   "date": "2026-10-30",
+   "cat": "cat5",
+   "title": "荷蘭 2025 年 GGR 降至 41 億歐元",
+   "gp": ""
   }
  ],
  "rejected": [

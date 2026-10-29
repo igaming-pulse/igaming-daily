@@ -1,44 +1,42 @@
-🎰 iGaming 市場日報 2026-10-29（週四）
-🎰 Slot 7 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 4
-📦 今日另有特別版：釋放 5 款近期新作（大廠在前）→ https://igaming-pulse.github.io/igaming-daily/reports/2026-10-29-special.html
+🎰 iGaming 市場日報 2026-10-30（週五）
+🎰 Slot 7 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Hacksaw《3 Adventures of Alice Hold & Win》今日上線：三色茶壺充能、最高 2,500x
-・ArenaPlus 簽下 Gilas 球星 Kevin Quiambao；BingoPlus 以 VIP 線下活動經營會員
-・英國 MGD 自 2027/4 起升至 25%，供應商自有機台納稅責任 2028 起轉移
+・TaDa Gaming 義大利新作 Supernova（擴展 Wild 連鎖 Respin，最高 4,000x）；L&W 授權新機台 Gremlins 全球首演
+・PAGCOR 前九個月營收年減 23.41%，電子遊戲降 37%
+・Betaro 研究：續作／翻新版占前 25 名熱門 Slot 62.4% 投注
 
 🎰 Slot 新遊戲
-01 3 Adventures of Alice Hold & Win – Hacksaw Gaming
-02 CrazyHunter: Zombie Rush – TaDa Gaming
-03 Sweet Loot – Pragmatic Play
-04 Aztec Queen – IGT
-05 Hot Pots Master Spicy Feast – Realtime Gaming
-06 Nuclear Tumble – Relax Gaming
-07 Gold Raiders – Peter & Sons
+01 Supernova – TaDa Gaming
+02 Gremlins – Light & Wonder
+03 Monopoly Big Board Bucks（Class II 版） – Aristocrat
+04 Kong Even More Money – Blueprint Gaming
+05 Stitchers Get Stitches – Stakelogic
+06 Greedy For Gold Power Hit 10,000 – Booming Games
+07 Spell Realm（Lunar／Solar） – Zitro
 
 🕹️ 非 Slot 新內容
-01 MLK PUMP! – DELULU Gaming
-02 Magic School Bingo – MGA Games
-03 Sphere Wheel – Flows
+01 Cash Stack – TaDa Gaming
+02 Betsson 取得法國線上撲克牌照 – Betsson
 
 🤝 動態：主流 GP／平台
-01 PG Soft 贊助 SiGMA World 2026 羅馬站
-02 Zitro Digital 完整遊戲庫上架西班牙 Marathonbet
-03 NOVOMATIC Symposium on the Road 在慕尼黑舉行第二屆
+01 Peter & Sons 經 BetVictor 在阿爾伯塔上線
+02 MGM 結束與最大股東 People Inc. 的收購談判
+03 Veikkaus 與 Viaplay 合作推出新品牌 Viabet
 
 🇵🇭 動態：菲律賓 GP／平台
-01 ArenaPlus 簽下 Gilas 球星 Kevin Quiambao 擔任代言人
-02 BingoPlus VIP Club 以運動與生活風格活動深化會員互動
+01 PAGCOR 前九個月營收年減 23.41%，電子遊戲降 37%
+02 GameZone 推廣 Tongits Plus PvP 模式（品牌發布稿）
 
 📊 市場數據 & 趨勢
-01 Pragmatic Play：Gates of Olympus 從單一 Slot 發展為跨品類 IP
-02 英國預算案：機台遊戲稅 MGD 調升至 25%
-03 內華達 9 月博彩贏額 12 億美元，年減 0.05%
-04 Caesars 第三季淨損 1.23 億美元
+01 Betaro 2026 Slot 研究：續作與翻新版占前 25 名熱門 Slot 的 62.4% 投注
+02 MGM China 第三季營收與 EBITDA 創單季新高，市占 17.1%
+03 荷蘭 2025 年博彩市場 GGR 降至 41 億歐元，年減約 9%
 
 📝 品質備註（本次爬找判斷）
-1. 今日 Slot 七款全為 SlotsLaunch 日曆主來源（無新聞稿，依 §3.6 收錄），多數參數「未公布」；Aztec Queen 頁面標 Coming Soon，上線狀態待確認。BigWinBoard 解析失敗、SiGMA 展會頁抓取失敗。
-2. EEZE 窗內查無新消息，今日從缺；菲律賓區僅 2 則（Casino Plus MassKara 疑與 10/28 重疊、DigiPlus 治理疑與 10/25 重疊，皆未收）；BusinessMirror 配圖被擋（403）已自動拿掉。
+1. 今天新作 7 款（≥6 款不從庫存補）；EEZE 近 3 天無窗內新消息，今日未收。
+2. 多數 Slot 的 RTP／波動來源稿未公布，已標未公布；菲律賓區窗內合格新聞少，僅收 2 則。
+3. 部分 Slot 主來源採 G3／JAMMA 新聞稿，未逐款查 SlotCatalog。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（13 天）、SiGMA（9 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（14 天）、SiGMA（10 天）；請檢查網址或改抓取方式
