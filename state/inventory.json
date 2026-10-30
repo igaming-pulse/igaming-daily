@@ -124,60 +124,68 @@
   },
   {
    "cat": "cat1",
-   "title": "3 Gems of Vegas: Super Wheel",
-   "gp": "Playson",
-   "b": 3,
-   "first_seen": "2026-10-30",
-   "sources": [
-    {
-     "name": "G3 Newswire",
-     "url": "https://g3newswire.com/playson-enhances-player-proven-mechanic-in-3-gems-of-vegas-super-wheel/",
-     "published": "2026-10-29 17:02"
-    }
-   ],
-   "key": "3gemsofvegassuperwheel|playson"
-  }
- ],
- "others": [
-  {
-   "cat": "cat3",
-   "title": "BetMGM 延長 NFL 在安大略與亞伯達合作",
-   "first_seen": "2026-10-27",
-   "sources": [
-    {
-     "name": "Casino Reports Canada",
-     "url": "https://www.casinoreports.ca/2026/10/26/betmgm-and-nfl-extend-their-ontario-and-alberta-betting-deal/",
-     "published": "2026-10-26 22:30"
-    }
-   ],
-   "key": "betmgm延長nfl在安大略與亞伯達合作|"
-  },
-  {
-   "cat": "cat4",
-   "title": "DigiPlus 強化治理與永續（InsiderPH）",
-   "first_seen": "2026-10-27",
-   "sources": [
-    {
-     "name": "InsiderPH",
-     "url": "https://insiderph.com/winning-digiplus-strengthens-governance-sustainability-practices",
-     "published": "2026-10-26 08:29"
-    }
-   ],
-   "key": "digiplus強化治理與永續insiderph|"
-  },
-  {
-   "cat": "cat5",
-   "title": "Octoplay 連續六個月登 Eilers-Fantini 美國供應商總榜首",
-   "first_seen": "2026-10-27",
+   "title": "Swintt Wrap 'N' Roll (Elysium Studios)",
+   "gp": "Swintt",
+   "b": 1,
+   "first_seen": "2026-10-31",
    "sources": [
     {
      "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/10/26/53329/octoplay-leads-eilers-fantini-u-s-supplier-ranking-for-sixth-straight-month/",
-     "published": "2026-10-26 16:07"
+     "url": "https://eegaming.org/latest-news/2026/10/29/53410/swintt-adds-elysium-studios-slot-wrap-n-roll-to-portfolio/",
+     "published": "2026-10-29 18:00"
     }
    ],
-   "key": "octoplay連續六個月登eilersfantini美國供應商總榜首|"
+   "key": "swinttwrapnrollelysiumstudios|swintt"
   },
+  {
+   "cat": "cat1",
+   "title": "Brother CrossBolt",
+   "gp": "Belatra",
+   "b": 1,
+   "first_seen": "2026-10-31",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/10/29/53401/belatra-releases-brother-crossbolt-slot-with-cascading-play-and-global-multipliers/",
+     "published": "2026-10-29 18:00"
+    }
+   ],
+   "key": "brothercrossbolt|belatra"
+  },
+  {
+   "cat": "cat1",
+   "title": "Xmas Guardians Megaways",
+   "gp": "Pragmatic Play",
+   "b": 4,
+   "first_seen": "2026-10-31",
+   "release_date": "2026-11-26",
+   "sources": [
+    {
+     "name": "iGamingToday",
+     "url": "https://www.igamingtoday.com/xmas-guardians-megaways-slot-review/",
+     "published": "2026-10-30 18:07"
+    }
+   ],
+   "key": "xmasguardiansmegaways|pragmaticplay"
+  },
+  {
+   "cat": "cat1",
+   "title": "World Eaters 2",
+   "gp": "ELK Studios",
+   "b": 1,
+   "first_seen": "2026-10-31",
+   "release_date": "2026-11-24",
+   "sources": [
+    {
+     "name": "iGamingToday",
+     "url": "https://www.igamingtoday.com/world-eaters-2-slot-review/",
+     "published": "2026-10-30 18:09"
+    }
+   ],
+   "key": "worldeaters2|elkstudios"
+  }
+ ],
+ "others": [
   {
    "cat": "cat3",
    "title": "Betfair 全面退出義大利市場（Flutter）",
@@ -269,135 +277,37 @@
    ],
    "first_seen": "2026-10-30",
    "key": "konami博弈部門半年營業利益大增1545|"
+  },
+  {
+   "cat": "cat2",
+   "title": "SmartSoft 更新 JetX Crash 遊戲（Four Bet 等）",
+   "gp": "SmartSoft",
+   "b": 1,
+   "first_seen": "2026-10-31",
+   "sources": [
+    {
+     "name": "SlotBeats",
+     "url": "https://slotbeats.com/slot-news/smartsoft-jetx-crash-game-updates/",
+     "published": "2026-10-30 23:50"
+    }
+   ],
+   "key": "smartsoft更新jetxcrash遊戲fourbet等|smartsoft"
+  },
+  {
+   "cat": "cat4",
+   "title": "Belle 稱 City of Dreams Manila 第三季博彩占比年減 2.8%",
+   "first_seen": "2026-10-30",
+   "sources": [
+    {
+     "name": "GGRAsia",
+     "url": "https://www.ggrasia.com/belle-says-3q-share-of-gaming-from-city-of-dreams-manila-down-2-8pct-y-o-y",
+     "published": "2026-10-30 10:27"
+    }
+   ],
+   "key": "belle稱cityofdreamsmanila第三季博彩占比年減28|"
   }
  ],
  "history": [
-  {
-   "key": "threepotsofthegenie|playngo",
-   "date": "2026-09-30",
-   "cat": "cat1",
-   "title": "Three Pots of the Genie",
-   "gp": "Play'n GO"
-  },
-  {
-   "key": "queenvideoslots|igt",
-   "date": "2026-09-30",
-   "cat": "cat1",
-   "title": "Queen Video Slots",
-   "gp": "IGT"
-  },
-  {
-   "key": "piggybankcoinstorm|evoplay",
-   "date": "2026-09-30",
-   "cat": "cat1",
-   "title": "Piggy Bank: Coinstorm",
-   "gp": "Evoplay"
-  },
-  {
-   "key": "drzappo|hacksawgaming",
-   "date": "2026-09-30",
-   "cat": "cat1",
-   "title": "Dr Zappo",
-   "gp": "Hacksaw Gaming"
-  },
-  {
-   "key": "sunkencityriches|stakelogic",
-   "date": "2026-09-30",
-   "cat": "cat1",
-   "title": "Sunken City Riches",
-   "gp": "Stakelogic"
-  },
-  {
-   "key": "gli認證greenwheel|vindralgamingsupport",
-   "date": "2026-09-30",
-   "cat": "cat2",
-   "title": "GLI認證Green Wheel",
-   "gp": "Vindral / Gaming Support"
-  },
-  {
-   "key": "comarpokertour|grupocomar",
-   "date": "2026-09-30",
-   "cat": "cat2",
-   "title": "Comar Poker Tour",
-   "gp": "Grupo Comar"
-  },
-  {
-   "key": "evenbeter擬進軍義大利撲克市場|evenbeter",
-   "date": "2026-09-30",
-   "cat": "cat2",
-   "title": "Evenbeter擬進軍義大利撲克市場",
-   "gp": "Evenbeter"
-  },
-  {
-   "key": "kambi與olimpobet延長秘魯博彩平台合作|kambi",
-   "date": "2026-09-30",
-   "cat": "cat3",
-   "title": "Kambi與Olimpo.bet延長秘魯博彩平台合作",
-   "gp": "Kambi"
-  },
-  {
-   "key": "flutterentain因巴西禁令下修2026年財測|flutterentain",
-   "date": "2026-09-30",
-   "cat": "cat3",
-   "title": "Flutter、Entain因巴西禁令下修2026年財測",
-   "gp": "Flutter/Entain"
-  },
-  {
-   "key": "anjlibjr向巴西最高法院聲請暫停禁令|anjlibjr",
-   "date": "2026-09-30",
-   "cat": "cat3",
-   "title": "ANJL、IBJR向巴西最高法院聲請暫停禁令",
-   "gp": "ANJL/IBJR"
-  },
-  {
-   "key": "thevisualizegroup完成收購ecogra|thevisualizegroup",
-   "date": "2026-09-30",
-   "cat": "cat3",
-   "title": "The Visualize Group完成收購eCOGRA",
-   "gp": "The Visualize Group"
-  },
-  {
-   "key": "荷蘭vnlok就非法博彩廣告正式對meta提告|vnlok",
-   "date": "2026-09-30",
-   "cat": "cat3",
-   "title": "荷蘭VNLOK就非法博彩廣告正式對Meta提告",
-   "gp": "VNLOK"
-  },
-  {
-   "key": "digiplus巴西禁令預期不會對集團造成重大影響|digiplus",
-   "date": "2026-09-30",
-   "cat": "cat4",
-   "title": "DigiPlus:巴西禁令預期不會對集團造成重大影響",
-   "gp": "DigiPlus"
-  },
-  {
-   "key": "pagcor盼在任內完成線上博彩專法立法|pagcor",
-   "date": "2026-09-30",
-   "cat": "cat4",
-   "title": "PAGCOR:盼在任內完成線上博彩專法立法",
-   "gp": "PAGCOR"
-  },
-  {
-   "key": "softswiss發布2027igamingtrends趨勢報告|softswiss",
-   "date": "2026-09-30",
-   "cat": "cat5",
-   "title": "SOFTSWISS發布《2027 iGaming Trends》趨勢報告",
-   "gp": "SOFTSWISS"
-  },
-  {
-   "key": "巴西禁令生效後線上博彩需求驟降201|blask",
-   "date": "2026-09-30",
-   "cat": "cat5",
-   "title": "巴西禁令生效後,線上博彩需求驟降20.1%",
-   "gp": "Blask"
-  },
-  {
-   "key": "澳門估十一黃金週單日通關恐破80萬人次|澳門治安警察局",
-   "date": "2026-09-30",
-   "cat": "cat5",
-   "title": "澳門估十一黃金週單日通關恐破80萬人次",
-   "gp": "澳門治安警察局"
-  },
   {
    "key": "triplebeastsoffortune|playngo",
    "date": "2026-10-01",
@@ -3924,6 +3834,118 @@
    "date": "2026-10-30",
    "cat": "cat5",
    "title": "荷蘭 2025 年 GGR 降至 41 億歐元",
+   "gp": ""
+  },
+  {
+   "key": "eruptionblazecashingorumble|gamesglobal",
+   "date": "2026-10-31",
+   "cat": "cat1",
+   "title": "Eruption Blaze Cashingo Rumble",
+   "gp": "Games Global"
+  },
+  {
+   "key": "pandascoins|evoplay",
+   "date": "2026-10-31",
+   "cat": "cat1",
+   "title": "Panda's Coins",
+   "gp": "Evoplay"
+  },
+  {
+   "key": "3gemsofvegassuperwheel|playson",
+   "date": "2026-10-31",
+   "cat": "cat1",
+   "title": "3 Gems of Vegas: Super Wheel",
+   "gp": "Playson"
+  },
+  {
+   "key": "mineisland2|smartsoft",
+   "date": "2026-10-31",
+   "cat": "cat2",
+   "title": "MineIsland 2",
+   "gp": "SmartSoft"
+  },
+  {
+   "key": "nfl主題infiniteblackjacklive|evolution",
+   "date": "2026-10-31",
+   "cat": "cat2",
+   "title": "NFL 主題 Infinite Blackjack Live",
+   "gp": "Evolution"
+  },
+  {
+   "key": "thelastchannel|veliplay",
+   "date": "2026-10-31",
+   "cat": "cat2",
+   "title": "The Last Channel",
+   "gp": "VeliPlay"
+  },
+  {
+   "key": "tadagaming將goldmineexpress發展為系列ip|",
+   "date": "2026-10-31",
+   "cat": "cat3",
+   "title": "TaDa Gaming 將 Gold Mine Express 發展為系列 IP",
+   "gp": ""
+  },
+  {
+   "key": "konami上半年博彩與系統部門營業利益年增約154|",
+   "date": "2026-10-31",
+   "cat": "cat3",
+   "title": "Konami 上半年博彩與系統部門營業利益年增約 154%",
+   "gp": ""
+  },
+  {
+   "key": "octoplay與英國營運商mrq上線|",
+   "date": "2026-10-31",
+   "cat": "cat3",
+   "title": "Octoplay 與英國營運商 MrQ 上線",
+   "gp": ""
+  },
+  {
+   "key": "amusnet進入南非sunbet|",
+   "date": "2026-10-31",
+   "cat": "cat3",
+   "title": "Amusnet 進入南非 Sunbet",
+   "gp": ""
+  },
+  {
+   "key": "casinoplus與evolution在菲律賓舉辦首場線下合作活動|",
+   "date": "2026-10-31",
+   "cat": "cat4",
+   "title": "Casino Plus 與 Evolution 在菲律賓舉辦首場線下合作活動",
+   "gp": ""
+  },
+  {
+   "key": "gamezone與gloc9合作推出歌曲tarag|",
+   "date": "2026-10-31",
+   "cat": "cat4",
+   "title": "GameZone 與 Gloc-9 合作推出歌曲 Tara G!",
+   "gp": ""
+  },
+  {
+   "key": "bingoplus公布米沙鄢1134萬披索大獎得主|",
+   "date": "2026-10-31",
+   "cat": "cat4",
+   "title": "BingoPlus 公布米沙鄢 1,134 萬披索大獎得主",
+   "gp": ""
+  },
+  {
+   "key": "halloween26專題供應商節慶內容|",
+   "date": "2026-10-31",
+   "cat": "cat5",
+   "title": "Halloween'26 專題：供應商節慶內容",
+   "gp": ""
+  },
+  {
+   "key": "義大利2027預算案向博彩業取得約7億歐元|",
+   "date": "2026-10-31",
+   "cat": "cat5",
+   "title": "義大利 2027 預算案向博彩業取得約 7 億歐元",
+   "gp": ""
+  },
+  {
+   "key": "科羅拉多9月賭場收入9750萬美元|",
+   "date": "2026-10-31",
+   "cat": "cat5",
+   "title": "科羅拉多 9 月賭場收入 9,750 萬美元",
    "gp": ""
   }
  ],

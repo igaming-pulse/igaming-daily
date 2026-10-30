@@ -1,42 +1,40 @@
-🎰 iGaming 市場日報 2026-10-30（週五）
-🎰 Slot 7 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-10-31（週六）
+🎰 Slot 3 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・TaDa Gaming 義大利新作 Supernova（擴展 Wild 連鎖 Respin，最高 4,000x）；L&W 授權新機台 Gremlins 全球首演
-・PAGCOR 前九個月營收年減 23.41%，電子遊戲降 37%
-・Betaro 研究：續作／翻新版占前 25 名熱門 Slot 62.4% 投注
+・Games Global × Slingshot《Eruption Blaze Cashingo Rumble》：演化式賓果格盤＋Wheel 最高 5,000x
+・Casino Plus 與 Evolution 在菲律賓辦首場線下合作，搶先體驗新 Live 節目 Game Night
+・義大利 2027 預算案向博彩業取 7 億歐元，AWP PREU 調至 25%
 
 🎰 Slot 新遊戲
-01 Supernova – TaDa Gaming
-02 Gremlins – Light & Wonder
-03 Monopoly Big Board Bucks（Class II 版） – Aristocrat
-04 Kong Even More Money – Blueprint Gaming
-05 Stitchers Get Stitches – Stakelogic
-06 Greedy For Gold Power Hit 10,000 – Booming Games
-07 Spell Realm（Lunar／Solar） – Zitro
+01 Eruption Blaze Cashingo Rumble – Games Global
+02 Panda's Coins – Evoplay
+03 📦 3 Gems of Vegas: Super Wheel – Playson
 
 🕹️ 非 Slot 新內容
-01 Cash Stack – TaDa Gaming
-02 Betsson 取得法國線上撲克牌照 – Betsson
+01 MineIsland 2 – SmartSoft
+02 NFL 主題 Infinite Blackjack Live – Evolution
+03 The Last Channel – VeliPlay
 
 🤝 動態：主流 GP／平台
-01 Peter & Sons 經 BetVictor 在阿爾伯塔上線
-02 MGM 結束與最大股東 People Inc. 的收購談判
-03 Veikkaus 與 Viaplay 合作推出新品牌 Viabet
+01 TaDa Gaming 將 Gold Mine Express 發展為系列 IP
+02 Konami 上半年博彩與系統部門營業利益年增約 154%
+03 Octoplay 與英國營運商 MrQ 上線
+04 Amusnet 進入南非 Sunbet
 
 🇵🇭 動態：菲律賓 GP／平台
-01 PAGCOR 前九個月營收年減 23.41%，電子遊戲降 37%
-02 GameZone 推廣 Tongits Plus PvP 模式（品牌發布稿）
+01 Casino Plus 與 Evolution 在菲律賓舉辦首場線下合作活動
+02 GameZone 與 Gloc-9 合作推出歌曲〈Tara G!〉（品牌發布稿）
+03 BingoPlus 公布米沙鄢 1,134 萬披索大獎得主（品牌發布稿）
 
 📊 市場數據 & 趨勢
-01 Betaro 2026 Slot 研究：續作與翻新版占前 25 名熱門 Slot 的 62.4% 投注
-02 MGM China 第三季營收與 EBITDA 創單季新高，市占 17.1%
-03 荷蘭 2025 年博彩市場 GGR 降至 41 億歐元，年減約 9%
+01 Halloween'26 專題：供應商把節慶內容做成能延續到檔期後的組合
+02 義大利 2027 預算案向博彩業取得約 7 億歐元，AWP／VLT 稅率調升
+03 科羅拉多 9 月賭場收入 9,750 萬美元，年增 3.4%
 
 📝 品質備註（本次爬找判斷）
-1. 今天新作 7 款（≥6 款不從庫存補）；EEZE 近 3 天無窗內新消息，今日未收。
-2. 多數 Slot 的 RTP／波動來源稿未公布，已標未公布；菲律賓區窗內合格新聞少，僅收 2 則。
-3. 部分 Slot 主來源採 G3／JAMMA 新聞稿，未逐款查 SlotCatalog。
+1. 週六上限 3 款：窗內新作僅 2 款（Eruption Blaze、Panda's Coins），依規則從庫存補 1 款（3 Gems of Vegas）；Weekend Reels 其餘 B=1 新作與 Xmas Guardians Megaways（11/26）、World Eaters 2（11/24）進庫存。BigWinBoard 列表解析失敗，已用 SlotsLaunch 與 Weekend Reels 補查。
+2. EEZE 近 3 天查無窗內新消息，今日未收；TaDa 該則疑似與 10/28 歐洲策略專訪議題相關，但為新聞稿與系列化新事件，故收錄；Casino Plus 該則配圖因網站擋盜連而無圖。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（14 天）、SiGMA（10 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（15 天）、SiGMA（11 天）；請檢查網址或改抓取方式

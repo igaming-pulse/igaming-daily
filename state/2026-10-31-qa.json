@@ -1,0 +1,32 @@
+{
+ "date": "2026-10-31",
+ "md": "state/2026-10-31-igaming-report.md",
+ "html": "reports/2026-10-31.html",
+ "items": 16,
+ "counts": {
+  "cat1": 3,
+  "cat2": 3,
+  "cat3": 4,
+  "cat4": 3,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 42,
+  "ok": 38,
+  "broken": 0,
+  "blocked": 3,
+  "images_dropped": 1,
+  "images": 15
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-01 Eruption Blaze Cashingo ｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/press-releases/2026/10/30/217105/eruption-blaze-cashingo-rumble-slot-games-global/",
+  "cat4-01 Casino Plus 與 Evolution ｜來源連結無法自動驗證（403，多半是網站擋機器人）：BusinessMirror https://businessmirror.com.ph/2026/10/30/casino-plus-makes-history-with-evolutions-first-ever-offline-collaboration-in-the-philippines/",
+  "cat5-01 Halloween'26 專題：供應商把節慶內容｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/interviews/2026/10/30/217145/halloween-2026-igaming-suppliers-seasonal-content/",
+  "cat4-01 Casino Plus 與 Evolution ｜各來源都找不到可用的配圖"
+ ],
+ "fixes": [
+  "cat4-01 Casino Plus 與 Evolution ｜配圖打不開（403 text/html），已自動拿掉：https://businessmirror.com.ph/wp-content/uploads/2026/10/16091.webp",
+  "文末｜資料來源數 30 → 26（程式依來源連結去重計算）"
+ ]
+}
