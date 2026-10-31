@@ -1,40 +1,39 @@
-🎰 iGaming 市場日報 2026-10-31（週六）
-🎰 Slot 3 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-11-01（週日）
+🎰 Slot 3 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 4 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Games Global × Slingshot《Eruption Blaze Cashingo Rumble》：演化式賓果格盤＋Wheel 最高 5,000x
-・Casino Plus 與 Evolution 在菲律賓辦首場線下合作，搶先體驗新 Live 節目 Game Night
-・義大利 2027 預算案向博彩業取 7 億歐元，AWP PREU 調至 25%
+・Belatra《Brother CrossBolt》上線，連消＋全域倍率，最高 25,000x
+・IEC 旗下 LaVie Manila 11 月推自營線上賭場，真人桌遠端遊玩
+・Kalshi 完成 10 億美元融資、估值 400 億，預測市場持續擴張
 
 🎰 Slot 新遊戲
-01 Eruption Blaze Cashingo Rumble – Games Global
-02 Panda's Coins – Evoplay
-03 📦 3 Gems of Vegas: Super Wheel – Playson
+01 📦 Brother CrossBolt – Belatra
+02 📦 Wrap 'N' Roll – Swintt
+03 📦 Cirque du Habanero – Habanero
 
 🕹️ 非 Slot 新內容
-01 MineIsland 2 – SmartSoft
-02 NFL 主題 Infinite Blackjack Live – Evolution
-03 The Last Channel – VeliPlay
+01 📦 JetX 改版新增 Four Bet – SmartSoft
+02 📦 Evoplay 冬季 Season of Legends 獎金池 100 萬歐元
 
 🤝 動態：主流 GP／平台
-01 TaDa Gaming 將 Gold Mine Express 發展為系列 IP
-02 Konami 上半年博彩與系統部門營業利益年增約 154%
-03 Octoplay 與英國營運商 MrQ 上線
-04 Amusnet 進入南非 Sunbet
+01 Kalshi 完成 10 億美元 G 輪、估值 400 億美元
+02 全新 Sigma Derby 年底於 Four Queens 上線
+03 瑞典對離岸賭場 Duel.com 發出立即禁令
 
 🇵🇭 動態：菲律賓 GP／平台
-01 Casino Plus 與 Evolution 在菲律賓舉辦首場線下合作活動
-02 GameZone 與 Gloc-9 合作推出歌曲〈Tara G!〉（品牌發布稿）
-03 BingoPlus 公布米沙鄢 1,134 萬披索大獎得主（品牌發布稿）
+01 IEC LaVie Resort & Casino Manila 自營線上平台
+02 🔁 BingoPlus VIP Club 伊洛伊洛與宿霧活動
+03 🔁 Casino Plus Hataw MassKara 活動
+04 Belle 第三季獲利增 31.5%
 
 📊 市場數據 & 趨勢
-01 Halloween'26 專題：供應商把節慶內容做成能延續到檔期後的組合
-02 義大利 2027 預算案向博彩業取得約 7 億歐元，AWP／VLT 稅率調升
-03 科羅拉多 9 月賭場收入 9,750 萬美元，年增 3.4%
+01 亞洲 iGaming 市場 2030 展望
+02 UKGC 非法賭博交易資料研究
+03 拉美行動投注與賭場 App 2026 Q3 下載排行
 
 📝 品質備註（本次爬找判斷）
-1. 週六上限 3 款：窗內新作僅 2 款（Eruption Blaze、Panda's Coins），依規則從庫存補 1 款（3 Gems of Vegas）；Weekend Reels 其餘 B=1 新作與 Xmas Guardians Megaways（11/26）、World Eaters 2（11/24）進庫存。BigWinBoard 列表解析失敗，已用 SlotsLaunch 與 Weekend Reels 補查。
-2. EEZE 近 3 天查無窗內新消息，今日未收；TaDa 該則疑似與 10/28 歐洲策略專訪議題相關，但為新聞稿與系列化新事件，故收錄；Casino Plus 該則配圖因網站擋盜連而無圖。
+1. 窗內新 Slot 新作偏少（週日），僅 iGamingToday 單一來源或上線日在 7 天後的新作皆未收，Slot 3 款全為庫存補位；BigWinBoard 解析失敗、GiocoNews／SunStar 來源失敗。
+2. 菲律賓 02、03 疑似與 10/29、10/28 重疊，已標 🔁 並寫明新進展；EEZE 近 3 天無新消息，今日從缺；WebSearch 工具對本日題材回傳品質差。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（15 天）、SiGMA（11 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（16 天）、SiGMA（12 天）；請檢查網址或改抓取方式

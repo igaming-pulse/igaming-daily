@@ -1,0 +1,670 @@
+{
+ "date": "2026-11-01",
+ "sections": [
+  {
+   "cat": "cat1",
+   "heading": "🎰 Game Provider 新遊戲",
+   "items": [
+    {
+     "no": 1,
+     "label": "📦 近期新作（10/29 首見）",
+     "title": "Brother CrossBolt – Belatra",
+     "body": [
+      "Belatra 於 10 月 29 日發布哥德風線上老虎機《Brother CrossBolt》，主打連消（Cascading）與「全域倍率（Global Multiplier）」系統。2x2、3x3 的巨型符號可隨時出現並視為整塊相同符號，參與贏分後碎裂、觸發更多連消；銀色與金色左輪符號可揭示 x2 至 x100 的倍率並累加到全域倍率。另有 Bomb 與 Change 兩種「英雄加成」用來在無贏分旋轉時重啟節奏。集滿四個 Scatter 觸發 Free Games，全域倍率在免費遊戲中不會重置，後段還可能出現帶六個 x100 倍率的紅色左輪，並有倍率起點較高的 Hot Mode。官方公布最高倍率 25,000x。對 PM 的意義：「倍率只增不減」的連消設計是高波動新品的主流賣點，可作為菲律賓平台挑選高倍率新作的參考，但 Belatra 的品牌能見度偏低。"
+     ],
+     "derive": "全新 IP，無衍生",
+     "spec": [
+      [
+       "廠牌",
+       "Belatra"
+      ],
+      [
+       "遊戲類型",
+       "線上電子老虎機"
+      ],
+      [
+       "盤面",
+       "未公布"
+      ],
+      [
+       "消除/賠付",
+       "Cascading 連消、巨型符號（2x2／3x3）"
+      ],
+      [
+       "最高倍率",
+       "25,000x"
+      ],
+      [
+       "RTP",
+       "未公布"
+      ],
+      [
+       "波動",
+       "未公布"
+      ],
+      [
+       "目標市場",
+       "沒有"
+      ],
+      [
+       "關鍵特色",
+       "全域倍率累加（左輪 x2–x100）、Hero Boosters、Free Games 倍率不重置、Hot Mode"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "盤面、RTP、波動已查 EEGaming、WebSearch 仍無，Slot 資料庫尚未收錄",
+     "sources": [
+      [
+       "EEGaming",
+       "https://eegaming.org/latest-news/2026/10/29/53401/belatra-releases-brother-crossbolt-slot-with-cascading-play-and-global-multipliers/"
+      ]
+     ],
+     "date": "2026-10-29",
+     "image": "https://eegaming.org/api/eeg-media/68218b0e-9381-40b4-9bcc-fb7f0648e6a5.png",
+     "image_raw": "https://eegaming.org/api/eeg-media/68218b0e-9381-40b4-9bcc-fb7f0648e6a5.png"
+    },
+    {
+     "no": 2,
+     "label": "📦 近期新作（10/31 首見）",
+     "title": "Wrap 'N' Roll – Swintt",
+     "body": [
+      "Swintt 於 10 月 29 日把旗下 Elysium Studios 的埃及主題新作《Wrap 'N' Roll》納入產品組合。遊戲以 5x4 起始盤面，可透過「Fat Reels」擴張為 6x4，任意位置相鄰三個相同符號即中獎，贏分符號消除後補入新符號，並有倍率框、超大符號。基礎遊戲有隨機事件：神祕祭司把隨機符號變成相同符號。集滿三個以上 Scatter 觸發八次免費旋轉，倍率框每次參與贏分永久加 1x，並以 Anubis 符號填滿「木乃伊之手」計量條額外增加倍率框，可選 Buy Free Spins 或 Super Free Spins。官方稱最高倍率 15,000x。對 PM 的意義：「擴張盤面＋倍率框累積」是目前連消類新作的常見組合，適合用來觀察玩家對倍率成長機制的接受度。"
+     ],
+     "derive": "全新 IP，無衍生",
+     "spec": [
+      [
+       "廠牌",
+       "Swintt"
+      ],
+      [
+       "遊戲類型",
+       "線上電子老虎機"
+      ],
+      [
+       "盤面",
+       "5x4（可擴張為 6x4）"
+      ],
+      [
+       "消除/賠付",
+       "Cascading 連消、任意位置相鄰三個相同符號"
+      ],
+      [
+       "最高倍率",
+       "15,000x"
+      ],
+      [
+       "RTP",
+       "未公布"
+      ],
+      [
+       "波動",
+       "未公布"
+      ],
+      [
+       "目標市場",
+       "沒有"
+      ],
+      [
+       "關鍵特色",
+       "Fat Reels 擴盤、倍率框永久累加、木乃伊之手計量條、Buy／Super Free Spins"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "RTP、波動已查 EEGaming、WebSearch 仍無",
+     "sources": [
+      [
+       "EEGaming",
+       "https://eegaming.org/latest-news/2026/10/29/53410/swintt-adds-elysium-studios-slot-wrap-n-roll-to-portfolio/"
+      ]
+     ],
+     "date": "2026-10-29",
+     "image": "https://eegaming.org/api/eeg-media/d28a8126-622f-4cdc-bd66-31eefa51a007.jpg",
+     "image_raw": "https://eegaming.org/api/eeg-media/d28a8126-622f-4cdc-bd66-31eefa51a007.jpg"
+    },
+    {
+     "no": 3,
+     "label": "📦 近期新作（10/30 首見）",
+     "title": "Cirque du Habanero – Habanero",
+     "body": [
+      "Habanero 依公司 10 月 29 日新聞稿推出馬戲主題新作《Cirque du Habanero》，並首度推出品牌吉祥物——一隻獅子馬戲團團長。遊戲採 5x3、25 條賠付線，核心是擴張 Wild 與免費遊戲：擴張 Wild 會鋪滿整個轉輪並帶有倍率，且同一轉的 Wild 倍率會相乘；免費遊戲中落地的 Wild 會變成 Sticky、多留一轉並保留倍率，另有兩軸同步鏡像的「Synced Reels」，最後一轉出現 Wild 還能多送一轉。遊戲支援 Jackpot Race™、Buy Feature 與 Super Bet。對 PM 的意義：Habanero 用吉祥物強化品牌辨識，並用「Wild 倍率相乘」做出中波動級的爆發力，適合補足菲律賓平台的馬戲／節慶題材。"
+     ],
+     "derive": "全新 IP，無衍生",
+     "spec": [
+      [
+       "廠牌",
+       "Habanero"
+      ],
+      [
+       "遊戲類型",
+       "線上電子老虎機"
+      ],
+      [
+       "盤面",
+       "5x3、25 條賠付線"
+      ],
+      [
+       "消除/賠付",
+       "賠付線（左至右）、擴張 Wild"
+      ],
+      [
+       "最高倍率",
+       "未公布"
+      ],
+      [
+       "RTP",
+       "未公布"
+      ],
+      [
+       "波動",
+       "未公布"
+      ],
+      [
+       "目標市場",
+       "沒有"
+      ],
+      [
+       "關鍵特色",
+       "擴張 Wild 倍率相乘、Sticky Wild 免費遊戲、Synced Reels、Jackpot Race"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "最高倍率、RTP、波動已查 EEGaming、WebSearch 仍無",
+     "sources": [
+      [
+       "EEGaming",
+       "https://eegaming.org/latest-news/2026/10/29/53405/habanero-launches-cirque-du-habanero-slot-and-debuts-first-mascot/"
+      ]
+     ],
+     "date": "2026-10-29",
+     "image": "https://eegaming.org/api/eeg-media/9a19eff9-5fa9-4102-80e6-748b439e5d77.png",
+     "image_raw": "https://eegaming.org/api/eeg-media/9a19eff9-5fa9-4102-80e6-748b439e5d77.png"
+    }
+   ],
+   "count": 3
+  },
+  {
+   "cat": "cat2",
+   "heading": "🕹️ 非 Slot 新內容",
+   "items": [
+    {
+     "no": 1,
+     "label": "📦（10/31）",
+     "title": "JetX 改版新增 Four Bet – SmartSoft",
+     "body": [
+      "SmartSoft 針對旗下 Crash 遊戲 JetX 推出全面改版，最大亮點是「Four Bet」：玩家在單一回合內可同時下最多四注獨立投注，每個位置各自決定兌現時機。此外加入進階 Autoplay 參數、Auto Cashout 進度條，載入檔案縮至 3.5MB、載入時間減少 60%；介面把倍率放大兩倍、畫布加大，並加入隨倍率升高的音樂、色彩標示倍率，以及最近 25／50／100 回合紀錄與其他玩家兌現紀錄。SmartSoft 表示 JetX 自 2018 年起奠定飛行類 Crash 品類。對 PM 的意義：Crash 類的差異化正從單一倍率轉向多注位玩法與更透明的資訊介面，對高頻率玩家的留存有參考價值。"
+     ],
+     "derive": "",
+     "spec": [
+      [
+       "遊戲類型",
+       "小遊戲（Crash）"
+      ],
+      [
+       "最高倍率",
+       "未公布"
+      ],
+      [
+       "RTP",
+       "未公布"
+      ],
+      [
+       "目標市場",
+       "沒有"
+      ],
+      [
+       "關鍵特色",
+       "Four Bet 單回合最多四注、Auto Cashout 進度條、載入量降至 3.5MB、倍率與歷史紀錄介面改版"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "最高倍率、RTP 已查 SlotBeats 內文，未提及",
+     "sources": [
+      [
+       "SlotBeats",
+       "https://slotbeats.com/slot-news/smartsoft-jetx-crash-game-updates/"
+      ]
+     ],
+     "date": "2026-10-30",
+     "image": "https://resources.slotbeats.com/slotbeats/2026/10/JetX.jpg",
+     "image_raw": "https://resources.slotbeats.com/slotbeats/2026/10/JetX.jpg"
+    },
+    {
+     "no": 2,
+     "label": "📦（10/29）",
+     "title": "Evoplay 冬季 Season of Legends 獎金池 100 萬歐元 – Evoplay",
+     "body": [
+      "Evoplay 推出 Season of Legends 網路活動的冬季版，獎金池擴大到 100 萬歐元，是四季系列中最大一期，活動期間為 2026 年 12 月至 2027 年 2 月。本期含五種促銷機制：錦標賽、Wheel of Fortune、Infinity Prize Drops、New Year Prize Drops，以及新增的「Lucky Scratch Cards」刮刮樂機制。活動設計著眼於假期期間持續拉高玩家參與。對 PM 的意義：內容商以「跨平台獎金池」協助營運商做節慶促銷，刮刮樂機制的加入也顯示活動玩法開始向輕量互動延伸。"
+     ],
+     "derive": "",
+     "spec": [
+      [
+       "遊戲類型",
+       "其他類型遊戲（營運商端網路促銷活動，含刮刮樂機制）"
+      ],
+      [
+       "目標市場",
+       "沒有"
+      ],
+      [
+       "關鍵特色",
+       "獎金池 €1m、五種機制、新增 Lucky Scratch Cards、期間 2026/12–2027/2"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "獎金池與期間取自 European Gaming 新聞稿，其他搜尋來源未收錄冬季版",
+     "sources": [
+      [
+       "European Gaming",
+       "https://europeangaming.eu/portal/press-releases/2026/10/29/217045/evoplay-winter-season-legends-prize-pool/"
+      ]
+     ],
+     "date": "2026-10-29",
+     "image": "https://media.europeangaming.eu/uploads/2026/10/evoplay-winter-season-legends-prize-pool.webp",
+     "image_raw": "https://media.europeangaming.eu/uploads/2026/10/evoplay-winter-season-legends-prize-pool.webp"
+    }
+   ],
+   "count": 2
+  },
+  {
+   "cat": "cat3",
+   "heading": "🤝 動態：主流 GP／平台",
+   "items": [
+    {
+     "no": 1,
+     "label": "",
+     "title": "預測市場 Kalshi 完成 10 億美元 G 輪、估值 400 億美元",
+     "body": [
+      "預測市場交易所 Kalshi 完成 10 億美元 Series G，估值達 400 億美元，距離上一輪僅五個月。公司表示年化交易量已超過 1 兆美元；Kalshi 是美國受監管的預測市場交易所，包含體育相關合約。這代表預測市場已成為與傳統運彩、遊戲平台爭奪玩家資金的新對手，也持續推高業界對監管與合作模式的關注。對 PM 的意義：預測市場的資金與規模成長快速，傳統平台需評估是否自建、合作或加強差異化。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "財務"
+      ],
+      [
+       "對象",
+       "Kalshi"
+      ],
+      [
+       "影響",
+       "預測市場估值與交易量快速放大，擠壓傳統博彩與運彩的成長敘事"
+      ]
+     ],
+     "keyrow_raw": "類型 財務 ｜ 對象 Kalshi ｜ 影響 預測市場估值與交易量快速放大，擠壓傳統博彩與運彩的成長敘事",
+     "verify": "",
+     "sources": [
+      [
+       "Online Gambling Quarterly",
+       "https://www.ogqnews.com/kalshi-raises-usd-1bn-at-usd-40bn-valuation/"
+      ]
+     ],
+     "date": "2026-11-01",
+     "image": "https://www.ogqnews.com/wp-content/uploads/2025/03/Kalshi.jpg",
+     "image_raw": "https://www.ogqnews.com/wp-content/uploads/2025/03/Kalshi.jpg"
+    },
+    {
+     "no": 2,
+     "label": "",
+     "title": "全新 Sigma Derby 進入最後測試，年底於拉斯維加斯 Four Queens 上線",
+     "body": [
+      "CDC Gaming 報導，三十多年前風靡賭場的機械賽馬遊戲 Sigma Derby 將迎來數十年來首款新機，首台預計在年底前於拉斯維加斯 Four Queens Casino 上線。專案由 Next Gaming、Highbrow Gaming 與 VSR Industries 共同推動，VSR 自 2025 年 11 月起投入約 4,000 小時的工程、機械與電子設計，目標是把這款以社交互動見長的經典機種推向全球。原版 1985 年推出，曾以五匹馬環形賽道形式遍布各賭場。對 PM 的意義：實體機的「社交型、簡單規則」復古 IP 重新被投資，可作為亞洲實體場域差異化機種的參考。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "運營活動"
+      ],
+      [
+       "對象",
+       "Next Gaming、Highbrow Gaming、VSR Industries"
+      ],
+      [
+       "影響",
+       "經典機械賽馬 IP 重啟，實體賭場多一款社交型機台選擇"
+      ]
+     ],
+     "keyrow_raw": "類型 運營活動 ｜ 對象 Next Gaming、Highbrow Gaming、VSR Industries ｜ 影響 經典機械賽馬 IP 重啟，實體賭場多一款社交型機台選擇",
+     "verify": "",
+     "sources": [
+      [
+       "CDC Gaming",
+       "https://cdcgaming.com/new-sigma-derby-out-of-final-turn-heading-toward-casino-floor/"
+      ]
+     ],
+     "date": "2026-10-31",
+     "image": "https://cdcgaming.com/wp-content/uploads/og-cache/159056.jpg",
+     "image_raw": "https://cdcgaming.com/wp-content/uploads/og-cache/159056.jpg"
+    },
+    {
+     "no": 3,
+     "label": "",
+     "title": "瑞典對離岸賭場 Duel.com 發出立即禁令",
+     "body": [
+      "Focus Gaming News 報導，瑞典監理機關 Spelinspektionen 對 Duel.com 的營運公司 Immortal Snail LLC 發出立即禁止令。該公司持有 Anjouan 博彩機構發出的牌照，近年以挑釁式社群行銷聞名，監理機關認為它持續向瑞典消費者提供服務，且不願移除瑞典語內容。報導同時指出 Anjouan 牌照制度本身也引發爭議，葛摩政府否認其授權。對 PM 的意義：離岸牌照與本地化內容（語言）成為監理判定「針對本地市場」的關鍵依據，進入新市場前須檢視自家內容與行銷。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "政府法規"
+      ],
+      [
+       "對象",
+       "Spelinspektionen、Duel.com（Immortal Snail LLC）"
+      ],
+      [
+       "影響",
+       "離岸業者的本地語言內容與牌照來源面臨更嚴的執法風險"
+      ]
+     ],
+     "keyrow_raw": "類型 政府法規 ｜ 對象 Spelinspektionen、Duel.com（Immortal Snail LLC）｜ 影響 離岸業者的本地語言內容與牌照來源面臨更嚴的執法風險",
+     "verify": "",
+     "sources": [
+      [
+       "Focus Gaming News",
+       "https://focusgn.com/sweden-duel-com-gambling-ban"
+      ]
+     ],
+     "date": "2026-10-31",
+     "image": "https://focusgn.com/wp-content/uploads/2026/10/cf9b8fe1-d5b3-45e5-9de5-1d1e8f3e299e-1200x630.jpg",
+     "image_raw": "https://focusgn.com/wp-content/uploads/2026/10/cf9b8fe1-d5b3-45e5-9de5-1d1e8f3e299e-1200x630.jpg"
+    }
+   ],
+   "count": 3
+  },
+  {
+   "cat": "cat4",
+   "heading": "🇵🇭 動態：菲律賓 GP／平台",
+   "items": [
+    {
+     "no": 1,
+     "label": "",
+     "title": "IEC 旗下 LaVie Resort & Casino Manila 將於 11 月推出自營線上賭場平台",
+     "body": [
+      "AGB 與 Inside Asian Gaming 報導，港股上市的 International Entertainment Corporation（IEC）在交易所公告中宣布，將於 11 月中下旬推出以 LaVie Resort & Casino Manila 命名的第二階段線上平台，僅開放菲律賓合法註冊玩家。與第一階段和其他在地營運商合作不同，這次由 IEC 獨自經營，並自行擁有軟體、遊戲與平台，並負責客服、KYC 與反洗錢。核心是遠端遊玩實體設備：PAGCOR 核可區域內的真人荷官桌（Commission Baccarat、Super 6、Tiger Baccarat）與老虎機可由玩家線上加入，另有電子遊戲；電子賓果、線上撲克與特殊遊戲尚未商業化。持牌營運商為 New Coast Leisure Inc.。對 PM 的意義：賭場業者自建平台、把實體桌台直播上線，是菲律賓市場進入門檻變化的訊號。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "市場進入"
+      ],
+      [
+       "對象",
+       "IEC、LaVie Resort & Casino Manila、PAGCOR"
+      ],
+      [
+       "影響",
+       "實體賭場自營線上平台，與既有在地平台直接競爭"
+      ]
+     ],
+     "keyrow_raw": "類型 市場進入 ｜ 對象 IEC、LaVie Resort & Casino Manila、PAGCOR ｜ 影響 實體賭場自營線上平台，與既有在地平台直接競爭",
+     "verify": "",
+     "sources": [
+      [
+       "AGB",
+       "https://agbrief.com/news/philippines/31/10/2026/iec-to-launch-self-run-lavie-online-casino-platform-in-manila-in-november/"
+      ],
+      [
+       "Inside Asian Gaming",
+       "https://asgam.com/2026/10/31/manilas-lavie-resort-casino-to-launch-self-run-igaming-platform-offering-remote-gaming-online-casino-games-and-sports-betting/"
+      ]
+     ],
+     "date": "2026-10-31",
+     "image": "https://agbrief.com/wp-content/uploads/2026/10/lavie-online-live-dealer-table.jpg",
+     "image_raw": "https://agbrief.com/wp-content/uploads/2026/10/lavie-online-live-dealer-table.jpg"
+    },
+    {
+     "no": 2,
+     "label": "🔁 更新：新增伊洛伊洛與宿霧兩場地方活動",
+     "title": "BingoPlus VIP Club 把高端體驗帶到伊洛伊洛與宿霧（BingoPlus 品牌發布）",
+     "body": [
+      "Manila Times 刊登的 BingoPlus 品牌發布稿指出，BingoPlus VIP Club 把會員活動擴及大馬尼拉以外：在伊洛伊洛市 Wolfgang Steakhouse 舉辦專屬晚宴並有名人表演，同時邀請全國部分 VIP 會員搭商務艙到宿霧香格里拉麥克坦度假村，參加名為「Light Up the Philippines」的精心策劃之旅，結合度假住宿、在地美食與專屬活動。對 PM 的意義：平台正以線下高端活動經營區域高價值會員，這類 VIP 體驗已成為現金網留存策略的一部分。（本則為品牌業配稿；與 10/29 BingoPlus VIP Club 運動與生活風格活動屬不同場次。）"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "運營活動"
+      ],
+      [
+       "對象",
+       "BingoPlus VIP Club"
+      ],
+      [
+       "影響",
+       "BingoPlus 把 VIP 經營推向地方城市"
+      ]
+     ],
+     "keyrow_raw": "類型 運營活動 ｜ 對象 BingoPlus VIP Club ｜ 影響 BingoPlus 把 VIP 經營推向地方城市",
+     "verify": "",
+     "sources": [
+      [
+       "The Manila Times（TMT Newswire）",
+       "https://www.manilatimes.net/2026/11/01/tmt-newswire/bingoplus-vip-club-brings-elevated-experiences-with-the-best-of-iloilo-and-cebu/2458691/amp"
+      ]
+     ],
+     "date": "2026-11-01",
+     "image": "https://manilatimes.net/manilatimes/uploads/images/2026/10/31/1285848.jpg",
+     "image_raw": "https://manilatimes.net/manilatimes/uploads/images/2026/10/31/1285848.jpg"
+    },
+    {
+     "no": 3,
+     "label": "🔁 更新：贊助已落地為 10/17–18 實際活動",
+     "title": "Casino Plus 在 Bacolod MassKara 以 Hataw MassKara 活動收尾",
+     "body": [
+      "Dugout Philippines 報導，作為 MassKara 節 2026 主要贊助與官方呈現者，Casino Plus 於 10 月 17、18 日在 Bacolod 的 Lacson 觀光帶舉辦兩晚「Hataw MassKara!」活動，吸引數千人參與，由 Moonstar88 與 P-pop 女團 Showtime Baby Dolls 擔綱演出，並頒發 Hataw MassKara Choice 獎。對 PM 的意義：平台把節慶贊助落實為大型街頭活動，品牌曝光與合規敘事（PAGCOR 持牌）一併強化。（疑似與 10 月 28 日 Casino Plus 贊助 MassKara 2026 重疊，但本則為活動實際成果報導。）"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "運營活動"
+      ],
+      [
+       "對象",
+       "Casino Plus、MassKara 節"
+      ],
+      [
+       "影響",
+       "贊助由宣布走到實際活動，強化地方品牌能見度"
+      ]
+     ],
+     "keyrow_raw": "類型 運營活動 ｜ 對象 Casino Plus、MassKara 節 ｜ 影響 贊助由宣布走到實際活動，強化地方品牌能見度",
+     "verify": "",
+     "sources": [
+      [
+       "Dugout Philippines",
+       "https://www.dugout.ph/2026/10/moonstar88-baby-dolls-rock-casino-plus.html"
+      ]
+     ],
+     "date": "2026-10-31",
+     "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8JW28J9y1MjIxCmLPmupyKIDC-WKVl-UMQTEai6sByRF1gE5bByuOPlTH8Ycgi5frqt33JkRWPRpKf4cZsL8Y0fUbcXwnMM3cqPpltN9-o33TDE_sx7pnTG90a6JzG2KcDcuNiq4SiUTF5WK5mwYMkIxxXTSwqlkLTD0MqxIywsLtyCE3kmJuXsI3hdMr/w1200-h630-p-k-no-nu/Moonstar88,%20Baby%20Dolls%20rock%20Casino%20Plus%E2%80%99%20MassKara%20parties%20Barangay%20Handumanan%20takes%20home%20Hataw%20MassKara%20Choice.jpg",
+     "image_raw": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8JW28J9y1MjIxCmLPmupyKIDC-WKVl-UMQTEai6sByRF1gE5bByuOPlTH8Ycgi5frqt33JkRWPRpKf4cZsL8Y0fUbcXwnMM3cqPpltN9-o33TDE_sx7pnTG90a6JzG2KcDcuNiq4SiUTF5WK5mwYMkIxxXTSwqlkLTD0MqxIywsLtyCE3kmJuXsI3hdMr/w1200-h630-p-k-no-nu/Moonstar88,%20Baby%20Dolls%20rock%20Casino%20Plus%E2%80%99%20MassKara%20parties%20Barangay%20Handumanan%20takes%20home%20Hataw%20MassKara%20Choice.jpg"
+    },
+    {
+     "no": 4,
+     "label": "",
+     "title": "Belle 第三季獲利增 31.5%，City of Dreams Manila 博彩收入占比年減 2.8%",
+     "body": [
+      "iGamingToday 報導，Belle Corporation 第三季合併淨利增 31.5% 至 6.846 億披索（約 1,070 萬美元），營收增 12.9% 至 15.9 億披索；City of Dreams Manila 的博彩收入分成為 5.3 億披索，年減 2.8%。獲利成長主要來自樂透設備租賃增加與融資成本下降，抵銷了賭場貢獻下滑。報導強調減少的是 Belle 的博彩收入分成，而非整座度假村的賭場總收入。GGRAsia 亦有同題報導。對 PM 的意義：馬尼拉度假村的博彩分成走弱，但集團收入結構正轉向非賭場業務。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "財務"
+      ],
+      [
+       "對象",
+       "Belle Corporation、City of Dreams Manila"
+      ],
+      [
+       "影響",
+       "賭場分成下滑，獲利靠樂透設備與財務成本撐起"
+      ]
+     ],
+     "keyrow_raw": "類型 財務 ｜ 對象 Belle Corporation、City of Dreams Manila ｜ 影響 賭場分成下滑，獲利靠樂透設備與財務成本撐起",
+     "verify": "",
+     "sources": [
+      [
+       "iGamingToday",
+       "https://www.igamingtoday.com/belle-profit-rises-31-5-despite-lower-city-of-dreams-manila-gaming-revenue-share/"
+      ],
+      [
+       "GGRAsia",
+       "https://www.ggrasia.com/belle-says-3q-share-of-gaming-from-city-of-dreams-manila-down-2-8pct-y-o-y"
+      ]
+     ],
+     "date": "2026-10-31",
+     "image": "https://www.igamingtoday.com/wp-content/uploads/2026/10/Belle-Profit-Rises-31.5-Despite-Lower-City-of-Dreams-Manila-Gaming-Revenue-Share.jpg",
+     "image_raw": "https://www.igamingtoday.com/wp-content/uploads/2026/10/Belle-Profit-Rises-31.5-Despite-Lower-City-of-Dreams-Manila-Gaming-Revenue-Share.jpg"
+    }
+   ],
+   "count": 4
+  },
+  {
+   "cat": "cat5",
+   "heading": "📊 市場數據 & 趨勢",
+   "items": [
+    {
+     "no": 1,
+     "label": "",
+     "title": "亞洲 iGaming 市場 2030 展望：各機構預測差距大",
+     "body": [
+      "Business of iGaming 整理各研究機構對亞洲線上博彩市場 2030 年規模的預測，並指出落差來自定義、營收口徑與大型市場何時開放線上遊戲的假設不同。IMARC 估計亞太線上賭博市場 2025 年為 261.1 億美元、2026 年 297.0 億美元，2030 年 404.6 億美元、2034 年 597.5 億美元（2026–2034 年複合年增率 9.15%）；引用 Grand View Research 的分析則估 2030 年約 390 億美元、年增 12.8%；H2 Gambling Capital 預測亞洲與中東合計 2030 年達 3,980 億美元，納入全球線上總 GGR 5,300 億美元的口徑。對 PM 的意義：規劃亞洲預算時要先確認各預測的口徑，避免用單一數字下結論。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "",
+       "市場 亞洲"
+      ],
+      [
+       "",
+       "數據 2030 年亞太線上博彩約 390–405 億美元（口徑不同差距大）"
+      ],
+      [
+       "",
+       "意涵 預測不確定性高，需分區域評估"
+      ]
+     ],
+     "keyrow_raw": "市場 亞洲 ｜ 數據 2030 年亞太線上博彩約 390–405 億美元（口徑不同差距大）｜ 意涵 預測不確定性高，需分區域評估",
+     "verify": "",
+     "sources": [
+      [
+       "Business of iGaming",
+       "https://www.businessofigaming.com/asian-igaming-market-outlook/"
+      ]
+     ],
+     "date": "2026-10-31",
+     "image": "https://www.businessofigaming.com/wp-content/uploads/2026/10/asian-igaming-market-outlook.jpg",
+     "image_raw": "https://www.businessofigaming.com/wp-content/uploads/2026/10/asian-igaming-market-outlook.jpg"
+    },
+    {
+     "no": 2,
+     "label": "",
+     "title": "英國賭委會交易資料：使用非法賭博者常同時使用合法營運商",
+     "body": [
+      "Focus Gaming News 報導，英國賭博委員會（UKGC）發布技術報告，首度以開放銀行（Open Banking）交易資料辨識消費者與非法賭博業者的交易，分析相關風險。結果顯示非法賭博使用者面臨較高的賭博傷害風險，且常在使用非法網站的同時繼續使用持牌營運商，挑戰「消費者因此離開合法市場」的假設。傳統研究多靠網站流量估算、問卷與焦點團體，這份研究用真實銀行交易資料提供更直接的觀察。對 PM 的意義：黑市並非單純替代合法市場，風控與負責任博彩工具需涵蓋跨平台行為。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "",
+       "市場 英國"
+      ],
+      [
+       "",
+       "數據 銀行交易資料顯示非法賭博使用者傷害風險較高"
+      ],
+      [
+       "",
+       "意涵 黑市與合法市場使用高度重疊"
+      ]
+     ],
+     "keyrow_raw": "市場 英國 ｜ 數據 銀行交易資料顯示非法賭博使用者傷害風險較高 ｜ 意涵 黑市與合法市場使用高度重疊",
+     "verify": "",
+     "sources": [
+      [
+       "Focus Gaming News",
+       "https://focusgn.com/ukgc-illegal-gambling-harm-study"
+      ]
+     ],
+     "date": "2026-10-31",
+     "image": "https://focusgn.com/wp-content/uploads/2026/10/f555f6fa-c1ab-42a5-a979-80d130f99c5a-1200x630.jpg",
+     "image_raw": "https://focusgn.com/wp-content/uploads/2026/10/f555f6fa-c1ab-42a5-a979-80d130f99c5a-1200x630.jpg"
+    },
+    {
+     "no": 3,
+     "label": "",
+     "title": "拉美行動投注與賭場 App 2026 年第三季下載排行",
+     "body": [
+      "Online Gambling Quarterly 比較墨西哥、秘魯、哥倫比亞與加拿大的行動投注與賭場 App 排名（以免費 iPhone 遊戲／賭場類別的平均每日下載名次計）。第三季投注 App 排行中，墨西哥由 Caliente、秘魯由 Betano、哥倫比亞由 BetPlay 領先；賭場 App 則是墨西哥 Afun、秘魯 Stake、加拿大 Betty Casino 居首。對 PM 的意義：各國榜首品牌差異大，顯示拉美市場靠本地品牌與國際品牌並行，進入時需分國別設定策略。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "",
+       "市場 拉丁美洲"
+      ],
+      [
+       "",
+       "數據 Q3 2026 各國 App 下載榜首品牌"
+      ],
+      [
+       "",
+       "意涵 本地與國際品牌並行，市場分散"
+      ]
+     ],
+     "keyrow_raw": "市場 拉丁美洲 ｜ 數據 Q3 2026 各國 App 下載榜首品牌 ｜ 意涵 本地與國際品牌並行，市場分散",
+     "verify": "",
+     "sources": [
+      [
+       "Online Gambling Quarterly",
+       "https://www.ogqnews.com/top-ranked-mobile-betting-and-casino-apps-in-latam-q3-2026/"
+      ]
+     ],
+     "date": "2026-10-31",
+     "image": "https://www.ogqnews.com/wp-content/uploads/2026/10/Top-ranked-mobile-betting-apps-in-selected-LatAm-countries-%E2%80%93-Q32026.jpg",
+     "image_raw": "https://www.ogqnews.com/wp-content/uploads/2026/10/Top-ranked-mobile-betting-apps-in-selected-LatAm-countries-%E2%80%93-Q32026.jpg"
+    }
+   ],
+   "count": 3
+  }
+ ],
+ "stats": {
+  "n1": 40,
+  "n2": 17
+ },
+ "internal": "## 🗓️ 來源日期紀錄（內部，不渲染）\n\n- Brother CrossBolt：EEGaming 2026-10-29 09:42 UTC（metadata）\n- Wrap 'N' Roll：EEGaming 2026-10-29（metadata）\n- Cirque du Habanero：EEGaming 2026-10-29（metadata）\n- JetX：SlotBeats 2026-10-30 15:50 UTC＝台北 10-30 23:50（metadata）\n- Evoplay：European Gaming 2026-10-29 11:35+02:00（Firecrawl metadata）\n- Kalshi：OGQ 2026-10-31 17:08 UTC＝台北 11-01 01:08（metadata）\n- Sigma Derby：CDC 2026-10-30 16:42 -04:00＝台北 10-31 04:42（metadata）\n- Duel.com：Focus Gaming News 2026-10-30 23:28 -03:00＝台北 10-31 10:28（metadata）\n- LaVie：AGB 2026-10-31 16:09 +08:00（metadata）；Inside Asian Gaming 10-31 10:05\n- BingoPlus VIP Club：Manila Times 2026-11-01 00:05（metadata）\n- Casino Plus MassKara：Dugout 2026-10-31 11:24（JSON-LD）\n- Belle：iGamingToday 2026-10-31 00:35 UTC；GGRAsia 10-30 10:27\n- Asian outlook：Business of iGaming 2026-10-31 10:05 UTC（metadata）\n- UKGC：Focus Gaming News 2026-10-30 23:47 -03:00（metadata）\n- OGQ LatAm：2026-10-31 16:03 UTC（metadata）\n- 剔除：Triple Gobble Wobble（AvatarUX；僅 iGamingToday 單一來源，不可當唯一來源，且主來源 10/13 已超過 7 天保鮮）\n- 剔除：Mega Jail（Shady Lady；僅 iGamingToday 單一來源，查不到 GP 官網或其他來源）\n- 剔除：Le Santa Hold & Win（Hacksaw Gaming；上線日 12/8，在 7 天以後）\n- 剔除：Elf Frenzy（Maxxi Labs；上線日 11/18，在 7 天以後）\n- 剔除：Genie's Fortune Wishes（Maxxi Labs；上線日 10/21 已久，iGamingToday 為遲到評測且單一來源）\n- 剔除：81 Fruit Awards Xmas（SYNOT Games；只有 SlotsLaunch 目錄頁，無新聞稿或參數，查不到有日期的主來源）\n- 剔除：Booming Games 任命銷售長（人事，分數低於本日入選）\n- 剔除：Cirsa 臨時股東會（SBC Noticias 10/29 已超過 3 天保鮮，且 403 無法驗證）\n- 剔除：EEZE（窗內與近 3 天查無 EEZE 新消息）",
+ "header_counts": "🎰 Slot 3 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 4 ・ 📊 市場數據 3",
+ "edition": "",
+ "summary": {
+  "slot": "Brother CrossBolt – Belatra",
+  "trend": "三區訊息顯示，菲律賓市場的競爭正從純線上平台，轉向把實體資源搬上線與用線下活動經營高價值會員。IEC 旗下 LaVie Resort & Casino Manila 計畫在 11 月中下旬推出自營線上平台，以賭場內的真人荷官桌與老虎機做遠端遊玩；BingoPlus 與 Casino Plus 則持續以 VIP 聚會與節慶活動強化線下黏著度。對 PM 的意涵：在地化營運與會員經營，正和遊戲內容並列為平台差異化的主要手段。"
+ },
+ "firecrawl": {
+  "used": 5,
+  "remaining": 915,
+  "reset": "2026-11-14",
+  "reset_source": "api"
+ }
+}

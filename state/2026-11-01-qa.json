@@ -1,0 +1,29 @@
+{
+ "date": "2026-11-01",
+ "md": "state/2026-11-01-igaming-report.md",
+ "html": "reports/2026-11-01.html",
+ "items": 15,
+ "counts": {
+  "cat1": 3,
+  "cat2": 2,
+  "cat3": 3,
+  "cat4": 4,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 32,
+  "ok": 30,
+  "broken": 0,
+  "blocked": 2,
+  "images_dropped": 0,
+  "images": 15
+ },
+ "errors": [],
+ "warnings": [
+  "cat2-02 Evoplay 冬季 Season of Leg｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/press-releases/2026/10/29/217045/evoplay-winter-season-legends-prize-pool/",
+  "cat4-04 Belle 第三季獲利增 31.5%，City ｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/belle-says-3q-share-of-gaming-from-city-of-dreams-manila-down-2-8pct-y-o-y"
+ ],
+ "fixes": [
+  "文末｜資料來源數 20 → 17（程式依來源連結去重計算）"
+ ]
+}

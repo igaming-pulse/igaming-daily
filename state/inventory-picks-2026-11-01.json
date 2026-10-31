@@ -1,0 +1,23 @@
+{"shown": [
+ {"cat":"cat1","title":"Brother CrossBolt","gp":"Belatra"},
+ {"cat":"cat1","title":"Wrap 'N' Roll","gp":"Swintt"},
+ {"cat":"cat1","title":"Cirque du Habanero","gp":"Habanero"},
+ {"cat":"cat2","title":"JetX 改版新增 Four Bet — SmartSoft"},
+ {"cat":"cat2","title":"Evoplay 冬季 Season of Legends 獎金池 100 萬歐元"},
+ {"cat":"cat3","title":"Kalshi 完成 10 億美元 G 輪"},
+ {"cat":"cat3","title":"全新 Sigma Derby 年底於 Four Queens 上線"},
+ {"cat":"cat3","title":"瑞典對 Duel.com 發出立即禁令"},
+ {"cat":"cat4","title":"IEC LaVie Resort & Casino Manila 自營線上平台"},
+ {"cat":"cat4","title":"BingoPlus VIP Club 伊洛伊洛與宿霧活動"},
+ {"cat":"cat4","title":"Casino Plus Hataw MassKara 活動"},
+ {"cat":"cat4","title":"Belle 第三季獲利增 31.5%"},
+ {"cat":"cat5","title":"亞洲 iGaming 市場 2030 展望"},
+ {"cat":"cat5","title":"UKGC 非法賭博交易資料研究"},
+ {"cat":"cat5","title":"拉美行動投注與賭場 App 2026 Q3 下載排行"}
+],
+"stock": [
+ {"cat":"cat1","title":"Triple Gobble Wobble","gp":"AvatarUX","b":1,"first_seen":"2026-10-14","release_date":"2026-11-06","sources":[{"name":"iGamingToday","url":"https://www.igamingtoday.com/triple-gobble-wobble-slot-review/","published":"2026-10-13 15:08"}]},
+ {"cat":"cat1","title":"Le Santa Hold & Win","gp":"Hacksaw Gaming","b":3,"first_seen":"2026-11-01","release_date":"2026-12-08","sources":[{"name":"iGamingToday","url":"https://www.igamingtoday.com/le-santa-hold-win-slot-review/","published":"2026-10-31 21:34"}]},
+ {"cat":"cat3","title":"Cirsa 召開臨時股東會審議與 Lottomatica 合併","sources":[{"name":"Focus Gaming News","url":"https://focusgn.com/latinoamerica/lottomatica-cirsa-proyecto-fusion","published":"2026-10-09 21:50"}]},
+ {"cat":"cat5","title":"Sands China 發行 10 億美元票據提前贖回 2027 債券","sources":[{"name":"AGB","url":"https://agbrief.com/news/macau/28/10/2026/sands-china-raises-1-billion-in-two-tranche-notes-to-retire-2027-bonds-early/","published":"2026-10-28 16:27"}]}
+]}
