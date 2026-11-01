@@ -1,39 +1,40 @@
-🎰 iGaming 市場日報 2026-11-01（週日）
-🎰 Slot 3 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 4 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-11-02（週一）
+🎰 Slot 6 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Belatra《Brother CrossBolt》上線，連消＋全域倍率，最高 25,000x
-・IEC 旗下 LaVie Manila 11 月推自營線上賭場，真人桌遠端遊玩
-・Kalshi 完成 10 億美元融資、估值 400 億，預測市場持續擴張
+・Pragmatic Play《Killer Night》上線：80 年代舞會恐怖題材，最高 10,000x
+・Casino Plus 與 Evolution 擬擴大合作，Live 新遊戲將搶先上架
+・澳門 10 月 GGR 年減 10%，黃金週月增 20% 仍未扭轉大眾市場疲弱
 
 🎰 Slot 新遊戲
-01 📦 Brother CrossBolt – Belatra
-02 📦 Wrap 'N' Roll – Swintt
-03 📦 Cirque du Habanero – Habanero
+01 Killer Night – Pragmatic Play
+02 3 Lucky Firecrackers – Spinomenal
+03 Khonsu Merge Up – BGaming
+04 40 Magic Joker's Hotfire – Novomatic
+05 Midas Squares – Paperclip Gaming
+06 81 Fruit Awards Xmas – SYNOT Games
 
 🕹️ 非 Slot 新內容
-01 📦 JetX 改版新增 Four Bet – SmartSoft
-02 📦 Evoplay 冬季 Season of Legends 獎金池 100 萬歐元
+01 📦 Lucky Lady's Roulette – Novomatic Spain
 
 🤝 動態：主流 GP／平台
-01 Kalshi 完成 10 億美元 G 輪、估值 400 億美元
-02 全新 Sigma Derby 年底於 Four Queens 上線
-03 瑞典對離岸賭場 Duel.com 發出立即禁令
+01 Aristocrat 將 Mega Stampede 打造成系列平台
+02 IGT 執行長：目標重返拉美領先地位
+03 Bally's 稱 Star 整改在新領導層下穩步推進
 
 🇵🇭 動態：菲律賓 GP／平台
-01 IEC LaVie Resort & Casino Manila 自營線上平台
-02 🔁 BingoPlus VIP Club 伊洛伊洛與宿霧活動
-03 🔁 Casino Plus Hataw MassKara 活動
-04 Belle 第三季獲利增 31.5%
+01 🔁 Casino Plus 與 Evolution 擬擴大合作
+02 Bloomberry 的 OnlyFun.PH 第四季目標招募逾 100 名實況主
 
 📊 市場數據 & 趨勢
-01 亞洲 iGaming 市場 2030 展望
-02 UKGC 非法賭博交易資料研究
-03 拉美行動投注與賭場 App 2026 Q3 下載排行
+01 時間型保底：24 小時倒數觸發 Hot Mode 的設計分析
+02 澳門 10 月 GGR 年減 10% 至 216.8 億澳門元
+03 🔁 義大利 2027 預算案：賭博業三年約 25.9 億歐元
 
 📝 品質備註（本次爬找判斷）
-1. 窗內新 Slot 新作偏少（週日），僅 iGamingToday 單一來源或上線日在 7 天後的新作皆未收，Slot 3 款全為庫存補位；BigWinBoard 解析失敗、GiocoNews／SunStar 來源失敗。
-2. 菲律賓 02、03 疑似與 10/29、10/28 重疊，已標 🔁 並寫明新進展；EEZE 近 3 天無新消息，今日從缺；WebSearch 工具對本日題材回傳品質差。
+1. 今日 Slot 新作多為 11/2 上線，僅有 SlotsLaunch 上線日曆，無新聞稿；BigWinBoard 解析失敗，Spinomenal／Novomatic 參數未公布。
+2. 非 Slot 窗內候選為 0，改用 10/30 庫存補 1 則；EEZE 近 3 天無消息，未收。
+3. Casino Plus × Evolution、義大利預算案與 10/31 報導疑似重疊，已視為後續新進展標 🔁。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（16 天）、SiGMA（12 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（17 天）、SiGMA（13 天）、GiocoNews（3 天）；請檢查網址或改抓取方式

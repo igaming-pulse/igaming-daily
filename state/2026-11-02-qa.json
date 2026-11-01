@@ -1,0 +1,30 @@
+{
+ "date": "2026-11-02",
+ "md": "state/2026-11-02-igaming-report.md",
+ "html": "reports/2026-11-02.html",
+ "items": 15,
+ "counts": {
+  "cat1": 6,
+  "cat2": 1,
+  "cat3": 3,
+  "cat4": 2,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 35,
+  "ok": 33,
+  "broken": 0,
+  "blocked": 2,
+  "images_dropped": 0,
+  "images": 14
+ },
+ "errors": [],
+ "warnings": [
+  "cat4-01 Casino Plus 與 Evolution ｜來源連結無法自動驗證（403，多半是網站擋機器人）：BusinessMirror https://businessmirror.com.ph/2026/11/02/evolution-ties-up-with-casino-plus/",
+  "cat5-02 澳門 10 月 GGR 年減 10% 至 216｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/october-casino-ggr-follows-downward-trend-dips-10pct-y-o-y-to-us2-68bln-macau-govt",
+  "cat5-01 時間型保底：24 小時倒數觸發 Hot Mode｜各來源都找不到可用的配圖"
+ ],
+ "fixes": [
+  "文末｜資料來源數 26 → 21（程式依來源連結去重計算）"
+ ]
+}

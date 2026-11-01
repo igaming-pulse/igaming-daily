@@ -169,35 +169,39 @@
     }
    ],
    "key": "lesantaholdwin|hacksawgaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Penguin Heist",
+   "gp": "Oi Studios",
+   "b": 1,
+   "first_seen": "2026-11-02",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/oi-studios/penguin-heist",
+     "published": "2026-11-02 00:00"
+    }
+   ],
+   "key": "penguinheist|oistudios"
+  },
+  {
+   "cat": "cat1",
+   "title": "Book of Blood",
+   "gp": "Excellent Reel",
+   "b": 1,
+   "first_seen": "2026-11-02",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/excellent-reel/book-of-blood",
+     "published": "2026-11-02 00:00"
+    }
+   ],
+   "key": "bookofblood|excellentreel"
   }
  ],
  "others": [
-  {
-   "cat": "cat3",
-   "title": "Booming Games 任命 Ally McIvor 為銷售長",
-   "sources": [
-    {
-     "name": "Focus Gaming News",
-     "url": "https://focusgn.com/booming-games-ally-mcivor-chief-of-sales",
-     "published": "2026-10-28 18:49"
-    }
-   ],
-   "first_seen": "2026-10-29",
-   "key": "boominggames任命allymcivor為銷售長|"
-  },
-  {
-   "cat": "cat5",
-   "title": "Sands China 發行 10 億美元票據提前贖回 2027 債券",
-   "sources": [
-    {
-     "name": "AGB",
-     "url": "https://agbrief.com/news/macau/28/10/2026/sands-china-raises-1-billion-in-two-tranche-notes-to-retire-2027-bonds-early/",
-     "published": "2026-10-28 16:27"
-    }
-   ],
-   "first_seen": "2026-10-29",
-   "key": "sandschina發行10億美元票據提前贖回2027債券|"
-  },
   {
    "cat": "cat2",
    "title": "Evoplay 推出 100 萬歐元冬季 Season of Legends（含新刮刮樂機制）",
@@ -264,121 +268,51 @@
     }
    ],
    "key": "belle稱cityofdreamsmanila第三季博彩占比年減28|"
+  },
+  {
+   "cat": "cat3",
+   "title": "CreditSights：MGM 與 People Inc 投票協議對 MGM China 構成事件風險",
+   "b": 3,
+   "first_seen": "2026-11-02",
+   "sources": [
+    {
+     "name": "Inside Asian Gaming",
+     "url": "https://asgam.com/2026/11/01/creditsights-mgm-resorts-voting-agreement-with-people-inc-poses-some-event-risk-to-mgm-china/",
+     "published": "2026-11-01 05:14"
+    }
+   ],
+   "key": "creditsightsmgm與peopleinc投票協議對mgmchina構成事件風險|"
+  },
+  {
+   "cat": "cat4",
+   "title": "GameZone 以菲律賓紙牌文化擴大品牌觸及",
+   "b": 6,
+   "first_seen": "2026-11-02",
+   "sources": [
+    {
+     "name": "InsiderPH",
+     "url": "https://insiderph.com/gamezone-taps-filipino-card-game-culture-to-expand-brand-reach",
+     "published": "2026-11-01 08:37"
+    }
+   ],
+   "key": "gamezone以菲律賓紙牌文化擴大品牌觸及|"
+  },
+  {
+   "cat": "cat5",
+   "title": "EU iGaming 週報：機台遊戲稅調升、芬蘭牌照、荷蘭 GGR",
+   "b": 1,
+   "first_seen": "2026-11-02",
+   "sources": [
+    {
+     "name": "European Gaming",
+     "url": "https://europeangaming.eu/portal/latest-news/2026/11/01/217180/eu-igaming-weekly-machine-games-duty-finland-licences-dutch-ggr/",
+     "published": "2026-11-01 15:00"
+    }
+   ],
+   "key": "euigaming週報機台遊戲稅調升芬蘭牌照荷蘭ggr|"
   }
  ],
  "history": [
-  {
-   "key": "turbogolddeluxegigablox|yggdrasil",
-   "date": "2026-10-02",
-   "cat": "cat1",
-   "title": "Turbo Gold Deluxe GigaBlox",
-   "gp": "Yggdrasil"
-  },
-  {
-   "key": "ghostboostergoguaranteed|playngo",
-   "date": "2026-10-02",
-   "cat": "cat1",
-   "title": "Ghost Booster! GO Guaranteed",
-   "gp": "Play'n GO"
-  },
-  {
-   "key": "25coinsx3000|wazdan",
-   "date": "2026-10-02",
-   "cat": "cat1",
-   "title": "25 Coins x3000",
-   "gp": "Wazdan"
-  },
-  {
-   "key": "wilddragonexpressholdhit3x3|spinomenal",
-   "date": "2026-10-02",
-   "cat": "cat1",
-   "title": "Wild Dragon Express - Hold & Hit 3x3",
-   "gp": "Spinomenal"
-  },
-  {
-   "key": "foreversplitmegaways|pragmaticplay",
-   "date": "2026-10-02",
-   "cat": "cat1",
-   "title": "Forever Split Megaways",
-   "gp": "Pragmatic Play"
-  },
-  {
-   "key": "eplay24tipsterpokernight|eplay24",
-   "date": "2026-10-02",
-   "cat": "cat2",
-   "title": "E-Play24 Tipster Poker Night",
-   "gp": "E-Play24"
-  },
-  {
-   "key": "stakeedcraven投資maincodeventures|stake",
-   "date": "2026-10-02",
-   "cat": "cat3",
-   "title": "Stake／Ed Craven 投資 Maincode Ventures",
-   "gp": "Stake"
-  },
-  {
-   "key": "gentingcasinosconfirmscoventrycasinoclosure|gentingcasinosuk",
-   "date": "2026-10-02",
-   "cat": "cat3",
-   "title": "Genting Casinos Confirms Coventry Casino Closure",
-   "gp": "Genting Casinos UK"
-  },
-  {
-   "key": "aristocratgaming獲2026globalgamingawardsamericas三項大獎|aristocratgaming",
-   "date": "2026-10-02",
-   "cat": "cat3",
-   "title": "Aristocrat Gaming 獲 2026 Global Gaming Awards Americas 三項大獎",
-   "gp": "Aristocrat Gaming"
-  },
-  {
-   "key": "digiplusjoinsmetaconnect2026|digiplus",
-   "date": "2026-10-02",
-   "cat": "cat4",
-   "title": "DigiPlus joins Meta Connect 2026",
-   "gp": "DigiPlus"
-  },
-  {
-   "key": "pagcorsetsjanuary2027smarttabledeadline|pagcor",
-   "date": "2026-10-02",
-   "cat": "cat4",
-   "title": "PAGCOR Sets January 2027 Smart Table Deadline",
-   "gp": "PAGCOR"
-  },
-  {
-   "key": "emeraldbay母公司再失第二座度假村予債權銀行|phresortsgroup",
-   "date": "2026-10-02",
-   "cat": "cat4",
-   "title": "Emerald Bay 母公司再失第二座度假村予債權銀行",
-   "gp": "PH Resorts Group"
-  },
-  {
-   "key": "casinoplus擴大aldenrichardscsr合作|casinoplus",
-   "date": "2026-10-02",
-   "cat": "cat4",
-   "title": "Casino Plus 擴大 Alden Richards CSR 合作",
-   "gp": "Casino Plus"
-  },
-  {
-   "key": "歐盟線上博彩72收入來自非法業者|gamingcomplianceinternational",
-   "date": "2026-10-02",
-   "cat": "cat5",
-   "title": "歐盟線上博彩72%收入來自非法業者",
-   "gp": "Gaming Compliance International"
-  },
-  {
-   "key": "澳門9月ggr年減12至224億美元|澳門博彩監察協調局",
-   "date": "2026-10-02",
-   "cat": "cat5",
-   "title": "澳門9月GGR年減1.2%至22.4億美元",
-   "gp": "澳門博彩監察協調局"
-  },
-  {
-   "key": "whereisigamingheadingin2026|businessofigaming",
-   "date": "2026-10-02",
-   "cat": "cat5",
-   "title": "Where Is iGaming Heading In 2026+",
-   "gp": "Business of iGaming"
-  },
   {
    "key": "lebanditmonstersunleashed|hacksawgaming",
    "date": "2026-10-03",
@@ -3898,6 +3832,111 @@
    "date": "2026-11-01",
    "cat": "cat5",
    "title": "拉美行動投注與賭場 App 2026 Q3 下載排行",
+   "gp": ""
+  },
+  {
+   "key": "killernight|pragmaticplay",
+   "date": "2026-11-02",
+   "cat": "cat1",
+   "title": "Killer Night",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "3luckyfirecrackers|spinomenal",
+   "date": "2026-11-02",
+   "cat": "cat1",
+   "title": "3 Lucky Firecrackers",
+   "gp": "Spinomenal"
+  },
+  {
+   "key": "khonsumergeup|bgaming",
+   "date": "2026-11-02",
+   "cat": "cat1",
+   "title": "Khonsu Merge Up",
+   "gp": "BGaming"
+  },
+  {
+   "key": "40magicjokershotfire|novomatic",
+   "date": "2026-11-02",
+   "cat": "cat1",
+   "title": "40 Magic Joker's Hotfire",
+   "gp": "Novomatic"
+  },
+  {
+   "key": "midassquares|paperclipgaming",
+   "date": "2026-11-02",
+   "cat": "cat1",
+   "title": "Midas Squares",
+   "gp": "Paperclip Gaming"
+  },
+  {
+   "key": "81fruitawardsxmas|synotgames",
+   "date": "2026-11-02",
+   "cat": "cat1",
+   "title": "81 Fruit Awards Xmas",
+   "gp": "SYNOT Games"
+  },
+  {
+   "key": "luckyladysroulettenovomaticspain|",
+   "date": "2026-11-02",
+   "cat": "cat2",
+   "title": "Lucky Lady's Roulette — Novomatic Spain",
+   "gp": ""
+  },
+  {
+   "key": "aristocrat將megastampede打造成系列平台|",
+   "date": "2026-11-02",
+   "cat": "cat3",
+   "title": "Aristocrat 將 Mega Stampede 打造成系列平台",
+   "gp": ""
+  },
+  {
+   "key": "igt執行長目標重返拉美領先地位|",
+   "date": "2026-11-02",
+   "cat": "cat3",
+   "title": "IGT 執行長：目標重返拉美領先地位",
+   "gp": ""
+  },
+  {
+   "key": "ballys稱star整改穩步推進|",
+   "date": "2026-11-02",
+   "cat": "cat3",
+   "title": "Bally's 稱 Star 整改穩步推進",
+   "gp": ""
+  },
+  {
+   "key": "casinoplus與evolution擬擴大合作|",
+   "date": "2026-11-02",
+   "cat": "cat4",
+   "title": "Casino Plus 與 Evolution 擬擴大合作",
+   "gp": ""
+  },
+  {
+   "key": "onlyfunph第四季招募逾100名實況主|",
+   "date": "2026-11-02",
+   "cat": "cat4",
+   "title": "OnlyFun.PH 第四季招募逾 100 名實況主",
+   "gp": ""
+  },
+  {
+   "key": "時間型保底24小時倒數觸發hotmode|",
+   "date": "2026-11-02",
+   "cat": "cat5",
+   "title": "時間型保底：24 小時倒數觸發 Hot Mode",
+   "gp": ""
+  },
+  {
+   "key": "澳門10月ggr年減10|",
+   "date": "2026-11-02",
+   "cat": "cat5",
+   "title": "澳門 10 月 GGR 年減 10%",
+   "gp": ""
+  },
+  {
+   "key": "義大利2027預算案賭博業三年約259億歐元|",
+   "date": "2026-11-02",
+   "cat": "cat5",
+   "title": "義大利 2027 預算案賭博業三年約 25.9 億歐元",
    "gp": ""
   }
  ],
