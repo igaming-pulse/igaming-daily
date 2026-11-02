@@ -204,45 +204,6 @@
  "others": [
   {
    "cat": "cat2",
-   "title": "Evoplay 推出 100 萬歐元冬季 Season of Legends（含新刮刮樂機制）",
-   "sources": [
-    {
-     "name": "European Gaming",
-     "url": "https://europeangaming.eu/portal/press-releases/2026/10/29/217045/evoplay-winter-season-legends-prize-pool/",
-     "published": "2026-10-29 17:35"
-    }
-   ],
-   "first_seen": "2026-10-30",
-   "key": "evoplay推出100萬歐元冬季seasonoflegends含新刮刮樂機制|"
-  },
-  {
-   "cat": "cat3",
-   "title": "Cirsa 召開臨時股東會審議與 Lottomatica 合併",
-   "sources": [
-    {
-     "name": "SBC Noticias",
-     "url": "https://sbcnoticias.com/cirsa-convoca-junta-noviembre-lottomatica/",
-     "published": "2026-10-29 21:56"
-    }
-   ],
-   "first_seen": "2026-10-30",
-   "key": "cirsa召開臨時股東會審議與lottomatica合併|"
-  },
-  {
-   "cat": "cat5",
-   "title": "Konami 博弈部門半年營業利益大增 154.5%",
-   "sources": [
-    {
-     "name": "GGRAsia",
-     "url": "https://www.ggrasia.com/konami-gaming-segment-sees-half-year-business-profit-jump-154-5pct",
-     "published": "2026-10-29 17:16"
-    }
-   ],
-   "first_seen": "2026-10-30",
-   "key": "konami博弈部門半年營業利益大增1545|"
-  },
-  {
-   "cat": "cat2",
    "title": "SmartSoft 更新 JetX Crash 遊戲（Four Bet 等）",
    "gp": "SmartSoft",
    "b": 1,
@@ -255,19 +216,6 @@
     }
    ],
    "key": "smartsoft更新jetxcrash遊戲fourbet等|smartsoft"
-  },
-  {
-   "cat": "cat4",
-   "title": "Belle 稱 City of Dreams Manila 第三季博彩占比年減 2.8%",
-   "first_seen": "2026-10-30",
-   "sources": [
-    {
-     "name": "GGRAsia",
-     "url": "https://www.ggrasia.com/belle-says-3q-share-of-gaming-from-city-of-dreams-manila-down-2-8pct-y-o-y",
-     "published": "2026-10-30 10:27"
-    }
-   ],
-   "key": "belle稱cityofdreamsmanila第三季博彩占比年減28|"
   },
   {
    "cat": "cat3",
@@ -310,114 +258,65 @@
     }
    ],
    "key": "euigaming週報機台遊戲稅調升芬蘭牌照荷蘭ggr|"
+  },
+  {
+   "cat": "cat2",
+   "title": "JetX 崩潰遊戲成功的關鍵因素",
+   "b": 1,
+   "first_seen": "2026-11-03",
+   "sources": [
+    {
+     "name": "SlotBeats",
+     "url": "https://slotbeats.com/slot-news/key-factors-crash-game-success-for-jetx/",
+     "published": "2026-11-02 23:26"
+    }
+   ],
+   "key": "jetx崩潰遊戲成功的關鍵因素|"
+  },
+  {
+   "cat": "cat3",
+   "title": "GiG 財務長在公布第三季財報數日後離職",
+   "b": 1,
+   "first_seen": "2026-11-03",
+   "sources": [
+    {
+     "name": "SBC News",
+     "url": "https://sbcnews.co.uk/igaming/2026/11/02/gig-cfo-departs/",
+     "published": "2026-11-03 00:41"
+    }
+   ],
+   "key": "gig財務長在公布第三季財報數日後離職|"
+  },
+  {
+   "cat": "cat4",
+   "title": "Casino Plus 以合規爭取全球夥伴",
+   "b": 6,
+   "first_seen": "2026-11-03",
+   "sources": [
+    {
+     "name": "Daily Tribune",
+     "url": "https://tribune.net.ph/2026/10/31/casino-plus-banks-on-compliance-to-woo-global-partners",
+     "published": "2026-11-01 02:01"
+    }
+   ],
+   "key": "casinoplus以合規爭取全球夥伴|"
+  },
+  {
+   "cat": "cat5",
+   "title": "Seaport：澳門 GGR 11 月前仍疲弱，高端客群持續低迷",
+   "b": 1,
+   "first_seen": "2026-11-03",
+   "sources": [
+    {
+     "name": "Inside Asian Gaming",
+     "url": "https://asgam.com/2026/11/02/seaport-macau-ggr-to-remain-soft-through-november-on-persistent-high-end-weakness/",
+     "published": "2026-11-02 08:26"
+    }
+   ],
+   "key": "seaport澳門ggr11月前仍疲弱高端客群持續低迷|"
   }
  ],
  "history": [
-  {
-   "key": "lebanditmonstersunleashed|hacksawgaming",
-   "date": "2026-10-03",
-   "cat": "cat1",
-   "title": "Le Bandit Monsters Unleashed",
-   "gp": "Hacksaw Gaming"
-  },
-  {
-   "key": "3potsofvenice|betsoft",
-   "date": "2026-10-03",
-   "cat": "cat1",
-   "title": "3 Pots of Venice",
-   "gp": "Betsoft"
-  },
-  {
-   "key": "creedroomz真人娛樂場登陸瑞士pasinoch|creedroomz",
-   "date": "2026-10-03",
-   "cat": "cat2",
-   "title": "CreedRoomz 真人娛樂場登陸瑞士 PASINO.ch",
-   "gp": "CreedRoomz"
-  },
-  {
-   "key": "qtech聚合平台導入caletagaming內容|qtech",
-   "date": "2026-10-03",
-   "cat": "cat2",
-   "title": "QTech 聚合平台導入 Caleta Gaming 內容",
-   "gp": "QTech"
-  },
-  {
-   "key": "igtadvantagexcms攻下sobobacasinoresort|igt",
-   "date": "2026-10-03",
-   "cat": "cat3",
-   "title": "IGT ADVANTAGE X CMS 攻下 Soboba Casino Resort",
-   "gp": "IGT"
-  },
-  {
-   "key": "evolution重申要求將playtech納入誹謗訴訟|evolution",
-   "date": "2026-10-03",
-   "cat": "cat3",
-   "title": "Evolution 重申要求將 Playtech 納入誹謗訴訟",
-   "gp": "Evolution"
-  },
-  {
-   "key": "draftkings遭控以ai鎖定輸錢玩家|draftkings",
-   "date": "2026-10-03",
-   "cat": "cat3",
-   "title": "DraftKings 遭控以 AI 鎖定輸錢玩家",
-   "gp": "DraftKings"
-  },
-  {
-   "key": "巴西擴大查封博彩網域5209個遭盯上|anatel",
-   "date": "2026-10-03",
-   "cat": "cat3",
-   "title": "巴西擴大查封博彩網域，5,209 個遭盯上",
-   "gp": "Anatel"
-  },
-  {
-   "key": "centurycasinos出售加拿大兩座賭場|centurycasinos",
-   "date": "2026-10-03",
-   "cat": "cat3",
-   "title": "Century Casinos出售加拿大兩座賭場",
-   "gp": "Century Casinos"
-  },
-  {
-   "key": "digiplus參與metaconnect2026|digiplus",
-   "date": "2026-10-03",
-   "cat": "cat4",
-   "title": "DigiPlus 參與 Meta Connect 2026",
-   "gp": "DigiPlus"
-  },
-  {
-   "key": "pagcor籲擴大mice設施|pagcor",
-   "date": "2026-10-03",
-   "cat": "cat4",
-   "title": "PAGCOR 籲擴大 MICE 設施",
-   "gp": "PAGCOR"
-  },
-  {
-   "key": "巴西禁令後非法博彩網域與海外搜尋需求同步暴增|",
-   "date": "2026-10-03",
-   "cat": "cat5",
-   "title": "巴西禁令後非法博彩網域與海外搜尋需求同步暴增",
-   "gp": ""
-  },
-  {
-   "key": "澳門9月ggr年減12|",
-   "date": "2026-10-03",
-   "cat": "cat5",
-   "title": "澳門9月GGR年減1.2%",
-   "gp": ""
-  },
-  {
-   "key": "拉斯維加斯8月旅客量年減43|",
-   "date": "2026-10-03",
-   "cat": "cat5",
-   "title": "拉斯維加斯8月旅客量年減4.3%",
-   "gp": ""
-  },
-  {
-   "key": "義大利9月線上賭場消費3063億歐元|",
-   "date": "2026-10-03",
-   "cat": "cat5",
-   "title": "義大利9月線上賭場消費3.063億歐元",
-   "gp": ""
-  },
   {
    "key": "divinequeenpowerofsun|bgaming",
    "date": "2026-10-04",
@@ -3937,6 +3836,104 @@
    "date": "2026-11-02",
    "cat": "cat5",
    "title": "義大利 2027 預算案賭博業三年約 25.9 億歐元",
+   "gp": ""
+  },
+  {
+   "key": "aztecalegacy|pgsoft",
+   "date": "2026-11-03",
+   "cat": "cat1",
+   "title": "Azteca Legacy",
+   "gp": "PG Soft"
+  },
+  {
+   "key": "sirenofthedeepsuperspinner|readyplaygaming",
+   "date": "2026-11-03",
+   "cat": "cat1",
+   "title": "Siren Of The Deep: Super Spinner",
+   "gp": "Ready Play Gaming"
+  },
+  {
+   "key": "40extracrownmysterypot|amusnet",
+   "date": "2026-11-03",
+   "cat": "cat1",
+   "title": "40 Extra Crown Mystery Pot",
+   "gp": "Amusnet"
+  },
+  {
+   "key": "100glossyhotcoinboost|amusnet",
+   "date": "2026-11-03",
+   "cat": "cat1",
+   "title": "100 Glossy Hot Coin Boost",
+   "gp": "Amusnet"
+  },
+  {
+   "key": "crazymineliveslotvirtualdynamicrouletteamusnet|",
+   "date": "2026-11-03",
+   "cat": "cat2",
+   "title": "Crazy Mine Live Slot／Virtual Dynamic Roulette — Amusnet",
+   "gp": ""
+  },
+  {
+   "key": "imaginelive與gaming1合作進入比利時與荷蘭|",
+   "date": "2026-11-03",
+   "cat": "cat2",
+   "title": "Imagine Live 與 Gaming1 合作進入比利時與荷蘭",
+   "gp": ""
+  },
+  {
+   "key": "eeze老虎機負責人談資料與在地化|",
+   "date": "2026-11-03",
+   "cat": "cat2",
+   "title": "EEZE 老虎機負責人談資料與在地化",
+   "gp": ""
+  },
+  {
+   "key": "hacksawgaming經fanduel進入康乃狄克州|",
+   "date": "2026-11-03",
+   "cat": "cat3",
+   "title": "Hacksaw Gaming 經 FanDuel 進入康乃狄克州",
+   "gp": ""
+  },
+  {
+   "key": "evoplay推出playerspace玩家留存系統|",
+   "date": "2026-11-03",
+   "cat": "cat3",
+   "title": "Evoplay 推出 Player Space 玩家留存系統",
+   "gp": ""
+  },
+  {
+   "key": "tadagaming帶著義大利86款認證遊戲赴sigmaworld羅馬|",
+   "date": "2026-11-03",
+   "cat": "cat3",
+   "title": "TaDa Gaming 帶著義大利 86 款認證遊戲赴 SiGMA World 羅馬",
+   "gp": ""
+  },
+  {
+   "key": "bingoplus與regal合作推出shakerattleroll五款原創遊戲|",
+   "date": "2026-11-03",
+   "cat": "cat4",
+   "title": "BingoPlus 與 Regal 合作推出 Shake, Rattle & Roll 五款原創遊戲",
+   "gp": ""
+  },
+  {
+   "key": "義大利線上賭場10月支出32億歐元年增9|",
+   "date": "2026-11-03",
+   "cat": "cat5",
+   "title": "義大利線上賭場 10 月支出 3.2 億歐元、年增 9%",
+   "gp": ""
+  },
+  {
+   "key": "俄亥俄州9月賭場收入8770萬美元年增126|",
+   "date": "2026-11-03",
+   "cat": "cat5",
+   "title": "俄亥俄州 9 月賭場收入 8,770 萬美元、年增 12.6%",
+   "gp": ""
+  },
+  {
+   "key": "哥倫比亞18月線上體育投注收入年增84|",
+   "date": "2026-11-03",
+   "cat": "cat5",
+   "title": "哥倫比亞 1–8 月線上體育投注收入年增 84%",
    "gp": ""
   }
  ],

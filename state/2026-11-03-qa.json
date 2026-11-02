@@ -1,0 +1,28 @@
+{
+ "date": "2026-11-03",
+ "md": "state/2026-11-03-igaming-report.md",
+ "html": "reports/2026-11-03.html",
+ "items": 14,
+ "counts": {
+  "cat1": 4,
+  "cat2": 3,
+  "cat3": 3,
+  "cat4": 1,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 34,
+  "ok": 33,
+  "broken": 0,
+  "blocked": 1,
+  "images_dropped": 0,
+  "images": 14
+ },
+ "errors": [],
+ "warnings": [
+  "cat2-02 Imagine Live 與 Gaming1 合｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/press-releases/2026/11/02/217251/imagine-live-gaming1-belgium-netherlands/"
+ ],
+ "fixes": [
+  "文末｜資料來源數 30 → 20（程式依來源連結去重計算）"
+ ]
+}

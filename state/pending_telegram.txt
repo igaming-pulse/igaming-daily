@@ -1,40 +1,39 @@
-🎰 iGaming 市場日報 2026-11-02（週一）
-🎰 Slot 6 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-11-03（週二）
+🎰 Slot 4 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Pragmatic Play《Killer Night》上線：80 年代舞會恐怖題材，最高 10,000x
-・Casino Plus 與 Evolution 擬擴大合作，Live 新遊戲將搶先上架
-・澳門 10 月 GGR 年減 10%，黃金週月增 20% 仍未扭轉大眾市場疲弱
+・PG Soft《Azteca Legacy》：7 轉輪解鎖式免費遊戲，10,000x、RTP 96.75%
+・BingoPlus × Regal《Shake, Rattle & Roll》推出五款本土恐怖 IP 遊戲
+・Evoplay Player Space 與 TaDa 義大利 86 款認證：競爭轉向留存與在地化
 
 🎰 Slot 新遊戲
-01 Killer Night – Pragmatic Play
-02 3 Lucky Firecrackers – Spinomenal
-03 Khonsu Merge Up – BGaming
-04 40 Magic Joker's Hotfire – Novomatic
-05 Midas Squares – Paperclip Gaming
-06 81 Fruit Awards Xmas – SYNOT Games
+01 Azteca Legacy – PG Soft
+02 Siren Of The Deep: Super Spinner – Ready Play Gaming
+03 40 Extra Crown Mystery Pot – Amusnet
+04 100 Glossy Hot Coin Boost – Amusnet
 
 🕹️ 非 Slot 新內容
-01 📦 Lucky Lady's Roulette – Novomatic Spain
+01 Crazy Mine Live Slot／Virtual Dynamic Roulette – Amusnet
+02 Imagine Live 與 Gaming1 合作進入比利時與荷蘭
+03 EEZE 老虎機負責人談資料與在地化
 
 🤝 動態：主流 GP／平台
-01 Aristocrat 將 Mega Stampede 打造成系列平台
-02 IGT 執行長：目標重返拉美領先地位
-03 Bally's 稱 Star 整改在新領導層下穩步推進
+01 Hacksaw Gaming 經 FanDuel 進入康乃狄克州
+02 Evoplay 推出 Player Space 玩家留存系統
+03 TaDa Gaming 帶著義大利 86 款認證遊戲赴 SiGMA World 羅馬
 
 🇵🇭 動態：菲律賓 GP／平台
-01 🔁 Casino Plus 與 Evolution 擬擴大合作
-02 Bloomberry 的 OnlyFun.PH 第四季目標招募逾 100 名實況主
+01 📦（11/1）BingoPlus 與 Regal 合作推出《Shake, Rattle & Roll》五款原創遊戲
 
 📊 市場數據 & 趨勢
-01 時間型保底：24 小時倒數觸發 Hot Mode 的設計分析
-02 澳門 10 月 GGR 年減 10% 至 216.8 億澳門元
-03 🔁 義大利 2027 預算案：賭博業三年約 25.9 億歐元
+01 義大利線上賭場 10 月支出 3.2 億歐元、年增 9%
+02 俄亥俄州 9 月賭場收入 8,770 萬美元、年增 12.6%
+03 哥倫比亞 1–8 月線上體育投注收入年增 84%
 
 📝 品質備註（本次爬找判斷）
-1. 今日 Slot 新作多為 11/2 上線，僅有 SlotsLaunch 上線日曆，無新聞稿；BigWinBoard 解析失敗，Spinomenal／Novomatic 參數未公布。
-2. 非 Slot 窗內候選為 0，改用 10/30 庫存補 1 則；EEZE 近 3 天無消息，未收。
-3. Casino Plus × Evolution、義大利預算案與 10/31 報導疑似重疊，已視為後續新進展標 🔁。
+1. 窗內候選 402 則，但 Slot 多為無新聞稿的 SlotsLaunch 條目；Le Clubber、Fortune Garuda 500 JACKPOT、36 Coins x3000 因主來源日期不合或無參數資料未收，Slot 僅 4 款，庫存 Triple Gobble Wobble 因主來源已超過 7 天保鮮期未補。
+2. 菲律賓區只有 1 則：窗內 Casino Plus MassKara、GameZone × Gloc-9 與已報事件重疊而剔除；BingoPlus × Regal 疑似與 10/27 Reyna Ahas 議題部分相關，已收錄並標 📦。
+3. BigWinBoard 與 SiGMA 頁抓取失敗，SoloAzar 等來源為替代。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（17 天）、SiGMA（13 天）、GiocoNews（3 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（18 天）、SiGMA（14 天）、GiocoNews（4 天）；請檢查網址或改抓取方式

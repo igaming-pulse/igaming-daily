@@ -1,0 +1,675 @@
+{
+ "date": "2026-11-03",
+ "sections": [
+  {
+   "cat": "cat1",
+   "heading": "🎰 Game Provider 新遊戲",
+   "items": [
+    {
+     "no": 1,
+     "label": "",
+     "title": "Azteca Legacy – PG Soft",
+     "body": [
+      "PG Soft 於 11 月 2 日推出新作《Azteca Legacy》，以古老叢林神殿為主題，是一款 7 轉輪的影片老虎機。賠付採「5 個以上」相連消除：相同符號只要水平或對角相鄰即成獎，贏分符號爆炸後新符號掉落形成連消。核心機制有兩個：其一是 4-Corner Sync，第 2、6 轉輪的四個金色位置每轉開始時揭示隨機符號，只要其中任一符號參與贏分，四個位置在下一轉全部變成 Wild；其二是「解鎖式免費遊戲」，中央 Free Spin 符號周圍有六個鎖定位置，贏分符號碰到即解鎖，全部解開後送 10 次免費遊戲，免費遊戲中央符號變為固定 Wild，倍率從 x1 起、每次參與贏分就加一。另有 5 倍投注的 Ante Bet，可保證四個金色位置為 Wild、並讓免費遊戲觸發機率提高為五倍。對 PM 的意義：PG Soft 把「解鎖進度」做成可視的主遊戲目標，與亞洲玩家熟悉的收集型玩法相容，適合評估是否放進亞洲平台的新品區或高波動專區。"
+     ],
+     "derive": "全新 IP，無衍生",
+     "spec": [
+      [
+       "廠牌",
+       "PG Soft"
+      ],
+      [
+       "遊戲類型",
+       "線上電子老虎機"
+      ],
+      [
+       "盤面",
+       "7 轉輪（4-Corner Sync 與中央解鎖區）"
+      ],
+      [
+       "消除/賠付",
+       "5 個以上相連（水平／對角）、贏分後爆炸連消"
+      ],
+      [
+       "最高倍率",
+       "10,000x"
+      ],
+      [
+       "RTP",
+       "96.75%"
+      ],
+      [
+       "波動",
+       "高"
+      ],
+      [
+       "目標市場",
+       "未公布"
+      ],
+      [
+       "關鍵特色",
+       "4-Corner Sync Wild 位置、解鎖式 10 次免費遊戲、倍率遞增的中央 Wild、5 倍 Ante Bet"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "EEGaming 與 iGaming Future 的 RTP、最高倍率、機制描述一致",
+     "sources": [
+      [
+       "EEGaming",
+       "https://eegaming.org/latest-news/2026/11/02/53442/pg-soft-launches-azteca-legacy-slot-with-7-reels-and-unlock-to-free-spins-mechanic/"
+      ],
+      [
+       "iGaming Future",
+       "https://igamingfuture.com/pg-soft-awakens-a-golden-legend-with-new-azteca-legacy-slot/"
+      ],
+      [
+       "BNLData",
+       "https://bnldata.com.br/pg-soft-desperta-uma-lenda-dourada-com-a-nova-slot-azteca-legacy/"
+      ]
+     ],
+     "date": "2026-11-02",
+     "image": "https://igamingfuture.com/wp-content/uploads/2026/11/azteca-legacy_1200x600.png",
+     "image_raw": "https://igamingfuture.com/wp-content/uploads/2026/11/azteca-legacy_1200x600.png"
+    },
+    {
+     "no": 2,
+     "label": "",
+     "title": "Siren Of The Deep: Super Spinner – Ready Play Gaming",
+     "body": [
+      "Ready Play Gaming 發布《Siren Of The Deep – Super Spinner》，是該廠 Super Spinner 收集機制下的第二款作品。盤面 5×7、100 條線，九顆蛤蜊觸發收集功能，之後有 3 次重轉，每出現一顆新蛤蜊就保留並把重轉次數重設為 3；重轉用完後支付盤面上所有數值。設有兩種大獎：功能中出現的 Jackpot 蛤蜊，以及整盤填滿蛤蜊的最高大獎。另有獨立的免費遊戲，送 6 至 15 轉，每轉再往轉輪加入 25 至 200 個 Wild。遊戲一份程式碼支援英文、西班牙文與巴西葡萄牙文，並通過 iTech Labs 認證。對 PM 的意義：Ready Play 把拉美語系一次打包，適合評估中小型 GP 對拉美與菲律賓西語系玩家的補充內容。"
+     ],
+     "derive": "Super Spinner 機制第二作，沿用收集重轉結構，換為海洋題材",
+     "spec": [
+      [
+       "廠牌",
+       "Ready Play Gaming"
+      ],
+      [
+       "遊戲類型",
+       "線上電子老虎機"
+      ],
+      [
+       "盤面",
+       "5×7，100 條線"
+      ],
+      [
+       "消除/賠付",
+       "收集重轉（Hold & Collect）、整盤蛤蜊大獎"
+      ],
+      [
+       "最高倍率",
+       "約 7,202x–9,604x（依 RTP 設定模擬值）"
+      ],
+      [
+       "RTP",
+       "依營運商設定（未公布單一數值）"
+      ],
+      [
+       "波動",
+       "未公布"
+      ],
+      [
+       "目標市場",
+       "拉美（英／西／巴葡三語）"
+      ],
+      [
+       "關鍵特色",
+       "九蛤蜊觸發、3 次重轉重設、全盤大獎、6–15 轉免費遊戲加入 25–200 Wild"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "已查 SoloAzar 內文，RTP 與波動僅提供模擬範圍，官網與 SlotCatalog 未見單一公布值",
+     "sources": [
+      [
+       "SoloAzar",
+       "https://soloazar.com/es/categoria/juegos-online/siren-of-the-deep-almejas-y-premios-en-la-nueva-slot-de-ready-play-gaming"
+      ]
+     ],
+     "date": "2026-11-02",
+     "image": "https://cdn.soloazar.com/storage/images/64646_crop916010_1600px_7tyV9jU9Ezq5KpBQYMlR4l2JgFUkYjf5YVy.jpg",
+     "image_raw": "https://cdn.soloazar.com/storage/images/64646_crop916010_1600px_7tyV9jU9Ezq5KpBQYMlR4l2JgFUkYjf5YVy.jpg"
+    },
+    {
+     "no": 3,
+     "label": "",
+     "title": "40 Extra Crown Mystery Pot – Amusnet",
+     "body": [
+      "Amusnet 推出《40 Extra Crown Mystery Pot》，是 Extra Crown 皇冠系列的新版本，40 條固定線，主打 Mystery Pot 收集：每收集一枚 Bonus Coin 就飛入對應獎池，累積進度後可解開四種隱藏獎勵，其中一種是 5 次保證出現 Wild 的免費遊戲。轉輪 2、3、4 有 Expanding Wild，參與贏分時會擴展覆蓋整條轉輪；另有 Dollar Scatter（三個以上任意位置成獎）與三個 Star Scatter（出現在轉輪 1、3、5 給獎）兩種 Scatter。對 PM 的意義：這是典型的歐洲水果／皇冠系列延伸，進度可視化的收集玩法低成本、可直接放進經典老虎機分類。"
+     ],
+     "derive": "Extra Crown 系列延伸，新增 Mystery Pot 收集與保證 Wild 免費遊戲",
+     "spec": [
+      [
+       "廠牌",
+       "Amusnet"
+      ],
+      [
+       "遊戲類型",
+       "線上電子老虎機"
+      ],
+      [
+       "盤面",
+       "5 轉輪，40 條固定線"
+      ],
+      [
+       "消除/賠付",
+       "固定線賠付、Scatter 任意位置賠付"
+      ],
+      [
+       "最高倍率",
+       "未公布"
+      ],
+      [
+       "RTP",
+       "未公布"
+      ],
+      [
+       "波動",
+       "未公布"
+      ],
+      [
+       "目標市場",
+       "未公布"
+      ],
+      [
+       "關鍵特色",
+       "Bonus Coin 收集進獎池、四種隱藏獎勵、Expanding Wild（轉輪 2–4）、雙 Scatter"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "已查 EEGaming 新聞稿與 Amusnet 相關系列頁，該版本的 RTP、倍率、波動仍無公開資料",
+     "sources": [
+      [
+       "EEGaming",
+       "https://eegaming.org/latest-news/2026/11/02/53439/amusnet-releases-its-new-online-slot-game-40-extra-crown-mystery-pot/"
+      ]
+     ],
+     "date": "2026-11-02",
+     "image": "https://eegaming.org/api/eeg-media/a6edfd59-22bf-4cd7-96f7-daaf23ce6c51.jpg",
+     "image_raw": "https://eegaming.org/api/eeg-media/a6edfd59-22bf-4cd7-96f7-daaf23ce6c51.jpg"
+    },
+    {
+     "no": 4,
+     "label": "",
+     "title": "100 Glossy Hot Coin Boost – Amusnet",
+     "body": [
+      "Amusnet 同日再推出《100 Glossy Hot Coin Boost》，屬於 Coin Boost 系列，把經典水果題材與硬幣機制、多層獎池結合。任何基礎遊戲落下至少一枚 Coin 即可觸發 Coin Boost 功能，先送 5 次免費遊戲並保留觸發的 Coin；功能中轉輪只出現 Cash Coin（銅、銀、金、白金四級）、Jackpot Coin 與特殊符號。獎池為 Mini、Minor、Major、Grand 四級固定獎池，Grand 最高 1,000x。另有任一轉都可能啟動的 Mystery Trigger，以及三選項 Buy Bonus（Coin Boost、Premiums Only、Jackpots Only）。對 PM 的意義：Coin Boost 系列已延伸成多款，對 Hold & Win 類型的穩定供應有參考價值，可觀察哪個皮膚最受歡迎。"
+     ],
+     "derive": "Coin Boost 系列新款，水果皮膚，新增 Mystery Trigger 與三種購買選項",
+     "spec": [
+      [
+       "廠牌",
+       "Amusnet"
+      ],
+      [
+       "遊戲類型",
+       "線上電子老虎機"
+      ],
+      [
+       "盤面",
+       "未公布（名稱為 100 條線）"
+      ],
+      [
+       "消除/賠付",
+       "固定線賠付、Coin Boost 收集"
+      ],
+      [
+       "最高倍率",
+       "Grand Jackpot 1,000x"
+      ],
+      [
+       "RTP",
+       "未公布"
+      ],
+      [
+       "波動",
+       "未公布"
+      ],
+      [
+       "目標市場",
+       "未公布"
+      ],
+      [
+       "關鍵特色",
+       "Coin Boost 5 次免費遊戲、四級固定獎池、Mystery Trigger、三種 Buy Bonus"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "已查 EEGaming 與 Amusnet 系列搜尋，該款 RTP 與盤面仍無公開資料（同系列 100 Lucky Wilds 為 5×4、100 線、96.56%，僅供參考）",
+     "sources": [
+      [
+       "EEGaming",
+       "https://eegaming.org/latest-news/2026/11/02/53436/amusnet-releases-its-latest-video-slot-100-glossy-hot-coin-boost/"
+      ]
+     ],
+     "date": "2026-11-02",
+     "image": "https://eegaming.org/api/eeg-media/383e4671-1cea-4583-9e0d-bdba3141ff7e.jpg",
+     "image_raw": "https://eegaming.org/api/eeg-media/383e4671-1cea-4583-9e0d-bdba3141ff7e.jpg"
+    }
+   ],
+   "count": 4
+  },
+  {
+   "cat": "cat2",
+   "heading": "🕹️ 非 Slot 新內容",
+   "items": [
+    {
+     "no": 1,
+     "label": "",
+     "title": "Crazy Mine Live Slot／Virtual Dynamic Roulette – Amusnet",
+     "body": [
+      "Amusnet 一次推出兩款 Live Casino 內容。《Crazy Mine Live Slot》是由礦工侏儒 Grindie 帶領的地下尋寶主題，是 Amusnet 直播賭場產品線中第一個單一遊戲內含兩層 Jackpot 的設計：基礎遊戲沿用招牌的 Jackpot Cards 機制，Hold & Win 獎勵回合則有四級固定獎池。Grindie 作為 Expanding Wild 橫跨整條轉輪並引爆 TNT，三種 Minecart Gem 分別負責觸發 Jackpot 與增列、倍率、收集獎金；Hold & Win 中盤面擴為 5×6，最多可再解鎖三列，採快節奏五次轉動。《Virtual Dynamic Roulette》則提供最高 4,444x 的倍率。對 PM 的意義：Live 老虎機與動態倍率輪盤是把電子遊戲機制搬進直播桌的趨勢，可評估是否放進 Live 專區測試。"
+     ],
+     "derive": "",
+     "spec": [
+      [
+       "遊戲類型",
+       "Live Game（直播老虎機／倍率輪盤）"
+      ],
+      [
+       "最高倍率",
+       "4,444x（Virtual Dynamic Roulette）"
+      ],
+      [
+       "RTP",
+       "未公布"
+      ],
+      [
+       "目標市場",
+       "未公布"
+      ],
+      [
+       "關鍵特色",
+       "兩層 Jackpot、Expanding Wild＋TNT、Hold & Win 5×6 可擴列"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "已查 Focus Gaming News 新聞稿，倍率取自該稿；RTP 未見公布",
+     "sources": [
+      [
+       "Focus Gaming News",
+       "https://focusgn.com/amusnet-live-casino-new-games"
+      ],
+      [
+       "JAMMA",
+       "https://www.jamma.it/gioco-legale-online/amusnet-amplia-il-live-casino-con-crazy-mine-live-slot-e-virtual-dynamic-roulette-361617"
+      ],
+      [
+       "SoloAzar",
+       "https://soloazar.com/es/categoria/slots/amusnet-amplia-su-catalogo-de-casinos-en-vivo-con-nuevos-titulos"
+      ]
+     ],
+     "date": "2026-11-02",
+     "image": "https://focusgn.com/wp-content/uploads/2026/11/live-casino-1200x800-1-1200x630.jpg",
+     "image_raw": "https://focusgn.com/wp-content/uploads/2026/11/live-casino-1200x800-1-1200x630.jpg"
+    },
+    {
+     "no": 2,
+     "label": "",
+     "title": "Imagine Live 與 Gaming1 合作進入比利時與荷蘭 – Imagine Live",
+     "body": [
+      "Live 內容商 Imagine Live 與 Gaming1 簽約，將直播賭場產品線導入比利時與荷蘭，是該公司在這兩個受監管歐洲市場的首個營運商合作。Gaming1 負責整合與在地法規要求，雙方規劃上線的是真人荷官桌與遊戲秀形式，實際範圍與時程將依各市場監管要求分別決定。Imagine Live 在亞美尼亞、羅馬尼亞與西班牙三地自有攝影棚製作內容，現有超過 200 張桌台、19 種遊戲類型，2022 年創立至今持續擴張歐洲版圖（10/28 曾報導其與希臘 N1 Casino 的合作，這是另一個市場的新合作）。對 PM 的意義：Live 供應商靠「在地營運商整合夥伴」進入嚴格監管市場，可作為評估 Live 內容引進路徑的對照。"
+     ],
+     "derive": "",
+     "spec": [
+      [
+       "遊戲類型",
+       "Live Game（真人荷官桌＋遊戲秀）"
+      ],
+      [
+       "目標市場",
+       "比利時、荷蘭"
+      ],
+      [
+       "關鍵特色",
+       "首個比／荷營運商合作、200+ 張桌台、19 種遊戲類型"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "",
+     "sources": [
+      [
+       "Focus Gaming News",
+       "https://focusgn.com/imagine-live-gaming1-belgium-netherlands"
+      ],
+      [
+       "Gaming Intelligence",
+       "https://www.gamingintelligence.com/sectors/online-gaming/238156-imagine-live-partners-gaming1-for-belgium-and-netherlands-entry/"
+      ],
+      [
+       "European Gaming",
+       "https://europeangaming.eu/portal/press-releases/2026/11/02/217251/imagine-live-gaming1-belgium-netherlands/"
+      ]
+     ],
+     "date": "2026-11-02",
+     "image": "https://focusgn.com/wp-content/uploads/2026/11/Imagine-Live-Gaming1-1200x630.jpg",
+     "image_raw": "https://focusgn.com/wp-content/uploads/2026/11/Imagine-Live-Gaming1-1200x630.jpg"
+    },
+    {
+     "no": 3,
+     "label": "",
+     "title": "EEZE 老虎機負責人談資料與在地化 – EEZE",
+     "body": [
+      "Live Casino 聚合與內容商 EEZE 的老虎機負責人 Laleh Boroumand Jazi 接受專訪，回顧近 14 年的開發經歷，約八年前因參與實體賭場服務應用專案而投入老虎機，約三年前加入 EEZE 並主管老虎機部門。她認為成功的老虎機約六成取決於資料與研究，四成取決於機制、題材、上線時機與目標市場的組合，並強調在地化對貼近各市場玩家偏好的重要性，也承認成功仍帶有不可預測的成分。這是專訪而非新品發布，EEZE 的產品動向可從其內容策略觀察。對 PM 的意義：聚合商把「資料決策＋在地化」當作選品原則，與我們選品時看市場偏好的邏輯一致。"
+     ],
+     "derive": "",
+     "spec": [
+      [
+       "遊戲類型",
+       "Live Game（EEZE 平台／聚合）"
+      ],
+      [
+       "目標市場",
+       "不適用"
+      ],
+      [
+       "關鍵特色",
+       "不適用（人物專訪：資料與研究六成、機制題材四成的選品觀點）"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "",
+     "sources": [
+      [
+       "SoloAzar",
+       "https://soloazar.com/es/categoria/otros/laleh-boroumand-jazi-de-eeze-repasa-su-trayectoria-profesional"
+      ]
+     ],
+     "date": "2026-11-02",
+     "image": "https://cdn.soloazar.com/storage/images/64549_crop916010_1600px_Y6bymZU00LJnWsZQePp9laYwYOhMu9Iq0lc.jpg",
+     "image_raw": "https://cdn.soloazar.com/storage/images/64549_crop916010_1600px_Y6bymZU00LJnWsZQePp9laYwYOhMu9Iq0lc.jpg"
+    }
+   ],
+   "count": 3
+  },
+  {
+   "cat": "cat3",
+   "heading": "🤝 動態：主流 GP／平台",
+   "items": [
+    {
+     "no": 1,
+     "label": "",
+     "title": "Hacksaw Gaming 經 FanDuel 進入康乃狄克州",
+     "body": [
+      "Hacksaw Gaming 透過 FanDuel 首度在美國康乃狄克州上線，延續 2025 年 7 月在賓州與 FanDuel 的合作。Hacksaw 今年 3 月已取得該州 Department of Consumer Protection 核發的線上遊戲服務供應商牌照。營運長 Marcus Cordes 稱這是美國擴張的重要里程碑。報導同時指出康乃狄克州 9 月 iGaming 投注額創下 19.5 億美元紀錄、年增 6%；Hacksaw 母公司在斯德哥爾摩的股價當天上漲 2.61%。對 PM 的意義：Slot 供應商在美國是逐州＋逐平台擴張，牌照與大型營運商渠道是進入門檻，可作為評估美國內容夥伴的參考。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "市場進入"
+      ],
+      [
+       "對象",
+       "Hacksaw Gaming、FanDuel、康乃狄克州"
+      ],
+      [
+       "影響",
+       "美國州別內容分銷再添一州，牌照加渠道成為擴張模式"
+      ]
+     ],
+     "keyrow_raw": "類型 市場進入 ｜ 對象 Hacksaw Gaming、FanDuel、康乃狄克州 ｜ 影響 美國州別內容分銷再添一州，牌照加渠道成為擴張模式",
+     "verify": "",
+     "sources": [
+      [
+       "Gaming Intelligence",
+       "https://www.gamingintelligence.com/sectors/online-gaming/238178-hacksaw-debuts-in-connecticut-with-fanduel/"
+      ]
+     ],
+     "date": "2026-11-02",
+     "image": "https://www.gamingintelligence.com/wp-content/uploads/2025/10/Hacksaw-Gaming-logo-1200px.jpg",
+     "image_raw": "https://www.gamingintelligence.com/wp-content/uploads/2025/10/Hacksaw-Gaming-logo-1200px.jpg"
+    },
+    {
+     "no": 2,
+     "label": "",
+     "title": "Evoplay 推出 Player Space 玩家留存系統",
+     "body": [
+      "Evoplay 推出 Player Space，一套橫跨其全產品線的忠誠與留存生態：採 15 級賽季通行證（Season Pass）模式，玩家在遊玩中累積經驗值、升級並獲得可兌換獎勵的 Crystals。官方定位為「即開即用」方案，只需極少技術整合，支援桌機、手機與平板，合作營運商可客製部分元素。執行長 Ivan Kravchuk 表示目標是從單次促銷轉向連續性的玩家旅程。對 PM 的意義：內容商開始自帶留存層，若能與營運商既有活動疊加，可降低自建成本，但要評估與自家等級系統的衝突。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "運營活動（產品）"
+      ],
+      [
+       "對象",
+       "Evoplay、合作營運商"
+      ],
+      [
+       "影響",
+       "內容商把留存機制做成可嵌入的產品，競爭從遊戲本身延伸到玩家旅程"
+      ]
+     ],
+     "keyrow_raw": "類型 運營活動（產品） ｜ 對象 Evoplay、合作營運商 ｜ 影響 內容商把留存機制做成可嵌入的產品，競爭從遊戲本身延伸到玩家旅程",
+     "verify": "",
+     "sources": [
+      [
+       "EEGaming",
+       "https://eegaming.org/latest-news/2026/11/02/53446/evoplay-rolls-out-player-space-loyalty-layer-for-igaming-operators/"
+      ]
+     ],
+     "date": "2026-11-02",
+     "image": "https://eegaming.org/api/eeg-media/b5592ca7-d118-4b1b-9aea-c7d61128fa07.jpg",
+     "image_raw": "https://eegaming.org/api/eeg-media/b5592ca7-d118-4b1b-9aea-c7d61128fa07.jpg"
+    },
+    {
+     "no": 3,
+     "label": "",
+     "title": "TaDa Gaming 帶著義大利 86 款認證遊戲赴 SiGMA World 羅馬",
+     "body": [
+      "TaDa Gaming 宣布參加 11 月 3–5 日的 SiGMA World 羅馬展（Fiera Roma，展位 H6-6036），展出歐洲產品組合、在地內容與新玩法，以及最新的遊戲化工具。業務發展總監 Ray Lee 表示，歐洲已透過 Superbet（羅馬尼亞）、Betano（葡萄牙）、Novibet（希臘）、Circus（荷蘭）等合作成長，並持續擴大比利時布局；義大利方面已有超過 86 款遊戲通過 2026 年新規認證，並與 Eurobet、Betsson 合作。展位主打 Gold Mine Express，是其在歐洲表現穩定的牛仔火車題材作品。對 PM 的意義：TaDa 是優先追蹤品牌，歐洲認證與渠道數字可作為其亞洲以外擴張力道的判斷依據。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "展會／市場進入"
+      ],
+      [
+       "對象",
+       "TaDa Gaming、Eurobet、Betsson"
+      ],
+      [
+       "影響",
+       "以 86 款義大利認證遊戲與多國營運商渠道，展示歐洲擴張進度"
+      ]
+     ],
+     "keyrow_raw": "類型 展會／市場進入 ｜ 對象 TaDa Gaming、Eurobet、Betsson ｜ 影響 以 86 款義大利認證遊戲與多國營運商渠道，展示歐洲擴張進度",
+     "verify": "",
+     "sources": [
+      [
+       "EEGaming",
+       "https://eegaming.org/latest-news/2026/11/02/53437/tada-heads-to-rome-for-sigma-world-summit/"
+      ]
+     ],
+     "date": "2026-11-02",
+     "image": "https://eegaming.org/api/eeg-media/21c0f62e-eb37-446a-b0a1-21d3a282968c.jpg",
+     "image_raw": "https://eegaming.org/api/eeg-media/21c0f62e-eb37-446a-b0a1-21d3a282968c.jpg"
+    }
+   ],
+   "count": 3
+  },
+  {
+   "cat": "cat4",
+   "heading": "🇵🇭 動態：菲律賓 GP／平台",
+   "items": [
+    {
+     "no": 1,
+     "label": "📦（11/1）",
+     "title": "BingoPlus 與 Regal 合作推出《Shake, Rattle & Roll》五款原創遊戲",
+     "body": [
+      "Regal Entertainment 與 BingoPlus（DigiPlus Interactive 旗下）合作，把已有 40 多年歷史的菲律賓恐怖電影系列《Shake, Rattle & Roll》搬進數位遊戲，推出五款原創遊戲：Manananggal、Reyna Ahas、Triple Terror、LRT Monster 與 Aswang，題材取自菲律賓民間傳說與神話。Regal 總裁 Roselle Monteverde 表示，合作讓系列在不失在地文化特色下觸及新一代；BingoPlus 方面強調要給玩家「新鮮、為他們打造」的內容。本報導為品牌合作發布稿。對 PM 的意義：BingoPlus 用本土電影 IP 做獨家遊戲，與先前 YellowBat 合作的 Reyna Ahas 同屬一條線，是菲律賓平台以在地 IP 差異化的具體案例。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "合作"
+      ],
+      [
+       "對象",
+       "BingoPlus、DigiPlus、Regal Entertainment"
+      ],
+      [
+       "影響",
+       "本土電影 IP 授權進入平台獨家遊戲，強化菲律賓玩家的文化黏著"
+      ]
+     ],
+     "keyrow_raw": "類型 合作 ｜ 對象 BingoPlus、DigiPlus、Regal Entertainment ｜ 影響 本土電影 IP 授權進入平台獨家遊戲，強化菲律賓玩家的文化黏著",
+     "verify": "",
+     "sources": [
+      [
+       "Cinema Bravo",
+       "https://cinemabravo.com/2026/11/01/shake-rattle-roll-brings-iconic-filipino-horror-scares-to-digital-gaming-with-bingoplus-regal-entertainment"
+      ]
+     ],
+     "date": "2026-11-01",
+     "image": "https://i0.wp.com/cinemabravo.com/wp-content/uploads/2026/11/e28098shake-rattle-roll-brings-iconic-filipino-horror-scares-to-digital-gaming-with-bingoplus-regal-entertainment.png?fit=1200%2C787&ssl=1",
+     "image_raw": "https://i0.wp.com/cinemabravo.com/wp-content/uploads/2026/11/e28098shake-rattle-roll-brings-iconic-filipino-horror-scares-to-digital-gaming-with-bingoplus-regal-entertainment.png?fit=1200%2C787&ssl=1"
+    }
+   ],
+   "count": 1
+  },
+  {
+   "cat": "cat5",
+   "heading": "📊 市場數據 & 趨勢",
+   "items": [
+    {
+     "no": 1,
+     "label": "",
+     "title": "義大利線上賭場 10 月支出 3.2 億歐元、年增 9%",
+     "body": [
+      "據 AgiproNews 報導，義大利線上賭場 10 月玩家支出（投注減獎金）達 3.2 億歐元，年增 9%，當月總投注額超過 74 億歐元。業者排名中，Lottomatica 集團市占 31.4%（含 Bgame 與 Sportbet，兩者合計 1.3%），Flutter 集團（Sisal、Snaitech、PokerStars、Tombola、Betfair）27.3%；888 與 William Hill（Evoke）合計 8.6%，Entain 旗下 Eurobet 與 Bwin 為 7.2%；其他非大集團業者合計 7,400 萬歐元、占 23.2%，較 9 月多出一個百分點以上。對 PM 的意義：義大利在稅制調整前仍維持成長，市場集中於前兩大集團，獨立業者小幅回升。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "市場數據"
+      ],
+      [
+       "對象",
+       "Lottomatica、Flutter、Evoke、Entain"
+      ],
+      [
+       "影響",
+       "義大利線上賭場持續成長且高度集中"
+      ]
+     ],
+     "keyrow_raw": "類型 市場數據 ｜ 對象 Lottomatica、Flutter、Evoke、Entain ｜ 影響 義大利線上賭場持續成長且高度集中",
+     "verify": "",
+     "sources": [
+      [
+       "AgiproNews",
+       "https://www.agipronews.it/casino-online-320-milioni-spesi-a-ottobre-9-gruppo-lottomatica-leader-314-davanti-a-flutter-e-evoke"
+      ]
+     ],
+     "date": "2026-11-02",
+     "image": "https://agipronews.it/storage/media/1285/conversions/01M5ABEVXJK5RFVKD8VG1H8XFE-large.webp",
+     "image_raw": "https://agipronews.it/storage/media/1285/conversions/01M5ABEVXJK5RFVKD8VG1H8XFE-large.webp"
+    },
+    {
+     "no": 2,
+     "label": "",
+     "title": "俄亥俄州 9 月賭場收入 8,770 萬美元、年增 12.6%，Slot 占 6,540 萬",
+     "body": [
+      "俄亥俄賭場監管委員會資料顯示，9 月該州賭場營收 8,770 萬美元，年增 12.6%。Slot 貢獻 6,540 萬美元（年增 12%），桌上遊戲 2,220 萬美元（年增 14.7%）。四間賭場中 Hollywood Columbus 以 2,650 萬美元居首，年增 20.1%，其中 Slot 年增 17.6%；Jack Cleveland 2,090 萬美元（年增 7%）、Hard Rock Cincinnati 2,050 萬美元（年增 15.6%）、Hollywood Toledo 1,980 萬美元（年增 6.9%）。對 PM 的意義：Slot 仍占實體賭場收入約四分之三，且成長與桌遊同步，實體機台需求並未被稀釋。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "市場數據"
+      ],
+      [
+       "對象",
+       "俄亥俄賭場監管委員會、Hollywood Columbus"
+      ],
+      [
+       "影響",
+       "Slot 在美國中西部實體賭場維持雙位數成長"
+      ]
+     ],
+     "keyrow_raw": "類型 市場數據 ｜ 對象 俄亥俄賭場監管委員會、Hollywood Columbus ｜ 影響 Slot 在美國中西部實體賭場維持雙位數成長",
+     "verify": "",
+     "sources": [
+      [
+       "CDC Gaming",
+       "https://cdcgaming.com/ohio-casino-revenue-surges-12-6-to-87-7-million-in-september/"
+      ]
+     ],
+     "date": "2026-11-02",
+     "image": "https://cdcgaming.com/wp-content/uploads/og-cache/159736.jpg",
+     "image_raw": "https://cdcgaming.com/wp-content/uploads/og-cache/159736.jpg"
+    },
+    {
+     "no": 3,
+     "label": "",
+     "title": "哥倫比亞 1–8 月線上體育投注收入年增 84%",
+     "body": [
+      "哥倫比亞監管機構 Coljuegos 資料顯示，2026 年 1–8 月線上體育投注收入年增 84.24%，受世界盃相關投注帶動；同期總徵收額 9,772 億哥倫比亞披索（約 3.01 億美元），較去年同期增 39.38%，其中線上體育投注貢獻 4,730 億披索（約 1.46 億美元），占近一半，用於補助醫療體系。報導並引用 DataReportal 資料，哥倫比亞上網人口中 13.8% 參與線上賭博，全球排名第 22。對 PM 的意義：大型賽事對拉美線上投注的外溢明顯，可作為賽事期間流量與營收規劃的參考。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "市場數據"
+      ],
+      [
+       "對象",
+       "Coljuegos、哥倫比亞線上營運商"
+      ],
+      [
+       "影響",
+       "世界盃推升線上投注，徵收額年增近四成"
+      ]
+     ],
+     "keyrow_raw": "類型 市場數據 ｜ 對象 Coljuegos、哥倫比亞線上營運商 ｜ 影響 世界盃推升線上投注，徵收額年增近四成",
+     "verify": "",
+     "sources": [
+      [
+       "G3 Newswire",
+       "https://g3newswire.com/colombias-online-betting-revenue-rises-84-per-cent-following-world-cup/"
+      ]
+     ],
+     "date": "2026-11-02",
+     "image": "https://g3newswire.com/wp-content/uploads/2026/11/ColombiaBogataStadium.jpg",
+     "image_raw": "https://g3newswire.com/wp-content/uploads/2026/11/ColombiaBogataStadium.jpg"
+    }
+   ],
+   "count": 3
+  }
+ ],
+ "stats": {
+  "n1": 40,
+  "n2": 20
+ },
+ "internal": "## 🗓️ 來源日期紀錄（內部，不渲染）\n\n剔除：Triple Gobble Wobble（唯一來源為 10/13 iGamingToday 評測，已超過 7 天保鮮期）；剔除：Swintt Wrap 'N' Roll (Elysium Studios)（11/1 已出現 Wrap 'N' Roll）；剔除：Penguin Heist（查無新聞稿與參數、無法驗證）；剔除：Book of Blood（查無新聞稿與參數、無法驗證）\n\n- Azteca Legacy：EEGaming metadata 2026-11-02T08:16Z＝16:16 台北；iGaming Future 08:00Z\n- Siren Of The Deep：SoloAzar metadata 2026-11-02T12:00Z（20:00 台北）\n- 40 Extra Crown Mystery Pot：EEGaming 2026-11-02 14:02 台北（RSS）\n- 100 Glossy Hot Coin Boost：EEGaming 2026-11-02 13:54 台北（RSS）\n- Amusnet Live：Focus Gaming News 2026-11-02T08:32 -03:00＝11-02 19:32 台北\n- Imagine Live × Gaming1：Focus Gaming News 2026-11-02T07:46 -03:00＝18:46 台北\n- EEZE 專訪：SoloAzar 2026-11-02 20:00（RSS）\n- Hacksaw 康乃狄克：Gaming Intelligence 2026-11-02T13:57Z＝21:57 台北\n- Evoplay Player Space：EEGaming 2026-11-02T08:43Z＝16:43 台北\n- TaDa SiGMA：EEGaming 2026-11-02T05:57Z＝13:57 台北\n- BingoPlus × Regal：Cinema Bravo 2026-11-01T08:07Z＝11-01 16:07 台北（庫存補位，保鮮期內）\n- 義大利線上賭場：AgiproNews 2026-11-02T18:16 +01:00＝11-03 01:16 台北\n- 俄亥俄：CDC Gaming 2026-11-02T11:56 -05:00＝11-03 00:56 台北\n- 哥倫比亞：G3 Newswire 2026-11-02T14:20Z＝22:20 台北\n- 剔除：Le Clubber／Hacksaw（iGamingToday 評測 8/10、官方上線日未確認，主來源日期不合）\n- 剔除：Fortune Garuda 500 JACKPOT／TaDa Gaming（SlotsLaunch 標 Coming Soon，無新聞稿與參數，查無該變體資料）\n- 剔除：36 Coins x3000／Wazdan（SlotsLaunch 標 Coming Soon，無新聞稿與參數）\n- 剔除：Penguin Heist（查無新聞稿與參數、無法驗證）\n- 剔除：Book of Blood（查無新聞稿與參數、無法驗證）\n- 剔除：Swintt Wrap 'N' Roll (Elysium Studios)／Swintt（11/1 已出現 Wrap 'N' Roll）\n- 剔除：Triple Gobble Wobble（唯一來源為 10/13 iGamingToday 評測，已超過 7 天保鮮期，無新聞稿可作主來源）\n- 剔除：Panda's Coins（10/31 已出現）\n- 剔除：GameZone 品牌觸及（與 10/31 Gloc-9 合作同一事件）、Casino Plus MassKara（與 11/1 Hataw MassKara 同一活動）、Casino Plus 合規（與 10/31 Evolution 線下合作同一事件）\n- 剔除：SmartSoft JetX 更新（11/1 已出現）",
+ "header_counts": "🎰 Slot 4 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3",
+ "edition": "",
+ "summary": {
+  "slot": "Azteca Legacy – PG Soft",
+  "trend": "三區訊息指向同一個方向：競爭重心從「多上幾款新遊戲」轉向「留存機制、在地化與 IP 綁定」。TaDa Gaming 在義大利新規下已有 86 款遊戲通過認證，Evoplay 推出 15 級賽季通行證式的 Player Space 留存系統，BingoPlus 則與 Regal 的《Shake, Rattle & Roll》系列電影合作推出五款原創遊戲，都是用在地內容與長期進度設計去對抗單純的新品曝光。對 PM 的意涵：新品排程之外，也要評估留存層（等級、獎勵、IP 授權）能否跟內容一起上架。"
+ },
+ "firecrawl": {
+  "used": 7,
+  "remaining": 900,
+  "reset": "2026-11-14",
+  "reset_source": "api"
+ }
+}
