@@ -1,0 +1,4 @@
+machine=NAS
+started=1793644208
+status=running
+updated=2026-11-03 02:30:08
