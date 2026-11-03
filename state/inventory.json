@@ -199,24 +199,57 @@
     }
    ],
    "key": "bookofblood|excellentreel"
+  },
+  {
+   "cat": "cat1",
+   "title": "Supernova Shooting Stars",
+   "gp": "Hacksaw Gaming",
+   "b": 3,
+   "first_seen": "2026-11-04",
+   "release_date": "2026-11-05",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/hacksaw-gaming/supernova-shooting-stars",
+     "published": "2026-11-05"
+    }
+   ],
+   "key": "supernovashootingstars|hacksawgaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Super Golden Spins",
+   "gp": "Pragmatic Play",
+   "b": 4,
+   "first_seen": "2026-11-04",
+   "release_date": "2026-11-05",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/pragmatic-play/super-golden-spins",
+     "published": "2026-11-05"
+    }
+   ],
+   "key": "supergoldenspins|pragmaticplay"
+  },
+  {
+   "cat": "cat1",
+   "title": "The Collector",
+   "gp": "Betsoft",
+   "b": 3,
+   "first_seen": "2026-11-04",
+   "release_date": "2026-11-05",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/betsoft/the-collector",
+     "published": "2026-11-05"
+    }
+   ],
+   "key": "thecollector|betsoft"
   }
  ],
  "others": [
-  {
-   "cat": "cat2",
-   "title": "SmartSoft 更新 JetX Crash 遊戲（Four Bet 等）",
-   "gp": "SmartSoft",
-   "b": 1,
-   "first_seen": "2026-10-31",
-   "sources": [
-    {
-     "name": "SlotBeats",
-     "url": "https://slotbeats.com/slot-news/smartsoft-jetx-crash-game-updates/",
-     "published": "2026-10-30 23:50"
-    }
-   ],
-   "key": "smartsoft更新jetxcrash遊戲fourbet等|smartsoft"
-  },
   {
    "cat": "cat3",
    "title": "CreditSights：MGM 與 People Inc 投票協議對 MGM China 構成事件風險",
@@ -314,86 +347,22 @@
     }
    ],
    "key": "seaport澳門ggr11月前仍疲弱高端客群持續低迷|"
+  },
+  {
+   "cat": "cat5",
+   "title": "Lottomatica 前九個月營收 17.2 億歐元，線上成長 13%",
+   "sources": [
+    {
+     "name": "Gaming Intelligence",
+     "url": "https://www.gamingintelligence.com/finance/238226-lottomatica-profits-as-revenue-grows-to-e1-72-billion-in-9m-2026/",
+     "published": "2026-11-03 18:40"
+    }
+   ],
+   "first_seen": "2026-11-04",
+   "key": "lottomatica前九個月營收172億歐元線上成長13|"
   }
  ],
  "history": [
-  {
-   "key": "divinequeenpowerofsun|bgaming",
-   "date": "2026-10-04",
-   "cat": "cat1",
-   "title": "Divine Queen: Power of Sun",
-   "gp": "BGaming"
-  },
-  {
-   "key": "triplefiesta|redrakegaming",
-   "date": "2026-10-04",
-   "cat": "cat1",
-   "title": "Triple Fiesta",
-   "gp": "Red Rake Gaming"
-  },
-  {
-   "key": "norsktipping擬開放線上撲克|norsktipping",
-   "date": "2026-10-04",
-   "cat": "cat2",
-   "title": "Norsk Tipping 擬開放線上撲克",
-   "gp": "Norsk Tipping"
-  },
-  {
-   "key": "tadagamingplinkoofmine進軍義大利市場|tadagaming",
-   "date": "2026-10-04",
-   "cat": "cat2",
-   "title": "TaDa Gaming Plinko of Mine 進軍義大利市場",
-   "gp": "TaDa Gaming"
-  },
-  {
-   "key": "巴西央行正式封鎖pixtedboleto用於固定賠率博彩交易|bancocentraldobrasil",
-   "date": "2026-10-04",
-   "cat": "cat3",
-   "title": "巴西央行正式封鎖 Pix、TED、Boleto 用於固定賠率博彩交易",
-   "gp": "Banco Central do Brasil"
-  },
-  {
-   "key": "英國bgc警告機台博彩稅調漲恐危及逾2億英鎊投資|bgc",
-   "date": "2026-10-04",
-   "cat": "cat3",
-   "title": "英國 BGC 警告機台博彩稅調漲恐危及逾 2 億英鎊投資",
-   "gp": "BGC"
-  },
-  {
-   "key": "sbcsummit與里斯本續約至2030年|sbcsummit",
-   "date": "2026-10-04",
-   "cat": "cat3",
-   "title": "SBC Summit 與里斯本續約至 2030 年",
-   "gp": "SBC Summit"
-  },
-  {
-   "key": "fitchokadamanila母公司universal未來三年恐持續負自由現金流|universalentertainment",
-   "date": "2026-10-04",
-   "cat": "cat4",
-   "title": "Fitch：Okada Manila 母公司 Universal 未來三年恐持續負自由現金流",
-   "gp": "Universal Entertainment"
-  },
-  {
-   "key": "韓國paradiseco9月博弈營收創紀錄季度收官|paradiseco",
-   "date": "2026-10-04",
-   "cat": "cat5",
-   "title": "韓國 Paradise Co 9 月博弈營收創紀錄季度收官",
-   "gp": "Paradise Co"
-  },
-  {
-   "key": "grandkorealeisure9月博弈營收年增72|grandkorealeisure",
-   "date": "2026-10-04",
-   "cat": "cat5",
-   "title": "Grand Korea Leisure 9 月博弈營收年增 7.2%",
-   "gp": "Grand Korea Leisure"
-  },
-  {
-   "key": "qci於g2e2026推出ai驅動的賭場營收預測工具|quickcustomintelligence",
-   "date": "2026-10-04",
-   "cat": "cat5",
-   "title": "QCI 於 G2E 2026 推出 AI 驅動的賭場營收預測工具",
-   "gp": "Quick Custom Intelligence"
-  },
   {
    "key": "moneytrain5|relaxgaming",
    "date": "2026-10-05",
@@ -3934,6 +3903,125 @@
    "date": "2026-11-03",
    "cat": "cat5",
    "title": "哥倫比亞 1–8 月線上體育投注收入年增 84%",
+   "gp": ""
+  },
+  {
+   "key": "36coinsx3000|wazdan",
+   "date": "2026-11-04",
+   "cat": "cat1",
+   "title": "36 Coins x3000",
+   "gp": "Wazdan"
+  },
+  {
+   "key": "tripletumblintotems|playngo",
+   "date": "2026-11-04",
+   "cat": "cat1",
+   "title": "Triple Tumblin' Totems",
+   "gp": "Play'n GO"
+  },
+  {
+   "key": "25magicplums|wazdan",
+   "date": "2026-11-04",
+   "cat": "cat1",
+   "title": "25 Magic Plums",
+   "gp": "Wazdan"
+  },
+  {
+   "key": "empressofjewels|zitro",
+   "date": "2026-11-04",
+   "cat": "cat1",
+   "title": "Empress of Jewels",
+   "gp": "Zitro"
+  },
+  {
+   "key": "jellysevens|ctinteractive",
+   "date": "2026-11-04",
+   "cat": "cat1",
+   "title": "Jelly Sevens",
+   "gp": "CT Interactive"
+  },
+  {
+   "key": "3goldenpiggies|gamomat",
+   "date": "2026-11-04",
+   "cat": "cat1",
+   "title": "3 Golden Piggies",
+   "gp": "Gamomat"
+  },
+  {
+   "key": "qtech整合veliplay全系列crash與即時遊戲|",
+   "date": "2026-11-04",
+   "cat": "cat2",
+   "title": "QTech 整合 VeliPlay 全系列 Crash 與即時遊戲",
+   "gp": ""
+  },
+  {
+   "key": "pragmaticplay為rankgroup推出smartstudio客製直播桌|",
+   "date": "2026-11-04",
+   "cat": "cat2",
+   "title": "Pragmatic Play 為 Rank Group 推出 Smart Studio 客製直播桌",
+   "gp": ""
+  },
+  {
+   "key": "iconic21推出freedoublesplitblackjack|",
+   "date": "2026-11-04",
+   "cat": "cat2",
+   "title": "ICONIC21 推出 Free Double & Split Blackjack",
+   "gp": ""
+  },
+  {
+   "key": "playngo推出促銷生態系gomomentum|",
+   "date": "2026-11-04",
+   "cat": "cat3",
+   "title": "Play'n GO 推出促銷生態系 GO Momentum",
+   "gp": ""
+  },
+  {
+   "key": "playson推出blitzmode快速遊玩介面|",
+   "date": "2026-11-04",
+   "cat": "cat3",
+   "title": "Playson 推出 Blitz Mode 快速遊玩介面",
+   "gp": ""
+  },
+  {
+   "key": "ainsworth擴大與布宜諾斯艾利斯賭場的合作新增astarraptor機台|",
+   "date": "2026-11-04",
+   "cat": "cat3",
+   "title": "Ainsworth 擴大與布宜諾斯艾利斯賭場的合作，新增 A-STAR Raptor 機台",
+   "gp": ""
+  },
+  {
+   "key": "digiplus第三季轉虧948億披索但核心ebitda增40|",
+   "date": "2026-11-04",
+   "cat": "cat4",
+   "title": "DigiPlus 第三季轉虧 9.48 億披索，但核心 EBITDA 增 40%",
+   "gp": ""
+  },
+  {
+   "key": "amlc表示將處理偽裝成小商家的非法線上賭場|",
+   "date": "2026-11-04",
+   "cat": "cat4",
+   "title": "AMLC 表示將處理偽裝成小商家的非法線上賭場",
+   "gp": ""
+  },
+  {
+   "key": "hacksawgaming第三季營收年增12至5810萬歐元高層改組|",
+   "date": "2026-11-04",
+   "cat": "cat5",
+   "title": "Hacksaw Gaming 第三季營收年增 12% 至 5,810 萬歐元，高層改組",
+   "gp": ""
+  },
+  {
+   "key": "seaport預估澳門11月ggr年減61連續第六個月下滑|",
+   "date": "2026-11-04",
+   "cat": "cat5",
+   "title": "Seaport 預估澳門 11 月 GGR 年減 6.1%，連續第六個月下滑",
+   "gp": ""
+  },
+  {
+   "key": "哥倫比亞提案對線上賭博儲值課徵19增值稅|",
+   "date": "2026-11-04",
+   "cat": "cat5",
+   "title": "哥倫比亞提案對線上賭博儲值課徵 19% 增值稅",
    "gp": ""
   }
  ],

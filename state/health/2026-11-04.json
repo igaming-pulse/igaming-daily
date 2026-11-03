@@ -1,0 +1,54 @@
+{
+ "date": "2026-11-04",
+ "alerts": [
+  "🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（19 天）、SiGMA（15 天）、GiocoNews（5 天）；請檢查網址或改抓取方式"
+ ],
+ "info": {
+  "credits": {
+   "remaining": 895,
+   "plan": 1000,
+   "period_end": "2026-11-14",
+   "today_use": 5,
+   "daily_use": 6,
+   "daily_basis": "近 7 天實際",
+   "days_to_reset": 10,
+   "need_until_reset": 60
+  },
+  "tier": {
+   "tier": "🟢 充裕",
+   "budget": 88,
+   "remaining": 900,
+   "period_end": "2026-11-14",
+   "days_to_reset": 10,
+   "reserve": 20,
+   "note": "全開",
+   "lists_spent": 6,
+   "article_limit": 22,
+   "image_extra": 12
+  },
+  "sources": {
+   "total": 106,
+   "failed_today": [
+    "GiocoNews",
+    "BigWinBoard 新作列表",
+    "SiGMA"
+   ],
+   "streak_3d": [
+    "BigWinBoard 新作列表",
+    "SiGMA",
+    "GiocoNews"
+   ]
+  },
+  "candidates": {
+   "today": 545,
+   "median_same_type": 510,
+   "basis_days": 5,
+   "type": "平日窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 2,
+   "fixes": 1
+  }
+ }
+}

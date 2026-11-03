@@ -1,0 +1,29 @@
+{
+ "date": "2026-11-04",
+ "md": "state/2026-11-04-igaming-report.md",
+ "html": "reports/2026-11-04.html",
+ "items": 17,
+ "counts": {
+  "cat1": 6,
+  "cat2": 3,
+  "cat3": 3,
+  "cat4": 2,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 49,
+  "ok": 47,
+  "broken": 0,
+  "blocked": 2,
+  "images_dropped": 0,
+  "images": 17
+ },
+ "errors": [],
+ "warnings": [
+  "cat3-02 Playson 推出 Blitz Mode 快速｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Brazil https://igamingbrazil.com/online/2026/11/03/modo-blitz-playson-anuncia-novo-recurso/",
+  "cat5-02 Seaport 預估澳門 11 月 GGR 年減｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/macau-full-year-2026-ggr-growth-likely-below-1pct-with-6pct-decline-forecast-for-nov-seaport"
+ ],
+ "fixes": [
+  "文末｜資料來源數 30 → 32（程式依來源連結去重計算）"
+ ]
+}
