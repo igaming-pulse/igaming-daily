@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-05",
+ "md": "state/2026-11-05-special-igaming-report.md",
+ "html": "reports/2026-11-05-special.html",
+ "items": 6,
+ "counts": {
+  "cat1": 6
+ },
+ "links": {
+  "checked": 12,
+  "ok": 12,
+  "broken": 0,
+  "blocked": 0,
+  "images_dropped": 0,
+  "images": 6
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-02 Triple Gobble Wobble – A｜新作預告主來源 2026-10-13 已 23 天（只有熱門 IP 可放寬到 30 天）"
+ ],
+ "fixes": [
+  "文末｜資料來源數 7 → 6（程式依來源連結去重計算）"
+ ]
+}

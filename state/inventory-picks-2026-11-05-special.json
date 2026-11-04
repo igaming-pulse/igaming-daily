@@ -1,0 +1,35 @@
+{
+ "shown": [
+  {
+   "cat": "cat1",
+   "title": "The Collector",
+   "gp": "Betsoft"
+  },
+  {
+   "cat": "cat1",
+   "title": "Triple Gobble Wobble",
+   "gp": "AvatarUX"
+  },
+  {
+   "cat": "cat1",
+   "title": "Book of Blood",
+   "gp": "Excellent Reel"
+  },
+  {
+   "cat": "cat1",
+   "title": "Penguin Heist",
+   "gp": "Oi Studios"
+  },
+  {
+   "cat": "cat1",
+   "title": "Ares' Fury: The Age of Gods",
+   "gp": "Arancita"
+  },
+  {
+   "cat": "cat1",
+   "title": "Coin Volt: Charge and Strike",
+   "gp": "NeverEnding Games"
+  }
+ ],
+ "stock": []
+}

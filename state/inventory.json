@@ -77,22 +77,6 @@
   },
   {
    "cat": "cat1",
-   "title": "Triple Gobble Wobble",
-   "gp": "AvatarUX",
-   "b": 1,
-   "first_seen": "2026-10-14",
-   "release_date": "2026-11-06",
-   "sources": [
-    {
-     "name": "iGamingToday",
-     "url": "https://www.igamingtoday.com/triple-gobble-wobble-slot-review/",
-     "published": "2026-10-13 15:08"
-    }
-   ],
-   "key": "triplegobblewobble|avatarux"
-  },
-  {
-   "cat": "cat1",
    "title": "Big Bass Christmas Blast 1000",
    "gp": "Pragmatic Play",
    "b": 4,
@@ -106,21 +90,6 @@
     }
    ],
    "key": "bigbasschristmasblast1000|pragmaticplay"
-  },
-  {
-   "cat": "cat1",
-   "title": "Swintt Wrap 'N' Roll (Elysium Studios)",
-   "gp": "Swintt",
-   "b": 1,
-   "first_seen": "2026-10-31",
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/10/29/53410/swintt-adds-elysium-studios-slot-wrap-n-roll-to-portfolio/",
-     "published": "2026-10-29 18:00"
-    }
-   ],
-   "key": "swinttwrapnrollelysiumstudios|swintt"
   },
   {
    "cat": "cat1",
@@ -169,82 +138,6 @@
     }
    ],
    "key": "lesantaholdwin|hacksawgaming"
-  },
-  {
-   "cat": "cat1",
-   "title": "Penguin Heist",
-   "gp": "Oi Studios",
-   "b": 1,
-   "first_seen": "2026-11-02",
-   "sources": [
-    {
-     "name": "SlotsLaunch",
-     "url": "https://slotslaunch.com/oi-studios/penguin-heist",
-     "published": "2026-11-02 00:00"
-    }
-   ],
-   "key": "penguinheist|oistudios"
-  },
-  {
-   "cat": "cat1",
-   "title": "Book of Blood",
-   "gp": "Excellent Reel",
-   "b": 1,
-   "first_seen": "2026-11-02",
-   "sources": [
-    {
-     "name": "SlotsLaunch",
-     "url": "https://slotslaunch.com/excellent-reel/book-of-blood",
-     "published": "2026-11-02 00:00"
-    }
-   ],
-   "key": "bookofblood|excellentreel"
-  },
-  {
-   "cat": "cat1",
-   "title": "The Collector",
-   "gp": "Betsoft",
-   "b": 3,
-   "first_seen": "2026-11-04",
-   "release_date": "2026-11-05",
-   "sources": [
-    {
-     "name": "SlotsLaunch",
-     "url": "https://slotslaunch.com/betsoft/the-collector",
-     "published": "2026-11-05"
-    }
-   ],
-   "key": "thecollector|betsoft"
-  },
-  {
-   "cat": "cat1",
-   "title": "Coin Volt: Charge and Strike",
-   "gp": "NeverEnding Games",
-   "b": 1,
-   "first_seen": "2026-11-05",
-   "sources": [
-    {
-     "name": "SlotBeats",
-     "url": "https://slotbeats.com/featured/coin-volt-charge-strike-neverending/",
-     "published": "2026-11-04 21:25"
-    }
-   ],
-   "key": "coinvoltchargeandstrike|neverendinggames"
-  },
-  {
-   "cat": "cat1",
-   "title": "Ares' Fury: The Age of Gods",
-   "gp": "Arancita",
-   "b": 1,
-   "first_seen": "2026-11-05",
-   "sources": [
-    {
-     "name": "AgiproNews",
-     "url": "https://www.agipronews.it/ares-fury-the-age-of-gods-una-nuova-esclusiva-firmata-arancita-arriva-su-betpoint",
-     "published": "2026-11-04 18:10"
-    }
-   ],
-   "key": "aresfurytheageofgods|arancita"
   }
  ],
  "others": [
@@ -4074,6 +3967,48 @@
    "cat": "cat5",
    "title": "Kambi 第三季營收增 23%，上修全年獲利財測",
    "gp": ""
+  },
+  {
+   "key": "thecollector|betsoft",
+   "date": "2026-11-05",
+   "cat": "cat1",
+   "title": "The Collector",
+   "gp": "Betsoft"
+  },
+  {
+   "key": "triplegobblewobble|avatarux",
+   "date": "2026-11-05",
+   "cat": "cat1",
+   "title": "Triple Gobble Wobble",
+   "gp": "AvatarUX"
+  },
+  {
+   "key": "bookofblood|excellentreel",
+   "date": "2026-11-05",
+   "cat": "cat1",
+   "title": "Book of Blood",
+   "gp": "Excellent Reel"
+  },
+  {
+   "key": "penguinheist|oistudios",
+   "date": "2026-11-05",
+   "cat": "cat1",
+   "title": "Penguin Heist",
+   "gp": "Oi Studios"
+  },
+  {
+   "key": "aresfurytheageofgods|arancita",
+   "date": "2026-11-05",
+   "cat": "cat1",
+   "title": "Ares' Fury: The Age of Gods",
+   "gp": "Arancita"
+  },
+  {
+   "key": "coinvoltchargeandstrike|neverendinggames",
+   "date": "2026-11-05",
+   "cat": "cat1",
+   "title": "Coin Volt: Charge and Strike",
+   "gp": "NeverEnding Games"
   }
  ],
  "rejected": [
@@ -4093,6 +4028,12 @@
    "date": "2026-10-11",
    "title": "Sweet Bonanza Xmas 2500",
    "gp": "Pragmatic Play",
+   "reason": "特別版查證未通過（找不到真實原文或確認不了遊戲存在）"
+  },
+  {
+   "date": "2026-11-05",
+   "title": "Swintt Wrap 'N' Roll (Elysium Studios)",
+   "gp": "Swintt",
    "reason": "特別版查證未通過（找不到真實原文或確認不了遊戲存在）"
   }
  ]
