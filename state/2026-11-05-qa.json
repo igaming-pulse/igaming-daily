@@ -1,0 +1,33 @@
+{
+ "date": "2026-11-05",
+ "md": "state/2026-11-05-igaming-report.md",
+ "html": "reports/2026-11-05.html",
+ "items": 17,
+ "counts": {
+  "cat1": 7,
+  "cat2": 2,
+  "cat3": 3,
+  "cat4": 2,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 56,
+  "ok": 51,
+  "broken": 0,
+  "blocked": 4,
+  "images_dropped": 1,
+  "images": 16
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-04 Arthur Kingdom of Spins ｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/press-releases/2026/11/04/217363/games-global-foxium-arthur-kingdom-of-spins-link-win/",
+  "cat1-05 Loot Box Legends – DEGEN｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/press-releases/2026/11/04/217405/degen-studios-loot-box-legends-slot/",
+  "cat4-01 Okada Play 十月 GGR 突破 1 億｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/okada-manila-says-its-okada-play-online-platform-had-us1-6mln-plus-ggr-in-october-best-month-since-may-launch",
+  "cat4-02 Melco 第三季淨利大減，澳門與馬尼拉表現轉弱｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/melco-resorts-posts-sharp-decline-in-3q-net-income-with-softer-performance-in-macau-and-manila",
+  "cat4-02 Melco 第三季淨利大減，澳門與馬尼拉表現轉弱｜各來源都找不到可用的配圖"
+ ],
+ "fixes": [
+  "cat4-02 Melco 第三季淨利大減，澳門與馬尼拉表現轉弱｜配圖打不開（403 text/html），已自動拿掉：https://www.ggrasia.com/wp-content/uploads/2026/10/City-of-Dreams-Macau-.jpeg",
+  "文末｜資料來源數 40 → 39（程式依來源連結去重計算）"
+ ]
+}

@@ -1,41 +1,42 @@
-🎰 iGaming 市場日報 2026-11-04（週三）
-🎰 Slot 6 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-11-05（週四）
+🎰 Slot 7 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Wazdan 36 Coins x3000 上線，36 格 Hold the Jackpot、Grand 3,000x
-・DigiPlus Q3 營收年減 32%、轉虧 9.48 億披索，但 EBITDA 增 40%
-・Hacksaw Q3 營收 +12% 至 5,810 萬歐元，Cordes 轉任預測市場負責人
+・X500 HOT（TaDa）上線：3×3 低波動、最高 12,500x；另有 Pragmatic、Hacksaw 經典機同日上線
+・Okada Play 十月 GGR 破 1 億披索、日活破 10 萬，月增約 50%
+・Flutter 第三季虧 11.5 億美元、下修全年財測，巴西禁令是主因
 
 🎰 Slot 新遊戲
-01 36 Coins x3000 – Wazdan
-02 🆕 新作預告（11/5 上線）Triple Tumblin' Totems – Play'n GO
-03 25 Magic Plums – Wazdan
-04 Empress of Jewels – Zitro
-05 Jelly Sevens – CT Interactive
-06 3 Golden Piggies – Gamomat
+01 X500 HOT – TaDa Gaming
+02 Super Golden Spins – Pragmatic Play
+03 Supernova Shooting Stars – Hacksaw Gaming
+04 Arthur Kingdom of Spins Link&Win – Games Global
+05 Loot Box Legends – DEGEN Studios
+06 20 Wild Gobbler – Amusnet
+07 Rogue Magic – R. Franco Digital
 
 🕹️ 非 Slot 新內容
-01 QTech 整合 VeliPlay 全系列 Crash 與即時遊戲
-02 Pragmatic Play 為 Rank Group 推出 Smart Studio 客製直播桌
-03 ICONIC21 推出 Free Double & Split Blackjack
+01 IWG 將 Rocket Jackpots 擴及肯塔基與賓州彩券
+02 GGPoker 開放 WSOP Super Circuit LATAM 2027 衛星賽
 
 🤝 動態：主流 GP／平台
-01 Play'n GO 推出促銷生態系 GO Momentum
-02 Playson 推出 Blitz Mode 快速遊玩介面
-03 Ainsworth 擴大與布宜諾斯艾利斯賭場的合作，新增 A-STAR Raptor 機台
+01 IGT 與 MGM Springfield 推出麻州首批廣域累積彩金老虎機
+02 Wazdan 經 Veikkaus 進入芬蘭市場
+03 荷蘭 Ksa 對 Endorphina 發出約束令
 
 🇵🇭 動態：菲律賓 GP／平台
-01 DigiPlus 第三季轉虧 9.48 億披索，但核心 EBITDA 增 40%
-02 AMLC 表示將處理偽裝成小商家的非法線上賭場
+01 Okada Play 十月 GGR 突破 1 億披索、日活破 10 萬
+02 Melco 第三季淨利大減，澳門與馬尼拉表現轉弱
 
 📊 市場數據 & 趨勢
-01 Hacksaw Gaming 第三季營收年增 12% 至 5,810 萬歐元，高層改組
-02 Seaport 預估澳門 11 月 GGR 年減 6.1%，連續第六個月下滑
-03 哥倫比亞提案對線上賭博儲值課徵 19% 增值稅
+01 Flutter 第三季虧損 11.5 億美元，下修全年財測
+02 Cirsa 前九個月營收增 10%，西班牙老虎機與遊戲營收增 10.5%
+03 Kambi 第三季營收增 23%，上修全年獲利財測
 
 📝 品質備註（本次爬找判斷）
-1. 本窗 Slot 候選多為 B1 小廠；TaDa Fortune Garuda 500 JACKPOT、Hacksaw Le Clubber、Push Flaming Streaks 查證後不是窗內新作，已剔除。Play'n GO Wrappin' Christmas Gold 官方上線日 11/12，不收。
-2. 菲律賓區本窗只有 2 則合格（DigiPlus 財報、AMLC）；GameZone × Gloc-9 為 10/31 已收事件、Rappler Casino Plus 評論為 7 月文章，皆未收。本窗無 EEZE 新消息，當日未收。
+1. 窗內候選 555 則、收錄 17 則；Slot 前三款（X500 HOT、Super Golden Spins、Supernova Shooting Stars）無新聞稿，以 SlotCatalog／SlotsLaunch 列表為主來源，參數僅單一資料庫來源。
+2. BigWinBoard 解析失敗、GiocoNews／AGE Insight 抓取失敗；Betsoft The Collector、BGaming Formula x10000、Spinomenal Baba Yaga's Rising 查無對應新聞而剔除。EEZE 本窗無新消息、菲律賓區僅 2 則（庫存無合格補位）。
+3. Melco 配圖來源擋機器人，已拿掉。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（19 天）、SiGMA（15 天）、GiocoNews（5 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（20 天）、SiGMA（16 天）、GiocoNews（6 天）；請檢查網址或改抓取方式
