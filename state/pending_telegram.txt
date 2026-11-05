@@ -1,43 +1,43 @@
-🎰 iGaming 市場日報 2026-11-05（週四）
-🎰 Slot 7 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
-📦 今日另有特別版：釋放 6 款近期新作（大廠在前）→ https://igaming-pulse.github.io/igaming-daily/reports/2026-11-05-special.html
+🎰 iGaming 市場日報 2026-11-06（週五）
+🎰 Slot 7 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・X500 HOT（TaDa）上線：3×3 低波動、最高 12,500x；另有 Pragmatic、Hacksaw 經典機同日上線
-・Okada Play 十月 GGR 破 1 億披索、日活破 10 萬，月增約 50%
-・Flutter 第三季虧 11.5 億美元、下修全年財測，巴西禁令是主因
+・TaDa Fortune Garuda 500 JACKPOT：加 WHEEL 輪盤與雙累積彩金，最高 50,000x
+・菲律賓：CoA 審計指 PAGCOR 關聯網站接受境外投注；ArenaPlus 新增代言人
+・AGEM 指數 10 月 +16.4% 創高，L&W 高階機台裝機連 25 季成長
 
 🎰 Slot 新遊戲
-01 X500 HOT – TaDa Gaming
-02 Super Golden Spins – Pragmatic Play
-03 Supernova Shooting Stars – Hacksaw Gaming
-04 Arthur Kingdom of Spins Link&Win – Games Global
-05 Loot Box Legends – DEGEN Studios
-06 20 Wild Gobbler – Amusnet
-07 Rogue Magic – R. Franco Digital
+01 Fortune Garuda 500 JACKPOT – TaDa Gaming
+02 🔁 正式上線（11/5）Triple Tumblin' Totems – Play'n GO
+03 Baba Yaga's Rising – Spinomenal
+04 Multidiamond XXL: Spins+ – Playson
+05 Inferno Fortunes Power Combo Extra – Games Global
+06 100 Golden Bass – Amusnet
+07 Golden Blades – Zitro
 
 🕹️ 非 Slot 新內容
-01 IWG 將 Rocket Jackpots 擴及肯塔基與賓州彩券
-02 GGPoker 開放 WSOP Super Circuit LATAM 2027 衛星賽
+01 CreedRoomz 推出可切換波動模式的 Two Moons Baccarat
+02 ElCasino 新增 Roulette Olympus，四級倍數最高 x1000
+03 PokerStars on FanDuel 在亞伯達省啟動線上撲克
 
-🤝 動態：主流 GP／平台
-01 IGT 與 MGM Springfield 推出麻州首批廣域累積彩金老虎機
-02 Wazdan 經 Veikkaus 進入芬蘭市場
-03 荷蘭 Ksa 對 Endorphina 發出約束令
+🤝 主流 GP／平台
+01 Peter & Sons 經 Betsson 進入立陶宛
+02 AvatarUX 與 VeliGames 建立全球聚合合作
+03 Boyd Gaming 與 Sonesta 建立獨家賭場度假村合作
 
-🇵🇭 動態：菲律賓 GP／平台
-01 Okada Play 十月 GGR 突破 1 億披索、日活破 10 萬
-02 Melco 第三季淨利大減，澳門與馬尼拉表現轉弱
+🇵🇭 菲律賓 GP／平台
+01 ArenaPlus 邀 Gilas 球員 Kevin Quiambao 擔任代言人
+02 CoA：PAGCOR 關聯網站接受境外投注，違反境內限制
 
 📊 市場數據 & 趨勢
-01 Flutter 第三季虧損 11.5 億美元，下修全年財測
-02 Cirsa 前九個月營收增 10%，西班牙老虎機與遊戲營收增 10.5%
-03 Kambi 第三季營收增 23%，上修全年獲利財測
+01 AGEM 指數 10 月創歷史新高，Konami 與 Aristocrat 領漲
+02 Light & Wonder 第三季營收 8.24 億美元，高階機台裝機量連續 25 季成長
+03 Tanzanite：Stake 年存款約 240 億美元，加密賭場總存款量年增 41.9%
 
 📝 品質備註（本次爬找判斷）
-1. 窗內候選 555 則、收錄 17 則；Slot 前三款（X500 HOT、Super Golden Spins、Supernova Shooting Stars）無新聞稿，以 SlotCatalog／SlotsLaunch 列表為主來源，參數僅單一資料庫來源。
-2. BigWinBoard 解析失敗、GiocoNews／AGE Insight 抓取失敗；Betsoft The Collector、BGaming Formula x10000、Spinomenal Baba Yaga's Rising 查無對應新聞而剔除。EEZE 本窗無新消息、菲律賓區僅 2 則（庫存無合格補位）。
-3. Melco 配圖來源擋機器人，已拿掉。
+1. 窗內候選 569 則、收 18 則；EEZE 本窗無消息（最新為 10/20）故未收。BigWinBoard 解析失敗、Revista Casino Perú、GiocoNews 抓取失敗。
+2. Triple Tumblin' Totems 為 11/4 預告後的正式上線（🔁）；菲律賓區當日合格新聞偏少（窗內 7 則多為體育照片稿），Casino Plus 庫存項與 10/31、11/2 重複未收。
+3. 多款 Slot 的 RTP／波動新聞稿未載、資料庫查無，已標「未公布」。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（20 天）、SiGMA（16 天）、GiocoNews（6 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（21 天）、GiocoNews（7 天）；請檢查網址或改抓取方式

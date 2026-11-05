@@ -138,51 +138,69 @@
     }
    ],
    "key": "lesantaholdwin|hacksawgaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Max the Winner: Triple Pot",
+   "gp": "Swintt",
+   "b": 1,
+   "first_seen": "2026-11-06",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/11/05/53521/swintt-adds-new-modifiers-to-max-the-winner-in-triple-pot-release/",
+     "published": "2026-11-05 18:04"
+    }
+   ],
+   "key": "maxthewinnertriplepot|swintt"
+  },
+  {
+   "cat": "cat1",
+   "title": "Trailer Trash",
+   "gp": "Booming Games",
+   "b": 1,
+   "first_seen": "2026-11-06",
+   "sources": [
+    {
+     "name": "Focus Gaming News",
+     "url": "https://focusgn.com/booming-games-trailer-trash-slot",
+     "published": "2026-11-05 19:10"
+    }
+   ],
+   "key": "trailertrash|boominggames"
+  },
+  {
+   "cat": "cat1",
+   "title": "Grand City Heist",
+   "gp": "ONLYPLAY",
+   "b": 1,
+   "first_seen": "2026-11-06",
+   "sources": [
+    {
+     "name": "Focus Gaming News",
+     "url": "https://focusgn.com/grand-city-heist-onlyplay-slot",
+     "published": "2026-11-05 21:20"
+    }
+   ],
+   "key": "grandcityheist|onlyplay"
+  },
+  {
+   "cat": "cat1",
+   "title": "4 Fantastic Vikings Hold The Gold",
+   "gp": "4ThePlayer",
+   "b": 1,
+   "first_seen": "2026-11-06",
+   "sources": [
+    {
+     "name": "4ThePlayer",
+     "url": "https://www.4theplayer.com/news-game-release/legends-hold-the-gold-with-4-fantastic-vikings-hold-the-gold/",
+     "published": "2026-11-05 06:30"
+    }
+   ],
+   "key": "4fantasticvikingsholdthegold|4theplayer"
   }
  ],
  "others": [
-  {
-   "cat": "cat3",
-   "title": "CreditSights：MGM 與 People Inc 投票協議對 MGM China 構成事件風險",
-   "b": 3,
-   "first_seen": "2026-11-02",
-   "sources": [
-    {
-     "name": "Inside Asian Gaming",
-     "url": "https://asgam.com/2026/11/01/creditsights-mgm-resorts-voting-agreement-with-people-inc-poses-some-event-risk-to-mgm-china/",
-     "published": "2026-11-01 05:14"
-    }
-   ],
-   "key": "creditsightsmgm與peopleinc投票協議對mgmchina構成事件風險|"
-  },
-  {
-   "cat": "cat4",
-   "title": "GameZone 以菲律賓紙牌文化擴大品牌觸及",
-   "b": 6,
-   "first_seen": "2026-11-02",
-   "sources": [
-    {
-     "name": "InsiderPH",
-     "url": "https://insiderph.com/gamezone-taps-filipino-card-game-culture-to-expand-brand-reach",
-     "published": "2026-11-01 08:37"
-    }
-   ],
-   "key": "gamezone以菲律賓紙牌文化擴大品牌觸及|"
-  },
-  {
-   "cat": "cat5",
-   "title": "EU iGaming 週報：機台遊戲稅調升、芬蘭牌照、荷蘭 GGR",
-   "b": 1,
-   "first_seen": "2026-11-02",
-   "sources": [
-    {
-     "name": "European Gaming",
-     "url": "https://europeangaming.eu/portal/latest-news/2026/11/01/217180/eu-igaming-weekly-machine-games-duty-finland-licences-dutch-ggr/",
-     "published": "2026-11-01 15:00"
-    }
-   ],
-   "key": "euigaming週報機台遊戲稅調升芬蘭牌照荷蘭ggr|"
-  },
   {
    "cat": "cat2",
    "title": "JetX 崩潰遊戲成功的關鍵因素",
@@ -266,19 +284,6 @@
    "key": "mondogaming押注語音投注並宣布新撲克平台|"
   },
   {
-   "cat": "cat3",
-   "title": "Boyd Gaming 與 Sonesta 建立獨家賭場度假村合作",
-   "first_seen": "2026-11-05",
-   "sources": [
-    {
-     "name": "G3 Newswire",
-     "url": "https://g3newswire.com/boyd-gaming-and-sonesta-launch-exclusive-casino-resort-affiliation/",
-     "published": "2026-11-04 20:18"
-    }
-   ],
-   "key": "boydgaming與sonesta建立獨家賭場度假村合作|"
-  },
-  {
    "cat": "cat5",
    "title": "Sportradar 第三季營收年增 24%，美國銷售增 47%",
    "first_seen": "2026-11-05",
@@ -290,121 +295,49 @@
     }
    ],
    "key": "sportradar第三季營收年增24美國銷售增47|"
+  },
+  {
+   "cat": "cat3",
+   "title": "Scientific Games 任命 Dan Flynn 為執行長",
+   "b": 1,
+   "first_seen": "2026-11-06",
+   "sources": [
+    {
+     "name": "CDC Gaming",
+     "url": "https://cdcgaming.com/scientific-games-names-dan-flynn-ceo-kevin-schneider-chairman/",
+     "published": "2026-11-06 01:50"
+    }
+   ],
+   "key": "scientificgames任命danflynn為執行長|"
+  },
+  {
+   "cat": "cat4",
+   "title": "CoA 之外：Casino Plus 以合規爭取全球夥伴",
+   "first_seen": "2026-11-03",
+   "sources": [
+    {
+     "name": "Daily Tribune",
+     "url": "https://tribune.net.ph/2026/10/31/casino-plus-banks-on-compliance-to-woo-global-partners",
+     "published": "2026-11-01 02:01"
+    }
+   ],
+   "key": "coa之外casinoplus以合規爭取全球夥伴|"
+  },
+  {
+   "cat": "cat5",
+   "title": "SJM 第三季虧損 5,000 萬美元",
+   "first_seen": "2026-11-06",
+   "sources": [
+    {
+     "name": "Inside Asian Gaming",
+     "url": "https://asgam.com/2026/11/05/sjm-falls-to-us50-million-third-quarter-loss-as-market-headwinds-and-property-renovations-take-their-toll/",
+     "published": "2026-11-05 17:14"
+    }
+   ],
+   "key": "sjm第三季虧損5000萬美元|"
   }
  ],
  "history": [
-  {
-   "key": "turbogolddeluxegigablox|yggdrasil",
-   "date": "2026-10-06",
-   "cat": "cat1",
-   "title": "Turbo Gold Deluxe GigaBlox",
-   "gp": "Yggdrasil"
-  },
-  {
-   "key": "threepotsofthegenie|playngo",
-   "date": "2026-10-06",
-   "cat": "cat1",
-   "title": "Three Pots of the Genie",
-   "gp": "Play'n GO"
-  },
-  {
-   "key": "3wildtroopers|spinomenal",
-   "date": "2026-10-06",
-   "cat": "cat1",
-   "title": "3 Wild Troopers",
-   "gp": "Spinomenal"
-  },
-  {
-   "key": "thorcandystorm3000|tomhorngaming",
-   "date": "2026-10-06",
-   "cat": "cat1",
-   "title": "Thor Candy Storm 3000",
-   "gp": "Tom Horn Gaming"
-  },
-  {
-   "key": "playdoitqtech深化內容整合|playdoitqtech",
-   "date": "2026-10-06",
-   "cat": "cat2",
-   "title": "Playdoit×QTech 深化內容整合",
-   "gp": "Playdoit/QTech"
-  },
-  {
-   "key": "creedroomz攜手pasinoch進軍瑞士|creedroomz",
-   "date": "2026-10-06",
-   "cat": "cat2",
-   "title": "CreedRoomz 攜手 Pasino.ch 進軍瑞士",
-   "gp": "CreedRoomz"
-  },
-  {
-   "key": "tadagaming攜手777be深耕比利時市場|tadagaming",
-   "date": "2026-10-06",
-   "cat": "cat3",
-   "title": "TaDa Gaming 攜手 777.be 深耕比利時市場",
-   "gp": "TaDa Gaming"
-  },
-  {
-   "key": "izigroup財報年營收首度突破10億歐元|izigroup",
-   "date": "2026-10-06",
-   "cat": "cat3",
-   "title": "IZI Group 財報：年營收首度突破 10 億歐元",
-   "gp": "IZI Group"
-  },
-  {
-   "key": "aristocrat連8年奪class3實體供應商年度大獎|aristocrat",
-   "date": "2026-10-06",
-   "cat": "cat3",
-   "title": "Aristocrat 連 8 年奪 Class 3 實體供應商年度大獎",
-   "gp": "Aristocrat"
-  },
-  {
-   "key": "巴西博彩業者於甲級聯賽場邊廣告看板抗議禁令|anjlibjr",
-   "date": "2026-10-06",
-   "cat": "cat3",
-   "title": "巴西博彩業者於甲級聯賽場邊廣告看板抗議禁令",
-   "gp": "ANJL/IBJR"
-  },
-  {
-   "key": "jumpmangaming勝訴1320萬英鎊免費旋轉稅單撤銷|jumpmangaming",
-   "date": "2026-10-06",
-   "cat": "cat3",
-   "title": "Jumpman Gaming 勝訴，1,320 萬英鎊免費旋轉稅單撤銷",
-   "gp": "Jumpman Gaming"
-  },
-  {
-   "key": "maybank下修digiplus獲利預估|digiplus",
-   "date": "2026-10-06",
-   "cat": "cat4",
-   "title": "Maybank 下修 DigiPlus 獲利預估",
-   "gp": "DigiPlus"
-  },
-  {
-   "key": "菲律賓年度最大規模pogo掃蕩|pagcorbi",
-   "date": "2026-10-06",
-   "cat": "cat4",
-   "title": "菲律賓年度最大規模 POGO 掃蕩",
-   "gp": "PAGCOR/BI"
-  },
-  {
-   "key": "gamesglobal十月排程20多款新作|gamesglobal",
-   "date": "2026-10-06",
-   "cat": "cat5",
-   "title": "Games Global 十月排程 20 多款新作",
-   "gp": "Games Global"
-  },
-  {
-   "key": "澳門十一黃金週首四日訪客突破75萬人次|澳門治安警察局",
-   "date": "2026-10-06",
-   "cat": "cat5",
-   "title": "澳門十一黃金週首四日訪客突破 75 萬人次",
-   "gp": "澳門治安警察局"
-  },
-  {
-   "key": "ballys取得4億美元融資推進布朗克斯賭場案|ballyscorporation",
-   "date": "2026-10-06",
-   "cat": "cat5",
-   "title": "Bally's 取得 4 億美元融資，推進布朗克斯賭場案",
-   "gp": "Bally's Corporation"
-  },
   {
    "key": "huffnpuffhauntedmansion|lightwonder",
    "date": "2026-10-07",
@@ -4009,6 +3942,132 @@
    "cat": "cat1",
    "title": "Coin Volt: Charge and Strike",
    "gp": "NeverEnding Games"
+  },
+  {
+   "key": "fortunegaruda500jackpot|tadagaming",
+   "date": "2026-11-06",
+   "cat": "cat1",
+   "title": "Fortune Garuda 500 JACKPOT",
+   "gp": "TaDa Gaming"
+  },
+  {
+   "key": "tripletumblintotems|playngo",
+   "date": "2026-11-06",
+   "cat": "cat1",
+   "title": "Triple Tumblin' Totems",
+   "gp": "Play'n GO"
+  },
+  {
+   "key": "babayagasrising|spinomenal",
+   "date": "2026-11-06",
+   "cat": "cat1",
+   "title": "Baba Yaga's Rising",
+   "gp": "Spinomenal"
+  },
+  {
+   "key": "multidiamondxxlspins|playson",
+   "date": "2026-11-06",
+   "cat": "cat1",
+   "title": "Multidiamond XXL: Spins+",
+   "gp": "Playson"
+  },
+  {
+   "key": "infernofortunespowercomboextra|gamesglobal",
+   "date": "2026-11-06",
+   "cat": "cat1",
+   "title": "Inferno Fortunes Power Combo Extra",
+   "gp": "Games Global"
+  },
+  {
+   "key": "100goldenbass|amusnet",
+   "date": "2026-11-06",
+   "cat": "cat1",
+   "title": "100 Golden Bass",
+   "gp": "Amusnet"
+  },
+  {
+   "key": "goldenblades|zitro",
+   "date": "2026-11-06",
+   "cat": "cat1",
+   "title": "Golden Blades",
+   "gp": "Zitro"
+  },
+  {
+   "key": "creedroomz推出可切換波動模式的twomoonsbaccarat|",
+   "date": "2026-11-06",
+   "cat": "cat2",
+   "title": "CreedRoomz 推出可切換波動模式的 Two Moons Baccarat",
+   "gp": ""
+  },
+  {
+   "key": "elcasino新增rouletteolympus四級倍數最高x1000|",
+   "date": "2026-11-06",
+   "cat": "cat2",
+   "title": "ElCasino 新增 Roulette Olympus，四級倍數最高 x1000",
+   "gp": ""
+  },
+  {
+   "key": "pokerstarsonfanduel在亞伯達省啟動線上撲克|",
+   "date": "2026-11-06",
+   "cat": "cat2",
+   "title": "PokerStars on FanDuel 在亞伯達省啟動線上撲克",
+   "gp": ""
+  },
+  {
+   "key": "petersons經betsson進入立陶宛|",
+   "date": "2026-11-06",
+   "cat": "cat3",
+   "title": "Peter & Sons 經 Betsson 進入立陶宛",
+   "gp": ""
+  },
+  {
+   "key": "avatarux與veligames建立全球聚合合作|",
+   "date": "2026-11-06",
+   "cat": "cat3",
+   "title": "AvatarUX 與 VeliGames 建立全球聚合合作",
+   "gp": ""
+  },
+  {
+   "key": "boydgaming與sonesta建立獨家賭場度假村合作|",
+   "date": "2026-11-06",
+   "cat": "cat3",
+   "title": "Boyd Gaming 與 Sonesta 建立獨家賭場度假村合作",
+   "gp": ""
+  },
+  {
+   "key": "arenaplus邀gilas球員kevinquiambao擔任代言人|",
+   "date": "2026-11-06",
+   "cat": "cat4",
+   "title": "ArenaPlus 邀 Gilas 球員 Kevin Quiambao 擔任代言人",
+   "gp": ""
+  },
+  {
+   "key": "coapagcor關聯網站接受境外投注違反境內限制|",
+   "date": "2026-11-06",
+   "cat": "cat4",
+   "title": "CoA：PAGCOR 關聯網站接受境外投注，違反境內限制",
+   "gp": ""
+  },
+  {
+   "key": "agem指數10月創歷史新高konami與aristocrat領漲|",
+   "date": "2026-11-06",
+   "cat": "cat5",
+   "title": "AGEM 指數 10 月創歷史新高，Konami 與 Aristocrat 領漲",
+   "gp": ""
+  },
+  {
+   "key": "lightwonder第三季營收824億美元高階機台裝機量連續25季成長|",
+   "date": "2026-11-06",
+   "cat": "cat5",
+   "title": "Light & Wonder 第三季營收 8.24 億美元，高階機台裝機量連續 25 季成長",
+   "gp": ""
+  },
+  {
+   "key": "tanzanitestake年存款約240億美元加密賭場總存款量年增419|",
+   "date": "2026-11-06",
+   "cat": "cat5",
+   "title": "Tanzanite：Stake 年存款約 240 億美元，加密賭場總存款量年增 41.9%",
+   "gp": ""
   }
  ],
  "rejected": [

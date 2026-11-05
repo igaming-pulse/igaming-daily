@@ -1,0 +1,31 @@
+{
+ "date": "2026-11-06",
+ "md": "state/2026-11-06-igaming-report.md",
+ "html": "reports/2026-11-06.html",
+ "items": 18,
+ "counts": {
+  "cat1": 7,
+  "cat2": 3,
+  "cat3": 3,
+  "cat4": 2,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 47,
+  "ok": 44,
+  "broken": 0,
+  "blocked": 3,
+  "images_dropped": 0,
+  "images": 18
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-05 Inferno Fortunes Power C｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/press-releases/2026/11/05/217474/games-global-inferno-fortunes-power-combo-extra/",
+  "cat3-01 Peter & Sons 經 Betsson 進｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/press-release/2026/11/05/217487/peter-sons-enters-lithuania-through-betsson-partnership/",
+  "cat3-02 AvatarUX 與 VeliGames 建立全｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming（VeliGames 新增 17 家供應商） https://europeangaming.eu/portal/press-releases/2026/11/05/217466/veligames-17-game-providers-record-quarter/",
+  "cat1-02 Triple Tumblin' Totems｜與 2026-11-04 日報「Triple Tumblin' Totems」疑似重複（7 天內同一款／同一事件；超過 3 天要有新進展並標 🔁），已標 🔁"
+ ],
+ "fixes": [
+  "文末｜資料來源數 30 → 29（程式依來源連結去重計算）"
+ ]
+}
