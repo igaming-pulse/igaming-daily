@@ -1,0 +1,30 @@
+{
+ "date": "2026-11-07",
+ "md": "state/2026-11-07-igaming-report.md",
+ "html": "reports/2026-11-07.html",
+ "items": 14,
+ "counts": {
+  "cat1": 3,
+  "cat2": 3,
+  "cat3": 3,
+  "cat4": 2,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 40,
+  "ok": 37,
+  "broken": 0,
+  "blocked": 3,
+  "images_dropped": 0,
+  "images": 14
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-03 Kitsune's Fortune: Hold ｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/press-releases/2026/11/06/217561/heaven-of-7-kitsunes-fortune-hold-and-win/",
+  "cat4-01 PAGCOR：第三季菲律賓 GGR 年減 11.｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/philippines-3q-ggr-follows-downward-trend-down-11pct-from-a-year-ago",
+  "cat4-02 BingoPlus 推出 BingoPlus C｜來源連結無法自動驗證（403，多半是網站擋機器人）：BusinessMirror https://businessmirror.com.ph/2026/11/06/bingoplus-rolls-out-improved-customer-care-with-24-7-support-viber-access-and-personalized-assistance/"
+ ],
+ "fixes": [
+  "文末｜資料來源數 30 → 26（程式依來源連結去重計算）"
+ ]
+}
