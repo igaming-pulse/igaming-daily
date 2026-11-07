@@ -141,51 +141,6 @@
   },
   {
    "cat": "cat1",
-   "title": "Max the Winner: Triple Pot",
-   "gp": "Swintt",
-   "b": 1,
-   "first_seen": "2026-11-06",
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/11/05/53521/swintt-adds-new-modifiers-to-max-the-winner-in-triple-pot-release/",
-     "published": "2026-11-05 18:04"
-    }
-   ],
-   "key": "maxthewinnertriplepot|swintt"
-  },
-  {
-   "cat": "cat1",
-   "title": "Grand City Heist",
-   "gp": "ONLYPLAY",
-   "b": 1,
-   "first_seen": "2026-11-06",
-   "sources": [
-    {
-     "name": "Focus Gaming News",
-     "url": "https://focusgn.com/grand-city-heist-onlyplay-slot",
-     "published": "2026-11-05 21:20"
-    }
-   ],
-   "key": "grandcityheist|onlyplay"
-  },
-  {
-   "cat": "cat1",
-   "title": "4 Fantastic Vikings Hold The Gold",
-   "gp": "4ThePlayer",
-   "b": 1,
-   "first_seen": "2026-11-06",
-   "sources": [
-    {
-     "name": "4ThePlayer",
-     "url": "https://www.4theplayer.com/news-game-release/legends-hold-the-gold-with-4-fantastic-vikings-hold-the-gold/",
-     "published": "2026-11-05 06:30"
-    }
-   ],
-   "key": "4fantasticvikingsholdthegold|4theplayer"
-  },
-  {
-   "cat": "cat1",
    "title": "4 Power Diamonds: Hold and Win",
    "gp": "ENJOY Gaming",
    "b": 1,
@@ -201,19 +156,6 @@
   }
  ],
  "others": [
-  {
-   "cat": "cat5",
-   "title": "Lottomatica 前九個月營收 17.2 億歐元，線上成長 13%",
-   "sources": [
-    {
-     "name": "Gaming Intelligence",
-     "url": "https://www.gamingintelligence.com/finance/238226-lottomatica-profits-as-revenue-grows-to-e1-72-billion-in-9m-2026/",
-     "published": "2026-11-03 18:40"
-    }
-   ],
-   "first_seen": "2026-11-04",
-   "key": "lottomatica前九個月營收172億歐元線上成長13|"
-  },
   {
    "cat": "cat2",
    "title": "Mondogaming 押注語音投注並宣布新撲克平台",
@@ -254,19 +196,6 @@
    "key": "sjm第三季虧損5000萬美元|"
   },
   {
-   "cat": "cat3",
-   "title": "Light & Wonder 任命 Matthieu Labbat 為 SciPlay 執行長",
-   "first_seen": "2026-11-07",
-   "sources": [
-    {
-     "name": "G3 Newswire",
-     "url": "https://g3newswire.com/light-wonder-appoints-matthieu-labbat-as-ceo-of-sciplay/",
-     "published": "2026-11-06 19:05"
-    }
-   ],
-   "key": "lightwonder任命matthieulabbat為sciplay執行長|"
-  },
-  {
    "cat": "cat5",
    "title": "Sega Sammy 上半年獲利年增 299%，博彩部門持平",
    "first_seen": "2026-11-07",
@@ -278,121 +207,37 @@
     }
    ],
    "key": "segasammy上半年獲利年增299博彩部門持平|"
+  },
+  {
+   "cat": "cat3",
+   "title": "Allwyn 重整領導層以加速數位成長",
+   "b": 1,
+   "first_seen": "2026-11-08",
+   "sources": [
+    {
+     "name": "Focus Gaming News",
+     "url": "https://focusgn.com/allwyn-leadership-digital-restructure",
+     "published": "2026-11-07 22:10"
+    }
+   ],
+   "key": "allwyn重整領導層以加速數位成長|"
+  },
+  {
+   "cat": "cat4",
+   "title": "SPiCE International Eventus Awards 2026 公布宿霧決賽名單",
+   "b": 1,
+   "first_seen": "2026-11-08",
+   "sources": [
+    {
+     "name": "JAMMA",
+     "url": "https://www.jamma.it/mercato/spice-international-eventus-awards-2026-annunciati-i-finalisti-362080",
+     "published": "2026-11-07 02:46"
+    }
+   ],
+   "key": "spiceinternationaleventusawards2026公布宿霧決賽名單|"
   }
  ],
  "history": [
-  {
-   "key": "3potpanda|tadagaming",
-   "date": "2026-10-08",
-   "cat": "cat1",
-   "title": "3 Pot Panda",
-   "gp": "TaDa Gaming"
-  },
-  {
-   "key": "buffalohorizon|yggdrasil",
-   "date": "2026-10-08",
-   "cat": "cat1",
-   "title": "Buffalo Horizon",
-   "gp": "Yggdrasil"
-  },
-  {
-   "key": "redtailrobbercashvaultheist|playngo",
-   "date": "2026-10-08",
-   "cat": "cat1",
-   "title": "Redtail Robber Cash Vault Heist",
-   "gp": "Play'n GO"
-  },
-  {
-   "key": "grimmsbountyprincessthefrog|pgsoft",
-   "date": "2026-10-08",
-   "cat": "cat1",
-   "title": "Grimms' Bounty: Princess & the Frog",
-   "gp": "PG Soft"
-  },
-  {
-   "key": "cheetahwild|pragmaticplay",
-   "date": "2026-10-08",
-   "cat": "cat1",
-   "title": "Cheetah Wild",
-   "gp": "Pragmatic Play"
-  },
-  {
-   "key": "infernoroulette|creedroomz",
-   "date": "2026-10-08",
-   "cat": "cat2",
-   "title": "Inferno Roulette",
-   "gp": "Creedroomz"
-  },
-  {
-   "key": "blackjackbonuslive|iconic21",
-   "date": "2026-10-08",
-   "cat": "cat2",
-   "title": "Blackjack Bonus Live",
-   "gp": "ICONIC21"
-  },
-  {
-   "key": "betgames攜手bet365進軍英國|betgames",
-   "date": "2026-10-08",
-   "cat": "cat2",
-   "title": "BetGames 攜手 bet365 進軍英國",
-   "gp": "BetGames"
-  },
-  {
-   "key": "zitrodigital全產品線上架秘魯betmasterpe|",
-   "date": "2026-10-08",
-   "cat": "cat3",
-   "title": "Zitro Digital 全產品線上架秘魯 Betmaster.pe",
-   "gp": ""
-  },
-  {
-   "key": "yggdrasil延攬davidhopkins任首席轉型長|",
-   "date": "2026-10-08",
-   "cat": "cat3",
-   "title": "Yggdrasil 延攬 David Hopkins 任首席轉型長",
-   "gp": ""
-  },
-  {
-   "key": "evoplay攜11款slot與crash遊戲上架西班牙luckiagames|",
-   "date": "2026-10-08",
-   "cat": "cat3",
-   "title": "Evoplay 攜 11 款 Slot 與 Crash 遊戲上架西班牙 Luckia Games",
-   "gp": ""
-  },
-  {
-   "key": "巴西禁令生效applegoogle下架博彩app|",
-   "date": "2026-10-08",
-   "cat": "cat3",
-   "title": "巴西禁令生效，Apple、Google 下架博彩 App",
-   "gp": ""
-  },
-  {
-   "key": "bloomberry推出onlyfunph直播互動娛樂平台|",
-   "date": "2026-10-08",
-   "cat": "cat4",
-   "title": "Bloomberry 推出 OnlyFun.PH 直播互動娛樂平台",
-   "gp": ""
-  },
-  {
-   "key": "老虎機設計趨勢持續累積型機台退燒|",
-   "date": "2026-10-08",
-   "cat": "cat5",
-   "title": "老虎機設計趨勢：持續累積型機台退燒",
-   "gp": ""
-  },
-  {
-   "key": "agem指數9月下跌61|",
-   "date": "2026-10-08",
-   "cat": "cat5",
-   "title": "AGEM 指數 9 月下跌 6.1%",
-   "gp": ""
-  },
-  {
-   "key": "澳門十一黃金週訪客114萬人次|",
-   "date": "2026-10-08",
-   "cat": "cat5",
-   "title": "澳門十一黃金週訪客 114 萬人次",
-   "gp": ""
-  },
   {
    "key": "ringofwealthhollandcasinoanniversaryedition|igt",
    "date": "2026-10-09",
@@ -3996,6 +3841,90 @@
    "date": "2026-11-07",
    "cat": "cat5",
    "title": "Inspired Entertainment 第三季營收年減 29%，英國業務同店成長 4%",
+   "gp": ""
+  },
+  {
+   "key": "4fantasticvikingsholdthegold|4theplayer",
+   "date": "2026-11-08",
+   "cat": "cat1",
+   "title": "4 Fantastic Vikings Hold The Gold",
+   "gp": "4ThePlayer"
+  },
+  {
+   "key": "grandcityheist|onlyplay",
+   "date": "2026-11-08",
+   "cat": "cat1",
+   "title": "Grand City Heist",
+   "gp": "ONLYPLAY"
+  },
+  {
+   "key": "maxthewinnertriplepot|swintt",
+   "date": "2026-11-08",
+   "cat": "cat1",
+   "title": "Max The Winner Triple Pot",
+   "gp": "Swintt"
+  },
+  {
+   "key": "pokerstarsbiggameontour第三季118開播|",
+   "date": "2026-11-08",
+   "cat": "cat2",
+   "title": "PokerStars Big Game on Tour 第三季 11/8 開播",
+   "gp": ""
+  },
+  {
+   "key": "巴西trf3暫停casadeapostas禁制令聯邦層級已無營運中的合規業者|",
+   "date": "2026-11-08",
+   "cat": "cat3",
+   "title": "巴西 TRF3 暫停 Casa de Apostas 禁制令，聯邦層級已無營運中的合規業者",
+   "gp": ""
+  },
+  {
+   "key": "banijay收購joa獲法國競爭主管機關無條件核准|",
+   "date": "2026-11-08",
+   "cat": "cat3",
+   "title": "Banijay 收購 Joa 獲法國競爭主管機關無條件核准",
+   "gp": ""
+  },
+  {
+   "key": "pragmaticplay獲sigmaitalia2026最佳真人賭場供應商|",
+   "date": "2026-11-08",
+   "cat": "cat3",
+   "title": "Pragmatic Play 獲 SiGMA Italia 2026 最佳真人賭場供應商",
+   "gp": ""
+  },
+  {
+   "key": "lightwonder任命matthieulabbat為sciplay執行長|",
+   "date": "2026-11-08",
+   "cat": "cat3",
+   "title": "Light & Wonder 任命 Matthieu Labbat 為 SciPlay 執行長",
+   "gp": ""
+  },
+  {
+   "key": "betconstructai確認參加111213宿霧spiceinternational2026|",
+   "date": "2026-11-08",
+   "cat": "cat4",
+   "title": "BetConstruct AI 確認參加 11/12–13 宿霧 SPiCE International 2026",
+   "gp": ""
+  },
+  {
+   "key": "supergroup下修2026財測體育賽果拖累約4000萬美元|",
+   "date": "2026-11-08",
+   "cat": "cat5",
+   "title": "Super Group 下修 2026 財測：體育賽果拖累約 4,000 萬美元",
+   "gp": ""
+  },
+  {
+   "key": "penn第三季營收增7至184億美元互動業務增17|",
+   "date": "2026-11-08",
+   "cat": "cat5",
+   "title": "PENN 第三季營收增 7% 至 18.4 億美元，互動業務增 17%",
+   "gp": ""
+  },
+  {
+   "key": "ogq哥倫比亞2026q3線上老虎機數量luckia居冠|",
+   "date": "2026-11-08",
+   "cat": "cat5",
+   "title": "OGQ：哥倫比亞 2026 Q3 線上老虎機數量 Luckia 居冠",
    "gp": ""
   }
  ],

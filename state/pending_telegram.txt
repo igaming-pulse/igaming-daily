@@ -1,38 +1,37 @@
-🎰 iGaming 市場日報 2026-11-07（週六）
-🎰 Slot 3 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-11-08（週日）
+🎰 Slot 3 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Play'n GO《Wrappin' Christmas Gold》11/12 上線，聖誕換皮、最高 1,525x
-・PAGCOR：Q3 菲律賓 GGR 年減 11.41%，電子遊戲年減 22.86%
-・DraftKings 因預測市場投資下修全年 EBITDA 預期至 1.75–2.75 億美元
+・4 Fantastic Vikings Hold The Gold（4ThePlayer×Yggdrasil）：新增 Viking Respinner 重轉鎖定機制
+・菲律賓：BetConstruct AI 11/12–13 宿霧 SPiCE 參展，主推體育工具與彩券系統
+・Super Group 三個月內再下修財測，賽果拖累約 4,000 萬美元、賭場與非洲仍成長
 
 🎰 Slot 新遊戲
-01 🆕 新作預告（11/12 上線）Wrappin' Christmas Gold – Play'n GO
-02 Trailer Trash – Booming Games
-03 Kitsune's Fortune: Hold and Win – Heaven of 7
+01 📦 4 Fantastic Vikings Hold The Gold – 4ThePlayer
+02 📦 Grand City Heist – ONLYPLAY
+03 📦 Max The Winner Triple Pot – Swintt
 
 🕹️ 非 Slot 新內容
-01 Evolution 將直播遊戲節目 Ice Fishing 推進美國三州
-02 EEZE Games 產品負責人談 Universal Blackjack 的設計取向
-03 People's Poker Tour 馬爾他站開放資格賽至 11 月 22 日
+01 📦 PokerStars Big Game on Tour 第三季 11/8 開播
 
 🤝 動態：主流 GP／平台
-01 傳 Play'n GO 為出售做準備，Aristocrat、Genting、Light & Wonder 被點名為可能買家
-02 Konami 以自有品牌續作取代授權 IP：Bull Blitz Rampage、Dragon's Law Super Fortune
-03 Scientific Games 任命 Dan Flynn 為執行長
+01 巴西 TRF3 暫停 Casa de Apostas 禁制令，聯邦層級已無營運中的合規業者
+02 Banijay 收購 Joa 獲法國競爭主管機關無條件核准
+03 Pragmatic Play 獲 SiGMA Italia 2026 最佳真人賭場供應商
+04 📦 Light & Wonder 任命 Matthieu Labbat 為 SciPlay 執行長
 
 🇵🇭 動態：菲律賓 GP／平台
-01 PAGCOR：第三季菲律賓 GGR 年減 11.41%，電子遊戲年減 22.86%
-02 BingoPlus 推出 BingoPlus Care：24 小時真人客服與 Viber 管道
+01 BetConstruct AI 確認參加 11/12–13 宿霧 SPiCE International 2026
 
 📊 市場數據 & 趨勢
-01 愛爾蘭 ESRI 研究：近四成線上體育投注者之後轉向其他博彩，含賭場與老虎機
-02 DraftKings 第三季營收年增 16% 至 13.3 億美元，但因預測市場投資下修全年財測
-03 Inspired Entertainment 第三季營收年減 29% 至 6,140 萬美元，英國業務按同店口徑成長 4%
+01 Super Group 下修 2026 財測：體育賽果拖累約 4,000 萬美元
+02 PENN 第三季營收增 7% 至 18.4 億美元，互動業務增 17%
+03 OGQ：哥倫比亞 2026 Q3 線上老虎機數量 Luckia 居冠
 
 📝 品質備註（本次爬找判斷）
-1. 週六檢查點：Weekend Reels 本週共 20 款，已收 15 款，漏收的 Trailer Trash、Kitsune's Fortune 本日收錄；4 Power Diamonds、Max the Winner 等 4 款因 3 款上限進庫存。
-2. 因來源被擋或單一來源，剔除 TaDa 留存策略專文；Play'n GO 出售傳聞與 Ice Fishing 美國上線為單一來源，已保守轉述。菲律賓區僅 2 則，其餘為體育照片稿或與 11/3 重疊事件（BingoPlus × Regal 疑似與 11 月 3 日重疊，已剔除）。
+1. 週日窗內幾乎沒有新上線 Slot，三款皆為庫存補位（B1）；BigWinBoard 解析失敗、ELK 列表頁 SSL 失敗，Slot 偏少部分可能是抓取缺口。
+2. 菲律賓區僅 1 則：BingoPlus、PAGCOR Q3 GGR 與 11/7 已收重疊故未重收（疑似與 11/7 重疊），其餘平台無新聞稿。非 Slot 區僅 1 則（EEZE 無新議題）。
+3. 本次整份只收 12 則，原因是窗內有效候選少、去重後所剩有限，非刻意剔除。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（22 天）、GiocoNews（8 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（23 天）、GiocoNews（9 天）；請檢查網址或改抓取方式

@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-08",
+ "md": "state/2026-11-08-igaming-report.md",
+ "html": "reports/2026-11-08.html",
+ "items": 12,
+ "counts": {
+  "cat1": 3,
+  "cat2": 1,
+  "cat3": 4,
+  "cat4": 1,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 26,
+  "ok": 26,
+  "broken": 0,
+  "blocked": 0,
+  "images_dropped": 0,
+  "images": 12
+ },
+ "errors": [],
+ "warnings": [],
+ "fixes": []
+}
