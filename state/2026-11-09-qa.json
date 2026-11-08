@@ -1,0 +1,29 @@
+{
+ "date": "2026-11-09",
+ "md": "state/2026-11-09-igaming-report.md",
+ "html": "reports/2026-11-09.html",
+ "items": 14,
+ "counts": {
+  "cat1": 6,
+  "cat3": 2,
+  "cat4": 2,
+  "cat5": 4
+ },
+ "links": {
+  "checked": 29,
+  "ok": 27,
+  "broken": 0,
+  "blocked": 2,
+  "images_dropped": 0,
+  "images": 14
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-05 Big Bass Christmas Blast｜新作預告主來源 2026-10-19 已 21 天（只有熱門 IP 可放寬到 30 天）",
+  "cat1-06 4 Power Diamonds: Hold a｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/press-releases/2026/11/06/217543/enjoy-gaming-4-power-diamonds-hold-and-win/",
+  "cat5-01 供應商圓桌：社交互動與沉浸感須內建於玩法，Cra｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/interviews/2026/11/08/217629/casino-entertainment-trends/"
+ ],
+ "fixes": [
+  "文末｜資料來源數 14 → 15（程式依來源連結去重計算）"
+ ]
+}

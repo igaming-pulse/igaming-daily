@@ -77,22 +77,6 @@
   },
   {
    "cat": "cat1",
-   "title": "Big Bass Christmas Blast 1000",
-   "gp": "Pragmatic Play",
-   "b": 4,
-   "first_seen": "2026-10-20",
-   "release_date": "2026-11-16",
-   "sources": [
-    {
-     "name": "iGamingToday",
-     "url": "https://www.igamingtoday.com/big-bass-christmas-blast-1000-slot-review/",
-     "published": "2026-10-19 16:14"
-    }
-   ],
-   "key": "bigbasschristmasblast1000|pragmaticplay"
-  },
-  {
-   "cat": "cat1",
    "title": "Xmas Guardians Megaways",
    "gp": "Pragmatic Play",
    "b": 4,
@@ -141,47 +125,36 @@
   },
   {
    "cat": "cat1",
-   "title": "4 Power Diamonds: Hold and Win",
-   "gp": "ENJOY Gaming",
+   "title": "3 Wild Gods",
+   "gp": "Soko Games",
    "b": 1,
-   "first_seen": "2026-11-07",
+   "first_seen": "2026-11-09",
    "sources": [
     {
-     "name": "European Gaming",
-     "url": "https://europeangaming.eu/portal/press-releases/2026/11/06/217543/enjoy-gaming-4-power-diamonds-hold-and-win/",
-     "published": "2026-11-06 15:28"
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/soko-games/3-wild-gods",
+     "published": "2026-11-09"
     }
    ],
-   "key": "4powerdiamondsholdandwin|enjoygaming"
+   "key": "3wildgods|sokogames"
+  },
+  {
+   "cat": "cat1",
+   "title": "Jungle Loot League",
+   "gp": "Arcane Pixel",
+   "b": 1,
+   "first_seen": "2026-11-09",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/arcane-pixel/jungle-loot-league",
+     "published": "2026-11-09"
+    }
+   ],
+   "key": "junglelootleague|arcanepixel"
   }
  ],
  "others": [
-  {
-   "cat": "cat2",
-   "title": "Mondogaming 押注語音投注並宣布新撲克平台",
-   "first_seen": "2026-11-05",
-   "sources": [
-    {
-     "name": "JAMMA",
-     "url": "https://www.jamma.it/attualita/mondogaming-punta-sulle-scommesse-vocali-e-annuncia-una-nuova-piattaforma-poker-361938",
-     "published": "2026-11-05 02:17"
-    }
-   ],
-   "key": "mondogaming押注語音投注並宣布新撲克平台|"
-  },
-  {
-   "cat": "cat5",
-   "title": "Sportradar 第三季營收年增 24%，美國銷售增 47%",
-   "first_seen": "2026-11-05",
-   "sources": [
-    {
-     "name": "European Gaming",
-     "url": "https://europeangaming.eu/portal/latest-news/2026/11/04/217372/sportradar-q3-2026-results-revenue-363m/",
-     "published": "2026-11-04 18:16"
-    }
-   ],
-   "key": "sportradar第三季營收年增24美國銷售增47|"
-  },
   {
    "cat": "cat5",
    "title": "SJM 第三季虧損 5,000 萬美元",
@@ -197,159 +170,19 @@
   },
   {
    "cat": "cat5",
-   "title": "Sega Sammy 上半年獲利年增 299%，博彩部門持平",
-   "first_seen": "2026-11-07",
+   "title": "OGQ：美國線上賭場 2026 Q3 老虎機與真人遊戲數量，Borgata NJ 居冠",
    "sources": [
     {
-     "name": "GGRAsia",
-     "url": "https://www.ggrasia.com/sega-sammy-half-year-profit-jumps-299pct-gaming-segment-steady",
-     "published": "2026-11-06 19:42"
+     "name": "Online Gambling Quarterly",
+     "url": "https://www.ogqnews.com/slot-and-live-casino-games-analysis-key-operators-in-the-us-q3-2026/",
+     "published": "2026-11-08 08:04"
     }
    ],
-   "key": "segasammy上半年獲利年增299博彩部門持平|"
-  },
-  {
-   "cat": "cat3",
-   "title": "Allwyn 重整領導層以加速數位成長",
-   "b": 1,
-   "first_seen": "2026-11-08",
-   "sources": [
-    {
-     "name": "Focus Gaming News",
-     "url": "https://focusgn.com/allwyn-leadership-digital-restructure",
-     "published": "2026-11-07 22:10"
-    }
-   ],
-   "key": "allwyn重整領導層以加速數位成長|"
-  },
-  {
-   "cat": "cat4",
-   "title": "SPiCE International Eventus Awards 2026 公布宿霧決賽名單",
-   "b": 1,
-   "first_seen": "2026-11-08",
-   "sources": [
-    {
-     "name": "JAMMA",
-     "url": "https://www.jamma.it/mercato/spice-international-eventus-awards-2026-annunciati-i-finalisti-362080",
-     "published": "2026-11-07 02:46"
-    }
-   ],
-   "key": "spiceinternationaleventusawards2026公布宿霧決賽名單|"
+   "first_seen": "2026-11-09",
+   "key": "ogq美國線上賭場2026q3老虎機與真人遊戲數量borgatanj居冠|"
   }
  ],
  "history": [
-  {
-   "key": "ringofwealthhollandcasinoanniversaryedition|igt",
-   "date": "2026-10-09",
-   "cat": "cat1",
-   "title": "Ring of Wealth Holland Casino Anniversary Edition",
-   "gp": "IGT"
-  },
-  {
-   "key": "cloudforge|relaxgaming",
-   "date": "2026-10-09",
-   "cat": "cat1",
-   "title": "CloudForge",
-   "gp": "Relax Gaming"
-  },
-  {
-   "key": "25coinsx3000|wazdan",
-   "date": "2026-10-09",
-   "cat": "cat1",
-   "title": "25 Coins x3000",
-   "gp": "Wazdan"
-  },
-  {
-   "key": "wickedgrin|hacksawgaming",
-   "date": "2026-10-09",
-   "cat": "cat1",
-   "title": "Wicked Grin",
-   "gp": "Hacksaw Gaming"
-  },
-  {
-   "key": "raccoonraiders|boominggames",
-   "date": "2026-10-09",
-   "cat": "cat1",
-   "title": "Raccoon Raiders",
-   "gp": "Booming Games"
-  },
-  {
-   "key": "fusionroulette產品負責人專訪|eeze",
-   "date": "2026-10-09",
-   "cat": "cat2",
-   "title": "Fusion Roulette 產品負責人專訪",
-   "gp": "EEZE"
-  },
-  {
-   "key": "wcoop2026落幕總派彩4900萬美元|pokerstars",
-   "date": "2026-10-09",
-   "cat": "cat2",
-   "title": "WCOOP 2026 落幕，總派彩 4,900 萬美元",
-   "gp": "PokerStars"
-  },
-  {
-   "key": "boylecasino真人館改版300遊戲加滑動切桌|boylecasino",
-   "date": "2026-10-09",
-   "cat": "cat2",
-   "title": "BOYLE Casino 真人館改版，300+ 遊戲加滑動切桌",
-   "gp": "BOYLE Casino"
-  },
-  {
-   "key": "stake取得巴西法院禁制令可營運至10月25日|",
-   "date": "2026-10-09",
-   "cat": "cat3",
-   "title": "Stake 取得巴西法院禁制令，可營運至 10 月 25 日",
-   "gp": ""
-  },
-  {
-   "key": "seminole部落控告draftkings與執行長在佛州非法經營|",
-   "date": "2026-10-09",
-   "cat": "cat3",
-   "title": "Seminole 部落控告 DraftKings 與執行長在佛州非法經營",
-   "gp": ""
-  },
-  {
-   "key": "pokerstarscasino把theslotlist帶進羅馬尼亞首推elkpirots4|",
-   "date": "2026-10-09",
-   "cat": "cat3",
-   "title": "PokerStars Casino 把 The Slotlist 帶進羅馬尼亞，首推 ELK Pirots 4",
-   "gp": ""
-  },
-  {
-   "key": "gli獲准為紐西蘭新開放的線上賭場市場做認證測試|",
-   "date": "2026-10-09",
-   "cat": "cat3",
-   "title": "GLI 獲准為紐西蘭新開放的線上賭場市場做認證測試",
-   "gp": ""
-  },
-  {
-   "key": "gcash母公司mynt支付營收下滑|",
-   "date": "2026-10-09",
-   "cat": "cat4",
-   "title": "GCash 母公司 Mynt 支付營收下滑",
-   "gp": ""
-  },
-  {
-   "key": "blask巴西合法博彩一週流失74用戶印度63玩家轉離岸|",
-   "date": "2026-10-09",
-   "cat": "cat5",
-   "title": "Blask：巴西合法博彩一週流失 74% 用戶，印度 63% 玩家轉離岸",
-   "gp": ""
-  },
-  {
-   "key": "伊利諾州9月賭場營收年增127|",
-   "date": "2026-10-09",
-   "cat": "cat5",
-   "title": "伊利諾州 9 月賭場營收年增 12.7%",
-   "gp": ""
-  },
-  {
-   "key": "老虎機長青榜十週年bookofdead今年仍排第6|",
-   "date": "2026-10-09",
-   "cat": "cat5",
-   "title": "老虎機長青榜：十週年 Book of Dead 今年仍排第 6",
-   "gp": ""
-  },
   {
    "key": "romax8192|tadagaming",
    "date": "2026-10-10",
@@ -3925,6 +3758,104 @@
    "date": "2026-11-08",
    "cat": "cat5",
    "title": "OGQ：哥倫比亞 2026 Q3 線上老虎機數量 Luckia 居冠",
+   "gp": ""
+  },
+  {
+   "key": "chronossandsofeternity|pragmaticplay",
+   "date": "2026-11-09",
+   "cat": "cat1",
+   "title": "Chronos - Sands of Eternity",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "krakenslayer|paperclipgaming",
+   "date": "2026-11-09",
+   "cat": "cat1",
+   "title": "Kraken Slayer",
+   "gp": "Paperclip Gaming"
+  },
+  {
+   "key": "theblizzardlineholdhit3x3|spinomenal",
+   "date": "2026-11-09",
+   "cat": "cat1",
+   "title": "The Blizzard Line - Hold & Hit 3X3",
+   "gp": "Spinomenal"
+  },
+  {
+   "key": "jokermask|bgaming",
+   "date": "2026-11-09",
+   "cat": "cat1",
+   "title": "Joker Mask",
+   "gp": "BGaming"
+  },
+  {
+   "key": "bigbasschristmasblast1000|pragmaticplay",
+   "date": "2026-11-09",
+   "cat": "cat1",
+   "title": "Big Bass Christmas Blast 1000",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "4powerdiamondsholdandwin|enjoygaming",
+   "date": "2026-11-09",
+   "cat": "cat1",
+   "title": "4 Power Diamonds: Hold and Win",
+   "gp": "ENJOY Gaming"
+  },
+  {
+   "key": "melco賽普勒斯度假村創單季ebitda新高澳門疲弱拖累集團獲利|",
+   "date": "2026-11-09",
+   "cat": "cat3",
+   "title": "Melco 賽普勒斯度假村創單季 EBITDA 新高，澳門疲弱拖累集團獲利",
+   "gp": ""
+  },
+  {
+   "key": "allwyn重整領導層以加速數位成長|",
+   "date": "2026-11-09",
+   "cat": "cat3",
+   "title": "Allwyn 重整領導層以加速數位成長",
+   "gp": ""
+  },
+  {
+   "key": "gamezone與gloc9合作opm單曲taraggloc9|",
+   "date": "2026-11-09",
+   "cat": "cat4",
+   "title": "GameZone 與 Gloc-9 合作 OPM 單曲 Tara G Gloc 9",
+   "gp": ""
+  },
+  {
+   "key": "spiceinternationaleventusawards2026公布宿霧決賽名單|",
+   "date": "2026-11-09",
+   "cat": "cat4",
+   "title": "SPiCE International Eventus Awards 2026 公布宿霧決賽名單",
+   "gp": ""
+  },
+  {
+   "key": "供應商圓桌社交互動與沉浸感須內建於玩法crash疲勞看法分歧|",
+   "date": "2026-11-09",
+   "cat": "cat5",
+   "title": "供應商圓桌：社交互動與沉浸感須內建於玩法，Crash 疲勞看法分歧",
+   "gp": ""
+  },
+  {
+   "key": "segasammy上半年獲利年增299博彩部門持平|",
+   "date": "2026-11-09",
+   "cat": "cat5",
+   "title": "Sega Sammy 上半年獲利年增 299%，博彩部門持平",
+   "gp": ""
+  },
+  {
+   "key": "澳門第三季非博彩消費年增133當日往返客暴增736|",
+   "date": "2026-11-09",
+   "cat": "cat5",
+   "title": "澳門第三季非博彩消費年增 13.3%，當日往返客暴增 73.6%",
+   "gp": ""
+  },
+  {
+   "key": "pollardbanknote第三季營收增2ebitda降12|",
+   "date": "2026-11-09",
+   "cat": "cat5",
+   "title": "Pollard Banknote 第三季營收增 2%，EBITDA 降 12%",
    "gp": ""
   }
  ],

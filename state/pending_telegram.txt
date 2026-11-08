@@ -1,37 +1,37 @@
-🎰 iGaming 市場日報 2026-11-08（週日）
-🎰 Slot 3 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-11-09（週一）
+🎰 Slot 6 ・ 🕹️ 非 Slot 0 ・ 🤝 主流 2 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 4
 
 ⭐ 今日重點
-・4 Fantastic Vikings Hold The Gold（4ThePlayer×Yggdrasil）：新增 Viking Respinner 重轉鎖定機制
-・菲律賓：BetConstruct AI 11/12–13 宿霧 SPiCE 參展，主推體育工具與彩券系統
-・Super Group 三個月內再下修財測，賽果拖累約 4,000 萬美元、賭場與非洲仍成長
+・Pragmatic Play《Chronos - Sands of Eternity》今日上線，最高 7,500x
+・菲律賓：SPiCE International 11/12–13 宿霧登場，GameZone 與 Gloc-9 合作單曲
+・供應商圓桌：社交與沉浸感須內建玩法，Crash 熱度分歧
 
 🎰 Slot 新遊戲
-01 📦 4 Fantastic Vikings Hold The Gold – 4ThePlayer
-02 📦 Grand City Heist – ONLYPLAY
-03 📦 Max The Winner Triple Pot – Swintt
-
-🕹️ 非 Slot 新內容
-01 📦 PokerStars Big Game on Tour 第三季 11/8 開播
+01 Chronos - Sands of Eternity – Pragmatic Play
+02 Kraken Slayer – Paperclip Gaming
+03 The Blizzard Line - Hold & Hit 3X3 – Spinomenal
+04 Joker Mask – BGaming
+05 🆕📦 Big Bass Christmas Blast 1000 – Pragmatic Play（11/16 上線）
+06 📦 4 Power Diamonds: Hold and Win – ENJOY Gaming
 
 🤝 動態：主流 GP／平台
-01 巴西 TRF3 暫停 Casa de Apostas 禁制令，聯邦層級已無營運中的合規業者
-02 Banijay 收購 Joa 獲法國競爭主管機關無條件核准
-03 Pragmatic Play 獲 SiGMA Italia 2026 最佳真人賭場供應商
-04 📦 Light & Wonder 任命 Matthieu Labbat 為 SciPlay 執行長
+01 Melco 賽普勒斯度假村創單季 EBITDA 新高，澳門疲弱拖累集團獲利
+02 📦（11/7）Allwyn UK 重整領導層
 
 🇵🇭 動態：菲律賓 GP／平台
-01 BetConstruct AI 確認參加 11/12–13 宿霧 SPiCE International 2026
+01 📦（11/7）GameZone 與 Gloc-9 合作 OPM 單曲
+02 📦（11/6）SPiCE International 2026 公布 Eventus Awards 入圍名單
 
 📊 市場數據 & 趨勢
-01 Super Group 下修 2026 財測：體育賽果拖累約 4,000 萬美元
-02 PENN 第三季營收增 7% 至 18.4 億美元，互動業務增 17%
-03 OGQ：哥倫比亞 2026 Q3 線上老虎機數量 Luckia 居冠
+01 供應商圓桌：社交互動與沉浸感須內建於玩法
+02 Sega Sammy 上半年淨利年增 298.6%
+03 澳門第三季非博彩消費年增 13.3%
+04 Pollard Banknote 第三季營收增 2%，EBITDA 降 12%
 
 📝 品質備註（本次爬找判斷）
-1. 週日窗內幾乎沒有新上線 Slot，三款皆為庫存補位（B1）；BigWinBoard 解析失敗、ELK 列表頁 SSL 失敗，Slot 偏少部分可能是抓取缺口。
-2. 菲律賓區僅 1 則：BingoPlus、PAGCOR Q3 GGR 與 11/7 已收重疊故未重收（疑似與 11/7 重疊），其餘平台無新聞稿。非 Slot 區僅 1 則（EEZE 無新議題）。
-3. 本次整份只收 12 則，原因是窗內有效候選少、去重後所剩有限，非刻意剔除。
+1. 週日窗內新聞偏少（harvest 窗內候選 39 則，多為義大利／拉美體育與彩券），非 Slot 區窗內 0 則、庫存也空，今日從缺；菲律賓區窗內僅 1 則無關（PlayTime 電競預測盤），兩則皆由庫存補位。
+2. Slot 的 Kraken Slayer、Blizzard Line、Joker Mask 無新聞稿，以 SlotsLaunch 上線日曆為主來源；Blizzard Line、Joker Mask 參數未公布。Pragmatic Play 官網與 BigWinBoard 今天抓取失敗。
+3. Melco 第三季與 11/5 日報有部分重疊，本則為賽普勒斯與 VIP 新角度，已收錄。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（23 天）、GiocoNews（9 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（24 天）、GiocoNews（10 天）；請檢查網址或改抓取方式
