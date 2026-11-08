@@ -1,4 +1,4 @@
 machine=Mac
 started=1794098817
-status=running
-updated=2026-11-08 08:46:57
+status=failed
+updated=2026-11-08 12:21:33
