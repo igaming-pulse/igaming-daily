@@ -1,0 +1,6 @@
+🚨 iGaming 日報即時警報 2026-11-08 13:07（13' v）
+Claude 登入過期
+
+請在終端機輸入 claude → /login 重新登入，再跟 Claude 說「補跑日報」。
+
+詳細紀錄：/Users/nathan.kao/igaming-daily/state/run.log
