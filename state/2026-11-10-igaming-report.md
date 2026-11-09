@@ -1,0 +1,288 @@
+# 🎰 iGaming 市場日報 2026-11-10（週二）
+
+🎰 Slot 6 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 4
+
+---
+
+## 📌 本日重點
+
+本日必看 Slot 新品：Buried By Night – Hacksaw Gaming
+本日市場趨勢總結：三區訊息共同指向「內容商競爭從單款爆款轉向通路與在地化擴張」。TaDa Gaming 把義大利與非洲認證遊戲持續鋪向新營運商、IGT 以少量高潛力機台在澳門連續送審，而菲律賓則有支付服務商在取得 PAGCOR 認證後鎖定電子賭場與賓果客群，顯示各方都在用合規與在地化換取進入新市場的門票。對 PM 的意涵是產品規劃要把合規認證、在地支付與通路整合視為與內容本身同等重要的上線條件。
+
+---
+
+## 🎰 Game Provider 新遊戲
+
+### 01 Buried By Night – Hacksaw Gaming
+
+Hacksaw Gaming 的西部題材新作 Buried By Night 11 月 10 日列入上線日曆，延續旗下 VS 對決機制，但把原本垂直的 DuelReels 轉成橫向的 DuelRows：VS 符號出現在第 2、3、4 軸時橫向展開，對決勝出者把 x2 到 x100 的倍數套用到整排。最高 15,000x，屬 Hacksaw 慣用的高波動路線，也呈現該廠以同一機制家族反覆迭代的產品策略。對 PM 的意義：Hacksaw 的 VS 系列在高波動玩家群有固定需求，橫向變體可作為既有 Gladiator Legends 類遊戲旁的差異化上架選項。
+
+衍生調整：VS 機制衍生，由垂直 DuelReels 改為橫向 DuelRows
+
+參數：
+- 廠牌：Hacksaw Gaming
+- 遊戲類型：線上電子老虎機
+- 盤面：5×4，14 betways
+- 消除/賠付：Betways 賠付；VS 符號展開成 DuelRows 對決倍數
+- 最高倍率：15,000x
+- RTP：96.32%
+- 波動：中高
+- 目標市場：沒有
+- 關鍵特色：橫向 DuelRows 對決倍數 x2–x100；Trigger Warning 免費旋轉、Shoot to Kill 與 Six Feet Under 等 Bonus
+
+查證：無新聞稿，主來源為 SlotsLaunch 上線日曆（上線日 11/10）；Vegas Slots Online 10/1 已有評測，參數取自該文與評測站，RTP 為第三方數據，未取得官網確認
+來源：[SlotsLaunch](https://slotslaunch.com/hacksaw-gaming/buried-by-night) · [Vegas Slots Online](https://www.vegasslotsonline.com/news/2026/10/01/hacksaw-gaming-builds-out-its-duelrows-mechanic-with-horror-themed-buried-by-night/) · 日期：2026-11-10
+圖片：https://assets.slotslaunch.com/115133/buried-by-night.jpg
+
+### 02 Caramel Drops – Amusnet
+
+Amusnet 11 月新一批線上遊戲共 20 款，其中 Caramel Drops 以糖果連消為主軸，每次連續消除都會推高倍數，進入免費旋轉或超級免費旋轉後倍數會鎖定並繼續累積。同批的 Legend of Zeus 則以隨機鑽石觸發 Collect、Boost、Expand 彩池，Hold & Spin 時盤面拉伸為 5×6，總倍數最高 5x。另含四款 Egypt Quest 累積彩金新作與 Pyramid Gold Triple Boost 等。對 PM 的意義：Amusnet 以批量發行補足各類題材，可挑連消倍數與 Hold & Spin 兩款優先評估。
+
+衍生調整：全新 IP，無衍生
+
+參數：
+- 廠牌：Amusnet
+- 遊戲類型：線上電子老虎機
+- 盤面：未公布
+- 消除/賠付：Cascading 連消，連續消除累加倍數
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：連消倍數鎖定累積、免費旋轉與超級免費旋轉、Buy Bonus
+
+查證：已查 Focus Gaming News 新聞稿、SlotsLaunch 頁與 WebSearch，盤面、倍率與 RTP 仍無公開數據；同批 100 Golden Bass、20 Wild Gobbler 先前已報導不重複
+來源：[Focus Gaming News](https://focusgn.com/amusnet-online-casino-game-rollout) · [SlotsLaunch](https://slotslaunch.com/amusnet/caramel-drops) · 日期：2026-11-09
+圖片：https://focusgn.com/wp-content/uploads/2026/11/Amusnet-November-2026-new-online-casino-1200x630.jpg
+
+### 03 Spell Realm – Zitro
+
+Zitro 推出 Spell Realm，包含 Lunar 與 Solar 兩款，由兩位巫師召喚冒泡的大鍋、藥水加成與神祕 Orb 驅動 Bonus Link：出現 3 個以上 Orb 啟動大鍋，紫色藥水加成單轉、綠色藥水加成整段大鍋。免費遊戲會點亮新欄位並帶擴展 Wild 與額外旋轉，收集 Golden Cauldron 累積最大獎。對 PM 的意義：這是 Zitro 典型 link-and-grow 機制的主題換皮，適合已有該廠實體機或 Link 類產品線的平台作為延伸款。
+
+衍生調整：Zitro link-and-grow 系列新題材，含 Lunar 與 Solar 兩個版本
+
+參數：
+- 廠牌：Zitro
+- 遊戲類型：實體+電子老虎機
+- 盤面：未公布
+- 消除/賠付：Bonus Link；Orb 啟動大鍋，藥水加成
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：Lunar／Solar 雙版本、藥水加成大鍋、擴展 Wild 免費遊戲
+
+查證：已查 Casino International 與 Gaming International 新聞稿、WebSearch，盤面、倍率與 RTP 仍無公開數據，Zitro 官網未查到
+來源：[Casino International](https://casinointernational-online.com/spellbinding-rewards-await-in-zitros-spel-realm/) · [Gaming International Online](https://gaminginternational.online/spellbinding-rewards-await-in-zitros-spel-realm/) · 日期：2026-11-09
+圖片：https://casinointernational-online.com/wp-content/uploads/Screenshot-2026-11-09-at-12.01.46.png
+
+### 04 X Wheel Deal – 24Karot
+
+24Karot 是 Yggdrasil YGG Champions 計畫下、主打美國文化的工作室，上月以 Buffalo Horizon 首發後，這次推出第二款 X Wheel Deal，走拉斯維加斯經典賭場風。3×3 盤面搭配 5 條固定賠付線，湊滿相同符號可進入 Wheel 玩法，倍數最高 10x；收集 Jackpot Card 符號可觸發 Jackpot Bonus Game，翻牌湊三張相同贏得 Mini、Midi 或 Maxi，最高 500x 注額。對 PM 的意義：簡單的 3×3 經典格式適合補足經典老虎機貨架，也可觀察 YGG Champions 工作室的後續發行節奏。
+
+衍生調整：全新 IP，無衍生
+
+參數：
+- 廠牌：24Karot（Yggdrasil YGG Champions 計畫）
+- 遊戲類型：線上電子老虎機
+- 盤面：3×3，5 條固定賠付線
+- 消除/賠付：固定賠付線；Wheel 玩法倍數最高 10x
+- 最高倍率：Jackpot Bonus Game 最高 500x 注額
+- RTP：未公布
+- 波動：未公布
+- 目標市場：美國（以美式賭場文化為設計）
+- 關鍵特色：Wheel 倍數玩法、Jackpot Card 觸發的翻牌彩金遊戲、倒數自動選牌
+
+查證：已查 Gaming International 新聞稿與 WebSearch，RTP 與波動仍無公開數據；倍率為各玩法上限，整體最高倍率另無公布
+來源：[Gaming International Online](https://gaminginternational.online/24karot-brings-classic-casino-glamour-to-its-second-release-x-wheel-deal/) · 日期：2026-11-09
+圖片：https://gaminginternational.online/wp-content/uploads/image-39.png
+
+### 05 3 Wild Gods – Soko Games
+📦 近期新作（11/9 首見）
+
+Soko Games 的 3 Wild Gods 於 SlotsLaunch 上線日曆列為 11 月 9 日上線，目前僅有資料庫頁面與試玩，無新聞稿與評測，玩法細節不明。收進日報是因 Soko Games 近期發行量大、可作為中小型內容商動態觀察。對 PM 的意義：可先在試玩環境檢視後再決定是否進入評估名單。
+
+衍生調整：全新 IP，無衍生
+
+參數：
+- 廠牌：Soko Games
+- 遊戲類型：線上電子老虎機
+- 盤面：未公布
+- 消除/賠付：未公布
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：未公布
+
+查證：無新聞稿，主來源為 SlotsLaunch 上線日曆（上線日 11/9）；已查 SlotsLaunch 頁面與 WebSearch，盤面、倍率與 RTP 仍無
+來源：[SlotsLaunch](https://slotslaunch.com/soko-games/3-wild-gods) · 日期：2026-11-09
+圖片：https://assets.slotslaunch.com/116813/3-wild-gods.jpg
+
+### 06 Jungle Loot League – Arcane Pixel
+📦 近期新作（11/9 首見）
+
+Arcane Pixel 的 Jungle Loot League 於 11 月 9 日上線，SlotsLaunch 頁面列為 5 軸 All Ways 賠付的標準老虎機，帶有額外 Bonus 回合，目前無新聞稿與評測。叢林題材為常見路線，細節需待試玩確認。對 PM 的意義：屬小型內容商新作，可列入觀察，不建議優先上架。
+
+衍生調整：全新 IP，無衍生
+
+參數：
+- 廠牌：Arcane Pixel
+- 遊戲類型：線上電子老虎機
+- 盤面：5 軸
+- 消除/賠付：All Ways
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：All Ways 賠付、Bonus 回合（細節未公布）
+
+查證：無新聞稿，主來源為 SlotsLaunch 上線日曆（上線日 11/9）；已查 SlotsLaunch 頁面與 WebSearch，倍率與 RTP 仍無
+來源：[SlotsLaunch](https://slotslaunch.com/arcane-pixel/jungle-loot-league) · 日期：2026-11-09
+圖片：https://assets.slotslaunch.com/115097/jungle-loot.jpg
+
+## 🕹️ 非 Slot 新內容
+
+### 01 英國高等法院延長 Spribe 在 Aviator 糾紛中的臨時保護
+
+英國高等法院延長對 Spribe 的臨時保護，限制兩家喬治亞 Aviator LLC 與馬爾他 Aviator Studios 關係企業的同名競品，在案件審理期間不得在哥倫比亞、塞爾維亞、羅馬尼亞新增上架平台，並須在加拿大、義大利上線前先通知 Spribe。法官認為兩款使用相同名稱與相似標誌的 Crash 遊戲「很可能」造成顧客混淆。Spribe 2019 年在喬治亞推出 Aviator，2021 年前已擴及英國等市場；本案為臨時禁制令，尚未判定是否侵權。對 PM 的意義：Crash 品類的品牌與名稱爭議已進入跨國訴訟，上架同名或近似名稱的 Crash 遊戲前要先確認授權來源。
+
+參數：
+- 遊戲類型：其他類型遊戲（Crash 小遊戲）
+- 最高倍率：未公布
+- RTP：未公布
+- 目標市場：英國、哥倫比亞、塞爾維亞、羅馬尼亞、加拿大、義大利
+- 關鍵特色：Aviator 名稱與商標糾紛；臨時禁制令限制競品擴張
+
+查證：本日窗內非 Slot 合格新聞僅此一則，EEZE 無新消息
+來源：[iGaming Business](https://igamingbusiness.com/legal-compliance/uk-high-court-interim-protection-spribe-aviator-game-dispute/) · 日期：2026-11-10
+圖片：https://igamingbusiness.com/wp-content/uploads/2026/11/3dhgae3-scaled.jpg
+
+## 🤝 動態：主流 GP／平台
+
+### 01 IGT 再獲澳門批准三款 RISE55 機台遊戲
+
+IGT 獲澳門博彩監察機構批准三款新老虎機：Treasure Blast Balloon、San Xing Gao Zhao – Fu Qi Chong Tian 與 Magic Rockets Tiger，皆為 RISE55 機台設計，其中兩款符合累積彩金系統標準，批准日為 10 月 30 日。尚未公布安裝日期與數量，IGT 表示策略是推出較少但商業潛力較高的遊戲，這也是繼 9 月底五款獲批後的第二批。對 PM 的意義：實體機大廠在亞洲市場靠送審節奏鋪陳新機台，可追蹤其後續在澳門與亞洲的實際裝機。
+
+重點：類型 認證 ｜ 對象 IGT、澳門博彩監察機構 ｜ 影響 IGT 以少量高潛力機台持續擴充亞洲 RISE55 產品線
+
+查證：主來源 GGRAsia 以 Firecrawl 摘要取得（頁面被擋），批准日 10/30 取自該摘要
+來源：[GGRAsia](https://www.ggrasia.com/igt-gains-macau-approval-for-three-more-slot-games) · 日期：2026-11-09
+圖片：https://www.ggrasia.com/wp-content/uploads/2024/07/IGT-logo-4.jpg
+
+### 02 TaDa Gaming 與肯亞 OdiBets 合作，擴大非洲營運商覆蓋
+
+TaDa Gaming 與肯亞營運商 OdiBets 達成合作，OdiBets 玩家可玩到 Fortune Gems 500、Fortune Garuda 500、Fortune Coins 2、Gold Mine Express 與 Jackpot Joker Fever 等遊戲。TaDa 稱其在非洲靠在地化策略建立口碑，並曾獲 SiGMA Africa Slot Newcomer of the Year。OdiBets 由 Kareco Holdings 營運，受肯亞 GRA 監管。對 PM 的意義：TaDa 與其他亞洲內容商一樣把成熟的 Fortune 系列複製到新區域，可參考其以在地化帶動分銷的打法。
+
+重點：類型 合作 ｜ 對象 TaDa Gaming、OdiBets ｜ 影響 TaDa 的 Fortune 系列內容拓展到東非市場
+
+來源：[Focus Gaming News](https://focusgn.com/tada-gaming-odibets-kenya-partnership) · 日期：2026-11-09
+圖片：https://focusgn.com/wp-content/uploads/2026/11/TaDa-Gaming-Extends-African-Operator-Coverage-with-OdiBets-Partnership-1200x630.jpg
+
+### 03 Evoplay 經 St8 擴大安大略省分銷
+
+Evoplay 擴大與遊戲聚合商 St8 的合作，透過其聚合平台向安大略省營運商提供老虎機與即時遊戲內容，並以單一整合方式取得。St8 平台整合超過 220 家供應商、21,000 款以上遊戲。Evoplay 表示這是其受監管市場成長策略的一環。對 PM 的意義：加拿大安大略市場正透過聚合商成為內容商搶進的目標，內容分銷通路比單款遊戲更關鍵。
+
+重點：類型 合作 ｜ 對象 Evoplay、St8 ｜ 影響 Evoplay 以聚合商路徑進入安大略受監管市場
+
+來源：[G3 Newswire](https://g3newswire.com/evoplay-partners-with-st8-to-expand-content-reach-in-ontario/) · [EEGaming](https://eegaming.org/latest-news/2026/11/09/53555/evoplay-extends-st8-deal-to-distribute-games-in-ontario/) · 日期：2026-11-09
+圖片：https://g3newswire.com/wp-content/uploads/2026/11/EvoplaySt8.jpg
+
+### 04 Endorphina 加入 Kanggiten 聚合生態系
+
+模組化 iGaming 技術商 Kanggiten 與馬爾他持牌老虎機開發商 Endorphina 達成內容合作，Endorphina 加入其遊戲聚合體系，供平台上的營運商選用。Endorphina 自 2012 年開發線上老虎機，擁有逾 200 款遊戲，涵蓋 Hold and Win、收集與彩金玩法，並持有 MGA B2B 牌照。Kanggiten 強調聚合是「挑選」而非比拼數量。對 PM 的意義：聚合平台走精選路線，內容商需要有清楚的產品差異與合規資格才容易被選入。
+
+重點：類型 合作 ｜ 對象 Kanggiten、Endorphina ｜ 影響 Endorphina 新增一條 B2B 聚合分銷通路
+
+來源：[G3 Newswire](https://g3newswire.com/kanggiten-and-endorphina-partner-to-widen-slot-content-for-operators-on-kanggitens-b2b-platform/) · 日期：2026-11-09
+圖片：https://g3newswire.com/wp-content/uploads/2026/11/KanggitenEndorphina.jpg
+
+## 🇵🇭 動態：菲律賓 GP／平台
+
+### 01 支付服務商 PayCools 取得 PAGCOR 認證，鎖定菲律賓博彩客群
+
+Payment Innovation Inc（品牌 PayCools）在取得 PAGCOR 認證後，打算進入菲律賓博彩市場，目標客戶涵蓋電子賭場、運動博彩、賓果與線上撲克等受監管業者，並列為支付閘道方案的認證支援服務商。執行長 Yong Dan 強調協助博彩業者建立並管理高效的支付架構。對 PM 的意義：菲律賓平台競爭加劇時，支付通路與在地入金方式是留存關鍵，可評估與認證支付商的整合選項。
+
+重點：類型 認證 ｜ 對象 PayCools（Payment Innovation Inc）、PAGCOR ｜ 影響 新增一家 PAGCOR 認證支付閘道可供電子遊戲與賓果平台接入
+
+查證：GGRAsia 頁面被擋，內容取自 Firecrawl 摘要
+來源：[GGRAsia](https://www.ggrasia.com/payment-biz-paycools-aiming-to-work-with-philippine-gaming-sector-after-pagcor-accreditation) · 日期：2026-11-09
+圖片：https://www.ggrasia.com/wp-content/uploads/2026/06/Online-gambling-casino-2.jpg
+
+### 02 SPiCE International 2026 將於 11/12–13 在宿霧舉行
+
+第三屆 SPiCE International 2026 將於 11 月 12 至 13 日在宿霧 Shangri-La Mactan 舉行，主題涵蓋 AI、新娛樂品類、市場進入與投資。首日聚焦產品、基礎設施與營運商優先事項，議程包含新創簡報競賽、AI 與新規則討論、營運商採購的產品市集與賭場領袖座談。主辦方指出以手機為主的玩家、持續演進的監管與技術創新正在重塑亞洲業者，菲律賓居核心位置。對 PM 的意義：這是菲律賓市場近期少見的產品與採購導向展會，可關注業者在 AI 與產品方向上的發言。
+
+重點：類型 市場進入 ｜ 對象 SPiCE International、菲律賓營運商與供應商 ｜ 影響 展會期間可能密集出現菲律賓平台與供應商的合作與產品消息
+
+來源：[AGIMEG](https://www.agimeg.it/spice-international-2026-torna-filippine-cebu-due-giornate-dedicate-mercato-gioco-asiatico/) · 日期：2026-11-09
+圖片：https://agimeg.b-cdn.net/wp-content/uploads/2026/11/IMG_4676.jpeg
+
+## 📊 市場數據 & 趨勢
+
+### 01 EGR 全球 Slots Tracker：Pragmatic Play 三款遊戲擠進前 20
+
+EGR Intel 的 Global/dotcom Slots Tracker 顯示，10 月 Pragmatic Play 有三款遊戲進入前 20，表現強勢；Hacksaw Gaming 同月也有一款新作首次上榜。報導重點在於這兩家工作室在全球榜單上的影響力持續擴大。對 PM 的意義：榜單顯示大廠新作仍能快速進入熱門區，貨架排序可參考月榜動態調整曝光。
+
+重點：類型 市場數據 ｜ 對象 Pragmatic Play、Hacksaw Gaming ｜ 影響 全球榜單由少數大廠新作主導
+
+查證：EGR 內文付費牆，僅取得 Firecrawl 摘要與標題，未取得完整名次
+來源：[EGR Intel](https://www.egr.global/intel/insight/global-dotcom-slots-tracker-three-pragmatic-play-games-barge-into-top-20/) · 日期：2026-11-09
+圖片：https://www.egr.global/intel/wp-content/uploads/sites/2/2023/04/iStock-174798409-1-700x467.jpg
+
+### 02 EGR 拉美 Slots Tracker：PG Soft 10 月排名大幅下滑
+
+EGR Intel 的拉丁美洲月度榜單顯示，原本被視為 Spribe 與 Pragmatic Play 挑戰者的 PG Soft 在 10 月排名急遽下滑。報導未公開完整名次與原因，但顯示拉美榜單的競爭格局在短期內出現明顯變動。對 PM 的意義：拉美市場的熱門內容排序變動快，不宜只依賴單一內容商，建議分散上架。
+
+重點：類型 市場數據 ｜ 對象 PG Soft、Spribe、Pragmatic Play ｜ 影響 拉美熱門榜單領先位置出現鬆動
+
+查證：EGR 內文付費牆，僅取得 Firecrawl 摘要，未取得具體名次與數據
+來源：[EGR Intel](https://www.egr.global/intel/insight/latam-slots-tracker-pg-soft-position-crumbles-in-october/) · 日期：2026-11-09
+圖片：https://www.egr.global/intel/wp-content/uploads/sites/2/2024/03/p16-Slots-Generic-700x448.jpg
+
+### 03 EGT Digital 的 40 Super Hot Bell Link 登頂歐洲老虎機榜
+
+Eilers & Krejcik Gaming 的 2026 年 10 月線上老虎機績效月報中，EGT Digital 的 40 Super Hot Bell Link 位居歐洲前段榜首，EGT Digital 共有七款遊戲進入歐洲前 25。該月報涵蓋 15 個國家、65 家線上賭場。遊戲本身是經典水果符號搭配四級 Bell Link 彩金。對 PM 的意義：經典水果加多級彩金的組合在歐洲仍有穩定表現，說明傳統題材與彩金機制並未過時。
+
+重點：類型 市場數據 ｜ 對象 EGT Digital、Eilers & Krejcik Gaming ｜ 影響 經典水果加彩金玩法在歐洲榜單持續領先
+
+來源：[iGaming Future](https://igamingfuture.com/40-super-hot-bell-link-tops-european-slot-rankings/) · 日期：2026-11-09
+圖片：https://igamingfuture.com/wp-content/uploads/2026/11/40SuperHot-Number1_EGTDigital_1600x900.png
+
+### 04 紐約州賭場 10 月收入年增 248% 至 1.949 億美元
+
+紐約州賭場 10 月收入達 1.949 億美元，年增 248%，主因 Resorts World New York City 於 4 月推出真人桌上遊戲。其中老虎機收入 1.353 億美元、年增 214.1%，桌上遊戲 5,830 萬美元、年增 399.6%。Resorts World NYC 單一賭場營收 1.343 億美元，為全州最高；其他四家賭場亦全數年增，Rivers Schenectady 成長 14.2%。對 PM 的意義：新牌照與桌上遊戲上線帶動的基期效應明顯，解讀年增率時需區分新增產能與既有市場成長。
+
+重點：類型 市場數據 ｜ 對象 紐約州博彩委員會、Resorts World NYC ｜ 影響 新牌照賭場拉高全州數字，既有賭場成長僅個位至十餘個百分點
+
+來源：[CDC Gaming](https://cdcgaming.com/new-york-casino-revenue-climbs-248-to-194-9-million-in-october/) · 日期：2026-11-09
+圖片：https://cdcgaming.com/wp-content/uploads/og-cache/160300.jpg
+
+---
+
+本日日報查詢約 45 個網站，其中提取 25 個資料來源並進行交叉比對
+
+---
+
+## 🗓️ 來源日期紀錄（內部，不渲染）
+
+・Buried By Night：主來源 SlotsLaunch 上線日 2026-11-10（無新聞稿）；佐證 Vegas Slots Online 2026-10-01T13:57Z（metadata）
+・Caramel Drops：Focus Gaming News 2026-11-09T08:11 -03:00（metadata）
+・Spell Realm：Casino International 2026-11-09T13:23Z（metadata）
+・X Wheel Deal：Gaming International 2026-11-09T13:27Z（metadata）
+・3 Wild Gods、Jungle Loot League：SlotsLaunch 上線日 2026-11-09（庫存補位）
+・Spribe：iGaming Business 2026-11-09T17:43Z（metadata，台北 11/10 01:43）
+・IGT：GGRAsia 2026-11-09T05:24Z（Firecrawl metadata）
+・TaDa：Focus Gaming News 2026-11-09T06:49 -03:00（metadata）
+・Evoplay：G3 Newswire 2026-11-09T11:58Z（metadata）
+・Kanggiten：G3 Newswire 2026-11-09T14:36Z（metadata）
+・PayCools：GGRAsia 2026-11-09T00:46Z（Firecrawl metadata）
+・SPiCE：AGIMEG 2026-11-09T11:42Z（metadata）
+・EGR 全球榜／拉美榜：2026-11-09T15:04Z／10:45Z（metadata）
+・40 Super Hot Bell Link：iGaming Future 2026-11-09T08:00Z（metadata）
+・紐約：CDC Gaming 2026-11-09T13:00 -05:00（metadata）
+・剔除：Chronos、Kraken Slayer、Zitro Empress of Jewels、Wazdan 25 Magic Plums（近 3 天已出現）
+・剔除：Pragmatic Play × Rank Smart Studio（11/4 已報導同一事件）
+・剔除：菲律賓 Q3 GGR 年減 11.4%（11/7 已報導 PAGCOR 同一數據）
+・剔除：Bursting Crowns 100（GameArt，查無遊戲頁與參數，僅 SlotsLaunch 日曆列名）
+・剔除：Marlin Masters: Frozen Frenzy（Hacksaw，預告主來源 10/9 超過 30 天，定稿檢查不通過，留庫存待 11/17 上線）

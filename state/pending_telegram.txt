@@ -1,37 +1,41 @@
-🎰 iGaming 市場日報 2026-11-09（週一）
-🎰 Slot 6 ・ 🕹️ 非 Slot 0 ・ 🤝 主流 2 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 4
+🎰 iGaming 市場日報 2026-11-10（週二）
+🎰 Slot 6 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 4
 
 ⭐ 今日重點
-・Pragmatic Play《Chronos - Sands of Eternity》今日上線，最高 7,500x
-・菲律賓：SPiCE International 11/12–13 宿霧登場，GameZone 與 Gloc-9 合作單曲
-・供應商圓桌：社交與沉浸感須內建玩法，Crash 熱度分歧
+・Hacksaw《Buried By Night》上線：VS 機制改橫向 DuelRows，最高 15,000x
+・PayCools 取得 PAGCOR 認證，鎖定菲律賓電子賭場與賓果；SPiCE 11/12 宿霧開展
+・EGR 榜單：PG Soft 拉美排名大跌，Pragmatic Play 三款擠進全球前 20
 
 🎰 Slot 新遊戲
-01 Chronos - Sands of Eternity – Pragmatic Play
-02 Kraken Slayer – Paperclip Gaming
-03 The Blizzard Line - Hold & Hit 3X3 – Spinomenal
-04 Joker Mask – BGaming
-05 🆕📦 Big Bass Christmas Blast 1000 – Pragmatic Play（11/16 上線）
-06 📦 4 Power Diamonds: Hold and Win – ENJOY Gaming
+01 Buried By Night – Hacksaw Gaming
+02 Caramel Drops – Amusnet
+03 Spell Realm – Zitro
+04 X Wheel Deal – 24Karot
+05 📦 3 Wild Gods – Soko Games
+06 📦 Jungle Loot League – Arcane Pixel
+
+🕹️ 非 Slot 新內容
+01 英國高等法院延長 Spribe 在 Aviator 糾紛中的臨時保護
 
 🤝 動態：主流 GP／平台
-01 Melco 賽普勒斯度假村創單季 EBITDA 新高，澳門疲弱拖累集團獲利
-02 📦（11/7）Allwyn UK 重整領導層
+01 IGT 再獲澳門批准三款 RISE55 機台遊戲
+02 TaDa Gaming 與肯亞 OdiBets 合作，擴大非洲營運商覆蓋
+03 Evoplay 經 St8 擴大安大略省分銷
+04 Endorphina 加入 Kanggiten 聚合生態系
 
 🇵🇭 動態：菲律賓 GP／平台
-01 📦（11/7）GameZone 與 Gloc-9 合作 OPM 單曲
-02 📦（11/6）SPiCE International 2026 公布 Eventus Awards 入圍名單
+01 支付服務商 PayCools 取得 PAGCOR 認證，鎖定菲律賓博彩客群
+02 SPiCE International 2026 將於 11/12–13 在宿霧舉行
 
 📊 市場數據 & 趨勢
-01 供應商圓桌：社交互動與沉浸感須內建於玩法
-02 Sega Sammy 上半年淨利年增 298.6%
-03 澳門第三季非博彩消費年增 13.3%
-04 Pollard Banknote 第三季營收增 2%，EBITDA 降 12%
+01 EGR 全球 Slots Tracker：Pragmatic Play 三款遊戲擠進前 20
+02 EGR 拉美 Slots Tracker：PG Soft 10 月排名大幅下滑
+03 EGT Digital 的 40 Super Hot Bell Link 登頂歐洲老虎機榜
+04 紐約州賭場 10 月收入年增 248% 至 1.949 億美元
 
 📝 品質備註（本次爬找判斷）
-1. 週日窗內新聞偏少（harvest 窗內候選 39 則，多為義大利／拉美體育與彩券），非 Slot 區窗內 0 則、庫存也空，今日從缺；菲律賓區窗內僅 1 則無關（PlayTime 電競預測盤），兩則皆由庫存補位。
-2. Slot 的 Kraken Slayer、Blizzard Line、Joker Mask 無新聞稿，以 SlotsLaunch 上線日曆為主來源；Blizzard Line、Joker Mask 參數未公布。Pragmatic Play 官網與 BigWinBoard 今天抓取失敗。
-3. Melco 第三季與 11/5 日報有部分重疊，本則為賽普勒斯與 VIP 新角度，已收錄。
+1. 窗內候選 422 則，但 Slot 新作多數與 11/9 重複，實際新款僅 4 款，從庫存補 2 款（B1）；Marlin Masters 預告主來源 10/9 超過 30 天被定稿檢查擋下，留庫存待 11/17。
+2. 非 Slot 僅 1 則（Pragmatic×Rank 與 11/4 同事件剔除、EEZE 無新消息）；菲律賓 Q3 GGR 與 11/7 PAGCOR 同一數據剔除，菲律賓區只有 2 則，平台新聞偏少。EGR 兩則榜單為付費牆，僅取得摘要；IGT、PayCools 配圖被擋。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（24 天）、GiocoNews（10 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（25 天）、GiocoNews（11 天）；請檢查網址或改抓取方式

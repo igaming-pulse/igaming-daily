@@ -1,0 +1,36 @@
+{
+ "date": "2026-11-09",
+ "available": 2,
+ "chosen": [
+  {
+   "cat": "cat1",
+   "title": "3 Wild Gods",
+   "gp": "Soko Games",
+   "b": 1,
+   "first_seen": "2026-11-09",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/soko-games/3-wild-gods",
+     "published": "2026-11-09"
+    }
+   ],
+   "key": "3wildgods|sokogames"
+  },
+  {
+   "cat": "cat1",
+   "title": "Jungle Loot League",
+   "gp": "Arcane Pixel",
+   "b": 1,
+   "first_seen": "2026-11-09",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/arcane-pixel/jungle-loot-league",
+     "published": "2026-11-09"
+    }
+   ],
+   "key": "junglelootleague|arcanepixel"
+  }
+ ]
+}

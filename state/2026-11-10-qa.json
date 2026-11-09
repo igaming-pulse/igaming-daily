@@ -1,0 +1,33 @@
+{
+ "date": "2026-11-10",
+ "md": "state/2026-11-10-igaming-report.md",
+ "html": "reports/2026-11-10.html",
+ "items": 17,
+ "counts": {
+  "cat1": 6,
+  "cat2": 1,
+  "cat3": 4,
+  "cat4": 2,
+  "cat5": 4
+ },
+ "links": {
+  "checked": 38,
+  "ok": 34,
+  "broken": 0,
+  "blocked": 2,
+  "images_dropped": 2,
+  "images": 15
+ },
+ "errors": [],
+ "warnings": [
+  "cat3-01 IGT 再獲澳門批准三款 RISE55 機台遊戲｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/igt-gains-macau-approval-for-three-more-slot-games",
+  "cat4-01 支付服務商 PayCools 取得 PAGCOR｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/payment-biz-paycools-aiming-to-work-with-philippine-gaming-sector-after-pagcor-accreditation",
+  "cat3-01 IGT 再獲澳門批准三款 RISE55 機台遊戲｜各來源都找不到可用的配圖",
+  "cat4-01 支付服務商 PayCools 取得 PAGCOR｜各來源都找不到可用的配圖"
+ ],
+ "fixes": [
+  "cat3-01 IGT 再獲澳門批准三款 RISE55 機台遊戲｜配圖打不開（403 text/html），已自動拿掉：https://www.ggrasia.com/wp-content/uploads/2024/07/IGT-logo-4.jpg",
+  "cat4-01 支付服務商 PayCools 取得 PAGCOR｜配圖打不開（403 text/html），已自動拿掉：https://www.ggrasia.com/wp-content/uploads/2026/06/Online-gambling-casino-2.jpg",
+  "文末｜資料來源數 25 → 21（程式依來源連結去重計算）"
+ ]
+}

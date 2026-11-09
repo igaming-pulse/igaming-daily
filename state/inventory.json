@@ -122,52 +122,9 @@
     }
    ],
    "key": "lesantaholdwin|hacksawgaming"
-  },
-  {
-   "cat": "cat1",
-   "title": "3 Wild Gods",
-   "gp": "Soko Games",
-   "b": 1,
-   "first_seen": "2026-11-09",
-   "sources": [
-    {
-     "name": "SlotsLaunch",
-     "url": "https://slotslaunch.com/soko-games/3-wild-gods",
-     "published": "2026-11-09"
-    }
-   ],
-   "key": "3wildgods|sokogames"
-  },
-  {
-   "cat": "cat1",
-   "title": "Jungle Loot League",
-   "gp": "Arcane Pixel",
-   "b": 1,
-   "first_seen": "2026-11-09",
-   "sources": [
-    {
-     "name": "SlotsLaunch",
-     "url": "https://slotslaunch.com/arcane-pixel/jungle-loot-league",
-     "published": "2026-11-09"
-    }
-   ],
-   "key": "junglelootleague|arcanepixel"
   }
  ],
  "others": [
-  {
-   "cat": "cat5",
-   "title": "SJM 第三季虧損 5,000 萬美元",
-   "first_seen": "2026-11-06",
-   "sources": [
-    {
-     "name": "Inside Asian Gaming",
-     "url": "https://asgam.com/2026/11/05/sjm-falls-to-us50-million-third-quarter-loss-as-market-headwinds-and-property-renovations-take-their-toll/",
-     "published": "2026-11-05 17:14"
-    }
-   ],
-   "key": "sjm第三季虧損5000萬美元|"
-  },
   {
    "cat": "cat5",
    "title": "OGQ：美國線上賭場 2026 Q3 老虎機與真人遊戲數量，Borgata NJ 居冠",
@@ -180,100 +137,37 @@
    ],
    "first_seen": "2026-11-09",
    "key": "ogq美國線上賭場2026q3老虎機與真人遊戲數量borgatanj居冠|"
+  },
+  {
+   "cat": "cat3",
+   "title": "Bragg Gaming 任命 COO Morten Tonnesen 為代理執行長，Mazij 轉任顧問",
+   "b": 1,
+   "first_seen": "2026-11-10",
+   "sources": [
+    {
+     "name": "iGaming Business",
+     "url": "https://igamingbusiness.com/people/bragg-taps-coo-morten-tonnesen-chief-executive-officer/",
+     "published": "2026-11-09 22:07"
+    }
+   ],
+   "key": "bragggaming任命coomortentonnesen為代理執行長mazij轉任顧問|"
+  },
+  {
+   "cat": "cat5",
+   "title": "英國新成立 Gambling Policy Commission 啟動賭博法規檢討，評估是否需要新法",
+   "b": 1,
+   "first_seen": "2026-11-10",
+   "sources": [
+    {
+     "name": "iGaming Business",
+     "url": "https://igamingbusiness.com/legal-compliance/new-commission-review-into-new-gambling-act/",
+     "published": "2026-11-09 18:49"
+    }
+   ],
+   "key": "英國新成立gamblingpolicycommission啟動賭博法規檢討評估是否需要新法|"
   }
  ],
  "history": [
-  {
-   "key": "romax8192|tadagaming",
-   "date": "2026-10-10",
-   "cat": "cat1",
-   "title": "Roma X 8192",
-   "gp": "TaDa Gaming"
-  },
-  {
-   "key": "redhotchilli|bgaming",
-   "date": "2026-10-10",
-   "cat": "cat1",
-   "title": "Red & Hot Chilli",
-   "gp": "BGaming"
-  },
-  {
-   "key": "jackpotblitz電子撲克桌進駐pechanga|jackpotdigital",
-   "date": "2026-10-10",
-   "cat": "cat2",
-   "title": "Jackpot Blitz 電子撲克桌進駐 Pechanga",
-   "gp": "Jackpot Digital"
-  },
-  {
-   "key": "low6收購splashgames擴張rivalz技能對戰|low6",
-   "date": "2026-10-10",
-   "cat": "cat2",
-   "title": "LOW6 收購 Splash Games 擴張 Rivalz 技能對戰",
-   "gp": "LOW6"
-  },
-  {
-   "key": "tadagaming借g2e打開美國市場|",
-   "date": "2026-10-10",
-   "cat": "cat3",
-   "title": "TaDa Gaming 借 G2E 打開美國市場",
-   "gp": ""
-  },
-  {
-   "key": "巴西trf3撤銷stake禁制令|",
-   "date": "2026-10-10",
-   "cat": "cat3",
-   "title": "巴西 TRF3 撤銷 Stake 禁制令",
-   "gp": ""
-  },
-  {
-   "key": "wazdan上架丹麥danskespilcasino|",
-   "date": "2026-10-10",
-   "cat": "cat3",
-   "title": "Wazdan 上架丹麥 Danske Spil Casino",
-   "gp": ""
-  },
-  {
-   "key": "konami全通路策略與自有igaming遊戲庫|",
-   "date": "2026-10-10",
-   "cat": "cat3",
-   "title": "Konami 全通路策略與自有 iGaming 遊戲庫",
-   "gp": ""
-  },
-  {
-   "key": "youtube開放博彩業者購買masthead廣告|",
-   "date": "2026-10-10",
-   "cat": "cat3",
-   "title": "YouTube 開放博彩業者購買 Masthead 廣告",
-   "gp": ""
-  },
-  {
-   "key": "bingoplus贊助2026菲律賓音樂獎|",
-   "date": "2026-10-10",
-   "cat": "cat4",
-   "title": "BingoPlus 贊助 2026 菲律賓音樂獎",
-   "gp": ""
-  },
-  {
-   "key": "bgaming熟悉題材帶來注意力玩法決定留存|",
-   "date": "2026-10-10",
-   "cat": "cat5",
-   "title": "BGaming：熟悉題材帶來注意力，玩法決定留存",
-   "gp": ""
-  },
-  {
-   "key": "阿根廷線上博彩稅前9月超越2025全年|",
-   "date": "2026-10-10",
-   "cat": "cat5",
-   "title": "阿根廷線上博彩稅前 9 月超越 2025 全年",
-   "gp": ""
-  },
-  {
-   "key": "巴西博彩禁令兩週裁員約3500人|",
-   "date": "2026-10-10",
-   "cat": "cat5",
-   "title": "巴西博彩禁令兩週裁員約 3,500 人",
-   "gp": ""
-  },
   {
    "key": "justburied|incredibletechnologies",
    "date": "2026-10-11",
@@ -3856,6 +3750,125 @@
    "date": "2026-11-09",
    "cat": "cat5",
    "title": "Pollard Banknote 第三季營收增 2%，EBITDA 降 12%",
+   "gp": ""
+  },
+  {
+   "key": "buriedbynight|hacksawgaming",
+   "date": "2026-11-10",
+   "cat": "cat1",
+   "title": "Buried By Night",
+   "gp": "Hacksaw Gaming"
+  },
+  {
+   "key": "carameldrops|amusnet",
+   "date": "2026-11-10",
+   "cat": "cat1",
+   "title": "Caramel Drops",
+   "gp": "Amusnet"
+  },
+  {
+   "key": "spellrealm|zitro",
+   "date": "2026-11-10",
+   "cat": "cat1",
+   "title": "Spell Realm",
+   "gp": "Zitro"
+  },
+  {
+   "key": "xwheeldeal|24karot",
+   "date": "2026-11-10",
+   "cat": "cat1",
+   "title": "X Wheel Deal",
+   "gp": "24Karot"
+  },
+  {
+   "key": "3wildgods|sokogames",
+   "date": "2026-11-10",
+   "cat": "cat1",
+   "title": "3 Wild Gods",
+   "gp": "Soko Games"
+  },
+  {
+   "key": "junglelootleague|arcanepixel",
+   "date": "2026-11-10",
+   "cat": "cat1",
+   "title": "Jungle Loot League",
+   "gp": "Arcane Pixel"
+  },
+  {
+   "key": "英國高等法院延長spribe在aviator糾紛中的臨時保護|",
+   "date": "2026-11-10",
+   "cat": "cat2",
+   "title": "英國高等法院延長 Spribe 在 Aviator 糾紛中的臨時保護",
+   "gp": ""
+  },
+  {
+   "key": "igt再獲澳門批准三款rise55機台遊戲|",
+   "date": "2026-11-10",
+   "cat": "cat3",
+   "title": "IGT 再獲澳門批准三款 RISE55 機台遊戲",
+   "gp": ""
+  },
+  {
+   "key": "tadagaming與肯亞odibets合作擴大非洲營運商覆蓋|",
+   "date": "2026-11-10",
+   "cat": "cat3",
+   "title": "TaDa Gaming 與肯亞 OdiBets 合作，擴大非洲營運商覆蓋",
+   "gp": ""
+  },
+  {
+   "key": "evoplay經st8擴大安大略省分銷|",
+   "date": "2026-11-10",
+   "cat": "cat3",
+   "title": "Evoplay 經 St8 擴大安大略省分銷",
+   "gp": ""
+  },
+  {
+   "key": "endorphina加入kanggiten聚合生態系|",
+   "date": "2026-11-10",
+   "cat": "cat3",
+   "title": "Endorphina 加入 Kanggiten 聚合生態系",
+   "gp": ""
+  },
+  {
+   "key": "支付服務商paycools取得pagcor認證鎖定菲律賓博彩客群|",
+   "date": "2026-11-10",
+   "cat": "cat4",
+   "title": "支付服務商 PayCools 取得 PAGCOR 認證，鎖定菲律賓博彩客群",
+   "gp": ""
+  },
+  {
+   "key": "spiceinternational2026將於111213在宿霧舉行|",
+   "date": "2026-11-10",
+   "cat": "cat4",
+   "title": "SPiCE International 2026 將於 11/12–13 在宿霧舉行",
+   "gp": ""
+  },
+  {
+   "key": "egr全球slotstrackerpragmaticplay三款遊戲擠進前20|",
+   "date": "2026-11-10",
+   "cat": "cat5",
+   "title": "EGR 全球 Slots Tracker：Pragmatic Play 三款遊戲擠進前 20",
+   "gp": ""
+  },
+  {
+   "key": "egr拉美slotstrackerpgsoft10月排名大幅下滑|",
+   "date": "2026-11-10",
+   "cat": "cat5",
+   "title": "EGR 拉美 Slots Tracker：PG Soft 10 月排名大幅下滑",
+   "gp": ""
+  },
+  {
+   "key": "egtdigital的40superhotbelllink登頂歐洲老虎機榜|",
+   "date": "2026-11-10",
+   "cat": "cat5",
+   "title": "EGT Digital 的 40 Super Hot Bell Link 登頂歐洲老虎機榜",
+   "gp": ""
+  },
+  {
+   "key": "紐約州賭場10月收入年增248至1949億美元|",
+   "date": "2026-11-10",
+   "cat": "cat5",
+   "title": "紐約州賭場 10 月收入年增 248% 至 1.949 億美元",
    "gp": ""
   }
  ],
