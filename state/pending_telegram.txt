@@ -1,41 +1,40 @@
-🎰 iGaming 市場日報 2026-11-10（週二）
-🎰 Slot 6 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 4
+🎰 iGaming 市場日報 2026-11-11（週三）
+🎰 Slot 4 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Hacksaw《Buried By Night》上線：VS 機制改橫向 DuelRows，最高 15,000x
-・PayCools 取得 PAGCOR 認證，鎖定菲律賓電子賭場與賓果；SPiCE 11/12 宿霧開展
-・EGR 榜單：PG Soft 拉美排名大跌，Pragmatic Play 三款擠進全球前 20
+・Red Tiger《G.I. Joe》上線：最高 10,621x、RTP 96.84%（紐澤西）
+・菲律賓：DSTGAMING 贊助宿霧 SPiCE，旅客破 500 萬
+・Allwyn 取得 Kambi 原始碼授權；Playtech 上調 EBITDA
 
 🎰 Slot 新遊戲
-01 Buried By Night – Hacksaw Gaming
-02 Caramel Drops – Amusnet
-03 Spell Realm – Zitro
-04 X Wheel Deal – 24Karot
-05 📦 3 Wild Gods – Soko Games
-06 📦 Jungle Loot League – Arcane Pixel
+01 G.I. Joe – Red Tiger
+02 Thousand Lanterns – Zitro
+03 Book of Dizzy – DEGEN Studios
+04 Flippin' Fish – GAMOMAT
 
 🕹️ 非 Slot 新內容
-01 英國高等法院延長 Spribe 在 Aviator 糾紛中的臨時保護
+01 PopX – SmartSoft
+02 Zingo Bingo Championship – Playtech
+03 Mondogaming 新撲克平台與語音下注方案
 
 🤝 動態：主流 GP／平台
-01 IGT 再獲澳門批准三款 RISE55 機台遊戲
-02 TaDa Gaming 與肯亞 OdiBets 合作，擴大非洲營運商覆蓋
-03 Evoplay 經 St8 擴大安大略省分銷
-04 Endorphina 加入 Kanggiten 聚合生態系
+01 Allwyn 向 Kambi 取得運動博彩原始碼永久授權，並取得 IWG 全部股權
+02 Octoplay 以獨家 Hollywoodbets 合作進入南非
+03 TaDa Gaming 說明 TaDa Jackpot 的留存設計
 
 🇵🇭 動態：菲律賓 GP／平台
-01 支付服務商 PayCools 取得 PAGCOR 認證，鎖定菲律賓博彩客群
-02 SPiCE International 2026 將於 11/12–13 在宿霧舉行
+01 DSTGAMING 成為 SPiCE International 2026 主入口贊助商
+02 菲律賓 2026 年外國旅客突破 500 萬人次
 
 📊 市場數據 & 趨勢
-01 EGR 全球 Slots Tracker：Pragmatic Play 三款遊戲擠進前 20
-02 EGR 拉美 Slots Tracker：PG Soft 10 月排名大幅下滑
-03 EGT Digital 的 40 Super Hot Bell Link 登頂歐洲老虎機榜
-04 紐約州賭場 10 月收入年增 248% 至 1.949 億美元
+01 Playtech 上調 2026 年 EBITDA 預期至 3 億歐元以上
+02 Bally's 第三季營收年增 21.7% 至 8.076 億美元
+03 GR8_TECH：2027 年關鍵是 AI、速度、個人化與留存
 
 📝 品質備註（本次爬找判斷）
-1. 窗內候選 422 則，但 Slot 新作多數與 11/9 重複，實際新款僅 4 款，從庫存補 2 款（B1）；Marlin Masters 預告主來源 10/9 超過 30 天被定稿檢查擋下，留庫存待 11/17。
-2. 非 Slot 僅 1 則（Pragmatic×Rank 與 11/4 同事件剔除、EEZE 無新消息）；菲律賓 Q3 GGR 與 11/7 PAGCOR 同一數據剔除，菲律賓區只有 2 則，平台新聞偏少。EGR 兩則榜單為付費牆，僅取得摘要；IGT、PayCools 配圖被擋。
+1. 收錄 15 則，Slot 僅 4 款：窗內大廠新作多為只有 SlotsLaunch 列表、查無新聞稿（IGT Quackdraw、BGaming Bling Blitz Power Nudge、Microgaming Break Away 皆搜尋不到），未收；庫存的 Hacksaw Marlin Masters 主來源 10/9 超過預告 30 天上限，剔除並留庫存。
+2. G.I. Joe 僅 SlotsLaunch／SlotCatalog 單一來源（無新聞稿，依 SKILL 3.6 收錄）。
+3. 菲律賓區窗內可用新稿偏少（BingoPlus Care、BetConstruct SPiCE 與 11/7、11/8 重疊未收）；BigWinBoard 與 GiocoNews 抓取失敗。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（25 天）、GiocoNews（11 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（26 天）、GiocoNews（12 天）；請檢查網址或改抓取方式

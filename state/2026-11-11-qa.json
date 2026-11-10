@@ -1,0 +1,28 @@
+{
+ "date": "2026-11-11",
+ "md": "state/2026-11-11-igaming-report.md",
+ "html": "reports/2026-11-11.html",
+ "items": 15,
+ "counts": {
+  "cat1": 4,
+  "cat2": 3,
+  "cat3": 3,
+  "cat4": 2,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 40,
+  "ok": 39,
+  "broken": 0,
+  "blocked": 1,
+  "images_dropped": 0,
+  "images": 15
+ },
+ "errors": [],
+ "warnings": [
+  "cat4-02 菲律賓 2026 年外國旅客突破 500 萬人次｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/philippine-tourism-hits-5mln-international-arrivals-year-to-date-on-course-to-achieve-full-year-2026-target-of-6-7mln"
+ ],
+ "fixes": [
+  "文末｜資料來源數 30 → 25（程式依來源連結去重計算）"
+ ]
+}
