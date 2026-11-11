@@ -1,0 +1,35 @@
+{
+ "date": "2026-11-12",
+ "md": "state/2026-11-12-igaming-report.md",
+ "html": "reports/2026-11-12.html",
+ "items": 19,
+ "counts": {
+  "cat1": 7,
+  "cat2": 2,
+  "cat3": 3,
+  "cat4": 4,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 46,
+  "ok": 41,
+  "broken": 0,
+  "blocked": 3,
+  "images_dropped": 2,
+  "images": 17
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-06 25 Magic Plums – Wazdan｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/press-releases/2026/11/11/217787/wazdan-25-magic-plums-slot/",
+  "cat4-02 RGB 在馬尼拉開設展示廳，強化實體機與線上服務｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/rgb-opens-manila-showroom-to-help-expand-gaming-support-online-services",
+  "cat5-02 澳門前 10 個月博彩稅收 815.3 億澳門元｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/macau-gaming-tax-revenue-at-us10-1bln-in-first-10-months-of-2026-up-5pct-y-o-y",
+  "cat4-02 RGB 在馬尼拉開設展示廳，強化實體機與線上服務｜各來源都找不到可用的配圖",
+  "cat5-02 澳門前 10 個月博彩稅收 815.3 億澳門元｜各來源都找不到可用的配圖",
+  "cat1-04 Wrappin' Christmas Gold｜與 2026-11-07 日報「Wrappin' Christmas Gold」疑似重複（7 天內同一款／同一事件；超過 3 天要有新進展並標 🔁），已標 🔁"
+ ],
+ "fixes": [
+  "cat4-02 RGB 在馬尼拉開設展示廳，強化實體機與線上服務｜配圖打不開（403 text/html），已自動拿掉：https://www.ggrasia.com/wp-content/uploads/2026/11/RGB-showroom-2.jpg",
+  "cat5-02 澳門前 10 個月博彩稅收 815.3 億澳門元｜配圖打不開（403 text/html），已自動拿掉：https://www.ggrasia.com/wp-content/uploads/2025/08/Cotai-casinos-16.jpg",
+  "文末｜資料來源數 30 → 27（程式依來源連結去重計算）"
+ ]
+}

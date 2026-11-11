@@ -122,6 +122,36 @@
     }
    ],
    "key": "lesantaholdwin|hacksawgaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Wild Parrot Charms",
+   "gp": "Spinomenal",
+   "b": 3,
+   "first_seen": "2026-11-12",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/spinomenal/wild-parrot-charms",
+     "published": "2026-11-12"
+    }
+   ],
+   "key": "wildparrotcharms|spinomenal"
+  },
+  {
+   "cat": "cat1",
+   "title": "Kong Miami City",
+   "gp": "Blueprint Gaming",
+   "b": 1,
+   "first_seen": "2026-11-11",
+   "sources": [
+    {
+     "name": "iGamingToday",
+     "url": "https://www.igamingtoday.com/kong-miami-city-slot-review/",
+     "published": "2026-11-11 01:44"
+    }
+   ],
+   "key": "kongmiamicity|blueprintgaming"
   }
  ],
  "others": [
@@ -221,121 +251,48 @@
     }
    ],
    "key": "ukgamblingcommission推出非法博彩指數|"
+  },
+  {
+   "cat": "cat3",
+   "title": "Evoplay 經 CasinoBarcelona.es 進入西班牙第二個營運商合作",
+   "sources": [
+    {
+     "name": "European Gaming",
+     "url": "https://europeangaming.eu/portal/press-releases/2026/11/11/217836/evoplay-casinobarcelona-spain-partnership/",
+     "published": "2026-11-11 22:55"
+    }
+   ],
+   "first_seen": "2026-11-12",
+   "key": "evoplay經casinobarcelonaes進入西班牙第二個營運商合作|"
+  },
+  {
+   "cat": "cat4",
+   "title": "DSTPLAY 入圍 SPiCE 年度開發商",
+   "sources": [
+    {
+     "name": "Focus Gaming News",
+     "url": "https://focusgn.com/dstplay-shortlisted-spice-developer-year-2026",
+     "published": "2026-11-11 20:37"
+    }
+   ],
+   "first_seen": "2026-11-12",
+   "key": "dstplay入圍spice年度開發商|"
+  },
+  {
+   "cat": "cat5",
+   "title": "Playtech 在西班牙真人賭場市占逾 70%",
+   "sources": [
+    {
+     "name": "Sector del Juego",
+     "url": "https://sectordeljuego.com/2026/11/11/playtech-supera-el-70-de-cuota-de-mercado-en-el-casino-en-vivo-en-espana/",
+     "published": "2026-11-11 15:12"
+    }
+   ],
+   "first_seen": "2026-11-12",
+   "key": "playtech在西班牙真人賭場市占逾70|"
   }
  ],
  "history": [
-  {
-   "key": "bigbasshalloweensplash1000|pragmaticplay",
-   "date": "2026-10-12",
-   "cat": "cat1",
-   "title": "Big Bass Halloween Splash 1000",
-   "gp": "Pragmatic Play"
-  },
-  {
-   "key": "wrappinmoregold|playngo",
-   "date": "2026-10-12",
-   "cat": "cat1",
-   "title": "Wrappin' More Gold",
-   "gp": "Play'n GO"
-  },
-  {
-   "key": "vitussbritva2phoenixreborn|truelab",
-   "date": "2026-10-12",
-   "cat": "cat1",
-   "title": "Vituss Britva 2: Phoenix Reborn",
-   "gp": "TrueLab"
-  },
-  {
-   "key": "hypercore|snowborngames",
-   "date": "2026-10-12",
-   "cat": "cat1",
-   "title": "HyperCore",
-   "gp": "Snowborn Games"
-  },
-  {
-   "key": "mayarelics|popiplay",
-   "date": "2026-10-12",
-   "cat": "cat1",
-   "title": "Maya Relics",
-   "gp": "Popiplay"
-  },
-  {
-   "key": "grandvoyageholdthespin|gamzix",
-   "date": "2026-10-12",
-   "cat": "cat1",
-   "title": "Grand Voyage: Hold The Spin",
-   "gp": "Gamzix"
-  },
-  {
-   "key": "ai數位荷官livecasino|avantistudios",
-   "date": "2026-10-12",
-   "cat": "cat2",
-   "title": "AI 數位荷官 Live Casino",
-   "gp": "Avanti Studios"
-  },
-  {
-   "key": "fachai在sbc首次展出powerofvikings加速進軍拉美與歐洲|",
-   "date": "2026-10-12",
-   "cat": "cat3",
-   "title": "FA CHAI 在 SBC 首次展出 Power of Vikings，加速進軍拉美與歐洲",
-   "gp": ""
-  },
-  {
-   "key": "gamesglobal取得西維吉尼亞牌照美國igaming市場增至5州|",
-   "date": "2026-10-12",
-   "cat": "cat3",
-   "title": "Games Global 取得西維吉尼亞牌照，美國 iGaming 市場增至 5 州",
-   "gp": ""
-  },
-  {
-   "key": "紐約監理機關擬禁止運彩業者用ai個人化推播促銷|",
-   "date": "2026-10-12",
-   "cat": "cat3",
-   "title": "紐約監理機關擬禁止運彩業者用 AI 個人化推播促銷",
-   "gp": ""
-  },
-  {
-   "key": "lottomatica吸收合併cirsa簽定合併計畫|",
-   "date": "2026-10-12",
-   "cat": "cat3",
-   "title": "Lottomatica 吸收合併 CIRSA 簽定合併計畫",
-   "gp": ""
-  },
-  {
-   "key": "centuryentertainment入股菲律賓gsa牌照商|",
-   "date": "2026-10-12",
-   "cat": "cat4",
-   "title": "Century Entertainment 入股菲律賓 GSA 牌照商",
-   "gp": ""
-  },
-  {
-   "key": "澳門馬尼拉航線座位上限提高至每週2萬席|",
-   "date": "2026-10-12",
-   "cat": "cat4",
-   "title": "澳門—馬尼拉航線座位上限提高至每週 2 萬席",
-   "gp": ""
-  },
-  {
-   "key": "澳門維持2026年2360億澳門元ggr預測|",
-   "date": "2026-10-12",
-   "cat": "cat5",
-   "title": "澳門維持 2026 年 2,360 億澳門元 GGR 預測",
-   "gp": ""
-  },
-  {
-   "key": "韓國賭場股重挫中國資本管制韓元走強與觀光基金徵費疑慮|",
-   "date": "2026-10-12",
-   "cat": "cat5",
-   "title": "韓國賭場股重挫：中國資本管制、韓元走強與觀光基金徵費疑慮",
-   "gp": ""
-  },
-  {
-   "key": "gentingbhd擬配售306億美元附權股還債|",
-   "date": "2026-10-12",
-   "cat": "cat5",
-   "title": "Genting Bhd 擬配售 3.06 億美元附權股還債",
-   "gp": ""
-  },
   {
    "key": "tigercharms|spinomenal",
    "date": "2026-10-13",
@@ -3813,6 +3770,139 @@
    "date": "2026-11-11",
    "cat": "cat5",
    "title": "GR8_TECH：2027 年關鍵是 AI、速度、個人化與留存",
+   "gp": ""
+  },
+  {
+   "key": "mexicanstandoff|netent",
+   "date": "2026-11-12",
+   "cat": "cat1",
+   "title": "Mexican Standoff",
+   "gp": "NetEnt"
+  },
+  {
+   "key": "croesuscurse|tadagaming",
+   "date": "2026-11-12",
+   "cat": "cat1",
+   "title": "Croesus Curse",
+   "gp": "TaDa Gaming"
+  },
+  {
+   "key": "jewelsofra|pragmaticplay",
+   "date": "2026-11-12",
+   "cat": "cat1",
+   "title": "Jewels of Ra",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "wrappinchristmasgold|playngo",
+   "date": "2026-11-12",
+   "cat": "cat1",
+   "title": "Wrappin' Christmas Gold",
+   "gp": "Play'n GO"
+  },
+  {
+   "key": "royalhunt|petersons",
+   "date": "2026-11-12",
+   "cat": "cat1",
+   "title": "Royal Hunt",
+   "gp": "Peter & Sons"
+  },
+  {
+   "key": "25magicplums|wazdan",
+   "date": "2026-11-12",
+   "cat": "cat1",
+   "title": "25 Magic Plums",
+   "gp": "Wazdan"
+  },
+  {
+   "key": "willywildwing|hacksawgaming",
+   "date": "2026-11-12",
+   "cat": "cat1",
+   "title": "Willy Wildwing",
+   "gp": "Hacksaw Gaming"
+  },
+  {
+   "key": "solpoker推出玩家自開牌桌支援dealerschoice與盲注投票|",
+   "date": "2026-11-12",
+   "cat": "cat2",
+   "title": "SolPoker 推出玩家自開牌桌，支援 Dealer's Choice 與盲注投票",
+   "gp": ""
+  },
+  {
+   "key": "merkurspielbanksiegburg開幕週末三場免費遊戲節目|",
+   "date": "2026-11-12",
+   "cat": "cat2",
+   "title": "Merkur Spielbank Siegburg 開幕週末三場免費遊戲節目",
+   "gp": ""
+  },
+  {
+   "key": "hardrock賽馬結果遊戲帶動playtech美國成長igt與lightwonder跟進|",
+   "date": "2026-11-12",
+   "cat": "cat3",
+   "title": "Hard Rock 賽馬結果遊戲帶動 Playtech 美國成長，IGT 與 Light & Wonder 跟進",
+   "gp": ""
+  },
+  {
+   "key": "傳betfair義大利站2026年不會關閉是否退出2027年初才決定|",
+   "date": "2026-11-12",
+   "cat": "cat3",
+   "title": "傳 Betfair 義大利站 2026 年不會關閉，是否退出 2027 年初才決定",
+   "gp": ""
+  },
+  {
+   "key": "egt羅馬辦公室與展示廳開幕加深義大利布局|",
+   "date": "2026-11-12",
+   "cat": "cat3",
+   "title": "EGT 羅馬辦公室與展示廳開幕，加深義大利布局",
+   "gp": ""
+  },
+  {
+   "key": "casinoplus與evolution首度線下合作試玩新遊戲節目gamenight|",
+   "date": "2026-11-12",
+   "cat": "cat4",
+   "title": "Casino Plus 與 Evolution 首度線下合作，試玩新遊戲節目 Game Night",
+   "gp": ""
+  },
+  {
+   "key": "rgb在馬尼拉開設展示廳強化實體機與線上服務|",
+   "date": "2026-11-12",
+   "cat": "cat4",
+   "title": "RGB 在馬尼拉開設展示廳，強化實體機與線上服務",
+   "gp": ""
+  },
+  {
+   "key": "fbm推出第五季merrymillions近300間賓果館參與總獎金3600萬披索|",
+   "date": "2026-11-12",
+   "cat": "cat4",
+   "title": "FBM 推出第五季 Merry Millions，近 300 間賓果館參與、總獎金 3,600 萬披索",
+   "gp": ""
+  },
+  {
+   "key": "ardenconsultpagcor現行規範未涵蓋ai演算法鎖定玩家|",
+   "date": "2026-11-12",
+   "cat": "cat4",
+   "title": "Arden Consult：PAGCOR 現行規範未涵蓋 AI 演算法鎖定玩家",
+   "gp": ""
+  },
+  {
+   "key": "德國受監理市場以老虎機為主crash等品類讓境外業者坐大|",
+   "date": "2026-11-12",
+   "cat": "cat5",
+   "title": "德國受監理市場以老虎機為主，Crash 等品類讓境外業者坐大",
+   "gp": ""
+  },
+  {
+   "key": "澳門前10個月博彩稅收8153億澳門元年增52|",
+   "date": "2026-11-12",
+   "cat": "cat5",
+   "title": "澳門前 10 個月博彩稅收 815.3 億澳門元，年增 5.2%",
+   "gp": ""
+  },
+  {
+   "key": "丹麥9月賭博收入年增25至685億丹麥克朗投注帶動|",
+   "date": "2026-11-12",
+   "cat": "cat5",
+   "title": "丹麥 9 月賭博收入年增 25% 至 6.85 億丹麥克朗，投注帶動",
    "gp": ""
   }
  ],

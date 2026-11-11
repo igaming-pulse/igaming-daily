@@ -1,0 +1,29 @@
+{"shown":[
+{"cat":"cat1","title":"Mexican Standoff","gp":"NetEnt"},
+{"cat":"cat1","title":"Croesus Curse","gp":"TaDa Gaming"},
+{"cat":"cat1","title":"Jewels of Ra","gp":"Pragmatic Play"},
+{"cat":"cat1","title":"Wrappin' Christmas Gold","gp":"Play'n GO"},
+{"cat":"cat1","title":"Royal Hunt","gp":"Peter & Sons"},
+{"cat":"cat1","title":"25 Magic Plums","gp":"Wazdan"},
+{"cat":"cat1","title":"Willy Wildwing","gp":"Hacksaw Gaming"},
+{"cat":"cat2","title":"SolPoker 推出玩家自開牌桌，支援 Dealer's Choice 與盲注投票"},
+{"cat":"cat2","title":"Merkur Spielbank Siegburg 開幕週末三場免費遊戲節目"},
+{"cat":"cat3","title":"Hard Rock 賽馬結果遊戲帶動 Playtech 美國成長，IGT 與 Light & Wonder 跟進"},
+{"cat":"cat3","title":"傳 Betfair 義大利站 2026 年不會關閉，是否退出 2027 年初才決定"},
+{"cat":"cat3","title":"EGT 羅馬辦公室與展示廳開幕，加深義大利布局"},
+{"cat":"cat4","title":"Casino Plus 與 Evolution 首度線下合作，試玩新遊戲節目 Game Night"},
+{"cat":"cat4","title":"RGB 在馬尼拉開設展示廳，強化實體機與線上服務"},
+{"cat":"cat4","title":"FBM 推出第五季 Merry Millions，近 300 間賓果館參與、總獎金 3,600 萬披索"},
+{"cat":"cat4","title":"Arden Consult：PAGCOR 現行規範未涵蓋 AI 演算法鎖定玩家"},
+{"cat":"cat5","title":"德國受監理市場以老虎機為主，Crash 等品類讓境外業者坐大"},
+{"cat":"cat5","title":"澳門前 10 個月博彩稅收 815.3 億澳門元，年增 5.2%"},
+{"cat":"cat5","title":"丹麥 9 月賭博收入年增 25% 至 6.85 億丹麥克朗，投注帶動"}
+],
+"stock":[
+{"cat":"cat1","title":"Wild Parrot Charms","gp":"Spinomenal","b":3,"first_seen":"2026-11-12","sources":[{"name":"SlotsLaunch","url":"https://slotslaunch.com/spinomenal/wild-parrot-charms","published":"2026-11-12"}]},
+{"cat":"cat1","title":"Kong Miami City","gp":"Blueprint Gaming","b":1,"first_seen":"2026-11-11","sources":[{"name":"iGamingToday","url":"https://www.igamingtoday.com/kong-miami-city-slot-review/","published":"2026-11-11 01:44"}]},
+{"cat":"cat2","title":"Evoplay 推出 Crash Line（SlotsLaunch 11/10 上線）","sources":[{"name":"SlotsLaunch","url":"https://slotslaunch.com/evoplay/crash-line","published":"2026-11-10"}],"first_seen":"2026-11-11"},
+{"cat":"cat3","title":"Evoplay 經 CasinoBarcelona.es 進入西班牙第二個營運商合作","sources":[{"name":"European Gaming","url":"https://europeangaming.eu/portal/press-releases/2026/11/11/217836/evoplay-casinobarcelona-spain-partnership/","published":"2026-11-11 22:55"}],"first_seen":"2026-11-12"},
+{"cat":"cat4","title":"DSTPLAY 入圍 SPiCE 年度開發商","sources":[{"name":"Focus Gaming News","url":"https://focusgn.com/dstplay-shortlisted-spice-developer-year-2026","published":"2026-11-11 20:37"}],"first_seen":"2026-11-12"},
+{"cat":"cat5","title":"Playtech 在西班牙真人賭場市占逾 70%","sources":[{"name":"Sector del Juego","url":"https://sectordeljuego.com/2026/11/11/playtech-supera-el-70-de-cuota-de-mercado-en-el-casino-en-vivo-en-espana/","published":"2026-11-11 15:12"}],"first_seen":"2026-11-12"}
+]}

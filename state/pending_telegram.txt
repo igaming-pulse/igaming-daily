@@ -1,40 +1,44 @@
-🎰 iGaming 市場日報 2026-11-11（週三）
-🎰 Slot 4 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-11-12（週四）
+🎰 Slot 7 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 4 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Red Tiger《G.I. Joe》上線：最高 10,621x、RTP 96.84%（紐澤西）
-・菲律賓：DSTGAMING 贊助宿霧 SPiCE，旅客破 500 萬
-・Allwyn 取得 Kambi 原始碼授權；Playtech 上調 EBITDA
+・NetEnt《Mexican Standoff》摔角收集者＋擴張盤面，最高 15,000 倍、RTP 96.05%
+・Casino Plus 與 Evolution 首度在馬尼拉辦線下活動，試玩真人節目《Game Night》
+・德國受監理市場缺 Crash 等品類，管道化率約 68%，境外業者坐大
 
 🎰 Slot 新遊戲
-01 G.I. Joe – Red Tiger
-02 Thousand Lanterns – Zitro
-03 Book of Dizzy – DEGEN Studios
-04 Flippin' Fish – GAMOMAT
+01 Mexican Standoff – NetEnt
+02 🆕 新作預告（11/12 上線）Croesus Curse – TaDa Gaming
+03 Jewels of Ra – Pragmatic Play
+04 🔁（11/12 正式上線）Wrappin' Christmas Gold – Play'n GO
+05 Royal Hunt – Peter & Sons
+06 25 Magic Plums – Wazdan
+07 Willy Wildwing – Hacksaw Gaming
 
 🕹️ 非 Slot 新內容
-01 PopX – SmartSoft
-02 Zingo Bingo Championship – Playtech
-03 Mondogaming 新撲克平台與語音下注方案
+01 Player-Run Tables – SolPoker
+02 Merkur Spielbank Siegburg 開幕三場遊戲節目 – Merkur Casinos
 
 🤝 動態：主流 GP／平台
-01 Allwyn 向 Kambi 取得運動博彩原始碼永久授權，並取得 IWG 全部股權
-02 Octoplay 以獨家 Hollywoodbets 合作進入南非
-03 TaDa Gaming 說明 TaDa Jackpot 的留存設計
+01 Hard Rock 賽馬結果遊戲帶動 Playtech 美國成長，IGT 與 Light & Wonder 跟進
+02 傳 Betfair 義大利站 2026 年不會關閉，是否退出 2027 年初才決定
+03 EGT 羅馬辦公室與展示廳開幕，加深義大利布局
 
 🇵🇭 動態：菲律賓 GP／平台
-01 DSTGAMING 成為 SPiCE International 2026 主入口贊助商
-02 菲律賓 2026 年外國旅客突破 500 萬人次
+01 Casino Plus 與 Evolution 首度線下合作，試玩新遊戲節目《Game Night》
+02 RGB 在馬尼拉開設展示廳，強化實體機與線上服務
+03 FBM 推出第五季 Merry Millions，近 300 間賓果館參與、總獎金 3,600 萬披索
+04 Arden Consult：PAGCOR 現行規範未涵蓋 AI 演算法鎖定玩家
 
 📊 市場數據 & 趨勢
-01 Playtech 上調 2026 年 EBITDA 預期至 3 億歐元以上
-02 Bally's 第三季營收年增 21.7% 至 8.076 億美元
-03 GR8_TECH：2027 年關鍵是 AI、速度、個人化與留存
+01 德國受監理市場以老虎機為主，Crash 等品類讓境外業者坐大
+02 澳門前 10 個月博彩稅收 815.3 億澳門元，年增 5.2%
+03 丹麥 9 月賭博收入年增 25% 至 6.85 億丹麥克朗，投注帶動
 
 📝 品質備註（本次爬找判斷）
-1. 收錄 15 則，Slot 僅 4 款：窗內大廠新作多為只有 SlotsLaunch 列表、查無新聞稿（IGT Quackdraw、BGaming Bling Blitz Power Nudge、Microgaming Break Away 皆搜尋不到），未收；庫存的 Hacksaw Marlin Masters 主來源 10/9 超過預告 30 天上限，剔除並留庫存。
-2. G.I. Joe 僅 SlotsLaunch／SlotCatalog 單一來源（無新聞稿，依 SKILL 3.6 收錄）。
-3. 菲律賓區窗內可用新稿偏少（BingoPlus Care、BetConstruct SPiCE 與 11/7、11/8 重疊未收）；BigWinBoard 與 GiocoNews 抓取失敗。
+1. 7 款 Slot 中 5 款無新聞稿（以 SlotsLaunch 上線日曆為主來源），TaDa、Hacksaw 新作與 Wazdan 的盤面／RTP 仍未公布。
+2. 主流區第 1 則 Playtech／Hard Rock PMR 疑似與 11/11 Playtech 財測議題部分重疊，因是 Gambling Insider 的新分析（IGT、L&W 跟進）而收入。
+3. EEZE 近 3 天無消息，依例外規定今日跳過；GGRAsia 兩則（RGB、澳門稅收）配圖被擋，圖片留空。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（26 天）、GiocoNews（12 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（27 天）、GiocoNews（13 天）、nQube Data Science（3 天）；請檢查網址或改抓取方式

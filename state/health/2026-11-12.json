@@ -1,0 +1,57 @@
+{
+ "date": "2026-11-12",
+ "alerts": [
+  "🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（27 天）、GiocoNews（13 天）、nQube Data Science（3 天）；請檢查網址或改抓取方式"
+ ],
+ "info": {
+  "credits": {
+   "remaining": 637,
+   "plan": 1000,
+   "period_end": "2026-11-14",
+   "today_use": 193,
+   "daily_use": 34,
+   "daily_basis": "近 7 天實際",
+   "days_to_reset": 2,
+   "need_until_reset": 68
+  },
+  "tier": {
+   "tier": "🔥 衝刺",
+   "budget": 273,
+   "remaining": 830,
+   "period_end": "2026-11-14",
+   "days_to_reset": 3,
+   "reserve": 10,
+   "note": "週期末衝刺：重置前把點數用完——輪掃加倍；每則 Slot／重點新聞都用 Firecrawl 讀原文＋第二來源全文交叉查證，配圖、發布時間、規格表抓不到就用 Firecrawl，不必先省",
+   "lists_spent": 8,
+   "article_limit": 15,
+   "image_extra": 15,
+   "prefetched": 235,
+   "prefetched_ok": 183
+  },
+  "sources": {
+   "total": 108,
+   "failed_today": [
+    "GiocoNews",
+    "Jdigital",
+    "BigWinBoard 新作列表",
+    "nQube Data Science"
+   ],
+   "streak_3d": [
+    "BigWinBoard 新作列表",
+    "GiocoNews",
+    "nQube Data Science"
+   ]
+  },
+  "candidates": {
+   "today": 542,
+   "median_same_type": 531,
+   "basis_days": 5,
+   "type": "平日窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 6,
+   "fixes": 3
+  }
+ }
+}
