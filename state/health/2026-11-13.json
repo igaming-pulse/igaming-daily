@@ -1,0 +1,56 @@
+{
+ "date": "2026-11-13",
+ "alerts": [
+  "🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（28 天）、GiocoNews（14 天）；請檢查網址或改抓取方式"
+ ],
+ "info": {
+  "credits": {
+   "remaining": 408,
+   "plan": 1000,
+   "period_end": "2026-11-14",
+   "today_use": 221,
+   "daily_use": 65,
+   "daily_basis": "近 7 天實際",
+   "days_to_reset": 1,
+   "need_until_reset": 65
+  },
+  "tier": {
+   "tier": "🔥 衝刺",
+   "budget": 309,
+   "remaining": 629,
+   "period_end": "2026-11-14",
+   "days_to_reset": 2,
+   "reserve": 10,
+   "note": "週期末衝刺：重置前把點數用完——輪掃加倍；每則 Slot／重點新聞都用 Firecrawl 讀原文＋第二來源全文交叉查證，配圖、發布時間、規格表抓不到就用 Firecrawl，不必先省",
+   "lists_spent": 4,
+   "article_limit": 15,
+   "image_extra": 15,
+   "prefetched": 275,
+   "prefetched_ok": 215
+  },
+  "sources": {
+   "total": 104,
+   "failed_today": [
+    "European Gaming",
+    "Revista Casino Perú",
+    "GiocoNews",
+    "BigWinBoard 新作列表"
+   ],
+   "streak_3d": [
+    "BigWinBoard 新作列表",
+    "GiocoNews"
+   ]
+  },
+  "candidates": {
+   "today": 562,
+   "median_same_type": 531,
+   "basis_days": 5,
+   "type": "平日窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 2,
+   "fixes": 1
+  }
+ }
+}

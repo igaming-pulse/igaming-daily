@@ -1,0 +1,343 @@
+# 🎰 iGaming 市場日報 2026-11-13（週五）
+
+🎰 Slot 7 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 4 ・ 📊 市場數據 3
+
+---
+
+## 📌 本日重點
+
+本日必看 Slot 新品：Fortune Gems 500 – TaDa Gaming
+本日市場趨勢總結：三區的訊息指向「實體機大廠靠內容與裝機量守住領先，菲律賓業者則把重心放在會員經營與資安」。Aristocrat 在公布 FY26 財報的同時宣布執行長交棒，博彩部門裝機量增加約 6,500 台、自稱市占 39%，顯示以內容驅動的實體機策略仍是主力；菲律賓方面，BingoPlus 以 VIP 旅遊與 ArenaPlus 以大額預測活動維繫既有玩家，而 PAGCOR 則因疑似外洩的受限人士資料庫發出防詐警告。對 PM 的意涵：內容品質與會員關係是留存的核心，同時要把個資與反詐防護列為營運風險項目。
+
+---
+
+## 🎰 Game Provider 新遊戲
+
+### 01 Fortune Gems 500 – TaDa Gaming
+
+TaDa Gaming 宣布 Fortune Gems 500 在義大利上線（認證後 11 月 12 日起可玩），這款已在其他國際市場營運的作品以「3+1 轉輪」為特色：第四個特殊轉輪會隨機出現最高 500x 的倍數值，或出現 Ex NUDGE 符號觸發特殊收集序列，倍數隨收集逐步疊加，最高贏分為 12,500 倍投注額。Fortune Gems 是 TaDa 在亞洲與菲律賓平台都有指標性的 IP，這次是系列首次進入受監理的歐洲市場。對 PM 的意義：倍數收集型短盤面（3+1）仍是 Fortune Gems 系列的賣點，可作為菲律賓與歐洲雙市場上架時的對照款。
+
+衍生調整：相對 Fortune Gems 系列，新增第四個專屬倍數轉輪（最高 500x）與 Ex NUDGE 收集序列。
+
+參數：
+- 廠牌：TaDa Gaming
+- 遊戲類型：線上電子老虎機
+- 盤面：3+1 轉輪（第四輪為倍數轉輪）
+- 消除/賠付：倍數收集與疊加、Ex NUDGE 觸發收集序列
+- 最高倍率：12,500x
+- RTP：未公布
+- 波動：未公布
+- 目標市場：義大利（已在其他國際市場營運）
+- 關鍵特色：第四輪最高 500x 倍數、Ex NUDGE 收集序列、12,500x 最高贏分
+
+查證：單一來源（JAMMA 轉述 TaDa 新聞稿）；RTP、波動僅查新聞稿未見，未另查 SlotCatalog。
+來源：[JAMMA](https://www.jamma.it/prodotti/tada-gaming-lancia-fortune-gems-500-in-italia-nuova-slot-con-moltiplicatori-fino-a-500x-362480) · 日期：2026-11-12
+圖片：https://www.jamma.it/wp-content/uploads/2026/11/Fortune_500.jpg
+
+### 02 The Aristocrats – Betsoft
+
+Betsoft 發行 5 轉輪 3 列的 The Aristocrats，主題是名門豪宅與珠寶的「老錢風」。盤面上方有三個 Coin Pot：Collect（加入收集符號）、Multi（隨機撒下 2x–5x 倍數）、Double（複製整個盤面），Coin Pot 符號集滿會隨機觸發 Hold & Win，給 3 次重轉，新符號落定會把重轉重設為 3，填滿 15 格拿 Grand 大獎。另有兩種購買功能（含保證三個 Coin Pot 全開的版本），最高贏分 10,000 倍最高投注。對 PM 的意義：以「三個可疊加的小池」取代單一 Hold & Win 觸發，是對熱門收集型玩法的結構創新，購買功能的分級也值得參考。
+
+衍生調整：全新 IP，無衍生。
+
+參數：
+- 廠牌：Betsoft
+- 遊戲類型：線上電子老虎機
+- 盤面：5 轉輪 3 列
+- 消除/賠付：Hold & Win（3 次重轉、填滿 15 格得 Grand）
+- 最高倍率：10,000x（最高投注）
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：三個 Coin Pot（Collect／Multi／Double）、兩種購買功能、全盤面 Grand
+
+查證：官方新聞稿為主來源；RTP 與波動稿中未提供，僅查官網新聞頁。
+來源：[Betsoft 官網](https://betsoft.com/the-aristocrats-brings-old-money-glamour-to-the-reels/) · 日期：2026-11-12
+圖片：https://betsoft.com/wp-content/uploads/2026/10/the-aristocrats-pr-featured-slide-image-desktop.jpg
+
+### 03 Kong Miami City – Blueprint Gaming
+
+Blueprint Gaming 讓招牌大猩猩 Kong 進入邁阿密犯罪世界。遊戲核心是五種 Kong Collect 收集修飾符（Collect、Drive by、Heist、Hitman、Stealth），盤面上方的 Most Wanted Chest 會在空轉後逐步充能，滿了會隨機爆出一種修飾符。三個以上 Bonus 符號觸發 Miami City Spins 並贈 10 次免費旋轉，已解鎖的修飾符持續有效；集滿收集圖示還能累積到每次收集 10x 的倍數。另有「Master Plan 地圖」：兩個 Bonus 符號未觸發主功能時可前進 1–5 步，走到終點解鎖 Dice City Super Bonus。對 PM 的意義：以「空轉進度條＋地圖」緩解空轉流失，是進度型留存設計的參考。
+
+衍生調整：Kong 系列換新場景，新增漸進式收集修飾符與 Master Plan 地圖。
+
+參數：
+- 廠牌：Blueprint Gaming
+- 遊戲類型：線上電子老虎機
+- 盤面：未公布
+- 消除/賠付：五種收集修飾符、免費旋轉（10 次）
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：Most Wanted Chest、Miami City Spins、Master Plan Map、Dice City Super Bonus
+
+查證：僅查 G3 Newswire 與 EEGaming 新聞稿，盤面／RTP／最高倍率稿中未提供。
+來源：[G3 Newswire](https://g3newswire.com/blueprint-gamings-iconic-mascot-takes-to-the-criminal-underworld-in-kong-miami-city/) · [EEGaming](https://eegaming.org/latest-news/2026/11/12/53633/blueprint-gaming-launches-kong-miami-city-slot-with-new-collect-modifiers/) · 日期：2026-11-12
+圖片：https://g3newswire.com/wp-content/uploads/2026/11/KongMiamiCity.jpg
+
+### 04 Booming Buffalo Hold and Win Extreme 2 – Booming Games
+
+Booming Games 推出水牛系列續作，5×3 盤面、20 條付線，最高贏分 12,000 倍、中高波動。收集 6 個以上金幣符號觸發 Hold and Win，初始 3 次重轉，格局切成四組轉輪，累積 3、12、21 個金幣依序解鎖更多區塊。Power Coin 可解鎖下一區、使同區金幣翻倍、集成巨大倍數或給 3 次額外重轉；有 Mini／Major／Grand 三種彩金，填滿四個盤面可拿 Grand 並疊加所有倍數。可透過 Boost+ 或購買功能進入，base game 出現單一金幣還可能觸發 Buffalo Bonus Wheel。對 PM 的意義：多盤面逐步解鎖的 Hold & Win 是水牛／Hold and Win 類型的升級路線。
+
+衍生調整：相對前作，新增多格局解鎖、Power Coin 與 Buffalo Bonus Wheel。
+
+參數：
+- 廠牌：Booming Games
+- 遊戲類型：線上電子老虎機
+- 盤面：5×3、20 條付線
+- 消除/賠付：Hold and Win（多格局解鎖、3 次重轉）
+- 最高倍率：12,000x
+- RTP：未公布
+- 波動：中高
+- 目標市場：沒有
+- 關鍵特色：四區塊解鎖、Power Coin、三彩金、Buffalo Bonus Wheel、Boost+
+
+查證：Focus Gaming News 與 G3 Newswire 新聞稿一致；RTP 稿中未提供。
+來源：[Focus Gaming News](https://focusgn.com/booming-buffalo-hold-win-extreme-2) · [G3 Newswire](https://g3newswire.com/booming-games-launches-booming-buffalo-hold-and-win-extreme-2/) · 日期：2026-11-12
+圖片：https://focusgn.com/wp-content/uploads/2026/11/Booming-Games-Booming-Buffalo-Hold-and-Win-Extreme-2-1200x630.jpg
+
+### 05 Legendary Fisherman Cash 'Em All – Games Global
+
+Games Global 與 Just For The Win 合推 5×3 的 Legendary Fisherman Cash 'Em All，結合銅、銀、金錢符號與「四階段成長」系統：玩家從 Proven Angler 起步，旋轉 25 次後全轉輪出現堆疊 Wild，75 次後增加收集符號，150 次後倍數擴及整個盤面，250 次達 Legendary Fisherman 級別後收集符號可吃下全盤面數值。Cash 'Em All Spins 以 3 次旋轉開始，填滿 10 格得 Mini、13 格得 Mega、15 格得 Grand；Power Up 符號可把 Grand 從 5,000x 提升到 10,000x。對 PM 的意義：以「累計旋轉次數解鎖功能」的成長系統屬於進度型玩法，可評估對留存的幫助。
+
+衍生調整：全新 IP，無衍生。
+
+參數：
+- 廠牌：Games Global
+- 遊戲類型：線上電子老虎機
+- 盤面：5×3
+- 消除/賠付：Link&Win、收集符號與鎖定（15 格）
+- 最高倍率：10,000x（彩金）
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：四階段成長、Cash 'Em All Spins、三級彩金、Power Up 提升 Grand
+
+查證：僅查 iGaming Future 與 EEGaming 新聞稿，RTP／波動稿中未提供。
+來源：[iGaming Future](https://igamingfuture.com/games-global-and-just-for-the-win-reel-in-wins-in-legendary-fisherman-cash-em-all/) · [EEGaming](https://eegaming.org/latest-news/2026/11/12/53623/games-global-and-just-for-the-win-launch-legendary-fisherman-cash-em-all-slot/) · 日期：2026-11-12
+圖片：https://igamingfuture.com/wp-content/uploads/2026/11/image003-16.png
+
+### 06 Stack Universe（Dynasty／Pharaoh／Kingdom／Royale） – Zitro
+
+Zitro 為 CONCEPT 機櫃推出四款一套的 Stack Universe：Dynasty、Pharaoh、Kingdom、Royale，以戰士為主題。新機制「Hold Your Symbols」搭配免費遊戲、Bonus Link 與 Increase、Collect 功能，每款都有不同的獎勵路徑。這是實體機櫃產品（CONCEPT 機櫃），屬多款聯賣的系列發行。對 PM 的意義：Zitro 持續以「一櫃多款」增加場內機台差異化，並在拉美等市場擴張，可觀察其內容節奏。
+
+衍生調整：全新系列，沿用 CONCEPT 機櫃，新增 Hold Your Symbols 機制。
+
+參數：
+- 廠牌：Zitro
+- 遊戲類型：實體老虎機
+- 盤面：未公布
+- 消除/賠付：Hold Your Symbols、Bonus Link、Increase／Collect
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：四款聯賣、CONCEPT 機櫃、Hold Your Symbols
+
+查證：僅查 Casino International、Zona de Azar 等新聞稿（內容相同），參數稿中未提供。
+來源：[Casino International](https://casinointernational-online.com/build-your-way-to-bigger-wins-in-zitros-stack-universe/) · [Zona de Azar](https://zonadeazar.com/juego-online/build-your-way-to-bigger-wins-in-zitros-stack-universe/) · 日期：2026-11-12
+圖片：https://casinointernational-online.com/wp-content/uploads/Zitro-CONCEPT_Stack-Universe_1200x628px_linkedin.png
+
+### 07 Pyramid Gold Triple Boost Golden Coins Link – Amusnet
+
+Amusnet 發行 5 轉輪 40 線的埃及風 Pyramid Gold Triple Boost Golden Coins Link，核心是 Triple Boost：藍、紅、綠三個 Pot 各帶不同效果，藍色啟動分區倍數（四區各 x2–x5）、紅色讓金幣分裂成兩枚、綠色隨機提高金幣價值（x1 到 x50）。5 個以上金幣觸發 Hold & Spin（至少要有一枚帶色金幣，並依帶色金幣種數進入單／雙／三 Pot 模式），另有 Golden Coins Link 彩金與購買功能。對 PM 的意義：把一般 Hold & Spin 拆成可疊加的三種倍化機制，是對收集類玩法的延伸，可對照其他廠商的類似設計。
+
+衍生調整：Pyramid Gold 系列新增 Triple Boost 三色 Pot 機制。
+
+參數：
+- 廠牌：Amusnet
+- 遊戲類型：線上電子老虎機
+- 盤面：5 轉輪、40 條付線
+- 消除/賠付：Hold & Spin（單／雙／三 Pot 模式）
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：Triple Boost 三色 Pot、分區倍數、金幣分裂、Golden Coins Link 彩金、購買功能
+
+查證：僅查 EEGaming 新聞稿，最高倍率、RTP、波動稿中未提供。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/11/12/53617/amusnet-releases-its-latest-video-slot-pyramid-gold-triple-boost-golden-coins-link/) · 日期：2026-11-12
+圖片：https://eegaming.org/api/eeg-media/cc0a137a-d8dd-4e8e-9a83-5c3e56304591.jpg
+
+---
+
+## 🕹️ 非 Slot 新內容
+
+### 01 CrashX – BC.GAME
+
+加密賭場 BC.GAME 推出 CrashX，改寫傳統 Crash 的「下注一次、單次提現」模式：倍數上升過程中，玩家可隨時買進與賣出部位，最多同時持有 50 個獨立部位，可在不同倍數進場、單筆或「Sell All」一次賣出。介面加入即時社交互動，其他玩家的頭像會沿倍數曲線出現並顯示買賣動作；官方標示 99% RTP、可驗證公平。對 PM 的意義：把 Crash 做成類交易的多部位互動，是 Crash 品類差異化的新方向，但加密貨幣賭場的模式需要針對受監理市場重新評估。
+
+參數：
+- 遊戲類型：其他類型遊戲（Crash 小遊戲）
+- 最高倍率：未公布
+- RTP：99%
+- 目標市場：沒有
+- 關鍵特色：倍數上升期間可買賣、最多 50 個部位、Sell All、即時社交互動、可驗證公平
+
+查證：單一來源（Focus Gaming News 轉載新聞稿）。
+來源：[Focus Gaming News](https://focusgn.com/bc-game-crashx-crash-game) · 日期：2026-11-12
+圖片：https://focusgn.com/wp-content/uploads/2026/11/BC.GAME-CrashX-is-live-1200x630.jpg
+
+### 02 CardRealm 卡牌遊戲套件 – Evenbeter
+
+Evenbeter 推出以卡牌為主的 CardRealm 套件，將經典桌遊與預測、翻牌、提現機制結合，首發包含 Cowboy Hold'em、Baccarat、Blackjack、Hold'em Guess'em、Mines、Crash、Kicks、Casino Hold'em 與 Four-Hand Blackjack 等九款（G3 稱八款、內文列出九款，數量說法不一）。官方稱 Cowboy Hold'em 整合後讓撲克室總營收增加 10%，透過單一 API 部署，可用於賭場大廳、撲克客戶端側邊欄或任務系統，投注上下限由營運商自行調整。對 PM 的意義：以卡牌小遊戲打通賭場與撲克客群的交叉銷售，是獲客與留存的另一條路徑。
+
+參數：
+- 遊戲類型：其他類型遊戲（卡牌／撲克類遊戲套件）
+- 目標市場：沒有
+- 關鍵特色：九款卡牌遊戲（含 Mines、Crash）、單一 API、可調投注上下限、撲克與賭場交叉銷售
+
+查證：G3 Newswire 與 Focus Gaming News 轉載相同新聞稿；G3 副標稱「八款」、內文列出九款，採內文列表。
+來源：[G3 Newswire](https://g3newswire.com/evenbeter-expands-portfolio-with-new-card-led-casino-game-suite-cardrealm/) · [Focus Gaming News](https://focusgn.com/evenbeter-cardrealm-card-games) · 日期：2026-11-12
+圖片：https://g3newswire.com/wp-content/uploads/2026/11/CardRealm-e1794492013420.jpg
+
+### 03 ICONIC21 聖誕包六款內容 – ICONIC21
+
+ICONIC21 公布 Christmas Pack：六款應景內容在 12 月 2 日至 10 日分三個日期上線，並把部分真人棋牌桌布置成節慶版。12 月 2 日先推兩款 RNG：Santa Hustle（Crash 遊戲）與 Xmas Workshop Blackjack（Santa 工坊場景），12 月 3 日接著推兩款老虎機 Huff House Xmas 與 Pachi Bell，其餘兩款在 12 月 10 日前陸續上線。營運商可提前準備橫幅、行銷素材與大廳位置。對 PM 的意義：節慶包提早兩週預告，是大廳排期與行銷素材的規劃參考。
+
+參數：
+- 遊戲類型：Live Game（含 RNG Crash、RNG Blackjack 與真人桌節慶佈置）
+- 目標市場：沒有
+- 關鍵特色：六款節慶內容、12/2–12/10 分三批上線、Crash＋Blackjack＋兩款老虎機
+
+查證：Focus Gaming News、G3 Newswire、EEGaming 皆為同一新聞稿。
+來源：[Focus Gaming News](https://focusgn.com/iconic21-christmas-pack-games) · [EEGaming](https://eegaming.org/latest-news/2026/11/12/53622/iconic21-schedules-six-game-christmas-pack-rollout-for-2-10-december/) · 日期：2026-11-12
+圖片：https://focusgn.com/wp-content/uploads/2026/11/ICONIC21-Christmas-Pack-1200x630.jpg
+
+---
+
+## 🤝 動態：主流 GP／平台
+
+### 01 Aristocrat 宣布 Dafne Guisard 接任執行長，Croker 2027 年 4 月退休
+
+Aristocrat 在公布全年財報同時宣布，執行長 Trevor Croker 將於 2027 年 4 月退休，由 Dafne Guisard 接任。Guisard 今年 2 月加入，擔任 EMEA 商務長，後來接管全球社交賭場 Product Madness；先前曾在 Entain 管理 30 多個受監理市場，並曾任 Kraft Heinz 策略長。她將從倫敦搬到拉斯維加斯，Croker 會留任並協助一年。董事會表示評估過內外部人選。對 PM 的意義：新任執行長具線上與社交賭場背景，Aristocrat 在互動與數位業務的投資力道與整合方向值得追蹤。
+
+重點：類型 人事 ｜ 對象 Aristocrat、Trevor Croker、Dafne Guisard ｜ 影響 實體機龍頭的領導權由具 Entain 與社交賭場背景者接任
+
+查證：SBC Americas、G3 Newswire、CDC Gaming 等多家報導一致。
+來源：[SBC Americas](https://sbcamericas.com/2026/11/12/hires-higher-ups-aristocrat-succession/) · [G3 Newswire](https://g3newswire.com/trevor-croker-to-retire-as-ceo-of-aristocrat-in-april-2027/) · 日期：2026-11-12
+圖片：https://g3newswire.com/wp-content/uploads/2026/11/TrevorCroker.jpg
+
+### 02 Peter & Sons 與 SYNOT Interactive 簽訂歐洲分銷合約
+
+Peter & Sons 宣布與 SYNOT Interactive 合作，由 SYNOT 擔任平台夥伴與轉售商，銷售 Peter & Sons 完整遊戲組合，例如 Barbarossa: Dragon Empire 與 Greedy Alice。合作初期將讓波羅的海與中歐的受監理營運商取得內容，涵蓋拉脫維亞、奧地利、立陶宛、愛沙尼亞等市場。對 PM 的意義：二線 GP 透過區域平台轉售擴大歐洲覆蓋，是不自建營運團隊就能快速進入新牌照市場的做法。
+
+重點：類型 合作 ｜ 對象 Peter & Sons、SYNOT Interactive ｜ 影響 以區域平台轉售擴大波羅的海與中歐分銷
+
+查證：G3 Newswire 與 EEGaming 各有報導。
+來源：[G3 Newswire](https://g3newswire.com/peter-sons-strikes-european-distribution-deal-with-synot-interactive/) · [EEGaming](https://eegaming.org/latest-news/2026/11/12/53621/peter-sons-signs-european-distribution-deal-with-synot-interactive/) · 日期：2026-11-12
+圖片：https://g3newswire.com/wp-content/uploads/2026/11/PeterSonsSYNOT.png
+
+### 03 Zitro 在阿根廷與 Casino Club 推出首個廣域累積彩金
+
+Zitro 與阿根廷業者 Casino Club 推出該國首個 Wide Area Progressive（WAP），把丘布特省四個場館（Casino Comodoro、Casino Castillo、Casino Kennedy、Casino Rivadavia）的機台串連，共享單一累積彩金。首批上線機台是近期得獎的 King Fu Frog，是 Zitro 在阿根廷賭場表現穩定的熱門作品。對 PM 的意義：廣域累積彩金可提高實體場館的吸客力，也代表 Zitro 在拉美的產品線從單機延伸到系統型產品。
+
+重點：類型 運營活動 ｜ 對象 Zitro、Casino Club ｜ 影響 阿根廷首個 WAP，串連四個場館
+
+查證：G3 Newswire 與 Revista Apuesta Colombia（西語）皆報導。
+來源：[G3 Newswire](https://g3newswire.com/zitro-launches-its-first-wide-area-progressive-wap-in-argentina-with-casino-club/) · 日期：2026-11-12
+圖片：https://g3newswire.com/wp-content/uploads/2026/11/ZitroWAPArgentina.jpg
+
+---
+
+## 🇵🇭 動態：菲律賓 GP／平台
+
+### 01 BingoPlus VIP Club 首度帶會員赴巴黎
+
+BingoPlus VIP Club 首次舉辦巴黎行程，帶會員造訪凡爾賽宮、羅浮宮、聖禮拜堂與艾菲爾鐵塔等地，讓 VIP 在旅途中交流。本則為品牌發布的活動稿（刊於 Manila Standard 專欄），目的在強化 VIP 會員的專屬感與黏著度。對 PM 的意義：BingoPlus 以海外體驗型福利經營高價值玩家，是菲律賓平台 VIP 運營的參考，但稿件本身未揭露參與人數與成效。
+
+重點：類型 運營活動 ｜ 對象 BingoPlus、VIP Club 會員 ｜ 影響 以海外旅遊福利經營高價值會員
+
+查證：單一來源（Manila Standard，品牌發布稿）。
+來源：[Manila Standard](https://manilastandard.net/spotlight/314817460/bingoplus-vip-club-brings-members-to-paris-for-its-first-french-getaway.html) · 日期：2026-11-12
+圖片：https://cdn.manilastandard.net/wp-content/uploads/2026/09/Bingoplus.jpg
+
+### 02 ArenaPlus「1 億披索 MVP Bracket」得主領獎
+
+ArenaPlus 的免費預測活動「NBA Playoffs MVP：Battle for the Most Valuable Predictor」大獎得主 Mahan（49 歲、五個孩子的母親）11 月 6 日在帕拉納克市領取 1 億披索。報導稱 ArenaPlus 為菲律賓排名第一的 PAGCOR 持牌線上運動投注平台，並描述得主起初因懷疑而掛掉主辦單位電話。這是品牌的業配稿，但可看出 ArenaPlus 以免費預測大獎搭配 NBA 賽季做拉新與曝光。對 PM 的意義：免費預測加大獎是低門檻獲客手法，成功案例會被拿來做口碑行銷。
+
+重點：類型 運營活動 ｜ 對象 ArenaPlus、活動得主 ｜ 影響 免費預測大獎做為拉新與口碑素材
+
+查證：單一來源（RMN Networks，品牌業配稿，原文標明為 ArenaPlus 活動）。
+來源：[RMN Networks](https://rmn.ph/the-call-that-changed-mahans-life-winning-the-%E2%82%B1100-million-mvp-bracket/) · 日期：2026-11-12
+圖片：https://i0.wp.com/rmn.ph/wp-content/uploads/2026/11/AP_Mahan-center-receives-the-%E2%82%B1100-million-grand-prize-from-ArenaPlus-bringing-her-closer-to-fulfilling-her-dreams.png?fit=1200&ssl=1
+
+### 03 Alliance Global：Westside Resort 年底開幕，Newport 前九個月 EBITDA 增 8%
+
+菲律賓集團 Alliance Global 在向菲律賓證交所的公告中表示，馬尼拉價值 12.5 億美元的 Westside Resort 賭場綜合體預計 2026 年底前開幕。Newport World Resorts 營運商 Travellers International 前九個月 EBITDA 為 61 億披索（約 9,580 萬美元），年增 8%；公司稱成長主要來自非博彩收入。總裁 Kevin Tan 表示 Westside 將為集團增加新的休閒容量。對 PM 的意義：馬尼拉實體度假村新供給將增加高端客群競爭，也顯示 Newport 的增長靠非博彩業務。
+
+重點：類型 財務 ｜ 對象 Alliance Global、Travellers、Westside Resort ｜ 影響 馬尼拉新綜合度假村年底開幕，既有業務前九月 EBITDA 增 8%
+
+查證：GGRAsia 與 Inside Asian Gaming 報導一致。
+來源：[GGRAsia](https://www.ggrasia.com/westside-resort-set-for-year-end-opening-newport-9-month-ebitda-up-8pct-parent) · [Inside Asian Gaming](https://asgam.com/2026/11/12/manilas-westside-resort-to-open-by-year-end-as-travellers-says-non-gaming-drove-newport-growth-through-first-nine-months-of-2026/) · 日期：2026-11-12
+圖片：https://asgam.com/wp-content/uploads/og-cache/149621.jpg
+
+### 04 PAGCOR 就疑似外洩受限人士資料庫發出防詐警告
+
+PAGCOR 回應網路上一則聲稱含有其「全國受限人士資料庫」（NDRP）資訊的貼文，向民眾發出警告。PAGCOR 表示目前沒有經查證的證據顯示該貼文與新的未授權入侵有關，評估仍在進行，並正檢視是否與先前通報的事件相關；呼籲民眾提防釣魚與身分盜用，不要開啟或轉傳相關檔案。報導同時引用 IISS 報告，把有組織犯罪列為東南亞區域安全的「關鍵威脅」。對 PM 的意義：持牌業者應檢視自家的受限人士名單比對與個資防護流程，並預期監理端的資安要求可能趨嚴。
+
+重點：類型 政府法規 ｜ 對象 PAGCOR、NDRP 資料庫 ｜ 影響 個資外洩疑慮升高，持牌業者需加強防詐與資安
+
+查證：單一來源（iGaming Expert）。官方公告另計，不佔商業名額。
+來源：[iGaming Expert](https://igamingexpert.com/regions/asia/pagcor-alleged-restricted-persons-leak/) · 日期：2026-11-12
+圖片：https://resources.igamingexpert.com/images/2026/11/Data-leak.jpg
+
+---
+
+## 📊 市場數據 & 趨勢
+
+### 01 Aristocrat FY26：調整後 EPS 增 13%，博彩裝機量增約 6,500 台、市占 39%
+
+Aristocrat 公布截至 2026 年 9 月 30 日的財年業績：調整後每股盈餘成長 13%，全年股息每股 101 分（年增 9%），期末股息每股 51 分。Aristocrat Gaming 裝機量增加約 6,500 台、自稱市占 39%；Product Madness 在競爭加劇的社交賭場市場表現穩健；Aristocrat Interactive 被視為長期成長機會，但利潤率下滑反映數位業務擴張的投資與整合壓力。亞洲媒體報導淨利約 9.92 億美元（年增 10%）、營收各部門皆成長；各媒體以不同幣別與口徑計算，數字不盡相同。對 PM 的意義：實體機仍是 Aristocrat 的獲利核心，內容導向的產品策略帶動裝機量，互動業務的獲利率是下一個觀察點。
+
+重點：類型 財務 ｜ 對象 Aristocrat ｜ 影響 實體機裝機量與市占續升，互動業務利潤率下滑
+
+查證：各來源口徑不一（Casino Life 稱調整後 EPS 增 13%，Gaming Intelligence 稱利潤 A$14.5 億，Inside Asian Gaming 稱淨利 9.92 億美元、年增 10%），貨幣與口徑不同。
+來源：[Casino Life Magazine](https://www.casinolifemagazine.com/news/aristocrat-reports-13-earnings-growth-strong-fy26-results-drive-momentum-2027) · [G3 Newswire](https://g3newswire.com/aristocrats-revenues-up-by-four-per-cent-with-gaming-growing-in-us-and-australia/) · 日期：2026-11-12
+圖片：https://g3newswire.com/wp-content/uploads/2026/11/AristocratG2E2026.jpg
+
+### 02 Codere Online 第三季營收年增 31%，墨西哥增 37%，但維持保守財測
+
+Codere Online 第三季營收 6,260 萬歐元（年增 31%），博彩收入（gaming win）6,710 萬歐元（年增 30%），調整後 EBITDA 420 萬歐元（年增 45%）。墨西哥為最大市場，營收年增 37%。公司仍重申 2026 全年博彩收入 2.55 億至 2.65 億歐元、調整後 EBITDA 2,000 萬至 2,500 萬歐元的財測，執行長 Aviv Sher 說明是因西班牙新增的身分與存款規則（10 月底起適用新客）及哥倫比亞法規變動而保持保守。對 PM 的意義：拉美成長強勁，但西班牙與哥倫比亞的監理與稅制是成長風險。
+
+重點：類型 財務 ｜ 對象 Codere Online ｜ 影響 墨西哥帶動營收成長，監理不確定性使財測維持不變
+
+查證：iGaming Business、AgiproNews、Gaming Intelligence 的數字一致。
+來源：[iGaming Business](https://igamingbusiness.com/finance/codere-online-q3-revenue-surges-aviv-sher-conservative-outlook/) · [Gaming Intelligence](https://www.gamingintelligence.com/finance/238598-codere-online-gaming-win-rises-30-in-third-quarter/) · 日期：2026-11-12
+圖片：https://igamingbusiness.com/wp-content/uploads/2024/11/imagen08.jpg
+
+### 03 Prime Casino 數據：Evolution 的 Ice Fishing 月遊玩場次成長 615%
+
+英國 Prime Casino 數據顯示，Evolution 的真人遊戲節目 Ice Fishing 月遊玩場次從 2025 年 8 月的 1,369 場增至 2026 年 5 月的 9,788 場，成長 615%；9 月仍有 8,850 場，在資料集中排名第二，僅次於 Crazy Time 等老牌遊戲。報導指出，這顯示非傳統桌遊的遊戲節目品類可在真人賭場組合中取得顯著份額。對 PM 的意義：遊戲節目型真人遊戲對單一平台的帶動力明顯，但為單一英國營運商資料，不代表整體市場。
+
+重點：類型 市場趨勢 ｜ 對象 Prime Casino、Evolution Ice Fishing ｜ 影響 遊戲節目類真人遊戲在單一平台遊玩量大增
+
+查證：單一來源（Casino International，為單一營運商資料）。
+來源：[Casino International](https://casinointernational-online.com/prime-casino-data-reveals-surge-in-ice-fishing-sessions/) · 日期：2026-11-12
+圖片：https://casinointernational-online.com/wp-content/uploads/Colored-Fish-Bonuses.webp
+
+---
+
+本日日報查詢約 52 個網站，其中提取 40 個資料來源並進行交叉比對
+
+---
+
+## 🗓️ 來源日期紀錄（內部，不渲染）
+
+- Fortune Gems 500：JAMMA 2026-11-12T10:54+01:00（metadata，台北 17:54）
+- The Aristocrats：Betsoft 官網 2026-11-12（頁面日期，harvest 17:00）
+- Kong Miami City：G3 Newswire 2026-11-12T13:56Z（metadata）；EEGaming RSS 11/13 02:24
+- Booming Buffalo Extreme 2：Focus Gaming News 2026-11-12T07:59-03:00（metadata）
+- Legendary Fisherman：iGaming Future 2026-11-12T08:00Z（metadata）
+- Stack Universe：Casino International 2026-11-12T10:58Z（metadata）
+- Pyramid Gold：EEGaming 2026-11-12T06:39Z（metadata）
+- CrashX：Focus Gaming News 2026-11-12T07:39-03:00；CardRealm：G3 2026-11-12T14:00Z；ICONIC21：Focus 2026-11-12T08:07-03:00
+- Aristocrat CEO：G3 2026-11-12T14:17Z；Peter & Sons：G3 2026-11-12T10:57Z；Zitro WAP：G3 2026-11-12T14:34Z
+- BingoPlus：Manila Standard 2026-11-12T04:28Z（Firecrawl metadata）；ArenaPlus：RMN 2026-11-12T12:39Z；Westside：GGRAsia harvest 2026-11-12 16:50（台北）；PAGCOR：iGaming Expert 2026-11-12T11:52Z
+- Aristocrat FY26：Casino Life 2026-11-12T12:14+02:00；Codere：iGaming Business 2026-11-12T15:52Z；Ice Fishing：Casino International 2026-11-12T12:25Z
+- 剔除：Wild Parrot Charms — Spinomenal（SlotsLaunch 頁面 HTTP 500、WebSearch 查無遊戲頁，無法驗證）
+- 剔除：Chronos: Sands of Eternity — Pragmatic Play（11/9 已報導，11/12 Yogonet 無新進展）
+- 剔除：Wrappin' Christmas Gold — Play'n GO（11/12 已出現）
+- 剔除：Marlin Masters: Frozen Frenzy — Hacksaw Gaming、Ghost Vision — Hacksaw Gaming（窗內新作已達 7 款以上，依規則不從庫存補位）
+- 剔除：EEZE 每日固定收錄（今日窗內與 11 月 WebSearch 查無新 EEZE 消息，跳過）

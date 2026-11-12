@@ -140,34 +140,51 @@
   },
   {
    "cat": "cat1",
-   "title": "Kong Miami City",
-   "gp": "Blueprint Gaming",
+   "title": "Mr. Ferret Heist",
+   "gp": "Belatra",
    "b": 1,
-   "first_seen": "2026-11-11",
+   "first_seen": "2026-11-13",
    "sources": [
     {
-     "name": "iGamingToday",
-     "url": "https://www.igamingtoday.com/kong-miami-city-slot-review/",
-     "published": "2026-11-11 01:44"
+     "name": "iGaming Future",
+     "url": "https://igamingfuture.com/belatra-breaks-out-mr-ferret-heist/",
+     "published": "2026-11-12 16:00"
     }
    ],
-   "key": "kongmiamicity|blueprintgaming"
+   "key": "mrferretheist|belatra"
+  },
+  {
+   "cat": "cat1",
+   "title": "Fresh Fruit Deluxe Collect",
+   "gp": "Swintt",
+   "b": 1,
+   "first_seen": "2026-11-13",
+   "sources": [
+    {
+     "name": "G3 Newswire",
+     "url": "https://g3newswire.com/swintt-serves-up-a-new-batch-of-juicy-wins-in-fresh-fruit-deluxe-collect/",
+     "published": "2026-11-12 18:52"
+    }
+   ],
+   "key": "freshfruitdeluxecollect|swintt"
+  },
+  {
+   "cat": "cat1",
+   "title": "Cypher of Ra",
+   "gp": "Fantasma Games",
+   "b": 1,
+   "first_seen": "2026-11-13",
+   "sources": [
+    {
+     "name": "Fantasma Games",
+     "url": "https://www.fantasmagames.com/fantasma-games-unlocks-the-secrets-of-ancient-egypt-with-cypher-of-ra/",
+     "published": "2026-11-12 17:37"
+    }
+   ],
+   "key": "cypherofra|fantasmagames"
   }
  ],
  "others": [
-  {
-   "cat": "cat5",
-   "title": "OGQ：美國線上賭場 2026 Q3 老虎機與真人遊戲數量，Borgata NJ 居冠",
-   "sources": [
-    {
-     "name": "Online Gambling Quarterly",
-     "url": "https://www.ogqnews.com/slot-and-live-casino-games-analysis-key-operators-in-the-us-q3-2026/",
-     "published": "2026-11-08 08:04"
-    }
-   ],
-   "first_seen": "2026-11-09",
-   "key": "ogq美國線上賭場2026q3老虎機與真人遊戲數量borgatanj居冠|"
-  },
   {
    "cat": "cat3",
    "title": "Bragg Gaming 任命 COO Morten Tonnesen 為代理執行長，Mazij 轉任顧問",
@@ -290,142 +307,51 @@
    ],
    "first_seen": "2026-11-12",
    "key": "playtech在西班牙真人賭場市占逾70|"
+  },
+  {
+   "cat": "cat3",
+   "title": "Amusnet 經 Eldoradocasino.es 擴大西班牙數位布局",
+   "b": 1,
+   "first_seen": "2026-11-13",
+   "sources": [
+    {
+     "name": "Sector del Juego",
+     "url": "https://sectordeljuego.com/2026/11/12/amusnet-refuerza-su-presencia-digital-en-espana-mediante-una-alianza-estrategica-con-eldoradocasino-es/",
+     "published": "2026-11-12 15:04"
+    }
+   ],
+   "key": "amusnet經eldoradocasinoes擴大西班牙數位布局|"
+  },
+  {
+   "cat": "cat4",
+   "title": "Casino Plus 與 Evolution 談數位遊戲信任",
+   "b": 6,
+   "first_seen": "2026-11-13",
+   "sources": [
+    {
+     "name": "Voice of ASEAN",
+     "url": "https://voiceofasean.com/newsroom/casino-plus-and-evolution-redefine-rules-of-digital-gaming-trust/",
+     "published": "2026-11-12 19:21"
+    }
+   ],
+   "key": "casinoplus與evolution談數位遊戲信任|"
+  },
+  {
+   "cat": "cat5",
+   "title": "英國賭博委員會：74% 英國 11–17 歲青少年從未賭博",
+   "b": 1,
+   "first_seen": "2026-11-13",
+   "sources": [
+    {
+     "name": "JAMMA",
+     "url": "https://www.jamma.it/attualita/regno-unito-cala-il-gioco-tra-i-minori-il-74-non-ha-giocato-nel-2026-362510",
+     "published": "2026-11-12 22:41"
+    }
+   ],
+   "key": "英國賭博委員會74英國1117歲青少年從未賭博|"
   }
  ],
  "history": [
-  {
-   "key": "tigercharms|spinomenal",
-   "date": "2026-10-13",
-   "cat": "cat1",
-   "title": "Tiger Charms",
-   "gp": "Spinomenal"
-  },
-  {
-   "key": "witchcraftriches|bgaming",
-   "date": "2026-10-13",
-   "cat": "cat1",
-   "title": "Witchcraft Riches",
-   "gp": "BGaming"
-  },
-  {
-   "key": "deusdafortuna|popokgaming",
-   "date": "2026-10-13",
-   "cat": "cat1",
-   "title": "Deus da Fortuna",
-   "gp": "PopOK Gaming"
-  },
-  {
-   "key": "flordemuerto|gamomat",
-   "date": "2026-10-13",
-   "cat": "cat1",
-   "title": "Flor de Muerto",
-   "gp": "GAMOMAT"
-  },
-  {
-   "key": "kebabsuperpot|amusnet",
-   "date": "2026-10-13",
-   "cat": "cat1",
-   "title": "Kebab Super Pot",
-   "gp": "Amusnet"
-  },
-  {
-   "key": "phoenixroulettex2000|enjoy",
-   "date": "2026-10-13",
-   "cat": "cat2",
-   "title": "Phoenix Roulette x2000",
-   "gp": "ENJOY"
-  },
-  {
-   "key": "voltmania|goldenrace",
-   "date": "2026-10-13",
-   "cat": "cat2",
-   "title": "Voltmania",
-   "gp": "GoldenRace"
-  },
-  {
-   "key": "vabanqlive輪盤與百家樂|novomaticitalia",
-   "date": "2026-10-13",
-   "cat": "cat2",
-   "title": "Vabanq Live 輪盤與百家樂",
-   "gp": "NOVOMATIC Italia"
-  },
-  {
-   "key": "tadagaming推出tadajackpot|",
-   "date": "2026-10-13",
-   "cat": "cat3",
-   "title": "TaDa Gaming 推出 TaDa Jackpot",
-   "gp": ""
-  },
-  {
-   "key": "aristocrat展示buffaloboom新機台|",
-   "date": "2026-10-13",
-   "cat": "cat3",
-   "title": "Aristocrat 展示 Buffalo Boom 新機台",
-   "gp": ""
-  },
-  {
-   "key": "playson經lightwonder聚合平台上架南非worldsportsbetting|",
-   "date": "2026-10-13",
-   "cat": "cat3",
-   "title": "Playson 經 Light & Wonder 聚合平台上架南非 World Sports Betting",
-   "gp": ""
-  },
-  {
-   "key": "evoplay上架秘魯teapuesto|",
-   "date": "2026-10-13",
-   "cat": "cat3",
-   "title": "Evoplay 上架秘魯 Te Apuesto",
-   "gp": ""
-  },
-  {
-   "key": "hardrockcasino取得荷蘭ksa核准跨足線上運彩|",
-   "date": "2026-10-13",
-   "cat": "cat3",
-   "title": "Hard Rock Casino 取得荷蘭 KSA 核准跨足線上運彩",
-   "gp": ""
-  },
-  {
-   "key": "arenaplus談運彩產品設計|",
-   "date": "2026-10-13",
-   "cat": "cat4",
-   "title": "ArenaPlus 談運彩產品設計",
-   "gp": ""
-  },
-  {
-   "key": "菲律賓爭取擴大中國旅客免簽範圍|",
-   "date": "2026-10-13",
-   "cat": "cat4",
-   "title": "菲律賓爭取擴大中國旅客免簽範圍",
-   "gp": ""
-  },
-  {
-   "key": "9月slot排行pragmatic包辦歐洲前二|",
-   "date": "2026-10-13",
-   "cat": "cat5",
-   "title": "9 月 Slot 排行：Pragmatic 包辦歐洲前二",
-   "gp": ""
-  },
-  {
-   "key": "hacksawgaming預告第三季營收成長放緩|",
-   "date": "2026-10-13",
-   "cat": "cat5",
-   "title": "Hacksaw Gaming 預告第三季營收成長放緩",
-   "gp": ""
-  },
-  {
-   "key": "blask估算巴西禁令10天損失135億雷亞爾|",
-   "date": "2026-10-13",
-   "cat": "cat5",
-   "title": "Blask 估算巴西禁令 10 天損失 13.5 億雷亞爾",
-   "gp": ""
-  },
-  {
-   "key": "clsa預估澳門第三季ebitda年減11|",
-   "date": "2026-10-13",
-   "cat": "cat5",
-   "title": "CLSA 預估澳門第三季 EBITDA 年減 11%",
-   "gp": ""
-  },
   {
    "key": "thundervsunderworld250|pragmaticplay",
    "date": "2026-10-14",
@@ -3903,6 +3829,146 @@
    "date": "2026-11-12",
    "cat": "cat5",
    "title": "丹麥 9 月賭博收入年增 25% 至 6.85 億丹麥克朗，投注帶動",
+   "gp": ""
+  },
+  {
+   "key": "fortunegems500|tadagaming",
+   "date": "2026-11-13",
+   "cat": "cat1",
+   "title": "Fortune Gems 500",
+   "gp": "TaDa Gaming"
+  },
+  {
+   "key": "thearistocrats|betsoft",
+   "date": "2026-11-13",
+   "cat": "cat1",
+   "title": "The Aristocrats",
+   "gp": "Betsoft"
+  },
+  {
+   "key": "kongmiamicity|blueprintgaming",
+   "date": "2026-11-13",
+   "cat": "cat1",
+   "title": "Kong Miami City",
+   "gp": "Blueprint Gaming"
+  },
+  {
+   "key": "boomingbuffaloholdandwinextreme2|boominggames",
+   "date": "2026-11-13",
+   "cat": "cat1",
+   "title": "Booming Buffalo Hold and Win Extreme 2",
+   "gp": "Booming Games"
+  },
+  {
+   "key": "legendaryfishermancashemall|gamesglobal",
+   "date": "2026-11-13",
+   "cat": "cat1",
+   "title": "Legendary Fisherman Cash 'Em All",
+   "gp": "Games Global"
+  },
+  {
+   "key": "stackuniverse|zitro",
+   "date": "2026-11-13",
+   "cat": "cat1",
+   "title": "Stack Universe",
+   "gp": "Zitro"
+  },
+  {
+   "key": "pyramidgoldtripleboostgoldencoinslink|amusnet",
+   "date": "2026-11-13",
+   "cat": "cat1",
+   "title": "Pyramid Gold Triple Boost Golden Coins Link",
+   "gp": "Amusnet"
+  },
+  {
+   "key": "bcgame推出crashx倍數上升期間可買賣最多50個部位|",
+   "date": "2026-11-13",
+   "cat": "cat2",
+   "title": "BC.GAME 推出 CrashX，倍數上升期間可買賣最多 50 個部位",
+   "gp": ""
+  },
+  {
+   "key": "evenbeter推出cardrealm卡牌遊戲套件|",
+   "date": "2026-11-13",
+   "cat": "cat2",
+   "title": "Evenbeter 推出 CardRealm 卡牌遊戲套件",
+   "gp": ""
+  },
+  {
+   "key": "iconic21公布1221210聖誕包六款內容|",
+   "date": "2026-11-13",
+   "cat": "cat2",
+   "title": "ICONIC21 公布 12/2–12/10 聖誕包六款內容",
+   "gp": ""
+  },
+  {
+   "key": "aristocrat宣布dafneguisard接任執行長croker2027年4月退休|",
+   "date": "2026-11-13",
+   "cat": "cat3",
+   "title": "Aristocrat 宣布 Dafne Guisard 接任執行長，Croker 2027 年 4 月退休",
+   "gp": ""
+  },
+  {
+   "key": "petersons與synotinteractive簽訂歐洲分銷合約|",
+   "date": "2026-11-13",
+   "cat": "cat3",
+   "title": "Peter & Sons 與 SYNOT Interactive 簽訂歐洲分銷合約",
+   "gp": ""
+  },
+  {
+   "key": "zitro在阿根廷與casinoclub推出首個廣域累積彩金|",
+   "date": "2026-11-13",
+   "cat": "cat3",
+   "title": "Zitro 在阿根廷與 Casino Club 推出首個廣域累積彩金",
+   "gp": ""
+  },
+  {
+   "key": "bingoplusvipclub首度帶會員赴巴黎|",
+   "date": "2026-11-13",
+   "cat": "cat4",
+   "title": "BingoPlus VIP Club 首度帶會員赴巴黎",
+   "gp": ""
+  },
+  {
+   "key": "arenaplus1億披索mvpbracket得主領獎|",
+   "date": "2026-11-13",
+   "cat": "cat4",
+   "title": "ArenaPlus 1 億披索 MVP Bracket 得主領獎",
+   "gp": ""
+  },
+  {
+   "key": "allianceglobalwestsideresort年底開幕newport前九個月ebitda增8|",
+   "date": "2026-11-13",
+   "cat": "cat4",
+   "title": "Alliance Global：Westside Resort 年底開幕，Newport 前九個月 EBITDA 增 8%",
+   "gp": ""
+  },
+  {
+   "key": "pagcor就疑似外洩受限人士資料庫發出防詐警告|",
+   "date": "2026-11-13",
+   "cat": "cat4",
+   "title": "PAGCOR 就疑似外洩受限人士資料庫發出防詐警告",
+   "gp": ""
+  },
+  {
+   "key": "aristocratfy26調整後eps增13博彩裝機量增約6500台|",
+   "date": "2026-11-13",
+   "cat": "cat5",
+   "title": "Aristocrat FY26：調整後 EPS 增 13%，博彩裝機量增約 6,500 台",
+   "gp": ""
+  },
+  {
+   "key": "codereonline第三季營收年增31維持保守財測|",
+   "date": "2026-11-13",
+   "cat": "cat5",
+   "title": "Codere Online 第三季營收年增 31%，維持保守財測",
+   "gp": ""
+  },
+  {
+   "key": "primecasino數據icefishing月遊玩場次成長615|",
+   "date": "2026-11-13",
+   "cat": "cat5",
+   "title": "Prime Casino 數據：Ice Fishing 月遊玩場次成長 615%",
    "gp": ""
   }
  ],

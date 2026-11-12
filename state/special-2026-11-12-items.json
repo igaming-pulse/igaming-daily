@@ -1,0 +1,78 @@
+{
+ "date": "2026-11-12",
+ "available": 4,
+ "chosen": [
+  {
+   "cat": "cat1",
+   "title": "Marlin Masters: Frozen Frenzy",
+   "gp": "Hacksaw Gaming",
+   "b": 3,
+   "first_seen": "2026-10-09",
+   "release_date": "2026-11-17",
+   "sources": [
+    {
+     "name": "iGamingToday",
+     "url": "https://www.igamingtoday.com/marlin-masters-frozen-frenzy-slot-review/",
+     "published": "2026-10-09 16:54"
+    },
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/hacksaw-gaming/marlin-masters-frozen-frenzy",
+     "published": "2026-10-12 00:00"
+    }
+   ],
+   "key": "marlinmastersfrozenfrenzy|hacksawgaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Ghost Vision",
+   "gp": "Hacksaw Gaming",
+   "b": 3,
+   "first_seen": "2026-10-11",
+   "release_date": "2026-11-19",
+   "sources": [
+    {
+     "name": "iGamingToday",
+     "url": "https://www.igamingtoday.com/ghost-vision-slot-review/",
+     "published": "2026-10-11 02:25"
+    },
+    {
+     "name": "BigWinBoard",
+     "url": "https://www.bigwinboard.com/ghost-vision-hacksaw-gaming-slot-review/",
+     "published": "2026-10-11"
+    }
+   ],
+   "key": "ghostvision|hacksawgaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Wild Parrot Charms",
+   "gp": "Spinomenal",
+   "b": 3,
+   "first_seen": "2026-11-12",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/spinomenal/wild-parrot-charms",
+     "published": "2026-11-12"
+    }
+   ],
+   "key": "wildparrotcharms|spinomenal"
+  },
+  {
+   "cat": "cat1",
+   "title": "Kong Miami City",
+   "gp": "Blueprint Gaming",
+   "b": 1,
+   "first_seen": "2026-11-11",
+   "sources": [
+    {
+     "name": "iGamingToday",
+     "url": "https://www.igamingtoday.com/kong-miami-city-slot-review/",
+     "published": "2026-11-11 01:44"
+    }
+   ],
+   "key": "kongmiamicity|blueprintgaming"
+  }
+ ]
+}

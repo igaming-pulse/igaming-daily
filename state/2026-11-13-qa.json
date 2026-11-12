@@ -1,0 +1,29 @@
+{
+ "date": "2026-11-13",
+ "md": "state/2026-11-13-igaming-report.md",
+ "html": "reports/2026-11-13.html",
+ "items": 20,
+ "counts": {
+  "cat1": 7,
+  "cat2": 3,
+  "cat3": 3,
+  "cat4": 4,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 51,
+  "ok": 49,
+  "broken": 0,
+  "blocked": 2,
+  "images_dropped": 0,
+  "images": 20
+ },
+ "errors": [],
+ "warnings": [
+  "cat3-01 Aristocrat 宣布 Dafne Guis｜來源連結無法自動驗證（403，多半是網站擋機器人）：SBC Americas https://sbcamericas.com/2026/11/12/hires-higher-ups-aristocrat-succession/",
+  "cat4-03 Alliance Global：Westside｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/westside-resort-set-for-year-end-opening-newport-9-month-ebitda-up-8pct-parent"
+ ],
+ "fixes": [
+  "文末｜資料來源數 40 → 31（程式依來源連結去重計算）"
+ ]
+}
