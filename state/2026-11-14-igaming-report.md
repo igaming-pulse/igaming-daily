@@ -1,0 +1,252 @@
+# 🎰 iGaming 市場日報 2026-11-14（週六）
+
+🎰 Slot 3 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
+
+---
+
+## 📌 本日重點
+
+本日必看 Slot 新品：Merry Multipliers Dream Drop – Relax Gaming
+本日市場趨勢總結：菲律賓、北美與歐洲市場的共同走向是「內容之外的差異化」：BingoPlus 把線上品牌帶進實體賭場與本地 IP 獨家遊戲，PhilWeb 的營收主力轉向平台技術與內容分銷，SOFTSWISS 的 2027 趨勢報告也把 AI 與即時監理視為下一個競爭優勢。依據是 PhilWeb 第三季營收年增 152.9%，其中數位解決方案占 63.5%。對 PM 的意涵：平台競爭正從單款遊戲轉向獨家內容、在地化與營運工具的組合。
+
+---
+
+## 🎰 Game Provider 新遊戲
+
+### 01 Merry Multipliers Dream Drop – Relax Gaming
+
+Relax Gaming 的聖誕主題新作 Merry Multipliers Dream Drop 由 Mega Casino 以獨家方式上線。遊戲為六輪，採 Cascading Ways 連消機制，起始 4,096 ways，指示符號可解鎖額外符號並把 ways 數擴大到最高 117,649。Multiplier Conveyor 在基礎遊戲與免費遊戲都可累加最高 10x 倍率，並能與 wild 輪疊加；免費遊戲最多 10 轉，帶有落下式 wild 輪與清除玻璃符號的收集機制。遊戲同時接上 Relax 的 Dream Drop 累積彩金網路。節慶期首發加上獨家窗口，是 Relax 以彩池網路帶動單款新作曝光的典型做法。對 PM 的意義：Dream Drop 彩池讓新作自帶行銷題材，節慶主題 ＋ 連消 ＋ 可變 ways 的組合值得納入聖誕檔期的內容規劃參考。
+
+衍生調整：屬 Relax Dream Drop 彩池系列的聖誕主題新作，官方稿未說明是否為既有遊戲的續作。
+
+參數：
+- 廠牌：Relax Gaming
+- 遊戲類型：線上電子老虎機
+- 盤面：6 輪，起始 4,096 ways（最高 117,649 ways）
+- 消除/賠付：Cascading Ways 連消、Multiplier Conveyor、Dream Drop 累積彩金
+- 最高倍率：10,000x（OLBG）
+- RTP：94%（OLBG）
+- 波動：未公布
+- 目標市場：Mega Casino 獨家首發；其他市場未公布
+- 關鍵特色：連消 ways 擴張、最高 10x 倍率輸送帶、免費遊戲落下式 wild 輪、Dream Drop 彩金
+
+查證：RTP、最高倍率僅 OLBG 一個來源；波動已查 EEGaming、European Gaming、OLBG 仍無。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/11/13/53653/mega-casino-launches-relax-gaming-s-merry-multipliers-dream-drop-as-an-exclusive/) · [European Gaming](https://europeangaming.eu/portal/press-releases/2026/11/13/217987/mega-casino-merry-multipliers-dream-drop/) · [OLBG](https://www.olbg.com/slots/games/merry-multipliers-dream-drop) · 日期：2026-11-13
+圖片：https://eegaming.org/api/eeg-media/02f69e5c-3ee4-4a73-aa90-f7bd8da1de0c.png
+
+### 02 📋 本週補遺（11/10 發布）THE COLLECTOR – Betsoft
+
+📋 本週補遺（11/10 發布）
+
+Betsoft 的 THE COLLECTOR 是 6×5 影像老虎機，主題是尋找隱藏寶物。得獎符號會鎖定成 GOLDEN FRAMES，其餘符號掉落補位，LOCK AND RE-DROP 讓新增或延伸的獎項再次鎖定並觸發重新掉落。GOLDEN REVEAL 由 FEATURE MEDALLION 觸發，把金框翻成金幣、鑰匙或金罐，鑰匙放大數值、金罐收集全盤數值。3 個 Scatter 可選 10 轉免費遊戲（金框持續）或 3 次重轉的 RELIC COLLECTION，4 個 Scatter 升級為 GRAND 版本，5 個 Scatter 進入 12 轉且每轉保證出現 FEATURE MEDALLION 的 GALLERY OF MASTERPIECES。另有多種 Buy Bonus。此款是 EEGaming 週報 Week 46 收錄的 B≥3 新作，日報原本漏收，週六檢查點補上。對 PM 的意義：「鎖定＋重新掉落＋收集」的複合機制可作為高倍率（15,000x）收集類新作的參考。
+
+衍生調整：全新 IP，無衍生。
+
+參數：
+- 廠牌：Betsoft
+- 遊戲類型：線上電子老虎機
+- 盤面：6×5
+- 消除/賠付：Lock and Re-Drop（得獎符號鎖定為 Golden Frames 後重新掉落）、Golden Reveal
+- 最高倍率：15,000x
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：Golden Frames 鎖定、金幣／鑰匙／金罐收集、多階 Scatter 獎勵、多種 Buy Bonus
+
+查證：RTP、波動已查 EEGaming 內頁、Betsoft 相關搜尋仍無。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/11/10/53567/betsoft-releases-its-latest-video-slot-game-the-collector/) · [EEGaming Weekend Reels Week 46](https://eegaming.org/latest-news/2026/11/13/53651/weekend-reels-week-46-slot-drops-trends/) · 日期：2026-11-10
+圖片：https://eegaming.org/api/eeg-media/c7050abc-a946-4f5b-ba67-c794154a18bb.jpg
+
+### 03 Shark Park – Thunderkick
+
+Thunderkick 11/13 推出 Shark Park，把水上樂園變成鯊魚鬧場的喜劇主題。遊戲採六角形盤面與 cluster pays，Multiplier Wilds 會在盤面上移動，兩個相遇時合併倍率；進入 Bonus Game 後這些 Multiplier Wilds 會持續保留，有更多時間移動與合併。官方稿強調玩法與幽默美術，未公布數值；iGamingToday 的評測列出 RTP 94.14%、最高 10,000x、高波動、最高倍率加成可達 100x（單一來源）。對 PM 的意義：「移動合併的倍率 wild」是 cluster 類遊戲少見的可視化倍率玩法，可觀察玩家是否因合併動畫而提高留存。
+
+衍生調整：全新 IP，無衍生。
+
+參數：
+- 廠牌：Thunderkick
+- 遊戲類型：線上電子老虎機
+- 盤面：六角形盤面（評測稱 6 輪、6-7-6-7-6-7-6 列）
+- 消除/賠付：Cluster Pays（5 個以上相連）
+- 最高倍率：10,000x（iGamingToday 評測）
+- RTP：94.14%（iGamingToday 評測）
+- 波動：高（iGamingToday 評測）
+- 目標市場：沒有
+- 關鍵特色：會移動並合併倍率的 Multiplier Wilds，Bonus Game 中倍率 wild 持續保留
+
+查證：官方稿無數值，RTP／最高倍率／波動僅 iGamingToday 評測單一來源；評測頁日期與上線日不一致，數值僅供參考。
+來源：[Thunderkick](https://www.thunderkick.com/shark-park-everybody-out-of-the-water/) · [iGamingToday](https://www.igamingtoday.com/shark-park-slot-review/) · 日期：2026-11-13
+圖片：https://www.thunderkick.com/wp-content/uploads/2026/11/BANNER_LIVE_NOW_1920x1080_SharkPark.jpg
+
+## 🕹️ 非 Slot 新內容
+
+### 01 Ready Play Gaming 以 Blaz'n Buffalo Reel Crash 推廣 Slot＋Crash 混合玩法 – Ready Play Gaming
+
+Ready Play Gaming 營運長 Christoph Härtel 在 SoloAzar 專訪中，回顧 SiGMA World 羅馬展：該公司帶去 Reel Overlay 引擎的遊戲，其中 Blaz'n Buffalo Reel Crash 話題最高。這款遊戲在影像老虎機之上疊加 Crash 回合，贏得的轉動累積星星，玩家決定何時兌現；官方稱它能同時吸引 Crash 與 Slot 兩類玩家，HTML5、行動優先，提供西班牙文與葡萄牙文。後續路線圖是 Wild Lion Reel Crash（Blaz'n Buffalo 的後繼，約 10 MB 輕量下載，針對流量成本敏感市場）與 Reel Plinko，重點市場為拉美與非洲。對 PM 的意義：Slot × Crash 混合是目前小遊戲品類的熱門方向（與 11/11 SmartSoft PopX 同向），可評估為菲律賓平台吸引 Crash 客群的過渡內容。
+
+衍生調整：Blaz'n Buffalo Reel Crash 為既有遊戲（2026 年 7 月發行），本則為專訪與路線圖。
+
+參數：
+- 遊戲類型：其他類型遊戲（Slot × Crash 混合）
+- 最高倍率：未公布
+- RTP：92%–96%（依營運商設定，LCB 報導）
+- 目標市場：拉丁美洲、非洲
+- 關鍵特色：影像老虎機疊加 Crash 兌現回合、星星累積、輕量下載、Wild Lion 與 Reel Plinko 後續
+
+查證：最高倍率已查 SoloAzar 專訪、LCB、iGaming Business 仍無。
+來源：[SoloAzar](https://soloazar.com/es/categoria/eventos/ready-play-gaming-innovando-el-igaming-con-reel-overlay) · [LCB](https://lcb.org/news/ready-play-gaming-debuts-blaz-n-buffalo-reel-crash) · 日期：2026-11-13
+圖片：https://cdn.soloazar.com/storage/images/65246_crop916010_1600px_evj4ThhNtLqwES4kMJAEGCLw2UbaBYhaZnu.jpg
+
+### 02 SmartSoft 強調 JetX、Balloon、PlinkoX 的玩法創新 – SmartSoft Gaming
+
+SmartSoft 11/13 公布創新策略，點名三款 Crash／小遊戲產品。JetX 自 2018 年上線，新版 New JetX 加入「同一回合最多四注」；Balloon 讓玩家按住按鈕自行充氣、倍率與爆炸風險同步上升，與傳統由系統自動拉升倍率的 Crash 不同；PlinkoX 保留 Plinko 結構，但每顆球各有自己的倍率。官方稿沒有提供新作的數值與上線日，內容偏產品定位。對 PM 的意義：Crash 供應商正以「玩家操作介入」與「多注並行」做差異化，可作為評估小遊戲內容採購時的比較軸。
+
+衍生調整：既有產品線的功能更新（New JetX 四注），非全新遊戲。
+
+參數：
+- 遊戲類型：Crash／Plinko 小遊戲
+- 最高倍率：未公布
+- RTP：未公布
+- 目標市場：沒有
+- 關鍵特色：單回合最多四注、按住充氣控制倍率、每球獨立倍率
+
+查證：已查 Zona de Azar 英西兩版、SmartSoft 官方稿來源，數值仍無。
+來源：[Zona de Azar](https://zonadeazar.com/juego-online/smartsoft-strengthens-game-innovation-with-jetx-balloon-and-plinkox/) · 日期：2026-11-13
+圖片：https://zonadeazar.com/wp-content/uploads/2026/11/Logotipo-SmartSoft-rojo-y-negro-1-700x233.png
+
+### 03 義大利 Forza Italia 修正案擬把賓果獎金訂在售價 70%–75% – 義大利賓果業者
+
+義大利眾議院審議 2026 年市場與競爭年度法時，Forza Italia 議員 Squeri 與 Lovecchio 提出新增 11-bis 條，把賓果的獎金池固定為卡片售價的 70% 至 75%，並自法案生效次月起適用。ASCOB、EGP-FIPE Confcommercio 與 Federbingo 發出聯合聲明表示強烈反對，並已送交經濟財政部、兩院財政委員會、海關專賣署與反壟斷機關。目前仍是修正案階段，尚未成為法律。對 PM 的意義：賓果返還率被法規直接綁定的案例，可作為評估賓果類產品 RTP 設計與各市場上限／下限的參考。
+
+衍生調整：全新議題，無衍生。
+
+參數：
+- 遊戲類型：賓果（法規提案）
+- 目標市場：義大利
+- 關鍵特色：獎金池固定為售價 70%–75%，業者團體聯合反對
+
+查證：已查 AGIMEG、PressGiochi、JAMMA 三家說法一致。
+來源：[AGIMEG](https://www.agimeg.it/bingo-ddl-concorrenza-emendamento-forza-italia-montepremi-prezzo-vendita-cartelle-sigle-sindacali-fortemente-contrarie-replica-ascob-egp-fipe-federbingo/) · [PressGiochi](https://www.pressgiochi.it/legge-annuale-mercato-e-concorrenza-fi-propone-di-fissare-il-montepremi-del-bingo-tra-il-70-e-il-75-del-prezzo-delle-cartelle/157716) · [JAMMA](https://www.jamma.it/politica/camera-legge-annuale-per-il-mercato-e-la-concorrenza-2026-emendamento-fi-propone-montepremi-bingo-tra-il-70-e-il-75-del-prezzo-di-vendita-delle-cartelle-362585) · 日期：2026-11-13
+圖片：https://agimeg.b-cdn.net/wp-content/uploads/2024/02/bingo.jpg
+
+## 🤝 動態：主流 GP／平台
+
+### 01 BetFury 推出 Turbo Bet，單次最多 100,000 注
+
+加密貨幣賭場 BetFury 在 Original 自製遊戲中推出 Turbo Bet，玩家只需設定一次賭注與局數，即可在單一場次下 100 至 100,000 注。這項功能先在 Keno 上線，之後擴及 Dice、Space Dice 與 Limbo；這些遊戲的 RTP 最高 99.28%，並含內建策略。全部金額在開始時一次預扣，畫面以進度條追蹤，並依餘額限制局數；Turbo Bet 與 Manual、Auto、Strategies 並列，且其投注同樣計入 Battles 活動。對 PM 的意義：高頻、批次下注是 Crypto 賭場對重度玩家的產品方向，需同步評估責任博彩與風控提示。
+
+重點：類型 運營活動 ｜ 對象 BetFury、Original 遊戲玩家 ｜ 影響 批次投注降低操作成本，強化高頻玩家黏著
+
+來源：[Yogonet](https://www.yogonet.com/international/news/2026/11/13/127281-betfury-launches-new-turbo-bet-functionality-for-up-to-100-000-bets) · [Zona de Azar](https://zonadeazar.com/juego-online/betfury-launches-turbo-bet-with-up-to-100000-bets-per-session/) · 日期：2026-11-13
+圖片：https://imagenesyogonet.b-cdn.net/data/imagenes/2026/11/12/92881/1794496895-betfury-turbo-bet.jpg
+
+### 02 TaDa Gaming 檢討 SiGMA World：加碼 Slot、在地化內容與 Gold Mine Express 成績
+
+TaDa Gaming 在 SiGMA World 羅馬展後表示，今年刻意加重 Slot 展示，以證明團隊的開發能力不只限於捕魚遊戲，但捕魚仍是展台與產品組合的重要部分。官方點名 Gold Mine Express 是重要作品，在義大利表現突出，在英國等歐洲市場也有持續的玩家活動；為義大利專門開發的 Gallina Fortunata，則與美國 Fortune Zombie 系列的「在地化概念」做法一致。這是公司新聞稿，成績未附具體數字。對 PM 的意義：TaDa 從捕魚擴張到 Slot，且把在地化主題當作打入新市場的方法，與我們追蹤的 TaDa 菲律賓內容動態可一起觀察。
+
+重點：類型 運營活動 ｜ 對象 TaDa Gaming、Gold Mine Express、Gallina Fortunata ｜ 影響 TaDa 產品重心從捕魚擴展到 Slot 與在地化內容
+
+查證：公司新聞稿，成績無具體數字。
+來源：[Focus Gaming News](https://focusgn.com/tada-gaming-slots-market-content) · [JAMMA](https://www.jamma.it/attualita/tada-gaming-a-sigma-world-focus-sulle-slot-mercato-italiano-e-strategie-per-il-2027-362593) · 日期：2026-11-13
+圖片：https://focusgn.com/wp-content/uploads/2026/11/TaDa-Gaming-Silvio-Chen-1200x630.jpg
+
+### 03 Stake 加拿大負責人：阿爾伯塔 10 月上線後數千名玩家註冊，目標成為市場領導者
+
+EGR 專訪 Stake 加拿大負責人 Kris Abbott，他表示 Stake 在 10 月於阿爾伯塔省上線後已有數千名玩家註冊，品牌有能力與一個競爭者眾多的市場抗衡，目標是「成為市場領導者，而不是追隨者」。阿爾伯塔的受監理市場已有 30 多個持牌線上賭場，Stake 過去在加拿大灰色市場的規模很大，轉入合規後能否保留客群是觀察重點。全文為付費內容，這裡僅依公開摘要與公開報導整理，細節（註冊人數、投注量）未公布。對 PM 的意義：Stake 轉向合規市場的打法，可作為其進入其他新開放市場時的參考。
+
+重點：類型 市場進入 ｜ 對象 Stake、阿爾伯塔省 ｜ 影響 灰色市場大廠轉入受監理市場，競爭對手需留意
+
+查證：EGR 為付費內容，僅採公開摘要；背景以 Covers、Gambling.com 等報導輔助。
+來源：[EGR Intel](https://www.egr.global/intel/insight/stakes-canada-boss-we-want-to-be-a-market-leader/) · [Gambling.com](https://www.gambling.com/ca/news/stake-canada-secures-alberta-igaming-licence-targets-oct-12-launch) · 日期：2026-11-13
+圖片：https://www.egr.global/intel/wp-content/uploads/sites/2/2026/11/GettyImages-481574937-700x465.jpg
+
+## 🇵🇭 動態：菲律賓 GP／平台
+
+### 01 Yellow Bat Gaming 與 BingoPlus 合作開發本地題材遊戲，首款為 Reyna Ahas
+
+Yellow Bat Gaming 與 BingoPlus 簽署合作協議，雙方將開發僅在 BingoPlus 獨家提供的客製遊戲，首款是以菲律賓流行文化角色 Reyna Ahas（與都市傳說相關）為靈感的 Slot。Yellow Bat 用自家美術與動畫團隊製作，針對菲律賓玩家設計；BingoPlus 品牌傳播主管 Erin Tagudin 表示，希望藉此為用戶持續帶來新鮮內容。獨家模式讓 BingoPlus 用戶優先取得共同開發的後續客製遊戲。BingoPlus 持有 PAGCOR 牌照，內容涵蓋 Slot、線上賓果、體育投注與本地遊戲。對 PM 的意義：Yellow Bat 為特別追蹤對象，「本地文化 IP ＋ 平台獨家」是菲律賓平台內容差異化的明確路線。
+
+重點：類型 合作 ｜ 對象 Yellow Bat Gaming、BingoPlus（DigiPlus） ｜ 影響 本地 IP 獨家 Slot 成為平台內容差異化手段
+
+來源：[iGaming Expert](https://igamingexpert.com/news/business/yellow-bat-gaming-bingoplus-philippines/) · 日期：2026-11-13
+圖片：https://resources.igamingexpert.com/images/2026/11/Yellow-Bat-Gaming.webp
+
+### 02 PhilWeb 第三季營收年增 152.9%，數位解決方案占比 63.5%
+
+PhilWeb 是菲律賓線上博弈的 B2B 服務供應商，第三季營收年增 152.9% 至 4.43 億披索，淨利 6,420 萬披索，去年同期為虧損 1,920 萬披索；較第二季淨利增 36.5%、營收增 25.7%。核心「數位解決方案」營收 2.813 億披索（占 63.5%），較上季成長 40.5%，去年同期為零；場地型業務營收年減 7.7% 至 1.616 億披索。前九個月營收年增 92.7% 至近 10.3 億披索，淨利 1.252 億披索；9 月底現金 22.2 億披索，主要來自增資與營運現金流。對 PM 的意義：菲律賓博弈供應鏈的重心從實體場地轉向線上平台技術與內容分銷，可評估平台供應商的合作機會。
+
+重點：類型 財務 ｜ 對象 PhilWeb ｜ 影響 菲律賓線上博弈 B2B 需求上升，實體場地業務持續下滑
+
+來源：[GGRAsia](https://www.ggrasia.com/philweb-swings-to-us1mln-profit-in-3q-as-revenue-more-than-doubles) · 日期：2026-11-13
+圖片：https://www.ggrasia.com/wp-content/uploads/2016/03/PhilWeb.jpg
+
+### 03 BingoPlus 在 LaVie Resort & Casino Manila 開設賓果廳
+
+LaVie Resort & Casino Manila 在 11/6 舉行 BingoPlus at LaVie 的盛大開幕，位置在度假村下大堂，以剪綵儀式與整日活動（抽獎、住宿券、餐飲券與賓果套餐）為客人與會員提供新的娛樂選項。本則為 LaVie 發布的業配性質新聞稿（Philstar 標註由廣告內容團隊發布）。BingoPlus 把線上品牌延伸到實體賭場空間，與近期 VIP Club 巴黎行程等會員活動同屬品牌經營路線。對 PM 的意義：DigiPlus 旗下品牌以實體據點與線上會員互通，是菲律賓平台 O2O 做法的實例。
+
+重點：類型 運營活動 ｜ 對象 BingoPlus、LaVie Resort & Casino Manila ｜ 影響 線上品牌向實體賭場延伸，擴大會員接觸點
+
+查證：業配新聞稿，由 LaVie 發布，開幕日為 11/6，新聞稿發布於 11/13。
+來源：[Philstar](https://www.philstar.com/lifestyle/on-the-radar/2026/11/13/2569419/new-and-engaging-way-spend-time-lavie-resort-casino-manila) · 日期：2026-11-13
+圖片：https://media.philstar.com/photos/2026/11/11/1_2026-11-11_14-17-09.jpg
+
+## 📊 市場數據 & 趨勢
+
+### 01 SOFTSWISS 發布第五版 iGaming 趨勢報告：AI 進入正式營運、即時監理成形
+
+SOFTSWISS 發布第五版 iGaming Trends 報告（2027 版），在 SBC Summit 前於里斯本發表，主要結論有兩點：AI 已從試驗專案進入正式營運，以及監管朝即時監理發展。報告使用 H2 Gambling Capital 的數據，並有 AWS 等貢獻。SOFTSWISS 副行銷長表示，下一個競爭優勢不會只來自內容；行銷長另指出 AI 將變成日常營運層，用在詐欺偵測、支付路由與營運自動化。這是軟體供應商的報告，強調 AI 與合規工具有商業利益，宜與其他來源對照。對 PM 的意義：把 AI 與合規工具納入 2027 年產品路線規劃時，可以此報告當成內部討論的起點。
+
+重點：市場 趨勢報告 ｜ 範圍 全球 iGaming ｜ 數據 AI 營運化、即時監理
+
+來源：[Business of iGaming](https://www.businessofigaming.com/softswiss-igaming-trends-report/) · 日期：2026-11-13
+圖片：https://www.businessofigaming.com/wp-content/uploads/2026/11/softswiss-igaming-trends-report.jpg
+
+### 02 義大利 As.Tro-CGIA 報告：2025 年線上 Slot 投注額約 499.7 億歐元，占線上賭博近半
+
+As.Tro 與 CGIA Mestre 的義大利博弈產業報告顯示，2025 年整體線上博弈支出為 56.42 億歐元，較 2024 年的 50.72 億成長 11%。線上 Slot 投注額估計為 499.73 億歐元，約占遠端博弈投注量的一半，2024 年為 445.47 億、2019 年為 151.82 億；自 2019 年起的增幅約占線上整體增幅的 54%。實體機台支出則由 2024 年的 81.92 億降至 78.05 億，2019 年為 103.06 億。CGIA 的線上 Slot 數字是以歷史比重推估，不是 ADM 逐項統計。對 PM 的意義：歐洲成熟市場中線上 Slot 持續取代實體機台，是評估線上與實體內容資源配置的參考。
+
+重點：市場 市場數據 ｜ 範圍 義大利 ｜ 數據 線上 Slot 投注 499.7 億歐元、線上支出 56.42 億歐元（+11%）
+
+查證：線上 Slot 數字為 CGIA 推估（以歷史比重估算），非官方逐項統計。
+來源：[AGIMEG](https://www.agimeg.it/slot-online-2025-cgia-mestre-astro/) · [JAMMA](https://www.jamma.it/attualita/gioco-online-raccolta-oltre-i-100-miliardi-nel-2025-95-le-slot-trainano-la-crescita-del-mercato-362572) · 日期：2026-11-13
+圖片：https://agimeg.b-cdn.net/wp-content/uploads/2026/11/rapporto-cgia-mestre-2026-slot-online.jpg
+
+### 03 Bragg 第三季營收年減 23% 至 2,060 萬歐元，調整後 EBITDA 降 33%
+
+Bragg Gaming 第三季營收 2,060 萬歐元，年減 23%；排除 BetCity 與 Drayton 的標準化營收為 2,000 萬歐元，年減 12%，但較第二季增 4%。在加拿大與美國部署的自有內容營收年增 7%，前九個月增 21%；毛利率擴大 155 個基點至 56%。營業虧損 320 萬歐元（去年同期 120 萬），調整後 EBITDA 300 萬歐元、年減 33%，利潤率 15%；公司已完成以 900 萬美元股票收購 Drayton International，並說明成本縮減計畫持續進行。對 PM 的意義：以自有內容在北美成長的策略正在彌補聚合內容流失，值得追蹤自有 IP 在營收結構中的占比。
+
+重點：市場 財報 ｜ 範圍 加拿大、美國 ｜ 數據 營收 2,060 萬歐元（-23%）、自有內容營收 +7%
+
+來源：[Focus Gaming News](https://focusgn.com/bragg-gaming-q3-financial-results) · [Gaming Intelligence](https://www.gamingintelligence.com/finance/238664-bragg-gaming-group-revenue-drops-23-in-third-quarter) · 日期：2026-11-13
+圖片：https://focusgn.com/wp-content/uploads/2026/11/Bragg-Q3-2026-1200x630.jpg
+
+---
+
+本日日報查詢約 60 個網站，其中提取 30 個資料來源並進行交叉比對
+
+---
+
+## 🗓️ 來源日期紀錄（內部，不渲染）
+
+- Relax Merry Multipliers：主來源 EEGaming，2026-11-13 23:23（台北，RSS／metadata）；European Gaming 11/13 20:37；OLBG（無日期，僅查參數）
+- Betsoft THE COLLECTOR：主來源 EEGaming 2026-11-10 14:42（metadata）；補遺來源 Weekend Reels 2026-11-13 18:24
+- Shark Park：主來源 Thunderkick 官網 2026-11-13（metadata 2026-11-13T08:37+01:00）；iGamingToday 評測（數值參考）
+- Ready Play：SoloAzar 2026-11-13（metadata 12:00Z）；LCB 報導（參數）
+- SmartSoft：Zona de Azar 2026-11-13（metadata）
+- 義大利賓果：AGIMEG 2026-11-13 17:53（RSS）；PressGiochi 17:29；JAMMA 17:13
+- BetFury：Yogonet 2026-11-13（JSON-LD）；Zona de Azar 12:58
+- TaDa：Focus Gaming News 2026-11-13 17:51（metadata）；JAMMA 18:12
+- Stake：EGR Intel 2026-11-13 17:00（metadata 09:00Z）
+- Yellow Bat × BingoPlus：iGaming Expert 2026-11-13 17:50（metadata 09:50Z）
+- PhilWeb：GGRAsia 2026-11-13（metadata 05:28Z）
+- BingoPlus LaVie：Philstar 2026-11-13 09:00（JSON-LD）
+- SOFTSWISS：Business of iGaming 2026-11-13（metadata 10:00Z）
+- CGIA：AGIMEG 2026-11-13（metadata 11:08Z）；JAMMA 2026-11-13 18:34
+- Bragg：Focus Gaming News 2026-11-13（metadata）；Gaming Intelligence 11-13 22:27
+- 剔除：Wild Parrot Charms – Spinomenal（無新聞稿、SlotsLaunch 頁無發布日與上線日，搜尋查無，主來源日期不明）
+- 剔除：Marlin Masters: Frozen Frenzy – Hacksaw Gaming（上線日 11/17，週末當天新作已達 3 款，不從庫存補位）
+- 剔除：Ghost Vision – Hacksaw Gaming（上線日 11/19，同上，週末當天新作已達 3 款不補位）
+- 剔除：Evoplay Crash Line（庫存僅有 SlotsLaunch 首頁網址，查無遊戲頁或新聞稿，搜尋亦無）
+- 剔除：Casino Plus 與 Evolution 談數位遊戲信任（與 11/12 已報導的 Game Night 同一事件，無新進展）
+- 週六檢查點：Weekend Reels Week 46 共 20 款上下；本週已收款（Kong Miami City、Wrappin' Christmas Gold、Pyramid Gold 等）已在 3–7 天內出現；漏收的 Betsoft THE COLLECTOR 補遺；其餘為 B≤1 小廠，進庫存或不收。
+- EEZE 每日固定：窗內及搜尋均無 EEZE 11/13 新消息（最近為 11/7 EEZE Games 專訪、10/20 BetConstruct AI 發行合約），依規則略過。

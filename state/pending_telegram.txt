@@ -1,45 +1,39 @@
-🎰 iGaming 市場日報 2026-11-13（週五）
-🎰 Slot 7 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 4 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-11-14（週六）
+🎰 Slot 3 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・TaDa Gaming Fortune Gems 500 登陸義大利，第四輪最高 500x 倍數、最高 12,500x
-・菲律賓：PAGCOR 就疑似外洩受限人士資料庫發防詐警告；Westside Resort 年底開幕
-・Aristocrat 宣布 Dafne Guisard 接任執行長，FY26 裝機量增約 6,500 台
+・Relax Gaming 聖誕新作 Merry Multipliers Dream Drop：ways 最高 117,649、倍率最高 10x
+・Yellow Bat 與 BingoPlus 合作本地 IP 獨家 Slot；PhilWeb 第三季營收年增 152.9%
+・SOFTSWISS 2027 報告：AI 進入正式營運、監管走向即時化
 
 🎰 Slot 新遊戲
-01 Fortune Gems 500 – TaDa Gaming
-02 The Aristocrats – Betsoft
-03 Kong Miami City – Blueprint Gaming
-04 Booming Buffalo Hold and Win Extreme 2 – Booming Games
-05 Legendary Fisherman Cash 'Em All – Games Global
-06 Stack Universe – Zitro
-07 Pyramid Gold Triple Boost Golden Coins Link – Amusnet
+01 Merry Multipliers Dream Drop – Relax Gaming
+02 📋 本週補遺（11/10 發布）THE COLLECTOR – Betsoft
+03 Shark Park – Thunderkick
 
 🕹️ 非 Slot 新內容
-01 CrashX – BC.GAME
-02 CardRealm 卡牌遊戲套件 – Evenbeter
-03 ICONIC21 聖誕包六款內容 – ICONIC21
+01 Ready Play Gaming 以 Blaz'n Buffalo Reel Crash 推廣 Slot＋Crash 混合玩法
+02 SmartSoft 強調 JetX、Balloon、PlinkoX 的玩法創新
+03 義大利 Forza Italia 修正案擬把賓果獎金訂在售價 70%–75%
 
 🤝 動態：主流 GP／平台
-01 Aristocrat 宣布 Dafne Guisard 接任執行長，Croker 2027 年 4 月退休
-02 Peter & Sons 與 SYNOT Interactive 簽訂歐洲分銷合約
-03 Zitro 在阿根廷與 Casino Club 推出首個廣域累積彩金
+01 BetFury 推出 Turbo Bet，單次最多 100,000 注
+02 TaDa Gaming 檢討 SiGMA World：加碼 Slot、在地化內容
+03 Stake 加拿大負責人：阿爾伯塔上線後數千名玩家註冊
 
 🇵🇭 動態：菲律賓 GP／平台
-01 BingoPlus VIP Club 首度帶會員赴巴黎
-02 ArenaPlus 1 億披索 MVP Bracket 得主領獎
-03 Alliance Global：Westside Resort 年底開幕，Newport 前九個月 EBITDA 增 8%
-04 PAGCOR 就疑似外洩受限人士資料庫發出防詐警告
+01 Yellow Bat Gaming 與 BingoPlus 合作本地題材遊戲，首款 Reyna Ahas
+02 PhilWeb 第三季營收年增 152.9%，數位解決方案占 63.5%
+03 BingoPlus 在 LaVie Resort & Casino Manila 開設賓果廳
 
 📊 市場數據 & 趨勢
-01 Aristocrat FY26：調整後 EPS 增 13%，博彩裝機量增約 6,500 台、市占 39%
-02 Codere Online 第三季營收年增 31%，墨西哥增 37%，維持保守財測
-03 Prime Casino 數據：Ice Fishing 月遊玩場次成長 615%
+01 SOFTSWISS 發布第五版 iGaming 趨勢報告
+02 義大利 As.Tro-CGIA：2025 年線上 Slot 投注額約 499.7 億歐元
+03 Bragg 第三季營收年減 23%，調整後 EBITDA 降 33%
 
 📝 品質備註（本次爬找判斷）
-1. 窗內候選 562 則，收 20 則；Slot 新作充足（≥7 款）故未動用庫存；EEZE 今日窗內無新消息，跳過固定收錄。
-2. 剔除：Wild Parrot Charms（SlotsLaunch 頁面 500、查無遊戲頁）、Chronos（11/9 已報導無新進展）。多款 Slot 的 RTP／波動稿中未提供，寫「未公布」。
-3. 來源健檢：BigWinBoard、European Gaming、Revista Casino Perú、GiocoNews 4 個來源今日抓取失敗。
+1. 窗內候選 482 則；週六檢查點補收 Betsoft THE COLLECTOR（11/10 發布），其餘 Weekend Reels 款項已在 3–7 天內出現或為小廠。
+2. EEZE 窗內與搜尋均無新消息，今日略過固定收錄。剔除 Wild Parrot Charms（無日期與新聞稿）。Stake 一則 EGR 為付費內容，僅依摘要保守撰寫；Shark Park 的 RTP 等數值僅單一評測來源；PhilWeb 配圖被來源擋，該則無圖。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（28 天）、GiocoNews（14 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（29 天）、GiocoNews（15 天）；請檢查網址或改抓取方式

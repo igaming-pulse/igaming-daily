@@ -1,0 +1,31 @@
+{
+ "date": "2026-11-14",
+ "md": "state/2026-11-14-igaming-report.md",
+ "html": "reports/2026-11-14.html",
+ "items": 15,
+ "counts": {
+  "cat1": 3,
+  "cat2": 3,
+  "cat3": 3,
+  "cat4": 3,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 42,
+  "ok": 39,
+  "broken": 0,
+  "blocked": 2,
+  "images_dropped": 1,
+  "images": 14
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-01 Merry Multipliers Dream ｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/press-releases/2026/11/13/217987/mega-casino-merry-multipliers-dream-drop/",
+  "cat4-02 PhilWeb 第三季營收年增 152.9%，數｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/philweb-swings-to-us1mln-profit-in-3q-as-revenue-more-than-doubles",
+  "cat4-02 PhilWeb 第三季營收年增 152.9%，數｜各來源都找不到可用的配圖"
+ ],
+ "fixes": [
+  "cat4-02 PhilWeb 第三季營收年增 152.9%，數｜配圖打不開（403 text/html），已自動拿掉：https://www.ggrasia.com/wp-content/uploads/2016/03/PhilWeb.jpg",
+  "文末｜資料來源數 30 → 27（程式依來源連結去重計算）"
+ ]
+}
