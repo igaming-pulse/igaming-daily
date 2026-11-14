@@ -1,39 +1,33 @@
-🎰 iGaming 市場日報 2026-11-14（週六）
-🎰 Slot 3 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-11-15（週日）
+🎰 Slot 5 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 2 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Relax Gaming 聖誕新作 Merry Multipliers Dream Drop：ways 最高 117,649、倍率最高 10x
-・Yellow Bat 與 BingoPlus 合作本地 IP 獨家 Slot；PhilWeb 第三季營收年增 152.9%
-・SOFTSWISS 2027 報告：AI 進入正式營運、監管走向即時化
+・5G Games SUPER GEMS 5000：Fortune Gems 系，倍數落地即收集並 Respin
+・菲律賓區今天無合格新聞（窗內只有重複或業配雜訊）
+・愛爾蘭 2027/4 起強制 1% 營業額基金，歐洲合規成本續升
 
 🎰 Slot 新遊戲
-01 Merry Multipliers Dream Drop – Relax Gaming
-02 📋 本週補遺（11/10 發布）THE COLLECTOR – Betsoft
-03 Shark Park – Thunderkick
+01 [N+1] 📦 SUPER GEMS 5000 – 5G Games
+02 [原創] 🆕 Gift Rush Merge Up – BGaming（11/19 上線）
+・換皮／資料不足：El Frog X-Mas Cruise、Viva Fiesta、Just Win
 
 🕹️ 非 Slot 新內容
-01 Ready Play Gaming 以 Blaz'n Buffalo Reel Crash 推廣 Slot＋Crash 混合玩法
-02 SmartSoft 強調 JetX、Balloon、PlinkoX 的玩法創新
-03 義大利 Forza Italia 修正案擬把賓果獎金訂在售價 70%–75%
+01 📦 義大利線上現金撲克 10 月投注額 2.477 億歐元
+02 📦 義大利線上賓果 10 月投注額 2,309 萬歐元
 
 🤝 動態：主流 GP／平台
-01 BetFury 推出 Turbo Bet，單次最多 100,000 注
-02 TaDa Gaming 檢討 SiGMA World：加碼 Slot、在地化內容
-03 Stake 加拿大負責人：阿爾伯塔上線後數千名玩家註冊
-
-🇵🇭 動態：菲律賓 GP／平台
-01 Yellow Bat Gaming 與 BingoPlus 合作本地題材遊戲，首款 Reyna Ahas
-02 PhilWeb 第三季營收年增 152.9%，數位解決方案占 63.5%
-03 BingoPlus 在 LaVie Resort & Casino Manila 開設賓果廳
+01 伊比利美洲彩券協會與 SiGMA 簽合作備忘錄
+02 📦 Amusnet 透過 Eldoradocasino.es 擴大西班牙數位布局
 
 📊 市場數據 & 趨勢
-01 SOFTSWISS 發布第五版 iGaming 趨勢報告
-02 義大利 As.Tro-CGIA：2025 年線上 Slot 投注額約 499.7 億歐元
-03 Bragg 第三季營收年減 23%，調整後 EBITDA 降 33%
+01 📦 原創機制比高頻換皮更重要：EXCO 進入阿根廷
+02 歐洲博彩協會：成員 2025 年貢獻逾 55 億歐元
+03 愛爾蘭 1% 營業額社會影響基金 2027/4/1 起徵收
 
 📝 品質備註（本次爬找判斷）
-1. 窗內候選 482 則；週六檢查點補收 Betsoft THE COLLECTOR（11/10 發布），其餘 Weekend Reels 款項已在 3–7 天內出現或為小廠。
-2. EEZE 窗內與搜尋均無新消息，今日略過固定收錄。剔除 Wild Parrot Charms（無日期與新聞稿）。Stake 一則 EGR 為付費內容，僅依摘要保守撰寫；Shark Park 的 RTP 等數值僅單一評測來源；PhilWeb 配圖被來源擋，該則無圖。
+1. 週日偏淡：窗內新作只有 BGaming 兩款與 SlotsLaunch 兩款資料不足，第一級僅 SUPER GEMS 5000（5G 官網 11/11，窗外補位）；Marlin Masters、Ghost Vision 主來源超過 7 天保鮮、PG Soft Eureka Legends 查無參數，皆未收。
+2. 🇵🇭 菲律賓區 0 則：Casino Plus × Evolution 與 11/12 Game Night 疑似同事件、DSTPLAY 超過 3 天保鮮，已列剔除；EEZE 無新消息略過。總收錄 12 則（含精簡卡片），BigWinBoard、European Gaming、GiocoNews、SunStar 抓取失敗。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（29 天）、GiocoNews（15 天）；請檢查網址或改抓取方式
+1. 🟠 Firecrawl 剩 1043 點，照每天約 106 點會在 11/24 用完，撐不到 12/14 重置（還差約 2031 點）
+2. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（30 天）、GiocoNews（16 天）、Casino Life & Business Romania（3 天）；請檢查網址或改抓取方式

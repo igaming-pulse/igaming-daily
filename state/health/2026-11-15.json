@@ -1,0 +1,57 @@
+{
+ "date": "2026-11-15",
+ "alerts": [
+  "🟠 Firecrawl 剩 1043 點，照每天約 106 點會在 11/24 用完，撐不到 12/14 重置（還差約 2031 點）",
+  "🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（30 天）、GiocoNews（16 天）、Casino Life & Business Romania（3 天）；請檢查網址或改抓取方式"
+ ],
+ "info": {
+  "credits": {
+   "remaining": 1043,
+   "plan": 1000,
+   "period_end": "2026-12-14",
+   "today_use": 6,
+   "daily_use": 106,
+   "daily_basis": "近 7 天實際",
+   "days_to_reset": 29,
+   "need_until_reset": 3074
+  },
+  "tier": {
+   "tier": "🟢 充裕",
+   "budget": 35,
+   "remaining": 1049,
+   "period_end": "2026-12-14",
+   "days_to_reset": 29,
+   "reserve": 20,
+   "note": "全開",
+   "lists_spent": 6,
+   "article_limit": 22,
+   "image_extra": 12
+  },
+  "sources": {
+   "total": 112,
+   "failed_today": [
+    "European Gaming",
+    "GiocoNews",
+    "SunStar",
+    "BigWinBoard 新作列表",
+    "Casino Life & Business Romania"
+   ],
+   "streak_3d": [
+    "BigWinBoard 新作列表",
+    "GiocoNews",
+    "Casino Life & Business Romania"
+   ]
+  },
+  "candidates": {
+   "today": 57,
+   "median_same_type": 67,
+   "basis_days": 5,
+   "type": "週末窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 0,
+   "fixes": 1
+  }
+ }
+}

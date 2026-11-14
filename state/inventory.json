@@ -197,23 +197,24 @@
     }
    ],
    "key": "thanksgivingrichesholdwin|onlyplay"
-  }
- ],
- "others": [
+  },
   {
-   "cat": "cat2",
-   "title": "Evoplay 推出 Crash Line（SlotsLaunch 11/10 上線）",
-   "b": 1,
-   "first_seen": "2026-11-11",
+   "cat": "cat1",
+   "title": "Eureka Legends",
+   "gp": "PG Soft",
+   "b": 4,
+   "first_seen": "2026-11-10",
    "sources": [
     {
-     "name": "SlotsLaunch",
-     "url": "https://slotslaunch.com/",
+     "name": "PG Soft 官網",
+     "url": "https://www.pgsoft.com/en/games/206/",
      "published": "2026-11-10 00:00"
     }
    ],
-   "key": "evoplay推出crashlineslotslaunch1110上線|"
-  },
+   "key": "eurekalegends|pgsoft"
+  }
+ ],
+ "others": [
   {
    "cat": "cat3",
    "title": "Evoplay 經 CasinoBarcelona.es 進入西班牙第二個營運商合作",
@@ -311,153 +312,6 @@
   }
  ],
  "history": [
-  {
-   "key": "9orbsofgold|yggdrasil",
-   "date": "2026-10-15",
-   "cat": "cat1",
-   "title": "9 Orbs of Gold",
-   "gp": "Yggdrasil"
-  },
-  {
-   "key": "tarzanunleashed|aristocrat",
-   "date": "2026-10-15",
-   "cat": "cat1",
-   "title": "Tarzan Unleashed",
-   "gp": "Aristocrat"
-  },
-  {
-   "key": "towerruntreasuresteps|playngo",
-   "date": "2026-10-15",
-   "cat": "cat1",
-   "title": "Tower Run Treasure Steps",
-   "gp": "Play'n GO"
-  },
-  {
-   "key": "monopolymoney|bigtimegaming",
-   "date": "2026-10-15",
-   "cat": "cat1",
-   "title": "MONOPOLY Money",
-   "gp": "Big Time Gaming"
-  },
-  {
-   "key": "ratsvsravenscoingrid|maxxilabs",
-   "date": "2026-10-15",
-   "cat": "cat1",
-   "title": "Rats vs Ravens Coin Grid",
-   "gp": "Maxxi Labs"
-  },
-  {
-   "key": "ratroyale|pragmaticplay",
-   "date": "2026-10-15",
-   "cat": "cat1",
-   "title": "Rat Royale",
-   "gp": "Pragmatic Play"
-  },
-  {
-   "key": "thunderreckoning|pgsoft",
-   "date": "2026-10-15",
-   "cat": "cat1",
-   "title": "Thunder Reckoning",
-   "gp": "PG Soft"
-  },
-  {
-   "key": "megawheellatino|pragmaticplay",
-   "date": "2026-10-15",
-   "cat": "cat2",
-   "title": "Mega Wheel Latino",
-   "gp": "Pragmatic Play"
-  },
-  {
-   "key": "solidicon的crashmines與虛擬遊戲上架qtech|solidicon",
-   "date": "2026-10-15",
-   "cat": "cat2",
-   "title": "Solidicon 的 Crash、Mines 與虛擬遊戲上架 QTech",
-   "gp": "Solidicon"
-  },
-  {
-   "key": "amusnet導入vindral即時串流與綠幕製作升級livecasino|amusnet",
-   "date": "2026-10-15",
-   "cat": "cat2",
-   "title": "Amusnet 導入 Vindral 即時串流與綠幕製作升級 Live Casino",
-   "gp": "Amusnet"
-  },
-  {
-   "key": "tadagaming把clovercoins44帶進義大利市場|",
-   "date": "2026-10-15",
-   "cat": "cat3",
-   "title": "TaDa Gaming 把 Clover Coins 4×4 帶進義大利市場",
-   "gp": ""
-  },
-  {
-   "key": "gamingcorps把videoslots合作從瑞典擴大到英國與安大略|",
-   "date": "2026-10-15",
-   "cat": "cat3",
-   "title": "Gaming Corps 把 Videoslots 合作從瑞典擴大到英國與安大略",
-   "gp": ""
-  },
-  {
-   "key": "elagames全產品線加入everymatrix聚合網路|",
-   "date": "2026-10-15",
-   "cat": "cat3",
-   "title": "ELA Games 全產品線加入 EveryMatrix 聚合網路",
-   "gp": ""
-  },
-  {
-   "key": "gamomat首度進軍奧地利經win2day上架|",
-   "date": "2026-10-15",
-   "cat": "cat3",
-   "title": "GAMOMAT 首度進軍奧地利，經 win2day 上架",
-   "gp": ""
-  },
-  {
-   "key": "digiplus退出紐西蘭線上賭場牌照競標|",
-   "date": "2026-10-15",
-   "cat": "cat4",
-   "title": "DigiPlus 退出紐西蘭線上賭場牌照競標",
-   "gp": ""
-  },
-  {
-   "key": "okadamanila第三季ggr112億美元中場賭桌撐起營收|",
-   "date": "2026-10-15",
-   "cat": "cat4",
-   "title": "Okada Manila 第三季 GGR 1.12 億美元，中場賭桌撐起營收",
-   "gp": ""
-  },
-  {
-   "key": "pagcorcasinofilipino營運與監理脫鉤建議本月出爐|",
-   "date": "2026-10-15",
-   "cat": "cat4",
-   "title": "PAGCOR：Casino Filipino 營運與監理「脫鉤」建議本月出爐",
-   "gp": ""
-  },
-  {
-   "key": "加密平台coinsph傳因境外博彩金流遭央行處分|",
-   "date": "2026-10-15",
-   "cat": "cat4",
-   "title": "加密平台 Coins.ph 傳因境外博彩金流遭央行處分",
-   "gp": ""
-  },
-  {
-   "key": "wazdancointobercoins系列如何靠同一公式持續迭代|",
-   "date": "2026-10-15",
-   "cat": "cat5",
-   "title": "Wazdan「Cointober」：Coins™ 系列如何靠同一公式持續迭代",
-   "gp": ""
-  },
-  {
-   "key": "iconic21ai對話荷官正在rng與真人之間開出新品類|",
-   "date": "2026-10-15",
-   "cat": "cat5",
-   "title": "ICONIC21：AI 對話荷官正在 RNG 與真人之間開出新品類",
-   "gp": ""
-  },
-  {
-   "key": "slotegrator報告五大區域在地化做法金流與方言決定留存|",
-   "date": "2026-10-15",
-   "cat": "cat5",
-   "title": "Slotegrator 報告：五大區域在地化做法，金流與方言決定留存",
-   "gp": ""
-  },
   {
    "key": "huffnpuffhauntedmansion|lightwonder",
    "date": "2026-10-16",
@@ -3886,6 +3740,90 @@
    "date": "2026-11-14",
    "cat": "cat5",
    "title": "Bragg 第三季營收年減 23% 至 2,060 萬歐元，調整後 EBITDA 降 33%",
+   "gp": ""
+  },
+  {
+   "key": "supergems5000|5ggames",
+   "date": "2026-11-15",
+   "cat": "cat1",
+   "title": "SUPER GEMS 5000",
+   "gp": "5G Games"
+  },
+  {
+   "key": "giftrushmergeup|bgaming",
+   "date": "2026-11-15",
+   "cat": "cat1",
+   "title": "Gift Rush Merge Up",
+   "gp": "BGaming"
+  },
+  {
+   "key": "elfrogxmascruise|bgaming",
+   "date": "2026-11-15",
+   "cat": "cat1",
+   "title": "El Frog X-Mas Cruise",
+   "gp": "BGaming"
+  },
+  {
+   "key": "vivafiesta|redrakegaming",
+   "date": "2026-11-15",
+   "cat": "cat1",
+   "title": "Viva Fiesta",
+   "gp": "Red Rake Gaming"
+  },
+  {
+   "key": "justwin|ctinteractive",
+   "date": "2026-11-15",
+   "cat": "cat1",
+   "title": "Just Win",
+   "gp": "CT Interactive"
+  },
+  {
+   "key": "義大利線上現金撲克10月投注額2477億歐元|",
+   "date": "2026-11-15",
+   "cat": "cat2",
+   "title": "義大利線上現金撲克 10 月投注額 2.477 億歐元",
+   "gp": ""
+  },
+  {
+   "key": "義大利線上賓果10月投注額2309萬歐元玩家支出636萬歐元|",
+   "date": "2026-11-15",
+   "cat": "cat2",
+   "title": "義大利線上賓果 10 月投注額 2,309 萬歐元，玩家支出 636 萬歐元",
+   "gp": ""
+  },
+  {
+   "key": "伊比利美洲彩券協會與sigma簽合作備忘錄|",
+   "date": "2026-11-15",
+   "cat": "cat3",
+   "title": "伊比利美洲彩券協會與 SiGMA 簽合作備忘錄",
+   "gp": ""
+  },
+  {
+   "key": "amusnet透過eldoradocasinoes擴大西班牙數位布局|",
+   "date": "2026-11-15",
+   "cat": "cat3",
+   "title": "Amusnet 透過 Eldoradocasino.es 擴大西班牙數位布局",
+   "gp": ""
+  },
+  {
+   "key": "原創機制比高頻換皮更重要exco以專屬機制進入阿根廷市場|",
+   "date": "2026-11-15",
+   "cat": "cat5",
+   "title": "原創機制比高頻換皮更重要：EXCO 以專屬機制進入阿根廷市場",
+   "gp": ""
+  },
+  {
+   "key": "歐洲博彩協會成員2025年對歐洲社會貢獻逾55億歐元|",
+   "date": "2026-11-15",
+   "cat": "cat5",
+   "title": "歐洲博彩協會：成員 2025 年對歐洲社會貢獻逾 55 億歐元",
+   "gp": ""
+  },
+  {
+   "key": "愛爾蘭推進1營業額社會影響基金2027年4月1日起徵收|",
+   "date": "2026-11-15",
+   "cat": "cat5",
+   "title": "愛爾蘭推進 1% 營業額社會影響基金，2027 年 4 月 1 日起徵收",
    "gp": ""
   }
  ],
