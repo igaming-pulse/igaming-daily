@@ -6,7 +6,7 @@ v6.5 定稿：Markdown → 檢查 → 固定模板 HTML（2026-09-28 定案，�
   python3 scripts/finalize_report.py --date <DATE>
 
   1. 解析  state/<DATE>-igaming-report.md → state/<DATE>-report.json（結構化，給檢查與日後分析用）
-  2. 資料格式檢查：每則必備欄位、主來源日期是否在窗內／保鮮期內、cat1 參數 9 項（含廠牌）、統計列…
+  2. 資料格式檢查：每則必備欄位、主來源日期是否在窗內／保鮮期內、cat1 參數 11 項（含廠牌、核心機制、微創新）＋三級分法、統計列…
   3. 連結與圖片檢查：來源連結 404／網域不存在 → 錯誤；配圖打不開 → 自動拿掉（不留破圖）
   4. 模糊比對去重：跟近 3 天日報、同一份日報內互比（Huff N´Puff＝Huff N' Puff）
   最後用固定模板寫 reports/<DATE>.html，檢查結果寫 state/<DATE>-qa.json。
@@ -79,10 +79,12 @@ def fill_brand(rep, qa):
                     if row[0] == "廠牌":
                         row[1] = full
                 qa.fix(w, f"廠牌縮寫改全名：{cur} → {full}")
-            if spec[0][0] != "廠牌":   # 一律放第一列
-                row = next(r for r in spec if r[0] == "廠牌")
-                spec.remove(row)
-                spec.insert(0, row)
+            # 一律「廠牌」第一列；v6.7「核心機制」「微創新」緊接在後
+            head = [next(r for r in spec if r[0] == k) for k in ("廠牌", "核心機制", "微創新") if any(r[0] == k for r in spec)]
+            if spec[:len(head)] != head:
+                for r in head:
+                    spec.remove(r)
+                spec[:0] = head
 
 
 def check_schema(rep, day, qa):
@@ -96,7 +98,9 @@ def check_schema(rep, day, qa):
     for sec in rep["sections"]:
         c = sec["cat"]
         n = len(sec["items"])
-        total += n
+        total += n + len(sec.get("brief") or [])
+        if c == "cat1":
+            check_tiers(sec, day, qa, special=bool(rep.get("edition")))
         if c == "cat1" and n > cap and not rep.get("edition"):
             qa.warn("cat1", f"Slot {n} 款，超過{'週末' if cap == 2 else '平日'}上限 {cap}（窗內 B≥3 全收時可接受）")
         for i, it in enumerate(sec["items"], 1):
@@ -131,7 +135,8 @@ def check_schema(rep, day, qa):
                 keys = [k for k, _ in it["spec"]]
                 miss = [k for k in R.SLOT_SPEC_KEYS if k not in keys]
                 if miss:
-                    qa.err(w, f"參數缺 {'、'.join(miss)}（沒資料寫「未公布」）")
+                    qa.err(w, f"參數缺 {'、'.join(miss)}（沒資料寫「未公布」；核心機制沒有原型寫「-」）")
+                check_tier_fields(it, w, qa)
                 if not it["derive"]:
                     qa.err(w, "缺「衍生調整：」（全新款寫「全新 IP，無衍生」）")
                 if not re.search(r"\s[–—-]\s", it["title"]):
@@ -156,6 +161,68 @@ def check_schema(rep, day, qa):
     if total < 6 and not rep.get("edition"):
         qa.warn("總量", f"只有 {total} 則，可能去重過頭或抓取不足")
     return total
+
+
+# ─────────────────────────── v6.7 微創新分級 ───────────────────────────
+def prototypes():
+    """docs/slot-prototypes.md 第一張表的第一欄＝主流原型名稱。"""
+    try:
+        txt = open(os.path.join(ROOT, "docs", "slot-prototypes.md"), encoding="utf-8").read()
+    except OSError:
+        return []
+    sec = txt.split("## 一、", 1)[-1].split("\n## ", 1)[0]
+    rows = [r for r in sec.splitlines() if r.startswith("| ") and not r.startswith("| 原型") and not r.startswith("|---")]
+    return [r.split("|")[1].strip() for r in rows]
+
+
+def check_tier_fields(it, w, qa):
+    mech, innov = (R.spec_get(it, "核心機制") or "").strip(), (R.spec_get(it, "微創新") or "").strip()
+    if not mech or not innov:
+        return
+    tier = R.slot_tier(it)
+    if tier == 3:
+        qa.err(w, f"判定為第三級（核心機制「{mech[:20]}」／微創新「{innov[:20]}」）：不可用完整卡片，"
+                  f"改寫成 🎰 區最後「#### 換皮／資料不足（精簡卡片）」裡的精簡卡片")
+        return
+    if mech not in R.NO_PROTO:
+        protos = prototypes()
+        n = R.norm_title(mech)
+        if protos and not any(R.norm_title(p) and R.norm_title(p) in n for p in protos):
+            qa.warn(w, f"核心機制「{mech[:30]}」對不到 docs/slot-prototypes.md 的主流原型；沒有借鑑主流原型請寫「-」")
+    if not 10 <= len(innov) <= 30:
+        qa.warn(w, f"微創新 {len(innov)} 字，應為 10～30 字（只寫 Base Game 相對原型的那一個差異點）")
+
+
+def check_tiers(sec, day, qa, special=False):
+    """v6.7：🎰 區第一級（N+1）→ 第二級（原創機制）依序；第三級只能用一行格式。"""
+    tiers = [(it, it.get("tier")) for it in sec["items"]]
+    seen2 = None
+    for it, t in tiers:
+        if t == 2 and seen2 is None:
+            seen2 = it
+        if t == 1 and seen2 is not None:
+            qa.err(f"cat1-{it['no']:02d} {it['title'][:24]}",
+                   f"第一級（N+1）要排在第二級（原創機制）「{seen2['title'][:20]}」前面")
+            break
+    brief = sec.get("brief") or []
+    if len(brief) > 5:
+        qa.warn("cat1", f"換皮／資料不足精簡卡片 {len(brief)} 款，超過 5 款；分數低的放回庫存")
+    for i, b in enumerate(brief, 1):
+        w = f"cat1-精簡{i} {b['title'][:24]}"
+        if not re.search(r"\s[–—-]\s", b["title"]):
+            qa.warn(w, "精簡卡片標題應為「##### 遊戲名 – 廠牌」")
+        if not b.get("params") and not b.get("summary") and not b.get("image"):
+            qa.warn(w, "精簡卡片只有一行：請補「參數：盤面 …｜最高倍率 …｜RTP …」「摘要：一句話」「圖片：URL」")
+        elif not b.get("summary"):
+            qa.warn(w, "缺「摘要：」一句話")
+        if not b["reason"]:
+            qa.err(w, "缺判定原因（例：只換主題、創新只在 Free Game、參數未公布）")
+        if not b["sources"]:
+            qa.err(w, "缺可點擊的來源 [名稱](網址)")
+        if not b["date"]:
+            qa.err(w, "缺主來源日期（「來源：」行尾加「· 日期：YYYY-MM-DD」）")
+        else:
+            check_date({"date": b["date"], "label": b["label"]}, "cat1", day, w, qa, special=special)
 
 
 def check_summary(rep, qa):
@@ -240,7 +307,7 @@ def probe(url, want_image=False, timeout=12):
 def check_links(rep, qa):
     jobs = []
     for sec in rep["sections"]:
-        for it in sec["items"]:
+        for it in R.all_items(sec):
             w = f"{sec['cat']}-{it['no']:02d} {it['title'][:24]}"
             for n, u in it["sources"]:
                 jobs.append(("src", w, it, n, u))
@@ -275,7 +342,7 @@ def fill_images(rep, qa):
     """v6.6.6 配圖補位：沒圖、或圖打不開的，依序免費讀各來源網頁的 og:image，找到能開的就補上。"""
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     import page_meta as P
-    todo = [(s["cat"], it) for s in rep["sections"] for it in s["items"] if not it["image"] or it.get("image_dropped")]
+    todo = [(s["cat"], it) for s in rep["sections"] for it in R.all_items(s) if not it["image"] or it.get("image_dropped")]
     for c, it in todo:
         w = f"{c}-{it['no']:02d} {it['title'][:24]}"
         for name, url in it["sources"]:
@@ -297,7 +364,7 @@ def fill_images(rep, qa):
 # ─────────────────────────── 4. 模糊比對去重 ───────────────────────────
 
 def check_dupes(rep, day, qa):
-    flat = [(s["cat"], it) for s in rep["sections"] for it in s["items"]]
+    flat = [(s["cat"], it) for s in rep["sections"] for it in R.all_items(s)]
 
     def split(t):
         parts = re.split(r"\s+[–—-]\s+", t, maxsplit=1)
@@ -318,7 +385,7 @@ def check_dupes(rep, day, qa):
         if not os.path.exists(mdp):
             continue
         for psec in R.parse_md(open(mdp, encoding="utf-8").read())["sections"]:
-            for pit in psec["items"]:
+            for pit in R.all_items(psec):
                 for _, u in pit["sources"]:
                     path = re.sub(r"^https?://[^/]+", "", u).strip("/")
                     if path.count("/") >= 1 or len(path) > 25:        # 列表頁、首頁不算（例：/new-slots/）
@@ -332,7 +399,7 @@ def check_dupes(rep, day, qa):
         mdp = os.path.join(ROOT, "state", f"{pd_}-igaming-report.md")
         if os.path.exists(mdp):
             for psec in R.parse_md(open(mdp, encoding="utf-8").read())["sections"]:
-                past_items += [(pd_, psec["cat"], pit["title"]) for pit in psec["items"]]
+                past_items += [(pd_, psec["cat"], pit["title"]) for pit in R.all_items(psec)]
     for c, it in flat:
         if it["label"].startswith("🔁") or c in ("cat1", "cat2"):
             continue
@@ -397,7 +464,7 @@ def check_release(rep, day, qa):
     for sec in rep["sections"]:
         if sec["cat"] != "cat1":
             continue
-        for it in sec["items"]:
+        for it in R.all_items(sec):
             parts = re.split(r"\s+[–—-]\s+", it["title"], maxsplit=1)
             name, gp = parts[0], (parts[1] if len(parts) > 1 else "")
             hit = next((c for c in cal if R.same_item(name, gp, c["name"], c.get("gp", ""))), None)
@@ -434,6 +501,7 @@ def check_inventory_use(rep, day, qa):
     horizon = day + timedelta(days=INV.PREVIEW_MAX_DAYS)
     internal = rep.get("internal", "")
     secs = {s["cat"]: s["items"] for s in rep["sections"]}
+    cat1_all = next((R.all_items(s) for s in rep["sections"] if s["cat"] == "cat1"), [])   # v6.7 含一行清單
 
     def split(t):
         parts = re.split(r"\s+[–—-]\s+", t, maxsplit=1)
@@ -442,7 +510,7 @@ def check_inventory_use(rep, day, qa):
     # ① Slot 補位要照 B 分
     slots = [x for x in inv["slots"] if not INV.expired(x, day, True) and not INV.matches(x, rk)
              and not INV.is_placeholder(x) and not (x.get("release_date") and INV.d(x["release_date"]) > horizon)]
-    fills = [it for it in secs.get("cat1", []) if it["label"].startswith("📦")]
+    fills = [it for it in cat1_all if it["label"].startswith("📦")]
     used, used_b = [], []
     for it in fills:
         t, g = split(it["title"])
@@ -456,7 +524,7 @@ def check_inventory_use(rep, day, qa):
             if x in used or (x.get("b") or 0) <= floor:
                 continue
             if any(R.same_item(split(it["title"])[0], split(it["title"])[1], x["title"], x.get("gp", ""))
-                   for it in secs.get("cat1", [])):
+                   for it in cat1_all):
                 continue
             if _mentioned(x["title"], internal):
                 continue
@@ -465,10 +533,10 @@ def check_inventory_use(rep, day, qa):
     # ①-b 該補沒補：平日當天新作 ≤5、週末 ≤2，Slot 沒滿上限、庫存還有沒用的 → 要補
     cap, thr = (3, 2) if day.weekday() >= 5 else (7, 5)
     cat1 = secs.get("cat1", [])
-    new = [it for it in cat1 if not it["label"].startswith(("📦", "📋"))]
+    new = [it for it in cat1_all if not it["label"].startswith(("📦", "📋"))]   # v6.7：一行清單的新作也算當天新作
     if len(new) <= thr and len(cat1) < cap:
         left = [x for x in slots if x not in used and not _mentioned(x["title"], internal)
-                and not any(R.same_item(split(it["title"])[0], split(it["title"])[1], x["title"], x.get("gp", "")) for it in cat1)]
+                and not any(R.same_item(split(it["title"])[0], split(it["title"])[1], x["title"], x.get("gp", "")) for it in cat1_all)]
         if left:
             best = max(left, key=lambda x: (x.get("b") or 0))
             qa.err("cat1", f"當天新作 {len(new)} 款（≤{thr}），Slot 只有 {len(cat1)} 款、未滿 {cap}，庫存還有 {len(left)} 款可補"
@@ -507,14 +575,14 @@ def main():
     links = {"checked": 0, "skipped": True} if a.no_links else check_links(rep, qa)
     if not a.no_links:
         fill_images(rep, qa)
-        links["images"] = sum(1 for s in rep["sections"] for it in s["items"] if it["image"] and not it.get("image_dropped"))
+        links["images"] = sum(1 for s in rep["sections"] for it in R.all_items(s) if it["image"] and not it.get("image_dropped"))
     check_dupes(rep, day, qa)
     check_inventory_use(rep, day, qa)
     if not rep.get("edition"):
         check_release(rep, day, qa)
         check_summary(rep, qa)
     # v6.5：「提取 N2 個資料來源」改由程式算 —— 全部則的來源連結去重後的數量（SKILL.md「📊 文末統計列」定義）
-    n2 = len({u for sec in rep["sections"] for it in sec["items"] for _, u in it["sources"]})
+    n2 = len({u for sec in rep["sections"] for it in R.all_items(sec) for _, u in it["sources"]})
     if rep.get("stats"):
         if rep["stats"]["n2"] != n2:
             qa.fix("文末", f"資料來源數 {rep['stats']['n2']} → {n2}（程式依來源連結去重計算）")
@@ -532,7 +600,7 @@ def main():
     with open(os.path.join(ROOT, "state", f"{base}-report.json"), "w", encoding="utf-8") as f:
         json.dump(rep, f, ensure_ascii=False, indent=1)
     result = {"date": a.date, "md": os.path.relpath(md, ROOT), "html": None if a.check_only else os.path.relpath(out, ROOT),
-              "items": total, "counts": {s["cat"]: len(s["items"]) for s in rep["sections"] if s["items"]},
+              "items": total, "counts": {s["cat"]: s["count"] for s in rep["sections"] if s["count"]},
               "links": links, "errors": qa.errors, "warnings": qa.warnings, "fixes": qa.fixes}
     with open(os.path.join(ROOT, "state", f"{base}-qa.json"), "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=1)

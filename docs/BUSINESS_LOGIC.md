@@ -173,7 +173,7 @@ Exhibition dates must be refreshed yearly (researched 2026-09-27; blank = unknow
 2. New brands into PH: "Philippines launch", "enters Philippine market", "PAGCOR license", PH partnerships.
 3. Land-based cabinets: Aristocrat, L&W, IGT, Konami, Everi, AGS, Zitro, Novomatic + new cabinet/debut.
 4. Slot gap-fill & trends: "new slot release <date>"; weekly mechanic/trend round-ups.
-Plus one search each: Acewin, Omiplay, YellowBat, ATG.
+Plus one search each: Acewin, OMNIPLAY (尊博, formerly Omiplay), YellowBat, ATG.
 Anti-pattern: "brand group + RTP max win" → evergreen ranking pages only.
 
 ### 5.6 Tool choice
@@ -203,7 +203,7 @@ Decided only by harvest in-window counts + source health. ≥3 major sources fai
 | cat5 | 📊 市場數據 & 趨勢 | slot design trends > market data > trade-show impact | 1–3 (≤5) | market |
 
 Total 15–18, cap 22. <10 items → Telegram line `❗今日收錄偏少（共 N 則）`. Sports low priority (casino/slot ops of betting brands or mega-event spillover only).
-cat1 params: 遊戲類型 · 盤面 · 消除/賠付 · 最高倍率 · RTP · 波動 · 目標市場 · 關鍵特色. "未公布" only after SlotCatalog + provider + media page, noted in `查證：`. Never delete/downgrade data ("只增不減").
+cat1 params (v6.7, 11): 廠牌 · 核心機制 (mainstream prototype + generation, `-` if none; list in docs/slot-prototypes.md) · 微創新 (10–30 chars, base-game delta) · 遊戲類型 · 盤面 · 消除/賠付 · 最高倍率 · RTP · 波動 · 目標市場 · 關鍵特色. "未公布" only after SlotCatalog + provider + media page, noted in `查證：`. Never delete/downgrade data ("只增不減").
 Title prefixes: `📦 近期新作（M/D 首見）` (inventory slot), `📦（M/D）` (inventory other), `🆕 新作預告（M/D 上線）`, `📋 本週補遺（M/D 發布）`, `🔁` (re-shown after >3 d with update).
 
 ---
@@ -211,7 +211,7 @@ Title prefixes: `📦 近期新作（M/D 首見）` (inventory slot), `📦（M/
 ## 7. Scoring and caps
 
 `score = B + E + R + T`
-- **B**: 6 = Acewin, Omiplay, YellowBat, ATG, EEZE, Yggdrasil, Jili, TaDa Gaming, DigiPlus, BingoPlus, ArenaPlus, GameZone, PeryaGame, Casino Plus, PlayTime, BET88, OKBet, PT Gaming, Stake, Betfury, PAGCOR · 4 = PG Soft, Pragmatic Play, Nolimit City, Play'n GO, Red Tiger, Aristocrat, IGT, Light & Wonder · 3 = second tier (CP Game, Peter & Sons, NetEnt, Hacksaw, FA CHAI, Evolution, Playtech, Betsoft, Spinomenal, Relax, Push, BGaming, Wazdan, Quickspin, …) · 1 = other named · 0 = unnamed.
+- **B**: 6 = Acewin, OMNIPLAY (尊博), YellowBat, ATG, EEZE, Yggdrasil, Jili, TaDa Gaming, DigiPlus, BingoPlus, ArenaPlus, GameZone, PeryaGame, Casino Plus, PlayTime, BET88, OKBet, PT Gaming, Stake, Betfury, PAGCOR · 4 = 5G Games, PG Soft, Pragmatic Play, Nolimit City, Play'n GO, Red Tiger, Aristocrat, IGT, Light & Wonder · 3 = second tier (CP Game, Peter & Sons, NetEnt, Hacksaw, FA CHAI, Evolution, Playtech, Betsoft, Spinomenal, Relax, Push, BGaming, Wazdan, Quickspin, …) · 1 = other named · 0 = unnamed.
 - **E**: 6 launch / land-based debut / major integration · 5.5 preview · 5 market data, GGR, breakthroughs, trending mechanics · 2 trade show (±2 weeks) · 1 regulation, M&A, earnings · 0.5 awards, hires, marketing.
 - **R** (market affected): 6 PH · 5 TW, SEA · 4 LatAm/Brazil/Mexico/South Africa/global · 3 India, US, Europe, Canada · 2 Macau, JP, KR, CN · 1 other.
 - **T**: 0–12 h +2 · 12–24 h +1 · date-only 0.
@@ -226,6 +226,8 @@ Title prefixes: `📦 近期新作（M/D 首見）` (inventory slot), `📦（M/
 Items listed in `inventory.py show` "近 3 天已出現" are excluded (review/launch/promo of a game = same game). After >3 d, re-show only with material update, prefix 🔁. Known gap: a genuine new twist within 3 d is dropped (MGM/People Inc, 9/26).
 
 ### 8.2 cat1 algorithm (hard)
+
+v6.7 (2026-11-12): tier before score — tier 1 N+1 (mainstream prototype + base-game innovation) → tier 2 original mechanic → tier 3 re-skin / insufficient data (compact cards at the end of the section: thumbnail + mechanic + reason + 3 params + one-liner, ≤5, not counted in the cap, never used to pad cards). Innovation only in free games → tier 3. Criteria from Bingo Plus supplier brief; prototypes from PlayTime PH Top200 breakdown.
 ```
 cap = 5 if weekday(report_date) in Mon..Fri else 2
 cands = in-window slot items after dedupe
@@ -369,6 +371,8 @@ handoff_order_on_new_machine: docs/BUSINESS_LOGIC.md → skills/SKILL.md → doc
 | v6.4.1 | 9/27 | weekday 5 / weekend 2; fill only if ≤3; previews ≤7 d; Saturday checkpoint; iGamingToday secondary; cat2–5 stock 1/day | 9/27 slot area = 3 far-future previews from one affiliate site |
 | v6.4.3 | 9/28 | hot IP rule (H=+3, 30-day preview) | Huff N' Puff missed on 9/28 |
 | v6.5 | 9/28 | frozen template (scripts/report_lib.py), finalize_report.py (schema + links + images + fuzzy dedupe), health_alert.py, fuzzy matching in inventory.py | theme failed on hand-written HTML; spelling variants; nobody watching credits/source failures |
+| v6.7.3 | 11/13 | Asian provider official new-game feeds (scripts/asia_providers.py): PG Soft, JILI, Yellow Bat, 5G, OMNIPLAY free; FA CHAI via Firecrawl 1/day; JDB Google News fallback; 5G Games B=4 | v6.7 trial had zero tier-1 games — sources were Europe-centric |
+| v6.7 | 11/12 | 🎰 tiering (N+1 / original / re-skin one-liners), 核心機制 + 微創新 params, prototype list, slot DB mechanic filter | user: daily report gave little insight; Bingo Plus rejects re-skins |
 | v6.5.1 | 9/28 | Firecrawl tiers (budget=(remaining−20)/days_to_reset; ≥30/20–29/15–19/<15), BigWinBoard+SlotsLaunch calendar+EEGaming+SBC News+IAG moved to free fetch (daily Firecrawl lists 6→1), iGamingToday parsed by code, backlog file, TBC placeholder auto-reject, N2 computed, tests/ | 599 credits for 16 days; Huff N´Puff buried in unparsed list |
 | v6.4.2 | 9/27 | three triggers; 觸發關鍵字 + 展期 columns; SBC Summit, iGB Live added; OutputLogic rewritten | "never fetched" sources |
 

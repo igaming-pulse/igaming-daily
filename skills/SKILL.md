@@ -49,6 +49,8 @@ python3 <REPO>/scripts/sync_sources.py
    約 90 個 WP-API／RSS 來源＋BigWinBoard 新作列表，**每則都有精確到分鐘的台北發布時間**，
    並已依關鍵字預判分類；開頭有「💳 Firecrawl 今日分級」與**今天文章抓取上限**；最後附「第二層 Firecrawl 列表頁」存檔路徑。
    v6.5 起 BigWinBoard、SlotsLaunch 上線日曆、EEGaming、SBC News、IAG 都由程式免費抓並併入候選，iGamingToday 列表頁也由程式解析；
+   v6.7.3 起**亞洲廠商官網新作**（PG Soft、JILI、Yellow Bat、5G Games、OMNIPLAY（尊博）、FA CHAI）也由程式抓，直接列在 🎰 候選
+   （來源名「XX 官網新作」，標題「遊戲名 — 廠商」，摘要寫官網上線日；JILI 官網只到月，寫的是「官網首見日」）；JDB 官網擋地區，只有 Google News 保底；
    窗外近期的候選另存 `state/harvest/<DATE>-backlog.md`（需要庫存補位時再讀）。
    - 檔案不存在、或標頭的「收集時間窗」不是這次的窗 → 自己跑 `python3 <REPO>/scripts/harvest.py`
      （補跑舊日期加 `--date <DATE> --anchor 02:30`），跑完再讀。
@@ -119,7 +121,7 @@ harvest 顯示窗內候選多、你卻收得少 → 是你篩錯了，回頭檢�
 
 ## 🎰 Game Provider 新遊戲
 
-### 01 <遊戲名> – <廠商>          ← 01 一定是本日最推薦的那一款
+### 01 <遊戲名> – <廠商>          ← 01 一定是本日最推薦的那一款；v6.7 起第一級（N+1）→ 第二級（原創機制）依序排
 📦 近期新作（M/D 首見）          ← 只有補位／預告／補遺／再展示才加這一行（📦／🆕／📋／🔁）
 
 <內文一段，結尾「對 PM 的意義：…」>
@@ -128,6 +130,8 @@ harvest 顯示窗內候選多、你卻收得少 → 是你篩錯了，回頭檢�
 
 參數：
 - 廠牌：<遊戲商全名>
+- 核心機制：<借鑑的主流原型＋代數／版本，例 Fortune Gems 500；沒有寫 -；查不到代數寫「Super Ace 系（代數未確認）」>
+- 微創新：<10～30 字，只寫 Base Game 相對原型多了／改了什麼>
 - 遊戲類型：<…>
 - 盤面：<…>
 - 消除/賠付：<…>
@@ -139,6 +143,16 @@ harvest 顯示窗內候選多、你卻收得少 → 是你篩錯了，回頭檢�
 
 查證：<可省略>
 來源：[名稱A](URL) · [名稱B](URL) · 日期：YYYY-MM-DD
+圖片：<URL 或 無>
+
+#### 換皮／資料不足（精簡卡片）          ← v6.7.2 第三級；沒有就整段省略；放在 🎰 區最後
+
+##### <遊戲名> – <廠牌>                  ← 有 📦／🆕／🔁 前綴照樣加在遊戲名前
+核心機制：<同完整卡片的寫法；沒有原型寫 -，看不出來寫「未確認」>
+判定：<為什麼是第三級，例：只換主題、創新只在 Free Game、玩法未公布>
+參數：盤面 <…>｜最高倍率 <…>｜RTP <…>
+摘要：<一句話，40 字內：這款是什麼、跟誰很像>
+來源：[名稱](URL) · 日期：YYYY-MM-DD
 圖片：<URL 或 無>
 
 ## 🕹️ 非 Slot 新內容          ← 參數依品類 5 欄或 3 欄
@@ -172,7 +186,7 @@ python3 <REPO>/scripts/finalize_report.py --date <DATE>
 
 這一行做完四件事：
 1. 把 .md 解析成 `state/<DATE>-report.json`
-2. **資料格式檢查**：每則必備欄位、主來源日期（當日新聞要在窗內、📦 要在保鮮期內）、cat1 參數 9 項（含廠牌）、統計列、內文不可出現品質備註用語
+2. **資料格式檢查**：每則必備欄位、主來源日期（當日新聞要在窗內、📦 要在保鮮期內）、cat1 參數 11 項（含廠牌、核心機制、微創新）與三級排序（v6.7）、統計列、內文不可出現品質備註用語
 3. **連結與圖片檢查**：來源連結 404／網域不存在＝錯誤；被網站擋（403 等）＝只警告；**配圖打不開會自動拿掉**
 4. **模糊比對去重**：同份日報內互比、跟近 3 天日報比（Huff N´Puff＝Huff N' Puff、L&W＝Light & Wonder）
 
@@ -213,9 +227,10 @@ python3 <REPO>/scripts/finalize_report.py --date <DATE>
 ・<市場數據或 Slot 趨勢重點，一句話>
 
 🎰 Slot 新遊戲
-01 <標題>
-02 <標題>
+01 [N+1] <標題>
+02 [原創] <標題>
 …
+・換皮／資料不足：<遊戲名>、<遊戲名>          ← v6.7 第三級只列名字，沒有就省略
 
 🕹️ 非 Slot 新內容
 …
@@ -227,10 +242,10 @@ python3 <REPO>/scripts/finalize_report.py --date <DATE>
 2. …
 ```
 
-**Telegram 標題行照樣加 📦／🆕／🔁 前綴**，讓讀者分得出當日與補位。
+**Telegram 標題行照樣加 📦／🆕／🔁 前綴**，讓讀者分得出當日與補位。v6.7 起 🎰 每款在編號後加級別 `[N+1]`／`[原創]`。
 
 **⭐ 今日重點（v6.6.5）**：第 3 行起先放 3 條、每條 ≤40 字，讓使用者在手機上一眼判斷今天值不值得點開：
-① 分數最高的 Slot 新作或大廠動作（寫出遊戲名／廠商＋一個具體亮點，例如最高倍率、新機制）
+① 🎰 區 01（第一級 N+1 優先，沒有第一級才用第二級；寫出遊戲名／廠商＋它的微創新）
 ② 菲律賓區最重要的一則（平台營運優先於政策）③ 市場數據或 Slot 趨勢最重要的一則。
 該區當天沒有內容就省略那一條；不要寫空泛句（「今日市場動態豐富」）。前兩行格式不變。
 
@@ -356,6 +371,8 @@ Slot 進庫存幾款、目前庫存量（Slot／其他）、各區連續空白�
 ### 3.6 沒有新聞稿的 Slot 新作：收（2026-10-18 使用者裁示）
 只限 🎰 Game Provider 新遊戲（Slot）。大廠新作常常不發新聞稿（Hacksaw、Nolimit City、ELK 等），
 找不到有日期的新聞稿時，**可以用 BigWinBoard 新作列表（或 SlotsLaunch 上線日曆）的該款條目當主來源**，
+v6.7.3 起亞洲廠商的**官網新作頁**（PG Soft 遊戲頁、Yellow Bat 遊戲庫、5G Game Launch、OMNIPLAY 遊戲詳情、FA CHAI Game 新聞）也可以當主來源（官方一手，比 BigWinBoard 強）；
+JILI 只有「首見日」、沒有確切上線日，要再找 SlotCatalog／評測確認上線日，查不到就寫「上線日未公布（官網 M 月，首見 M/D）」。
 以列表上的**上線日**當主來源日期；上線日要落在收集時間窗內（庫存補位則在 7 天保鮮期內）。
 - 「查證：」要寫明「無新聞稿，主來源為 BigWinBoard 新作列表（上線日 M/D）」，讀者才知道來源比較弱
 - 參數查不到的寫「未公布」，並註明查過哪些站（BigWinBoard、SlotsLaunch、Provider 官網）
@@ -389,7 +406,7 @@ Slot 進庫存幾款、目前庫存量（Slot／其他）、各區連續空白�
 
 | # | 分類 | 目標（上限） | 內容 | 格式 |
 |---|------|------|------|------|
-| 1 | 🎰 Game Provider 新遊戲（Slot＋實體機） | **平日 7 款、週末 3 款**（超過進庫存） | 線上電子老虎機新作，**也收已公布但未上線的新作預告／提前評測**、**實體老虎機新機台**。非 slot 放 cat2 | 三段式 |
+| 1 | 🎰 Game Provider 新遊戲（Slot＋實體機） | **平日 7 款、週末 3 款**完整卡片（超過進庫存；v6.7 第三級精簡卡片另列 ≤5） | 線上電子老虎機新作，**也收已公布但未上線的新作預告／提前評測**、**實體老虎機新機台**。非 slot 放 cat2 | 三段式 |
 | 2 | 🕹️ 非 Slot 新內容 | **2–3**（≤5） | 非 slot 的新遊戲／新內容。**優先序**：① 小遊戲（Crash／Mines／Plinko）② Live Game ③ Poker／德州 ④ 地方棋牌 ⑤ 其他 | 三段式 |
 | 3 | 🤝 動態：主流 GP／平台 | **3–5**（≤7） | 大品牌具體動作：合作、併購、提告、運營活動與成效；**線上與實體機大廠（Aristocrat、L&W、IGT、Konami 等）都算** | 動態格式 |
 | 4 | 🇵🇭 動態：菲律賓 GP／平台 | **2–4**（商業 ≤6，官方另計） | 見「🇵🇭 菲律賓區優先序」：平台策略與運營＞新品牌大動作＞GP 上架＞政策 | 動態格式 |
@@ -414,8 +431,8 @@ Slot 進庫存幾款、目前庫存量（Slot／其他）、各區連續空白�
 
 | 分 | 對象 |
 |---|---|
-| **6** | 下列 21 個（⭐⭐ 特別追蹤 4：**Acewin**（IGS 鈊象）、**Omiplay**（尊博）、**YellowBat**、**ATG**（atg-games.com）｜每日固定收錄 1：**EEZE**｜⭐ 優先展示 GP 3：**Yggdrasil、Jili、TaDa Gaming**｜菲律賓核心集團／平台 10：**DigiPlus、BingoPlus、ArenaPlus、GameZone、PeryaGame、Casino Plus、PlayTime、BET88、OKBet、PT Gaming**｜國際現金網 2：**Stake、Betfury**｜菲律賓官方 1：**PAGCOR**） |
-| **4** | 一線大廠：PG Soft、Pragmatic Play、Nolimit City、Play'n GO、Red Tiger Gaming、Aristocrat、IGT、Light & Wonder |
+| **6** | 下列 21 個（⭐⭐ 特別追蹤 4：**Acewin**（IGS 鈊象）、**OMNIPLAY**（尊博，舊稱 Omiplay）、**YellowBat**、**ATG**（atg-games.com）｜每日固定收錄 1：**EEZE**｜⭐ 優先展示 GP 3：**Yggdrasil、Jili、TaDa Gaming**｜菲律賓核心集團／平台 10：**DigiPlus、BingoPlus、ArenaPlus、GameZone、PeryaGame、Casino Plus、PlayTime、BET88、OKBet、PT Gaming**｜國際現金網 2：**Stake、Betfury**｜菲律賓官方 1：**PAGCOR**） |
+| **4** | 一線大廠：**5G Games**（v6.7.3 加入：菲律賓 Top200 份額 8.5%，高於 Pragmatic 的 4.8%）、PG Soft、Pragmatic Play、Nolimit City、Play'n GO、Red Tiger Gaming、Aristocrat、IGT、Light & Wonder |
 | **3** | 二線知名（包含但不限於）：CP Game、Peter & Sons、NetEnt、Hacksaw Gaming、FA CHAI (FC)、Evolution、Playtech、Betsoft、Spinomenal、Relax Gaming、Push Gaming、BGaming、Wazdan、Quickspin |
 | **1** | 其他有名有姓的 GP／平台 |
 | **0** | 不具名或查不到主體 |
@@ -463,6 +480,23 @@ Slot 進庫存幾款、目前庫存量（Slot／其他）、各區連續空白�
 
 `總分 → B 高者優先 → R 高者優先 → 發布時間新者優先`
 
+#### 🧬 🎰 區先分級、再排分數（v6.7 硬規則）
+
+依 `docs/slot-prototypes.md`（主流原型清單＋Bingo Plus 的創新判定標準）把每款 Slot 分成三級，**級別優先於總分**：
+
+| 級別 | 條件 | 呈現 |
+|---|---|---|
+| **第一級 N+1** | 有主流原型（核心機制對得到清單），而且創新在 **Base Game** 就看得到 | 排最前面，完整卡片 |
+| **第二級 原創機制** | 沒有主流原型（核心機制寫 `-`），但 Base Game 有新玩法 | 排第二，完整卡片 |
+| **第三級 換皮／資料不足** | 只換主題或配色；或創新只在 Free Game 裡；或參數未公布、無法判斷 | 🎰 區最後的**精簡卡片**（`#### 換皮／資料不足（精簡卡片）`：小圖＋核心機制＋判定＋三個參數＋一句話），最多 5 款 |
+
+- **選品**：候選多於上限時，先收第一級、再收第二級（同級照總分）；所以要先評估約 10～12 款候選的核心機制，再決定收哪 7 款
+- **創新只在 Free Game、Base Game 看不出差異 → 降到第三級**
+- **平日 7 款／週末 3 款只算完整卡片**；第三級精簡卡片不佔名額，也**不可拿來補滿完整卡片**——第一、二級不夠就照實呈現
+- 庫存補位（📦）也一樣要第一、二級；高 B 分庫存判定換皮不能用時，在內部紀錄寫「剔除：<名稱>（換皮）」或改放精簡卡片
+- 核心機制、微創新**一定要有來源依據**（官網遊戲頁、SlotCatalog、評測）；查不到寫「未確認」，**嚴禁編造**；看不出來就是第三級「資料不足」
+- 定稿檢查會擋：完整卡片缺這兩欄、第三級用了完整卡片、第二級排在第一級前面；核心機制對不到原型清單、微創新不在 10～30 字會警告
+
 #### 分類保底（v6.4 改為庫存保底）
 
 依「📦 庫存機制」：Slot 平日當天新作 ≤5 款才從庫存補到 7 款、週末 ≤2 款才補到 3 款；其他分類當天空著就從庫存補 1 則（v6.6.4）。
@@ -485,7 +519,8 @@ Slot 進庫存幾款、目前庫存量（Slot／其他）、各區連續空白�
 **1. 本日必看 Slot 新品**
 - 從 🎰 區選出本日最值得注意的一款，格式 `<遊戲名> – <廠商>`，例：`本日必看 Slot 新品：3 Shadow Wolves – Spinomenal`
 - 這一款**必須排在 🎰 區的 01**（排序時直接把它放第一；定稿檢查會比對，不一致就報錯）
-- 挑選依據：優先品牌（B）、機制新穎度、對菲律賓市場的參考價值、資料完整度；都差不多時取排序總分最高的
+- **v6.7 起從第一級（N+1）挑**；沒有第一級才從第二級（原創機制）挑，第三級不可當必看
+- 同級裡的挑選依據：微創新是否在 Base Game 一眼看得出、核心機制在菲律賓的份量（見 `docs/slot-prototypes.md` 表格順序）、優先品牌（B）、資料完整度；都差不多時取排序總分最高的
 
 **2. 本日市場趨勢總結**
 - 只能從 **📊 市場數據 & 趨勢、🇵🇭 動態：菲律賓 GP／平台、🤝 動態：主流 GP／平台** 這三區提煉；Slot、非 Slot 區不算
@@ -512,7 +547,7 @@ Slot 進庫存幾款、目前庫存量（Slot／其他）、各區連續空白�
 |---|---|---|
 | **Huff N' Puff** | Light & Wonder | 三隻小豬系列；例：Huff N' Puff Haunted Mansion（萬聖節換皮） |
 | **Bao Zhu Zhao Fu（爆竹招福）** | Light & Wonder | 亞洲市場熱門實體機 IP |
-| **SuperGems（Super Gem）** | Omiplay（尊博） | 對標 Fortune Gem、在菲律賓平台有成績 |
+| **SuperGems（Super Gem）** | OMNIPLAY（尊博） | 對標 Fortune Gem、在菲律賓平台有成績 |
 
 規則：
 - 打分加 **H = +3**（`score = B + E + R + T + H`），在 Slot 區排到最前面（同分時熱門 IP 優先）。
@@ -520,7 +555,7 @@ Slot 進庫存幾款、目前庫存量（Slot／其他）、各區連續空白�
 - 名單要增減直接改這張表；判斷時比對遊戲名稱是否含系列名（不分大小寫、忽略標點）。
 - 起因：2026-09-28 Huff N' Puff Haunted Mansion 在 iGamingToday 列表頁上、窗內發布，卻因 7 天預告限制與列表頁未解析而漏收，舊機器反而有收。
 
-#### ⭐⭐ Acewin／Omiplay／YellowBat／ATG 特別追蹤
+#### ⭐⭐ Acewin／OMNIPLAY／YellowBat／ATG 特別追蹤
 
 這四家 GP 的下列動態一律當新聞處理，與其他消息比權重後決定是否露出，**同等條件下優先級提高**：
 
@@ -530,9 +565,14 @@ Slot 進庫存幾款、目前庫存量（Slot／其他）、各區連續空白�
 
 ATG（`https://atg-games.com/zh-tw`）同列特別追蹤，判準與下述三家相同。
 
-背景（判權重用）：Acewin＝IGS鈊象旗下、Jili 低配版、多款與 Jili 互通、B 端價格優勢；Omiplay＝尊博集團、Super Gem 對標 Fortune Gem 成功、獲 BingoPlus／CasinoPlus 認可；YellowBat＝PlayTime 深度策略夥伴。
+背景（判權重用）：Acewin＝IGS鈊象旗下、Jili 低配版、多款與 Jili 互通、B 端價格優勢；OMNIPLAY（舊稱 Omiplay）＝尊博集團、Super Gem 對標 Fortune Gem 成功、獲 BingoPlus／CasinoPlus 認可；YellowBat＝PlayTime 深度策略夥伴。
 
 ### 🔎 交叉查證、補全與衝突辨識
+
+**🔤 縮寫第一次出現要寫原文全名（2026-11-12 使用者定案）**：內文裡的英文縮寫（產品、法規、機構、玩法名稱），
+在該則第一次出現時寫成「中文說明（全名縮寫）」，例：「歷史賽車結果遊戲（Past Motor Racing，PMR）」；
+**全名一定要照原文**，原文沒寫全名就查官方說明，查不到就寫「（原文只寫 PMR，全名未說明）」，**嚴禁自己推測或套用相似名詞**。
+常見通用縮寫（RTP、GGR、AI、CEO、Q3）不用展開。起因：11/12 把原文的 Past Motor Racing（歷史賽車）誤寫成「歷史賽馬」。
 
 每則在輸出前，**不可「單一來源拿到就直接輸出」**，依序做三件事：
 
@@ -616,7 +656,7 @@ ATG（`https://atg-games.com/zh-tw`）同列特別追蹤，判準與下述三家
 
 | 層 | 誰做 | 範圍 | 成本 |
 |---|---|---|---|
-| **第一層** | `scripts/harvest.py`（run_daily.sh 開跑前自動執行） | 抓取方式＝**WP-API／RSS** 的來源全部每天掃（約 90 個，含菲律賓在地媒體、DigiPlus 官網；v6.5 起 EEGaming、SBC News、IAG 改 RSS），加上**程式解析**的 BigWinBoard 新作列表與 **SlotsLaunch 上線日曆**（每款有上線日） | 免費 |
+| **第一層** | `scripts/harvest.py`（run_daily.sh 開跑前自動執行） | 抓取方式＝**WP-API／RSS** 的來源全部每天掃（約 90 個，含菲律賓在地媒體、DigiPlus 官網；v6.5 起 EEGaming、SBC News、IAG 改 RSS），加上**程式解析**的 BigWinBoard 新作列表與 **SlotsLaunch 上線日曆**（每款有上線日）；v6.7.3 加**亞洲廠商官網新作**（`scripts/asia_providers.py`：PG Soft、JILI、Yellow Bat、5G、OMNIPLAY） | 免費（FA CHAI 走 Firecrawl 每天 1 點） |
 | **第二層** | 同上（`harvest.py` 內建） | 抓取方式＝Firecrawl、頻率＝**每日**：只剩 iGamingToday（擋程式抓取，程式解析成候選）；加上輪掃與三種觸發，數量依「💳 用量分級」 | 1–10 次 Firecrawl |
 | **第三層** | 你（Claude），WebSearch | 程式抓不到的四類題目（下表） | WebSearch 約 30–40 次 |
 
@@ -629,7 +669,7 @@ ATG（`https://atg-games.com/zh-tw`）同列特別追蹤，判準與下述三家
 | 3 | **實體機大廠新機台** | Aristocrat、Light & Wonder、IGT、Konami、Everi、AGS、Zitro、Novomatic ＋「new cabinet／slot machine／debut」 |
 | 4 | **Slot 新作補漏與設計趨勢** | 「new slot release ＋日期」；每週 1–2 次查新機制／爆紅玩法整理文章 |
 
-特別追蹤 4 家（Acewin、Omiplay、YellowBat、ATG）維持每天單獨搜尋一次。
+特別追蹤 4 家（Acewin、OMNIPLAY、YellowBat、ATG）維持每天單獨搜尋一次。
 **品牌名＋RTP／max win 的分組查詢實測效果很差（只會回長青排行頁），不要用。**
 
 輪掃池只剩 xlsx「頻率＝輪掃」的來源（約 70 個沒有 API 的新聞型站），每天 3 個、約 24 天一輪，由 harvest.py 一起抓。
@@ -752,7 +792,7 @@ curl -s -X POST https://api.firecrawl.dev/v1/scrape \
 |---|---|---|
 | **1** | **DigiPlus 旗下與主要現金網的策略、運營操作、上架新產品** | BingoPlus／ArenaPlus／GameZone 新遊戲或新功能、PT Gaming、OKBet、Casino Plus、BET88、PlayTime 的行銷活動、合作、改版 |
 | **2** | **新品牌在菲律賓的大型操作** | 國際品牌取得牌照或進入市場、大型贊助、代言人、實體賭場開幕 |
-| **3** | GP 在菲律賓平台的上架與合作 | Acewin、YellowBat、Omiplay 上架 PlayTime／GameZone 等 |
+| **3** | GP 在菲律賓平台的上架與合作 | Acewin、YellowBat、OMNIPLAY 上架 PlayTime／GameZone 等 |
 | **4（最後）** | 政策、監理 | PAGCOR 公告、稅制、禁令 —— 有重大變動才收，官方另計不佔名額 |
 
 **每天固定查（有沒有查是硬規則，收不收看份量）**：
@@ -777,6 +817,8 @@ curl -s -X POST https://api.firecrawl.dev/v1/scrape \
 
 參數：
 - 廠牌：<遊戲商**全名**，例：PG Soft、Pragmatic Play、Jili、Light & Wonder、Nolimit City、FA CHAI Gaming；不要寫 PP、L&W、NLC、FC 這類縮寫>
+- 核心機制：<v6.7：借鑑哪個主流原型、寫到第幾代或哪個版本，例 Super Ace II、Fortune Gems 500、Pinata Wins、Gates of Olympus Super Scatter；原型以 `docs/slot-prototypes.md` 為準；沒有借鑑主流原型寫「-」；代數查不到寫「Super Ace 系（代數未確認）」，不要猜>
+- 微創新：<v6.7：10～30 字，只寫核心玩法相對原型多了或改了什麼，聚焦 Base Game；跟「關鍵特色」不同——關鍵特色是功能清單，微創新只講那一個差異點；判定為換皮就不用完整卡片（改放精簡卡片）>
 - 遊戲類型：<四選一> 實體老虎機 / 線上電子老虎機 / 實體+電子老虎機 / 其他類型遊戲（括號註明）
 - 盤面：<例 3×5 直式 / 6×5>
 - 消除/賠付：<例 Cluster Pays、243 ways、Cascading 連消、Hold & Win>
@@ -792,6 +834,10 @@ curl -s -X POST https://api.firecrawl.dev/v1/scrape \
 ```
 
 「衍生調整」「參數的每個子項目」都必須各自換行，**不可用 ｜ 擠成一行**。
+
+**第三級精簡卡片（v6.7.2）**：放在 🎰 區所有完整卡片之後，用 `#### 換皮／資料不足（精簡卡片）` 當小標，每款用 `#####` 開頭，
+欄位見「📐 Markdown 固定格式」：核心機制、判定、參數（盤面｜最高倍率｜RTP 三項）、摘要（一句話 40 字內）、來源（含日期）、圖片。
+判定原因例：「只換主題，沿用 Wrappin' Gold 三罐收集」「創新只在 Free Game」「盤面與機制未公布」。來源、日期、配圖規則同完整卡片（配圖一樣要盡量找）。
 
 #### cat2 — 🕹️ 非 Slot 新內容（3–5 則，三段式）
 
@@ -948,6 +994,15 @@ PAGCOR 官方公告與規範；實體賭場（Okada Manila、Solaire、NUSTAR、
 ---
 
 ## 版本沿革
+
+- **v6.7**（2026-11-12，使用者定案）**🎰 區微創新分級**：依 Bingo Plus 供應商簡報（不接受換皮、要 Base Game 看得出差異）與 PlayTime 菲律賓 Top200 玩法拆解，Slot 參數表在「廠牌」後新增「**核心機制**」（借鑑的主流原型＋代數）、「**微創新**」（10～30 字 Base Game 差異）；新遊戲分**第一級 N+1 → 第二級原創機制 → 第三級換皮／資料不足**（第三級只寫一行、不佔 7 款名額、不補滿卡片），級別優先於總分、本日必看與 Telegram ⭐ 從第一級挑；主流原型清單與判定標準放 `docs/slot-prototypes.md`；定稿檢查改 11 項並檢查級別順序；Slot 資料庫加核心機制與級別篩選；特別版同步
+- **v6.7.1**（2026-11-12，使用者定案）**縮寫第一次出現要寫原文全名**：起因 11/12 把 Past Motor Racing（PMR，歷史賽車結果）誤寫成「歷史賽馬」
+- **v6.7.3**（2026-11-13，使用者定案）**補亞洲廠商新作來源（治本）**：v6.7 試跑第一級 0 款，原因是來源偏歐美，菲律賓 Top200 主力廠商多半不發英文新聞稿。
+  新增 `scripts/asia_providers.py` 每天抓官網新作：PG Soft（官方遊戲 API＋遊戲頁建檔日）、Yellow Bat（WP-API games）、5G Games（Game Launch 新聞頁）、
+  JILI（遊戲列表，新 ID 才抓詳情頁；官網只到月→用首見日，官網月份超過 3 個月視為舊作）、OMNIPLAY（尊博，舊稱 Omiplay；遊戲詳情 Release Date）免費；
+  FA CHAI 擋台灣、美國 IP，走 Firecrawl（每天 1 點）；JDB 官網擋地區、Firecrawl 也沒資料，先用 Google News「JDB Gaming」保底。
+  PG Soft、JILI 從 Firecrawl 輪掃改為每日；詳情頁日期快取在 `state/asia-providers.json`。B 分：**5G Games 列入 4 分**（菲律賓 Top200 份額 8.5%，高於 Pragmatic 4.8%）；OMNIPLAY 維持 6 分（原 Omiplay）。
+- **v6.7.2**（2026-11-13，使用者定案）**第三級改精簡卡片**：原本一行帶過太單薄（11/11、11/12 試跑只剩 3 張有圖的卡片），改為小圖＋核心機制＋判定＋盤面／最高倍率／RTP＋一句話摘要＋來源；仍不佔 7 款名額、不補滿完整卡片；舊的一行寫法程式照樣讀
 
 - **v6.6.10**（2026-10-12）**官方上線日檢查**：harvest 累積上線日曆 `state/release-calendar.json`，定稿檢查擋下「官方上線日在 7 天以後」的 Slot（熱門 IP 30 天）；起因：10/12 重跑版收了上線日 10/22 的《Wrappin' More Gold》
 - **v6.6.11**（2026-10-12）**Firecrawl 用量顯示**：定稿時程式算本日用量（harvest 開跑剩餘 − 定稿剩餘）、剩餘點數、下次重置日（API 查不到就用 `state/firecrawl-reset.json` 的 anchor 每月加一，標「推估」），寫進 `state/health/credits.json` 與 report.json；日報文末統計列下一行、Telegram 存檔首頁連結上一行自動帶出，**Claude 不用手寫**

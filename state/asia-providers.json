@@ -1,0 +1,1135 @@
+{
+ "jili": {
+  "baseline": "2026-11-13",
+  "seen": {
+   "1": {
+    "first": null,
+    "name": "Royal Fishing"
+   },
+   "100": {
+    "first": null,
+    "name": "Super Rich"
+   },
+   "101": {
+    "first": null,
+    "name": "MEDUSA"
+   },
+   "102": {
+    "first": null,
+    "name": "ROMA X"
+   },
+   "103": {
+    "first": null,
+    "name": "Golden Empire"
+   },
+   "106": {
+    "first": null,
+    "name": "TWIN WINS"
+   },
+   "108": {
+    "first": null,
+    "name": "Magic Lamp"
+   },
+   "109": {
+    "first": null,
+    "name": "Fortune Gems"
+   },
+   "110": {
+    "first": null,
+    "name": "Ali Baba"
+   },
+   "111": {
+    "first": null,
+    "name": "Number King"
+   },
+   "112": {
+    "first": null,
+    "name": "Journey West M"
+   },
+   "113": {
+    "first": null,
+    "name": "POKER KING"
+   },
+   "114": {
+    "first": null,
+    "name": "European Roulette"
+   },
+   "115": {
+    "first": null,
+    "name": "Agent Ace"
+   },
+   "116": {
+    "first": null,
+    "name": "Happy Taxi"
+   },
+   "118": {
+    "first": null,
+    "name": "Big Small"
+   },
+   "119": {
+    "first": null,
+    "name": "All-Star Fishing"
+   },
+   "122": {
+    "first": null,
+    "name": "iRich Bingo"
+   },
+   "123": {
+    "first": null,
+    "name": "Dragon & Tiger"
+   },
+   "124": {
+    "first": null,
+    "name": "7 up 7 down"
+   },
+   "125": {
+    "first": null,
+    "name": "Sic Bo"
+   },
+   "126": {
+    "first": null,
+    "name": "Bone Fortune"
+   },
+   "127": {
+    "first": null,
+    "name": "Callbreak"
+   },
+   "13": {
+    "first": null,
+    "name": "Lucky Ball"
+   },
+   "130": {
+    "first": null,
+    "name": "Thor X"
+   },
+   "132": {
+    "first": null,
+    "name": "Pool Rummy"
+   },
+   "134": {
+    "first": null,
+    "name": "Mega Ace"
+   },
+   "135": {
+    "first": null,
+    "name": "Mayan Empire"
+   },
+   "136": {
+    "first": null,
+    "name": "SAMBA"
+   },
+   "137": {
+    "first": null,
+    "name": "Gold Rush"
+   },
+   "139": {
+    "first": null,
+    "name": "Fortune Bingo"
+   },
+   "14": {
+    "first": null,
+    "name": "HYPER BURST"
+   },
+   "142": {
+    "first": null,
+    "name": "Bonus Hunter"
+   },
+   "143": {
+    "first": null,
+    "name": "Bonus Bingo"
+   },
+   "144": {
+    "first": null,
+    "name": "JILI CAISHEN"
+   },
+   "145": {
+    "first": null,
+    "name": "Neko Fortune"
+   },
+   "146": {
+    "first": null,
+    "name": "World Cup"
+   },
+   "147": {
+    "first": null,
+    "name": "Bingo Empire"
+   },
+   "148": {
+    "first": null,
+    "name": "Bingo Carnaval"
+   },
+   "149": {
+    "first": null,
+    "name": "CALACA BINGO"
+   },
+   "150": {
+    "first": null,
+    "name": "Lucky Bingo"
+   },
+   "151": {
+    "first": null,
+    "name": "Super Bingo"
+   },
+   "152": {
+    "first": null,
+    "name": "Baccarat"
+   },
+   "153": {
+    "first": null,
+    "name": "Crazy Pusher"
+   },
+   "159": {
+    "first": null,
+    "name": "TeenPatti Joker"
+   },
+   "16": {
+    "first": null,
+    "name": "Jungle King"
+   },
+   "160": {
+    "first": null,
+    "name": "Callbreak Quick"
+   },
+   "161": {
+    "first": null,
+    "name": "TeenPatti 20-20"
+   },
+   "163": {
+    "first": null,
+    "name": "Ludo Quick"
+   },
+   "164": {
+    "first": null,
+    "name": "Pirate Queen"
+   },
+   "166": {
+    "first": null,
+    "name": "WILD RACER"
+   },
+   "17": {
+    "first": null,
+    "name": "Shanghai Beauty"
+   },
+   "171": {
+    "first": null,
+    "name": "Sin City"
+   },
+   "172": {
+    "first": null,
+    "name": "Elf Bingo"
+   },
+   "173": {
+    "first": null,
+    "name": "West Hunter Bingo"
+   },
+   "174": {
+    "first": null,
+    "name": "Jackpot Bingo"
+   },
+   "176": {
+    "first": null,
+    "name": "Master Tiger"
+   },
+   "177": {
+    "first": null,
+    "name": "BINGO ADVENTURE"
+   },
+   "178": {
+    "first": null,
+    "name": "GO GOAL BINGO"
+   },
+   "179": {
+    "first": null,
+    "name": "win drop"
+   },
+   "180": {
+    "first": null,
+    "name": "Legacy of Egypt"
+   },
+   "181": {
+    "first": null,
+    "name": "WILD ACE"
+   },
+   "182": {
+    "first": null,
+    "name": "GOLDEN LAND"
+   },
+   "183": {
+    "first": null,
+    "name": "GOLDEN JOKER"
+   },
+   "191": {
+    "first": null,
+    "name": "Golden Temple"
+   },
+   "193": {
+    "first": null,
+    "name": "Devil Fire"
+   },
+   "195": {
+    "first": null,
+    "name": "Pearls of Bingo"
+   },
+   "197": {
+    "first": null,
+    "name": "Color Game"
+   },
+   "198": {
+    "first": null,
+    "name": "Sweet land"
+   },
+   "199": {
+    "first": null,
+    "name": "Tongits Go"
+   },
+   "2": {
+    "first": null,
+    "name": "Chin Shi Huang"
+   },
+   "20": {
+    "first": null,
+    "name": "Bombing Fish"
+   },
+   "200": {
+    "first": null,
+    "name": "PAPPU"
+   },
+   "204": {
+    "first": null,
+    "name": "Color Prediction"
+   },
+   "208": {
+    "first": null,
+    "name": "Trial of Phoenix"
+   },
+   "209": {
+    "first": null,
+    "name": "Aztec Priestess"
+   },
+   "21": {
+    "first": null,
+    "name": "FA FA FA"
+   },
+   "211": {
+    "first": null,
+    "name": "Pusoy Go"
+   },
+   "212": {
+    "first": null,
+    "name": "Dinosaur Tycoon II"
+   },
+   "214": {
+    "first": null,
+    "name": "King Arthur"
+   },
+   "216": {
+    "first": null,
+    "name": "Candyland Bingo"
+   },
+   "217": {
+    "first": null,
+    "name": "Magic Lamp Bingo"
+   },
+   "219": {
+    "first": null,
+    "name": "Blackjack"
+   },
+   "220": {
+    "first": null,
+    "name": "Blackjack Lucky Ladies"
+   },
+   "221": {
+    "first": null,
+    "name": "MINI FLUSH"
+   },
+   "223": {
+    "first": null,
+    "name": "Fortune Gems 2"
+   },
+   "224": {
+    "first": null,
+    "name": "Go Rush"
+   },
+   "225": {
+    "first": null,
+    "name": "Cricket King 18"
+   },
+   "226": {
+    "first": null,
+    "name": "Witches Night"
+   },
+   "228": {
+    "first": null,
+    "name": "Arena Fighter"
+   },
+   "229": {
+    "first": null,
+    "name": "Mines"
+   },
+   "23": {
+    "first": null,
+    "name": "Candy Baby"
+   },
+   "230": {
+    "first": null,
+    "name": "Cricket Sah 75"
+   },
+   "231": {
+    "first": null,
+    "name": "Caribbean Stud Poker"
+   },
+   "232": {
+    "first": null,
+    "name": "Tower"
+   },
+   "233": {
+    "first": null,
+    "name": "HILO"
+   },
+   "235": {
+    "first": null,
+    "name": "Limbo"
+   },
+   "236": {
+    "first": null,
+    "name": "Wheel"
+   },
+   "238": {
+    "first": null,
+    "name": "Bangla Beauty"
+   },
+   "239": {
+    "first": null,
+    "name": "Dabanggg"
+   },
+   "240": {
+    "first": null,
+    "name": "Party Star"
+   },
+   "241": {
+    "first": null,
+    "name": "Keno"
+   },
+   "242": {
+    "first": null,
+    "name": "Plinko"
+   },
+   "252": {
+    "first": null,
+    "name": "Zeus"
+   },
+   "253": {
+    "first": null,
+    "name": "Video Poker"
+   },
+   "254": {
+    "first": null,
+    "name": "Mines Gold"
+   },
+   "258": {
+    "first": null,
+    "name": "Devil Fire 2"
+   },
+   "26": {
+    "first": null,
+    "name": "Hawaii Beauty"
+   },
+   "261": {
+    "first": null,
+    "name": "Crash Bonus"
+   },
+   "262": {
+    "first": null,
+    "name": "Speed Baccarat"
+   },
+   "263": {
+    "first": null,
+    "name": "The Pig House"
+   },
+   "264": {
+    "first": null,
+    "name": "Egypt's Glow"
+   },
+   "27": {
+    "first": null,
+    "name": "Speed 777"
+   },
+   "272": {
+    "first": null,
+    "name": "Keno Bonus Number"
+   },
+   "273": {
+    "first": null,
+    "name": "Keno Super Chance"
+   },
+   "274": {
+    "first": null,
+    "name": "Keno Extra Bet"
+   },
+   "289": {
+    "first": null,
+    "name": "Ocean King Jackpot"
+   },
+   "297": {
+    "first": null,
+    "name": "Jogo Do Bicho"
+   },
+   "299": {
+    "first": null,
+    "name": "Witches Night"
+   },
+   "30": {
+    "first": null,
+    "name": "Bubble Beauty"
+   },
+   "300": {
+    "first": null,
+    "name": "Fortune Gems 3"
+   },
+   "301": {
+    "first": null,
+    "name": "Jackpot Joker"
+   },
+   "302": {
+    "first": null,
+    "name": "Money Coming Expand Bets"
+   },
+   "303": {
+    "first": null,
+    "name": "Fortune Monkey"
+   },
+   "305": {
+    "first": null,
+    "name": "Super E-Sabong"
+   },
+   "307": {
+    "first": null,
+    "name": "Treasure Quest"
+   },
+   "32": {
+    "first": null,
+    "name": "Jackpot Fishing"
+   },
+   "324": {
+    "first": null,
+    "name": "Nightfall Hunting"
+   },
+   "327": {
+    "first": null,
+    "name": "Domino Go"
+   },
+   "33": {
+    "first": null,
+    "name": "Fortune Pig"
+   },
+   "35": {
+    "first": null,
+    "name": "Crazy 777"
+   },
+   "36": {
+    "first": null,
+    "name": "Bao boon chin"
+   },
+   "37": {
+    "first": null,
+    "name": "Night City"
+   },
+   "372": {
+    "first": null,
+    "name": "3 Pot Dragons"
+   },
+   "374": {
+    "first": null,
+    "name": "Lucky Doggy"
+   },
+   "375": {
+    "first": null,
+    "name": "Poseidon"
+   },
+   "376": {
+    "first": null,
+    "name": "Shōgun"
+   },
+   "377": {
+    "first": null,
+    "name": "Safari Mystery"
+   },
+   "378": {
+    "first": null,
+    "name": "Golden Bank 2"
+   },
+   "379": {
+    "first": null,
+    "name": "Money Pot"
+   },
+   "38": {
+    "first": null,
+    "name": "Fengshen"
+   },
+   "389": {
+    "first": null,
+    "name": "Fish Prawn Crab"
+   },
+   "392": {
+    "first": null,
+    "name": "Coin Tree"
+   },
+   "394": {
+    "first": null,
+    "name": "Sweet Magic"
+   },
+   "397": {
+    "first": null,
+    "name": "Jhandi Munda"
+   },
+   "399": {
+    "first": null,
+    "name": "3 Coin Treasures"
+   },
+   "4": {
+    "first": null,
+    "name": "God Of Martial"
+   },
+   "40": {
+    "first": null,
+    "name": "Crazy FaFaFa"
+   },
+   "400": {
+    "first": null,
+    "name": "3 Lucky Piggy"
+   },
+   "403": {
+    "first": null,
+    "name": "Super Ace Deluxe"
+   },
+   "404": {
+    "first": null,
+    "name": "Ultimate Texas Hold'em"
+   },
+   "407": {
+    "first": null,
+    "name": "Crash Goal"
+   },
+   "408": {
+    "first": null,
+    "name": "Safari King"
+   },
+   "409": {
+    "first": null,
+    "name": "Super Ace Joker"
+   },
+   "419": {
+    "first": null,
+    "name": "Penalty Kicks"
+   },
+   "42": {
+    "first": null,
+    "name": "Dinosaur Tycoon"
+   },
+   "420": {
+    "first": null,
+    "name": "Crazy Hunter 2"
+   },
+   "421": {
+    "first": null,
+    "name": "Lucky Jaguar"
+   },
+   "422": {
+    "first": null,
+    "name": "Fruity Wheel"
+   },
+   "424": {
+    "first": null,
+    "name": "Golden Empire 2"
+   },
+   "427": {
+    "first": null,
+    "name": "Thai Hilo"
+   },
+   "43": {
+    "first": null,
+    "name": "XIYANGYANG"
+   },
+   "436": {
+    "first": null,
+    "name": "Fortune Roulette"
+   },
+   "439": {
+    "first": null,
+    "name": "Super Ace Scratch"
+   },
+   "44": {
+    "first": null,
+    "name": "DIAMOND PARTY"
+   },
+   "440": {
+    "first": null,
+    "name": "Boxing Extravaganza"
+   },
+   "441": {
+    "first": null,
+    "name": "Fortune Gems Scratch"
+   },
+   "442": {
+    "first": null,
+    "name": "Go For Champion"
+   },
+   "447": {
+    "first": null,
+    "name": "Crystal 777 DELUXE"
+   },
+   "448": {
+    "first": null,
+    "name": "Rapid Gems 777"
+   },
+   "45": {
+    "first": null,
+    "name": "Golden Bank"
+   },
+   "459": {
+    "first": null,
+    "name": "Crash Touchdown"
+   },
+   "46": {
+    "first": null,
+    "name": "Dragon Treasure"
+   },
+   "461": {
+    "first": null,
+    "name": "Pirate Queen 2"
+   },
+   "462": {
+    "first": null,
+    "name": "Cricket Roulette"
+   },
+   "463": {
+    "first": null,
+    "name": "3 LUCKY LION"
+   },
+   "464": {
+    "first": null,
+    "name": "Fortune King Jackpot"
+   },
+   "469": {
+    "first": null,
+    "name": "Crash Cricket"
+   },
+   "472": {
+    "first": null,
+    "name": "3 Coin Treasures 2"
+   },
+   "473": {
+    "first": null,
+    "name": "Cricket War"
+   },
+   "474": {
+    "first": null,
+    "name": "Amar Akbar Anthony"
+   },
+   "479": {
+    "first": null,
+    "name": "Color Game"
+   },
+   "48": {
+    "first": null,
+    "name": "Lucky Goldbricks"
+   },
+   "485": {
+    "first": null,
+    "name": "3 Coin Wild Horse"
+   },
+   "49": {
+    "first": null,
+    "name": "Super Ace"
+   },
+   "495": {
+    "first": null,
+    "name": "Boxing King Title Match"
+   },
+   "5": {
+    "first": null,
+    "name": "Hot Chilli"
+   },
+   "504": {
+    "first": null,
+    "name": "Crazy777 2"
+   },
+   "505": {
+    "first": null,
+    "name": "3 Witch's Lamp"
+   },
+   "51": {
+    "first": null,
+    "name": "Money Coming"
+   },
+   "512": {
+    "first": null,
+    "name": "Crash Puck"
+   },
+   "515": {
+    "first": null,
+    "name": "Thor Dice"
+   },
+   "517": {
+    "first": null,
+    "name": "Roma X Deluxe"
+   },
+   "518": {
+    "first": null,
+    "name": "Circus Joker 4096"
+   },
+   "523": {
+    "first": null,
+    "name": "Fortune Coins"
+   },
+   "524": {
+    "first": null,
+    "name": "Big Small Casino Royale"
+   },
+   "526": {
+    "first": null,
+    "name": "10 Sparkling Crown"
+   },
+   "529": {
+    "first": null,
+    "name": "Joker Coins"
+   },
+   "531": {
+    "first": null,
+    "name": "FORTUNE ZOMBIE"
+   },
+   "536": {
+    "first": null,
+    "name": "Lucky Jaguar 2"
+   },
+   "539": {
+    "first": null,
+    "name": "Super Ace SPEED"
+   },
+   "540": {
+    "first": null,
+    "name": "Fortune Gems 500"
+   },
+   "541": {
+    "first": null,
+    "name": "Money Pot DELUXE"
+   },
+   "542": {
+    "first": null,
+    "name": "Super Ace 2"
+   },
+   "543": {
+    "first": null,
+    "name": "Money Coming 2"
+   },
+   "545": {
+    "first": null,
+    "name": "Clover Coins 3x3"
+   },
+   "546": {
+    "first": null,
+    "name": "Mines Grand"
+   },
+   "547": {
+    "first": null,
+    "name": "3 Coin Golden OX"
+   },
+   "551": {
+    "first": null,
+    "name": "Plinko of Mine"
+   },
+   "554": {
+    "first": null,
+    "name": "Golden Treasure"
+   },
+   "563": {
+    "first": null,
+    "name": "3 Lucky Baozhu"
+   },
+   "571": {
+    "first": null,
+    "name": "Royal Quest"
+   },
+   "573": {
+    "first": null,
+    "name": "Fortune Coins 2"
+   },
+   "58": {
+    "first": null,
+    "name": "Golden Queen"
+   },
+   "581": {
+    "first": null,
+    "name": "20 Blazing Clover"
+   },
+   "583": {
+    "first": null,
+    "name": "Cash Coin"
+   },
+   "586": {
+    "first": null,
+    "name": "Party Ape"
+   },
+   "588": {
+    "first": null,
+    "name": "3 Super Ace"
+   },
+   "589": {
+    "first": null,
+    "name": "40 Sparkling Crown"
+   },
+   "590": {
+    "first": null,
+    "name": "Clover Coins 4x4"
+   },
+   "591": {
+    "first": null,
+    "name": "100 Blazing Clover"
+   },
+   "593": {
+    "first": null,
+    "name": "Devil Fire Twins"
+   },
+   "594": {
+    "first": null,
+    "name": "Fortune Hook Boom"
+   },
+   "595": {
+    "first": null,
+    "name": "Dice & Drop"
+   },
+   "597": {
+    "first": null,
+    "name": "Supernova"
+   },
+   "598": {
+    "first": null,
+    "name": "Lucky Macaw"
+   },
+   "6": {
+    "first": null,
+    "name": "Fortune tree"
+   },
+   "60": {
+    "first": null,
+    "name": "Dragon Fortune"
+   },
+   "604": {
+    "first": null,
+    "name": "Drop Ball"
+   },
+   "605": {
+    "first": null,
+    "name": "Jackpot Joker FEVER"
+   },
+   "613": {
+    "first": null,
+    "name": "Mines Cricket"
+   },
+   "621": {
+    "first": null,
+    "name": "Crown of Fortune"
+   },
+   "622": {
+    "first": null,
+    "name": "3 Coin Wild Tiger"
+   },
+   "623": {
+    "first": null,
+    "name": "Coin of Lightning"
+   },
+   "624": {
+    "first": null,
+    "name": "Lucky Roulette"
+   },
+   "626": {
+    "first": null,
+    "name": "Golden Treasure Lightning"
+   },
+   "633": {
+    "first": null,
+    "name": "Gallina Fortunata"
+   },
+   "635": {
+    "first": null,
+    "name": "Joker's Fortune"
+   },
+   "636": {
+    "first": null,
+    "name": "Joker Coins Expanded"
+   },
+   "637": {
+    "first": null,
+    "name": "ROMA X 10000"
+   },
+   "645": {
+    "first": null,
+    "name": "Cash Stack"
+   },
+   "652": {
+    "first": null,
+    "name": "Speed Andar Bahar"
+   },
+   "653": {
+    "first": null,
+    "name": "Crash Fruit"
+   },
+   "662": {
+    "first": null,
+    "name": "Crash Trader"
+   },
+   "664": {
+    "first": null,
+    "name": "Lucky Jaguar 500"
+   },
+   "665": {
+    "first": null,
+    "name": "Mines football"
+   },
+   "667": {
+    "first": null,
+    "name": "Circus Jackpot"
+   },
+   "690": {
+    "first": null,
+    "name": "Chicken Dash"
+   },
+   "695": {
+    "first": null,
+    "name": "Cash balloon"
+   },
+   "696": {
+    "first": null,
+    "name": "Fortune Garuda 500"
+   },
+   "698": {
+    "first": null,
+    "name": "Frog Dash"
+   },
+   "705": {
+    "first": null,
+    "name": "Storm of Seth 2"
+   },
+   "709": {
+    "first": null,
+    "name": "Lucky Caramelo"
+   },
+   "71": {
+    "first": null,
+    "name": "Boom Legend"
+   },
+   "719": {
+    "first": null,
+    "name": "Grand Golden Treasure"
+   },
+   "72": {
+    "first": null,
+    "name": "Teen Patti"
+   },
+   "731": {
+    "first": null,
+    "name": "Plinko Football"
+   },
+   "736": {
+    "first": null,
+    "name": "Jackpot Fishing 2"
+   },
+   "737": {
+    "first": null,
+    "name": "Jackpot Football"
+   },
+   "74": {
+    "first": null,
+    "name": "Mega Fishing"
+   },
+   "748": {
+    "first": null,
+    "name": "Chicken Dash 10000"
+   },
+   "75": {
+    "first": null,
+    "name": "AK47"
+   },
+   "76": {
+    "first": null,
+    "name": "Party Night"
+   },
+   "77": {
+    "first": null,
+    "name": "Boxing King"
+   },
+   "78": {
+    "first": null,
+    "name": "SECRET TREASURE"
+   },
+   "786": {
+    "first": null,
+    "name": "Football Golden Cup"
+   },
+   "79": {
+    "first": null,
+    "name": "ANDAR BAHAR"
+   },
+   "794": {
+    "first": null,
+    "name": "Chicken Dash Jackpot"
+   },
+   "812": {
+    "first": null,
+    "name": "Fortune Gems Legend"
+   },
+   "813": {
+    "first": null,
+    "name": "Crash Cricket Legend"
+   },
+   "82": {
+    "first": null,
+    "name": "Happy Fishing"
+   },
+   "85": {
+    "first": null,
+    "name": "Pharaoh Treasure"
+   },
+   "87": {
+    "first": null,
+    "name": "Book of Gold"
+   },
+   "9": {
+    "first": null,
+    "name": "War Of Dragons"
+   },
+   "91": {
+    "first": null,
+    "name": "Lucky Coming"
+   },
+   "92": {
+    "first": null,
+    "name": "Crazy Hunter"
+   },
+   "94": {
+    "first": null,
+    "name": "Rummy"
+   }
+  }
+ },
+ "omniplay": {
+  "45": "2026-08-13",
+  "46": "2026-08-13",
+  "47": "2026-08-31",
+  "86": "2026-09-15",
+  "87": "2026-09-15",
+  "88": "2026-09-30",
+  "89": "2026-10-15",
+  "90": "2026-10-15",
+  "pinatabeat1000": "2026-07-31"
+ },
+ "pgsoft": {
+  "200": "2026-08-18",
+  "201": "2026-09-01",
+  "202": "2026-09-14",
+  "203": "2026-09-28",
+  "204": "2026-10-12",
+  "205": "2026-10-26",
+  "206": "2026-11-10"
+ }
+}

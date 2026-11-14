@@ -24,7 +24,8 @@ CATS = {
 }
 EMOJI_CAT = [("🕹", "cat2"), ("🇵🇭", "cat4"), ("🤝", "cat3"), ("📊", "cat5"), ("🎰", "cat1")]
 LABELS = ("📦", "🆕", "🔁", "📋")
-SLOT_SPEC_KEYS = ["廠牌", "遊戲類型", "盤面", "消除/賠付", "最高倍率", "RTP", "波動", "目標市場", "關鍵特色"]
+# v6.7「核心機制」「微創新」放在「廠牌」之後（主流原型清單與判定標準見 docs/slot-prototypes.md）
+SLOT_SPEC_KEYS = ["廠牌", "核心機制", "微創新", "遊戲類型", "盤面", "消除/賠付", "最高倍率", "RTP", "波動", "目標市場", "關鍵特色"]
 # v6.6.7「廠牌」欄要寫全名：常見縮寫／簡稱 → 對外正式名稱（比對時不分大小寫、忽略空白與標點）
 BRAND_FULL = {
     "pp": "Pragmatic Play", "pragmatic": "Pragmatic Play", "pg": "PG Soft", "pgsoft": "PG Soft", "pocketgames": "PG Soft",
@@ -43,8 +44,26 @@ def brand_full(name):
 
 
 NONSLOT_SPEC_MIN = ["遊戲類型", "目標市場", "關鍵特色"]
+# v6.7 🎰 區三級：1＝N+1（有主流原型＋Base Game 創新）、2＝原創機制、3＝換皮／資料不足（一行帶過）
+TIER_NAMES = {1: "N+1", 2: "原創機制", 3: "換皮／資料不足"}
+NO_PROTO = ("-", "－", "—", "–", "無")
+
+
+def spec_get(it, key):
+    return next((v for k, v in it.get("spec") or [] if k == key), None)
+
+
+def slot_tier(it):
+    """依參數表的「核心機制」「微創新」推出級別；舊日報沒有這兩欄回傳 None。"""
+    mech, innov = spec_get(it, "核心機制"), spec_get(it, "微創新")
+    if mech is None and innov is None:
+        return None
+    mech, innov = (mech or "").strip(), (innov or "").strip()
+    if not mech or not innov or innov.startswith("無") or mech in ("未確認", "未公布"):
+        return 3
+    return 2 if mech in NO_PROTO else 1
 WEEKDAY = "一二三四五六日"
-VERSION = "v6.5（三層收集＋庫存＋定稿檢查）"
+VERSION = "v6.7.3（三層收集＋庫存＋定稿檢查＋微創新分級＋亞洲官網新作）"
 
 RX_DATE = re.compile(r"(\d{4}-\d{2}-\d{2})")
 RX_LINK = re.compile(r"\[([^\]]+)\]\((https?://[^)\s]+)\)")
@@ -77,6 +96,65 @@ def _split_label(title):
     if m and m.group(2):
         return m.group(1).strip(), m.group(2).strip()
     return "", t
+
+
+RX_BRIEF_HEAD = re.compile(r"^#{4}(?!#)\s*")
+RX_BRIEF_ITEM = re.compile(r"^#{5}\s*(.+)$")
+
+
+def _brief(s):
+    """v6.7 舊的第三級一行：- 遊戲名 – 廠牌｜核心機制｜判定原因｜[來源](網址) · 日期：YYYY-MM-DD"""
+    parts = [p.strip() for p in re.split(r"\s*[｜|]\s*", s.lstrip("-・• ").strip())]
+    rest = " ｜ ".join(parts[3:])
+    tail = RX_LINK.sub("", rest)
+    dm = RX_DATE.findall(tail)
+    strip = lambda x: re.sub(r"^(核心機制|判定原因|判定|原因)\s*[:：]\s*", "", x or "").strip()
+    b = _brief_new(parts[0] if parts else "")
+    b.update({"mech": strip(parts[1] if len(parts) > 1 else ""), "reason": strip(parts[2] if len(parts) > 2 else ""),
+              "sources": [[n.strip(), u.strip()] for n, u in RX_LINK.findall(rest)], "date": dm[-1] if dm else ""})
+    return b
+
+
+def _brief_new(head):
+    """第三級精簡卡片（v6.7.2）：跟完整卡片同一套欄位，另加 mech／reason／params／summary。"""
+    label, title = _split_label(head)
+    return {"no": 0, "label": label, "title": title, "body": [], "derive": "", "spec": [], "keyrow": [],
+            "keyrow_raw": "", "verify": "", "sources": [], "date": "", "image": "", "image_raw": "",
+            "mech": "", "reason": "", "params": [], "summary": "", "brief": True}
+
+
+RX_BRIEF_FIELD = re.compile(r"^(核心機制|判定原因|判定|參數|摘要|一句話|來源|圖片)\s*[:：]\s*(.*)$")
+
+
+def _brief_field(b, k, v):
+    if k == "核心機制":
+        b["mech"] = v
+    elif k in ("判定", "判定原因"):
+        b["reason"] = v
+    elif k == "參數":
+        for part in re.split(r"\s*[｜|]\s*", v):
+            kv = re.match(r"^(盤面|最高倍率|RTP|波動|消除/賠付)\s*[:：]?\s*(.+)$", part.strip())
+            if kv:
+                b["params"].append([kv.group(1), kv.group(2).strip()])
+    elif k in ("摘要", "一句話"):
+        b["summary"] = v
+    elif k == "來源":
+        b["sources"] = [[n.strip(), u.strip()] for n, u in RX_LINK.findall(v)]
+        dm = RX_DATE.findall(RX_LINK.sub("", v))
+        b["date"] = dm[-1] if dm else ""
+    elif k == "圖片":
+        b["image_raw"] = v
+        um = re.search(r"https?://\S+", v)
+        b["image"] = um.group(0).rstrip(")") if um else ""
+
+
+def all_items(sec):
+    """完整卡片＋第三級一行（v6.7）。一行的項目也要查連結、去重、上線日；編號從 101 起，只用在檢查訊息。"""
+    out = list(sec["items"])
+    for i, b in enumerate(sec.get("brief") or [], 101):
+        b["no"] = i
+        out.append(b)            # 同一個物件：配圖檢查拿掉／補上的結果會留在精簡卡片上
+    return out
 
 
 def parse_md(text):
@@ -114,7 +192,7 @@ def parse_md(text):
                 sec = "internal"
                 internal.append(line)
                 continue
-            sec = {"cat": c, "heading": s[3:].strip(), "items": []} if c else None
+            sec = {"cat": c, "heading": s[3:].strip(), "items": [], "brief": []} if c else None
             if sec:
                 rep["sections"].append(sec)
             item, field, pending_no = None, None, None
@@ -130,6 +208,20 @@ def parse_md(text):
         if not sec or s == "---":
             if s == "---":
                 field = None
+            continue
+        if sec.get("cat") == "cat1" and RX_BRIEF_HEAD.match(s):   # v6.7 第三級「換皮／資料不足」一行區
+            sec["brief_heading"] = RX_BRIEF_HEAD.sub("", s).strip()
+            item, field, pending_no = None, "brief", None
+            continue
+        if field == "brief":
+            mi = RX_BRIEF_ITEM.match(s)
+            if mi:                                            # v6.7.2 精簡卡片：##### 遊戲名 – 廠牌
+                sec["brief"].append(_brief_new(mi.group(1)))
+            elif s.startswith(("-", "・", "•")) and len(s) > 2:   # v6.7 舊的一行寫法照樣讀
+                sec["brief"].append(_brief(s))
+            elif sec["brief"] and RX_BRIEF_FIELD.match(s):
+                mf2 = RX_BRIEF_FIELD.match(s)
+                _brief_field(sec["brief"][-1], mf2.group(1), mf2.group(2).strip())
             continue
         mh = RX_NO_HEAD.match(s)
         if mh:
@@ -195,7 +287,11 @@ def parse_md(text):
         item["body"].append(s)
     rep["internal"] = "\n".join(internal).strip()
     for sec in rep["sections"]:
-        sec["count"] = len(sec["items"])
+        sec.setdefault("brief", [])
+        sec["count"] = len(sec["items"]) + len(sec["brief"])
+        if sec["cat"] == "cat1":
+            for it in sec["items"]:
+                it["tier"] = slot_tier(it)
     return rep
 
 
@@ -252,6 +348,21 @@ CSS = """  :root{
   .keyrow{display:flex;flex-wrap:wrap;gap:14px;background:#F4F8FC;border:1px solid #DCE8F4;border-radius:8px;padding:9px 12px;margin-bottom:10px;font-size:12.5px}
   .keyrow b{color:#185FA5;margin-right:5px}
   .c4 .keyrow b{color:#8A5206}
+  .tier{display:inline-block;font-size:11px;font-weight:800;border-radius:6px;padding:2px 8px;margin:0 0 8px 6px;vertical-align:top}
+  .tier.t1{background:#B31217;color:#fff} .tier.t2{background:#FBE3E4;color:#8A1015}
+  .spec .row.hl{background:#FFF7E0;margin:0 -12px;padding:3px 12px}
+  .brief-h{font-size:14px;font-weight:800;color:var(--sub);margin:22px 0 10px;padding-top:12px;border-top:1px dashed var(--line)}
+  .mini{display:grid;grid-template-columns:132px 1fr;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px}
+  .mini .thumb{width:132px;aspect-ratio:16/10;object-fit:cover;border-radius:8px;background:#eee;display:block}
+  .mini .noimg{width:132px;aspect-ratio:16/10;border-radius:8px;background:repeating-linear-gradient(45deg,#EEF1F4,#EEF1F4 6px,#F5F7FA 6px,#F5F7FA 12px)}
+  .mini h4{font-size:15px;margin:0 0 4px;line-height:1.45}
+  .mini .tier{margin:0 0 0 4px;vertical-align:1px}
+  .tier.t3{background:#EEF1F4;color:var(--sub)}
+  .mini .mm{font-size:12.5px;background:#FFF7E0;border-radius:6px;padding:3px 8px;margin-bottom:5px}
+  .mini .mm b{color:#0F6E56;margin-right:4px}
+  .mini .mp{font-size:12px;color:var(--sub);margin-bottom:5px}
+  .mini p{font-size:13.5px;margin:0 0 6px}
+  @media(max-width:520px){.mini{grid-template-columns:92px 1fr;gap:10px;padding:10px}.mini .thumb,.mini .noimg{width:92px}}
   .verify{font-size:12.5px;color:#334155;background:#F3F4F6;border:1px solid #E5E7EB;border-radius:8px;padding:8px 12px;margin-bottom:10px;line-height:1.6}
   .verify::before{content:"🔎 "}
   .tags{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:11px}
@@ -280,7 +391,9 @@ def _card(cat, it):
     e = lambda x: html.escape(x, quote=False)
     lab = it["label"]
     title = (lab + ("" if lab.endswith(("）", ")")) else " ") if lab else "") + it["title"]
-    L = [f'  <div class="card {cat.replace("cat", "c")}">', f'    <div class="no">{it["no"]:02d}</div>',
+    tier = it.get("tier") if cat == "cat1" else None
+    tag = f'<span class="tier t{tier}">{TIER_NAMES[tier]}</span>' if tier in (1, 2) else ""
+    L = [f'  <div class="card {cat.replace("cat", "c")}">', f'    <div class="no">{it["no"]:02d}</div>{tag}',
          f"    <h3>{inline(title)}</h3>"]
     for para in it["body"]:
         L.append(f"    <p>{inline(para)}</p>")
@@ -290,7 +403,8 @@ def _card(cat, it):
         if it["spec"]:
             L.append('    <div class="spec">')
             for k, v in it["spec"]:
-                L.append(f'      <div class="row"><span class="k">{e(k)}</span><span>{inline(v)}</span></div>')
+                hl = ' hl' if k in ("核心機制", "微創新") else ""
+                L.append(f'      <div class="row{hl}"><span class="k">{e(k)}</span><span>{inline(v)}</span></div>')
             L.append("    </div>")
     elif it["keyrow"]:
         parts = [(f"<b>{e(k)}</b>" if k else "") + inline(v) for k, v in it["keyrow"]]
@@ -312,6 +426,34 @@ def _card(cat, it):
     return "\n".join(L)
 
 
+def _brief_html(sec):
+    """v6.7.2 第三級精簡卡片：小圖＋核心機制＋判定原因＋三個參數＋一句話＋來源。"""
+    e = lambda x: html.escape(x, quote=False)
+    cards = []
+    for b in sec.get("brief") or []:
+        title = ((b["label"] + " ") if b["label"] else "") + b["title"]
+        img = (f'<img class="thumb" src="{html.escape(b["image"])}" alt="" loading="lazy" '
+               f"onerror=\"this.outerHTML='<div class=noimg></div>'\">"
+               if b["image"] and not b.get("image_dropped") else '<div class="noimg"></div>')
+        params = "・".join(f"{e(k)} {e(v)}" for k, v in b.get("params") or [] if v and v not in ("未公布", "-"))
+        src = " ".join(f'<a class="src" href="{html.escape(u)}" target="_blank" rel="noopener">{e(n)} ↗</a>'
+                       for n, u in b["sources"])
+        L = [f'  <div class="mini">', f"    {img}", "    <div>",
+             f'      <h4>{inline(title)}<span class="tier t3">{TIER_NAMES[3]}</span></h4>',
+             f'      <div class="mm"><b>核心機制</b>{e(b["mech"] or "-")}　<b>判定</b>{inline(b["reason"])}</div>']
+        if params:
+            L.append(f'      <div class="mp">{params}</div>')
+        if b.get("summary"):
+            L.append(f'      <p>{inline(b["summary"])}</p>')
+        L.append(f'      <div class="tags">來源：{src}' + (f" · {b['date']}" if b["date"] else "") + "</div>")
+        L += ["    </div>", "  </div>"]
+        cards.append("\n".join(L))
+    if not cards:
+        return ""
+    head = e(sec.get("brief_heading") or "換皮／資料不足（精簡卡片）")
+    return f'  <div class="brief-h">{head}・不佔 Slot 名額</div>\n' + "\n".join(cards) + "\n"
+
+
 def firecrawl_line(fc):
     """v6.6.11：文末第二行 Firecrawl 用量。沒有資料就不顯示。"""
     if not fc:
@@ -329,10 +471,10 @@ def firecrawl_line(fc):
 def render_html(rep):
     d = rep["date"]
     wd = WEEKDAY[date.fromisoformat(d).weekday()]
-    secs = [s for s in rep["sections"] if s["items"]]
+    secs = [s for s in rep["sections"] if s["items"] or s.get("brief")]
     order = {c: i for i, c in enumerate(CATS)}
     secs.sort(key=lambda s: order[s["cat"]])
-    counts = {s["cat"]: len(s["items"]) for s in secs}
+    counts = {s["cat"]: len(s["items"]) + len(s.get("brief") or []) for s in secs}
     badges = "\n".join(f'    <span class="badge b{c[-1]}">{CATS[c]["badge"]} {n}</span>' for c, n in counts.items())
     stats = "\n".join(f'  <div class="stat s{c[-1]}"><div class="n">{n}</div><div class="l">{CATS[c]["stat"]}</div></div>'
                       for c, n in counts.items())
@@ -340,8 +482,11 @@ def render_html(rep):
     for s in secs:
         c = s["cat"]
         body.append(f'<section>\n  <div class="sec-title"><span class="emoji">{CATS[c]["emoji"]}</span>'
-                    f'<h2>{CATS[c]["h2"]}</h2><span class="cnt">共 {len(s["items"])} 則</span></div>\n')
+                    f'<h2>{CATS[c]["h2"]}</h2><span class="cnt">共 {counts[c]} 則'
+                    + (f'（完整 {len(s["items"])}＋精簡 {len(s["brief"])}）' if s.get("brief") else "") + '</span></div>\n')
         body.append("\n\n".join(_card(c, it) for it in s["items"]))
+        if s.get("brief"):
+            body.append("\n\n" + _brief_html(s))
         body.append("\n</section>\n")
     st = rep.get("stats") or {"n1": 0, "n2": 0}
     sm = rep.get("summary") or {}

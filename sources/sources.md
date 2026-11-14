@@ -1,4 +1,4 @@
-# iGaming Daily Report — 資訊來源清單（共 240 個來源）
+# iGaming Daily Report — 資訊來源清單（共 244 個來源）
 
 > 核心關注：Game Provider 產品動向、玩法設計、營運調整；盤口平台動態；市場數據與趨勢。
 > ⚠️ 本檔由 `sources/igaming-daily-report-sources-v2.xlsx` 自動產生。
@@ -11,13 +11,13 @@
 
 ---
 
-## Provider 官網（27）
+## Provider 官網（30）
 
 | 名稱 | URL | 抓取方式 | 頻率 | 抓取端點 | 觸發關鍵字 | 展期 | 備註 |
 |------|-----|------|------|------|------|------|------|
 | Pragmatic Play | https://pragmaticplay.com/en/news/ | WP-API | 每日 | https://pragmaticplay.com/wp-json/wp/v2/posts |  |  | Provider 官網 |
-| PG Soft | https://pgsoft.com/en/news/ | Firecrawl | 輪掃 |  |  |  | Provider 官網 |
-| Jili | https://jiligames.com/ | Firecrawl | 輪掃 |  |  |  | Provider 官網 |
+| PG Soft | https://www.pgsoft.com/en/games/ | 官網新作 | 每日 | pgsoft |  |  | Provider 官網｜v6.7.3 改由 scripts/asia_providers.py 每天抓官方遊戲 API＋遊戲頁上線日（免費） |
+| JILI | https://jiligames.com/games | 官網新作 | 每日 | jili |  |  | Provider 官網｜v6.7.3 每天抓官網遊戲列表，新 ID 才抓詳情頁；官網日期只到月，用首見日（免費） |
 | Play'n GO | https://www.playngo.com/ | Sitemap | 每日 | https://www.playngo.com/sitemap.xml |  |  | Provider 官網；v6.5.2 官網改 Wix、RSS 消失 → 改抓 sitemap（/games/ 的日期＝上線日，/post/ 為新聞） |
 | NetEnt | https://www.netent.com/ | Firecrawl | 輪掃 |  |  |  | Provider 官網 |
 | Red Tiger Gaming | https://redtiger.com/ | Firecrawl | 輪掃 |  |  |  | Provider 官網 |
@@ -40,8 +40,11 @@
 | Peter & Sons | https://peterandsonsgames.com/ | Firecrawl | 輪掃 |  |  |  | Provider 官網 |
 | CP Game | https://cpgames.com/ | Firecrawl | 輪掃 |  |  |  | Provider 官網 |
 | Acewin | https://www.acewin168.com/ | Firecrawl | 輪掃 |  |  |  | ★優先追蹤｜IGS鈊象電子旗下 GP；可視為 Jili 低配版、多款與 Jili 互通，B 端價格有優勢。上新遊戲於 DigiPlus 系(BingoPlus/ArenaPlus/GameZone)或 CasinoPlus 等菲現金網、或特別線上/線下活動與平台功能更新→提高露出權重 |
-| Omiplay | https://omiplay.com/ | Firecrawl | 輪掃 |  |  |  | ★優先追蹤｜台灣尊博集團 GP；Super Gem 對標 Fortune Gem 成功、獲 BingoPlus/CasinoPlus 內部認可、菲律賓有成績。上新遊戲於 DigiPlus 系/CasinoPlus 或特別活動/平台更新→提高露出權重 |
+| OMNIPLAY（尊博） | https://www.omniplaygaming.com/games | 官網新作 | 每日 | omniplay |  |  | ★優先追蹤｜台灣尊博集團 GP（線上品牌 OMNIPLAY，舊稱 Omiplay）；Super Gem 對標 Fortune Gem 成功、獲 BingoPlus/CasinoPlus 內部認可、菲律賓有成績。上新遊戲於 DigiPlus 系/CasinoPlus 或特別活動/平台更新→提高露出權重｜v6.7.3 每天抓官網遊戲列表＋Release Date（免費） |
 | YellowBat | https://www.yellowbat.com/games/ | WP-API | 每日 | https://www.yellowbat.com/wp-json/wp/v2/posts |  |  | ★優先追蹤｜菲律賓平台 PlayTime 深度策略夥伴。上新遊戲於 DigiPlus 系/CasinoPlus/PlayTime 或特別活動/平台更新→提高露出權重 |
+| Yellow Bat 遊戲庫 | https://www.yellowbat.com/games/ | 官網新作 | 每日 | yellowbat |  |  | v6.7.3 官網遊戲庫的 WP-API（/wp/v2/games，免費）；新聞稿仍由上面 YellowBat 那列抓 |
+| 5G Games | https://www.5ggames.com/en/news/game-launch/ | 官網新作 | 每日 | 5g |  |  | v6.7.3 菲律賓 Top200 份額高（Super Gems、Pinata 系）；官網 Game Launch 新聞頁（免費） |
+| FA CHAI | https://fachaigaming.com/en/news/category/game | 官網新作 | 每日 | fachai |  |  | v6.7.3 官網擋台灣、美國 IP，只能 Firecrawl（每天 1 點）抓 Game 新聞頁 |
 
 ---
 
@@ -65,7 +68,7 @@
 
 ---
 
-## 產業媒體（109）
+## 產業媒體（110）
 
 | 名稱 | URL | 抓取方式 | 頻率 | 抓取端點 | 觸發關鍵字 | 展期 | 備註 |
 |------|-----|------|------|------|------|------|------|
@@ -178,6 +181,7 @@
 | Google News：PlayTime／PT Gaming | https://news.google.com/ | GoogleNews | 每日 | https://news.google.com/rss/search?q=%28%22PlayTime%20Entertainment%22%20OR%20%22PT%20Gaming%22%20OR%20%22PlayTime%22%20PAGCOR%20OR%20%22PlayTime%22%20sponsorship%20OR%20%22PlayTime%22%20NCAA%29%20when%3A3d&hl=en-PH&gl=PH&ceid=PH:en |  |  | v6.6.9 菲律賓平台品牌的在地媒體報導（BusinessMirror、Manila Times、Inquirer…）；連結由程式轉回原文；一律歸 cat4 |
 | Google News：OKBet | https://news.google.com/ | GoogleNews | 每日 | https://news.google.com/rss/search?q=%22OKBet%22%20when%3A3d&hl=en-PH&gl=PH&ceid=PH:en |  |  | v6.6.9 菲律賓平台品牌的在地媒體報導（BusinessMirror、Manila Times、Inquirer…）；連結由程式轉回原文；一律歸 cat4 |
 | Google News：BET88 | https://news.google.com/ | GoogleNews | 每日 | https://news.google.com/rss/search?q=%22BET88%22%20when%3A3d&hl=en-PH&gl=PH&ceid=PH:en |  |  | v6.6.9 菲律賓平台品牌的在地媒體報導（BusinessMirror、Manila Times、Inquirer…）；連結由程式轉回原文；一律歸 cat4 |
+| Google News：JDB Gaming（廠商） | https://news.google.com/ | GoogleNews | 每日 | https://news.google.com/rss/search?q=%22JDB%20Gaming%22%20when%3A7d&hl=en-PH&gl=PH&ceid=PH:en |  |  | v6.7.3 JDB 官網擋地區、Firecrawl 也抓不到遊戲列表，先用 Google News 保底；不強制歸 cat4 |
 
 ---
 

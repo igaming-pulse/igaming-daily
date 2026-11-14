@@ -225,7 +225,7 @@ CATS = [
 ]
 SCORE = [
     ["項目", "分數", "內容"],
-    ["B 品牌", "6／4／3／1／0", "6：優先品牌 21 家（Acewin、Omiplay、YellowBat、ATG、EEZE、Yggdrasil、Jili、TaDa、DigiPlus 系、Stake、PAGCOR 等）；4：PG Soft、Pragmatic、Nolimit、Play'n GO、Red Tiger、Aristocrat、IGT、L&W；3：二線知名；1：其他"],
+    ["B 品牌", "6／4／3／1／0", "6：優先品牌 21 家（Acewin、OMNIPLAY（尊博）、YellowBat、ATG、EEZE、Yggdrasil、Jili、TaDa、DigiPlus 系、Stake、PAGCOR 等）；4：5G Games、PG Soft、Pragmatic、Nolimit、Play'n GO、Red Tiger、Aristocrat、IGT、L&W；3：二線知名；1：其他"],
     ["E 事件", "6／5.5／5／2／1／0.5", "6：新遊戲上線、實體機首發、重大整合；5.5：新作預告；5：市場數據、玩法流行；2：展會；1：法規、M&A、財報；0.5：人事、獲獎、行銷"],
     ["R 地區", "6／5／4／3／2／1", "6：菲律賓；5：台灣、東南亞；4：拉美、巴西、全球；3：美國、歐洲；2：澳門、日韓、中國；1：其他"],
     ["T 時效", "+2／+1／0", "窗內 0–12 小時 +2；12–24 小時 +1；只精確到日 0"],

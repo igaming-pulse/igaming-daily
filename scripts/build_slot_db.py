@@ -23,8 +23,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "slots", "index.html")
 
 # 品牌分級（同 SKILL.md「B 品牌權重」；只用來標示與篩選「大廠」）
-BRAND = {6: ["acewin", "omiplay", "yellowbat", "atg", "yggdrasil", "jili", "tada"],
-         4: ["pg soft", "pragmatic", "nolimit", "play'n go", "playn go", "red tiger", "aristocrat", "igt", "light & wonder", "light and wonder"],
+BRAND = {6: ["acewin", "omiplay", "omniplay", "尊博", "yellowbat", "yellow bat", "atg", "yggdrasil", "jili", "tada"],
+         4: ["5g games", "pg soft", "pragmatic", "nolimit", "play'n go", "playn go", "red tiger", "aristocrat", "igt", "light & wonder", "light and wonder"],
          3: ["cp game", "peter & sons", "netent", "hacksaw", "fa chai", "evolution", "playtech", "betsoft", "spinomenal",
              "relax", "push gaming", "bgaming", "wazdan", "quickspin"]}
 
@@ -63,15 +63,39 @@ def gp_lookup():
     return names
 
 
+def protos():
+    """docs/slot-prototypes.md 的主流原型名稱（v6.7，核心機制篩選用）。"""
+    try:
+        txt = open(os.path.join(ROOT, "docs", "slot-prototypes.md"), encoding="utf-8").read()
+    except OSError:
+        return []
+    sec = txt.split("## 一、", 1)[-1].split("\n## ", 1)[0]
+    return [r.split("|")[1].strip() for r in sec.splitlines()
+            if r.startswith("| ") and not r.startswith("| 原型")]
+
+
+def family(mech, plist):
+    """核心機制 → 篩選用的原型家族：對到主流原型取名稱；「-」＝無主流原型；沒寫＝未標註。"""
+    m = (mech or "").strip()
+    if not m:
+        return "未標註"
+    if m in R.NO_PROTO:
+        return "無主流原型"
+    n = R.norm_title(m)
+    hit = sorted((p for p in plist if R.norm_title(p) and R.norm_title(p) in n), key=len, reverse=True)
+    return hit[0] if hit else "其他／未確認"
+
+
 def collect():
     rows = []
     known = gp_lookup()
+    plist = protos()
     for md in sorted(glob.glob(os.path.join(ROOT, "state", "*-igaming-report.md"))):
         rep = R.parse_md(open(md, encoding="utf-8").read())
         for sec in rep["sections"]:
             if sec["cat"] != "cat1":
                 continue
-            for it in sec["items"]:
+            for it in R.all_items(sec):
                 parts = re.split(r"\s+[–—]\s+", it["title"], maxsplit=1)
                 name = re.sub(r"^[⭐\s]+", "", parts[0]).strip()
                 gp = parts[1].strip() if len(parts) > 1 else ""
@@ -85,12 +109,19 @@ def collect():
                     m2 = re.match(r"^([A-Z][\w'&.\- ]{1,40}?)\s*(?:推出|為|旗下|宣布|發表|攜手)", it["body"][0])
                     gp = m2.group(1).strip() if m2 else ""
                 spec = {k: v for k, v in it["spec"]}
+                b = it if it.get("brief") else None
+                if b:
+                    spec.update({k: v for k, v in b.get("params") or []})
+                mech = b["mech"] if b else spec.get("核心機制", "")
+                tier = 3 if b else R.slot_tier(it)
                 rows.append({
+                    "mech": mech, "fam": family(mech, plist), "tier": tier or 0,
+                    "innov": (b["reason"] if b else spec.get("微創新", "")),
                     "name": name, "gp": gp, "b": brand_b(gp), "report": rep["date"], "date": it["date"] or rep["date"],
                     "label": it["label"], "type": spec.get("遊戲類型", ""), "board": spec.get("盤面", ""),
                     "pays": spec.get("消除/賠付", ""), "maxwin": spec.get("最高倍率", ""), "rtp": spec.get("RTP", ""),
                     "vol": spec.get("波動", ""), "market": spec.get("目標市場", ""), "feat": spec.get("關鍵特色", ""),
-                    "summary": (it["body"][0] if it["body"] else "")[:220],
+                    "summary": ((it["body"][0] if it["body"] else "") or it.get("summary", ""))[:220],
                     "src": [[n, u] for n, u in it["sources"]][:4], "img": it["image"],
                     "page": site_file(md), "special": bool(rep.get("edition")),
                 })
@@ -137,7 +168,10 @@ PAGE = r"""<!DOCTYPE html>
   .tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}
   .tools input[type=search],.tools select{font:inherit;font-size:14px;padding:8px 10px;border:1px solid var(--rule);background:#fff;border-radius:6px}
   .tools input[type=search]{flex:1 1 260px;min-width:0}
+  .tools select{max-width:100%;min-width:0}
   .tools label{font-size:13px;color:var(--sub);display:flex;gap:6px;align-items:center;white-space:nowrap}
+  .tag.t1{background:#B31217;color:#fff;border-color:#B31217} .tag.t2{background:#FBE3E4;color:#8A1015} .tag.t3{color:var(--sub)}
+  .sum.mech{background:#FFF7E0;padding:4px 8px;border-radius:6px}
   .tools input[type=checkbox]{width:16px;height:16px;margin:0;accent-color:var(--s2)}
   .count{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--sub);margin-left:auto}
   .list{display:grid;gap:12px}
@@ -179,6 +213,8 @@ PAGE = r"""<!DOCTYPE html>
   <div class="tools">
     <input id="q" type="search" placeholder="搜尋遊戲名、廠商、機制（例：Hold &amp; Win、Megaways、Pragmatic）" aria-label="搜尋">
     <select id="gp" aria-label="遊戲商"><option value="">全部遊戲商</option></select>
+    <select id="mech" aria-label="核心機制"><option value="">全部核心機制</option></select>
+    <select id="tier" aria-label="級別"><option value="">全部級別</option><option value="1">N+1</option><option value="2">原創機制</option><option value="3">換皮／資料不足</option><option value="0">未分級（v6.7 以前）</option></select>
     <select id="sort" aria-label="排序"><option value="date">最新收錄在前</option><option value="b">大廠在前</option><option value="name">遊戲名 A→Z</option></select>
     <label><input id="big" type="checkbox"> 只看大廠</label>
     <span class="count" id="count"></span>
@@ -191,13 +227,17 @@ const $ = id => document.getElementById(id);
 const esc = s => String(s || "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const gps = [...new Set(DATA.map(d => d.gp).filter(Boolean))].sort((a, b) => a.localeCompare(b));
 $("n-all").textContent = DATA.length; $("n-big").textContent = DATA.filter(d => d.b >= 3).length; $("n-gp").textContent = gps.length;
+const fams = [...new Set(DATA.map(d => d.fam).filter(Boolean))].sort((a, b) => (/^(無主流|其他|未標)/.test(a) - /^(無主流|其他|未標)/.test(b)) || a.localeCompare(b));
+fams.forEach(f => { const o = document.createElement("option"); o.value = f; o.textContent = `${f}（${DATA.filter(d => d.fam === f).length}）`; $("mech").appendChild(o); });
+const TIER = {1: "N+1", 2: "原創機制", 3: "換皮／資料不足"};
 gps.forEach(g => { const o = document.createElement("option"); o.value = o.textContent = g; $("gp").appendChild(o); });
 const md = s => s ? `${+s.slice(5,7)}/${+s.slice(8,10)}` : "";
 function spec(k, v) { return v && !/^(未公布|沒有|-|查無資料)$/.test(v) ? `<span><b>${k}</b>${esc(v)}</span>` : ""; }
 function render() {
-  const q = $("q").value.trim().toLowerCase(), g = $("gp").value, big = $("big").checked, s = $("sort").value;
-  let rows = DATA.filter(d => (!g || d.gp === g) && (!big || d.b >= 3) &&
-    (!q || [d.name, d.gp, d.pays, d.feat, d.type, d.market, d.summary].join(" ").toLowerCase().includes(q)));
+  const q = $("q").value.trim().toLowerCase(), g = $("gp").value, big = $("big").checked, s = $("sort").value,
+        f = $("mech").value, t = $("tier").value;
+  let rows = DATA.filter(d => (!g || d.gp === g) && (!big || d.b >= 3) && (!f || d.fam === f) && (t === "" || String(d.tier) === t) &&
+    (!q || [d.name, d.gp, d.pays, d.feat, d.type, d.market, d.summary, d.mech, d.innov].join(" ").toLowerCase().includes(q)));
   rows.sort(s === "b" ? (a, b) => b.b - a.b || b.report.localeCompare(a.report)
           : s === "name" ? (a, b) => a.name.localeCompare(b.name) : (a, b) => b.report.localeCompare(a.report) || b.b - a.b);
   $("count").textContent = `顯示 ${rows.length} / ${DATA.length} 款`;
@@ -206,15 +246,17 @@ function render() {
       ${d.img ? `<img src="${esc(d.img)}" alt="${esc(d.name)}" loading="lazy" onerror="this.outerHTML='<div class=noimg></div>'">` : `<div class="noimg"></div>`}
       <div>
         <div class="top"><h2>${esc(d.name)}</h2><span class="gp">${esc(d.gp)}</span>
+          ${d.tier ? `<span class="tag t${d.tier}">${TIER[d.tier]}</span>` : ""}
           ${d.b >= 3 ? `<span class="tag b">大廠 B${d.b}</span>` : ""}
           <span class="tag">${md(d.report)} 收錄</span>${d.special ? `<span class="tag">特別版</span>` : ""}${d.seen > 1 ? `<span class="tag">出現 ${d.seen} 次</span>` : ""}</div>
         <div class="specs">${spec("類型", d.type)}${spec("盤面", d.board)}${spec("賠付", d.pays)}${spec("最高倍率", d.maxwin)}${spec("RTP", d.rtp)}${spec("波動", d.vol)}${spec("市場", d.market)}</div>
+        ${d.mech ? `<div class="sum mech"><b>核心機制：</b>${esc(d.mech)}${d.innov ? `　<b>${d.tier === 3 ? "判定" : "微創新"}：</b>${esc(d.innov)}` : ""}</div>` : ""}
         ${d.feat ? `<div class="sum"><b>特色：</b>${esc(d.feat)}</div>` : ""}
         <div class="links"><a href="../reports/${esc(d.page)}">看日報卡片 ↗</a>${(d.src || []).map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)} ↗</a>`).join("")}</div>
       </div>
     </article>`).join("") : `<div class="empty">沒有符合條件的遊戲</div>`;
 }
-["q", "gp", "sort", "big"].forEach(id => $(id).addEventListener("input", render));
+["q", "gp", "mech", "tier", "sort", "big"].forEach(id => $(id).addEventListener("input", render));
 render();
 </script>
 </body>

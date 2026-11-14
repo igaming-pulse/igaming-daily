@@ -37,6 +37,9 @@ from email.utils import parsedate_to_datetime
 from urllib.parse import quote as urllib_quote
 from urllib.parse import unquote as urllib_unquote
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import asia_providers  # noqa: E402  v6.7.3 亞洲廠商官網新作
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SOURCES_MD = os.path.join(ROOT, "sources", "sources.md")
 OUT_DIR = os.path.join(ROOT, "state", "harvest")
@@ -244,7 +247,8 @@ def fetch_gnews(src, since):
         if media and title.endswith(" - " + media):
             title = title[: -len(media) - 3]
         url = gnews_decode(clean(l.group(1)), cache) if dt >= recent else clean(l.group(1))
-        out.append({"title": title, "url": url, "dt": dt, "force_cat": "cat4",
+        # v6.7.3 名稱含「（廠商）」的是遊戲廠商（JDB 等官網擋地區），不強制歸 cat4，照關鍵字猜
+        out.append({"title": title, "url": url, "dt": dt, "force_cat": None if "（廠商）" in src["name"] else "cat4",
                     "excerpt": f"{media}（Google News：{src['name']}）" + ("" if "news.google.com" not in url else "｜原文網址未轉換，用標題搜尋原文")})
         time.sleep(0.3)
     try:
@@ -373,7 +377,7 @@ def fetch_sitemap(src, since):
 
 
 # v6.6.8 B：專訪／展會報導裡提到 B≥3 廠商時列成「新作線索」（10/12 FA CHAI 專訪提到新作 Power of Vikings 卻沒被追查）
-BIG_GP = re.compile(r"acewin|omiplay|yellowbat|\batg\b|yggdrasil|\bjili\b|tada|pg ?soft|pragmatic|nolimit|play'?n ?go|red tiger|"
+BIG_GP = re.compile(r"acewin|omi?n?i?play|yellow ?bat|5g ?games|\bjdb\b|\batg\b|yggdrasil|\bjili\b|tada|pg ?soft|pragmatic|nolimit|play'?n ?go|red tiger|"
                     r"aristocrat|\bigt\b|light ?(&|and) ?wonder|cp ?game|peter ?& ?sons|netent|hacksaw|fa ?chai|evolution|playtech|"
                     r"betsoft|spinomenal|relax gaming|push gaming|bgaming|wazdan|quickspin", re.I)
 LEAD_RX = re.compile(r"interview|speaking with|talks?\b|q&a|sbc|g2e|ice\b|igb|sigma|expo|summit|showcas|unveil|debut|"
@@ -491,6 +495,13 @@ def main():
     except Exception as e:  # noqa: BLE001
         sl, sl_err = None, f"{type(e).__name__}: {e}"[:120]
     results.append(({"name": "SlotsLaunch 上線日曆", "way": "程式解析", "cat": "產品分析／評測"}, sl, sl_err))
+    # v6.7.3 亞洲廠商官網新作（JILI、PG Soft、Yellow Bat、5G、OMNIPLAY 免費；FA CHAI 在 Firecrawl 段）
+    try:
+        asia_res = asia_providers.fetch_all(d)
+    except Exception as e:  # noqa: BLE001
+        asia_res = [("亞洲廠商官網新作", None, f"{type(e).__name__}: {e}"[:120])]
+    for nm, res, err in asia_res:
+        results.append(({"name": nm, "way": "官網新作", "cat": "Provider 官網"}, res, err))
 
     def ingest(s, res, err):
         if res is None:
@@ -527,22 +538,6 @@ def main():
 
     for s, res, err in results:
         ingest(s, res, err)
-
-    # v6.6.10 上線日曆：累積各來源的官方上線日（保留上線日在 30 天前以後的），finalize_report.py 用來擋「上線日在 7 天以後」的 Slot
-    cal_path = os.path.join(ROOT, "state", "release-calendar.json")
-    try:
-        cal = json.load(open(cal_path, encoding="utf-8"))
-    except Exception:  # noqa: BLE001
-        cal = {}
-    for r in releases:
-        parts = re.split(r"\s+—\s+", r["title"], maxsplit=1)
-        name, gp = parts[0].strip(), (parts[1].strip() if len(parts) > 1 else "")
-        k = re.sub(r"[^0-9a-z]+", "", f"{name}|{gp}".lower())
-        cal[k] = {"name": name, "gp": gp, "release": r["release"], "source": r["source"], "seen": date if a.date else now.strftime("%Y-%m-%d")}
-    cutoff = (w1 - timedelta(days=30)).strftime("%Y-%m-%d")
-    cal = {k: v for k, v in cal.items() if v["release"] >= cutoff}
-    with open(cal_path, "w", encoding="utf-8") as f:
-        json.dump(dict(sorted(cal.items())), f, ensure_ascii=False, indent=0)
 
     # 同一網址去重（Focus 的多個地區版共用同一個 feed 等）
     def dedupe(xs):
@@ -621,6 +616,11 @@ def main():
             with open(TRIGGERS, "w", encoding="utf-8") as f:
                 json.dump(trig_log, f, ensure_ascii=False, indent=1)
 
+        # v6.7.3 FA CHAI 官網擋台灣、美國 IP，只能 Firecrawl（每天 1 點）
+        if key:
+            fa, fa_err = asia_providers.fetch_fachai(lambda u: firecrawl(u, key))
+            spent_lists += 1
+            ingest({"name": "FA CHAI 官網新作", "way": "官網新作（Firecrawl）"}, fa, fa_err)
         ldir = os.path.join(OUT_DIR, f"{date}-lists")
         os.makedirs(ldir, exist_ok=True)
         for s in targets:
@@ -666,6 +666,22 @@ def main():
             else:
                 lists.append({"source": "📋 Weekend Reels（週六檢查點）", "freq": "每週六", "status": "失敗",
                               "error": "EEGaming 分類頁裡找不到 weekend-reels 連結，請用 WebSearch 找本週那篇"})
+
+    # v6.6.10 上線日曆：累積各來源的官方上線日（保留上線日在 30 天前以後的），finalize_report.py 用來擋「上線日在 7 天以後」的 Slot
+    cal_path = os.path.join(ROOT, "state", "release-calendar.json")
+    try:
+        cal = json.load(open(cal_path, encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        cal = {}
+    for r in releases:
+        parts = re.split(r"\s+—\s+", r["title"], maxsplit=1)
+        name, gp = parts[0].strip(), (parts[1].strip() if len(parts) > 1 else "")
+        k = re.sub(r"[^0-9a-z]+", "", f"{name}|{gp}".lower())
+        cal[k] = {"name": name, "gp": gp, "release": r["release"], "source": r["source"], "seen": date if a.date else now.strftime("%Y-%m-%d")}
+    cutoff = (w1 - timedelta(days=30)).strftime("%Y-%m-%d")
+    cal = {k: v for k, v in cal.items() if v["release"] >= cutoff}
+    with open(cal_path, "w", encoding="utf-8") as f:
+        json.dump(dict(sorted(cal.items())), f, ensure_ascii=False, indent=0)
 
     os.makedirs(OUT_DIR, exist_ok=True)
     items = dedupe(items)
@@ -794,6 +810,19 @@ def main():
                 B.append(f"- {i['published']} | {i['source']} | {i['title']} | {i['url']}"
                          + (f" | {i['excerpt']}" if i["source"].startswith(("BigWinBoard", "SlotsLaunch")) else ""))
             B.append("")
+        L.append("")
+    # v6.7.3 亞洲廠商官網新作獨立列出（窗外的也列，不然會被 SlotsLaunch 等大量條目擠出 backlog 前 40 名）
+    asia = sorted([i for i in items if i["source"].endswith("官網新作") or "（廠商）" in i["source"]],
+                  key=lambda x: x["published"], reverse=True)
+    if asia:
+        L.append(f"## 🌏 亞洲廠商官網新作 {len(asia)} 款（v6.7.3：菲律賓 Top200 主力廠商，近 {SLOT_LOOKBACK_DAYS} 天）")
+        L.append("")
+        L.append("⚠️ 這些廠商多半不發英文新聞稿，官網就是一手來源。✅ 窗內的照一般 🎰 候選評估；窗外的只能當庫存補位。"
+                 "核心機制先對 docs/slot-prototypes.md 的原型（Super Gems → Fortune Gems、Pinata 系 → Pinata Wins…），是第一級 N+1 的主要來源。"
+                 "JILI 寫的是官網首見日，不是上線日。")
+        L.append("")
+        for i in asia:
+            L.append(f"- {'✅' if i['in_window'] else '🕘'} {i['published']} | {i['source']} | {i['title']} | {i['url']} | {i['excerpt']}")
         L.append("")
     leads = [i for i in items if i["in_window"] and BIG_GP.search(f"{i['title']} {i['excerpt']}")
              and LEAD_RX.search(f"{i['title']} {i['excerpt']}")]
