@@ -13,15 +13,16 @@ permissions:
 
 jobs:
   unittest:
-    runs-on: ubuntu-latest
+    # 2026-11-15：ubuntu-latest 10/19 起換成 26.04、沒有舊版 Python → 固定 24.04
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     env:
       TZ: Asia/Taipei
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
-          python-version: '3.9'   # 跟 Mac 上的 /usr/bin/python3 同版本
+          python-version: '3.12'  # 跟 NAS Docker（python:3.12-slim）同版本；checkout／setup-python v7 跑 Node 24
       - name: 語法檢查（shell）
         run: for f in scripts/*.sh; do bash -n "$f" || exit 1; done
       - name: 回歸測試
