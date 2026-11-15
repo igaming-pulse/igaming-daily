@@ -190,6 +190,13 @@ PAGE = r"""<!DOCTYPE html>
   .links{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:4px 10px}
   .links a{text-decoration:none;border-bottom:1px solid var(--rule)}
   .empty{padding:30px;text-align:center;color:var(--sub)}
+  .pager{display:flex;flex-wrap:wrap;gap:6px;align-items:center;justify-content:center;margin:16px 0}
+  .pager:empty{display:none}
+  .pager button{font-family:"IBM Plex Mono",monospace;font-size:13px;min-width:38px;padding:6px 10px;border:1px solid var(--rule);background:var(--sheet);color:var(--ink);cursor:pointer}
+  .pager button:hover:not(:disabled){border-color:var(--ink)}
+  .pager button.on{background:var(--ink);color:var(--sheet);border-color:var(--ink)}
+  .pager button:disabled{opacity:.4;cursor:default}
+  .pager .gap{color:var(--sub);padding:0 2px}
   @media(max-width:720px){.mast{grid-template-columns:1fr}.row{grid-template-columns:1fr}.row img,.row .noimg{width:100%}h1{font-size:28px}}
 </style>
 </head>
@@ -219,7 +226,9 @@ PAGE = r"""<!DOCTYPE html>
     <label><input id="big" type="checkbox"> 只看大廠</label>
     <span class="count" id="count"></span>
   </div>
+  <nav class="pager" id="pager-top" aria-label="分頁"></nav>
   <div class="list" id="list"></div>
+  <nav class="pager" id="pager-bottom" aria-label="分頁"></nav>
 </div>
 <script>
 const DATA = __DATA__;
@@ -233,15 +242,40 @@ const TIER = {1: "N+1", 2: "原創機制", 3: "換皮／資料不足"};
 gps.forEach(g => { const o = document.createElement("option"); o.value = o.textContent = g; $("gp").appendChild(o); });
 const md = s => s ? `${+s.slice(5,7)}/${+s.slice(8,10)}` : "";
 function spec(k, v) { return v && !/^(未公布|沒有|-|查無資料)$/.test(v) ? `<span><b>${k}</b>${esc(v)}</span>` : ""; }
-function render() {
+const PAGE_SIZE = 100;   // 每 100 款一頁（2026-11-15 使用者要求）
+let page = Math.max(1, parseInt((location.hash.match(/^#p(\d+)$/) || [])[1] || "1", 10));
+function pagerHtml(n) {
+  if (n <= 1) return "";
+  const nums = [...new Set([1, n, page - 2, page - 1, page, page + 1, page + 2])].filter(x => x >= 1 && x <= n).sort((a, b) => a - b);
+  let h = `<button data-p="${page - 1}" ${page === 1 ? "disabled" : ""} aria-label="上一頁">‹ 上一頁</button>`, prev = 0;
+  nums.forEach(x => { if (x - prev > 1) h += `<span class="gap">…</span>`; h += `<button data-p="${x}" class="${x === page ? "on" : ""}" ${x === page ? 'aria-current="page"' : ""}>${x}</button>`; prev = x; });
+  return h + `<button data-p="${page + 1}" ${page === n ? "disabled" : ""} aria-label="下一頁">下一頁 ›</button>`;
+}
+function go(p, scroll) {
+  page = p;
+  try { history.replaceState(null, "", p > 1 ? `#p${p}` : location.pathname + location.search); } catch (e) {}
+  render(true);
+  if (scroll) $("pager-top").scrollIntoView({block: "start"});
+}
+["pager-top", "pager-bottom"].forEach(id => $(id).addEventListener("click", e => {
+  const b = e.target.closest("button[data-p]"); if (b && !b.disabled) go(+b.dataset.p, true);
+}));
+function render(keepPage) {
+  if (keepPage !== true) { page = 1; try { if (location.hash) history.replaceState(null, "", location.pathname + location.search); } catch (e) {} }
   const q = $("q").value.trim().toLowerCase(), g = $("gp").value, big = $("big").checked, s = $("sort").value,
         f = $("mech").value, t = $("tier").value;
   let rows = DATA.filter(d => (!g || d.gp === g) && (!big || d.b >= 3) && (!f || d.fam === f) && (t === "" || String(d.tier) === t) &&
     (!q || [d.name, d.gp, d.pays, d.feat, d.type, d.market, d.summary, d.mech, d.innov].join(" ").toLowerCase().includes(q)));
   rows.sort(s === "b" ? (a, b) => b.b - a.b || b.report.localeCompare(a.report)
           : s === "name" ? (a, b) => a.name.localeCompare(b.name) : (a, b) => b.report.localeCompare(a.report) || b.b - a.b);
-  $("count").textContent = `顯示 ${rows.length} / ${DATA.length} 款`;
-  $("list").innerHTML = rows.length ? rows.map(d => `
+  const pages = Math.max(1, Math.ceil(rows.length / PAGE_SIZE));
+  page = Math.min(page, pages);
+  const from = (page - 1) * PAGE_SIZE;
+  $("count").textContent = rows.length > PAGE_SIZE
+    ? `顯示 ${from + 1}–${Math.min(from + PAGE_SIZE, rows.length)}／符合 ${rows.length}（共 ${DATA.length} 款）・第 ${page}／${pages} 頁`
+    : `顯示 ${rows.length} / ${DATA.length} 款`;
+  $("pager-top").innerHTML = $("pager-bottom").innerHTML = pagerHtml(pages);
+  $("list").innerHTML = rows.length ? rows.slice(from, from + PAGE_SIZE).map(d => `
     <article class="row ${d.b >= 3 ? "big" : ""}">
       ${d.img ? `<img src="${esc(d.img)}" alt="${esc(d.name)}" loading="lazy" onerror="this.outerHTML='<div class=noimg></div>'">` : `<div class="noimg"></div>`}
       <div>
@@ -256,8 +290,8 @@ function render() {
       </div>
     </article>`).join("") : `<div class="empty">沒有符合條件的遊戲</div>`;
 }
-["q", "gp", "mech", "tier", "sort", "big"].forEach(id => $(id).addEventListener("input", render));
-render();
+["q", "gp", "mech", "tier", "sort", "big"].forEach(id => $(id).addEventListener("input", () => render()));
+render(true);
 </script>
 </body>
 </html>
