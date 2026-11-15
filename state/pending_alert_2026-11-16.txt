@@ -1,0 +1,8 @@
+🚨 iGaming 日報即時警報 2026-11-16 05:30（13' v）
+Claude 登入過期，日報沒有執行
+
+請在終端機輸入 claude，進去後輸入 /login 重新登入（用 nathan.kao@bituslabs.com）。
+登入後跟 Claude 說「補跑日報」，或在終端機執行：
+launchctl kickstart gui/$(id -u)/com.igaming.daily-0230
+
+詳細紀錄：/Users/nathan.kao/igaming-daily/state/run.log
