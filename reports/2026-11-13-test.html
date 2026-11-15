@@ -88,6 +88,24 @@ a:focus-visible{outline:2px solid var(--s5);outline-offset:2px}
 .stats-line{max-width:920px;margin:24px auto 0;padding:0 20px;border-top:none;text-align:left;font-size:13px;color:var(--sub);line-height:1.8}
 .stats-line b{font-family:"IBM Plex Mono",monospace;color:var(--ink);font-weight:600;font-size:15px}
 footer{text-align:left;max-width:920px;margin:10px auto 0;padding:0 20px;font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--faint);line-height:1.8}
+/* ---- v6.7 🎰 分級標籤＋第三級精簡卡片（2026-11-15 補：11/15 -test 版缺這段而破版） ---- */
+.tier{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;letter-spacing:.06em;padding:1px 8px;margin:0 0 6px;border:1px solid var(--ink);vertical-align:top}
+.tier.t1{background:var(--ink);color:var(--sheet)}
+.tier.t2{background:color-mix(in srgb,var(--cat) 22%,var(--sheet));color:var(--ink)}
+.tier.t3{background:transparent;color:var(--sub);border-color:var(--rule)}
+.spec .row.hl{background:color-mix(in srgb,var(--s3) 28%,var(--sheet));margin:0 -14px;padding:7px 14px}
+.brief-h{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;letter-spacing:.08em;color:var(--sub);margin:24px 0 10px;padding-top:12px;border-top:1px dashed var(--rule)}
+.mini{display:grid;grid-template-columns:132px minmax(0,1fr);gap:14px;background:var(--sheet);border:1px solid var(--rule);border-left:3px solid var(--cat);padding:12px 14px;margin-bottom:10px;--cat:var(--s4)}
+.mini .thumb{width:132px;max-width:100%;aspect-ratio:16/10;object-fit:cover;border:1px solid var(--rule);display:block;background:var(--paper)}
+.mini .noimg{width:132px;aspect-ratio:16/10;background:repeating-linear-gradient(45deg,var(--paper),var(--paper) 6px,var(--sheet) 6px,var(--sheet) 12px);border:1px solid var(--rule)}
+.mini h4{font-size:15px;font-weight:700;margin:0 0 6px;line-height:1.45}
+.mini h4 .tier{margin:0 0 0 6px;vertical-align:1px}
+.mini .mm{font-size:12.5px;background:color-mix(in srgb,var(--s3) 22%,var(--sheet));padding:3px 8px;margin-bottom:5px}
+.mini .mm b{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;color:color-mix(in srgb,var(--s4) 70%,#000);margin-right:4px}
+.mini .mp{font-size:12px;color:var(--sub);margin-bottom:5px}
+.mini p{font-size:13.5px;margin:0 0 6px}
+.mini .tags{font-size:11px}
+@media(max-width:520px){.mini{grid-template-columns:92px minmax(0,1fr);gap:10px;padding:10px}.mini .thumb,.mini .noimg{width:92px}}
 @media(max-width:720px){header.mast{grid-template-columns:1fr}h1{font-size:28px}h3{font-size:21px}.sh{font-size:20px}.card{padding:16px}.spec .k{flex-basis:72px}}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap"></head>

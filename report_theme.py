@@ -106,6 +106,24 @@ a:focus-visible{outline:2px solid var(--s5);outline-offset:2px}
 .stats-line{max-width:920px;margin:24px auto 0;padding:0 20px;border-top:none;text-align:left;font-size:13px;color:var(--sub);line-height:1.8}
 .stats-line b{font-family:"IBM Plex Mono",monospace;color:var(--ink);font-weight:600;font-size:15px}
 footer{text-align:left;max-width:920px;margin:10px auto 0;padding:0 20px;font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--faint);line-height:1.8}
+/* ---- v6.7 🎰 分級標籤＋第三級精簡卡片（2026-11-15 補：11/15 -test 版缺這段而破版） ---- */
+.tier{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;letter-spacing:.06em;padding:1px 8px;margin:0 0 6px;border:1px solid var(--ink);vertical-align:top}
+.tier.t1{background:var(--ink);color:var(--sheet)}
+.tier.t2{background:color-mix(in srgb,var(--cat) 22%,var(--sheet));color:var(--ink)}
+.tier.t3{background:transparent;color:var(--sub);border-color:var(--rule)}
+.spec .row.hl{background:color-mix(in srgb,var(--s3) 28%,var(--sheet));margin:0 -14px;padding:7px 14px}
+.brief-h{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;letter-spacing:.08em;color:var(--sub);margin:24px 0 10px;padding-top:12px;border-top:1px dashed var(--rule)}
+.mini{display:grid;grid-template-columns:132px minmax(0,1fr);gap:14px;background:var(--sheet);border:1px solid var(--rule);border-left:3px solid var(--cat);padding:12px 14px;margin-bottom:10px;--cat:var(--s4)}
+.mini .thumb{width:132px;max-width:100%;aspect-ratio:16/10;object-fit:cover;border:1px solid var(--rule);display:block;background:var(--paper)}
+.mini .noimg{width:132px;aspect-ratio:16/10;background:repeating-linear-gradient(45deg,var(--paper),var(--paper) 6px,var(--sheet) 6px,var(--sheet) 12px);border:1px solid var(--rule)}
+.mini h4{font-size:15px;font-weight:700;margin:0 0 6px;line-height:1.45}
+.mini h4 .tier{margin:0 0 0 6px;vertical-align:1px}
+.mini .mm{font-size:12.5px;background:color-mix(in srgb,var(--s3) 22%,var(--sheet));padding:3px 8px;margin-bottom:5px}
+.mini .mm b{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;color:color-mix(in srgb,var(--s4) 70%,#000);margin-right:4px}
+.mini .mp{font-size:12px;color:var(--sub);margin-bottom:5px}
+.mini p{font-size:13.5px;margin:0 0 6px}
+.mini .tags{font-size:11px}
+@media(max-width:520px){.mini{grid-template-columns:92px minmax(0,1fr);gap:10px;padding:10px}.mini .thumb,.mini .noimg{width:92px}}
 @media(max-width:720px){header.mast{grid-template-columns:1fr}h1{font-size:28px}h3{font-size:21px}.sh{font-size:20px}.card{padding:16px}.spec .k{flex-basis:72px}}
 '''
 
@@ -118,8 +136,58 @@ def compatible(s):
     return all(k in s for k in ("<header>", 'class="date"')) and re.search(r'class="card c[1-5]"', s)
 
 
-def restyle(s):
-    s = re.sub(r"<style>.*?</style>", "<style>" + CSS + "</style>", s, count=1, flags=re.S)
+# 主題 CSS 不用管的 class（badge 顏色 b1～b6 等由其他選擇器處理）
+IGNORE_CLASSES = re.compile(r"^(b\d|c\d|s\d|fc-line)$")  # s1～s5 統計格由 restyle 重組進刊頭
+
+
+def _css_rules(css):
+    """把 CSS 拆成 (選擇器或 @media 前綴, 內容) 的頂層規則。只處理一層 @media。"""
+    out, i, n = [], 0, len(css)
+    while i < n:
+        j = css.find("{", i)
+        if j < 0:
+            break
+        sel = css[i:j].strip()
+        depth, k = 1, j + 1
+        while k < n and depth:
+            depth += {"{": 1, "}": -1}.get(css[k], 0)
+            k += 1
+        out.append((sel, css[j + 1:k - 1]))
+        i = k
+    return out
+
+
+def missing_classes(orig_css, body):
+    """日報裡用到、但主題 CSS 完全沒提到的 class。"""
+    used = {c for m in re.findall(r'class="([^"]+)"', body) for c in m.split()}
+    cov = set(re.findall(r"\.([A-Za-z][\w-]*)", CSS))
+    return sorted(c for c in used - cov if not IGNORE_CLASSES.match(c))
+
+
+def passthrough(orig_css, miss):
+    """防呆（2026-11-15）：主題沒定義的新 class，從原生樣式把相關規則搬過來，避免破版。"""
+    if not miss:
+        return ""
+    rx = re.compile(r"\.(" + "|".join(map(re.escape, miss)) + r")(?![\w-])")
+    keep = []
+    for sel, body in _css_rules(orig_css):
+        if sel.startswith("@media"):
+            inner = [f"{s2}{{{b2}}}" for s2, b2 in _css_rules(body) if rx.search(s2)]
+            if inner:
+                keep.append(f"{sel}{{{''.join(inner)}}}")
+        elif rx.search(sel):
+            keep.append(f"{sel}{{{body}}}")
+    return "\n/* ---- 防呆：主題未定義、沿用原生樣式：" + "、".join(miss) + " ---- */\n" + "\n".join(keep) + "\n"
+
+
+def restyle(s, warn=True):
+    om = re.search(r"<style>(.*?)</style>", s, re.S)
+    orig = om.group(1) if om else ""
+    miss = missing_classes(orig, s[s.find("<body"):])
+    if miss and warn:
+        print(f"⚠️ report_theme：主題 CSS 缺 {len(miss)} 個 class（{'、'.join(miss)}），已暫時沿用原生樣式；請到 report_theme.py 補莫蘭迪版樣式")
+    css = CSS + passthrough(orig, miss)
+    s = re.sub(r"<style>.*?</style>", lambda _m: "<style>" + css + "</style>", s, count=1, flags=re.S)
     s = s.replace("</head>", FONTS + "</head>", 1)
     dm = re.search(r'<div class="date">\s*(\d{4}-\d{2}-\d{2})（(週.|星期.)）[^<]*</div>\s*<h1>(.*?)</h1>', s, re.S)
     if dm:
