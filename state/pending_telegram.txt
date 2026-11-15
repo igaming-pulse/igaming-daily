@@ -1,45 +1,39 @@
-🎰 iGaming 市場日報 2026-11-17（週二）
-🎰 Slot 4 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 4 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-11-18（週三）
+🎰 Slot 2 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Nolimit City《Fire in the Hole 4》上線：xWays 可擴散、上限 75,000 倍
-・Bloomberry 第三季虧損收斂，Okada 母公司稱娛樂城已觸底
-・ICONIC21：聖誕換皮不算策略，節慶檔期 7 月就要規劃
+・Fender & Bender ClusterBreaker（Relax Gaming）：任何一轉可把符號拆成 2～4 塊再連消
+・菲律賓：GameZone 與 Gloc-9 發表 Tara G! 音樂錄影帶，做卡牌遊戲品牌
+・市場：AGA 調查 82% 認為預測市場應按博彩監管；Banijay 前九個月營收近 20 億歐元
 
 🎰 Slot 新遊戲
-01 [原創] Fire in the Hole 4 – Nolimit City
-02 [原創] Big Bass Christmas Blast 1000 – Pragmatic Play
-03 [原創] Kakusei – Zitro（實體機）
-04 [原創] 🆕 新作預告（11/24 上線）World Eaters 2 – ELK Studios
-・換皮／資料不足：Pure Ecstasy Xmas
+01 [原創] Fender & Bender ClusterBreaker – Relax Gaming
+02 [原創] Rune Beasts! Sharp Peaks – Jinx Gaming
+・換皮／資料不足：Master Baiter、Santa's Workshop、📦 Sexbomb Shane（OMNIPLAY）
 
 🕹️ 非 Slot 新內容
-01 Two Moons Baccarat – CreedRoomz（雙波動模式百家樂，最高 10,000 倍）
-02 Lucky Coelho: Jackpot Fortunes – Neko Games（招財兔 90 球即時賓果）
-03 Run It Twice 現金桌功能 – PokerStars（FanDuel）
+01 Wild Lion Reel Crash – Ready Play Gaming
+02 Incentive Studios 經 Betty Gaming 在加拿大推出五款 Crash 與街機遊戲
 
 🤝 主流 GP／平台
-01 TaDa Gaming 上架秘魯新品牌 Betmaster.pe，Hacksaw、Wazdan、Gaming Realms 同日跟進
-02 聚合商 St8 簽下 Push Gaming，內容進入九個受監理市場
-03 Flutter 取消義大利品牌別管理層，Sisal 執行長 Tiso 離任
-04 Ainsworth 小股東報告：El Dorado Link 數學模型近似 Novomatic 產品
+01 Banijay 前九個月線上博彩營收近 20 億歐元，Tipico 已完全併入 Betclic
+02 Evolution 在紐澤西法院開庭前與律師事務所和解
+03 Entain 關閉免費遊戲產品 Seven
+04 Gaming Corps 以 30 款老虎機進入義大利 Stanleybet.it
 
 🇵🇭 菲律賓 GP／平台
-01 Bloomberry 第三季淨損縮小到 4.8 億披索，博彩總收入增 5%
-02 Okada Manila 母公司：娛樂城賭場市場已經觸底，線上博彩收入持續增加
-03 QTech 在宿霧 SPiCE International 獲選年度技術供應商
-04 ArenaPlus 以代言人 Miguel Tabuena 專訪做品牌內容
+01 📦 GameZone 與 Gloc-9 發表 Tara G! 音樂錄影帶，延伸卡牌遊戲活動
 
 📊 市場數據 & 趨勢
-01 ICONIC21：換一張聖誕皮不等於聖誕策略
-02 預測市場第三季交易量季增 75%，品牌搜尋需求卻掉 41%
-03 法國博彩市場 2026：Betclic 居首，線上賭場類搜尋興趣年減 27.6%
+01 Gaming Corps COO：老虎機創新不一定要重新發明輪子
+02 美國博彩協會調查：82% 受訪者認為預測市場應按博彩監管
+03 澳門 10 月博彩稅收月減 17%、年減 1.4%
 
 📝 品質備註（本次爬找判斷）
-1. 今天沒有第一級（N+1）Slot：亞洲廠商官網窗內 0 款，當天新作只有 3 款完整卡片，從庫存補 1 款預告（World Eaters 2，庫存僅此 1 款）；必看改從第二級挑。
-2. 抓取異常：BigWinBoard 新作列表、iGamingToday、SunStar、GiocoNews、Google News（GameZone、BET88）共 6 個來源失敗，Slot 新作靠 SlotsLaunch 上線日曆與新聞稿補；Fire in the Hole 4 無新聞稿，參數取自提前評測。
-3. Ainsworth 一則疑似與 11/16（董事辭任）重疊，因是產品相似指控的新內容而收錄；Flutter 義大利一則來源為付費文章，僅有摘要。
+1. 今日共 15 則。窗內多數 Slot 新作（Zeus vs Hades POP、Eureka Legends 等）已在 11/16–11/17 日報收錄，3 天去重後新作偏少；Phoenix Frenzy、Double Mummy's Jewels 1000 官方上線日 11/19，主來源不在窗內，留庫存明日用。
+2. 菲律賓區窗內幾乎沒有新聞（Casino Plus × Evolution 疑似與 11/16 重疊、未收），僅用庫存補 1 則；WebSearch 對近期菲律賓平台消息幾乎無結果，非 EEZE 當日無消息，依例外跳過。
+3. 本次執行時 repo 卡在先前中斷的 rebase（release-calendar.json 衝突）。
 
 ⚙️ 系統警報
-1. 🟠 Firecrawl 剩 992 點，照每天約 107 點會在 11/26 用完，撐不到 12/14 重置（還差約 1897 點）
-2. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（32 天）、GiocoNews（18 天）；請檢查網址或改抓取方式
+1. 🟠 Firecrawl 剩 984 點，照每天約 106 點會在 11/27 用完，撐不到 12/14 重置（還差約 1772 點）
+2. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（33 天）、GiocoNews（19 天）、Gaming for Africa（3 天）；請檢查網址或改抓取方式

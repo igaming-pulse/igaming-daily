@@ -80,23 +80,25 @@
     }
    ],
    "key": "phoenixfrenzytriplewin|playngo"
+  },
+  {
+   "cat": "cat1",
+   "title": "Double Mummy's Jewels 1000",
+   "gp": "Pragmatic Play",
+   "b": 4,
+   "first_seen": "2026-11-18",
+   "release_date": "2026-11-19",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/pragmatic-play/double-mummys-jewels-1000",
+     "published": "2026-11-19 00:00"
+    }
+   ],
+   "key": "doublemummysjewels1000|pragmaticplay"
   }
  ],
  "others": [
-  {
-   "cat": "cat2",
-   "title": "Italy online cash poker October 2026 collection EUR 247.7m",
-   "b": 1,
-   "first_seen": "2026-11-14",
-   "sources": [
-    {
-     "name": "JAMMA",
-     "url": "https://www.jamma.it/attualita/poker-cash-online-a-ottobre-2026-raccolta-a-2477-milioni-di-euro-362567",
-     "published": "2026-11-13 03:39"
-    }
-   ],
-   "key": "italyonlinecashpokeroctober2026collectioneur2477m|"
-  },
   {
    "cat": "cat2",
    "title": "SplitX",
@@ -167,79 +169,36 @@
     }
    ],
    "key": "德國第三季博彩投注額年增16至374億歐元|"
+  },
+  {
+   "cat": "cat5",
+   "title": "UK Gambling Commission：11–17 歲自掏腰包賭博比例降至 26%",
+   "sources": [
+    {
+     "name": "Yogonet",
+     "url": "https://www.yogonet.com/international/news/2026/11/17/127323-uk-gambling-commission-reports-drop-in-youth-gambling-participation-to-26-in-2026",
+     "published": "2026-11-17 21:32"
+    }
+   ],
+   "first_seen": "2026-11-18",
+   "key": "ukgamblingcommission1117歲自掏腰包賭博比例降至26|"
+  },
+  {
+   "cat": "cat3",
+   "title": "Hacksaw Gaming 經 EveryMatrix 上線瑞典 ATG",
+   "gp": "Hacksaw Gaming",
+   "sources": [
+    {
+     "name": "Hacksaw Gaming",
+     "url": "https://www.hacksawgaming.com/news/hacksaw-gaming-goes-live-with-atg-in-sweden",
+     "published": "2026-11-16 00:00"
+    }
+   ],
+   "first_seen": "2026-11-18",
+   "key": "hacksawgaming經everymatrix上線瑞典atg|hacksawgaming"
   }
  ],
  "history": [
-  {
-   "key": "inkspints|petersons",
-   "date": "2026-10-18",
-   "cat": "cat1",
-   "title": "Inks & Pints",
-   "gp": "Peter & Sons"
-  },
-  {
-   "key": "ghostshipgold|triplecherry",
-   "date": "2026-10-18",
-   "cat": "cat1",
-   "title": "Ghost Ship Gold",
-   "gp": "Triple Cherry"
-  },
-  {
-   "key": "3roaringbellsholdandwin|playson",
-   "date": "2026-10-18",
-   "cat": "cat1",
-   "title": "3 Roaring Bells: Hold and Win",
-   "gp": "Playson"
-  },
-  {
-   "key": "線上撲克流量10月上揚ggpoker增pokerstars減|",
-   "date": "2026-10-18",
-   "cat": "cat2",
-   "title": "線上撲克流量 10 月上揚：GGPoker 增、PokerStars 減",
-   "gp": ""
-  },
-  {
-   "key": "hacksawgaming成為ballysintralot第72家英國營運商夥伴|",
-   "date": "2026-10-18",
-   "cat": "cat3",
-   "title": "Hacksaw Gaming 成為 Bally's Intralot 第 72 家英國營運商夥伴",
-   "gp": ""
-  },
-  {
-   "key": "bet365瑞典牌照保住上訴法院維持4400萬克朗罰款|",
-   "date": "2026-10-18",
-   "cat": "cat3",
-   "title": "bet365 瑞典牌照保住：上訴法院維持 4,400 萬克朗罰款",
-   "gp": ""
-  },
-  {
-   "key": "matchbook完成收購betdaq|",
-   "date": "2026-10-18",
-   "cat": "cat3",
-   "title": "Matchbook 完成收購 Betdaq",
-   "gp": ""
-  },
-  {
-   "key": "digiplus獲aces評為亞洲最佳績效公司之一|",
-   "date": "2026-10-18",
-   "cat": "cat4",
-   "title": "DigiPlus 獲 ACES 評為亞洲最佳績效公司之一",
-   "gp": ""
-  },
-  {
-   "key": "catenamedia第三季營收年減29下修2026目標|",
-   "date": "2026-10-18",
-   "cat": "cat5",
-   "title": "Catena Media 第三季營收年減 29%，下修 2026 目標",
-   "gp": ""
-  },
-  {
-   "key": "馬爾他igaming2025年產值1422億歐元員工數48|",
-   "date": "2026-10-18",
-   "cat": "cat5",
-   "title": "馬爾他 iGaming 2025 年產值 14.22 億歐元、員工數 +4.8%",
-   "gp": ""
-  },
   {
    "key": "spidercircusholdandwin|bgaming",
    "date": "2026-10-19",
@@ -3759,6 +3718,111 @@
    "date": "2026-11-17",
    "cat": "cat5",
    "title": "法國博彩市場 2026：Betclic 居首，線上賭場類搜尋興趣年減 27.6%",
+   "gp": ""
+  },
+  {
+   "key": "fenderbenderclusterbreaker|relaxgaming",
+   "date": "2026-11-18",
+   "cat": "cat1",
+   "title": "Fender & Bender ClusterBreaker",
+   "gp": "Relax Gaming"
+  },
+  {
+   "key": "runebeastssharppeaks|jinxgaming",
+   "date": "2026-11-18",
+   "cat": "cat1",
+   "title": "Rune Beasts! Sharp Peaks",
+   "gp": "Jinx Gaming"
+  },
+  {
+   "key": "masterbaiter|maxxilabs",
+   "date": "2026-11-18",
+   "cat": "cat1",
+   "title": "Master Baiter",
+   "gp": "Maxxi Labs"
+  },
+  {
+   "key": "santasworkshop|milliongames",
+   "date": "2026-11-18",
+   "cat": "cat1",
+   "title": "Santa's Workshop",
+   "gp": "Million Games"
+  },
+  {
+   "key": "sexbombshane|omniplay尊博",
+   "date": "2026-11-18",
+   "cat": "cat1",
+   "title": "Sexbomb Shane",
+   "gp": "OMNIPLAY（尊博）"
+  },
+  {
+   "key": "wildlionreelcrash|readyplaygaming",
+   "date": "2026-11-18",
+   "cat": "cat2",
+   "title": "Wild Lion Reel Crash",
+   "gp": "Ready Play Gaming"
+  },
+  {
+   "key": "incentivestudios經bettygaming在加拿大推出五款crash與街機遊戲|",
+   "date": "2026-11-18",
+   "cat": "cat2",
+   "title": "Incentive Studios 經 Betty Gaming 在加拿大推出五款 Crash 與街機遊戲",
+   "gp": ""
+  },
+  {
+   "key": "banijay前九個月線上博彩營收近20億歐元tipico已完全併入betclic|",
+   "date": "2026-11-18",
+   "cat": "cat3",
+   "title": "Banijay 前九個月線上博彩營收近 20 億歐元，Tipico 已完全併入 Betclic",
+   "gp": ""
+  },
+  {
+   "key": "evolution在紐澤西法院開庭前與律師事務所和解撤回誹謗訴訟|",
+   "date": "2026-11-18",
+   "cat": "cat3",
+   "title": "Evolution 在紐澤西法院開庭前與律師事務所和解，撤回誹謗訴訟",
+   "gp": ""
+  },
+  {
+   "key": "entain關閉免費遊戲產品seven受影響職位屬夏季宣布的500個裁員範圍|",
+   "date": "2026-11-18",
+   "cat": "cat3",
+   "title": "Entain 關閉免費遊戲產品 Seven，受影響職位屬夏季宣布的 500 個裁員範圍",
+   "gp": ""
+  },
+  {
+   "key": "gamingcorps以30款老虎機進入義大利stanleybetit|",
+   "date": "2026-11-18",
+   "cat": "cat3",
+   "title": "Gaming Corps 以 30 款老虎機進入義大利 Stanleybet.it",
+   "gp": ""
+  },
+  {
+   "key": "gamezone與gloc9發表tarag音樂錄影帶延伸卡牌遊戲活動|",
+   "date": "2026-11-18",
+   "cat": "cat4",
+   "title": "GameZone 與 Gloc-9 發表 Tara G! 音樂錄影帶，延伸卡牌遊戲活動",
+   "gp": ""
+  },
+  {
+   "key": "gamingcorpscoo老虎機創新不一定要重新發明輪子玩家是習慣的動物|",
+   "date": "2026-11-18",
+   "cat": "cat5",
+   "title": "Gaming Corps COO：老虎機創新不一定要重新發明輪子，玩家是習慣的動物",
+   "gp": ""
+  },
+  {
+   "key": "美國博彩協會調查82受訪者認為預測市場應按博彩監管|",
+   "date": "2026-11-18",
+   "cat": "cat5",
+   "title": "美國博彩協會調查：82% 受訪者認為預測市場應按博彩監管",
+   "gp": ""
+  },
+  {
+   "key": "澳門10月博彩稅收約696億澳門元月減17年減14|",
+   "date": "2026-11-18",
+   "cat": "cat5",
+   "title": "澳門 10 月博彩稅收約 69.6 億澳門元，月減 17%、年減 1.4%",
    "gp": ""
   }
  ],

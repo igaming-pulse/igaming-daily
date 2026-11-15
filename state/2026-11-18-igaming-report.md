@@ -1,0 +1,239 @@
+# 🎰 iGaming 市場日報 2026-11-18（週三）
+
+🎰 Slot 2 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
+
+---
+
+## 📌 本日重點
+
+本日必看 Slot 新品：Fender & Bender ClusterBreaker – Relax Gaming
+本日市場趨勢總結：三區訊息指向「監理與規模決定營運重心」。主流區的 Banijay 把 Tipico 併入 Betclic 後，前九個月線上博彩營收逼近 20 億歐元，Evolution 則了結延續近五年的誹謗訴訟，大型業者忙著整併、清理舊帳；市場區的美國博彩協會（American Gaming Association，AGA）調查顯示 82% 受訪者認為預測市場應按博彩監管，澳門 10 月博彩稅收月減 17%，供應端 Gaming Corps 則公開說老虎機創新只剩「窄幅調整」，因為玩家是習慣的動物。菲律賓區今天只有 GameZone 的品牌行銷一則，缺乏營運面的新訊號。對 PM 的意涵：內容端的策略是在熟悉循環上疊小而可感的差異，而不是追求大改版；監理與稅制變數則要提早放進排程。
+
+---
+
+## 🎰 Game Provider 新遊戲
+
+### 01 Fender & Bender ClusterBreaker – Relax Gaming
+
+Relax Gaming 推出撞擊測試假人題材的 5×5 群集老虎機《Fender & Bender ClusterBreaker》，iGamingToday 在 11 月 17 日（台北 11 月 18 日凌晨）刊出評測。玩家可用天花板按鈕在 Fender 與 Bender 兩個角色間切換，兩者倍數運作不同。招牌的 ClusterBreaker 機制在任何一轉都可能發動，把符號拆成 2、3 或 4 塊，再接著連消。這個機制原本是 Stakelogic 的專利玩法，Relax Gaming 在 2025 年取得授權，這是授權機制套在新題材上的又一款。對 PM 的意義：連消之前先「拆符號」讓 Base Game 就有視覺焦點與意外感，是不改核心賠付表又能做出差異的做法，值得拿來對照菲律賓平台偏好的 Base Game 即時回饋。
+
+衍生調整：沿用 Relax Gaming 的 ClusterBreaker 系列（Midnight Marauder ClusterBreaker 之後），新增雙角色專屬倍數。
+
+參數：
+- 廠牌：Relax Gaming
+- 核心機制：-
+- 微創新：隨機把符號拆成 2～4 塊再連消，兩個角色倍數不同
+- 遊戲類型：線上電子老虎機
+- 盤面：5×5
+- 消除/賠付：Cluster Pays（5 個以上相連）、連消
+- 最高倍率：15,000x
+- RTP：96.10%（預設）
+- 波動：高
+- 目標市場：沒有
+- 關鍵特色：Game Modes、Max Win Cash Ladder、Coin Respin Bonus、雙角色 Bonus、Super Bonus、Enhanced Spins、Feature Buy
+
+查證：上線日 SlotsLaunch 未列、評測未寫，上線日未確認；ClusterBreaker 為 Stakelogic 授權機制。
+來源：[iGamingToday](https://www.igamingtoday.com/fender-bender-clusterbreaker-slot-review/) · [SlotsLaunch](https://slotslaunch.com/relax-gaming/fender-bender-clusterbreaker) · [iGaming Business（授權報導）](https://igamingbusiness.com/company-news/relax-gaming-to-license-stakelogics-innovative-clusterbreaker-mechanic/) · 日期：2026-11-18
+圖片：https://www.igamingtoday.com/wp-content/uploads/2026/11/own_games-1e545dfefdd25962623c5dec9854cc53-resized-to-large-1.jpeg
+
+### 02 Rune Beasts! Sharp Peaks – Jinx Gaming
+
+Jinx Gaming 的 7×7 奇幻群集老虎機《Rune Beasts! Sharp Peaks》在 SlotsLaunch 的上線日是 11 月 18 日，iGamingToday 同日刊出評測。盤面左側有七顆帶箭頭的符文石，右側每轉出現一隻不同元素的怪獸；符文會推動「怪獸對戰」，火、水、草等屬性對特定敵人有利。玩法含連消、落下的 Wild、三種 Bonus（Beast Master、Mythical Beast、Mystery Pack）與倍數條，最高 12,500x。對 PM 的意義：把「屬性相剋」做成 Base Game 的對戰回饋，屬於題材專屬的機制，是 Jinx Gaming 想跳出一般群集連消的嘗試，但實際體感需要試玩確認。
+
+衍生調整：《Rune Beasts》系列新作，同日另有 Deep Trenches 版本上線。
+
+參數：
+- 廠牌：Jinx Gaming
+- 核心機制：-
+- 微創新：符文屬性相剋決定怪獸對戰，並累積倍數條
+- 遊戲類型：線上電子老虎機
+- 盤面：7×7
+- 消除/賠付：Cluster Pays（7 個以上相連）、連消
+- 最高倍率：12,500x
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：落下 Wild、三種 Bonus、倍數條、Beast Master Bonus
+
+查證：RTP、波動 iGamingToday 內頁未載，SlotsLaunch 頁未列，其他來源尚未取得。
+來源：[iGamingToday](https://www.igamingtoday.com/rune-beasts-sharp-peaks-slot-review/) · [SlotsLaunch](https://slotslaunch.com/jinx-gaming/rune-beasts-sharp-peaks) · 日期：2026-11-18
+圖片：https://www.igamingtoday.com/wp-content/uploads/2026/11/Screenshot-2026-11-17-172710-resized-to-large-1.jpeg
+
+#### 換皮／資料不足（精簡卡片）
+
+##### Master Baiter – Maxxi Labs
+核心機制：Gates of Olympus 系（代數未確認）
+判定：6×5 Pay Anywhere 連消加倍數，Base Game 與原型相近，差異只在 Bet Booster 與題材
+參數：盤面 6×5｜最高倍率 15,000x｜RTP 未公布
+摘要：Bad Company 工作室的釣魚題材，Roobet 先行、11/18 全面上線。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/11/17/53703/maxxi-labs-launches-bad-company-slot-master-baiter-with-roobet-exclusive/) · [G3 Newswire](https://g3newswire.com/maxxi-labs-make-a-major-splash-with-master-baiter/) · 日期：2026-11-17
+圖片：https://eegaming.org/api/eeg-media/8b11cd3a-f9df-42ed-8734-26eece44cddf.jpg
+
+##### Santa's Workshop – Million Games
+核心機制：-
+判定：Expanding Wild 為通用玩法，Toy Upgrades 只在 Free Spins，換皮聖誕題材
+參數：盤面 未公布｜最高倍率 未公布｜RTP 未公布
+摘要：Million Games 的聖誕老人工坊題材，10 次免費旋轉內逐步升級符號。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/11/17/53698/million-games-launches-santa-s-workshop-christmas-themed-online-slot/) · [SlotsLaunch](https://slotslaunch.com/million-games/santas-workshop) · 日期：2026-11-17
+圖片：https://eegaming.org/api/eeg-media/843a2ddb-fe98-4d92-854a-462c874f03c3.jpg
+
+##### 📦 近期新作（11/12 首見）Sexbomb Shane – OMNIPLAY（尊博）
+核心機制：未確認
+判定：官網只有宣傳標語（Full-reel Wild、倍數、三重彩金），參數與玩法細節未公布
+參數：盤面 未公布｜最高倍率 未公布｜RTP 未公布
+摘要：OMNIPLAY 官網 11/12 上線的新作，頁面僅見乘倍與彩金標語。
+來源：[OMNIPLAY 官網](https://www.omniplaygaming.com/games-detail/93) · 日期：2026-11-12
+圖片：https://www.omniplaygaming.com/upload/catalog_list_pic/261111SexBombShane_logo__26K11wtl0T.png
+
+## 🕹️ 非 Slot 新內容
+
+### 01 Wild Lion Reel Crash – Ready Play Gaming
+
+Ready Play Gaming 在 11 月 17 日推出《Wild Lion Reel Crash》，是 Reel Crash 系列的第二款，同時提供約 10MB 的迷你版給非洲營運商。玩法是在既有的 Wild Lion 老虎機上疊一層 Crash：每轉累積星星，玩家選擇繼續轉或兌現；綠色方塊會把星星合併成更大的收集值，紅色方塊則讓這一輪崩盤。三個 Scatter 觸發免費旋轉，鑽石符號會把高賠符號變成 Wild。標準版約 100MB，迷你版解決慢速行動網路下載門檻。對 PM 的意義：Crash 疊在熟悉老虎機上，等於用既有內容低成本切入 Crash 客群，且小檔案版本是新興市場的實際通路優勢。
+
+衍生調整：在 Wild Lion（Reel Bingo、Reel Triple 版）加上 Crash 層；系列首款為 7 月的 Blaz'n Buffalo Reel Crash。
+
+參數：
+- 遊戲類型：其他類型遊戲（Slot 疊加 Crash 玩法）
+- 最高倍率：未公布
+- RTP：未公布
+- 目標市場：非洲
+- 關鍵特色：星星收集後選擇兌現或繼續、綠方塊合併收集值、約 10MB 迷你版
+
+查證：最高倍率與 RTP 新聞稿未載。
+來源：[G3 Newswire](https://g3newswire.com/ready-play-gaming-builds-10mb-wild-lion-reel-crash-slot-for-africa/) · [SoloAzar](https://soloazar.com/es/categoria/slots/ready-play-gaming-crea-una-slot-de-10mb-para-africa) · 日期：2026-11-17
+圖片：https://g3newswire.com/wp-content/uploads/2026/11/WildLionReelCrash-e1794906018530.jpg
+
+### 02 Incentive Studios 經 Betty Gaming 在加拿大推出五款 Crash 與街機遊戲
+
+Incentive Studios 與 Betty Gaming 合作，把五款真錢遊戲帶到加拿大阿爾伯塔省與安大略省：Squid Game Red Light Green Light Cashout、Squid Game Glass Bridge、Kicker、MEGA Flight 與 Velocity。新聞稿寫上線日為 9 月 16 日，與 11 月 17 日發稿相隔兩個月，日期以原文為準。Incentive Games 商務長 Ahmed Baker 表示這是擴大北美版圖的一步，Betty Gaming 則稱 Crash 與街機風格可增加遊戲多樣性。對 PM 的意義：加拿大兩省同步開放真錢小遊戲，授權 IP（魷魚遊戲）型 Crash 是北美通路的可參考做法。
+
+衍生調整：全新款，無衍生。
+
+參數：
+- 遊戲類型：其他類型遊戲（Crash／街機）
+- 目標市場：加拿大（阿爾伯塔、安大略）
+- 關鍵特色：魷魚遊戲題材的兌現型玩法、Crash 與街機混合組合
+
+來源：[EEGaming](https://eegaming.org/latest-news/2026/11/17/53712/incentive-studios-rolls-out-five-crash-and-arcade-titles-with-betty-in-alberta-and-ontario/) · [G3 Newswire](https://g3newswire.com/incentive-studios-partners-with-betty-gaming-to-launch-games-in-alberta-and-ontari/) · 日期：2026-11-17
+圖片：https://eegaming.org/api/eeg-media/3039df34-ac55-4828-b9b0-c6c3771f3f34.jpg
+
+## 🤝 動態：主流 GP／平台
+
+### 01 Banijay 前九個月線上博彩營收近 20 億歐元，Tipico 已完全併入 Betclic
+
+Banijay Group 公布前九個月運動博彩與線上博彩營收 19.8 億歐元，以可比基準年增 12.7%，第三季單季年增 18.1%；EGR Intel 報導 Banijay Gaming 第三季營收 7.78 億歐元，Tipico 已完全整合。德國龍頭 Tipico 在 4 月完成收購，與法國龍頭 Betclic 合併後成為歐陸規模最大的博彩集團之一，世界盃決賽階段是主要成長動能，運動博彩營收年增 16.1%。執行長 François Riahi 稱第三季「強勁加速」，接下來重點在整合執行。iGaming Business 另指債務倍增、九個月營收年增 34%（含併購）。對 PM 的意義：德法兩大市場合併後的內容採購與產品決策會更集中，供應商要留意單一買家議價力提高。
+
+重點：類型 財務 ｜ 對象 Banijay Group、Betclic、Tipico ｜ 影響 德法龍頭合併，歐陸線上博彩集中度提高
+
+查證：各媒體數字略有差異（19.8 億歐元／近 20 億歐元），以 SBC News 與 Banijay 帳目為準；債務與年增率為含併購口徑。
+來源：[SBC News](https://sbcnews.co.uk/sportsbook/2026/11/17/banijay-betclic-tipico-2/) · [EGR Intel](https://www.egr.global/intel/news/banijay-gaming-reports-q3-revenue-of-e778m-with-tipico-now-fully-integrated/) · [Gaming Intelligence](https://www.gamingintelligence.com/finance/238775-banijays-online-betting-and-gaming-revenue-nears-e2-billion-in-9m-2026/) · [iGaming Business](https://igamingbusiness.com/finance/banijays-nine-month-revenue-rises-acquisitions-debt-more-doubles/) · 日期：2026-11-17
+圖片：https://resources.sbcnews.co.uk/sbcnews/2026/03/Banijay-Group.jpg
+
+### 02 Evolution 在紐澤西法院開庭前與律師事務所和解，撤回誹謗訴訟
+
+Evolution 與 Calcagni & Kanefsky LLP 達成庭外和解，並撤銷 2021 年 12 月提起的誹謗訴訟，原本即將在紐澤西法院開庭。EGR Intel 報導了這起訴訟的結案。和解條件未公開。對 PM 的意義：Evolution 在美國的訴訟風險降低一項，對與其合作的營運商與平台，是少一個聲譽與法務不確定因素。
+
+重點：類型 提告 ｜ 對象 Evolution、Calcagni & Kanefsky LLP ｜ 影響 延續近五年的誹謗訴訟庭外和解
+
+查證：和解金額與條款原文未載。
+來源：[EGR Intel](https://www.egr.global/intel/news/evolution-settles-defamation-claim-against-law-firm-prior-to-new-jersey-court-hearing/) · 日期：2026-11-18
+圖片：https://www.egr.global/intel/wp-content/uploads/sites/2/2026/09/GettyImages-1483489085-700x467.jpg
+
+### 03 Entain 關閉免費遊戲產品 Seven，受影響職位屬夏季宣布的 500 個裁員範圍
+
+EGR Intel 獨家報導：Ladbrokes 與 Coral 的母公司 Entain 做出「艱難決定」，關閉免費玩的 Seven 產品；因此受影響的職位，屬於夏季宣布可能裁減的 500 個職位之內。原文為付費內容，細節只取到摘要。對 PM 的意義：大型營運商在縮減非核心的免費遊戲實驗，免費玩產品的商業模式在英國仍難以獨立撐起。
+
+重點：類型 人事 ｜ 對象 Entain、Ladbrokes、Coral ｜ 影響 免費遊戲產品關閉，併入既有裁員計畫
+
+查證：原文為付費內容，僅取得摘要，單一來源，敘述保守處理。
+來源：[EGR Intel](https://www.egr.global/intel/news/exclusive-entain-makes-difficult-decision-to-shutter-free-to-play-seven-product/) · 日期：2026-11-17
+圖片：https://www.egr.global/intel/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-17-155048.png
+
+### 04 Gaming Corps 以 30 款老虎機進入義大利 Stanleybet.it
+
+瑞典內容商 Gaming Corps 在義大利持牌營運商 Stanleybet.it 上架，一次提供 30 款老虎機，主打 Mega Mammoth、3 Pigs of the Caribbean 與足球題材 Penalty Champion。Gaming Corps 成立於 2014 年，目錄逾 100 款，功能含 Hold & Win、Bonus Pot、收集玩法與可升級的免費旋轉。同日 Gaming Intelligence 報導其第三季淨營收年增 130% 至 2,920 萬瑞典克朗。對 PM 的意義：中小型內容商靠單一營運商一次上架大量目錄進入新市場，是義大利市場的常見路徑。
+
+重點：類型 合作 ｜ 對象 Gaming Corps、Stanleybet.it ｜ 影響 以 30 款老虎機登陸義大利持牌站點
+
+來源：[AGIMEG](https://www.agimeg.it/stanleybet-nuovo-provider-gaming-corps-video-slot/) · [JAMMA](https://www.jamma.it/mercato/stanleybet-it-nuovo-provider-le-video-slot-di-gaming-corps-entrano-nellofferta-casino-del-sito-362834) · [Gaming Intelligence](https://www.gamingintelligence.com/finance/238743-gaming-corps-sees-revenue-soar-130-in-third-quarter/) · 日期：2026-11-17
+圖片：https://www.jamma.it/wp-content/uploads/2026/11/sm_gaming_corp.jpg
+
+## 🇵🇭 動態：菲律賓 GP／平台
+
+### 01 📦（11/16）GameZone 與 Gloc-9 發表 Tara G! 音樂錄影帶，延伸卡牌遊戲活動
+
+DigiPlus 旗下線上遊戲平台 GameZone 與菲律賓饒舌歌手 Gloc-9，在 11 月 16 日於 McKinley Hill 的活動場地首映官方歌曲《Tara G!》的音樂錄影帶。歌曲已在 10 月 30 日全球上架，是 GameZone「Tara G! Sama Tayo!」活動的主題曲，訴求以卡牌遊戲串連親友聚會；影片以越接越長的吉普尼為意象。對 PM 的意義：GameZone 以在地文化代言與音樂做卡牌遊戲（Tongits、Pusoy 類）品牌，與 BingoPlus、ArenaPlus 的運動代言形成分工，屬於品牌端而非產品端的動作。
+
+重點：類型 運營活動 ｜ 對象 GameZone、Gloc-9 ｜ 影響 以在地音樂強化卡牌遊戲品牌
+
+查證：原文未提及遊戲內新功能；活動屬品牌行銷稿。
+來源：[BusinessWorld](https://bworldonline.com/spotlight/2026/11/16/794212/gloc-9-and-gamezone-premiere-tara-g-music-video-bringing-filipino-samahan-to-life-aboard-the-longest-jeepney/) · 日期：2026-11-16
+圖片：http://bworldonline.com/wp-content/uploads/2026/11/GameZone-main-photo.jpg
+
+## 📊 市場數據 & 趨勢
+
+### 01 Gaming Corps COO：老虎機創新不一定要重新發明輪子，玩家是習慣的動物
+
+Gaming Corps 營運長 Alex Lorimer 接受 EEGaming 專訪，談創新與商業表現的平衡。他說公司早期靠非傳統題材求生，轉向受監理市場後觀眾更傳統，創新範圍因此「變窄」：把玩家想要的東西做出自己的空間，需要突破時才在非傳統領域拉高風險。他也舉例，老虎機這類產品二十年來核心幾乎沒變，製作水準提升也算創新，但核心玩法沒有前進。對 PM 的意義：受監理市場的主流策略是在熟悉循環上疊小差異，與本日 Fender & Bender 的做法一致；想突破則要鎖定非傳統客群。
+
+重點：類型 趨勢 ｜ 對象 Gaming Corps ｜ 影響 受監理市場的老虎機創新走向窄幅微調
+
+來源：[EEGaming](https://eegaming.org/latest-news/2026/11/17/53707/gaming-corps-on-why-slot-innovation-isn-t-always-about-reinventing-the-wheel/) · 日期：2026-11-17
+圖片：https://eegaming.org/api/eeg-media/4eabe9fb-6607-49a9-86e3-ca40c2e08059.jpg
+
+### 02 美國博彩協會調查：82% 受訪者認為預測市場應按博彩監管
+
+美國博彩協會（American Gaming Association，AGA）最新「American Attitudes」調查顯示，82% 美國人認為透過預測市場提供的運動投注應按博彩而非金融商品監管，民主黨 84%、共和黨 82%、獨立選民 80%；75% 認為預測市場運動投注與傳統運動博彩本質相同。AGA 執行長 Bill Miller 批評業者把運動投注包裝成投資，尤其對年輕族群行銷。對 PM 的意義：預測市場的監管歸屬仍是美國變數，博彩業者的遊說論述有民調支撐，產品設計要預留合規彈性。
+
+重點：類型 趨勢 ｜ 對象 美國博彩協會、預測市場 ｜ 影響 民調支持預測市場適用博彩規範
+
+來源：[Yogonet](https://www.yogonet.com/international/news/2026/11/17/127329-aga-survey-finds-82-of-americans-want-prediction-markets-regulated-as-gambling) · [G3 Newswire](https://g3newswire.com/aga-survey-finds-overwhelming-bipartisan-agreement-that-prediction-markets-are-gambling/) · [iGaming Business](https://igamingbusiness.com/prediction-markets/aga-finds-82-americans-want-prediction-market-regulated-gambling/) · 日期：2026-11-17
+圖片：https://imagenesyogonet.b-cdn.net/data/imagenes/2025/01/22/71823/1737560880-ice-barcelona-2025-1-27-bill-miller-aga.jpg
+
+### 03 澳門 10 月博彩稅收約 69.6 億澳門元，月減 17%、年減 1.4%
+
+澳門財政局數據顯示，前 10 個月博彩稅收近 815.3 億澳門元，達全年目標 925.3 億澳門元的 88.1%。10 月單月稅收約 69.6 億澳門元，比 9 月的 83.9 億減 17%，也比 2025 年 10 月減 1.4%。10 月稅收主要對應 9 月賭收（181 億澳門元，年減 1.2%）。截至 10 月底累計博彩毛收入約 2,088 億澳門元，達全年預測 2,360 億的 88.5%，行政長官侯國輝表示沒有調整預測的計畫。對 PM 的意義：澳門全年達標壓力不大，但單月年減代表高基期下的成長趨緩，與賭收與稅收有時間差，解讀要對應月份。
+
+重點：類型 財務 ｜ 對象 澳門政府、澳門賭場 ｜ 影響 前 10 個月稅收達標 88%，10 月單月年減 1.4%
+
+查證：稅收（10 月入帳）對應 9 月賭收，兩者期間不可直接比較。
+來源：[Yogonet](https://www.yogonet.com/international/news/2026/11/17/127302-macau-gaming-tax-revenue-falls-17-in-october-despite-yeartodate-growth) · 日期：2026-11-17
+圖片：https://imagenesyogonet.b-cdn.net/data/imagenes/2024/07/24/66344/1721823697-macau-vista-generica.jpg
+
+---
+
+本日日報查詢約 45 個網站，其中提取 32 個資料來源並進行交叉比對
+
+---
+
+## 🗓️ 來源日期紀錄（內部，不渲染）
+
+收集時間窗：harvest 檔頭 2026-11-17 02:30 ～ 2026-11-18 02:30（台北）；Claude 實際開跑約 02:32。
+
+・Fender & Bender ClusterBreaker：iGamingToday metadata 2026-11-17T17:47Z＝11/18 01:47 台北；SlotsLaunch 頁（無上線日）
+・Rune Beasts Sharp Peaks：iGamingToday metadata 2026-11-17T17:48Z＝11/18 01:48 台北；SlotsLaunch 上線日 11/18
+・Master Baiter：EEGaming metadata 2026-11-17T09:14Z＝17:14 台北；G3 11/17 17:32 台北
+・Santa's Workshop：EEGaming metadata 2026-11-17T07:33Z＝15:33 台北；SlotsLaunch 上線日 11/17
+・Sexbomb Shane（庫存，官網）：OMNIPLAY 官網上線日 11/12（v3.6 官網新作可當主來源）
+・Wild Lion Reel Crash：G3 metadata 2026-11-17T09:00Z＝17:00 台北；SoloAzar 11/17 20:00 台北
+・Incentive Studios × Betty：EEGaming metadata 2026-11-17T10:59Z＝18:59 台北；G3 11/17 21:00 台北
+・Banijay：SBC News metadata 2026-11-17T10:15Z＝18:15 台北；EGR 18:59；iGB 18:36；Gaming Intelligence 22:40（台北）
+・Evolution 和解：EGR metadata 2026-11-17T17:45Z＝11/18 01:45 台北
+・Entain Seven：EGR metadata 2026-11-17T15:48Z＝23:48 台北
+・Gaming Corps × Stanleybet.it：AGIMEG metadata 2026-11-17T11:25Z＝19:25 台北；JAMMA 19:18；Gaming Intelligence 19:23
+・GameZone Tara G!（庫存，菲律賓）：BusinessWorld metadata 2026-11-16T07:49Z＝15:49 台北
+・Gaming Corps 專訪：EEGaming metadata 2026-11-17T09:45Z＝17:45 台北
+・AGA 調查：Yogonet RSS 11/17 21:26 台北；G3 16:34；iGB 11/18 00:26
+・澳門稅收：Yogonet RSS 11/17 21:31 台北（頁面 metadata 為 -03:00 13:31，採 RSS）
+
+剔除與判斷：
+・剔除：Phoenix Frenzy Triple Win – Play'n GO（官網日期 11/19，主來源不在窗內，且 11/16 特別版查證未通過；留庫存）
+・剔除：Double Mummy's Jewels 1000 – Pragmatic Play（上線日 11/19，無窗內主來源與官方參數，留庫存）
+・剔除：Zeus vs Hades POP、Eureka Legends、Mighty Huntsman、Xmas Dreams、Marlin Masters: Frozen Frenzy（11/16 或 11/17 已收，近 3 天去重）
+・剔除：Black Friday Madness – BGaming（SlotsLaunch 11/18 但無新聞稿與參數，WebSearch 查無來源）
+・剔除：Casino Plus × Evolution（GGRAsia 11/17 稿與 11/16 已收為同一事件，無新進展）
+・剔除：BetConstruct AI SPiCE 展位預告（展會 11/12–13 已結束）
+・剔除：Hacksaw Gaming 經 EveryMatrix 上線 ATG（11/17 已入庫存，本日 cat3 已滿 4 則，保留庫存）
+・EEZE：窗內與搜尋均無新消息（最近 10/20 BetConstruct AI 分銷），依例外「連續 3 天無 EEZE 消息」跳過
+・各卡片核心機制判斷：Fender & Bender、Rune Beasts 無表上原型，核心寫 -，Base Game 有新玩法，判第二級；Master Baiter 對到 Gates of Olympus 系但無 Base Game 差異，判第三級
