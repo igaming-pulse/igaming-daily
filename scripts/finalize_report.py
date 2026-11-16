@@ -170,9 +170,7 @@ def prototypes():
         txt = open(os.path.join(ROOT, "docs", "slot-prototypes.md"), encoding="utf-8").read()
     except OSError:
         return []
-    sec = txt.split("## 一、", 1)[-1].split("\n## ", 1)[0]
-    rows = [r for r in sec.splitlines() if r.startswith("| ") and not r.startswith("| 原型") and not r.startswith("|---")]
-    return [r.split("|")[1].strip() for r in rows]
+    return R.prototype_names(txt)
 
 
 def check_tier_fields(it, w, qa):

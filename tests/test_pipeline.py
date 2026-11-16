@@ -380,6 +380,12 @@ class TestAsiaProviders(unittest.TestCase):
         self.assertEqual(got.get("Queen Of Inca 2 — FA CHAI"), "2026-08-12")
         self.assertTrue(all(i["url"].startswith("https://fachaigaming.com/en/news/game/") for i in out))
 
+    def test_prototype_list(self):
+        names = F.prototypes()
+        self.assertIn("Fortune Tiger", names)
+        self.assertIn("Super Ace", names)
+        self.assertNotIn("3x3 小盤面", names)     # 玩法大類表不能混進原型清單
+
     def test_brand_lists(self):
         import build_slot_db as DB
         self.assertEqual(DB.brand_b("OMNIPLAY（尊博）"), 6)

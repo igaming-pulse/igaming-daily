@@ -31,10 +31,11 @@
 | Golden Empire | Golden Empire（JILI） | 消除＋金框變 Wild | Golden Empire 2 |
 | Poker Win | Poker Win（FaChai） | 全盤計分＋倍數 | POKER WIN 2 |
 | Lucky Neko | Lucky Neko（PG Soft） | 消除＋金框變 Wild | — |
+| Fortune Tiger | Fortune Tiger（PG Soft） | 3x3 小盤面 | PG Soft 同系列 Fortune Ox、Fortune Mouse、Fortune Rabbit、Fortune Dragon；Tiger Charms（Spinomenal 仿作）。2026-11-16 使用者指定加入（不在 Top200 分頁的原型名單上） |
 
 **同機制但不在表上的泛用玩法**（不是「主流原型」，核心機制欄寫「-」，可在微創新描述）：
 一般 Megaways、Book of 系列擴張符號、Hold & Win／Hold the Jackpot、Cluster Pays、xWays 等。
-例外：如果明顯仿某個表上原型（例如 3x3＋右側倍數輪 → Fortune Gems；全盤計分＋倍數球 → Gates of Olympus／Sweet Bonanza），就對到該原型。
+例外：如果明顯仿某個表上原型（例如 3x3＋右側倍數輪 → Fortune Gems；3x3＋隨機選定單一符號重轉到滿盤給倍數 → Fortune Tiger；全盤計分＋倍數球 → Gates of Olympus／Sweet Bonanza），就對到該原型。
 
 ### 玩法大類（判斷要對到哪個原型時參考）
 
@@ -43,7 +44,7 @@
 | 消除＋金框變 Wild | Ways 或連線計分，中獎消除補落；金框／金色符號參與中獎後變 Wild，多數搭配連消遞增倍數 | Super Ace、Mahjong Ways、Wild Bounty Showdown、Pinata Wins、Sugar Bang Bang |
 | Ways 消除＋倍數累積 | Ways／Megaways，中獎消除補落，靠倍數符號、軸倍數或連消倍數放大，沒有金框 | Queen of Inca |
 | 全盤計分＋倍數 | 同符號 8 個以上即中（Scatter Pays／Pay Anywhere）或 Cluster，消除補落並搭配倍數符號 | Sweet Bonanza、Gates of Olympus、Sugar Rush、Poker Win |
-| 3x3 小盤面 | 3x3 或 1x3 小盤面、1～5 條線，右側一軸倍數輪或特殊軸 | Fortune Gems、Money Coming、Lucky Jaguar |
+| 3x3 小盤面 | 3x3 或 1x3 小盤面、1～5 條線，右側一軸倍數輪或特殊軸；或隨機觸發單一符號重轉、滿盤給倍數 | Fortune Gems、Money Coming、Lucky Jaguar、Fortune Tiger |
 | 金幣收集／Hold & Respin | 金幣／獎金符號鎖定重轉，或收集符號收走盤面金幣 | Fortune Coins |
 | 傳統連線＋Free Game | 固定線數或 243 Ways，沒有消除與倍數累積，特色集中在 Free Game | Chinese New Year |
 

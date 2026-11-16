@@ -53,6 +53,20 @@ def spec_get(it, key):
     return next((v for k, v in it.get("spec") or [] if k == key), None)
 
 
+def prototype_names(txt):
+    """docs/slot-prototypes.md「一、主流原型」第一張表的第一欄（只讀第一張表，不含下面的玩法大類表）。"""
+    sec = txt.split("## 一、", 1)[-1].split("\n## ", 1)[0]
+    out, started = [], False
+    for r in sec.splitlines():
+        if r.startswith("|"):
+            started = True
+            if not r.startswith("| 原型") and not r.startswith("|---"):
+                out.append(r.split("|")[1].strip())
+        elif started:
+            break
+    return out
+
+
 def slot_tier(it):
     """依參數表的「核心機制」「微創新」推出級別；舊日報沒有這兩欄回傳 None。"""
     mech, innov = spec_get(it, "核心機制"), spec_get(it, "微創新")

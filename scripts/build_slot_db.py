@@ -69,9 +69,7 @@ def protos():
         txt = open(os.path.join(ROOT, "docs", "slot-prototypes.md"), encoding="utf-8").read()
     except OSError:
         return []
-    sec = txt.split("## 一、", 1)[-1].split("\n## ", 1)[0]
-    return [r.split("|")[1].strip() for r in sec.splitlines()
-            if r.startswith("| ") and not r.startswith("| 原型")]
+    return R.prototype_names(txt)
 
 
 def family(mech, plist):

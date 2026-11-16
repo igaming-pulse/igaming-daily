@@ -1682,9 +1682,9 @@
  "tigercharms|spinomenal": {
   "name": "Tiger Charms",
   "gp": "Spinomenal",
-  "mech": "-",
-  "innov": "隨機選定單一符號，只轉該符號與 Wild 持續重轉，滿盤給 x5～x25",
-  "tier": 2
+  "mech": "Fortune Tiger 系（仿作）",
+  "innov": "滿盤倍數由原作固定 x10 改為 x5～x25 隨機",
+  "tier": 1
  },
  "towerruntreasuresteps|playngo": {
   "name": "Tower Run Treasure Steps",
