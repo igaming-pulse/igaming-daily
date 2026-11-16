@@ -19,48 +19,6 @@
   },
   {
    "cat": "cat1",
-   "title": "Ghost Vision",
-   "gp": "Hacksaw Gaming",
-   "b": 3,
-   "first_seen": "2026-10-11",
-   "release_date": "2026-11-19",
-   "sources": [
-    {
-     "name": "iGamingToday",
-     "url": "https://www.igamingtoday.com/ghost-vision-slot-review/",
-     "published": "2026-10-11 02:25"
-    },
-    {
-     "name": "BigWinBoard",
-     "url": "https://www.bigwinboard.com/ghost-vision-hacksaw-gaming-slot-review/",
-     "published": "2026-10-11"
-    }
-   ],
-   "key": "ghostvision|hacksawgaming"
-  },
-  {
-   "cat": "cat1",
-   "title": "Marlin Masters: Frozen Frenzy",
-   "gp": "Hacksaw Gaming",
-   "b": 3,
-   "first_seen": "2026-10-09",
-   "release_date": "2026-11-17",
-   "sources": [
-    {
-     "name": "iGamingToday",
-     "url": "https://www.igamingtoday.com/marlin-masters-frozen-frenzy-slot-review/",
-     "published": "2026-10-09 16:54"
-    },
-    {
-     "name": "SlotsLaunch",
-     "url": "https://slotslaunch.com/hacksaw-gaming/marlin-masters-frozen-frenzy",
-     "published": "2026-10-12 00:00"
-    }
-   ],
-   "key": "marlinmastersfrozenfrenzy|hacksawgaming"
-  },
-  {
-   "cat": "cat1",
    "title": "Rex's 5 Pot Steakhouse",
    "gp": "Play'n GO",
    "b": 4,
@@ -122,69 +80,6 @@
     }
    ],
    "key": "lesantaholdwin|hacksawgaming"
-  },
-  {
-   "cat": "cat1",
-   "title": "Wild Parrot Charms",
-   "gp": "Spinomenal",
-   "b": 3,
-   "first_seen": "2026-11-12",
-   "sources": [
-    {
-     "name": "SlotsLaunch",
-     "url": "https://slotslaunch.com/spinomenal/wild-parrot-charms",
-     "published": "2026-11-12"
-    }
-   ],
-   "key": "wildparrotcharms|spinomenal"
-  },
-  {
-   "cat": "cat1",
-   "title": "Phoenix Frenzy Triple Win",
-   "gp": "Play'n GO",
-   "b": 4,
-   "first_seen": "2026-11-16",
-   "release_date": "2026-11-19",
-   "sources": [
-    {
-     "name": "Play'n GO",
-     "url": "https://www.playngo.com/games/phoenix-frenzy-triple-win",
-     "published": "2026-11-19 00:00"
-    }
-   ],
-   "key": "phoenixfrenzytriplewin|playngo"
-  },
-  {
-   "cat": "cat1",
-   "title": "Xmas Dreams",
-   "gp": "Yggdrasil",
-   "b": 6,
-   "first_seen": "2026-11-16",
-   "release_date": "2026-11-18",
-   "sources": [
-    {
-     "name": "SlotsLaunch",
-     "url": "https://slotslaunch.com/yggdrasil-gaming/xmas-dreams",
-     "published": "2026-11-18 00:00"
-    }
-   ],
-   "key": "xmasdreams|yggdrasil"
-  },
-  {
-   "cat": "cat1",
-   "title": "Mighty Huntsman",
-   "gp": "Red Tiger Gaming",
-   "b": 4,
-   "first_seen": "2026-11-16",
-   "release_date": "2026-11-18",
-   "sources": [
-    {
-     "name": "SlotsLaunch",
-     "url": "https://slotslaunch.com/red-tiger-gaming/mighty-huntsman",
-     "published": "2026-11-18 00:00"
-    }
-   ],
-   "key": "mightyhuntsman|redtigergaming"
   }
  ],
  "others": [
@@ -3816,6 +3711,34 @@
    "cat": "cat5",
    "title": "巴西禁令滿月：10 月欠款人數創新高達 7,555 萬人",
    "gp": ""
+  },
+  {
+   "key": "xmasdreams|yggdrasil",
+   "date": "2026-11-16",
+   "cat": "cat1",
+   "title": "Xmas Dreams",
+   "gp": "Yggdrasil"
+  },
+  {
+   "key": "mightyhuntsman|redtigergaming",
+   "date": "2026-11-16",
+   "cat": "cat1",
+   "title": "Mighty Huntsman",
+   "gp": "Red Tiger Gaming"
+  },
+  {
+   "key": "marlinmastersfrozenfrenzy|hacksawgaming",
+   "date": "2026-11-16",
+   "cat": "cat1",
+   "title": "Marlin Masters: Frozen Frenzy",
+   "gp": "Hacksaw Gaming"
+  },
+  {
+   "key": "ghostvision|hacksawgaming",
+   "date": "2026-11-16",
+   "cat": "cat1",
+   "title": "Ghost Vision",
+   "gp": "Hacksaw Gaming"
   }
  ],
  "rejected": [
@@ -3841,6 +3764,18 @@
    "date": "2026-11-05",
    "title": "Swintt Wrap 'N' Roll (Elysium Studios)",
    "gp": "Swintt",
+   "reason": "特別版查證未通過（找不到真實原文或確認不了遊戲存在）"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "Phoenix Frenzy Triple Win",
+   "gp": "Play'n GO",
+   "reason": "特別版查證未通過（找不到真實原文或確認不了遊戲存在）"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "Wild Parrot Charms",
+   "gp": "Spinomenal",
    "reason": "特別版查證未通過（找不到真實原文或確認不了遊戲存在）"
   }
  ]

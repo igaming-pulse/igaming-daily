@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-16",
+ "md": "state/2026-11-16-special-igaming-report.md",
+ "html": "reports/2026-11-16-special.html",
+ "items": 6,
+ "counts": {
+  "cat1": 6
+ },
+ "links": {
+  "checked": 18,
+  "ok": 17,
+  "broken": 0,
+  "blocked": 1,
+  "images_dropped": 0,
+  "images": 6
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-101 Phoenix Frenzy Triple Wi｜來源連結無法自動驗證（403，多半是網站擋機器人）：Sigma https://sigma.world/play/games/playn-go/phoenix-frenzy-triple-win/"
+ ],
+ "fixes": [
+  "文末｜資料來源數 10 → 12（程式依來源連結去重計算）"
+ ]
+}

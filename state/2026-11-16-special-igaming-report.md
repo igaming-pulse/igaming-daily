@@ -1,0 +1,138 @@
+# 🎰 iGaming 市場日報 2026-11-16（週一）特別版
+
+🎰 Slot 4 ・ 🕹️ 非 Slot 0 ・ 🤝 主流 0 ・ 🇵🇭 菲律賓 0 ・ 📊 市場數據 0
+
+---
+
+## 🎰 Game Provider 新遊戲
+
+### 01 Xmas Dreams – Yggdrasil
+🆕 新作預告（11/18 上線）
+
+Yggdrasil 的聖誕新作 Xmas Dreams 訂 11 月 18 日上線，官網遊戲頁已公布完整規格：6 軸 8 列的大盤面，聖誕樹上掛滿包裝好的禮物，每次中獎就拆開樹上的禮物並送一次重轉；禮物全部拆完後進入收集星星階段，集滿 5 顆紅星多一條命、5 顆金星會有玩具火車開過把隨機一整列變成 Wild（保留到參與中獎為止）、每 5 顆藍星讓倍數加 1。命用完後禮物重新包起來、循環重來。最高 5,500 倍（上限 55 萬歐元），RTP 預設 96%，另有 94%、92%、90.5% 版本，中高波動，命中率 19.52%。目前沒有新聞稿，資訊來自官網與 SlotsLaunch。對 PM 的意義：整套「拆禮物→重轉→收集→生命值」都在 Base Game 發生，沒有傳統 Free Game，屬於進度條加生命值的循環設計，可列入年底檔期的節慶款比較清單。
+
+衍生調整：全新 IP，無衍生。
+
+參數：
+- 廠牌：Yggdrasil
+- 核心機制：-
+- 微創新：中獎拆開聖誕樹禮物並重轉，拆完後收集三色星星
+- 遊戲類型：線上電子老虎機
+- 盤面：6 軸 × 8 列
+- 消除/賠付：All Ways（SlotsLaunch 標示）、中獎觸發重轉
+- 最高倍率：5,500x
+- RTP：96%（另有 94%、92%、90.5% 版本）
+- 波動：中高
+- 目標市場：沒有
+- 關鍵特色：拆禮物重轉、紅星加命、金星整列 Wild、藍星累積倍數、生命值用完重置
+
+查證：無新聞稿；上線日 11/18 取自 Yggdrasil 官網與 SlotsLaunch，日期欄記 SlotsLaunch 上線日曆首見日 11/16。
+來源：[Yggdrasil 官網](https://yggdrasilgaming.com/games/xmas-dreams) · [SlotsLaunch](https://slotslaunch.com/yggdrasil-gaming/xmas-dreams) · 日期：2026-11-16
+圖片：https://assets.slotslaunch.com/113274/xmas-dreams.jpg
+
+### 02 Mighty Huntsman – Red Tiger Gaming
+🆕 新作預告（11/18 上線）
+
+Red Tiger 的 Mighty Huntsman 訂 11 月 18 日全面上線，官網標示 11 月 11 日起已開放獨家搶先玩。遊戲為 5×5 盤面、15 條線，主軸是「準星」符號：落下準星就送一次保證出現 Wild 的重轉，一次最多 5 個準星、對應 5 個 Wild。Wild 參與中獎時會擴展成整軸，獵人會開 1 到 3 槍，射中靶子就替 Wild 加上 2 倍到 100 倍的倍數，多槍相加、多個 Wild 的倍數也相加。3 個 Scatter 給 10 次免費旋轉，內含 6 級進度（每 5 顆子彈升一級，逐級保證更多準星）；2 個 Scatter 加 1 個 Super Scatter 則從第 2 級開始。最高 15,000 倍、RTP 96.05%、命中率 20.24%，支援購買功能，投注 €0.10 至 €500。對 PM 的意義：重轉加擴展倍數 Wild 在 Base Game 就看得到，回饋直接，是可以觀察的大廠原創款。
+
+衍生調整：全新 IP，無衍生。
+
+參數：
+- 廠牌：Red Tiger Gaming
+- 核心機制：-
+- 微創新：準星符號送保證 Wild 重轉，獵人射擊替 Wild 加倍數
+- 遊戲類型：線上電子老虎機
+- 盤面：5×5
+- 消除/賠付：15 條線
+- 最高倍率：15,000x
+- RTP：96.05%
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：準星重轉、擴展 Wild 加 2x～100x 倍數、6 級免費旋轉、Super Free Spins、購買功能
+
+查證：無新聞稿；日期取自 Red Tiger 官網「獨家搶先玩 11/11」，全面上線日 11/18；波動官網未標示。
+來源：[Red Tiger 官網](https://redtiger.com/games/mighty-huntsman) · [SlotsLaunch](https://slotslaunch.com/red-tiger-gaming/mighty-huntsman) · 日期：2026-11-11
+圖片：https://fan-cdn.nolimitcity.com/mighty_hunstman_rt_fansite_splashpost_2560x820_0cd81afd83.png
+
+### 03 Marlin Masters: Frozen Frenzy – Hacksaw Gaming
+🆕 新作預告（11/17 上線）
+
+Hacksaw Gaming 釣魚系列 Marlin Masters 的第五款 Frozen Frenzy 訂 11 月 17 日上線，主角 Big Bob 這次到結冰的湖面冰釣。盤面 5×3、9 條線，沿用系列的漁夫收集玩法：馬林魚符號帶 1 倍到 1,000 倍的現金值，連成一線形成 LootLine 或被漁夫符號收走時派彩，漁夫最高帶 20 倍。本作的差異是盤面上方多了一排冰凍馬林魚，必須由專屬的「冰釣漁夫」符號敲開冰層才能收走；另有 Stone Cold、Ice Breakers、Catch and Relax 三種免費旋轉與購買功能。最高 5,000 倍、RTP 最高 96.37%、中波動，投注 €0.10 至 €200。BigWinBoard 評 6 分，認為這個系列是回應 Pragmatic Play Big Bass 的成功而做。對 PM 的意義：收集類釣魚玩法的疊加式改版，新增的第二層收集目標在 Base Game 就看得到，可當成系列作怎麼加層的參考。
+
+衍生調整：Marlin Masters 系列第五款；相對前作新增盤面上方的冰凍馬林魚列與冰釣漁夫符號，場景改為雪地冰湖。
+
+參數：
+- 廠牌：Hacksaw Gaming
+- 核心機制：-
+- 微創新：盤面上方多一排冰凍馬林魚，須冰釣漁夫才能收走
+- 遊戲類型：線上電子老虎機
+- 盤面：5×3（上方另有一排冰凍魚）
+- 消除/賠付：9 條線、LootLines、漁夫收集現金符號
+- 最高倍率：5,000x
+- RTP：96.37%
+- 波動：中
+- 目標市場：沒有
+- 關鍵特色：馬林魚現金值最高 1,000x、漁夫倍數最高 x20、冰凍馬林魚與冰釣漁夫、三種免費旋轉、購買功能
+
+查證：無新聞稿；上線日 11/17 取自 SlotsLaunch 上線日曆，日期欄記日曆列入日 11/16；評測為 BigWinBoard 10/7、iGamingToday 10/9。
+來源：[SlotsLaunch](https://slotslaunch.com/hacksaw-gaming/marlin-masters-frozen-frenzy) · [BigWinBoard](https://www.bigwinboard.com/marlin-masters-frozen-frenzy-hacksaw-gaming-slot-review/) · [iGamingToday](https://www.igamingtoday.com/marlin-masters-frozen-frenzy-slot-review/) · 日期：2026-11-16
+圖片：https://www.bigwinboard.com/wp-content/uploads/2026/10/Marlin-Masters-Frozen-Frenzy-slot-feat.jpg
+
+### 04 Ghost Vision – Hacksaw Gaming
+🆕 新作預告（11/19 上線）
+
+Hacksaw Gaming 的 Ghost Vision 訂 11 月 19 日上線，題材是黑色行動特種部隊，黑底配螢光綠，是該廠少見的軍事風格。盤面 5×5、35 條線，核心是 SwitchSpins：盤面出現 Ghost Vision 符號時，盤面外的顯示器會選出 1 到 10 種賠付符號，接著重轉並把盤面上所有被選中的符號換成 Wild；重轉中再出現 Ghost Vision 符號就再重轉、再多選幾種符號。3 個 Scatter 進 Operation Black Rain（10 次免費旋轉，Ghost Vision 符號更常出現），4 個 Scatter 進 Project Iron Curtain（被選中的符號整輪保留）。遊戲沒有任何倍數，全盤 Wild 即達最高 10,000 倍；RTP 最高 96.33%、波動 4／5，投注 €0.10 至 €100。BigWinBoard 評 7 分，認為機制有新意。對 PM 的意義：把「符號變 Wild」做成指定符號種類加連續重轉，Base Game 就有明確的視覺焦點，是不靠倍數也能堆張力的做法。
+
+衍生調整：全新 IP，無衍生。
+
+參數：
+- 廠牌：Hacksaw Gaming
+- 核心機制：-
+- 微創新：特殊符號選定最多 10 種符號全變 Wild 再重轉
+- 遊戲類型：線上電子老虎機
+- 盤面：5×5
+- 消除/賠付：35 條線（左至右）
+- 最高倍率：10,000x
+- RTP：96.33%
+- 波動：中高（4／5）
+- 目標市場：沒有
+- 關鍵特色：SwitchSpins 連續重轉、Operation Black Rain、Project Iron Curtain 符號保留、BonusHunt 與 Deep Cover FeatureSpins、購買功能
+
+查證：無新聞稿；上線日 11/19 取自庫存登錄的上線日，日期欄記報告日 11/16；評測為 BigWinBoard 10/9、iGamingToday 10/11。
+來源：[BigWinBoard](https://www.bigwinboard.com/ghost-vision-hacksaw-gaming-slot-review/) · [iGamingToday](https://www.igamingtoday.com/ghost-vision-slot-review/) · 日期：2026-11-16
+圖片：https://www.bigwinboard.com/wp-content/uploads/2026/10/Ghost-Vision-slot-feat.jpg
+
+#### 換皮／資料不足（精簡卡片）
+
+##### 🆕 新作預告（11/19 上線）Phoenix Frenzy Triple Win – Play'n GO
+核心機制：-
+判定：創新只在 Free Game（紫、藍、金三種 Rebirth 免費旋轉可合併），Base Game 只收集光球
+參數：盤面 5 軸、1,024 ways｜最高倍率 各來源不一（Sigma 稱 25,000x、iGamingToday 稱 5,000x）｜RTP 96.20%
+摘要：三顆鳳凰蛋對應三種免費旋轉，可兩兩或三者合併觸發。
+來源：[Play'n GO 官網](https://www.playngo.com/games/phoenix-frenzy-triple-win) · [Sigma](https://sigma.world/play/games/playn-go/phoenix-frenzy-triple-win/) · 日期：2026-11-16
+圖片：https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1124/hero-desktop/0-384cd6297cb0ee49
+
+##### 📦 近期新作（11/12 首見）Wild Parrot Charms – Spinomenal
+核心機制：未確認
+判定：只有 SlotsLaunch 資料庫頁，玩法、倍率、RTP 都未公布，無法判斷
+參數：盤面 3 軸、固定線｜最高倍率 未公布｜RTP 未公布
+摘要：Spinomenal 的鸚鵡動物主題 3 軸新作，11/12 上線、可試玩。
+來源：[SlotsLaunch](https://slotslaunch.com/spinomenal/wild-parrot-charms) · 日期：2026-11-12
+圖片：https://assets.slotslaunch.com/116917/wild-parrot-charms.jpg
+
+---
+
+本日日報查詢約 12 個網站，其中提取 10 個資料來源並進行交叉比對
+
+---
+
+## 🗓️ 來源日期紀錄（內部，不渲染）
+
+- 01 Xmas Dreams：Yggdrasil 官網遊戲頁（Release date 18/11/2026；頁面 JSON-LD 建檔日 2026-10-19）、SlotsLaunch（Release Date November 18, 2026；上線日曆首見 11/16）。日期欄記首見日 11/16，因上線日在未來、定稿檢查不接受未來日期
+- 02 Mighty Huntsman：Red Tiger 官網遊戲頁（Exclusive Early Access 11-11-2026、Release Date 18-11-2026）；SlotsLaunch 上線日 11/18。日期欄記官網搶先玩日 11/11
+- 03 Marlin Masters: Frozen Frenzy：SlotsLaunch 上線日 2026-11-17（上線日曆 11/16 列入）；BigWinBoard 2026-10-07（metadata）；iGamingToday 2026-10-09（metadata）。日期欄記 11/16，因上線日在未來
+- 04 Ghost Vision：庫存登錄上線日 2026-11-19；BigWinBoard 2026-10-09（metadata）；iGamingToday 2026-10-11（harvest）。日期欄記報告日 11/16，因上線日在未來
+- 精簡 Phoenix Frenzy Triple Win：Play'n GO 官網遊戲頁 JSON-LD 2026-11-19（＝官方上線日）；盤面、RTP、最高倍率取自 WebSearch 摘要（Sigma、VegasSlotsOnline、iGamingToday），未逐頁開啟；Sigma 與 iGamingToday 另寫上線日 10/7，與官網 11/19 不一致，採官網。日期欄記 SlotsLaunch／官網日曆首見日 11/16
+- 精簡 Wild Parrot Charms：SlotsLaunch 遊戲頁（Release Date November 12, 2026，頁面無 metadata 日期）；Spinomenal 官網猜測網址 404、未找到官方遊戲頁
+- 分級：四款完整卡片皆為第二級（核心機制不在主流原型清單，Base Game 有新玩法）；無第一級
+- 剔除：無

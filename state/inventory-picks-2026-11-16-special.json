@@ -1,0 +1,25 @@
+{
+ "shown": [
+  {
+   "cat": "cat1",
+   "title": "Xmas Dreams",
+   "gp": "Yggdrasil"
+  },
+  {
+   "cat": "cat1",
+   "title": "Mighty Huntsman",
+   "gp": "Red Tiger Gaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Marlin Masters: Frozen Frenzy",
+   "gp": "Hacksaw Gaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Ghost Vision",
+   "gp": "Hacksaw Gaming"
+  }
+ ],
+ "stock": []
+}
