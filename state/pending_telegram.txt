@@ -1,33 +1,42 @@
-🎰 iGaming 市場日報 2026-11-15（週日）
-🎰 Slot 5 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 2 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-11-16（週一）
+🎰 Slot 4 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・5G Games SUPER GEMS 5000：Fortune Gems 系，倍數落地即收集並 Respin
-・菲律賓區今天無合格新聞（窗內只有重複或業配雜訊）
-・愛爾蘭 2027/4 起強制 1% 營業額基金，歐洲合規成本續升
+・PG Soft Eureka Legends：全盤計分加左側倍數軸，整列填滿才啟動倍數
+・Evolution 考慮讓 Casino Plus 玩家搶先玩新遊戲，並合辦線上線下活動
+・美國數據：賭場遊戲收入仍遠高於運彩，iGaming 年增 27.6%
 
 🎰 Slot 新遊戲
-01 [N+1] 📦 SUPER GEMS 5000 – 5G Games
-02 [原創] 🆕 Gift Rush Merge Up – BGaming（11/19 上線）
-・換皮／資料不足：El Frog X-Mas Cruise、Viva Fiesta、Just Win
+01 [N+1] 📦 Eureka Legends – PG Soft
+02 [原創] 🆕 Zeus vs Hades POP – Pragmatic Play（11/17 上線）
+03 [原創] 📦 Fresh Fruit Deluxe Collect – Swintt
+04 [原創] 📦 Mr. Ferret Heist – Belatra
+・換皮／資料不足：Lucky Fireworks（IGT）、Luxury Feast（BGaming）、3 Piggies Cashout（Spinomenal）、📦 Cypher of Ra（Fantasma Games）、📦 Thanksgiving Riches: Hold & Win（ONLYPLAY）
 
 🕹️ 非 Slot 新內容
-01 📦 義大利線上現金撲克 10 月投注額 2.477 億歐元
-02 📦 義大利線上賓果 10 月投注額 2,309 萬歐元
+01 Avixo – Galaxsys（Crash）
 
 🤝 動態：主流 GP／平台
-01 伊比利美洲彩券協會與 SiGMA 簽合作備忘錄
-02 📦 Amusnet 透過 Eldoradocasino.es 擴大西班牙數位布局
+01 Novomatic 代表辭去 Ainsworth 董事，稱對執行長與董事會失去信心
+02 Betano 要求重談 Flamengo 主贊助，球會可能退還 4,400 萬雷亞爾
+03 惠譽把澳博控股評級降至 B，展望轉為負面
+04 保加利亞委員會支持賭博法草案：近乎全面禁廣告、取消聯盟行銷牌照
+
+🇵🇭 動態：菲律賓 GP／平台
+01 🔁 Evolution 考慮讓 Casino Plus 玩家搶先玩新遊戲
+02 NUSTAR 第三家飯店 Grand Summit 訂 2027/2/23 試營運
+03 巴西總統 Lula 訪馬尼拉，巴西媒體以菲律賓監管模式對照本國禁令
 
 📊 市場數據 & 趨勢
-01 📦 原創機制比高頻換皮更重要：EXCO 進入阿根廷
-02 歐洲博彩協會：成員 2025 年貢獻逾 55 億歐元
-03 愛爾蘭 1% 營業額社會影響基金 2027/4/1 起徵收
+01 賭場遊戲收入仍遠高於運彩：美國 iGaming 2025 年成長 27.6%
+02 澳洲國立大學研究：線上已成澳洲人主要賭博方式
+03 巴西禁令滿月：10 月欠款人數創新高達 7,555 萬人
 
 📝 品質備註（本次爬找判斷）
-1. 週日偏淡：窗內新作只有 BGaming 兩款與 SlotsLaunch 兩款資料不足，第一級僅 SUPER GEMS 5000（5G 官網 11/11，窗外補位）；Marlin Masters、Ghost Vision 主來源超過 7 天保鮮、PG Soft Eureka Legends 查無參數，皆未收。
-2. 🇵🇭 菲律賓區 0 則：Casino Plus × Evolution 與 11/12 Game Night 疑似同事件、DSTPLAY 超過 3 天保鮮，已列剔除；EEZE 無新消息略過。總收錄 12 則（含精簡卡片），BigWinBoard、European Gaming、GiocoNews、SunStar 抓取失敗。
+1. 本窗涵蓋週日，窗內候選 59 則且多為巴西、義大利、日本在地消息；Slot 當日新作只有 SlotsLaunch 日曆條目（3 款無新聞稿、參數未公布），完整卡片 4 款中 3 款為庫存補位、1 款為預告，未湊滿 7 款。
+2. 抓取異常：European Gaming、GiocoNews、BigWinBoard 新作列表三個來源失敗；Hacksaw 兩款庫存（Marlin Masters 11/17、Ghost Vision 11/19）因評測超過 30 天，留待上線日再收。
+3. 非 Slot 只有 Avixo 一則且無參數；EEZE 近 3 天無消息；Casino Plus × Evolution 與 11/12 同一合作，本次以新進展（搶先體驗）標 🔁。
 
 ⚙️ 系統警報
-1. 🟠 Firecrawl 剩 1043 點，照每天約 106 點會在 11/24 用完，撐不到 12/14 重置（還差約 2031 點）
-2. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（30 天）、GiocoNews（16 天）、Casino Life & Business Romania（3 天）；請檢查網址或改抓取方式
+1. 🟠 Firecrawl 剩 1017 點，照每天約 107 點會在 11/25 用完，撐不到 12/14 重置（還差約 1979 點）
+2. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（31 天）、GiocoNews（17 天）；請檢查網址或改抓取方式

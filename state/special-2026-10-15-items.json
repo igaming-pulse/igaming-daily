@@ -1,0 +1,21 @@
+{
+ "date": "2026-10-15",
+ "available": 1,
+ "chosen": [
+  {
+   "cat": "cat1",
+   "title": "Ghost Ship Gold",
+   "gp": "Triple Cherry",
+   "b": 1,
+   "first_seen": "2026-10-15",
+   "sources": [
+    {
+     "name": "Sector del Juego",
+     "url": "https://sectordeljuego.com/2026/10/14/ghost-ship-gold-triple-cherry-se-embarca-en-una-aventura-llena-de-oro-y-misterio/",
+     "published": "2026-10-14 13:58"
+    }
+   ],
+   "key": "ghostshipgold|triplecherry"
+  }
+ ]
+}

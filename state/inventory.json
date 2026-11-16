@@ -140,120 +140,54 @@
   },
   {
    "cat": "cat1",
-   "title": "Mr. Ferret Heist",
-   "gp": "Belatra",
-   "b": 1,
-   "first_seen": "2026-11-13",
-   "sources": [
-    {
-     "name": "iGaming Future",
-     "url": "https://igamingfuture.com/belatra-breaks-out-mr-ferret-heist/",
-     "published": "2026-11-12 16:00"
-    }
-   ],
-   "key": "mrferretheist|belatra"
-  },
-  {
-   "cat": "cat1",
-   "title": "Fresh Fruit Deluxe Collect",
-   "gp": "Swintt",
-   "b": 1,
-   "first_seen": "2026-11-13",
-   "sources": [
-    {
-     "name": "G3 Newswire",
-     "url": "https://g3newswire.com/swintt-serves-up-a-new-batch-of-juicy-wins-in-fresh-fruit-deluxe-collect/",
-     "published": "2026-11-12 18:52"
-    }
-   ],
-   "key": "freshfruitdeluxecollect|swintt"
-  },
-  {
-   "cat": "cat1",
-   "title": "Cypher of Ra",
-   "gp": "Fantasma Games",
-   "b": 1,
-   "first_seen": "2026-11-13",
-   "sources": [
-    {
-     "name": "Fantasma Games",
-     "url": "https://www.fantasmagames.com/fantasma-games-unlocks-the-secrets-of-ancient-egypt-with-cypher-of-ra/",
-     "published": "2026-11-12 17:37"
-    }
-   ],
-   "key": "cypherofra|fantasmagames"
-  },
-  {
-   "cat": "cat1",
-   "title": "Thanksgiving Riches: Hold & Win",
-   "gp": "ONLYPLAY",
-   "b": 1,
-   "first_seen": "2026-11-13",
-   "sources": [
-    {
-     "name": "Focus Gaming News",
-     "url": "https://focusgn.com/onlyplay-thanksgiving-riches-slot",
-     "published": "2026-11-13 19:39"
-    }
-   ],
-   "key": "thanksgivingrichesholdwin|onlyplay"
-  },
-  {
-   "cat": "cat1",
-   "title": "Eureka Legends",
-   "gp": "PG Soft",
+   "title": "Phoenix Frenzy Triple Win",
+   "gp": "Play'n GO",
    "b": 4,
-   "first_seen": "2026-11-10",
+   "first_seen": "2026-11-16",
+   "release_date": "2026-11-19",
    "sources": [
     {
-     "name": "PG Soft 官網",
-     "url": "https://www.pgsoft.com/en/games/206/",
-     "published": "2026-11-10 00:00"
+     "name": "Play'n GO",
+     "url": "https://www.playngo.com/games/phoenix-frenzy-triple-win",
+     "published": "2026-11-19 00:00"
     }
    ],
-   "key": "eurekalegends|pgsoft"
+   "key": "phoenixfrenzytriplewin|playngo"
+  },
+  {
+   "cat": "cat1",
+   "title": "Xmas Dreams",
+   "gp": "Yggdrasil",
+   "b": 6,
+   "first_seen": "2026-11-16",
+   "release_date": "2026-11-18",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/yggdrasil-gaming/xmas-dreams",
+     "published": "2026-11-18 00:00"
+    }
+   ],
+   "key": "xmasdreams|yggdrasil"
+  },
+  {
+   "cat": "cat1",
+   "title": "Mighty Huntsman",
+   "gp": "Red Tiger Gaming",
+   "b": 4,
+   "first_seen": "2026-11-16",
+   "release_date": "2026-11-18",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/red-tiger-gaming/mighty-huntsman",
+     "published": "2026-11-18 00:00"
+    }
+   ],
+   "key": "mightyhuntsman|redtigergaming"
   }
  ],
  "others": [
-  {
-   "cat": "cat3",
-   "title": "Evoplay 經 CasinoBarcelona.es 進入西班牙第二個營運商合作",
-   "sources": [
-    {
-     "name": "European Gaming",
-     "url": "https://europeangaming.eu/portal/press-releases/2026/11/11/217836/evoplay-casinobarcelona-spain-partnership/",
-     "published": "2026-11-11 22:55"
-    }
-   ],
-   "first_seen": "2026-11-12",
-   "key": "evoplay經casinobarcelonaes進入西班牙第二個營運商合作|"
-  },
-  {
-   "cat": "cat4",
-   "title": "DSTPLAY 入圍 SPiCE 年度開發商",
-   "sources": [
-    {
-     "name": "Focus Gaming News",
-     "url": "https://focusgn.com/dstplay-shortlisted-spice-developer-year-2026",
-     "published": "2026-11-11 20:37"
-    }
-   ],
-   "first_seen": "2026-11-12",
-   "key": "dstplay入圍spice年度開發商|"
-  },
-  {
-   "cat": "cat5",
-   "title": "Playtech 在西班牙真人賭場市占逾 70%",
-   "sources": [
-    {
-     "name": "Sector del Juego",
-     "url": "https://sectordeljuego.com/2026/11/11/playtech-supera-el-70-de-cuota-de-mercado-en-el-casino-en-vivo-en-espana/",
-     "published": "2026-11-11 15:12"
-    }
-   ],
-   "first_seen": "2026-11-12",
-   "key": "playtech在西班牙真人賭場市占逾70|"
-  },
   {
    "cat": "cat3",
    "title": "Amusnet 經 Eldoradocasino.es 擴大西班牙數位布局",
@@ -309,135 +243,52 @@
     }
    ],
    "key": "italyonlinecashpokeroctober2026collectioneur2477m|"
+  },
+  {
+   "cat": "cat2",
+   "title": "SplitX",
+   "gp": "SmartSoft Gaming",
+   "b": 1,
+   "first_seen": "2026-11-16",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/smartsoft-gaming/splitx",
+     "published": "2026-11-16 00:00"
+    }
+   ],
+   "key": "splitx|smartsoftgaming"
+  },
+  {
+   "cat": "cat3",
+   "title": "Kalshi 指控路易斯安那州未給正當程序，法院文件顯示情況較複雜",
+   "b": 1,
+   "first_seen": "2026-11-16",
+   "sources": [
+    {
+     "name": "Gambling Insider",
+     "url": "https://www.gamblinginsider.com/news/204008/kalshi-accuses-louisiana-denying-due-process",
+     "published": "2026-11-16 04:16"
+    }
+   ],
+   "key": "kalshi指控路易斯安那州未給正當程序法院文件顯示情況較複雜|"
+  },
+  {
+   "cat": "cat5",
+   "title": "澳門前三季會展帶動非博彩收入年增 12.2% 至 5.14 億美元",
+   "b": 1,
+   "first_seen": "2026-11-16",
+   "sources": [
+    {
+     "name": "Inside Asian Gaming",
+     "url": "https://asgam.com/2026/11/16/macaus-mice-driven-non-gaming-receipts-up-12-2-to-us514-million-in-first-three-quarters-of-2026/",
+     "published": "2026-11-16 04:49"
+    }
+   ],
+   "key": "澳門前三季會展帶動非博彩收入年增122至514億美元|"
   }
  ],
  "history": [
-  {
-   "key": "huffnpuffhauntedmansion|lightwonder",
-   "date": "2026-10-16",
-   "cat": "cat1",
-   "title": "Huff N' Puff Haunted Mansion",
-   "gp": "Light & Wonder"
-  },
-  {
-   "key": "spookylinkgoghost|aristocrat",
-   "date": "2026-10-16",
-   "cat": "cat1",
-   "title": "Spooky Link Go Ghost",
-   "gp": "Aristocrat"
-  },
-  {
-   "key": "wondersofaztec|pragmaticplay",
-   "date": "2026-10-16",
-   "cat": "cat1",
-   "title": "Wonders of Aztec",
-   "gp": "Pragmatic Play"
-  },
-  {
-   "key": "demonbeats|netent",
-   "date": "2026-10-16",
-   "cat": "cat1",
-   "title": "Demon Beats",
-   "gp": "NetEnt"
-  },
-  {
-   "key": "phoenixinferno|betsoft",
-   "date": "2026-10-16",
-   "cat": "cat1",
-   "title": "Phoenix Inferno",
-   "gp": "Betsoft"
-  },
-  {
-   "key": "hauntedcoinsx5000|wazdan",
-   "date": "2026-10-16",
-   "cat": "cat1",
-   "title": "Haunted Coins x5000",
-   "gp": "Wazdan"
-  },
-  {
-   "key": "thejadepathholdwin|hacksawgaming",
-   "date": "2026-10-16",
-   "cat": "cat1",
-   "title": "The Jade Path Hold & Win",
-   "gp": "Hacksaw Gaming"
-  },
-  {
-   "key": "plazalasvegasdealertainers直播荷官|",
-   "date": "2026-10-16",
-   "cat": "cat2",
-   "title": "Plaza Las Vegas Dealertainers 直播荷官",
-   "gp": ""
-  },
-  {
-   "key": "grupocomar推出comarpokertour七家賭場巡迴|",
-   "date": "2026-10-16",
-   "cat": "cat2",
-   "title": "Grupo Comar 推出 Comar Poker Tour，七家賭場巡迴",
-   "gp": ""
-  },
-  {
-   "key": "stake與everymatrix合作聚合內容|",
-   "date": "2026-10-16",
-   "cat": "cat3",
-   "title": "Stake 與 EveryMatrix 合作聚合內容",
-   "gp": ""
-  },
-  {
-   "key": "hacksaw跨入預測市場b2b|",
-   "date": "2026-10-16",
-   "cat": "cat3",
-   "title": "Hacksaw 跨入預測市場 B2B",
-   "gp": ""
-  },
-  {
-   "key": "novomaticghostpartyg2e2026|",
-   "date": "2026-10-16",
-   "cat": "cat3",
-   "title": "Novomatic Ghost Party G2E 2026",
-   "gp": ""
-  },
-  {
-   "key": "wildzgroup取得芬蘭首張線上牌照|",
-   "date": "2026-10-16",
-   "cat": "cat3",
-   "title": "Wildz Group 取得芬蘭首張線上牌照",
-   "gp": ""
-  },
-  {
-   "key": "pagcor對陸上賭場設賭客回饋上限|",
-   "date": "2026-10-16",
-   "cat": "cat4",
-   "title": "PAGCOR 對陸上賭場設賭客回饋上限",
-   "gp": ""
-  },
-  {
-   "key": "melcofoundation捐贈395萬美元設備給甲米地紅十字會|",
-   "date": "2026-10-16",
-   "cat": "cat4",
-   "title": "Melco Foundation 捐贈 39.5 萬美元設備給甲米地紅十字會",
-   "gp": ""
-  },
-  {
-   "key": "entain第三季ngr成長2英愛線上14|",
-   "date": "2026-10-16",
-   "cat": "cat5",
-   "title": "Entain 第三季 NGR 成長 2%，英愛線上 +14%",
-   "gp": ""
-  },
-  {
-   "key": "egr9月全球slot榜pragmatic包辦前五|",
-   "date": "2026-10-16",
-   "cat": "cat5",
-   "title": "EGR 9 月全球 Slot 榜：Pragmatic 包辦前五",
-   "gp": ""
-  },
-  {
-   "key": "法國2026上半年ggr566億歐元線上11|",
-   "date": "2026-10-16",
-   "cat": "cat5",
-   "title": "法國 2026 上半年 GGR 56.6 億歐元，線上 +11%",
-   "gp": ""
-  },
   {
    "key": "cloverpaddy|zitro",
    "date": "2026-10-17",
@@ -3824,6 +3675,146 @@
    "date": "2026-11-15",
    "cat": "cat5",
    "title": "愛爾蘭推進 1% 營業額社會影響基金，2027 年 4 月 1 日起徵收",
+   "gp": ""
+  },
+  {
+   "key": "eurekalegends|pgsoft",
+   "date": "2026-11-16",
+   "cat": "cat1",
+   "title": "Eureka Legends",
+   "gp": "PG Soft"
+  },
+  {
+   "key": "zeusvshadespop|pragmaticplay",
+   "date": "2026-11-16",
+   "cat": "cat1",
+   "title": "Zeus vs Hades POP",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "freshfruitdeluxecollect|swintt",
+   "date": "2026-11-16",
+   "cat": "cat1",
+   "title": "Fresh Fruit Deluxe Collect",
+   "gp": "Swintt"
+  },
+  {
+   "key": "mrferretheist|belatra",
+   "date": "2026-11-16",
+   "cat": "cat1",
+   "title": "Mr. Ferret Heist",
+   "gp": "Belatra"
+  },
+  {
+   "key": "luckyfireworks|igt",
+   "date": "2026-11-16",
+   "cat": "cat1",
+   "title": "Lucky Fireworks",
+   "gp": "IGT"
+  },
+  {
+   "key": "luxuryfeast|bgaming",
+   "date": "2026-11-16",
+   "cat": "cat1",
+   "title": "Luxury Feast",
+   "gp": "BGaming"
+  },
+  {
+   "key": "3piggiescashout|spinomenal",
+   "date": "2026-11-16",
+   "cat": "cat1",
+   "title": "3 Piggies Cashout",
+   "gp": "Spinomenal"
+  },
+  {
+   "key": "cypherofra|fantasmagames",
+   "date": "2026-11-16",
+   "cat": "cat1",
+   "title": "Cypher of Ra",
+   "gp": "Fantasma Games"
+  },
+  {
+   "key": "thanksgivingrichesholdwin|onlyplay",
+   "date": "2026-11-16",
+   "cat": "cat1",
+   "title": "Thanksgiving Riches: Hold & Win",
+   "gp": "ONLYPLAY"
+  },
+  {
+   "key": "avixo|galaxsys",
+   "date": "2026-11-16",
+   "cat": "cat2",
+   "title": "Avixo",
+   "gp": "Galaxsys"
+  },
+  {
+   "key": "novomatic代表birgitwimmer辭去ainsworth董事稱對執行長與董事會失去信心|",
+   "date": "2026-11-16",
+   "cat": "cat3",
+   "title": "Novomatic 代表 Birgit Wimmer 辭去 Ainsworth 董事，稱對執行長與董事會失去信心",
+   "gp": ""
+  },
+  {
+   "key": "betano要求重談flamengo主贊助球會可能退還4400萬雷亞爾|",
+   "date": "2026-11-16",
+   "cat": "cat3",
+   "title": "Betano 要求重談 Flamengo 主贊助，球會可能退還 4,400 萬雷亞爾",
+   "gp": ""
+  },
+  {
+   "key": "惠譽把澳博控股評級降至b展望轉為負面|",
+   "date": "2026-11-16",
+   "cat": "cat3",
+   "title": "惠譽把澳博控股評級降至 B，展望轉為負面",
+   "gp": ""
+  },
+  {
+   "key": "保加利亞國會委員會支持賭博法草案近乎全面禁廣告取消聯盟行銷牌照|",
+   "date": "2026-11-16",
+   "cat": "cat3",
+   "title": "保加利亞國會委員會支持賭博法草案：近乎全面禁廣告、取消聯盟行銷牌照",
+   "gp": ""
+  },
+  {
+   "key": "evolution考慮讓casinoplus玩家搶先玩新遊戲雙方將合辦線上線下活動|",
+   "date": "2026-11-16",
+   "cat": "cat4",
+   "title": "Evolution 考慮讓 Casino Plus 玩家搶先玩新遊戲，雙方將合辦線上線下活動",
+   "gp": ""
+  },
+  {
+   "key": "nustar第三家飯店grandsummit訂2027年2月23日試營運|",
+   "date": "2026-11-16",
+   "cat": "cat4",
+   "title": "NUSTAR 第三家飯店 Grand Summit 訂 2027 年 2 月 23 日試營運",
+   "gp": ""
+  },
+  {
+   "key": "巴西總統lula訪問馬尼拉巴西媒體以菲律賓全品類監管模式對照本國禁令|",
+   "date": "2026-11-16",
+   "cat": "cat4",
+   "title": "巴西總統 Lula 訪問馬尼拉，巴西媒體以菲律賓全品類監管模式對照本國禁令",
+   "gp": ""
+  },
+  {
+   "key": "賭場遊戲收入仍遠高於運彩美國igaming2025年成長276|",
+   "date": "2026-11-16",
+   "cat": "cat5",
+   "title": "賭場遊戲收入仍遠高於運彩：美國 iGaming 2025 年成長 27.6%",
+   "gp": ""
+  },
+  {
+   "key": "澳洲國立大學研究線上已成澳洲人主要賭博方式非法線上賭場使用上升|",
+   "date": "2026-11-16",
+   "cat": "cat5",
+   "title": "澳洲國立大學研究：線上已成澳洲人主要賭博方式，非法線上賭場使用上升",
+   "gp": ""
+  },
+  {
+   "key": "巴西禁令滿月10月欠款人數創新高達7555萬人|",
+   "date": "2026-11-16",
+   "cat": "cat5",
+   "title": "巴西禁令滿月：10 月欠款人數創新高達 7,555 萬人",
    "gp": ""
   }
  ],

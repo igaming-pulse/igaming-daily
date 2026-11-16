@@ -1,0 +1,37 @@
+{
+ "date": "2026-11-16",
+ "md": "state/2026-11-16-igaming-report.md",
+ "html": "reports/2026-11-16.html",
+ "items": 20,
+ "counts": {
+  "cat1": 9,
+  "cat2": 1,
+  "cat3": 4,
+  "cat4": 3,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 47,
+  "ok": 38,
+  "broken": 0,
+  "blocked": 9,
+  "images_dropped": 0,
+  "images": 20
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-02 Zeus vs Hades POP – Prag｜新作預告主來源 2026-10-19 已 28 天（只有熱門 IP 可放寬到 30 天）",
+  "cat1-04 Mr. Ferret Heist – Belat｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Future https://igamingfuture.com/belatra-breaks-out-mr-ferret-heist/",
+  "cat1-105 Thanksgiving Riches: Hol｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/onlyplay-thanksgiving-riches-slot",
+  "cat3-01 Novomatic 代表 Birgit Wimm｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/11/16/novomatic-representative-birgit-wimmer-quits-agt-board-in-wake-of-kjerulf-ainsworth-probity-report-citing-lack-of-confidence-in-ceo-and-directors/",
+  "cat3-01 Novomatic 代表 Birgit Wimm｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/ainsworth-director-quits-citing-lack-of-confidence-in-board-ceo",
+  "cat3-03 惠譽把澳博控股評級降至 B，展望轉為負面｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/fitch-downgrades-sjm-holdings-to-b-cites-slower-deleveraging-and-refinancing-risks",
+  "cat3-03 惠譽把澳博控股評級降至 B，展望轉為負面｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/11/15/fitch-becomes-latest-ratings-agency-to-downgrade-sjm-holdings-due-to-weaker-performance-and-mounting-debt-concerns/",
+  "cat4-02 NUSTAR 第三家飯店 Grand Summi｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/11/16/nustar-sets-february-soft-opening-date-for-third-hotel-brand-grand-summit/",
+  "cat4-02 NUSTAR 第三家飯店 Grand Summi｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/nustars-third-hotel-set-to-open-in-february-2027-adding-360-rooms-report",
+  "cat5-02 澳洲國立大學研究：線上已成澳洲人主要賭博方式，非｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/11/16/online-gambling-now-predominant-mode-for-australians-anu-study-finds/"
+ ],
+ "fixes": [
+  "文末｜資料來源數 24 → 27（程式依來源連結去重計算）"
+ ]
+}
