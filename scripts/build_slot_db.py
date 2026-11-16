@@ -86,6 +86,21 @@ def family(mech, plist):
     return hit[0] if hit else "其他／未確認"
 
 
+BACKFILL = os.path.join(ROOT, "state", "slot-backfill.json")
+
+
+def bf_key(name, gp):
+    return f"{R.norm_title(name)}|{R.norm_title(gp)}"
+
+
+def backfill():
+    """v6.7 以前收錄的 Slot 回補評估（2026-11-16）：依日報卡片已查證的參數回推核心機制／微創新／級別。"""
+    try:
+        return json.load(open(BACKFILL, encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+
+
 def collect():
     rows = []
     known = gp_lookup()
@@ -136,6 +151,11 @@ def collect():
             hit["last"] = r["report"]
         else:
             merged.append({**r, "seen": 1, "last": r["report"]})
+    bf = backfill()
+    for m in merged:
+        x = bf.get(bf_key(m["name"], m["gp"]))
+        if not m["tier"] and x:
+            m.update({"mech": x["mech"], "innov": x["innov"], "tier": x["tier"], "fam": family(x["mech"], plist), "retro": True})
     merged.sort(key=lambda x: (x["report"], x["b"]), reverse=True)
     return merged
 
@@ -174,21 +194,23 @@ PAGE = r"""<!DOCTYPE html>
   .sum.mech{background:#FFF7E0;padding:4px 8px;border-radius:6px}
   .tools input[type=checkbox]{width:16px;height:16px;margin:0;accent-color:var(--s2)}
   .count{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--sub);margin-left:auto}
-  .list{display:grid;gap:12px}
-  .row{display:grid;grid-template-columns:132px 1fr;gap:16px;background:var(--sheet);border:1px solid var(--rule);border-left:5px solid var(--s4);padding:14px 16px}
-  .row.big{border-left-color:var(--s2)}
-  .row img{width:132px;aspect-ratio:16/10;object-fit:cover;background:#ddd;display:block}
-  .row .noimg{width:132px;aspect-ratio:16/10;background:repeating-linear-gradient(45deg,#e6dfd2,#e6dfd2 6px,#ece6db 6px,#ece6db 12px)}
-  .top{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline}
-  .top h2{font-size:18px;font-weight:700;margin:0}
-  .gp{font-size:13px;color:var(--sub)}
-  .tag{font-family:"IBM Plex Mono",monospace;font-size:11px;padding:1px 6px;border:1px solid var(--rule);color:var(--sub)}
-  .tag.b{border-color:var(--s2);color:#8a5a2b}
-  .specs{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12.5px;margin:6px 0 4px}
-  .specs span b{font-weight:600;color:var(--sub);margin-right:4px}
-  .sum{font-size:13px;color:#3a362f;margin:4px 0}
-  .links{font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:4px 10px}
-  .links a{text-decoration:none;border-bottom:1px solid var(--rule)}
+  .tablewrap{overflow-x:auto;border:1px solid var(--rule);background:var(--sheet);-webkit-overflow-scrolling:touch}
+  table.db{width:100%;min-width:1180px;border-collapse:collapse;font-size:13px;line-height:1.55}
+  table.db th{position:sticky;top:0;background:var(--dark);color:#F7F3EA;font-weight:600;font-size:12px;letter-spacing:.04em;text-align:left;padding:9px 10px;white-space:nowrap;z-index:1}
+  table.db td{padding:10px;border-top:1px solid var(--rule);vertical-align:top}
+  table.db tr.big td:first-child{box-shadow:inset 4px 0 0 var(--s2)}
+  table.db tbody tr:hover td{background:#FBF8F1}
+  td.pic{width:104px}
+  td.pic img,td.pic .noimg{width:96px;aspect-ratio:16/10;object-fit:cover;display:block;background:#ddd}
+  td.pic .noimg{background:repeating-linear-gradient(45deg,#e6dfd2,#e6dfd2 6px,#ece6db 6px,#ece6db 12px)}
+  td.game{width:190px} td.game b{font-size:14px;display:block;line-height:1.35}
+  td.game .gp{display:block;margin:2px 0 6px}
+  td.game .tags{display:flex;flex-wrap:wrap;gap:4px}
+  td.mech{width:150px;background:#FFF7E0} td.innov{width:200px} td.feat{width:230px;color:#3a362f}
+  td.par{width:170px;font-size:12px;color:var(--sub)} td.par div b{color:var(--ink);font-weight:600;margin-right:4px}
+  td.lnk{width:110px;font-size:12px} td.lnk a{display:block;text-decoration:none;border-bottom:1px solid var(--rule);margin-bottom:4px;width:fit-content}
+  .muted{color:var(--faint)}
+  .tag.r{border-style:dashed}
   .empty{padding:30px;text-align:center;color:var(--sub)}
   .pager{display:flex;flex-wrap:wrap;gap:6px;align-items:center;justify-content:center;margin:16px 0}
   .pager:empty{display:none}
@@ -197,7 +219,7 @@ PAGE = r"""<!DOCTYPE html>
   .pager button.on{background:var(--ink);color:var(--sheet);border-color:var(--ink)}
   .pager button:disabled{opacity:.4;cursor:default}
   .pager .gap{color:var(--sub);padding:0 2px}
-  @media(max-width:720px){.mast{grid-template-columns:1fr}.row{grid-template-columns:1fr}.row img,.row .noimg{width:100%}h1{font-size:28px}}
+  @media(max-width:720px){.mast{grid-template-columns:1fr}h1{font-size:28px}.count{margin-left:0;width:100%}}
 </style>
 </head>
 <body>
@@ -221,13 +243,14 @@ PAGE = r"""<!DOCTYPE html>
     <input id="q" type="search" placeholder="搜尋遊戲名、廠商、機制（例：Hold &amp; Win、Megaways、Pragmatic）" aria-label="搜尋">
     <select id="gp" aria-label="遊戲商"><option value="">全部遊戲商</option></select>
     <select id="mech" aria-label="核心機制"><option value="">全部核心機制</option></select>
-    <select id="tier" aria-label="級別"><option value="">全部級別</option><option value="1">N+1</option><option value="2">原創機制</option><option value="3">換皮／資料不足</option><option value="0">未分級（v6.7 以前）</option></select>
+    <select id="tier" aria-label="級別"><option value="">全部級別</option><option value="1">N+1</option><option value="2">原創機制</option><option value="3">換皮／資料不足</option><option value="0">未分級</option></select>
     <select id="sort" aria-label="排序"><option value="date">最新收錄在前</option><option value="b">大廠在前</option><option value="name">遊戲名 A→Z</option></select>
     <label><input id="big" type="checkbox"> 只看大廠</label>
     <span class="count" id="count"></span>
   </div>
   <nav class="pager" id="pager-top" aria-label="分頁"></nav>
-  <div class="list" id="list"></div>
+  <p class="hint muted" style="font-size:12px;margin:0 0 8px">表格可左右滑動；虛線框「回補」＝ v6.7 以前收錄、依日報卡片已查證的參數回推的級別與機制。</p>
+  <div class="tablewrap"><table class="db"><thead><tr><th>圖</th><th>遊戲／廠商</th><th>核心機制</th><th>微創新</th><th>關鍵特色</th><th>參數</th><th>連結</th></tr></thead><tbody id="list"></tbody></table></div>
   <nav class="pager" id="pager-bottom" aria-label="分頁"></nav>
 </div>
 <script>
@@ -241,8 +264,7 @@ fams.forEach(f => { const o = document.createElement("option"); o.value = f; o.t
 const TIER = {1: "N+1", 2: "原創機制", 3: "換皮／資料不足"};
 gps.forEach(g => { const o = document.createElement("option"); o.value = o.textContent = g; $("gp").appendChild(o); });
 const md = s => s ? `${+s.slice(5,7)}/${+s.slice(8,10)}` : "";
-function spec(k, v) { return v && !/^(未公布|沒有|-|查無資料)$/.test(v) ? `<span><b>${k}</b>${esc(v)}</span>` : ""; }
-const PAGE_SIZE = 100;   // 每 100 款一頁（2026-11-15 使用者要求）
+const PAGE_SIZE = 50;    // 每 50 款一頁（2026-11-16 使用者要求，原 100）
 let page = Math.max(1, parseInt((location.hash.match(/^#p(\d+)$/) || [])[1] || "1", 10));
 function pagerHtml(n) {
   if (n <= 1) return "";
@@ -275,20 +297,20 @@ function render(keepPage) {
     ? `顯示 ${from + 1}–${Math.min(from + PAGE_SIZE, rows.length)}／符合 ${rows.length}（共 ${DATA.length} 款）・第 ${page}／${pages} 頁`
     : `顯示 ${rows.length} / ${DATA.length} 款`;
   $("pager-top").innerHTML = $("pager-bottom").innerHTML = pagerHtml(pages);
+  const val = v => v && !/^(未公布|沒有|-|查無資料)$/.test(v);
+  const par = (k, v) => val(v) ? `<div><b>${k}</b>${esc(v)}</div>` : "";
   $("list").innerHTML = rows.length ? rows.slice(from, from + PAGE_SIZE).map(d => `
-    <article class="row ${d.b >= 3 ? "big" : ""}">
-      ${d.img ? `<img src="${esc(d.img)}" alt="${esc(d.name)}" loading="lazy" onerror="this.outerHTML='<div class=noimg></div>'">` : `<div class="noimg"></div>`}
-      <div>
-        <div class="top"><h2>${esc(d.name)}</h2><span class="gp">${esc(d.gp)}</span>
-          ${d.tier ? `<span class="tag t${d.tier}">${TIER[d.tier]}</span>` : ""}
-          ${d.b >= 3 ? `<span class="tag b">大廠 B${d.b}</span>` : ""}
-          <span class="tag">${md(d.report)} 收錄</span>${d.special ? `<span class="tag">特別版</span>` : ""}${d.seen > 1 ? `<span class="tag">出現 ${d.seen} 次</span>` : ""}</div>
-        <div class="specs">${spec("類型", d.type)}${spec("盤面", d.board)}${spec("賠付", d.pays)}${spec("最高倍率", d.maxwin)}${spec("RTP", d.rtp)}${spec("波動", d.vol)}${spec("市場", d.market)}</div>
-        ${d.mech ? `<div class="sum mech"><b>核心機制：</b>${esc(d.mech)}${d.innov ? `　<b>${d.tier === 3 ? "判定" : "微創新"}：</b>${esc(d.innov)}` : ""}</div>` : ""}
-        ${d.feat ? `<div class="sum"><b>特色：</b>${esc(d.feat)}</div>` : ""}
-        <div class="links"><a href="../reports/${esc(d.page)}">看日報卡片 ↗</a>${(d.src || []).map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)} ↗</a>`).join("")}</div>
-      </div>
-    </article>`).join("") : `<div class="empty">沒有符合條件的遊戲</div>`;
+    <tr class="${d.b >= 3 ? "big" : ""}">
+      <td class="pic">${d.img ? `<img src="${esc(d.img)}" alt="${esc(d.name)}" loading="lazy" onerror="this.outerHTML='<div class=noimg></div>'">` : `<div class="noimg"></div>`}</td>
+      <td class="game"><b>${esc(d.name)}</b><span class="gp">${esc(d.gp)}</span>
+        <div class="tags">${d.tier ? `<span class="tag t${d.tier}${d.retro ? " r" : ""}">${TIER[d.tier]}${d.retro ? "・回補" : ""}</span>` : ""}
+          ${d.b >= 3 ? `<span class="tag b">大廠 B${d.b}</span>` : ""}<span class="tag">${md(d.report)} 收錄</span>${d.special ? `<span class="tag">特別版</span>` : ""}${d.seen > 1 ? `<span class="tag">出現 ${d.seen} 次</span>` : ""}</div></td>
+      <td class="mech">${esc(d.mech) || '<span class="muted">—</span>'}</td>
+      <td class="innov">${esc(d.innov) || '<span class="muted">—</span>'}</td>
+      <td class="feat">${esc(d.feat) || '<span class="muted">—</span>'}</td>
+      <td class="par">${par("類型", d.type)}${par("盤面", d.board)}${par("賠付", d.pays)}${par("最高", d.maxwin)}${par("RTP", d.rtp)}${par("波動", d.vol)}${par("市場", d.market)}</td>
+      <td class="lnk"><a href="../reports/${esc(d.page)}">日報卡片 ↗</a>${(d.src || []).map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)} ↗</a>`).join("")}</td>
+    </tr>`).join("") : `<tr><td colspan="7" class="empty">沒有符合條件的遊戲</td></tr>`;
 }
 ["q", "gp", "mech", "tier", "sort", "big"].forEach(id => $(id).addEventListener("input", () => render()));
 render(true);

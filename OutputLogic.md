@@ -4,34 +4,39 @@
 
 ## 一、生成的基本架構
 
-本日報為**全自動**產物（規則版本 **v6.6.4**）：每天**台北時間 02:30** 由 Mac 排程啟動，從收集、選稿、查證、定稿到發布與推播，全程不需人工介入；每週一、週四另會視庫存發一期**特別版**。
+本日報為**全自動**產物（規則版本 **v6.7.3**）：每天**台北時間 02:30** 由 **Synology NAS**（Container Manager）排程啟動，Mac 不必開機；從收集、選稿、查證、定稿到發布與推播，全程不需人工介入；每週一、週四另會視庫存發一期**特別版**。
 
 **① 收集：Claude 開工前，程式 harvest.py 先把當天的新聞收進來**
 
-- **第一層｜免費抓取**：RSS／WordPress API／官網 sitemap 約 92 個來源，取得**精確發布時間**；程式另外解析 BigWinBoard 新作列表、**SlotsLaunch 上線日曆**、Play'n GO 官網上線日
+- **第一層｜免費抓取**：RSS／WordPress API／官網 sitemap／Google News 約 98 個來源，取得**精確發布時間**；程式另外解析 BigWinBoard 新作列表、**SlotsLaunch 上線日曆**、Play'n GO 官網上線日
+- **亞洲廠商官網新作（v6.7.3）**：每天直接抓 PG Soft、JILI、Yellow Bat、5G Games、OMNIPLAY（尊博）官網的新遊戲（免費），FA CHAI 走 Firecrawl（每天 1 點），JDB 以 Google News 保底；候選清單另列「🌏 亞洲廠商官網新作」專區
 - **第二層｜Firecrawl**：每天固定只剩 iGamingToday（擋程式抓取，由程式解析），加上輪掃與三種觸發
-- **💳 用量分級**：開跑前查 Firecrawl 剩餘點數，今日預算＝（剩餘－保留 20）÷ 距離重置天數，分「充裕／標準／節約／保命」四級決定抓多少
-- **來源主檔**：Excel（目前 **233 個來源、10 大分類**），「抓取方式」「頻率」欄決定每個來源怎麼抓
+- **💳 用量分級**：開跑前查 Firecrawl 剩餘點數，今日預算＝（剩餘－保留 20）÷ 距離重置天數，分「充裕／標準／節約／保命」四級決定抓多少；距重置 ≤2 天進入**🔥 衝刺級**，程式直接預抓窗內候選原文，把點數用完
+- **來源主檔**：Excel（目前 **244 個來源、10 大分類**），「抓取方式」「頻率」欄決定每個來源怎麼抓
 
 **② 選稿：Claude 讀候選清單與庫存**
 
 - **第三層｜WebSearch**：補程式抓不到的題目（菲律賓平台、新品牌進菲、實體機大廠、Slot 補漏）
 - **打分**：品牌＋事件＋地區＋時效＋熱門 IP，套用 **3 天去重**與硬上限
-- **Slot 區**：平日 7 款、週末 3 款；窗內大廠新作全收；平日當天新作 ≤5 款、週末 ≤2 款才從**庫存**依 B 分補
+- **Slot 區先分級、再排分數（v6.7）**：每款標**核心機制**（對照菲律賓 Top200 主流原型）與**微創新**（Base Game 多了什麼），依 Bingo Plus「不接受換皮」的標準分成 **第一級 N+1 → 第二級 原創機制 → 第三級 換皮／資料不足**，第三級以**精簡卡片**放在區塊最後、不佔名額
+- **Slot 名額**：平日 7 款、週末 3 款（只算完整卡片）；平日當天新作 ≤5 款、週末 ≤2 款才從**庫存**依 B 分補；第一級不夠就照實呈現，不拿第三級補
 - **其他分類**：某區當天沒有合格新聞，就從庫存補 1 則
 
 **③ 查證與定稿：只對入選的新聞**
 
 - **主來源日期關**：發布日期含年份，且落在 24 小時收集窗內（庫存補位要在保鮮期內）
 - **交叉查證**：至少一個獨立來源佐證，補齊盤面、倍率、RTP 等參數（只增不減）
-- **定稿檢查（程式）**：格式、連結與配圖、模糊去重、**補位有沒有照 B 分**；通過後用**固定模板**產生 HTML（不再每天手寫）
+- **資料不編造**：核心機制、微創新都要有來源依據（官網、SlotCatalog、評測），查不到寫「未確認」；縮寫第一次出現寫原文全名
+- **定稿檢查（程式）**：格式、連結與配圖、模糊去重、**補位有沒有照 B 分**、**級別排序與核心機制／微創新欄**；通過後用**固定模板**產生 HTML（不再每天手寫）
 
 **④ 發布與推播**
 
-- 日報、庫存、推播訊息以**單一 commit** 推上 repo，網站由 **GitHub Pages** 自動更新
-- **Telegram** 早上定時推播；日報晚到（過 06:30）則跑完**立刻推播**；當天沒有日報改發「未產出」警告
+- 日報、庫存、推播訊息以**單一 commit** 推上 repo（test-publish），再發布到網站分支，**GitHub Pages** 自動更新
+- **Telegram**：06:30 由 NAS 準時觸發（GitHub 06:40 排程當備援）；日報晚到則跑完**立刻推播**；當天沒有日報改發「未產出」警告；推播後 NAS 寄 **Email**
+- **網站附屬頁**：**Slot 新作資料庫**（全部收錄過的 Slot，可依廠商、核心機制、級別篩選，表格分頁）；日報文末顯示當日 **Firecrawl 用量與下次重置日**
 - **系統警報**：Firecrawl 額度、來源連續失敗、候選量異常、定稿錯誤會附在推播最後
-- **庫存查詢機器人**：在 Telegram 私訊打「庫存」即可查目前各分類庫存與標題
+- **庫存查詢機器人**：NAS 上 24 小時常駐，在 Telegram 私訊打「庫存」即可查目前各分類庫存與標題
+- **回歸測試**：程式改動推上 GitHub 時自動跑測試（含各家官網樣本），壞掉的程式不會留到半夜才爆
 
 **⑤ 庫存釋放特別版（每週一、週四）**
 
@@ -45,12 +50,12 @@
 
 ```mermaid
 flowchart TD
-  A["⏰ 02:30 Mac 排程<br/>開啟防睡眠直到跑完"] --> B["run_daily.sh<br/>拉最新規則"]
+  A["⏰ 02:30 NAS 排程<br/>（Container Manager）"] --> B["run_daily.sh<br/>拉最新規則"]
   B --> C["harvest.py<br/>查額度分級 → 第一層＋第二層收集"]
-  C --> D["候選清單<br/>含精確發布時間"]
+  C --> D["候選清單<br/>含精確發布時間＋🌏 亞洲官網新作"]
   D --> F["讀庫存：今日上限／可用庫存／近 3 天已出現"]
   F --> G["第三層 WebSearch<br/>菲律賓平台・新品牌進菲・實體機・Slot 補漏"]
-  G --> H["打分排序＋各區選稿＋庫存補位"]
+  G --> H["Slot 先分級（N+1／原創／換皮）<br/>再打分排序＋各區選稿＋庫存補位"]
   H --> I["只對入選者查證<br/>主來源日期→交叉佐證→補參數"]
   I --> J["寫 Markdown 原稿"]
   J --> QA{"定稿檢查通過？"}
@@ -66,7 +71,7 @@ flowchart TD
   SP -- 是 --> SE["發特別版，連結併進推播"]
   SP -- 否 --> PUSH["推播"]
   SE --> PUSH
-  PUSH --> Q["Telegram：06:40 定時；過 06:30 才跑完則立刻推播"]
+  PUSH --> Q["Telegram：06:30 NAS 觸發（06:40 備援）＋Email；過 06:30 才跑完則立刻推播"]
   X --> R["推播「日報未產出」警告"]
   classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700
   classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700
@@ -83,14 +88,18 @@ flowchart TD
 ```mermaid
 flowchart TD
   S["Excel 來源主檔"] ==> W{"抓取方式／頻率？"}
-  W == "免費：RSS／WP API／Sitemap（約 92）" ==> L1["第一層 curl：文章清單＋精確時間"]
+  W == "免費：RSS／WP API／Sitemap／Google News（約 98）" ==> L1["第一層 curl：文章清單＋精確時間"]
   W == "免費：程式解析" ==> L0["BigWinBoard 新作・SlotsLaunch 上線日曆"]
+  W == "官網新作（亞洲 6 家）" ==> LA["PG Soft・JILI・Yellow Bat・5G・OMNIPLAY<br/>FA CHAI 走 Firecrawl"]
+  LA ==> NZ
   W == "Firecrawl：每日（iGamingToday）" ==> FC{"💳 今日分級？"}
   W == "Firecrawl：輪掃（約 70）" ==> FC
   W -. "Firecrawl：監理・協會・展會" .-> TR{"補充：三種觸發"}
   TR -.-> FC
   FC == "充裕／標準" ==> L2["第二層 Firecrawl：列表頁＋輪掃 2–3＋觸發"]
   FC -- "節約／保命" --> L2S["只抓 iGamingToday，停輪掃"]
+  FC == "🔥 衝刺（距重置 ≤2 天）" ==> L2P["加碼輪掃＋預抓窗內候選原文"]
+  L2P ==> OUT
   L0 ==> NZ
   L1 ==> NZ{"雜訊？樂透開獎・體育賠率<br/>綜合媒體無博彩關鍵字"}
   NZ -- 是 --> DROP["丟掉"]
@@ -104,7 +113,7 @@ flowchart TD
   L2S --> OUT
   classDef main fill:#FBF6EC,stroke:#1B1A18,stroke-width:2px,color:#1B1A18
   classDef minor fill:#EEE8DC,stroke:#A99F8E,stroke-dasharray:4 3,color:#8C8373
-  class S,L0,L1,L2,IN main
+  class S,L0,LA,L1,L2,IN main
   class TR minor
   classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700
   classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700
@@ -112,8 +121,8 @@ flowchart TD
   class FC,NZ,TW,W gate
   class OUT out
   class DROP muted
-  linkStyle 12,13 stroke:#4E9E68,stroke-width:2px
-  linkStyle 11,15 stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4
+  linkStyle 16,17 stroke:#4E9E68,stroke-width:2px
+  linkStyle 15,19 stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4
 ```
 
 ### 2-3　選稿：每則候選要過的關卡
@@ -149,7 +158,9 @@ flowchart TD
 flowchart TD
   A["當日 Slot 候選"] --> PV{"預告：上線日在 7 天以後？"}
   PV -- 是 --> LATER["不上日報，存入庫存「待上線」"]
-  PV -- 否 --> BIG["① 窗內大廠 B≥3 全收（同 GP ≤2）"]
+  PV -- 否 --> TIER{"核心機制＋微創新分級"}
+  TIER -- "換皮／只在 Free Game／資料不足" --> T3["第三級：精簡卡片，放區塊最後，不佔名額（≤5）"]
+  TIER -- "N+1 → 原創機制" --> BIG["① 依級別排序，同級內窗內大廠 B≥3 優先（同 GP ≤2）"]
   BIG --> OTHER["② 其他窗內新作依分數補"]
   OTHER --> DAY{"日報是？"}
   DAY -- 週一～週五 --> C5["上限 7 款"]
@@ -166,9 +177,9 @@ flowchart TD
   classDef gate fill:#616161,stroke:#616161,color:#FFFFFF,font-weight:700
   classDef out fill:#4E9E68,stroke:#3C7F52,color:#FFFFFF,font-weight:700
   classDef muted fill:#EEE8DC,stroke:#A99F8E,color:#6F675A
-  class DAY,MISS,N,N2,PV gate
+  class DAY,MISS,N,N2,PV,TIER gate
   class LATER muted
-  linkStyle 2,9,10,11,12,15 stroke:#4E9E68,stroke-width:2px
+  linkStyle 2,11,12,13,14,17 stroke:#4E9E68,stroke-width:2px
   linkStyle 1 stroke:#F2A65A,stroke-width:2px,stroke-dasharray:5 4
 ```
 
@@ -226,23 +237,23 @@ flowchart TD
 
 |  | curl | Firecrawl | WebSearch | WebFetch |
 |---|---|---|---|---|
-| 是什麼 | 從 Mac 直接向網站要原始檔案 | 雲端服務，用真瀏覽器打開網頁再整理回傳 | 搜尋引擎，下關鍵字找全網 | Claude 內建的抓頁工具，抓完順便摘要 |
+| 是什麼 | 從 NAS 直接向網站要原始檔案 | 雲端服務，用真瀏覽器打開網頁再整理回傳 | 搜尋引擎，下關鍵字找全網 | Claude 內建的抓頁工具，抓完順便摘要 |
 | 成本 | 免費 | 每次 1 點（月額度 1,000） | 免費（每天上限 60 次） | 免費 |
-| 速度 | 快，90 個來源約 10 秒 | 慢，每分鐘最多 20 次 | 中等，每次數秒 | 中等，每次數秒 |
+| 速度 | 快，約 100 個來源 1 分鐘內 | 慢，每分鐘最多 20 次 | 中等，每次數秒 | 中等，每次數秒 |
 | 要知道網址嗎 | 要 | 要 | 不用，給關鍵字即可 | 要 |
 | 需要 JavaScript 的網頁 | 拿到空殼 | 可以 | 不適用 | 常拿到空殼 |
 | 防機器人的站 | 常被擋（403） | 多數能通過 | 不受影響 | 常被擋 |
 | 發布時間 | RSS／WP API 精確到秒；一般網頁要自己找 | 附在標籤資料裡，常有 | 只有大概日期，常不準 | 要自己從內文判斷 |
 | 回傳內容 | 原始碼、RSS、JSON，要自己解析 | 整理好的 markdown 或摘要，附配圖、發布時間 | 標題、網址、摘要片段 | 依提問整理過的摘要，看不到全文 |
 | 主要風險 | 被擋、網頁改版就解析失敗 | 額度用完、速率限制 | 容易撈到舊聞、長青排行頁 | 摘要可能遺漏或誤讀細節 |
-| 我們用在哪 | 第一層：RSS／WP API／官網 sitemap 約 92 個；程式解析 BigWinBoard、SlotsLaunch 上線日曆 | iGamingToday、輪掃與觸發；入選新聞的內文與配圖（用量依每日分級） | 第三層：菲律賓平台、新品牌進菲、實體機、Slot 補漏 | 備用：查證時抓一般網頁 |
+| 我們用在哪 | 第一層：RSS／WP API／官網 sitemap／Google News 約 98 個；程式解析 BigWinBoard、SlotsLaunch、亞洲 5 家官網新作 | iGamingToday、FA CHAI 官網、輪掃與觸發；入選新聞的內文與配圖；衝刺級預抓原文（用量依每日分級） | 第三層：菲律賓平台、新品牌進菲、實體機、Slot 補漏 | 備用：查證時抓一般網頁 |
 | 判斷順序 | ① 有 RSS／WP API 或網頁抓得到就用它 | ③ curl 或 WebFetch 被擋才用 | ④ 來源清單以外的題目 | ② curl 不方便解析時的替代 |
 
 ## 三之一、工具 × 步驟對照
 
 | 工具 | 出現在哪個步驟 | 流程圖位置 |
 |---|---|---|
-| curl | 第一層：抓 RSS、WP API、官網 sitemap，以及 BigWinBoard／SlotsLaunch | 2-2「curl：RSS／WP API」分支（分支名稱寫的是資料格式，工具是 curl） |
+| curl | 第一層：抓 RSS、WP API、官網 sitemap、Google News，以及 BigWinBoard／SlotsLaunch／亞洲官網新作 | 2-2「curl：RSS／WP API」分支（分支名稱寫的是資料格式，工具是 curl） |
 | Firecrawl | 第二層：iGamingToday、輪掃、三種觸發（強度依 💳 分級）；查證時抓入選新聞的內文與配圖 | 2-2「Firecrawl：…」各分支；2-3 查證步驟 |
 | WebSearch | 第三層：Claude 找來源清單以外的題目（菲律賓平台、新品牌進菲、實體機、Slot 補漏） | 2-1 總流程「第三層 WebSearch」（不在 2-2，因為不是照來源清單抓） |
 | WebFetch | 查證時的備用工具 | 2-3「交叉佐證＋補參數」（不在 2-2） |
@@ -259,7 +270,7 @@ flowchart TD
 
 | 分類 | 收什麼 | 每天數量 | 格式 |
 |---|---|---|---|
-| 🎰 cat1 Slot 新遊戲 | 線上老虎機新作、7 天內上線的預告、實體老虎機新機台 | 平日 ≤7、週末 ≤3 | 三段式：總述＋對 PM 的意義／衍生調整／參數 |
+| 🎰 cat1 Slot 新遊戲 | 線上老虎機新作、7 天內上線的預告、實體老虎機新機台；先分三級（N+1／原創機制／換皮・資料不足） | 完整卡片平日 ≤7、週末 ≤3；第三級精簡卡片另計 ≤5 | 三段式：總述＋對 PM 的意義／衍生調整／參數 11 欄（廠牌、核心機制、微創新…） |
 | 🕹️ cat2 非 Slot 新內容 | 小遊戲 → Live Game → 撲克 → 棋牌 → 其他；EEZE 每日固定 1 則 | 目標 2–3、上限 5 | 三段式，參數 3 或 5 欄 |
 | 🤝 cat3 主流 GP／平台動態 | 大品牌具體動作：合作、併購、提告、運營；線上與實體機大廠 | 目標 3–5、上限 7 | 動態格式 |
 | 🇵🇭 cat4 菲律賓 | 平台策略與新產品 ＞ 新品牌進菲 ＞ GP 上架 ＞ 政策 | 目標 2–4，商業 ≤6，官方另計 | 動態格式 |
@@ -269,23 +280,24 @@ flowchart TD
 
 | 項目 | 分數 | 內容 |
 |---|---|---|
-| B 品牌 | 6／4／3／1／0 | 6：優先品牌 21 家（Acewin、Omiplay、YellowBat、ATG、EEZE、Yggdrasil、Jili、TaDa、DigiPlus 系、Stake、PAGCOR 等）；4：PG Soft、Pragmatic、Nolimit、Play'n GO、Red Tiger、Aristocrat、IGT、L&W；3：二線知名；1：其他 |
+| B 品牌 | 6／4／3／1／0 | 6：優先品牌 21 家（Acewin、OMNIPLAY（尊博）、YellowBat、ATG、EEZE、Yggdrasil、Jili、TaDa、DigiPlus 系、Stake、PAGCOR 等）；4：5G Games、PG Soft、Pragmatic、Nolimit、Play'n GO、Red Tiger、Aristocrat、IGT、L&W；3：二線知名；1：其他 |
 | E 事件 | 6／5.5／5／2／1／0.5 | 6：新遊戲上線、實體機首發、重大整合；5.5：新作預告；5：市場數據、玩法流行；2：展會；1：法規、M&A、財報；0.5：人事、獲獎、行銷 |
 | R 地區 | 6／5／4／3／2／1 | 6：菲律賓；5：台灣、東南亞；4：拉美、巴西、全球；3：美國、歐洲；2：澳門、日韓、中國；1：其他 |
 | T 時效 | +2／+1／0 | 窗內 0–12 小時 +2；12–24 小時 +1；只精確到日 0 |
 | H 熱門 IP | +3 | Huff N' Puff、Bao Zhu Zhao Fu、SuperGems 的新作：排 Slot 區最前，預告放寬到 30 天 |
+| Slot 級別（v6.7） | 先分級、再排分 | 第一級 N+1（有主流原型且 Base Game 有創新）→ 第二級 原創機制 → 第三級 換皮／資料不足；分數只在同級內比較 |
 
-## 七、資料來源總表（共 233 個）
+## 七、資料來源總表（共 244 個）
 
-> 欄位：編號｜網站名稱｜網站網址｜抓取方式｜頻率｜備註｜展期。分類數量：Provider 官網 27、產品分析／評測 13、產業媒體 102、產業協會／技術認證機構 23、市場數據／分析公司 18、監理機關／官方數據 16、展會 21、論壇／社群 6、Podcast／影音 5、已停用 2。
+> 欄位：編號｜網站名稱｜網站網址｜抓取方式｜頻率｜備註｜展期。分類數量：Provider 官網 30、產品分析／評測 13、產業媒體 110、產業協會／技術認證機構 23、市場數據／分析公司 18、監理機關／官方數據 16、展會 21、論壇／社群 6、Podcast／影音 5、已停用 2。
 
-### Provider 官網（27）
+### Provider 官網（30）
 
 | 編號 | 網站名稱 | 網站網址 | 抓取方式 | 頻率 | 備註 | 展期 |
 |---|---|---|---|---|---|---|
 | 1 | Pragmatic Play | [https://pragmaticplay.com/en/news/](https://pragmaticplay.com/en/news/) | WP-API | 每日 | Provider 官網 |  |
-| 2 | PG Soft | [https://pgsoft.com/en/news/](https://pgsoft.com/en/news/) | Firecrawl | 輪掃 | Provider 官網 |  |
-| 3 | Jili | [https://jiligames.com/](https://jiligames.com/) | Firecrawl | 輪掃 | Provider 官網 |  |
+| 2 | PG Soft | [https://www.pgsoft.com/en/games/](https://www.pgsoft.com/en/games/) | 官網新作 | 每日 | Provider 官網｜v6.7.3 改由 scripts/asia_providers.py 每天抓官方遊戲 API＋遊戲頁上線日（免費） |  |
+| 3 | JILI | [https://jiligames.com/games](https://jiligames.com/games) | 官網新作 | 每日 | Provider 官網｜v6.7.3 每天抓官網遊戲列表，新 ID 才抓詳情頁；官網日期只到月，用首見日（免費） |  |
 | 4 | Play'n GO | [https://www.playngo.com/](https://www.playngo.com/) | Sitemap | 每日 | Provider 官網；v6.5.2 官網改 Wix、RSS 消失 → 改抓 sitemap（/games/ 的日期＝上線日，/post/ 為新聞） |  |
 | 5 | NetEnt | [https://www.netent.com/](https://www.netent.com/) | Firecrawl | 輪掃 | Provider 官網 |  |
 | 6 | Red Tiger Gaming | [https://redtiger.com/](https://redtiger.com/) | Firecrawl | 輪掃 | Provider 官網 |  |
@@ -308,8 +320,11 @@ flowchart TD
 | 23 | Peter & Sons | [https://peterandsonsgames.com/](https://peterandsonsgames.com/) | Firecrawl | 輪掃 | Provider 官網 |  |
 | 24 | CP Game | [https://cpgames.com/](https://cpgames.com/) | Firecrawl | 輪掃 | Provider 官網 |  |
 | 220 | Acewin | [https://www.acewin168.com/](https://www.acewin168.com/) | Firecrawl | 輪掃 | ★優先追蹤｜IGS鈊象電子旗下 GP；可視為 Jili 低配版、多款與 Jili 互通，B 端價格有優勢。上新遊戲於 DigiPlus 系(BingoPlus/ArenaPlus/GameZone)或 CasinoPlus 等菲現金網、或特別線上/線下活動與平台功能更新→提高露出權重 |  |
-| 221 | Omiplay | [https://omiplay.com/](https://omiplay.com/) | Firecrawl | 輪掃 | ★優先追蹤｜台灣尊博集團 GP；Super Gem 對標 Fortune Gem 成功、獲 BingoPlus/CasinoPlus 內部認可、菲律賓有成績。上新遊戲於 DigiPlus 系/CasinoPlus 或特別活動/平台更新→提高露出權重 |  |
+| 221 | OMNIPLAY（尊博） | [https://www.omniplaygaming.com/games](https://www.omniplaygaming.com/games) | 官網新作 | 每日 | ★優先追蹤｜台灣尊博集團 GP（線上品牌 OMNIPLAY，舊稱 Omiplay）；Super Gem 對標 Fortune Gem 成功、獲 BingoPlus/CasinoPlus 內部認可、菲律賓有成績。上新遊戲於 DigiPlus 系/CasinoPlus 或特別活動/平台更新→提高露出權重｜v6.7.3 每天抓官網遊戲列表＋Release Date（免費） |  |
 | 222 | YellowBat | [https://www.yellowbat.com/games/](https://www.yellowbat.com/games/) | WP-API | 每日 | ★優先追蹤｜菲律賓平台 PlayTime 深度策略夥伴。上新遊戲於 DigiPlus 系/CasinoPlus/PlayTime 或特別活動/平台更新→提高露出權重 |  |
+| 241 | Yellow Bat 遊戲庫 | [https://www.yellowbat.com/games/](https://www.yellowbat.com/games/) | 官網新作 | 每日 | v6.7.3 官網遊戲庫的 WP-API（/wp/v2/games，免費）；新聞稿仍由上面 YellowBat 那列抓 |  |
+| 242 | 5G Games | [https://www.5ggames.com/en/news/game-launch/](https://www.5ggames.com/en/news/game-launch/) | 官網新作 | 每日 | v6.7.3 菲律賓 Top200 份額高（Super Gems、Pinata 系）；官網 Game Launch 新聞頁（免費） |  |
+| 243 | FA CHAI | [https://fachaigaming.com/en/news/category/game](https://fachaigaming.com/en/news/category/game) | 官網新作 | 每日 | v6.7.3 官網擋台灣、美國 IP，只能 Firecrawl（每天 1 點）抓 Game 新聞頁 |  |
 
 ### 產品分析／評測（13）
 
@@ -329,7 +344,7 @@ flowchart TD
 | 229 | BigWinBoard | [https://www.bigwinboard.com/new-slots/](https://www.bigwinboard.com/new-slots/) | 程式解析 | 每日 | Slot 資料庫站（v6.4 新增）；新作依上線日排序，大廠幾乎都有，含 RTP／最高倍率 |  |
 | 230 | SlotsLaunch | [https://slotslaunch.com/](https://slotslaunch.com/) | 程式解析 | 每日 | Slot 資料庫站（v6.4 新增）；v6.5 改抓上線日曆（每款有上線日，免費） |  |
 
-### 產業媒體（102）
+### 產業媒體（110）
 
 | 編號 | 網站名稱 | 網站網址 | 抓取方式 | 頻率 | 備註 | 展期 |
 |---|---|---|---|---|---|---|
@@ -435,6 +450,14 @@ flowchart TD
 | 227 | BusinessWorld | [https://www.bworldonline.com/](https://www.bworldonline.com/) | RSS | 每日 | 菲律賓財經媒體（v6.4 新增）；DigiPlus／Bloomberry 等上市公司動態 |  |
 | 228 | DigiPlus | [https://digiplus.com.ph/news/](https://digiplus.com.ph/news/) | RSS | 每日 | ★DigiPlus 官網新聞（v6.4 新增）；BingoPlus／ArenaPlus／GameZone 主來源 |  |
 | 231 | EEGaming（Recent Slot Releases） | [https://eegaming.org/category/recent-slot-releases](https://eegaming.org/category/recent-slot-releases) | RSS | 每日 | Slot 新作通稿集中地（v6.4 新增）；每週五另有 Weekend Reels 整理；v6.5 改用全站 RSS（精確發布時間、免費） |  |
+| 234 | Google News：BingoPlus | [https://news.google.com/](https://news.google.com/) | GoogleNews | 每日 | v6.6.9 菲律賓平台品牌的在地媒體報導（BusinessMirror、Manila Times、Inquirer…）；連結由程式轉回原文；一律歸 cat4 |  |
+| 235 | Google News：ArenaPlus | [https://news.google.com/](https://news.google.com/) | GoogleNews | 每日 | v6.6.9 菲律賓平台品牌的在地媒體報導（BusinessMirror、Manila Times、Inquirer…）；連結由程式轉回原文；一律歸 cat4 |  |
+| 236 | Google News：GameZone | [https://news.google.com/](https://news.google.com/) | GoogleNews | 每日 | v6.6.9 菲律賓平台品牌的在地媒體報導（BusinessMirror、Manila Times、Inquirer…）；連結由程式轉回原文；一律歸 cat4 |  |
+| 237 | Google News：Casino Plus | [https://news.google.com/](https://news.google.com/) | GoogleNews | 每日 | v6.6.9 菲律賓平台品牌的在地媒體報導（BusinessMirror、Manila Times、Inquirer…）；連結由程式轉回原文；一律歸 cat4 |  |
+| 238 | Google News：PlayTime／PT Gaming | [https://news.google.com/](https://news.google.com/) | GoogleNews | 每日 | v6.6.9 菲律賓平台品牌的在地媒體報導（BusinessMirror、Manila Times、Inquirer…）；連結由程式轉回原文；一律歸 cat4 |  |
+| 239 | Google News：OKBet | [https://news.google.com/](https://news.google.com/) | GoogleNews | 每日 | v6.6.9 菲律賓平台品牌的在地媒體報導（BusinessMirror、Manila Times、Inquirer…）；連結由程式轉回原文；一律歸 cat4 |  |
+| 240 | Google News：BET88 | [https://news.google.com/](https://news.google.com/) | GoogleNews | 每日 | v6.6.9 菲律賓平台品牌的在地媒體報導（BusinessMirror、Manila Times、Inquirer…）；連結由程式轉回原文；一律歸 cat4 |  |
+| 244 | Google News：JDB Gaming（廠商） | [https://news.google.com/](https://news.google.com/) | GoogleNews | 每日 | v6.7.3 JDB 官網擋地區、Firecrawl 也抓不到遊戲列表，先用 Google News 保底；不強制歸 cat4 |  |
 
 ### 產業協會／技術認證機構（23）
 
