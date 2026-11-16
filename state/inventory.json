@@ -51,22 +51,6 @@
   },
   {
    "cat": "cat1",
-   "title": "World Eaters 2",
-   "gp": "ELK Studios",
-   "b": 1,
-   "first_seen": "2026-10-31",
-   "release_date": "2026-11-24",
-   "sources": [
-    {
-     "name": "iGamingToday",
-     "url": "https://www.igamingtoday.com/world-eaters-2-slot-review/",
-     "published": "2026-10-30 18:09"
-    }
-   ],
-   "key": "worldeaters2|elkstudios"
-  },
-  {
-   "cat": "cat1",
    "title": "Le Santa Hold & Win",
    "gp": "Hacksaw Gaming",
    "b": 3,
@@ -80,51 +64,25 @@
     }
    ],
    "key": "lesantaholdwin|hacksawgaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Phoenix Frenzy Triple Win",
+   "gp": "Play'n GO",
+   "b": 4,
+   "first_seen": "2026-11-17",
+   "release_date": "2026-11-19",
+   "sources": [
+    {
+     "name": "Play'n GO",
+     "url": "https://www.playngo.com/games/phoenix-frenzy-triple-win",
+     "published": "2026-11-19 00:00"
+    }
+   ],
+   "key": "phoenixfrenzytriplewin|playngo"
   }
  ],
  "others": [
-  {
-   "cat": "cat3",
-   "title": "Amusnet 經 Eldoradocasino.es 擴大西班牙數位布局",
-   "b": 1,
-   "first_seen": "2026-11-13",
-   "sources": [
-    {
-     "name": "Sector del Juego",
-     "url": "https://sectordeljuego.com/2026/11/12/amusnet-refuerza-su-presencia-digital-en-espana-mediante-una-alianza-estrategica-con-eldoradocasino-es/",
-     "published": "2026-11-12 15:04"
-    }
-   ],
-   "key": "amusnet經eldoradocasinoes擴大西班牙數位布局|"
-  },
-  {
-   "cat": "cat4",
-   "title": "Casino Plus 與 Evolution 談數位遊戲信任",
-   "b": 6,
-   "first_seen": "2026-11-13",
-   "sources": [
-    {
-     "name": "Voice of ASEAN",
-     "url": "https://voiceofasean.com/newsroom/casino-plus-and-evolution-redefine-rules-of-digital-gaming-trust/",
-     "published": "2026-11-12 19:21"
-    }
-   ],
-   "key": "casinoplus與evolution談數位遊戲信任|"
-  },
-  {
-   "cat": "cat5",
-   "title": "英國賭博委員會：74% 英國 11–17 歲青少年從未賭博",
-   "b": 1,
-   "first_seen": "2026-11-13",
-   "sources": [
-    {
-     "name": "JAMMA",
-     "url": "https://www.jamma.it/attualita/regno-unito-cala-il-gioco-tra-i-minori-il-74-non-ha-giocato-nel-2026-362510",
-     "published": "2026-11-12 22:41"
-    }
-   ],
-   "key": "英國賭博委員會74英國1117歲青少年從未賭博|"
-  },
   {
    "cat": "cat2",
    "title": "Italy online cash poker October 2026 collection EUR 247.7m",
@@ -181,107 +139,37 @@
     }
    ],
    "key": "澳門前三季會展帶動非博彩收入年增122至514億美元|"
+  },
+  {
+   "cat": "cat3",
+   "title": "Hacksaw Gaming 經 EveryMatrix 上線瑞典 ATG",
+   "b": 3,
+   "first_seen": "2026-11-17",
+   "sources": [
+    {
+     "name": "Hacksaw Gaming",
+     "url": "https://www.hacksawgaming.com/news/hacksaw-gaming-goes-live-with-atg-in-sweden",
+     "published": "2026-11-16 00:00"
+    }
+   ],
+   "key": "hacksawgaming經everymatrix上線瑞典atg|"
+  },
+  {
+   "cat": "cat5",
+   "title": "德國第三季博彩投注額年增 16% 至 37.4 億歐元",
+   "b": 1,
+   "first_seen": "2026-11-17",
+   "sources": [
+    {
+     "name": "Gaming Intelligence",
+     "url": "https://www.gamingintelligence.com/finance/238658-germany-gambling-stakes-increase-16-in-third-quarter/",
+     "published": "2026-11-16 18:37"
+    }
+   ],
+   "key": "德國第三季博彩投注額年增16至374億歐元|"
   }
  ],
  "history": [
-  {
-   "key": "cloverpaddy|zitro",
-   "date": "2026-10-17",
-   "cat": "cat1",
-   "title": "Clover Paddy",
-   "gp": "Zitro"
-  },
-  {
-   "key": "3potsofaladdin|tomhorngaming",
-   "date": "2026-10-17",
-   "cat": "cat1",
-   "title": "3 Pots of Aladdin",
-   "gp": "Tom Horn Gaming"
-  },
-  {
-   "key": "hubaobeitigerriches|ags",
-   "date": "2026-10-17",
-   "cat": "cat1",
-   "title": "Hu Bao Bei: Tiger Riches",
-   "gp": "AGS"
-  },
-  {
-   "key": "battleforearth|interblock",
-   "date": "2026-10-17",
-   "cat": "cat2",
-   "title": "Battle for Earth",
-   "gp": "Interblock"
-  },
-  {
-   "key": "beeinfinity|galaxsys",
-   "date": "2026-10-17",
-   "cat": "cat2",
-   "title": "BeeInfinity",
-   "gp": "Galaxsys"
-  },
-  {
-   "key": "tadagaming為2026展會巡迴收尾sigmarome帶86款義大利認證遊戲|",
-   "date": "2026-10-17",
-   "cat": "cat3",
-   "title": "TaDa Gaming 為 2026 展會巡迴收尾：SiGMA Rome 帶 86 款義大利認證遊戲",
-   "gp": ""
-  },
-  {
-   "key": "aristocratinteractiveneogamesstudio內容上線肯塔基彩券|",
-   "date": "2026-10-17",
-   "cat": "cat3",
-   "title": "Aristocrat Interactive NeoGames Studio 內容上線肯塔基彩券",
-   "gp": ""
-  },
-  {
-   "key": "wazdan經lightwonder聚合平台進入南非hollywoodbets|",
-   "date": "2026-10-17",
-   "cat": "cat3",
-   "title": "Wazdan 經 Light & Wonder 聚合平台進入南非 Hollywoodbets",
-   "gp": ""
-  },
-  {
-   "key": "evoplay約50款遊戲上線西班牙granmadrid|",
-   "date": "2026-10-17",
-   "cat": "cat3",
-   "title": "Evoplay 約 50 款遊戲上線西班牙 Gran Madrid",
-   "gp": ""
-  },
-  {
-   "key": "casinoplus加冠首屆misscasinoplusbacolod|",
-   "date": "2026-10-17",
-   "cat": "cat4",
-   "title": "Casino Plus 加冠首屆 Miss Casino Plus Bacolod",
-   "gp": ""
-  },
-  {
-   "key": "arenaplus代言人luismanzano談平台合作|",
-   "date": "2026-10-17",
-   "cat": "cat4",
-   "title": "ArenaPlus 代言人 Luis Manzano 談平台合作",
-   "gp": ""
-  },
-  {
-   "key": "澳門第三季massggr年減52slot成長188|",
-   "date": "2026-10-17",
-   "cat": "cat5",
-   "title": "澳門第三季 Mass GGR 年減 5.2%，Slot 成長 18.8%",
-   "gp": ""
-  },
-  {
-   "key": "4theplayer創辦人ai讓slot分成快時尚與精品|",
-   "date": "2026-10-17",
-   "cat": "cat5",
-   "title": "4ThePlayer 創辦人：AI 讓 Slot 分成快時尚與精品",
-   "gp": ""
-  },
-  {
-   "key": "西班牙2025年3100萬人參與博彩問題賭博率030|",
-   "date": "2026-10-17",
-   "cat": "cat5",
-   "title": "西班牙 2025 年 3,100 萬人參與博彩，問題賭博率 0.30%",
-   "gp": ""
-  },
   {
    "key": "inkspints|petersons",
    "date": "2026-10-18",
@@ -3739,6 +3627,139 @@
    "cat": "cat1",
    "title": "Ghost Vision",
    "gp": "Hacksaw Gaming"
+  },
+  {
+   "key": "fireinthehole4|nolimitcity",
+   "date": "2026-11-17",
+   "cat": "cat1",
+   "title": "Fire in the Hole 4",
+   "gp": "Nolimit City"
+  },
+  {
+   "key": "bigbasschristmasblast1000|pragmaticplay",
+   "date": "2026-11-17",
+   "cat": "cat1",
+   "title": "Big Bass Christmas Blast 1000",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "kakusei|zitro",
+   "date": "2026-11-17",
+   "cat": "cat1",
+   "title": "Kakusei",
+   "gp": "Zitro"
+  },
+  {
+   "key": "worldeaters2|elkstudios",
+   "date": "2026-11-17",
+   "cat": "cat1",
+   "title": "World Eaters 2",
+   "gp": "ELK Studios"
+  },
+  {
+   "key": "pureecstasyxmas|pateplay",
+   "date": "2026-11-17",
+   "cat": "cat1",
+   "title": "Pure Ecstasy Xmas",
+   "gp": "Pateplay"
+  },
+  {
+   "key": "twomoonsbaccarat|creedroomz",
+   "date": "2026-11-17",
+   "cat": "cat2",
+   "title": "Two Moons Baccarat",
+   "gp": "CreedRoomz"
+  },
+  {
+   "key": "luckycoelhojackpotfortunes|nekogames",
+   "date": "2026-11-17",
+   "cat": "cat2",
+   "title": "Lucky Coelho: Jackpot Fortunes",
+   "gp": "Neko Games"
+  },
+  {
+   "key": "runittwice現金桌功能|pokerstarsfanduel",
+   "date": "2026-11-17",
+   "cat": "cat2",
+   "title": "Run It Twice 現金桌功能",
+   "gp": "PokerStars（FanDuel）"
+  },
+  {
+   "key": "tadagaming上架秘魯新品牌betmasterpehacksawwazdangamingrealms同日跟進|",
+   "date": "2026-11-17",
+   "cat": "cat3",
+   "title": "TaDa Gaming 上架秘魯新品牌 Betmaster.pe，Hacksaw、Wazdan、Gaming Realms 同日跟進",
+   "gp": ""
+  },
+  {
+   "key": "聚合商st8簽下pushgaming內容進入九個受監理市場|",
+   "date": "2026-11-17",
+   "cat": "cat3",
+   "title": "聚合商 St8 簽下 Push Gaming，內容進入九個受監理市場",
+   "gp": ""
+  },
+  {
+   "key": "flutter取消義大利品牌別管理層sisal執行長tiso離任|",
+   "date": "2026-11-17",
+   "cat": "cat3",
+   "title": "Flutter 取消義大利品牌別管理層，Sisal 執行長 Tiso 離任",
+   "gp": ""
+  },
+  {
+   "key": "ainsworth小股東報告eldoradolink數學模型近似novomatic產品公司被迫考慮修改|",
+   "date": "2026-11-17",
+   "cat": "cat3",
+   "title": "Ainsworth 小股東報告：El Dorado Link 數學模型近似 Novomatic 產品，公司被迫考慮修改",
+   "gp": ""
+  },
+  {
+   "key": "bloomberry第三季淨損縮小到48億披索博彩總收入增5|",
+   "date": "2026-11-17",
+   "cat": "cat4",
+   "title": "Bloomberry 第三季淨損縮小到 4.8 億披索，博彩總收入增 5%",
+   "gp": ""
+  },
+  {
+   "key": "okadamanila母公司娛樂城賭場市場已經觸底線上博彩收入持續增加|",
+   "date": "2026-11-17",
+   "cat": "cat4",
+   "title": "Okada Manila 母公司：娛樂城賭場市場已經觸底，線上博彩收入持續增加",
+   "gp": ""
+  },
+  {
+   "key": "qtech在宿霧spiceinternational獲選年度技術供應商|",
+   "date": "2026-11-17",
+   "cat": "cat4",
+   "title": "QTech 在宿霧 SPiCE International 獲選年度技術供應商",
+   "gp": ""
+  },
+  {
+   "key": "arenaplus以代言人migueltabuena專訪做品牌內容多家媒體同步刊出|",
+   "date": "2026-11-17",
+   "cat": "cat4",
+   "title": "ArenaPlus 以代言人 Miguel Tabuena 專訪做品牌內容，多家媒體同步刊出",
+   "gp": ""
+  },
+  {
+   "key": "iconic21換一張聖誕皮不等於聖誕策略節慶內容7月就該開始規劃|",
+   "date": "2026-11-17",
+   "cat": "cat5",
+   "title": "ICONIC21：換一張聖誕皮不等於聖誕策略，節慶內容 7 月就該開始規劃",
+   "gp": ""
+  },
+  {
+   "key": "預測市場第三季交易量季增75品牌搜尋需求卻掉41|",
+   "date": "2026-11-17",
+   "cat": "cat5",
+   "title": "預測市場第三季交易量季增 75%，品牌搜尋需求卻掉 41%",
+   "gp": ""
+  },
+  {
+   "key": "法國博彩市場2026betclic居首線上賭場類搜尋興趣年減276|",
+   "date": "2026-11-17",
+   "cat": "cat5",
+   "title": "法國博彩市場 2026：Betclic 居首，線上賭場類搜尋興趣年減 27.6%",
+   "gp": ""
   }
  ],
  "rejected": [

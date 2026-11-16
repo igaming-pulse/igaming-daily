@@ -1,0 +1,38 @@
+{
+ "date": "2026-11-17",
+ "md": "state/2026-11-17-igaming-report.md",
+ "html": "reports/2026-11-17.html",
+ "items": 19,
+ "counts": {
+  "cat1": 5,
+  "cat2": 3,
+  "cat3": 4,
+  "cat4": 4,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 57,
+  "ok": 47,
+  "broken": 0,
+  "blocked": 10,
+  "images_dropped": 0,
+  "images": 19
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-04 World Eaters 2 – ELK Stu｜新作預告主來源 2026-10-30 已 18 天（只有熱門 IP 可放寬到 30 天）",
+  "cat1-03 Kakusei – Zitro｜來源連結無法自動驗證（403，多半是網站擋機器人）：Yogonet https://www.yogonet.com/international/news/2026/11/16/127317-zitro-debuts-kakusei-slot-with-figurine-accumulator-on-concept-cabinet",
+  "cat2-02 Lucky Coelho: Jackpot Fo｜來源連結無法自動驗證（403，多半是網站擋機器人）：Yogonet https://www.yogonet.com/international/news/2026/11/16/127301-neko-games-brings-a-skater-rabbit-to-the-fortune-category-with-lucky-coelho-jackpot-fortunes",
+  "cat3-01 TaDa Gaming 上架秘魯新品牌 Betm｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/tada-gaming-betmaster-pe-peru-launch",
+  "cat3-01 TaDa Gaming 上架秘魯新品牌 Betm｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Brazil https://igamingbrazil.com/online-2/2026/11/16/tada-amplia-presenca-regulamentada-no-peru-com-a-betmaster/",
+  "cat4-01 Bloomberry 第三季淨損縮小到 4.8 ｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/bloomberry-3q-loss-narrows-to-us7mln-ebitda-up-64pct-from-a-year-ago",
+  "cat4-01 Bloomberry 第三季淨損縮小到 4.8 ｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/11/16/bloomberry-narrows-3q-losses-as-higher-vip-hold-rates-drive-solaire-ggr-growth/",
+  "cat4-02 Okada Manila 母公司：娛樂城賭場市場｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/entertainment-city-casino-market-has-bottomed-out-says-okada-manila-parent",
+  "cat4-02 Okada Manila 母公司：娛樂城賭場市場｜來源連結無法自動驗證（403，多半是網站擋機器人）：Inside Asian Gaming https://asgam.com/2026/11/16/japans-universal-swings-to-us4-5-million-profit-on-pachinko-and-pachislot-recovery-cites-ongoing-challenges-at-okada-manila/",
+  "cat5-01 ICONIC21：換一張聖誕皮不等於聖誕策略，節｜來源連結無法自動驗證（403，多半是網站擋機器人）：Focus Gaming News https://focusgn.com/christmas-skin-not-christmas-strategy",
+  "cat5-03 法國博彩市場 2026：Betclic 居首，線｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/gambling-in-france/"
+ ],
+ "fixes": [
+  "文末｜資料來源數 34 → 38（程式依來源連結去重計算）"
+ ]
+}

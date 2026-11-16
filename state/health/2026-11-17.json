@@ -1,0 +1,53 @@
+{
+ "date": "2026-11-17",
+ "alerts": [
+  "🟠 Firecrawl 剩 992 點，照每天約 107 點會在 11/26 用完，撐不到 12/14 重置（還差約 1897 點）",
+  "🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（32 天）、GiocoNews（18 天）；請檢查網址或改抓取方式"
+ ],
+ "info": {
+  "credits": {
+   "remaining": 992,
+   "plan": 1000,
+   "period_end": "2026-12-14",
+   "today_use": null,
+   "daily_use": 107,
+   "daily_basis": "近 7 天實際",
+   "days_to_reset": 27,
+   "need_until_reset": 2889
+  },
+  "tier": {
+   "tier": "🟡 標準",
+   "budget": null,
+   "note": "查不到剩餘點數，預設標準",
+   "lists_spent": 7,
+   "article_limit": 16,
+   "image_extra": 10
+  },
+  "sources": {
+   "total": 112,
+   "failed_today": [
+    "GiocoNews",
+    "SunStar",
+    "Google News：GameZone",
+    "Google News：BET88",
+    "BigWinBoard 新作列表",
+    "iGamingToday"
+   ],
+   "streak_3d": [
+    "BigWinBoard 新作列表",
+    "GiocoNews"
+   ]
+  },
+  "candidates": {
+   "today": 481,
+   "median_same_type": null,
+   "basis_days": 0,
+   "type": "平日窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 11,
+   "fixes": 1
+  }
+ }
+}

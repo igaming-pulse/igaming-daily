@@ -1,0 +1,25 @@
+{"shown": [
+ {"cat":"cat1","title":"Fire in the Hole 4","gp":"Nolimit City"},
+ {"cat":"cat1","title":"Big Bass Christmas Blast 1000","gp":"Pragmatic Play"},
+ {"cat":"cat1","title":"Kakusei","gp":"Zitro"},
+ {"cat":"cat1","title":"World Eaters 2","gp":"ELK Studios"},
+ {"cat":"cat1","title":"Pure Ecstasy Xmas","gp":"Pateplay"},
+ {"cat":"cat2","title":"Two Moons Baccarat","gp":"CreedRoomz"},
+ {"cat":"cat2","title":"Lucky Coelho: Jackpot Fortunes","gp":"Neko Games"},
+ {"cat":"cat2","title":"Run It Twice 現金桌功能","gp":"PokerStars（FanDuel）"},
+ {"cat":"cat3","title":"TaDa Gaming 上架秘魯新品牌 Betmaster.pe，Hacksaw、Wazdan、Gaming Realms 同日跟進"},
+ {"cat":"cat3","title":"聚合商 St8 簽下 Push Gaming，內容進入九個受監理市場"},
+ {"cat":"cat3","title":"Flutter 取消義大利品牌別管理層，Sisal 執行長 Tiso 離任"},
+ {"cat":"cat3","title":"Ainsworth 小股東報告：El Dorado Link 數學模型近似 Novomatic 產品，公司被迫考慮修改"},
+ {"cat":"cat4","title":"Bloomberry 第三季淨損縮小到 4.8 億披索，博彩總收入增 5%"},
+ {"cat":"cat4","title":"Okada Manila 母公司：娛樂城賭場市場已經觸底，線上博彩收入持續增加"},
+ {"cat":"cat4","title":"QTech 在宿霧 SPiCE International 獲選年度技術供應商"},
+ {"cat":"cat4","title":"ArenaPlus 以代言人 Miguel Tabuena 專訪做品牌內容，多家媒體同步刊出"},
+ {"cat":"cat5","title":"ICONIC21：換一張聖誕皮不等於聖誕策略，節慶內容 7 月就該開始規劃"},
+ {"cat":"cat5","title":"預測市場第三季交易量季增 75%，品牌搜尋需求卻掉 41%"},
+ {"cat":"cat5","title":"法國博彩市場 2026：Betclic 居首，線上賭場類搜尋興趣年減 27.6%"}],
+ "stock": [
+ {"cat":"cat1","title":"Phoenix Frenzy Triple Win","gp":"Play'n GO","b":4,"first_seen":"2026-11-17","release_date":"2026-11-19","sources":[{"name":"Play'n GO","url":"https://www.playngo.com/games/phoenix-frenzy-triple-win","published":"2026-11-19 00:00"}]},
+ {"cat":"cat3","title":"Hacksaw Gaming 經 EveryMatrix 上線瑞典 ATG","b":3,"first_seen":"2026-11-17","sources":[{"name":"Hacksaw Gaming","url":"https://www.hacksawgaming.com/news/hacksaw-gaming-goes-live-with-atg-in-sweden","published":"2026-11-16 00:00"}]},
+ {"cat":"cat5","title":"德國第三季博彩投注額年增 16% 至 37.4 億歐元","b":1,"first_seen":"2026-11-17","sources":[{"name":"Gaming Intelligence","url":"https://www.gamingintelligence.com/finance/238658-germany-gambling-stakes-increase-16-in-third-quarter/","published":"2026-11-16 18:37"}]}
+ ]}

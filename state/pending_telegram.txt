@@ -1,43 +1,45 @@
-🎰 iGaming 市場日報 2026-11-16（週一）
-🎰 Slot 4 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
-📦 今日另有特別版：釋放 4 款近期新作（大廠在前）→ https://igaming-pulse.github.io/igaming-daily/reports/2026-11-16-special.html
+🎰 iGaming 市場日報 2026-11-17（週二）
+🎰 Slot 4 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 4 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・PG Soft Eureka Legends：全盤計分加左側倍數軸，整列填滿才啟動倍數
-・Evolution 考慮讓 Casino Plus 玩家搶先玩新遊戲，並合辦線上線下活動
-・美國數據：賭場遊戲收入仍遠高於運彩，iGaming 年增 27.6%
+・Nolimit City《Fire in the Hole 4》上線：xWays 可擴散、上限 75,000 倍
+・Bloomberry 第三季虧損收斂，Okada 母公司稱娛樂城已觸底
+・ICONIC21：聖誕換皮不算策略，節慶檔期 7 月就要規劃
 
 🎰 Slot 新遊戲
-01 [N+1] 📦 Eureka Legends – PG Soft
-02 [原創] 🆕 Zeus vs Hades POP – Pragmatic Play（11/17 上線）
-03 [原創] 📦 Fresh Fruit Deluxe Collect – Swintt
-04 [原創] 📦 Mr. Ferret Heist – Belatra
-・換皮／資料不足：Lucky Fireworks（IGT）、Luxury Feast（BGaming）、3 Piggies Cashout（Spinomenal）、📦 Cypher of Ra（Fantasma Games）、📦 Thanksgiving Riches: Hold & Win（ONLYPLAY）
+01 [原創] Fire in the Hole 4 – Nolimit City
+02 [原創] Big Bass Christmas Blast 1000 – Pragmatic Play
+03 [原創] Kakusei – Zitro（實體機）
+04 [原創] 🆕 新作預告（11/24 上線）World Eaters 2 – ELK Studios
+・換皮／資料不足：Pure Ecstasy Xmas
 
 🕹️ 非 Slot 新內容
-01 Avixo – Galaxsys（Crash）
+01 Two Moons Baccarat – CreedRoomz（雙波動模式百家樂，最高 10,000 倍）
+02 Lucky Coelho: Jackpot Fortunes – Neko Games（招財兔 90 球即時賓果）
+03 Run It Twice 現金桌功能 – PokerStars（FanDuel）
 
-🤝 動態：主流 GP／平台
-01 Novomatic 代表辭去 Ainsworth 董事，稱對執行長與董事會失去信心
-02 Betano 要求重談 Flamengo 主贊助，球會可能退還 4,400 萬雷亞爾
-03 惠譽把澳博控股評級降至 B，展望轉為負面
-04 保加利亞委員會支持賭博法草案：近乎全面禁廣告、取消聯盟行銷牌照
+🤝 主流 GP／平台
+01 TaDa Gaming 上架秘魯新品牌 Betmaster.pe，Hacksaw、Wazdan、Gaming Realms 同日跟進
+02 聚合商 St8 簽下 Push Gaming，內容進入九個受監理市場
+03 Flutter 取消義大利品牌別管理層，Sisal 執行長 Tiso 離任
+04 Ainsworth 小股東報告：El Dorado Link 數學模型近似 Novomatic 產品
 
-🇵🇭 動態：菲律賓 GP／平台
-01 🔁 Evolution 考慮讓 Casino Plus 玩家搶先玩新遊戲
-02 NUSTAR 第三家飯店 Grand Summit 訂 2027/2/23 試營運
-03 巴西總統 Lula 訪馬尼拉，巴西媒體以菲律賓監管模式對照本國禁令
+🇵🇭 菲律賓 GP／平台
+01 Bloomberry 第三季淨損縮小到 4.8 億披索，博彩總收入增 5%
+02 Okada Manila 母公司：娛樂城賭場市場已經觸底，線上博彩收入持續增加
+03 QTech 在宿霧 SPiCE International 獲選年度技術供應商
+04 ArenaPlus 以代言人 Miguel Tabuena 專訪做品牌內容
 
 📊 市場數據 & 趨勢
-01 賭場遊戲收入仍遠高於運彩：美國 iGaming 2025 年成長 27.6%
-02 澳洲國立大學研究：線上已成澳洲人主要賭博方式
-03 巴西禁令滿月：10 月欠款人數創新高達 7,555 萬人
+01 ICONIC21：換一張聖誕皮不等於聖誕策略
+02 預測市場第三季交易量季增 75%，品牌搜尋需求卻掉 41%
+03 法國博彩市場 2026：Betclic 居首，線上賭場類搜尋興趣年減 27.6%
 
 📝 品質備註（本次爬找判斷）
-1. 本窗涵蓋週日，窗內候選 59 則且多為巴西、義大利、日本在地消息；Slot 當日新作只有 SlotsLaunch 日曆條目（3 款無新聞稿、參數未公布），完整卡片 4 款中 3 款為庫存補位、1 款為預告，未湊滿 7 款。
-2. 抓取異常：European Gaming、GiocoNews、BigWinBoard 新作列表三個來源失敗；Hacksaw 兩款庫存（Marlin Masters 11/17、Ghost Vision 11/19）因評測超過 30 天，留待上線日再收。
-3. 非 Slot 只有 Avixo 一則且無參數；EEZE 近 3 天無消息；Casino Plus × Evolution 與 11/12 同一合作，本次以新進展（搶先體驗）標 🔁。
+1. 今天沒有第一級（N+1）Slot：亞洲廠商官網窗內 0 款，當天新作只有 3 款完整卡片，從庫存補 1 款預告（World Eaters 2，庫存僅此 1 款）；必看改從第二級挑。
+2. 抓取異常：BigWinBoard 新作列表、iGamingToday、SunStar、GiocoNews、Google News（GameZone、BET88）共 6 個來源失敗，Slot 新作靠 SlotsLaunch 上線日曆與新聞稿補；Fire in the Hole 4 無新聞稿，參數取自提前評測。
+3. Ainsworth 一則疑似與 11/16（董事辭任）重疊，因是產品相似指控的新內容而收錄；Flutter 義大利一則來源為付費文章，僅有摘要。
 
 ⚙️ 系統警報
-1. 🟠 Firecrawl 剩 1017 點，照每天約 107 點會在 11/25 用完，撐不到 12/14 重置（還差約 1979 點）
-2. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（31 天）、GiocoNews（17 天）；請檢查網址或改抓取方式
+1. 🟠 Firecrawl 剩 992 點，照每天約 107 點會在 11/26 用完，撐不到 12/14 重置（還差約 1897 點）
+2. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（32 天）、GiocoNews（18 天）；請檢查網址或改抓取方式
