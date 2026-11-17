@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 🎰 iGaming 市場日報 2026-11-18（週三）
 🎰 Slot 2 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
 
@@ -37,3 +38,48 @@
 ⚙️ 系統警報
 1. 🟠 Firecrawl 剩 984 點，照每天約 106 點會在 11/27 用完，撐不到 12/14 重置（還差約 1772 點）
 2. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（33 天）、GiocoNews（19 天）、Gaming for Africa（3 天）；請檢查網址或改抓取方式
+=======
+🎰 iGaming 市場日報 2026-11-17（週二）
+🎰 Slot 3 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
+
+⭐ 今日重點
+・Nolimit City《Fire in the Hole 4》上線：連消逐列擴到 6 列、xWays 傳染、倍數升級軸最高 x100
+・菲律賓：Bloomberry 第三季虧損收窄、EBITDA +64%；Okada 母公司稱 Entertainment City 市場已觸底
+・預測市場 Q3：交易量季增 75%、搜尋需求降 41%；路易斯安那禁制令使州聯邦管轄之爭升溫
+
+🎰 Slot 新遊戲
+01 [原創] Fire in the Hole 4 – Nolimit City
+02 [原創] 🔁 正式上線 Wrappin' Christmas Gold – Play'n GO
+03 [原創] Kakusei – Zitro（實體機 CONCEPT 機台）
+・換皮／資料不足：Big Bass Christmas Blast 1000、Pure Ecstasy Xmas
+
+🕹️ 非 Slot 新內容
+01 Two Moons Baccarat – CreedRoomz
+02 Lucky Coelho: Jackpot Fortunes – Neko Games（即時賓果）
+03 Run It Twice 選項 – PokerStars（FanDuel）
+
+🤝 動態：主流 GP／平台
+01 TaDa Gaming、Wazdan、Gaming Realms 同日上架秘魯 Betmaster.pe
+02 St8 與 Push Gaming 簽多市場協議
+03 Ainsworth 遭指控新作與 Novomatic 產品相似
+04 路易斯安那對 31 家預測市場實體發禁制令，CFTC 提告
+
+🇵🇭 動態：菲律賓 GP／平台
+01 Bloomberry 第三季虧損收窄，Solaire EBITDA +64%
+02 Universal Entertainment：Entertainment City 已觸底，Okada Play 起量
+03 GameZone × Gloc-9「Tara G!」MV 首映（品牌發布稿）
+
+📊 市場數據 & 趨勢
+01 預測市場 Q3：交易量 +75%、搜尋需求 -41%
+02 聖誕內容從單款主題遊戲轉向全大廳包裝
+03 澳門前三季會展帶動非博彩收入 +12.2%
+
+📝 品質備註（本次爬找判斷）
+1. 本次為排程在 02:30 執行；Slot 只有 3 款完整卡片＋2 款精簡卡片：近 3 天已出現的新作很多（含 Marlin Masters、Zeus vs Hades POP 等），其餘 SlotsLaunch 條目與 iGamingToday 單一來源評測（Mahjong Gold Super Scatter、Lucky Bull、Wild in the Box、World Eaters 2）查不到第二來源，未收；庫存無可用補位。
+2. 疑似重疊：Two Moons Baccarat 11/8 已有轉載稿（11/16 為多家媒體刊出）；Ainsworth 相似性指控與 11/16 董事辭職出自同一份報告，本則為新指控；Wrappin' Christmas Gold 為 11/12 預告後正式上線（🔁）。
+3. 本機執行前有未完成的 git rebase（11/16 NAS 與 Mac 各跑一份日報），已以遠端版本為準解衝突後繼續；EEZE 近 3 天無消息依例外跳過。
+
+⚙️ 系統警報
+1. 🟠 Firecrawl 剩 1005 點，照每天約 107 點會在 11/26 用完，撐不到 12/14 重置（還差約 1884 點）
+2. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（32 天）、GiocoNews（18 天）、PlayGraph（3 天）；請檢查網址或改抓取方式
+>>>>>>> 6cbe0ca (daily: 2026-11-17 report)
