@@ -1,0 +1,249 @@
+# 🎰 iGaming 市場日報 2026-11-19（週四）
+
+🎰 Slot 5 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
+
+---
+
+## 📌 本日重點
+
+本日必看 Slot 新品：Fortune Garuda 500 JACKPOT – JILI
+本日市場趨勢總結：美國各州一方面持續刷新博彩營收紀錄，另一方面對「社交賭場」的執法明顯升級。猶他州 11 月 17 日起訴 Stake.us，主張可 1:1 兌現的 Stake Cash 等同真錢賭博。同時亞洲兩個市場（澳門預算、越南賭場規定）都在調整對賭場收入與本地客的設定。對 PM 而言，現金網與社交賭場的法律風險集中在「虛擬貨幣能否兌現」這個設計點，產品與行銷文案都該先過法務。
+
+---
+
+## 🎰 Game Provider 新遊戲
+
+### 01 Fortune Garuda 500 JACKPOT – JILI
+
+在 Fortune Garuda 500 的基礎上追加「Jackpot」玩法的續作，作為 JILI 七週年慶的主打遊戲，同步開跑 11/2～11/30 的排行榜錦標賽。遊戲維持 3×3 盤面、五條支付線、倍數軸與 Ex NUDGE 機制，倍數軸最高 500x，新增 12 格 Jackpot Wheel（獎金轉盤）與 GRAND、GARUDA 兩個累積彩金池，另有隨機觸發的 Garuda's Gift 與多種加注選項。JILI 的 Fortune Gems 系 3×3 小盤面在菲律賓平台是穩定賣座的類型，這次是把彩金輪盤直接加進 Base Game，屬於同一原型的 N+1 微創新。對 PM 的意義：週年慶搭配排行榜活動可以直接複製到平台檔期，Jackpot 池也能當作行銷素材。
+
+衍生調整：相對 Fortune Garuda 500，新增 Jackpot Wheel 與兩個累積彩金池。
+
+參數：
+- 廠牌：JILI
+- 核心機制：Fortune Gems 系（Fortune Garuda 500 續作，代數未確認）
+- 微創新：倍數軸玩法加入 12 格 Jackpot Wheel
+- 遊戲類型：線上電子老虎機
+- 盤面：3×3（5 條支付線＋倍數軸）
+- 消除/賠付：傳統連線，倍數軸＋Ex NUDGE
+- 最高倍率：倍數軸最高 500x（原版 Fortune Garuda 500 資料庫標示 25,000x，JACKPOT 版未確認）
+- RTP：未公布（原版 97.10%）
+- 波動：未公布（原版低波動）
+- 目標市場：全球（JILI 官方 B2B 通路）
+- 關鍵特色：Jackpot Wheel、雙累積彩金、Garuda's Gift、七週年排行榜錦標賽
+
+查證：JACKPOT 版 RTP／波動官方稿未列，已查 Yogonet 內文與 SlotCatalog 原版頁；原版數字僅供參考。
+來源：[Yogonet International](https://www.yogonet.com/international/news/2026/11/18/127324-jili-marks-seventh-anniversary-with-fortune-garuda-500-jackpot-launch-and-leaderboard-tournament) · [SlotCatalog（原版）](https://slotcatalog.com/en/slots/fortune-garuda-500) · 日期：2026-11-18
+圖片：https://imagenesyogonet.b-cdn.net/data/imagenes/2026/11/16/92933/1794838694-jili-fortune-garuda-v2.jpg
+
+### 02 Glam Cam – DELULU Gaming
+
+以網紅情侶為主題的新作，賣點是兩個擴展 Wild 的互動：一個出現在第 1～2 軸、另一個在第 4～5 軸，各自可擴展成整軸 Wild；兩者同時出現時觸發 Nudge Feature，中間三軸合併成一整塊巨型 Wild，外側兩軸重轉。另有 3 個 Scatter 觸發 10 次免費遊戲（Arrow 符號累積）、Loot Box 與購買免費遊戲功能，最高 15,000x，已在 SiGMA Rome 2026 首度展出。對 PM 的意義：這是 Base Game 就會觸發的角色互動，沒有主流原型可對，可以當作「原創機制」候選觀察歐洲現金網的表現。
+
+衍生調整：全新 IP，無衍生。
+
+參數：
+- 廠牌：DELULU Gaming
+- 核心機制：-
+- 微創新：雙擴展 Wild 同現時，中三軸合成巨型 Wild
+- 遊戲類型：線上電子老虎機
+- 盤面：5×4
+- 消除/賠付：10 條支付線（雙向支付）
+- 最高倍率：15,000x
+- RTP：92%～98%（依營運商設定）
+- 波動：高
+- 目標市場：歐洲（SiGMA Rome 2026 首展）
+- 關鍵特色：雙擴展 Wild＋Nudge、10 次免費遊戲、Loot Box、購買免費遊戲
+
+查證：RTP 為官方稿列出的可選範圍，非固定值。
+來源：[Focus Gaming News](https://focusgn.com/delulu-gaming-glam-cam-slot) · [Yogonet International](https://www.yogonet.com/international/news/2026/11/18/127359-delulu-gaming-launches-influencerthemed-slot-glam-cam-with-wins-up-to-15-000x) · 日期：2026-11-18
+圖片：https://focusgn.com/wp-content/uploads/2026/11/DELULU-GAMING-Glam-Cam-1200x630.jpg
+
+### 03 Money Tree: Just Bonuses – Aristocrat
+
+Aristocrat Gaming 推出全新實體機系列 Money Tree，首批三款為 Buffalo、Gold Stacks 88 與全新的 Just Bonuses，11 月 18 日在拉斯維加斯 Wynn 正式亮相並陸續鋪向北美賭場，專屬新機型 Reign Single，附單點累積彩金（起始 13,500 美元）。Just Bonuses 最特別：拿掉 Base Game 轉軸，只用單軸落下 Bonus 符號即觸發特色，其他兩款則有 Blaze、Boost、Split、Extra 四種可疊加的獎勵特色。對 PM 的意義：「跳過 Base Game、直接賭 Bonus」可以作為線上版的原創機制參考。
+
+衍生調整：全新系列；Buffalo、Gold Stacks 88 為既有 IP 的延伸。
+
+參數：
+- 廠牌：Aristocrat
+- 核心機制：-
+- 微創新：拿掉 Base Game 轉軸，單軸直接出 Bonus
+- 遊戲類型：實體老虎機
+- 盤面：未公布
+- 消除/賠付：未公布（四種可疊加 Bonus 特色）
+- 最高倍率：未公布（單點累積彩金起始 13,500 美元）
+- RTP：未公布
+- 波動：未公布
+- 目標市場：北美
+- 關鍵特色：Money Tree 系列、Reign Single 新機型、單點累積彩金
+
+查證：已查 G3 Newswire 與 GGRAsia，盤面、RTP 官方稿皆未列。
+來源：[G3 Newswire](https://g3newswire.com/aristocrat-gaming-launches-new-money-tree-game-family-in-north-america/) · [GGRAsia](https://www.ggrasia.com/aristocrat-gaming-launches-new-money-tree-slot-game-family) · [Indian Gaming](https://www.indiangaming.com/aristocrat-gaming-launches-money-tree-slot-series/) · 日期：2026-11-18
+圖片：https://g3newswire.com/wp-content/uploads/2026/11/AristocratMoneyTreeWynn-scaled-e1794992046225.jpg
+
+#### 換皮／資料不足（精簡卡片）
+
+##### Phoenix Frenzy Triple Win – Play'n GO
+核心機制：-
+判定：三種鳳凰的 Rebirth 特色都是隨機觸發的 8 次免費遊戲，創新集中在 Free Game
+參數：盤面 5 轉軸（1,024 ways 或 5×4，來源不一）｜最高倍率 25,000x（另一來源稱 5,000x）｜RTP 96.20%
+摘要：三色神祕寶珠累積蛋量表、隨機觸發免費遊戲的高波動新作，官網頁面 11/19 上線。
+來源：[Play'n GO](https://www.playngo.com/games/phoenix-frenzy-triple-win) · [Sigma](https://sigma.world/play/games/playn-go/phoenix-frenzy-triple-win/) · 日期：2026-11-19
+圖片：https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1124/hero-desktop/0-384cd6297cb0ee49
+
+##### Double Mummy's Jewels 1000 – Pragmatic Play
+核心機制：未確認
+判定：Mummy's Jewels 系列的 1000x Super Collect 續作，官方玩法資料不足，無法判斷 Base Game 差異
+參數：盤面 5×3（單一評測來源，未驗證）｜最高倍率 30,000x｜RTP 96.50%
+摘要：埃及主題高波動新作，主打 1,000x 的 Super Collect 倍數、可購買免費遊戲。
+來源：[SlotsLaunch](https://slotslaunch.com/pragmatic-play/double-mummys-jewels-1000) · [Casinos.com](https://www.casinos.com/slots/double-mummy-s-jewels-1000) · 日期：2026-11-19
+圖片：https://assets.slotslaunch.com/114472/Double-Mummy's-Jewels-1000_600x400.png
+
+---
+
+## 🕹️ 非 Slot 新內容
+
+### 01 📦（11/17）Ocean Roulette 與 Majestic Roulette – Betandeal Games
+
+西班牙遊戲開發商 Betandeal Games 宣布，旗下新作 Ocean Roulette、Majestic Roulette 上架 Gran Madrid 線上賭場，延續雙方先前以 Plinko Roulette、Desert Roulette 進入西班牙市場的合作。公司稱這是以自有技術持續擴充賭場品類的策略，適合在受監理市場做差異化。對 PM 的意義：輪盤混搭 Plinko 之類的小遊戲玩法，是現有品類的低成本創新方向。
+
+參數：
+- 遊戲類型：輪盤（Roulette，含 Plinko 混搭系列）
+- 目標市場：西班牙
+- 關鍵特色：Gran Madrid 線上賭場獨家上架、延續 Plinko Roulette／Desert Roulette 合作
+
+查證：官方稿未列倍率、RTP，故採 3 欄位格式。
+來源：[Sector del Juego](https://sectordeljuego.com/2026/11/17/betandeal-games-lanza-ocean-roulette-y-majestic-roulette-en-granmadrid/) · 日期：2026-11-17
+圖片：https://sectordeljuego.com/wp-content/uploads/2026/11/Gemini_Generated_Image_vz8u5svz8u5svz8u.jpg
+
+---
+
+## 🤝 動態：主流 GP／平台
+
+### 01 猶他州起訴 Stake.us：主張可兌現的 Stake Cash 等同真錢賭博
+
+猶他州檢察長 Derek Brown 與州商務廳消費者保護處，11 月 17 日向鹽湖郡法院對 Stake.us 提告，被告包括母公司 Sweepsteaks Limited 與 Easygo Group Holdings。州政府指控自 2022 年起向居民提供未經授權的賭博服務，核心論點是玩家以真錢購買的 Stake Cash 能以 1:1 兌現，社交賭場的虛擬貨幣形式因此不能規避賭博禁令；另點名 VIP 分級、rakeback（投注回饋）與以卡通角色、網紅吸引未成年人的行銷。對 PM 的意義：Stake 是我們的 B 級追蹤品牌，社交賭場的「虛擬貨幣可兌現」設計是美國監管主要火力。
+
+重點：類型 提告 ｜ 對象 Stake.us、Sweepsteaks Limited、Easygo Group Holdings、猶他州 ｜ 影響 社交賭場的虛擬幣兌現機制成為美國州級執法焦點
+
+來源：[Focus Gaming News](https://focusgn.com/utah-stake-lawsuit-social-casino) · [Gaming Intelligence](https://www.gamingintelligence.com/legal/238814-utah-sues-stake-for-running-an-illegal-online-casino/) · [Yogonet International](https://www.yogonet.com/international/news/2026/11/18/127357-utah-sues-stake-operators-over-alleged-illegal-online-casino) · [SBC Americas](https://sbcamericas.com/2026/11/18/utah-sues-stake-sweepstakes-casino/) · 日期：2026-11-18
+圖片：https://focusgn.com/wp-content/uploads/2026/11/1b689f6e-3321-4b02-9c8e-28057911d5d9-1200x630.jpg
+
+### 02 Wazdan 經 Madison Casino 進入比利時，首批上架三款
+
+Wazdan 與比利時線上賭場 Madison Casino 合作，首批上線 25 Coins x3000、Hot Slot: 777 Platinum Crown 與 Mighty Wild: Gorilla 三款。Wazdan 的歐洲業務主管表示，這是強化受監理市場布局、為歐洲營運商網路再添一員的一步。對 PM 的意義：二線大廠仍以一個營運商一個營運商的方式逐步擴張受監理市場，可作為內容代理與上架節奏的參考。
+
+重點：類型 合作 ｜ 對象 Wazdan、Madison Casino ｜ 影響 Wazdan 補上比利時受監理市場的營運商
+
+來源：[EEGaming](https://eegaming.org/latest-news/2026/11/18/53733/wazdan-slots-go-live-with-madison-casino-in-belgium/) · [G3 Newswire](https://g3newswire.com/wazdan-strengthens-belgian-presence-with-new-madison-casino-partnership/) · [SlotBeats](https://slotbeats.com/slot-news/wazdan-madison-casino-deal-belgium/) · 日期：2026-11-18
+圖片：https://eegaming.org/api/eeg-media/97f561ec-6f8d-4400-8652-7a3eca337f96.jpg
+
+### 03 Betby 與棋王 Magnus Carlsen 延長全球品牌大使合作
+
+運動博彩平台供應商 Betby 宣布與五屆世界棋王 Magnus Carlsen 簽下長期續約，他自 2024 年 10 月起擔任 Betby 全球品牌大使。Betby 執行長稱雙方關係已超越傳統代言，成為品牌定位與接觸國際西洋棋社群的重要部分；Betby 另有專訪談及後續合作構想。對 PM 的意義：B2B 供應商也在用名人代言做品牌；若要跟進，可以評估與電競／棋類社群的內容合作。
+
+重點：類型 合作 ｜ 對象 Betby、Magnus Carlsen ｜ 影響 B2B 運動博彩供應商續約名人大使，強化品牌曝光
+
+來源：[Gaming Intelligence](https://www.gamingintelligence.com/marketing/238795-betby-extends-partnership-with-chess-superstar-magnus-carlsen/) · [Yogonet International](https://www.yogonet.com/international/news/2026/11/18/127353-betby-extends-longterm-brand-ambassador-partnership-with-chess-champion-magnus-carlsen) · [G3 Newswire](https://g3newswire.com/betby-extends-partnership-with-chess-icon-magnus-carlsen/) · 日期：2026-11-18
+圖片：https://www.gamingintelligence.com/wp-content/uploads/2026/11/Betby_MAGNUS.jpeg
+
+### 04 Accel Entertainment 在芝加哥開出首批影像遊戲據點
+
+伊利諾州的 Accel Entertainment 在市府核發執照後，首度在芝加哥啟用影像遊戲終端機（Video Gaming Terminal，VGT）據點。伊利諾遊戲委員會已核准 78 家芝加哥店家，其中 25 家與 Accel 合作，11 家已拿到市府執照，本週至少 4 家上線（Lawlor's Bar 已營運），其餘預計年底前陸續開出。對 PM 的意義：芝加哥打開後，地方型機台營運商的新增裝機是 Slot 內容商在北美的另一個需求來源。
+
+重點：類型 市場進入 ｜ 對象 Accel Entertainment、芝加哥、伊利諾遊戲委員會 ｜ 影響 芝加哥開放影像遊戲，區域型機台營運商取得新據點
+
+來源：[G3 Newswire](https://g3newswire.com/accel-entertainment-launches-first-chicago-video-gaming-locations/) · [Gaming Intelligence](https://www.gamingintelligence.com/markets/north-america/238802-accel-entertainment-celebrates-launch-of-first-vgt-locations-in-chicago/) · 日期：2026-11-18
+圖片：https://g3newswire.com/wp-content/uploads/2026/11/LawlorsBar-e1794991462525.jpg
+
+---
+
+## 🇵🇭 動態：菲律賓 GP／平台
+
+### 01 BingoPlus 推出「延遲補償保證」：快速提款逾時最高賠 5,000 披索
+
+DigiPlus 旗下的 BingoPlus 平台推出 Delay Compensation Guarantee：玩家使用「快速提款」時，若超過指定處理時間，可申請最高 5,000 披索（約 79 美元）的補償。處理時限為電子錢包 5 分鐘、銀行卡 60 分鐘，玩家可在 App 內追蹤交易並收到補償通知，較高會員等級的 VIP 時限更短。此稿為 GGRAsia 轉述平台發布的內容。對 PM 的意義：把「提款速度」做成可兌現的承諾，是菲律賓現金網在信任感上的新競爭點，可評估是否納入自家服務條款。
+
+重點：類型 運營活動 ｜ 對象 DigiPlus、BingoPlus ｜ 影響 以逾時賠償把提款速度變成可驗證的服務承諾
+
+查證：目前僅 GGRAsia 一個來源，已查 Inquirer、GMA 等未見同題報導。
+來源：[GGRAsia](https://www.ggrasia.com/bingoplus-offers-delay-compensation-guarantee-of-up-to-us79) · 日期：2026-11-18
+圖片：https://technology.inquirer.net/files/2024/10/bingo-featured-1.png
+
+### 02 Okada Manila 的新遊戲專區以 AGS 與 Aruze 為主，共 70 台機器
+
+Okada Manila 在 Pearl Lobby 入口設立自稱菲律賓與亞洲首個專屬「New Game」專區，共 70 台，AGS 與 Aruze Gaming Global 各 35 台，涵蓋六個遊戲系列，並升級 LED 螢幕。AGS 的亞洲獨家代理商 Mindslot-e 主管表示，另有三款新 AGS 遊戲上線、四到五款在評估中，場地也讓 AGS 能先試水再擴大。據 Tribune 10 月 26 日的報導，該區於 10 月 25 日啟用，G3 於 11 月 18 日再度發布。對 PM 的意義：菲律賓實體賭場開始用「單一專區」測試國際機台內容，是線上外新品的曝光管道。
+
+重點：類型 運營活動 ｜ 對象 Okada Manila、AGS、Aruze Gaming Global、Mindslot-e ｜ 影響 實體機大廠以專區方式測試新機台
+
+來源：[G3 Newswire](https://g3newswire.com/okada-manila-launches-dedicated-slot-zone-featuring-arzue-and-ags/) · [Tribune](https://tribune.net.ph/2026/10/26/okada-manila-unveils-70-machine-game-zone) · [Focus Gaming News](https://focusgn.com/asia-pacific/okada-manila-game-zone-slots) · 日期：2026-11-18
+圖片：https://g3newswire.com/wp-content/uploads/2026/11/Okada_Manila_-New_Game_Zone_1-scaled-e1794995985950.jpg
+
+### 03 Universal Entertainment 前九個月轉盈，靠柏青哥復甦、Okada Manila 銷售下滑 8.9%
+
+日本 Universal Entertainment Corporation 2026 年前九個月轉為獲利：合併銷售額 1,067 億日圓、年增 15.2%，營業利益 115 億日圓，調整後 EBITDA 增 96.9%。主因是日本柏青哥／柏青嫂（pachinko、pachislot）設備事業，該部門銷售增 44.6%、分部利潤增 110.7%。相對地，Okada Manila 銷售額下降 8.9% 至 461.3 億日圓，公司稱改善「幾乎完全」來自設備事業。對 PM 的意義：菲律賓大型娛樂城的實體賭場收入仍承壓，與近期 Okada Manila 母公司稱市場「已觸底」的說法並列觀察。
+
+重點：類型 財務 ｜ 對象 Universal Entertainment、Okada Manila ｜ 影響 設備事業帶動獲利，菲律賓度假村業務仍弱
+
+來源：[iGamingToday](https://www.igamingtoday.com/universal-entertainment-returns-to-profit-as-pachinko-recovery-offsets-okada-manila-weakness/) · 日期：2026-11-18
+圖片：https://www.igamingtoday.com/wp-content/uploads/2026/11/Universal-Entertainment-Returns-to-Profit-as-Pachinko-Recovery-Offsets-Okada-Manila-Weakness.jpg
+
+---
+
+## 📊 市場數據 & 趨勢
+
+### 01 賓州 10 月博彩營收 6.344 億美元創單月新高，iGaming 同創紀錄
+
+賓夕法尼亞州賭博管理局公布 10 月各類博彩（含幻想運動）營收 6.344 億美元，年增 6.3%，超越 5 月 6.255 億美元的舊紀錄；稅收 2.74 億美元，同樣創單月新高。其中 Slot 營收 2.149 億美元、年增 5.6%，州內業者也回報 iGaming（線上賭場）營收創紀錄。對 PM 的意義：美國成熟市場仍由線上品類推升，Slot 實體仍能維持成長，可作為北美內容配置的參考。
+
+重點：數據 美國賓州 10 月營收 ｜ 影響 實體與線上同步成長，線上品類帶動新高
+
+來源：[CDC Gaming](https://cdcgaming.com/pennsylvania-gaming-revenue-reaches-record-634-4-million/) · [Gaming Intelligence](https://www.gamingintelligence.com/finance/238831-pennsylvania-posts-record-gambling-revenue-in-october/) · [Casino Reports](https://www.casinoreports.com/news/pennsylvania-online-casino-record-revenue-october/) · 日期：2026-11-18
+圖片：https://cdcgaming.com/wp-content/uploads/og-cache/160953.jpg
+
+### 02 澳門政府估 2027 年賭收 2,400 億澳門元，一至十月已達 2,088 億
+
+澳門 2027 年預算案說明文件估計全年賭收（GGR）約 2,400 億澳門元，約年增 2%（約 297 億美元）；1～10 月賭收 2,088 億澳門元、年增 1.6%，已達 2026 年預算 2,360 億的 88.5%。但 10 月賭收年減 10% 至 216.8 億，是連續第五個月年減；CLSA 9 月預估 2027 年為 2,592 億，比預算高約 8%。立法會預計 11 月 24 日審議。對 PM 的意義：澳門預算保守，但實際月度動能轉弱，區域型內容與行銷預算要看年底數據。
+
+重點：數據 澳門 2027 年賭收預算 ｜ 影響 政府預估保守，10 月年減使趨勢出現分歧
+
+來源：[Asia Gaming Brief](https://agbrief.com/news/macau/18/11/2026/macau-budgets-mop240-billion-casino-ggr-for-2027-as-visitors-spend-less-on-gaming/) · [GGRAsia](https://www.ggrasia.com/macau-government-estimates-full-year-2027-casino-ggr-will-reach-us29-7-billion) · 日期：2026-11-18
+圖片：https://agbrief.com/wp-content/uploads/2026/11/wynn-macau-mgm-macau-hotel-towers-peninsula.jpg
+
+### 03 GambleLex 研究：1.1 萬家線上賭場中，Curaçao 是最常被標示的牌照
+
+GambleLex 分析 11,457 家線上賭場的牌照資訊：8,172 家（71.3%）標示至少一張牌照，其中 Curaçao 被 3,249 家標示（39.8%）、Anjouan 2,253 家（27.6%），兩者之一或皆有者占 58.8%；Malta Gaming Authority 1,343 家、英國賭博委員會（UK Gambling Commission）1,269 家，合計最多 2,612 家，仍少於 Curaçao 單獨一個。另有 3,111 家（27.2%）找不到牌照資訊，GambleLex 強調這是「資訊缺漏的統計，不代表違法」。對 PM 的意義：現金網與聚合商在選擇牌照時，市場上的主流是 Curaçao 系，評估合作對象的合規成本可以此為基準。
+
+重點：數據 線上賭場牌照分布 ｜ 影響 Curaçao／Anjouan 占多數，歐洲牌照比例相對低
+
+查證：資料為 GambleLex 於 2026-11-17 的單次資料庫快照，屬單一機構研究。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/11/18/53740/gamblelex-study-cura-ao-is-most-cited-licence-among-11-457-online-casinos/) · 日期：2026-11-18
+圖片：https://eegaming.org/api/eeg-media/bfcf1609-e12b-4cb1-a6d6-80c030e472bd.png
+
+---
+
+本日日報查詢約 45 個網站，其中提取 30 個資料來源並進行交叉比對
+
+---
+
+## 🗓️ 來源日期紀錄（內部，不渲染）
+
+剔除：The Green Knight Camelot Gold（官方上線日 11/26，超過 7 天）；剔除：Xmas Guardians Megaways（官方上線日 11/26，超過 7 天）；剔除：SplitX（SmartSoft，僅 SlotsLaunch 頁，查不到新聞稿與玩法，資料不足）；剔除：Hacksaw Gaming 經 EveryMatrix 上線瑞典 ATG（官網稿日期 11/16，超過 3 天保鮮）；剔除：EEZE（近 3 天以上完全無 EEZE 新消息，最近為 10 月 BetConstruct AI 分銷）；剔除：Fortune Hook 1000／Nigel Unwrapped／The Greatest Heist／Monkey Gods of the Inca（僅日曆上有名稱，查無新聞稿或玩法資料）；剔除：Le Santa Hold & Win（Hacksaw Gaming，官方上線日 12/08，距今 19 天，非熱門 IP，不上預告）；剔除：Rex's 5 Pot Steakhouse（Play'n GO，官方上線日 2027-01-14，待上線）
+
+- Fortune Garuda 500 JACKPOT：主來源 Yogonet 2026-11-18（metadata／harvest 11-18 21:33 台北）
+- Glam Cam：Focus Gaming News 2026-11-18 07:29 -03:00（metadata）
+- Money Tree：G3 Newswire 2026-11-18 08:55 GMT（metadata）
+- Phoenix Frenzy Triple Win：Play'n GO 官網 2026-11-19（metadata，只到日）
+- Double Mummy's Jewels 1000：SlotsLaunch 上線日 2026-11-19
+- Betandeal：Sector del Juego 2026-11-17 07:00 UTC（metadata）
+- Stake：Focus 2026-11-18／Gaming Intelligence 2026-11-18 10:00 UTC
+- Wazdan：EEGaming 2026-11-18 08:47 UTC
+- Betby：Gaming Intelligence 2026-11-18 09:38 UTC
+- Accel：G3 2026-11-18 08:45 UTC
+- BingoPlus：GGRAsia 2026-11-18T02:55 UTC（Firecrawl metadata）
+- Okada：G3 2026-11-18 10:01 UTC；佐證 Tribune 2026-10-26
+- Universal Entertainment：iGamingToday 2026-11-18 01:35 UTC
+- PA 營收：CDC Gaming 2026-11-17 15:11 -05:00
+- Macau：AGBrief 2026-11-18 19:17 +08:00
+- GambleLex：EEGaming 2026-11-18 18:13 UTC

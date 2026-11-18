@@ -1,85 +1,41 @@
-<<<<<<< HEAD
-🎰 iGaming 市場日報 2026-11-18（週三）
-🎰 Slot 2 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-11-19（週四）
+🎰 Slot 5 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Fender & Bender ClusterBreaker（Relax Gaming）：任何一轉可把符號拆成 2～4 塊再連消
-・菲律賓：GameZone 與 Gloc-9 發表 Tara G! 音樂錄影帶，做卡牌遊戲品牌
-・市場：AGA 調查 82% 認為預測市場應按博彩監管；Banijay 前九個月營收近 20 億歐元
+・Fortune Garuda 500 JACKPOT（JILI）：3×3 倍數軸加 12 格 Jackpot Wheel
+・BingoPlus 推延遲補償保證：快速提款逾時最高賠 5,000 披索
+・猶他州起訴 Stake.us，主打「可兌現虛擬幣＝真錢賭博」
 
 🎰 Slot 新遊戲
-01 [原創] Fender & Bender ClusterBreaker – Relax Gaming
-02 [原創] Rune Beasts! Sharp Peaks – Jinx Gaming
-・換皮／資料不足：Master Baiter、Santa's Workshop、📦 Sexbomb Shane（OMNIPLAY）
+01 [N+1] Fortune Garuda 500 JACKPOT – JILI
+02 [原創] Glam Cam – DELULU Gaming
+03 [原創] Money Tree: Just Bonuses – Aristocrat
+・換皮／資料不足：Phoenix Frenzy Triple Win、Double Mummy's Jewels 1000
 
 🕹️ 非 Slot 新內容
-01 Wild Lion Reel Crash – Ready Play Gaming
-02 Incentive Studios 經 Betty Gaming 在加拿大推出五款 Crash 與街機遊戲
-
-🤝 主流 GP／平台
-01 Banijay 前九個月線上博彩營收近 20 億歐元，Tipico 已完全併入 Betclic
-02 Evolution 在紐澤西法院開庭前與律師事務所和解
-03 Entain 關閉免費遊戲產品 Seven
-04 Gaming Corps 以 30 款老虎機進入義大利 Stanleybet.it
-
-🇵🇭 菲律賓 GP／平台
-01 📦 GameZone 與 Gloc-9 發表 Tara G! 音樂錄影帶，延伸卡牌遊戲活動
-
-📊 市場數據 & 趨勢
-01 Gaming Corps COO：老虎機創新不一定要重新發明輪子
-02 美國博彩協會調查：82% 受訪者認為預測市場應按博彩監管
-03 澳門 10 月博彩稅收月減 17%、年減 1.4%
-
-📝 品質備註（本次爬找判斷）
-1. 今日共 15 則。窗內多數 Slot 新作（Zeus vs Hades POP、Eureka Legends 等）已在 11/16–11/17 日報收錄，3 天去重後新作偏少；Phoenix Frenzy、Double Mummy's Jewels 1000 官方上線日 11/19，主來源不在窗內，留庫存明日用。
-2. 菲律賓區窗內幾乎沒有新聞（Casino Plus × Evolution 疑似與 11/16 重疊、未收），僅用庫存補 1 則；WebSearch 對近期菲律賓平台消息幾乎無結果，非 EEZE 當日無消息，依例外跳過。
-3. 本次執行時 repo 卡在先前中斷的 rebase（release-calendar.json 衝突）。
-
-⚙️ 系統警報
-1. 🟠 Firecrawl 剩 984 點，照每天約 106 點會在 11/27 用完，撐不到 12/14 重置（還差約 1772 點）
-2. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（33 天）、GiocoNews（19 天）、Gaming for Africa（3 天）；請檢查網址或改抓取方式
-=======
-🎰 iGaming 市場日報 2026-11-17（週二）
-🎰 Slot 3 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
-
-⭐ 今日重點
-・Nolimit City《Fire in the Hole 4》上線：連消逐列擴到 6 列、xWays 傳染、倍數升級軸最高 x100
-・菲律賓：Bloomberry 第三季虧損收窄、EBITDA +64%；Okada 母公司稱 Entertainment City 市場已觸底
-・預測市場 Q3：交易量季增 75%、搜尋需求降 41%；路易斯安那禁制令使州聯邦管轄之爭升溫
-
-🎰 Slot 新遊戲
-01 [原創] Fire in the Hole 4 – Nolimit City
-02 [原創] 🔁 正式上線 Wrappin' Christmas Gold – Play'n GO
-03 [原創] Kakusei – Zitro（實體機 CONCEPT 機台）
-・換皮／資料不足：Big Bass Christmas Blast 1000、Pure Ecstasy Xmas
-
-🕹️ 非 Slot 新內容
-01 Two Moons Baccarat – CreedRoomz
-02 Lucky Coelho: Jackpot Fortunes – Neko Games（即時賓果）
-03 Run It Twice 選項 – PokerStars（FanDuel）
+01 📦 Ocean Roulette 與 Majestic Roulette – Betandeal Games
 
 🤝 動態：主流 GP／平台
-01 TaDa Gaming、Wazdan、Gaming Realms 同日上架秘魯 Betmaster.pe
-02 St8 與 Push Gaming 簽多市場協議
-03 Ainsworth 遭指控新作與 Novomatic 產品相似
-04 路易斯安那對 31 家預測市場實體發禁制令，CFTC 提告
+01 猶他州起訴 Stake.us
+02 Wazdan 經 Madison Casino 進入比利時
+03 Betby 與 Magnus Carlsen 延長大使合作
+04 Accel Entertainment 芝加哥首批 VGT 據點
 
 🇵🇭 動態：菲律賓 GP／平台
-01 Bloomberry 第三季虧損收窄，Solaire EBITDA +64%
-02 Universal Entertainment：Entertainment City 已觸底，Okada Play 起量
-03 GameZone × Gloc-9「Tara G!」MV 首映（品牌發布稿）
+01 BingoPlus 延遲補償保證
+02 Okada Manila 新遊戲專區（AGS／Aruze）
+03 Universal Entertainment 轉盈，Okada Manila 銷售降 8.9%
 
 📊 市場數據 & 趨勢
-01 預測市場 Q3：交易量 +75%、搜尋需求 -41%
-02 聖誕內容從單款主題遊戲轉向全大廳包裝
-03 澳門前三季會展帶動非博彩收入 +12.2%
+01 賓州 10 月博彩營收創高 6.344 億美元
+02 澳門 2027 年賭收預算 2,400 億澳門元
+03 GambleLex：Curaçao 為最常被標示牌照
 
 📝 品質備註（本次爬找判斷）
-1. 本次為排程在 02:30 執行；Slot 只有 3 款完整卡片＋2 款精簡卡片：近 3 天已出現的新作很多（含 Marlin Masters、Zeus vs Hades POP 等），其餘 SlotsLaunch 條目與 iGamingToday 單一來源評測（Mahjong Gold Super Scatter、Lucky Bull、Wild in the Box、World Eaters 2）查不到第二來源，未收；庫存無可用補位。
-2. 疑似重疊：Two Moons Baccarat 11/8 已有轉載稿（11/16 為多家媒體刊出）；Ainsworth 相似性指控與 11/16 董事辭職出自同一份報告，本則為新指控；Wrappin' Christmas Gold 為 11/12 預告後正式上線（🔁）。
-3. 本機執行前有未完成的 git rebase（11/16 NAS 與 Mac 各跑一份日報），已以遠端版本為準解衝突後繼續；EEZE 近 3 天無消息依例外跳過。
+1. 窗內候選多（537 則），但 Slot 有新聞稿且查得到玩法的只有 5 款：Fortune Hook 1000、Nigel Unwrapped、The Greatest Heist、Monkey Gods of the Inca 只有日曆名稱，查不到資料，未收；兩款庫存預告（11/26 上線）依規定剔除。
+2. 非 Slot 只有 1 則（Betandeal 📦）：EEZE 近期無新消息、SplitX 資料不足、GGPoker 專訪原文已 404；總收錄 16 則。
+3. Okada Manila 專區疑似與 10/26 報導重疊（G3 於 11/18 再發），BingoPlus 補償僅 GGRAsia 單一來源。
 
 ⚙️ 系統警報
-1. 🟠 Firecrawl 剩 1005 點，照每天約 107 點會在 11/26 用完，撐不到 12/14 重置（還差約 1884 點）
-2. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（32 天）、GiocoNews（18 天）、PlayGraph（3 天）；請檢查網址或改抓取方式
->>>>>>> 6cbe0ca (daily: 2026-11-17 report)
+1. 🟠 Firecrawl 剩 968 點，照每天約 106 點會在 11/28 用完，撐不到 12/14 重置（還差約 1682 點）
+2. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（34 天）、GiocoNews（20 天）；請檢查網址或改抓取方式

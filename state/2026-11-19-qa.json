@@ -1,0 +1,32 @@
+{
+ "date": "2026-11-19",
+ "md": "state/2026-11-19-igaming-report.md",
+ "html": "reports/2026-11-19.html",
+ "items": 16,
+ "counts": {
+  "cat1": 5,
+  "cat2": 1,
+  "cat3": 4,
+  "cat4": 3,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 51,
+  "ok": 46,
+  "broken": 0,
+  "blocked": 5,
+  "images_dropped": 0,
+  "images": 16
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-03 Money Tree: Just Bonuses｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/aristocrat-gaming-launches-new-money-tree-slot-game-family",
+  "cat1-101 Phoenix Frenzy Triple Wi｜來源連結無法自動驗證（403，多半是網站擋機器人）：Sigma https://sigma.world/play/games/playn-go/phoenix-frenzy-triple-win/",
+  "cat3-01 猶他州起訴 Stake.us：主張可兌現的 St｜來源連結無法自動驗證（403，多半是網站擋機器人）：SBC Americas https://sbcamericas.com/2026/11/18/utah-sues-stake-sweepstakes-casino/",
+  "cat4-01 BingoPlus 推出「延遲補償保證」：快速提｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/bingoplus-offers-delay-compensation-guarantee-of-up-to-us79",
+  "cat5-02 澳門政府估 2027 年賭收 2,400 億澳門｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/macau-government-estimates-full-year-2027-casino-ggr-will-reach-us29-7-billion"
+ ],
+ "fixes": [
+  "文末｜資料來源數 30 → 35（程式依來源連結去重計算）"
+ ]
+}

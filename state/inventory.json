@@ -64,38 +64,6 @@
     }
    ],
    "key": "lesantaholdwin|hacksawgaming"
-  },
-  {
-   "cat": "cat1",
-   "title": "Phoenix Frenzy Triple Win",
-   "gp": "Play'n GO",
-   "b": 4,
-   "first_seen": "2026-11-17",
-   "release_date": "2026-11-19",
-   "sources": [
-    {
-     "name": "Play'n GO",
-     "url": "https://www.playngo.com/games/phoenix-frenzy-triple-win",
-     "published": "2026-11-19 00:00"
-    }
-   ],
-   "key": "phoenixfrenzytriplewin|playngo"
-  },
-  {
-   "cat": "cat1",
-   "title": "Double Mummy's Jewels 1000",
-   "gp": "Pragmatic Play",
-   "b": 4,
-   "first_seen": "2026-11-18",
-   "release_date": "2026-11-19",
-   "sources": [
-    {
-     "name": "SlotsLaunch",
-     "url": "https://slotslaunch.com/pragmatic-play/double-mummys-jewels-1000",
-     "published": "2026-11-19 00:00"
-    }
-   ],
-   "key": "doublemummysjewels1000|pragmaticplay"
   }
  ],
  "others": [
@@ -196,100 +164,37 @@
    ],
    "first_seen": "2026-11-18",
    "key": "hacksawgaming經everymatrix上線瑞典atg|hacksawgaming"
+  },
+  {
+   "cat": "cat3",
+   "title": "Amazon 將預測市場納入英國賭博廣告限制，僅限晚 9 點至早 6 點",
+   "b": 1,
+   "first_seen": "2026-11-19",
+   "sources": [
+    {
+     "name": "Focus Gaming News",
+     "url": "https://focusgn.com/amazon-gambling-ad-rules-uk",
+     "published": "2026-11-19 00:16"
+    }
+   ],
+   "key": "amazon將預測市場納入英國賭博廣告限制僅限晚9點至早6點|"
+  },
+  {
+   "cat": "cat5",
+   "title": "越南擬調高本地人賭場入場費 150%，並取消財力證明",
+   "b": 1,
+   "first_seen": "2026-11-19",
+   "sources": [
+    {
+     "name": "GGRAsia",
+     "url": "https://www.ggrasia.com/vietnam-proposes-150pct-hike-in-locals-casino-daily-entry-fee",
+     "published": "2026-11-18 09:15"
+    }
+   ],
+   "key": "越南擬調高本地人賭場入場費150並取消財力證明|"
   }
  ],
  "history": [
-  {
-   "key": "spidercircusholdandwin|bgaming",
-   "date": "2026-10-19",
-   "cat": "cat1",
-   "title": "Spider Circus Hold and Win",
-   "gp": "BGaming"
-  },
-  {
-   "key": "3shadowwolves|spinomenal",
-   "date": "2026-10-19",
-   "cat": "cat1",
-   "title": "3 Shadow Wolves",
-   "gp": "Spinomenal"
-  },
-  {
-   "key": "tedstuffedloaded|blueprintgaming",
-   "date": "2026-10-19",
-   "cat": "cat1",
-   "title": "Ted Stuffed & Loaded",
-   "gp": "Blueprint Gaming"
-  },
-  {
-   "key": "thecastleofslotenstein|evoplay",
-   "date": "2026-10-19",
-   "cat": "cat1",
-   "title": "The Castle of Slotenstein",
-   "gp": "Evoplay"
-  },
-  {
-   "key": "graceofcleopatrabuybonus|amusnet",
-   "date": "2026-10-19",
-   "cat": "cat1",
-   "title": "Grace of Cleopatra Buy Bonus",
-   "gp": "Amusnet"
-  },
-  {
-   "key": "mgm與aristocrat慶祝aria首度5mdragonlink大獎|",
-   "date": "2026-10-19",
-   "cat": "cat3",
-   "title": "MGM 與 Aristocrat 慶祝 ARIA 首度 $5M+ Dragon Link 大獎",
-   "gp": ""
-  },
-  {
-   "key": "英國90名工黨議員要求調高機台遊戲稅mgd|",
-   "date": "2026-10-19",
-   "cat": "cat3",
-   "title": "英國 90 名工黨議員要求調高機台遊戲稅（MGD）",
-   "gp": ""
-  },
-  {
-   "key": "歐盟預算談判卡關歐洲議會重提線上博彩課稅|",
-   "date": "2026-10-19",
-   "cat": "cat3",
-   "title": "歐盟預算談判卡關，歐洲議會重提線上博彩課稅",
-   "gp": ""
-  },
-  {
-   "key": "philweb取得megawin獨家合作目標第四季推出數位賭場遊戲|",
-   "date": "2026-10-19",
-   "cat": "cat4",
-   "title": "PhilWeb 取得 MegaWin 獨家合作，目標第四季推出數位賭場遊戲",
-   "gp": ""
-  },
-  {
-   "key": "casinoplus21呎花車登場bacolodmasskara電子花車遊行|",
-   "date": "2026-10-19",
-   "cat": "cat4",
-   "title": "Casino Plus 21 呎花車登場 Bacolod MassKara 電子花車遊行",
-   "gp": ""
-  },
-  {
-   "key": "巴西mp1394週報97項修正案stake禁制令被推翻|",
-   "date": "2026-10-19",
-   "cat": "cat5",
-   "title": "巴西 MP 1394 週報：97 項修正案、Stake 禁制令被推翻",
-   "gp": ""
-  },
-  {
-   "key": "線上博彩股週報bragg週漲9|",
-   "date": "2026-10-19",
-   "cat": "cat5",
-   "title": "線上博彩股週報：Bragg 週漲 9%",
-   "gp": ""
-  },
-  {
-   "key": "預測市場週報2026美國期中選舉合約成交逼近10億美元|",
-   "date": "2026-10-19",
-   "cat": "cat5",
-   "title": "預測市場週報：2026 美國期中選舉合約成交逼近 10 億美元",
-   "gp": ""
-  },
   {
    "key": "sixfeetunder|nolimitcity",
    "date": "2026-10-20",
@@ -3823,6 +3728,118 @@
    "date": "2026-11-18",
    "cat": "cat5",
    "title": "澳門 10 月博彩稅收約 69.6 億澳門元，月減 17%、年減 1.4%",
+   "gp": ""
+  },
+  {
+   "key": "fortunegaruda500jackpot|jili",
+   "date": "2026-11-19",
+   "cat": "cat1",
+   "title": "Fortune Garuda 500 JACKPOT",
+   "gp": "JILI"
+  },
+  {
+   "key": "glamcam|delulugaming",
+   "date": "2026-11-19",
+   "cat": "cat1",
+   "title": "Glam Cam",
+   "gp": "DELULU Gaming"
+  },
+  {
+   "key": "moneytreejustbonuses|aristocrat",
+   "date": "2026-11-19",
+   "cat": "cat1",
+   "title": "Money Tree: Just Bonuses",
+   "gp": "Aristocrat"
+  },
+  {
+   "key": "phoenixfrenzytriplewin|playngo",
+   "date": "2026-11-19",
+   "cat": "cat1",
+   "title": "Phoenix Frenzy Triple Win",
+   "gp": "Play'n GO"
+  },
+  {
+   "key": "doublemummysjewels1000|pragmaticplay",
+   "date": "2026-11-19",
+   "cat": "cat1",
+   "title": "Double Mummy's Jewels 1000",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "oceanroulette與majesticroulette上架granmadrid|",
+   "date": "2026-11-19",
+   "cat": "cat2",
+   "title": "Ocean Roulette 與 Majestic Roulette 上架 Gran Madrid",
+   "gp": ""
+  },
+  {
+   "key": "猶他州起訴stakeus主張可兌現的stakecash等同真錢賭博|",
+   "date": "2026-11-19",
+   "cat": "cat3",
+   "title": "猶他州起訴 Stake.us，主張可兌現的 Stake Cash 等同真錢賭博",
+   "gp": ""
+  },
+  {
+   "key": "wazdan經madisoncasino進入比利時|",
+   "date": "2026-11-19",
+   "cat": "cat3",
+   "title": "Wazdan 經 Madison Casino 進入比利時",
+   "gp": ""
+  },
+  {
+   "key": "betby與magnuscarlsen延長全球品牌大使合作|",
+   "date": "2026-11-19",
+   "cat": "cat3",
+   "title": "Betby 與 Magnus Carlsen 延長全球品牌大使合作",
+   "gp": ""
+  },
+  {
+   "key": "accelentertainment在芝加哥開出首批影像遊戲據點|",
+   "date": "2026-11-19",
+   "cat": "cat3",
+   "title": "Accel Entertainment 在芝加哥開出首批影像遊戲據點",
+   "gp": ""
+  },
+  {
+   "key": "bingoplus推出延遲補償保證快速提款逾時最高賠5000披索|",
+   "date": "2026-11-19",
+   "cat": "cat4",
+   "title": "BingoPlus 推出延遲補償保證，快速提款逾時最高賠 5,000 披索",
+   "gp": ""
+  },
+  {
+   "key": "okadamanila新遊戲專區以ags與aruze為主共70台|",
+   "date": "2026-11-19",
+   "cat": "cat4",
+   "title": "Okada Manila 新遊戲專區以 AGS 與 Aruze 為主共 70 台",
+   "gp": ""
+  },
+  {
+   "key": "universalentertainment前九個月轉盈okadamanila銷售下滑89|",
+   "date": "2026-11-19",
+   "cat": "cat4",
+   "title": "Universal Entertainment 前九個月轉盈，Okada Manila 銷售下滑 8.9%",
+   "gp": ""
+  },
+  {
+   "key": "賓州10月博彩營收6344億美元創單月新高|",
+   "date": "2026-11-19",
+   "cat": "cat5",
+   "title": "賓州 10 月博彩營收 6.344 億美元創單月新高",
+   "gp": ""
+  },
+  {
+   "key": "澳門政府估2027年賭收2400億澳門元|",
+   "date": "2026-11-19",
+   "cat": "cat5",
+   "title": "澳門政府估 2027 年賭收 2,400 億澳門元",
+   "gp": ""
+  },
+  {
+   "key": "gamblelex研究curaao是最常被標示的牌照|",
+   "date": "2026-11-19",
+   "cat": "cat5",
+   "title": "GambleLex 研究：Curaçao 是最常被標示的牌照",
    "gp": ""
   }
  ],

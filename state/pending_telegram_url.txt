@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-https://igaming-pulse.github.io/igaming-daily/reports/2026-11-18.html
-=======
-https://igaming-pulse.github.io/igaming-daily/reports/2026-11-17.html
->>>>>>> 6cbe0ca (daily: 2026-11-17 report)
+https://igaming-pulse.github.io/igaming-daily/reports/2026-11-19.html
