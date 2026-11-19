@@ -1,0 +1,160 @@
+{
+ "shown": [
+  {
+   "cat": "cat1",
+   "title": "x1500 Sugar Teddy 2",
+   "gp": "Playson"
+  },
+  {
+   "cat": "cat1",
+   "title": "Gift Rush Merge Up",
+   "gp": "BGaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Xmas Dreams",
+   "gp": "Yggdrasil"
+  },
+  {
+   "cat": "cat1",
+   "title": "Monkey Gods of the Inca",
+   "gp": "Relax Gaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "The Greatest Heist",
+   "gp": "Evoplay"
+  },
+  {
+   "cat": "cat1",
+   "title": "Kong: Skull Island Unchained",
+   "gp": "Light & Wonder"
+  },
+  {
+   "cat": "cat1",
+   "title": "3 Super Carts Riches",
+   "gp": "Kendoo"
+  },
+  {
+   "cat": "cat1",
+   "title": "Hell Hot Volcano",
+   "gp": "Endorphina"
+  },
+  {
+   "cat": "cat2",
+   "title": "Fast Games 產品線 CreedRoomz"
+  },
+  {
+   "cat": "cat2",
+   "title": "Evenbeter 與 WePlay Network 共享撲克流動性"
+  },
+  {
+   "cat": "cat3",
+   "title": "TaDa Gaming 經 Tuko Productions 上架義大利 Lottomatica 集團三個品牌"
+  },
+  {
+   "cat": "cat3",
+   "title": "Nolimit City 經 Veikkaus 進入芬蘭"
+  },
+  {
+   "cat": "cat3",
+   "title": "Peter & Sons 與 DAZN Bet 在義大利開跑首批 11 款 Slot"
+  },
+  {
+   "cat": "cat4",
+   "title": "Evolution 與 Casino Plus 公布在地化直播遊戲合作內容"
+  },
+  {
+   "cat": "cat4",
+   "title": "DFNN 第三季虧損縮小，電子錢包脫鉤使佣金收入年減 75.8%"
+  },
+  {
+   "cat": "cat5",
+   "title": "bet365 十月數據：Cash Eruption 在美國四州仍居前二"
+  },
+  {
+   "cat": "cat5",
+   "title": "義大利十月線上 Slot：Shining Crown 再居榜首"
+  },
+  {
+   "cat": "cat5",
+   "title": "Allwyn 第三季營收年增 19%，線上占 47%"
+  }
+ ],
+ "stock": [
+  {
+   "cat": "cat1",
+   "title": "Christmas Gold Heist",
+   "gp": "Play'n GO",
+   "b": 4,
+   "first_seen": "2026-11-19",
+   "release_date": "2026-11-24",
+   "sources": [
+    {
+     "name": "Times of Casino",
+     "url": "https://www.timesofcasino.com/playn-go-christmas-gold-heist-slot-release-date/",
+     "published": "2026-11-19 19:48"
+    },
+    {
+     "name": "Play'n GO",
+     "url": "https://www.playngo.com/games/christmas-gold-heist",
+     "published": "2026-11-24"
+    }
+   ]
+  },
+  {
+   "cat": "cat3",
+   "title": "Amusnet 經 CasinoBarcelona 在西班牙上架首批 32 款",
+   "b": 1,
+   "first_seen": "2026-11-19",
+   "sources": [
+    {
+     "name": "G3 Newswire",
+     "url": "https://g3newswire.com/amusnet-spain-expands-its-market-reach-through-partnership-with-casino-barcelona/",
+     "published": "2026-11-19 19:47"
+    }
+   ]
+  },
+  {
+   "cat": "cat4",
+   "title": "GameZone 代言人 Gloc-9 說明接下代言的考量",
+   "b": 6,
+   "first_seen": "2026-11-19",
+   "sources": [
+    {
+     "name": "LionhearTV",
+     "url": "https://www.lionheartv.net/2026/11/gloc-9-gamezone/",
+     "published": "2026-11-20 01:44"
+    }
+   ]
+  },
+  {
+   "cat": "cat5",
+   "title": "阿根廷 10 月 iGaming 稅收年增 47%，但 75% 市場仍屬非法",
+   "b": 1,
+   "first_seen": "2026-11-19",
+   "sources": [
+    {
+     "name": "Yogonet",
+     "url": "https://www.yogonet.com/international/news/2026/11/19/127386-argentina-igaming-tax-revenue-rose-47-in-october-but-75-of-the-market-remains-illegal",
+     "published": "2026-11-20 01:18"
+    }
+   ]
+  },
+  {
+   "cat": "cat1",
+   "title": "The Green Knight Camelot Gold",
+   "gp": "Play'n GO",
+   "b": 4,
+   "first_seen": "2026-09-25",
+   "release_date": "2026-11-26",
+   "sources": [
+    {
+     "name": "Play'n GO",
+     "url": "https://www.playngo.com/games/the-green-knight-camelot-gold",
+     "published": "2026-11-26"
+    }
+   ]
+  }
+ ]
+}

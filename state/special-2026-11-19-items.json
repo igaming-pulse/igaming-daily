@@ -1,0 +1,39 @@
+{
+ "date": "2026-11-19",
+ "available": 2,
+ "chosen": [
+  {
+   "cat": "cat1",
+   "title": "The Green Knight Camelot Gold",
+   "gp": "Play'n GO",
+   "first_seen": "2026-09-25",
+   "b": 4,
+   "sources": [
+    {
+     "name": "iGamingToday",
+     "url": "https://www.igamingtoday.com/the-green-knight-camelot-gold-slot-review/",
+     "published": "2026-09-25"
+    }
+   ],
+   "release_date": "2026-11-26",
+   "note": "提前評測",
+   "key": "thegreenknightcamelotgold|playngo"
+  },
+  {
+   "cat": "cat1",
+   "title": "Xmas Guardians Megaways",
+   "gp": "Pragmatic Play",
+   "b": 4,
+   "first_seen": "2026-10-31",
+   "release_date": "2026-11-26",
+   "sources": [
+    {
+     "name": "iGamingToday",
+     "url": "https://www.igamingtoday.com/xmas-guardians-megaways-slot-review/",
+     "published": "2026-10-30 18:07"
+    }
+   ],
+   "key": "xmasguardiansmegaways|pragmaticplay"
+  }
+ ]
+}

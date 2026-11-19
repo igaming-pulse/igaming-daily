@@ -1,0 +1,57 @@
+{
+ "date": "2026-11-20",
+ "alerts": [
+  "🟠 Firecrawl 剩 949 點，照每天約 107 點會在 11/28 用完，撐不到 12/14 重置（還差約 1619 點）",
+  "🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（35 天）、GiocoNews（21 天）；請檢查網址或改抓取方式"
+ ],
+ "info": {
+  "credits": {
+   "remaining": 949,
+   "plan": 1000,
+   "period_end": "2026-12-14",
+   "today_use": 13,
+   "daily_use": 107,
+   "daily_basis": "近 7 天實際",
+   "days_to_reset": 24,
+   "need_until_reset": 2568
+  },
+  "tier": {
+   "tier": "🟢 充裕",
+   "budget": 39,
+   "remaining": 962,
+   "period_end": "2026-12-14",
+   "days_to_reset": 24,
+   "reserve": 20,
+   "note": "全開",
+   "lists_spent": 6,
+   "article_limit": 22,
+   "image_extra": 12
+  },
+  "sources": {
+   "total": 112,
+   "failed_today": [
+    "CDC Gaming",
+    "Revista Casino Perú",
+    "GiocoNews",
+    "BigWinBoard 新作列表",
+    "JILI 官網新作",
+    "FA CHAI 官網新作"
+   ],
+   "streak_3d": [
+    "BigWinBoard 新作列表",
+    "GiocoNews"
+   ]
+  },
+  "candidates": {
+   "today": 587,
+   "median_same_type": 523,
+   "basis_days": 5,
+   "type": "平日窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 9,
+   "fixes": 3
+  }
+ }
+}

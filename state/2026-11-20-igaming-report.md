@@ -1,0 +1,306 @@
+# 🎰 iGaming 市場日報 2026-11-20（週五）
+
+🎰 Slot 8 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
+
+---
+
+## 📌 本日重點
+
+本日必看 Slot 新品：x1500 Sugar Teddy 2 – Playson
+本日市場趨勢總結：沒有
+
+---
+
+## 🎰 Game Provider 新遊戲
+
+### 01 x1500 Sugar Teddy 2 – Playson
+
+Playson 推出 Sugar Teddy 系列第三款 x1500 Sugar Teddy 2，延續 Scatter Pays 消除玩法：同符號 8 個以上即中獎、消除後補落，倍數在 Base Game 與免費遊戲都會在連消期間累積，最後加總套用到該次旋轉。倍數上限拉到 1,500x，新增兩種免費遊戲（一般免費遊戲最多 25 轉、搭配 Super Scatter 的 Super Free Spins 倍數 10x～1,500x），免費遊戲中盤面擴張為 6×7，最高贏分 20,000x。最特別的是 Sugar Teddy Feature：任何 Scatter 或 Super Scatter 落地都可能觸發，吉祥物會替盤面補入額外 Scatter 來協助湊出免費遊戲，並用顏色顯示進度。對 PM 的意義：這是「全盤計分＋倍數」這個菲律賓主力玩法大類的 Base Game 微創新，可以和 Sweet Bonanza 系產品做對照測試。
+
+衍生調整：相對前作，倍數上限拉高、新增 Super Free Spins 與 Sugar Teddy Feature。
+
+參數：
+- 廠牌：Playson
+- 核心機制：Sweet Bonanza 系（代數未確認）
+- 微創新：吉祥物在 Base Game 補入 Scatter 助攻觸發
+- 遊戲類型：線上電子老虎機
+- 盤面：未公布（免費遊戲擴張為 6×7）
+- 消除/賠付：Scatter Pays（8 個以上同符號）、連消、累積倍數
+- 最高倍率：20,000x
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：倍數最高 1,500x、Super Free Spins、Sugar Teddy Feature、Buy Bonus／Extra Bet
+
+查證：Base Game 盤面、RTP、波動官方稿未列，已查 EEGaming 全文，未再查到其他來源。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/11/19/53761/playson-releases-x1500-sugar-teddy-2-with-1-500x-multiplier-and-two-free-spins-modes/) · 日期：2026-11-19
+圖片：https://eegaming.org/api/eeg-media/b82e1589-9e5b-4f81-845b-53bff31fd486.jpg
+
+### 02 Gift Rush Merge Up – BGaming
+🔁 正式上線（11/15 曾列為預告，11/19 官方稿發布）
+
+聖誕主題新作，沿用 BGaming 的 Merge Up 機制：形成中獎集群後，部分中獎符號消失、其餘升級到下一級，聖誕裝飾一路合併到第 9 級會變成禮物盒，打開後炸掉周圍 3×3 範圍的符號並露出 Scatter 棒棒糖。3 個以上 Scatter 觸發免費遊戲，格子倍數會留到免費遊戲結束；另有 Chance x2、兩種 Booster（隨機與 ×16）、多種 Buy Bonus，以及可一鍵重觸發上一輪 Bonus 的 Rebuy。官方稿標示 RTP 97%、最高 10,000x。對 PM 的意義：Merge Up 是「集群合併升級」的原創玩法，Rebuy 則是新的購買功能設計，可觀察菲律賓玩家對一鍵重買的接受度。
+
+衍生調整：沿用 Sugar Merge Up 的 Merge Up 機制，新增 Rebuy 與聖誕題材。
+
+參數：
+- 廠牌：BGaming
+- 核心機制：-
+- 微創新：中獎集群讓符號合併升級，第 9 級變禮物盒炸開 3×3
+- 遊戲類型：線上電子老虎機
+- 盤面：未公布
+- 消除/賠付：集群中獎、合併升級（Merge Up）、格子倍數
+- 最高倍率：10,000x
+- RTP：97%
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：Merge Up、Cell Multipliers、Rebuy、Buy Bonus、Booster ×16
+
+查證：盤面與波動官方稿未列；已查 Focus Gaming News 全文。
+來源：[Focus Gaming News](https://focusgn.com/bgaming-gift-rush-merge-up-slot) · [iGaming Future](https://igamingfuture.com/bgaming-leaves-many-presents-under-the-tree-with-gift-rush-merge-up/) · 日期：2026-11-19
+圖片：https://focusgn.com/wp-content/uploads/2026/11/Gift_Rush_Merge_Up_banner_Focus-Gaming-News_1200x630.jpg
+
+### 03 Xmas Dreams – Yggdrasil
+🔁 正式上線（11/16 曾列為預告，11/18～11/19 官方稿發布）
+
+Yggdrasil 的聖誕新作，轉軸排成聖誕樹形狀，每次中獎會打開最靠近的禮物、讓盤面增加列數與賠付方式，完整展開時為 6 軸 8 列、20,160 ways，局結束後盤面回到原始大小。整棵樹打開後開始收集彩色星星：紅星給額外生命、每 5 顆金星讓小火車橫掃、把隨機一列變成 Wild，每 5 顆藍星提高倍數。最高倍率 5,500x。對 PM 的意義：盤面隨連勝成長是 Base Game 就看得到的視覺焦點與即時回饋，符合菲律賓平台偏好的反饋節奏，節慶檔期可考慮上架。
+
+衍生調整：全新 IP，無衍生。
+
+參數：
+- 廠牌：Yggdrasil
+- 核心機制：-
+- 微創新：中獎即開禮物、盤面長高，最大 6×8
+- 遊戲類型：線上電子老虎機
+- 盤面：聖誕樹形，最大 6×8
+- 消除/賠付：Ways（最大 20,160 ways）、盤面隨中獎擴張
+- 最高倍率：5,500x
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：成長型盤面、紅／金／藍星收集、小火車 Wild 列、倍數提升
+
+查證：RTP 與波動官方稿未列，已查 European Gaming 全文與 Zona de Azar 轉載。
+來源：[European Gaming](https://europeangaming.eu/portal/press-release/2026/11/19/218263/yggdrasil-xmas-dreams-christmas-slot/) · [Zona de Azar](https://zonadeazar.com/juego-online/yggdrasil-introduces-xmas-dreams-with-christmas-tree-shaped-reels/) · 日期：2026-11-19
+圖片：https://media.europeangaming.eu/uploads/2026/11/yggdrasil-xmas-dreams-slot.webp
+
+### 04 Monkey Gods of the Inca – Relax Gaming
+
+Relax Gaming 與直播主 CasinoDaddy 合作的第四款遊戲，印加叢林主題，三個隨機功能可以單一、雙重或三重同時觸發，另有可追逐的柏青哥式 Bonus（無法購買）、四種可購買選項與加強旋轉。最高 10,000x。Relax 產品負責人表示這是公司第一次做這種玩法模式。對 PM 的意義：功能組合在 Base Game 就會出現，是針對直播主與串流社群設計的結構，可作為平台直播導流型內容的參考。
+
+衍生調整：全新 IP，無衍生（CasinoDaddy 合作系列第四款）。
+
+參數：
+- 廠牌：Relax Gaming
+- 核心機制：-
+- 微創新：三種隨機功能可單雙三重同時觸發，另有可追逐的柏青哥式獎勵
+- 遊戲類型：線上電子老虎機
+- 盤面：未公布
+- 消除/賠付：未公布
+- 最高倍率：10,000x
+- RTP：未公布
+- 波動：未公布
+- 目標市場：歐洲多個受監理市場
+- 關鍵特色：三個隨機功能、柏青哥式 Bonus、四種 Buy 選項、加強旋轉
+
+查證：盤面、RTP、波動官方稿未列，已查 Focus Gaming News 全文。
+來源：[Focus Gaming News](https://focusgn.com/relax-gaming-monkey-gods-inca) · [EEGaming](https://eegaming.org/latest-news/2026/11/19/53759/relax-gaming-releases-monkey-gods-of-the-inca-with-casinodaddy/) · 日期：2026-11-19
+圖片：https://focusgn.com/wp-content/uploads/2026/11/Relax-Gaming-Monkey-Gods-of-the-Inca-1200x630.jpg
+
+### 05 The Greatest Heist – Evoplay
+
+Evoplay 的邁阿密搶劫主題新作，5×3 盤面，三名角色各帶一種 Base Game 隨機 Wild 事件：Jesse 把整軸變 Wild、Lucas 沿斜線把 2～3 個符號變 Wild、Oliver 隨機把 2～3 個符號變 Wild。3 個 Scatter 觸發免費遊戲並三選一：Jesse 給 5 轉並讓 Bonus Scatter 變 Sticky Wild，Lucas 給 9 轉且每多一個 Scatter 加 3 轉，Oliver 給 7 轉且每個 Scatter 讓倍數加 1。對 PM 的意義：把角色辨識度直接轉成玩法差異，Base Game 的隨機事件有清楚視覺焦點，值得觀察。
+
+衍生調整：全新 IP，無衍生。
+
+參數：
+- 廠牌：Evoplay
+- 核心機制：-
+- 微創新：三名角色各自觸發隨機 Wild 事件：整軸、斜線、隨機格
+- 遊戲類型：線上電子老虎機
+- 盤面：5×3
+- 消除/賠付：未公布
+- 最高倍率：未公布
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：三種隨機 Wild 事件、三選一免費遊戲模式
+
+查證：最高倍率、RTP、波動官方稿未列，已查 EEGaming 全文與 European Gaming 稿。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/11/19/53758/evoplay-launches-miami-themed-slot-the-greatest-heist/) · [European Gaming](https://europeangaming.eu/portal/casino-games/2026/11/19/218309/evoplay-greatest-heist-free-spins-slot/) · 日期：2026-11-19
+圖片：https://eegaming.org/api/eeg-media/6f2e4499-d63f-461b-a310-bb43ea80309c.jpg
+
+#### 換皮／資料不足（精簡卡片）
+
+##### Kong: Skull Island Unchained – Light & Wonder
+核心機制：-
+判定：實體機新作，官方稿只公布世界首發地點與 IP 背景，玩法與參數未公布
+參數：盤面 未公布｜最高倍率 未公布｜RTP 未公布
+摘要：2024 年熱門授權機台《Kong: Skull Island》的續作，在加州 Pechanga 賭場世界首發。
+來源：[Inside Asian Gaming](https://asgam.com/2026/11/19/light-wonder-announces-global-debut-of-kong-skull-island-unchained/) · [GGRAsia](https://www.ggrasia.com/light-wonders-kong-skull-island-unchained-game-makes-world-debut) · 日期：2026-11-19
+圖片：https://asgam.com/wp-content/uploads/og-cache/150227.jpg
+
+##### 3 Super Carts Riches – Kendoo
+核心機制：-
+判定：創新集中在 Bonus Game（Double／Multi／Extra 三選項），Base Game 為 25 線一般玩法
+參數：盤面 5×3｜最高倍率 Grand 彩金 1,000x 總投注｜RTP 未公布
+摘要：Hold & Respin 型 Bonus 可複製成雙盤面，Bonus 前有轉輪功能，另有四層彩金。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/11/19/53771/kendoo-launches-3-super-carts-riches-slot-with-dual-board-bonus-and-four-jackpots/) · 日期：2026-11-19
+圖片：https://eegaming.org/api/eeg-media/2851e821-fff4-4e78-9edf-81f454a5464d.png
+
+##### Hell Hot Volcano – Endorphina
+核心機制：-
+判定：Hell Hot 系列換皮，只有數學模型與火山主題不同，沿用 Hold and Win Collect Bonus
+參數：盤面 3×3｜最高倍率 3,200x｜RTP 未公布
+摘要：3×3 水果機，Collector 符號收走中間軸旁的獎金，Ultra 彩金 1,000x。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/11/19/53765/endorphina-releases-hell-hot-volcano-slot-with-hold-and-win-bonus/) · 日期：2026-11-19
+圖片：https://eegaming.org/api/eeg-media/15652d9c-f857-47d7-8d31-bfff839997ae.jpg
+
+---
+
+## 🕹️ 非 Slot 新內容
+
+### 01 Fast Games 產品線 – CreedRoomz
+
+直播賭場廠商 CreedRoomz 宣布跨足 Fast Games（快節奏小遊戲），產品線涵蓋 Crash、階梯（ladder）、翻牌選擇（pick-and-reveal）等互動玩法，以滑動介面切換遊戲。首批名單包括 Autobahn、Balloon Bazaar、Fate Flip、Ghost Hotel、Star Hopper、Scrap Rocket、Vault、Outlier、Shell Shuffle、AviX、Virtual BJ 與 Cup Hustle，營運商可客製品牌、介面、規則、RTP 與波動，並以隨插即用的後端快速整合；官方稱用 AI 輔助開發流程加速出新。對 PM 的意義：直播廠商轉攻 Crash 類小遊戲，代表這類內容的 B2B 供給還在增加，可評估是否納入平台小遊戲採購清單。
+
+參數：
+- 遊戲類型：小遊戲（Crash、階梯、翻牌選擇）
+- 最高倍率：未公布
+- RTP：可由營運商校準（未公布固定值）
+- 目標市場：沒有
+- 關鍵特色：Crash／階梯／翻牌選擇、客製化、滑動介面、隨插即用整合
+
+查證：官方稿列出首批 12 款名稱，未列倍率與 RTP。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/11/19/53764/creedroomz-expands-beyond-live-casino-with-fast-games-portfolio/) · [Focus Gaming News](https://focusgn.com/creedroomz-fast-games-launch) · 日期：2026-11-19
+圖片：https://eegaming.org/api/eeg-media/a886cb32-ff47-41fa-abdf-7d906ef86105.jpg
+
+### 02 WePlay Network 共享撲克流動性 – Evenbeter
+
+Evenbeter 擴大與 WePlay Network 的合作，把這個撲克平台納入其「Growth Paths」策略：營運商不必變成專業撲克公司，就能加開完整託管的撲克垂直產品，內容包括共享撲克流動性、可客製的皮膚與賽事格局、以及與賭場產品整合的方案。對 PM 的意義：共享流動性解決撲克新站「桌子沒人」的問題，若平台要補撲克品類，這類託管方案比自建成本低。
+
+參數：
+- 遊戲類型：撲克（共享流動性網絡）
+- 目標市場：沒有
+- 關鍵特色：共享流動性、託管營運、可客製皮膚與賽事、賭場整合
+
+來源：[Focus Gaming News](https://focusgn.com/evenbeter-weplay-poker-network) · [EEGaming](https://eegaming.org/latest-news/2026/11/19/53769/evenbeter-extends-weplay-network-deal-to-offer-shared-poker-liquidity-to-operators/) · 日期：2026-11-19
+圖片：https://focusgn.com/wp-content/uploads/2026/11/Evenbeter-WePlay-Poker-Network-1200x630.jpg
+
+---
+
+## 🤝 動態：主流 GP／平台
+
+### 01 TaDa Gaming 經 Tuko Productions 上架義大利 Lottomatica 集團三個品牌
+
+TaDa Gaming 的內容已在 Lottomatica、GoldBet 與 planetwin365 三個品牌上線，由 Tuko Productions 提供通路，三個品牌的玩家可玩到逾 86 款通過義大利海關與壟斷局（Agenzia delle Dogane e dei Monopoli，ADM）最新規範認證的遊戲，含 Crash 遊戲 Chicken Dash。這次是 TaDa 在義大利一次拿下同集團內三個品牌。對 PM 的意義：TaDa 的在地化內容獲歐洲大型營運商採用，可作為評估其新作成熟度與合規能力的參考。
+
+重點：類型 合作 ｜ 對象 TaDa Gaming、Lottomatica、GoldBet、planetwin365、Tuko Productions ｜ 影響 TaDa 在義大利的通路從單點擴大到整個 Lottomatica 集團
+
+來源：[Focus Gaming News](https://focusgn.com/tada-gaming-lottomatica-goldbet-planetwin365) · [iGaming Brazil](https://igamingbrazil.com/online-2/2026/11/19/tada-expande-atuacao-no-mercado-italiano-com-lottomatica-goldbet-e-planetwin365/) · 日期：2026-11-19
+圖片：https://focusgn.com/wp-content/uploads/2026/11/TaDa-Gaming-Lottomatica-1200x630.png
+
+### 02 Nolimit City 經 Veikkaus 進入芬蘭，首批含 Duck Hunters 系列
+
+Evolution 集團旗下的 Nolimit City 與芬蘭國營博彩營運商 Veikkaus 簽約，Slot 組合上線 Veikkaus 網站，首批收錄 Duck Hunters 等既有系列。Veikkaus 目前在芬蘭本土擁有獨家博彩經營權，雙方強調在負責任博彩框架下發展合作。芬蘭預計 2027 年 7 月開放發牌市場，國營營運商先行補強內容。對 PM 的意義：北歐國營通路採用高波動 Slot 供應商，顯示 Nolimit City 的品牌在歐洲受監理市場仍有分量，可作為其新作排程的觀察點。
+
+重點：類型 合作 ｜ 對象 Nolimit City（Evolution 集團）、Veikkaus ｜ 影響 Nolimit City 進入芬蘭國營通路
+
+查證：原文未列首批全部遊戲，只確認 Duck Hunters 系列。
+來源：[Zona de Azar](https://zonadeazar.com/juego-online/nolimit-city-expands-finnish-presence-through-veikkaus-partnership/) · 日期：2026-11-19
+圖片：https://zonadeazar.com/wp-content/uploads/2026/11/Captura-de-pantalla-2026-11-18-105949-700x365.png
+
+### 03 Peter & Sons 與 DAZN Bet 在義大利開跑，首批 11 款 Slot
+
+Peter & Sons 與持有 ADM 牌照的 DAZN Bet 合作上線，義大利成為這項合作的第一個市場，首批 11 款包括 Barbarossa、Barbarossa Revenge、Barbarossa Dragon Empire、Zombie Road、Roman Glory、Blood Club、Greedy Alice 與 Bad Santa 等。DAZN Bet 結合體育娛樂品牌與線上賭場產品。對 PM 的意義：體育媒體品牌跨足賭場內容時，會用 Slot 供應商做第一批商品，可觀察其系列 IP（Barbarossa）的跨平台表現。
+
+重點：類型 合作 ｜ 對象 Peter & Sons、DAZN Bet ｜ 影響 Peter & Sons 內容進入體育媒體系營運商，義大利為首發市場
+
+來源：[iGaming Future](https://igamingfuture.com/peter-sons-dazn-bet/) · 日期：2026-11-19
+圖片：https://igamingfuture.com/wp-content/uploads/2024/09/shutterstock_2114593124.jpg
+
+---
+
+## 🇵🇭 動態：菲律賓 GP／平台
+
+### 01 🔁 Evolution 與 Casino Plus 公布合作內容：在地化直播遊戲、宿霧製作棚
+🔁 更新（11/16 首次報導「考慮」，11/19 平台與業者公開說明）
+
+11/16 報導僅提到 Evolution 考慮讓 Casino Plus 玩家搶先玩新遊戲；11/19 Casino Plus 發表聲明、Evolution 公開說明，具體內容更清楚：Evolution 在宿霧的本地直播棚為菲律賓娛樂與博彩公司（Philippine Amusement and Gaming Corporation，PAGCOR）核准的營運商製作內容，已有專為菲律賓玩家做的 Perya Super Color Game 與 Perya Speed Baccarat；Casino Plus 自 2022 年上架 Evolution Slot、2023 年 5 月加入直播賭場，10/30 曾在馬卡蒂辦活動讓玩家率先試玩 Evolution 新節目 Game Night。雙方將續辦線上線下行銷，並探索更多在地化遊戲，但未公布具體遊戲計畫、投資金額或時程。對 PM 的意義：Evolution 在菲律賓有在地製作能力，平台要做「地方題材直播遊戲」可直接洽詢；Perya Super Color Game 已是在地題材的先例。
+
+重點：類型 合作 ｜ 對象 Evolution、Casino Plus ｜ 影響 本地化直播內容成為 Casino Plus 的差異化賣點，但無時程
+
+查證：BusinessWorld 明確寫「未公布具體遊戲計畫、投資、時程」。
+來源：[Manila Times](https://www.manilatimes.net/2026/11/19/business/science-technology/global-tech-giant-evolution-casino-plus-team-up-to-build-live-games-tailored-for-filipino-players/2474142) · [BusinessWorld](https://bworldonline.com/corporate/2026/11/19/795286/evolution-explores-more-phl-tailored-games-through-casino-plus-partnership/) · 日期：2026-11-19
+圖片：https://manilatimes.net/manilatimes/uploads/images/2026/11/19/1316689.jpg
+
+### 02 DFNN 第三季虧損縮小，電子錢包脫鉤使佣金收入年減 75.8%
+
+菲律賓資訊科技與博彩服務公司 DFNN 公布第三季（至 9 月 30 日）歸屬股東淨損 9,750 萬披索，去年同期為 1.356 億披索；營收年減 33.0% 至略低於 3,010 萬披索，佣金收入年減 75.8% 至 170 萬披索，前九個月佣金收入年減 67.8% 至約 2,340 萬披索。公司把佣金下滑歸因於菲律賓線上博彩平台與電子錢包業者「脫鉤」（delinking）；軟體開發與維護的服務費收入前九個月增 4.7%、成本與費用降 13.2%，部分抵銷衝擊。DFNN 旗下 LottoMatik（與菲律賓慈善彩券局合作、販售彩券與數字遊戲的可攜式銷售終端設備）持續全國鋪貨，並於 6 月推出 LottoMatik Rewards。對 PM 的意義：電子錢包脫鉤對依賴佣金的業者衝擊明確，平台端要評估支付通路依賴度。
+
+重點：類型 財務 ｜ 對象 DFNN、LottoMatik、菲律賓慈善彩券局 ｜ 影響 電子錢包脫鉤讓博彩平台佣金收入大減，DFNN 轉向科技服務
+
+查證：數字取自 DFNN 向菲律賓證券交易所（Philippine Stock Exchange，PSE）的申報，GGRAsia 轉述。
+來源：[GGRAsia](https://www.ggrasia.com/dfnn-narrows-net-loss-for-3q-continues-lottomatik-rollout) · 日期：2026-11-19
+圖片：無
+
+---
+
+## 📊 市場數據 & 趨勢
+
+### 01 bet365 十月數據：IGT 的 Cash Eruption 在美國四州仍是第一或第二名
+
+bet365 每月公布 7,500 多款線上 Slot 的表現（綜合營收、投注額、場次與參與度）。10 月 IGT 原版 Cash Eruption 在紐澤西與賓州都是第 1 名（紐澤西較 9 月上升 15 名、賓州上升 2 名），在密西根與西維吉尼亞排第 2；Triple Cash Eruption 進入密西根與賓州前五，Cash Eruption: High Stakes 守住西維吉尼亞前十。賓州排行榜中，Light & Wonder 的 Huff N' Puff Even More Grand 上升 2 名居第 2，Capital Gains 第 3，The Goonies Megaways 直接空降第 4，另有 Deal or No Deal Megaways: Golden Case 第 6、Slingo Da Vinci Diamonds 第 8。對 PM 的意義：美國線上賭場前段班由長壽 IP 與系列續作占據，新作要進榜多靠授權 IP 與既有品牌延伸。
+
+重點：類型 市場數據 ｜ 對象 bet365、IGT、Light & Wonder ｜ 影響 系列與授權 IP 在美國線上 Slot 榜長期占優
+
+來源：[SBC Americas](https://sbcamericas.com/2026/11/19/bet365-online-casino-slots-october-2026/) · 日期：2026-11-19
+圖片：https://resources.sbcamericas.com/sbcamericas/2026/11/bet365-online-casino-data-shows-Cash-Eruption-remains-a-favorite-across-US-1.jpg
+
+### 02 義大利十月線上 Slot：Amusnet 的 Shining Crown 再居榜首，Gates of Olympus Super Scatter 第二
+
+義大利線上賭場 10 月玩家支出（投注減獎金）約 3.2 億歐元、年增 9%，總投注逾 74 億歐元；Slot 貢獻略低於 2.1 億歐元的支出。依 igamingtracker.com 提供給 Agipronews 的排行，Amusnet 的 Shining Crown 重回第一，其後是 Pragmatic Play 的 Gates of Olympus Super Scatter 與 Novomatic 的 Book of Ra Deluxe；Play'n GO 的 Legacy of Dead 第 4，ELK Studios 的 Pirots 5 第 5，Spribe 的 Aviator 第 6，Evolution 的 Starburst 與 Pragmatic Play 的 Gates of Olympus 1000 進前十。對 PM 的意義：Gates of Olympus 的 Super Scatter 版本進入歐洲主市場前三，與菲律賓 Top 玩法大類（全盤計分＋倍數）互相呼應，可用來佐證該系列版本升級的價值。
+
+重點：類型 市場數據 ｜ 對象 Amusnet、Pragmatic Play、Novomatic ｜ 影響 經典水果機與 Super Scatter 升級版並列義大利榜前段
+
+查證：排行來自第三方追蹤網站 igamingtracker.com，非監理機關官方資料。
+來源：[Agipronews](https://www.agipronews.it/esclusiva-slot-online-a-ottobre-shining-crown-torna-in-vetta-risale-book-of-ra-deluxe) · 日期：2026-11-19
+圖片：http://www.agipronews.it/image/_variants/news/231762_oriz-960w.webp
+
+### 03 Allwyn 第三季營收年增 19% 至 12.2 億歐元，線上占淨博彩營收 47%
+
+Allwyn 公布第三季營收 12.2 億歐元，年增 19%，但可比基準僅增 4%；調整後 EBITDA 3.96 億歐元、年增 6%（可比基準增 2%），EBITDA 利潤率 32.5%，低於去年同期的 36.6%。公司把壓力歸因於去年同期歐洲大陸的紀錄彩金，以及本季對客戶特別有利的體育賽果。數位淨博彩營收可比基準增 8%，線上占總淨博彩營收 47%。對 PM 的意義：大型彩券與博彩集團的成長靠併購與數位占比拉升，但可比基準成長放緩，顯示成熟市場的自然增速有限。
+
+重點：類型 財務 ｜ 對象 Allwyn ｜ 影響 數位占比升至 47%，但利潤率與可比成長下滑
+
+來源：[iGaming Business](https://igamingbusiness.com/finance/allwyn-reports-19-revenue-growth-q3/) · [EGR Intel](https://www.egr.global/intel/news/allwyn-reports-19-jump-q3-revenue-as-high-degree-of-diversification-praised-by-bosses/) · 日期：2026-11-19
+圖片：https://igamingbusiness.com/wp-content/uploads/2026/11/2hh1p0c-scaled.jpg
+
+---
+
+本日日報查詢約 52 個網站，其中提取 40 個資料來源並進行交叉比對
+
+---
+
+## 🗓️ 來源日期紀錄（內部，不渲染）
+
+剔除：The Green Knight Camelot Gold（Play'n GO，11/26 上線，窗內只有官網上線日期、無窗內有日期的主來源，進庫存待上線）；剔除：Xmas Guardians Megaways（Pragmatic Play，官方上線日 11/26 但只有 iGamingToday 10/30 評測、無官方頁或新聞稿，主來源超過保鮮期）；剔除：Fortune Hook 1000／Nigel Unwrapped／Turkey Goes Wild（只在 SlotsLaunch 日曆有名稱，查無新聞稿或玩法資料）；剔除：Ghost Vision（Hacksaw Gaming，11/16 已出現，窗內只有無發布日期的 OLBG 頁）；剔除：Money Tree（Aristocrat，11/19 已收）；剔除：EEZE（近期無 EEZE 新消息，最近為 10 月 BetConstruct AI 分銷）；剔除：GameZone × Gloc-9 解釋代言決定（11/18 已收同一議題 Tara G!）；剔除：ArenaPlus JR 得獎報導（11/13 已收同一活動）；剔除：Amusnet 上架 CasinoBarcelona（11/15 已收 Amusnet 西班牙擴張）
+
+- x1500 Sugar Teddy 2：EEGaming 2026-11-19 09:24 UTC（metadata）
+- Gift Rush Merge Up：Focus Gaming News 2026-11-19 07:36 -03:00（metadata）；iGaming Future 2026-11-19 16:00
+- Xmas Dreams：European Gaming 2026-11-19 08:57 +02:00（metadata）；Zona de Azar 2026-11-19 01:20 -03:00
+- Monkey Gods of the Inca：Focus Gaming News 2026-11-19 07:41 -03:00（metadata）；EEGaming 2026-11-19 17:00 台北
+- The Greatest Heist：EEGaming 2026-11-19 08:37 UTC（metadata）
+- Kong: Skull Island Unchained：Inside Asian Gaming 2026-11-19 04:35 +08:00（metadata）
+- 3 Super Carts Riches：EEGaming 2026-11-19 12:22 UTC（metadata）
+- Hell Hot Volcano：EEGaming 2026-11-19 09:59 UTC（metadata）
+- CreedRoomz：EEGaming 2026-11-19 09:51 UTC（metadata）
+- Evenbeter：Focus Gaming News 2026-11-19 06:37 -03:00（metadata）
+- TaDa：Focus Gaming News 2026-11-19 09:31 -03:00（metadata）
+- Nolimit City：Zona de Azar 2026-11-19 01:16 -03:00（metadata）
+- Peter & Sons：iGaming Future 2026-11-19 08:00 UTC（metadata）
+- Evolution × Casino Plus：Manila Times 2026-11-19 21:29 +08:00；BusinessWorld 2026-11-19 13:18 UTC（metadata）
+- DFNN：GGRAsia 2026-11-19 10:46 UTC（Firecrawl metadata）
+- bet365：SBC Americas 2026-11-19 17:13 UTC（Firecrawl metadata）
+- 義大利 Slot 榜：Agipronews 2026-11-19 12:00 +01:00（metadata）
+- Allwyn：iGaming Business 2026-11-19 10:19 UTC（metadata）

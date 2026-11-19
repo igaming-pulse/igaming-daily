@@ -265,10 +265,10 @@
   "reset": "2026-12-14",
   "reset_source": "api"
  },
- "2026-11-19": {
-  "start": 976,
-  "end": 968,
-  "used": 8,
+ "2026-11-20": {
+  "start": 962,
+  "end": 949,
+  "used": 13,
   "reset": "2026-12-14",
   "reset_source": "api"
  }

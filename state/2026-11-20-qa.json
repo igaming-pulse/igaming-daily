@@ -1,0 +1,38 @@
+{
+ "date": "2026-11-20",
+ "md": "state/2026-11-20-igaming-report.md",
+ "html": "reports/2026-11-20.html",
+ "items": 18,
+ "counts": {
+  "cat1": 8,
+  "cat2": 2,
+  "cat3": 3,
+  "cat4": 2,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 45,
+  "ok": 38,
+  "broken": 0,
+  "blocked": 6,
+  "images_dropped": 1,
+  "images": 17
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-03 Xmas Dreams – Yggdrasil｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/press-release/2026/11/19/218263/yggdrasil-xmas-dreams-christmas-slot/",
+  "cat1-05 The Greatest Heist – Evo｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/casino-games/2026/11/19/218309/evoplay-greatest-heist-free-spins-slot/",
+  "cat1-101 Kong: Skull Island Uncha｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/light-wonders-kong-skull-island-unchained-game-makes-world-debut",
+  "cat3-01 TaDa Gaming 經 Tuko Produ｜來源連結無法自動驗證（403，多半是網站擋機器人）：iGaming Brazil https://igamingbrazil.com/online-2/2026/11/19/tada-expande-atuacao-no-mercado-italiano-com-lottomatica-goldbet-e-planetwin365/",
+  "cat4-02 DFNN 第三季虧損縮小，電子錢包脫鉤使佣金收入｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/dfnn-narrows-net-loss-for-3q-continues-lottomatik-rollout",
+  "cat5-01 bet365 十月數據：IGT 的 Cash E｜來源連結無法自動驗證（403，多半是網站擋機器人）：SBC Americas https://sbcamericas.com/2026/11/19/bet365-online-casino-slots-october-2026/",
+  "cat4-02 DFNN 第三季虧損縮小，電子錢包脫鉤使佣金收入｜各來源都找不到可用的配圖",
+  "cat1-02 Gift Rush Merge Up｜與 2026-11-15 日報「Gift Rush Merge Up」疑似重複（7 天內同一款／同一事件；超過 3 天要有新進展並標 🔁），已標 🔁",
+  "cat1-03 Xmas Dreams｜與 2026-11-16 日報「Xmas Dreams」疑似重複（7 天內同一款／同一事件；超過 3 天要有新進展並標 🔁），已標 🔁"
+ ],
+ "fixes": [
+  "cat1-02 Gift Rush Merge Up – BGa｜配圖打不開（404 text/html），已自動拿掉：https://focusgn.com/wp-content/uploads/2026/11/Gift_Rush_Merge_Up_banner_Focus-Gaming-News_1200x630.jpg",
+  "cat1-02 Gift Rush Merge Up – BGa｜自動補上配圖（取自 Focus Gaming News）：https://focusgn.com/wp-content/uploads/2026/11/Gift_Rush_Merge_Up_banner_Focus-Gaming-News_1200x800-1200x630.jpg",
+  "文末｜資料來源數 40 → 28（程式依來源連結去重計算）"
+ ]
+}

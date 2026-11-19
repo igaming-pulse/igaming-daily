@@ -1,41 +1,42 @@
-🎰 iGaming 市場日報 2026-11-19（週四）
-🎰 Slot 5 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-11-20（週五）
+🎰 Slot 8 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Fortune Garuda 500 JACKPOT（JILI）：3×3 倍數軸加 12 格 Jackpot Wheel
-・BingoPlus 推延遲補償保證：快速提款逾時最高賠 5,000 披索
-・猶他州起訴 Stake.us，主打「可兌現虛擬幣＝真錢賭博」
+・Playson x1500 Sugar Teddy 2：Sweet Bonanza 系，吉祥物在 Base Game 補 Scatter
+・菲律賓：Evolution 與 Casino Plus 公開在地化直播遊戲合作；DFNN 受電子錢包脫鉤衝擊
+・美國 bet365 十月榜：IGT Cash Eruption 在四州居前二，系列／授權 IP 占優
 
 🎰 Slot 新遊戲
-01 [N+1] Fortune Garuda 500 JACKPOT – JILI
-02 [原創] Glam Cam – DELULU Gaming
-03 [原創] Money Tree: Just Bonuses – Aristocrat
-・換皮／資料不足：Phoenix Frenzy Triple Win、Double Mummy's Jewels 1000
+01 [N+1] x1500 Sugar Teddy 2 – Playson
+02 [原創] 🔁 Gift Rush Merge Up – BGaming
+03 [原創] 🔁 Xmas Dreams – Yggdrasil
+04 [原創] Monkey Gods of the Inca – Relax Gaming
+05 [原創] The Greatest Heist – Evoplay
+・換皮／資料不足：Kong: Skull Island Unchained（L&W）、3 Super Carts Riches、Hell Hot Volcano
 
 🕹️ 非 Slot 新內容
-01 📦 Ocean Roulette 與 Majestic Roulette – Betandeal Games
+01 Fast Games 產品線 – CreedRoomz
+02 WePlay Network 共享撲克流動性 – Evenbeter
 
 🤝 動態：主流 GP／平台
-01 猶他州起訴 Stake.us
-02 Wazdan 經 Madison Casino 進入比利時
-03 Betby 與 Magnus Carlsen 延長大使合作
-04 Accel Entertainment 芝加哥首批 VGT 據點
+01 TaDa Gaming 上架義大利 Lottomatica 集團三個品牌
+02 Nolimit City 經 Veikkaus 進入芬蘭
+03 Peter & Sons 與 DAZN Bet 在義大利開跑
 
 🇵🇭 動態：菲律賓 GP／平台
-01 BingoPlus 延遲補償保證
-02 Okada Manila 新遊戲專區（AGS／Aruze）
-03 Universal Entertainment 轉盈，Okada Manila 銷售降 8.9%
+01 🔁 Evolution 與 Casino Plus 公布在地化直播遊戲合作
+02 DFNN 第三季虧損縮小，電子錢包脫鉤使佣金年減 75.8%
 
 📊 市場數據 & 趨勢
-01 賓州 10 月博彩營收創高 6.344 億美元
-02 澳門 2027 年賭收預算 2,400 億澳門元
-03 GambleLex：Curaçao 為最常被標示牌照
+01 bet365 十月數據：Cash Eruption 在美國四州居前二
+02 義大利十月線上 Slot：Shining Crown 再居榜首
+03 Allwyn 第三季營收年增 19%，線上占 47%
 
 📝 品質備註（本次爬找判斷）
-1. 窗內候選多（537 則），但 Slot 有新聞稿且查得到玩法的只有 5 款：Fortune Hook 1000、Nigel Unwrapped、The Greatest Heist、Monkey Gods of the Inca 只有日曆名稱，查不到資料，未收；兩款庫存預告（11/26 上線）依規定剔除。
-2. 非 Slot 只有 1 則（Betandeal 📦）：EEZE 近期無新消息、SplitX 資料不足、GGPoker 專訪原文已 404；總收錄 16 則。
-3. Okada Manila 專區疑似與 10/26 報導重疊（G3 於 11/18 再發），BingoPlus 補償僅 GGRAsia 單一來源。
+1. 完整 Slot 卡片只有 5 款：Fortune Hook 1000、Nigel Unwrapped、Turkey Goes Wild 只有上線日曆名稱、查不到玩法資料；Green Knight Camelot Gold（11/26 上線）窗內無有日期的主來源，進庫存；庫存其餘項目不合格，未補滿 7 款。
+2. 疑似與前幾天重疊：Gift Rush Merge Up（11/15）、Xmas Dreams（11/16）、Evolution × Casino Plus（11/16）皆有 11/19 正式上線／公開說明的新進展，標 🔁 收錄。
+3. EEZE 近期無新消息（最近為 10 月 BetConstruct AI 分銷），今日未收；JILI、FA CHAI、BigWinBoard 解析失敗，Slot 候選可能偏少。
 
 ⚙️ 系統警報
-1. 🟠 Firecrawl 剩 968 點，照每天約 106 點會在 11/28 用完，撐不到 12/14 重置（還差約 1682 點）
-2. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（34 天）、GiocoNews（20 天）；請檢查網址或改抓取方式
+1. 🟠 Firecrawl 剩 949 點，照每天約 107 點會在 11/28 用完，撐不到 12/14 重置（還差約 1619 點）
+2. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（35 天）、GiocoNews（21 天）；請檢查網址或改抓取方式
