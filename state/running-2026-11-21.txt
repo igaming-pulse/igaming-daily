@@ -1,4 +1,4 @@
-machine=Mac
-started=1795210257
-status=failed
-updated=2026-11-21 10:19:27
+machine=NAS
+started=1795199407
+status=running
+updated=2026-11-21 02:30:07
