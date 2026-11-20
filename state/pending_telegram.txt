@@ -1,42 +1,36 @@
-🎰 iGaming 市場日報 2026-11-20（週五）
-🎰 Slot 8 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 2 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-11-21（週六）
+🎰 Slot 3 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 0 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Playson x1500 Sugar Teddy 2：Sweet Bonanza 系，吉祥物在 Base Game 補 Scatter
-・菲律賓：Evolution 與 Casino Plus 公開在地化直播遊戲合作；DFNN 受電子錢包脫鉤衝擊
-・美國 bet365 十月榜：IGT Cash Eruption 在四州居前二，系列／授權 IP 占優
+・Trigger Tree／PopOK Gaming：3×3＋倍數軸，Power Up 符號抓取並加總倍數
+・Joker Ace／PopOK Gaming：金牌中獎變 Wild，分 Big／Little 兩種範圍
+・德國 Q3 持牌投注額 37.4 億歐元年增 16%，虛擬 Slot 為最大品類
 
 🎰 Slot 新遊戲
-01 [N+1] x1500 Sugar Teddy 2 – Playson
-02 [原創] 🔁 Gift Rush Merge Up – BGaming
-03 [原創] 🔁 Xmas Dreams – Yggdrasil
-04 [原創] Monkey Gods of the Inca – Relax Gaming
-05 [原創] The Greatest Heist – Evoplay
-・換皮／資料不足：Kong: Skull Island Unchained（L&W）、3 Super Carts Riches、Hell Hot Volcano
+01 [N+1] Trigger Tree – PopOK Gaming
+02 [N+1] Joker Ace – PopOK Gaming
+03 [原創] 📋 THE ARISTOCRATS – Betsoft
+・換皮／資料不足：Queen Gems（ONLYPLAY）、Hu Bao Bei（AGS）
 
 🕹️ 非 Slot 新內容
-01 Fast Games 產品線 – CreedRoomz
-02 WePlay Network 共享撲克流動性 – Evenbeter
+01 Drone Strike – VeliPlay
+02 Crapless Craps 電子桌遊 – Interblock
+03 Eeze 檢討 SiGMA World 羅馬 – EEZE
 
-🤝 動態：主流 GP／平台
-01 TaDa Gaming 上架義大利 Lottomatica 集團三個品牌
-02 Nolimit City 經 Veikkaus 進入芬蘭
-03 Peter & Sons 與 DAZN Bet 在義大利開跑
-
-🇵🇭 動態：菲律賓 GP／平台
-01 🔁 Evolution 與 Casino Plus 公布在地化直播遊戲合作
-02 DFNN 第三季虧損縮小，電子錢包脫鉤使佣金年減 75.8%
+🤝 主流 GP／平台
+01 Amusnet Spain 經 CasinoBarcelona.es 上架首批 32 款
+02 Bally's Intralot 前九個月營收 8.303 億歐元，英國線上連三季創高
+03 Aviatrix 經 Betmaster.pe 首次進入秘魯
 
 📊 市場數據 & 趨勢
-01 bet365 十月數據：Cash Eruption 在美國四州居前二
-02 義大利十月線上 Slot：Shining Crown 再居榜首
-03 Allwyn 第三季營收年增 19%，線上占 47%
+01 G2E 2026 Slot 展品：寬螢幕機台與熱門作續集
+02 德國第三季持牌博彩投注額年增 16% 至 37.4 億歐元
+03 伊利諾州 10 月 Slot 機台投注額 31.9 億美元，年增 6%
 
 📝 品質備註（本次爬找判斷）
-1. 完整 Slot 卡片只有 5 款：Fortune Hook 1000、Nigel Unwrapped、Turkey Goes Wild 只有上線日曆名稱、查不到玩法資料；Green Knight Camelot Gold（11/26 上線）窗內無有日期的主來源，進庫存；庫存其餘項目不合格，未補滿 7 款。
-2. 疑似與前幾天重疊：Gift Rush Merge Up（11/15）、Xmas Dreams（11/16）、Evolution × Casino Plus（11/16）皆有 11/19 正式上線／公開說明的新進展，標 🔁 收錄。
-3. EEZE 近期無新消息（最近為 10 月 BetConstruct AI 分銷），今日未收；JILI、FA CHAI、BigWinBoard 解析失敗，Slot 候選可能偏少。
+1. 🇵🇭 菲律賓區今天 0 則：窗內只有已收過的 Evolution×Casino Plus 與 11/14 已收的 BingoPlus LaVie 重複報導，另有 Gloc-9 代言稿連結 404；已用 WebSearch 查 DigiPlus、PlayTime、PAGCOR 等仍無窗內新聞。
+2. Slot 完整卡片 3 款（週六上限）：BigWinBoard 本窗解析失敗、JILI 官網抓取失敗；週六檢查點補遺 1 款（Betsoft THE ARISTOCRATS）。德國 Q3「Slot 年增 28.6%」與另一來源數字口徑不一，日報內已註明。
 
 ⚙️ 系統警報
-1. 🟠 Firecrawl 剩 949 點，照每天約 107 點會在 11/28 用完，撐不到 12/14 重置（還差約 1619 點）
-2. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（35 天）、GiocoNews（21 天）；請檢查網址或改抓取方式
+1. 🟠 Firecrawl 剩 941 點，照每天約 80 點會在 12/2 用完，撐不到 12/14 重置（還差約 899 點）
+2. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（36 天）、GiocoNews（22 天）、nQube Data Science（4 天）、JILI 官網新作（3 天）；請檢查網址或改抓取方式

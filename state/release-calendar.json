@@ -13,6 +13,34 @@
 "source": "SlotsLaunch 上線日曆",
 "seen": "2026-11-20"
 },
+"20alebrijeseternalamusnet": {
+"name": "20 Alebrijes Eternal",
+"gp": "Amusnet",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
+"27luckyfruitsxmasplaynet": {
+"name": "27 Lucky Fruits Xmas",
+"gp": "Playnet",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
+"3flamingjokers4theplayer": {
+"name": "3 Flaming Jokers",
+"gp": "4ThePlayer",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
+"3giftsofxmasinstantblitzgamingcorps": {
+"name": "3 Gifts of Xmas Instant Blitz",
+"gp": "Gaming Corps",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
 "3pigsofthanksgivinggamingcorps": {
 "name": "3 Pigs of Thanksgiving",
 "gp": "Gaming Corps",
@@ -26,6 +54,13 @@
 "release": "2026-11-18",
 "source": "SlotsLaunch 上線日曆",
 "seen": "2026-11-18"
+},
+"3whalesoffortune24karot": {
+"name": "3 Whales of Fortune",
+"gp": "24Karot",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
 },
 "40luckywildshotmysterypotamusnet": {
 "name": "40 Lucky Wilds Hot Mystery Pot",
@@ -41,6 +76,13 @@
 "source": "SlotsLaunch 上線日曆",
 "seen": "2026-11-20"
 },
+"5luckywildshotamusnet": {
+"name": "5 Lucky Wilds Hot",
+"gp": "Amusnet",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
 "888dragonsfortunespinningwhale": {
 "name": "888 Dragon's Fortune",
 "gp": "Spinning Whale",
@@ -48,40 +90,54 @@
 "source": "SlotsLaunch 上線日曆",
 "seen": "2026-11-18"
 },
+"90srewindholdandwinfelixgaming": {
+"name": "90s Rewind Hold and WIn",
+"gp": "Felix Gaming",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
+"ammitunderworldwishbone": {
+"name": "Ammit Underworld",
+"gp": "Wishbone",
+"release": "2026-11-25",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
 "arcaderaiderbullsharkgames": {
 "name": "Arcade Raider",
 "gp": "Bullshark Games",
 "release": "2026-11-20",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "aztecalegacypgsoft": {
 "name": "Azteca Legacy",
 "gp": "PG Soft",
 "release": "2026-10-26",
 "source": "PG Soft 官網新作",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "balloonrushurgentgames": {
 "name": "Balloon Rush",
 "gp": "Urgent Games",
 "release": "2026-11-23",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "bellysmackdowngoldengainsplayngo": {
 "name": "Belly Smackdown Golden Gains",
 "gp": "Play'n GO",
 "release": "2026-12-10",
 "source": "Play'n GO",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "bigmoneypiggyholdhit3x3spinomenal": {
 "name": "Big Money Piggy - Hold & Hit 3x3",
 "gp": "Spinomenal",
 "release": "2026-11-23",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "blackfridaymadnessbgaming": {
 "name": "Black Friday Madness",
@@ -97,6 +153,13 @@
 "source": "SlotsLaunch 上線日曆",
 "seen": "2026-11-18"
 },
+"bonanzamoregoldbigtimegaming": {
+"name": "Bonanza More Gold",
+"gp": "Big Time Gaming",
+"release": "2026-11-25",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
 "booksbullsflaminglinkgamomat": {
 "name": "Books & Bulls Flaming Link",
 "gp": "Gamomat",
@@ -111,12 +174,33 @@
 "source": "SlotsLaunch 上線日曆",
 "seen": "2026-11-18"
 },
+"chicaosortudosuperpotamusnet": {
+"name": "Chicao Sortudo Super Pot",
+"gp": "Amusnet",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
+"christmasavalanchefbm": {
+"name": "Christmas Avalanche",
+"gp": "FBM",
+"release": "2026-11-25",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
 "christmasgoldheistplayngo": {
 "name": "Christmas Gold Heist",
 "gp": "Play'n GO",
 "release": "2026-11-24",
-"source": "Play'n GO",
-"seen": "2026-11-20"
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
+"cleopatrasfirepopiplay": {
+"name": "Cleopatra's Fire",
+"gp": "Popiplay",
+"release": "2026-11-25",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
 },
 "cowboybountrynitrogames": {
 "name": "Cowboy Bountry",
@@ -130,21 +214,35 @@
 "gp": "Play'n GO",
 "release": "2026-12-03",
 "source": "Play'n GO",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "croakroyalehappyduck": {
 "name": "Croak Royale",
 "gp": "Happy Duck",
 "release": "2026-11-20",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
+},
+"crococloverhacksawgaming": {
+"name": "Croco Clover",
+"gp": "Hacksaw Gaming",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
+"dazzlefiredicetiptop": {
+"name": "Dazzle Firedice",
+"gp": "Tiptop",
+"release": "2026-11-25",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
 },
 "diamondchristmasrushexpressareavegas": {
 "name": "Diamond Christmas Rush Express",
 "gp": "AreaVegas",
 "release": "2026-11-23",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "doublemummysjewels1000pragmaticplay": {
 "name": "Double Mummy's Jewels 1000",
@@ -195,6 +293,13 @@
 "source": "SlotsLaunch 上線日曆",
 "seen": "2026-11-20"
 },
+"elfcoinhuntevoplay": {
+"name": "Elf Coin Hunt",
+"gp": "Evoplay",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
 "elffrenzymaxxilabs": {
 "name": "Elf Frenzy",
 "gp": "Maxxi Labs",
@@ -207,7 +312,7 @@
 "gp": "BGaming",
 "release": "2026-11-23",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "elsantostruelabs": {
 "name": "El Santos",
@@ -221,7 +326,14 @@
 "gp": "PG Soft",
 "release": "2026-11-10",
 "source": "PG Soft 官網新作",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
+},
+"fireblazebluewizardchristmasplaytech": {
+"name": "Fire Blaze: Blue Wizard Christmas",
+"gp": "Playtech",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
 },
 "fireinthehole4nolimitcity": {
 "name": "Fire in the Hole 4",
@@ -265,12 +377,26 @@
 "source": "SlotsLaunch 上線日曆",
 "seen": "2026-11-20"
 },
+"goldenbeanstreasureonlyplay": {
+"name": "Golden Beans Treasure",
+"gp": "Onlyplay",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
 "goldenjokercoinsbooongo": {
 "name": "Golden Joker Coins",
 "gp": "Booongo",
 "release": "2026-11-19",
 "source": "SlotsLaunch 上線日曆",
 "seen": "2026-11-20"
+},
+"grizzlychaseqoragames": {
+"name": "Grizzly Chase",
+"gp": "Qora Games",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
 },
 "hammerofasgardfbm": {
 "name": "Hammer of Asgard",
@@ -293,12 +419,19 @@
 "source": "SlotsLaunch 上線日曆",
 "seen": "2026-11-20"
 },
+"holdmychickenmancalagaming": {
+"name": "Hold my Chicken!",
+"gp": "Mancala Gaming",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
 "holidaypartyrabbitgaming": {
 "name": "Holiday Party",
 "gp": "Rabbit Gaming",
 "release": "2026-11-23",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "holla3hollegames": {
 "name": "Holla 3",
@@ -328,33 +461,68 @@
 "source": "SlotsLaunch 上線日曆",
 "seen": "2026-11-18"
 },
+"kartrushmicrogaming": {
+"name": "Kart Rush",
+"gp": "Microgaming",
+"release": "2026-11-25",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
 "kenopragmaticplay": {
 "name": "Keno+",
 "gp": "Pragmatic Play",
 "release": "2026-11-23",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "legendofthepixiuflipnwinigt": {
 "name": "Legend of the Pixiu Flip n Win",
 "gp": "IGT",
 "release": "2026-11-24",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
+},
+"legendofzeusamusnet": {
+"name": "Legend of Zeus",
+"gp": "Amusnet",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
+"littleredswrathneotopiagaming": {
+"name": "Little Red's Wrath",
+"gp": "Neotopia Gaming",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
 },
 "locoelpacodynabitgaming": {
 "name": "Loco El Paco",
 "gp": "Dynabit Gaming",
 "release": "2026-11-23",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
+},
+"lootislandbfgames": {
+"name": "Loot Island",
+"gp": "BF Games",
+"release": "2026-11-25",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
 },
 "luckydiamondomniplay": {
 "name": "Lucky Diamond",
 "gp": "OMNIPLAY（尊博）",
 "release": "2026-11-12",
 "source": "OMNIPLAY（尊博）官網新作",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
+},
+"luckyjaguarultimatetadagaming": {
+"name": "Lucky Jaguar Ultimate",
+"gp": "TaDa Gaming",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
 },
 "magnetmaniadicebfgames": {
 "name": "Magnet Mania Dice",
@@ -376,6 +544,13 @@
 "release": "2026-11-18",
 "source": "SlotsLaunch 上線日曆",
 "seen": "2026-11-18"
+},
+"merrymischiefbuyfeaturekagaming": {
+"name": "Merry Mischief Buy Feature",
+"gp": "KA Gaming",
+"release": "2026-11-25",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
 },
 "mightyhuntsmanredtigergaming": {
 "name": "Mighty Huntsman",
@@ -417,7 +592,7 @@
 "gp": "Betora Games",
 "release": "2026-11-23",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "oinktriplefortunephantom": {
 "name": "Oink Triple Fortune",
@@ -444,8 +619,8 @@
 "name": "Phoenix Frenzy Triple Win",
 "gp": "Play'n GO",
 "release": "2026-11-19",
-"source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"source": "Play'n GO",
+"seen": "2026-11-21"
 },
 "piggybankplunder1000holdandwinkalambagames": {
 "name": "Piggy Bank Plunder 1000 Hold and Win",
@@ -459,7 +634,7 @@
 "gp": "Play'n GO",
 "release": "2026-12-17",
 "source": "Play'n GO",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "pineapplespecial7sqoragames": {
 "name": "Pineapple Special 7s",
@@ -468,6 +643,13 @@
 "source": "SlotsLaunch 上線日曆",
 "seen": "2026-11-18"
 },
+"prairierumbleabracadabra": {
+"name": "Prairie Rumble",
+"gp": "AbraCadabra",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
 "queengemsonlyplay": {
 "name": "Queen Gems",
 "gp": "Onlyplay",
@@ -475,12 +657,40 @@
 "source": "SlotsLaunch 上線日曆",
 "seen": "2026-11-20"
 },
+"questofthe3lampsgoldenfeatherstudios": {
+"name": "Quest of the 3 Lamps",
+"gp": "Golden Feather Studios",
+"release": "2026-11-25",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
+"rageofthordreamspin": {
+"name": "Rage of Thor",
+"gp": "DreamSpin",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
 "ragnarwhaleyoriginal": {
 "name": "Ragnar Whale",
 "gp": "YOriginal",
 "release": "2026-11-20",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
+},
+"raptor3doublemaxyggdrasilgaming": {
+"name": "Raptor 3 Doublemax",
+"gp": "Yggdrasil Gaming",
+"release": "2026-11-25",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
+"respinhotclassicseriesnetgame": {
+"name": "Respin Hot: Classic Series",
+"gp": "NetGame",
+"release": "2026-11-25",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
 },
 "richonthebeachyoriginal": {
 "name": "Rich on the Beach",
@@ -508,7 +718,14 @@
 "gp": "Play'n GO",
 "release": "2026-12-15",
 "source": "Play'n GO",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
+},
+"rumblerichessantassleighofgoldgreentube": {
+"name": "Rumble Riches - Santa's Sleigh of Gold",
+"gp": "Greentube",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
 },
 "runebeastsdeeptrenchesjinxgaming": {
 "name": "Rune Beasts Deep Trenches",
@@ -529,14 +746,14 @@
 "gp": "Habanero",
 "release": "2026-11-23",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "santaswilddroparcanepixel": {
 "name": "Santa's Wild Drop",
 "gp": "Arcane Pixel",
 "release": "2026-11-23",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "santasworkshopmilliongames": {
 "name": "Santa's Workshop",
@@ -557,14 +774,14 @@
 "gp": "OMNIPLAY（尊博）",
 "release": "2026-11-12",
 "source": "OMNIPLAY（尊博）官網新作",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "shellfortuneredstone": {
 "name": "Shell Fortune",
 "gp": "REDSTONE",
 "release": "2026-11-23",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "shieldsoffuryindigomagic": {
 "name": "Shields of Fury",
@@ -579,6 +796,20 @@
 "release": "2026-11-19",
 "source": "SlotsLaunch 上線日曆",
 "seen": "2026-11-20"
+},
+"skullbayrichesarrr": {
+"name": "Skull Bay Riches",
+"gp": "Arrr!",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
+"smoremallowswildsurgepearfiction": {
+"name": "Smore Mallows Wild Surge",
+"gp": "PearFiction",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
 },
 "spinfluencertriavgaming": {
 "name": "Spinfluencer",
@@ -620,14 +851,21 @@
 "gp": "5G Games",
 "release": "2026-11-11",
 "source": "5G Games 官網新作",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "teenpattiurgentgames": {
 "name": "Teen Patti",
 "gp": "Urgent Games",
 "release": "2026-11-23",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
+},
+"templeofvenusfbm": {
+"name": "Temple of Venus",
+"gp": "FBM",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
 },
 "thegreatestheistevoplay": {
 "name": "The Greatest Heist",
@@ -641,14 +879,14 @@
 "gp": "Play'n GO",
 "release": "2026-11-26",
 "source": "Play'n GO",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "thejokeresshohohoplaytech": {
 "name": "The Jokeress Ho Ho Ho",
 "gp": "Playtech",
 "release": "2026-11-24",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "thekingofsocialmediaholidaybetsoft": {
 "name": "The King of Social Media Holiday",
@@ -669,7 +907,7 @@
 "gp": "Playtech",
 "release": "2026-11-24",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "tikiprincessmegawayssynotgames": {
 "name": "Tiki Princess Megaways",
@@ -711,7 +949,7 @@
 "gp": "AGT Software",
 "release": "2026-11-23",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "vicerunyoriginal": {
 "name": "Vice Run",
@@ -739,7 +977,28 @@
 "gp": "AvatarUX",
 "release": "2026-11-20",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
+},
+"wheelofpowerbgaming": {
+"name": "Wheel of Power",
+"gp": "BGaming",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
+"wildcashgoldbgaming": {
+"name": "Wild Cash Gold",
+"gp": "BGaming",
+"release": "2026-11-25",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
+},
+"wildhotchilipeppersdegenstudios": {
+"name": "Wild Hot Chili Peppers",
+"gp": "Degen Studios",
+"release": "2026-11-25",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
 },
 "wildmoosebonanzaxmasskywind": {
 "name": "Wild Moose Bonanza Xmas",
@@ -753,7 +1012,14 @@
 "gp": "Novomatic",
 "release": "2026-11-20",
 "source": "SlotsLaunch 上線日曆",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
+},
+"winterhotsevensevoplay": {
+"name": "Winter Hot Sevens",
+"gp": "Evoplay",
+"release": "2026-11-24",
+"source": "SlotsLaunch 上線日曆",
+"seen": "2026-11-21"
 },
 "wrappinchristmasgoldplayngo": {
 "name": "Wrappin' Christmas Gold",
@@ -781,14 +1047,14 @@
 "gp": "5G Games",
 "release": "2026-10-28",
 "source": "5G Games 官網新作",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "zeus2500omniplay": {
 "name": "Zeus 2500",
 "gp": "OMNIPLAY（尊博）",
 "release": "2026-10-29",
 "source": "OMNIPLAY（尊博）官網新作",
-"seen": "2026-11-20"
+"seen": "2026-11-21"
 },
 "zeusvshadespoppragmaticplay": {
 "name": "Zeus vs Hades POP",

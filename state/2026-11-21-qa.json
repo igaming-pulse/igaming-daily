@@ -1,0 +1,29 @@
+{
+ "date": "2026-11-21",
+ "md": "state/2026-11-21-igaming-report.md",
+ "html": "reports/2026-11-21.html",
+ "items": 14,
+ "counts": {
+  "cat1": 5,
+  "cat2": 3,
+  "cat3": 3,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 35,
+  "ok": 33,
+  "broken": 0,
+  "blocked": 1,
+  "images_dropped": 1,
+  "images": 13
+ },
+ "errors": [],
+ "warnings": [
+  "cat5-02 德國第三季持牌博彩投注額年增 16% 至 37.｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/latest-news/2026/11/20/218400/germany-q3-2026-gambling-stakes-ggl/",
+  "cat5-03 伊利諾州 10 月 Slot 機台投注額 31.｜各來源都找不到可用的配圖"
+ ],
+ "fixes": [
+  "cat5-03 伊利諾州 10 月 Slot 機台投注額 31.｜配圖打不開（error:TimeoutError ），已自動拿掉：https://www.gamingintelligence.com/wp-content/uploads/2021/05/Casino-slot.jpg",
+  "文末｜資料來源數 25 → 21（程式依來源連結去重計算）"
+ ]
+}

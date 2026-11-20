@@ -1,0 +1,688 @@
+{
+ "date": "2026-11-21",
+ "sections": [
+  {
+   "cat": "cat1",
+   "heading": "🎰 Game Provider 新遊戲",
+   "items": [
+    {
+     "no": 1,
+     "label": "",
+     "title": "Trigger Tree – PopOK Gaming",
+     "body": [
+      "PopOK Gaming 推出 3×3 小盤面 Slot《Trigger Tree》，場景是一棵掛滿金幣的金樹。盤面旁設有獨立的倍數軸（Multiplier Reel），軸上出現 Power Up 符號時會啟動「倍數抓取」，把抓到的倍數全部加總後套用到整次中獎；另有 Super Wild、可隨機觸發的 Tree Gift（更多高分符號、符號強制、倍數升級、幸運重轉、價值交換），以及會升級倍數組的 Ultra Bet 與四級神秘彩金（Mini／Minor／Major／Mega）。官方稿列出最高倍率 50,000x、RTP 96.17%。對 PM 的意義：這是「3×3＋倍數軸」這個菲律賓高佔比玩法的新變體，差異出現在 Base Game 的倍數抓取，而不是只在免費遊戲，適合拿來對照現有 Fortune Gems 系產品的倍數軸設計。"
+     ],
+     "derive": "全新 IP；在 3×3＋倍數軸骨架上加入 Power Up 倍數抓取與 Tree Gift 隨機加成。",
+     "spec": [
+      [
+       "廠牌",
+       "PopOK Gaming"
+      ],
+      [
+       "核心機制",
+       "Fortune Gems 系（代數未確認）"
+      ],
+      [
+       "微創新",
+       "倍數軸 Power Up 抓取並加總倍數，另有隨機加成"
+      ],
+      [
+       "遊戲類型",
+       "線上電子老虎機"
+      ],
+      [
+       "盤面",
+       "3×3"
+      ],
+      [
+       "消除/賠付",
+       "傳統連線＋倍數軸加總（連線數未公布）"
+      ],
+      [
+       "最高倍率",
+       "50,000x"
+      ],
+      [
+       "RTP",
+       "96.17%"
+      ],
+      [
+       "波動",
+       "未公布"
+      ],
+      [
+       "目標市場",
+       "沒有"
+      ],
+      [
+       "關鍵特色",
+       "Multiplier Reel、Power Up 倍數抓取、Super Wild、Tree Gift、Ultra Bet、四級彩金"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "官方稿未列波動與連線數，已查 Focus Gaming News、EEGaming 全文與網搜，仍無；核心機制為依盤面與倍數軸對照原型，代數無來源。",
+     "sources": [
+      [
+       "Focus Gaming News",
+       "https://focusgn.com/popok-gaming-trigger-tree-slot"
+      ],
+      [
+       "EEGaming",
+       "https://eegaming.org/latest-news/2026/11/20/53797/popok-gaming-launches-trigger-tree-slot-with-multipliers-up-to-x50-000/"
+      ]
+     ],
+     "date": "2026-11-20",
+     "image": "https://focusgn.com/wp-content/uploads/2026/11/PopOK-Gaming-Trigger-Tree-1200x630.jpg",
+     "image_raw": "https://focusgn.com/wp-content/uploads/2026/11/PopOK-Gaming-Trigger-Tree-1200x630.jpg",
+     "tier": 1
+    },
+    {
+     "no": 2,
+     "label": "",
+     "title": "Joker Ace – PopOK Gaming",
+     "body": [
+      "PopOK Gaming 以撲克牌與中世紀奇幻小丑為題材推出《Joker Ace》。核心是 Golden Cards：只會落在第 2、3、4 軸，先當百搭參與連線，中獎後被消除並轉成 Wild；Wild 分兩種，Big Wild 可把第 2～5 軸上 1 到 4 個符號變成 Big Wild，Little Wild 只轉換對應的那個金色符號，兩種都能替代 Scatter 以外的所有符號。另有 Buy Bonus 可直接買免費遊戲。對 PM 的意義：金框（Golden）變 Wild 是菲律賓 Super Ace 類產品的核心元素，這款把「變 Wild」拆成大小兩種，屬於 Base Game 內的規則變化，可作為金框玩法的對照樣本。"
+     ],
+     "derive": "全新 IP；沿用金色符號中獎後變 Wild 的骨架，新增 Big／Little Wild 兩種轉換範圍。",
+     "spec": [
+      [
+       "廠牌",
+       "PopOK Gaming"
+      ],
+      [
+       "核心機制",
+       "Super Ace 系（代數未確認）"
+      ],
+      [
+       "微創新",
+       "金牌中獎後變 Wild，分大範圍與只轉本符號兩種"
+      ],
+      [
+       "遊戲類型",
+       "線上電子老虎機"
+      ],
+      [
+       "盤面",
+       "未公布（Golden Cards 落在第 2～4 軸，Wild 影響第 2～5 軸）"
+      ],
+      [
+       "消除/賠付",
+       "未公布（中獎後金牌消除並轉 Wild）"
+      ],
+      [
+       "最高倍率",
+       "未公布"
+      ],
+      [
+       "RTP",
+       "未公布"
+      ],
+      [
+       "波動",
+       "未公布"
+      ],
+      [
+       "目標市場",
+       "沒有"
+      ],
+      [
+       "關鍵特色",
+       "Golden Cards、Big／Little Wild、Buy Bonus、免費遊戲"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "盤面、倍率、RTP、波動官方稿未列，已查 Focus Gaming News、EEGaming 全文與網搜，仍無。",
+     "sources": [
+      [
+       "Focus Gaming News",
+       "https://focusgn.com/popok-gaming-joker-ace-slot"
+      ],
+      [
+       "EEGaming",
+       "https://eegaming.org/latest-news/2026/11/20/53793/popok-gaming-releases-new-slot-title-joker-ace/"
+      ]
+     ],
+     "date": "2026-11-20",
+     "image": "https://focusgn.com/wp-content/uploads/2026/11/PopOK-Gaming-Joker-Ace-1200x630.jpg",
+     "image_raw": "https://focusgn.com/wp-content/uploads/2026/11/PopOK-Gaming-Joker-Ace-1200x630.jpg",
+     "tier": 1
+    },
+    {
+     "no": 3,
+     "label": "📋 本週補遺（11/16 發布）",
+     "title": "THE ARISTOCRATS – Betsoft",
+     "body": [
+      "週六檢查點比對 EEGaming《Weekend Reels》週 47 時，本週已收清單未出現這款 Betsoft 新作。5 軸 3 列，盤面上方設三個 Coin Pot（COLLECT、MULTI、DOUBLE），各自收集對應的 Coin Pot Bonus 符號後會隨機觸發 Hold & Win：COLLECT 加入收集符號、MULTI 撒下 2x～5x 隨機倍數、DOUBLE 複製整個盤面，三個可同時觸發；Hold & Win 給 3 次重轉，新符號鎖定後重置為 3 次，15 格全滿贏得 Grand 彩金。最高 10,000x，並提供兩種 Buy Bonus。對 PM 的意義：Hold & Win 的觸發從「抓到足夠 Scatter」改成 Base Game 內的收集進度，且三種強化可疊加，是金幣收集類產品可參考的觸發設計。"
+     ],
+     "derive": "全新 IP；以三個 Coin Pot 的收集進度取代單一觸發，Hold & Win 前就可疊加三種強化。",
+     "spec": [
+      [
+       "廠牌",
+       "Betsoft"
+      ],
+      [
+       "核心機制",
+       "-"
+      ],
+      [
+       "微創新",
+       "Base Game 收集 Coin Pot，隨機觸發三種強化"
+      ],
+      [
+       "遊戲類型",
+       "線上電子老虎機"
+      ],
+      [
+       "盤面",
+       "5×3"
+      ],
+      [
+       "消除/賠付",
+       "Hold & Win（3 次重轉）、Coin Pot 收集"
+      ],
+      [
+       "最高倍率",
+       "10,000x"
+      ],
+      [
+       "RTP",
+       "未公布"
+      ],
+      [
+       "波動",
+       "未公布"
+      ],
+      [
+       "目標市場",
+       "沒有"
+      ],
+      [
+       "關鍵特色",
+       "三個 Coin Pot（COLLECT／MULTI／DOUBLE）、Hold & Win、Grand 彩金、兩種 Buy Bonus"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "RTP、波動官方稿未列，已查 EEGaming 全文與網搜，仍無；單一來源，敘述保守。",
+     "sources": [
+      [
+       "EEGaming",
+       "https://eegaming.org/latest-news/2026/11/16/53666/betsoft-releases-its-latest-video-slot-the-aristocrats/"
+      ]
+     ],
+     "date": "2026-11-16",
+     "image": "https://eegaming.org/api/eeg-media/1bf6767f-7e59-4c67-b8c4-1d71414d8e71.jpg",
+     "image_raw": "https://eegaming.org/api/eeg-media/1bf6767f-7e59-4c67-b8c4-1d71414d8e71.jpg",
+     "tier": 2
+    }
+   ],
+   "brief": [
+    {
+     "no": 101,
+     "label": "",
+     "title": "Queen Gems – ONLYPLAY",
+     "body": [],
+     "derive": "",
+     "spec": [],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "",
+     "sources": [
+      [
+       "Focus Gaming News",
+       "https://focusgn.com/onlyplay-queen-gems-slot"
+      ]
+     ],
+     "date": "2026-11-20",
+     "image": "https://focusgn.com/wp-content/uploads/2026/11/19.11.2026_1200x800-1200x630.jpg",
+     "image_raw": "https://focusgn.com/wp-content/uploads/2026/11/19.11.2026_1200x800-1200x630.jpg",
+     "mech": "-",
+     "reason": "沿用 3×3、5 線的經典玩法，只有 Royal Scatter 觸發的倍數開獎 Bonus，Base Game 無新玩法",
+     "params": [
+      [
+       "盤面",
+       "3×3"
+      ],
+      [
+       "最高倍率",
+       "1,057x（含 Bonus 最高 999x）"
+      ],
+      [
+       "RTP",
+       "95.50%"
+      ]
+     ],
+     "summary": "皇室寶石題材 3×3 Slot，3 個 Royal Scatter 開出 5x～999x 倍數，可 75 倍買入。",
+     "brief": true
+    },
+    {
+     "no": 102,
+     "label": "",
+     "title": "Hu Bao Bei – AGS",
+     "body": [],
+     "derive": "",
+     "spec": [],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "",
+     "sources": [
+      [
+       "Indian Gaming",
+       "https://www.indiangaming.com/ags-debuts-hu-bao-bei-slot-at-potawatomi-casino-hotel/"
+      ],
+      [
+       "EEGaming",
+       "https://eegaming.org/latest-news/2026/11/20/53798/ags-and-potawatomi-casino-hotel-premiere-hu-bao-bei-slot-family-on-gl-ur43/"
+      ]
+     ],
+     "date": "2026-11-20",
+     "image": "https://www.indiangaming.com/wp-content/uploads/2026/11/AGS_Hu-Bao-Bei-Slot-Launch-e1795158778310.jpg",
+     "image_raw": "https://www.indiangaming.com/wp-content/uploads/2026/11/AGS_Hu-Bao-Bei-Slot-Launch-e1795158778310.jpg",
+     "mech": "-",
+     "reason": "實體機新機台，官方稱延伸自自家 Fortune Frenzy 系列的三罐 Frenzy 機制，盤面與倍率未公布",
+     "params": [
+      [
+       "盤面",
+       "未公布"
+      ],
+      [
+       "最高倍率",
+       "未公布"
+      ],
+      [
+       "RTP",
+       "未公布"
+      ]
+     ],
+     "summary": "AGS 在 Potawatomi 賭場首發 Glō UR43 新機台，Hu Bao Bei 系列含 Tiger Riches 與 Tiger Bloom 兩個主題。",
+     "brief": true
+    }
+   ],
+   "brief_heading": "換皮／資料不足（精簡卡片）",
+   "count": 5
+  },
+  {
+   "cat": "cat2",
+   "heading": "🕹️ 非 Slot 新內容",
+   "items": [
+    {
+     "no": 1,
+     "label": "",
+     "title": "Drone Strike – VeliPlay",
+     "body": [
+      "VeliGames 集團旗下的 Crash／即時遊戲商 VeliPlay 推出無人機題材的 Crash 新作《Drone Strike》。每回合無人機從 5,000x 起跳，倍數向 1x 遞減，玩家扮演拿加農砲的公雞，自己選時機開火，開火當下倍數鎖定；每一槍是獨立注單，沒打中不影響下一槍。風險採滑動式：倍數越高、命中率越低。另有自動開火區間設定，RTP 97%，背景每回合隨機更換。對 PM 的意義：把一般 Crash 的「何時兌現」改成「倍數遞減下射擊」，且可連續多次下注，是 Crash 類型裡玩法差異較清楚的一款。"
+     ],
+     "derive": "",
+     "spec": [
+      [
+       "遊戲類型",
+       "小遊戲（Crash／倍數遞減射擊）"
+      ],
+      [
+       "最高倍率",
+       "5,000x"
+      ],
+      [
+       "RTP",
+       "97%"
+      ],
+      [
+       "目標市場",
+       "沒有"
+      ],
+      [
+       "關鍵特色",
+       "倍數遞減、每槍獨立下注、滑動風險、自動開火區間"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "",
+     "sources": [
+      [
+       "EEGaming",
+       "https://eegaming.org/latest-news/2026/11/20/53799/veliplay-launches-drone-strike-crash-game-with-5-000x-top-multiplier/"
+      ],
+      [
+       "G3 Newswire",
+       "https://g3newswire.com/veliplay-takes-aim-and-fires-with-drone-strike/"
+      ]
+     ],
+     "date": "2026-11-20",
+     "image": "https://g3newswire.com/wp-content/uploads/2026/11/DroneStrike.jpg",
+     "image_raw": "https://g3newswire.com/wp-content/uploads/2026/11/DroneStrike.jpg"
+    },
+    {
+     "no": 2,
+     "label": "",
+     "title": "Crapless Craps 電子桌遊 – Interblock",
+     "body": [
+      "美國華盛頓州 Snoqualmie Casino & Hotel 與 Interblock 合作，在賭場樓面安裝州內第一台有真人荷官的 Crapless Craps 電子桌遊（Electronic Table Game，ETG）。8 個座位，使用實體骰子加觸控螢幕下注，最高單注 500 美元，與現有骰桌一致，最低注可能更低；目前仍在安裝中。賭場方稱 ETG 是繼桌遊、Slot 之後的第三類樓面產品。對 PM 的意義：「真人荷官＋電子下注」讓桌遊用較低門檻與較少人力放進 Slot 為主的樓面，可觀察亞洲實體賭場是否跟進。"
+     ],
+     "derive": "",
+     "spec": [
+      [
+       "遊戲類型",
+       "實體電子桌遊（Crapless Craps，真人荷官＋實體骰子＋觸控下注）"
+      ],
+      [
+       "目標市場",
+       "美國（華盛頓州）"
+      ],
+      [
+       "關鍵特色",
+       "8 座位、最高單注 500 美元、真人荷官、觸控螢幕下注"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "",
+     "sources": [
+      [
+       "EEGaming",
+       "https://eegaming.org/latest-news/2026/11/20/53790/snoqualmie-casino-hotel-partners-with-interblock-to-bring-washington-state-s-first-dealer-assisted-c/"
+      ]
+     ],
+     "date": "2026-11-20",
+     "image": "https://eegaming.org/api/eeg-media/2e58d31b-b631-4993-ae2e-9c0b7eff665e.jpg",
+     "image_raw": "https://eegaming.org/api/eeg-media/2e58d31b-b631-4993-ae2e-9c0b7eff665e.jpg"
+    },
+    {
+     "no": 3,
+     "label": "",
+     "title": "Eeze 檢討 SiGMA World 羅馬：Fusion Roulette、Eeze Slots 與綠幕技術 – EEZE",
+     "body": [
+      "Eeze（Live 賭場聚合與內容商）資深客戶經理 Orlagh Codd 檢討羅馬 SiGMA World 的參展成果：展位主推三項產品，Fusion Roulette（未來感、倍數賠付、可高度客製）、Eeze Slots（大型彩金、多款遊戲、客製主題與多語支援）與 Chroma Key（綠幕）技術。她表示展會最常談到的是玩家保護、歐洲監理分歧與聯合打擊非法博彩，並說明年底前的海外擴張重點。對 PM 的意義：Eeze 把 Live 輪盤、Slot 與綠幕客製打包成一套給營運商，可作為評估「Live 內容＋客製化」供應商的參考。"
+     ],
+     "derive": "",
+     "spec": [
+      [
+       "遊戲類型",
+       "Live Game（EEZE 平台／聚合）"
+      ],
+      [
+       "目標市場",
+       "歐洲（以展會與國際擴張為主）"
+      ],
+      [
+       "關鍵特色",
+       "Fusion Roulette、Eeze Slots、Chroma Key 綠幕客製"
+      ]
+     ],
+     "keyrow": [],
+     "keyrow_raw": "",
+     "verify": "",
+     "sources": [
+      [
+       "SoloAzar",
+       "https://www.soloazar.com/es/categoria/eventos/eeze-destaca-el-networking-y-la-personalizacion-luego-de-sigma-world"
+      ]
+     ],
+     "date": "2026-11-20",
+     "image": "https://cdn.soloazar.com/storage/images/65412_crop916010_1600px_BCvaI3Qq9OavlecbUxmjMdWF9OS8Tc0LnB3.jpg",
+     "image_raw": "https://cdn.soloazar.com/storage/images/65412_crop916010_1600px_BCvaI3Qq9OavlecbUxmjMdWF9OS8Tc0LnB3.jpg"
+    }
+   ],
+   "brief": [],
+   "count": 3
+  },
+  {
+   "cat": "cat3",
+   "heading": "🤝 動態：主流 GP／平台",
+   "items": [
+    {
+     "no": 1,
+     "label": "",
+     "title": "Amusnet Spain 經 CasinoBarcelona.es 上架首批 32 款",
+     "body": [
+      "Amusnet 的西班牙分公司與在地受監理營運商 CasinoBarcelona.es 合作，首批上架 32 款表現最好的遊戲，包括 20 Golden Coins、Shining Crown、Secrets of Cairo、Coin Gobbler 與 Hot Deco Super Pot，並同步提供四級彩金功能 Jackpot Cards。這是 Amusnet 繼 11/15 的 Eldoradocasino.es 之後，在西班牙再增加的第二個通路。對 PM 的意義：Amusnet 以「既有熱門遊戲＋共用彩金功能」的方式複製到單一市場的多個營運商，是通路擴張的低成本模式。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "合作"
+      ],
+      [
+       "對象",
+       "Amusnet、CasinoBarcelona.es"
+      ],
+      [
+       "影響",
+       "Amusnet 在西班牙受監理市場的在地通路再增一個"
+      ]
+     ],
+     "keyrow_raw": "類型 合作 ｜ 對象 Amusnet、CasinoBarcelona.es ｜ 影響 Amusnet 在西班牙受監理市場的在地通路再增一個",
+     "verify": "同事件另有 G3 Newswire 報導（庫存首見 11/19）。",
+     "sources": [
+      [
+       "Sector del Juego",
+       "https://sectordeljuego.com/2026/11/20/amusnet-spain-amplia-su-alcance-en-espana-mediante-una-alianza-con-casinobarcelona-es/"
+      ],
+      [
+       "G3 Newswire",
+       "https://g3newswire.com/amusnet-spain-expands-its-market-reach-through-partnership-with-casino-barcelona/"
+      ]
+     ],
+     "date": "2026-11-20",
+     "image": "https://sectordeljuego.com/wp-content/uploads/2026/11/1200x628-002.png",
+     "image_raw": "https://sectordeljuego.com/wp-content/uploads/2026/11/1200x628-002.png"
+    },
+    {
+     "no": 2,
+     "label": "",
+     "title": "Bally's Intralot 前九個月營收 8.303 億歐元，英國線上連三季創高",
+     "body": [
+      "Bally's Intralot 公布前九個月營收 8.303 億歐元、調整後 EBITDA 2.736 億歐元（利潤率 33.0%）；因 2025 年 10 月併入 Bally's International Interactive（BII），不能和去年同期的 2.639 億歐元直接比較。英國線上第三季營收以固定匯率計年增 12.2%，淨博彩收入連續第三季創單季新高；西班牙線上季營收年增 18.9% 到 1,330 萬歐元。英國遠端博彩稅自 4 月 1 日由 21% 升到 40%，前九個月對 BII 調整後 EBITDA 的總衝擊約 6,800 萬歐元，約近半被抵銷。B2B 營收年減 7.7%，美國減 11.0%（固定匯率）。與 evoke 的合併預計 2027 年 1 月完成。對 PM 的意義：稅率翻倍下英國線上仍成長，說明成熟市場靠行銷效率與成本控管吸收稅負，但 B2B 內容端在美國出現衰退。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "財務"
+      ],
+      [
+       "對象",
+       "Bally's Intralot、Bally's International Interactive、evoke"
+      ],
+      [
+       "影響",
+       "英國稅率翻倍後線上仍創高，但 B2B 美國端下滑"
+      ]
+     ],
+     "keyrow_raw": "類型 財務 ｜ 對象 Bally's Intralot、Bally's International Interactive、evoke ｜ 影響 英國稅率翻倍後線上仍創高，但 B2B 美國端下滑",
+     "verify": "",
+     "sources": [
+      [
+       "iGaming Business",
+       "https://igamingbusiness.com/finance/ballys-intralot-reports-830m-revenue-uk-growth-gambling-duty/"
+      ],
+      [
+       "G3 Newswire",
+       "https://g3newswire.com/ballys-intralot-secures-record-highs-in-the-uk-and-spain/"
+      ]
+     ],
+     "date": "2026-11-20",
+     "image": "https://g3newswire.com/wp-content/uploads/2026/03/BallysNewcastle.jpg",
+     "image_raw": "https://g3newswire.com/wp-content/uploads/2026/03/BallysNewcastle.jpg"
+    },
+    {
+     "no": 3,
+     "label": "",
+     "title": "Aviatrix 經 Betmaster.pe 首次進入秘魯受監理市場",
+     "body": [
+      "Crash 遊戲 Aviatrix 與秘魯新受監理品牌 Betmaster.pe 合作上線，這是 Aviatrix 首次進入秘魯。Betmaster.pe 由平台商 Torrero 與營運商 Betmaster 合作打造，Torrero 的 Chief Gaming Officer 稱 Aviatrix 適合秘魯玩家；Aviatrix 說拉丁美洲是重點市場，當地團隊已支援夥伴超過三年。對 PM 的意義：Crash 單品牌靠進入各國新受監理品牌擴張，秘魯與其他拉美市場是同一波規則開放下的搶位。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "市場進入"
+      ],
+      [
+       "對象",
+       "Aviatrix、Betmaster.pe、Torrero"
+      ],
+      [
+       "影響",
+       "Crash 品牌繼續沿拉美新開放市場複製通路"
+      ]
+     ],
+     "keyrow_raw": "類型 市場進入 ｜ 對象 Aviatrix、Betmaster.pe、Torrero ｜ 影響 Crash 品牌繼續沿拉美新開放市場複製通路",
+     "verify": "",
+     "sources": [
+      [
+       "Casino International",
+       "https://casinointernational-online.com/aviatrix-goes-live-with-betmaster-in-peru/"
+      ]
+     ],
+     "date": "2026-11-20",
+     "image": "https://casinointernational-online.com/wp-content/uploads/Betmaster-1-1024x595.png",
+     "image_raw": "https://casinointernational-online.com/wp-content/uploads/Betmaster-1-1024x595.png"
+    }
+   ],
+   "brief": [],
+   "count": 3
+  },
+  {
+   "cat": "cat5",
+   "heading": "📊 市場數據 & 趨勢",
+   "items": [
+    {
+     "no": 1,
+     "label": "",
+     "title": "G2E 2026 Slot 展品：寬螢幕機台與熱門作續集，部分只在實體、部分會上線",
+     "body": [
+      "Casino International 整理 2026 年 10 月拉斯維加斯 G2E 展出的 Slot 產品，指出今年展品在聲光與視覺設計上明顯加碼，包括寬螢幕機台與熱門作的續作；其中 IGT 的 Queen Video Slots 以搖滾樂團 Queen 為題材，文章也提醒並非每款新機台都會上線，部分只放實體賭場、部分之後才進線上平台。對 PM 的意義：展會新機台是線上新作的前哨，可用來預判哪些 IP 與玩法會在數個月後進入線上目錄。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "趨勢"
+      ],
+      [
+       "對象",
+       "IGT、G2E 2026"
+      ],
+      [
+       "影響",
+       "實體展品分流，部分之後才會成為線上新作"
+      ]
+     ],
+     "keyrow_raw": "類型 趨勢 ｜ 對象 IGT、G2E 2026 ｜ 影響 實體展品分流，部分之後才會成為線上新作",
+     "verify": "本文為單一來源，僅確認文中提到的 IGT Queen Video Slots，其他展品細節未逐一查證。",
+     "sources": [
+      [
+       "Casino International",
+       "https://casinointernational-online.com/examining-the-slot-products-unveiled-at-octobers-global-gaming-expo-2026/"
+      ]
+     ],
+     "date": "2026-11-20",
+     "image": "https://casinointernational-online.com/wp-content/uploads/Screenshot-2026-11-20-at-16.07.44.png",
+     "image_raw": "https://casinointernational-online.com/wp-content/uploads/Screenshot-2026-11-20-at-16.07.44.png"
+    },
+    {
+     "no": 2,
+     "label": "",
+     "title": "德國第三季持牌博彩投注額年增 16% 至 37.4 億歐元，虛擬 Slot 占約 38.6%",
+     "body": [
+      "德國博彩監管局（Gemeinsame Glücksspielbehörde der Länder，GGL）的數據顯示，第三季持牌博彩總投注額約 37.38 億歐元、年增 16%，其中虛擬 Slot 投注額 14.42 億歐元，是最大品類。European Gaming 標題稱虛擬 Slot 年增 28.6%；casinos.com 另列 Q2 Slot 投注額為 12.14 億歐元，兩個數字口徑不同，本稿以 GGL 表中的絕對金額為準。德國 7 月 1 日起把每轉 1 歐元的固定上限改為依年齡與賭博紀錄分級，可能是 Slot 成長的原因之一。對 PM 的意義：德國規則放寬後 Slot 投注明顯回升，是歐洲市場少見的上行訊號，但這是投注額不是收入。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "市場數據"
+      ],
+      [
+       "對象",
+       "GGL、德國線上 Slot"
+      ],
+      [
+       "影響",
+       "單注上限改制後虛擬 Slot 成為德國持牌市場最大品類"
+      ]
+     ],
+     "keyrow_raw": "類型 市場數據 ｜ 對象 GGL、德國線上 Slot ｜ 影響 單注上限改制後虛擬 Slot 成為德國持牌市場最大品類",
+     "verify": "「年增 28.6%」只見於 European Gaming 標題（頁面被擋，未讀內文），casinos.com 的 Q2 數字換算為季增約 19%，兩者不一致；規則改制為搜尋結果摘要，未見原文。",
+     "sources": [
+      [
+       "European Gaming",
+       "https://europeangaming.eu/portal/latest-news/2026/11/20/218400/germany-q3-2026-gambling-stakes-ggl/"
+      ],
+      [
+       "casinos.com",
+       "https://www.casinos.com/news/germany-s-licensed-gambling-stakes-rise-16-to-3-74-billion-in-third-quarter"
+      ]
+     ],
+     "date": "2026-11-20",
+     "image": "https://www.casinos.com/cdn-cgi/image/f=webp,q=86,fit=contain,g=auto,w=1000,h=300/https://objects.kaxmedia.com/genesis/cc-article-image-main-73893-germany-s-licensed-gambling-stakes-rise-16-to-3-74-billion-i.jpg?v=b4a14a1b08fe53869895616585a2badfa8d7145a",
+     "image_raw": "https://www.casinos.com/cdn-cgi/image/f=webp,q=86,fit=contain,g=auto,w=1000,h=300/https://objects.kaxmedia.com/genesis/cc-article-image-main-73893-germany-s-licensed-gambling-stakes-rise-16-to-3-74-billion-i.jpg?v=b4a14a1b08fe53869895616585a2badfa8d7145a"
+    },
+    {
+     "no": 3,
+     "label": "",
+     "title": "伊利諾州 10 月 Slot 機台投注額 31.9 億美元，年增 6%，五個月來最高",
+     "body": [
+      "伊利諾州博彩機台 10 月投注額年增 6% 到 31.9 億美元，為五個月來最高的單月總額。完整內文為付費牆內容，僅能確認標題與摘要的數字。對 PM 的意義：美國實體機台市場仍在成長，與歐洲、菲律賓線上的消長形成對照。"
+     ],
+     "derive": "",
+     "spec": [],
+     "keyrow": [
+      [
+       "類型",
+       "市場數據"
+      ],
+      [
+       "對象",
+       "伊利諾州博彩機台"
+      ],
+      [
+       "影響",
+       "美國實體機台投注額連升，單月創五個月新高"
+      ]
+     ],
+     "keyrow_raw": "類型 市場數據 ｜ 對象 伊利諾州博彩機台 ｜ 影響 美國實體機台投注額連升，單月創五個月新高",
+     "verify": "來源為付費牆，僅確認摘要數字，單一來源。",
+     "sources": [
+      [
+       "Gaming Intelligence",
+       "https://www.gamingintelligence.com/finance/238885-illinois-gaming-machine-wagers-nears-3-2-billion-in-october/"
+      ]
+     ],
+     "date": "2026-11-20",
+     "image": "https://www.gamingintelligence.com/wp-content/uploads/2021/05/Casino-slot.jpg",
+     "image_raw": "https://www.gamingintelligence.com/wp-content/uploads/2021/05/Casino-slot.jpg",
+     "image_dropped": true
+    }
+   ],
+   "brief": [],
+   "count": 3
+  }
+ ],
+ "stats": {
+  "n1": 40,
+  "n2": 21
+ },
+ "internal": "## 🗓️ 來源日期紀錄（內部，不渲染）\n\n剔除：GameZone 代言人 Gloc-9 說明接下代言的考量（唯一來源 LionhearTV 連結 404、查無其他轉載，且發布時間 11/20 01:44 在窗外）；剔除：BingoPlus 進駐 LaVie 賓果廳（PeopleAsia 11/20，與 11/14 已收為同一事件、無新進展）；剔除：Christmas Gold Heist（Play'n GO，庫存補位不適用：今天窗內新作已 ≥3 款，依規則不補庫存）；剔除：The Green Knight Camelot Gold（Play'n GO，上線日 11/26，無窗內有日期的主來源，同昨日判斷）；剔除：Xmas Guardians Megaways（Pragmatic Play，上線日 11/26，只有 iGamingToday 10/30 評測，同昨日判斷）；剔除：Volcanic Loot（AvatarUX，列表連結實為 Triple Gobble Wobble 稿、查不到該款內文與主來源）；剔除：Deluxe Cats Plus（1spin4win，B1、第三級預判且名額已滿）；剔除：4 Express Trains: Extra Chance（ENJOY Gaming）、20 Golden Bass（Amusnet）進庫存。\n\n- Trigger Tree：Focus Gaming News 2026-11-20 10:14 -03:00（metadata）＝台北 11/20 21:14；EEGaming 2026-11-20 09:13 UTC\n- Joker Ace：Focus Gaming News 2026-11-20 08:26 -03:00（metadata）；EEGaming RSS 11/20 15:51 台北\n- THE ARISTOCRATS：EEGaming 2026-11-16 07:00 UTC（metadata）；Slot 庫存保鮮 7 天內，週六檢查點補遺\n- Queen Gems：Focus Gaming News 2026-11-20 08:27 -03:00（metadata）\n- Hu Bao Bei：Indian Gaming 2026-11-20 10:57 UTC；EEGaming 2026-11-20 09:38 UTC（metadata）\n- Drone Strike：EEGaming 2026-11-20 09:48 UTC；G3 Newswire 2026-11-20 11:59 UTC（metadata）\n- Interblock：EEGaming 2026-11-20 06:59 UTC（metadata）\n- EEZE：SoloAzar 2026-11-20 12:00 UTC（metadata）\n- Amusnet：Sector del Juego 2026-11-20 07:08 UTC（metadata）\n- Bally's Intralot：iGaming Business 2026-11-20 10:00 UTC；G3 Newswire 2026-11-20 09:54 UTC（metadata）\n- Aviatrix：Casino International 2026-11-20 09:58 UTC（metadata）\n- G2E：Casino International 2026-11-20 16:08 UTC（metadata）\n- 德國：European Gaming RSS 2026-11-20 21:41 台北（頁面 403，採 harvest 精確時間）；casinos.com 2026-11-17（佐證，比窗舊）\n- 伊利諾：Gaming Intelligence 2026-11-20 14:55 UTC（metadata）",
+ "header_counts": "🎰 Slot 3 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 📊 市場數據 3",
+ "edition": "",
+ "summary": {
+  "slot": "Trigger Tree – PopOK Gaming",
+  "trend": "沒有"
+ },
+ "firecrawl": {
+  "used": 5,
+  "remaining": 941,
+  "reset": "2026-12-14",
+  "reset_source": "api"
+ }
+}
