@@ -1,36 +1,34 @@
-🎰 iGaming 市場日報 2026-11-21（週六）
-🎰 Slot 3 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 0 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-11-22（週日）
+🎰 Slot 3 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 2 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 2
 
 ⭐ 今日重點
-・Trigger Tree／PopOK Gaming：3×3＋倍數軸，Power Up 符號抓取並加總倍數
-・Joker Ace／PopOK Gaming：金牌中獎變 Wild，分 Big／Little 兩種範圍
-・德國 Q3 持牌投注額 37.4 億歐元年增 16%，虛擬 Slot 為最大品類
+・Huff N' Puff High Rise（Light & Wonder）：3 列起跳、Hard Hat 逐步開列，ways 由 243 擴到 7,776
+・菲律賓：GameZone 代言人 Gloc-9 談接下代言的考量，帶出負責任博彩訊息
+・德國 Q3 虛擬 Slot 投注額年增 28.6%，為 1 歐元上限放寬後首季
 
 🎰 Slot 新遊戲
-01 [N+1] Trigger Tree – PopOK Gaming
-02 [N+1] Joker Ace – PopOK Gaming
-03 [原創] 📋 THE ARISTOCRATS – Betsoft
-・換皮／資料不足：Queen Gems（ONLYPLAY）、Hu Bao Bei（AGS）
+01 [原創] 📦 Huff N' Puff High Rise – Light & Wonder
+02 [原創] 🆕 The Green Knight Camelot Gold – Play'n GO（11/26 上線）
+・換皮／資料不足：Christmas Gold Heist（Play'n GO，11/24 上線）
 
 🕹️ 非 Slot 新內容
-01 Drone Strike – VeliPlay
-02 Crapless Craps 電子桌遊 – Interblock
-03 Eeze 檢討 SiGMA World 羅馬 – EEZE
+01 📦 愛爾蘭向歐盟通報線上博彩規則，納入 Crash 與 Plinko
 
-🤝 主流 GP／平台
-01 Amusnet Spain 經 CasinoBarcelona.es 上架首批 32 款
-02 Bally's Intralot 前九個月營收 8.303 億歐元，英國線上連三季創高
-03 Aviatrix 經 Betmaster.pe 首次進入秘魯
+🤝 動態：主流 GP／平台
+01 英國政府否決全面禁止博彩廣告，但保留擴大線上行銷介入權
+02 Unibet 等 FDJ United 七個品牌遭網路攻擊暫停服務
+
+🇵🇭 動態：菲律賓 GP／平台
+01 📦 GameZone 代言人 Gloc-9 說明接下代言的考量
 
 📊 市場數據 & 趨勢
-01 G2E 2026 Slot 展品：寬螢幕機台與熱門作續集
-02 德國第三季持牌博彩投注額年增 16% 至 37.4 億歐元
-03 伊利諾州 10 月 Slot 機台投注額 31.9 億美元，年增 6%
+01 德國第三季虛擬 Slot 投注額年增 28.6%
+02 澳門 10 月訪客 382 萬人次，年增 10.1%
 
 📝 品質備註（本次爬找判斷）
-1. 🇵🇭 菲律賓區今天 0 則：窗內只有已收過的 Evolution×Casino Plus 與 11/14 已收的 BingoPlus LaVie 重複報導，另有 Gloc-9 代言稿連結 404；已用 WebSearch 查 DigiPlus、PlayTime、PAGCOR 等仍無窗內新聞。
-2. Slot 完整卡片 3 款（週六上限）：BigWinBoard 本窗解析失敗、JILI 官網抓取失敗；週六檢查點補遺 1 款（Betsoft THE ARISTOCRATS）。德國 Q3「Slot 年增 28.6%」與另一來源數字口徑不一，日報內已註明。
+1. 週日窗內沒有 Slot 新作發布，BigWinBoard 與 JILI 官網本次抓取失敗，Slot 三款皆為庫存／預告補位；Xmas Guardians Megaways 因單一來源且已超過 7 天保鮮而剔除。
+2. 菲律賓區窗內候選多與 11/19–11/20 已收事件重複（Evolution×Casino Plus、BingoPlus 補償、DFNN），只收 1 則庫存補位；今日無 EEZE 消息。
 
 ⚙️ 系統警報
-1. 🟠 Firecrawl 剩 941 點，照每天約 80 點會在 12/2 用完，撐不到 12/14 重置（還差約 899 點）
-2. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（36 天）、GiocoNews（22 天）、nQube Data Science（4 天）、JILI 官網新作（3 天）；請檢查網址或改抓取方式
+1. 🟠 Firecrawl 剩 926 點，照每天約 49 點會在 12/10 用完，撐不到 12/14 重置（還差約 152 點）
+2. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（37 天）、GiocoNews（23 天）、JILI 官網新作（4 天）；請檢查網址或改抓取方式

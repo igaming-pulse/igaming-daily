@@ -1,0 +1,55 @@
+{
+ "date": "2026-11-22",
+ "alerts": [
+  "🟠 Firecrawl 剩 926 點，照每天約 49 點會在 12/10 用完，撐不到 12/14 重置（還差約 152 點）",
+  "🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（37 天）、GiocoNews（23 天）、JILI 官網新作（4 天）；請檢查網址或改抓取方式"
+ ],
+ "info": {
+  "credits": {
+   "remaining": 926,
+   "plan": 1000,
+   "period_end": "2026-12-14",
+   "today_use": 5,
+   "daily_use": 49,
+   "daily_basis": "近 7 天實際",
+   "days_to_reset": 22,
+   "need_until_reset": 1078
+  },
+  "tier": {
+   "tier": "🟢 充裕",
+   "budget": 41,
+   "remaining": 931,
+   "period_end": "2026-12-14",
+   "days_to_reset": 22,
+   "reserve": 20,
+   "note": "全開",
+   "lists_spent": 5,
+   "article_limit": 22,
+   "image_extra": 12
+  },
+  "sources": {
+   "total": 111,
+   "failed_today": [
+    "GiocoNews",
+    "BigWinBoard 新作列表",
+    "JILI 官網新作"
+   ],
+   "streak_3d": [
+    "BigWinBoard 新作列表",
+    "GiocoNews",
+    "JILI 官網新作"
+   ]
+  },
+  "candidates": {
+   "today": 47,
+   "median_same_type": 57,
+   "basis_days": 5,
+   "type": "週末窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 2,
+   "fixes": 1
+  }
+ }
+}

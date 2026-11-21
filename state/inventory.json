@@ -2,23 +2,6 @@
  "slots": [
   {
    "cat": "cat1",
-   "title": "The Green Knight Camelot Gold",
-   "gp": "Play'n GO",
-   "first_seen": "2026-09-25",
-   "b": 4,
-   "sources": [
-    {
-     "name": "iGamingToday",
-     "url": "https://www.igamingtoday.com/the-green-knight-camelot-gold-slot-review/",
-     "published": "2026-09-25"
-    }
-   ],
-   "release_date": "2026-11-26",
-   "note": "提前評測",
-   "key": "thegreenknightcamelotgold|playngo"
-  },
-  {
-   "cat": "cat1",
    "title": "Rex's 5 Pot Steakhouse",
    "gp": "Play'n GO",
    "b": 4,
@@ -67,27 +50,6 @@
   },
   {
    "cat": "cat1",
-   "title": "Christmas Gold Heist",
-   "gp": "Play'n GO",
-   "b": 4,
-   "first_seen": "2026-11-19",
-   "release_date": "2026-11-24",
-   "sources": [
-    {
-     "name": "Times of Casino",
-     "url": "https://www.timesofcasino.com/playn-go-christmas-gold-heist-slot-release-date/",
-     "published": "2026-11-19 19:48"
-    },
-    {
-     "name": "Play'n GO",
-     "url": "https://www.playngo.com/games/christmas-gold-heist",
-     "published": "2026-11-24"
-    }
-   ],
-   "key": "christmasgoldheist|playngo"
-  },
-  {
-   "cat": "cat1",
    "title": "4 Express Trains: Extra Chance",
    "gp": "ENJOY Gaming",
    "b": 1,
@@ -118,33 +80,6 @@
   }
  ],
  "others": [
-  {
-   "cat": "cat5",
-   "title": "UK Gambling Commission：11–17 歲自掏腰包賭博比例降至 26%",
-   "sources": [
-    {
-     "name": "Yogonet",
-     "url": "https://www.yogonet.com/international/news/2026/11/17/127323-uk-gambling-commission-reports-drop-in-youth-gambling-participation-to-26-in-2026",
-     "published": "2026-11-17 21:32"
-    }
-   ],
-   "first_seen": "2026-11-18",
-   "key": "ukgamblingcommission1117歲自掏腰包賭博比例降至26|"
-  },
-  {
-   "cat": "cat3",
-   "title": "Hacksaw Gaming 經 EveryMatrix 上線瑞典 ATG",
-   "gp": "Hacksaw Gaming",
-   "sources": [
-    {
-     "name": "Hacksaw Gaming",
-     "url": "https://www.hacksawgaming.com/news/hacksaw-gaming-goes-live-with-atg-in-sweden",
-     "published": "2026-11-16 00:00"
-    }
-   ],
-   "first_seen": "2026-11-18",
-   "key": "hacksawgaming經everymatrix上線瑞典atg|hacksawgaming"
-  },
   {
    "cat": "cat3",
    "title": "Amazon 將預測市場納入英國賭博廣告限制，僅限晚 9 點至早 6 點",
@@ -188,20 +123,6 @@
    "key": "amusnet經casinobarcelona在西班牙上架首批32款|"
   },
   {
-   "cat": "cat4",
-   "title": "GameZone 代言人 Gloc-9 說明接下代言的考量",
-   "b": 6,
-   "first_seen": "2026-11-19",
-   "sources": [
-    {
-     "name": "LionhearTV",
-     "url": "https://www.lionheartv.net/2026/11/gloc-9-gamezone/",
-     "published": "2026-11-20 01:44"
-    }
-   ],
-   "key": "gamezone代言人gloc9說明接下代言的考量|"
-  },
-  {
    "cat": "cat5",
    "title": "阿根廷 10 月 iGaming 稅收年增 47%，但 75% 市場仍屬非法",
    "b": 1,
@@ -214,20 +135,6 @@
     }
    ],
    "key": "阿根廷10月igaming稅收年增47但75市場仍屬非法|"
-  },
-  {
-   "cat": "cat2",
-   "title": "愛爾蘭向歐盟通報線上博彩規則，納入 Crash 與 Plinko",
-   "b": 1,
-   "first_seen": "2026-11-21",
-   "sources": [
-    {
-     "name": "AGIMEG",
-     "url": "https://www.agimeg.it/irlanda-regolamento-commissione-ue-giochi-crash-games-plinko-grai/",
-     "published": "2026-11-20 16:19"
-    }
-   ],
-   "key": "愛爾蘭向歐盟通報線上博彩規則納入crash與plinko|"
   },
   {
    "cat": "cat3",
@@ -256,135 +163,51 @@
     }
    ],
    "key": "南韓警方網路賭博大掃蕩逮捕6310人凍結116億美元|"
+  },
+  {
+   "cat": "cat3",
+   "title": "GiG 任命前 Playtech 財務長 Andrew Smith",
+   "b": 1,
+   "first_seen": "2026-11-22",
+   "sources": [
+    {
+     "name": "Online Gambling Quarterly",
+     "url": "https://www.ogqnews.com/gig-appoints-former-playtech-cfo-andrew-smith/",
+     "published": "2026-11-21 06:40"
+    }
+   ],
+   "key": "gig任命前playtech財務長andrewsmith|"
+  },
+  {
+   "cat": "cat4",
+   "title": "Evolution 與 Casino Plus 擴大菲律賓在地化直播遊戲（GMA 報導）",
+   "b": 6,
+   "first_seen": "2026-11-22",
+   "sources": [
+    {
+     "name": "GMA News",
+     "url": "https://www.gmanetwork.com/news/money/companies/1010329/evolution-casino-plus-expanding-localized-live-gaming-offerings-in-ph/story/",
+     "published": "2026-11-21 18:57"
+    }
+   ],
+   "key": "evolution與casinoplus擴大菲律賓在地化直播遊戲gma報導|"
+  },
+  {
+   "cat": "cat5",
+   "title": "歐盟 iGaming 週報：Bill 55 維持、立陶宛擬課 36% 稅",
+   "b": 1,
+   "first_seen": "2026-11-22",
+   "sources": [
+    {
+     "name": "European Gaming",
+     "url": "https://europeangaming.eu/portal/latest-news/2026/11/21/218448/eu-igaming-weekly-bill-55-lithuania-tax-banijay/",
+     "published": "2026-11-21 15:00"
+    }
+   ],
+   "key": "歐盟igaming週報bill55維持立陶宛擬課36稅|"
   }
  ],
  "history": [
-  {
-   "key": "luckytiger2|tadagaming",
-   "date": "2026-10-22",
-   "cat": "cat1",
-   "title": "Lucky Tiger 2",
-   "gp": "TaDa Gaming"
-  },
-  {
-   "key": "manananggal1000|tadagaming",
-   "date": "2026-10-22",
-   "cat": "cat1",
-   "title": "Manananggal 1000",
-   "gp": "TaDa Gaming"
-  },
-  {
-   "key": "wrappinmoregold|playngo",
-   "date": "2026-10-22",
-   "cat": "cat1",
-   "title": "Wrappin' More Gold",
-   "gp": "Play'n GO"
-  },
-  {
-   "key": "barbarossabeyondtheedge|petersons",
-   "date": "2026-10-22",
-   "cat": "cat1",
-   "title": "Barbarossa: Beyond the Edge",
-   "gp": "Peter & Sons"
-  },
-  {
-   "key": "troutstreasurehalloween|spinomenal",
-   "date": "2026-10-22",
-   "cat": "cat1",
-   "title": "Trout's Treasure – Halloween",
-   "gp": "Spinomenal"
-  },
-  {
-   "key": "houseofthedragon|blueprintgaming",
-   "date": "2026-10-22",
-   "cat": "cat1",
-   "title": "House of the Dragon",
-   "gp": "Blueprint Gaming"
-  },
-  {
-   "key": "stitchersgetstitches|stakelogic",
-   "date": "2026-10-22",
-   "cat": "cat1",
-   "title": "Stitchers Get Stitches",
-   "gp": "Stakelogic"
-  },
-  {
-   "key": "betgames與sts延長波蘭撲克與livestudio獨家至2028|",
-   "date": "2026-10-22",
-   "cat": "cat2",
-   "title": "BetGames 與 STS 延長波蘭撲克與 Live Studio 獨家至 2028",
-   "gp": ""
-  },
-  {
-   "key": "imaginelive經microgame進入義大利|",
-   "date": "2026-10-22",
-   "cat": "cat2",
-   "title": "Imagine Live 經 Microgame 進入義大利",
-   "gp": ""
-  },
-  {
-   "key": "firekeepersmspt撲克錦標賽獎池237萬美元|",
-   "date": "2026-10-22",
-   "cat": "cat2",
-   "title": "FireKeepers MSPT 撲克錦標賽獎池 237 萬美元",
-   "gp": ""
-  },
-  {
-   "key": "stake推出themerabmethod內容企劃綁定ufc333|",
-   "date": "2026-10-22",
-   "cat": "cat3",
-   "title": "Stake 推出 The Merab Method 內容企劃綁定 UFC 333",
-   "gp": ""
-  },
-  {
-   "key": "egtdigital首度在西班牙部署xnave支援eldorado|",
-   "date": "2026-10-22",
-   "cat": "cat3",
-   "title": "EGT Digital 首度在西班牙部署 X-Nave 支援 El Dorado",
-   "gp": ""
-  },
-  {
-   "key": "codereonline墨西哥首發ggames99royale|",
-   "date": "2026-10-22",
-   "cat": "cat3",
-   "title": "Codere Online 墨西哥首發 G Games 99 Royale",
-   "gp": ""
-  },
-  {
-   "key": "bingoplus贊助filipinomusicawards2026|",
-   "date": "2026-10-22",
-   "cat": "cat4",
-   "title": "BingoPlus 贊助 Filipino Music Awards 2026",
-   "gp": ""
-  },
-  {
-   "key": "digiplus科技優先成長策略insiderph|",
-   "date": "2026-10-22",
-   "cat": "cat4",
-   "title": "DigiPlus 科技優先成長策略（InsiderPH）",
-   "gp": ""
-  },
-  {
-   "key": "blask萬聖節slot四項發現|",
-   "date": "2026-10-22",
-   "cat": "cat5",
-   "title": "Blask：萬聖節 Slot 四項發現",
-   "gp": ""
-  },
-  {
-   "key": "blaskblackjack占西班牙搜尋38|",
-   "date": "2026-10-22",
-   "cat": "cat5",
-   "title": "Blask：Blackjack 占西班牙搜尋 38%",
-   "gp": ""
-  },
-  {
-   "key": "英國mgd傳聞升至25|",
-   "date": "2026-10-22",
-   "cat": "cat5",
-   "title": "英國 MGD 傳聞升至 25%",
-   "gp": ""
-  },
   {
    "key": "devilfiretwins|tadagaming",
    "date": "2026-10-23",
@@ -3862,6 +3685,69 @@
    "date": "2026-11-21",
    "cat": "cat5",
    "title": "伊利諾州 10 月 Slot 機台投注額 31.9 億美元",
+   "gp": ""
+  },
+  {
+   "key": "huffnpuffhighrise|lightwonder",
+   "date": "2026-11-22",
+   "cat": "cat1",
+   "title": "Huff N' Puff High Rise",
+   "gp": "Light & Wonder"
+  },
+  {
+   "key": "thegreenknightcamelotgold|playngo",
+   "date": "2026-11-22",
+   "cat": "cat1",
+   "title": "The Green Knight Camelot Gold",
+   "gp": "Play'n GO"
+  },
+  {
+   "key": "christmasgoldheist|playngo",
+   "date": "2026-11-22",
+   "cat": "cat1",
+   "title": "Christmas Gold Heist",
+   "gp": "Play'n GO"
+  },
+  {
+   "key": "愛爾蘭向歐盟通報線上博彩規則納入crash與plinko|",
+   "date": "2026-11-22",
+   "cat": "cat2",
+   "title": "愛爾蘭向歐盟通報線上博彩規則，納入 Crash 與 Plinko",
+   "gp": ""
+  },
+  {
+   "key": "英國政府否決全面禁止博彩廣告但保留擴大線上行銷介入權|",
+   "date": "2026-11-22",
+   "cat": "cat3",
+   "title": "英國政府否決全面禁止博彩廣告，但保留擴大線上行銷介入權",
+   "gp": ""
+  },
+  {
+   "key": "unibet等fdjunited七個品牌遭網路攻擊暫停服務|",
+   "date": "2026-11-22",
+   "cat": "cat3",
+   "title": "Unibet 等 FDJ United 七個品牌遭網路攻擊暫停服務",
+   "gp": ""
+  },
+  {
+   "key": "gamezone代言人gloc9說明接下代言的考量|",
+   "date": "2026-11-22",
+   "cat": "cat4",
+   "title": "GameZone 代言人 Gloc-9 說明接下代言的考量",
+   "gp": ""
+  },
+  {
+   "key": "德國第三季虛擬slot投注額年增286|",
+   "date": "2026-11-22",
+   "cat": "cat5",
+   "title": "德國第三季虛擬 Slot 投注額年增 28.6%",
+   "gp": ""
+  },
+  {
+   "key": "澳門10月訪客382萬人次年增101|",
+   "date": "2026-11-22",
+   "cat": "cat5",
+   "title": "澳門 10 月訪客 382 萬人次，年增 10.1%",
    "gp": ""
   }
  ],

@@ -1,0 +1,29 @@
+{
+ "date": "2026-11-22",
+ "md": "state/2026-11-22-igaming-report.md",
+ "html": "reports/2026-11-22.html",
+ "items": 9,
+ "counts": {
+  "cat1": 3,
+  "cat2": 1,
+  "cat3": 2,
+  "cat4": 1,
+  "cat5": 2
+ },
+ "links": {
+  "checked": 25,
+  "ok": 25,
+  "broken": 0,
+  "blocked": 0,
+  "images_dropped": 0,
+  "images": 9
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-01 Huff N' Puff High Rise –｜微創新 31 字，應為 10～30 字（只寫 Base Game 相對原型的那一個差異點）",
+  "cat1-02 The Green Knight Camelot｜微創新 34 字，應為 10～30 字（只寫 Base Game 相對原型的那一個差異點）"
+ ],
+ "fixes": [
+  "文末｜資料來源數 14 → 16（程式依來源連結去重計算）"
+ ]
+}
