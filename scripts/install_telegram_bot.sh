@@ -10,7 +10,7 @@ TPL="$REPO/docs/launchd/com.igaming.telegram-bot.plist.example"
 DST="$HOME/Library/LaunchAgents/com.igaming.telegram-bot.plist"
 
 echo "== iGaming 日報 Telegram 機器人：本機常駐安裝 =="
-[ -f "$TPL" ] || { echo "✗ 找不到範本 $TPL（repo 不在 ~/igaming-daily？）"; exit 1; }
+[ -f "$TPL" ] || { echo "✗ 找不到範本 ${TPL}（repo 不在 ~/igaming-daily？）"; exit 1; }
 mkdir -p "$HOME/Library/LaunchAgents"
 
 printf "請貼上 Bot token（畫面不會顯示），貼完按 Enter： "

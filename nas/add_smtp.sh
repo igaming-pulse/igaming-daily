@@ -8,7 +8,7 @@
 # 變數一律寫成 ${VAR}：$VAR 後面緊接全形字（例如「（」）時，bash 會把它當成變數名稱的一部分而報錯。
 set -uo pipefail
 OUT="${1:-/Volumes/docker/igaming-daily/secrets.env}"
-[ -f "$OUT" ] || { echo "✗ 找不到 $OUT，先在 Finder 掛上 NAS 的 docker 資料夾"; exit 1; }
+[ -f "$OUT" ] || { echo "✗ 找不到 ${OUT}，先在 Finder 掛上 NAS 的 docker 資料夾"; exit 1; }
 
 OLD_USER=$(sed -n 's/^SMTP_USER=//p' "$OUT" | head -1)
 OLD_TO=$(sed -n 's/^MAIL_TO=//p' "$OUT" | head -1)

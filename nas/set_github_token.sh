@@ -8,7 +8,7 @@
 set -uo pipefail
 OUT="${1:-/Volumes/docker/igaming-daily/secrets.env}"
 REPO_API="https://api.github.com/repos/igaming-pulse/igaming-daily"
-[ -f "$OUT" ] || { echo "✗ 找不到 $OUT，先在 Finder 掛上 NAS 的 docker 資料夾"; exit 1; }
+[ -f "$OUT" ] || { echo "✗ 找不到 ${OUT}，先在 Finder 掛上 NAS 的 docker 資料夾"; exit 1; }
 
 echo "════════════════════════════════════════════════════"
 echo " 到 GitHub 剛產生 token 的頁面，按 token 旁邊的複製圖示（或選起來 ⌘C）"
