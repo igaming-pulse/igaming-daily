@@ -1,0 +1,6 @@
+🚨 iGaming 日報即時警報 2026-11-21 10:19（13' v）
+日報沒有產出
+
+耗時 17307 秒。可跟 Claude 說「補跑日報」，或看 state/run.log 最後一段。
+
+詳細紀錄：/Users/nathan.kao/igaming-daily/state/run.log
