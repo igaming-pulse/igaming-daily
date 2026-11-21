@@ -212,11 +212,25 @@ log "harvest…"
 python3 scripts/harvest.py >>"$LOG" 2>&1 && log "  ✓ harvest 完成：state/harvest/${DATE}.md" \
   || log "  ⚠️ harvest 失敗，Claude 會依 SKILL.md 自行補跑或退回舊流程"
 
-log "claude $CLAUDE_ARGS -p <docs/scheduled-prompt.txt>"
+# ── 用量保護（2026-11-21）──────────────────────────────────────
+# 11/19 Mac 備援的 Claude 卡了 29 小時、白燒額度 → 每次最多 60 分鐘、最多 120 輪。
+# 正常日報 5～10 分鐘、23～61 輪（11/11～11/21 NAS 實測），上限約留 2 倍以上餘裕。
+# 逾時：claude 放在自己的程序群組，時間到就 TERM（10 秒後 KILL）整個群組 —— 連它在背景開的收集等子程序一起停，
+#       否則子程序還握著輸出管線，tee 會一直等（exit 142）。正常結束後也清掉群組裡殘留的背景程序。
+# 超過輪數：claude 自己停、印「Reached max turns」（exit 1）。
+CLAUDE_TIMEOUT="${IGAMING_CLAUDE_TIMEOUT:-3600}"
+CLAUDE_MAX_TURNS="${IGAMING_CLAUDE_MAX_TURNS:-120}"
+log "claude $CLAUDE_ARGS --max-turns ${CLAUDE_MAX_TURNS} -p <docs/scheduled-prompt.txt>（最多 $(( CLAUDE_TIMEOUT / 60 )) 分鐘）"
 # 同時印到畫面與 log —— 手動跑時才看得到失敗原因（pipefail 讓 $? 仍是 claude 的退出碼）
 # shellcheck disable=SC2086
-claude $CLAUDE_ARGS -p "$(cat "$PROMPT_FILE")" 2>&1 | tee -a "$LOG"
+perl -e 'my $t = shift; my $pid = fork; die "fork: $!" unless defined $pid;
+  if ($pid == 0) { setpgrp(0, 0); exec @ARGV or die "exec: $!" }
+  local $SIG{ALRM} = sub { kill "TERM", -$pid; sleep 10; kill "KILL", -$pid; exit 142 };
+  alarm $t; waitpid($pid, 0); my $rc = $?; alarm 0; kill "TERM", -$pid;
+  exit($rc & 127 ? 128 + ($rc & 127) : $rc >> 8)' "$CLAUDE_TIMEOUT" \
+  claude $CLAUDE_ARGS --max-turns "$CLAUDE_MAX_TURNS" -p "$(cat "$PROMPT_FILE")" 2>&1 | tee -a "$LOG"
 CLAUDE_RC=$?
+[ "$CLAUDE_RC" -eq 142 ] && log "  ⏱️ Claude 超過 $(( CLAUDE_TIMEOUT / 60 )) 分鐘上限，已強制停止"
 
 ELAPSED=$(( $(date +%s) - START_EPOCH ))
 log "claude 結束（exit ${CLAUDE_RC}），耗時 ${ELAPSED} 秒"
@@ -291,9 +305,13 @@ log "❌❌❌ 本次執行失敗 —— 日報沒產出或沒發布 ❌❌❌"
 # 即時警報（2026-10-11）：判斷最可能的原因，馬上發 Telegram，不等早上的守門員
 TAIL=$(tail -60 "$LOG")
 case "$TAIL" in
+  *"分鐘上限，已強制停止"*)
+    WHY="日報超過 $(( CLAUDE_TIMEOUT / 60 )) 分鐘被強制停止"; HOWTO="正常 5～10 分鐘就跑完，可能卡在收集或重跑。看 state/run.log 最後一段；要補跑跟 Claude 說「補跑日報」。" ;;
+  *"Reached max turns"*)
+    WHY="日報超過 ${CLAUDE_MAX_TURNS} 輪上限被停止"; HOWTO="正常 23～61 輪，可能在迴圈裡重複做同一件事。看 state/run.log 最後一段；要補跑跟 Claude 說「補跑日報」。" ;;
   *"OAuth"*|*"authenticate"*|*"Login expired"*)
     WHY="Claude 登入過期"; HOWTO="請在終端機輸入 claude → /login 重新登入，再跟 Claude 說「補跑日報」。" ;;
-  *"usage limit"*|*"session limit"*|*"rate limit"*)
+  *"usage limit"*|*"session limit"*|*"rate limit"*|*"out of usage credits"*)
     WHY="Claude 用量額度用完"; HOWTO="等額度重置後再補跑；若 reports/ 已產出只差發布，可手動 commit／push。" ;;
   *)
     if [ "$fail" -eq 1 ] && [ ! -f "$REPORT" ]; then WHY="日報沒有產出"; else WHY="日報沒有發布（沒有新 commit）"; fi
