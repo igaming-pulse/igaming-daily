@@ -47,95 +47,9 @@
     }
    ],
    "key": "lesantaholdwin|hacksawgaming"
-  },
-  {
-   "cat": "cat1",
-   "title": "4 Express Trains: Extra Chance",
-   "gp": "ENJOY Gaming",
-   "b": 1,
-   "first_seen": "2026-11-21",
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/11/19/53760/enjoy-gaming-launches-4-express-trains-extra-chance-sequel/",
-     "published": "2026-11-19 00:00"
-    }
-   ],
-   "key": "4expresstrainsextrachance|enjoygaming"
-  },
-  {
-   "cat": "cat1",
-   "title": "20 Golden Bass",
-   "gp": "Amusnet",
-   "b": 1,
-   "first_seen": "2026-11-21",
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/11/19/53746/amusnet-releases-its-latest-video-slot-20-golden-bass/",
-     "published": "2026-11-19 00:00"
-    }
-   ],
-   "key": "20goldenbass|amusnet"
   }
  ],
  "others": [
-  {
-   "cat": "cat3",
-   "title": "Amazon 將預測市場納入英國賭博廣告限制，僅限晚 9 點至早 6 點",
-   "b": 1,
-   "first_seen": "2026-11-19",
-   "sources": [
-    {
-     "name": "Focus Gaming News",
-     "url": "https://focusgn.com/amazon-gambling-ad-rules-uk",
-     "published": "2026-11-19 00:16"
-    }
-   ],
-   "key": "amazon將預測市場納入英國賭博廣告限制僅限晚9點至早6點|"
-  },
-  {
-   "cat": "cat5",
-   "title": "越南擬調高本地人賭場入場費 150%，並取消財力證明",
-   "b": 1,
-   "first_seen": "2026-11-19",
-   "sources": [
-    {
-     "name": "GGRAsia",
-     "url": "https://www.ggrasia.com/vietnam-proposes-150pct-hike-in-locals-casino-daily-entry-fee",
-     "published": "2026-11-18 09:15"
-    }
-   ],
-   "key": "越南擬調高本地人賭場入場費150並取消財力證明|"
-  },
-  {
-   "cat": "cat3",
-   "title": "Amusnet 經 CasinoBarcelona 在西班牙上架首批 32 款",
-   "b": 1,
-   "first_seen": "2026-11-19",
-   "sources": [
-    {
-     "name": "G3 Newswire",
-     "url": "https://g3newswire.com/amusnet-spain-expands-its-market-reach-through-partnership-with-casino-barcelona/",
-     "published": "2026-11-19 19:47"
-    }
-   ],
-   "key": "amusnet經casinobarcelona在西班牙上架首批32款|"
-  },
-  {
-   "cat": "cat5",
-   "title": "阿根廷 10 月 iGaming 稅收年增 47%，但 75% 市場仍屬非法",
-   "b": 1,
-   "first_seen": "2026-11-19",
-   "sources": [
-    {
-     "name": "Yogonet",
-     "url": "https://www.yogonet.com/international/news/2026/11/19/127386-argentina-igaming-tax-revenue-rose-47-in-october-but-75-of-the-market-remains-illegal",
-     "published": "2026-11-20 01:18"
-    }
-   ],
-   "key": "阿根廷10月igaming稅收年增47但75市場仍屬非法|"
-  },
   {
    "cat": "cat3",
    "title": "英國政府否決全面禁止博彩廣告",
@@ -163,20 +77,6 @@
     }
    ],
    "key": "南韓警方網路賭博大掃蕩逮捕6310人凍結116億美元|"
-  },
-  {
-   "cat": "cat3",
-   "title": "GiG 任命前 Playtech 財務長 Andrew Smith",
-   "b": 1,
-   "first_seen": "2026-11-22",
-   "sources": [
-    {
-     "name": "Online Gambling Quarterly",
-     "url": "https://www.ogqnews.com/gig-appoints-former-playtech-cfo-andrew-smith/",
-     "published": "2026-11-21 06:40"
-    }
-   ],
-   "key": "gig任命前playtech財務長andrewsmith|"
   },
   {
    "cat": "cat4",
@@ -208,139 +108,6 @@
   }
  ],
  "history": [
-  {
-   "key": "devilfiretwins|tadagaming",
-   "date": "2026-10-23",
-   "cat": "cat1",
-   "title": "Devil Fire Twins",
-   "gp": "TaDa Gaming"
-  },
-  {
-   "key": "buffalosupereclipse|aristocrat",
-   "date": "2026-10-23",
-   "cat": "cat1",
-   "title": "Buffalo Super Eclipse",
-   "gp": "Aristocrat"
-  },
-  {
-   "key": "ratroyale|pragmaticplay",
-   "date": "2026-10-23",
-   "cat": "cat1",
-   "title": "Rat Royale",
-   "gp": "Pragmatic Play"
-  },
-  {
-   "key": "luckypotsx1000|playson",
-   "date": "2026-10-23",
-   "cat": "cat1",
-   "title": "Lucky Pots x1000",
-   "gp": "Playson"
-  },
-  {
-   "key": "soulfiesta|elagames",
-   "date": "2026-10-23",
-   "cat": "cat1",
-   "title": "Soul Fiesta",
-   "gp": "ELA Games"
-  },
-  {
-   "key": "fireandrosesjokerdiamonds|gamesglobal",
-   "date": "2026-10-23",
-   "cat": "cat1",
-   "title": "Fire and Roses Joker Diamonds",
-   "gp": "Games Global"
-  },
-  {
-   "key": "apollolegendsofolympus|inspiredentertainment",
-   "date": "2026-10-23",
-   "cat": "cat1",
-   "title": "Apollo Legends of Olympus",
-   "gp": "Inspired Entertainment"
-  },
-  {
-   "key": "iconic21推出live撲克gravitypoker|",
-   "date": "2026-10-23",
-   "cat": "cat2",
-   "title": "ICONIC21 推出 Live 撲克 Gravity Poker",
-   "gp": ""
-  },
-  {
-   "key": "creedroomz將在sigmaworld發表infernoroulette與twomoonbaccarat|",
-   "date": "2026-10-23",
-   "cat": "cat2",
-   "title": "CreedRoomz 將在 SiGMA World 發表 Inferno Roulette 與 Two Moon Baccarat",
-   "gp": ""
-  },
-  {
-   "key": "pokerstarsopendicampione2027年1月回歸|",
-   "date": "2026-10-23",
-   "cat": "cat2",
-   "title": "PokerStars Open di Campione 2027 年 1 月回歸",
-   "gp": ""
-  },
-  {
-   "key": "petersons經fonbet在希臘上線60款遊戲|",
-   "date": "2026-10-23",
-   "cat": "cat3",
-   "title": "Peter & Sons 經 Fonbet 在希臘上線 60 款遊戲",
-   "gp": ""
-  },
-  {
-   "key": "softswissgameaggregator十一週年遊戲庫突破5萬款|",
-   "date": "2026-10-23",
-   "cat": "cat3",
-   "title": "SOFTSWISS Game Aggregator 十一週年遊戲庫突破 5 萬款",
-   "gp": ""
-  },
-  {
-   "key": "lightwonderg2e2026展出cosmic20firebird與授權ip|",
-   "date": "2026-10-23",
-   "cat": "cat3",
-   "title": "Light & Wonder G2E 2026 展出 COSMIC 2.0、FIREBIRD 與授權 IP",
-   "gp": ""
-  },
-  {
-   "key": "nesthypetecio成為arenaplus代言人|",
-   "date": "2026-10-23",
-   "cat": "cat4",
-   "title": "Nesthy Petecio 成為 ArenaPlus 代言人",
-   "gp": ""
-  },
-  {
-   "key": "菲律賓外交部將檢討對中國旅客免簽政策|",
-   "date": "2026-10-23",
-   "cat": "cat4",
-   "title": "菲律賓外交部將檢討對中國旅客免簽政策",
-   "gp": ""
-  },
-  {
-   "key": "spiceinternational2026將於宿霧登場|",
-   "date": "2026-10-23",
-   "cat": "cat4",
-   "title": "SPiCE International 2026 將於宿霧登場",
-   "gp": ""
-  },
-  {
-   "key": "betsson第三季營收創單季新高ebitda年減23|",
-   "date": "2026-10-23",
-   "cat": "cat5",
-   "title": "Betsson 第三季營收創單季新高，EBITDA 年減 23%",
-   "gp": ""
-  },
-  {
-   "key": "巴西19月博彩稅收1112億雷亞爾年增55|",
-   "date": "2026-10-23",
-   "cat": "cat5",
-   "title": "巴西 1–9 月博彩稅收 111.2 億雷亞爾，年增 55%",
-   "gp": ""
-  },
-  {
-   "key": "美國8月商業博彩營收年減06運彩156|",
-   "date": "2026-10-23",
-   "cat": "cat5",
-   "title": "美國 8 月商業博彩營收年減 0.6%，運彩 -15.6%",
-   "gp": ""
-  },
   {
    "key": "thunderreckoning|pgsoft",
    "date": "2026-10-24",
@@ -3748,6 +3515,83 @@
    "date": "2026-11-22",
    "cat": "cat5",
    "title": "澳門 10 月訪客 382 萬人次，年增 10.1%",
+   "gp": ""
+  },
+  {
+   "key": "20goldenbass|amusnet",
+   "date": "2026-11-23",
+   "cat": "cat1",
+   "title": "20 Golden Bass",
+   "gp": "Amusnet"
+  },
+  {
+   "key": "4expresstrainsextrachance|enjoygaming",
+   "date": "2026-11-23",
+   "cat": "cat1",
+   "title": "4 Express Trains: Extra Chance",
+   "gp": "ENJOY Gaming"
+  },
+  {
+   "key": "bigmoneypiggyholdhit3x3|spinomenal",
+   "date": "2026-11-23",
+   "cat": "cat1",
+   "title": "Big Money Piggy - Hold & Hit 3x3",
+   "gp": "Spinomenal"
+  },
+  {
+   "key": "elfrogxmascruise|bgaming",
+   "date": "2026-11-23",
+   "cat": "cat1",
+   "title": "El Frog X-Mas Cruise",
+   "gp": "BGaming"
+  },
+  {
+   "key": "galaxygaming談golden4burstblackjack與ai真人荷官|",
+   "date": "2026-11-23",
+   "cat": "cat2",
+   "title": "Galaxy Gaming 談 Golden 4、Burst Blackjack 與 AI 真人荷官",
+   "gp": ""
+  },
+  {
+   "key": "mgm參訪南韓江原樂園研究2030年大阪賭場的成癮防治做法|",
+   "date": "2026-11-23",
+   "cat": "cat3",
+   "title": "MGM 參訪南韓江原樂園，研究 2030 年大阪賭場的成癮防治做法",
+   "gp": ""
+  },
+  {
+   "key": "gig任命前playtech財務長andrewsmith|",
+   "date": "2026-11-23",
+   "cat": "cat3",
+   "title": "GiG 任命前 Playtech 財務長 Andrew Smith",
+   "gp": ""
+  },
+  {
+   "key": "pagcor重啟36333億披索賭場民營化顧問標案|",
+   "date": "2026-11-23",
+   "cat": "cat4",
+   "title": "PAGCOR 重啟 3.6333 億披索賭場民營化顧問標案",
+   "gp": ""
+  },
+  {
+   "key": "巴西禁令後兩個月接獲逾6萬件非法投注宣傳通報非法站仿冒已退場品牌|",
+   "date": "2026-11-23",
+   "cat": "cat5",
+   "title": "巴西禁令後兩個月接獲逾 6 萬件非法投注宣傳通報，非法站仿冒已退場品牌",
+   "gp": ""
+  },
+  {
+   "key": "荷蘭監管機構續發jacksnl牌照到2031年|",
+   "date": "2026-11-23",
+   "cat": "cat5",
+   "title": "荷蘭監管機構續發 Jacks.nl 牌照到 2031 年",
+   "gp": ""
+  },
+  {
+   "key": "世界彩券協會再選andreasktter連任主席|",
+   "date": "2026-11-23",
+   "cat": "cat5",
+   "title": "世界彩券協會再選 Andreas Kötter 連任主席",
    "gp": ""
   }
  ],

@@ -1,34 +1,34 @@
-🎰 iGaming 市場日報 2026-11-22（週日）
-🎰 Slot 3 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 2 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 2
+🎰 iGaming 市場日報 2026-11-23（週一）
+🎰 Slot 4 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 2 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Huff N' Puff High Rise（Light & Wonder）：3 列起跳、Hard Hat 逐步開列，ways 由 243 擴到 7,776
-・菲律賓：GameZone 代言人 Gloc-9 談接下代言的考量，帶出負責任博彩訊息
-・德國 Q3 虛擬 Slot 投注額年增 28.6%，為 1 歐元上限放寬後首季
+・Amusnet《20 Golden Bass》：Base Game 隨機金魚變 Wild 並收值（原創機制）
+・PAGCOR 賭場民營化顧問標案因投標不合格重啟
+・荷蘭續牌首次計入五年違規；巴西禁令後非法站仿冒品牌
 
 🎰 Slot 新遊戲
-01 [原創] 📦 Huff N' Puff High Rise – Light & Wonder
-02 [原創] 🆕 The Green Knight Camelot Gold – Play'n GO（11/26 上線）
-・換皮／資料不足：Christmas Gold Heist（Play'n GO，11/24 上線）
+01 [原創] 📦 20 Golden Bass – Amusnet
+・換皮／資料不足：4 Express Trains: Extra Chance、Big Money Piggy、El Frog X-Mas Cruise
 
 🕹️ 非 Slot 新內容
-01 📦 愛爾蘭向歐盟通報線上博彩規則，納入 Crash 與 Plinko
+01 Galaxy Gaming 談 Golden 4、Burst Blackjack 與 AI 真人荷官
 
 🤝 動態：主流 GP／平台
-01 英國政府否決全面禁止博彩廣告，但保留擴大線上行銷介入權
-02 Unibet 等 FDJ United 七個品牌遭網路攻擊暫停服務
+01 MGM 參訪江原樂園，研究大阪賭場成癮防治
+02 📦 GiG 任命前 Playtech 財務長為財務長
 
 🇵🇭 動態：菲律賓 GP／平台
-01 📦 GameZone 代言人 Gloc-9 說明接下代言的考量
+01 PAGCOR 重啟賭場民營化顧問標案
 
 📊 市場數據 & 趨勢
-01 德國第三季虛擬 Slot 投注額年增 28.6%
-02 澳門 10 月訪客 382 萬人次，年增 10.1%
+01 巴西禁令後逾 6 萬件非法投注宣傳通報
+02 荷蘭續發 Jacks.nl 牌照到 2031 年
+03 WLA 再選 Kötter 連任主席
 
 📝 品質備註（本次爬找判斷）
-1. 週日窗內沒有 Slot 新作發布，BigWinBoard 與 JILI 官網本次抓取失敗，Slot 三款皆為庫存／預告補位；Xmas Guardians Megaways 因單一來源且已超過 7 天保鮮而剔除。
-2. 菲律賓區窗內候選多與 11/19–11/20 已收事件重複（Evolution×Casino Plus、BingoPlus 補償、DFNN），只收 1 則庫存補位；今日無 EEZE 消息。
+1. 週日窗口偏淡：harvest 窗內 38 則、Slot 無第一級；BigWinBoard、JILI 官網來源當日解析失敗。Slot 候選多為只有 SlotsLaunch 條目、無玩法參數的小廠新作，故只列精簡卡片。
+2. 剔除：Xmas Guardians Megaways（單一次要來源、10/30，超過保鮮期）、ArenaPlus 得獎報導（主來源 11/21 在窗外）、Evolution×Casino Plus（與 11/20 同事件）。EEZE 今日無窗內消息。
+3. 菲律賓區只有 1 則：Google News 品牌候選多為廣告稿或無關內容。
 
 ⚙️ 系統警報
-1. 🟠 Firecrawl 剩 926 點，照每天約 49 點會在 12/10 用完，撐不到 12/14 重置（還差約 152 點）
-2. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（37 天）、GiocoNews（23 天）、JILI 官網新作（4 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（38 天）、GiocoNews（24 天）、JILI 官網新作（5 天）；請檢查網址或改抓取方式

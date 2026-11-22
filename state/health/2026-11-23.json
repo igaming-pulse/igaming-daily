@@ -1,0 +1,56 @@
+{
+ "date": "2026-11-23",
+ "alerts": [
+  "🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（38 天）、GiocoNews（24 天）、JILI 官網新作（5 天）；請檢查網址或改抓取方式"
+ ],
+ "info": {
+  "credits": {
+   "remaining": 921,
+   "plan": 1000,
+   "period_end": "2026-12-14",
+   "today_use": 5,
+   "daily_use": 9,
+   "daily_basis": "近 7 天實際",
+   "days_to_reset": 21,
+   "need_until_reset": 189
+  },
+  "tier": {
+   "tier": "🟢 充裕",
+   "budget": 43,
+   "remaining": 926,
+   "period_end": "2026-12-14",
+   "days_to_reset": 21,
+   "reserve": 20,
+   "note": "全開",
+   "lists_spent": 6,
+   "article_limit": 22,
+   "image_extra": 12
+  },
+  "sources": {
+   "total": 112,
+   "failed_today": [
+    "Revista Casino Perú",
+    "GiocoNews",
+    "BigWinBoard 新作列表",
+    "JILI 官網新作",
+    "Australasian Gaming Council"
+   ],
+   "streak_3d": [
+    "BigWinBoard 新作列表",
+    "GiocoNews",
+    "JILI 官網新作"
+   ]
+  },
+  "candidates": {
+   "today": 38,
+   "median_same_type": 47,
+   "basis_days": 5,
+   "type": "週末窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 0,
+   "fixes": 0
+  }
+ }
+}
