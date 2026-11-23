@@ -1,34 +1,39 @@
-🎰 iGaming 市場日報 2026-11-23（週一）
-🎰 Slot 4 ・ 🕹️ 非 Slot 1 ・ 🤝 主流 2 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-11-24（週二）
+🎰 Slot 5 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Amusnet《20 Golden Bass》：Base Game 隨機金魚變 Wild 並收值（原創機制）
-・PAGCOR 賭場民營化顧問標案因投標不合格重啟
-・荷蘭續牌首次計入五年違規；巴西禁令後非法站仿冒品牌
+・Kalamba《Gobbling Turkeys》：前兩軸金框對符號，其餘軸收 PrizeMatch 數值
+・Kaizen（Betano）取得 PAGCOR 牌照進菲律賓，首家跨國持牌 B2C
+・Entain 洽售中東歐股權、Lottomatica 合併 CIRSA：歐洲稅負下整併加速
 
 🎰 Slot 新遊戲
-01 [原創] 📦 20 Golden Bass – Amusnet
-・換皮／資料不足：4 Express Trains: Extra Chance、Big Money Piggy、El Frog X-Mas Cruise
+01 [原創] Gobbling Turkeys – Kalamba Games
+02 [原創] 🆕 Gonzo Goes Mental – NetEnt（11/26 上線）
+・換皮／資料不足：🆕 Chubby Dragon、📦 Diamond Christmas Rush Express、Just Win!
 
 🕹️ 非 Slot 新內容
-01 Galaxy Gaming 談 Golden 4、Burst Blackjack 與 AI 真人荷官
+01 Keno+ – Pragmatic Play
+02 澳門核准 Ultimate Texas Hold'em 為真人荷官遊戲
+03 JUST POKER 黑色星期五週末促銷
 
 🤝 動態：主流 GP／平台
-01 MGM 參訪江原樂園，研究大阪賭場成癮防治
-02 📦 GiG 任命前 Playtech 財務長為財務長
+01 Stake 在阿根廷拉里奧哈省上線
+02 Wazdan 經 Light & Wonder 聚合平台進入南非
+03 Lottomatica 股東通過與 CIRSA 合併
+04 Entain 傳洽談出售中東歐剩餘股權給 CVC
 
 🇵🇭 動態：菲律賓 GP／平台
-01 PAGCOR 重啟賭場民營化顧問標案
+01 Kaizen Gaming 以 Betano 取得 PAGCOR 牌照進入菲律賓
 
 📊 市場數據 & 趨勢
-01 巴西禁令後逾 6 萬件非法投注宣傳通報
-02 荷蘭續發 Jacks.nl 牌照到 2031 年
-03 WLA 再選 Kötter 連任主席
+01 麻州 10 月賭場營收年減 6.8%，Slot 占 6,630 萬美元
+02 阿根廷 10 月線上博彩稅收年增 47%，約 75% 市場仍在灰色地帶
+03 立陶宛前九個月線上占比 78%，線上 Slot 機台年增 30%
 
 📝 品質備註（本次爬找判斷）
-1. 週日窗口偏淡：harvest 窗內 38 則、Slot 無第一級；BigWinBoard、JILI 官網來源當日解析失敗。Slot 候選多為只有 SlotsLaunch 條目、無玩法參數的小廠新作，故只列精簡卡片。
-2. 剔除：Xmas Guardians Megaways（單一次要來源、10/30，超過保鮮期）、ArenaPlus 得獎報導（主來源 11/21 在窗外）、Evolution×Casino Plus（與 11/20 同事件）。EEZE 今日無窗內消息。
-3. 菲律賓區只有 1 則：Google News 品牌候選多為廣告稿或無關內容。
+1. 今日窗內 Slot 候選多為已出現過或查不到新聞稿／官網的條目（Lucky Jaguar Ultimate、Croco Clover、IGT、Playtech 聖誕款），第一級 N+1 為 0 款；完整卡片只有 2 款第二級，其餘為精簡卡片。
+2. 菲律賓區只有 Kaizen 一則；Casino Plus × Evolution 疑似與 11/20 重疊，未收。EEZE 窗內無消息，今日從缺。
+3. 抓取異常：BigWinBoard、JILI 官網解析失敗，另 7 個 RSS／API 來源失敗；PAGCOR 新聞頁 404。總計 16 則，未低於偏少門檻。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（38 天）、GiocoNews（24 天）、JILI 官網新作（5 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（39 天）、GiocoNews（25 天）、JILI 官網新作（6 天）；請檢查網址或改抓取方式

@@ -1,0 +1,31 @@
+{
+ "date": "2026-11-24",
+ "md": "state/2026-11-24-igaming-report.md",
+ "html": "reports/2026-11-24.html",
+ "items": 16,
+ "counts": {
+  "cat1": 5,
+  "cat2": 3,
+  "cat3": 4,
+  "cat4": 1,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 46,
+  "ok": 42,
+  "broken": 0,
+  "blocked": 3,
+  "images_dropped": 1,
+  "images": 15
+ },
+ "errors": [],
+ "warnings": [
+  "cat2-02 澳門核准 Ultimate Texas Hold｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/macau-regulators-nods-ultimate-texas-holdem-poker-as-live-dealer-game",
+  "cat3-02 Wazdan 經 Light & Wonder ｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/press-release/2026/11/23/218593/wazdan-world-sports-betting-south-africa/",
+  "cat3-04 Entain 傳洽談把中東歐剩餘股權賣給 CVC｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/latest-news/2026/11/23/218590/entain-cee-stake-sale-cvc/",
+  "cat2-02 澳門核准 Ultimate Texas Hold｜各來源都找不到可用的配圖"
+ ],
+ "fixes": [
+  "cat2-02 澳門核准 Ultimate Texas Hold｜配圖打不開（403 text/html），已自動拿掉：https://www.ggrasia.com/wp-content/uploads/2026/11/poker.jpg"
+ ]
+}

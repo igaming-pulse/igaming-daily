@@ -105,114 +105,48 @@
     }
    ],
    "key": "歐盟igaming週報bill55維持立陶宛擬課36稅|"
+  },
+  {
+   "cat": "cat2",
+   "title": "如何以輕量 Crash 遊戲切入阿根廷分散市場",
+   "sources": [
+    {
+     "name": "SoloAzar",
+     "url": "https://www.soloazar.com/es/categoria/analisis/como-navegar-el-fragmentado-mercado-de-igaming-de-argentina-con-juegos-crash-accesibles",
+     "published": "2026-11-23 20:00"
+    }
+   ],
+   "first_seen": "2026-11-24",
+   "key": "如何以輕量crash遊戲切入阿根廷分散市場|"
+  },
+  {
+   "cat": "cat3",
+   "title": "Betfred 因機器遊戲稅上調，諮詢再關 73 間店",
+   "sources": [
+    {
+     "name": "iGaming Business",
+     "url": "https://igamingbusiness.com/sports-betting/betfred-blames-mgd-rise-as-73-shops-face-closure/",
+     "published": "2026-11-23 21:20"
+    }
+   ],
+   "first_seen": "2026-11-24",
+   "key": "betfred因機器遊戲稅上調諮詢再關73間店|"
+  },
+  {
+   "cat": "cat5",
+   "title": "德國受監理線上博彩市場未達 50%，預估 2031 年成長至 25 億歐元",
+   "sources": [
+    {
+     "name": "Sector del Juego",
+     "url": "https://sectordeljuego.com/2026/11/23/alemania-el-juego-online-regulado-no-alcanza-el-50-del-mercado-pese-a-prever-un-crecimiento-hasta-los-2-500-millones-en-2031/",
+     "published": "2026-11-23 14:08"
+    }
+   ],
+   "first_seen": "2026-11-24",
+   "key": "德國受監理線上博彩市場未達50預估2031年成長至25億歐元|"
   }
  ],
  "history": [
-  {
-   "key": "thunderreckoning|pgsoft",
-   "date": "2026-10-24",
-   "cat": "cat1",
-   "title": "Thunder Reckoning",
-   "gp": "PG Soft"
-  },
-  {
-   "key": "temptingtreats|avatarux",
-   "date": "2026-10-24",
-   "cat": "cat1",
-   "title": "Tempting Treats",
-   "gp": "AvatarUX"
-  },
-  {
-   "key": "hammyheistroyalscarab|zitro",
-   "date": "2026-10-24",
-   "cat": "cat1",
-   "title": "Hammy Heist Royal / Scarab",
-   "gp": "Zitro"
-  },
-  {
-   "key": "towerrush2galaxsys|",
-   "date": "2026-10-24",
-   "cat": "cat2",
-   "title": "Tower Rush 2 — Galaxsys",
-   "gp": ""
-  },
-  {
-   "key": "livecasinomarylandpokerfest2026保證獎池逾60萬美元|",
-   "date": "2026-10-24",
-   "cat": "cat2",
-   "title": "Live! Casino Maryland PokerFest 2026 保證獎池逾 60 萬美元",
-   "gp": ""
-  },
-  {
-   "key": "staryes新pokerteam出戰battleofmalta|",
-   "date": "2026-10-24",
-   "cat": "cat2",
-   "title": "StarYes 新 Poker Team 出戰 Battle of Malta",
-   "gp": ""
-  },
-  {
-   "key": "aristocratbuffaloultimatestampede手機版2027q1線上推出|",
-   "date": "2026-10-24",
-   "cat": "cat3",
-   "title": "Aristocrat Buffalo Ultimate Stampede 手機版 2027 Q1 線上推出",
-   "gp": ""
-  },
-  {
-   "key": "estelarbet上架zitrodigital完整遊戲庫|",
-   "date": "2026-10-24",
-   "cat": "cat3",
-   "title": "Estelarbet 上架 Zitro Digital 完整遊戲庫",
-   "gp": ""
-  },
-  {
-   "key": "novomaticcolombia結束gatbogot2026|",
-   "date": "2026-10-24",
-   "cat": "cat3",
-   "title": "NOVOMATIC Colombia 結束 GAT Bogotá 2026",
-   "gp": ""
-  },
-  {
-   "key": "digiplus與regal合作推出五款shakerattleroll恐怖主題遊戲|",
-   "date": "2026-10-24",
-   "cat": "cat4",
-   "title": "DigiPlus 與 Regal 合作推出五款 Shake, Rattle & Roll 恐怖主題遊戲",
-   "gp": ""
-  },
-  {
-   "key": "bingoplus推出提款延遲賠付保證|",
-   "date": "2026-10-24",
-   "cat": "cat4",
-   "title": "BingoPlus 推出提款延遲賠付保證",
-   "gp": ""
-  },
-  {
-   "key": "newportworldresorts基金會承諾1100萬美元支援警方設施|",
-   "date": "2026-10-24",
-   "cat": "cat4",
-   "title": "Newport World Resorts 基金會承諾 1,100 萬美元支援警方設施",
-   "gp": ""
-  },
-  {
-   "key": "evolution第三季營收年增37至5261億歐元關閉巴西工作室|",
-   "date": "2026-10-24",
-   "cat": "cat5",
-   "title": "Evolution 第三季營收年增 3.7% 至 5.261 億歐元，關閉巴西工作室",
-   "gp": ""
-  },
-  {
-   "key": "evoke第三季營收年減7稱稅負造成270間店面關閉|",
-   "date": "2026-10-24",
-   "cat": "cat5",
-   "title": "evoke 第三季營收年減 7%，稱稅負造成 270 間店面關閉",
-   "gp": ""
-  },
-  {
-   "key": "密西根9月線上博彩與運彩總收入3557億美元|",
-   "date": "2026-10-24",
-   "cat": "cat5",
-   "title": "密西根 9 月線上博彩與運彩總收入 3.557 億美元",
-   "gp": ""
-  },
   {
    "key": "vampiresbloodmoon|boominggames",
    "date": "2026-10-25",
@@ -3592,6 +3526,118 @@
    "date": "2026-11-23",
    "cat": "cat5",
    "title": "世界彩券協會再選 Andreas Kötter 連任主席",
+   "gp": ""
+  },
+  {
+   "key": "gobblingturkeys|kalambagames",
+   "date": "2026-11-24",
+   "cat": "cat1",
+   "title": "Gobbling Turkeys",
+   "gp": "Kalamba Games"
+  },
+  {
+   "key": "gonzogoesmental|netent",
+   "date": "2026-11-24",
+   "cat": "cat1",
+   "title": "Gonzo Goes Mental",
+   "gp": "NetEnt"
+  },
+  {
+   "key": "chubbydragon|backseatgaming",
+   "date": "2026-11-24",
+   "cat": "cat1",
+   "title": "Chubby Dragon",
+   "gp": "Backseat Gaming"
+  },
+  {
+   "key": "diamondchristmasrushexpress|areavegas",
+   "date": "2026-11-24",
+   "cat": "cat1",
+   "title": "Diamond Christmas Rush Express",
+   "gp": "Area Vegas"
+  },
+  {
+   "key": "justwin|ctinteractive",
+   "date": "2026-11-24",
+   "cat": "cat1",
+   "title": "Just Win!",
+   "gp": "CT Interactive"
+  },
+  {
+   "key": "kenopragmaticplay|",
+   "date": "2026-11-24",
+   "cat": "cat2",
+   "title": "Keno+ — Pragmatic Play",
+   "gp": ""
+  },
+  {
+   "key": "澳門核准ultimatetexasholdem為真人荷官遊戲|",
+   "date": "2026-11-24",
+   "cat": "cat2",
+   "title": "澳門核准 Ultimate Texas Hold'em 為真人荷官遊戲",
+   "gp": ""
+  },
+  {
+   "key": "justpoker推出worldpokerleague第三季黑色星期五週末促銷|",
+   "date": "2026-11-24",
+   "cat": "cat2",
+   "title": "JUST POKER 推出 World Poker League 第三季黑色星期五週末促銷",
+   "gp": ""
+  },
+  {
+   "key": "stake在阿根廷拉里奧哈省上線成為第二個受監理轄區|",
+   "date": "2026-11-24",
+   "cat": "cat3",
+   "title": "Stake 在阿根廷拉里奧哈省上線，成為第二個受監理轄區",
+   "gp": ""
+  },
+  {
+   "key": "wazdan經lightwonder聚合平台進入南非worldsportsbetting|",
+   "date": "2026-11-24",
+   "cat": "cat3",
+   "title": "Wazdan 經 Light & Wonder 聚合平台進入南非 World Sports Betting",
+   "gp": ""
+  },
+  {
+   "key": "lottomatica股東通過與cirsa合併|",
+   "date": "2026-11-24",
+   "cat": "cat3",
+   "title": "Lottomatica 股東通過與 CIRSA 合併",
+   "gp": ""
+  },
+  {
+   "key": "entain傳洽談把中東歐剩餘股權賣給cvc|",
+   "date": "2026-11-24",
+   "cat": "cat3",
+   "title": "Entain 傳洽談把中東歐剩餘股權賣給 CVC",
+   "gp": ""
+  },
+  {
+   "key": "kaizengaming以betano取得pagcor牌照進入菲律賓|",
+   "date": "2026-11-24",
+   "cat": "cat4",
+   "title": "Kaizen Gaming 以 Betano 取得 PAGCOR 牌照進入菲律賓",
+   "gp": ""
+  },
+  {
+   "key": "麻州10月賭場營收年減68至9030萬美元slot占6630萬|",
+   "date": "2026-11-24",
+   "cat": "cat5",
+   "title": "麻州 10 月賭場營收年減 6.8% 至 9,030 萬美元，Slot 占 6,630 萬",
+   "gp": ""
+  },
+  {
+   "key": "阿根廷10月線上博彩稅收年增47但估計約75市場在灰色地帶|",
+   "date": "2026-11-24",
+   "cat": "cat5",
+   "title": "阿根廷 10 月線上博彩稅收年增 47%，但估計約 75% 市場在灰色地帶",
+   "gp": ""
+  },
+  {
+   "key": "立陶宛前九個月線上博彩占市場78線上slot機台年增30|",
+   "date": "2026-11-24",
+   "cat": "cat5",
+   "title": "立陶宛前九個月線上博彩占市場 78%，線上 Slot 機台年增 30%",
    "gp": ""
   }
  ],

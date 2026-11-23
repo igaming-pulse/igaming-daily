@@ -1,0 +1,60 @@
+{
+ "date": "2026-11-24",
+ "alerts": [
+  "🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（39 天）、GiocoNews（25 天）、JILI 官網新作（6 天）；請檢查網址或改抓取方式"
+ ],
+ "info": {
+  "credits": {
+   "remaining": 912,
+   "plan": 1000,
+   "period_end": "2026-12-14",
+   "today_use": 9,
+   "daily_use": 9,
+   "daily_basis": "近 7 天實際",
+   "days_to_reset": 20,
+   "need_until_reset": 180
+  },
+  "tier": {
+   "tier": "🟢 充裕",
+   "budget": 45,
+   "remaining": 921,
+   "period_end": "2026-12-14",
+   "days_to_reset": 20,
+   "reserve": 20,
+   "note": "全開",
+   "lists_spent": 8,
+   "article_limit": 22,
+   "image_extra": 12
+  },
+  "sources": {
+   "total": 114,
+   "failed_today": [
+    "Fantasma Games",
+    "4ThePlayer",
+    "Business of iGaming",
+    "SBC Americas",
+    "Gaming Intelligence",
+    "Focus Gaming News",
+    "GiocoNews",
+    "BigWinBoard 新作列表",
+    "JILI 官網新作"
+   ],
+   "streak_3d": [
+    "BigWinBoard 新作列表",
+    "GiocoNews",
+    "JILI 官網新作"
+   ]
+  },
+  "candidates": {
+   "today": 415,
+   "median_same_type": 523,
+   "basis_days": 5,
+   "type": "平日窗"
+  },
+  "qa": {
+   "errors": 0,
+   "warnings": 4,
+   "fixes": 1
+  }
+ }
+}
