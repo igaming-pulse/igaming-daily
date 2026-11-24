@@ -1,39 +1,43 @@
-🎰 iGaming 市場日報 2026-11-24（週二）
-🎰 Slot 5 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 1 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-11-25（週三）
+🎰 Slot 9 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Kalamba《Gobbling Turkeys》：前兩軸金框對符號，其餘軸收 PrizeMatch 數值
-・Kaizen（Betano）取得 PAGCOR 牌照進菲律賓，首家跨國持牌 B2C
-・Entain 洽售中東歐股權、Lottomatica 合併 CIRSA：歐洲稅負下整併加速
+・JILI《Super Ace Mr.360》：Super Ace 系加 360 WILD 與 x36／x360 特殊軸
+・PAGCOR 對 Lucky Spin 彩金遊戲營運商開罰，查無操縱但通知不符手冊
+・CLSA 再下修澳門 2027 賭收預測 8.1%，預估年減 3.4%
 
 🎰 Slot 新遊戲
-01 [原創] Gobbling Turkeys – Kalamba Games
-02 [原創] 🆕 Gonzo Goes Mental – NetEnt（11/26 上線）
-・換皮／資料不足：🆕 Chubby Dragon、📦 Diamond Christmas Rush Express、Just Win!
+01 [原型 N+1] Super Ace Mr.360 – JILI
+02 [原創] 3 Whales of Fortune Lock'em & Load'em – 24Karot
+03 [原創] Fusion Fever – Fantasma Games
+04 [原創] 3 Flaming Jokers Double Collect – 4ThePlayer
+・換皮／資料不足：Rumble Riches – Santa's Sleigh of Gold、Elf Coin Hunt 3 Pots、Lucky Jaguar Ultimate、Raptor 3 Doublemax、Royal Lion Delights
 
 🕹️ 非 Slot 新內容
-01 Keno+ – Pragmatic Play
-02 澳門核准 Ultimate Texas Hold'em 為真人荷官遊戲
-03 JUST POKER 黑色星期五週末促銷
+01 Buffalo Bahati – PopOK Gaming
+02 All Seasons Blackjack – ICONIC21
+03 PokerStars 將於 11 月 26 日退出紐西蘭
 
 🤝 動態：主流 GP／平台
-01 Stake 在阿根廷拉里奧哈省上線
-02 Wazdan 經 Light & Wonder 聚合平台進入南非
-03 Lottomatica 股東通過與 CIRSA 合併
-04 Entain 傳洽談出售中東歐剩餘股權給 CVC
+01 Hacksaw Gaming 經 BetRivers 在德拉瓦上線，成為美國第六州
+02 ELA Games 與 Novibet 合作，首批 28 款 Slot 上架
+03 Bally's Intralot 預計 2027 年 1 月完成收購 Evoke
+04 Allwyn 延後倫敦或紐約二次上市
 
 🇵🇭 動態：菲律賓 GP／平台
-01 Kaizen Gaming 以 Betano 取得 PAGCOR 牌照進入菲律賓
+01 Yellow Bat Gaming 與 BingoPlus 簽長期獨家合作，首款 Reyna Ahas 主題 Slot
+02 PAGCOR 對「Lucky Spin」彩金遊戲爭議開罰
+03 FBM Philippines 25 週年，發表 FBM SUPERAPP 與 Hybrid Machine
 
 📊 市場數據 & 趨勢
-01 麻州 10 月賭場營收年減 6.8%，Slot 占 6,630 萬美元
-02 阿根廷 10 月線上博彩稅收年增 47%，約 75% 市場仍在灰色地帶
-03 立陶宛前九個月線上占比 78%，線上 Slot 機台年增 30%
+01 聖誕 Slot 多建立在熟悉功能上
+02 CLSA 再下修澳門 2027 年賭收預測
+03 歐盟 2025 年無牌線上博彩收入 916 億歐元，占 72%
 
 📝 品質備註（本次爬找判斷）
-1. 今日窗內 Slot 候選多為已出現過或查不到新聞稿／官網的條目（Lucky Jaguar Ultimate、Croco Clover、IGT、Playtech 聖誕款），第一級 N+1 為 0 款；完整卡片只有 2 款第二級，其餘為精簡卡片。
-2. 菲律賓區只有 Kaizen 一則；Casino Plus × Evolution 疑似與 11/20 重疊，未收。EEZE 窗內無消息，今日從缺。
-3. 抓取異常：BigWinBoard、JILI 官網解析失敗，另 7 個 RSS／API 來源失敗；PAGCOR 新聞頁 404。總計 16 則，未低於偏少門檻。
+1. 今日新作多但多為只有 SlotsLaunch 條目、無玩法資料的新作，故第三級（換皮／資料不足）佔 5 款；Bonanza More Gold、Croco Clover、Legend of the Pixiu Flip n Win 進庫存。
+2. Yellow Bat × BingoPlus 疑似與 11 月 13 日（iGamingExpert）報導重疊，採 Yellow Bat 官網 11/24 頁面日期收錄；Bally's Intralot 疑似與 11/21 財報報導同源，但本則為新公布的交割時程。
+3. EEZE 窗內無消息，未收；asgam／GGRAsia 部分內文需 Firecrawl 摘要。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（39 天）、GiocoNews（25 天）、JILI 官網新作（6 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（40 天）、GiocoNews（26 天）、JILI 官網新作（7 天）；請檢查網址或改抓取方式

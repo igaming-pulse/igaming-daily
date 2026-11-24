@@ -47,37 +47,57 @@
     }
    ],
    "key": "lesantaholdwin|hacksawgaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Bonanza More Gold",
+   "gp": "Big Time Gaming",
+   "b": 3,
+   "first_seen": "2026-11-25",
+   "release_date": "2026-11-25",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/big-time-gaming/bonanza-more-gold",
+     "published": "2026-11-25"
+    }
+   ],
+   "key": "bonanzamoregold|bigtimegaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Croco Clover",
+   "gp": "Hacksaw Gaming",
+   "b": 3,
+   "first_seen": "2026-11-25",
+   "release_date": "2026-11-24",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/hacksaw-gaming/croco-clover",
+     "published": "2026-11-24"
+    }
+   ],
+   "key": "crococlover|hacksawgaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Legend of the Pixiu Flip n Win",
+   "gp": "IGT",
+   "b": 4,
+   "first_seen": "2026-11-25",
+   "release_date": "2026-11-24",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/igt/legend-of-the-pixiu-flip-n-win",
+     "published": "2026-11-24"
+    }
+   ],
+   "key": "legendofthepixiuflipnwin|igt"
   }
  ],
  "others": [
-  {
-   "cat": "cat3",
-   "title": "英國政府否決全面禁止博彩廣告",
-   "b": 1,
-   "first_seen": "2026-11-21",
-   "sources": [
-    {
-     "name": "G3 Newswire",
-     "url": "https://g3newswire.com/uk-government-rejects-proposals-to-ban-all-gambling-advertising/",
-     "published": "2026-11-20 20:23"
-    }
-   ],
-   "key": "英國政府否決全面禁止博彩廣告|"
-  },
-  {
-   "cat": "cat5",
-   "title": "南韓警方網路賭博大掃蕩：逮捕 6,310 人、凍結 1.16 億美元",
-   "b": 1,
-   "first_seen": "2026-11-21",
-   "sources": [
-    {
-     "name": "GGRAsia",
-     "url": "https://www.ggrasia.com/south-korea-police-arrested-6310-froze-us116mln-in-online-gambling-crackdown",
-     "published": "2026-11-20 09:10"
-    }
-   ],
-   "key": "南韓警方網路賭博大掃蕩逮捕6310人凍結116億美元|"
-  },
   {
    "cat": "cat4",
    "title": "Evolution 與 Casino Plus 擴大菲律賓在地化直播遊戲（GMA 報導）",
@@ -144,93 +164,22 @@
    ],
    "first_seen": "2026-11-24",
    "key": "德國受監理線上博彩市場未達50預估2031年成長至25億歐元|"
+  },
+  {
+   "cat": "cat4",
+   "title": "菲律賓將中國旅客 14 天免簽延長一年至 2028 年 1 月 15 日",
+   "first_seen": "2026-11-25",
+   "sources": [
+    {
+     "name": "Inside Asian Gaming",
+     "url": "https://asgam.com/2026/11/24/philippines-extends-14-day-visa-free-entry-program-for-chinese-nationals-by-one-year/",
+     "published": "2026-11-24 04:29"
+    }
+   ],
+   "key": "菲律賓將中國旅客14天免簽延長一年至2028年1月15日|"
   }
  ],
  "history": [
-  {
-   "key": "vampiresbloodmoon|boominggames",
-   "date": "2026-10-25",
-   "cat": "cat1",
-   "title": "Vampires: Blood Moon",
-   "gp": "Booming Games"
-  },
-  {
-   "key": "greedypumpking|thunderkick",
-   "date": "2026-10-25",
-   "cat": "cat1",
-   "title": "Greedy Pumpking",
-   "gp": "Thunderkick"
-  },
-  {
-   "key": "carnivaloffreaks|degenstudios",
-   "date": "2026-10-25",
-   "cat": "cat1",
-   "title": "Carnival of Freaks",
-   "gp": "DEGEN Studios"
-  },
-  {
-   "key": "pokerstarsirishopen2027線上衛星賽|",
-   "date": "2026-10-25",
-   "cat": "cat2",
-   "title": "PokerStars Irish Open 2027 線上衛星賽",
-   "gp": ""
-  },
-  {
-   "key": "spielbankenbayern慈善撲克賽|",
-   "date": "2026-10-25",
-   "cat": "cat2",
-   "title": "Spielbanken Bayern 慈善撲克賽",
-   "gp": ""
-  },
-  {
-   "key": "betfair終止義大利聯盟行銷計畫|",
-   "date": "2026-10-25",
-   "cat": "cat3",
-   "title": "Betfair 終止義大利聯盟行銷計畫",
-   "gp": ""
-  },
-  {
-   "key": "draftkings執行長持牌州不提供預測市場|",
-   "date": "2026-10-25",
-   "cat": "cat3",
-   "title": "DraftKings 執行長：持牌州不提供預測市場",
-   "gp": ""
-  },
-  {
-   "key": "evolution執行長對巴西禁令感到錯愕|",
-   "date": "2026-10-25",
-   "cat": "cat3",
-   "title": "Evolution 執行長對巴西禁令感到錯愕",
-   "gp": ""
-  },
-  {
-   "key": "digiplus連續第二年獲goldenarrow公司治理獎|",
-   "date": "2026-10-25",
-   "cat": "cat4",
-   "title": "DigiPlus 連續第二年獲 Golden Arrow 公司治理獎",
-   "gp": ""
-  },
-  {
-   "key": "澳門六家博彩公司承諾90億澳門元注入多元化基金|",
-   "date": "2026-10-25",
-   "cat": "cat5",
-   "title": "澳門六家博彩公司承諾 90 億澳門元注入多元化基金",
-   "gp": ""
-  },
-  {
-   "key": "西班牙2027年3月啟用跨營運商合併存款上限|",
-   "date": "2026-10-25",
-   "cat": "cat5",
-   "title": "西班牙 2027 年 3 月啟用跨營運商合併存款上限",
-   "gp": ""
-  },
-  {
-   "key": "boydgaming第三季營收年減14|",
-   "date": "2026-10-25",
-   "cat": "cat5",
-   "title": "Boyd Gaming 第三季營收年減 1.4%",
-   "gp": ""
-  },
   {
    "key": "chestsofcaisheninfinity|pragmaticplay",
    "date": "2026-10-26",
@@ -3638,6 +3587,160 @@
    "date": "2026-11-24",
    "cat": "cat5",
    "title": "立陶宛前九個月線上博彩占市場 78%，線上 Slot 機台年增 30%",
+   "gp": ""
+  },
+  {
+   "key": "superacemr360|jili",
+   "date": "2026-11-25",
+   "cat": "cat1",
+   "title": "Super Ace Mr.360",
+   "gp": "JILI"
+  },
+  {
+   "key": "3whalesoffortunelockemloadem|24karotgames",
+   "date": "2026-11-25",
+   "cat": "cat1",
+   "title": "3 Whales of Fortune Lock'em & Load'em",
+   "gp": "24Karot Games"
+  },
+  {
+   "key": "fusionfever|fantasmagames",
+   "date": "2026-11-25",
+   "cat": "cat1",
+   "title": "Fusion Fever",
+   "gp": "Fantasma Games"
+  },
+  {
+   "key": "3flamingjokersdoublecollect|4theplayer",
+   "date": "2026-11-25",
+   "cat": "cat1",
+   "title": "3 Flaming Jokers Double Collect",
+   "gp": "4ThePlayer"
+  },
+  {
+   "key": "rumblerichessantassleighofgold|greentube",
+   "date": "2026-11-25",
+   "cat": "cat1",
+   "title": "Rumble Riches – Santa's Sleigh of Gold",
+   "gp": "Greentube"
+  },
+  {
+   "key": "elfcoinhunt3pots|evoplay",
+   "date": "2026-11-25",
+   "cat": "cat1",
+   "title": "Elf Coin Hunt 3 Pots",
+   "gp": "Evoplay"
+  },
+  {
+   "key": "luckyjaguarultimate|tadagaming",
+   "date": "2026-11-25",
+   "cat": "cat1",
+   "title": "Lucky Jaguar Ultimate",
+   "gp": "TaDa Gaming"
+  },
+  {
+   "key": "raptor3doublemax|yggdrasil",
+   "date": "2026-11-25",
+   "cat": "cat1",
+   "title": "Raptor 3 Doublemax",
+   "gp": "Yggdrasil"
+  },
+  {
+   "key": "royalliondelights|pgsoft",
+   "date": "2026-11-25",
+   "cat": "cat1",
+   "title": "Royal Lion Delights",
+   "gp": "PG Soft"
+  },
+  {
+   "key": "buffalobahatipopokgaming|",
+   "date": "2026-11-25",
+   "cat": "cat2",
+   "title": "Buffalo Bahati — PopOK Gaming",
+   "gp": ""
+  },
+  {
+   "key": "allseasonsblackjackiconic21|",
+   "date": "2026-11-25",
+   "cat": "cat2",
+   "title": "All Seasons Blackjack — ICONIC21",
+   "gp": ""
+  },
+  {
+   "key": "pokerstars將於11月26日退出紐西蘭|",
+   "date": "2026-11-25",
+   "cat": "cat2",
+   "title": "PokerStars 將於 11 月 26 日退出紐西蘭",
+   "gp": ""
+  },
+  {
+   "key": "hacksawgaming經betrivers在德拉瓦上線成為美國第六州|",
+   "date": "2026-11-25",
+   "cat": "cat3",
+   "title": "Hacksaw Gaming 經 BetRivers 在德拉瓦上線，成為美國第六州",
+   "gp": ""
+  },
+  {
+   "key": "elagames與novibet合作首批28款slot上架|",
+   "date": "2026-11-25",
+   "cat": "cat3",
+   "title": "ELA Games 與 Novibet 合作，首批 28 款 Slot 上架",
+   "gp": ""
+  },
+  {
+   "key": "ballysintralot預計2027年1月完成收購evokewilliamhill888|",
+   "date": "2026-11-25",
+   "cat": "cat3",
+   "title": "Bally's Intralot 預計 2027 年 1 月完成收購 Evoke（William Hill、888）",
+   "gp": ""
+  },
+  {
+   "key": "allwyn延後倫敦或紐約的二次上市計畫|",
+   "date": "2026-11-25",
+   "cat": "cat3",
+   "title": "Allwyn 延後倫敦或紐約的二次上市計畫",
+   "gp": ""
+  },
+  {
+   "key": "yellowbatgaming與bingoplus簽長期獨家合作首款為reynaahas主題slot|",
+   "date": "2026-11-25",
+   "cat": "cat4",
+   "title": "Yellow Bat Gaming 與 BingoPlus 簽長期獨家合作，首款為 Reyna Ahas 主題 Slot",
+   "gp": ""
+  },
+  {
+   "key": "pagcor對luckyspin彩金遊戲爭議開罰但查無操縱|",
+   "date": "2026-11-25",
+   "cat": "cat4",
+   "title": "PAGCOR 對「Lucky Spin」彩金遊戲爭議開罰，但查無操縱",
+   "gp": ""
+  },
+  {
+   "key": "fbmphilippines25週年發表fbmsuperapp與hybridmachine|",
+   "date": "2026-11-25",
+   "cat": "cat4",
+   "title": "FBM Philippines 25 週年，發表 FBM SUPERAPP 與 Hybrid Machine",
+   "gp": ""
+  },
+  {
+   "key": "greentubeevoplaybgaming的聖誕slot都建立在熟悉功能上|",
+   "date": "2026-11-25",
+   "cat": "cat5",
+   "title": "Greentube、Evoplay、BGaming 的聖誕 Slot 都建立在熟悉功能上",
+   "gp": ""
+  },
+  {
+   "key": "clsa再下修澳門2027年賭收預測81預估年減34|",
+   "date": "2026-11-25",
+   "cat": "cat5",
+   "title": "CLSA 再下修澳門 2027 年賭收預測 8.1%，預估年減 3.4%",
+   "gp": ""
+  },
+  {
+   "key": "歐盟2025年無牌線上博彩收入916億歐元占72|",
+   "date": "2026-11-25",
+   "cat": "cat5",
+   "title": "歐盟 2025 年無牌線上博彩收入 916 億歐元，占 72%",
    "gp": ""
   }
  ],
