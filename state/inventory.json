@@ -50,22 +50,6 @@
   },
   {
    "cat": "cat1",
-   "title": "Bonanza More Gold",
-   "gp": "Big Time Gaming",
-   "b": 3,
-   "first_seen": "2026-11-25",
-   "release_date": "2026-11-25",
-   "sources": [
-    {
-     "name": "SlotsLaunch",
-     "url": "https://slotslaunch.com/big-time-gaming/bonanza-more-gold",
-     "published": "2026-11-25"
-    }
-   ],
-   "key": "bonanzamoregold|bigtimegaming"
-  },
-  {
-   "cat": "cat1",
    "title": "Croco Clover",
    "gp": "Hacksaw Gaming",
    "b": 3,
@@ -95,37 +79,24 @@
     }
    ],
    "key": "legendofthepixiuflipnwin|igt"
+  },
+  {
+   "cat": "cat1",
+   "title": "Thanksgiving Riches: Hold & Win",
+   "gp": "Onlyplay",
+   "b": 1,
+   "first_seen": "2026-11-25",
+   "sources": [
+    {
+     "name": "Yogonet International",
+     "url": "https://www.yogonet.com/international/news/2026/11/20/127395-onlyplay-launches-thanksgiving-riches-hold-win-with-five-bonus-levels-and-four-jackpots",
+     "published": "2026-11-25 20:04"
+    }
+   ],
+   "key": "thanksgivingrichesholdwin|onlyplay"
   }
  ],
  "others": [
-  {
-   "cat": "cat4",
-   "title": "Evolution 與 Casino Plus 擴大菲律賓在地化直播遊戲（GMA 報導）",
-   "b": 6,
-   "first_seen": "2026-11-22",
-   "sources": [
-    {
-     "name": "GMA News",
-     "url": "https://www.gmanetwork.com/news/money/companies/1010329/evolution-casino-plus-expanding-localized-live-gaming-offerings-in-ph/story/",
-     "published": "2026-11-21 18:57"
-    }
-   ],
-   "key": "evolution與casinoplus擴大菲律賓在地化直播遊戲gma報導|"
-  },
-  {
-   "cat": "cat5",
-   "title": "歐盟 iGaming 週報：Bill 55 維持、立陶宛擬課 36% 稅",
-   "b": 1,
-   "first_seen": "2026-11-22",
-   "sources": [
-    {
-     "name": "European Gaming",
-     "url": "https://europeangaming.eu/portal/latest-news/2026/11/21/218448/eu-igaming-weekly-bill-55-lithuania-tax-banijay/",
-     "published": "2026-11-21 15:00"
-    }
-   ],
-   "key": "歐盟igaming週報bill55維持立陶宛擬課36稅|"
-  },
   {
    "cat": "cat2",
    "title": "如何以輕量 Crash 遊戲切入阿根廷分散市場",
@@ -177,100 +148,48 @@
     }
    ],
    "key": "菲律賓將中國旅客14天免簽延長一年至2028年1月15日|"
+  },
+  {
+   "cat": "cat3",
+   "title": "Casumo 執行長 Francesco Postiglione 年底卸任",
+   "first_seen": "2026-11-26",
+   "sources": [
+    {
+     "name": "SBC News",
+     "url": "https://sbcnews.co.uk/igaming/2026/11/25/casumo-ceo-to-step-down/",
+     "published": "2026-11-26 00:49"
+    }
+   ],
+   "key": "casumo執行長francescopostiglione年底卸任|"
+  },
+  {
+   "cat": "cat4",
+   "title": "PhilWeb 預期 12 月起認列 JKS Tech 盈餘貢獻",
+   "first_seen": "2026-11-25",
+   "sources": [
+    {
+     "name": "GGRAsia",
+     "url": "https://www.ggrasia.com/philweb-eyes-december-for-start-of-earnings-contribution-from-jks-tech",
+     "published": "2026-11-25 18:02"
+    }
+   ],
+   "key": "philweb預期12月起認列jkstech盈餘貢獻|"
+  },
+  {
+   "cat": "cat5",
+   "title": "密西根 10 月線上體育投注與 iGaming 合計營收年增 10% 至 3.888 億美元",
+   "first_seen": "2026-11-25",
+   "sources": [
+    {
+     "name": "Gaming Intelligence",
+     "url": "https://www.gamingintelligence.com/finance/239065-michigan-sports-betting-and-igaming-revenue-nears-390-million-in-october/",
+     "published": "2026-11-25 21:56"
+    }
+   ],
+   "key": "密西根10月線上體育投注與igaming合計營收年增10至3888億美元|"
   }
  ],
  "history": [
-  {
-   "key": "chestsofcaisheninfinity|pragmaticplay",
-   "date": "2026-10-26",
-   "cat": "cat1",
-   "title": "Chests of Cai Shen – Infinity",
-   "gp": "Pragmatic Play"
-  },
-  {
-   "key": "hotrocketmegapotz|bgaming",
-   "date": "2026-10-26",
-   "cat": "cat1",
-   "title": "Hot Rocket Mega Potz",
-   "gp": "BGaming"
-  },
-  {
-   "key": "spookyhalloweenholdhit3x3|spinomenal",
-   "date": "2026-10-26",
-   "cat": "cat1",
-   "title": "Spooky Halloween – Hold & Hit 3x3",
-   "gp": "Spinomenal"
-  },
-  {
-   "key": "grogtohellholdwin|elysiumstudios",
-   "date": "2026-10-26",
-   "cat": "cat1",
-   "title": "Grog To Hell Hold & Win",
-   "gp": "Elysium Studios"
-  },
-  {
-   "key": "turkeysgonewild|maxxilabs",
-   "date": "2026-10-26",
-   "cat": "cat1",
-   "title": "Turkeys Gone Wild",
-   "gp": "Maxxi Labs"
-  },
-  {
-   "key": "zitro包辦ekg新遊戲榜新興供應商類13款|",
-   "date": "2026-10-26",
-   "cat": "cat3",
-   "title": "Zitro 包辦 EKG 新遊戲榜新興供應商類 13 款",
-   "gp": ""
-  },
-  {
-   "key": "荷蘭ksa對eodcode開出3700萬歐元罰款|",
-   "date": "2026-10-26",
-   "cat": "cat3",
-   "title": "荷蘭 Ksa 對 EOD Code 開出 3,700 萬歐元罰款",
-   "gp": ""
-  },
-  {
-   "key": "digiplus規劃2027年推出約60款在地化遊戲|",
-   "date": "2026-10-26",
-   "cat": "cat4",
-   "title": "DigiPlus 規劃 2027 年推出約 60 款在地化遊戲",
-   "gp": ""
-  },
-  {
-   "key": "playtime擴大影視與體育合作|",
-   "date": "2026-10-26",
-   "cat": "cat4",
-   "title": "PlayTime 擴大影視與體育合作",
-   "gp": ""
-  },
-  {
-   "key": "菲律賓司法部警告pogo以分散小據點捲土重來|",
-   "date": "2026-10-26",
-   "cat": "cat4",
-   "title": "菲律賓司法部警告 POGO 以分散小據點捲土重來",
-   "gp": ""
-  },
-  {
-   "key": "澳洲act修法草案機台改實名帳戶2045年降至1000台|",
-   "date": "2026-10-26",
-   "cat": "cat5",
-   "title": "澳洲 ACT 修法草案：機台改實名帳戶、2045 年降至 1,000 台",
-   "gp": ""
-  },
-  {
-   "key": "伊利諾州提議把5萬台影片博奕機納入自我排除計畫|",
-   "date": "2026-10-26",
-   "cat": "cat5",
-   "title": "伊利諾州提議把 5 萬台影片博奕機納入自我排除計畫",
-   "gp": ""
-  },
-  {
-   "key": "marinabaysands第三季ebitda年減206|",
-   "date": "2026-10-26",
-   "cat": "cat5",
-   "title": "Marina Bay Sands 第三季 EBITDA 年減 20.6%",
-   "gp": ""
-  },
   {
    "key": "sunkencityriches|stakelogic",
    "date": "2026-10-27",
@@ -3741,6 +3660,146 @@
    "date": "2026-11-25",
    "cat": "cat5",
    "title": "歐盟 2025 年無牌線上博彩收入 916 億歐元，占 72%",
+   "gp": ""
+  },
+  {
+   "key": "sugarmegarush|pragmaticplay",
+   "date": "2026-11-26",
+   "cat": "cat1",
+   "title": "Sugar Megarush",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "goldenempire10k|5ggames",
+   "date": "2026-11-26",
+   "cat": "cat1",
+   "title": "GOLDEN EMPIRE 10K",
+   "gp": "5G Games"
+  },
+  {
+   "key": "thegreenknightcamelotgold|playngo",
+   "date": "2026-11-26",
+   "cat": "cat1",
+   "title": "The Green Knight Camelot Gold",
+   "gp": "Play'n GO"
+  },
+  {
+   "key": "3mysteryxmasstockings|kalambagames",
+   "date": "2026-11-26",
+   "cat": "cat1",
+   "title": "3 Mystery Xmas Stockings",
+   "gp": "Kalamba Games"
+  },
+  {
+   "key": "wildhotchilipeppers|degenstudios",
+   "date": "2026-11-26",
+   "cat": "cat1",
+   "title": "Wild Hot Chili Peppers",
+   "gp": "DEGEN Studios"
+  },
+  {
+   "key": "grandpiggybuildnbreak|gamesglobal",
+   "date": "2026-11-26",
+   "cat": "cat1",
+   "title": "Grand Piggy Build 'n' Break",
+   "gp": "Games Global"
+  },
+  {
+   "key": "bonanzamoregold|bigtimegaming",
+   "date": "2026-11-26",
+   "cat": "cat1",
+   "title": "Bonanza More Gold",
+   "gp": "Big Time Gaming"
+  },
+  {
+   "key": "strangerfarms|delulugaming",
+   "date": "2026-11-26",
+   "cat": "cat1",
+   "title": "Stranger Farms",
+   "gp": "DELULU Gaming"
+  },
+  {
+   "key": "winterhotsevens|evoplay",
+   "date": "2026-11-26",
+   "cat": "cat1",
+   "title": "Winter Hot Sevens",
+   "gp": "Evoplay"
+  },
+  {
+   "key": "cluckingrush2maxxilabs|",
+   "date": "2026-11-26",
+   "cat": "cat2",
+   "title": "Clucking Rush 2 — Maxxi Labs",
+   "gp": ""
+  },
+  {
+   "key": "sagaming與betfounders合作整合真人娛樂場|",
+   "date": "2026-11-26",
+   "cat": "cat2",
+   "title": "SA Gaming 與 BetFounders 合作整合真人娛樂場",
+   "gp": ""
+  },
+  {
+   "key": "scientificgames取得bigbuckhunter授權進軍北美彩券|",
+   "date": "2026-11-26",
+   "cat": "cat3",
+   "title": "Scientific Games 取得 Big Buck Hunter 授權，進軍北美彩券",
+   "gp": ""
+  },
+  {
+   "key": "義大利sunbet與pragmaticplay合作上架400款slot與真人遊戲|",
+   "date": "2026-11-26",
+   "cat": "cat3",
+   "title": "義大利 Sunbet 與 Pragmatic Play 合作，上架 400 款 Slot 與真人遊戲",
+   "gp": ""
+  },
+  {
+   "key": "zitrodigital經imperiabet進入保加利亞|",
+   "date": "2026-11-26",
+   "cat": "cat3",
+   "title": "Zitro Digital 經 ImperiaBet 進入保加利亞",
+   "gp": ""
+  },
+  {
+   "key": "digiplus將提告追回巴西投資海外擴張計畫不變|",
+   "date": "2026-11-26",
+   "cat": "cat4",
+   "title": "DigiPlus 將提告追回巴西投資，海外擴張計畫不變",
+   "gp": ""
+  },
+  {
+   "key": "菲律賓央行提議把賭博交易排除在支付啟動服務之外|",
+   "date": "2026-11-26",
+   "cat": "cat4",
+   "title": "菲律賓央行提議把賭博交易排除在支付啟動服務之外",
+   "gp": ""
+  },
+  {
+   "key": "arenaplus公布alexeala香港公開賽的投注活躍度數據|",
+   "date": "2026-11-26",
+   "cat": "cat4",
+   "title": "ArenaPlus 公布 Alex Eala 香港公開賽的投注活躍度數據",
+   "gp": ""
+  },
+  {
+   "key": "同日三款新作都把獎金拆成分階段累積|",
+   "date": "2026-11-26",
+   "cat": "cat5",
+   "title": "同日三款新作都把獎金拆成分階段累積",
+   "gp": ""
+  },
+  {
+   "key": "foxwoods10月slot收入2860萬美元|",
+   "date": "2026-11-26",
+   "cat": "cat5",
+   "title": "Foxwoods 10 月 Slot 收入 2,860 萬美元",
+   "gp": ""
+  },
+  {
+   "key": "西班牙遊戲市場娛樂機台占303b型機在酒吧占198|",
+   "date": "2026-11-26",
+   "cat": "cat5",
+   "title": "西班牙遊戲市場：娛樂機台占 30.3%，B 型機在酒吧占 19.8%",
    "gp": ""
   }
  ],

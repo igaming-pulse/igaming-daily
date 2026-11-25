@@ -1,0 +1,37 @@
+{
+ "date": "2026-11-26",
+ "md": "state/2026-11-26-igaming-report.md",
+ "html": "reports/2026-11-26.html",
+ "items": 20,
+ "counts": {
+  "cat1": 9,
+  "cat2": 2,
+  "cat3": 3,
+  "cat4": 3,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 52,
+  "ok": 46,
+  "broken": 0,
+  "blocked": 6,
+  "images_dropped": 0,
+  "images": 20
+ },
+ "errors": [],
+ "warnings": [
+  "cat1-06 Grand Piggy Build 'n' Br｜與 cat1-05 Wild Hot Chili Peppers – 用了同一個來源連結",
+  "cat2-01 Clucking Rush 2 – Maxxi ｜與 cat1-05 Wild Hot Chili Peppers – 用了同一個來源連結",
+  "cat5-01 同日三款新作都把獎金拆成「分階段累積」｜與 cat1-05 Wild Hot Chili Peppers – 用了同一個來源連結",
+  "cat1-01 Sugar Megarush – Pragmat｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/latest-news/2026/11/25/218784/pragmatic-play-sugar-megarush-slot-preview/",
+  "cat1-05 Wild Hot Chili Peppers –｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/latest-news/2026/11/25/218806/games-global-degen-maxxi-labs-new-games-prizes-step-by-step/",
+  "cat1-06 Grand Piggy Build 'n' Br｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/latest-news/2026/11/25/218806/games-global-degen-maxxi-labs-new-games-prizes-step-by-step/",
+  "cat2-01 Clucking Rush 2 – Maxxi ｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/latest-news/2026/11/25/218806/games-global-degen-maxxi-labs-new-games-prizes-step-by-step/",
+  "cat4-01 DigiPlus 將提告追回巴西投資，海外擴張計｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/digiplus-seeks-recovery-of-brazil-investment-via-legal-action-maintains-overseas-expansion-plans",
+  "cat5-01 同日三款新作都把獎金拆成「分階段累積」｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/latest-news/2026/11/25/218806/games-global-degen-maxxi-labs-new-games-prizes-step-by-step/",
+  "cat1-03 🔁 正式上線：The Green Knight ｜與 2026-11-22 日報「The Green Knight Camelot」疑似重複（7 天內同一款／同一事件；超過 3 天要有新進展並標 🔁），已標 🔁"
+ ],
+ "fixes": [
+  "文末｜資料來源數 40 → 29（程式依來源連結去重計算）"
+ ]
+}

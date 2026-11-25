@@ -1,0 +1,347 @@
+# 🎰 iGaming 市場日報 2026-11-26（週四）
+
+🎰 Slot 9 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
+
+---
+
+## 📌 本日重點
+
+本日必看 Slot 新品：Sugar Megarush – Pragmatic Play
+本日市場趨勢總結：三區的訊息指向同一個方向：進入新市場與資金通路的門檻在變高，營運商得把「合規與回收風險」算進擴張計畫。菲律賓上市公司 DigiPlus 表示，巴西禁令後仍會提告追回牌照費，但海外擴張計畫不變，只會挑「市場夠合適」的地方；菲律賓央行（Bangko Sentral ng Pilipinas）則提議把賭博交易排除在新的支付啟動服務之外，等於再收緊一條賭博資金通路；產品面上，同一天發表的三款新作都把獎金拆成「分階段累積」，而不是一次給。對 PM 的意涵：評估新市場與新支付通路時，要預留政策反轉與通路被切斷的備案；內容端則可把分階段累積的設計當成留存玩法來比較。
+
+---
+
+## 🎰 Game Provider 新遊戲
+
+### 01 Sugar Megarush – Pragmatic Play
+🆕 新作預告（11/30 上線）
+
+Pragmatic Play 的 Sugar Rush 系列再出新作，官方資料顯示 11 月 30 日上線。這一代最大的變化在 Base Game：7 個轉軸每一軸的格數在每一轉都會改變（4 到 9 格），一軸可能是 5 顆大糖果、隔壁軸卻是 9 顆小糖果。每次中獎都會消除並補落，被清掉的位置會留下標記；同一轉中再有符號落在標記位置，該格就得到倍數，從 2x 起、每再中一次翻倍，上限 2,048x，是 Sugar Rush 1000 的 1,024x 的兩倍。Free Spins 中標記與倍數會保留到結束，帶 Treble Scatter 時改為每次三倍遞增，上限 2,187x。對 PM 的意義：這是菲律賓玩家熟悉的 Sugar Rush 骨幹上疊加「變動盤面＋格位倍數累積」，微創新在 Base Game 就看得到，可作為 Sugar Rush 系列在 PlayTime、BingoPlus 一類平台的上架候補。
+
+衍生調整：沿用 Sugar Rush 的 Cluster 消除與格位倍數，新增每軸格數逐轉變動、格位倍數上限提高到 2,048x，以及 Treble Free Spins 三倍遞增。
+
+參數：
+- 廠牌：Pragmatic Play
+- 核心機制：Sugar Rush 1000（格位倍數系，倍數上限提高一倍）
+- 微創新：每軸 4～9 格逐轉變動，格位倍數翻倍至 2,048x
+- 遊戲類型：線上電子老虎機
+- 盤面：7 軸，每軸 4～9 格，每轉變動
+- 消除/賠付：Cluster Pays（5 個以上同符號）＋連消補落
+- 最高倍率：50,000x
+- RTP：96.50%（營運商另可選 95.57%、94.56%）
+- 波動：中
+- 目標市場：沒有
+- 關鍵特色：變動盤面、格位倍數翻倍、Treble Free Spins、Bonus Buy 100x／500x／2,000x、Super Spins、Ante Bet 3x
+
+查證：OLBG 遊戲頁同樣列 11/30 上線、RTP 96.5%、最高 50,000x，與 European Gaming 一致。
+來源：[European Gaming](https://europeangaming.eu/portal/latest-news/2026/11/25/218784/pragmatic-play-sugar-megarush-slot-preview/) · [OLBG](https://www.olbg.com/slots/games/sugar-megarush) · 日期：2026-11-25
+圖片：https://media.europeangaming.eu/uploads/2026/11/sugar-megarush-slot-art.webp
+
+### 02 GOLDEN EMPIRE 10K – 5G Games
+
+5G Games 官網 11 月 25 日上線《GOLDEN EMPIRE 10K》，印加文明主題的 Multiways 線上老虎機。Base Game 有三個值得看的設計：中獎的金框符號會變 Wild，而且在多次連消中一直留在盤面；紅框符號會變成帶 2x 倍數的擴展 Wild，兩個還能合併成巨大的 4x Wild；另有長條符號佔據更多格子。Free Games 的倍數會保留，並可買 Super Free Spins（保證出現紅框符號）。對 PM 的意義：5G Games 在菲律賓 Top200 的份額高於不少一線大廠，這款對標 JILI 的 Golden Empire 系列，「金框 Wild 跨連消保留」是 Base Game 就看得到的差異，優先確認 PlayTime、BingoPlus 是否上架。
+
+衍生調整：沿用 Golden Empire 系的金框變 Wild，新增金框 Wild 跨連消保留、紅框 2x 擴展 Wild 合併成 4x，以及 Multiways 長條符號。
+
+參數：
+- 廠牌：5G Games
+- 核心機制：Golden Empire 系（代數未確認）
+- 微創新：金框 Wild 跨連消保留，紅框擴展 Wild 可合併
+- 遊戲類型：線上電子老虎機
+- 盤面：Multiways（官網未列軸數與列數）
+- 消除/賠付：Multiways＋Cascade 連消
+- 最高倍率：10,000x
+- RTP：96.97%
+- 波動：中
+- 目標市場：沒有
+- 關鍵特色：金框 Wild 保留、紅框擴展 Wild、長條符號、Free Games 倍數保留、Super Free Spins 購買
+
+查證：無新聞稿，主來源為 5G Games 官網新作頁（上線日 11/25）；盤面軸列數已查官網與搜尋仍無。
+來源：[5G Games 官網](https://www.5ggames.com/en/news/golden-empire-10k-multiways-slot-with-cascades-and-expanding-wilds/) · 日期：2026-11-25
+圖片：https://www.5ggames.com/_astro/5gLogo.aA7HeDyH.png
+
+### 03 🔁 正式上線：The Green Knight Camelot Gold – Play'n GO
+🔁 正式上線（11/22 預告，11/26 官網上線日）
+
+11/22 日報以預告收錄的《The Green Knight Camelot Gold》，今天是官網標示的上線日（11 月 26 日）。新進展是正式開放：Play'n GO 官網遊戲頁已上架，描述 Base Game 落地的 Scatter 會累積進十級的 Bonus Trail，每集滿 2 個升一級，各級給 Wild 或額外 Bonus Spins，進度依投注額分別保留；Bonus Spins 中的 Multiplier Wild 帶著軌道當下的倍數，Green Knight's Bounty 則有機會觸發 3 次 Re-Spin（每次落 2 個 Wild）。對 PM 的意義：免費遊戲的獎勵強度改在 Base Game 就能累積並看見，已進入可實際上線測試階段，可以排進 Play'n GO 內容的上架評估。
+
+衍生調整：承接前作的騎士與 Wild 倍數主題，新增 Bonus Trail 十級累積、依投注額保存進度與 Bounty 觸發 Re-Spin。
+
+參數：
+- 廠牌：Play'n GO
+- 核心機制：-
+- 微創新：Base Game 收 Scatter 升十級階梯定倍率
+- 遊戲類型：線上電子老虎機
+- 盤面：5×3
+- 消除/賠付：20 條賠付線
+- 最高倍率：15,000x
+- RTP：96.22%
+- 波動：中高
+- 目標市場：沒有
+- 關鍵特色：十級 Bonus Trail、Multiplier Wild 最高 100x、最多 15 次 Bonus Spins、Green Knight's Bounty Re-Spin
+
+查證：官網頁只列玩法與上線日 11/26，盤面、RTP、最高倍率沿用 11/22 日報查得的 iGaming Business、iGamingToday 資料。
+來源：[Play'n GO 官網](https://www.playngo.com/games/the-green-knight-camelot-gold) · [iGaming Business](https://igamingbusiness.com/casino-games/the-green-knight-camelot-gold-by-playn-go/) · 日期：2026-11-26
+圖片：https://igamingbusiness.com/wp-content/uploads/2026/11/the-green-knight.jpg
+
+### 04 3 Mystery Xmas Stockings – Kalamba Games
+
+Kalamba Games 的聖誕新作《3 Mystery Xmas Stockings》是 3×3、5 條賠付線的 Hold & Win 老虎機，最高 50,000x。Base Game 的巧思是把禮物符號按軸分工：第一軸只會出現獎金（prize）禮物、第二軸是倍數（multi）、第三軸是收集（collect），標準禮物則在任何軸都可能出現，值 0.1x 到 4x。三個禮物且至少一個是功能禮物就觸發 Hold & Win，初始 3 次旋轉，盤面填滿後把所有禮物值累積到中軸，再進入 lucky round。另有 Buy Bonus，可用 23x、41x、103x 直接啟動 1、2 或 3 個功能。對 PM 的意義：3×3 小盤面搭配「依軸分工的功能符號」，讀得懂又節奏快，適合偏好小盤面的玩家，但最高倍率與買功能價格需另評估。
+
+衍生調整：全新聖誕款，沿用 3×3 Hold & Win，新增獎金／倍數／收集禮物各占一軸的分工。
+
+參數：
+- 廠牌：Kalamba Games
+- 核心機制：-
+- 微創新：獎金、倍數、收集禮物各占一軸，Base Game 即可湊功能
+- 遊戲類型：線上電子老虎機
+- 盤面：3×3
+- 消除/賠付：5 條賠付線＋Hold & Win
+- 最高倍率：50,000x
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：依軸分工的禮物符號、Hold & Win 初始 3 次旋轉、lucky round、Buy Bonus 23x／41x／103x
+
+查證：RTP、波動已查 SlotBeats 內頁與搜尋，仍無此款資料。
+來源：[SlotBeats](https://slotbeats.com/latest-slots/3-mystery-xmas-stockings-kalamba-games/) · 日期：2026-11-26
+圖片：https://resources.slotbeats.com/slotbeats/2026/11/3-Mystery-Xmas-Stockings-Kalamba-Games.jpg
+
+### 05 Wild Hot Chili Peppers – DEGEN Studios
+
+DEGEN Studios 11 月 25 日上線《Wild Hot Chili Peppers》，沙漠搖滾音樂節主題，三位辣椒樂手各自對應不同的 Wild。核心是 Nudging Chili Wilds：Wild 可以只露出一部分，再推進到定位蓋滿整軸，每推進一次倍數上升，綠、黃、紅三種 Wild 的倍數進程各不相同；同一條賠付線上有多個 Wild 時倍數會相乘。Free Spins 分三級（8、10、12 次），VIP 層一開始就有黏著的 x64 Wild；MAX MODE 則提供另一條直達 10,000x 最高倍率的路線。對 PM 的意義：Wild 倍數在 Base Game 就會一路堆疊並相乘，這類「看得到倍數成長」的設計符合菲律賓玩家偏好，但 DEGEN 在亞洲的上架紀錄有限，先確認分銷管道。
+
+衍生調整：全新款，Wild 的推進倍數與多 Wild 相乘為主要設計。
+
+參數：
+- 廠牌：DEGEN Studios
+- 核心機制：-
+- 微創新：Wild 可半入場再推進蓋軸，每推進一次倍數上升且相乘
+- 遊戲類型：線上電子老虎機
+- 盤面：5 軸（列數未公布）
+- 消除/賠付：賠付線，多個 Wild 倍數相乘
+- 最高倍率：10,000x
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：Nudging Chili Wilds、三級 Free Spins（含 VIP x64 黏著 Wild）、MAX MODE
+
+查證：盤面列數、RTP、波動已查 G3 Newswire、EEGaming、European Gaming 與搜尋，仍無。
+來源：[G3 Newswire](https://g3newswire.com/degen-studios-turns-up-the-heat-with-wild-hot-chili-peppers/) · [EEGaming](https://eegaming.org/latest-news/2026/11/25/53866/degen-studios-launches-wild-hot-chili-peppers-slot/) · [European Gaming](https://europeangaming.eu/portal/latest-news/2026/11/25/218806/games-global-degen-maxxi-labs-new-games-prizes-step-by-step/) · 日期：2026-11-25
+圖片：https://g3newswire.com/wp-content/uploads/2026/11/WildHotChiliPeppers-e1795605062346.jpg
+
+### 06 Grand Piggy Build 'n' Break – Games Global
+
+Games Global 發行、Posh Monkey Studios 開發的《Grand Piggy Build 'n' Break》是 5×3 老虎機，11 月 25 日上線。遊戲從 Build Mode 開始：任一軸落下的 Piggy Coin 會填滿存錢筒，集滿 135 枚後切換成 Break Mode，錢幣被錘子取代，每個落下的錘子都有機會敲破存錢筒並觸發 Jackpot Bonus。另有銅、銀、金三種硬幣出現在第 1、2、4、5 軸，當收集符號 CashZorb 落在中軸時結算，三個硬幣池各自能觸發獎金玩法。Jackpot 共六級，Grand 起始 5,000x，每出現一個 Jackpot Enhancer 加 1,250x，上限 10,000x。對 PM 的意義：進度條式的「集滿再切換模式」讓 Base Game 有明確目標，適合做留存導向的內容比較，但 RTP 未公布，不宜先預估收益。
+
+衍生調整：全新款，以 Coin Collect 為底，新增 Build／Break 模式切換與 CashZorb 收集機制。
+
+參數：
+- 廠牌：Games Global
+- 核心機制：-
+- 微創新：集滿 135 枚硬幣切換敲豬模式觸發大獎
+- 遊戲類型：線上電子老虎機
+- 盤面：5×3
+- 消除/賠付：Coin Collect＋CashZorb 收集、三個硬幣池獎金
+- 最高倍率：Grand Jackpot 最高 10,000x
+- RTP：未公布
+- 波動：未公布
+- 目標市場：沒有
+- 關鍵特色：Build 'n' Break、三個 Coin Bonus、六級 Jackpot、Jackpot Enhancer
+
+查證：RTP、波動已查 EEGaming、iGaming Future、European Gaming，仍無。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/11/25/53876/games-global-and-posh-monkey-studios-bring-home-the-bacon-in-grand-piggy-build-n-break/) · [iGaming Future](https://igamingfuture.com/games-global-and-posh-monkey-studios-bring-home-the-bacon-in-grand-piggy-build-n-break/) · [European Gaming](https://europeangaming.eu/portal/latest-news/2026/11/25/218806/games-global-degen-maxxi-labs-new-games-prizes-step-by-step/) · 日期：2026-11-25
+圖片：https://media.europeangaming.eu/uploads/2026/11/grand-piggy-build-n-break-games-global.webp
+
+#### 換皮／資料不足（精簡卡片）
+
+##### Bonanza More Gold – Big Time Gaming
+核心機制：-
+判定：Bonanza Megaways 十週年續作，新點子（Feature Wheel／Super Wheel）都在 Free Spins 裡。
+參數：盤面 6 軸最多 117,649 ways｜最高倍率 100,000x｜RTP 最高 96.52%
+摘要：Bonanza 系列續作，Free Spins 用轉盤挑選強化項目，另有 Power Play 保證至少 10,000 Megaways。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/11/25/53868/big-time-gaming-launches-bonanza-more-gold-sequel/) · [SlotsLaunch](https://slotslaunch.com/big-time-gaming/bonanza-more-gold) · 日期：2026-11-25
+圖片：https://eegaming.org/api/eeg-media/2ee2b4c7-6c60-4590-b64d-5a56994a5e0d.webp
+
+##### Stranger Farms – DELULU Gaming
+核心機制：-
+判定：泛用的 Hold & Win，新意主要在題材與兩個獎金玩法，Base Game 看不出差異。
+參數：盤面 未公布｜最高倍率 10,000x｜RTP 92%～96%
+摘要：DELULU Gaming 第十款作品，惡魔羊與惡魔貓農場主題，兩個獎金玩法、四種獎池。
+來源：[Focus Gaming News](https://focusgn.com/delulu-gaming-stranger-farms-slot) · 日期：2026-11-25
+圖片：https://focusgn.com/wp-content/uploads/2026/11/DELULU-Gaming-Stranger-farms-1200x630.jpg
+
+##### Winter Hot Sevens – Evoplay
+核心機制：-
+判定：經典 3×3 水果盤加冬季主題，只有「九格同符號給 2x」一個小機制。
+參數：盤面 3×3｜最高倍率 未公布｜RTP 未公布
+摘要：Evoplay 的冬季 3×3 水果機，九格全是同一種水果時贏分乘 2。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/11/25/53870/evoplay-launches-winter-hot-sevens-slot/) · [JAMMA](https://www.jamma.it/aziende/evoplay-lancia-winter-hot-sevens-la-nuova-slot-a-tema-invernale-con-moltiplicatore-363310) · 日期：2026-11-25
+圖片：https://eegaming.org/api/eeg-media/abf905e9-98de-40af-8d00-35c23d4168e4.jpg
+
+---
+
+## 🕹️ 非 Slot 新內容
+
+### 01 Clucking Rush 2 – Maxxi Labs
+
+Maxxi Labs 推出休閒遊戲《Clucking Rush 2》：玩家帶著小雞穿越車流，每成功過一條車道倍數就上升，要決定繼續前進還是兌現；若被車撞到，進度歸零回到第一步。遊戲有四種難度，各有專屬的小雞角色與預設倍數階梯，開局另有兩個加速選項：RANDOM 讓小雞隨機跳幾格，MAX 則把小雞裝進砲管一次衝過馬路，成功率較低。這是典型的「逐步升倍、隨時可兌現」的 Crash 型小遊戲。對 PM 的意義：這類單人決策型小遊戲在菲律賓的接受度高，MAX 這類一次衝頂的選項可當作高風險玩法的對照。
+
+參數：
+- 遊戲類型：小遊戲（逐步升倍、可隨時兌現的穿越馬路遊戲）
+- 最高倍率：未公布
+- RTP：未公布
+- 目標市場：沒有
+- 關鍵特色：四種難度與專屬角色、RANDOM 隨機跳格、MAX 砲管一次衝刺
+
+查證：最高倍率與 RTP 已查 EEGaming 與 European Gaming 同題報導，仍未列出。
+來源：[EEGaming](https://eegaming.org/latest-news/2026/11/25/53873/maxxi-labs-send-the-feathers-flying-in-clucking-rush-2/) · [European Gaming](https://europeangaming.eu/portal/latest-news/2026/11/25/218806/games-global-degen-maxxi-labs-new-games-prizes-step-by-step/) · 日期：2026-11-25
+圖片：https://eegaming.org/api/eeg-media/ed82fd1e-81c6-4f27-8aaf-aaf86d9d7ec9.jpg
+
+### 02 SA Gaming 與 BetFounders 合作整合真人娛樂場 – SA Gaming
+
+真人荷官內容商 SA Gaming 與線上賭場軟體商 BetFounders 宣布策略合作，把 SA Gaming 的真人娛樂場產品直接整合進 BetFounders 的技術平台。使用 BetFounders 平台的營運商因此可以直接取用 SA Gaming 的傳統桌上遊戲內容，不必自行對接；這也等於替 SA Gaming 增加一條國際分銷通路。新聞稿沒有公布具體的遊戲清單、上線時程或目標市場。對 PM 的意義：亞洲真人內容商正透過第三方平台擴大歐洲、拉美的分銷，評估真人內容供應商時可多看「平台整合數」。
+
+參數：
+- 遊戲類型：Live Game（真人荷官桌上遊戲，平台整合）
+- 目標市場：沒有
+- 關鍵特色：真人娛樂場內容直接整合進 BetFounders 平台、擴大國際分銷
+
+查證：新聞稿來自 Zona de Azar，未列遊戲清單與時程。
+來源：[Zona de Azar](https://zonadeazar.com/juego-online/sa-gaming-and-betfounders-partner-to-expand-live-casino-offering/) · 日期：2026-11-25
+圖片：https://zonadeazar.com/wp-content/uploads/2026/11/Captura-de-pantalla-2026-11-24-105407-700x459.png
+
+---
+
+## 🤝 動態：主流 GP／平台
+
+### 01 Scientific Games 取得 Big Buck Hunter 授權，進軍北美彩券
+
+Light & Wonder 旗下彩券事業 Scientific Games 與街機《Big Buck Hunter》創作公司 Play Mechanix 簽下獨家授權，要把這款已有 26 年歷史的光槍狩獵街機帶進北美的實體與數位彩券。美國與加拿大的玩家將可玩到以它為主題的即開刮刮樂、Fast Play、開獎遊戲與數位遊戲，以及二次中獎促銷。Big Buck Hunter 是 Scientific Games 授權品牌組合中的第一款現代街機遊戲，該組合已有逾 100 個流行文化、體育與娛樂品牌；2026 會計年度授權與商標品牌為美國彩券帶來逾 35 億美元的零售與數位銷售。對 PM 的意義：大廠持續用成熟 IP 跨通路（實體、數位、彩券）延伸，IP 熱度是內容選品的重要加分項。
+
+重點：類型 合作（授權） ｜ 對象 Scientific Games、Play Mechanix、Dimensional Branding Group ｜ 影響 街機 IP 進入北美彩券，擴大授權品牌跨通路
+
+來源：[Gaming Intelligence](https://www.gamingintelligence.com/sectors/lottery-sectors/239086-scientific-games-to-develop-big-buck-hunter-omnichannel-lottery-games/) · 日期：2026-11-25
+圖片：https://www.gamingintelligence.com/wp-content/uploads/2026/11/SG_BigBuckHunter.jpg
+
+### 02 義大利 Sunbet 與 Pragmatic Play 合作，上架 400 款 Slot 與真人遊戲
+
+義大利營運商 Sunbet 宣布與 Pragmatic Play 的新合作，直接把 Pragmatic Play 與 Pragmatic Play Live 的完整目錄整合進 Sunbet 大廳，共 400 款 Slot 與真人遊戲。文中點名的代表作包括《Gates of Olympus》（含 1000 與 Super Scatter 版）、《Cyber Heist City》、《Big Bass》系列與《Sweet Rush Bonanza》，內容放在 Sunbet.it 的 Pragmatic Play 專區，涵蓋賭場與真人賭場兩個版面。對 PM 的意義：大廠完整目錄一次上架，代表營運商把內容差異化交給單一強勢供應商，菲律賓平台洽談內容合作時也可用「完整目錄＋專區」當談判項目。
+
+重點：類型 合作 ｜ 對象 Sunbet、Pragmatic Play ｜ 影響 義大利受監理市場再添一個 Pragmatic Play 完整目錄通路
+
+來源：[AGIMEG](https://www.agimeg.it/sunbet-pragmatic-play-casino-400-titoli/) · 日期：2026-11-26
+圖片：https://agimeg.b-cdn.net/wp-content/uploads/2026/11/Sunbet-pos-RGB.png
+
+### 03 Zitro Digital 經 ImperiaBet 進入保加利亞
+
+Zitro 的線上部門 Zitro Digital 與保加利亞營運商 ImperiaBet 簽約，ImperiaBet 現在提供 Zitro Digital 的完整線上遊戲目錄，包含源自 Zitro 實體機的 King Fu Frog、Legendary Sword、Cash Totems、Link King 等系列，以及專為線上通路開發的遊戲。Zitro Digital 商務長 José Javier Martí 表示，這是東歐市場的重要里程碑，並強調東歐仍是重點地區。對 PM 的意義：實體機大廠把陸上熱門系列搬上線的路徑愈來愈成熟，Zitro 以聚合與直簽並行擴張受監理市場，可觀察其在亞洲的授權動向。
+
+重點：類型 市場進入 ｜ 對象 Zitro Digital、ImperiaBet ｜ 影響 實體機品牌的線上版擴張到保加利亞受監理市場
+
+來源：[G3 Newswire](https://g3newswire.com/imperiabet-adds-games-from-zitro-digital-in-bulgaria/) · [Gaming International Online](https://gaminginternational.online/zitro-digital-expands-its-presence-in-bulgaria-with-imperia-bet/) · 日期：2026-11-25
+圖片：https://g3newswire.com/wp-content/uploads/2026/11/ImperiabetZitro.jpg
+
+---
+
+## 🇵🇭 動態：菲律賓 GP／平台
+
+### 01 DigiPlus 將提告追回巴西投資，海外擴張計畫不變
+
+菲律賓上市公司 DigiPlus Interactive（BingoPlus、ArenaPlus、GameZone 的母公司）表示，巴西禁止線上博彩後，將持續提告追回投資，尤其是占巴西投入資本大宗的牌照費。DigiPlus 在 2025 年 9 月 22 日軟啟動首個巴西品牌，同年 10 月宣布策略性暫停；今年 9 月巴西總統發布臨時措施禁止固定賠率投注與線上博彩的經營、提供、仲介與廣告。投資人關係主管 Celeste Jovenir 指出，巴西聯邦最高法院已凍結下級法院對禁令的訴訟，國會也將臨時措施延長 60 天、批准期限移到 2027 年 3 月。她強調這不改變海外投資方向，但要「市場適合」，並以巴西、南非這類年輕人口的新興市場為例；南非目前仍在調整進入策略，4 月已取得西開普省的牌照。對 PM 的意義：平台集團的海外擴張要把政策反轉風險算進預算，沉沒成本以牌照費為主，後續海外內容需求可觀察南非進展。
+
+重點：類型 市場進入／法務 ｜ 對象 DigiPlus、BingoPlus、ArenaPlus、GameZone ｜ 影響 巴西受阻，DigiPlus 轉向挑選合適的新興市場，南非仍在規劃
+
+查證：GGRAsia 稱「maintains overseas expansion plans」，與 Philstar 引述的發言一致。
+來源：[GGRAsia](https://www.ggrasia.com/digiplus-seeks-recovery-of-brazil-investment-via-legal-action-maintains-overseas-expansion-plans) · [Philstar](https://www.philstar.com/business/2026/11/26/2572598/digiplus-takes-legal-action-recoup-brazil-investments/amp/) · 日期：2026-11-25
+圖片：https://media.philstar.com/photos/2026/11/25/11_2026-11-25_19-01-31584_thumbnail.jpg
+
+### 02 菲律賓央行提議把賭博交易排除在支付啟動服務之外
+
+菲律賓央行（Bangko Sentral ng Pilipinas，BSP）在一份 11 月 19 日的草案通告中，提議把賭博交易排除在其準備納管的「支付啟動服務」（payment initiation services，PIS）之外，範圍涵蓋賭場及其他賭博、投注、下注營運商，不論線上或實體，也包含博彩系統管理者、平台營運商、聯盟行銷夥伴與任何直接參與賭博資金流動的服務商。PIS 是讓經授權的第三方在客戶同意下，直接從銀行或電子錢包帳戶發起付款的通路，服務商本身不持有資金。BSP 說明這只限制經 PIS 的付款，並不代表禁止所有電子支付給博彩業者。BSP 在 2025 年 8 月就曾要求受監管機構在 48 小時內移除付款應用程式與網站上的賭博連結。對 PM 的意義：賭博資金通路持續被切開，入金設計要預留非 PIS 的替代方案，並追蹤草案後續諮詢結果。
+
+重點：類型 政府法規 ｜ 對象 Bangko Sentral ng Pilipinas、賭場與線上博彩營運商 ｜ 影響 新的支付啟動通路預計不開放給賭博交易
+
+來源：[iGamingToday](https://www.igamingtoday.com/bangko-sentral-ng-pilipinas-proposes-gambling-restrictions-for-payment-initiation-services/) · 日期：2026-11-25
+圖片：https://www.igamingtoday.com/wp-content/uploads/2026/11/Bangko-Sentral-ng-Pilipinas-Proposes-Gambling-Restrictions-for-Payment-Initiation-Services.jpg
+
+### 03 ArenaPlus 公布 Alex Eala 香港公開賽的投注活躍度數據
+
+ArenaPlus 公開的平台數據顯示，菲律賓網球選手 Alex Eala 在 11 月 3 日至 8 日的香港公開賽（五場打進決賽）創下她亞洲賽程三站中的最高場均投注活躍度：場均投注額比東京站高 40%、比寧波站高 15.4%。在參與她香港賽事的 ArenaPlus 使用者中，約 46% 也關注過她在寧波或東京的賽事。Eala 今年排名由 53 升至生涯新高第 15，8 月拿下個人首座 WTA 冠軍。本則為 ArenaPlus 提供數據、經 BusinessWorld 刊出的品牌內容。對 PM 的意義：本地運動員的賽程是明確的投注活躍度驅動，ArenaPlus 以此做用戶留存與內容行銷，可作為運動投注活動設計的參考。
+
+重點：類型 運營活動／數據 ｜ 對象 ArenaPlus、Alex Eala ｜ 影響 本地明星賽事帶動平台投注活躍度，並有跨站追蹤的重複使用者
+
+來源：[BusinessWorld](https://bworldonline.com/sports/2026/11/25/796720/alex-ealas-remarkable-season-generates-highest-average-sports-betting-activity-during-asian-swing/) · 日期：2026-11-25
+圖片：http://bworldonline.com/wp-content/uploads/2026/10/Tennis-2026-default.jpg
+
+---
+
+## 📊 市場數據 & 趨勢
+
+### 01 同日三款新作都把獎金拆成「分階段累積」
+
+European Gaming 整理 11 月 25 日發表的三款新作：Posh Monkey Studios 與 Games Global 的《Grand Piggy Build 'n' Break》先集滿 135 枚 Piggy Coin 才進入敲破存錢筒的 Break Mode；DEGEN Studios 的《Wild Hot Chili Peppers》讓 Wild 倍數隨每次推進上升並相乘；Maxxi Labs 的《Clucking Rush 2》每過一條車道倍數就上升，直到兌現或被撞。三款的共通點是獎金不是一次給，而是在過程中分階段長大，也各自提供直達頂獎的捷徑（MAX MODE、MAX 下注）。對 PM 的意義：「進度可見、倍數累積」的設計在不同品類同時出現，內容評估時可把這類機制獨立成一個比較維度。
+
+重點：趨勢 分階段累積獎金 ｜ 範圍 Slot 與小遊戲 ｜ 影響 同日三款新作以「看得到的進度」取代一次性大獎
+
+來源：[European Gaming](https://europeangaming.eu/portal/latest-news/2026/11/25/218806/games-global-degen-maxxi-labs-new-games-prizes-step-by-step/) · 日期：2026-11-25
+圖片：https://media.europeangaming.eu/uploads/2026/11/new-games-prizes-in-stages-piggy-chili-chicken.webp
+
+### 02 Foxwoods 10 月 Slot 收入 2,860 萬美元，向康乃狄克州撥付 720 萬美元
+
+美國 Foxwoods Resort Casino 公布 2026 年 10 月 Slot 收入 2,860 萬美元，依 Mashantucket Pequot 部落與州政府的 Slot 收入分成協議，向康乃狄克州直接撥付 720 萬美元。當月賓客帶走超過 2,030 萬美元獎金，全場共開出 2,866 筆大獎。自 1993 年以來，部落累計從 Foxwoods 的 Slot 收入中撥給州預算超過 48.9 億美元。對 PM 的意義：這是實體 Slot 場域單月的收入與大獎頻率樣本，可與線上 Slot 的 RTP、獎金節奏設計對照。
+
+重點：類型 營收數據 ｜ 範圍 美國康乃狄克州 Foxwoods ｜ 影響 單一賭場 Slot 月收入與大獎筆數的公開樣本
+
+來源：[Indian Gaming](https://www.indiangaming.com/foxwoods-reports-28-6m-in-october-slot-revenue/) · 日期：2026-11-25
+圖片：https://www.indiangaming.com/wp-content/uploads/2023/09/Foxwoods_REVR.jpg
+
+### 03 西班牙遊戲市場：娛樂機台占 30.3%，B 型機在酒吧占 19.8%
+
+Sector del Juego 引用西班牙遊戲年鑑的市場分布：娛樂機台合計占整體遊戲市場 30.3%，其中酒吧裡的 B 型機最高（19.8%），其次是遊戲廳（9.1%）與賓果廳（1.4%）。按營運商看，國家彩券 SELAE 占 34.8%、盲人組織 ONCE 占 10.5%，彩券與公共遊戲合計 45.8%；私人實體遊戲占 41.9%，其中賓果 4.3%、實體投注 3.8%、賭場 3.5%；線上遊戲占 12.2%，居三大區塊的第三。對 PM 的意義：成熟市場裡實體機台仍是最大單一區塊，線上占比只有一成多，評估歐洲市場的 Slot 內容機會時要分清實體與線上的規模差距。
+
+重點：類型 市場份額 ｜ 範圍 西班牙 ｜ 影響 實體機台仍占三成，線上遊戲約 12.2%
+
+查證：同一份年鑑中，賓果廳 B 型機 2025 年「juego real」為 1.655 億歐元（Sector del Juego 另文）。
+來源：[Sector del Juego](https://sectordeljuego.com/2026/11/25/las-maquinas-recreativas-representan-el-303-del-mercado-del-juego-en-espana-con-las-de-hosteleria-a-la-cabeza/) · [Sector del Juego（賓果廳機台）](https://sectordeljuego.com/2026/11/25/las-maquinas-b-alojadas-en-bingos-de-espana-generaron-1655-millones-de-euros/) · 日期：2026-11-25
+圖片：https://sectordeljuego.com/wp-content/uploads/2026/11/DISTRIBUCION.jpg
+
+---
+
+本日日報查詢約 46 個網站，其中提取 40 個資料來源並進行交叉比對
+
+---
+
+## 🗓️ 來源日期紀錄（內部，不渲染）
+
+- Sugar Megarush：European Gaming metadata 2026-11-25T12:32+02:00（台北 18:32）；OLBG 遊戲頁（佐證，無日期）。官方上線日 11/30（距今 4 天，預告）。
+- GOLDEN EMPIRE 10K：5G Games 官網 time 標籤 2026-11-25；harvest 官網上線日 11/25。
+- Green Knight Camelot Gold：Play'n GO 官網 JSON-LD 2026-11-26（只到日）；iGaming Business 2026-11-18（佐證，窗外）；11/22 已以預告收錄，今天為官網上線日。
+- 3 Mystery Xmas Stockings：SlotBeats metadata 2026-11-25T16:28Z（台北 11/26 00:28）。
+- Wild Hot Chili Peppers：G3 Newswire 2026-11-25 11:11 GMT；EEGaming 2026-11-25T08:28Z；European Gaming 2026-11-25T15:42+02:00。
+- Grand Piggy Build 'n' Break：EEGaming 2026-11-25T09:10Z；iGaming Future 11/25 16:00 TPE（harvest）。
+- Bonanza More Gold：EEGaming 2026-11-25T08:37Z；SlotsLaunch 上線日 11/25。
+- Stranger Farms：Focus Gaming News 2026-11-25T07:39-03:00。
+- Winter Hot Sevens：EEGaming 2026-11-25T08:54Z；JAMMA 11/25 16:50 TPE。
+- Clucking Rush 2：EEGaming 2026-11-25T09:03Z。
+- SA Gaming × BetFounders：Zona de Azar 2026-11-25T01:22-03:00。
+- Big Buck Hunter：Gaming Intelligence metadata 2026-11-25T09:32:50Z。
+- Sunbet × Pragmatic Play：AGIMEG metadata 2026-11-25T16:32Z（台北 11/26 00:32）。
+- Zitro Digital × ImperiaBet：G3 Newswire 2026-11-25T11:55Z；Gaming International Online 11/25 21:21 TPE。
+- DigiPlus 巴西：GGRAsia RSS 2026-11-25 14:25 TPE（頁面被擋 403，採 harvest RSS 時間）；Philstar 網址日期 2026/11/26（佐證，頁面 metadata 為 1970 預設值，不採用）。
+- BSP PIS：iGamingToday metadata 2026-11-25T01:59Z。
+- ArenaPlus Eala：BusinessWorld metadata 2026-11-25T10:52Z。
+- 分階段累積趨勢：European Gaming Firecrawl metadata 2026-11-25T15:42+02:00。
+- Foxwoods：Indian Gaming metadata 2026-11-25T10:57Z。
+- 西班牙市場分布：Sector del Juego metadata 2026-11-25T06:42Z。
+
+剔除：Xmas Guardians Megaways — Pragmatic Play（官方上線日 11/26，但只有 iGamingToday 10/30 評測，無官方頁或新聞稿，主來源超過 7 天保鮮；今日新作已 ≥6 款，依規則不補庫存）
+剔除：Legend of the Pixiu Flip n Win — IGT（只有 SlotsLaunch 條目，搜尋查無玩法資料，進庫存）
+剔除：Croco Clover — Hacksaw Gaming（只有 SlotsLaunch 條目，搜尋查無玩法資料，進庫存）
+剔除：Le Gift Grabber — Hacksaw Gaming（11/26 上線，但只有 casinos.com 評測、無新聞稿與發布日期）
+剔除：Trigger Tree — PopOK Gaming（11/21 已收，無新進展）
+剔除：Raptor 3 DoubleMax — Yggdrasil、Lucky Jaguar Ultimate — TaDa Gaming（11/25 已收）
+剔除：Thanksgiving Riches — Onlyplay（Hold & Win 泛用玩法、名額已滿，進庫存）
+剔除：EEZE 每日固定收錄（近期無 EEZE 新消息，最近為 10 月 BetConstruct AI 分銷）
+剔除：歐盟無牌線上博彩 2,248 億歐元報告（ECA／GCI，與 11/25 已收的 2025 年無牌收入 916 億歐元為同一份研究）
+剔除：Betano 取得 PAGCOR 牌照（11/24 已收）

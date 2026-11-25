@@ -1,43 +1,43 @@
-🎰 iGaming 市場日報 2026-11-25（週三）
-🎰 Slot 9 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-11-26（週四）
+🎰 Slot 9 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・JILI《Super Ace Mr.360》：Super Ace 系加 360 WILD 與 x36／x360 特殊軸
-・PAGCOR 對 Lucky Spin 彩金遊戲營運商開罰，查無操縱但通知不符手冊
-・CLSA 再下修澳門 2027 賭收預測 8.1%，預估年減 3.4%
+・Pragmatic Play《Sugar Megarush》11/30 上線：每軸 4～9 格逐轉變動、格位倍數上限 2,048x
+・DigiPlus 將提告追回巴西牌照費，海外擴張不變；菲律賓央行擬把賭博排除在支付啟動服務外
+・同日三款新作（Grand Piggy、Wild Hot Chili Peppers、Clucking Rush 2）都走「分階段累積獎金」
 
 🎰 Slot 新遊戲
-01 [原型 N+1] Super Ace Mr.360 – JILI
-02 [原創] 3 Whales of Fortune Lock'em & Load'em – 24Karot
-03 [原創] Fusion Fever – Fantasma Games
-04 [原創] 3 Flaming Jokers Double Collect – 4ThePlayer
-・換皮／資料不足：Rumble Riches – Santa's Sleigh of Gold、Elf Coin Hunt 3 Pots、Lucky Jaguar Ultimate、Raptor 3 Doublemax、Royal Lion Delights
+01 [N+1] 🆕 Sugar Megarush – Pragmatic Play（11/30 上線）
+02 [N+1] GOLDEN EMPIRE 10K – 5G Games
+03 [原創] 🔁 The Green Knight Camelot Gold – Play'n GO（正式上線）
+04 [原創] 3 Mystery Xmas Stockings – Kalamba Games
+05 [原創] Wild Hot Chili Peppers – DEGEN Studios
+06 [原創] Grand Piggy Build 'n' Break – Games Global
+・換皮／資料不足：Bonanza More Gold、Stranger Farms、Winter Hot Sevens
 
 🕹️ 非 Slot 新內容
-01 Buffalo Bahati – PopOK Gaming
-02 All Seasons Blackjack – ICONIC21
-03 PokerStars 將於 11 月 26 日退出紐西蘭
+01 Clucking Rush 2 – Maxxi Labs
+02 SA Gaming 與 BetFounders 合作整合真人娛樂場
 
 🤝 動態：主流 GP／平台
-01 Hacksaw Gaming 經 BetRivers 在德拉瓦上線，成為美國第六州
-02 ELA Games 與 Novibet 合作，首批 28 款 Slot 上架
-03 Bally's Intralot 預計 2027 年 1 月完成收購 Evoke
-04 Allwyn 延後倫敦或紐約二次上市
+01 Scientific Games 取得 Big Buck Hunter 授權，進軍北美彩券
+02 義大利 Sunbet 與 Pragmatic Play 合作，上架 400 款
+03 Zitro Digital 經 ImperiaBet 進入保加利亞
 
 🇵🇭 動態：菲律賓 GP／平台
-01 Yellow Bat Gaming 與 BingoPlus 簽長期獨家合作，首款 Reyna Ahas 主題 Slot
-02 PAGCOR 對「Lucky Spin」彩金遊戲爭議開罰
-03 FBM Philippines 25 週年，發表 FBM SUPERAPP 與 Hybrid Machine
+01 DigiPlus 將提告追回巴西投資，海外擴張計畫不變
+02 菲律賓央行提議把賭博交易排除在支付啟動服務之外
+03 ArenaPlus 公布 Alex Eala 香港公開賽投注活躍度
 
 📊 市場數據 & 趨勢
-01 聖誕 Slot 多建立在熟悉功能上
-02 CLSA 再下修澳門 2027 年賭收預測
-03 歐盟 2025 年無牌線上博彩收入 916 億歐元，占 72%
+01 同日三款新作都把獎金拆成「分階段累積」
+02 Foxwoods 10 月 Slot 收入 2,860 萬美元
+03 西班牙遊戲市場：娛樂機台占 30.3%
 
 📝 品質備註（本次爬找判斷）
-1. 今日新作多但多為只有 SlotsLaunch 條目、無玩法資料的新作，故第三級（換皮／資料不足）佔 5 款；Bonanza More Gold、Croco Clover、Legend of the Pixiu Flip n Win 進庫存。
-2. Yellow Bat × BingoPlus 疑似與 11 月 13 日（iGamingExpert）報導重疊，採 Yellow Bat 官網 11/24 頁面日期收錄；Bally's Intralot 疑似與 11/21 財報報導同源，但本則為新公布的交割時程。
-3. EEZE 窗內無消息，未收；asgam／GGRAsia 部分內文需 Firecrawl 摘要。
+1. 本次為手動執行（02:32 開跑），窗為 11/25 02:30～11/26 02:30。BigWinBoard 與 JILI 官網新作兩個來源解析失敗，Yggdrasil 列表頁抓取失敗，亞洲廠商新作覆蓋偏弱。
+2. 今天第一級（N+1）只有 2 款；Xmas Guardians Megaways（Pragmatic Play）、Legend of the Pixiu（IGT）、Croco Clover（Hacksaw）查不到新聞稿或玩法資料，維持庫存。EEZE 近期無新消息，未收錄。
+3. Green Knight Camelot Gold 為 11/22 預告後的正式上線，標 🔁；歐盟 2,248 億歐元無牌報告與 11/25 已收的 916 億歐元為同一份研究，未重複收錄。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（40 天）、GiocoNews（26 天）、JILI 官網新作（7 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（41 天）、GiocoNews（27 天）、JILI 官網新作（8 天）；請檢查網址或改抓取方式
