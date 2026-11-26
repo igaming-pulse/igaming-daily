@@ -1,43 +1,46 @@
-🎰 iGaming 市場日報 2026-11-26（週四）
-🎰 Slot 9 ・ 🕹️ 非 Slot 2 ・ 🤝 主流 3 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
+🎰 iGaming 市場日報 2026-11-27（週五）
+🎰 Slot 9 ・ 🕹️ 非 Slot 3 ・ 🤝 主流 4 ・ 🇵🇭 菲律賓 3 ・ 📊 市場數據 3
 
 ⭐ 今日重點
-・Pragmatic Play《Sugar Megarush》11/30 上線：每軸 4～9 格逐轉變動、格位倍數上限 2,048x
-・DigiPlus 將提告追回巴西牌照費，海外擴張不變；菲律賓央行擬把賭博排除在支付啟動服務外
-・同日三款新作（Grand Piggy、Wild Hot Chili Peppers、Clucking Rush 2）都走「分階段累積獎金」
+・Holly Jolly Bonanza 10,000（Booming Games）：聖誕樹收集 Scatter，單顆可觸發免費轉
+・QTech 取得 PAGCOR 聚合商認證；BSP 支付規則草案擋非法網賭收款
+・WGBA 研究：六大市場黑市占線上需求 24%，英國黑市 2027 年恐翻倍
 
 🎰 Slot 新遊戲
-01 [N+1] 🆕 Sugar Megarush – Pragmatic Play（11/30 上線）
-02 [N+1] GOLDEN EMPIRE 10K – 5G Games
-03 [原創] 🔁 The Green Knight Camelot Gold – Play'n GO（正式上線）
-04 [原創] 3 Mystery Xmas Stockings – Kalamba Games
-05 [原創] Wild Hot Chili Peppers – DEGEN Studios
-06 [原創] Grand Piggy Build 'n' Break – Games Global
-・換皮／資料不足：Bonanza More Gold、Stranger Farms、Winter Hot Sevens
+01 [N+1] Holly Jolly Bonanza 10,000 – Booming Games
+02 [N+1] Merry Multipliers Dream Drop – Relax Gaming
+03 [原創] Sahara's Riches – Habanero
+04 [原創] Hit of Pig – ONLYPLAY
+05 [原創] Thunder Coins XXXL: Hold and Win – Playson
+06 [原創] Greatest Catch: Ice Wheel – Evoplay
+07 [原創] Fishin' Frenzy Lure 'Em In Some More – Blueprint Gaming
+・換皮／資料不足：Le Gift Grabber（Hacksaw Gaming）、4 Volcano Chillies（Kendoo）
 
 🕹️ 非 Slot 新內容
-01 Clucking Rush 2 – Maxxi Labs
-02 SA Gaming 與 BetFounders 合作整合真人娛樂場
+01 Dice – ICONIC21
+02 Astromaster – BGaming
+03 Eeze 與聚合商 21Viral 簽署內容合作
 
 🤝 動態：主流 GP／平台
-01 Scientific Games 取得 Big Buck Hunter 授權，進軍北美彩券
-02 義大利 Sunbet 與 Pragmatic Play 合作，上架 400 款
-03 Zitro Digital 經 ImperiaBet 進入保加利亞
+01 Banijay Gaming 完成收購法國第二大賭場集團 JOA
+02 Play'n GO 說明大幅縮減聚合商合作
+03 Octoplay 與 betTOM 在英國上線
+04 Zitro 的 CONCEPT 機台進駐法屬圭亞那首間賭場
 
 🇵🇭 動態：菲律賓 GP／平台
-01 DigiPlus 將提告追回巴西投資，海外擴張計畫不變
-02 菲律賓央行提議把賭博交易排除在支付啟動服務之外
-03 ArenaPlus 公布 Alex Eala 香港公開賽投注活躍度
+01 QTech 取得 PAGCOR 遊戲聚合商認證
+02 Century Entertainment 上半年營收暴增，靠菲律賓線上遊戲
+03 FinTech Alliance PH：央行支付規則可擋下非法網賭
 
 📊 市場數據 & 趨勢
-01 同日三款新作都把獎金拆成「分階段累積」
-02 Foxwoods 10 月 Slot 收入 2,860 萬美元
-03 西班牙遊戲市場：娛樂機台占 30.3%
+01 Raptor 3 與 Buffalo Bahati：兩種「加倍」路線
+02 美國商業博彩收入創第三季新高 198.1 億美元
+03 六大市場黑市占線上需求 24%，英國黑市 2027 年恐翻倍
 
 📝 品質備註（本次爬找判斷）
-1. 本次為手動執行（02:32 開跑），窗為 11/25 02:30～11/26 02:30。BigWinBoard 與 JILI 官網新作兩個來源解析失敗，Yggdrasil 列表頁抓取失敗，亞洲廠商新作覆蓋偏弱。
-2. 今天第一級（N+1）只有 2 款；Xmas Guardians Megaways（Pragmatic Play）、Legend of the Pixiu（IGT）、Croco Clover（Hacksaw）查不到新聞稿或玩法資料，維持庫存。EEZE 近期無新消息，未收錄。
-3. Green Knight Camelot Gold 為 11/22 預告後的正式上線，標 🔁；歐盟 2,248 億歐元無牌報告與 11/25 已收的 916 億歐元為同一份研究，未重複收錄。
+1. 窗內候選 544 則、來源健檢失敗 3 個（GiocoNews、BigWinBoard、JILI 官網）；Slot 窗內新作很多，但多數只有 SlotsLaunch 日曆而無機制資料，Xmas Guardians Megaways、Legend of the Pixiu、Croco Clover、No Brainer、Santa's Rage、TaDa Fortune Coins Mystery Door 因查無新聞或參數未收，前三款留庫存。
+2. 疑似與 11/26 重疊：FinTech Alliance PH 談 BSP 支付草案（11/26 已收 BSP 草案本身，這則是業界回應）；Raptor 3／Buffalo Bahati 11/25 已單獨收過，這次是比較分析。
+3. 多款 Slot 的 RTP／最高倍率新聞稿未公布，已註明查過的來源；GGPoker 節慶活動、Triple Christmas、4 Spirits Power Partners 為控制總量（上限 22 則）移入庫存。
 
 ⚙️ 系統警報
-1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（41 天）、GiocoNews（27 天）、JILI 官網新作（8 天）；請檢查網址或改抓取方式
+1. 🟠 來源連續失敗 ≥3 天：BigWinBoard 新作列表（42 天）、GiocoNews（28 天）、JILI 官網新作（9 天）；請檢查網址或改抓取方式

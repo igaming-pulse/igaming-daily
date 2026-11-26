@@ -1,0 +1,69 @@
+{
+ "date": "2026-11-26",
+ "available": 4,
+ "chosen": [
+  {
+   "cat": "cat1",
+   "title": "Xmas Guardians Megaways",
+   "gp": "Pragmatic Play",
+   "b": 4,
+   "first_seen": "2026-10-31",
+   "release_date": "2026-11-26",
+   "sources": [
+    {
+     "name": "iGamingToday",
+     "url": "https://www.igamingtoday.com/xmas-guardians-megaways-slot-review/",
+     "published": "2026-10-30 18:07"
+    }
+   ],
+   "key": "xmasguardiansmegaways|pragmaticplay"
+  },
+  {
+   "cat": "cat1",
+   "title": "Legend of the Pixiu Flip n Win",
+   "gp": "IGT",
+   "b": 4,
+   "first_seen": "2026-11-25",
+   "release_date": "2026-11-24",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/igt/legend-of-the-pixiu-flip-n-win",
+     "published": "2026-11-24"
+    }
+   ],
+   "key": "legendofthepixiuflipnwin|igt"
+  },
+  {
+   "cat": "cat1",
+   "title": "Croco Clover",
+   "gp": "Hacksaw Gaming",
+   "b": 3,
+   "first_seen": "2026-11-25",
+   "release_date": "2026-11-24",
+   "sources": [
+    {
+     "name": "SlotsLaunch",
+     "url": "https://slotslaunch.com/hacksaw-gaming/croco-clover",
+     "published": "2026-11-24"
+    }
+   ],
+   "key": "crococlover|hacksawgaming"
+  },
+  {
+   "cat": "cat1",
+   "title": "Thanksgiving Riches: Hold & Win",
+   "gp": "Onlyplay",
+   "b": 1,
+   "first_seen": "2026-11-25",
+   "sources": [
+    {
+     "name": "Yogonet International",
+     "url": "https://www.yogonet.com/international/news/2026/11/20/127395-onlyplay-launches-thanksgiving-riches-hold-win-with-five-bonus-levels-and-four-jackpots",
+     "published": "2026-11-25 20:04"
+    }
+   ],
+   "key": "thanksgivingrichesholdwin|onlyplay"
+  }
+ ]
+}

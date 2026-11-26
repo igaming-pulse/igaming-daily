@@ -1,0 +1,33 @@
+{
+ "date": "2026-11-27",
+ "md": "state/2026-11-27-igaming-report.md",
+ "html": "reports/2026-11-27.html",
+ "items": 22,
+ "counts": {
+  "cat1": 9,
+  "cat2": 3,
+  "cat3": 4,
+  "cat4": 3,
+  "cat5": 3
+ },
+ "links": {
+  "checked": 60,
+  "ok": 55,
+  "broken": 0,
+  "blocked": 4,
+  "images_dropped": 1,
+  "images": 22
+ },
+ "errors": [],
+ "warnings": [
+  "cat2-01 Dice – ICONIC21｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/press-release/2026/11/26/218869/iconic21-dice-rng-game/",
+  "cat4-01 QTech 取得 PAGCOR 遊戲聚合商認證｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/qtech-now-pagcor-approved-as-igaming-aggregator-in-philippines",
+  "cat4-02 Century Entertainment 上半｜來源連結無法自動驗證（403，多半是網站擋機器人）：GGRAsia https://www.ggrasia.com/century-entertainments-1h-profit-attributable-to-owners-falls-63pct-y-o-y",
+  "cat5-01 Raptor 3 與 Buffalo Bahat｜來源連結無法自動驗證（403，多半是網站擋機器人）：European Gaming https://europeangaming.eu/portal/latest-news/2026/11/26/218841/yggdrasil-popok-raptor-3-buffalo-bahati-doubling/"
+ ],
+ "fixes": [
+  "cat1-07 Fishin' Frenzy Lure 'Em ｜配圖打不開（error:UnicodeEncodeError ），已自動拿掉：https://g3newswire.com/wp-content/uploads/2026/11/Fishin-Frenzy-Lure-‘Em-In-Some-More.jpg",
+  "cat1-07 Fishin' Frenzy Lure 'Em ｜自動補上配圖（取自 EEGaming）：https://eegaming.org/api/eeg-media/c8a266ac-fe5a-4d00-bd0f-d234fedad619.png",
+  "文末｜資料來源數 40 → 38（程式依來源連結去重計算）"
+ ]
+}
