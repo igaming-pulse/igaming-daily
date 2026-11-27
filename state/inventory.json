@@ -18,22 +18,6 @@
   },
   {
    "cat": "cat1",
-   "title": "Xmas Guardians Megaways",
-   "gp": "Pragmatic Play",
-   "b": 4,
-   "first_seen": "2026-10-31",
-   "release_date": "2026-11-26",
-   "sources": [
-    {
-     "name": "iGamingToday",
-     "url": "https://www.igamingtoday.com/xmas-guardians-megaways-slot-review/",
-     "published": "2026-10-30 18:07"
-    }
-   ],
-   "key": "xmasguardiansmegaways|pragmaticplay"
-  },
-  {
-   "cat": "cat1",
    "title": "Le Santa Hold & Win",
    "gp": "Hacksaw Gaming",
    "b": 3,
@@ -47,38 +31,6 @@
     }
    ],
    "key": "lesantaholdwin|hacksawgaming"
-  },
-  {
-   "cat": "cat1",
-   "title": "Croco Clover",
-   "gp": "Hacksaw Gaming",
-   "b": 3,
-   "first_seen": "2026-11-25",
-   "release_date": "2026-11-24",
-   "sources": [
-    {
-     "name": "SlotsLaunch",
-     "url": "https://slotslaunch.com/hacksaw-gaming/croco-clover",
-     "published": "2026-11-24"
-    }
-   ],
-   "key": "crococlover|hacksawgaming"
-  },
-  {
-   "cat": "cat1",
-   "title": "Legend of the Pixiu Flip n Win",
-   "gp": "IGT",
-   "b": 4,
-   "first_seen": "2026-11-25",
-   "release_date": "2026-11-24",
-   "sources": [
-    {
-     "name": "SlotsLaunch",
-     "url": "https://slotslaunch.com/igt/legend-of-the-pixiu-flip-n-win",
-     "published": "2026-11-24"
-    }
-   ],
-   "key": "legendofthepixiuflipnwin|igt"
   },
   {
    "cat": "cat1",
@@ -97,21 +49,6 @@
   },
   {
    "cat": "cat1",
-   "title": "Triple Christmas",
-   "gp": "Red Rake Gaming",
-   "b": 1,
-   "first_seen": "2026-11-26",
-   "sources": [
-    {
-     "name": "EEGaming",
-     "url": "https://eegaming.org/latest-news/2026/11/26/53917/red-rake-gaming-launches-triple-christmas-slot/",
-     "published": "2026-11-26 19:27"
-    }
-   ],
-   "key": "triplechristmas|redrakegaming"
-  },
-  {
-   "cat": "cat1",
    "title": "4 Spirits Power Partners",
    "gp": "Fantasma Games",
    "b": 1,
@@ -124,48 +61,39 @@
     }
    ],
    "key": "4spiritspowerpartners|fantasmagames"
+  },
+  {
+   "cat": "cat1",
+   "title": "Miracle of Cleopatra",
+   "gp": "SYNOT Games",
+   "b": 1,
+   "first_seen": "2026-11-28",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/11/27/53943/spin-genie-adds-synot-games-miracle-of-cleopatra-slot/",
+     "published": "2026-11-27 16:40"
+    }
+   ],
+   "key": "miracleofcleopatra|synotgames"
+  },
+  {
+   "cat": "cat1",
+   "title": "Legend of Zeus",
+   "gp": "Amusnet",
+   "b": 1,
+   "first_seen": "2026-11-28",
+   "sources": [
+    {
+     "name": "EEGaming",
+     "url": "https://eegaming.org/latest-news/2026/11/25/53863/amusnet-expands-its-online-casino-portfolio-with-legend-of-zeus/",
+     "published": "2026-11-25 12:00"
+    }
+   ],
+   "key": "legendofzeus|amusnet"
   }
  ],
  "others": [
-  {
-   "cat": "cat2",
-   "title": "如何以輕量 Crash 遊戲切入阿根廷分散市場",
-   "sources": [
-    {
-     "name": "SoloAzar",
-     "url": "https://www.soloazar.com/es/categoria/analisis/como-navegar-el-fragmentado-mercado-de-igaming-de-argentina-con-juegos-crash-accesibles",
-     "published": "2026-11-23 20:00"
-    }
-   ],
-   "first_seen": "2026-11-24",
-   "key": "如何以輕量crash遊戲切入阿根廷分散市場|"
-  },
-  {
-   "cat": "cat3",
-   "title": "Betfred 因機器遊戲稅上調，諮詢再關 73 間店",
-   "sources": [
-    {
-     "name": "iGaming Business",
-     "url": "https://igamingbusiness.com/sports-betting/betfred-blames-mgd-rise-as-73-shops-face-closure/",
-     "published": "2026-11-23 21:20"
-    }
-   ],
-   "first_seen": "2026-11-24",
-   "key": "betfred因機器遊戲稅上調諮詢再關73間店|"
-  },
-  {
-   "cat": "cat5",
-   "title": "德國受監理線上博彩市場未達 50%，預估 2031 年成長至 25 億歐元",
-   "sources": [
-    {
-     "name": "Sector del Juego",
-     "url": "https://sectordeljuego.com/2026/11/23/alemania-el-juego-online-regulado-no-alcanza-el-50-del-mercado-pese-a-prever-un-crecimiento-hasta-los-2-500-millones-en-2031/",
-     "published": "2026-11-23 14:08"
-    }
-   ],
-   "first_seen": "2026-11-24",
-   "key": "德國受監理線上博彩市場未達50預估2031年成長至25億歐元|"
-  },
   {
    "cat": "cat4",
    "title": "菲律賓將中國旅客 14 天免簽延長一年至 2028 年 1 月 15 日",
@@ -232,19 +160,6 @@
    "key": "ggpoker公布4600萬美元節慶獎勵|"
   },
   {
-   "cat": "cat3",
-   "title": "Bet365 更新 Jackpot365 視覺識別，累計派彩達 1.35 億英鎊",
-   "sources": [
-    {
-     "name": "EGR Intel",
-     "url": "https://www.egr.global/intel/news/bet365-updates-visual-identity-of-jackpot365-as-total-payouts-hit-135m/",
-     "published": "2026-11-26 23:11"
-    }
-   ],
-   "first_seen": "2026-11-27",
-   "key": "bet365更新jackpot365視覺識別累計派彩達135億英鎊|"
-  },
-  {
    "cat": "cat4",
    "title": "PAGCOR 撥款 240 萬美元支持菲律賓空軍三項計畫",
    "sources": [
@@ -272,125 +187,6 @@
   }
  ],
  "history": [
-  {
-   "key": "beastsoffireinferno|playngo",
-   "date": "2026-10-28",
-   "cat": "cat1",
-   "title": "Beasts of Fire Inferno",
-   "gp": "Play'n GO"
-  },
-  {
-   "key": "legendaryswordii|zitro",
-   "date": "2026-10-28",
-   "cat": "cat1",
-   "title": "Legendary Sword II",
-   "gp": "Zitro"
-  },
-  {
-   "key": "fivefoldthegold|gamesglobal",
-   "date": "2026-10-28",
-   "cat": "cat1",
-   "title": "Fivefold the Gold",
-   "gp": "Games Global"
-  },
-  {
-   "key": "reelfinfury|betgames",
-   "date": "2026-10-28",
-   "cat": "cat1",
-   "title": "Reel Fin Fury",
-   "gp": "BetGames"
-  },
-  {
-   "key": "burnthesevens|gamomat",
-   "date": "2026-10-28",
-   "cat": "cat1",
-   "title": "Burn the Sevens",
-   "gp": "GAMOMAT"
-  },
-  {
-   "key": "bivolbeasts2patelink|pateplay",
-   "date": "2026-10-28",
-   "cat": "cat1",
-   "title": "Bivol Beasts 2 Pate Link",
-   "gp": "Pateplay"
-  },
-  {
-   "key": "twistercubeiaoriginals|",
-   "date": "2026-10-28",
-   "cat": "cat2",
-   "title": "Twister — Cubeia Originals",
-   "gp": ""
-  },
-  {
-   "key": "imaginelive與n1casino合作進入希臘|",
-   "date": "2026-10-28",
-   "cat": "cat2",
-   "title": "Imagine Live 與 N1 Casino 合作進入希臘",
-   "gp": ""
-  },
-  {
-   "key": "redbaron單輪贏獎betpassion|",
-   "date": "2026-10-28",
-   "cat": "cat2",
-   "title": "Red Baron 單輪贏獎 Betpassion",
-   "gp": ""
-  },
-  {
-   "key": "pragmaticplay與logrand簽署多品牌合約|",
-   "date": "2026-10-28",
-   "cat": "cat3",
-   "title": "Pragmatic Play 與 Logrand 簽署多品牌合約",
-   "gp": ""
-  },
-  {
-   "key": "lightwonderrapidplay於內華達完成首裝|",
-   "date": "2026-10-28",
-   "cat": "cat3",
-   "title": "Light & Wonder RapidPlay 於內華達完成首裝",
-   "gp": ""
-  },
-  {
-   "key": "tadagaming歐洲策略專訪|",
-   "date": "2026-10-28",
-   "cat": "cat3",
-   "title": "TaDa Gaming 歐洲策略專訪",
-   "gp": ""
-  },
-  {
-   "key": "konamibomberman獲北美年度遊戲|",
-   "date": "2026-10-28",
-   "cat": "cat3",
-   "title": "Konami BOMBERMAN 獲北美年度遊戲",
-   "gp": ""
-  },
-  {
-   "key": "casinoplus贊助masskara2026|",
-   "date": "2026-10-28",
-   "cat": "cat4",
-   "title": "Casino Plus 贊助 MassKara 2026",
-   "gp": ""
-  },
-  {
-   "key": "德國2026q3博彩稅收年增112|",
-   "date": "2026-10-28",
-   "cat": "cat5",
-   "title": "德國 2026 Q3 博彩稅收年增 11.2%",
-   "gp": ""
-  },
-  {
-   "key": "creditsights澳門2026ggr目標可達|",
-   "date": "2026-10-28",
-   "cat": "cat5",
-   "title": "CreditSights：澳門 2026 GGR 目標可達",
-   "gp": ""
-  },
-  {
-   "key": "octoplay連續六個月登eilersfantini榜首|",
-   "date": "2026-10-28",
-   "cat": "cat5",
-   "title": "Octoplay 連續六個月登 Eilers-Fantini 榜首",
-   "gp": ""
-  },
   {
    "key": "3adventuresofaliceholdwin|hacksawgaming",
    "date": "2026-10-29",
@@ -3910,6 +3706,146 @@
    "date": "2026-11-27",
    "cat": "cat5",
    "title": "六大市場黑市占線上需求 24%，英國黑市 2027 年恐翻倍",
+   "gp": ""
+  },
+  {
+   "key": "barnbeats|avatarux",
+   "date": "2026-11-28",
+   "cat": "cat1",
+   "title": "Barn Beats",
+   "gp": "AvatarUX"
+  },
+  {
+   "key": "xmasguardiansmegaways|pragmaticplay",
+   "date": "2026-11-28",
+   "cat": "cat1",
+   "title": "Xmas Guardians Megaways",
+   "gp": "Pragmatic Play"
+  },
+  {
+   "key": "triplechristmas|redrakegaming",
+   "date": "2026-11-28",
+   "cat": "cat1",
+   "title": "Triple Christmas",
+   "gp": "Red Rake Gaming"
+  },
+  {
+   "key": "kongskullislandunchained|lightwonder",
+   "date": "2026-11-28",
+   "cat": "cat1",
+   "title": "Kong: Skull Island Unchained",
+   "gp": "Light & Wonder"
+  },
+  {
+   "key": "skywardspins|betgames",
+   "date": "2026-11-28",
+   "cat": "cat1",
+   "title": "Skyward Spins",
+   "gp": "BetGames"
+  },
+  {
+   "key": "legendofthepixiuflipnwin|igt",
+   "date": "2026-11-28",
+   "cat": "cat1",
+   "title": "Legend of the Pixiu Flip n Win",
+   "gp": "IGT"
+  },
+  {
+   "key": "crococlover|hacksawgaming",
+   "date": "2026-11-28",
+   "cat": "cat1",
+   "title": "Croco Clover",
+   "gp": "Hacksaw Gaming"
+  },
+  {
+   "key": "ggpoker公布紐西蘭進入計畫放棄1500萬紐幣牌照改與持牌業者合作|",
+   "date": "2026-11-28",
+   "cat": "cat2",
+   "title": "GGPoker 公布紐西蘭進入計畫：放棄 1,500 萬紐幣牌照、改與持牌業者合作",
+   "gp": ""
+  },
+  {
+   "key": "pokerstars12月重啟bsoponline75場賽事主賽40萬美元保證獎金|",
+   "date": "2026-11-28",
+   "cat": "cat2",
+   "title": "PokerStars 12 月重啟 BSOP Online：75 場賽事、主賽 40 萬美元保證獎金",
+   "gp": ""
+  },
+  {
+   "key": "entain澳洲子公司與austrac達成185億澳幣初步和解|",
+   "date": "2026-11-28",
+   "cat": "cat3",
+   "title": "Entain 澳洲子公司與 Austrac 達成 1.85 億澳幣初步和解",
+   "gp": ""
+  },
+  {
+   "key": "墨西哥聯邦法院推翻對bet365與betano營運商ganadorazteca的牌照處分|",
+   "date": "2026-11-28",
+   "cat": "cat3",
+   "title": "墨西哥聯邦法院推翻對 Bet365 與 Betano 營運商 Ganador Azteca 的牌照處分",
+   "gp": ""
+  },
+  {
+   "key": "flutterinternational由前sportsbet負責人barnievans暫代執行長|",
+   "date": "2026-11-28",
+   "cat": "cat3",
+   "title": "Flutter International 由前 Sportsbet 負責人 Barni Evans 暫代執行長",
+   "gp": ""
+  },
+  {
+   "key": "bet365更新jackpot365視覺識別累計派彩達135億英鎊|",
+   "date": "2026-11-28",
+   "cat": "cat3",
+   "title": "Bet365 更新 Jackpot365 視覺識別，累計派彩達 1.35 億英鎊",
+   "gp": ""
+  },
+  {
+   "key": "casinoplus公布paskong3billiondrop100輛tesla100支iphone與30億獎金池|",
+   "date": "2026-11-28",
+   "cat": "cat4",
+   "title": "Casino Plus 公布 Paskong ₱3 Billion Drop：100 輛 Tesla、100 支 iPhone 與 ₱30 億獎金池",
+   "gp": ""
+  },
+  {
+   "key": "bingoplus在pagcor調查後說明中獎驗證流程|",
+   "date": "2026-11-28",
+   "cat": "cat4",
+   "title": "BingoPlus 在 PAGCOR 調查後說明中獎驗證流程",
+   "gp": ""
+  },
+  {
+   "key": "gamezone推出jilijili專區集結超過200款jili遊戲|",
+   "date": "2026-11-28",
+   "cat": "cat4",
+   "title": "GameZone 推出 JiliJili 專區：集結超過 200 款 JILI 遊戲",
+   "gp": ""
+  },
+  {
+   "key": "馬尼拉westsideresort將於12月6日開放大眾賭場區|",
+   "date": "2026-11-28",
+   "cat": "cat4",
+   "title": "馬尼拉 Westside Resort 將於 12 月 6 日開放大眾賭場區",
+   "gp": ""
+  },
+  {
+   "key": "釣魚題材占spingenie2026年最常玩前20名中的6席|",
+   "date": "2026-11-28",
+   "cat": "cat5",
+   "title": "釣魚題材占 Spin Genie 2026 年最常玩前 20 名中的 6 席",
+   "gp": ""
+  },
+  {
+   "key": "安大略10月igaming投注額首度突破100億加幣|",
+   "date": "2026-11-28",
+   "cat": "cat5",
+   "title": "安大略 10 月 iGaming 投注額首度突破 100 億加幣",
+   "gp": ""
+  },
+  {
+   "key": "阿爾伯塔開放80天累計1221億加幣ggr活躍帳戶389萬|",
+   "date": "2026-11-28",
+   "cat": "cat5",
+   "title": "阿爾伯塔開放 80 天累計 1.221 億加幣 GGR、活躍帳戶 38.9 萬",
    "gp": ""
   }
  ],

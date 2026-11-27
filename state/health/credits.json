@@ -1,11 +1,4 @@
 {
- "2026-10-18": {
-  "start": 1022,
-  "end": 1018,
-  "used": 4,
-  "reset": "2026-11-14",
-  "reset_source": "api"
- },
  "2026-10-19": {
   "start": 1018,
   "end": 1009,
@@ -275,6 +268,13 @@
   "start": 887,
   "end": 881,
   "used": 6,
+  "reset": "2026-12-14",
+  "reset_source": "api"
+ },
+ "2026-11-28": {
+  "start": 881,
+  "end": 871,
+  "used": 10,
   "reset": "2026-12-14",
   "reset_source": "api"
  }
